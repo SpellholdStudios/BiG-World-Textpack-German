@@ -1,0 +1,11 @@
+--- NeJ3\baf\TT8012.BAF	Wed Nov 19 01:30:36 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\TT8012.BAF	Wed Apr 10 10:34:07 2019
+@@ -24,7 +24,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("PERDIEM_BADGE","GLOBAL",1)
+ 		AddexperienceParty(18500)
+-		DisplayStringHead(Player1,~You have retrieved Brother Perdiem's badge.~)
++		DisplayStringHead(Player1,@0)
+ 		Continue()
+ END
+ 

@@ -1,0 +1,18 @@
+--- BGTComp\ePOGHM7.D	Sat Sep 09 19:16:24 2006
++++ C:\BWP Patchstudio\patched files\BGTComp\ePOGHM7.D	Wed Apr 10 10:23:48 2019
+@@ -1,13 +1,13 @@
+ EXTEND_BOTTOM POGHM7 0
+   IF ~OR(2)
+ Global("VP_In_BG1","GLOBAL",0)
+-GlobalGT("ENDOFBG1","GLOBAL",1)~ THEN REPLY ~Have you seen Gorion today?~ GOTO NEJ5
++GlobalGT("ENDOFBG1","GLOBAL",1)~ THEN REPLY @0 GOTO NEJ5
+ END
+ 
+ APPEND ~POGHM7~
+ 
+ IF ~~ THEN BEGIN NEJ5
+-  SAY ~Gorion is waiting for you on the fifth floor.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ END

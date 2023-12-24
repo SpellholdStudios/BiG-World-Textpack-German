@@ -1,0 +1,11 @@
+--- NeJE\dlg\STGUARD1.d	Tue Aug 25 02:00:47 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\STGUARD1.d	Tue Apr 09 19:37:19 2019
+@@ -3,7 +3,7 @@
+ IF ~OR(2)
+ Global("WorkingForBodhi","GLOBAL",1)
+ Global("VP_Guild_Attacked","GLOBAL",1)~ THEN BEGIN 1
+-  SAY ~Ye've made quite th' mistake, showin' yer face around here!~
++  SAY @0
+   IF ~~ THEN DO ~CreateCreature("DASSIN",[667.1583],0)
+ CreateCreature("DASSIN",[759.1206],0)
+ CreateCreature("DASSIN",[500.1246],0)

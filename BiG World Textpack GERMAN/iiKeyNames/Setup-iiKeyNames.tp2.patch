@@ -1,0 +1,11 @@
+--- iiKeyNames\Setup-iiKeyNames.tp2	Sun Nov 05 10:29:18 2006
++++ C:\BWP Patchstudio\patched files\iiKeyNames\Setup-iiKeyNames.tp2	Sun Mar 18 08:29:27 2012
+@@ -11,6 +11,8 @@
+ LANGUAGE ~English~ ~English~ ~iiKeyNames/Languages/English/setup.tra~
+ LANGUAGE ~Spanish (Translation by Januszka)~  ~Spanish~ ~iiKeyNames/Languages/Spanish/setup.tra~
+ LANGUAGE ~Polish (Translation by Yarpen)~  ~Polish~ ~iiKeyNames/Languages/Polish/setup.tra~
++LANGUAGE ~Russian~ ~Russian~ ~iiKeyNames/Languages/Russian/setup.tra~
++LANGUAGE ~German~ ~German~ ~iiKeyNames/Languages/German/setup.tra~
+ 
+ // ------------------------------------------------------------------------------------------------------------------------
+ // Readme stuff

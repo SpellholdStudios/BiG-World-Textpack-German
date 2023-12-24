@@ -1,0 +1,346 @@
+@0 = ~Longer Road - Längerer Weg v1.5~
+@1 = ~Ihr müsst die alte Redemption Mod vor der Installation von Longer Road deinstallieren!~
+@2 = ~TvB ist nicht installiert!~
+@3 = ~Zerbrochene Maske~
+@4 = ~Irenicus alte Maske~
+@5 = ~Dies ist die Maske, die das Gesicht Eures alten Erzfeindes bedeckte - des abtrünnigen Elfen-Magiers Jon Irenicus. Königin Ellesime gab sie Euch als besonderes Zeichen der Erinnerung. Sie scheint keine speziellen Eigenschaften zu haben.~
+@6 = ~Ihr hört jemanden sich nähern.~
+@7 = ~Ihre Stimme klingt sonderbar vertraut. Aber es ist zu meinem Vorteil, diese Beobachtung für mich zu behalten.~
+@8 = ~Als Irenicus stirbt, fühlt Ihr die Verbindung zwischen Euch beiden brechen. Leider ging ebenso etwas von Eurer Lebendskraft unwiderruflich verloren.~
+@9 = ~Vater, wir haben überall im Dorf nach Euch gesucht. Geht's wieder?~
+@10 = ~Was zum... Vater, was ist hier geschehen? Habt Ihr... sie alle selbst getötet?~
+@11 = ~Schert Euch augenblicklich hinaus, Ihr zwei, und kommt nicht zurück!! Wartet... erzählt Eurer Mutter... Ah, bei den rasierten Achselhöhlen der Launischen Königin - Schert Euch einfach schnell hier raus!~
+@12 = ~Seid gegrüßt. Ich fragte mich, ob Ihr kommen würdet.~
+@13 = ~Lebt wohl, mein Herr. Vielen Dank für Eure Hilfe, diese Angelegenheiten für uns zu ordnen.~
+@14 = ~Tollpatschiger Dummkopf! Er ist offensichtlich noch wahnsinnig, wenn er denkt, dass ich jemals seine Interessen über meine eigenen stellen würde. Es ist überraschend, dass er es einmal schaffte, Göttlichkeit zu erringen, und die beiliegende Sammlung meines "lieben" toten Meisters. Wenn die Zeit kommt und ich meinen richtigen Platz einnehme, wird es ein Vergnügen sein, ihm und dem Rest der göttlichen Hohlköpfe meine wahre Statur zu zeigen.~
+@15 = ~Ahh...~
+@16 = ~Ich werde Euch in ein paar Tagen wiedersehen, Verbannter. Vielleicht wird der Gegensatz zwischen dem, was Ihr seid, und dem, was Ihr in meinem Dienst werden könnt, Euch gefügiger machen.~
+@17 = ~(wirkt einen Zauber) Ich versuche nur, zu helfen... Oh ständig Ungeduldiger.~
+@18 = ~Eine Schande. Irgendwie nährte ich eine aussichtslose Hoffnung, dass ich Jon helfen könnte... ein letztes Mal. Lebe wohl, Gotteskind.~
+@19 = ~Der Deva schreit furchtbar, als er stirbt... der Klang einer sterbenden Welt ist in seiner Stimme enthalten, und Ihr könnt nicht anders als anzunehmen, dass Ihr einen schrecklichen Fehler gemacht habt.~
+@20 = ~Der Deva stöhnt noch einmal, bevor er stirbt... der Klang einer sterbenden Welt ist in seiner Stimme enthalten, und Ihr könnt nicht anders als anzunehmen, dass Ihr einen schrecklichen Fehler gemacht habt. Ybdiels Körper blinkt grellweiß und verschwindet nach diesem letzten Ausbruch von Strahlungsenergie.~
+@21 = ~Dies sind die Seelen, die die Zeit des Dämons prüfen.~ [MALE004M]
+@22 = ~Ihr werdet es sehen, wenn Ihr daran glaubt, oder wir sind alle verloren... Alle verloren!~ [MALE004M]
+@23 = ~Feuer ist so hell, so heiß, warum brennt es immer? Nehmt die Kinder weg, nehmt sie weg! Lasst sie nach draußen rennen zwischen das duftende Gras...~ [MALE004M]
+@24 = ~Blut, Blut, Blut und Knochen, blutige Knochen überall... Bringt sie weg, sage ich Euch! Befreit sie alle!~ [MALE004M]
+@25 = ~Das Feuer, die Seelen... warum brennen sie alle? Diese Feuer sind zu hell! Bringt mich hier raus - ich war es nicht!~ [MALE004M]
+@26 = ~Man sollte essen, um zu leben, nicht leben, um zu essen. Oder er wird von etwas gegessen, was uns von innen isst. Sie werden Eure Herzen und Leber schlemmen, Eure Haut schälen und Euch lebendig essen - nachdem sie ihre Klauen in Euch versenkten!~ [MALE004M]
+@27 = ~Wer auch immer sich preist wird verloren sein, und wer auch immer verloren ist wird gepriesen werden... Und wenn derjenige verloren ist wegen etwas, dass er nicht tat?~ [MALE004M]
+@28 = ~Wer auch immer das Blut eines Mannes nach dem anderen vergoss... wer auch immer das Blut eines Engels vergoss... wird sein Blut für Dämonen aufgeben...~ [MALE004M]
+@29 = ~Ich sehe Feuer brennen... tief im Inneren meiner Seele... immer brennen... verkohlte Erde und kochendes Blut!~ [MALE004M]
+@30 = ~Asche, überall Asche... wir fallen alle nieder...~ [MALE004M]
+@31 = ~Nennt mich nicht bei diesen Namen! Ich bin nicht mehr derjenige, den Ihr sucht - er ist nicht hier, lasst mich heraus, sage ich Euch!~ [MALE004M]
+@32 = ~Wehe denjenigen, die schlechtes gut und gutes schlecht nennen, die Finsternis für Licht und Licht für Finsternis halten, die bitteres für süß und süßes für bitter halten!~ [MALE004M]
+@33 = ~Sehr zu Eurer Überraschung werdet Ihr in einen großen Irrgarten aus Büschen und Blütenbäumen teleportiert. Genau in der Mitte dieses grünen und wachsenden Gewirrs liegt ein kleiner Schrein, bedeckt mit Weinreben und Blumen. Ihr seid im Herzen des Irrgartens des Einklangs auf der Ebene des Elysiums. Wie Ihr vor Ehrfurcht beobachtet, stürzen Farbe und Licht durch die kreisförmigen Fenster in den von Blättern bedeckten Wänden. Hier glüht jede Pflanze und Blume mit ihrem eigenen funkelnden Strahlen und gibt dem Ort eine magische Qualität.~
+@34 = ~Die Geister des Waldes erwarten noch Eure Aufmerksamkeit.~
+@35 = ~Königin Ellesime überließ Euch ein Buch der Überlieferung der Elfen. Vielleicht könnt Ihr auf Euren zukünftigen Reisen mehr von ihnen sammeln.~
+@36 = ~Velemir Rielev~
+@37 = ~Ihr könnt jetzt noch nicht gehen - Ihr habt unerledigte Angelegenheiten im Einsprengsel.~
+@38 = ~Das Portal öffnet sich und eine Welle von verwirrten Gefühlen und sonderbaren, fast kindlichen Begierden überschwemmet Euch. Etwas geht durch das Portal...~
+@39 = ~Verhüllte Gestalt~
+@40 = ~Dies ist die Maske, die das Gesicht Eures alten Erzfeindes bedeckte - des abtrünnigen Elfen-Magiers Jon Irenicus, bevor er durch Eure Hand getötet wurde und in den Abyss geworfen wurde. Königin Ellesime gab sie Euch als besonderes Zeichen der Erinnerung. Jedoch, sobald die Maske verwendet worden war, um Irenicus Körper wiederherzustellen und ihn unwiderruflich an Euch zu binden, wurde sie noch einmal mit Magie gesättigt. Ihr vermutet, dass sie jetzt einige fremde Macht hat, aber da sie aussieht, als ob sie auf Jons Gesicht verpflanzt ist - gibt es keine Möglichkeit, Euren Verdacht nachzuprüfen.
+          
+Fähigkeiten:
+  +4 Bonus auf Zauber in allen Stufen
+  Hast-Wirkung, solange sie getragen wird
+  +1 auf Intelligenz
+Rüstungsklassbonus: keiner
+Gewicht: 1
+Kann nicht verwendet werden von:
+Niemandem ausser Irenicus selbst~
+@41 = ~Und es gibt natürlich keinen Ausweg. Es gab ihn nie.~ [DPJON127]
+@42 = ~Keine Sorge. Das wird alles bald zu Ende sein.~ [IRENIC82]
+@43 = ~Erbärmliche Dummköpfe, Ihr werdet mich im mit Eurer einfachen Magie nicht gefangen halten.~ [IRENIC76]
+@44 = ~Die Bäume der Heimat brennen.~ [DPJON128]
+@45 = ~Ich hoffe, dass Ihr wach seid. Es ist Zeit für einen weiteren Test...~ [IRENIC81]
+@46 = ~Bald wird es nicht von Bedeutung sein, wer kommt.~ [IRENIC93]
+
+@48 = ~Hmpf. Die anderen Schattendiebe würden auch nicht friedlich gehen.~ [IRENIC83]
+@49 = ~Nachdem Ihr Irenicus zum letzten Mal in dem Kampf, der im wahren Herzen von Bhaals eigener Hölle wütete, besiegt habt, saht Ihr ihn durch die höllischen Schichten dieses geisterhaften Reichs in den mit kochender Lava gefüllten Abgrund fallen. Er wurde in die tieferen Winkel des Abgrunds getaucht, um für immer von den Tanar'ri - den chaotisch bösen Dämonen, die diese Ebene bevölkern - gepeinigt zu werden. Irenicus spricht nicht mit Euch über seine Zeit in diesem unendlichen Bereich von umklammernden Schrecken, aber aus dem wenigen, was wenig er erwähnt hatte, als Ihr das erste mal mit ihm spracht, habt Ihr entnommen, dass er verurteilt wurde, für immer in dem Blutkrieg zu kämpfen - einem unendlichen Konflikt zwischen den chaotisch bösen Tanar'ri und rechtschaffen bösen Baatezu, den Teufeln der Neun Höllen.~
+@50 = ~Lebensernergie-Übertragung~
+@51 = ~Lebensernergie-Entzug~
+@52 = ~Glorreiche Transformation~
+@53 = ~ah!~
+@54 = ~Abaia~
+@55 = ~Der Edelstein der Harmonie~
+@56 = ~Der Edelstein der Harmonie ist ein Diamantbereich, kaum größer als die Hand eines Mannes.
+
+Tausende von Facetten bedecken seine Oberfläche, beliebiges Licht, das ihn berührt, in sein prismatisches Inneres anziehend, um einen Ring aus funkelnden Regenbögen zu schaffen. Nur ein harmonischer einheitlicher Behälter kann den Deva-Funken halten, und dieser Edelstein könnte solch ein Gegenstand sein, wenn er richtig vorbereit wäre.
+
+Fähigkeiten:
+Der Edelstein kann auch als Ionen-Stein verwendet werden. Wenn er auf diese Weise verwendet wird, macht es den Benutzer undurchlässig für die meisten geistigen Zwänge - Bezauberung, Behersschung und Angst. Er hat auch geringe verbessernde Mächte und regeneriert 1 Trefferpunkt alle 3 Runden.~
+@57 = ~Kelch des Friedens~
+@58 = ~Der Trinkbecher des Friedens.
+
+Auf den ersten flüchtigen Blick sieht der Gegenstand glatt und uninteressant aus und Ihr fragt Euch, warum der Deva Ybdiel diese einfache Zinn-Schale mit solcher Verehrung erwähnte. 
+
+Jedoch, als Ihr in diesen schmucklosen Behälter hineinschaut, bemerkt Ihr plötzlich, dass sein Boden mit goldenen Licht glänzt. Wahrlich ist dieser anspruchslose Kelch der Trinkbecher des Friedens - einer der legendären Gegenstände des Einklangs. Der Trinkbecher ist einer von drei Gegenständen, die zusammen sowohl den Deva als auch den Bebilith heilen können.
+
+Fähigkeiten:
+Zusätzlich zu seiner großen Wichtigkeit für Eure Aufgabe hat er massive Heilmächte. Es kann jeden Tag drei Heil-Zauber wirken.~
+@59 = ~Wasser der Gelassenheit~
+@60 = ~Das Wasser der Gelassenheit.
+
+Nur durch Stille und Frieden kann ein aufgewühlter Geist entspannt werden. Dieses Wasser des Heiteren Sees in der Erholsamen Ebene des Elysium schimmert mit weichen, warmen Licht.
+
+Fähigkeiten:
+Das Wasser der Gelassenheit hat große Wiederherstellungsmächte und kann verwendet werden, um Krankheit zu heilen und Wiederherstellung zu bewirken. Es entfernt auch Blindheit und Taubheit.~
+@61 = ~Der Deva Funken~
+@62 = ~Wenn erst einmal der Deva-Funken in den Edelstein der Harmonie eingebettet ist, erwirbt er die riesigen ehrfurchtgebietenden Mächte der Essenz des Planetaren. Das himmlische Glühen schwebt und erscheint innerhalb des Edelsteins und entzündet das Herz des Diamanten mit hellen blauen Feuer.
+
+Der Diamant mit dem darin gefangen Deva-Funken wirkt wie ein Ionen-Stein. Er ist äußerst stark und erzeugt die folgenden Wirkungen:
+
+Fähigkeiten:
+Er fügt +3 dem Charisma, +2 der Stärke und Konstitution hinzu
+Immunität gegen Gift.
++2 zu allen Rettngswürfen und +10 % auf Widerstand gegen Magie
+Wiederherstellung 1 Trefferpunkt pro Runde.~
+@63 = ~Wenn erst einmal der Deva-Funken in der Edelstein der Harmonie eingebettet ist, erwirbt er die riesigen ehrfurchtgebietenden Mächte der Essenz des Planetaren. Das himmlische Glühen schwebt und erscheint innerhalb des Edelsteins und entzündet das Herz des Diamanten mit hellen blauen Feuer.
+
+Der Diamant mit dem darin gefangen Deva-Funken wirkt wie ein Ionen-Stein. Er ist äußerst stark und erzeugt die folgenden Wirkungen:
+
+Fähigkeiten:
+Er fügt +3 dem Charisma, +2 der Stärke und Konstitution hinzu
+Immunität gegen Gift.
++2 zu allen Rettngswürfen und +10 % auf Widerstand gegen Magie
+Wiederherstellung 1 Trefferpunkt pro Runde.~
+@64 = ~Ybdiel~
+
+
+
+@68 = ~Ybdiels Körper~
+@69 = ~Dies ist der Körper des Deva Ybdiel, der Euch gebeten hat, ihm zu helfen, die Gegenstände des Einklangs ausfindig zu machen, bevor er der Krankheit erliegt, die durch die Vergiftung durch den Bebilith verursacht wurde, und das Bewusstsein verlor. Trotz seiner muskulösen Gestalt fühlte sich der Deva seltsam leicht. Er brennt auch vor hohen Fieber; es sieht aus, als ob es nicht lange dauern könnte - Ihr müsst Euch mehr beeilen. In seinem fiebernden Zustand murmelt der Deva ständig Einwände gegen Hilfe und wiederholt den Namen "Abaia" - den des Dämons, der seinen Funken gestohlen hat.~
+@70 = ~Yanieth~
+@71 = ~Elesrym~
+@72 = ~Fresienne~
+@73 = ~Garrish~
+@74 = ~Neues Wesen~
+@75 = ~Amulet der Natur~
+@76 = ~Im Verlauf Eures Besuchs auf der Ebene des Elysium wurde das Amulett der Seldarine, das Euch von der Königin Ellesime für die Rettung des Baums des Lebens überlassen wurde, von de Erdmutter Chauntea selbst berührt. Es hat sogar noch mehr Schutzmächte und Verbesserungen erlangt.
+          
+EIGENSCHAFTEN:
+
++2 auf alle Rettungswürfe
++10 % auf Magiewiderstand
+Immunität gegen Stille
+Immunität gegen Gift und Krankheit~
+@77 = ~Bogen des Blattes~
+@78 = ~Dieser anmutige Bogen gehörte dem Deva Ybdiel. Er wurde Euch als gerechte Belohnung für die Rettung des vergifteten Himmlischen überlassen. Der Bogen hat einige interessante Mächte.
+          
+EIGENSCHAFTEN:
+
+Langbogen +4
+Schießt unbegrenzt +4 Pfeile ab
+Gewährt +20 % Widerstand gegen Feuer, Kälte und Elektrizität.~
+@79 = ~Höllenfeuer-Bogen~
+@80 = ~Dieser Bogen wurde Euch von dem Yugoloth-Kopfgeldjäger als Belohnung dafür gegeben, den Deva Ybdiel zu verraten.
+
+EIGENSCHAFTEN:
+
+Langbogen +3
+Schießt unbegrenzt +3 Pfeile ab
+Gewährt + 5 % Widerstand gegen Feuer und Säure~
+@81 = ~Streitkolben des Abgrundtiefen Hasses~
+@82 = ~Dieses sonderbare Artefakt gehörte einmal dem Bebilith Abaia und wurde Euch als Abschiedsgeschenk übergegeben. Der Streitkolben ist eine starke Waffe, aber leider kann er dem Träger ebenso gefährlich werden.
+
+EIGENSCHAFTEN:
+
++3 auf Treffer
++3 zur Kraft
+-2 auf Intelligez
+Immunität gegen Furcht~
+@83 = ~Mirriam~
+@84 = ~Kessen~
+@85 = ~Sendais Seelenstein~
+@86 = ~Dieser purpurrote Amethyst, der die Seele des Drow-Bhaalsprosses Sendai enthält, hat beträchtliche magische Mächte. Es ist jedoch sicher, dass der Stein nur von Irenicus selbst verwendet werden kann.
+
+Fähigkeiten:
+  +25 % Magiewiderstand 
+  +1 zur Zauberwirken-Geschwindigkeit
+  +1 zur Weisheit
+  Gewicht: 1~
+@87 = ~Abazigals Seelenstein~
+@88 = ~Dieser tränenförmige blaue Diamant, der die Seele des Drachen-Bhaalsprosses Abazigal enthält, hat beträchtliche magische Mächte. Es ist jedoch sicher, dass der Stein nur von Irenicus selbst verwendet werden kann.
+
+Fähigkeiten:
+  +15 % Magiewiderstand 
+  +50 % Elektrizitäts-Widerstand
+  +10 % Widerstand gegen Aufschlitzen, Durchbohren und Zertrümmern
+  +10 auf maximale Trefferpunkte
+  +1 auf Stärke
+  Gewicht: 1~
+@89 = ~Balthazars Seelenstein~
+@90 = ~Dieser gelbe Topas, der die Seele des menschlichen Bhaalsprosses Balthazar hält, hat beträchtliche magische Mächte. Es ist jedoch sicher, dass der Stein nur von Irenicus selbst verwendet werden kann.
+
+Fähigkeiten:
+  +15 % Magiewiderstand
+  Angeborene Fähigkeit: Schattenloser Tritt 1 mal pro Tag
+  Immunität gegen Gift
+  Immunität gegen Krankheit
+  +1 zur Geschicklichkeit
+  Gewicht: 1~
+@91 = ~Seelen-Falle~
+@92 = ~Schattenloser Tritt~
+@93 = ~Seelen-Wiederherstellung~
+@94 = ~Joneleth~
+@95 = ~Corellon Larethian~
+@96 = ~Die Schöpfung der Elfen Teil I~
+@97 = ~Die Schöpfung der Elfen Teil I
+
+Aus dem ursprünglichen Chaos in der Mitte des Universums entstanden die Götter vollwertig und voll ausgebildet. Jeder beanspruchte die Zuständigkeit über bestimmte Einflussbereiche, wobei alle gleichermaßen mit der Macht und Kraft des Kosmos ausgestattet waren. Sie arbeiteten das erste (und letzte) mal zusammen, um die Welten zu erschaffen. Aber einige Götter nutzten ihre Kräfte klüger als ihre Brüder.
+
+Ein frühes Bündnis bildete sich unter diesen weiseren Göttern. Sie wussten sich ihrer Macht zu bedienen. Diese Versammlung der Götter, die sich die Seldarine (oder die Brüder und Schwestern des Waldes) nannten, vermittelten ihr ganzes Wesen in die Schaffung bestimmter Aspekte der Welten.
+
+Während andere Götter über Zuständigkeit und Besitz dieser Tugend und jenes Merkmals stritten, änderten die Seldarine einige der Länder und gestalteten ihre Welten üppig und grün und schön. Darüber hinaus schufen sie Gefäße, die eines Tages den Geist des ersten empfindungsfähigen Lebens enthalten würden, das den Fuß auf diese Welten setzten würde - die Rasse der als Elfen bekannten Wesen. Sie fertigten diese Gefäße mit Überlegung und Sorgfalt und gaben ihnen außergewöhnliche Schönheit. Die anderen Götter wurden grün vor Neid und sie dürsteten danach, die Seldarine zu imitieren.
+
+Diese Götter gestalteten hastig ihre eigenen Gefäße und wetteifern mit denen, die von den Seldarine geschaffen wurden. Aber sie wollten nicht die Zeit investieren, die für die Schaffung einer Rasse unerlässlich ist, und obwohl ihre Ergebnisse fehlerhaft waren - kümmerte es die Götter nicht. Ihre Schöpfungen waren nicht wie jene, die von den Seldarinen gestaltet wurden. Die meisten waren Monster, Kreaturen, die eines Tages die Träume der Elfen heimsuchen würden. Von all den primitiven Schöpfungen enthielt nur das für den Menschen vorbehaltene Gefäß einen Schimmer von Potenzial, denn sie wären eines Tages in der Lage, das Land zu ändern, wie es die Elfen tun würden.
+
+Die Götter der neuen Rassen versuchten zu hastig, ein Meisterstück hervorzubringen, für das die weiseren Götter Äonen benötigt hatten. Aber die Gebilde keiner der Gruppen würden bis zum historischen Treffen zwischen Corellon Larethian und Gruumsh, Führer der Anti-Seldarine, zu Leben erwachen.
+
+- von Larian Songshine, Priester von Corellon Larethian~
+@98 = ~Die Schöpfung der Elfen Teil II~
+@99 = ~Die Schöpfung der Elfen Teil II
+
+Als der orkische Gott Gruumsh die Schöpfungen der Seldarine sah, die Elfen, betrachtete er es als ein Greuel - und er wurde wütend. Zum ersten Mal pulsierte der Wunsch nach Blut in den Adern eines Gottes. Gruumsh machte sich bereitet, die Seldarine zu zerquetschen, und einige Götter rotteten sich unter seiner Standarte zusammen, während andere abseits standen.
+
+Als der erzürnte Gruumsh Corellon Larethian, den Führer der Seldarine, angriff, begann ein mächtiger Kampf: der Krieg der Götter. Wie lange er über die unberührten Felder der Planeten wütete, weiß niemand. Jeder Kämpfer bezog große Wunden an Geist und Körper seines oder ihres Feinds. Während die anderen Wettbewerber auf der Strecke blieben (schwer verletzt, obwohl nicht tödlich verwundet), brachen Gruumsh und Corellon nicht ab. Stattdessen setzten sie ihren heftigen Kampf fort. Sie durchquerten die Ebenen, und sie verspritzten das Blut der anderen über die Länder.
+
+Als die Nacht nahte, verstärkten sich die Kräfte von Gruumsh, während diejenigen von Corellon nachließen. Alles schien für die Seldarine verloren. Tränen des Mondes landeten auf Corellons nach oben gewandten, entsetzten Gesicht, und sie mischten sich reichlich mit seinem Blut. Dann schaute Corellon zu seinem Gefährten - und dort fand er Standhaftigkeit. Er zog sein Schwert und mit einem furchtbaren Schlag spaltete er Gruumshs Augapfel (der bekannt wurde als einäugiger Gruumsh). Der Gott heulte vor Schmerz, schwarzes Wundsekret quoll aus der Wunde. Gruumsh drehte sich um und floh in die Unterwelt. Dort nährte er seinen Hass, immer nach Möglichkeiten suchend, die Feinde der Seldarine prägen. Und die größte seiner Schöpfungen, in der sengenden Hitze der Wut und der Schwärze seines Blutes gemacht, waren die Orks. Daher sind bis zum heutigen Tag die Orks und die Elfen so erbitterte Feinde. Von Anfang an, noch vor ihrer Schöpfung, eiferten die wahren Essenzen ihrer Götter gegeneinander.
+
+Mit Gruumshs Niederlage setzten die Seldarine und ihre Verbündeten ihre Werke fort. Die Seldarine sammelten die Tränen des Mondes und das Blut, das Corellon in diesem großen Kampf vergossen hat, und füllten dies in die Gefäße, die sie geschaffen hatten, und durchdrangen diese mit ihrem eigenen Geist. Jeder Gott vermittelte seiner oder ihrer Schöpfung Tugend, fütterte und pflegte die neu gebildeten Rassen. So wurden die Elfen aus dem Blut Corellon Larethians geboren, mit dem Boden der Welt vermischt, mit den Tränen des Mondes gesegnet, und ihrer gegebenen Nähe zur Gottheit.
+
+Die anderen Götter sahen dieses Beispiel und machten sich daran, ihren eigenen, leider missgebildeten Gefäßen Leben einzuhauchen, mit unterschiedlichen Ergebnissen. Leider waren aber alle anderen Rassen jämmerliche Imitationen der Elfen.
+
+Die Geschichte des Krieges der Götter erklärt einige der Eigenschaften der Elfen, sowohl physische als auch mentale. Dass sie aus dem Blut der Gottes Corellon Larethian gebildet wurden erklärt, warum Elfen solch lange Lebensspannen besitzen. Tränen des Mondes liefern eine Erklärung für die ätherische Schönheit der Elfen, die häufig dazu führt, dass die niederen Rassen die Elfen für Götter halten. Der Boden der Erde erklärt die Verbindung, die alle Elfen zu dem Land empfinden.~
+@100 = ~Elfen und der Tod Teil I~
+@101 = ~Tod der Elfen Teil I
+
+Es gibt welche, die denken, dass Elfen eigentlich unsterblich sind. Während sie durch Unfall oder Gewalt sterben können, hat keiner jemals einen Elfen an "Altersschwäche" sterben sehen. Das liegt daran, dass keine wirklich alten Elfen in der den Menschen bekannten Welt bleiben; "alte" Elfen haben die Welt verlassen und sind zu einem Arvanaith genannten Ort gereist. Im Alter von ungefähr 550 Jahren fühlen Elfen einen unwiderstehlichen Drang, eine letzte Reise zu unternehmen. Ein Elf kann sich diesem Drang nur geringfügig mehr widersetzen als ein Mensch sich dem Tod widersetzen kann, wenn er naht.
+
+Mit den Zaubersprüchen zur Verlängerung ihres Lebens haben Elfen die Wahl, vorübergehend dem Unvermeidlichen zuvorzukommen. Doch wegen ihrer Verhaftung zu den natürlichen Zyklen der Welt fühlen die meisten Elfen Verachtung für diejenigen, die versuchen, das unvermeidliche zu vermeiden. Nur jene Elfen, die keinen Respekt vor dem Gezerre der Jahreszeiten fühlen oder diejenigen, die noch wichtige Aufgaben zu vollenden haben nehmen diese Option wahr. Ansonsten reisen alte Elfen nach Arvanaith, dem verborgenen Heimatland der Elfen. Kein Elf, der nach Arvanaith gereist ist, hat jemals dieses Land bereitwillig verlassen, noch hat je ein Elf solch eine Reise bedauert. Die waldige Herrlichkeit, die alle Elfen dort erwartet, ist jenseits aller jemals von Menschen erlebten - und ist von den Elfen selbst kaum vorstellbar.
+ 
+Arvanaith ist ein Ort voller natürlicher Schönheit, verborgen vor allen anderen außer den Elfen. Einige menschliche Weise haben vermutet, dass dieses Einsprengsel ein Stück von Arvandor auf der Ebene des Olympes ist, aber niemand war jemals im Stande, es zu reichen - ausgenommen tot. Jene Weisen, die solch eine Reise gemacht haben und es fertig brachten, zu ihrer ursprünglichen Ebene zurückzukehren, sind außer Stande, von Arvanaith zu sprechen. Die Erinnerung an die Schönheit ist für ihren menschlichen Verstand zu intensiv, um sie zu ertragen. Das ist wirklich ein Bereich nur für die Elfen.
+ 
+Die einzige Möglichkeit, aus Arvanaith zurückzukehren, ist durch Wiedergeburt, Wiederaufleben, oder eine Art, den Geist aus diesem Bereich wiederzubekommen. (Die letzten beiden Methoden werden immer gegen den Willen der Elfen gemacht.) Ganz wenige kehren freiwillig zurück, nachdem sie jahrtausendelang die Pracht von Arvanaith genossen haben; sie erbieten sich freiwillig, wiedergeboren zu werden, und ihre Seelen beginnen von neuem. Diejenigen, die wieder abreisen, erlangen selten wieder ihre ursprünglichen Körper. Sie finden sich wiedergeboren in der Form eines Tieres, das sich im Spektrum des Tierreiches einordnet. Manchmal kehren diese Elfen als so niedrige Wesen auf der Entwicklungsskala zurück, dass sie ihren Elfen-Geist gänzlich verlieren.
+
+Nur einige wenige legendäre sind jemals im Laufe der Zeit zu ihren ursprünglichen Formen zurückgekehrt. Diese Elfen sind zurückgekehrt, um Aufgaben epischer Tapferkeit und Erlösung zu vollenden. Wahrscheinlicher wurden jene wahrhaft heroischen Elfen, die gebeten haben, wiedergeboren zu werden, als Elf neugeboren.~
+@102 = ~Elfen und der Tod Teil II~
+@103 = ~Tod der Elfen Teil II
+
+In Arvanaith sind alle Dinge möglich. Alles, was sich Elfen wünschen könnten, ist verfügbar, einschließlich der Vergesslichkeit oder sogar Vergessenheit. Die Winde von Arvanaith reichen aus, um auch die unruhigsten Geister zu besänftigen und zu bewirken, seine oder ihre Ängste und Qualen beiseite zu legen. Nur jene wenige, die sich weigern, ihren Kummer aufzugeben, behalten die Erinnerungen an frühere Schwierigkeiten.
+
+Stattdessen machen Erinnerungen an Freunde und glückliche Zeiten das neue Leben eines Elfen aus, zusammen mit neuen Träumen und Herausforderungen. Beunruhigende Erinnerungen bleiben weitgehend in den Tiefen des Verstandes eines Elfen und dienen nur als Mahnung und Maß für die Güte der Existenz in Arvanaith. Die meisten Elfen sind glücklich, die Erinnerungen an ihre Leiden aufzugeben und behalten nur das Wissen ihres Ablebens, um ihr gegenwärtiges Glück mehr zu schätzen.
+
+Anzumerken ist, dass Elfen nicht wie andere sterbliche Rassen sterben, tatsächlich erleiden Elfen nur selten den wahren Tod. Diejenigen, die es tun, werden monatelang betrauert, weil ihre Geister nie wieder zurückkehren können, um die Erde noch einmal zu hegen. In ihre Kinder wird die Hoffnung gesetzt, dass sie die Arbeiten ihrer Eltern fortsetzen werden, sofern die Eltern nicht unehrenhaft starben.
+ 
+Es gibt nur ein paar Möglichkeiten, wie Elfen dieses Schicksal erleiden können. Die Attacken von einigen Untoten, Selbstmord, sterben an einem unnatürlichen Ort und sonstige außergewöhnliche Umstände können die Existenz eines Elfen vollständig auszurotten. Der einzige Weg, diese tapferen Elfen wiederherstellen, ist durch Magie, nicht weniger mächtig als ein Wunsch.
+ 
+Die Leichen derer, die den wahren Tod gestorben sind, werden häufig verbrannt. Das hindert untote Lebenskräfte, den Körper zu besetzen. Elfen-Dörfer haben aus Erfahrung gelernt, dass ein unvollständiger Geist schlimmer ist als ein untoter.
+
+Elfen fürchten auch den Missbrauch ihrer Geister und ihrer Willensfreiheit, weil diese für den Eintritt in Arvanaith notwendig sind. Jedes Wesen, das durch die Lebenskraft eines anderen genährt wird, wird von Elfen eifrig gemieden (oder getötet, wenn die Mittel zur Verfügung stehen), weil diese Wesen unter den wenigen sind, die einem Elfen wahre Vergessenheit zufügen können. Sogar jene Elfen, die unter dem Schatten des Bösen leben, finden keine Verwandtschaft zu diesen Wesen.~
+@104 = ~Die Elfen Rassen von Toril~
+@105 = ~Die Elfen von Toril folgen nicht den Standards der meisten anderen Welten. Was fast alle Elfen der Reiche einigt ist ihr selbstverliehener Titel: Tel'Quessir. Das wird mit "Die Leute" übersetzt. Alle Nichtelfen sind als "N'Tel'Quess" oder "Nicht-Leute" bekannt.
+
+Während diese Elfen die Standard-Fähigkeiten der Elfen besitzen, unterscheidet sich ihr Aussehen deutlich. Diese Elfen sind von menschlicher Größe, obwohl dort die Ähnlichkeit endet. Wie ihre typischeren Vetter sind die Elfen der Reiche viel schlanker und zarter in der Erscheinung. Gliedert man die Nationen der Elfen noch weiter auf, gibt es fünf getrennte, unterschiedliche Unterrassen der Elfen in den Reichen, von denen jede von den anderen Rassen unterschiedlich gesehen wird.
+ 
+Die erste Unterrasse ist die der Gold-Elfen. Einige nennen sie auch Sonnenaufgang-Elfen oder Hochelfen, obwohl sie den Standard-Hochelfen nicht genau ähneln, sondern tatsächlich eher wie Grau-Elfen anmuten. Gold-Elfen werden allgemein als die am höchsten zivilisierten angesehen und gleichzeitig die von den anderen Völkern am meisten verachteten. Sie sind die Adeligen der Elfen auf Toril, welche die anderen Elfen in der Art der Elfen anleiten. Sie sind das Gegenstück der Silvanesti auf Krynn.
+
+Der zweite Unterrasse ist verschiedentlich als Mond-, Silber- oder Grau-Elfen bekannt, auch wenn hauptsächlich der Name Ähnlichkeit mit dem typischen Grau-Elfen hat. Sie ähneln eher den Hochelfen als  den Grau-Elfen, was nicht verwunderlich ist, da die nomadischen Hochelfen sich in Toril angesiedelt haben. Sie sind die häufigsten Elfen auf dieser Welt, oder zumindest die Art, die am häufigsten von Nicht-Elfen gesehen wird. Aufgrund ihrer höheren Toleranz zu anderen Rassen werden die Mondelfen eher zu Abenteurern als die anderen Elfen. Ebenso stammen die meisten Halb-Elfen in den Reichen von Mondelfen ab. Obwohl Mondelfen als weniger edel gelten als Gold-Elfen, ist die Königin von Immerdar eine Mond-Elfe.
+ 
+Die dritte Unterrasse entspricht in etwa den Wald-Elfen. Sie werden auch Wild- oder Grün-Elfen genannt. Sie beschäftigen sich fast ausschließlich mit anderen Elfen, halten nur minimalen Kontakt mit anderen Rassen. Da sie versuchen, weit entfernt von der Menschheit zu leben, sind sie eine der am wenigsten gesehenen Elfen-Rasse. Da sie kein eigenes Königreich haben, durchsetzen sie jede Elfen-Nation.
+ 
+Die Meer-Elfen umfassen die vierte Unterrasse. Auch sie sind ziemlich selten, obwohl sie nicht so zurückgezogen sind wie Wild-Elfen. Sie schwimmen in zwei Gewässern: im Großen Meer und dem See des Sternenregens. Es ist nur ein geringer Unterschied im Aussehen zwischen den beiden. Eine Rasse atmet Salzwasser und die andere Süsswasser, aber sie können in beiden überleben. Wasser-Elfen bauen ihre Häuser überall, aber am häufigsten in der Nähe der abgeschiedenen Insel Immerdar.
+
+Die letzte Unterrasse auf Toril ist die der Dunkel-Elfen. Wie ihre Drow-Vetter sind die Dunkelelfen fast überall wegen ihrer Bosheit geächtet. Als grausame Wesen, die im Unterreich leben, erscheinen diese Drow nur nachts und versuchen, sich an ihren "Unterdrückern" zu rächen, den Elfen, die sie für ihren Rückzug unter die Erde verantwortlich machen.~
+@106 = ~Elfen und der Geist der Elfen~
+@107 = ~Geist der Elfen
+
+Die Mythologie der Elfen besagt, dass die Schönen Leute aus dem Blut geboren wurden, das Corellon Larethian in seinen Kämpfen mit Gruumsh vergossen hatte, und dass sie in den Tränen der Sehanine (oder Angharradh) badeten. (Die meisten Mitglieder des Pantheons haben eine Feindschaft oder zumindest eine Abneigung gegen das Pantheons der Goblinsippe: die der Orks, Goblins, Hobgoblin, Grottenschrate, Kobolde und Urde.) Einige Legenden besagen, dass die ersten Elfen in den Reichen voll ausgebildet und nach Corellons Ebenbild gestaltet erschienen, gewebt aus der Magie der Sonnenstrahlen, Mondstrahlen, der Wälder, Wolken, Meere und Schatten. Andere Mythen behaupten, dass zumindest einige der meistens als "Feen" bezeichneten Elfen-Unterrassen - insbesondere die Goldelfen und Mondelfen - durch magische Pforten aus einer oder mehreren anderen Welten nach Abeir-Toril einwanderten.
+
+Man ist durch die engen Beziehungen zwischen dem Feen-Volk, der Magie und der natürlichen Welt in der Elfen-Theologie beeindruckt. Die meisten Glaubensrichtungen unter den Elfen betonen die Einheit der Elfen mit dem Leben und der Natur und sie neigen dazu, die Unterscheidung zwischen Elfen und ihrer Umgebung zu verschmelzen, so wie die Seldarine daran festhalten, Geister von Arvandor sein. Zum Beispiel haben die Schönen Leute Geister, nicht Seelen, und viele Elfen glauben, dass sie als Tiere, Pflanzen, Feen oder sogar als Elfen einmal wiedergeboren werden. Ebenso sind Elfen Wesen des Gewebes, eng mit dem Netz der Magie verbunden, das Abeir-Toril umhüllt, und selbst ein Teil davon.
+
+Die Schönen Leute bezeichnen sich selbst als Tel'Quessir, ein elfischer Begriff, der "die Leute" bedeutet. Sie bezeichnen alle anderen Wesen als N'Tel'Quess, ein weniger diplomatischer elfischer Begriff, der "Nicht-Leute" bedeutet. Die Tel'Quessir umfassten ursprünglich sieben bekannte Unterrassen der Elfen, von jeder davon nimmt man an, dass sie vor über 25 Jahrtausenden erschienen und von denen sich alle mit Menschen gekreuzt haben, um Na'N'Tel'Quess, "fast nicht Leute" (Halbelfen) zu bilden. ~
+@108 = ~Tel'Seldarine~
+@109 = ~Tel'Seldarine
+
+Die Schönen Leute der Reiche verehren ein Pantheon von Gottheiten, die als Seldarine bekannt sind, ein vielschichtiger Begriff, der in etwa als die Gemeinschaft der Brüder und Schwestern des Waldes übersetzt werden kann, was die breite Vielfalt an Interessen zum Ausdruck bringt, die unter den Göttern des Elfen-Pantheons und ihrem Wunsch nach Zusammenarbeit besteht. Sie handeln unabhängig voneinander, aber die Elfen-Mächte werden durch Liebe, Neugierde und Freundschaft zusammengehalten, um ihre Kräfte zu verbinden, eine Aufgabe zu erledigen, oder angesichts Bedrohungen von außen. Obwohl sich viele ihrer Einflussbereiche überschneiden, gibt es keinen Konflikt zwischen ihnen. Die Seldarine haben alle, fast ohne Ausnahme, chaotisches, neutrales, und/oder gutes Naturell. Niemand ist schlecht.
+
+Während die Götter des Elfen-Pantheon aktiv an dem gemeinsamen Leben ihrer Gläubigen beteiligt sind, mischen sich einige direkt in die Ereignisse ein, die eine bestimmte Person oder sogar eine kleine Gruppe von Elfen betreffen. Wie die Schönen Leute neigen die Seldarine zu sehr langfristigen Perspektiven und mischen sich nie ohne eine Menge Erwägungen und Diskussionen direkt in die Entfaltung der Geschichte der Reiche ein.
+
+Corellon Larethian:
+
+Corellon ist der Inbegriff der höchsten Ideale der Elfenart. "Er" ist der Schöpfer der Elfen-Rasse, und wie alle Elfen-Götter kann er die Form beiderlei Geschlechts annehmen, aber erscheint gewöhnlich als Mann und wird gewöhnlich in dieser Form verehrt. 
+
+Sehanine: "Mondbogen" 
+
+Sie wird am ehesten mit dem Vollmond gleichgesetzt. Als Mondgöttin ist Sehanine diejenige, die Weissagungen und Omen regelt und das, was wird oft als "subtile Magie" bezeichnet wird - Illusion, elementare (Luft) Magie, Veränderung und dergleichen. Sie ist auch eine Beschützerin vor Wahnsinn. 
+
+Hanali Celanil: 
+
+Göttin der Romantik, Liebe und Schönheit. Diejenigen, die Glück in der Liebe wünschen, oder ihre eigene Schönheit betonen, bauen häufig auf Hanali für Hilfe. Sie hat einen Kristallbrunnenen von ungeheurer Größe, den sie nur mit der Göttin Aphrodite teilt, und Schlücke davon werden ihren älteren Priestern als Zaubertränke der Liebe zuteil. Hanali ist ein Wesen von zeitloser Schönheit und gütiger Natur und verzeiht kleinere Übertretungen. Sie hat Freude daran, ihre Anhänger mit dem Glück der unerwarteten Liebe und Zuneigung zu belohnen.
+
+Rillifane Rallathil:
+
+Gott der Wälder und der Umwelt. "Der Laublord". Er wird von den meisten Elfen-Druiden und Waldelfen verehrt. Er wird als riesige Eiche dargestellt, deren Wurzeln sich mit jeder anderen Pflanze der Welt verflechten. Dieses Wesen ist dafür zuständig, dass alle Geschöpfe die Möglichkeit haben, ihre Rolle in der Natur zu spielen, ohne sie zu missbrauchen.
+
+Shevarash, der Schwarze Bogenschütze:
+
+Halb-Macht. Sein Tätigkeisbereich ist Hass auf die Drow, Rache, militärische Kreuzzüge, Verlust und Rache.~
+@110 = ~Nach <CHARNAME>s unglückseligem Versuch, <PRO_HISHER> Versprechen zu brechen, und mit Aos Erlaubnis, war Irenicus im Stande, nicht nur von <CHARNAME>s Seele, sondern ebenso von<PRO_HISHER> Körper Besitz zu ergreifen. Sehr zu <CHARNAME>s Schrecken und Ekel übertrug der abtrünnige Elf einfach seinen Verstand in <CHARNAME>s sterbliche Hülle, indem er die geistige Verbindung zwischen den beiden als Eingangsstelle verwendete. Im Anschluss an einen kurzen Kampf, der in der Verdrängung der letzten Spuren der Persönlichkeit seines Gastwirts endete, forderte Irenicus <CHARNAME>s Geburtsrecht und Erbe und beschloß, an <CHARNAME>s Stelle zum Gott zu werden. Sofort nach dem Aufstieg nutzte die neue Gottheit seine Mächte, einen Avatar zu erschaffen, der sein altes Elfen-Gesicht und seine Statur besaß.
+
+Sobald sein neuer Körper vollständig war, reiste Irenicus zurück in die Materielle Ebene und betrat Suldanessellar. An den Toren traf ihn Ellesime, und einen Blick in sein einst geliebtes Gesicht, das vor Wut und Triumph leuchtete, reichte aus, um ihre Knie zittern zu lassen. Dieses Mal war sogar die geheiligte Magie der Königin, die direkt aus ihrer Verbindung zum Baum des Lebens abgezapft wurde, nicht ausreichend, um dem göttlichen Zorn ihres früheren Geliebten zu entgegnen... und <CHARNAME> war nicht in der Nähe, um den Tag zu retten. Suldanessellar fiel, zu Asche verbrannt, und ebenso ihre glücklose Königin... und das Wasser des Flusses Sulduskon trug ihre Asche ins Meer ohne Spuren.
+
+Irenicus fuhr dann mit seinem anfänglichen Plan fort und stellte seine Verbindung mit dem Baum des Lebens wieder her, verzehrte seine Macht und entzog ihm all seine Energie. Weil er jetzt die ganze Essenz von Bhaal besaß, war er dieses dritte Mal hier erfolgreich, wo er zweimal zuvor versagt hatte, und als er seine Aufgabe beendet hatte, war der Baum nicht mehr. Mit seiner vollendeten Suche nach Macht war der Verbannte bereit, selbst die Elfen-Götter herauszufordern.
+
+Die Seldarine hatten Irenicus störrischen Aufstieg mit der entsetzten Faszination von Vögeln beobachtet, die von einer Schlange gelähmt sind. Aber sobald er ihren Bereich betrat - die friedliche und ruhmvolle Ebene von Arvandor - schlossen sie ihre Reihen gegen ihn. Begreifend, dass sogar sein kürzlich erworbener göttlicher Status den vereinten Mächten der Seldarine nicht gewachsen war, spielte der Verbannte ein gefährliches Spiel und stellte Correllon Larethian selbst vor eine Herausforderung. Aber der Führer der Seldarine vermied das Duell im Namen von Rillifane Rallathil, der vor Wut und Kummer über den Untergang seiner Tochter kochte. In einer Reihe von magischen Kämpfen, die die Grundfeste der Ebene erschütterten, besiegte der sich grämende Gott des Waldlandes Irenicus und seine zahlreichen dämonischen Verbündeten, und vertrieb ihn aus Arvandor.
+
+Rillifane war jedoch außer Stande, dem Verbannten seine gestohlenen Göttlichkeit zu entziehen. Am Ende waren die Seldarine gezwungen, sich zu einer unbehaglichen Waffenruhe zu verpflichten. Joneleth Irenicus wurde der erste Elfen-Gott der Rache und der Dunklen Magischen Künste. Er wohnt in seinem eigenen Bereich von Enuma Elish, einer kleinen Unterebene innerhalb der Ebene der Grauen Verschwendung, und antwortet auf die Gebete jener mittellosen Elfen, die, wie er selbst, unzufrieden mit der liebenswürdigen und fröhlichen Art der Seldarine sind.~
+@111 = ~Gemäß dem Beschluss seines unbehaglichen Abkommens mit <CHARNAME> erhielt Irenicus die Seele von einem der rivalisierenden Geschwister des Gotteskindes. Nachdem er <CHARNAME> sarkastisch zu <PRO_HISHER>em Sieg gratuliert hatte und mit einer neuen göttlichen Seele 	in Reichweite, stellte sich der Vebannte wieder her, sich noch einmal dem Fluch der Seldarine widersetzend und ihre Gerechtigkeit verspottend. Er ging dann weiterhin seinen Weg über das Land von Faerûn zurück und suchte sowohl sein altes Laboratorium in Athkatla auf als auch seinen Stützpunkt in der Zauberfeste und sammelte die zerstörte Maschinerie und andere geheimnisvolle Ausstattungen ein. Sobald er diese Aufgaben vollendet hatte, verschwand Irenicus von der Oberfläche von Toril und wurde mehrere Jahrzehnte lang nicht gesehen.
+
+Aber, wie vielleicht vorherzusehen war, verschwand der Magier nicht für immer, und seine Rückkehr fegte über die friedlichen Lichtungen von Tethir wie ein verheerender Orkan. Irenicus letzter Angriff auf Suldanessellar war tödlicher als sein vorheriger, und dieses Mal eilte <CHARNAME> Suldanessellar nicht zu Hilfe, weil entweder das Gotteskind nie aus dem Angriff gelernt hat, oder weil <PRO_HESHE> sich einfach nicht mehr um die Notlage der Stadt kümmerte. Eine nach der anderen Verteidigung von Suldanessellar fiel, und Irenicus betrat das wahre Zentrum der Stadt, um Ellesime ausfindig und ihre wohldurchdachten Fallen unbrauchbar zu machen.
+
+Lange hatte sie erwartet, dass er kommt... Tatsächlich hatte die Königin Jahrzehnte verbracht, verbittert <CHARNAME>s Verrat zu tadeln und ihren Schutz stärken. Aber als es dazu kam, ihrem früheren Geliebten wieder gegenüberzustehen, war Ellesime Joneleths Zorn in keiner Hinsicht gewachsen. Sobald sie begriff, dass Irenicus noch einmal entschlossen war, sie lebendig festzunehmen, um sie als Verbindung zum Baum zu verwenden, beging Ellesime eine Tat des äußersten Opfers und beendete ihre physische Existenz in einem Ausbruch von magischem Feuer und entfernte die Seele zu den winkenden Ufern von Arvandor.
+
+Ellesimes tapfere Flucht vor seiner endgültigen Rache war ein schrecklicher Schlag gegen Irenicus Pläne, da sogar die Seele von <CHARNAME>s Geschwistern nicht stark genug war, um ihm zu ermöglichen, die Verbindung mit dem Baum des Lebens allein aufrechtzuerhalten. Und doch war Joneleth zu eitel, um seinen Plan aufzugeben, zum Gott zu werden, und der Anblick seiner früheren Geliebten, die vor seinen eigenen Augen Selbstmord begeht, stärkte nur seine Entschlossenheit.
+
+Sobald Irenicus seine Verbindung mit dem Baum des Lebens wiedergeherstellt hatte, brachen sein majestätischer Stamm und seine Krone in Flammen aus und verschlangen bald den trotzigen Magier, und dieses Mal gab es niemanden in der Nähe, um Joneleths brennendes Fleisch zu löschen. Irenicus wurde zu feiner Asche verbrannt und hinterließ keine Spur von sich selbst auf der geschundenen Erde. Seine wahre Seele wurde durch das magische Feuer verzehrt, und er umarmte den wahren und endgültigen Tod, ohne mögliche Rückkehr oder Wiederherstellung. Sein Scheiterhaufen war jedoch der eindrucksvollste in den Reichen, weil er die komplette Bevölkerung von Suldanessellar vernichtete, und das schwer geprüfte Symbol der Besessenheit des Magiers - der Baum des Lebens der Elfen.~
+@112 = ~Demzufolge, was er als <CHARNAME>s Verrat ansah, wurde Irenicus in die Tiefen des Abyss zurückgeworfen, um von den Tanar'ri gefoltert und verspottet und von jedem sonst verachtet zu werden. Sein kurzer Abstecher in <CHARNAME>s Gesellschaft ließ ihn jedoch mit etwas mehr als einem Anfall von Verdrossenheit und einem schlimmen Fall von Zähneknirschen zurück. Es brachte ihm einen Ruf ein. Seite an Seite mit dem prophezeiten Erbe des Throns von Bhaal gekämpft zu haben, machte ihn unter den Tausenden von anderen gefolterten Seelen erkennbar, und Demogorgon selbst gekannt zu haben, brachte ihm Ruhm ein.
+
+Schließlich war er im Stande, aus dieser Verbindung Kapital zu schlagen und durfte eine kurze Unterredung mit Demogorgons Erzrivalen im Abyss haben - Graz'zt dem Sechsfingrigen. Niemand wusste, wie dieses Treffen eingefädelt wurde oder wie es lief, aber es führte zu einer atemberaubenden Änderung des Schicksals des Verbannten, denn irgendwie schaffte er es, das Interesse des gewandten und impulsiven Dämonen-Prinzen zu gewinnen.
+ 
+Schließlich lief das Ereignis auf die schnelle Befreiung von Irenicus aus der Tiefe hinaus, in der er verbrannte, und eine ebenso schnelle, fast unglaubliche, Beförderung zum Status eines Dämons mittleren Ranges, aber mit der Erlaubnis, seinen menschlichen Körper und den Großteil seiner restlichen Erinnerungen zu behalten. Dem Verbannten wurde ein Medaillon mit dem Symbol einer sechsfingrigen ebenholz-häutigen Hand, ein magisches Forschungslaboratorium in Azzagrat, Grazz'zts private Ebene der Abyss und der Status eines Jüngers gewährt. Außerdem ist Irenicus jetzt häufig in der persönlichen Gefolgschaft des Dunklen Prinzen zu sehen - eine ziemlich ungewöhnliche Bevorzugung, die nur einigen Auserwählten zuteil wird.
+
+Die Natur seiner Beziehung zu diesem besonderen Dämonen-Prinzen bleibt unklar, aber es wird manchmal gemunkelt, dass der ehemalige Elfen-Magier einer von Grazz'zts persönlichen Lieblingen wurde, nachdem er sehr vertrauliche Informationen, verbunden mit Demogorgons Haft in der Materiellen Ebene, enthüllte. Graz'zts chaotische und tückische Natur kennend, wird diese Verbindung wahrscheinlich nicht andauern; doch mit <CHARNAME>s Hilfe hat Irenicus eine Fußstütze in der Hierarchie der Tanar'ri gewonnen, und mit Jons Eigensinn ist es ziemlich gut möglich, dass in weiteren wenigen Jahrhunderten Ellesime einen Besucher aus den Unteren Ebenen zu erwarten hat...~
+@113 = ~Jon Irenicus wurde noch einmal zu Joneleth. Sogar nach seiner widerwilligen Befolgung des neuen Urteils der Seldarine konnte er seinen Elfen-Geist nicht zurückbekommen. Die Elfen-Götter verfügten, dass seine Verbrechen zu groß waren, um völlig verziehen zu werden, und dass er nur nach wahren und aufrichtigen Bedauern wieder in Arvandor begrüßt werden könnte.
+
+Nachdem der Verbannte seine neue sterbliche Seele mit den verkrüppelten Überbleibseln seiner Essenz verflochten fand, brach er vor Pein zusammen. Seine Wiederherstellung war schmerzhaft, vielleicht mehr sogar als die Qualen, die er im Abyss erlebt hatte, weil er die ganzen Schmerzen, sowohl geistige als auch körperliche, die er seinen zahlreichen Opfern seit seinem ersten Angriff auf den Baum des Lebens zugefügt hatte, erleiden musste.
+
+Als Joneleth schließlich aus seinem Stillstand auftauchte, auf einem schmalen Bett in einer bäuerlichen Hütte in einem kleinen Dorf von Amkethran liegend, rannen Tränen des Kummers und tiefer Schande sein Gesicht herab, als er zum ersten Mal seit einem Jahrhundert deswegen weinte, was für ihn auf seiner sinnlosen Suche nach Göttlichkeit verloren ging. Er war allein, eine gebrochene Schale eines Mannes, zu Anfällen nervöser Angst neigend, gefolgt von Tagen dunkler Melancholie und kochender Wut. Aber wie von den Göttern versprochen, wurde sein Körper wieder in seinen ursprünglichen Zustand hergestellt, und die Eigenschaften seines Gesichtes waren noch einmal ausgesprochen elfisch. Und doch, trotz seiner ganzen Qualen, konnte der Verbannte seine eigene Reaktion nicht verstehen, als er zu seinem blanken Entsetzen begriff, dass er sich an keine einzelne Tatsache seines vorigen Lebens erinnern konnte, nicht einmal seinen richtigen Namen. Wahrhaftig war sogar seine Magie für ihn verloren und er musste sie wieder neu erwerben, als ob er tatsächlich ebenso jung war wie sein Gesicht nahelegte.
+
+Als er Amkethran verließ, wendete sich Joneleth nach Norden mit einer unklaren Kenntnis über das Reisen nach Evereska. Aber hier verliefen sich seine Spuren, und was aus ihm dort wirklich wurde, blieb ein Geheimnis, das sogar <CHARNAME> nicht im Stande war aufzudecken. Eine Sache war dennoch klar, und das war, dass der alte Jon Irenicus für immer gestorben war. Joneleth blieb jedoch und erlebte viele Jahre der Freude und Verzweiflung. Er erlebte viele Abenteuer und begegnete vielen Helden und Weisen der Reiche. Er ertrug das Mitleid und die Geringschätzung seiner Elfen-Brüder, doch der Schmerz, den er erlitten hatte und die Lehren, die er daraus gezogen hatte, reichten aus, ihn auf einem steilen und starren Weg zur Erlösung zu halten. Mit der Zeit wurde seine wahre Reue von den Seldarine akzeptiert, und ihm wurde gewährt, worum er flehte - eine Verbindung zum Elfen-Geist und ein Recht auf den Übergang nach Arvandor.~
+@114 = ~Verbesserte Oase entdeckt - LR Oase Zwischenruf wird nicht installiert.~
+@115 = ~Verbesserte Oase nicht entdeckt...~
+@116 = ~Ascension entdeckt...~
+@117 = ~Zombie Sendai~
+@118 = ~Zombie Abazigal~
+@119 = ~Zombie Balthazar~
+@120 = ~Ascension nicht entdeckt...~
+@121 = ~Zäherer Abazigal entdeckt, zusätzliches Material wird hinzugefügt...~
+@122 = ~Zäherer Abazigal nicht entdeckt~
+@123 = ~jcomptons Imoen-Fix für ToB wird installiert...~
+@124 = ~jcomptons Imoen-Fix für ToB ist bereits installiert, wird übersprungen...~
+@125 = ~SPEED BANTERS~
+@126 = ~Irenicus ursprüngliches Bildnis aus SoA wieder herstellen.~
+@127 = ~Ihr müsst Erlösung, der Längere Weg, installieren - sonst ist diese Komponente sinnlos.~
+@128 = ~Irenicus ursprüngliches Bildnis wird wiederhergestellt.~
+@129 = ~Ihr bemerkt, dass etwas auf dem Fußboden liegt und bückt Euch, um es aufzuheben. Es erweist sich als ein schmutziges Stück Pergament mit einigen darauf gekritzelten Zeilen. Nun, Ihr seid fast sicher, dass es vor einigen Augenblicken nicht dort war...~
+@130 = ~Hallo Ihr Trottel!
+
+Sucht ir was? Habt ir Gelt?
+Komt ins Zimer mitem Kompas aufen Boden und zeigtuns die Farbe eurem Ausweichn.
+
+Eure Wolgesonenen.
+
+(Diese Notiz sieht etwas komisch aus... Nicht nur, dass sie schmutzig ist, sie hat einige Brandflecken und scheint auch zerkaut worden zu sein; die Handschrift lässt Euch vermuten, dass sie von einem betrunkenen Huhn verfasst wurde, das nur kurz unterrichtet worden war, wie man schreibt.)~
+@131 = ~LR wird ohne die Musik-Dateien installiert; wenn Ihr Musik haben wollt, deinstalliert bitte einige Eurer anderen Mods und installiert LR erneut.~
+

@@ -1,0 +1,22 @@
+@0    = ~M'<PRO_LADYLORD>, wait up a moment. I 'ave a message for yer from Samuel Thunderburp, keeper of the Five Flagons. 'E says for yer to come quick if yer be int'rested in making yerselves a bit of gold. 'E 'as a bit of trouble that ye mights be able to 'elp 'im with.~
+@1    = ~Did this Samuel Thunderburp say what this urgent matter is?~
+@2    = ~What could your boss possibly have to say that would interest me boy?~
+@3    = ~You picked a bad time to be asking for my aid sonny. Have you any idea what it is he wants?~
+@4    = ~Tell me boy, why  does this Samuel Thunderburp think I can help him?~
+@5    = ~Gold you say, well now that is something I am always ready to discuss. You run along and tell this Samuel Thunderburp that I will be around shortly.~
+@6    = ~Trouble at The Five Flagons Inn.
+
+I was approached today by a young lad requesting me to speak with Samuel Thunderburp. Proprietor of The Five Flagons ... seems this Samuel Thunderburp is offering gold in exchange for my help. I told the lad that to run and tell him I’d be there shortly. I can always find a use for gold.~
+@7    = ~Very well, m'<PRO_LADYLORD>. 'E will be 'appy to 'ear that. I will take yer message straight back to 'im.~
+@8    = ~I don't rightly know, m'<PRO_LADYLORD>` but 'e is sure worried 'bout summit, and 'is customers are complaining 'cause there aint no singer a singing there now. P'raps its summit to do with that.~
+@9    = ~I suppose I can spare him a few minutes. Okay. Boy, you go tell this barkeep that we will be around shortly to hear his story.~
+@10   = ~Sorry sonny, you will have to go tell this barkeep that I have more important things to see to than to look for his missing minstrel.~
+@11   = ~Trouble at The Five Flagons Inn.
+
+I was approached today by a young lad requesting me to speak with Samuel Thunderburp. Proprietor of The Five Flagons ... seems this Samuel Thunderburp is offering gold in exchange for my help. I have enough troubles of my own without getting caught up in the affairs of others so I declined to help.~
+@12   = ~I am sorry lad, I would love to help this Samuel, but I have things far more important of my own to sort at this moment.~
+@13   = ~Trouble at The Five Flagons Inn.
+
+I was approached today by a young lad requesting me to speak with Samuel Thunderburp. Proprietor of The Five Flagons ... seems this Samuel Thunderburp is offering gold in exchange for my help. I have enough troubles of my own without getting caught up in the affairs of others, but I may have time in future to help him out.~
+@14   = ~As you wish, m'<PRO_LADYLORD>. I 'ave been 'lready paid, but yer knows where 'e is if yer changes yer mind. Good day to yer.~
+@15   = ~As you wish, m'<PRO_LADYLORD>. I 'ave been 'lready paid anyway. Good day to yer.~

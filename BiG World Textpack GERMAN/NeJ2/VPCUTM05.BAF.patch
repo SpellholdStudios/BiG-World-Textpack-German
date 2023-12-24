@@ -1,0 +1,11 @@
+--- NeJ2\Melora\baf\VPCUTM05.BAF	Fri Feb 27 00:08:41 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\Melora\baf\VPCUTM05.BAF	Wed Apr 10 10:33:21 2019
+@@ -6,7 +6,7 @@
+ 		Wait(1)
+ 		DayNight(MIDNIGHT)
+ 		Wait(1)
+-		DisplayStringHead(Player1,~Night falls and Shendru appears.~)
++		DisplayStringHead(Player1,@0)
+ 		Wait(2)
+ 		CreateCreatureObjectDoor("Shendru",Player1,0,0,0) // Faldorn
+ 		Wait(1)

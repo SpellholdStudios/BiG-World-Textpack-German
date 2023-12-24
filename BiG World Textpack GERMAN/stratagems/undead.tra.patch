@@ -1,0 +1,10 @@
+--- stratagems\lang\german\undead.tra	Sat Jan 19 18:01:46 2019
++++ C:\BWP Patchstudio\patched files\stratagems\lang\german\undead.tra	Thu Nov 10 09:25:44 2022
+@@ -1,4 +1,3 @@
+-
+-@1 = ~Auffindbare Zauber (erforderlich für die meisten anderen Komponenten)~
+-@2 = ~Optimierung von Zaubern~
+-@3 = ~Optimierung von Gegenständen~
++@1 = ~Aura der Furcht~ 
++@2 = ~Mumienfäule~
++@3 = ~Unfähig zu heilen~ 

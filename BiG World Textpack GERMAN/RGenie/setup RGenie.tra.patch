@@ -1,0 +1,17 @@
+--- RGenie\german\setup RGenie.tra	Wed Oct 11 03:55:06 2006
++++ C:\BWP Patchstudio\patched files\RGenie\german\setup RGenie.tra	Sun Nov 16 03:21:36 2008
+@@ -1,11 +1,9 @@
+ @0    = ~Ribalds Flaschengeist~
+ @1    = ~Portal~
+-@2    = ~Ribalds Flöte der Flaschengeistbeschwörung~
++@2    = ~Ribalds Beschwörungsflöte~
+ @3    = ~Wenn Ihr auf dieser Flöte spielt, erlaubt sie Euch Ribalds Flaschengeist zu beschwören, um schnell zum Abenteurermarkt transportiert zu werden. Viele von Ribalds Stammkunden, die über ganz Faerûn verteilt sind, waren der langen Reisen zu ihrem Lieblingsgeschäft überdrüssig. Darum befahl Ribald dem Flaschengeist, den er auf einem seiner Abenteuer gefangen hatte, jeden, der auf einer dieser Flöten spielt, zu seinem Laden zu befördern.
+ 
+ EIGENSCHAFTEN:
+ 
+-Einmal täglich kann ein Flaschengeist beschworen werden, der die Gruppe zum Abenteurermarkt und wieder zurück bringt.
+-
+-Kann nicht verwendet werden von:
+-Magierkillern~
++Flaschengeist beschwören (1x täglich)
++ Der Flaschengeist bringt Eure Gruppe zum Abenteurers Allerlei und wieder zurück.~

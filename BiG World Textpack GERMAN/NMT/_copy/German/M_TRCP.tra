@@ -1,0 +1,275 @@
+@1 = ~(Euer flüchtiger Blick in den Gasthof trifft an der Theke auf ein Paar Augen.)
+
+(Habt Ihr den Mann im grauen Mantel inmitten der nach Herzenslust lachenden und trinkenden Gäste bemerkt und gespürt, dass er anders als die übrigen Gäste zu sein  scheint mit seiner geflissentlich verschleierten Kleidung und dem leicht verstohlenem Lächeln auf den Lippen? Ihr wisst nicht warum, aber als Ihr bemerkt, dass er Euch heimlich beobachtet, zögert Ihr nicht, auf ihn zuzugehen...)~
+@2 = ~(Überraschenderweise, bevor Ihr Euren Mund zum Gruß öffnet, lächelt er plötzlich geheimnisvoll, als ob er Eure Gedanken gelesen hätte und spuckt die Worte aus.)
+
+Neugierige Katzen verbrennen sich die Tatzen...~
+@3 = ~(überrascht weicht Ihr reflexartig ein paar Schritte zurück)~
+@4 = ~Nicht aufregen, mein Freund.
+(Er trinkt einen Becher Wein und zeigt den Anflug eines ruhigen Lächelns)
+
+Ich habe keine böse Absicht, ich bin wie Ihr Abenteurer.
+(Seine hellgrauen Augen beobachten Euch, als ob sie Eure Gedanken lesen, und er redet bedächtig.)
+Vielleicht... soweit es mich betrifft. Was ist mit Euch?~ ~Nicht aufregen, meine Freundin.
+(Er trinkt einen Becher Wein und zeigt den Anflug eines ruhigen Lächelns)
+
+Ich habe keine böse Absicht, ich bin wie Ihr Abenteurer.
+(Seine hellgrauen Augen beobachten Euch, als ob sie Eure Gedanken lesen, und er redet bedächtig.)
+Vielleicht... soweit es mich betrifft. Was ist mit Euch?~
+@5 = ~(Mittlerweile bemerkt Ihr eine heftige Reaktion, die auch Euch überrascht, die Leute in der Taverne starren Euch nervös an, als ob Ihr vermutlich sofort losstürmt, um den Reisenden zu töten.)
+
+(Ihr seht ihn wieder an, dem Umriss seiner Erscheinung nach zu urteilen sieht er nach einem Halb-Elfen aus, obwohl der schlanke Körper seltsamerweise keine Rüstung trägt, nur zwei Haltegurte um die Hüften, so wie er aussieht stellt er keine Bedrohung dar.)~
+@6 = ~Entschuldigt, ich habe Euch missverstanden...
+(Ihr geht vorwärts, ein bisschen unbehaglich.)~
+@7 = ~(Ihr beruhigt Euch, sagt nichts und geht vorwärts.)~
+@8 = ~Ihr habt Recht, also... Fahrt zur Hölle!
+(Ihr greift an)~
+@9 = ~Also gut.
+(Sein Gesicht ist mit einem Mantel verhüllt, aber Ihr könnt sehen, dass er breit lächelt.)
+Kommt! Ein paar Getränke auf mich. Wirt! Bringt nochmals zwei Gläser Bier.~
+@10 = ~(Sein Mantel umhüllt sein Gesicht, aber Ihr könnt sein Lächeln sehen.)
+Kommt, Freund, trinkt zwei Gläser mit mir. Wirt! Bringt zwei Gläser Bier.~ ~(Sein Mantel umhüllt sein Gesicht, aber Ihr könnt sein Lächeln sehen.)
+Kommt, Freundin, trinkt zwei Gläser mit mir. Wirt! Bringt zwei Gläser Bier.~
+@11 = ~Nun ja... Warum endet es immer so?
+
+(Mit einigen tiefen hilflosen Seufzern wirft er mehrere Münzen auf den Tresen und löst sich dann in einem weißen Blitz vor Euch in Luft auf...)~
+@12 = ~Vielen Dank, wer seid Ihr?~
+@13 = ~Danke. (Ihr trinkt einen kleinen Schluck Bier)
+
+Ihr scheint nicht von hier zu sein...~
+@14 = ~Oh, bevor Ihr jemanden nach seiner Herkunft fragt, solltet Ihr nicht zuerst von Eurer eigenen berichten? Aber was Euch betrifft, Ihr scheint kein Einheimischer zu sein, wie ich richtig sagte.
+(Interessiert schaut er Euch an und lächelt.)
+Nun, einfach gesagt, ich mag Euch, Ihr und ich sind gleichermaßen Abenteuer, die in ihrem Land ihr eigenes Leben riskieren, nur mit dem Unterschied, dass ich eine Bar eröffnete, natürlich nicht in dieser Gegend.
+(Er zwinkert verschmitzt dem Wirt zu).
+
+Doch als Tavernen-Besitzer habe ich die Verantwortung, Alkohol für die eigene Bar zu beschaffen, das ist der Grund für meinen Besuch in dieser Gegend.~ ~Oh, bevor Ihr jemanden nach seiner Herkunft fragt, solltet Ihr nicht zuerst von Eurer eigenen berichten? Aber was Euch betrifft, Ihr scheint keine Einheimische zu sein, wie ich richtig sagte.
+(Interessiert schaut er Euch an und lächelt.)
+Nun, einfach gesagt, ich mag Euch, Ihr und ich sind gleichermaßen Abenteuer, die in ihrem Land ihr eigenes Leben riskieren, nur mit dem Unterschied, dass ich eine Bar eröffnete, natürlich nicht in dieser Gegend.
+(Er zwinkert verschmitzt dem Wirt zu).
+
+Doch als Tavernen-Besitzer habe ich die Verantwortung, Alkohol für die eigene Bar zu beschaffen, das ist der Grund für meinen Besuch in dieser Gegend.~
+@15 = ~Ihr seid auch ein ausländischer Reisender, nicht wahr?
+(Interessiert schaut er Euch an.)
+Tatsächlich sind unter diesen Umständen ausländische Reisende jetzt selten, aber solltet Ihr Euch nicht erst vorstellen, bevor Ihr jemand anderen nach seiner Herkunft "ausfragt"? Aber was Euch betrifft, Ihr scheint kein Einheimischer zu sein.
+(Wieder ein kleines Lächeln)
+Nun, um Eure Neugier zu befriedigen. Kurzum, ich mag Euch, Ihr und ich sind gleichermaßen Abenteuer, die in ihrem Land ihr eigenes Leben riskieren, nur mit dem Unterschied, dass ich eine Bar eröffnete, natürlich nicht in dieser Gegend.
+(Er zwinkert verschmitzt dem Wirt zu).
+
+Doch als Tavernen Besitzer habe ich die Verantwortung, Alkohol für die eigene Bar zu beschaffen, das ist der Grund für meinen Besuch in dieser Gegend, ich sammle Wein.~ ~Ihr seid auch eine ausländische Reisende, nicht wahr?
+(Interessiert schaut er Euch an.)
+Tatsächlich sind unter diesen Umständen ausländische Reisende jetzt selten, aber solltet Ihr Euch nicht erst vorstellen, bevor Ihr jemand anderen nach seiner Herkunft "ausfragt"? Aber was Euch betrifft, Ihr scheint keine Einheimische zu sein.
+(Wieder ein kleines Lächeln)
+Nun, um Eure Neugier zu befriedigen. Kurzum, ich mag Euch, Ihr und ich sind gleichermaßen Abenteuer, die in ihrem Land ihr eigenes Leben riskieren, nur mit dem Unterschied, dass ich eine Bar eröffnete, natürlich nicht in dieser Gegend.
+(Er zwinkert verschmitzt dem Wirt zu).
+
+Doch als Tavernen Besitzer habe ich die Verantwortung, Alkohol für die eigene Bar zu beschaffen, das ist der Grund für meinen Besuch in dieser Gegend, ich sammle Wein.~
+@16 = ~Also...
+(Ihr wollt etwas sagen, aber er unterbricht Euch.)~
+@17 = ~Als Abenteurer ich weiß ich, was Abenteuer suchen - Aufgaben und Nachrichten. Was die Nachrichten und Gerüchte betrifft, habe ich Euch nichts zu sagen, ich habe kein Interesse daran, was hier passiert, oder es sollte mich nicht interessieren.
+(Er senkt plötzlich die Stimme)
+Ich kann nicht die Zukunft eines anderen verhindern, nicht wahr?
+(Und dann fährt er fort zu sprechen.) Was die Aufgaben anbelangt, würde ich Euch einige stellen. Wie ich schon erwähnte, sammle ich Wein, aber Ihr wisst, dass es nicht so sicher in der Umgebung ist, weil Reisende wie ich bei Räubern sehr beliebt sind.
+(Er lacht und trinkt einen großen Schluck Bier und stößt sein Glas mit dem eines der betrunken Gäste an)
+
+Also, ich hoffe, wenn Ihr die Reise wagen würdet, um mir zu helfen, einige regionale Weine zu kaufen, werde ich Euch eine entsprechende Belohnung geben, vielleicht Euch auch einige Spezialitäten meiner Kneipe geben, aber ich kann sie Euch hier nicht sehen lassen, oh.~
+@18 = ~Stimmt. (Er trinkt ein Glas Wein)
+Als Abenteurer bin ich auch daran interessiert, einige der magischen Gegenstände zu sammeln, obwohl ich sie nicht verwende, aber wenn Ihr Gegenstände habt, die Ihr nicht braucht, könnt Ihr sie mir verkaufen, ich werde hohe Preisen zahlen, Ihr könnt auch direkt bei mir Gegenstände kaufen, aber wie ich vorher erklärte, überlass ich sie nur widerwillig, deshalb ist der Preis sehr hoch.~
+@19 = ~Das war gut.
+(Er legt mehrere Goldmünzen auf den Tresen und hebt dann wieder ein Glas Bier)
+Nun... ist nicht alles einfach und klar? Habt Ihr noch Fragen, um mir zu helfen?~
+
+@100 = ~Freunde, ich freue mich, Euch wiederzusehen.
+(Er stellt das Glas ab und hebt den Mantel, um die Mundwinkel leicht abzutupfen.)
+Wie kann ich Euch helfen?~
+@101 = ~Freunde, ich erwartete nicht, Euch in diesem Laden wieder zu sehen.
+(Sein Lächeln lässt Euch vermuten, dass all dies nicht im Widerspruch zu seiner Erwartung steht.)
+Also, wie kann ich Euch helfen?~
+@102 = ~Freunde, hier bekannte Gesichter zu sehen ist wirklich eine spannende Sache.
+(Er stellt das Glas ab und Ihr stellt überrascht fest, dass er nicht so ruhig zu sein scheint, wie der Eindruck erweckt.)
+
+Ich brauche Eure Hilfe in einer Angelegenheit, in der nur "Ihr" mir helfen könnt.~
+@103 = ~Wieso seid Ihr hier, ist etwas nicht in Ordnung?~
+@104 = ~Seid versichert, dass ich nicht hier gestrandet bin. Ich brauche aber eine Flasche Herzwein und nur Ihr wisst, wo die Flasche Wein ist - ein verzauberter Herzwein aus der Stadt Curst.
+(Sein Mund lächelt anders als in der Vergangenheit, und Ihr merkt, dass er nur mit Mühe über die Angst hinwegtäuschen kann.)
+
+Ihr... Ihr seid wieder hier? Als Belohnung gebe ich Euch die Flasche Wein.~
+@105 = ~Die Flasche habe ich immer noch, aber ich gebe sie Euch nicht. Warum wollt Ihr sie jetzt zurück haben?~
+@106 = ~Es war nicht meine Flasche Wein, die hier steht (lügt).~
+@107 = ~Es war nicht meine Flasche Wein, die hier steht.~
+@108 = ~Die genauen Gründe kann ich nicht sagen, aber ich kann Euch sagen, dass es gut für Euch ist, die Flasche zurückzugeben, denn auf der Flasche liegt ein Fluch...
+(Eure Blicke treffen sich, und an seinem ehrlichen Blick erkennt Ihr, dass er nicht gelogen hat.)
+Natürlich gebe ich Euch etwas anderes im Austausch gegen den Wein, ich will ihn nicht umsonst.~
+@109 = ~Wirklich?
+(Er sieht Euch in die Augen und zeigt ein seltsam glückliches Lächeln.)
+Dann soll es so sein, aber wenn Ihr die Flasche "findet", wisst Ihr, wo Ihr mich findet.~
+@110 = ~Das scheint der Fall zu sein.
+(Etwas bedrückt) Das bedeutet, wenn Ihr zustimmt, aber...
+(Er sieht Euch an)
+Wenn Ihr die Flasche Wein findet, denkt bitte daran, sie mir zu bringen, ich werde die entsprechende Belohnung als Gegenleistung zahlen.~
+@111 = ~Also gut, hier habt Ihr den Wein, den Ihr wollt.~
+@112 = ~Nein, ich will ihn Euch nicht zurückgeben.~
+@113 = ~Vielen Dank.
+(Vorsichtig nimmt er den Wein, legt ihn in den Rucksack und holt tief Atem. Dann holt er eine dampfende Flasche und gibt sie Euch.)
+
+Seid vorsichtig, er ist sehr heiß, ich habe ihn erst vor kurzem erhalten, ich wollte ihn selber trinken (wieder das geheimnisvolle Lächeln), wenn Ihr ihn heiß ertragen könnt, dann trinkt ihn, damit er Euch auf Eurer Reise hilft.~
+@114 = ~Vielen Dank.~
+@115 = ~Das ist Eure Entscheidung.
+(Er seufzt)
+Nun, wenn Ihr Eure Entscheidung ändern möchtet, wisst Ihr, wo Ihr mich finden könnt.~
+@116 = ~Freunde, wie kann ich Euch helfen?~
+@117 = ~Nichts besonderes, aber ich wollte Euch am Schluss fragen, wie Euer Name ist. Ich stehe so lange in Kontakt mit Euch, aber ich kenne Euren Namen nicht.~
+@118 = ~Freunde, vielleicht ist die Zeit, die wir in Kontakt sind, nicht lange genug (lacht). Ich kann meinen richtigen Namen immer noch nicht sagen, obwohl dies eigentlich keine große Sache ist, aber ich hoffe immer noch, dass Ihr eines Tages in eine Kneipe gehen könntet, die ich führe, dann werde ich mich natürlich vorstellen.~
+@119 = ~Welchen Namen wird die Kneipe haben, die Ihr eröffnet?~
+@120 = ~Unbekannte Melodie (flüsterte er).
+
+Vielleicht werden sich eines Tages dort unsere Wege kreuzen.
+(In einem weißen Blitz löst er sich vor Euch in Luft auf.)~
+@121 = ~Ich würde gerne sehen, welche Dinge ich kaufen kann, vielleicht habe ich auch einige Sachen zu verkaufen.~
+@122 = ~Werft einen Blick in meinen Rucksack, habe ich einen Wein, den Ihr wollt?~
+@123 = ~Das macht nichts, ich muss zuerst gehen.~
+@124 = ~Ja, ich werde Eure Sachen zu einem hohen Preis kaufen, aber ich muss wieder daran erinnern, um meine Waren zu kaufen, müsst Ihr einen ähnlich hohen Preis bezahlen.~
+@125 = ~Stimmt das? Lasst mich sehen, was Ihr...~
+@126 = ~Auf Wiedersehen, mein Freund, ich bin sicher, dass wir uns auf unserer Reise in naher Zukunft wieder begegnen.~ ~Auf Wiedersehen, meine Freundin, ich bin sicher, dass wir uns auf unserer Reise in naher Zukunft wieder begegnen.~
+
+@200 = ~Ich habe hier eine Flasche Wein "Für immer zusammen".~
+
+@202 = ~Ich habe hier eine Flasche Goldsand-Wein.~
+
+@204 = ~Ich habe hier eine Flasche Drachenbier~
+
+@206 = ~Ich habe hier eine Flasche Met.~
+
+@208 = ~Ich habe hier eine Flasche Roggenbier.~
+
+@210 = ~Ich habe hier eine Flasche rubinroten Wein aus Westgate.~
+
+@212 = ~Ich habe hier eine Flasche phillipinischen Jadewein.~
+
+@214 = ~Ich habe hier eine Flasche Waldhonigwein.~
+
+@216 = ~Ich habe hier eine Flasche Schattenbier~
+
+@218 = ~Ich habe hier eine Flasche sowjetischen Maiwein.~
+
+@220 = ~Ich habe hier eine Flasche Rabenwein.~
+
+@222 = ~Ich habe hier eine Flasche Elminster-Bier.~
+
+@224 = ~Ich habe hier eine Flasche junger Reiswein aus Japan.~
+
+@226 = ~Ich habe hier eine Flasche Palmwein aus Sri Lanka.~
+
+@228 = ~Ich habe hier eine Flasche Philippinischen Bitterwein.~
+
+@230 = ~Ich habe hier eine Flasche Blutroter Portugiesischer Wein.~
+
+@232 = ~Ich habe hier eine Flasche feinstes Maibock-Bier.~
+
+@234 = ~Ich habe hier eine Flasche Thailändisches Starkbier.~
+
+@236 = ~Ich habe hier eine Flasche Drachen-Bier.~
+
+@238 = ~Ich habe hier eine Flasche Feuerwasser.~
+
+@240 = ~Ich habe hier eine Flasche Eiswein.~
+
+@242 = ~Ich habe hier eine Flasche Weinzenbier.~
+
+@244 = ~Ich habe hier eine Flasche Bier von der Schwarzen Insel.~
+
+@246 = ~Ich habe hier eine Flasche Rotwein Marke Pferdekopf.~
+
+@248 = ~Ich habe hier Flaschen Qualitätswein, der Geschmack... er ist schwer zu beschreiben.~
+
+@250 = ~Ich habe hier eine Flasche kalifornischen Wein aus dem Naptal.~
+
+@252 = ~Ich habe die verzaubert Flasche Herzwein aus der Stadt Curst, die Ihr wolltet.~
+
+@254 = ~Ich danke Euch, mein Freund, ich glaube, dass diese Münzen die angemessene Belohnung für Euer Geschenk sind.~ ~Ich danke Euch, meine Freundin, ich glaube, dass diese Münzen die angemessene Belohnung für Euer Geschenk sind.~
+
+@256 = ~Schmeckt gut, ich danke Euch, mein Freund, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~ ~Schmeckt gut, ich danke Euch, meine Freundin, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~
+
+@258 = ~Feinstes Maibock-Bier, wie es die Zwerge am meisten lieben. Obwohl, wenn ich beide vergleiche, ist es nur ein Zehntel so stark wie das der Zwerge, dies ist ein Geschenk. Ich danke Euch, mein Freund, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~ ~Feinstes Maibock-Bier, wie es die Zwerge am meisten lieben. Obwohl, wenn ich beide vergleiche, ist es nur ein Zehntel so stark wie das der Zwerge, dies ist ein Geschenk. Ich danke Euch, meine Freundin, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~
+
+@260 = ~Es schmeckt wirklich gut, ich danke Euch, mein Freund, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~ ~Es schmeckt wirklich gut, ich danke Euch, meine Freundin, ich habe hier einige Gegenstände aus meiner Heimatstadt, ich glaube, dass diese die angemessene Belohnung für Euer Geschenk sind.~
+
+@262 = ~Elminster (sagte er mit ernstem Gesicht) Ich habe gehört, dass er von Gott erwählt wurde, das... macht ihn nicht anziehend, nicht wahr?
+(Ihr sucht nach einer Antwort, aber er fand, es war nur ein Scherz.)
+Danke, Freunde, achtet auf den Willen der Leute, ich habe hier einige Gegenstände aus meiner Heimatstadt, diese sollten eine angemessene Belohnung für Euer Geschenk sein.~
+
+@264 = ~Ich danke Euch, mein Freund, das ist eine schöne Flasche Wein, ich habe hier einige Gegenstände aus meiner Heimatstadt, diese sollten eine angemessene Belohnung für Euer Geschenk sein.~ ~Ich danke Euch, meine Freundin, das ist eine schöne Flasche Wein, ich habe hier einige Gegenstände aus meiner Heimatstadt, diese sollten eine angemessene Belohnung für Euer Geschenk sein.~
+
+@266 = ~Das!... Das... Ich weiß nicht, was ich sagen soll... ..
+(Der seltsame Ausdruck auf seinem Gesicht verrät, dass er traurig ist, aber auch dass er was entbehrt...)
+Der Geschmack ist wirklich sehr einzigartig, schwer zu beschreiben. Ha. Ich weiß nicht, was ich zurückzahlen kännte für so ein... großes Geschenk.
+
+(Ihr bemerkt, dass seine Augen von ein paar Tränen glänzen.)~
+@267 = ~Ist alles in Ordnung mit Euch?~
+@268 = ~Es ist alles in Ordnung, mein Freund, ich dachte nur an einige vergangene Ereignisse, die ich vielleicht schon vergessen hätte, vielleicht wurde die Tatsache bereits in meiner Erinnerung verzerrt, vielleicht...~ ~Es ist alles in Ordnung, meine Freundin, ich dachte nur an einige vergangene Ereignisse, die ich vielleicht schon vergessen hätte, vielleicht wurde die Tatsache bereits in meiner Erinnerung verzerrt, vielleicht...~
+@269 = ~Wohnt Ihr gewöhnlich hier?~
+@270 = ~Ja, es ist schwer, sich das vorzustellen, hier ist meine Heimat, wo ich geboren wurde und aufgewachsen bin, aber jetzt ist es hier für mich beinahe ein fremder Ort, das ist nicht mehr meine Heimat.
+(Die Erinnerung scheint ihn Kraft zu kosten, und dann nimmt er eine Flasche mit bernsteinfarbener Flüssigkeit aus seinem Rucksack und wendet sich Euch zu.)
+
+Vor einiger Zeit gab mir jemand diese Flasche Wein, es ist der zerzauberte Wein aus einer berühmten Stadt, ein starker Wein, von dem gesagt wird, dass er sehr süß schmeckt, und nach dem Trinken ist man nicht betrunken, ich will ihn nicht trinken, und jetzt gebe ich ihn Euch zurück.~
+
+@271 = ~Der Inhalt dieser Flasche... (er trinkt einen Schluck und zieht seine Stirn kraus) ist wirklich sehr starker Wein, aber auch guter Wein. Ich habe hier das wilden ungezügelte Feuerwasser und Feuersamen, ich denke, Ihr solltet sie versuchen.~
+
+@272 = ~(Er scheint über etwas nachzudenken)
+In meiner Kneipe wird dieser Wein vor allem von Mönchen gerne getrunken, aber leider ist der Wein selbst schwer zu bekommen...
+(Er dreht sich plötzlich um und sieht Euch fragend an)
+
+Je knapper knapper etwas ist, desto mehr Menschen neigen dazu, es zu schätzen?~
+@273 = ~Ja, der sogenannte Wert steht im umgekehrten Verhältnis zu der Anzahl und der Verfügbarkeit.~
+@274 = ~(Ihr denkt einen Moment nach) Vielleicht müssen viele Menschen erst was verlieren, um zu erkennen, wie wertvoll einst ihr Besitz war.~
+@276 = ~Hängt es nicht davon ab, wie man etwas betrachtet. Der wirkliche Wert einer Sache ist grundsätzlich unverändert, nur das Verständnis der Leute von sich und der Welt ist unterschiedlich.~
+@278 = ~Nein, zumindest denke ich nicht so.~
+@280 = ~Ich... weiß nicht.~
+@282 = ~Die meiste Zeit geht es, wie Ihr sagt, (er lächelte, und nahm viele Goldmünzen aus seinem Beutel), um die Belohnung.~
+@284 = ~Das war eine sehr traurige Sache, (sagte er leichthin, dann nahm er einen zweiten Gegenstand aus dem Beutel) Ich habe hier einige Gegenstände aus meiner Heimatstadt, diese sollten eine angemessene Belohnung für Euer Geschenk sein.~
+
+@288 = ~Ihr seht Dinge sehr vernünftig, Eure Ansicht ist auch sehr interessant, Ihr scheint zu "wissen"...
+(Er betonte absichtlich das Wort "wissen")
+Aber ich weiß nicht, ob ich selbst etwas "weiß" (er sprach geringschätzig. Die Nacht ist sternenklar.~
+@290 = ~Wa... Was?~
+@292 = ~Nichts, ich bin nur plötzlich ganz gerührt, dass auch Amn, wo Gutes und Schlechtes vermischt sind, einen so klaren Himmel hat, denn in meiner fernen Heimat kann ich die Sterne nicht sehen.~
+@294 = ~Käfige (das Wort kam Euch plötzlich in den Sinn, aber aus Versehen sprecht Ihr es aus.)~
+@296 = ~Ha... woher wisst Ihr das? Oh ja, die Vorstellung, es wäre wie ein Käfig. (Er lacht wieder, aber ein irgendwie hilfloses Lachen.)... Ihr meint, Ihr würdet den Vogel im Käfig lieben... oder?~
+@298 = ~Ich... weiß nicht, was Ihr meint.~
+@300 = ~Ein Vogel, der frei in die Außenwelt fliegen kann, ist nicht interessiert daran, zu weit wegzufliegen, er kehrt immer von selbst wieder in den Käfig zurück. Sein Körper ist frei, aber das Herz ist fest an den Käfig gebunden. Ihr meint... dies ist eine solche Situation?
+(Seine leuchtenden Augen zwingen Euch, ihm zu antworten.)~
+@301 = ~Die Fesseln des Körpers kann man nicht vergleichen mit den Fesseln unserer Herzen, vielleicht sind die Herzen aller Menschen irgendwie an die Heimat gebunden.~
+@302 = ~Ich weiß nicht, aber vielleicht steht das nicht im Widerspruch zueinander, in der Tat, durch den freien Zugang zu dem Käfig hat der Käfig seine Einschränkungen in beträchtlichem Maß verloren.~
+@303 = ~Solche Käfige gibt es nicht, der Vogel, der lange im Käfig gehalten wird, wünscht die Freiheit und wird keine Kompromisse eingehen.~
+@304 = ~Vielen Dank für Eure Meinung. (Er nickte und nahm eine Flasche mit farbloser Flüssigkeit aus seinem Rucksack) Ich habe hier eine einzigartige Getränkeflasche.~
+@305 = ~Ha... Eure Ansicht ist sehr interessant, (Lachend nimmt er eine Flasche mit farbloser Flüssigkeit aus seinem Rucksack)
+
+Hhm, ich habe hier eine einzigartige Getränkeflasche.~
+@306 = ~Vielen Dank für Eure Meinung. (Sagte er leichthin, dann nahm er einen zweiten Gegenstand aus dem Beutel.)
+
+Ich habe hier einige Gegenstände aus meiner Heimatstadt, diese sollten eine angemessene Belohnung für Euer Geschenk sein~
+@307 = ~Wirklich, Ihr müsst diese annehmenn...
+(Er holte eine Flasche mit farbloser Flüssigkeit aus seinem Rucksack)
+Hhm, (lächelt) Ich habe hier reines "Wasser".~
+@308 = ~Also gut, Ihr wollt, dass ich die Frage mit einer Frage beantworte.
+(Lachend nimmt er eine Flasche mit farbloser Flüssigkeit aus seinem Rucksack)
+
+Hhmm, ich habe hier eine einzigartige Getränkeflasche, wenn Ihr dorthin zurückkehrt.~
+
+@310 = ~Kann ich sonst noch etwas für Euch tun?~
+@312 = ~Ich denke, es ist Zeit für eine Reise zurück in die Kneipe. Auf Wiedersehen, mein Freund.
+
+(Ihr habt kaum eine Gelegenheit, etwas zu sagen, als er plätzlich zurückweicht und in einem weißem Lichtblitz spurlos verschwand.)~ ~Ich denke, es ist Zeit für eine Reise zurück in die Kneipe. Auf Wiedersehen, meine Freundin.
+
+(Ihr habt kaum eine Gelegenheit, etwas zu sagen, als er plätzlich zurückweicht und in einem weißem Lichtblitz spurlos verschwand.)~
+
+@313 = ~Ich denke, es ist Zeit, zurück in die Kneipe zu reisen. Auf Wiedersehen, mein Freund.
+
+(Kaum hat er zu Ende gesprochen, als er wie beim letzten Mal mit einem Lächeln auf den Lippen verschwindet.)~ ~Ich denke, es ist Zeit, zurück in die Kneipe zu reisen. Auf Wiedersehen, meine Freundin.
+
+(Kaum hat er zu Ende gesprochen, als er wie beim letzten Mal mit einem Lächeln auf den Lippen verschwindet.)~
+@314 = ~Ich weiss.~
+@315 = ~Vielen Dank, meine Freunde, wisst Ihr, es mehr als Ihr Euch vorstellen könnt und sogar noch wichtiger.
+(Mit einem langen Zischen des Atems nimmt er einige Gegenstände aus dem Rucksack und eine Menge Goldmünzen)
+
+Diese sind alle im Austausch für Euch, mögen sie Euch auf Eurer Reise helfen.~
+@400 = ~Menge von... (rülpst)~

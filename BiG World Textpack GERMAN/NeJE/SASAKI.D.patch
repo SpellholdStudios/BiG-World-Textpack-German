@@ -1,0 +1,18 @@
+--- NeJE\dlg\SASAKI.D	Wed Dec 29 15:35:40 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\SASAKI.D	Tue Apr 09 19:37:10 2019
+@@ -1,13 +1,13 @@
+ BEGIN ~SASAKI~ 74284
+ 
+ IF ~Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 0
+-  SAY ~Yoshimo-san, I am glad to see you.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~OR(2)
+ !InPartySlot(LastTalkedToBy,0)
+ !Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 1
+-  SAY ~Greetings to you. I am Sasaki.  I am always pleased to meet one of my brother's associates.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END

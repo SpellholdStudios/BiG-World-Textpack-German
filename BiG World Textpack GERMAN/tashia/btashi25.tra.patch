@@ -1,0 +1,10 @@
+--- tashia\deutsch\btashi25.tra	Tue Jul 25 23:59:30 2006
++++ C:\BWP Patchstudio\patched files\tashia\deutsch\btashi25.tra	Fri Jul 15 08:39:05 2011
+@@ -216,6 +216,7 @@
+ @215  = ~Wir wissen beide, wie so etwas enden würde, und du machst jedenfalls nicht den Eindruck, dass du so dumm bist, Sarevok. Ich gebe dir den Rat, diesmal einen anderen Weg einzuschlagen, und wenn du trotzdem das Leben eines Schurken leben willst, bleib soweit wie möglich fern von <CHARNAME>.~
+ @216  = ~Das Leben lehrt uns die wichtigste Lektion nur einmal, Sarevok. Ob du diesen Rat annimmst oder ihn zur Seite schiebst, ist allein deine Entscheidung.~
+ @217  = ~Ich habe nur eine einfache Frage gestellt und deine Antwort ist in eine lange Belehrung ausgeartet. Hau ab, Weib!~
++@218  = ~Du solltest darüber nachdenken.~
+ @219  = ~Genug! Ich werde mich nicht weiter mit dir abgeben, Hexe.~
+ @220  = ~Hey! Das ist meine Decke, die du da genommen hast!~
+ @221  = ~He he!~

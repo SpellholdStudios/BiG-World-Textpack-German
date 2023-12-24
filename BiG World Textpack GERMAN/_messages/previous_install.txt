@@ -1,0 +1,4 @@
+Vorherige Installation des Big World Textpack erkannt!
+Dieses Textpack kann nicht mehrmals installiert werden.
+Wenn Ihr sicher seid, dass Ihr es noch nicht zuvor ausgefÅhrt habt, sucht
+die Datei BWP_Textpack.installed im aktuellen Verzeichnis und lîscht sie.

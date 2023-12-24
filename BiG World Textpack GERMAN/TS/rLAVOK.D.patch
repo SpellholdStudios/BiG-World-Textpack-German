@@ -1,0 +1,61 @@
+--- TS\bgtdlg\rLAVOK.D	Tue Aug 29 23:51:35 2006
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rLAVOK.D	Thu May 05 10:45:02 2016
+@@ -2,7 +2,7 @@
+ 
+ IF WEIGHT #5 ~Global("LavokOutside","GLOBAL",1)
+ ~ THEN BEGIN 27
+-  SAY ~Ah, it is the sky, after all.  I had forgotten how it looked after so long.  I thank you... I... I wish...~ [LAVOK17]
++  SAY @0
+   IF ~~ THEN DO ~EraseJournalEntry(6509)
+ EraseJournalEntry(6534)
+ EraseJournalEntry(7994)
+@@ -37,13 +37,11 @@
+ AddXPObject(Player6,45500)
+ DestroyItem("MINHP1")
+ Kill(Myself)
+-~ SOLVED_JOURNAL ~Lavok is dead, the sphere returned.
+-
+-The planar sphere has returned to our home plane, and I have fulfilled my end of the bargain by bringing Lavok outside of the sphere to die under his home sky.  He passed peacefully and with little comment other than to thank me.~ EXIT
++~ SOLVED_JOURNAL @1 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~Take the planar sphere, mage.  I grant it to you, in payment for my release.  Use it... use it far more wisely than I ever did...~
++  SAY @2
+   IF ~~ THEN DO ~EraseJournalEntry(6509)
+ EraseJournalEntry(6534)
+ EraseJournalEntry(7994)
+@@ -73,13 +71,11 @@
+ SetGlobal("PCSphere","GLOBAL",1)
+ DestroyItem("MINHP1")
+ Kill(Myself)
+-~ SOLVED_JOURNAL ~Lavok is dead, the sphere returned.
+-
+-Lavok has returned the sphere to our home plane and is now dead.  Before he died, however, he granted the sphere to me... perhaps because I am a magic-user myself, I do not know.  He asked me to use the construct wisely... more wisely than himself... and then died.  What secrets lay in the place and how it even operates, I am not sure... but it is a grander base than any other mage might have, that is certain.~ EXIT
++~ SOLVED_JOURNAL @3 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~I... am most grateful.  If... you could but carry me, my strength has all but fled... my last moments... are upon me...~ [LAVOK15]
++  SAY @4
+   IF ~~ THEN DO ~StartCutSceneMode()
+ FadeToColor([30.0],0)
+ Wait(1)
+@@ -103,7 +99,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 60 // from: 62.0 59.0
+-  SAY ~... I... I wish I had... had...  ah...~ /* #37292 */
++  SAY @5 /* #37292 */
+   IF ~~ THEN DO ~EraseJournalEntry(6509)
+ EraseJournalEntry(6534)
+ EraseJournalEntry(7994)
+@@ -135,7 +131,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 62
+-  SAY ~Yes... I see that you are.  I... I grant you the sphere, mage.  Do... do with it far... far better than I ever did.  It is yours... to use wisely...~
++  SAY @6
+   IF ~~ THEN DO ~EraseJournalEntry(6509)
+ EraseJournalEntry(6534)
+ EraseJournalEntry(7994)

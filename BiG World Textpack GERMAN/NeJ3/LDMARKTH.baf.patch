@@ -1,0 +1,29 @@
+--- NeJ3\baf\LDMARKTH.baf	Tue Jun 03 02:40:30 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDMARKTH.baf	Wed Apr 10 10:33:57 2019
+@@ -3,7 +3,7 @@
+   See(NearestEnemyOf(Myself))
+ THEN
+   RESPONSE #100
+-  	DisplayStringHead(Myself,~Guards!~)
++  	DisplayStringHead(Myself,@0)
+     SetGlobal("MAP_GROUP_HOSTILE5","MYAREA",1)
+     Continue()
+ END
+@@ -12,7 +12,7 @@
+   See(NearestEnemyOf(Myself))
+ THEN
+   RESPONSE #100
+-  	DisplayStringHead(Myself,~Guards!~)
++  	DisplayStringHead(Myself,@0)
+     AttackReevaluate(LastSeenBy(Myself),75)
+ END
+ 
+@@ -22,7 +22,7 @@
+ THEN
+   RESPONSE #100
+     Enemy()
+-    DisplayStringHead(Myself,~Guards!~)
++    DisplayStringHead(Myself,@0)
+     SetGlobal("MAP_GROUP_HOSTILE5","MYAREA",1)
+     Continue()
+ END

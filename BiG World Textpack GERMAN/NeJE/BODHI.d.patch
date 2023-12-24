@@ -1,0 +1,21 @@
+--- NeJE\dlg\BODHI.d	Wed Sep 19 08:07:52 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BODHI.d	Tue Apr 09 19:35:21 2019
+@@ -91,15 +91,15 @@
+ !IsValidForPartyDialog("Aerie")
+ !IsValidForPartyDialog("Viconia")
+ !IsValidForPartyDialog("Korgan")
+-Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY ~It seems I don't have much choice in this matter. I need to see Armagaran Vulova.~ GOTO 46
++Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY @0 GOTO 46
+ END
+ 
+ EXTEND_BOTTOM BODHI 131
+-  IF ~Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY ~It seems I don't have much choice in this matter. I need to see Armagaran Vulova.~ GOTO 46
++  IF ~Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY @0 GOTO 46
+ END
+ 
+ EXTEND_BOTTOM BODHI 132
+-  IF ~Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY ~It seems I don't have much choice in this matter. I need to see Armagaran Vulova.~ GOTO 50
++  IF ~Global("VP_ResqueLeina","GLOBAL",8)~ THEN REPLY @0 GOTO 50
+ END
+ 
+ //_____________________________________________________//

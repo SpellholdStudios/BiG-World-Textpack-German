@@ -1,0 +1,154 @@
+@0  = ~Grüße, ich weiß nicht, wer Ihr seid, aber ich spüre eine starke Macht in Euch. Lasst Euch mich kurz vorstellen - mein Name lautet Jarikasar, aber besser bekannt bin ich als "Der Dunkle Sänger". Mein ganzes Leben ist eine Reise durch die Reiche, immer auf der Suche nach Schrecken und Heldenmut, um den Stoff für neue Lieder zu finden.~ 
+@1  = ~Ich suche nach jemandem aus dieser Gegend, der ausreichend Mut und Wissen besitzt, um einen kleinen Wettstreit einzugehen. Normalerweise hätte nur ein Barde die nötigen Fähigkeiten, aber ich bemerke in Euch etwas Besonderes. Ihr könntet die Person sein, nach der ich suche...~
+@2  = ~Dürfte ich Euch zuvor einige Fragen stellen?~ 
+@3  = ~Ich habe keine Zeit für solche Geschichten, macht's gut.~
+@4  = ~Wie schade, dass Ihr keine Zeit habt, mein Freund... Ich hatte Euch für etwas Besonderes gehalten. Vielleicht ein ander Mal.~ ~Wie schade, dass Ihr keine Zeit habt, meine Freundin... Ich hatte Euch für etwas Besonderes gehalten. Vielleicht ein andern Mal.~ 
+@5  = ~Wie Ihr wünscht. Es ist mir ein Vergnügen, Eure Fragen zu beantworten.~
+@6  = ~Ihr habt was von einem Wettstreit gesagt. Worum geht es genau?~
+@7  = ~Wie könnt Ihr wissen, dass ich eine innere Kraft besitze?~ 
+@8  = ~Ihr seid ein Drow... Was macht Ihr in dieser Stadt?~
+@9  = ~Hmmm.... Ich sehe, dass Ihr an dem Wettstreit interessiert seid. Gut, gut, lasst Euch gesagt sein, dass es da ein magisches Artefakt gibt, das ich loswerden muss. Natürlich ist es äußerst mächtig und ich kann es nicht jedem in die Hände geben, ehe derjenige sich nicht als würdig erwiesen hat.~ 
+@10 = ~Es ist ja nicht so, dass mir diese erbärmlichen Oberflächenbewohner irgendwas bedeuten würden. Verschwenden soviel Zeit damit, herumzutollen, wo auch immer ihr Herz sie hinträgt. Hahaha.~
+@11 = ~Nun, ich glaube, ich schweife ein wenig ab. Ich suche jemanden, der großes Wissen und Heldenmut besitzt. Der Wettstreit dreht sich um Folgendes: Während meiner langen Reisen traf ich große Helden und Schurken, erlebte tolle Geschichten von einizigartigen Erfolgen und Katastrophen. Während dieser Zeit habe ich die größten Lieder der größten Barden der Oberfläche aufgeschrieben und zusammengestellt.~
+@12 = ~Nun denn, ich werde ein Lied singen und falls Ihr das nötige Wissen besitzt, nach dem ich suche, solltet Ihr fähig sein, mir die die letzte fehlende Zeile zu sagen. Der einzige Haken an der Sache: Wenn Ihr scheitert, muss ich Euch bestrafen und Ihr müsst drei weitere Lieder beenden. Seid Ihr einverstanden?~ 
+@13 = ~Nun gut, ich nehme den Wettstreit an, Drow. Mal sehen, ob ich die Person bin, nach der Ihr sucht.~
+@14 = ~Das klingt mir wohl doch zu hart. Ich habe nicht dieses Wissen, nach dem Ihr sucht. Lebt wohl. Für sowas habe ich keine Zeit.~ 
+@15 = ~Glaubt mir oder glaubt mir nicht, mein Freund. Ich bin äußerst mächtig. Ich habe die Oberfläche viele Jahre lang bereist und die Bewohner studiert. Ich kann leicht erkennen, wer besonders ist und wer nicht.~ ~Glaubt mir oder glaubt mir nicht, meine Freundin. Ich bin äußerst mächtig. Ich habe die Oberfläche viele Jahre lang bereist und die Bewohner studiert. Ich kann leicht erkennen, wer besonders ist und wer nicht.~
+@16 = ~Hmmm... Ihr wollt also meine Geschichte hören. Nun gut, ich werde sie Euch erzählen...~
+@17 = ~Ich bin ein Exilant aus Menzoberranzan. Es reicht zu sagen, dass ich in eine zwielichte Intrige um einige Magier, einen Meuchelmörder und ein  gestohlenes Artefakt verwickelt war... Aber ich will Euch nicht unnötig langweilen.~
+@18 = ~Ihr wollt wissen, was mich in diese Menschenstadt getrieben hat? Nun, ich war gezwungen aus der Unterwelt zu fliehen und Zuflucht auf der Oberfläche zu suchen. Ihr könnt sicher sein, dass das für einen Drow nicht gerade angenehm ist. Über die Jahre wuchs mein Interesse an den Liedern der Oberflächenbewohner und was wäre ein besserer Ort dafür als diese Stadt... mit all seinen Gerüchten um Krieg, hier gibt es viele Lieder zu schreiben.~ 
+@19 = ~Seid Ihr wirklich sicher, dass Ihr diesen Wettstreit annehmen wollt? Nehmt es nicht zu leicht. Wenn Ihr fehlschlagt, werde ich einige Monster gegen Euch beschwören.~
+@20 = ~Falls das Artefakt, das Ihr loswerden wollt, wirklich so mächtig ist, wie Ihr sagt, werde ich den Wettstreit aufnehmen.~ 
+@21 = ~Wenn ich da an all meine Abenteuer denke, habe ich sicher ziemlich viel Wissen über die Reiche angesammelt. Ich denke, es dürfte einfach werden.~ 
+@22 = ~Was die beschworenen Monster angeht... Nicht, dass ich Angst hätte; es ist nur, dass mir gerade jetzt einfällt, dass ich noch andere wichtige Dinge zu erledigen habe.~
+@23 = ~Also gut, hier kommt das erste Lied.~ 
+@24 = ~Auf Selunes Pfaden dahin sie zogen,
+kein Stein entlang blieb unberührt.
+Nur sechs noch lebend nach heft'gen Schlachtenwogen,
+zu letztem Sieg es sie geführt.
+
+Welch wüste Flut hinabschwoll da den Pass,
+gierig dürstend nach silbernem Geschmeid'.
+Düster Nebel verbarg der zwei mal hundert Hass,
+gezückt, gespannt zu Donnersturm bereit.
+
+Gen Himmel hoch der Pfeile Schwarm
+und Stein und Fels aufs Felde fliegt,
+der Orken Blut rann rot und warm,
+ihr Lebenssaft ohn' Griff zur Klinge rasch versiegt.
+
+Von der Klippe jäh ein Donnerschlag!
+Was lichtern Blitz nun wohl erhellen mag?~
+@25 = ~Vieler Männer trauriger Tod,
+ihre letzte Ruh glänzt scharlachrot.
+
+Sie stürmen heran mit Grimm und Wut,
+tollkühn nach vorne ob drohender Schmach.
+doch an den Felsen zerbrach ihr Mut,
+keines der Monster die Reihen durchbrach.
+
+Je Klinge fünf Orken ihr Ende fanden,
+ehe zurückwichen die niederen Horden.
+Und unter den Felsen, die ewiglich standen,
+blieb blutige Ernte von Töten und Morden.
+
+Auf Selunes Pfaden dahin sie zogen,
+kein Stein entlang blieb unberührt.
+Nur sechs noch lebend nach heft'gen Schlachtenwogen,
+...~
+@26 = ~in der Nacht wurden sie abgeführt.~
+@27 = ~zu letztem Sieg es sie geführt.~
+@28 = ~der vereehrte Mond sie angeführt.~
+@29 = ~Einfach nur glücklich, weil sie überlebt hatten.~
+@30 = ~Ihr liegt daneben. Verzeiht, mein Freund, aber ich muss Euch bestrafen und Ihr müsst es nochmal versuchen.~ ~Ihr liegt daneben. Verzeiht, meine Freundin, aber ich muss Euch bestrafen und Ihr müsst es nochmal versuchen.~
+@31 = ~Mmmm... Recht so. Das Lied ist unter dem Namen "Mondlichtstriumph" bekannt. Und jetzt zum nächsten.~
+@32 = ~Fahrt fort.~
+@33 = ~Ihr seid zurück. Was kann ich für Euch tun? Wollt Ihr den Wettstreit mit mir nun aufnehmen? ~
+@34 = ~Lasst uns damit beginnen.~
+@35 = ~Ich möchte Euch erst einige Fragen stellen.~
+@36 = ~Ich war nur gerade in der Gegend und wollte Euch Hallo sagen.~
+@37 = ~Es ist immer schön, wenn jemand an einem interessiert ist, aber ich würde es vorziehen, wenn Ihr mich nur behelligt, wenn es wirklich wichtig ist.~
+@38 = ~Nie mehr schwör'n Liebende sich die Treue,
+oder starren empor zum Himmelszelt.
+Nie mehr singen und tanzen die Kinder,
+oder träumen von ferner Wunderwelt.
+
+(REFRAIN)
+Von all jenen blieb nur bleiches Gebein,
+zertreten die Träume, die einst geboren,
+Ein Meer von Orks brach darüber hinein,
+Myth Glaurach war verloren.
+
+Nie mehr ragen Türme zum Himmel hinauf,
+oder werfen tief ihre Schatten aufs Land.
+Nie mehr werden Steine in Mauern gefügt,
+zu trutziger Festung durch fleißige Hand.
+
+(REFRAIN)
+
+Nie mehr tragen Felder goldenes Korn,
+oder bringt süßer Quell den blauen Saft.
+Nie mehr bergen Bücher weises Wort,
+...
+~
+@39 = ~oder lehren altes Gut mit neuer Kraft.~
+@40 = ~oder träumen von ferner Wunderwelt.~
+@41 = ~oder fällt der Zeiten letzte Nacht.~
+@42 = ~oder tragen die Bäume süße Frucht.~
+@43 = ~Ihr liegt daneben und es war nicht das erste Mal. Verzeiht, mein Freund, aber ich muss Euch bestrafen und Ihr müsst nochmal von vorn anfangen.~
+@44 = ~Großartig, fabelhaft! Ich wusste stets, dass in Euch großes Potenzial ruht. Diese Ballade nennt sich "Im Sog der Horde". Sollen wir zum nächsten übergehen?~
+@45 = ~Ja, fahrt fort.~
+@46 = ~Gnome, sie kommen, Gnome, sie gehen,
+Doch nun heißt es, die Felder zu besehen.
+Den Ruhm ham die Menschen, aber wir Wichte?
+Mal wieder vergessen, die alte Geschichte!
+
+(REFRAIN)
+Sind wir auch hier, sind wir auch dort,
+wie die Menschen 'türlich an jedem Ort!
+Sind wir auch hübsch, doch so sind Elben,
+solch Leute sehen nur sich selben!
+Sind wir auch stämmig, doch so sind Zwerge,
+fürchten wir zwar keine Wellenberge!
+Sind wir auch klein, doch so sind Hin,
+haben wir zwar Haar an uns'rem Kinn!
+Sind wir auch grimmig, doch so sind Orklein,
+schmecken wir zwar nicht so wie ein Suhlschwein!
+Sind wir auch hier, sind wir auch dort,
+dies Los folgt uns an jeden Ort!
+
+Gnome, sie kommen, Gnome, sie gehen,
+Doch nun heißt es, den Wald zu besehen.
+Den Ruhm ham die Elfen, aber wir Wichte?
+Mal wieder vergessen, die alte Geschichte!~
+@47 = ~(REFRAIN)
+
+Gnome, sie kommen, Gnome, sie gehen,
+Doch nun heißt es, die Gemmen zu besehen.
+Den Ruhm ham die Zwerge, aber wir Wichte?
+Mal wieder vergessen, die alte Geschichte!
+
+(REFRAIN)
+
+Gnome, sie kommen, Gnome, sie gehen,
+Doch nun heißt es, die Musik zu besehen.
+Halben Ruhm ham die Hin, aber wir Wichte?
+Mal wieder vergessen, die alte Geschichte!
+
+(REFRAIN)
+
+Gnome, sie kommen, Gnome, sie gehen,
+Doch nun heißt es, rein gar nichts zu besehen.
+Den Ruhm ham die Orks, aber wir Wichte?
+...
+~
+@48 = ~Gnome, sie kommen, Gnome, sie gehen.~
+@49 = ~Den Ruhm ham die Trolle, aber wir Wichte?~
+@50 = ~Den Ruhm ham die Drachen, aber wir Wichte?~
+@51 = ~Nicht unser Problem, nicht unsre Geschichte!~
+@52 = ~Mmm... Das schmerzt! Ihr wart so gut, aber dann habt Ihr's verrissen. Verzeiht, Freund, aber ich muss Euch bestrafen und Ihr müsst nochmal von vorn anfangen.~
+@53 = ~Oh! Ich hätte niemals gedacht, dass Ihr dieses "Gnomenlied" kennt. Ihr seid erstaunlich, ich habe mich in Euch nicht getäuscht. Ihr habt den Wettstreit erfolgreich überstanden, hier ist Euer Preis.~
+@54 = ~Nutzt es gut und weise. Nun muss ich aufbrechen. Wer weiß, ob sich unsere Pfade noch einmal kreuzen.~
+@55 = ~Der Dunkle Sänger
+
+Ich habe den Wettstreit des Dunklen Sängers durchlaufen und das Todeshorn erhalten. Aber langsam kommen mir Zweifel. Wenn es so mächtig ist, wie er sagte, warum wollte er es dann loswerden?~

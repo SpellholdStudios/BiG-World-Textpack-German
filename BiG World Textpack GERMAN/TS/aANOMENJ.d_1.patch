@@ -1,0 +1,11 @@
+--- TS\bgtnodlg\aANOMENJ.d	Wed Feb 06 22:54:19 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\aANOMENJ.d	Thu May 05 10:45:23 2016
+@@ -1,7 +1,7 @@
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN TS311
+-  SAY ~Love of God is a higher calling, then an earthly passion, but still there is a measure of truth in your words, Najoki...~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ END

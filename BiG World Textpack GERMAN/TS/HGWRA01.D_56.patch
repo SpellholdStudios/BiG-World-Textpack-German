@@ -1,0 +1,11 @@
+--- TS\bgtnodlg\HGWRA01.D	Fri Mar 21 22:17:52 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\HGWRA01.D	Thu May 05 10:46:34 2016
+@@ -18,7 +18,7 @@
+ APPEND ~HGWRA01~
+ 
+ IF ~~ THEN BEGIN TS29
+-  SAY ~What of the inevitable pain you must give to the one you love? This Linvail maid?~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("LovedOne","GLOBAL",6)~ EXTERN ~SIMEJ~ TSTOB0
+ END
+ END

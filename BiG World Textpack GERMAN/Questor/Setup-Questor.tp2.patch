@@ -1,0 +1,11 @@
+--- Setup-Questor.tp2	Wed Nov 30 14:01:12 2005
++++ C:\BWP Patchstudio\patched files\Setup-Questor.tp2	Fri Oct 30 08:35:59 2020
+@@ -5,6 +5,8 @@
+          ~Questor/english/setup.tra~
+ LANGUAGE "Russian(translation by aerie.ru)" "russian"
+          ~Questor/russian/setup.tra~
++LANGUAGE "German" "german"
++         ~Questor/german/setup.tra~
+ 
+ BEGIN @0
+ 

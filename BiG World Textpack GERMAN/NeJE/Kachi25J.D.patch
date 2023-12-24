@@ -1,0 +1,62 @@
+--- NeJE\dlg\Kachi25J.D	Thu Feb 07 23:21:08 2008
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Kachi25J.D	Tue Apr 09 19:36:28 2019
+@@ -3,30 +3,30 @@
+ IF ~Global("VP_Yoshimo_Dies","GLOBAL",2)
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN 0
+-  SAY ~Sorry, <CHARNAME>, I cannot stay with you any longer. Without Yoshimo, I have nothing to do in your party. I must go back to Kozakura. Good luck to you.~
++  SAY @0
+   IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Oh, my love, I was so worried about you!~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Yes, Yoshimo, let’s go. Sorry, <CHARNAME>... Take care...~
++  SAY @2
+   IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~There are ten millions immortal spirits we worship in Kara-Tur.~
++  SAY @3
+   IF ~Kit(Player1,KENSAI)~ THEN GOTO 4
+   IF ~!Kit(Player1,KENSAI)~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~You are now offered a destiny each samurai dreams of since his or her first steps on the path. You can join the ranks of the immortals, <CHARNAME>-san. Kachiko Nakanishi bows to you.~
++  SAY @4
+   IF ~True()~ THEN EXTERN ~FINSOL01~ 28
+   IF ~InParty("Valygar")
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN EXTERN ~VALYG25J~ 3
+@@ -67,7 +67,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~ You might become one of them. I bow to your greatness and achievement, <CHARNAME>-san.~
++  SAY @5
+   IF ~True()~ THEN EXTERN ~FINSOL01~ 28
+   IF ~InParty("Valygar")
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN EXTERN ~VALYG25J~ 3
+@@ -108,12 +108,12 @@
+ END
+ 
+ //IF ~~ THEN BEGIN 6
+-//  SAY ~Oh, my love, I was so worried about you!~
++//  SAY @1
+ //  IF ~~ THEN DO ~ActionOverride("Yoshimo",JoinParty())~ EXIT
+ //END
+ 
+ //IF ~~ THEN BEGIN 7
+-//  SAY ~Yes, Yoshimo, let’s go. Sorry, <CHARNAME>... Take care...~
++//  SAY @2
+ //  IF ~~ THEN DO ~ActionOverride("Yoshimo",EscapeArea())
+ //LeaveParty()
+ //EscapeArea())~ EXIT

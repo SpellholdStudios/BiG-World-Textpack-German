@@ -1,0 +1,12 @@
+--- setup-virtue.tp2	Sun Jul 24 15:01:22 2011
++++ C:\BWP Patchstudio\patched files\setup-virtue.tp2	Sun Jul 24 15:13:37 2011
+@@ -170,6 +170,9 @@
+ LANGUAGE ~Chinese (by killmercy)~
+          ~virtue/translations/chinese~
+          ~virtue/translations/chinese/virtue.tra~
++LANGUAGE ~German~
++         ~virtue/translations/german~
++         ~virtue/translations/german/virtue.tra~
+ 
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 

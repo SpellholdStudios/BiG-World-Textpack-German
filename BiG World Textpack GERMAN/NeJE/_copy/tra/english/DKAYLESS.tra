@@ -1,0 +1,68 @@
+@0    = ~Adventurers?  Here in the Hand of the Seldarine?  You must have fought past the horde below.  Battle ready, I take it?  Tell me, why are you here?~
+@1    = ~We seek to find Larrel.  Evil stalks the land, and we need his powers to find the source.~
+@2    = ~Very battle ready, I might add.  More than adequate to deal with another ghost if she thinks to attack us.~
+@3    = ~We seek Larrel, the only one who can summon forth the divining power of the Heartstone Gem.~
+@4    = ~A noble cause.  That's something my heart has yearned for -- what I wouldn't give to ride once again for such causes.  Well met, adventurers.  My name is Kaylessa.  I am... was... the weapons master of the Hand.~
+@5    = ~A hearty lot you are!  It's good to see the fighting spirit still alive after so many decades.  That same spirit used to drive all my thoughts and actions... before the fall.  My name is Kaylessa.  I am... was... the weapons master of the Hand.~
+@6    = ~Hmmm.  I don't know much about this Heartstone Gem, but it must be powerful indeed if only Larrel can use its powers.  My name is Kaylessa.  I am... was... the weapons master of the Hand.~
+@7    = ~With that all said, you must have some questions that need answering.~
+@8    = ~Well met, Kaylessa.  We would know more about you - you're very different than the most of the spirits we've encountered here.~
+@9    = ~As we had mentioned, we need to find Larrel.  Can you help us?~
+@10   = ~Unfortunately my questions will have to wait for now.  Farewell, Kaylessa.~
+@11   = ~When the Hand was at the pinnacle of its glory, I trained my people in the ways of combat.  No one could best my deftness with the sword or my accuracy with the bow.~
+@12   = ~All my soldiers were honed to perfection.  When we were called to battle, it did not take long before our enemies found their forces in chaos and retreat.~
+@13   = ~Those days are long gone now.  Any of my soldiers that remain are twisted shadows of their former selves.  I differ from them only in that I have retained my senses.  It is a curse, knowing what we've become and powerless to do anything about it.~
+@14   = ~Kaylessa, I'd like to talk about how to find Larrel.  Perhaps something can be done to help you if we find him.~
+@15   = ~You have my sympathies, Kaylessa.  Farewell.~
+@16   = ~Finding Larrel will not be easy.  When the Hand fell, he was damned.  He is now a Baelnorn, an elven lich-like creature doomed to live forever.  How this came about?  I do not know.~
+@17   = ~You may have seen Larrel as you have explored the Hand, but what you saw is not truly him - it is more a 'sending,' a figment of himself that wanders the Hand.  Larrel -- the true Larrel -- is atop Labelas Tower.~
+@18   = ~Every time I have seen Larrel's sending, it has rambled on like a village idiot -- with one exception.  Once, it mentioned something about Larrel's great astrolabe and how it was no longer turning.~
+@19   = ~Can you tell me more about Larrel's astrolabe?~
+@20   = ~Kaylessa, I have other questions for you.~
+@21   = ~Very interesting.  I must depart for now.~
+@22   = ~Larrel's astrolabe is a wondrous device constructed to help him and his wizards research space and time. As I recall, Larrel and his wizards were using it during the last days of the Hand.~
+@23   = ~Larrel was researching  space and time... I must know more of this astrolabe Kaylessa.~
+@24   = ~Tell me all you know of Larrel and these wizards of his. I will know everything they have discovered during this research of theirs.~
+@25   = ~Space and time you say Kaylessa...  then I need to speak with Larrel most urgently. His astrolabe, or at least his knowledge may yet be our saviour.~
+@26   = ~In the aftermath of the Hand's destruction, I found this piece of machinery, which I believe to be a piece of Larrel's astrolabe. After seeing the state of mind of most everyone left in the Hand, I have held onto it and guarded it. The last thing I wanted was someone using the power held within this piece to cause further harm to the Hand.~
+@27   = ~Kaylessa, we may need that item if we are to have Larrel help us.~
+@28   = ~If it is indeed part of the astrolabe then it is imperative that you give it to me so that I can take it to Geralith... it could be the means for me to enlist the aid of Larrel.~
+@29   = ~Kaylessa, that item you have maybe all that stands between me finding my way home or being trapped here forever... I desperately need to speak with Larrel. Please, will you give it to me?~
+@30   = ~If that item will help in my quest to speak with Larrel, then I mean to have it... one way or another.~
+@31   = ~Many thanks for your time.  Farewell.~
+@32   = ~Your intentions may be noble, but I'm afraid I cannot entrust you with this item yet.  You will need to prove yourselves first.~
+@33   = ~How?~
+@34   = ~The elves atop this tower were among my most dedicated soldiers.  Whatever curse befell the Hand not only twisted their bodies, but twisted their minds as well.  They act and live as if in the final moments of the Hand.  Forever prepared to defend against any intrusion to this tower.~
+@35   = ~What of them?~
+@36   = ~My soldiers do not deserve what has befallen them -- they deserve to die in battle.  They would want to meet their end with steel in their hands upon the battlefield.   I would ask that you climb the tower and send them to eternal rest.~
+@37   = ~Kaylessa, I have already encountered your soldiers on the upper levels. They all fought with great honor.  They rest in peace now.~
+@38   = ~To battle the soldiers of Kaylessa.
+
+We met Kaylessa in Shevarash Tower in the Severed Hand.  She has asked us to battle her soldiers and put them to proper rest.  In return, she will give us some strange piece of machinery for an astrolabe.~
+@39   = ~To battle the soldiers of Kaylessa.
+
+Kaylessa asked us to put her soldiers to rest on the field of battle.  We told her that we had already encountered them and that they all fought with great honor.~
+@40   = ~I will put them to rest as you wish.~
+@41   = ~Let me think about it.  Farewell.~
+@42   = ~You have my heartfelt thanks. Return to me when my soldiers are at peace.~
+@43   = ~I see you have returned, adventurers.~
+@44   = ~Greetings once again, Kaylessa.  You had mentioned you were the Hand's weapon master?~
+@45   = ~We still seek to find Larrel.  Can you help us?~
+@46   = ~Kaylessa, your soldiers all fought with great honor.  Their suffering has ended, and they rest now.~
+@47   = ~To battle the soldiers of Kaylessa.
+
+We returned to Kaylessa and told her all her soldiers have been put to rest.~
+@48   = ~Good to see you, Kaylessa.  I must depart.~
+@49   = ~I thank you for helping with one of my last tasks in this realm.  Before I give you your reward, I would have you help me one last time.  With my soldiers at rest, there is only one thing left for me to do - to join them.  I would ask for the honor of dying in battle.~
+@50   = ~I am not the person you should be asking, I know no more than what I have said. I am a soldier and I have no interest in the ways of the wizard.~
+@51   = ~Then I guess I will have to continue my search for Larrel and take my questions to him.~
+@52   = ~Larrel’s astrolabe  may be our only means of escaping this place Kaylessa. Please, anything you know or may have heard will be a great help.~
+@53   = ~This is very important, please Kaylissa is there nothing you can recall of Larrel’s research?~
+@54   = ~I can not believe this. Our way home may be within our grasp yet you say you know nothing about this device, Larrel... the wizard who had the machine built... wanders the tower in a state of utter confusion. Is there no one sane enough to talk with?~
+@55   = ~I am afraid you will get little from Larrel, or anyone here. When the hand fell, so did the mind and reason of almost all who dwelt within. Few escaped the curse.~
+@56   = ~Then tell me of those who did escape, maybe I can find one among them who can tell me what I need to know?~
+@57   = ~Is it possible that any who did escape the curse still wander these rooms?~
+@58   = ~I have no choice, I must speak with Larrel, and the need has become more urgent since learning of this astrolabe.~
+@59   = ~Find Geralith, he is around somewhere, probably atop the tower with Larrel. If I am right, then he will be trying to repair the astrolabe. It was he who built the machine and he who was responsible for its upkeep.~
+@60   = ~Geralith is trying to repair the astrolabe... are you saying that it is broken?~
+@61   = ~Damn! Just my luck to hear of a machine that could possibly take me home, and then in the next breath to be told it is broken! Are you sure of this Kaylessa?~

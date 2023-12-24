@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDFGNTG.BAF	Sat Dec 06 18:42:22 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDFGNTG.BAF	Wed Apr 10 10:33:51 2019
+@@ -97,7 +97,7 @@
+ 	See(NearestEnemyOf(Myself))
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Die, pipsqueak!~)
++		DisplayStringHead(Myself,@0)
+ 		AttackReevaluate(LastSeenBy(Myself),75)
+ 		Continue()
+ END

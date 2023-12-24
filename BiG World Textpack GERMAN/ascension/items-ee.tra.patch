@@ -1,0 +1,14 @@
+--- ascension\lang\german\items-ee.tra	Sat May 21 11:06:40 2022
++++ C:\BWP Patchstudio\patched files\ascension\lang\german\items-ee.tra	Mon Feb 06 14:47:42 2023
+@@ -21,8 +21,8 @@
+ Waldläufern
+ Druiden
+ Charakteren ohne chaotische Gesinnung~
+-@3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
++@3003 = ~Möglicherweise ein Gebräu von Sendai selbst, ist dies ein unglaublich starker Heiltrank, der die Trefferpunkte aller, die ihn benutzen, vollständig wiederherstellt.
+ 
+-STATISTICS:
++SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Weight: 1~
++Gewicht: 1~

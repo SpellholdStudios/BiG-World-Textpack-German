@@ -1,0 +1,24 @@
+--- NeJ3\dlg\RNASHK.d	Sat Feb 17 23:23:04 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\RNASHK.d	Wed Apr 10 10:25:05 2019
+@@ -2,18 +2,18 @@
+ 
+ IF ~True()
+ ~ THEN BEGIN 0
+-  SAY ~Beware the woods to the west, friend, for I hear tell of ogres and madmen.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~True()
+ ~ THEN BEGIN 1
+-  SAY ~Business is on the wane today, what with the fair just east of town.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~True()
+ ~ THEN BEGIN 2
+-  SAY ~Volo's blasted review cut my business in half! I'll take him for a chat out back when next I see him!~
++  SAY @2
+   IF ~~ THEN EXIT
+ END

@@ -1,0 +1,83 @@
+@0 = ~<CHARNAME>, da ich schon in der Gruppe bin, möchte ich Euch mit einigem Element der Tradition der Bruderschaft der Bierkrug-Krieger  vertraut machen.~
+@1 = ~Ja, ich höre?~
+@2 = ~Ihr meint die Spiele, bei denen man Bierkrüge auf lebendige Kobolde wirft, die an Stangen angebunden sind?~
+@3 = ~Nicht jetzt, Lester, ich habe etwas anderes im Kopf.~
+@4 = ~Nein, ich will nicht darüber sprechen, nebenbei bemerkt sind Kobolde nicht an Stangen gebunden, sie hängen nur an ihnen mit den Köpfen nach unten, damit sie schwerer zu treffen sind.~
+@5 = ~Dann lasst hören.~
+@6 = ~Nein, wirklich, ich will Eure Geschichten nicht hören.~
+@7 = ~So wird von jedem Bierkrug-Krieger erwartet, (zusätzlich zum Kampf gegen das Böse und Abstinentler), ein Loblied zu Ehren des Gottes des Bieres, dem Bier selbst oder den legendären Mitgliedern unserer Bruderschaft zu komponieren.~
+@8 = ~Wenn es Euch nichts ausmacht, stelle ich Euch jetzt mein erstes vollendetes Stück meines Liedes vor.~
+@9 = ~Mit Vergnügen! Hey, hört her, Lester will singen! Nur Mut, Lester!~
+@10 = ~Mit Vergnügen! Ich höre zu, nur Mut, Lester!~
+@11 = ~Oh nein, nur das nicht! Bitte, nicht singen!~
+@12 = ~Das ist mein Lied zu Ehren des edelsten aller Getränke.~
+@13 = ~Ähm...~
+@14 = ~Bierkrug, Bierkrug,
+Aus dem alle Macht kommt
+Gib mir mehr Kraft,
+Du bist wert das ganze Geld.~
+@15 = ~Bravo! Sing weiter!~
+@16 = ~Hm, ja, sehr interessant. Aber Ihr wisst, wir müssen gehen und Ihr beendet das zu einem späteren Zeitpunkt, ja?~
+@17 = ~Pah! In diesem Fall tut es mir Leid, <PRO_LADYLORD>, dass ich Eure Privatsphäre mit derben Worten gestört habe.~
+@18 = ~Ähm... das ist alles. Mehr ist noch nicht erfunden. Aber sobald ich die nächste Strophe fertig habe, lasse ich es Euch wissen!~
+@19 = ~Gut, gut. Aber beeilt Euch nicht. Diese Dinge brauchen Zeit, wisst Ihr?~
+@20 = ~Ähm,... <CHARNAME>, seid Ihr bereit, die folgende Strophe meines Kampfliedes zu Ehren des Biers zu hören?~
+@21 = ~Ihr habt eine zweite Strophe geschrieben? Das ist fantastisch, Singt!~
+@22 = ~Hm... vielleicht ein anderes Mal? Wisst Ihr, wir müssen gehen.~
+@23 = ~Gut, ich singe alles von Anfang an.~
+@24 = ~Wieviel verdanke ich Dir
+Ohne Bier bin ich bereits begraben.
+Ich töte alle Monster,
+In der Hölle will ich heute aufräumen.~
+@25 = ~Bravo! Bravo! Unglaubliches Werk! Ich habe noch nie etwas so... ähm, inspirierendes gehört.~
+@26 = ~Bravo! Bravo! Unglaubliches Werk! Ich habe noch nie von so etwas... ähm, inspirierendem gehört.~
+@27 = ~Eure Unwissenheit über große Kunst und mein Talent ist wirklich ungewöhnlich. Erinnert mich daran, dass Ihr es nicht wisst.~
+@28 = ~<CHARNAME>, ich möchte Euch sagen, das ich die Pflicht des Bierkrug-Kriegers erfüllt habe. Ich habe das Kampflied vollendet.~
+@29 = ~Wirklich? Ich kann nicht erwarten, es bis zum Ende zu hören. Nur Mut, singt!~
+@30 = ~Wirklich? Ich kann nicht erwarten, es bis zum Ende zu hören. Nur Mut, singt!~
+@31 = ~Na und? Eure albernen Lieder interessieren mich nicht.~
+@32 = ~Ich werde von vorne beginnen und das ganze Lied singen.~
+@33 = ~Vorsicht!~
+@34 = ~Wieviel verdanke ich Dir
+Ohne Bier bin ich bereits begraben.
+Ich töte alle Monster,
+In der Hölle will ich heute aufräumen.~
+@35 = ~Wenn Ihr nicht was in die Fresse bekommen wollt,
+bestellt die nächste Runde Bier.~
+@36 = ~Bravo! Ausgezeichnet! Lester, Eure Kampflieder gehen mit der Tradition, und Ihr macht Eurer Bruderschaft der Bierkrug-Krieger alle Ehre.~
+@37 = ~Glaubt Ihr wirklich? Ich bin so aufgeregt...~
+@38 = ~Ach so? Ach wirklich?! Ausgezeichnet. Ich werde nicht singen. Ich werde nicht kämpfen, ich werde nicht einmal den Finger krümmen, wenn uns die Herde von Drachen angreift und Euch lebendig verbrennt... niederträchtiger Abstinenzler!~
+@39 = ~Ach so? Ach wirklich?! Ausgezeichnet. Ich werde nicht singen. Ich werde nicht kämpfen, ich werde nicht einmal den Finger krümmen, wenn uns die Herde von Drachen angreift und Euch lebendig verbrennt... niederträchtige Abstinenzlerin!~
+@40 = ~Gehen wir bald schlafen? Ich gebe zu, (hicks), dass ich ein wenig Angst habe...~
+@41 = ~Ihr? Ihr habt Angst? Ich dachte, dass Ihr Euch vor gar nichts fürchtet.~
+@42 = ~Ihr? Ihr habtt du Angst? Ich dachte, dass Ihr Euch vor gar nichts fürchtet.~
+@43 = ~Nun ja... vor fast nichts. Ich habe Angst, schlafen zu gehen, weil ich letzte Nacht einen Traum hatte...~
+@44 = ~Was war das für Traum? ~
+@45 = ~Nicht nur Ihr. Was für ein Traum?~
+@46 = ~Was seid Ihr für ein Waschlappen! Ihr fürchtet Euch vor Träumen?~
+@47 = ~Normalerweise nicht. Im Allgemeinen, wenn überhaupt, träume ich von den gleichen angenehmen Dingen... runde Fässer wohlschmeckender Biere, bereitwillige rosige Mädchen...~
+@48 = ~Gut, gut, ich will nicht mehr davon hören. Und was träumt Ihr unangenehmes?~
+@49 = ~Ja, ich mag diese Träume auch. Und was habt Ihr geträumt?~
+@50 = ~Nun ja... ich träumte ich von meinem Großvater...~
+@51 = ~Großvater? Und es war so schrecklich, dass Ihr so sehr Angst davor habt, zu schlafen?~
+@52 = ~Ja, jetzt verstehe ich. Großeltern sind manchmal unheimlich. Ich will gar nicht daran denken, wie mein Großvater väterlicherseits war...~
+@53 = ~Ihr kennt meinen Großvater nicht. Er ist (hick!) schrecklich... eher er war, denn er ist tot.~
+@54 = ~Es  beginnt, Besorgnis zu erregen. Sprecht.~
+@55 = ~Ich träumte, dass mein Großvater mich suchte... Schließlich fand er mich und war furchtbar wütend. Er winkte mir mit der Hand, als er wollte er mir etwas sagen, aber ich hörte kein Wort.~
+@56 = ~Brrr... wirklich unangenehm.~
+@57 = ~Mein Großvater starb vor langer Zeit, als ich ein kleiner Junge war. Er wurde in der Gegend unserer Familie begraben, in der Nähe von (hick!) Tiefwasser. Aber ich weiß, dass Geister in der Lage sind, sich zu bewegen. Vielleicht...~
+@58 = ~Vielleicht ist was?~
+@59 = ~Vielleicht, wenn wir in der Nacht auf dem örtlichen Friedhof gingen, könnten wir ihn beschwören?~
+@60 = ~Das könnte gehen. Aber wozu? Schließlich habt Ihr Angst vor Eurem Großvater.~
+@61 = ~Ja, aber es ist schließlich mein Großvater... Er war nicht schlecht, nur ein wenig (hick!) boshaft. Vielleicht hat er mir etwas Wichtiges zu sagen? Möglicherweise möchte er mich vor etwas warnen?~
+@62 = ~Ja, Ihr habt Recht, wir sollten das überprüfen. Wir gehen in der nächsten Nacht auf den Friedhof.~
+@63 = ~Ihr habt vielleicht Recht. Aber jetzt haben wir keine Zeit... können in der nächsten Woche auf den Friedhof gehen?~
+@64 = ~Einen größeren Unsinn habe ich seit langer Zeit nicht mehr gehört. Wir werden keine Geister von Großeltern hervorrufen, schlagt Euch das aus dem Kopf!~
+@65 = ~Einen größeren Unsinn habe ich seit langer Zeit nicht mehr gehört. Wir werden keine Geister von Großeltern hervorrufen, schlagt Euch das aus dem Kopf!~
+@66 = ~Vielen Dank. Ich trink auf Euch ein großes Bier!~
+@67 = ~Es ist wichtig für mich... Könnten wir nicht in der nächsten Nacht gehen? Nächste Woche könnte es zu spät sein...~
+@68 = ~Gut, gehen wir so bald wie möglich.~
+@69 = ~Nein, wir haben keine Zeit für so einen Unsinn. Ich habe wichtigere Dinge im Kopf.~
+@70 = ~Was? Ihr bildet Euch ein, dass ich für Eure Hilfe bezahle. Nun gut, vergesst den Großvater. Vergesst Lester und fahrt zur Hölle!~
+@71 = ~Ich bin enttäuscht von Euch, <CHARNAME>. Ihr habt versprochen, dass wir auf den Friedhof gehen und den Geist meines Großvaters anrufen, aber Ihr habt nicht Wort gehalten. Es bleibt mir nichts anderes übrig, als Euch zu verlassen. Es tut mir Leid.~
+@72 = ~Ich bin enttäuscht von Euch, <CHARNAME>. Ihr habt versprochen, dass wir auf den Friedhof gehen und den Geist meines Großvaters anrufen, aber Ihr habt nicht Wort gehalten. Es bleibt mir nichts anderes übrig, als Euch zu verlassen. Es tut mir Leid.~

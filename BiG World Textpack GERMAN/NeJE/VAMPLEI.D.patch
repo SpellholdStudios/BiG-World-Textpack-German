@@ -1,0 +1,16 @@
+--- NeJE\dlg\VAMPLEI.D	Wed Apr 27 01:09:07 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\VAMPLEI.D	Tue Apr 09 19:37:44 2019
+@@ -1,11 +1,11 @@
+ BEGIN ~VAMPLEI~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~As you desire Mistress. (*Leina tries to walk towards you, hissing some threat, but stops short in her steps.*)~
++  SAY @0
+   IF ~~ THEN GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I cannot hurt <CHARNAME>, Mistress. I cannot... I will take anybody's life but not his. Please, Mistress, forgive me my disobedience... punish me if you will, destroy me, but I will not harm him. I love him.~
++  SAY @1
+   IF ~~ THEN EXTERN ~C6BODHI~ leiamb2
+ END

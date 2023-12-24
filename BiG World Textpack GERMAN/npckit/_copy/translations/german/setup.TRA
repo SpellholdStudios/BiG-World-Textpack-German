@@ -1,0 +1,182 @@
+@0      = ~Veraltet~ 
+@1      = ~Throne of Bhaal wird für diese Komponente benötigt.~
+@2      = ~Diese Komponente ist nur für BGT.~ 
+@3      = ~Diese Komponente ist nicht für Tutu verfügbar.~
+@4      = ~Diese Komponente ist nur für Tutu oder BGT.~ 
+@5      = ~Diese Komponente ist nur für Tutu.~
+@3000   = ~Verbesserte Beschreibungen für Spezialmagier~
+@3001   = ~BANNWIRKER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Der Bannwirker ist ein Zauberkundiger, der sich auf Schutzmagie spezialisiert.
+
+Schule:
+- Bannzauber
+
+Entgegengesetzte Schule:
+- Veränderung~ 
+@3002   = ~BESCHWÖRER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Beschwörer ist ein Zauberkundiger, der sich darauf spezialisiert, Kreaturen und Objekte zu seiner Unterstützung herbeizurufen.
+
+Schule:
+- Herbeirufung/Beschwörung
+
+Entgegengesetzte Schule:
+- Erkenntniszauber~
+@3003   = ~SEHER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Seher ist ein Zauberkundiger, der sich auf Erkenntniszauber und Wahrsagerei spezialisiert.
+
+Schule:
+- Erkenntniszauber
+
+Entgegengesetzte Schule:
+- Herbeirufung/Beschwörung~ 
+@3004   = ~ZAUBERER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Zauberer ist ein Magieanwender, der sich auf das Manipulieren von Gedanken denkender Wesen spezialisiert.
+
+Schule:
+- Verzauberung/Bezauberung
+
+Entgegengesetzte Schule:
+- Anrufung/Hervorrufung~
+@3005   = ~ILLUSIONIST: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Illusionist ist ein Zauberkundiger, der sich darauf spezialisiert, Illusionen zu erschaffen, um Feinde zu verwirren und irrezuführen.
+
+Schule:
+- Illusion
+
+Entgegengesetzte Schule:
+- Nekromantie~
+@3006   = ~THAUMATURG: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Thaumaturg ist ein Zauberkundiger, der sich darauf spezialisiert, Energie zu manipulieren.
+
+Schule:
+- Anrufung/Hervorrufung
+
+Entgegengesetzte Schule:
+- Verzauberung/Bezauberung~ 
+@3007   = ~NEKROMANT: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Nekromant ist ein Zauberkundiger, der sich auf Magie spezialisiert, die mit dem Tod zu tun hat.
+
+Schule:
+- Nekromantie
+
+Entgegendesetzte Schule:
+- Illusion~
+@3008   = ~WANDLER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Wandler ist ein Zauberkundiger, der sich auf Magie spezialisiert, welche die physische Realität verändern kann.
+
+Schule:
+- Veränderung
+
+Entgegengesetzte Schule:
+- Bannzauber~ 
+@3100   = ~Ersetze Berserker Kit gegen Schlachtenwüter für Zwerge~
+@3101   = ~schlachtenwüter~
+@3102   = ~Schlachtenwüter~
+@3103   = ~SCHLACHTENWÜTER: Der Schlachtenwüter füllt in der Gesellschaft der Zwerge und ihrer Kultur eine bestimmte Nische aus. Er ist ein furchtloser Krieger, dazu imstande, eine wahnsinnige Wut in sich zu entfesseln, die seine Kampfkraft erhöht und seine körperlichen Eigenschaften zu verändern. Während seines Kampfrausches verzerrt sich das Gesicht des Schlachtenwüters und er beginnt mit den Zähnen zu knirschen. Speichel fließt aus seinem Mund und rinnt an seinem Bart hinab. Seine Augen vergrößern sich, werden gewölbt und werden blutunterlaufen. Die größe nimmt zu, wenn seine Muskeln anschwellen und sich sein Körper erweitert. Seine unglaubliche Kampfkraft erlaubt es ihm, länger und brutaler zu kämpfen als manch anderer Zwerg. Während seiner Wut ist er fast nicht aufzuhalten. Ein gefährlicher Gegner, der eine Gefahr für Freund und Feind gleichermaßen darstellt.
+
+Ein Schlachtenwüter kann nicht von rechtschaffener Gesinnung sein.
+
+Vorteile:
+- Kann sich 1mal täglich für 3 Stufen in Wut versetzen
+
+Nachteile:
+- Erschöpft, wenn die Wirkung des Kampfrausches endet
+- Kann keine Fernkampfwaffen benutzen, außer sie haben auch eine Nahkampfmöglichkeit~ 
+@40000  = ~Anomen ein Helm Kit geben, wenn er die Ritterprüfung besteht~
+@40001  = ~Kämpfer / Wächter des Helm~ 
+@40002  = ~Kämpfer / Priester des Helm~ 
+@41000  = ~Anomen ein Berserker Kit geben, wenn er die Ritterprüfung nicht besteht~
+@41001  = ~Berserker / Kleriker~ 
+@42000  = ~Vehindere bei dem Chaotisch Neutralen Anomen, dass er ein heiliges Symbols erhält~
+@90000  = ~Füge eine "Rote Magier"-Beschreibung zu Edwins Kit hinzu~
+@90001  = ~roter magier (beschwörer)~
+@90002  = ~Roter Magier (Beschwörer)~
+@90003  = ~ROTER MAGIER: Wenn ein Barde oder Minnesänger ein Bild der schlechten Magie und dunkelsten Zauberei heraufbeschwören möchte, muss er nur den verhassten Namen der Roten Magier von Thay erwähnen. Im Laufe der Jahrhunderte haben die raffinierten Meister dieses Reiches mächtige Magie, Spionage und hinterhältige politische Manöver kombiniert, um einen Zustand nahezu unvergeichlicher Macht zu schmieden.
+
+Die Roten Magier von Thay tragen ihren Namen wegen der karminroten Roben, die sie tragen, wenn sie auf andere ihres Standes treffen. Ansonsten ist das Anziehen dieser fließenden reichbestickten Kleidungsstücke freiwillig. In Situationen, wo ein Roter Magier versucht, Eindruck zu machen, oder seinen Stand in anderer Weise zur Schau stellen will, wird er solche Kleider tragen. Will der Magier seine Identität verbergen, wählt er natürlich ein weniger auffälliges Gewand.
+
+Rote Magier müssen von böser Gesinnung sein.
+
+Vorteile:
+- Kann zwei  pro Zauberstufe zwei Zauber extra wirken
+
+Nachteile:
+- Keine
+
+BESCHWÖRER: Der Zauberkundige strebt danach, ein Meister der magischen Energien zu sein, die er formt und als Zaubersprüche anwendet. Hierfür erkundet er fremde Sprachen und sonderbare Materialien und widmet den Großteil seiner Zeit der Erforschung der Magie. Um zu überleben, muß ein Magier auf Wissen und Verstand bauen können. Auf Abenteuerreisen sieht man Zauberkundige nur selten ohne ein Gefolge von Kämpfern und Soldaten. Es gibt verschiedene Arten (oder Schulen) der Magie und somit auch verschiedene Arten von Magiern. Ein Beschwörer ist ein Zauberkundiger, der sich darauf spezialisiert, Kreaturen und Objekte zu seiner Unterstützung herbeizurufen.
+
+Schule:
+- Anrufung/Beschwörung
+
+Entgegengesetzte Schule:
+- Erkenntniszauber~
+@140000 = ~Gib Imoen ein Abenteurer Kit~
+@140001 = ~abenteurer~
+@140002 = ~Abenteurer~
+@140003 = ~ABENTEURER: Ein Hansdampf in allen Gassen, weniger wie ein Dieb, als ein Charakter, der die Vorteile der allgemeinen Diebesfähigkeiten auf Abenteuer ausnutzt. Ein Abenteurer wird von vielen Abenteurergruppen bevorzugt, da es weniger wahrscheinlicher als bei anderen Dieben ist, dass er seine Gefährten verrät oder beraubt. Der erfolgreiche Abenteurer kennt den Wert des Vertrauens und der Zusammenarbeit, während  viele "Straßendiebe" als doppelzüngig und (manchmal wortwörtlich) hinterhältig gelten.
+
+Vorteile:
+- +20%  zu Schlösser öffnen und Fallen finden/entschärfen
+
+Nachteile:
+- Kein Multiplikator auf Hinterhältige Angriffe~
+@140004 = ~Magier / Abenteurer~
+@140005 = ~Bannwirker / Abenteurer~
+@140006 = ~Beschwörer / Abenteurer~
+@140007 = ~Seher / Abenteurer~
+@140008 = ~Zauberer / Abenteurer~
+@140009 = ~Illusionist / Abenteurer~
+@140010 = ~Thaumaturg / Abenteurer~
+@140011 = ~Nekromant / Abenteurer~
+@140012 = ~Wandler / Abenteurer~
+@141000 = ~Gebe Imoen ein Magier Kit~
+@141001 = ~Bannwirker~
+@141002 = ~Bannwirker / Dieb~
+@141100 = ~Beschwörer~
+@141101 = ~Beschwörer / Dieb~
+@141200 = ~Seher~
+@141201 = ~Seher / Dieb~
+@141300 = ~Zauberer~
+@141301 = ~Zauberer / Dieb~
+@141400 = ~Illusionist~
+@141401 = ~Illusionist / Dieb~
+@141500 = ~Thaumaturg~
+@141501 = ~Thaumaturg / Dieb~
+@141600 = ~Nekromant~
+@141601 = ~Nekromant / Dieb~
+@141700 = ~Wandler~
+@141701 = ~Wandler / Dieb~
+@141800 = ~Hasardeur / Dieb~
+@141801 = ~Hasardeur / Dieb~
+@210000 = ~Ändere Korgan's Kit zu Schlachtenwüter~
+@220000 = ~Gebe Mazzy ein richtiges Treuschwert des Arvoreen Kit~
+@220001 = ~treuschwert des arvoreen~
+@220002 = ~Treuschwert des Arvoreen~
+@220003 = ~TREUSCHWERT DES ARVOREEN: Arvoreen kommt am nächsten einem Kriegsgott für Halblinge gleich. Er ist ein Gott der strengen Verteidigung aggresiven Wachsamkeit, der immer auf Überfälle in die Länder der Halblinge vorbereitet ist, um feindliche Kreaturen beim ersten Anzeichen von Ärger zurückzuschlagen. Arvoreen wird vor allem von Kämpfern der Halblinge verehrt.
+
+Krieger, welche die Kirche von Arvoreen betreten, und sich würdig erweisen, steigen in den Rang eines Treuschwert auf. Treuschwerter sind die Beschützer und Verteidiger von Halblingsgemeinden. Sie ziehen regelmäßig auf Patrouille, immer auf der Suche nach dem geringsten Hinweis einer Bedrohung. Viele Treuschwerter ziehen regelmäßig auf Abenteuer aus, um magische Wachen und Schutzgegenstände aller Art zu bekommen.
+
+Treuschwerter des Arvoreen müssen Halblinge von Rechtschaffen Guter, Neutral Guter oder Rechtschaffen Neutraler Gesinnung sein.
+
+Vorteiles:
+- Einmal täglich Hände auflegen (heilt 1 Schadenspunkt pro Stufe)
+- Einmal täglich Böses entdecken (wie der gleichnamige Stufe-1-Priesterzauber)
+- Kann ab der 3. Stufe einmal täglich Stärke wirken (wie der gleichnamige Stufe-2-Magierzauber)
+- Kann ab der 5. Stufe einmal täglich Ermutigen auf Stufe 5 wirken und wiederum einmal täglich pro Stufe
+- Kann ab der 7. Stufe einmal täglich Glyphe der Abwehr (wie der gleichnamige Stufe-3-Priesterzauber)
+- Kann ab der 9. Stufe einmal täglich Stärke übertragen wirken (wie der gleichnamige Stufe-3-Priesterzauber)
+- Kann ab der 11. Stufe einmal täglich Hast wirken (wie der gleichnamige Stufe-3-Magierzauber, aber nur auf sich selbst)
+- Kann ab der 14. Stufe einmal täglich Vereinte Kräfte wirken (wie der gleichnamige Stufe-5-Priesterzauber)
+
+Nachteiles:
+- Kann sich nur auf Kurzschwerter, Kurzbögen und Schleudern spezialisieren~
+@230000 = ~Ändere Minsc's Titel zu Rashemi-Waldläufer~
+@230001 = ~Rashemi-Waldläufer~
+@250000 = ~Gebe Nalia ein Abenteurer Kit~
+@251000 = ~Gebe Nalia ein Magier Kit~
+@280000 = ~Gebe Sarevok ein richtiges Todesbringer Kit~
+@280001 = ~todesbringer~
+@280002 = ~Todesbringer~
+@280003 = ~TODESBRINGER: Ein Todesbringer ist nicht, wie der Name vermuten lässt, ein blutrünstiger Mörder, aber ein Meister in der Kunst der Einschüchterung im Kampf. Jede Haltung und Gestik ist so konzipiert, um die Angst ihrer Gegner zu maximieren und ihre eigene zu minimieren. Ziel ist es, den Gegner so in Schrecken zu versetzen, dass sie nicht in der Lage sind, sich zu wehren. Schließlich ist es ihnen möglich, mit einem Schlag zu töten, der nicht  durch körperlichen Schaden sondern durch Gedankenkraft ausgeführt wird.
+
+Der erste Instinkt eines Todesbringers ist es, Furcht zu verursachen. Als Ergebnis ist es schwierig für den Todesbringer, Leute nicht einzuschüchtern, wenn er beschließt, sie wirklich nicht einschüchtern zu wollen. Ihre Körpersprache außerhalb des Kampfes macht Leute zögernd und besorgt. Allerdings können sie Angst leicht erkennen und jede Art davon in sich unterdrücken. Ihr Ziel ist es, ihre Feinde mit Angst zu erfüllen, während sie ihnen selbst keine einjagen können.
+
+Vorteile:
+- Immunität gegen Furcht und moralisches Versagen
+- Kann ab Stufe 6 einmal täglich für 5 Stufen "Spuk" wirken (identisch mit dem Stufe-1-Magierspruch)
+- Erhält auf Stufe 11 level Todesbringer Angriff
+
+Nachteile:
+- Erhält -3 Punkte Strafe auf Weisheit und Charisma~

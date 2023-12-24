@@ -1,0 +1,27 @@
+--- NeJ3\dlg\POGHM5.d	Sat Feb 17 23:55:30 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\POGHM5.d	Wed Apr 10 10:25:04 2019
+@@ -2,19 +2,19 @@
+ 
+ IF ~RandomNum(2,1)
+ ~ THEN BEGIN 0
+-  SAY ~I am pleased to see that you have taken time to pay tribute to wise Oghma.~
+-  IF ~~ THEN REPLY ~I was wondering what you had to offer at this temple of wisdom?~ DO ~StartStore("tem2304",LastTalkedToBy(Myself))
++  SAY @0
++  IF ~~ THEN REPLY @1 DO ~StartStore("tem2304",LastTalkedToBy(Myself))
+ ~ EXIT
+-  IF ~~ THEN REPLY ~Good day to you.~ GOTO 2
++  IF ~~ THEN REPLY @2 GOTO 2
+ END
+ 
+ IF ~RandomNum(2,2)
+ ~ THEN BEGIN 1
+-  SAY ~Good friend, would you like me to give you a sermon on the wisdom of Oghma?  No, well perhaps another time.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~It would be wise for you to leave THEN.  Now.~
++  SAY @4
+   IF ~~ THEN EXIT
+ END

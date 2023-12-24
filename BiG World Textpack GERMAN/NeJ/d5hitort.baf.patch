@@ -1,0 +1,23 @@
+--- NeJ\baf\d5hitort.baf	Wed Jan 19 13:41:48 2005
++++ C:\BWP Patchstudio\patched files\NeJ\baf\d5hitort.baf	Wed Apr 10 10:28:57 2019
+@@ -2,16 +2,16 @@
+ 	!Allegiance(Myself,ENEMY)
+ THEN
+ 	RESPONSE #25
+-		DisplayStringHead(Myself,~Hmm, hmm. Clean the tools, clean the tools.~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(10)
+ 	RESPONSE #25
+-		DisplayStringHead(Myself,~Excellent instrument. Excellent.~)
++		DisplayStringHead(Myself,@1)
+ 		Wait(10)
+ 	RESPONSE #25
+-		DisplayStringHead(Myself,~So, so much to do.~)
++		DisplayStringHead(Myself,@2)
+ 		Wait(10)
+ 	RESPONSE #25
+-		DisplayStringHead(Myself,~Pefect. I need to experiment with this instrument.~)
++		DisplayStringHead(Myself,@3)
+ 		Wait(10)
+ END
+ 

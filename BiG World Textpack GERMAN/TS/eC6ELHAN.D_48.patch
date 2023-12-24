@@ -1,0 +1,9 @@
+--- TS\bgtnodlg\eC6ELHAN.D	Sat Feb 02 22:09:34 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\eC6ELHAN.D	Thu May 05 10:46:30 2016
+@@ -1,4 +1,4 @@
+ EXTEND_BOTTOM C6ELHAN2 70
+-  IF ~PartyHasItem("misc7l")~ THEN REPLY ~Elhan! I've the half vampire body of Valygar here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
+-  IF ~PartyHasItem("miscbsim")~ THEN REPLY ~Elhan! I've the half vampire body of Sime here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
++  IF ~PartyHasItem("misc7l")~ THEN REPLY @0 EXTERN C6ELHAN 76
++  IF ~PartyHasItem("miscbsim")~ THEN REPLY @1 EXTERN C6ELHAN 76
+ END

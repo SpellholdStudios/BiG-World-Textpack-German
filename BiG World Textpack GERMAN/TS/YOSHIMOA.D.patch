@@ -1,0 +1,23 @@
+--- TS\bgtdlg\YOSHIMOA.D	Thu Jan 06 16:45:37 2005
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\YOSHIMOA.D	Thu May 05 10:45:22 2016
+@@ -1,17 +1,17 @@
+ BEGIN ~YOSHIMOA~
+ 
+ IF ~Global("VP_YoshimoExcuse","GLOBAL",3)~ THEN BEGIN 0
+-  SAY ~Yoshimo, I came for you... for your black heart... for your soul.~
++  SAY @0
+   IF ~~ THEN EXTERN ~YOSHJ~ TS219
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I have a contract for your soul. You cannot live your miserable life with this burden anymore.~
++  SAY @1
+   IF ~~ THEN EXTERN ~YOSHJ~ TS220
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I have no choice but to force you to give me your heart and your soul.~
++  SAY @2
+   IF ~~ THEN DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",4)
+ Enemy()~ EXIT
+ END

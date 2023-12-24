@@ -1,0 +1,22 @@
+--- SOS\Language\German\setup.tra	Sat May 17 16:06:24 2008
++++ C:\BWP Patchstudio\patched files\SOS\Language\German\setup.tra	Tue Oct 29 18:30:38 2013
+@@ -333,16 +333,16 @@
+ @20000 = ~Shadows Over Soubar~
+ @20001 = ~Registrierung GUI...~
+ 
+-@20003 = ~ Baldurs Tor<TM> und die Geschichte der Schwertküste<TM> oder spielt ~
++@20003 = ~ Baldurs Gate<TM> und die Geschichte der Schwertküste<TM> oder spielt ~
+ @20004 = ~"Tortured Souls"~
+ @20005 = ~%separator%"The Darkest Day"~
+ @20006 = ~%separator%"Shadows Over Soubar"~
+-@20007 = ~mit den neuen Ereiterungen: ~
++@20007 = ~ mit den neuen Ereiterungen: ~
+ @20008 = ~%separator%"Neverending Journey"~
+ @20009 = ~%separator%"Big Picture"~
+ @20010 = ~%separator%"Check The Bodies"~
+ @200101 = ~%separator%"Region Of Terror"~
+-@20011 = ~Spielt%BGT%Schatten von Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%~
++@20011 = ~Spielt%bgt%Schatten von Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+ @20012 = ~Behebung falscher Zeichenketten......~
+ @20013 = ~Anschluss Weltkarte...~
+ @20014 = ~Schlangenwald ~

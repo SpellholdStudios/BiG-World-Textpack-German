@@ -1,0 +1,326 @@
+@0 = ~Reisender aus der Kneipe zur Unbekannten Melodie~
+@1 = ~Reisender~
+@50 = ~Sammlung des Reisenden~
+@100 = ~Blutstropfen~
+@101 = ~Geronnene Blutstropfen~
+@102 = ~Herzzauber-Amulett~
+@103 = ~Dieser Blitz hinterlässt Blutstropfen, die ebenso hart und glatt wie Perlen sind. Auf der Zunge lösen sie sich sofort auf und verbreiten sich über die Blutgefäße und das Herz des Charakters.
+Das Herzzauber-Amulett ist mächtiger als das Blutzauber-Amulett oder der Talisman der Blutgerinnung und kann viele Wunden sofort heilen, auch schwere oder lebensgefährliche Verletzungen. Darüber hinaus erhält der Anwender heftig gesteigerte Energie, die alle Müdigkeit beseitigt und ihn sich auf unterschiedliche Weise besser fühlen lässt.
+
+Besondere Fähigkeiten:
+Stellt 27 Punkte Lebensenergie wieder her
+Müdigkeit
+Widerstand gegen Angriffe mit Klingenwaffen +10% pro Angriff
+Widerstand gegen Angriffe mit Schusswaffen +20%
+Wirkungsdauer: 2 Runden~
+@104 = ~Fingerknochen~
+@105 = ~Dieses Stück Fingerknochen scheint etwas Besonderes zu sein.~
+@106 = ~Knochen-Amulett~
+@107 = ~Das alte Fingerknochen-Amulett ist ausgehöhlt, auf seine Oberfläche sind kleine Symbole geschnitzt. Der Anwender muss es in zwei Teile brechen, um es zu aktivieren.
+Ist es gebrochen, verstärkt das Knochen-Amulett vorübergehend die Knochen des Benutzers, um ihren Bruch zu verhindern. Dieses Amulett gewährt dem Benutzer Schutz gegen Zertrümmerung bei Angriffen mit Wuchtwaffen und bietet umfangreiche Verbesserungen.
+
+Besondere Fähigkeiten:
+Rüstungsklasse: 2
+Widerstand gegen Angriffe mit Wuchtwaffen, +2 Stufen
+Bruchfestigkeit Angriff +15%
+Wirkungsdauer: 2 Runden~
+@108 = ~Tote Fliegen~
+@109 = ~Dies ist eine einzelne vollständige tote Fliege.~
+@110 = ~Amulett aus toten Fliegen~
+@111 = ~Es sieht aus wie gefrorene Fliegen, sie scheinen tot zu sein, aber das lässt sich nicht bestimmen. Wenn die Insekten gegessen werden, wird die Magie des Amulettes aktiviert. Wenn es verschluckt wird, wird der Empfänger plötzlich sehr krank... ... Ein paar Sekunden, nachdem es angewandt wurde, krabbeln aus der Nase und dem Mund des Anwenders ein Haufen Insekten heraus. Nachdem der Zauber gewirkt wurde, kann der  Zaubernde, wenn er in der Lage ist, wach zu bleiben, dann mit diesen Insekten das Ziel befallen.
+
+Besondere Fähigkeiten:
+Wirkt die Magie "ansteckende Krankheit verbreitender Insektenschwarm"~
+@112 = ~Rattenkörper~
+@113 = ~Ihr könnt sicher sein, dass sie tot ist.~
+@114 = ~Rattenkörper-Amulett~
+@115 = ~Dieser Rattenkörper wurde besonders behandelt: Er ist in seinem Inneren ausgehöhlt und mit einer Vielzahl von Kräutern und Reispapier mit geheimnisvollen Symbolen gefüllt.
+Wenn der Talisman verzehrt wird, wird das logische Denken und die Urteilsfähigkeit des Benutzer vorübergehend erhöht, während der Anwender sich fühlt, als ob er von mehreren Augenpaaren beobachtet und von mehreren Gehirnen gemustert wird. Ein oder zwei Minuten lang fühlt man sich etwas schwindelig, aber das hat keine schädlichen Nebenwirkungen.
+
+Besondere Fähigkeiten:
+Geschicklichkeits-Bonus: +5%
+Sagenkunde:: +5
+Intelligenz: + 1
+Dieser Effekt hält 10 Runden an~
+@116 = ~Kakerlaken-Körper~
+@117 = ~Sowohl tot als auch lebendig sind es widerliche Insekten.~
+@118 = ~Kakerlaken-Amulett~
+@119 = ~Kakerlaken sind wie die anderen üblichen Aasfresser der Ebenen. Diese einzigartigen Panzer von toten Kakerlaken sind mit Farbe punktiert und mit geheimnisvollen Symbolen verziert. Wenn die Kakerlaken verzehrt werden, wird die Magie des Amuletts aktiviert.
+Sobald sie verschluckt werden, erhält der Anwender vorübergehenden Schutz durch die Kakerlaken. Seine Haut versteift sich zur Härte einer Kettenrüstung, die Person ist schwer zu bezwingen und solange der Zauber wirkt, erhält sie zusätzlichen Schutz gegen Angriffe mit zertrümmernden Waffen.
+
+Besondere Fähigkeiten:
+Rüstungsklasse: +4
+Schutz vor Angriffen mit Wuchtwaffen, +2
+Widerstand gegen Angriffe mit Wuchtwaffen: +10%
+Wirkungsdauer: 2 Runden~
+@120 = ~Branntwein~
+@121 = ~Die bernsteinfarbene Flüssigkeit verströmt einen verführerischen Duft.~
+@122 = ~Verzauberter Herzwein~
+@123 = ~Sehr starker Wein, der Wein selbst ist sehr vollmundig mit sehr lieblichem Geschmack und überdies ist man nach dem Trinken nicht angeheitert.
+Dieser verzauberte Herzwein wird von den Gebrüdern Cilenei aus dem messerblättrigen Wein der Stadt Curst gemacht und sein Rezept ist ein Geheimnis, das anderen Menschen nicht preisgegeben wird.
+Die Flasche selbst verfügt über eine einfache Magie, der getrunkene Wein wird automatisch nachgefüllt.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Unbekannte Wirkung
+Grad: 3
+Stellt alle 8 Stunden 6 Stufen wieder her~
+@124 = ~Branntwein~
+@125 = ~Eine Flasche mit dunkelroter Flüssigkeit, die ein Frösteln hervorruft.~
+@126 = ~Hemmungslos vom wilden Feuerwasser~
+@127 = ~In dem Moment, als der Speichel in Eurem Mund mit einem der glänzenden Samen in Kontakt kommt, habt Ihr das Gefühl, dass Euer Mund offensichtlich zu brennen beginnt, aber er brennt nicht wirklich. Diese Art von Gefühl ist wunderbar und Ihr trinkt in großen Schlucken Feuerwasser, um das Brennen der Samen in Eurer Kehle abzukühlen, es fließt in Euren Bauch, bis nichts mehr übrig ist, man kann den Geschmack des Branntweins nicht beschreiben.
+Die Flasche selbst verfügt über eine einfache Magie, der getrunkene Branntwein wird automatisch nachgefüllt.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Feuerwiderstand: um 100% erhöht
+Immunität gegen Odemwaffen: Bonus -10
+Wirkungsdauer: 5 Runden
+Durstlöschung: 6 Erholung
+Kann alle 8 Stunden 1 mal verwendet werden~
+@128 = ~Glänzende Samen~
+@129 = ~Diese glänzenden Samen sehen aus, als ob sie brennen.~
+@130 = ~Dicke wilde Feuersamen~
+@131 = ~Zusammen mit den dicken wilden Feuersamen muss das berühmte Feuerwasser getrunken werden.
+Sie sind brennbar, vielleicht könnt Ihr eine andere Verwendung finden.
+
+Besondere Fähigkeiten:
+Verursacht im Umkreis von 15 m um den Zielbereich 6D6 Feuerschaden.
+Feuerwiderstand: + 50% bei jedem Treffer, die Wirkung hält für 3 Runden an.
+Die Feuersamen reichen für 3 mal.~
+@132 = ~Eine Flasche mit farbloser Flüssigkeit~
+@133 = ~Dies scheint eine Flasche Wasser zu sein.~
+@134 = ~Ebene der Wasserelementare~
+@135 = ~Ebene der Wasserelementare:
+Diese Flasche Wasser unterscheidet sich nicht von gewöhnlichem Trinkwasser, aber es stammt aus dem Inneren der Wasserelementar-Ebene. Als Ihr es langsam trinkt, strömt ein Gefühl von Luft durch den Mund und in den Magen. Es ist das reinste Zeug, das Ihr je geschmeckt habt, verglichen damit ist das Wasser, das Ihr in der Vergangenheit getrunken habt, verschmutzt. Das kalte Wasser selbst unterdrückt vorübergehend Eure Gefühle.
+Die mit Wasser gefüllten Glasflaschen sind verzaubert, so dass sie sich als zusätzlicher Effekt nach dem Trinken langsam wieder auffüllen.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Keine Giftstoffe
+Stellt pro Sekunde 12 Stufen der Lebensenergie wieder her.
+Mentaler Schild
+Wirkungsdauer: 5 Runden
+Durstlöschung: Erholung 8
+Kann alle 8 Stunden einmal verwendet werden~
+@136 = ~Eine Flasche Wein~
+@137 = ~Diese Weinflasche ist sehr heiß, als ob sie gerade aus dem Feuer herausgenommen wurde, trotz dem aus dem Flaschenhals ausströmenden Dampf kochenden Alkohols überlegt Ihr, ob es das Risiko wert ist, ihn zu trinken.~
+@138 = ~Wein aus den Äußeren Ebenen~
+@139 = ~Diese Flasche Wein kommt aus den Äußeren Ebenen. Aus dem Flaschenhals steigt Rauch auf, der auf den ersten Blick wie gekochtes Urin wirkt, aber der Wein duftet attraktiv, selbst die Temperatur des heißen Weines kann Euch nicht davon abhalten, einen Schluck zu trinken. Ihr unterdrückt den Wunsch, den nächsten zu nehmen, denn Ihr spürt sofort den brühend heißen Schmerz zwischen den Lippen, im Hals, im Magen und am ganzen Körper, Ihr spürt Euch selbst brennen, aber diese Schmerzen sind eigentlich so reizvoll.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Die Wirkung ist unbekannt~
+@200 = ~Wein "Für immer zusammen"~
+@201 = ~"Für immer zusammen" Wein, Wein der Dämonen. Die weinrote Flüssigkeit der in der Sommersonne gekochten halbreifen Früchte hat nach der Destillation eine magische Wirkung erhalten, er ist leicht ölig, schimmert goldenen und hat den unvergleichlich lieblichen Geschmack des Regenbogens.
+
+EIGENSCHAFTEN:
+Gewicht: 1~
+@202 = ~Goldsand-Wein~
+@203 = ~Im Zwielicht schimmert der Wein bernsteinfarben, so beeindruckend wie flüssiges Gold.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@204 = ~Drachenbier~
+@205 = ~Das Drachenbier ist für seinen einzigartigen Malz-Geschmack bekannt.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@206 = ~Met~
+@207 = ~Wird aus Honig gewonnen, nach der Gärung und Reifung erhält man ein Getränk mit wenig Alkohol.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@208 = ~Roggenbier~
+@209 = ~Ein aus Roggen und Malz gegorenes Getränk. Vollmundiges Bier, leicht bitter, mit einem starken Hopfen-Geschmack.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@210 = ~Rubinroter Wein aus Westgate~
+@211 = ~Der rubinrote Wein ist nach seiner Farbe benannt, die er erhält, weil auch die Rückstände ausgepresst werden, so dass er mehr Tannin enthält, was ihm einen kräftigen Geschmack gibt.
+
+EIGENSCHAFTEN:
+Gewicht: 1~
+@212 = ~Phillipinischer Jadewein~
+@213 = ~Phillipinischer Jadewein, schmeckt gekühlt besonders gut.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@214 = ~Waldhonigwein~
+@215 = ~Ein charakteristischer Waldhonigwein, dessen Alkoholgehalt höher ist als im Durchschnitt, gleichzeitig ist auch der Zuckergehalt höher.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@216 = ~Schattenbier~
+@217 = ~Eine Flasche Schattenbier.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@218 = ~Sowjetischer Maiwein~
+@219 = ~Eine Flasche Sowjetischer Maiwein.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@220 = ~Rabenwein~
+@221 = ~Eine Flasche Rabenwein.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@222 = ~Elminsterbier~
+@223 = ~Ein nach dem berühmtesten Magier des Festlandes von Faerûn benanntes Bier, aber ob das Bier irgendetwas mit ihm zu tun hat, wisst Ihr nicht.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@224 = ~Junger Reiswein aus Japan~
+@225 = ~Eine Flasche Junger Reiswein aus Japan.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@226 = ~Palmwein aus Sri Lanka~
+@227 = ~Eine Flasche Palmwein aus Sri Lanka.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@228 = ~Philippinischer Bitterwein~
+@229 = ~Eine Flasche Philippinischer Bitterwein.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@230 = ~Blutroter Portugiesischer Wein~
+@231 = ~Eine Flasche Blutroter Portugiesischer Wein.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@232 = ~Feinstes Maibock-Bier~
+@233 = ~Eine Flasche feinstes Maibock-Bier, dem Lieblingsbier der Zwerge.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@234 = ~Thailändisches Starkbier~
+@235 = ~Eine Flasche Thailändisches Starkbier.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@236 = ~Drachen-Bier~
+@237 = ~Eine Flasche Drachen-Bier.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@238 = ~Feuerwasser~
+@239 = ~Eine Flasche Feuerwasser.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@240 = ~Eiswein~
+@241 = ~Eine Flasche Eiswein.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@242 = ~Weinzenbier~
+@243 = ~Eine Flasche mit dem für die Gegend von Amn typischen Bier.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@244 = ~Bier der Schwarzen Insel~
+@245 = ~Eine Flasche Bier von der Schwarzen Insel, wenn man es trinkt, befällt einen plötzlich das Gefühl von unsäglicher Trauer.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 6 Punkte wieder her.~
+@246 = ~Weinflasche~
+@247 = ~Dieser Sekt wird aus Trauben gepresst. Wenn Ihr einen tiefen Schluck nehmt, durchzucken Euer Gehirn die letzten Erinnerungen an eine verlorene Liebe, so dass Euch die Tränen kommen.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@248 = ~Weinflasche~
+@249 = ~Auf dem Etikett der Weinflasche steht: "Rotwein Marke Pferdekopf - außergewöhnliche Marke aus veredelten roten Weintrauben". Ihr riecht den Duft von Früchten und blühenden Blumen. Die Trauben des berühmten Weinbergs der Firma Pferdekopf haben ein Aroma von Herbst und frischer Meeresbrise.
+
+EIGENSCHAFTEN:
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Durstlöschung: stellt 1 Punkt wieder her.~
+@250 = ~Flasche kalifornischer Wein aus dem Napatal~
+@251 = ~Dem kalifornischen Wein aus dem Napatal wurden besondere Gewürze hinzugefügt.
+
+EIGENSCHAFTEN:
+Gewicht: 8~
+@1000 = ~Vielen Dank... Bitte gebt mir einen Becher voll.~
+@1001 = ~Nun ja! Warum endet es immer so?
+
+(Mit einigen tiefen hilflosen Seufzern wirft er mehrere Münzen auf den Tresen und löst sich dann in einem weißen Blitz vor Euch in Luft auf...)~
+@1002 = ~Tut mir Leid, ich muss mich um meine eigenen Angelegenheiten kümmern, ich kann Euch nicht auf Euren Reisen begleiten.~
+@1003 = ~Seid vorsichtig! Stoßt nicht mein Glas um.~

@@ -1,0 +1,10 @@
+--- NeJ3\dlg\DGNOMEMU.d	Tue Mar 25 01:42:30 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DGNOMEMU.d	Wed Apr 10 10:24:38 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~DGNOMEMU~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~This deep gnome has had his tongue cut out. He looks at you sadly for a moment before returning to work.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

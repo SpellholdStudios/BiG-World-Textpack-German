@@ -1,0 +1,16 @@
+--- NeJ3\dlg\WATCH2.d	Sat Feb 17 23:52:20 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\WATCH2.d	Wed Apr 10 10:25:07 2019
+@@ -1,11 +1,11 @@
+ BEGIN ~WATCH2~
+ 
+ IF ~RandomNum(2,1)~ THEN BEGIN 0
+-  SAY ~Sorry young one, but yer not to be allowed in here.  Now go run along and do somthun' useful.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(2,2)~ THEN BEGIN 1
+-  SAY ~Friend, even though I am a Watcher, a position that demands respect, I'm still not privy to many secrets.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END

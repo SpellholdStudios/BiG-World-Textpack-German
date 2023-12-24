@@ -1,0 +1,30 @@
+--- NeJ3\dlg\DHARK2.d	Mon Nov 10 01:02:25 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DHARK2.d	Wed Apr 10 10:24:41 2019
+@@ -2,23 +2,23 @@
+ 
+ IF ~RandomNum(3,1)
+ !Global("Crazy_Priests","GLOBAL",1)~ THEN BEGIN 0
+-  SAY ~All god forgiven has find soul lost wading pit find child keep close...~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,2)
+ !Global("Crazy_Priests","GLOBAL",1)~ THEN BEGIN 1
+-  SAY ~Tremble baby keep home in the vast fall of peace wind crushing days of oil and murder...~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,3)
+ !Global("Crazy_Priests","GLOBAL",1)~ THEN BEGIN 2
+-  SAY ~Forgotten forever forgotten.  Forever forgotten forever.  He's gone...~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("Crazy_Priests","GLOBAL",1)~ THEN BEGIN 3
+-  SAY ~...forgive me for what I have done, oh Father of Suffering.  Though I do not deserve your clemency, I ask for your mercy at any cost to myself...~
++  SAY @3
+   IF ~~ THEN EXIT
+ END

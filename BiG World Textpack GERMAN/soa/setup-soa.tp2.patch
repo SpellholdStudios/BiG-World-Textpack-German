@@ -1,0 +1,12 @@
+--- soa\setup-soa.tp2	Sat Mar 07 23:40:03 2020
++++ C:\BWP Patchstudio\patched files\soa\setup-soa.tp2	Fri Feb 04 14:37:30 2022
+@@ -114,6 +114,9 @@
+ LANGUAGE ~Russian~
+          ~russian~
+          ~soa/Language/russian/setup-soa.tra~
++LANGUAGE ~German~
++         ~german~
++         ~soa/Language/german/setup-soa.tra~
+ 
+ //////////////////////////////////////////////////////////////////
+ //// Original version: new areas connected by travel triggers ////

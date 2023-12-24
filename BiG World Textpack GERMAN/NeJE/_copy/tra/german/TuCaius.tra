@@ -1,0 +1,33 @@
+@0  = ~Ihr da, was habt Ihr hier zu suchen, und noch wichtiger, wie ist Euer Name?~ 
+@1  = ~Ich bin neu hier und muss mich noch zurecht finden. Ich habe offensichtlich den falschen Weg eingeschlagen.~
+@2  = ~Entschuldigt mein Eindringen. Ich bin erst seit kurzer Zeit hier und habe Schwierigkeiten, mich hier zurechtzufinden. Ich werde jetzt gehen.~ 
+@3  = ~Ich bin neu und wollte Euch nicht stören. Mein Fehler.~
+@4  = ~Muss ich meine Fragen wiederholen?~ 
+@5  = ~Vergesst Eure Entschuldigungen, ich fragte nach Eurem Namen! Ihr habt einen Namen, nicht wahr?~
+@6  = ~Ich bin <CHARNAME>, und wie ich sagte, habe ich einen falschen Weg eingeschlagen.~
+@7  = ~Ja, ich habe einen Namen, ich bin <CHARNAME>.~ 
+@8  = ~Mein Name ist <CHARNAME>, und wie ich sagte, werde ich jetzt gehen.~
+@9  = ~Ich bin <CHARNAME>, ich entschuldige mich dafür, Euch zu stören.~ 
+@10 = ~<CHARNAME>, nein das ist keiner der Namen, die mir genannt wurden, die ich erwarten sollte. Eine neue Ankunft, sagt Ihr, dann ist es kein Wunder, dass ich Euch nicht erkannte. Ihr könnt Euch denken, dass ich so viele Gesichter so vielen neuen Namen zuordnen muss, dass es ein Wunder ist, dass ich mich im Moment überhaupt an jemanden erinnere. Ich bin Caius, willkommen.~
+@11 = ~Ist es Eure Sache, alle neuen Ankömmlinge in Halruaa zu begrüßen, Caius?~
+@12 = ~Die inneren Angelegenheiten von Halruaa
+
+Nach dem, was ich von Matej und Caius erfahren habe, scheint es so, dass sich die Magier hier tatsächlich verschwören, wessen ich mir aber noch nicht sicher bin... das Verschwinden des grössten Teiles der leitenden Magier der Akademie, die Ankunft von prominenten Besuchern, die zu geheimen Sitzungen geführt werden, und dann Caius plötzliches Verstummen, als er begriff, dass er mehr gesagt hatte, als er hätte sagen sollen. Könnte Tilorn mit seiner Ansicht Recht haben, dass der Untergang von Ulcaster durch die Magier hier angestiftet wurde, und wenn das so ist, kann ich eine Möglichkeit finden, ein Ereignis zu verhindern, das tatsächlich bereits stattgefunden hat? Noch wichtiger, sollte ich es überhaupt versuchen?~ 
+@13 = ~Das klingt so, als ob Halruaa viele angesehene Besucher anzieht, Caius. Ich schätze, mehr als normal?~
+@14 = ~Sicherlich ist eine Akademie wie Halruaa an prominente Besucher gewöhnt?~ 
+@15 = ~Nein, ist sie nicht. Diese Gäste, die sich versammeln, sind zu wichtig, um von irgendjemanden einfach so getroffen zu werden!~
+@16 = ~Eine Versammlung von Magiern, wie? Nun, das riecht nach einem Komplott... Ich scherze natürlich, Caius!~
+@17 = ~Magier versuchen immer, ihre Tätigkeiten geheim zu behalten. Ist das nicht so, Caius?~
+@18 = ~Wo könnte eine geheime Sitzung von Magiern besser abgehalten werden als in einer Akademie für Magie?~ 
+@19 = ~Einige mehr, als normal, ja, deshalb wurde ich damit beauftragt, zu helfen, sie zum richtigen Ort zu führen.~
+@20 = ~Halruaa wird tatsächlich häufig von vielen prominenten Gästen besucht, jedoch nie ganz so viele auf einmal.~ 
+@21 = ~(*Beäugt Euch mit einer Spur von Verdacht*)... Solche Sitzungen sind natürlich üblich, und ich habe nie eine Geheimhaltung angedeutet. Das war Eure Vermutung.~ 
+@22 = ~Ich sprach allgemein, als ich sagte, dass Magier gerne ihre Tätigkeiten geheim halten wollen.~
+@23 = ~Die Suche nach dem zweiten Schlüssel
+
+Caius... ein Magier mit dem Klang von Autorität in seiner Stimme, ließ fallen, dass ihm die Aufgabe übertragen wurde, einige sehr prominente Gäste zu einer Sitzung zu führen, die stattfindet... mehr Gäste, als sogar für Halruaa normal sind. Er wurde dann durch meine Fragen misstrauisch und versuchte, abzuschwächen, was er gesagt hatte, als er sagte, dass solche Sitzungen alltäglich seien... dass diese tatsächlich eine von vielen sei, die im Laufe der letzten paar Wochen stattgefunden hatten. Er schlug dann vor, dass ich jemanden namens RayVon suche, der auf einer der oberen Ebenen zu finden sei.~ 
+@24 = ~Ihr habt diese Versammlung zuerst erwähnt, und das klang für mich ziemlich nach einem geheimen Treffen.~
+@25 = ~Ich vermutete nichts, Ihr wart es, der zuerst davon sprach.~
+@26 = ~Hey, ich bin hier neu, denkt daran. Ich interessiere mich dafür zu lernen, was an der Akademie stattfindet.~
+@27 = ~Ja, nun, es ist nichts Besonderes an dieser Sitzung, tatsächlich ist es eine von vielen, die im Laufe der letzten paar Wochen stattgefunden haben. Nun, da Ihr an der Akademie neu seid, schlage ich vor, dass Ihr Euch mit RayVon bekannt macht, er ist gewöhnlich auf einer der oberen Ebenen dieses Gebäudes zu finden. Jetzt könnt Ihr wegtreten.~
+@28 = ~Sollten wir nicht eine Nachricht an Archelan senden?~

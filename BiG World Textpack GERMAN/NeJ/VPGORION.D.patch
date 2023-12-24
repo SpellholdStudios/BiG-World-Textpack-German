@@ -1,0 +1,100 @@
+--- NeJ\Dfiles\VPGORION.D	Tue Nov 11 23:44:26 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\VPGORION.D	Wed Apr 10 10:24:22 2019
+@@ -2,70 +2,68 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 0
+-  SAY ~Good, I see you are awake at last <CHARNAME>. Come and meet our distinguished guest. <CHARNAME> this is Hrothgar.~
+-  IF ~~ THEN REPLY ~(*You look at the man and know instinctively that here is a man of immense importance. A feeling of familiarity passes over you for a second but is instantly lost*.)
+-
+-I am pleased to meet you sir, but have we not met before? For a moment there I thought I should know you.~ EXTERN ~VPHROTH~ 0
++  SAY @0
++  IF ~~ THEN REPLY @1 EXTERN ~VPHROTH~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Hrothgar, now that you have made the acquaintance of <CHARNAME>, should we not consider setting about the task at hand?~
++  SAY @2
+   IF ~~ THEN EXTERN ~VPHROTH~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~<CHARNAME>, we must ready ourselves for a journey. Go, gather your possessions and equip yourself for the road.~
++  SAY @3
+   IF ~~ THEN GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~This is very unnerving, I know, but you must trust me.  It is very important that you pack your possessions so that we may leave Candlekeep immediately. Hurry, for there is no time to tarry! The keep is well protected, but not invulnerable.~
+-  IF ~~ THEN REPLY ~I'm ready to go right now.~ DO ~ClearAllActions()
++  SAY @4
++  IF ~~ THEN REPLY @5 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VP_Mov04")
+ ~ EXIT
+-  IF ~~ THEN REPLY ~Please father, tell me where we will be going.~ GOTO 4
+-  IF ~~ THEN REPLY ~What could possibly harm us here? This place is a fortress, and guarded beyond measure.~ GOTO 5
+-  IF ~~ THEN REPLY ~What should I bring with me on this journey? If you would just give some clue as to what I will need...~ GOTO 6
+-  IF ~~ THEN REPLY ~Gorion, am I to know where it is that we are in so much haste to be going to? What is this artifact is that you seek or even who Hrothgar's Brethren are? Why...~ GOTO 7
++  IF ~~ THEN REPLY @6 GOTO 4
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @8 GOTO 6
++  IF ~~ THEN REPLY @9 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Alas, I cannot, for I have not truly decided yet. All that is certain is that we will be far safer on the move. Perhaps the woods might offer some secluded security, or perhaps the city of Baldur's Gate would offer cover amidst its teaming throngs of people. I do not know where we shall end up, but I have a few friends here and there. Hmm...I will think on this...~
+-  IF ~~ THEN REPLY ~I'm ready to go right now.~ DO ~ClearAllActions()
++  SAY @10
++  IF ~~ THEN REPLY @5 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VP_Mov04")
+ ~ EXIT
+-  IF ~~ THEN REPLY ~What could possibly harm us here?  This place is a fortress, and guarded beyond measure.~ GOTO 5
+-  IF ~~ THEN REPLY ~What should I bring with me on this journey?  If you would just give some clue as to what I will need...~ GOTO 6
+-  IF ~~ THEN REPLY ~Gorion, am I to know where it is that we are in so much haste to be going to? What is this artifact is that you seek or even who Hrothgar's Brethren are? Why...~ GOTO 7
++  IF ~~ THEN REPLY @11 GOTO 5
++  IF ~~ THEN REPLY @12 GOTO 6
++  IF ~~ THEN REPLY @9 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Candlekeep is indeed a formidable obstacle for ne'er-do-wells, but it is not insurmountable. No matter how thick the mesh, at least one mosquito always finds its way through. No my child, we must leave as soon as possible, for our safety, and for that of our friends here.~
+-  IF ~~ THEN REPLY ~I'm ready to go right now.~ DO ~ClearAllActions()
++  SAY @13
++  IF ~~ THEN REPLY @5 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VP_Mov04")
+ ~ EXIT
+-  IF ~~ THEN REPLY ~Please father, tell me where we will be going.~ GOTO 4
+-  IF ~~ THEN REPLY ~What should I bring with me on this journey? If you would just give some clue as to what I will need...~ GOTO 6
+-  IF ~~ THEN REPLY ~Gorion, am I to know where it is that we are in so much haste to be going to? What is this artifact is that you seek or even who Hrothgar's Brethren are? Why...~ GOTO 7
++  IF ~~ THEN REPLY @6 GOTO 4
++  IF ~~ THEN REPLY @8 GOTO 6
++  IF ~~ THEN REPLY @9 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~My dear child, you should know yourself well enough to purchase the gear you need. I have given you what I can spare, so hurry off to the Inn and speak with Winthrop. Use your skills as a reference and buy what basics you must, though spend wisely. His prices are fair, but you may not have enough gold to purchase all that you would want. I'll wait for you outside.~
+-  IF ~~ THEN REPLY ~I'm ready to go right now.~ DO ~ClearAllActions()
++  SAY @14
++  IF ~~ THEN REPLY @5 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VP_Mov04")
+ ~ EXIT
+-  IF ~~ THEN REPLY ~Please father, tell me where we will be going.~ GOTO 4
+-  IF ~~ THEN REPLY ~What could possibly harm us here? This place is a fortress, and guarded beyond measure.~ GOTO 5
+-  IF ~~ THEN REPLY ~Gorion, am I to know where it is that we are in so much haste to be going to? What is this artifact is that you seek or even who Hrothgar's Brethren are? Why...~ GOTO 7
++  IF ~~ THEN REPLY @6 GOTO 4
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @9 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~(*Interrupts you before you can finish your next question.*) This is not the time for questions, <CHARNAME>, they will have to wait. You must ready yourself for our journey.~
+-  IF ~~ THEN REPLY ~But...~ DO ~ClearAllActions()
++  SAY @15
++  IF ~~ THEN REPLY @16 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VP_Mov04")
+ ~ EXIT

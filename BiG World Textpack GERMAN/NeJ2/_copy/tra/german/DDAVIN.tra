@@ -1,0 +1,129 @@
+@0  = ~Dann haben die Riesen also neue Lakaien. Was wollt Ihr von mir?~ 
+@1  = ~Ich diene den Riesen nicht.~
+@2  = ~Nichts. Lebt wohl!~ 
+@3  = ~Ihr seid also zurück. Was wollt Ihr von mir?~
+@4  = ~Ich würde Euch gerne einige Fragen stellen.~ 
+@5  = ~Wyrmzahn
+
+Wir sind einem Sklaven namens Davin begegnet. Er hat mich gebeten, ihn und die anderen Sklaven von den Frostriesen zu befreien. Wir haben eingewilligt.~
+@6  = ~Ihr habt mich gebeten, Euch aus der Sklaverei zu befreien. Ich werde es versuchen, obwohl ich es für ziemlich schwierig halte.~
+@7  = ~Ich habe mich darum bemüht, Euch zu befreien.~ 
+@8  = ~Ihr habt mich gebeten, das Monster zu töten, dem die Sklaven geopfert werden. Ich werde es tun.~
+@9  = ~Ich habe mich darum bemüht, die Bestie umzubringen, der die Sklaven geopfert werden.~ 
+@10 = ~Es fällt mir schwer, das zu glauben... aber nehmen wir mal an, es stimmt. Was wollt Ihr dann von mir?~
+@11 = ~Dann fragt.~
+@12 = ~Wer seid Ihr?~ 
+@13 = ~Was tut Ihr hier?~
+@14 = ~Wyrmzahn
+
+In den Höhlen haben wir Leute getroffen, die von den Frostriesen als Sklaven gehalten werden.~ 
+@15 = ~Wisst Ihr irgendetwas über diese Höhlen?~
+@16 = ~Könnt Ihr mir irgendetwas über die Riesen sagen?~
+@17 = ~Das Skelett da drüben. Ich finde es faszinierend. Wisst Ihr irgendetwas darüber?~
+@18 = ~Ich heiße Davin Berenson. Zu Euren Diensten. Habt Ihr noch weitere Fragen?~ 
+@19 = ~Ja, ich habe mehr Fragen.~
+@20 = ~Nein, lebt wohl!~ 
+@21 = ~Ich bin ein Sklave. Um genau zu sein, sind alle, die Ihr hier seht, Sklaven. Aber wir werden nicht mehr lange Sklaven bleiben.~ 
+@22 = ~Wie kommt Ihr darauf?~
+@23 = ~Jeden Tag kommen die Riesen her und holen einen von uns. Derjenige wird nie wieder gesehen. Wir werden immer weniger, es ist also nur eine Frage der Zeit, bis es hier keine Sklaven mehr gib.~ 
+@24 = ~Was geschieht mit denen, die weggeführt werden?~
+@25 = ~Wyrmzahn
+
+Wir haben herausgefunden, dass die Frostriesen irgendeinem Wesen in diesen Höhlen Sklaven opfern.~
+@26 = ~Sie werden irgendeiner... Kreatur geopfert, die hier in den Höhlen lebt. Von den Riesen, die sich immer hämisch über unser Schicksal freuen, wenn sie ihr ausgewähltes Opfer wegführen, habe ich das erfahren.~
+@27 = ~Die Bestie, von der Ihr sprecht, ist tot. Es wird keine Opfer mehr geben.~
+@28 = ~Wyrmzahn
+
+Wir haben Davin Berenson mitgeteilt, dass wir das Frostbiss genannte Wesen getötet haben. Jetzt brauchen die Sklaven keine Angst mehr zu haben, geopfert zu werden.~
+@29 = ~Das ist ein schreckliches Schicksal, das niemand erleiden sollte. Ich würde dem sofort ein Ende bereiten, wenn ich könnte.~
+@30 = ~Wyrmzahn
+
+Der Sklave, Davin Berenson, hat uns erzählt, dass die Frostriesen irgendeinem Wesen Sklaven opfern. Von solch einem schrecklichen Los sollte niemand getroffen werden.~
+@31 = ~Oh? Woher wisst Ihr, dass das wahr ist?~
+@32 = ~Ich habe die Bestie getötet.~
+@33 = ~Das sind ausgezeichnete Neuigkeiten. Ihr habt uns vor einem schrecklichen Schicksal bewahrt. Aber wir sind immer noch in einer verzweifelten Lage, weil die Riesen uns hier gefangen halten. Ich möchte Euch bitten uns zu befreien.~
+@34 = ~Ja, ich werde es versuchen. Aber ich glaube, es wird ziemlich schwierig werden.~
+@35 = ~Nein, mir liegt nichts daran, gegen die Frostriesen zu kämpfen. Lebt wohl. Bis bald.~
+@36 = ~Wyrmzahn
+
+Wir haben einen Sklaven namens Davin Berenson getroffen. Er wollte, dass wir ihn und die anderen Sklaven von den Frostriesen befreien. Wir haben abgelehnt, denn keiner von uns wollte sich mit einer ganzen Höhle voller Frostriesen anlegen. Ein solcher Kampf hätte einen hohen Preis fordern können.~
+@37 = ~Ich werd's mir überlegen. Lebt wohl. Bis bald.~
+@38 = ~Wyrmzahn
+
+Wir sind einem Sklaven namens Davin Berenson begegnet. Er bat uns, ihn und die anderen Sklaven von den Frostriesen zu befreien. Wir sagten, wir würden es uns überlegen. Doch der Kampf in einer Höhle voller Frostriesen könnte einen hohen Preis fordern.~
+@39 = ~Ja... aber ich glaube, ich weiß, wie wir es schaffen könnten...~
+@40 = ~Oh? Bitte sagt mir wie.~
+@41 = ~Es gibt nur zwei Wege hier heraus. Einer führt mitten durch das Gebiet der Riesen, und sie wissen, dass wir dort nicht unbemerkt durchkommen. Der andere ist durch eine kleine Höhle nördlich von hier. Die Riesen haben nur eine Wache postiert, um uns daran zu hindern, in die Höhle zu gelangen und zu entkommen.~
+@42 = ~Wisst Ihr, was sich in dieser Höhle verbirgt?~
+@43 = ~Also... nein. Vielleicht solltet Ihr Eure Suche damit beginnen, die Höhle auszukundschaften und eventuelle... *Gefahren* dort zu beseitigen, bevor Ihr die Wache beseitigt.~
+@44 = ~In Ordnung. Das werde ich tun. Lebt wohl!~
+@45 = ~Wyrmzahn
+
+Wir haben uns bereit erklärt, Davin und den anderen Sklaven zur Freiheit zu verhelfen. Wir meinten jedoch, dass dies angesichts all der Riesen, die wir hier in den Höhlen bekämpfen müssten, schwierig werden könnte. Doch Davin sagte, dies sei vielleicht gar nicht nötig, da es nördlich von den Sklavenpferchen eine Höhle gäbe, die in die Freiheit führen könnte. Wir werden also die Höhle nach Gefahren durchsuchen und herausfinden, ob sie tatsächlich einen Ausgang hat.~
+@46 = ~Das habe ich bereits getan. Ihr habt in der Höhle nichts zu fürchten.~
+@47 = ~Wyrmzahn
+
+Wir haben uns bereit erklärt, Davin und den anderen Sklaven zur Freiheit zu verhelfen. Wir meinten jedoch, dass dies angesichts all der Riesen, die wir hier in den Höhlen bekämpfen müssten, schwierig werden könnte. Doch Davin sagte, dies sei vielleicht gar nicht nötig, da es nördlich von den Sklavenpferchen eine Höhle gäbe, die in die Freiheit führen könnte. Davin bat uns, die Höhle nach Gefahren zu durchsuchen und herauszufinden, ob sie wirklich in die Freiheit führt, was wir zum Glück bereits getan haben.~
+@48 = ~Das sind wirklich gute Neuigkeiten. Dann müsst Ihr nur noch die Wache beseitigen, ohne dass die Riesen es bemerken.~
+@49 = ~Wyrmzahn
+
+Wir müssen den Frostriesen ermorden, der die Sklavenpferche bewacht, und zwar ohne von den anderen Riesen bemerkt zu werden. Dies könnte schwierig werden, aber es muss sein.~
+@50 = ~Das habe ich bereits getan. Es sieht aus, als würde Eurer Freiheit nichts mehr im Wege stehen. Geht jetzt, solange Ihr könnt.~
+@51 = ~Wyrmzahn
+
+Wir haben Davin mitgeteilt, dass wir die Höhle nördlich der Sklavenlager von allen Gefahren befreit haben. Jetzt müssen wir nur noch die Wache ermorden, und dann sind die Sklaven frei.~
+@52 = ~Wyrmzahn
+
+Wir haben Davin erzählt, dass der Aufseher der Sklavenpferche tot sei. Wir müssen jetzt zur nördlich gelegenen Höhle gehen und sie von jeglichen Gefahren befreien.~
+@53 = ~Wyrmzahn
+
+Wir sind einem Sklaven namens Davin Berenson begegnet. Er hat uns erzählt, dass die Frostriesen die Sklaven irgendeinem Wesen in den Höhlen hier opfern. Wir haben beschlossen, die Bestie zu töten, was immer es sein mag.~
+@54 = ~Wyrmzahn
+
+Wir sind einem Sklaven namens Davin Berenson begegnet. Er hat uns erzählt, dass die Frostriesen die Sklaven irgendeinem Wesen in den Höhlen hier opfern. Wir waren uns einig, dass wir nicht die geringste Lust verspüren, gegen irgendeine unbekannte Bestie zu kämpfen.~
+@55 = ~Wyrmzahn
+
+Wir sind einem Sklaven namens Davin Berenson begegnet. Er erzählte uns, dass die Frostriesen die Sklaven irgendeinem Wesen in den Höhlen hier opfern. Obwohl wir uns einig sind, dass wir es nicht darauf anlegen, gegen irgendeine unbekannte Bestie zu kämpfen, überlegen wir uns die Sache noch.~
+@56 = ~Oberdorntief
+
+Bandoth hat uns informiert, wir müssten zuerst durch einen Rätselraum, bevor wir weiter in die Festung eindringen können. Anscheinend befinden sich darin drei Ringe, auf denen jeweils verschiedene Platten sitzen. Wenn wir recht verstanden haben, besitzt jeder Ring eine Platte, die die anderen Platten desselben Ring entschärft. Vermutlich sind die anderen Platten mit irgendwelchen Fallen bestückt.~
+@57 = ~Wyrmzahn
+
+Davin hat uns gebeten, den Frostriesen zu ermorden, der die Sklavenpferche bewacht - aber da wir dies bereits getan hatten, konnte er gehen.~
+@58 = ~Ihr... ich... mein Freund, das sind ausgezeichnete Neuigkeiten! Ich danke Euch aus vollem Herzen. Vergebt mir, wenn ich mich nicht länger mit Euch unterhalten kann, aber wir gehen jetzt. Danke für alles, was Ihr für uns getan habt.~ ~Ihr... ich... meine Freundin, das sind ausgezeichnete Neuigkeiten! Ich danke Euch aus vollem Herzen. Vergebt mir, wenn ich mich nicht länger mit Euch unterhalten kann, aber wir gehen jetzt. Danke für alles, was Ihr für uns getan habt.~
+@59 = ~Lebt wohl, Davin.~
+@60 = ~Es tut mir Leid, aber ich kann Euch nicht weiterhelfen. Meine Kenntnis der Höhlen beschränkt sich auf den kleinen Bereich, den Ihr hier seht.~
+@61 = ~Ich verstehe. Ich möchte Euch noch etwas fragen.~
+@62 = ~Lebt jetzt wohl.~
+@63 = ~Die Riesen haben sich als brutal, grausam und dumm erwiesen. Aber manchmal legen sie eine Schläue an den Tag, die mich bei ihrem Mangel an Intelligenz erstaunt. Mehr kann ich über sie nicht sagen.~
+@64 = ~Das Skelett... jedes Mal, wenn ich es sehe, läuft mir ein kalte Schauer über den Rücken. Ich habe keine Ahnung, was es ist. Es könnten die Überreste eines großen Wyrms sein. Vielleicht ist die Gegend hier deshalb als Wyrmzahngletscher bekannt. Wer weiß das schon?~
+@65 = ~Warum macht es Euch solche Angst?~
+@66 = ~Man hört sein ganzes Leben lang Schauergeschichten über solche Kreaturen und kriegt doch nie eine zu Gesicht. Geschichten von Schreckgestalten, Geistern und Drachen - irgendwann glaubt man dann, dass das alles nur erfunden wurde, um kleinen Kindern Angst einzujagen... Ich habe nie an Drachen geglaubt, bis ich das Skelett gesehen habe. Und jetzt frage ich mich, ob die anderen Geschichten auch wahr sind und was es sonst noch gibt auf der Welt...~
+@67 = ~Ja, und wir sind Euch alle sehr dankbar. Wie kommt Ihr voran?~
+@68 = ~Ich habe den Anführer der Riesen, Joril, getötet. Ihr seid frei zu gehen. Nehmt diesen Weg.~
+@69 = ~Wyrmzahn
+
+Wir haben Davin von Joril Frostbarts Tod unterrichtet. Durch seinen Tod wurde den Sklaven das Tor zur Freiheit geöffnet.~
+
+@70 = ~Ich habe alle *Gefahren* in der Nordhöhle beseitigt und die Wache getötet. Ihr seid jetzt frei zu gehen.~
+
+@71 = ~Wyrmzahn
+
+Wir haben Davin mitgeteilt, dass wir die Höhle nördlich der Sklavenpferche von allen Gefahren gesäubert haben. Außerdem haben wir die Frostriesen ermordet, die die Pferche bewacht haben. Dadurch wurde den Sklaven der Weg in die Freiheit geebnet.~
+
+@72 = ~Ich habe alle *Gefahren* in der Nordhöhle für Euch beseitigt. Ich gehe jetzt und töte die Wache. Lebt wohl!~
+@73 = ~Ich habe die Wache ermordet. Ich gehe jetzt und beseitige die Gefahren in der Nordhöhle. Lebt wohl!~
+@74 = ~Ich arbeite daran. Ich komme wieder, wenn die Sache erledigt ist.~
+@75 = ~Ich bete darum, dass Ihr kein grausames Spiel der Täuschung mit mir treibt... Wenn das, was Ihr sagt, stimmt, dann geht um Himmels Willen und tötet die Bestie.~
+@76 = ~Ja, ich werde es versuchen. Wo kann ich dieses Wesen finden?~
+@77 = ~Nein, ich habe nicht das Bedürfnis, gegen irgendein unbekanntes Biest zu kämpfen. Lebt wohl.~
+
+@78 = ~Eine Heldentat, die Ihr sicher bewerkstelligen könnt. Viel Glück und danke.~
+@79 = ~Ich habe die Bestie bereits ermordet. Ihr braucht keine Angst mehr zu haben.~
+@80 = ~Ich habe die Bestie ermordet. Ihr braucht keine Angst mehr zu haben.~
+@81 = ~Ich muss die Aufgabe noch erfüllen, aber ich arbeite daran. Lebt wohl. Bis später.~
+@82 = ~Ich bin nicht sicher. Ich habe gesehen, wie die Riesen ihr Opfer aus dieser Höhle heraus gen Süden führten. Die Bestie muss sich in dieser Richtung befinden.~
+@83 = ~Ich verstehe. Ich werde meine Suche dort beginnen. Bis bald.~
+
+
+

@@ -1,0 +1,47 @@
+--- NeJ3\baf\LDBAT.BAF	Tue Apr 08 20:43:22 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDBAT.BAF	Wed Apr 10 10:33:48 2019
+@@ -4,37 +4,37 @@
+ 	GlobalTimerExpired("ARROW_TIMER","MYAREA")
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~Hey, stupid, get out of here!~)
++		DisplayString(Myself,@0)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~Ha ha!  Idiot!  Take that!~)
++		DisplayString(Myself,@1)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~How'd you like a gut full of arrows, friend?~)
++		DisplayString(Myself,@2)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~Wooo!  Ha ha ha!~)
++		DisplayString(Myself,@3)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~Why don't you try to come storm the tower, moron?~)
++		DisplayString(Myself,@4)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~Hee hee ha ha!~)
++		DisplayString(Myself,@5)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayString(Myself,~This is easier than shooting deep gnomes in a cattle pen!~)
++		DisplayString(Myself,@6)
+ 		SetGlobal("ARROW_MESSAGE","MYAREA",0)
+ 		SetGlobalTimer("ARROW_TIMER","MYAREA",2)
+ 		Continue()

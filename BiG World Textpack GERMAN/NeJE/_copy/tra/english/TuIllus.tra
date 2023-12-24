@@ -1,0 +1,16 @@
+@0    = ~Ah, so Vashon has sent another of his protegees to creep about my quarters has he? That is your purpose for being here is it not?~
+@1    = ~It is, and I suppose having been discovered means that I have failed?~
+@2    = ~It is. I have secured the scroll I was sent to retrieve, surely that is all that is important here?~
+@3    = ~It is and I  have what I came for, does Vashon need to know that I failed at the last moment? I could make it worth your while not to say anything to him?~
+@4    = ~Yes Vashon sent me here to retrieve a scroll, could you not just give me the scroll and forget that you saw me? I would be prepared to make it worth your while?~
+@5    = ~I believe your task was to retrieve the item and return to Vashon undetected. I am afraid you are discovered so you have failed I am sorry to say. I believe he will have been watching your progress himself and knows this already. I suggest you return to him and hear it from him yourself.~
+@6    = ~There is nothing more to be said. I will take my leave of you and go see Vashon. Maybe he will give me another chance. Farewell.~
+@7    = ~What is to prevent me from keeping the scroll and not returning it to Vashon?~
+@8    = ~Did I hear what I thought I heard? Were you offering me a bribe? Do not answer that! I know fine well what I heard and so does Vashon. You can be assured that he was watching your progress very carefully and will not be amused by your offer to me. I suggest you return to him and see what he makes of your words.~
+@9    = ~I apologise for offending you by my offer. I can only say it was made rashly and I should have not have been so hasty in my eagerness to do well. Forgive me. I will take my leave of you and make my apologies to Vashon also. Farewell.~
+@10   = ~I have no need to face Vashon or his words of disapproval. I have his scroll, and I intend keeping it for my time!~
+@11   = ~I have no need to look on Vashon’s disapproving face! I have no use for his silly tests or his scroll, keep them all! I will take my leave of you both. I shall presume that he is still listening to this conversation when I say farewell Vashon.~
+@12   = ~A warning, the scroll you have is warded against anyone other than Vashon reading it. He alone can dispel the ward, you would be wise to leave it here with me if you do not intend returning it to him.~
+@13   = ~Here take the accursed thing!~
+@14   = ~I think I will keep it anyway and get it checked out sometime.~
+@15   = ~Then the scroll is useless to me, I will return it to Vashon and maybe he will give me another chance.~

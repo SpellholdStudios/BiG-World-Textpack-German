@@ -1,0 +1,11 @@
+--- NeJE\KeldornR\baf\KRCut16.baf	Fri Feb 02 01:03:06 2018
++++ C:\BWP Patchstudio\patched files\NeJE\KeldornR\baf\KRCut16.baf	Fri Sep 13 10:22:25 2019
+@@ -25,7 +25,7 @@
+ 		ActionOverride(Player6,LeaveAreaLUA("KR0010","",[3351.2356],3))
+ 		ActionOverride("KeldorD",DestroySelf())
+ 		MoveGlobal("KR0010","Keldorn",[3305.2300])
+-		ActionOverride("Keldorn",SetName(~Keldorn~))
++		ActionOverride("Keldorn",SetName(@0))
+ 		ActionOverride("Keldorn",JoinParty())
+ 		ReallyForceSpell(Myself,ONE_CON)
+ 		ReallyForceSpell(Myself,ONE_DEX)

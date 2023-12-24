@@ -1,0 +1,85 @@
+--- NeJ\Dfiles\DSERRHYA.D	Sun Aug 29 02:23:00 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DSERRHYA.D	Wed Apr 10 10:24:16 2019
+@@ -1,57 +1,57 @@
+ BEGIN ~DSERRHYA~ 15949
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Hi!  Have you come to play with me?  I haven't had anyone to play with for so long.  My name is Sehriya.  It's nice to meet you.  Have you seen my mother?~
+-  IF ~~ THEN REPLY ~I'm afraid not, little one.  Who is your mother?~ GOTO 1
+-  IF ~~ THEN REPLY ~What are you doing here, Sehriya?~ GOTO 4
+-  IF ~~ THEN REPLY ~Your mother is probably dead and has been for some time now.~ GOTO 5
+-  IF ~~ THEN REPLY ~I don't have time to play right now.  Perhaps later.~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 4
++  IF ~~ THEN REPLY @3 GOTO 5
++  IF ~~ THEN REPLY @4 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Mother is... mother!  She owns this place.  When strangers come to the Hand, mother lets them rest here.  Did you want to play now?~
+-  IF ~~ THEN REPLY ~Where did your mother go?~ GOTO 2
+-  IF ~~ THEN REPLY ~Not right now, Sehriya.  I'm too tired to play.~ GOTO 5
+-  IF ~~ THEN REPLY ~Sehriya, I need to go, but I'll try to come back later.  Maybe we can play then.~ EXIT
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 2
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @8 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Mother said there was a lot of fighting downstairs and that we should stay here.  There was so much noise!  When the noise got really loud, mother began to cry.~
++  SAY @9
+   IF ~~ THEN DO ~SetGlobal("SehriyasStory","GLOBAL",1)~ GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~She told me to hide under the bed and not to let anyone in.  Mother said she was going to help and that she'd come back to play with me soon.  She locked the door, and I haven't seen her since.  That's okay.  Mother is probably busy helping.  She'll come back soon.~
+-  IF ~~ THEN REPLY ~Little one, do you think your mother will mind if I rest here for a while?~ GOTO 7
+-  IF ~~ THEN REPLY ~You must know the truth.  You will never see your mother again. ~ GOTO 5
+-  IF ~~ THEN REPLY ~Sehriya, I have to go now.  If I see your mom, I'll tell her that you're waiting to play with her.  Farewell.~ EXIT
++  SAY @10
++  IF ~~ THEN REPLY @11 GOTO 7
++  IF ~~ THEN REPLY @12 GOTO 5
++  IF ~~ THEN REPLY @13 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Playing!  Mother said to wait here until she comes back.~
+-  IF ~~ THEN REPLY ~Who is your mother?~ GOTO 1
+-  IF ~~ THEN REPLY ~It was nice meeting you, Sehriya.  Farewell.~ EXIT
++  SAY @14
++  IF ~~ THEN REPLY @15 GOTO 1
++  IF ~~ THEN REPLY @16 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~... ~
++  SAY @17
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Stop kidding around!  Hee-hee.  Mother said that strangers always joked around.  I'm going to go play now.  Goodbye!~
++  SAY @18
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Nope!  After you rest, then we can play!~
++  SAY @19
+   IF ~~ THEN DO ~RestParty()~ EXIT
+ END
+ 
+ IF ~!NumTimesTalkedTo(0)~ THEN BEGIN 8
+-  SAY ~Yay!  Have you come back to play?  Mother should be back soon.~
+-  IF ~Global("SehriyasStory","GLOBAL",0)~ THEN REPLY ~Sehriya, can you tell me who your mom is?~ GOTO 1
+-  IF ~Global("SehriyasStory","GLOBAL",0)~ THEN REPLY ~I just came to visit.  What are you doing?~ GOTO 4
+-  IF ~Global("SehriyasStory","GLOBAL",1)~ THEN REPLY ~Sehriya, do you mind if we rest here?  ~ GOTO 7
+-  IF ~~ THEN REPLY ~I can't play just yet.  Maybe later.  Farewell.~ EXIT
++  SAY @20
++  IF ~Global("SehriyasStory","GLOBAL",0)~ THEN REPLY @21 GOTO 1
++  IF ~Global("SehriyasStory","GLOBAL",0)~ THEN REPLY @22 GOTO 4
++  IF ~Global("SehriyasStory","GLOBAL",1)~ THEN REPLY @23 GOTO 7
++  IF ~~ THEN REPLY @24 EXIT
+ END

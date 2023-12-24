@@ -1,0 +1,30 @@
+--- TS\bgtdlg\UHRANG01.D	Wed Nov 17 14:52:03 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\UHRANG01.D	Thu May 05 10:45:18 2016
+@@ -4,9 +4,7 @@
+ !InParty("Valygar")
+ !Global("ValygarMatch","GLOBAL",1)
+ !Gender(Player1,FEMALE)~ THEN BEGIN 0
+-  SAY ~Uh... freedom from his domination... thank y........
+-
+-(The ranger's words trail off. She is dead.)~
++  SAY @0
+   IF ~~ THEN DO ~Kill(Myself)~ EXIT
+ END
+ 
+@@ -14,14 +12,14 @@
+ Global("ValygarMatch","GLOBAL",1)
+ Gender(Player1,FEMALE)
+ ~ THEN BEGIN 1
+-  SAY ~Uh... freedom from his domination... Valygar? Is that you? I... always wanted to tell you... I am so sorry...~
++  SAY @1
+   IF ~~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPCutV01")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Thank y... (*Merella's words trail off. She is dead.*)~
++  SAY @2
+   IF ~~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPCutV02")~ EXIT

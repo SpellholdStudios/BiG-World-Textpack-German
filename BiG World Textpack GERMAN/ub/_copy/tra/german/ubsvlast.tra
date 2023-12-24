@@ -1,0 +1,67 @@
+// Svlast CRE
+@4201 = ~Svlast~
+@4202 = ~[LOTHANDER 2] Mein Leben ist ein Trümmerhaufen.~ [%tutu_var%LOTHR02]
+@4203 = ~[LOTHANDER 3]~ [%tutu_var%LOTHR03]
+@4204 = ~[LOTHANDER 4]~ [%tutu_var%LOTHR04]
+
+// Revenant
+@4210 = ~Wiedergänger~
+@4211 = ~[REVENANT 01] ~ [%tutu_var%REVEN01]
+@4212 = ~[REVENANT 02] Muss... rächen...~ [%tutu_var%REVEN02]
+@4213 = ~[REVENANT 03] Ich bin gekommen um Euch zu holen.~ [%tutu_var%REVEN03]
+@4214 = ~[REVENANT 04] Ihr... müsst... bezahlen...~ [%tutu_var%REVEN04]
+@4215 = ~[REVENANT 05] ~ [%tutu_var%REVEN05]
+@4216 = ~[REVENANT 06] ~ [%tutu_var%REVEN06]
+@4217 = ~Revenge...~
+@4218 = ~[REVENANT 08] ~ [%tutu_var%REVEN08]
+@4219 = ~[REVENANT 09] ~ [%tutu_var%REVEN09]
+
+
+// UBSVLAST.D
+/* #14889 */
+@4220 = ~Er ist hier. Er kommt. Ich kann seine Schritte spüren, wie sie mir folgen. Der Geruch von vermoderndem Fleisch. Er holt uns alle.~ 
+/* #14890 */
+@4221 = ~Ich - ich habe ihn getötet. Aber er ist hier, er ist bereits auf dem Weg, ich... ich kann es fühlen.~ 
+/* #14891 - MODIFIED */
+@4222 = ~Ich war einst ein Paladin. Ich kämpfte für die gerechte Sache, aber jetzt ist alles vorbei... Ich habe ihn kaltblutig ermordet, meinen Bruder im Glauben... Wenn er kommt, lasst ihn gewähren.~ 
+/* #14893 - MODIFIED */
+@4223 = ~Was habt Ihr getan? Nun bin ich auf ewig verdammt! Tötet mich an diesem elendigen Ort! Dann wird wenigstens etwas Gerechtigkeit herrschen.~ 
+/* #14894 */
+@4224 = ~Was habt Ihr gehofft von einem jämmerlichen Narren wie mir lernen zu können? Lernt zumindest aus meinem Beispiel und trachtet nicht danach das Gute auf der Welt auszulöschen.~ 
+/* #14895 */
+@4225 = ~Bitte, überlasst mich einfach meinem Kummer.~ 
+/* #14896 */
+@4226 = ~So sehr ich den Tod auch willkommen heiße, ich werde ihm nicht kampflos gegenüber treten.~ 
+@4227 = ~Verzeiht, mein Bruder... ich war neidisch, ich war... ein Narr. Mein Leben gehört Euch.~ 
+
+// Replies
+@4240 = ~Wovon redet Ihr? Wer wird uns alle holen?~
+@4241 = ~Wer ist das gewesen? Weshalb jagt er noch aus dem Grab heraus hinter Euch her?~
+@4242 = ~Seid Ihr verrückt? Ich werde nicht einfach hier herum stehen und zusehen wie diese Kreatur Euch tötet!~
+@4243 = ~Wie Ihr wünscht. Ich heiße Eure Entscheidung nicht gut, aber wenn es Euer Wille ist durch die Hand dieser Kreatur zu sterben werde ich dem nicht im Wege stehen.~ 
+@4244 = ~Kein Problem. Das ist eine Sache zwischen euch beiden. Ich habe daran keinen Anteil!~
+@4245 = ~Eine untote Kreatur trachtet nach *Eurem* Leben? Vielleicht sollten wir ihr einfach geben wonach ihr verlangt!~
+@4246 = ~Wie Ihr wünscht. Lasst Gerechtigkeit walten.~
+@4247 = ~Ich verweigere mich. Ich werde Euch nicht richten. Ihr werdet für Eure Verbrechen büßen müssen. Vielleicht können andere aus Euren Fehlern lernen.~ 
+@4248 = ~Das ist aber eine freundliche Art seine Dankbarkeit auszudrücken! Ich habe nur Euer erbärmliches Leben gerettet!~
+@4249 = ~Wenn das Euer Wille ist, wird es mir ein Vergnügen sein.~
+
+// Journal Entries
+//  (Strref: 15713)
+@4290 = ~Svlasts Leid
+Ich bin Zeuge tragischer Ereignisse nahe der Feuerwein-Ruinen geworden. Ein gefallener Paladin mit dem Namen Svlast wurde vom Geist seines Glaubensbruders verfolgt, den er zu Unrecht getötet hat. Niemals habe ich eine traurigere und reumütigere Seele als den armen Svlast gesehen. Er hat uns angefleht uns nicht einzumischen, aber mein Gewissen findet mit einer solchen Entscheidung keinen Frieden...~
+@4291 = ~Svlasts Leid
+Ein gefallener Paladin mit dem Namen Svlast wurde vom Geist seines Glaubensbruders verfolgt, den er zu Unrecht getötet hat. Er hat uns angefleht uns nicht einzumischen.~
+@4292 = ~Svlasts Leid
+Ein gefallener Paladin mit dem Namen Svlast wurde vom Geist seines Glaubensbruders verfolgt, den er zu Unrecht getötet hat. Ich habe der Kreatur gegeben was sie begehrte, indem ich den Paladin selbst getötet habe.~
+@4293 = ~Svlasts Leid
+Svlasts Leid ist vorbei. Die Kreatur hat ihre Rache bekommen.~
+// (Strref: 15703)
+@4295 = ~Svlasts Leid
+Nachdem er den Angriff des Wiedergängers mit unserer Hilfe überlebt hat, flehte uns der arme und unglückliche Svlast an seine Aufgabe zu vollenden... Der Tag ist düster bei diesen Ruinen, und ich fürchte er wird noch düsterer werden.~
+@4296 = ~Svlasts Leid
+Nachdem er den Angriff des Wiedergängers mit unserer Hilfe überlebt hat, flehte uns der arme und unglückliche Svlast an seine Aufgabe zu vollenden... Ich habe mich geweigert. Er wird für seine Verbrechen büßen müssen.~
+@4297 = ~Svlasts Leid
+Nachdem er den Angriff des Wiedergängers mit unserer Hilfe überlebt hat, flehte uns der arme und unglückliche Svlast an seine Aufgabe zu vollenden... Man sollte eigentlich Dankbarkeit erwarten!~
+@4298 = ~Svlasts Leid
+Nachdem er den Angriff des Wiedergängers mit unserer Hilfe überlebt hat, flehte uns der arme und unglückliche Svlast an seine Aufgabe zu vollenden... Wer bin ich ihm das zu verweigern?~

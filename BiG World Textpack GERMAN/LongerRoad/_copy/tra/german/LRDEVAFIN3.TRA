@@ -1,0 +1,29 @@
+@0 = ~Das war eine grausame Entscheidung, <CHARNAME>... aber es lag an Euch, sie zu treffen. Lebt wohl!~ [nymph118]
+@1 = ~Lebt wohl, Gotteskind. Ich fürchte, dass ich Euch nicht zu dem von Euch gewählten Weg gratulieren kann.~ [nymph210]
+@2 = ~Ah, Ihr habt Euren Weg verlängert... um einige Lebenszyklen, nicht mehr. Denkt daran, dass sogar eine neue Gottheit des Mords sterben und das Große Rad zurückdrehen kann. Doch ich glaube, dass Ihr schließlich zu Eurem wahren Selbst zurückkehren werdet. Lebt wohl. Lebt auch Ihr wohl, Gebrochener.~ [nymph319]
+@3 = ~(Schreit) Autsch, was habt Ihr getan, Sterblicher! Ihr habt das Potential für die Güte getötet, das im Bebilith steckte... Ich bin dankbar für Eure Hilfe, aber mein Herz wird für immer in Schwermut verinken. Ich werde mir nie verzeihen, der Grund für dieses Opfer zu sein...~ [deva3] 
+@4 = ~Das war eine vernünftige Entscheidung, <CHARNAME>... aber es lag an Euch, sie zu treffen. Nehmt bitte noch dieses Abschiedsgeschenk an und lebt wohl.~ [nymph120]
+@5 = ~Ah, Ihr habt Euren Weg verlängert... vielleicht um einen Lebenszyklus. Denkt daran, dass sogar eine neue Gottheit des Mords sterben und das Große Rad zurückdrehen kann. Doch ich glaube, dass Ihr schließlich zu Eurem wahren Selbst zurückkehren werdet. Lebt wohl. Lebt auch Ihr wohl, Gebrochener.~ [nymph319]
+@6 = ~(brüllt) Autsch, was habt Ihr getan, Sterblicher! Ihr habt ihn getötet, ihn getötet, Ihr habt den Deva getötet! Und jetzt kann Abaia nicht einmal Ybdiel folgen! Er muss auf den Funken aufpassen.~
+@7 = ~Schh, arme verlorene Seele, wir werden uns um Euch und Euren Schmerz kümmern. Gotteskind, nehmt bitte diese ablegte Waffe als Abschiedsgeschenk an.~
+@8 = ~Das war eine schlechte Wahl, <CHARNAME>... aber es lag an Euch, sie zu treffen!~ [nymph122]
+@9 = ~Ah, Ihr habt Euren Weg verlängert... vielleicht um einen Lebenszyklus. Doch ich glaube, dass Ihr schließlich zu Eurem wahren Selbst zurückkehren werdet. Lebt wohl. Lebt auch Ihr wohl, Gebrochener.~ [nymph319]
+@10 = ~Danke, <CHARNAME>. Ihr habt uns beide gerettet und uns neues Leben in diesem neuen erstaunlichen Sinn gegeben. Wir werden Eure Güte nie vergessen, Weiser. Nur in Vergebung und Eintracht gibt es Harmonie und Leben. Trennung gebiert nichts anderes als weiteres Leiden. Nehmt bitte dieses bescheidene Abschiedsgeschenk an.~ [deva8]
+@11 = ~Das war eine Entscheidung, wie sie sich für jemanden von göttlichem Blut ziemt, <CHARNAME>, und es lag an Euch, sie zu treffen. Lebt wohl.~ [nymph123]
+@12 = ~Lebt wohl, Gotteskind. Ich bin glücklich über Eure Weisheit und gratuliere Euch zu dem von Euch gewählten Weg.~ [nymph28]
+@13 = ~<CHARNAME>, Ihr habt Euch bei Eurer Aufgabe übertroffen, und ich danke Euch von Herzen für Eure Güte, die nur mit Eurem Scharfsinn wetteifert.~ [nymph323]
+@14 = ~Ich sehe, dass Ihr das Geschenk der Seldarine tragt. Es ist tatsächlich ein heller Tag, wenn ein so gesegneter das Reich der Mutter Natur besucht. Lasst mich den Segen der Mutter Erde dem der Elfen-Götter hinzufügen, und möge Euer Weg immer mit Wahrheit und warmem Sonnenlicht scheinen.~
+@15 = ~Lebt wohl, <CHARNAME>. Lebt auch Ihr wohl, Gebrochener, und möge *Euer* Weg durch diesen kurzen Besuch ebenso verkürzt werden.~
+@16 = ~Ich bin erfreut, dass Ihr am Ende zur Vernunft gekommen seid, Gotteskind. Eure neue Trophäe ist sicherlich den Preis zweier nutzloser Leben wert. Doch ich wünschte, dass wir nicht dorthin hätten reisen müssen - die bloße Erinnerung an diesen Ort reibt mir die Nerven auf!~
+@17 = ~Das Ende der Deva-Suche
+
+Nach dem verrückten Bebilith teleportierte Abaia mich ins Elysium, wo wir von einem Trio örtlicher Nymphen begrüßt wurden. Sie stellten mir einige seltsame Fragen und erklärten dann, dass ich ihre Tests bestanden hätte. Ich folgte Irenicus Rat und behielt den Funken... die Zeit wird es lehren, ob diese Entscheidung die vernünftigste war.~
+@18 = ~Was nützt es, einem erbärmlichen Anfall von Gefühl zu erliegen und den Funken zu verlieren? Pah! Zumindestens ist Eure neue Trophäe den Preis eines nutzlosen Lebens wert. Doch ich wünschte, dass wir nicht dorthin hätten reisen müssen - die bloße Erinnerung an diesen Ort reibt mir die Nerven auf!~
+@19 = ~Das Ende der Deva-Suche
+
+Nach dem verrückten Bebilith teleportierte Abaia mich ins Elysium, wo wir von einem Trio örtlicher Nymphen begrüßt wurden. Sie stellten mir einige seltsame Fragen und erklärten dann, dass ich ihre Tests bestanden hätte. Ich versuchte, ihr Rätsel nach meinem besten Können zu lösen - meine einzige Hoffnung ist jetzt, dass "mein bestes" gut genug war.
+~
+@20 = ~<CHARNAME>, was nützt es, einem erbärmlichen Anfall von Gefühl zu erliegen und den Funken zu verlieren? Ich nehme an, dass Ihr es tatet, um mich noch weiter zu erniedrigen, indem Ihr Euch meinem Rat widersetzt! Ich kann keine andere Erklärung für diese dumme Tat erkennen. Hört jetzt auf, mich mit diesem dummen Grinsen im Gesicht anzustarren, und überlasst mich meinen Gedanken - die bloße Erinnerung an diesen Ort reibt mir die Nerven auf!~
+@21 = ~Das Ende der Deva-Suche
+
+Nach dem verrückten Bebilith teleportierte Abaia mich ins Elysium, wo wir von einem Trio örtlicher Nymphen begrüßt wurden. Sie stellten mir einige seltsame Fragen und erklärten dann, dass ich ihre Tests bestanden hätte. Ich versuchte, ihr Rätsel nach meinem besten Können zu lösen. Das neue Wesen, das ich schuf, war ein entzückender, wenn auch ein bisschen ulkiger Anblick. Irenicus beschimpfte in einen weiteren Anfall von bissigem Gefasel meine "erbärmlichen" Gefühle. Etwas sagt mir jedoch, dass ich die richtige Entscheidung getroffen habe - er war seitdem nicht mehr derselbe.~

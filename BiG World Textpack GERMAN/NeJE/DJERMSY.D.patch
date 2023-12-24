@@ -1,0 +1,166 @@
+--- NeJE\dlg\DJERMSY.D	Sun May 24 17:42:32 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DJERMSY.D	Tue Apr 09 19:35:48 2019
+@@ -1,116 +1,110 @@
+ BEGIN ~DJERMSY~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~Shhhhh... be quiet or the goblins will hear us.~ 
++  SAY @0 
+   IF ~OR(2)
+ !InParty("Minsc")
+-Dead("Minsc")~ THEN REPLY ~What are you doing in the closet?~  JOURNAL ~Kuldahar Pass.
+-
+-We found a little boy hiding in a closet in a mill near Kuldahar.  He told us that his father and sister were killed by goblins.  Their bodies were probably the ones we passed on the first floor.~  GOTO 1
++Dead("Minsc")~ THEN REPLY @1  JOURNAL @2  GOTO 1
+   IF ~!InParty("Minsc")
+-Dead("Minsc")~ THEN REPLY ~What's your name, little boy?~  JOURNAL ~Kuldahar Pass.
+-
+-We found a little boy hiding in a closet in a mill near Kuldahar.  He told us that his father and sister were killed by goblins.  Their bodies were probably the ones we passed on the first floor.~  GOTO 2
++Dead("Minsc")~ THEN REPLY @3  JOURNAL @2  GOTO 2
+   IF ~!InParty("Minsc")
+-Dead("Minsc")~ THEN REPLY ~Okay, I'll just leave.  That way I won't draw any attention to you.  Farewell.~  EXIT
++Dead("Minsc")~ THEN REPLY @4  EXIT
+   IF ~InParty("Minsc")
+-!Dead("Minsc")~ THEN JOURNAL ~Kuldahar Pass.
+-
+-We found a little boy hiding in a closet in a mill near Kuldahar.  He told us that his father and sister were killed by goblins.  Their bodies were probably the ones we passed on the first floor.~  EXTERN ~MINSCJ~ NEJ276
++!Dead("Minsc")~ THEN JOURNAL @2  EXTERN ~MINSCJ~ NEJ276
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 1 // from: 0.0
+-  SAY ~I'm hiding from the goblins.  They... they got my dad and sister.~ 
+-  IF ~~ THEN REPLY ~I'm sorry.  I know it can't be that comforting for me to just say it, but... it will be okay.  Let me take you to the village.  I'll find help for you there.~  DO ~AddExperienceParty(6500)
++  SAY @5 
++  IF ~~ THEN REPLY @6  DO ~AddExperienceParty(6500)
+ EscapeArea()~ GOTO 3
+-  IF ~~ THEN REPLY ~Tough luck, kid.  Life's hard.  Get used to it.~  GOTO 4
++  IF ~~ THEN REPLY @7  GOTO 4
+   IF ~!Class(Player1,PALADIN)
+-!Class(Player1,RANGER)~ THEN REPLY ~That... is... *hilarious.*  Ha, ha!~  DO ~EscapeArea()~ GOTO 6
++!Class(Player1,RANGER)~ THEN REPLY @8  DO ~EscapeArea()~ GOTO 6
+   IF ~Class(Player1,CLERIC)
+-Alignment(Player1,LAWFUL_GOOD)~ THEN REPLY ~Life teaches us many valuable lessons, little boy.  The gods move in mysterious ways.~  GOTO 5
++Alignment(Player1,LAWFUL_GOOD)~ THEN REPLY @9  GOTO 5
+   IF ~Class(Player1,CLERIC)
+-Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY ~Of course they did.  The black gods teach us that the way to spiritual perfection lies on a road of conflict.  Your family was found... lacking.  Do not add to their failure by lamenting it.~  DO ~AddExperienceParty(9500)
++Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY @10  DO ~AddExperienceParty(9500)
+ EscapeArea()~ GOTO 6
+   IF ~OR(2)
+ Alignment(Player1,LAWFUL_NEUTRAL)
+ Alignment(Player1,NEUTRAL)
+ OR(2)
+ Class(Player1,CLERIC)
+-Class(Player1,DRUID)~ THEN REPLY ~It's all part of the balance, my child.  In time, all things will become clear.~  GOTO 7
+-  IF ~Class(Player1,PALADIN)~ THEN REPLY ~Do not mourn too deeply, child.  If your father and sister were pure of heart, they are in a better place.  Justice will come to those who murdered them.  Come with me and I will find some help for you.~  DO ~AddExperienceParty(6500)
++Class(Player1,DRUID)~ THEN REPLY @11  GOTO 7
++  IF ~Class(Player1,PALADIN)~ THEN REPLY @12  DO ~AddExperienceParty(6500)
+ EscapeArea()~ GOTO 3
+-  IF ~Class(Player1,RANGER)~ THEN REPLY ~Goblins... yes.  I'm sorry, boy.  What are goblins doing far into the pass, anyway?  From what I've seen in the area, this is not an appropriate climate for their kind.~  GOTO 8
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Goblins... yes.  I'm sorry, boy.  What are goblins doing far into the pass, anyway?  From what I've seen in the area, this is not an appropriate climate for their kind.~  GOTO 8
+-  IF ~~ THEN REPLY ~I'm sorry, little boy, but I have to go now.  Farewell.~  EXIT
++  IF ~Class(Player1,RANGER)~ THEN REPLY @13  GOTO 8
++  IF ~Class(Player1,DRUID)~ THEN REPLY @13  GOTO 8
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 0.1
+-  SAY ~My name is Jermsy.  I lived here at the mill with... oh.  My dad and my sister.  The goblins got them.~ 
+-  IF ~~ THEN REPLY ~I'm sorry.  I know it can't be that comforting for me to just say it, but... it will be okay.  Let me take you to the village.  I'll find help for you there.~  DO ~AddExperienceParty(6500)
++  SAY @15 
++  IF ~~ THEN REPLY @6  DO ~AddExperienceParty(6500)
+ EscapeArea()~ GOTO 3
+-  IF ~~ THEN REPLY ~Tough luck, kid.  Life's hard.  Get used to it.~  GOTO 4
++  IF ~~ THEN REPLY @7  GOTO 4
+   IF ~!Class(Player1,PALADIN)
+-!Class(Player1,RANGER)~ THEN REPLY ~That... is... *hilarious*.  Ha, ha!~  DO ~EscapeArea()~ GOTO 6
++!Class(Player1,RANGER)~ THEN REPLY @16  DO ~EscapeArea()~ GOTO 6
+   IF ~Class(Player1,CLERIC)
+-Alignment(Player1,LAWFUL_GOOD)~ THEN REPLY ~Life teaches us many valuable lessons, Jermsy.  The gods move in mysterious ways.~  GOTO 5
++Alignment(Player1,LAWFUL_GOOD)~ THEN REPLY @17  GOTO 5
+   IF ~Class(Player1,CLERIC)
+-Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY ~Of course they did.  The black gods teach us that the way to spiritual perfection lies on a road of conflict.  Your family was found... lacking.  Do not add to their failure by lamenting it.~  DO ~AddExperienceParty(9500)
++Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY @10  DO ~AddExperienceParty(9500)
+ EscapeArea()~ GOTO 6
+   IF ~OR(2)
+ Alignment(Player1,LAWFUL_NEUTRAL)
+ Alignment(Player1,NEUTRAL)
+ OR(2)
+ Class(Player1,CLERIC)
+-Class(Player1,DRUID)~ THEN REPLY ~It's all part of the balance, my child.  In time, all things will become clear.~  GOTO 7
+-  IF ~Class(Player1,PALADIN)~ THEN REPLY ~Do not mourn too deeply, child.  If your father and sister were pure of heart, they are in a better place.  Justice will come to those who murdered them.  Come with me and I will find some help for you.~  DO ~AddExperienceParty(6500)
++Class(Player1,DRUID)~ THEN REPLY @11  GOTO 7
++  IF ~Class(Player1,PALADIN)~ THEN REPLY @12  DO ~AddExperienceParty(6500)
+ EscapeArea()~ GOTO 3
+-  IF ~Class(Player1,RANGER)~ THEN REPLY ~Goblins... yes.  I'm sorry, Jermsy.  What are goblins doing far into the pass, anyway?  From what I've seen in the area, this is not an appropriate climate for their kind.~  GOTO 8
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Goblins... yes.  I'm sorry, Jermsy.  What are goblins doing far into the pass, anyway?  From what I've seen in the area, this is not an appropriate climate for their kind.~  GOTO 8
+-  IF ~~ THEN REPLY ~I'm sorry, Jermsy, but I have to go now.  Farewell.~  EXIT
++  IF ~Class(Player1,RANGER)~ THEN REPLY @18  GOTO 8
++  IF ~Class(Player1,DRUID)~ THEN REPLY @18  GOTO 8
++  IF ~~ THEN REPLY @19  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 5.0 4.1 4.0 2.6 2.0 1.6 1.0
+-  SAY ~Don't worry about me.  I'll go to the temple in Kuldahar.  I know the way.  Now that the goblins are dead, it'll be easy to get there!  Bye!~ 
+-  IF ~~ THEN REPLY ~Farewell, Jermsy.~  EXIT
++  SAY @20 
++  IF ~~ THEN REPLY @21  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 8.0 7.2 7.1 7.0 5.1 2.1 1.1
+-  SAY ~But... but... what am I supposed to do now?~ 
+-  IF ~~ THEN REPLY ~I'll take care of you until we find somewhere you can stay.~  DO ~AddExperienceParty(6500)
++  SAY @22 
++  IF ~~ THEN REPLY @23  DO ~AddExperienceParty(6500)
+ EscapeArea()~ GOTO 3
+-  IF ~~ THEN REPLY ~I suppose you can tag along with me until I find someplace to drop you off.~  DO ~AddExperienceParty(9500)
++  IF ~~ THEN REPLY @24  DO ~AddExperienceParty(9500)
+ EscapeArea()~ GOTO 3
+   IF ~!Class(Player1,PALADIN)
+-!Class(Player1,RANGER)~ THEN REPLY ~Claw your way to survival or die.  You're not my problem, whelp.~  DO ~AddExperienceParty(8500)
++!Class(Player1,RANGER)~ THEN REPLY @25  DO ~AddExperienceParty(8500)
+ EscapeArea()~ GOTO 6
+-  IF ~~ THEN REPLY ~Er... I don't know.  Farewell.~  EXIT
++  IF ~~ THEN REPLY @26  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 2.3 1.3
+-  SAY ~What lesson were the gods trying to teach me?~ 
+-  IF ~CheckStatGT(Player1,14,WIS)~ THEN REPLY ~I can't know the will of the gods, but I can say that death is not the end of existence.  It is the beginning of a new life.  Come with me.  I will take you to people who can care for you better than I.~  DO ~AddExperienceParty(6500)
++  SAY @27 
++  IF ~CheckStatGT(Player1,14,WIS)~ THEN REPLY @28  DO ~AddExperienceParty(6500)
+ EscapeArea()
+ ~ GOTO 3
+-  IF ~CheckStatLT(Player1,15,WIS)~ THEN REPLY ~Er... I don't know, exactly.  As I said, the gods move in mysterious ways and... well, it's pretty complicated.  Sorry, little boy.~  GOTO 4
+-  IF ~~ THEN REPLY ~Sorry, but I have to go now.  Farewell.~  EXIT
++  IF ~CheckStatLT(Player1,15,WIS)~ THEN REPLY @29  GOTO 4
++  IF ~~ THEN REPLY @30  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 4.2 2.4 2.2 1.4 1.2
+-  SAY ~Aaaaaaaaaagh!~ 
++  SAY @31 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 2.5 1.5
+-  SAY ~Things like what?~ 
++  SAY @32 
+   IF ~Class(Player1,CLERIC)
+-Alignment(Player1,LAWFUL_NEUTRAL)~ THEN REPLY ~Weal and woe, both shift in the course of one's existence on this world.  The blessing of Tymora and the black kiss of Beshaba are equal partners in each person's life.~  GOTO 4
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~All beings struggle against the other creatures of the world.  It is our lot in this world to strive for life in accordance with... or against nature.  But in the end, we will all die and give rise to new life.  It is in the nature of things to live and die, my child.~  GOTO 4
+-  IF ~~ THEN REPLY ~You have to figure that out on your own, my child.~  GOTO 4
+-  IF ~~ THEN REPLY ~I have to go now.  Sorry, little boy.  Farewell.~  EXIT
++Alignment(Player1,LAWFUL_NEUTRAL)~ THEN REPLY @33  GOTO 4
++  IF ~Class(Player1,DRUID)~ THEN REPLY @34  GOTO 4
++  IF ~~ THEN REPLY @35  GOTO 4
++  IF ~~ THEN REPLY @36  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 2.8 2.7 1.8 1.7
+-  SAY ~I dunno.  I keep hearing one of them say that their head hurts.  Sometimes they growl and howl, too.  Like they're in pain.~ 
+-  IF ~~ THEN REPLY ~Hmmm.  Interesting.~  GOTO 4
+-  IF ~~ THEN REPLY ~Thanks, kid.  Farewell.~  EXIT
++  SAY @37 
++  IF ~~ THEN REPLY @38  GOTO 4
++  IF ~~ THEN REPLY @39  EXIT
+ END

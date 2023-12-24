@@ -1,0 +1,54 @@
+@0    = ~My name is Soth.  Is there something I can help you with?~
+@1    = ~May I ask you some questions?~
+@2    = ~Not at this time.  Farewell.~
+@3    = ~Greetings.  Its good to see you again.  What can I help you with?~
+@4    = ~I would like to ask you some questions.~
+@5    = ~There is a rope bridge near here in danger of collapsing.  Could I learn to repair it using some of the books here?~
+@6    = ~Nothing at this time, farewell.~
+@7    = ~Certainly, what do you want to know?~
+@8    = ~Who are you again?~
+@9    = ~What are you doing here? ~
+@10   = ~How did you come to be here, Soth?~
+@11   = ~Have you examined most of the books here?~
+@12   = ~Wyrm’s Tooth.
+
+We talked to a scholar named Soth who has been studying the books in the Wyrm’s Tooth library. He says that they are works dedicated to dwarven engineering.~
+@13   = ~Farewell for now, Soth.~
+@14   = ~My name is Soth.  No last name, just Soth. ~
+@15   = ~Why is that?~
+@16   = ~Let me ask you something else.~
+@17   = ~It’s a custom of my people.  A man earns his last name rather than having it given to him.  I haven’t earned my name yet.~
+@18   = ~Interesting custom.  Where are you from?~
+@19   = ~I see.  Let me ask you something else.~
+@20   = ~I hail from a small village outside of Auckney... Auckney’s located at the other end of the Spine of the World mountains.  Anyway, my village is a small place.  I don’t think its made it on the maps yet...~
+@21   = ~Well...  I fancy myself to be a bit of a scholar so I’m trying to go through some of these books and learn a bit about this place.~
+@22   = ~Have you had any luck?~
+@23   = ~Yes.  It’ hard reading, but I’ve pieced a few things together. ~
+@24   = ~What have you learned?~
+@25   = ~Wyrm’s Tooth.
+
+We talked to a scholar named Soth.  He says that the Wyrm’s Tooth buildings are a temple complex dedicated to Dugmaren Brightmane, the dwarven god of scholars and explorers. ~
+@26   = ~It seems that this entire complex is a temple dedicated to Dugmaren Brightmantle...~
+@27   = ~I am not familiar with that name.  Who is he?~
+@28   = ~Dugmaren... He is the dwarven god of scholars, inventors, and explorers.~
+@29   = ~If memory serves me right, he is the dwarven god of scholars, inventors, and explorers.~
+@30   = ~From what I can gather he is the dwarven god of scholars, inventors, and explorers.  He’s not well known and frowned upon by some of the other gods.  They consider him to be a bit... whimsical, I guess you’d say.  Anyway, Dugmaren felt that the dwarves should get out and explore the world more. ~
+@31   = ~I see.  What else can you tell me about this place?~
+@32   = ~Yes, quite right.  He’s not well known and frowned upon by some of the other gods.  They consider him to be a bit... whimsical, I guess you’d say.  Anyway, Dugmaren felt that the dwarves should get out and explore the world more.~
+@33   = ~A brilliant architect known as Alkonos the Visionary built this complex.  He was a devout follower of Dugmaren and took offense that his deity had no formal temple.  So, he petitioned the king and was granted permission to construct one.  During the construction he became known as Alkonos the Mad.~
+@34   = ~Why did they call him that?~
+@35   = ~Well, apparently most of the dwarves wanted to just bore a tunnel through this glacier and build a small temple in the mountain on the other side.  Alkonos would hear nothing of it.  Instead he began construction on a grandiose scale... and here is the result.~
+@36   = ~If the dwarves thought him mad, why did they not stop him?~
+@37   = ~I was on my way from Auckney to Easthaven.  Raiders waylaid the caravan I was with, and I was knocked unconscious. When I awoke, I was here.~
+@38   = ~I have never heard of Auckney.~
+@39   = ~Auckney’s located at the other end of the Spine of the World mountains. It’s a small place. I don’t think it has made it on the maps yet...~
+@40   = ~Yes, I have.  It didn’t take as long as you would think because most of them are so damaged as to be unreadable. It’s a shame too, because the few that are readable are excellent works on dwarven engineering.~
+@41   = ~There is a rope bridge near here in danger of collapsing. Could I learn to repair it using some of the books here?~
+@42   = ~Wyrm’s Tooth.
+
+The scholar Soth gave us a book on dwarven engineering. With it we hope to repair the rope bridge that spans the southwest chasm.~
+@43   = ~I don’t rightly know... I suppose it’s worth a try though.  Let me see... bridges...  Yes, here you go. This one covers the basics of suspension and such... Good luck.~
+@44   = ~Thank you, Soth.  Let me ask you something else.~
+@45   = ~Oh, they tried...  Now, I may not have the lineage exactly right, but it appears that Alkonos was related to the king at the time. He was either a nephew or a cousin. I don’t know which. In any case, the king couldn’t admit that one of his relatives was a brick shy upstairs.  It would be a bad reflection on him.~
+@46   = ~Interesting.  Let me ask you something else.~
+@47   = ~I don’t rightly know... I suppose it’s worth a try though.  Let me think... bridges...  Yes, I had a book on bridges now that I think about it. I left it in the corner over there by the spiral stairs.  I have no need for it.~

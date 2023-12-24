@@ -1,0 +1,1748 @@
+--- Setup-BDToBv175.tp2	Fri Nov 11 08:24:09 2016
++++ C:\BWP Patchstudio\patched files\Setup-BDToBv175.tp2	Fri Nov 11 10:22:59 2016
+@@ -68,7 +68,7 @@
+ /////////////////////////////////////////////////////////                                               
+ // Improved Monk Class                                    
+ /////////////////////////////////////////////////////////
+-BEGIN ~Improved Monk Class (by Vlad)~
++PRINT @20000
+ 
+ //Substitute the following string 45867
+ STRING_SET ~MONK: Monks are warriors who pursue perfection through contemplation as well as action.  They are versatile fighters, especially skilled in combat without weapons or armor.  Though monks cannot cast spells, they have a unique magic of their own.  They channel a subtle energy, called ki, which allows them to perform amazing feats.  The monk's best known feat is their ability to stun an opponent with an unarmed blow.  
+@@ -104,57 +104,7 @@
+ -  A monk can only use weapons available to the thief class (except 2 handed)
+ ~
+ 
+-~MONK: Monks are warriors who pursue perfection through contemplation as well as action. They are versatile fighters, especially skilled in combat without weapons or heavy armor. Though monks cannot cast wizard spells, they have a unique magic of their own. They channel a subtle energy, called ki, which allows them to perform amazing feats. The monk's best known feat is their ability to stun an opponent with an unarmed blow.  
+-
+-Monks must be of Lawful alignments.
+-
+-Advantages:
+-
+-Combat Abilities:
+--  Monks can make 1 unarmed attack per round; he gains 1/2 an  additional attack every 3 levels.
+--  Monks gain a bonus +1 to hit and +1 damage for every 4 levels.
+--  Stunning blow, once per day for every 4 levels. All attacks in the next 6 seconds force the victim to save or be stunned. NOTE: This special ability automatically modifies a Monk's normal attack, no targeting needs to be done.
+--  Monks can cause 10% cumulative spell failure penalty applied for each successful hit on a spellcaster.
+--  As the monk increases in levels, the damage his fists inflicts does as well:
+-Level 1-2:   1-6
+-Level 3-5:   1-8
+-Level 6-8:   1-10
+-Level 9-14:  1-12
+-Level 15+:   1-20 
+-             
+-Special Abilities:
+--  A monk's natural armor class gets better as the monk goes up in levels. Armor class starts off at 9, and then decreases by 1 for every 2 levels until level 21, then every 3 levels until 30, then every 5 levels until 40. In addition, monk gains a special one-time bonus of -2 to his armour class for every 5 levels.
+--  Deflect Missiles (this ability gives a monk a -1 to their armour class vs missiles for every 3 levels).
+--  Immunity to hold
+--  Immunity to level drain
+--  Monks have the Read Scrolls ability for cleric scrolls. A monk may equip a cleric scroll in a Quick Item slot and use it, casting the spell and consuming the scroll in the process.
+--  Monks start off moving at +2 move, then +1 move every 5 levels.
+--  Monks gain an initial bonus of +2 to save vs spells.
+--  Magic Resistance:
+-Level 1-13:  +1% for every 2 levels
+-Level 14:    +42% (a special one-time bonus)
+-Level 15-31: +3% per level until 100% maximum
+-             
+-Monk's special abilities according to levels:
+--  4th  level:  True Free Action (immunity to any slowing, holding and paralyzation magics)
+--  5th  level:  Immunity to all diseases
+--  7th  level:  Lay on Hands to heal 2 hit points per level
+--  8th  level:  -1 to speed factor
+--  9th  level:  +1 to all saves. Immune to charm. The monk's fist is considered a +1 weapon (+2 at 12th, +3 at 15th)
+--  11th level:  Immunity to poison
+--  12th level:  Another -1 to speed factor. Fists are considered +2 weapons. 
+--  13th level:  Quivering palm spell once per day. This spell gives them one hand attack. If they hit an opponent, the opponent must save or die. NOTE: This special ability automatically modifies a Monk's normal attack, no targeting needs to be done.
+--  15th level:  Fists are considered +3 weapons
+--  20th level:  Immunity to non-magical weapons. Fists are considered +4 weapons. 
+-
+-Innate Abilities:
+--  Invoke Courage once per day per 4 levels
+--  Heal once per day per 4 levels
+--  Death Curse once per day (at level 12, 18, 24, 30 and 36)
+-
+-Disadvantages:
+--  Monk cannot wear armour
+--  Monk can use only weapons available to the thief class~
++@20001
+ 
+ COPY_EXISTING ~ABCLASRQ.2da~ ~override~
+   SET_2DA_ENTRY 48 1 7 ~12~
+@@ -238,12 +188,12 @@
+ //COPY ~Bdash/monk/itm~ ~override~
+ COPY ~Bdash/monk/spl~ ~override~
+ 
+-BEGIN ~Core Baldurdash Fixes (by Kevin Dorner)~
++PRINT @20002
+ 
+ //***********************************************************************************************
+ //   RULESETS
+ //***********************************************************************************************
+-PRINT ~Patching rulestes(.2DA) ...~
++PRINT @20003
+ 
+ //Alignment By Class Table Fix
+ //-------------------------------------------------------------------------
+@@ -529,7 +479,7 @@
+ //***********************************************************************************************
+ //   AREAS
+ //***********************************************************************************************
+-PRINT ~Patching areas(.ARE) ...~
++PRINT @20004
+ 
+ //-------------------------------------------------------------------------
+ //Outdoor Encounter Areas Flags Fixes
+@@ -674,7 +624,7 @@
+ //***********************************************************************************************
+ //   Scripts
+ //***********************************************************************************************
+-PRINT ~Patching script-based issues...~
++PRINT @20005
+ 
+ //-------------------------------------------------------------------------
+ //Anomen Title Lost In Throne Of Bhaal and Wisdom In Red Fixes
+@@ -1200,7 +1150,7 @@
+ //***********************************************************************************************
+ //   Creatures
+ //***********************************************************************************************
+-PRINT ~Patching creatures and related issues...~
++PRINT @20006
+ 
+ //-------------------------------------------------------------------------
+ //North Forest Skeleton Warrior Avatar Fix
+@@ -2278,7 +2228,7 @@
+ //***********************************************************************************************
+ //  Dialogs
+ //***********************************************************************************************
+-PRINT ~Patching dialogs...~
++PRINT @20007
+ 
+ //-------------------------------------------------------------------------
+ //Aerie\Quayle Dialog Loop Fix
+@@ -2372,7 +2322,7 @@
+ //***********************************************************************************************
+ //   Items
+ //***********************************************************************************************
+-PRINT ~Patching items...~
++PRINT @20008
+ 
+ //-------------------------------------------------------------------------
+ //Amulet Of Power Usability Fix
+@@ -3410,7 +3360,7 @@
+ //***********************************************************************************************
+ //   Stores
+ //***********************************************************************************************
+-PRINT ~Patching stores...~
++PRINT @20009
+ 
+ COPY_EXISTING ~SAHPR1.STO~ ~override~
+  WRITE_LONG 0x14 120  //sell markup
+@@ -3429,7 +3379,7 @@
+ //***********************************************************************************************
+ //   Spells
+ //***********************************************************************************************
+-PRINT ~Patching spells...~
++PRINT @20010
+ 
+ //-------------------------------------------------------------------------
+ //Detect Evil Magic Resistance Failure Fix
+@@ -4937,9 +4887,9 @@
+ //////////////////////////////////////////////////////////////\
+ //   Custom fixes, not included in the original Baldurdash
+ //////////////////////////////////////////////////////////////\
+-PRINT ~Non-original Baldurdash patches...~
++PRINT @20011
+ 
+-PRINT ~Patching items...~
++PRINT @20008
+ 
+ //********************
+ // Books
+@@ -5052,7 +5002,7 @@
+ ////////////////////////////////////
+ //   Scripts fixes : version 1.2
+ ////////////////////////////////////
+-PRINT ~Patching scripts...~
++PRINT @20012
+ 
+ COPY_EXISTING ~APPRENTI.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+@@ -5228,7 +5178,7 @@
+  BUT_ONLY_IF_IT_CHANGES
+ 
+ 
+-PRINT ~Patching dialogs...~
++PRINT @20007
+ 
+ COMPILE ~BDash\D_ToB\Correct.D~
+ 
+@@ -5727,7 +5677,7 @@
+ //////////////////////////////////////////////////////
+ //Custom fixes for BG1 - invalid resources references
+ //////////////////////////////////////////////////////
+-PRINT ~Custom fixes - fixing invalid resources references...~
++PRINT @20013
+ 
+ COPY ~BDash\Custom\amelm01.cre~ ~override~
+ COPY ~BDash\Custom\jatermin.cre~ ~override~
+@@ -6291,7 +6241,7 @@
+ //////////////////////////////////////////////////////////////////////////
+ //13-04-2005 - fixing invalid Dead("...") triggers in 164 ToB scripts
+ //////////////////////////////////////////////////////////////////////////\
+-PRINT ~Fixing invalid Dead("...") triggers ...~
++PRINT @20014
+ 
+ COMPILE ~BDash\BAF_ToB2~ //fixing invalid but compiled scripts from BIF
+ 
+@@ -7530,7 +7480,7 @@
+ 
+ //My version of multi-strongholds
+ 
+-BEGIN ~Multi-Strongholds (by Vlad)~
++PRINT @20015
+ 
+ //-------------------------------------------------------------------------
+ //Multiple Strongholds Fixes
+@@ -7546,7 +7496,7 @@
+ //Restored Slave Lord\Twisted Rune Quest
+ //////////////////////////////\
+ 
+-BEGIN ~Restored Twisted Rune Quest (by Vlad)~
++PRINT @20016
+ 
+ EXTEND_TOP ~ar0313.bcs~ ~BDash\BAF_t\tAR0313.BAF~
+ 
+@@ -7560,121 +7510,30 @@
+ COPY ~Bdash\twistrun\DEMMAG.CRE~ ~override~
+ 
+ COPY ~Bdash\twistrun\SW1HBD.ITM~ ~override~
+-  SAY NAME2 ~Hindo’s Doom +2~ 
+-  SAY DESC ~Hindo was a samurai of great renown, a staunch defender of his people against the evil undead that often ravaged his homelands.  
+-
+-STATISTICS
+-
+-Equipped Abilities: 
+-   Dexterity: +1 bonus
+-
+-Special Abilities:
+-   Cast Negative Plane Protection once/day
+-   Cast Repulse Undead once/day
+-
+-THAC0: +2 bonus, +4 vs. undead
+-Damage:  1D10 + 2, +4 vs. undead
+-Damage type:  slashing
+-Weight:  3
+-Speed Factor: 1
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Beast Master~
++  SAY NAME2 @20017
++  SAY DESC @20018
+  
+ COPY ~Bdash\twistrun\STAF12BD.ITM~ ~override~
+-  SAY NAME2 ~Staff of Dracandros~ 
+-  SAY DESC ~Staff of Dracandros
+-A mage’s staff is far more than just a gilded walking stick, most being enchanted to an impressive degree. This one is no exception, and whoever the previous owner was, they were powerful indeed. It enables a mage to better escape hostile magic, and can cast a Spell Deflection. Offensively it can be used to lower the enemies’ magic resistance very well, and cast a Pierce Magic. 
+-
+-STATISTICS
+-
+-Saving Throws: +2 bonus
+-Armor Class: +2 bonus
+-
+-Special Abilities (recharge daily): 
+-   Cast Spell Deflection
+-   Cast Pierce Magic
+-
+-
+-THAC0: +4 bonus
+-Damage:  1D8 +4
+-Damage type:  crushing
+-Weight: 3
+-Speed Factor: 1
+-Proficiency Type: Quarterstaff
+-Type:  2-handed
+-Requires: 5 Strength
+-Usable By
+- Mages~
++  SAY NAME2 @20019
++  SAY DESC @20020
+ 
+ COMPILE ~BDash\D\HLSHANG.d~  //complete overwrite
+ 
+ //////////////////////////////////////////////////////////////////
+ 
+-BEGIN ~Restored Hindo's Doom (by Vlad)~
++BEGIN @20021
+  
+ COPY ~Bdash\twistrun\SW1H70.ITM~ ~override~
+-  SAY DESC ~Hindo was a samurai of great renown, a staunch defender of his people against the evil undead that often ravaged his homelands.  
+-
+-STATISTICS
+-
+-Equipped Abilities: 
+-   Dexterity: +2 bonus
+-
+-Special Abilities:
+-   Cast Lesser Restoration once/day
+-
+-THAC0: +3 bonus, +4 vs. undead
+-Damage:  1D10 + 3, +4 vs. undead
+-Damage type:  slashing
+-Weight:  3
+-Speed Factor: 1
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Beast Master~
++  SAY DESC @20022
+  
+ COPY ~Bdash\twistrun\SW1H71.ITM~ ~override~
+-  SAY DESC ~Hindo was a samurai of great renown, a staunch defender of his people against the evil undead that often ravaged his homelands.  
+-
+-STATISTICS
+-
+-Equipped Abilities: 
+-   Dexterity: +3 bonus
+-
+-Special Abilities:
+-   Cast Greater Restoration once/day
+-   20% Magic Resistance when equipped
+-   Immunity to all forms of death magic when equipped
+-
+-THAC0: +4 bonus
+-Damage:  1D10 + 4, double damage against undead
+-Damage type:  slashing
+-Weight:  2
+-Speed Factor: 0
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Beast Master~
++  SAY DESC @20023
+ 
+ //////////////////////////////////////\
+ //James Shumacher’s Grandmastery Patch
+ //////////////////////////////////////\
+ 
+-BEGIN ~Grand Mastery Fix (by James Schumacher)~
++BEGIN @20024
+ 
+ COPY ~BDash\grandm\WSPATCK.2DA~ ~override\WSPATCK.2DA~
+ COPY ~BDash\grandm\WSPECIAL.2DA~ ~override\WSPECIAL.2DA~
+@@ -7683,7 +7542,7 @@
+ // Improved Copper Coronet
+ //////////////////////////
+ 
+-BEGIN ~Improved Copper Coronet (by Vlad)~
++PRINT @20025
+ 
+ COPY ~BDash\coppercr~ ~override~
+ 
+@@ -7697,30 +7556,11 @@
+ // Dak'kon's Blade
+ ////////////////////
+ 
+-BEGIN ~Restored Dak'kon's Blade (by Vlad)~
++BEGIN @20026
+ 
+ COPY ~BDash/newfixes/WA2DAK.ITM~         ~override/WA2DAK.ITM~
+-	SAY NAME2 ~Dak’kon’s Zerth Blade~
+-  SAY DESC ~Dak’kon’s Zerth Blade +2
+-This sword was the weapon of choice of the famous githzerai Dak’kon.  Dak’kon was killed by a powerful entity while working for a creature known as the ’Nameless One’.  
+- 
+-STATISTICS:
+-
+-Equipped Abilities:
+-+1 AC bonus
+-able to memorize one extra 1st, 2nd, 3rd, and 4th level mage spell
+-
+-THAC0: +2 bonus
+-Damage:  1D10 +2
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric~
++	SAY NAME2 @20027
++  SAY DESC @20028
+ 
+ COPY_EXISTING ~WA2DAK.ITM~  ~override~
+  READ_LONG  0x6a  "eff_offset"
+@@ -7732,96 +7572,20 @@
+ BUT_ONLY_IF_IT_CHANGES
+             
+ COPY ~BDash/newfixes/WA2DAK2.ITM~        ~override/WA2DAK2.ITM~
+-	SAY NAME2 ~Dak’kon’s Streaming Blade~
+-  SAY DESC ~Dak’kon’s Streaming Blade +2
+-This sword was the weapon of choice of the famous githzerai Dak’kon.  Dak’kon was killed by a powerful entity while working for a creature known as the ’Nameless One’.  
+- 
+-STATISTICS:
+-
+-Equipped Abilities:
+-+2 AC bonus
+-able to memorize two extra 1st, 2nd, 3rd, and 4th level mage spell
+-
+-THAC0: +2 bonus
+-Damage:  1D10 +2
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric~
++	SAY NAME2 @20029
++  SAY DESC @20030
+                 
+ COPY ~BDash/newfixes/WA2DAK3.ITM~        ~override/WA2DAK3.ITM~
+-	SAY NAME2 ~Dak’kon’s Streaming Blade~
+-  SAY DESC ~Dak’kon’s Streaming Blade +3
+-This sword was the weapon of choice of the famous githzerai Dak’kon.  Dak’kon was killed by a powerful entity while working for a creature known as the ’Nameless One’.  
+- 
+-STATISTICS:
+-
+-Equipped Abilities:
+-+3 AC bonus
+-able to memorize three extra 1st, 2nd, 3rd, and two extra 4th level mage spell
+-
+-THAC0: +3 bonus
+-Damage:  1D10 +3
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric~
++	SAY NAME2 @20029
++  SAY DESC @20031
+                 
+ COPY ~BDash/newfixes/WA2DAK4.ITM~        ~override/WA2DAK4.ITM~
+-	SAY NAME2 ~Dak’kon’s Streaming Blade~
+-  SAY DESC ~Dak’kon’s Streaming Blade +4
+-This sword was the weapon of choice of the famous githzerai Dak’kon.  Dak’kon was killed by a powerful entity while working for a creature known as the ’Nameless One’.  
+- 
+-STATISTICS:
+-
+-Equipped Abilities:
+-+3 AC bonus
+-able to memorize three extra 1st, 2nd, 3rd, 4th, and one extra 5th level mage spell
+-
+-THAC0: +4 bonus
+-Damage:  1D10 +4
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric~
++	SAY NAME2 @20029
++  SAY DESC @20032
+                 
+ COPY ~BDash/newfixes/WA2DAK5.ITM~        ~override/WA2DAK5.ITM~
+-	SAY NAME2 ~Dak’kon’s Streaming Blade~
+-  SAY DESC ~Dak’kon’s Streaming Blade +5
+-This sword was the weapon of choice of the famous githzerai Dak’kon.  Dak’kon was killed by a powerful entity while working for a creature known as the ’Nameless One’.  After the Nameless One’s battle with the powerful entity, he restored Dak’kon to life and freed him of the oath he had to the Nameless One. This is the blade that was formed after Dak’kon was free from his oath.
+- 
+-STATISTICS:
+-
+-Equipped Abilities:
+-+4 AC bonus
+-able to memorize three extra 1st, 2nd, 3rd, 4th, and two extra 5th level mage spells
+-
+-THAC0: +5 bonus
+-Damage:  1D10 +5
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric~
++	SAY NAME2 @20029
++  SAY DESC @20033
+ 
+ COPY ~BDash/newfixes/dakkon1.bcs~        ~override/dakkon1.bcs~
+ COPY ~BDash/newfixes/dakkon2.bcs~        ~override/dakkon2.bcs~
+@@ -7832,7 +7596,7 @@
+ //Improved Nymph Script
+ //////////////////////////////\
+ 
+-BEGIN ~Improved Nymph (Woodland Being) Script (by Goeran Rimen)~
++PRINT @20034
+ 
+ COMPILE ~BDash/nymph/NYMPH.BAF~
+ 
+@@ -7840,7 +7604,7 @@
+ // Rogue ReBalancing - Proper Dual Wielding
+ //////////////////////////////////////////////////////////////////////\
+ 
+-BEGIN ~Dual Wielding Fix for Rogues (by aVENGER)~
++PRINT @20035
+ 
+ COPY_EXISTING ~WEAPPROF.2DA~                 ~override\WEAPPROF.2DA~
+ SET_2DA_ENTRY 34 7 1 ~3~
+@@ -7858,7 +7622,7 @@
+ SET_2DA_ENTRY 34 44 1 ~3~
+ BUT_ONLY_IF_IT_CHANGES
+ 
+-BEGIN ~Additional fixes for v1.73 (by Vlad)~
++PRINT @20036
+ 
+ ////////////////
+ //	v 1.70
+@@ -7893,214 +7657,33 @@
+ In the halls of Valhalla rest the most valiant of warriors.  Their service to war during their lives has rewarded them with honored positions in Valhalla.  As part of their service these warriors must offer their service to any who blow a horn of Valhalla.  This horn will summon forth a fifth level warrior who will fight for the summoner for one minute.  The horn may be used once per day.
+ 
+ Not Usable By:
+- Wizard Slayer~ ~Silver Horn of Valhalla
++ Wizard Slayer~ @20037
+ 
+-In the halls of Valhalla rest the most valiant of warriors.  Their service to war during their lives has rewarded them with honored positions in Valhalla.  As part of their service these warriors must offer their service to any who blow a horn of Valhalla.  This horn will summon forth a tenth level warrior who will fight for the summoner for one minute.  The horn may be used once per day.
++PRINT @20038
+ 
+-Not Usable By:
+- Wizard Slayer~
+-
+-BEGIN ~Restored Anti-Dragon Items (by Vlad)~
+-
+-STRING_SET ~Dragon Scale Shield +2~ ~Dragon Scale Shield +5~
++STRING_SET ~Dragon Scale Shield +2~ @20039
+ COPY ~BDash/v170/SHLD21.ITM~        ~override/SHLD21.ITM~
+-  SAY DESC ~Another powerful item created by the warlock Wormsor, this shield consists of red dragon skin stretched over a steel frame.  Green and white dragon scales adorn the red background in a pattern that, when looked in the right way, reveals the face of an ancient dragon.
+-
+-STATISTICS:
+-
+-Equipped Abilities:
+-   Fire, Cold and Electrical Resistance: +50%
+-   True Free Action
+-      (Immunity to any slowing, holding and paralyzation magics)
+-   Immunity to Panic
+-
+-Armor Class Bonus: 6
+-Weight: 5
+-Requires: 12 Strength
+-Not Usable By:
+- Bard
+- Druid
+- Mage
+- Thief
+- Monk
+- Kensai~
++  SAY DESC @20040
+ 
+ COPY ~BDash/v170/SW1H32.ITM~        ~override/SW1H32.ITM~
+-  SAY DESC ~Long sword +4:  Dragonslayer (Peridan)
+-Few dare to create items such as this, for who does not fear the wrath of dragons, and what action would more tempt their reckoning?  Yet, at a time lost in Faerun's past, there was a need, and this sword was forged in answer.  Tempered by a wizard's skill, this blade protects the wielder from the fear they should rightly feel while staring down a dragon's maw.  It also bolsters with regeneration, dispels the trickery of illusions, and dares to do double damage against the greatest creatures of the Realms.
+-
+-STATISTICS:
+-
+-Combat Abilities:
+-   Dispels Magic
+-      (whenever the sword strikes an opponent)
+-
+-Equipped Abilities: 
+-   Regenerate 1 hit point every second
+-
+-Special Abilities (once per day):
+-   Detect Invisible
+-
+-THAC0:  +4 bonus
+-Damage:  2D8 + 4, double damage against dragons
+-Damage type:  slashing
+-Weight: 3
+-Speed Factor: 3
+-Proficiency Type: Long sword
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Beast Master~
++  SAY DESC @20041
+ 
+ COPY ~BDash/v170/SW1H32A.EFF~        ~override/SW1H32A.EFF~
+ COPY ~BDash/v170/SW1H32C.EFF~        ~override/SW1H32C.EFF~
+ 
+ COPY ~BDash/v170/LEAT19.ITM~        ~override/LEAT19.ITM~
+-  SAY DESC ~This suit of armor is formed from interlocking shadow dragon scales. Elegant workmanship and practical considerations make this armor both beautiful and useful with some essential extra protections.
+-
+-STATISTICS:
+-
+-Bonuses:
+-   Cold and Acid Resistance: +50%
+-   Magic Resistance: +20%
+-   Hide in Shadows and Move Silently: + 25%
+-   Immunity to Normal Weapons
+-   Immunity to Backstab
+-   Movement Rate Bonus x2
+-
+-Armor Class: 1
+-Weight: 10
+-Requires: 6 Strength
+-Not Usable By:
+- Mage
+- Kensai
+- Monk
+- Shapeshifter~
++  SAY DESC @20042
+ 
+ COPY ~BDash/v170/AR2400.ARE~        ~override/AR2400.ARE~
+ 
+ COPY ~BDash/v170/SW2H15.ITM~        ~override/SW2H15.ITM~
+-  SAY DESC ~Silver Sword
+-This is truly a legendary weapon called Vorpal or Silver Sword. No wonder that githyanki wanted to procure it so much and return it to their ancestral city of Tu'narath. Vorpal is their ritual sword radiating a dark aura when you examine it, and the blade is so finely sharpened it could likely sever a head in a single blow.
+-
+-Besides bein a ritual sword, Vorpal also serves the purpose of getting rid the world of the hateful illithids. Those who wield the Vorpal have a complete mind shield including immunity to charm, domination, confusion and psionics. In addition, the sword provides the wearer the negative plane protection and freedom to move under any movement-alterating spells.
+-
+-STATISTICS:
+-
+-Combat Abilities:
+-   Instant Death (each hit may instantly slay an opponent with a 25% chance unless a saving throw vs death is made at -2 penalty)
+-   Dispels Magic (whenever the sword strikes an opponent)
+-
+-Equipped Abilities: 
+-   Armour class: +2
+-   Saving throws: +2
+-   Magic Resistance: +30%
+-   Complete Mind Shield
+-      (Immunity to any mind-alterating effects)
+-   Negative Plane Protection
+-      (Immunity to level and energy drain)
+-   True Free Action
+-      (Immunity to any movement-alterating effects)
+-
+-THAC0: +5 bonus
+-Damage:  1D12 + 5
+-Damage type:  slashing
+-Weight: 10
+-Speed Factor: 5
+-Proficiency Type: Two Handed sword
+-Type:  2-handed
+-Requires: 14 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage 
+- Thief
+- Monk
+- Beast Master~
++  SAY DESC @20043
+ 
+ COPY ~BDash/v170/SW1H54.ITM~        ~override/SW1H54.ITM~
+-  SAY DESC ~Long Sword: The Equalizer
+-Such is the age of this sword that its true origin has been lost to time, but markings hint that it was possibly forged in the service of Helm. Also called the "Sword of Neutrality", it seems designed to seek and terminate extremes, to shift the universe closer to harmonious equilibrium. The further the behavior of a target from true balance, the more potent the damage they suffer.
+-
+-STATISTICS:
+-
+-Combat Abilities: 
+-   Level Drain
+-      (20% chance to drain one level from opponent with every hit)
+-   Booming Thunder whenever the sword strikes an opponent
+-      (Save vs. Spell or be stunned for one round)
+-
+-Equipped Abilities:
+-   Armour class: +2
+-   Saving throws: +2
+-   Magic Resistance: +20%
+-         
+-THAC0: +5 bonus
+-Damage:  2D8 + 5
+-Additional THAC0 & damage:
+-  vs True Neutral: +0 to hit, +0 damage
+-  vs Chaotic Neutral, Lawful Neutral: +1 to hit, +2 damage
+-  vs Neutral Good, Neutral Evil: +2 to hit, +4 damage
+-  vs other alignments: +3 to hit, +6 damage
+-Damage type:  slashing
+-Weight: 3
+-Speed Factor: 3
+-Proficiency Type: Long sword
+-Type:  1-handed
+-Requires: 6 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Beast Master~
++  SAY DESC @20044
+ 
+ COPY ~BDash/v170/SW2HSAR.ITM~        ~override/SW2HSAR.ITM~
+-  SAY DESC ~Silver Sword (enhanted by Cespenar)
+-This is truly a legendary weapon called Vorpal or Silver Sword. No wonder that githyanki wanted to procure it so much and return it to their ancestral city of Tu'narath. Vorpal is their ritual sword radiating a dark aura when you examine it, and the blade is so finely sharpened it could likely sever a head in a single blow.
+-
+-Besides bein a ritual sword, Vorpal also serves the purpose of getting rid the world of the hateful illithids. Those who wield the Vorpal have a complete mind shield including immunity to charm, domination, confusion and psionics. In addition, the sword provides the wearer the negative plane protection and freedom to move under any movement-alterating spells.
+-
+-STATISTICS:
+-
+-Combat Abilities:
+-   -3 to AC and THAC0 to an opponent with each hit (no save)
+-   -15% Magic Resistance to an opponent with each hit (no save)
+-   Dispels Magic (whenever the sword strikes an opponent)
+-   Instant Death (each hit may instantly slay an opponent with a 25% chance unless a saving throw vs death is made at -2 penalty)
+-   
+-Equipped Abilities: 
+-   Armour class: +3
+-   Saving throws: +3
+-   Cold Resistance: +35%
+-   Fire Resistance: +35%
+-   Hit Points Bonus: +50
+-   Magic Resistance: +50%
+-   Immunity to Time Stop
+-   Complete Mind Shield
+-      (Immunity to any mind-alterating effects)
+-   Negative Plane Protection
+-      (Immunity to level and energy drain)
+-   True Free Action
+-      (Immunity to any movement-alterating effects)
+-
+-THAC0: +6 bonus
+-Damage:  1D12 + 6
+-Damage type:  slashing
+-Weight: 10
+-Speed Factor: 3
+-Proficiency Type: Two Handed sword
+-Type:  2-handed
+-Requires: 14 Strength
+-Not Usable By:
+- Druid
+- Cleric
+- Mage 
+- Thief
+- Monk
+- Beast Master~
++  SAY DESC @20045
+ 
+ COPY_EXISTING ~BOTSMITH.bcs~ ~override/BOTSMITH.bcs~
+ EXTEND_BOTTOM ~BOTSMITH.bcs~ ~BDash/v170/eBOTSMIT.BAF~
+@@ -8136,16 +7719,12 @@
+ //Third Path
+ ///////////////////////////
+ 
+-BEGIN ~Third Path (by Vlad)~
++PRINT @20046
+ 
+-STRING_SET ~The MDK2 Spell~ ~Aran Linvail, the Shadowmaster of the Shadow Thieves in Athkatla, is dead. Now I need to find another way to get my Imoen back.~
++STRING_SET ~The MDK2 Spell~ @20047
+ 
+ COPY ~Bdash/ThirdP/SCRTXT33.2da~ ~override~
+-REPLACE ~scrtxt33~ ~CHAPTER FOUR
+-
+-  After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+-
+-  The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [intro8]
++REPLACE ~scrtxt33~ @20048
+ 
+ COMPILE ~Bdash/ThirdP/dlg~
+ COMPILE ~Bdash/ThirdP/cutscene~
+@@ -8153,7 +7732,7 @@
+ 
+ ACTION_IF FILE_EXISTS ~override/aranlett.itm~
+  THEN BEGIN
+-  PRINT ~Keldorn's Romance is installed. Please install Baldurdash first.~
++  PRINT @20049
+ END
+  ELSE BEGIN
+ /////////////////////////////////////////////////////////////////////////////
+@@ -8337,75 +7916,45 @@
+ EXTEND_TOP ~AR0313.bcs~ ~Bdash/ThirdP/eAR0313.BAF~
+ 
+ COPY ~Bdash/ThirdP/aranlett.itm~  ~override/aranlett.itm~
+-	SAY NAME1 ~Aran's Letter~
+-	SAY NAME2 ~Aran's Letter~
+-	SAY UNIDENTIFIED_DESC ~Aran,
+-	
+-     All is set, and the ship will be ready to depart for Brynnlaw in ten days. Once <CHARNAME> brings money, let's meet in the Sea Bounty Tavern for the final arrangemet, as per our agreement.
+-     
+-                   See you there,
+-                   
+-                          Saemon.~
++	SAY NAME1 @20050
++	SAY NAME2 @20050
++	SAY UNIDENTIFIED_DESC @20051
+ 
+ COPY ~Bdash/ThirdP/spylett1.itm~  ~override/spylett1.itm~
+-	SAY NAME1 ~Fragment of a letter~
+-	SAY NAME2 ~Fragment of a letter~
+-	SAY UNIDENTIFIED_DESC ~This is a fragment of a burnt letter:
+-	
+-	"...sow panic and chaos around Amn, and especially in Athkatla. Keep them busy and not interested in..."~
+-	SAY DESC ~This is a fragment of a burnt letter:
+-	
+-	"...sow panic and chaos around Amn, and especially in Athkatla. Keep them busy and not interested in..."~
++	SAY NAME1 @20052
++	SAY NAME2 @20052
++	SAY UNIDENTIFIED_DESC @20053
++	SAY DESC @20053
+ 
+ COPY ~Bdash/ThirdP/spylett2.itm~  ~override/spylett2.itm~
+ 	SAY NAME1 #13195
+ 	SAY NAME2 #13195
+-	SAY UNIDENTIFIED_DESC ~Refugees from Tethyr flooded Athkatla, and rumors of the wealth of the city reached the most distant lands of the kingdom. Watch out for them, as among them may be hiding spies. Destroy the spies at the slightest suspicion.~
+-	SAY DESC ~Refugees from Tethyr flooded Athkatla, and rumors of the wealth of the city reached the most distant lands of the kingdom. Watch out for them, as among them may be hiding spies. Destroy the spies at the slightest suspicion.~
++	SAY UNIDENTIFIED_DESC @20054
++	SAY DESC @20054
+ 
+ COPY ~Bdash/ThirdP/spylett3.itm~  ~override/spylett3.itm~
+ 	SAY NAME1 #13195
+ 	SAY NAME2 #13195
+-	SAY UNIDENTIFIED_DESC ~Instead of leading a trade war with Athkatla, it is better to rely on the help of Queen Zarand. She is very angry at the Council of Six. They treated her concubine in Athkatla like a slut, with no proper respect, nor the promised assistance.
+-	
+-                          Lady Aura.~
+-	SAY DESC ~Instead of leading a trade war with Athkatla, it is better to rely on the help of Queen Zarand. She is very angry at the Council of Six. They treated her concubine in Athkatla like a slut, with no proper respect, nor the promised assistance.
+-	
+-                          Lady Aura.~
++	SAY UNIDENTIFIED_DESC @20055
++	SAY DESC @20055
+                           
+ COPY ~Bdash/ThirdP/spylett4.itm~  ~override/spylett4.itm~
+ 	SAY NAME1 #13195
+ 	SAY NAME2 #13195
+-	SAY UNIDENTIFIED_DESC ~There is a group of mercenaries hiding somewhere in Athkatla, whose task is to destroy my family. Find them and dispose of them.
+-	
+-                          Lady Aura.~
+-	SAY DESC ~There is a group of mercenaries hiding somewhere in Athkatla, whose task is to destroy my family. Find them and dispose of them.
+-	
+-                          Lady Aura.~
++	SAY UNIDENTIFIED_DESC @20056
++	SAY DESC @20056
+                           
+ COPY ~Bdash/ThirdP/spylett5.itm~  ~override/spylett5.itm~
+ 	SAY NAME1 #13195
+ 	SAY NAME2 #13195
+-	SAY UNIDENTIFIED_DESC ~My dearest lady Aura,
+-	
+-     Athkatla is so rich. All that you heard is true. They used to live in luxury and prefer to frequently change their surroundings. We can take advantage of that and seize their caravans coming from the east.
+-     
+-                   Truly Yours,
+-                   
+-                          Captain Dennis.~
+-	SAY DESC ~My dearest lady Aura,
+-	
+-     Athkatla is so rich. All that you heard is true. They used to live in luxury and prefer to frequently change their surroundings. We can take advantage of that and seize their caravans coming from the east.
+-     
+-                   Truly Yours,
+-                   
+-                          Captain Dennis.~
++	SAY UNIDENTIFIED_DESC @20057
++	SAY DESC @20057
+                           
+ COPY ~Bdash/ThirdP/spylett6.itm~  ~override/spylett6.itm~
+ 	SAY NAME1 #13195
+ 	SAY NAME2 #13195
+-	SAY UNIDENTIFIED_DESC ~War is inevitable, my lady. You were absolutely right - the rich of Athkatla accepted the declared trade war as a personal insult. It is strange that our Council is so short-sighted underestimating the military strength of Amn. We must be prepared for the worst case scenario.~
+-	SAY DESC ~War is inevitable, my lady. You were absolutely right - the rich of Athkatla accepted the declared trade war as a personal insult. It is strange that our Council is so short-sighted underestimating the military strength of Amn. We must be prepared for the worst case scenario.~
++	SAY UNIDENTIFIED_DESC @20058
++	SAY DESC @20058
+ 
+ COPY_EXISTING ~AR0329.bcs~ ~override/AR0329.bcs~
+   REPLACE_BCS_BLOCK ~Bdash/ThirdP/oAR0329.baf~ ~Bdash/ThirdP/nAR0329.baf~
+@@ -8442,7 +7991,7 @@
+ //   Cromwell in Brynnlaw
+ /////////////////////////////////
+ 
+-BEGIN ~Cromwell in Brynnlaw (by Vlad)~
++PRINT @20059
+ 
+ COPY_EXISTING ~AR1603.ARE~ ~override~
+  WRITE_ASCII 0x94 ~AR1603~                 //setting area script
+@@ -8467,30 +8016,10 @@
+ //
+ /////////////////////////////////////
+ 
+-BEGIN ~Improved Character Nalia - Stats and Items (by Vlad)~
++BEGIN @20060
+ 
+ COPY ~BDash/v170/Nalia/NPRING01.ITM~ ~override/NPRING01.ITM~
+-  SAY DESC ~De'Arnise Signet Ring
+-
+-This ring was given to Nalia by her father upon her ascension to adulthood. Bonded to her blood as it is, the ring may not be removed from Nalia, nor its powers used by anyone else. On top of all its bonuses, the ring doubles the amount of spells Nalia can memorise.
+-
+-Equipped Abilities:
+-   Negative Plane Protection
+-   Protection from Undead
+-
+-Special Abilities:
+-   Blur (thrice per day) 
+-   Imroved Invisibility (thrice per day)
+-   Improved Haste (thrice per day)
+-	
+-Armor Class:  +3 Bonus
+-Saving Throws:  +3 Bonus
+-Fire Resistance:  +50% Bonus
+-Magic Resistance:  +20% Bonus
+-Thieving Skills:  +50% Bonus
+-
+-Usable By:
+-   Nalia~
++  SAY DESC @20061
+ 
+ COPY ~BDash/v170/Nalia/NALIA8.cre~ ~override/NALIA8.cre~
+ COPY ~BDash/v170/Nalia/NALIA10.cre~ ~override/NALIA10.cre~
+@@ -8512,7 +8041,7 @@
+ //
+ /////////////////////////////////////
+ 
+-BEGIN ~Improved Character Aerie - Priest of Lathander (by Vlad)~
++BEGIN @20062
+ 
+ COPY ~BDash/v170/Aerie/AERIE6.cre~ ~override/AERIE6.cre~
+ COPY ~BDash/v170/Aerie/AERIE7.cre~ ~override/AERIE7.cre~
+@@ -8528,47 +8057,11 @@
+ COMPILE ~BDash/v170/animfix.d~
+ 
+ COPY ~BDash/v170/Aerie/CLCKAERI.ITM~ ~override/CLCKAERI.ITM~
+-  SAY NAME2 ~Aerie's Cloak~
+-  SAY DESC ~Aerie's Cloak
+-
+-This is the very powerfull cloak of unknown origin worn by Aerie. She states that Lathander himself granted this cloak to her. The abilities conferred by this cloak attest to the fact that Aerie, being an avariel, has been grown and eductaed by gnomes, and that she's a true servant of light. The cloak is equally enhancing the naural beauty of Aerie and her ability to destroy undead. In addition, the cloak helps Aerie to concentrate and develop her spell casting abilities by creating a complete mind shield and increasing the amount of priest high-level spells she can memorise.
+-
+-Equipped Abilities:
+-   Charisma: +2 bonus
+-   Fire Resistance:  +75% bonus
+-   Magic Resistance:  +50% bonus
+-   Complete Mind Shield
+-      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+-   Protection from Undead
+-
+-Special Abilities:
+-   Summon Aerial Servant (twice per day) 
+-   Summon Nymph (twice per day)
+-   Sunray (twice per day)
+-   Nature's Beauty (twice per day)
+-	
+-Armor Class:  +2 Bonus
+-Saving Throws:  +2 Bonus
+-Improves Casting Speed by 4
+-
+-Usable By:
+-   Aerie~
++  SAY NAME2 @20063
++  SAY DESC @20064
+ 
+ COPY ~BDash/v170/Aerie/BELT12.ITM~ ~override/BELT12.ITM~
+-  SAY DESC ~Only those most worthy and devoted servants of the Dawnbringer are granted these powerful holy symbols. 
+-
+-STATISTICS:
+-
+-Grants three additional 6th and 7th level spells
+-Negative Plane Protection
+-
+-Armor Class:  +2 bonus
+-Strength: +2 bonus
+-Dexterity: +2 bonus
+-Magic Resistance:  +30% bonus
+-	
+-Usable By:
+-Clerics of Good alignment~
++  SAY DESC @20065
+ 
+ COPY_EXISTING ~AERIE.bcs~ ~override/AERIE.bcs~
+    	DECOMPILE_BCS_TO_BAF
+@@ -8583,163 +8076,163 @@
+ //        Minsc - Improved Character          //
+ //________________________________//
+ //                                                     //
+-BEGIN ~Improved Character Minsc for BG1 (BGT required!) (by Vlad)~
++BEGIN @20066
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ COPY ~Bdash/BGTComp/Minsc/Minsc.cre~ ~override/Minsc.cre~
+-  SAY 0xA4 ~Stand and deliver, that my hamster might have a better look at ye!~ [BGMNSC01]
+-  SAY 0xA8 ~No, despair not!  I will inspire you by charging blindly on!~ [BGMNSC02]      
+-  SAY 0xAC ~Camaraderie, adventure, and steel on steel.  The stuff of legend!  Right Boo?~ [BGMNSC04]                                    
+-  SAY 0xB0 ~Yes Boo, I agree.  This group could do with a swift kick in the morals.~ [BGMNSC05]                                          
+-  SAY 0xB4 ~If I continue with this I'll never look Boo in the eyes again.  Choose carefully, I'll not let this come to pass!~ [BGMNSC06]
+-  SAY 0xB8 ~Ye have stepped beyond the line of evil!  Taste hamster justice!~ [BGMNSC07]                                                 
+-  SAY 0xBC ~Magic is impressive, but now Minsc leads!  Swords for everyone!~ [BGMNSC08]                                                  
+-  SAY 0xC0 ~I must rest, I've a bad case of armor chafe.~ [BGMNSC09]                                                                     
+-  SAY 0xC4 ~My hamster's getting antsy! If we be adventurers, let us adventure!~ [BGMNSC10]                                              
+-  SAY 0xC8 ~Go for the eyes Boo, GO FOR THE EYES!!  RrraaaAAGHGHH!!!~ [BGMNSC03]
+-  SAY 0xF4 ~I need aid soon, lest my... hamster... become an orphan.~ [BGMNSC11]
+-  SAY 0xF8 ~Boo likes the forest.~ [BGMNSC12]                                   
+-  SAY 0x100 ~Evil 'round every corner.  Careful not to step in any.~ [BGMNSC14]
+-  SAY 0x108 ~Ahh, nighttime.  Good for sneaking up on evil.~ [BGMNSC16]                                          
+-  SAY 0x10C ~Who wants some?~ [BGMNSC17]                                                                                                                                           
+-  SAY 0x114 ~Less talk, more fight!~ [BGMNSC19]                                                                                                                              
+-  SAY 0x12C ~Full plate and packing steel!~ [BGMNSC22]                                                           
+-  SAY 0x130 ~Fool me once, shame on you; fool me twice, watch it!  I'm huge!~ [BGMNSC23]                         
+-  SAY 0x134 ~When the going gets tough, someone hold my rodent.~ [BGMNSC24]                                      
+-  SAY 0x138 ~There be safety in numbers and I am two or three at least.~ [BGMNSC25]                              
+-  SAY 0x13C ~Make way evil!  I'm armed to the teeth and packing a hamster!~ [BGMNSC26]                           
+-  SAY 0x140 ~It is as you would have it.  'Tis my sworn vow to ensure your every need is catered to.~ [BGMNSC27] 
+-  SAY 0x144 ~Where Dynaheir goes, so goes my blade.~ [BGMNSC28]                                                  
+-  SAY 0x148 ~Lay a finger on what I protect and forevermore ye will answer nature's call with a hook!~ [BGMNSC29]
+-  SAY 0x14C ~Stand ye not too close!  Dynaheir is under my protection!~ [BGMNSC30]                               
+-  SAY 0x150 ~Play on, bard!  'Tis sweet music to my furry friend.~ [BGMNSC31]                                    
+-  SAY 0x154 ~You travel with Minsc, you toe the line!  I'll not suffer slackers while I'm busy hero-ing!~ [BGMNSC35]
+-  SAY 0x158 ~Boo does not like your manner.  Away with ye.~ [BGMNSC36]                                              
+-  SAY 0x160 ~Choose your friends wisely.  Not all are as trustworthy as Minsc and Boo.~ [BGMNSC37]                  
+-  SAY 0x178 ~No finer a place to die than the battlefield!~ [BGMNSC40]                                              
+-  SAY 0x17C ~Dynaheir!  Nooooo!  You will be avenged!~ [BGMNSC41]                                                   
+-  SAY 0x18C ~I am of few words and fewer hesitations!  Warnings past and now you die!~ [BGMNSC34]
+-  SAY 0x190 ~I take no offense from your comments.  You just don't understand the bond I have with Boo.~ [BGMNSC32]
+-  SAY 0x194 ~Your words are as sharp as my blade, though not half as shiny.  Oooo, shiny.~ [BGMNSC33]
+-  SAY 0x1CC ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dejemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychalarn of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle he hopes to be accepted into the Ice Dragon berserker lodge upon return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature that he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~
++  SAY 0xA4 @20068
++  SAY 0xA8 @20069      
++  SAY 0xAC @20070                                    
++  SAY 0xB0 @20071                                          
++  SAY 0xB4 @20072
++  SAY 0xB8 @20073                                                 
++  SAY 0xBC @20074                                                  
++  SAY 0xC0 @20075                                                                     
++  SAY 0xC4 @20076                                              
++  SAY 0xC8 @20077
++  SAY 0xF4 @20078
++  SAY 0xF8 @20079                                   
++  SAY 0x100 @20080
++  SAY 0x108 @20081                                          
++  SAY 0x10C @20082                                                                                                                                           
++  SAY 0x114 @20083                                                                                                                              
++  SAY 0x12C @20084                                                           
++  SAY 0x130 @20085                         
++  SAY 0x134 @20086                                      
++  SAY 0x138 @20087                              
++  SAY 0x13C @20088                           
++  SAY 0x140 @20089 
++  SAY 0x144 @20090                                                  
++  SAY 0x148 @20091
++  SAY 0x14C @20092                               
++  SAY 0x150 @20093                                    
++  SAY 0x154 @20094
++  SAY 0x158 @20095                                              
++  SAY 0x160 @20096                  
++  SAY 0x178 @20097                                              
++  SAY 0x17C @20098                                                   
++  SAY 0x18C @20099
++  SAY 0x190 @20100
++  SAY 0x194 @20101
++  SAY 0x1CC @20102
+ 
+ COPY ~Bdash/BGTComp/Minsc/Minsc2.cre~ ~override/Minsc2.cre~
+-  SAY 0xA4 ~Stand and deliver, that my hamster might have a better look at ye!~ [BGMNSC01]
+-  SAY 0xA8 ~No, despair not!  I will inspire you by charging blindly on!~ [BGMNSC02]      
+-  SAY 0xAC ~Camaraderie, adventure, and steel on steel.  The stuff of legend!  Right Boo?~ [BGMNSC04]                                    
+-  SAY 0xB0 ~Yes Boo, I agree.  This group could do with a swift kick in the morals.~ [BGMNSC05]                                          
+-  SAY 0xB4 ~If I continue with this I'll never look Boo in the eyes again.  Choose carefully, I'll not let this come to pass!~ [BGMNSC06]
+-  SAY 0xB8 ~Ye have stepped beyond the line of evil!  Taste hamster justice!~ [BGMNSC07]                                                 
+-  SAY 0xBC ~Magic is impressive, but now Minsc leads!  Swords for everyone!~ [BGMNSC08]                                                  
+-  SAY 0xC0 ~I must rest, I've a bad case of armor chafe.~ [BGMNSC09]                                                                     
+-  SAY 0xC4 ~My hamster's getting antsy! If we be adventurers, let us adventure!~ [BGMNSC10]                                              
+-  SAY 0xC8 ~Go for the eyes Boo, GO FOR THE EYES!!  RrraaaAAGHGHH!!!~ [BGMNSC03]
+-  SAY 0xF4 ~I need aid soon, lest my... hamster... become an orphan.~ [BGMNSC11]
+-  SAY 0xF8 ~Boo likes the forest.~ [BGMNSC12]                                   
+-  SAY 0x100 ~Evil 'round every corner.  Careful not to step in any.~ [BGMNSC14]
+-  SAY 0x108 ~Ahh, nighttime.  Good for sneaking up on evil.~ [BGMNSC16]                                          
+-  SAY 0x10C ~Who wants some?~ [BGMNSC17]                                                                                                                                           
+-  SAY 0x114 ~Less talk, more fight!~ [BGMNSC19]                                                                                                                             
+-  SAY 0x12C ~Full plate and packing steel!~ [BGMNSC22]                                                           
+-  SAY 0x130 ~Fool me once, shame on you; fool me twice, watch it!  I'm huge!~ [BGMNSC23]                         
+-  SAY 0x134 ~When the going gets tough, someone hold my rodent.~ [BGMNSC24]                                      
+-  SAY 0x138 ~There be safety in numbers and I am two or three at least.~ [BGMNSC25]                              
+-  SAY 0x13C ~Make way evil!  I'm armed to the teeth and packing a hamster!~ [BGMNSC26]                           
+-  SAY 0x140 ~It is as you would have it.  'Tis my sworn vow to ensure your every need is catered to.~ [BGMNSC27] 
+-  SAY 0x144 ~Where Dynaheir goes, so goes my blade.~ [BGMNSC28]                                                  
+-  SAY 0x148 ~Lay a finger on what I protect and forevermore ye will answer nature's call with a hook!~ [BGMNSC29]
+-  SAY 0x14C ~Stand ye not too close!  Dynaheir is under my protection!~ [BGMNSC30]                               
+-  SAY 0x150 ~Play on, bard!  'Tis sweet music to my furry friend.~ [BGMNSC31]                                    
+-  SAY 0x154 ~You travel with Minsc, you toe the line!  I'll not suffer slackers while I'm busy hero-ing!~ [BGMNSC35]
+-  SAY 0x158 ~Boo does not like your manner.  Away with ye.~ [BGMNSC36]                                              
+-  SAY 0x160 ~Choose your friends wisely.  Not all are as trustworthy as Minsc and Boo.~ [BGMNSC37]                  
+-  SAY 0x178 ~No finer a place to die than the battlefield!~ [BGMNSC40]                                              
+-  SAY 0x17C ~Dynaheir!  Nooooo!  You will be avenged!~ [BGMNSC41]                                                   
+-  SAY 0x18C ~I am of few words and fewer hesitations!  Warnings past and now you die!~ [BGMNSC34]
+-  SAY 0x190 ~I take no offense from your comments.  You just don't understand the bond I have with Boo.~ [BGMNSC32]
+-  SAY 0x194 ~Your words are as sharp as my blade, though not half as shiny.  Oooo, shiny.~ [BGMNSC33]
+-  SAY 0x1CC ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dejemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychalarn of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle he hopes to be accepted into the Ice Dragon berserker lodge upon return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature that he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~
++  SAY 0xA4 @20068
++  SAY 0xA8 @20069      
++  SAY 0xAC @20070                                    
++  SAY 0xB0 @20071                                          
++  SAY 0xB4 @20072
++  SAY 0xB8 @20073                                                 
++  SAY 0xBC @20074                                                  
++  SAY 0xC0 @20075                                                                     
++  SAY 0xC4 @20076                                              
++  SAY 0xC8 @20077
++  SAY 0xF4 @20078
++  SAY 0xF8 @20079                                   
++  SAY 0x100 @20080
++  SAY 0x108 @20081                                          
++  SAY 0x10C @20082                                                                                                                                           
++  SAY 0x114 200@83                                                                                                                             
++  SAY 0x12C @20084                                                           
++  SAY 0x130 @20085                         
++  SAY 0x134 @20086                                      
++  SAY 0x138 @20087                              
++  SAY 0x13C @20088                           
++  SAY 0x140 @20089 
++  SAY 0x144 @20090                                                  
++  SAY 0x148 @20091
++  SAY 0x14C @20092                               
++  SAY 0x150 @20093                                    
++  SAY 0x154 @20094
++  SAY 0x158 @20095                                              
++  SAY 0x160 @20096                  
++  SAY 0x178 @20097                                              
++  SAY 0x17C @20098                                                   
++  SAY 0x18C @20099
++  SAY 0x190 @20100
++  SAY 0x194 @20101
++  SAY 0x1CC @20102
+ 
+ COPY ~Bdash/BGTComp/Minsc/Minsc4.cre~ ~override/Minsc4.cre~
+-  SAY 0xA4 ~Stand and deliver, that my hamster might have a better look at ye!~ [BGMNSC01]
+-  SAY 0xA8 ~No, despair not!  I will inspire you by charging blindly on!~ [BGMNSC02]      
+-  SAY 0xAC ~Camaraderie, adventure, and steel on steel.  The stuff of legend!  Right Boo?~ [BGMNSC04]                                    
+-  SAY 0xB0 ~Yes Boo, I agree.  This group could do with a swift kick in the morals.~ [BGMNSC05]                                          
+-  SAY 0xB4 ~If I continue with this I'll never look Boo in the eyes again.  Choose carefully, I'll not let this come to pass!~ [BGMNSC06]
+-  SAY 0xB8 ~Ye have stepped beyond the line of evil!  Taste hamster justice!~ [BGMNSC07]                                                 
+-  SAY 0xBC ~Magic is impressive, but now Minsc leads!  Swords for everyone!~ [BGMNSC08]                                                  
+-  SAY 0xC0 ~I must rest, I've a bad case of armor chafe.~ [BGMNSC09]                                                                     
+-  SAY 0xC4 ~My hamster's getting antsy! If we be adventurers, let us adventure!~ [BGMNSC10]                                              
+-  SAY 0xC8 ~Go for the eyes Boo, GO FOR THE EYES!!  RrraaaAAGHGHH!!!~ [BGMNSC03]
+-  SAY 0xF4 ~I need aid soon, lest my... hamster... become an orphan.~ [BGMNSC11]
+-  SAY 0xF8 ~Boo likes the forest.~ [BGMNSC12]                                   
+-  SAY 0x100 ~Evil 'round every corner.  Careful not to step in any.~ [BGMNSC14]
+-  SAY 0x108 ~Ahh, nighttime.  Good for sneaking up on evil.~ [BGMNSC16]                                          
+-  SAY 0x10C ~Who wants some?~ [BGMNSC17]                                                                                                                                           
+-  SAY 0x114 ~Less talk, more fight!~ [BGMNSC19]                                                                                                                           
+-  SAY 0x12C ~Full plate and packing steel!~ [BGMNSC22]                                                           
+-  SAY 0x130 ~Fool me once, shame on you; fool me twice, watch it!  I'm huge!~ [BGMNSC23]                         
+-  SAY 0x134 ~When the going gets tough, someone hold my rodent.~ [BGMNSC24]                                      
+-  SAY 0x138 ~There be safety in numbers and I am two or three at least.~ [BGMNSC25]                              
+-  SAY 0x13C ~Make way evil!  I'm armed to the teeth and packing a hamster!~ [BGMNSC26]                           
+-  SAY 0x140 ~It is as you would have it.  'Tis my sworn vow to ensure your every need is catered to.~ [BGMNSC27] 
+-  SAY 0x144 ~Where Dynaheir goes, so goes my blade.~ [BGMNSC28]                                                  
+-  SAY 0x148 ~Lay a finger on what I protect and forevermore ye will answer nature's call with a hook!~ [BGMNSC29]
+-  SAY 0x14C ~Stand ye not too close!  Dynaheir is under my protection!~ [BGMNSC30]                               
+-  SAY 0x150 ~Play on, bard!  'Tis sweet music to my furry friend.~ [BGMNSC31]                                    
+-  SAY 0x154 ~You travel with Minsc, you toe the line!  I'll not suffer slackers while I'm busy hero-ing!~ [BGMNSC35]
+-  SAY 0x158 ~Boo does not like your manner.  Away with ye.~ [BGMNSC36]                                              
+-  SAY 0x160 ~Choose your friends wisely.  Not all are as trustworthy as Minsc and Boo.~ [BGMNSC37]                  
+-  SAY 0x178 ~No finer a place to die than the battlefield!~ [BGMNSC40]                                              
+-  SAY 0x17C ~Dynaheir!  Nooooo!  You will be avenged!~ [BGMNSC41]                                                   
+-  SAY 0x18C ~I am of few words and fewer hesitations!  Warnings past and now you die!~ [BGMNSC34]
+-  SAY 0x190 ~I take no offense from your comments.  You just don't understand the bond I have with Boo.~ [BGMNSC32]
+-  SAY 0x194 ~Your words are as sharp as my blade, though not half as shiny.  Oooo, shiny.~ [BGMNSC33]
+-  SAY 0x1CC ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dejemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychalarn of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle he hopes to be accepted into the Ice Dragon berserker lodge upon return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature that he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~
++  SAY 0xA4 @20068
++  SAY 0xA8 @20069      
++  SAY 0xAC @20070                                    
++  SAY 0xB0 @20071                                          
++  SAY 0xB4 @20072
++  SAY 0xB8 @20073                                                 
++  SAY 0xBC @20074                                                  
++  SAY 0xC0 @20075                                                                     
++  SAY 0xC4 @20076                                              
++  SAY 0xC8 @20077
++  SAY 0xF4 @20078
++  SAY 0xF8 @20079                                   
++  SAY 0x100 @20080
++  SAY 0x108 @20081                                          
++  SAY 0x10C @20082                                                                                                                                           
++  SAY 0x114 @20083                                                                                                                           
++  SAY 0x12C @20084                                                           
++  SAY 0x130 @20085                         
++  SAY 0x134 @20086                                      
++  SAY 0x138 @20087                              
++  SAY 0x13C @20088                           
++  SAY 0x140 @20089 
++  SAY 0x144 @20090                                                  
++  SAY 0x148 @20091
++  SAY 0x14C @20092                               
++  SAY 0x150 @20093                                    
++  SAY 0x154 @20094
++  SAY 0x158 @20095                                              
++  SAY 0x160 @20096                  
++  SAY 0x178 @20097                                              
++  SAY 0x17C @20098                                                   
++  SAY 0x18C @20099
++  SAY 0x190 @20100
++  SAY 0x194 @20101
++  SAY 0x1CC @20102
+ 
+ COPY ~Bdash/BGTComp/Minsc/Minsc6.cre~ ~override/Minsc6.cre~
+-  SAY 0xA4 ~Stand and deliver, that my hamster might have a better look at ye!~ [BGMNSC01]
+-  SAY 0xA8 ~No, despair not!  I will inspire you by charging blindly on!~ [BGMNSC02]      
+-  SAY 0xAC ~Camaraderie, adventure, and steel on steel.  The stuff of legend!  Right Boo?~ [BGMNSC04]                                    
+-  SAY 0xB0 ~Yes Boo, I agree.  This group could do with a swift kick in the morals.~ [BGMNSC05]                                          
+-  SAY 0xB4 ~If I continue with this I'll never look Boo in the eyes again.  Choose carefully, I'll not let this come to pass!~ [BGMNSC06]
+-  SAY 0xB8 ~Ye have stepped beyond the line of evil!  Taste hamster justice!~ [BGMNSC07]                                                 
+-  SAY 0xBC ~Magic is impressive, but now Minsc leads!  Swords for everyone!~ [BGMNSC08]                                                  
+-  SAY 0xC0 ~I must rest, I've a bad case of armor chafe.~ [BGMNSC09]                                                                     
+-  SAY 0xC4 ~My hamster's getting antsy! If we be adventurers, let us adventure!~ [BGMNSC10]                                              
+-  SAY 0xC8 ~Go for the eyes Boo, GO FOR THE EYES!!  RrraaaAAGHGHH!!!~ [BGMNSC03]
+-  SAY 0xF4 ~I need aid soon, lest my... hamster... become an orphan.~ [BGMNSC11]
+-  SAY 0xF8 ~Boo likes the forest.~ [BGMNSC12]                                   
+-  SAY 0x100 ~Evil 'round every corner.  Careful not to step in any.~ [BGMNSC14]
+-  SAY 0x108 ~Ahh, nighttime.  Good for sneaking up on evil.~ [BGMNSC16]                                          
+-  SAY 0x10C ~Who wants some?~ [BGMNSC17]                                                                                                                                            
+-  SAY 0x114 ~Less talk, more fight!~ [BGMNSC19]                                                                                                                            
+-  SAY 0x12C ~Full plate and packing steel!~ [BGMNSC22]                                                           
+-  SAY 0x130 ~Fool me once, shame on you; fool me twice, watch it!  I'm huge!~ [BGMNSC23]                         
+-  SAY 0x134 ~When the going gets tough, someone hold my rodent.~ [BGMNSC24]                                      
+-  SAY 0x138 ~There be safety in numbers and I am two or three at least.~ [BGMNSC25]                              
+-  SAY 0x13C ~Make way evil!  I'm armed to the teeth and packing a hamster!~ [BGMNSC26]                           
+-  SAY 0x140 ~It is as you would have it.  'Tis my sworn vow to ensure your every need is catered to.~ [BGMNSC27] 
+-  SAY 0x144 ~Where Dynaheir goes, so goes my blade.~ [BGMNSC28]                                                  
+-  SAY 0x148 ~Lay a finger on what I protect and forevermore ye will answer nature's call with a hook!~ [BGMNSC29]
+-  SAY 0x14C ~Stand ye not too close!  Dynaheir is under my protection!~ [BGMNSC30]                               
+-  SAY 0x150 ~Play on, bard!  'Tis sweet music to my furry friend.~ [BGMNSC31]                                    
+-  SAY 0x154 ~You travel with Minsc, you toe the line!  I'll not suffer slackers while I'm busy hero-ing!~ [BGMNSC35]
+-  SAY 0x158 ~Boo does not like your manner.  Away with ye.~ [BGMNSC36]                                              
+-  SAY 0x160 ~Choose your friends wisely.  Not all are as trustworthy as Minsc and Boo.~ [BGMNSC37]                  
+-  SAY 0x178 ~No finer a place to die than the battlefield!~ [BGMNSC40]                                              
+-  SAY 0x17C ~Dynaheir!  Nooooo!  You will be avenged!~ [BGMNSC41]                                                   
+-  SAY 0x18C ~I am of few words and fewer hesitations!  Warnings past and now you die!~ [BGMNSC34]
+-  SAY 0x190 ~I take no offense from your comments.  You just don't understand the bond I have with Boo.~ [BGMNSC32]
+-  SAY 0x194 ~Your words are as sharp as my blade, though not half as shiny.  Oooo, shiny.~ [BGMNSC33]
+-  SAY 0x1CC ~When asked about his past, MINSC proudly announces that he is a berserker warrior from the nation of Rashemen in the utter east. He is currently undertaking his dejemma, a ritual journey to manhood, and is seeking adventure and glory in battle. It is also his honor to be the bodyguard of a young Wychalarn of Rashemen named Dynaheir, and if anyone tries to harm her he will beat sense into their heads until they reconsider. He is unsure as to why she has led them to the Sword Coast, but his loyalty is unquestioning. If he serves her well and distinguishes himself in battle he hopes to be accepted into the Ice Dragon berserker lodge upon return to their homeland. So far Minsc considers his most notable experience in the world abroad to be the acquisition of his animal companion 'Boo,' a creature that he claims is a miniature giant space hamster. Apparently such things do exist in the Realms, but Minsc has surely taken too many blows to the head. He seems a good-natured fellow, but is all too willing to indulge his berserker nature.~
++  SAY 0xA4 @20068
++  SAY 0xA8 @20069      
++  SAY 0xAC @20070                                    
++  SAY 0xB0 @20071                                          
++  SAY 0xB4 @20072
++  SAY 0xB8 @20073                                                 
++  SAY 0xBC @20074                                                  
++  SAY 0xC0 @20075                                                                     
++  SAY 0xC4 @20076                                              
++  SAY 0xC8 @20077
++  SAY 0xF4 @20078
++  SAY 0xF8 @20079                                   
++  SAY 0x100 @20080
++  SAY 0x108 @20081                                          
++  SAY 0x10C @20082                                                                                                                                            
++  SAY 0x114 @20083                                                                                                                            
++  SAY 0x12C @20084                                                           
++  SAY 0x130 @20085                         
++  SAY 0x134 @20086                                      
++  SAY 0x138 @20087                              
++  SAY 0x13C @20088                           
++  SAY 0x140 @20089 
++  SAY 0x144 @20090                                                  
++  SAY 0x148 @20091
++  SAY 0x14C @20092                               
++  SAY 0x150 @20093                                    
++  SAY 0x154 @20094
++  SAY 0x158 @20095                                              
++  SAY 0x160 @20096                  
++  SAY 0x178 @20097                                              
++  SAY 0x17C @20098                                                   
++  SAY 0x18C @20099
++  SAY 0x190 @20100
++  SAY 0x194 @20101
++  SAY 0x1CC @20102
+ 
+ ///////////////////////////////
+ //Adding Boo Familiar
+ ///////////////////////////////
+ 
+-BEGIN ~Boo - Familiar of Minsc (by Vlad) (If you're going to install TS next, please install this component.)~
++BEGIN @20103
+ 
+ APPEND ~SPELL.IDS~
+ ~3699 BOO_HEALING_LICK
+@@ -8752,12 +8245,16 @@
+ COPY ~Bdash/Boo/VORSQUI4.ITM~           ~override/VORSQUI4.ITM~
+ 
+ COPY ~Bdash/Boo/BOO.CRE~           ~override/BOO.CRE~         
+-  SAY NAME1 ~Boo~ 
+-  SAY NAME2 ~Boo~
++  SAY NAME1 @20104 
++  SAY NAME2 @20104
+   SAY 0xdc ~~ [CBooAtt1]
+   SAY 0xe0 ~~ [CBooAtt2]
+   SAY 0xe4 ~~ [CBooAtt3]
+   SAY HURT ~~ [CBooHurt]
++
++
++
++
+   SAY SELECT_COMMON1 ~~ [CBooSel1]
+   SAY SELECT_COMMON2 ~~ [CBooSel2]
+   SAY SELECT_COMMON3 ~~ [CBooSel3]
+@@ -8769,16 +8266,16 @@
+   SAY SPELL_DISRUPTED ~~ [CBooSpFa]
+ 
+ COPY ~Bdash/Boo/BOO.ITM~           ~override/BOO.ITM~         
+-  SAY NAME1 ~Boo~ 
+-  SAY NAME2 ~Boo~
++  SAY NAME1 @20104 
++  SAY NAME2 @20104
+ 
+ COPY ~Bdash/Boo/SPIN699.spl~		~override/SPIN699.spl~
+-  SAY NAME1 ~Healing Lick~
+-  SAY NAME2 ~Healing Lick~
++  SAY NAME1 @20105
++  SAY NAME2 @20105
+ 
+ COPY ~Bdash/Boo/SPIN204.spl~		~override/SPIN204.spl~
+-  SAY NAME1 ~Detect Evil~
+-  SAY NAME2 ~Detect Evil~
++  SAY NAME1 @20106
++  SAY NAME2 @20106
+ 
+ COPY ~Bdash/Boo/BooREST.spl~		~override/BooREST.spl~
+ 
+@@ -8808,7 +8305,7 @@
+ //Adding Modified Imoen
+ ///////////////////////////////
+ 
+-BEGIN ~Continuous and Custom Kit Imoen (by Vlad)~ 
++BEGIN @20107 
+ 
+ APPEND ~SPELL.IDS~
+ ~3161 IMMY_MAGIC_MISSILES
+@@ -8833,8 +8330,8 @@
+ COPY ~Bdash/Immy/copy_spl~		~override~
+  
+ COPY ~Bdash/Immy/spl/SPIN506.SPL~		~override/SPIN506.SPL~
+-  SAY NAME1 ~Mass Charm~
+-  SAY NAME2 ~Mass Charm~
++  SAY NAME1 @20108
++  SAY NAME2 @20108
+   
+ ADD_KIT ~CHARMING_ROGUE~
+ 
+@@ -8864,21 +8361,9 @@
+ 
+ ~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 SLING05 DAGG05,40 STAF20~
+ 
+-SAY ~charming rogue~
+-SAY ~Charming Rogue~
+-SAY ~CHARMING ROGUE: This thief kit was especially created for Imoen to reflect her unique personality.
+-
+-Advantages:
+--  +1 bonus to AC for every 5 levels of experience
+--  +1 to hit, and +1 to damage with any missile weapon for every 5 levels
+--  +1 to movement rate for every 7 levels
+--  She can specialize in any ranged weapon that a thief can use
+--  She can cast a limited number of enhanting spells, which become available from her innate slots as she advances levels
+--  Immune to Charm spell
+--  She can create illusions
+-
+-Disadvantages:
+--  None~
++SAY @20109
++SAY @20110
++SAY @20111
+ 
+ //Getting rid of original Spellhold Imoen
+ COPY_EXISTING ~BALDUR.GAM~ ~override/BALDUR.GAM~
+@@ -9070,9 +8555,9 @@
+ //__________________________________________//
+ //                                          //
+ 
+-BEGIN ~Merchant League Bank (BGT required!) (by Vlad)~
++BEGIN @20112
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ COPY ~Bdash/BGTComp/SW2H06.ITM~         ~override/SW2H06.ITM~
+ 
+@@ -9088,154 +8573,91 @@
+ COMPILE ~Bdash/BGTcomp/bank/aAldeth.d~
+ 
+ COPY ~Bdash/BGTcomp/bank/VPVOUC10.ITM~ ~override/VPVOUC10.ITM~
+-  SAY NAME1 ~Merchant League Banknote~ 
+-  SAY NAME2 ~Merchant League Banknote~
+-  SAY UNIDENTIFIED_DESC ~Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
+-  SAY DESC ~A 10,000 gp Banknote
+-
+-Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
++  SAY NAME1 @20113
++  SAY NAME2 @20113
++  SAY UNIDENTIFIED_DESC @20114
++  SAY DESC @20115
+ 
+ COPY ~Bdash/BGTcomp/bank/VPVOUC25.ITM~ ~override/VPVOUC25.ITM~
+-  SAY NAME1 ~Merchant League Banknote~ 
+-  SAY NAME2 ~Merchant League Banknote~
+-  SAY UNIDENTIFIED_DESC ~Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
+-  SAY DESC ~A 25,000 gp Banknote
+-
+-Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
++  SAY NAME1 @20113
++  SAY NAME2 @20113
++  SAY UNIDENTIFIED_DESC @20114
++  SAY DESC @20116
+ 
+ COPY ~Bdash/BGTcomp/bank/VPVOUC50.ITM~ ~override/VPVOUC50.ITM~
+-  SAY NAME1 ~Merchant League Banknote~ 
+-  SAY NAME2 ~Merchant League Banknote~
+-  SAY UNIDENTIFIED_DESC ~Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
+-  SAY DESC ~A 50,000 gp Banknote
+-
+-Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
++  SAY NAME1 @20113
++  SAY NAME2 @20113
++  SAY UNIDENTIFIED_DESC @20114
++  SAY DESC @20117
+ 
+ COPY ~Bdash/BGTcomp/bank/VPVOU100.ITM~ ~override/VPVOU100.ITM~
+-  SAY NAME1 ~Merchant League Banknote~ 
+-  SAY NAME2 ~Merchant League Banknote~
+-  SAY UNIDENTIFIED_DESC ~Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
+-  SAY DESC ~A 100,000 gp Banknote
+-
+-Banknote is a promissory note or certificate issued by a bank that bears monetary value and can be exchanged for a certain amount of cash.~
++  SAY NAME1 @20113
++  SAY NAME2 @20113
++  SAY UNIDENTIFIED_DESC @20114
++  SAY DESC @20118
+ 
+ COPY ~Bdash/BGTcomp/bank/VPAmBelt.sto~ ~override/VPAmBelt.sto~
+-  SAY STORE_NAME ~Quiver~
++  SAY STORE_NAME @20119
+ 
+ COPY ~Bdash/BGTcomp/bank/VPAmBelt.itm~ ~override/VPAmBelt.itm~
+-  SAY NAME1 ~Quiver~
+-  SAY NAME2 ~Quiver~
+-  SAY UNIDENTIFIED_DESC ~This quiver is ideally suited for holding arrows.
+-
+-STATISTICS:
+-
+-Capacity: 600 arrows in total
+-Weight: 2~
+-  SAY DESC ~This quiver is ideally suited for holding arrows.
+-
+-STATISTICS:
+-
+-Capacity: 600 arrows in total
+-Weight: 2~
++  SAY NAME1 @20119
++  SAY NAME2 @20119
++  SAY UNIDENTIFIED_DESC @20120
++  SAY DESC @20120
+ 
+ COPY ~Bdash/BGTcomp/bank/VPGenBag.sto~ ~override/VPGenBag.sto~
+-  SAY STORE_NAME ~Cloth Sack~
++  SAY STORE_NAME @20121
+   
+ COPY ~Bdash/BGTcomp/bank/VPGenBag.itm~ ~override/VPGenBag.itm~
+-  SAY NAME1 ~Cloth Sack~
+-  SAY NAME2 ~Cloth Sack~
+-  SAY UNIDENTIFIED_DESC ~A common cloth sack of about 1 feet by 3 feet in size and of limited capacity.
+-
+-STATISTICS:
+-
+-Capacity: 60 items (stackable or not)
+-Weight: 5~
+-  SAY DESC ~A common cloth sack of about 1 feet by 3 feet in size and of limited capacity.
+-
+-STATISTICS:
+-
+-Capacity: 60 items (stackable or not)
+-Weight: 5~
++  SAY NAME1 @20121
++  SAY NAME2 @20121
++  SAY UNIDENTIFIED_DESC @20122
++  SAY DESC @20122
+ 
+ COPY ~Bdash/BGTcomp/bank/VPPtnBag.sto~ ~override/VPPtnBag.sto~
+   SAY STORE_NAME ~Potion Case~
+   
+ COPY ~Bdash/BGTcomp/bank/VPPtnBag.itm~ ~override/VPPtnBag.itm~
+-  SAY NAME1 ~Potion Case~
+-  SAY NAME2 ~Potion Case~
+-  SAY UNIDENTIFIED_DESC ~Typically carried by traveling healers, this small leather case folds open and allows the user to strap delicate potion bottles to its cushioned side with numerous leather thongs for safe storage during travel. Regardless of how many potions are contained in this case, it always weighs the same amount.
+-
+-STATISTICS:
+-
+-Capacity: 100 bottles
+-Weight: 2~
+-  SAY DESC ~Typically carried by traveling healers, this small leather case folds open and allows the user to strap delicate potion bottles to its cushioned side with numerous leather thongs for safe storage during travel. Regardless of how many potions are contained in this case, it always weighs the same amount.
+-
+-STATISTICS:
+-
+-Capacity: 100 bottles
+-Weight: 2~
++  SAY NAME1 @20123
++  SAY NAME2 @20123
++  SAY UNIDENTIFIED_DESC @20124
++  SAY DESC @20124
+ 
+ COPY ~Bdash/BGTcomp/bank/VPScrBag.sto~ ~override/VPScrBag.sto~
+   SAY STORE_NAME ~Scroll Tubus~
+ 
+ COPY ~Bdash/BGTcomp/bank/VPScrBag.itm~ ~override/VPScrBag.itm~
+-  SAY NAME1 ~Scroll Tubus~
+-  SAY NAME2 ~Scroll Tubus~
+-  SAY UNIDENTIFIED_DESC ~This sturdy tubular container allows many scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.
+-
+-STATISTICS:
+-
+-Capacity: 100 scrolls
+-Weight: 2~
+-  SAY DESC ~This sturdy tubular container allows many scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.
+-
+-STATISTICS:
+-
+-Capacity: 45 scrolls
+-Weight: 2~
++  SAY NAME1 @20125
++  SAY NAME2 @20125
++  SAY UNIDENTIFIED_DESC @20126
++  SAY DESC @20127
+ 
+ COPY ~Bdash/BGTcomp/NEJWOLF.ITM~           ~override~
+ 
+ COPY ~Bdash/BGTcomp/BOOKNEJ.ITM~         ~override~
+-	SAY NAME2 ~Manual of Weapon Expertise~
+-	SAY DESC ~A typical manual of weapon expertise provides the reader with a strictly regimented routine of daily training with a weapon of choice designed to significantly improve combat skills of the trainee. As if this isn’t enough, the manual is also magically enhanced, thereby allowing an individual to raise his/her THAC0 and damage inflicted by three points each. Unfortunately, the manual will disappear after a single use.
+-
+-STATISTICS:
+-
+-THAC0:  +3 bonus
+-Damage:  +3 bonus
+-Special:  The book is consumed upon use.
+-Usage:  Place into quick item slot.~  
++	SAY NAME2 @20128
++	SAY DESC @20129
+ 
+ COPY ~Bdash/BGTcomp/bank/VPNJCLCK.ITM~            ~override~
+-	SAY NAME1 ~Cloak of the Greater Werewolf~
+-	SAY NAME2 ~Cloak of the Greater Werewolf~
+-	SAY DESC ~Cloak of the Greater Werewolf:  *Relair’s Mistake* 
+-A great amount of irony surrounds the creation of this magical cloak. Relair was a mage who overestimated the amount of control he had over magic, and in the course of creating this garment he apparently inflicted lycanthropy upon himself. The wearer can change form whenever he wishes. Relair was not so lucky.
+-
+-STATISTICS:
+-
+-Special:  Polymorph into greater werewolf at will
+-Weight:  3
+-Not Usable By:
+- Wizard Slayer~
++	SAY NAME1 @20130
++	SAY NAME2 @20130
++	SAY DESC @20131
+ 
+ COPY ~Bdash/BGTcomp/bank/aldeth.sto~ ~override/aldeth.sto~
+-  SAY STORE_NAME ~Merchant League~
++  SAY STORE_NAME @20132
+   ADD_STORE_ITEM + ~VPNJCLCK~ #0 #0 #0 ~IDENTIFIED~ #1
+   ADD_STORE_ITEM + ~BOOKNEJ~ #0 #0 #0 ~IDENTIFIED~ #1
+ 
+ COPY ~Bdash/BGTcomp/bank/MercBank.sto~ ~override/MercBank.sto~
+-  SAY STORE_NAME ~Merchant Bank~
++  SAY STORE_NAME @20133
+ //  ADD_STORE_ITEM + ~VPVOU100~ #0 #0 #0 ~IDENTIFIED~ #5
+ //  ADD_STORE_ITEM + ~VPVOUC10~ #0 #0 #0 ~IDENTIFIED~ #5
+ //  ADD_STORE_ITEM + ~VPVOUC25~ #0 #0 #0 ~IDENTIFIED~ #5
+ //  ADD_STORE_ITEM + ~VPVOUC50~ #0 #0 #0 ~IDENTIFIED~ #5
+ 
+ COPY ~Bdash/BGTcomp/bank/MercBank.cre~ ~override/MercBank.cre~
+-	SAY NAME1 ~League Merchant~
+-	SAY NAME2 ~League Merchant~
++	SAY NAME1 @20134
++	SAY NAME2 @20134
+ 	
+ COMPILE ~Bdash/BGTcomp/bank/MercBank.d~
+ 
+@@ -9251,9 +8673,9 @@
+ //                                     			//
+ //////////////////////////////////////////
+ 
+-BEGIN ~BGT Compatibility, Fixes and Improvements (BGT required!) (by Vlad)~
++BEGIN @20135
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ ACTION_IF FILE_EXISTS ~data/BG1ARE.BIF~
+  THEN BEGIN
+@@ -9323,54 +8745,12 @@
+  THEN BEGIN
+ //////ONLY FOR BGT//////
+ COPY ~Bdash/BGTComp/VPSword.itm~           ~override~
+-	SAY NAME2 ~The Answerer +2~
+-	SAY DESC ~The last swing of a battle is more important than the first. Such is the philosophy embodied in this powerful weapon. Although the strange design of The Answerer makes it difficult to take the initiative in combat, with each hit it makes an opponent more vulnerable to subsequent attacks. 
+-
+-STATISTICS:
+-
+-Each hit lowers opponents’ Magic Resistance by 5%
+-Each hit applies a penalty of -1 to opponents’ AC 
+-
+-THAC0: +2 bonus
+-Damage: 1D8 + 2
+-Damage type: slashing
+-Weight: 2
+-Speed Factor: 9
+-Proficiency Type: Long Sword
+-Type: 1-handed
+-Requires: 6 Strength
+-Not Usable By:
+-Druid
+-Cleric
+-Mage
+-Beast Master~
++	SAY NAME2 @20136
++	SAY DESC @20137
+ 
+ COPY ~Bdash/BGTComp/bgsw2h07.itm~           ~override~
+-	SAY NAME2 ~The World's Edge +3~
+-	SAY DESC ~This is a legendary weapon of heroic proportions, especially among the far-northern tribes of barbarians. Champion after champion has wielded this blade against countless enemies, and the blood it has spilled could fill a small sea. History will not admit that such a blade could be forged and each consecutive owner seems to tie its origin to whatever creation myth they believe. The most grandiose of these tales is that of a great chieftain who sailed to the cliffs that supposedly bordered the world. There he reached into the void, and his will shaped the blade from nothing. Whatever the truth, in the right hands this sword is a fearsome thing.
+-
+-STATISTICS:
+-
+-Equipped Abilities:
+-   Armour Class bonus: +2
+-   Constitution bonus: +2
+-   Complete Mind Shield
+-      (Immunity to Panic, Fear, Confusion, Charm and Psionic attacks)
+-   True Free Action
+-      (Immunity to any slowing, holding and paralyzation magics)
+-      
+-Damage:  1D12 + 3
+-THAC0:  +3 bonus
+-Damage Type:  slashing
+-Weight:  9
+-Speed Factor:  7
+-Proficiency Type: Two Handed Sword
+-Type:  2-handed
+-Not usable by:
+- Druid
+- Cleric
+- Mage
+- Thief~
++	SAY NAME2 @20138
++	SAY DESC @20139
+ 
+ COPY_EXISTING ~ARD000.ARE~ ~override~
+   READ_LONG 0x78 item_off
+@@ -9408,9 +8788,9 @@
+ //__________________________________________//
+ //                                          //
+ 
+-BEGIN ~Tougher Black Talone Elites (BGT required!) (by Vlad)~
++BEGIN @20140
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ COPY ~Bdash/BGTComp/BGTIronElites/BANDIT2.CRE~         ~override/BANDIT2.CRE~       
+   SAY NAME1 #13825 
+@@ -9428,35 +8808,15 @@
+ //__________________________________________//
+ //                                          //
+ 
+-BEGIN ~Stats and Portraits of Viconia and Jaheira. BG1 Viconia and Jaheira can get their BG2 portraits and stats (by Vlad).~
++BEGIN @20141
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ //Viconia update - BGT
+ 
+ COPY ~Bdash/BGTcomp/vic/VicAmul.ITM~            ~override~
+-	SAY NAME2 ~Dark Shadow of Shar~
+-	SAY DESC ~Dark Shadow of Shar 
+-This amulet is cold beneath your touch and bears a weight far greater than its size might suggest. The black round-shaped stone is inserted into it, and the symbols of an ancient tongue are inscribed on one side, the strange words shimmering and glowing with an inner white light. 
+-
+-STATISTICS:
+-
+-While Equipped:
+-  Vocalize
+-  Negative Plane Protection
+-  Magic Resistance: +10%
+-  Resistance to Magic Damage: +50% 
+-    (magic attacks will do half of full damage)
+-  Immunity to Disease and Poison
+-  Decrease Spell Casting Speed by 2
+-  Grants an extra spell of each level from 4th to 7th
+-
+-Special:
+-  Polymorph into shadow at will (for 2 turns)
+-
+-Weight:  3
+-Usable By:
+-  Viconia~
++	SAY NAME2 @20142
++	SAY DESC @20143
+ 
+ COPY ~Bdash/BGTComp/vic/viconi.cre~  ~override/viconi.cre~
+ 		 ~Bdash/BGTComp/vic/viconi4.cre~ ~override/viconi4.cre~
+@@ -9473,36 +8833,15 @@
+ //        Xan - Improved Character          //
+ //________________________________//
+ //                                                     //
+-BEGIN ~Improved Character Xan (BGT required!) (by Vlad)~
++BEGIN @20144
+ 
+-REQUIRE_FILE ~data/BG1ARE.BIF~ ~Please install BG1 and BGT before installation of this component.~
++REQUIRE_FILE ~data/BG1ARE.BIF~ @20067
+ 
+ COPY ~Bdash/BGTComp/Xan/Xan4.cre~ ~override/Xan4.cre~
+ COPY ~Bdash/BGTComp/Xan/Xan6.cre~ ~override/Xan6.cre~
+ 
+ COPY ~Bdash/BGTComp/Xan/sw1h13.itm~ ~override~
+-  SAY DESC ~This potent weapon was created by the smiths of ancient Myth Drannor. Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  A Moonblade chooses its owner, and in the case of this sword it has chosen the elf, Xan.  Only Xan can use this blade, anyone else who tries will find themselves unable to lift the sword.  This particular Moonblade gives resistance to fire and gives its user a bonus to his armor class.
+-
+-STATISTICS:
+-
+-Damage:  1D8 + 3
+-THAC0:  +3 bonus
+-Damage type:  Slashing
+-
+-Equipped Abilities:
+-  +2 bonus to Armor Class
+-  +50% Fire Resistance 
+-  +50% Magic Resistance
+-    
+-Special Abilities:
+-  Dispel magic 3 times per day
+- 
+-Weight: 4
+-Speed Factor: 5
+-Proficiency Type: Long Sword
+-Type: One-handed
+-Usable By:
+-  Xan~
++  SAY DESC @20145
+ 
+ COPY ~Bdash/BGTComp/Xan/xanl.bmp~ ~override~
+      ~Bdash/BGTComp/Xan/xanm.bmp~ ~override~
+@@ -9513,10 +8852,10 @@
+ ////////////////\
+ //   Texts     //
+ ////////////////\
+-BEGIN ~Baldurdash English Text Update Pack for ToB, v1.4 WeiDU (by Kevin Dorner)~
+-SUBCOMPONENT ~Textupdatepack~
++BEGIN @20146
++SUBCOMPONENT @20147
+ 
+-PRINT ~Patching text resources...~
++PRINT @20148
+ 
+ ////////////////////
+ //BGT Compatibility

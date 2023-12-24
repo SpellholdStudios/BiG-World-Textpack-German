@@ -1,0 +1,79 @@
+--- NeJ\Dfiles\DCAPKID.D	Tue Dec 02 23:24:54 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DCAPKID.D	Wed Apr 10 10:23:53 2019
+@@ -2,65 +2,65 @@
+ 
+ IF ~RandomNum(5,1)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 0 // from:
+-  SAY ~When people die, they turn into skeletons.  I'm going to turn into a skeleton.~ 
++  SAY @0 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,2)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 1 // from:
+-  SAY ~Don't let the monsters eat us!~ 
++  SAY @1 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,3)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 2 // from:
+-  SAY ~They think we're yummy.~ 
++  SAY @2 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,4)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 3 // from:
+-  SAY ~I want to punch the monsters in the eye.~ 
++  SAY @3 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,5)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 4 // from:
+-  SAY ~I'm hungry!  I'm thirsty!~ 
++  SAY @4 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,1)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 5 // from:
+-  SAY ~You kicked 'em in the face!  Hoo!  Ha!  Yah!~ 
++  SAY @5 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,2)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 6 // from:
+-  SAY ~Thanks for not letting them turn me into a skeleton.~ 
++  SAY @6 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,3)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 7 // from:
+-  SAY ~I get to go home!~ 
++  SAY @7 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,4)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 8 // from:
+-  SAY ~Thanks for beating up the monsters.~ 
++  SAY @8 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,5)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 9 // from:
+-  SAY ~Yay!  Yay!  Yay!~ 
++  SAY @9 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~True()~ THEN BEGIN 10 // from:
+-  SAY ~I don't like this place.~ 
++  SAY @10 
+   IF ~~ THEN EXIT
+ END

@@ -1,0 +1,845 @@
+@0    = ~TORTURED SOULS v7.06~
+@1    = ~Please install "Throne Of Bhaal" and the official ToB patch before installation of this mod.~
+@2    = ~Please install Baldurdash-WeiDU v1.75 before installation of this mod.~
+@3    = ~Play Shadows of Amn<TM> with the new expansion set "Tortured Souls"~
+@4    = ~NEW CHAPTER
+
+  After Saemon Havarian had finished his incantations you stood for a few minutes in expectation. The ship, ready to sail was still in Athkatla’s docks... You were about to sigh and pronounce your thanks that at least it was not frog-turning, and request refund from the sly sailor. Suddenly the crew became agitated, everyone pointing to the east. You turned and saw a gray cloud speeding across the sky straight for the "Gallante". A few of the crewmen leaped overboard. Someone behind your back whispered: "that’s how the fate looks?" and spat heartily on the deck. Then the world became one great gray fog and all you could sense is the movement of tremendous speed... But you could not distinguish the direction or count the time... Slowly you had lost your consciousness... and regained it in what seemed a short instant. The ship is riding shallow waters in a sheltered bay by a stony beach. Captain Havarian approaches you hesitantly...~ [theme3]
+@5    = ~CHAPTER FOUR
+
+  After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate.   "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+
+  Bodhi was as good as her word. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [intro8]
+@6    = ~CHAPTER FOUR
+
+  After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+
+  Aran Linvail and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [intro8]
+@7    = ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
+@8    = ~After half-a-dozen visits by Shadow Thieves’ messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father’s plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid’s Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple has seen the birth of a son and a daughter, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
+@9    = ~After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faerun and becoming a common sight in the area of Waterdeep.  Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family’s estate that he had always desired.  Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city.  For many years, Valygar’s was the name spat by every criminal or slaver who dared to place a foot within the city.  Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect.  Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect...though most considered the ranger the victor even then.  Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married.  His only son, the pride of his life, took the lessons of his father to heart? Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride.  Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well.~
+@10   = ~Really, <CHARNAME>, it should be you writing this... For you know best what happened to your loyal friend Valygar after you rejected your place in pantheon as a Lady of Murder. Valygar traveled with <CHARNAME>, and one day their road led to a village in Zakhara. Much to Valygar’s surprise, he found that he had large family there, not a single member of which was Tainted with Corthala curse. Abyssina’s son and <CHARNAME> received a warm welcome and before they knew it the whole village turned into a carnival celebrating their marriage. Not to disappoint the gathering, Valygar and <CHARNAME> exchanged their vows in front of the village and any gods that might have been listening. They lived happily ever after and died in the same place.~
+@11   = ~Kachiko and Yoshimo traveled throughout Faerun for years after leaving company of <CHARNAME>. The couple were loved everywhere they went for their indomitable spirit and readiness to help anyone in need. They lived out of their backpacks and a few bags of holding for many years. Rumor has it that Yoshimo and Kachiko were agents in the service of the Harpers. Others say that they served nobody. 
+
+The Hashimoto family first doubled then tripled and all of their children grew up during the endless family journey. The eldest child was called <CHARNAME> in memory of their old friend. Yoshimo and Kachiko never returned to Kozakura, the demise of their families weighed heavily on them. Eventually, they retired to Athkatla. Yoshimo now owns the "Adventurer’s Mart" and the Hashimoto’s small home in the Bridge district is full of grandchildren and all sorts of wanderers.~
+@12   = ~Hasuno~
+@13   = ~Fighting Pit~
+@14   = ~This statue is a representation of the Goddess Waukeen.  It depicts a beautiful young woman with an outstretched palm.~
+@15   = ~These shelves are crammed with books dealing with trade and commerce in Kara-Tur.~
+@16   = ~This staircase is blocked.~
+@17   = ~This passage is magically sealed. You cannot enter the fighting arena without special permission.~
+@18   = ~Ring of Niri Alud~
+@19   = ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment’s notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud’s chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+
+STATISTICS:
+
+Special Abilities:
+   Summons a thief-like ally one time per day.
+
+Equipped abilities:
+   Non-detection
+   +15% Hide in Shadows
+   +15% Lock Picking~
+@20   = ~Suna’s Bloom~
+@21   = ~A pretty purple flower.~
+@22   = ~Girdle of Stromnos~
+@23   = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry.  He named the broad belt after a hill giant who had almost killed him when he was looking for spell components.  Dendes died defending Presdon from rival mages near Ordulin.
+
+STATISTICS:
+
+Raises the user’s Strength to 19
+Only Usable By:
+  Fighters (Single, Dual-, and Multi-Class)
+  Rangers (Singe, Dual-, and Multi-Class)
+  Paladins~
+@24   = ~The Love of Black Bess~
+@25   = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba.  Her name was Redani, and she was known both for her powers as an enchanter and a seductress.  The Love of Black Bess was always given to her favored consort at any particular time.  Unknown to her lovers, she would place a Ring of Readiness on the mace, saving the matching ring for a special time.  When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour.  The new lover would simply call upon the ring and the mace would fly to his hand.  
+
+Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover.  Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road.  Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+
+STATISTICS:
+
+Damage:  1D6 +4
+THAC0:  +3
+Damage type:  Crushing
+Special:  10% of all hits cause the target to lose 4 points of Luck
+Weight:  7
+Speed Factor:  5
+Proficiency Type:  Maces
+Type:  1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+@26   = ~Chess Piece~
+@27   = ~White Bishop~
+@28   = ~Chess is one of the "four universal games" (draughts, dice, and talis cards being the others).  Many believe chess to be the most challenging and intriguing of the four games.  Chess pieces and boards are often made from a wide variety of materials.  Marble, wood, and ivory are the most common materials used for the construction of chess pieces.~
+@29   = ~This chess piece is a white bishop, crafted from soapstone.  It is one of the many lost pieces from the fabled Chess Sets of Niri Alud.  Niri Alud was a conjurer from Tethyr who loved playing chess.  He frequently traveled with chess sets on his numerous voyages.  He wanted the ability to summon allies at a moment’s notice without giving away his intention.  For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle.  Almost all of Niri Alud’s chess sets were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands.  The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles.  Treasure hunters search for the pieces still.
+
+STATISTICS:
+
+Summons a priest-like ally.~
+@30   = ~Blade Of The Night~
+@31   = ~This was the weapon used by the most famous assassin in Kara Tur, but none knew her name apart from the emperor. She was the greatest thief the world had ever seen. She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade. It was made by the emperors best weapon smiths, and then tempered in the bloods of red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief.
+
+STATISTICS:
+
+Equipped Bonuses:
+	+2 to Armor Class 
+	+2 to Dexterity
+
+Equipped Penalties:
+	-1 to Constitution
+	
+Special Abilities:
+	+25% to all thieving skills
+	Negative Plane Protection
+	Immunity to Poison
+	Immunity to Backstab
+
+Combat Abilities:
+   10% chance of Level Drain from the target on each hit
+	(target may save vs. spells to avoid level loss)
+
+THAC0 +5 bonus
+Damage:  1D10 +5 
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Only usable by:
+ Any Thief Kit (single, dual or  multi)~
+@32   = ~The Black Bow~
+@33   = ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun.  A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart.  Through all of his years in the military, he remained true to his love and saved his earnings.  He and his new wife moved west in the hopes that they would find frontier land to settle.  In the lands north of Baldur’s Gate and east of the Trollbark Forest, Jonan built his home and farm.  Within five years, there were raiders in the area, and farms were being destroyed all around Jonan’s.  Eventually, the raiders targeted Jonan’s home, killing his wife and child and leaving him for dead.  His farm was burned to the ground.  Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood.  He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with.  Sages debate how the bow became enchanted, but most believe that, after Jonan’s death, it was blessed by a god.  Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal.  Theories tend to revolve around whether the speaker believes Jonan’s actions were just, vengeful, or murderous.
+
+STATISTICS:
+
+Damage:  +3
+THACO:  +4
+Weight:  3
+Speed Factor:  4
+Proficiency Type:  Bow
+Type:  2-handed
+Minimum Strength of 12 required
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@34   = ~Boots of the Forgotten Ones~
+@35   = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw tribe.  The power hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors.  Algrash was killed when he provoked a fight with a gang of ogres.  His boots were left at the scene of the battle.
+
+STATISTICS:
+
+Allows the wearer to cast 2 extra first and second level spells and 1 extra third level spell.
+Increases twice the wearer’s movement rate.
+Only usable by:
+ Cleric (single, dual, & multi-class)
+ Druid (single, dual, & multi-class)~
+@36   = ~Edventar’s Gift~
+@37   = ~Composite Long Bow +4: Defender~
+@38   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
+
+STATISTICS:
+
+Damage:  +4 (missile)
+THAC0: +4
+Armor Class Bonus: 2
+Special: 4 attacks per round
+Speed Factor: 7
+Proficiency Type: Bow
+Type:  2-handed
+Minimum Dexterity of 17 required
+Minimum Strength of 17 required
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@39   = ~Katana +3: "Air Element"~
+@40   = ~Katana +3 "Air Element"
+
+One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Special Abilities:
+   +1 Dexterity
+   +1 Intelligence
+   -2 Strength
+   Immunity to acid and poison.
+   Immunity to any electricity and lighting effects, including wing buffet.
+
+Combat Abilities:
+   If an air elemental is hit it must save vs. spells or be utterly destroyed
+
+THAC0: +3 bonus
+Damage: 1d10+3, 1d10 electric damage
+Damage Type: slashing
+Weight: 2
+Speed: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 16 Dexterity
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+   Evil Characters~
+@41   = ~Katana +3: "Earth Element"~
+@42   = ~Katana +3 "Earth Element"
+
+One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Special Abilities:
+   +1 Strength
+   +1 Constitution
+   -2 Dexterity
+   Immunity to pertrification, polymorph, panic and disease.
+   Immunity to crushing weapons and backstab.
+
+Combat Abilities:
+   5% chance of Pertrification whenever sword strikes an opponent.
+   If an earth elemental is hit it must save vs. spells or be utterly destroyed.
+
+THAC0: +3 bonus
+Damage: 1d10+3, 1d10 crushing damage
+Damage Type: slashing
+Weight: 2
+Speed: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 16 Constitution
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+   Evil Characters~
+@43   = ~Katana +3: "Fire Element"~
+@44   = ~Katana +3 "Fire Element"
+
+One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
+
+STATISTICS:
+
+Special Abilities:
+   +1 Strength
+   +1 Dexterity
+   -2 Wisdom
+   Immunity to any mind controlling spells (charm, control, confusion, sleep).
+   Immunity to any mobility affecting spells (hold, haste, slow, stun).
+   100% Fire Resistance (normal and magical).
+
+Combat Abilities:
+   If a fire elemental is hit it must save vs. spells or be utterly destroyed.
+
+THAC0: +3 bonus
+Damage: 1d10+3, 1d10 fire damage
+Damage Type: slashing
+Weight: 2
+Speed: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires:
+   17 Strength
+   17 Dexterity
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+   Evil Characters
+   Chaotic and Lawful Alignments~
+@45   = ~Katana +3: "Water Element"~
+@46   = ~Katana +3 "Water Element"
+
+One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Special Abilities:
+   +1 Wisdom
+   +1 Charisma
+   -2 Constitution
+   Immunity to blindness, silence and time stop.
+   Negative Plane Protection.
+   Immunity to wild magic.
+   100% Cold Resistance (normal and magical).
+
+Combat Abilities:
+   If any vampiric creature is hit it must save vs. spells or be utterly destroyed.
+
+THAC0: +3 bonus
+Damage: 1d10+3, 1d10 cold damage
+Damage Type: slashing
+Weight: 2
+Speed: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires:
+   16 Wisdom
+   16 Charisma
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+   Evil Characters~
+@47   = ~Nakanishi Wardstone~
+@48   = ~Upon closer examination this wardstone appears to be a gem of mediocre value, with several symbols carved upon the outer edge.~
+@49   = ~Ring of Holiness II~
+@50   = ~Ring of Holiness II:  ’God Blessing’
+
+Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
+
+STATISTICS:
+
+Spells:  Grants an extra spell of each level from 5th to 8th
+Only usable by:
+Cleric 
+Druid~
+@51   = ~Selune’s Laurel of Favor~
+@52   = ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime’s mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special: +2 to Charisma
+Weight:  1
+Usable Only By:
+  Sime~
+@53   = ~Kachiko’s Wakizashi +3~
+@54   = ~Kachiko’s Wakizashi +3
+
+This special sword was granted to Kachiko by her father upon her ascension to adulthood.
+
+STATISTICS
+
+Combat Ability:
+   Drains 2 points of target's wisdom on each hit
+      (Target may save vs. death to avoid wisdom loss)
+
+Damage:  1D8 +3
+THAC0: +3 bonus
+Damage type:  piercing
+Weight:  2
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength
+Usable By:
+   Kachiko~
+@55   = ~Bamboo Spirit Wakizashi +4~
+@56   = ~Bamboo Spirit Wakizashi +4
+
+This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
+
+STATISTICS:
+
+Equipped Abilities:
+   Regeneration (1 hit point per second)
+   Complete Mind Shield
+      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+        
+Damage:  2D6 + 4
+THACO:  +4 bonus
+Damage type:  Slashing
+Weight:  4
+Proficiency type:  Wakizashi
+Speed Factor:  1
+Type:  1-handed
+Requires: 8 Strength
+Usable by:
+   Kachiko~
+@57   = ~Silver Bracers of Kedl~
+@58   = ~This mage, who made his home in Phlan, was known as "Kedl of the Three Rings," for it was said that he perfected a technique whereby he could wear three magical rings simultaneously.  An enchanter of items, he was well known for his discriminating taste in clothing, jewelry, and other accessories.  His polished silver bracers were a constant part of his wardrobe.  Kedl eventually sold his bracers when he needed the money for some powerful rings.  Unfortunately, Kedl died in an orc attack on Phlan several years later.
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 2~
+@59   = ~Bronze Key~
+@60   = ~An ornate key crafted in bronze.~
+@61   = ~Copper Key~
+@62   = ~An ornate key crafted in copper.~
+@63   = ~Iron Key~
+@64   = ~A complex looking key made from cold iron.~
+@65   = ~Electrum Key~
+@66   = ~An ornate key crafted in electrum.~
+@67   = ~Gold Key~
+@68   = ~An ornate key crafted in gold.~
+@69   = ~Platinum Key~
+@70   = ~An ornate key crafted in platinum.~
+@71   = ~Silver Key~
+@72   = ~An ornate key crafted in silver.~
+@73   = ~Black Knight~
+@74   = ~This chess piece is a black knight, crafted from ebony.  It is one of the many lost pieces from the fabled Chess Sets of Niri Alud.  Niri Alud was a conjurer from Tethyr who loved playing chess.  He frequently traveled with chess sets on his numerous voyages.  He wanted the ability to summon allies at a moment’s notice without giving away his intention.  For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle.  Almost all of Niri Alud’s chess sets were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands.  The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles.  Treasure hunters search for the pieces still.
+
+STATISTICS:
+
+Summons a warrior-like ally to attack enemies. The Black Knight will automatically attack the nearest enemy target.~
+@75   = ~Sime’s Body~
+@76   = ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.~
+@77   = ~This armor, long in the Corthala bloodline, protects the user against many forms of attacks. The armor is finished with elven metal straps enchanted so it grants the same protections and armor class to Valygar as the full plate armor. It also adds a bonus to resisting fire and cold damage. The armor also makes Valygar immune to dragon's breath and to energy and level drain. As it is specially fitted for Valygar, few other than he may wear it.
+
+STATISTICS:
+
+Equipped Abilities:
+   Negative Plane Protection
+   Immunity to non-magical weapons
+   Immunity to magical +1 weapons
+   Immunity to Wing Buffet
+   
+Armor Class: -2
+Saving Throws: +2 Bonus
+Fire/Cold Resistance:  +30% Bonus
+Weight: 9
+Usable By:
+   Valygar~
+@78   = ~Hojo War Ring of Nakanishi~
+@79   = ~Hojo War Ring of Nakanishi
+
+Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, the ring may not be removed from Kachiko, nor its powers used by anyone else. The ring grants a +3 bonus to armour class and constitution.~
+@80   = ~Corthala Family Blade
+This fine katana radiates magical energy when wielded by Valygar.  The blade was designed to respond only to those with the blood of the family Corthala flowing through their veins.  This +3 blade causes additional bleeding damage when it strikes an opponent.
+
+STATISTICS
+
+Equipped Abilities:
+   Complete Immobility Protection
+      (Immunity to Slow, Stun, Paralyze, Pertrification and Time Stop)
+
+Special Abilities:
+   10% chance to instantly slain a target
+   3 points of bleeding damage on a target every round for 3 rounds
+
+THAC0: +4 bonus
+Damage:  1D10 + 4
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Usable By:
+   Valygar~
+@81   = ~Crescent Moon Medallion~
+@82   = ~A miniature crescent moon on a chain.~
+@83   = ~Magical Rope~
+@84   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.~
+@85   = ~This weapon appears to be a huge staff with a ferrule causes the staff to assume the attributes of a mace. However, only the strongest of the people can wield it in one hand.
+
+STATISTICS:
+
+THACO:  +2 bonus
+Damage:  2D4 + 2
+Weight: 4
+Speed Factor: 2
+Damage type:  Bludgeon
+Proficiency Type: Quarterstaff
+Type:  1-handed
+Requires: 19 Strength
+Not Usable By:
+ Monks~
+@86   = ~Edion’s Ring of Wizardry~
+@87   = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring.  He crafted the ring himself for his private use. In his later years, he became so accustomed to wearing it that he almost never removed it. He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+
+STATISTICS:
+
+Doubles the character’s available number of 5th level mage spells.
+Only Usable By:
+  Mage (Single, Dual-, and Multi-)~
+@88   = ~Robe of Armory~
+@89   = ~There are a small number of these valuable gold and crimson robes floating around the Realms, and all of them are the creation of an abjurer named Delgam of the Many Hands - so called for his extensive use of the expression "on the other hand..."  Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects.  Instead, he focused on what abjurers tend to focus on: defense.  His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them.  Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards.  His robes are his most well known legacy.
+
+STATISTICS:
+
+Armor Class: 1
+Special: +10% Resistance to Slashing, Piercing, Crushing, and Missile attacks
+Weight:  5
+Only Usable By:
+ Mage (Single, Dual-, and Multi-)~
+@90   = ~Hat~
+@91   = ~Rogue’s Cowl~
+@92   = ~Magical hats may actually be almost any type of headgear.  They shrink or expand to fit any size head.  Contemporary fashion and profession often dictate the shape and style of magical hats.~
+@93   = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood.  It was crafted by the gnomish thief and illusionist Brein Chestnut.  Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down.  He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+
+STATISTICS:
+
+Armor Class Bonus:  +2
+Special:  +10% to Stealth.  
+Wearer can cast Blindness and Color Spray 1/Day.
+Weight:  2
+Only Usable By:
+ Thief (Single, Dual-, and Multi-Class)
+ Ranger (Single, Dual-, and Multi-Class)
+ Bard~
+@94   = ~Scarab of Goodwill~
+@95   = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand. This particular scarab was crafted by a priest of Nepthys named Ani Haloua. She used it in negotiations with local businesses and the general populace.  Similar scarabs are believed to be circulating in the Realms. Priests of Waukeen are particularly fond of them.
+
+STATISTICS:
+
++2 Dexterity
++2 Charisma
+Can cast Friends and Charm 1/Day.
+
+Not Usable By:
+  Evil Characters~
+@96   = ~Amulet of Blessing~
+@97   = ~Amulet of Blessing
+
+This amulet bears the repeating angular geometric patterns that the long-dead craftsmen of Myth Lharast were known for. Considered plain by modern elven standards, the amulet was a gift to Kiran-Hai, Circle Singer of Angharradh and Ward Mistress of the Arboreal Tombs in Myth Lahl. The name of its creator has been lost. It is believed to have been blessed later by priestesses of Selune, goddess of the moon. Sime inherited this amulet from her mother, and never takes it off.
+
+STATISTICS
+
+ Magic Resistance: +15%
+ Decrease Spell Casting Speed by 1
+ Immunity to Level Drain
+ +2 to Dexterity
+ +2 to Charisma
+
+Usable Only By:
+ Sime~
+@98   = ~Aran’s Cloak of Protection~
+@99   = ~Aran’s Cloak of Protection
+
+The origins of this cloak have been lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul of an unusually large group of winter wolves on a solo expedition into the Spine of the World mountains having been forced to don a heavier cloak to keep out of the cold...
+
+STATISTICS
+
+The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
+
+Armor Class:  +3 bonus
+Weight:  3~
+@100  = ~Aran’s Love +6~
+@101  = ~Aran’s Love +6
+
+It was a rumor that once upon a time when Aran Linvail was a young adventurer, he fell in love with an elven girl. She was the most beautiful creature he had ever seen in his life. In order to protect his lover in their travels, he asked one of the famous Calimshite merchants to bring him the most invulnerable leather armour he would find. In two months the merchant brought this excellent set of studded leather armour to Aran, but it was too later. His lover was shot dead by a goblin archer in a forest of Tethyr. Aran has kept this armour for a long time in remembrance of his short and passionate love, and eventually bestowed this armour to his favourite guild master.
+
+STATISTICS:
+
+Bonuses:
+   +15% Resistance to Fire, Cold, and Acid
+   +50% Resistance to Missile Attacks
+   +15% Hide in Shadows
+   Immunity to Confusion
+
+Armor Class: 1
+Weight: 35
+Requires: 6 Strength
+Usable By:
+ Sime~
+@102  = ~Selune’s Promise~
+@103  = ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune’s Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora’s luck could not stay with them forever, though.
+
+In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa’s allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa’s former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
+
+Fassa returned to her temple in misery and prayed to Selune that she never forget the agony of that night. Selune granted her request by causing a ghostly white and blue mace to appear on her bed when the next full moon rose. Carved into the shaft of the club were two words: Never Forget.
+
+Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime’s mother.
+
+STATISTICS:
+
+Damage:  1D6 + 4
+THAC0:  +3
+Damage type:  Crushing
+Special:  Double damage against undead and outer planar creatures.
+Undead:
+1-4 Hit Dice: Automatically Destroyed
+5 Hit Dice: 95% chance of being Destroyed
+6 Hit Dice: 80%
+7 Hit Dice: 65%
+8-9 Hit Dice: 50%
+10 Hit Dice: 35%
+11+ Hit Dice: 20%
+Outer Planar Creatures: 5% chance of being Destroyed
+Weight:  5
+Speed Factor:  4
+Proficiency Type:  Mace
+Type:  1-handed
+Not Usable By:
+ Evil Characters
+ Druid
+ Mage
+ Thief~
+@104  = ~Three White Doves~
+@105  = ~An extremely unusual mace, Three White Doves was created by an Ilmaterian priest named Alledec in 850 DR. Alledec had been a fighting priest for the order for twenty years, and he decided it was time to leave a legacy for the church to use after he had passed away. This ivory-headed mace was the result. The shaft of the weapon is made from black-enameled steel, with the handle being crafted of carved ivory. Gold bands lock the head and the handle into place. The head itself is the most unusual part of the mace. It is carved from pure ivory and it resembles three white doves facing the center of the weapon. The flared wings of the doves form the flanges.
+
+Alledec died in his sleep three years after completing the mace. It was given to a traveling fighter in service of the church of Ilmater. The fighter later passed the weapon on to a priest of Ilmater named Recken the Bold. Recken lost the weapon when he was fighting a powerful vampire near Trollbark Forest. Recken was eventually victorious over the vampire, but he never recovered the mace.
+
+STATISTICS:
+
+THAC0: +2, +3 vs. Undead
+Damage:  1D6 + 2, +3 vs. Undead
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 5 Strength
+Not Usable By:
+ Evil Characters
+ Druid
+ Mage
+ Thief~
+@106  = ~Giant Killer~
+@107  = ~A halfling warrior named Kim Marchwatch used this potent weapon against the giants that frequently plagued his homeland, hitting them in the head with so many rocks that they fell over in pain or ran away.  When Kim was replaced as shire-reeve of his homeland, he became a reluctant adventurer.  He is believed to have been swallowed up by the dreaded Fen Mists of Acallo in 760 DR.
+
+STATISTICS:
+
+Damage:  +1, +4 vs. Giants
+THAC0:  +2, +5 vs. Giants
+Weight:  0
+Speed Factor:  5
+Proficiency Type:  Missile Weapons
+Type:  1-handed
+Not Usable By:~
+@108  = ~Temporal Wardstone~
+@109  = ~Ring of Wizardry II~
+@110  = ~Ring of Wizardry II:  ’Reaching Ring’
+
+This is the enchanted version of the famous Ring of Wizardry.
+
+STATISTICS:
+
+Spells:  Gives two extra fifth, two extra sixth, one extra seventh and one extra eighth level spells.
+
+Only usable by:
+ Mage~
+@111  = ~Potion of Action Transference~
+@112  = ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.~
+@113  = ~Potion of Strength Transference~
+@114  = ~Potion of Life Transference~
+@115  = ~Potion of Aura Enhancement~
+@116  = ~When wholly consumed, this oddly murky potion would appear to increase your intelligence and wisdom for one point, and grant you 10% magic resistance. The effect is instantaneous and the potion is destroyed in the process.~
+@117  = ~Potion of Holy Transference~
+@118  = ~Abyssina’s Necklace~
+@119  = ~This necklace consists of white, pink and very rare blue pearls. Mysterious shimmer enhances its exquisite beauty and you can guess that it is imbibed with a strong enchantment. The necklace once belonged to Abyssina Corthala, a mage of no small repute.
+
+STATISTICS
+
+Equipped Abilities:
+   Intelligence: +1 bonus
+   Wisdom: +1 bonus
+   Magic Resistance:  +40% bonus
+   Immunity to Poison
+   Complete Mind Shield
+      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+   Protection from Outerplane Creatures~
+@120  = ~White Direwolf Figurine~
+@121  = ~White Direwolf Figurine
+
+Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
+
+STATISTICS
+
+Special Abilities:
+
+Immunity to Death Magic
+Immunity to Psionics and Mind Control
+Immunity to Hold, Stun and Pertrification
+
+Thief Abilities:
+
+Detect Traps: 100%
+Hide in Shadows: 90%
+Move Silent: 95%
+4x Backstab Attack
+
+Magic Abilities:
+
+Infravision
+Magic Resistance: 50%
+Improved Invisibility: twice per day
+Healing Lick: twice per day~
+@122  = ~Katana +3~
+@123  = ~Katana +3 "Wu Haltai"
+
+The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one’s luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
+
+STATISTICS:
+
+Special Abilities:
+   Grants +1 AC bonus while equipped.
+   Regenerates 1 hp/round.
+   Each hit lowers opponents’ Magic Resistance by 10%.
+
+
+THAC0: +3 bonus
+Damage: 1d10+3
+Damage Type: slashing
+Weight: 2
+Speedfactor: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires:
+   17 Strength
+   17 Dexterity
+   12 Intelligence
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+Usable Only By:
+   Good or Neutral Alignment~
+@124  = ~Katana +2 "Wu Jen"
+
+This katana is a defending counterpart of the "Wu Haltai" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
+
+STATISTICS:
+
+Special Abilities:
+   Immunity to 1st, 2nd, 3rd and 4th level spells.
+   Immunity to Level Drain while equipped.
+   Cast Lesser Restoration once/day.
+
+THAC0: +2 bonus
+Damage: 1d10+2
+Damage Type: slashing
+Weight: 2
+Speedfactor: 1
+Proficiency Type: Katana
+Type: 1-handed
+Requires:
+   15 Dexterity
+   15 Intelligence
+Not Usable By:
+   Paladin
+   Druid
+   Cleric
+   Mage
+Usable Only By:
+   Good or Neutral Alignment~
+@125  = ~Mourner’s Armor~
+@126  = ~This unique suit of armor is of foreign design, created for a Kara-Turian samurai from the Baika Clan. The armor, crafted from thin, stiff leather, is dyed black, but features the insignia of the plum blossom, the mon of the Baika Clan. It was only worn into battle once, when Baika Himuro fought a hopeless battle against the enemy samurai that flooded into his ancestral estate. It is believed that the enemy clan captured the armor and later traded it for siege equipment.
+
+STATISTICS:
+
+Armor Class: 0
+Hit Point Max: +15
+
+Equipped Abilities:
+	+75% Resistance to Missile Attacks
+	+25% Resistance to Fire and Cold 
+
+Equipped Penalties:
+	-1 to Dexterity
+
+Special Abilities:
+	Immunity to backstab
+	Immunity to normal weapons
+	Regenerates 1 hit point every 3 seconds
+	
+This armour is cursed and can only be removed by a 'Remove Curse' spell
+	
+Weight: 20
+Usable By: 
+	Thieves~
+
+@128  = ~%str_add%         -1~
+@129  = ~Mace~
+@130  = ~Dispel Magic~
+@131  = ~Quaterstaff~
+@132  = ~Morning Star~
+@133  = ~Long Sword~
+@134  = ~Two-Handed Sword~
+@135  = ~Blindness~
+@136  = ~Color Spray~
+@137  = ~Friends~
+@138  = ~Charm~
+@139  = ~Larloch’s Minor Drain~
+@140  = ~Horror~
+@141  = ~Vampiric Touch~
+@142  = ~Katana +2 "Wu Jen"~
+@143  = ~Lesser Restoration~
+@144  = ~Aino Hashimoto~
+@145  = ~Aino~
+@146  = ~Alome Nakanishi~
+@147  = ~Alome~
+@148  = ~Basilisk~
+@149  = ~Bishop~
+@150  = ~Berserk Warrior~
+@151  = ~Captive Woman~
+@152  = ~Ethereal Voice~
+@153  = ~Chromatic Dragon~
+@154  = ~Dalhaleitkazyyr~
+@155  = ~Greater Water Elemental~
+@156  = ~Greater Zombie~
+@157  = ~Hitomi Nakanishi~
+@158  = ~Hitomi~
+@159  = ~Hashimoto Guard~
+@160  = ~Kachiko~
+@197  = ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
+@198  = ~King~
+@199  = ~Kiotsi~
+@200  = ~Knight~
+@201  = ~Merella~
+@202  = ~Darriel~
+@203  = ~Lulu Hashimoto~
+@204  = ~Lulu~
+@205  = ~Masaki Hayashi~
+@206  = ~Masaki~
+@207  = ~Shadow Thief~
+@208  = ~Michio Nakanishi~
+@209  = ~Michio~
+@210  = ~Momoko Nakanishi~
+@211  = ~Momoko~
+@212  = ~Najoki Nakanishi~
+@213  = ~Najoki~
+@214  = ~Nanny~
+@215  = ~Nakanishi Guard~
+@216  = ~Undead Samurai~
+@217  = ~Nakanishi Acolyte~
+@218  = ~Ogi Hashimoto~
+@219  = ~Ogi~
+@220  = ~Otako Hashimoto~
+@221  = ~Otako~
+@222  = ~Pawn~
+@223  = ~Queen~
+@224  = ~Rook~
+@225  = ~Sasaki Hashimoto~
+@226  = ~Sasaki~
+@227  = ~Sime~
+@263  = ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
+@264  = ~Sol~
+@265  = ~Sola~
+@266  = ~Solauf~
+@267  = ~Fledgling Vampire~
+@268  = ~Priest of Selune~
+@269  = ~Veter~
+@270  = ~Hsiang~
+@271  = ~Adding TS music themes...~
+@272  = ~Yoshimo’s Katana +3
+
+This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+
+STATISTICS:
+
+Special Abilities:
+   +1 bonus to Armor Class
+   10% Magic Resistance
+
+Combat Abilities:
+   Sets attacks to +1 per round
+
+THAC0: +3 bonus
+Damage:  1D10  + 3
+Damage type:  slashing
+Weight:  5
+Speed Factor: 3
+Proficiency Type: Katana
+Type:  1-handed
+Usable By:
+   Yoshimo~
+@273  = ~Boo~
+@287  = ~Healing Lick~
+@288  = ~Detect Evil~
+@289  = ~ANIMATIONS. Please don't install this component if you have already installed OR are going to install the NEVER ENDING JOURNEY 2.~
+@290  = ~GRAPHICAL USER INTERFACE (GUI). This component adds new GUI to your original BG2. Please don't install this component if you have already installed OR are going to install the NEVER ENDING JOURNEY 2.~
+@291  = ~AREAS & SOUNDS. This component is required to play the mod.~

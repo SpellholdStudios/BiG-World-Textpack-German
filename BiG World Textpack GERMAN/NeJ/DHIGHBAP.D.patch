@@ -1,0 +1,11 @@
+--- NeJ\Dfiles\DHIGHBAP.D	Tue Nov 11 23:33:22 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DHIGHBAP.D	Wed Apr 10 10:24:04 2019
+@@ -2,7 +2,7 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 0
+-  SAY ~Interlopers, you should *never* have come here. I don't know what harm you've already done to my kin, but you will pay for it when we twist your flesh into a histachii breeding machine.~
++  SAY @0
+   IF ~~ THEN DO ~Enemy()
+ ~ EXIT
+ END

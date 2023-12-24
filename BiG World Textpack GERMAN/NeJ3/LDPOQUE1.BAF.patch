@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDPOQUE1.BAF	Thu Nov 13 22:56:48 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDPOQUE1.BAF	Wed Apr 10 10:33:58 2019
+@@ -35,7 +35,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("POQUELIN_HOSTILE","GLOBAL",1)
+ 		CloseDoor("8013_HIDE_STAIRS")
+-		DisplayStringHead(Myself,~Enough!~)
++		DisplayStringHead(Myself,@0)
+ 		Continue()
+ END
+ 

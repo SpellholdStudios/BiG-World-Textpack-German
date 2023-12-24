@@ -1,0 +1,159 @@
+@0    = ~I greet you.  I am Kerish, leader of the salamanders...  Who are you?~
+@1    = ~I am a simple traveler. ~
+@2    = ~An adventurer.~
+@3    = ~Me?  I am an explorer who chanced upon this place. ~
+@4    = ~You have returned.  What can I do for you?~
+@5    = ~I have some questions for you.~
+@6    = ~I want that key that unlocks the exit to the surface.~
+@7    = ~I said I would think about your request to kill the slave leader.  I have decided to do it.~
+@8    = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to find the leader of the slave revolt and slay him. We agreed to do this.~
+@9    = ~I have changed my mind about killing the slave leader for you - I’ll do it.~
+@10   = ~You asked me to kill the slave leader for you.~
+@11   = ~Earlier you asked me to return the slaves to you or slay them.  I have decided to do it.~
+@12   = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to return the escaped slaves to him or slay them. We agreed to do this.~
+@13   = ~I have changed my mind about returning the slaves to you or slaying them - I’ll do it.~
+@14   = ~You asked me to either return the slaves to you or slay them.~
+@15   = ~Nothing for now.  Farewell.~
+@16   = ~A traveler...?  Forgive me, but I doubt you are a traveler.  No simple vagabond could journey here unscathed...  No, you are more than you seem.  A spy, perhaps?  Come to check on me?  Yes... he has been known to hire those of your race.  Why has he sent you?~
+@17   = ~I *am* a traveler.  However, if you choose to believe otherwise...~
+@18   = ~Who is it that you think I work for, Kerish?~
+@19   = ~I simply want to be allowed to look around.~
+@20   = ~An adventurer...?  Forgive me, but I doubt you are an adventurer.  No seeker of fortune could journey here unscathed...  No, you are more than you seem.  A spy, perhaps?  Come to check on me?  Yes... he has been known to hire those of your race.  Why has he sent you?~
+@21   = ~I *am* an adventurer.  However, if you choose to believe otherwise...~
+@22   = ~An explorer...?  Forgive me, but I doubt you are an explorer.  No seeker of the unknown could journey here unscathed...  No, you are more than you seem.  A spy, perhaps?  Come to check on me?  Yes... he has been known to hire those of your race.  Why has he sent you?~
+@23   = ~I *am* an explorer.  However, if you choose to believe otherwise...~
+@24   = ~Wyrm’s Tooth.
+
+Kerish, the leader of the frost salamanders, believes that we work for someone named Marketh. We decided to do nothing to dissuade him of that belief. It could prove useful.~
+@25   = ~Very well...  Play your game of deception, but know you this.   I know your master.  In time I will have an answer.  If not from you, then him.  So tell me, why are you here?~
+@26   = ~I would ask you some questions.~
+@27   = ~Then ask.~
+@28   = ~Who are you again?~
+@29   = ~What are you doing here?~
+@30   = ~I have come seeking the one in charge.~
+@31   = ~Wyrm’s Tooth.
+
+We have learned that Joril Frostbeard is the lieutenant of Wyrm’s Tooth Glacier. Apparently he took over the position by killing his father, Kreg.~
+@32   = ~Why are there dead bodies strewn about here?~
+@33   = ~Wyrm’s Tooth.
+
+Apparently there has been a slave revolt among the frost salamanders. A few managed to escape but most died in the attempt.~
+@34   = ~I must leave now. Farewell.~
+@35   = ~I am Kerish, leader of the salamanders... as you well know. ~
+@36   = ~I have some other questions for you.~
+@37   = ~I must be going.  Farewell for now.~
+@38   = ~What do you mean?  I am awaiting orders as instructed and nothing else...  Why do you ask?  Has someone reported otherwise?  Am I suspected of something?~
+@39   = ~You seem nervous.  Why?~
+@40   = ~No, I have some more questions for you.~
+@41   = ~Of course I am nervous.  I know who you serve and therefore have good reason to be.  Can we get on with your questioning?~
+@42   = ~Yes, I do have more questions.~
+@43   = ~Ah...  I see...  Well, Kreg Frostbeard is dead.  His son, Joril, now rules...  I did nothing to aid the son in killing his father, I assure you... ~
+@44   = ~Why should I care if you aided Joril in the killing?~
+@45   = ~Wyrm’s Tooth.
+
+We have discovered that the *master* chooses his lieutenants personally. Joril has caused a controversy by slaying his father for the position. Perhaps we can use this knowledge against him somehow.~
+@46   = ~Very well.  Where can I find Joril?~
+@47   = ~In the ice caverns to the southwest, of course.  The fool sits upon his father’s throne with impudence.  Seek him there.~
+@48   = ~You deny aiding Joril in the killing of his father.  Why should I care if you did?~
+@49   = ~I have some more questions for you.~
+@50   = ~The slaves... they revolted.  We had to slay most of them, but a few managed to escape to the level below.~
+@51   = ~How did they manage to escape you?~
+@52   = ~Wyrm’s Tooth.
+
+It seems that the frost salamanders are sensitive to heat. We may be able to use that weakness against them.~
+@53   = ~The room below suddenly became too hot to bear.  We had to flee back here or perish.  In the confusion that followed the slaves bolted for the stairs.  A few made it... but their "freedom" will not last long.  They are trapped down there. ~
+@54   = ~Trapped?  How so?~
+@55   = ~Wyrm’s Tooth.
+
+The slaves that escaped the frost salamanders fled to a room beneath the museum. Kerish believes them to be trapped there with no means of escape and no supplies. If this is the case then they will surely perish.~
+@56   = ~The exit to the surface is locked, so they have nowhere to run to.  Also, they have no supplies nor do they have the means to gather any since I have trolls patrolling the glacier...  Eventually they will starve or return to us.  All we have to do is wait...  Hmm.  It occurs to me that I could use your aid in this matter.~
+@57   = ~What is it that you think I can do for you?~
+@58   = ~Those trolls you mentioned attacked me on the way here.~
+@59   = ~The slaves are of no consequence to me - they will return to us, or they will die.  However... the leader of this revolt has made me look bad in the eyes of my people.  For this he must pay.  Go to these slaves and gain their confidence.  Once you gain that confidence, find their leader and slay him.~
+@60   = ~Very well, I will do it.  It sounds like fun.~
+@61   = ~No, I will not do your dirty work.~
+@62   = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to find the leader of the slave revolt and slay him. We informed him that we would not do his dirty work for him.~
+@63   = ~I will consider it.~
+@64   = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to find the leader of the slave revolt and slay him. We informed him that we would consider the matter.~
+@65   = ~Then I will be in your debt.  Go now.  Perform this deed and then return to me.~
+@66   = ~Very well, but I have more questions for you.~
+@67   = ~Then I will say farewell.~
+@68   = ~Very well, take some time to think about this.  Come to me if you change your mind.~
+@69   = ~Very well, you are my guest.  Feel free to look around.  You will find nothing out of place here.~
+@70   = ~Then I will say farewell for now.~
+@71   = ~I have the key you speak of, but I am reluctant to give it up.  There are circumstances that...~
+@72   = ~Yes, I am aware of the slaves.  I will take precautions to prevent their escape.~
+@73   = ~Wyrm’s Tooth.
+
+We asked Kerish, the frost salamander leader, for the key to the surface exit. He agreed to give it to us.~
+@74   = ~I am aware of the slave issue.  Trust me to handle the situation properly.~
+@75   = ~Very well.  See that you do.  If those slaves escape, I will hold you personally responsible.  Here is the key.~
+@76   = ~Thank you.  I must be going now.  Farewell.~
+@77   = ~Very well.  Farewell.~
+@78   = ~Yes.  Have you performed this task?~
+@79   = ~Yes. It was a woman named Vera. She is dead.~
+@80   = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to return the escaped slaves to him or slay them. We informed him that we would do nothing of the sort.~
+@81   = ~Wyrm’s Tooth.
+
+Kerish, the frost salamander leader, has asked us to return the escaped slaves to him or slay them. We informed him that we would consider the matter.~
+@82   = ~Wyrm’s Tooth.
+
+We informed Gareth that the frost salamanders asked us to return him and the other slaves. He said he would rather die than return to slavery and attacked us.~
+@83   = ~Wyrm’s Tooth.
+
+We met a man named Gareth who claims to be an escaped slave of a group of frost salamanders.~
+@84   = ~Wyrm’s Tooth.
+
+According to Gareth, frost salamanders are sensitive to heat. Perhaps we could use this knowledge against them.~
+@85   = ~Wyrm’s Tooth.
+
+We have learned that the slave leader is a woman named Vera.~
+@86   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key. The key unlocks the door to the passage leading to the surface. He believes it is in the possession of the salamanders. We have agreed to do this.~
+@87   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key, which will unlock the door to the passage leading to the surface. He believes the key is the possession of the salamanders. We told him we were not willing to fight a building full of frost salamanders for this key.~
+@88   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key, which will unlock the door to the passage leading to the surface. He believes the key is the possession of the salamanders. We informed him that we would think about this.~
+@89   = ~Wyrm’s Tooth.
+
+We told Kerish that Vera, the slave leader, is dead. He believes his honor has been restored and offered us his gratitude.~
+@90   = ~I have spoken with the slaves as you asked.  They say that their leader died in the escape attempt.~
+@91   = ~Wyrm’s Tooth.
+
+We told Kerish that the slaves believe their leader to be dead. He seemed satisfied with that.~
+@92   = ~Not yet.  I just wanted to let you know that I am still working on it.  Farewell for now.~
+@93   = ~You have done well.  By acting under my command you have restored my honor in the eyes of my people.  You have my gratitude.~
+@94   = ~It was a pleasure.  Is there another matter I can help you with?~
+@95   = ~Hmm.  Very well...  The slaves have enjoyed their freedom long enough.  Bring them here before me or slay them.  I care not which.~
+@96   = ~I will go to the slaves and tell them you want them to return.  Farewell.~
+@97   = ~I will do nothing of the sort.  Farewell.~
+@98   = ~I will think about it.  Farewell.~
+@99   = ~Marketh would be my guess.  Would you care to confirm that belief?~
+@100  = ~No, not really.  Believe what you will...~
+@101  = ~Hmph.  It is well known that the *master* chooses his lieutenants himself.  Joril’s actions could be deemed... treason.  I want it understood by you and your master that I had no part in the matter...~
+@102  = ~Point taken.  Where can I find Joril?~
+@103  = ~Very well, let me ask you something else.~
+@104  = ~Yes... I see no slaves with you.  Have you slain them instead?~
+@105  = ~Yes.  They preferred death to returning here.~
+@106  = ~Wyrm’s Tooth.
+
+We told Kerish that the slaves are dead. He offered us his gratitude.~
+@107  = ~Hmm.  Yes...  The slaves have enjoyed their freedom long enough.  Bring them here before me or slay them.  I care not which.~
+@108  = ~You have done well.  You have my gratitude.~
+@109  = ~It was a pleasure.  Farewell.~
+@110  = ~My apologies.  They are not the most intelligent or observant of creatures.  It is possible that they mistook you for an escaped slave.~
+@111  = ~I see... You mentioned needing my help. What is it that you think I can do for you?~
+@112  = ~I will be going now. Farewell.~

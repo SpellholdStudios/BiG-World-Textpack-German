@@ -1,0 +1,56 @@
+@0  = ~<CHARNAME> hat mir keine Schmerzen bereitet, Geist. Ganz im Gegenteil.~ 
+@1  = ~Ihr seid nicht Merella! Ich sprach mit Merella bevor sie starb... Wir haben sie beerdigt, wir...~
+@2  = ~Ich war dort, als Ihr gestorben seid, Merella! Valygar tat alles, was er konnte, um Euch zu retten. Er verdient diese wüsten Beschimpfungen nicht!~ 
+@3  = ~Gorion, was tut Ihr? Valygar hat solch eine Folter nicht verdient!~
+@4  = ~Valygar, seht Ihr denn nicht, dass sie lügen? Sie sind Lügner und Betrüger!~ 
+@5 = ~Ich bin nicht sehr geeignet, um Euch zu beraten, <CHARNAME>. Ich habe mich noch nie sehr behaglich in der Nähe der Macht gefühlt. Der Gedanke daran, die Aufmerksamkeit der anderen Götter auf mich zu ziehen, einiger, die eifersüchtig sein könnten, würde mir gar nicht gefallen.~
+@6 = ~<CHARNAME>... Ich weiß, die Wahl steht Euch bevor, Euch allein. Und es wäre nicht fair von mir, zu versuchen, Euch zu beeinflussen. Aber bitte, bleibt, wer Ihr seid. Bleibt, was Ihr seid. Lasst Euch nicht von Bhaal wegbringen. Ich... Ich liebe, wer Ihr seid... Ich befürchte, dass ich vielleicht nicht die Möglichkeit habe, dies noch einmal zu sagen, wenn ich es nicht jetzt sage: ICH LIEBE EUCH.~
+@7 = ~Ihr wollt Euch dem Makel des Bhaal für immer stellen? Er wird an Euch nagen... wenn Ihr ihn nicht bereitwillig umarmt. Nehmt Euer Schicksal selbst in die Hand, würde ich raten... ruht Euch nicht im Schatten Eures Vater aus.~ [VALY2517] 
+@8  = ~Aber ich weiß, dass Ihr die beste Entscheidung treffen werdet. Das habt Ihr in der Vergangenheit immer gemacht, und ich vertraue darauf, dass Ihr das immer in der Zukunft macht. Ihr lacht über mich wegen solchem Vertrauen, aber ich glaube das. Ihr seid einzigartig unter allen, denen ich jemals begegnet bin.~
+@9 = ~Wenn Ihr bei mir bleibt, kann ich nur den Trost meiner Gesellschaft anbieten. Ich würde gerne unseren Reisen gemeinsam fortsetzen... es gibt vieles, was wir noch tun könnten, viele Orte, an die wir gehen könnten.~
+@10 = ~Aber wenn Ihr geht, bedeutet das nicht, dass ich Euch weniger liebe, <CHARNAME>. Ich werde Euch in Erinnerung behalten und hoffen, dass die Macht, die Ihr erlangt, Euch glücklich macht.~
+@11 = ~Wenn Ihr mich etwas gelehrt habt, ist es, dass die Macht nicht etwas ist, dass man immer zu fürchten hat. Ich hoffe nur, dass das Leben, das Ihr wählt, keines ist, das Ihr bereuen. Was mich betrifft... unsere gemeinsame Zeit war alles wert.~
+@12 = ~Ich liebe Euch auch. Ich würde es Euch nicht verdenken, wenn Ihr nicht die Macht und den Makel Eures Vater wollt... aber ich möchte Euch bitten, zu überdenken, wenn Ihr es einfach halten wollt, bei mir zu bleiben, <CHARNAME>.~
+@13 = ~Wirklich? Ich könnte mir nicht vorstellen, mich genauso zu entscheiden. Die Aufmerksamkeit der Götter mit solcher Macht zu gewinnen wäre nicht gut für mich, obwohl die Idee der Erforschung der Ebenen attraktiv ist, wie ich zugebe.~
+@14 = ~<CHARNAME>, Ihr... wie konntet Ihr nur... Ich wünschte, ich könnte den Tag, an dem ich Euch traf, verfluchen, Nachtigall. Aber dieser Tag ist mein Schmerz und meine Seligkeit und ich beginne, ihn zu schätzen. So ist die Liebe immer, wette ich. Zumindest war das meine Erfahrung... (* Er dreht sich um und geht weg.*) ~
+@15 = ~Es bedarf einer grossen Person, Göttlichkeit zu erlangen, doch bedarf es einer wahren Heldin, sie abzulehnen. <CHARNAME>, was Ihr getan habt ist ein Akt der Grösse. Ihr habt die Essenz von Bhaal in Euch zerstört und habt der Versuchung widerstanden, seinen Platz im Pantheon einzunehmen. Lasst mich vor Euch niederknien... Ich werde Euch bis an das Ende meiner Tage dienen.~
+@16 = ~Steht auf, Ihr Idiot. Oder ich schwöre, dass ich Euch auf eine Reise nach Ust-Natha schicken werde... Ich liebe Euch und alles was ich möchte, ist mein Leben mit Euch zu verbringen.~
+@17 = ~Valygar, was haltet Ihr davon, wenn wir zum Hafen gehen und uns nach einem Schiff nach Zakhara umsehen?~
+@18 = ~Aber wenn ich eine Göttin werden würde, dann hätte ich kaum eine Chance, dem stursten, unmöglichsten und ungehobeltsten Waldläufer von Faeržn zu sagen, dass ich ihn liebe.~ 
+@19 = ~Mein Herz, wir müssen nicht in das Unterreich gehen. Ich liebe Euch und ich kann meine Gefühle nicht verbergen, selbst wenn ich es wollte. Ich werde Euch meine Liebe und meine Treue beweisen... Küsst mich, <CHARNAME>...~
+@20 = ~Was ist, wenn wir es ein bisschen später verlassen? Momentan habe ich andere Pläne und ich möchte damit beginnen, Euch zu küssen. Ich schwöre bei Torils ersten Tag seinem letzten Tag, ich schwöre beim Schmerz des Todes und der Heiterkeit des Lebens, ich schwöre, dass ich Euch liebe und ich Euch nie einen Grund geben werde, die Wahl zu bedauern, die Ihr heute getroffen habt.~ 
+@21 = ~Ich bin froh, dass Ihr ein Risiko mit mir eingegangen seid. Ich schwöre bei Torils ersten Tag seinem letzten Tag, ich schwöre beim Schmerz des Todes und der Heiterkeit des Lebens, ich schwöre, dass ich Euch liebe und ich Euch nie einen Grund geben werde, die Wahl zu bedauern, die Ihr heute getroffen habt.~ 
+@22 = ~Merella?~
+@23 = ~Wovon redet Ihr, Merella? Ich bin zurückgekommen, wie ich es versprochen hatte und Ihr... Ihr seid mit einem anderen Mann verlobt!~ 
+@24 = ~Merella, das ist nicht wahr! Ich liebte Euch, wenn Ihr nur mit mir gesprochen hättet, könnten wir...~
+@25 = ~Valygar war fast alles für Euch: ein Mann, den Ihr gejagt habt, ein widerwilliger Verbündeter, ein Waffenkamerad, ein Freund... Durch dick und dünn gingt Ihr zusammen, und jetzt vermutet Ihr, dass er auch noch Euer Geliebter wird.~
+@26 = ~Ihr saust an Valygar vorbei, und "zufällig" stossen Eure Hüften...~
+@27 = ~Ihr küsst Valygar leicht auf die Wange: "Danke dafür, dass Ihr bei mir seid, nach allem, was geschah."~
+@28 = ~Ihr flüstert Valygar ins Ohr: "ich denke, dass ich wirklich eine Umarmung brauche..."~
+@29 = ~Ihr seufzt aus Verzweiflung: Die Prüfungen dieser Tage beginnen auf Euch zu lasten.~
+@30 = ~Ihr schließt Eure Augen und genießt für einen Moment das Schweigen nach dem Klang von Stahl auf Stahl und den Schreien der letzten Schlacht.~
+@31 = ~Ihr haltet Valygars Hand.~
+@32 = ~Für einen kurzen Moment umfasst Valygars Arm Eure Taille und er zieht Euch näher. Dann lässt er Euch widerwillig gehen.~
+@33 = ~Valygar nimmt Euer Gesicht in seine Hände: "<CHARNAME>, ich bin geehrt durch das Vertrauen, das Ihr mir gezeigt habt."~
+@34 = ~Der Waldläufer legt seine Hände um Euch, und er drückt Euch dicht an seine Brust: "fühlt Ihr Euch jetzt besser, <CHARNAME>?"~
+@35 = ~Valygar beginnt, mit leiser Stimme ein dummes, obszönes Lied zu singen, das so geht wie:
+  
+"Dann trinken wir ein Bier, 
+um Glück zu entdecken
+obwohl die Biere hier
+Nach Pisse schmecken..."~
+@36 = ~Ihr fühlt eine leichte Berührung von Lippen auf Eurer Stirn und hört Valygars sanfte Stimme: "Bitte, schaut nicht so traurig."~
+@37 = ~Valygars Finger verflechten sich mit Euren und er sagt: "Nun habe ich Euch erwischt, Liebling."~
+@38 = ~Die Welt beginnt sich um Euch zu drehen. Ihr findet, dass seit dem Tag, als Ihr Kerzenburg mit Gorion verlassen habt, Ihr vor nichts mehr sicher wart.~
+@39 = ~Ihr verkündet Eurer Gruppe: "Meine Freunde. ich fühle mich ein wenig unwohl und wünsche ein wenig zu... rasten. Bitte, ruht Euch aus. Wollt Ihr ein Stück mit mir gehen, Valygar?"~
+@40 = ~Ihr beachtet alle anderen nicht und gebt Valygar einen tiefen, langen Kuss.~
+@41 = ~Ihr lächelt Valygar freundlich zu.~
+@42 = ~Leise fragt Ihr den Waldläufer: "Erinnert Ihr Euch an die letzte Nacht, Valygar?"~
+@43 = ~Ihr fahrt mit Euren Fingern über Valygars Gesicht: "Hier ist der starke Kiefer, der mir sagt, dass Ihr ein sturer Mann seid, grosse Wangenknochen - wegen Eures wilden Blutes in Euren Venen, hohe Stirn - muss von Euren edlen Vorfahren kommen..."~
+@44 = ~"Valygar, wir sind im Begriff, es zu machen, nicht wahr?"~
+@45 = ~Als alle anderen außer Sicht- und Hörweite sind, überschüttet Euch Valygar mit leidenschaftlichen Küssen: "ich bin so froh, dass Ihr dass getan habt, <CHARNAME>. Noch eine weitere Minute und ich würde davon verrückt werden, neben Euch zu gehen, ohne Euch zu berühren."~
+@46 = ~"Ah... Verrückte Frau..."~
+@47 = ~Valygar lächelt zurück und flüstert: "Ihr seid so wundervoll..."~
+@48 = ~"Erinnern? Ich kann seit dem an nichts anderes mehr denken, als an diese Nacht... oder die kommende Nacht."~
+@49 = ~"Jetzt bin ich an  der Reihe." Seine Finger streicheln Euer Gesicht und berühren Eure Lippen: "Diese Lippen sind zum Lachen und für Küsse gemacht..."~
+@50 = ~"Ich weiß nicht, aber was ich Euch versprechen kann, ist, dass ich Euch vor jeden Schaden schützen werde, so lange ich lebe."~

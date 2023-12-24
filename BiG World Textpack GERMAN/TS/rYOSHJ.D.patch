@@ -1,0 +1,551 @@
+--- TS\bgtdlg\rYOSHJ.D	Fri Apr 29 16:53:17 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rYOSHJ.D	Thu May 05 10:45:06 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN 92
+-  SAY ~We had to make the best of it. I, myself, managed to win a fair amount of coin from your crew... they seemed to think they were the only ones who knew how to play cards, oddly.~
++  SAY @0
+   IF ~!InParty("Korgan")
+ Global("ThiefGroup","GLOBAL",2)~ THEN EXTERN ~PPBODHI3~ 12
+   IF ~!IfValidForPartyDialogue("Korgan")
+@@ -23,24 +23,24 @@
+ APPEND ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN TS152
+-  SAY ~Kachiko, stop threatening me! I am not alone, and I will not give up so easily.~
++  SAY @1
+   IF ~~ THEN EXTERN ~KACHIKO~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS153
+-  SAY ~<CHARNAME>, what are you doing? I’m not going to participate in this slaughter! She is my countrywoman, despite all our differences and I shall stand on her side.~
++  SAY @2
+   IF ~~ THEN DO ~ActionOverride("Kachiko",Enemy())
+ LeaveParty()
+ Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS154
+-  SAY ~Kachiko, calm down and listen to me...~
++  SAY @3
+   IF ~~ THEN EXTERN ~KACHIKO~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS155
+-  SAY ~Kachiko, I won’t draw my sword against you. Sorry, <CHARNAME>, but I have to leave. I’ll see you later.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ SetGlobal("VP_YoshimoEscapes","GLOBAL",1)
+ ActionOverride("Kachiko",Enemy())
+@@ -51,44 +51,44 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS156
+-  SAY ~I didn’t kill him, and you know that! Your family accused me just because I am Hashimoto. Yes, I saw your brother die. No, I did not kill him. I had no choice but to escape; otherwise your family would kill me...~
+-  IF ~~ THEN REPLY ~Yoshimo, what’s this all about?~ GOTO TS157
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO TS157
+ END
+ 
+ IF ~~ THEN BEGIN TS157
+-  SAY ~<CHARNAME>, it’s a long bloodshed between clans in Kozakura. We call it Hojo War. God knows how it all started... Her eldest brother, Naoko, was my best friend since childhood. We hoped that one day we might strike peace... I do not know who has assassinated him. I saw just a shadow on the wall. I mourn his loss...~
+-  IF ~~ THEN REPLY ~Yoshimo, why didn’t you tell me that before?~ GOTO TS158
++  SAY @7
++  IF ~~ THEN REPLY @8 GOTO TS158
+ END
+ 
+ IF ~~ THEN BEGIN TS158
+-  SAY ~I thought you wouldn’t believe me. Look at Kachiko chasing me from Kara-Tur to Amn. Why should she trust me, indeed? I am Hashimoto and that makes me guilty. Even if I kill myself I would not resurrect my friend and her brother, and I would not put an end to this ridiculous feud...~
++  SAY @9
+   IF ~~ THEN EXTERN ~KACHIKO~ 6
+ END
+ 
+ IF ~~ THEN BEGIN TS159
+-  SAY ~Kachiko, it’s too late... I cannot go back to Kara-Tur.~
++  SAY @10
+   IF ~~ THEN EXTERN ~KACHIKO~ 7
+ END
+ 
+ IF ~~ THEN BEGIN TS160
+-  SAY ~*Grin* You know I can take care of myself... But I cannot come back, since I promised to help <CHARNAME> first.~
+-  IF ~~ THEN REPLY ~Yoshimo, you may go with Kachiko. I don’t want to hold you. Your troubles are no less serious than those of mine.~ GOTO TS161
+-  IF ~~ THEN REPLY ~Yes, you’re right. You cannot leave the group right now.~ EXTERN ~KACHIKO~ 8
+-  IF ~~ THEN REPLY ~Get out of my sight, both of you.~ EXTERN ~KACHIKO~ 9
++  SAY @11
++  IF ~~ THEN REPLY @12 GOTO TS161
++  IF ~~ THEN REPLY @13 EXTERN ~KACHIKO~ 8
++  IF ~~ THEN REPLY @14 EXTERN ~KACHIKO~ 9
+ END
+ 
+ IF ~~ THEN BEGIN TS161
+-  SAY ~I cannot come back to Kara-Tur right now. I... <CHARNAME>, I want to help you to discover what happend in this dungeon...~
++  SAY @15
+   IF ~~ THEN EXTERN ~KACHIKO~ 8
+ END
+ 
+ IF ~~ THEN BEGIN TS162
+-  SAY ~Kachiko, I promise to come back to Kara-Tur as soon as possible.~
++  SAY @16
+   IF ~~ THEN EXTERN ~KACHIKO~ 10
+ END
+ 
+ IF ~~ THEN BEGIN TS163
+-  SAY ~<CHARNAME>, I am sorry, but I shall go with Kachiko. Perhaps both you and I still have a chance. Believe me, it’s the best choice I have ever made in my life. If you change your mind in a few days, you will find us in the Sea Bounty Tavern near docks. We will look for a ship to Kara-Tur.~
++  SAY @17
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ SetGlobal("VP_YoshFollowsKach","GLOBAL",1)
+ ActionOverride("Kachiko",EscapeAreaMove("AR0313",784,333,8))
+@@ -99,7 +99,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS164
+-  SAY ~<CHARNAME>, I am really sorry, but I shall go with Kachiko. Perhaps both you and I still have a chance. Believe me, it’s the best choice I have ever made in my life.~
++  SAY @18
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Kachiko",EscapeArea())
+ ChangeAIScript("",DEFAULT)
+@@ -109,192 +109,192 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS165
+-  SAY ~Welcome on board, my friend.~
++  SAY @19
+   IF ~~ THEN EXTERN ~KACHIKO~ 13
+ END
+ 
+ IF ~~ THEN BEGIN TS168
+-  SAY ~No, I had spent several years sailing around Kara-Tur. This place reminds nothing of what I have seen and with a bay like that it would be a lively port be it in Kara-Tur. The spell went astray, I suppose... I am very sorry <CHARNAME>.~
+-  IF ~~ THEN REPLY ~We are neither at Spellhold, nor Kara-Tur. Damn you, Harkle Harpel and the whole mad family of yours! But we have to deal with our plight here now. I heard you are resourceful, Saemon. Any suggestions?~ EXTERN ~PPSAEM~ TS5
++  SAY @20
++  IF ~~ THEN REPLY @21 EXTERN ~PPSAEM~ TS5
+ END
+ 
+ IF WEIGHT #6 ~Global("Dead_Bodies","GLOBAL",1)~ THEN BEGIN TS169
+-  SAY ~Dead bodies? Here? Must be another group stranded on this piece of land. We must step carefully.~
++  SAY @22
+   IF ~~ THEN DO ~SetGlobal("Dead_Bodies","GLOBAL",2)~ EXTERN ~KACHIJ~ N17
+ END
+ 
+ IF ~~ THEN BEGIN TS170
+-  SAY ~Kachiko, I can see the resemblance, but that cannot be. Otako was wearing a pendant in a shape of a crescent moon... just like this one... Oh, no! I must be dreaming! Otako...~
+-  IF ~~ THEN REPLY ~What? What are you both talking about? The dead man is one of your family, Yoshimo? Are you sure we are not in Kara Tur?~ GOTO TS171
++  SAY @23
++  IF ~~ THEN REPLY @24 GOTO TS171
+ END
+ 
+ IF ~~ THEN BEGIN TS171
+-  SAY ~I am afraid he is... he was my nephew, yes. But I have no idea how he came to this place and got killed; neither do I know where this place is...~
++  SAY @25
+   IF ~~ THEN EXTERN ~KACHIJ~ N18
+ END
+ 
+ IF ~~ THEN BEGIN TS172
+-  SAY ~Thank you, <CHARNAME>.~
++  SAY @26
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS173
+-  SAY ~Otako?!!!! I am pleased to see you... if a bit surprised. I saw a corpse on the road, which was so very much like you, that I thought you were dead... What kind of a sick joke was that?~
++  SAY @27
+   IF ~~ THEN EXTERN ~OTAKO~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS174
+-  SAY ~Stand back! Kachiko is under my protection while I live! I will not allow her to be hurt by anyone as MY honor dictates me.~
++  SAY @28
+   IF ~~ THEN EXTERN ~OTAKO~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS175
+-  SAY ~And you should remember that "one should aim not to hurt a reasoning being." Our ancestors were wise people and did not approve of mindless killing. I see it’s indeed a time for me to talk to my father. ~
++  SAY @29
+   IF ~~ THEN EXTERN ~OTAKO~ 3
+ END
+ 
+ IF ~~ THEN BEGIN TS176
+-  SAY ~Cherry blossom, I am neither afraid of you, nor do I wish to fight you. If that offends you, sorry, but I can do little to help it. <CHARNAME>, would you come with me to my family stronghold? I can feel that madness has overcome my family and they do need help...~
+-  IF ~~ THEN REPLY ~I’d rather go on a nature hike and observe the flora and fauna of this island. However, I can see that you are eager for a reunion, so we’ll follow you.~ EXIT
+-  IF ~~ THEN REPLY ~Onward! We must investigate what’s happening!~ EXIT
+-  IF ~~ THEN REPLY ~Sure, but let’s explore the area first. May be we can find someone from Kachiko’s family also? ~ EXIT
++  SAY @30
++  IF ~~ THEN REPLY @31 EXIT
++  IF ~~ THEN REPLY @32 EXIT
++  IF ~~ THEN REPLY @33 EXIT
+ END
+ 
+ IF WEIGHT #7 ~Global("Kachiko_Kidnapped","GLOBAL",1)~ THEN BEGIN TS177
+-  SAY ~No! Kachiko... No! I will kill them all! If they harm her in any way, I swear I will kill them all!~
++  SAY @34
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Kidnapped","GLOBAL",2)
+ SetGlobalTimer("NKensais_Spawn","GLOBAL",3)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS178
+-  SAY ~Father, forgive me if I am not respectful, but would you be able to explain me what is happening? Why are you on this desolate Island? Why there are so many dead bodies around?~
++  SAY @35
+   IF ~~ THEN EXTERN ~AINO~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS179
+-  SAY ~That’s terrible, father. Is there a way to escape from this island?~
++  SAY @36
+   IF ~~ THEN EXTERN ~AINO~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS180
+-  SAY ~I do not know... It’s confusing. Hmm... What do you think, <CHARNAME>?~
+-  IF ~~ THEN REPLY ~I think I am having yet another nightmare. Nevertheless, if we have to kill all of the Nakanishi to get the wardstone, then we shall.~ EXTERN ~KACHIJ~ N29
+-  IF ~~ THEN REPLY ~Do you know of any other way, Aino? I have no desire to kill scores of innocent people.~ EXTERN ~AINO~ 6
+-  IF ~~ THEN REPLY ~I say we kill this scheming bastard, take the wardstone and get outta here.~ GOTO TS181
++  SAY @37
++  IF ~~ THEN REPLY @38 EXTERN ~KACHIJ~ N29
++  IF ~~ THEN REPLY @39 EXTERN ~AINO~ 6
++  IF ~~ THEN REPLY @40 GOTO TS181
+ END
+ 
+ IF ~~ THEN BEGIN TS181
+-  SAY ~That I cannot allow.~
++  SAY @41
+   IF ~~ THEN EXTERN ~KACHIJ~ N30
+ END
+ 
+ IF ~~ THEN BEGIN TS182
+-  SAY ~I love you my brave Kachiko! How could I ever trust a foreigner?~
++  SAY @42
+   IF ~~ THEN EXTERN ~AINO~ 7
+ END
+ 
+ IF ~~ THEN BEGIN TS183
+-  SAY ~Nanny, how are you?~
++  SAY @43
+   IF ~~ THEN EXTERN ~NANNY~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS184
+-  SAY ~Leave me be child! Did not they tell you that Hashimoto eat little girls like you?~
++  SAY @44
+   IF ~~ THEN EXTERN ~ALOME~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS185
+-  SAY ~Brave little one... No, I do not. I just need to talk with your uncle Hayashi and I am angry that I cannot find him. Do you know where he is?~
++  SAY @45
+   IF ~~ THEN EXTERN ~ALOME~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS186
+-  SAY ~Do you know where these caves are?~
++  SAY @46
+   IF ~~ THEN EXTERN ~ALOME~ 3
+ END
+ 
+ IF ~~ THEN BEGIN TS187
+-  SAY ~A very nice girl, just like you...~
++  SAY @47
+   IF ~~ THEN EXTERN ~ALOME~ 4
+ END
+ 
+ IF ~~ THEN BEGIN TS188
+-  SAY ~Kachiko is near very bad people now. The bad fate might accidentally miss and grab her. And you do not want that to happen, do you?~
++  SAY @48
+   IF ~~ THEN EXTERN ~ALOME~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS189
+-  SAY ~Najoki-san, I have heard that you are wise and noble woman. Do the rumors err? Why is the lunatic Hayashi ruining your lives, why is he allowed to kidnap your daughter?~
++  SAY @49
+   IF ~~ THEN EXTERN ~NAJOKI~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS190
+-  SAY ~What! I beg you to have pity on me! Please, Najoki-san, please... where is Kachiko? I will hurt none of your family, I will just take her away from this terrible man... Surely you do not want Masaki to wed your daughter?~
++  SAY @50
+   IF ~~ THEN EXTERN ~NAJOKI~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS191
+-  SAY ~Yes, Najoki-san.~
++  SAY @51
+   IF ~~ THEN EXTERN ~NAJOKI~ 3
+ END
+ 
+ IF ~~ THEN BEGIN TS192
+-  SAY ~My friends... Uhm... Najoki-san, I do not command my friends... I need to ask <CHARNAME> if they’d help me... <CHARNAME>?~
+-  IF ~~ THEN REPLY ~Yoshimo, your father said that the only way for everyone to be freed of the curse is to kill one of the families during a single day. Every person...~ EXTERN ~NAJOKI~ 4
+-  IF ~~ THEN REPLY ~I am with you, Yoshimo! We have to save Kachiko! Let’s go!~ DO ~GiveItemCreate("SCRL63",Player1,0,0,0)
++  SAY @52
++  IF ~~ THEN REPLY @53 EXTERN ~NAJOKI~ 4
++  IF ~~ THEN REPLY @54 DO ~GiveItemCreate("SCRL63",Player1,0,0,0)
+ ~ EXIT
+-  IF ~~ THEN REPLY ~I am not sure... Najoki, would you give me any practical help, like giving us directions back to civilization if I go save your daughter?~ EXTERN ~NAJOKI~ 7
++  IF ~~ THEN REPLY @55 EXTERN ~NAJOKI~ 7
+ END
+ 
+ IF ~~ THEN BEGIN TS193
+-  SAY ~I do not care but for one Nakanishi. Release Kachiko, and we will be gone... You are laughing... well, we shall see who will be the last one to laugh!~
++  SAY @56
+   IF ~~ THEN EXTERN ~MASAKI~ 11
+ END
+ 
+ IF ~~ THEN BEGIN TS194
+-  SAY ~My friend and I come to do my father’s bidding. Nakanishi shall be no more before the dawn breaks... You are laughing... well, we shall see who will be the last one to laugh!~
++  SAY @57
+   IF ~~ THEN EXTERN ~MASAKI~ 11
+ END
+ 
+ IF ~~ THEN BEGIN TS195
+-  SAY ~You! Stay here and fight! I am getting tired of you talking!~
++  SAY @58
+   IF ~~ THEN EXTERN ~MASAKI~ 13
+ END
+ 
+ IF ~~ THEN BEGIN TS196
+-  SAY ~Are you so eager to battle us? We are strong...~
++  SAY @59
+   IF ~~ THEN EXTERN ~HITOMI~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS197
+-  SAY ~<CHARNAME>, I should warn you that in such a combat only two weapons are allowed: a noble katana and your hand, and no armor is to cover the fighter’s body. And no one is permitted to leave the fighting arena until the fight is over... I am ready and willing to answer the challenge, but it’s your decision who shall fight.~
++  SAY @60
+   IF ~InParty(Player2)
+ See(Player2)
+-!StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY ~<PLAYER2> would represent us.~ DO ~StartCutSceneMode()
++!StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @61 DO ~StartCutSceneMode()
+ StartCutScene("TTcut02")~ EXIT
+   IF ~InParty(Player3)
+ See(Player3)
+-!StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY ~<PLAYER3> shall face him now.~ DO ~StartCutSceneMode()
++!StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @62 DO ~StartCutSceneMode()
+ StartCutScene("TTcut03")~ EXIT
+   IF ~InParty(Player4)
+ See(Player4)
+-!StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY ~<PLAYER4> is ready to answer your challenge.~ DO ~StartCutSceneMode()
++!StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @63 DO ~StartCutSceneMode()
+ StartCutScene("TTcut04")~ EXIT
+   IF ~InParty(Player5)
+ See(Player5)
+-!StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY ~<PLAYER5> shall be our champion.~ DO ~StartCutSceneMode()
++!StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @64 DO ~StartCutSceneMode()
+ StartCutScene("TTcut05")~ EXIT
+   IF ~See(Player1)
+-!StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY ~I, myself, shall answer your challenge.~ DO ~StartCutSceneMode()
++!StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @65 DO ~StartCutSceneMode()
+ StartCutScene("TTcut01")~ EXIT
+   IF ~InParty(Player6)
+ See(Player6)
+-!StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY ~<PLAYER6>, go ahead.~ DO ~StartCutSceneMode()
++!StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @66 DO ~StartCutSceneMode()
+ StartCutScene("TTcut06")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS198
+-  SAY ~Kachiko... oh, Kachiko. She is so pale and cold... ~
++  SAY @67
+   IF ~!Global("TT_Evil_Path","GLOBAL",2)
+ !Dead("Najoki")~ THEN EXTERN ~KACHIP~ 10
+   IF ~OR(2)
+@@ -303,17 +303,17 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS199
+-  SAY ~It’s me, Kachiko, Yoshimo...~
++  SAY @68
+   IF ~~ THEN EXTERN ~KACHIP~ 11
+ END
+ 
+ IF ~~ THEN BEGIN TS200
+-  SAY ~Of course, Kachiko it was me, whom else? How can I let you to run away so far and alone?~
++  SAY @69
+   IF ~~ THEN EXTERN ~KACHIP~ 12
+ END
+ 
+ IF ~~ THEN BEGIN TS201
+-  SAY ~Kachiko, from the moment I saw you there in Athkatla, I knew that I would not allow any evil to come to you. I love you, Kachiko, and nothing could stop me. I would go to Nine Hells after you if I have to. With you around I feel like I have never been... I... I can be a better person... ~
++  SAY @70
+   IF ~~ THEN DO ~ChangeAlignment(Myself,CHAOTIC_GOOD)
+ AddXPObject(Myself,80000)
+ ActionOverride("Kachiko",ChangeAlignment(Myself,CHAOTIC_GOOD))
+@@ -321,75 +321,75 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS202
+-  SAY ~Father, I do not wish to leave without you.~
++  SAY @71
+   IF ~~ THEN EXTERN ~AINO~ 12
+ END
+ 
+ IF ~~ THEN BEGIN TS203
+-  SAY ~I am afraid it’s too late. Kachiko is dead and she was my only reason to be unstained by treachery...~
+-  IF ~~ THEN REPLY ~What are you talking about Yoshimo?~ GOTO TS204
++  SAY @72
++  IF ~~ THEN REPLY @73 GOTO TS204
+ END
+ 
+ IF ~~ THEN BEGIN TS204
+-  SAY ~Nothing, <CHARNAME>. You were right, we should not have come here. Now, let’s go rescue your friend.~
++  SAY @74
+   IF ~~ THEN DO ~SetGlobal("TT_Evil_Path","GLOBAL",3)
+ ChangeAlignment(Myself,CHAOTIC_EVIL)
+ StartCutScene("TTcutFi2")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS205
+-  SAY ~I never lied to you...~
++  SAY @75
+   IF ~~ THEN EXTERN ~KACHIP~ 15
+ END
+ 
+ IF ~~ THEN BEGIN TS206
+-  SAY ~Masaki killed Naoko?~
++  SAY @76
+   IF ~~ THEN EXTERN ~KACHIP~ 16
+ END
+ 
+ IF ~~ THEN BEGIN TS207
+-  SAY ~As well as Hashimoto’s it seems. My father told me that a mage named Joneleth made an offer of help to him also.~
++  SAY @77
+   IF ~~ THEN EXTERN ~KACHIP~ 17
+ END
+ 
+ IF WEIGHT #8 ~Global("Kachiko_Saved","GLOBAL",1)
+ ~ THEN BEGIN TS208
+-  SAY ~<CHARNAME>, please cast the scroll. I cannot see her dead...~
++  SAY @78
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS209
+-  SAY ~N-No, Master Irenicus...~
++  SAY @79
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",0)~ THEN EXTERN ~PPIRENI1~ 47
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",1)~ THEN EXTERN ~PPIRENI2~ 18
+ END
+ 
+ IF ~~ THEN BEGIN TS210
+-  SAY ~I... I am not cursed anymore.~
++  SAY @80
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",0)~ THEN EXTERN ~PPIRENI1~ 48
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",1)~ THEN EXTERN ~PPIRENI2~ 68
+ END
+ 
+ IF ~~ THEN BEGIN TS211
+-  SAY ~There are circumstances that you are not aware of...~
++  SAY @81
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",0)~ THEN EXTERN ~PPIRENI1~ 49
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",1)~ THEN EXTERN ~PPIRENI2~ 69
+ END
+ 
+ IF ~~ THEN BEGIN TS212
+-  SAY ~Our deal is closed, Irenicus. The war is over, and my family is saved.~
++  SAY @82
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",0)~ THEN EXTERN ~PPIRENI1~ 51
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",1)~ THEN EXTERN ~PPIRENI2~ 72
+ END
+ 
+ IF ~~ THEN BEGIN TS213
+-  SAY ~(*Tears appear in his eyes.*) W-What? Y-you k-knew that? You knew that... and you arranged our meeting to persuade me to sell my soul to you! You devil!~
++  SAY @83
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",0)~ THEN EXTERN ~PPIRENI1~ 52
+   IF ~Global("YoshimoAndHisBetrayal","GLOBAL",1)~ THEN EXTERN ~PPIRENI2~ 73
+ END
+ 
+ IF ~~ THEN BEGIN TS214
+-  SAY ~Sorry, <CHARNAME>. I cannot leave her alone. We must continue our mission.~
++  SAY @84
+   IF ~~ THEN DO ~SetGlobal("VP_Kachiko_Yoshimo","GLOBAL",3)
+ SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Kachiko",EscapeAreaMove("TT0102",165,727,8))
+@@ -398,7 +398,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS215
+-  SAY ~Sorry, <CHARNAME>. I cannot leave Kachiko alone. I must take a care of her. Farewell.~
++  SAY @85
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Kachiko",EscapeAreaMove("AR0406",1368,1922,0))
+ ChangeAIScript("",DEFAULT)
+@@ -408,7 +408,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS216
+-  SAY ~<CHARNAME>, I am sorry, but I shall go with Kachiko.~
++  SAY @86
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Kachiko",EscapeAreaMove("AR0313",723,319,14))
+ ChangeAIScript("",DEFAULT)
+@@ -418,7 +418,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS217
+-  SAY ~<CHARNAME>, I am sorry, but I shall stay with Kachiko.~
++  SAY @87
+   IF ~~ THEN DO ~ChangeAIScript("",DEFAULT)
+ SetLeavePartyDialogueFile()
+ SetGlobal("Kicked_Out","LOCALS",1)
+@@ -426,22 +426,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS218
+-  SAY ~Your wish is my command. I shall leave the group. I cannot say how much I am sorry for allowing Irenicus to capture me in the moment of my weakness. Fare thee well <CHARNAME>.~
++  SAY @88
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~KACHIJ~ N36
+ END
+ 
+ IF ~~ THEN BEGIN TS219
+-  SAY ~You have no rights! The deal is closed.~
++  SAY @89
+   IF ~~ THEN EXTERN ~YOSHIMOA~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS220
+-  SAY ~You won’t get anything from me! I won’t give up!~
++  SAY @90
+   IF ~~ THEN EXTERN ~YOSHIMOA~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS221
+-	SAY ~Irenicus is my sworn enemy. I am eager to fight him.~
++	SAY @91
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~IfValidForPartyDialogue("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -485,7 +485,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS222
+-	SAY ~I side with the one, whose wise council brought Kachiko back to life and granted my family eternal peace. Do not fear, <CHARNAME> my blade will not backstab you.~
++	SAY @92
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~IfValidForPartyDialogue("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -531,7 +531,7 @@
+ IF WEIGHT #0 ~Global("VP_Kachiko_Dies","GLOBAL",3)
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN TS223
+-  SAY ~<CHARNAME>, it’s my fault. I couldn’t save Kachiko... And she was my only reason to live in this damned world... No, I have no rights to continue this miserable existance... I am very sorry, <CHARNAME>... (*Suddenly, the blick of Yoshimo’s katana, and... *) ~
++  SAY @93
+   IF ~~ THEN DO ~SetGlobal("VP_Kachiko_Dies","GLOBAL",4)
+ StartCutSceneMode()
+ StartCutScene("TSCutK03")~ EXIT
+@@ -590,7 +590,7 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS231
+-  SAY ~Say the word you think is proper. But be you god or be you mortal, always remember that Yoshimo is your friend.~
++  SAY @94
+   IF ~True()~ THEN EXTERN ~FINSOL01~ 28
+   IF ~InParty("Valygar")
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN EXTERN ~VALYG25J~ 3
+@@ -632,7 +632,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS236
+-  SAY ~No, I had spent several years sailing around Kara-Tur. This place reminds nothing of what I have seen and with a bay like that it would be a lively port be it in Kara-Tur. The spell went astray, I suppose... I am very sorry <CHARNAME>.~
+-  IF ~~ THEN REPLY ~We are neither at Spellhold, nor Kara-Tur. Damn you, Harkle Harpel and the whole mad family of yours! But we have to deal with our plight here now. I heard you are resourceful, Saemon. Any suggestions?~ EXTERN ~PPSAEM~ TS28
++  SAY @20
++  IF ~~ THEN REPLY @21 EXTERN ~PPSAEM~ TS28
+ END
+ END

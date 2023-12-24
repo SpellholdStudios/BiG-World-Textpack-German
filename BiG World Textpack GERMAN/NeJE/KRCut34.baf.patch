@@ -1,0 +1,11 @@
+--- NeJE\KeldornR\baf\KRCut34.baf	Thu Mar 29 17:47:21 2018
++++ C:\BWP Patchstudio\patched files\NeJE\KeldornR\baf\KRCut34.baf	Fri Sep 13 10:20:47 2019
+@@ -25,7 +25,7 @@
+ 		ActionOverride(Player6,LeaveAreaLUA("AR0020","",[882.469],1))
+ 		ActionOverride("KeldorD",DestroySelf())
+ 		MoveGlobal("AR0020","Keldorn",[859.477])
+-		ActionOverride("Keldorn",SetName(~Keldorn~))
++		ActionOverride("Keldorn",SetName(@0))
+ 		ActionOverride("Keldorn",JoinParty())
+ 		Wait(3)
+ 		MultiPlayerSync()

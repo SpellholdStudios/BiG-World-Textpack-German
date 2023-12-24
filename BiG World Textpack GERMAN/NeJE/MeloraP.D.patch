@@ -1,0 +1,105 @@
+--- NeJE\dlg\MeloraP.D	Fri Oct 27 17:18:29 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\MeloraP.D	Tue Apr 09 19:36:52 2019
+@@ -1,81 +1,81 @@
+ BEGIN ~MELORAP~
+ 
+ IF ~Global("KickedOut","LOCALS",1)~ THEN BEGIN 0
+-  SAY ~Greetings, <CHARNAME>. What brings you back to this area? Were you looking for me?~ [melorl04]
+-  IF ~~ THEN REPLY ~I am indeed looking for you, Melora. I have missed you and have returned to seek your help again, if you are willing to aid me that is.~ GOTO 8
+-  IF ~~ THEN REPLY ~No, just passing by.~ GOTO 7
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 8
++  IF ~~ THEN REPLY @2 GOTO 7
+ END
+ 
+ IF ~Global("KickedOut","LOCALS",0)~ THEN BEGIN 1
+-  SAY ~Does this mean you no longer have use of my skills, <CHARNAME>? Should we not continue on your task?~ [melorl01]
+-  IF ~~ THEN REPLY ~I did not mean for you to leave, Melora, your skills are still greatly needed as are you.~ GOTO 2
++  SAY @3 
++  IF ~~ THEN REPLY @4 GOTO 2
+   IF ~OR(4)
+ Global("VP_In_IWD_Part1","GLOBAL",1)
+ Global("VP_InHalruaa","GLOBAL",1)
+ Global("VP_OnIsland","GLOBAL",1)
+-InWatchersKeep()~ THEN REPLY ~It does, Melora, but perhaps only for the time being. Will I be able to find you here if I should pass this way and have a need of your skills again?~ GOTO 3
++InWatchersKeep()~ THEN REPLY @5 GOTO 3
+   IF ~Global("VP_In_IWD_Part1","GLOBAL",0)
+ Global("VP_InHalruaa","GLOBAL",0)
+ Global("VP_OnIsland","GLOBAL",0)
+-!InWatchersKeep()~ THEN REPLY ~It does, Melora, but perhaps only for the time being. Will I be able to find you here if I should pass this way and have a need of your skills again?~ GOTO 4
++!InWatchersKeep()~ THEN REPLY @5 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~It pleases me to hear you say this, <CHARNAME>, it would have saddened me to leave without completing your task.~ [melorl03]
++  SAY @6 
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~I cannot remain here as it isn't safe for me to do so, <CHARNAME>. This place is strange and frightening. I will try to find my way then. Goodbye and may good fortune always follow you on your way.~
++  SAY @7
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~I will remain in Athkatla for as long as it is safe for me to do so <CHARNAME>. If you should return, look for me in a small tavern near the city gate. Goodbye and may good fortune always follow you on your way my friend.~ [melorl02]
++  SAY @8 
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",1)
+ EscapeAreaMove("AR0021",311,654,12)~ EXIT
+ END
+ 
+ IF ~Global("KickedOut","LOCALS",0)
+ HappinessLT(Myself,-290)~ THEN BEGIN 5
+-  SAY ~You, <CHARNAME>, are everything that I have come to despise and swore to fight  against. Your treatment of those less fortunate appals me. I fear that if I remain in your company for very much longer both my name and reputation will suffer.~ [melorl09]
+-  IF ~~ THEN REPLY ~So running out on me are you, Melora? Well maybe my purse will be the fatter for it. Ha, you thought I had not noticed the coin going missing? I imagine you have quite a cache hidden somewhere, just waiting to be given away to those peasants that you love so much. I say, enjoy it while you can Melora, who is to say when the next bounty hunter will catch up with you. I wish you luck, Melora, you will need it!~ GOTO 6
+-  IF ~~ THEN REPLY ~What reputation, Melora? You are no more than a common thief who tries to hide her activities under the guise of a do gooder, helping the oppressed you call it, eh, Melora? Your reputation, as you like to call it, only exists among those peasants you say you are helping. Out on your own, I say that it will not be long before one of those bounty hunters eventually catches up with you. I wish you luck, Melora, you will need it! ~ GOTO 6
++  SAY @9 
++  IF ~~ THEN REPLY @10 GOTO 6
++  IF ~~ THEN REPLY @11 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~I would rather take my chances with the bounty hunters than spend another day with you. I bid you farewell, <CHARNAME>, and ask that you keep your distance in the future.~ [melorl10]
++  SAY @12 
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",1)
+ SetGlobal("VP_I_Am_Angry","LOCALS",1)
+ EscapeAreaMove("AR0021",311,654,12)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Then come back when you can. I will wait if you are sure to return.~
++  SAY @13
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I am more than happy to join once more with you my friend. I find myself with the need to leave rather hastily so your words are welcome to my ears.~ [melorl05]
++  SAY @14 
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~Global("KickedOut","LOCALS",1)
+ Global("VP_I_Am_Angry","LOCALS",1)~ THEN BEGIN 9
+-  SAY ~You have sought me out again, <CHARNAME>. Have you amended your ways and require my skills again?~ [melorl06]
+-  IF ~~ THEN REPLY ~I am as I was when we parted company, Melora. I have seen no reason to change. I have come to see if you have changed your mind and are willing to put your skills once more to my use?~ GOTO 10
+-  IF ~~ THEN REPLY ~I will try to temper my ways, Melora, but I make no promises will you not try to work with me again?~ GOTO 11
++  SAY @15 
++  IF ~~ THEN REPLY @16 GOTO 10
++  IF ~~ THEN REPLY @17 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I say no, <CHARNAME>. I will not go back on the oath I swore to help those less fortunate. If I were to follow your path, then I would not be true to myself. Please, I would thank you to keep your distance from now on!~ [melorl07]
++  SAY @18 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~I will give you one more chance and work with you <CHARNAME>, but if at any time I see any of your evil ways then I will leave permantly, and this is a promise! Come we should make a start.~ [melorl08]
++  SAY @19 
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0)
+ SetGlobal("VP_I_Am_Angry","LOCALS",2)
+ JoinParty()~ EXIT

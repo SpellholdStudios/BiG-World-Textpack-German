@@ -1,0 +1,17 @@
+@0    = ~What luck for me that you were passing this way. I am Dar and I thank you for your aid. One or two of the beasts are no trouble for the likes of me but when a whole pack decides you're to be their next meal even the strength of a barbarian is hard pressed to best them.~ [DAR_01]
+@1    = ~It was indeed fortunate that my companions and I were passing Dar. I am <CHARNAME>. These roads are proving unsafe for lone travellers even one of your stature. Where are you heading?~
+@2    = ~It was indeed fortunate that my companion and I were passing Dar. I am <CHARNAME>. These roads are proving unsafe for lone travellers even one of your stature. Where are you heading?~
+@3    = ~It was indeed fortunate that I was passing Dar. I am <CHARNAME>. These roads are proving unsafe for lone travellers even one of your stature. Where are you heading?~
+@4    = ~Anywhere that I will eventually be able to find peace and call home. Anywhere I'm not shunned or hunted for what I am. You don't appear to harbour the prejudices that I have come to expect from your people. You would certainly have let the wolves have me if you did.~ [DAR_02]
+@5    = ~I have been raised to judge a being by their actions, not by their faces or the unfortunate circumstances that bring them into this world. You have the speech of a civilised being and I shall treat you as so until you prove to me different.~
+@6    = ~Of course, I would enjoy the amusement watching these beasts feast on your barbaric flesh.~
+@7    = ~I have no time to waste with you right now, so could you kindly be on your way.~
+@8    = ~I've no time to be sidetracked by your petty personal problems.~
+@9    = ~Then perhaps you will allow me to travel with you a while for there surely is safety in numbers? I have a strong arm and have never been known to flinch from using it when needed.~ [DAR_03]
+@10   = ~A strong arm is always of use Dar. I cannot say where our present road will take us, but if you have the courage to follow such an uncertain road then join with us.~
+@11   = ~I don't think it would be a wise step. You would surely draw attention to us where ever we go, through no fault of your own I hasten to add. Whereas I have no objections to the fellow yourself,  I cannot help but think we will be bringing more trouble on ourselves just by having you amongst us.~
+@12   = ~I'm sorry Dar, I'm not doubting your courage but we follow a road that even I know not where it will take us. We cannot risk the attention you being with us will attract. I wish you luck on your travels and hope you find what you're looking for.~
+@13   = ~I have no use for a creature such as you. You appear intelligent and maybe deserve a chance in this world but you must make it on your own. Now be gone.~
+@14   = ~My friend, life itself is an uncertain road and holds no fear for me. Nor shall this road of yours.~ [DAR_04]
+@15   = ~I'm saddened you feel as you do but I well understand your reluctance to take  me into your group. I will continue my road alone and wish you well on yours.~ [DAR_05]
+@16   = ~I'm saddened you feel as you do but I well understand your attitude toward me, though I don't accept it. I will continue my road alone and wish you well on yours.~ [DAR_05]

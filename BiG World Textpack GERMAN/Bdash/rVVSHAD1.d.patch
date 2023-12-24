@@ -1,0 +1,29 @@
+--- Bdash\ThirdP\dlg\rVVSHAD1.d	Fri Aug 28 18:48:42 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rVVSHAD1.d	Wed May 04 07:21:22 2016
+@@ -4,7 +4,7 @@
+ OR(2)
+ Global("WorkingForBodhi","GLOBAL",1)
+ Global("VP_Guild_Attacked","GLOBAL",1)~ THEN BEGIN 0
+-  SAY ~One more of these treacherous things put to rest, though there is still you. Do you see what is in store for you, <CHARNAME>? No guild will challenge the Shadow Thieves, no matter who or what they call members!~
++  SAY @0
+   IF ~~ THEN DO ~ActionOverride("vvshad3",Enemy())
+ ActionOverride("vvshad2",Enemy())
+ Enemy()~ EXIT
+@@ -12,7 +12,7 @@
+ 
+ IF WEIGHT #2 ~Global("HareisFlee","GLOBAL",1)
+ Global("VP_Guild_Attacked","GLOBAL",0)~ THEN BEGIN 1
+-  SAY ~Remember this battle. Remember that the Shadow Thieves protect their friends, and exact painful penance from their rival guilds, no matter how strong or guarded.~
++  SAY @1
+   IF ~~ THEN DO ~ActionOverride("vvshad3",EscapeArea())
+ ActionOverride("vvshad2",EscapeArea())
+ EscapeArea()~ EXIT
+@@ -21,7 +21,7 @@
+ IF WEIGHT #1 ~Global("HareisFlee","GLOBAL",1)
+ Global("WorkingForAran","GLOBAL",1)
+ Global("VP_Guild_Attacked","GLOBAL",0)~ THEN BEGIN 2
+-  SAY ~This is the nature of the enemy, <CHARNAME>. This is the rival guild that has been stealing away our membership. Show them no mercy when the chance is yours.~
++  SAY @2
+   IF ~~ THEN DO ~ActionOverride("vvshad3",EscapeArea())
+ ActionOverride("vvshad2",EscapeArea())
+ EscapeArea()~ EXIT

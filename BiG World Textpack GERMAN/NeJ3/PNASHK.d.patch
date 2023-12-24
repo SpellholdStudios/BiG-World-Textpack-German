@@ -1,0 +1,10 @@
+--- NeJ3\dlg\PNASHK.d	Sun Feb 18 00:32:26 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\PNASHK.d	Wed Apr 10 10:25:02 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~PNASHK~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~I would love to give you a private performance, but I don't think that is something you desire.  I wish I could give you stories you might find useful, but I'm only an entertainer, not a bard.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

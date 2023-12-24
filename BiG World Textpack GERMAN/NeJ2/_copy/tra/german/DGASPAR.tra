@@ -1,0 +1,56 @@
+@0  = ~Das trifft sich gut, Fremder. Ich heiße Gaspar, Gaspar der Fischhändler. Was kann ich für Euch tun an diesem schönen Tag?~ ~Das trifft sich gut, Fremde. Ich heiße Gaspar, Gaspar der Fischhändler. Was kann ich für Euch tun an diesem schönen Tag?~ 
+@1  = ~Gaspar, hä? Habt Ihr je den Namen Ilmus Gallaway gehört?~
+@2  = ~Fischhändler? Das sieht hier gar nicht aus wie ein Fischladen.~ 
+@3  = ~Ich komm nur so vorbei. Lebt wohl.~
+@4  = ~Das liegt wohl daran, dass es keiner ist, mein Freund. Dies ist mein Haus. Ich mag wohl ein Fischhändler sein, aber das heißt nicht, dass ich den Fisch auf der Straße feilhalte. Ich handle mit getrockneten Knöchelkopfforellen und Fischbeinschnitzereien in großen Mengen. Das meiste davon liegt in meinem Lager unten am Hafen.~ ~Das liegt wohl daran, dass es keiner ist, meine Freundin. Dies ist mein Haus. Ich mag wohl ein Fischhändler sein, aber das heißt nicht, dass ich den Fisch auf der Straße feilhalte. Ich handle mit getrockneten Knöchelkopfforellen und Fischbeinschnitzereien in großen Mengen. Das meiste davon liegt in meinem Lager unten am Hafen.~ 
+@5  = ~Getrocknete was?~
+@6  = ~Was genau sind Fischbeinschnitzereien?~
+@7  = ~Interessant. Habt Ihr je den Namen Ilmus Gallaway gehört?~ 
+@8  = ~Ich verstehe. Naja, ich muss weiter. Lebt wohl.~
+@9  = ~Knöchelkopfforelle. Das ist eine seltene Fischart, die nur in den Seen von Zehnstädte vorkommt. Aus ihren Gräten werden wertvolle Fischbeinschnitzereien hergestellt.~ 
+@10 = ~Ihr müsst ja einigermaßen gut verdienen durch den Verkauf dieser Fische.~
+@11 = ~Fischbeinschnitzereien sind genau das: aus Fischgräten geschnitzte Kunstwerke. Weil Knöchelkopfforellen so selten sind, sind Fischbeinschnitzereien aus ihren Gräten ganz besonders wertvoll. Fischbeinschnitzereien aus Osthafen werden von Künstlern und Kunsthandwerkern in allen Reichen hoch geschätzt.~
+@12 = ~Es ist ein redliches Einkommen. Doch den meisten Umsatz mache ich durch Handel. Apropos, gerade in diesem Moment wickele ich ein wichtiges Geschäft ab.~ 
+@13 = ~Was für ein Geschäft?~
+@14 = ~Nun, viel Glück dann. Lebt wohl.~ 
+@15 = ~Die Lebensmittelspeicher der Stadt sind bedenklich leer. Mein Lagermeister, Churin, sagte mir, es gebe nicht genug Lebensmittel für den kommenden Winter. Ich habe einen Handel mit dem alten Gallaway oben in Caer-Dinival abgeschlossen, der unsere Bäuche bis weit ins nächste Jahr füllen dürfte. Die Karawane müsste jetzt täglich eintreffen.~
+@16 = ~Gallaway sagt Ihr? Ilmus Gallaway aus Caer-Dinival?~
+@17 = ~Interessant. Hrothgar sagte uns, die Karawane sei überfällig. Er bat uns, sie zu suchen und sicher nach Osthafen zu geleiten.~
+@18 = ~Suche nach der vermissten Karawane
+
+In Osthafen trafen wir Gaspar, den Fischhändler. Er erzählte uns von einem Handel, den er mit einem Händler in Caer-Dinival abgeschlossen hätte. Die Karawane ist noch nicht angekommen, müsste jetzt aber jeden Tag eintreffen. Ich frage mich, ob das die Karawane ist, die wir in Hrothgars Auftrag suchen sollen.~ 
+@19 = ~Schlechte Neuigkeiten, Gaspar. Die Karawane aus Caer-Dinival hat es nicht geschafft. Wir fanden die verlassenen Wagen draußen vor der Stadt.~
+@20 = ~Suche nach der vermissten Karawane
+
+In Osthafen trafen wir Gaspar, den Fischhändler. Er erzählte uns von einem Handel, den er mit einem Händler in Caer-Dinival abgeschlossen hätte. Die Karawane ist noch nicht angekommen, müsste jetzt aber jeden Tag eintreffen. Die Stadt scheint die Vorräte, die die Karawane bringt, wirklich zu brauchen.~ 
+@21 = ~Ja genau. Kennt Ihr ihn etwa?~ 
+@22 = ~Wir haben diesen Vertrag bei einem toten Oger in einer Höhle vor der Stadt gefunden. Ich fürchte, die Karawane aus Caer-Dinival ist nicht durchgekommen.~
+@23 = ~Suche nach der vermissten Karawane
+
+Wir erzählten Gaspar, dem Fischhändler, von der verschollenen Karawane und zeigten ihm den Vertrag von Ilmus Gallaway, den wir in den Orkhöhlen gefunden haben. Als er erfuhr, dass die Karawane verschollen ist, machte sich Gaspar daran, einen neuen Vertrag auszuhandeln und dafür zu sorgen, dass eine neue Karawane mit Vorräten nach Osthafen kommt. Er dankte uns für unsere Bemühungen und bezahlte uns mit einer kleinen Summe in Gold.~
+@24 = ~Nein, ich habe nie von ihm gehört. Lebt wohl.~
+@25 = ~Das sind ja furchtbare Neuigkeiten. Ich muss gleich eine Nachricht an Ilmus oben in Caer-Dinival schicken. Wir müssen sofort einen neuen Vertrag aushandeln, damit eine zweite Karawane losgeschickt wird, bevor der Schneefall einsetzt. Danke, dass Ihr mich davon in Kenntnis gesetzt habt. Hier habt Ihr eine Entschädigung für Eure Mühe.~
+@26 = ~Danke. Lebt wohl.~
+@27 = ~Na, wenn Ihr meint, dann geht ruhig. Aber ich bin sicher, es gibt keinen Grund zur Beunruhigung. Karawanen haben um diese Jahreszeit immer Verspätung.~
+@28 = ~Ich hoffe, Ihr habt Recht. Lebt wohl.~
+@29 = ~Was? Seid Ihr sicher, dass es die Karawane aus Caer-Dinival war?~
+@30 = ~Wir haben diesen Vertrag bei einem toten Oger in einer Höhle in der Nähe der verlassenen Wagen gefunden.~
+@31 = ~Das lässt sich nicht mit Sicherheit sagen. Von den Reisenden der Karawane fehlte jede Spur, und die Wagen waren leer.~
+@32 = ~Suche nach der vermissten Karawane
+
+Als wir hörten, dass Gaspar der Fischhändler auf eine Karawane aus Caer Dinival wartet, haben wir ihm von den Karawane erzählt, die wir außerhalb der Stadt gesehen haben. Er war sich aber nicht sicher, ob es die Karawane ist, war auf die er wartete. Wenn wir an irgendwelche Beweise kommen könnten, dass es Gaspars Karawane ist, könnte es sich vielleicht auszahlen, diese zu Gaspar zu führen.~ 
+@33 = ~Dann ist es möglich, dass die Wagen, die Ihr gesehen habt, zu einer anderen Karawane gehörten. Verdammt! Wie ich diese Ungewissheit hasse. Ich kann keinen neuen Vertrag aushandeln, bevor ich nicht sicher weiß, was mit Gallaways Karawane geschehen ist.~
+@34 = ~Tut mir Leid. Ich wünschte, wir wären eine größere Hilfe. Lebt wohl.~
+@35 = ~Pech. Wir sehen uns sicher noch, Fischhändler.~
+@36 = ~Freut mich, Euch wieder zu sehen. Was führt Euch diesmal zu mir?~
+@37 = ~Euer Haus? Ich dachte, das wäre ein Fischladen.~
+@38 = ~Na, wenn das nicht die "Helden" sind, die kleinen Jungen die Fische klauen. Mein Sohn Damien hat mir von euch erzählt. Was habt ihr in meinem Haus zu suchen?~
+@39 = ~Ach, hallo, da seid ihr ja wieder, meine Freunde. Ich möchte Euch danken, dass ihr auf meinen Jungen Damien aufgepasst habt. Er hat mir alles von Euch und den Monstern erzählt.~
+@40 = ~Es war wirklich nicht der Rede wert.~
+@41 = ~Ihr habt Glück, dass wir zufällig in der Nähe waren. Ihr solltet das Gör wirklich an einer kürzeren Leine halten.~
+@42 = ~Wie auch immer. Lebt wohl.~
+@43 = ~Ihr seid zu bescheiden. Und was führt Euch heute zu mir?~
+@44 = ~Es tut mir Leid, wenn ich Euch enttäuschen muss, aber dies ist tatsächlich mein Haus. Ich mag ja ein Fischhändler sein, aber das heißt nicht, dass ich den Fisch auf der Straße feilbiete. Ich handle mit getrockneten Knöchelkopfforellen und Fischbeinschnitzereien in großen Mengen. Das meiste davon liegt in meinem Lager unten am Hafen.~
+@45 = ~Ja... nun, ich sage ihm immer, er soll nicht an den entlegenen Ufern fischen, aber Ihr wisst ja, wie ungestüm Jungs sein können. Aber genug davon... Was führt Euch heute zu mir?~
+@46 = ~Ich kann Euch gar nicht sagen, wie froh ich bin, Euch wieder zu sehen. Ich habe schon geglaubt, dass wir früher oder später als Futter für diese einäugigen Bestien enden. Gebt Acht... vielleicht sind noch immer welche in der Stadt.~
+@47 = ~Wir werden die Augen nach ihnen offen halten. Lebt wohl.~

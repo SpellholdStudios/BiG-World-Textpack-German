@@ -1,0 +1,510 @@
+@2   = ~Ein Kettenhemd besteht aus ineinandergreifenden Metallringen. Es wird immer über einer Schicht aus gepolstertem Stoff oder weichem Leder getragen, um ein schmerzhaftes Scheuern zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~ 
+@3   = ~Dieses Kettenhemd wurde von der Sonnenelfe Mecorima Sylerim gefertigt. Mecorima war eine Sonnenelfe, deren Ambitionen sich durch die ganze Elfengesellschaft zogen. Als begabte Diplomatin, benötigte Mecorima zusätzlichen Schutz vor verfeindeten Fraktionen. Aus diesem Grund schuf sie dieses Kettenhemd, das sie sowohl vor hinterhältigen Angriffen schützte, als ihr auch die Möglichkeit gab sich vor Adligen zu verbeugen. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+RW-Bonus: -5 gegen Tod
+Charisma: +2
+Gewicht: 20
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+- Druiden
+- Magiern
+- Dieben~
+@6   = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie eine Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Magiern~ 
+@7   = ~Diese Rüstung fühlt sich lebendig an, wenn Ihr sie anlegt. Das Material aus dem sie gefertigt ist, ist leicht und umhüllt Euch wie geschmeidiges Leder. Der einzige Hinweis auf ihre Vergangenheit ist ein eingeätzter Name. Kalindra.  
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+RW-Bonus: -1
+Gewicht: 30
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Magiern~
+@10  = ~Der Streitkolben ist die direkte Weiterentwicklung eines einfachen Knüppels. Er ist im Grunde nichts anderes als ein hölzerner Stiel mit einem Stein- oder Eisenkopf an einem Ende. Dies Köpfe können ganz unterschiedlich sein: Manche sind mit Stacheln versehen, andere mit Klingen oder pyramidenförmigen Spitzen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 8
+Initiativefaktor: 7
+Mindeststärke: 10
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~ 
+@11  = ~Streitkolben +1: 
+"Streitkolben der Angstlosen"
+
+Viele Anhänger Chaunteas tragen einen solchen Streitkolben. Die meisten werden neuen Klerikern überreicht, aber einige magisch verbesserte Streitkolben werden an talentierte Kleriker übergeben. Dies ist eine solche Waffe.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt 30%iger Widerstand gegen Furcht.
+
+Schaden:  1W6 +3 (Wucht)
+ETW0-Bonus: -1
+Gewicht: 7
+Initiativefaktor: 5
+Mindeststärke: 9
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~
+@14  = ~Diese Art schwerer Hammer wird vor allem bei der Konstruktion von Gebäuden und Schiffen verwendet. Als Arbeitsgerät ist dieser Hammer in ganz Faerun im Einsatz, vor allem bei den Schiffsbauern in Tiefwasser. Sein Gewicht ermöglicht einen kräftigen Schwung, der den Hammer im Kampf zu einer tödlichen Waffe macht. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+ 
+- Dieben
+- Druiden
+- Magiern~
+@15  = ~Kriegshammer +2:
+"Tholins Ogerschmetterer"
+
+Dieser schwere Hammer ist auch als "Der Hammer der Mächtigen" bekannt und hat in zahllosen Schlachten und Kriegen gewütet. Ursprünglich im Besitz der Häuptlinge des Stammes vom Elch, wurde der Hammer geschaffen, um der ständigen Zunahme von Ogern und Orks am Dessarinfluss zu begegnen. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht)
+Schadenbonus: +3 gg. Riesen  
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 5
+Mindeststärke: 10
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~ 
+@18  = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht)
+Gewicht: 12
+Initiativefaktor: 7
+Mindeststärke: 11
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~
+@19  = ~Morgenstern +2:
+"Ishandars Geschenk"
+
+Golain verbrachte die meiste Zeit seiner Jugend damit zusammen mit seinem Vater das Sturmhorngebirge in Cormyr zu erkunden. Sein Vater lehrte ihn das Kämpfen und das Land zu schätzen. Die Liebe zum Abenteuer und zur Geographie führten dazu, dass er zum Königlichen Erkunder der Familie Obarskyr wurde. Während einer langen Expedition zur Vermessung der Donnergipfel entdeckte er eine kleine Höhle und erkundete sie. Nach einem kleinen Scharmützel mit einigen Orks fand er eine Truhe voller Gold und diesen Morgenstern. Der Morgenstern begleitete Golain für einige Zeit bis er sein Leben im Kampf gegen ein paar Oger im Sturmhorngebirge verlor.  
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +2 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 10
+Initiativefaktor: 6
+Mindeststärke: 10
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~ 
+@26  = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an. Dieser Bogen ist eine Weiterentwicklung des einfachen Langbogens.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -1
+Schadensbonus: +2
+Gewicht: 10
+Initiativefaktor: 7
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Klerikern
+- Magiern~
+@27  = ~Komposit-Langbogen +2:
+"Der Fluch der Medusa"
+
+Im Jahr der zerbrochenen Klinge (1260TZ) wurde Laeroth geboren. Schon in jungen Jahren meisterte er das Bogenschießen und war der treffsicherste Schütze in seinem Elfendorf. Geschichten erzählten von einer Medusa, die sich in einer Höhle der nahen Bergen versteckte. Laeroth sah es als eine Mutprobe an, den Kopf einer solchen Bestie abzuschlagen. Nach einem Gespräch mit den Ältesten des Dorfes, wurde dieser Bogen geschaffen, um die  Bestie zu bekämpfen. Aus besonderen Holz geschaffen, sollte der Bogen seinen Träger vor den versteinernden Blicken der Medusen und Basilisken schützen. Eine lange Reise folgte, bis er das Lager der Medusa erreichte. In der Höhle benutzte Laeroth einen Glühstein um tiefer in das Dunkel hinabzusteigen. Vorbei an den zahllosen Steinskulpturen derer, die zuvor die Medusa bezwingen wollten, fand Laeroth letztendlich seine Jagdbeute, die ihn mit ihrem Blick traf. Im ersten Augenblick wie betäubt, neutralisierte der Bogen die Versteinerung und der eigentliche Kampf begann. Die Medusa schoß zuerst und traf Laeroth in dem Augenblick mit einem vergifteten Pfeil in die Schulter, als er seinen eigenen Pfeil losschoß, der die Medusa in den Kopf traf. Das Ungeheuer krümmte sich vor Schmerz und starb in Todeszuckungen, während Laeroth ein Gegengift trank. Mit ruhiger Hand schlug er der Kreatur den Kopf ab. Nach seiner Rückkehr in sein Dorf, wurde der Kopf für den Kampf gegen die Orks an einem sicheren Ort verwahrt. Laeroth reiste noch einige Jahre umher, bevor er den Bogen für eine große Summe Gold verkaufte.        
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Versteinerung
+
+ETW0: -2
+Schadensbonus: +3
+Gewicht: 9
+Initiativefaktor: 6
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Klerikern
+- Magiern~
+@38  = ~Der typische Dolch hat eine spitz zulaufende, meist zweischneidige Klinge und unterscheidet sich dadurch von einem Messer, das nur eine Schneidkante hat und etwas kürzer ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 1
+Initiativefaktor: 2 
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+
+- Klerikern~ 
+@39  = ~Dolch +1:
+"Dolch der Starrsinnigkeit"
+
+Diese Art Dolch wurde zuerst in Myth Drannor gefertigt. Solche Dolche sind sehr begehrt bei Schurken, Dieben und Banditen.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Furcht und Bezauberung
+
+Schaden: 1W4 +2 (Stich)
+ETW0-Bonus: -1
+RW-Bonus: -2 gegen Zauber
+Gewicht: 1
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ 
+- Dieben
+- Barden~
+@52  = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Stich)
+Gewicht: 15
+Initiativefaktor: 9
+Mindeststärke: 13
+Fertigkeit: Hellebarde
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Klerikern
+- Magiern~ 
+@53  = ~Wie andere Waffen dieses Types, besteht diese Hellebarde aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen 1,80 m langen Stab aufgesetzt ist. Zudem ist sie mit einigen kleinen Zaubern belegt, die sie effektiver im Kampf macht. Die scharfe Klinge zum Beispiel, schneidet durch das Fleisch wie durch Butter, während der scharfe Dorn durch die kleinste Lücke in der Rüstung dringt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +2 (Stich)
+ETW0-Bonus: -1
+Gewicht: 14
+Mindeststärke: 13
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Klerikern
+- Magiern~
+@56  = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~
+@57  = ~Eishammer +2:
+"Mydans Frost"
+
+Einige dieser Hämmer wurden von Frostriesen geschaffen um örtliche Dörfer zu verwüsten. Verärgert über das Eindringen der Menschen in ihr Territorium, ermutigte die Frostmaid Auril die Riesen, diese Waffen von großer Zerstörungskraft zu fertigen. Mydan, einer der Anführer der Riesen, schuf diesen Hammer um seiner Göttin zu huldigen. Zur Belohnung verbesserte Auril diesen Hammer mit der Macht des Eises.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Wucht) 
+Schadensbonus +1W3 durch Kälte
+ETW0-Bonus:: -2
+Kältewiderstand: +30%
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Magiern~
+@89  = ~Ein mittelgroßer Schild wird ähnlich wie ein kleiner Schild verwendet. Da der mittelgroße Schild allerdings recht schwer ist, ist die Schildhand des Trägers durch den Schild blockiert und kann nicht für andere Zwecke eingesetzt werden. Mittelgroße Schilde werden normalerweise aus Metall gefertigt und haben einen Durchmesser von 90 cm bis 120 cm. Die Form ist dabei ziemlich beliebig. So gibt es runde und eckige mittelgroße Schilde, aber auch solche in Form von gespreizten Drachenflügeln. Ein klassischer Schild, wie er im Mittelalter verwendet wurde, ist dreieckig, wobei eine Spitze nach unten weist.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~ 
+@90  = ~Die Herkunft dieses seltsamen Schildes ist unbekannt, aber die verblasste Darstellung eines blauen Drachens, welche sich auf der Außenseite befindet, deutet darauf hin, dass es möglicherweise aus dem alten Imperium von Mulhorand nahe den Drachenschwert Bergen stammt. Auf dem Schild ist keine Signatur eines Waffenschmiedes zu erkennen und es weist auch keine Abnutzungsspuren auf. Vielleicht ist es magischer Herkunft.
+  
+EIGENSCHAFTEN:
+
+Feuerwiderstand: +30%
+RK-Bonus: -2
+Gewicht: 7
+Mindeststärke: 12
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~
+@93  = ~Ein kleiner Schild ist in der Regel rund. Man fährt mit dem Unterarm durch den Halteriemen und greift ihn zusätzlich mit der Schildhand. Verglichen mit dem normalen Schild ist er so leicht, dass man noch einen weiteren Gegenstand tragen kann. Allerdings kann mit der Schildhand keine Waffe mehr geführt werden.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+(kein Schutz vor Geschosswaffen)
+Gewicht: 3
+Mindeststärke: 4
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern 
+- Dieben~ 
+@94  = ~Loran Emarin, ein elfischer Barde, der den Harfnern angehörte, hörte die Geschichte eines goldfarbenen Schildes, das Schutz gegen die Elemente bieten sollte. Beeindruckt durch diese Geschichte machte sich der Barde auf die Suche nach diesem Schild. Nach einer mehrjährigen Suche ohne Erfolg, wollte er schon aufgeben. Dann, während einer kalten Nacht in einer Taverne in Niewinter, hörte der Elf zufällig das Gespräch zwischen zwei Priestern des Oghma mit. Der Schild schien im Besitz einer Gruppe von Elitekämpfern zu sein, treuen Gefolgsleuten des Sturmherren Talos. Möglicherweise wurde der Schild an die Priesterschaft verkauft. Sein weiteres Schicksal liegt im Dunkeln.
+ 
+EIGENSCHAFTEN:
+
+Im Schild steckt ein kleine elektrische Ladung, die gegen das Ziel geschleudert werden kann. Jedoch besteht eine 10%ige Chance, dass man selbst davon betroffen wird.
+
+RK-Bonus: -2
+Elektrizitätswiderstand: +30%
+Feuerwiderstand: +30%
+Kältewiderstand: +30%
+Gewicht: 5
+Mindeststärke: 4
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~ 
+@100 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert,  bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich mußte auch der Griff verlängert werden, und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 15
+Mindeststärke: 14
+Initiativefaktor: 10
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern 
+- Dieben~
+@101 = ~Zweihänder +1:
+"Der Leuchtende Saphir"
+
+Etwas nördlich von Tiefwasser liegt das Dorf Amphail, die Heimat des zwergischen Meisterschmiedes Kathian Hammerhand. Zusammen mit seinem Schwesterschwert "Das Smaragdgrüne Auge" wurden diese Klinge von dem Schmied erschaffen, um den Harfnern gegen die Spione der Zentarim zu helfen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält die Fähigkeit "Böses entdecken".
+
+ETWO-Bonus: -1
+Schaden: 1W10 +1 (Klinge)
+Schadensbonus: +1W3 (Kälte) 
+Gewicht: 10
+Mindeststärke: 14
+Initiativefaktor: 8
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern 
+- Dieben~ 
+@104 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Klinge)
+Gewicht: 10
+Initiativefaktor: 8
+Mindeststärke: 11
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@105 = ~Geschmiedet für die weiten Tundren des Nordens, ist dieses Barbarenbreitschwert für die Kälte geschaffen. Die Wärme des Metalls erzeugt eine Resistenz gegen das eisige Klima.
+
+EIGENSCHAFTEN:
+
+ETWO-Bonus: -1
+Schaden: 2W4 +1 (Klinge)
+Schadensbonus: +1W3 (Feuer)
+Kältewiderstand: +30%
+Gewicht: 8
+Initiativefaktor: 6
+Mindeststärke: 11
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@108 = ~Eine Waffe der Tuigan und Nars. Säbel sind lange und schwere Schwerter, die im berittenen Kampf oft benutzt werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 6
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: grosses Schwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@109 = ~Dieser Säbel gehörte einst Hauptmann Ergern Conwell, einem Kavallerieoffizier der Flammenden Faust. Er bekam diesen Säbel als Auszeichnung für Tapferkeit im Gefecht. Doch seine Fechtkünste wurden nur noch von dem Drang übertroffen, sich mit schönen Frauen einzulassen. Deswegen konnte ihn nicht einmal seine Fechtkunst vor dem hinterhältigen Angriff eines eifersüchtigen Liebhabers mit einer vergifteten Klinge retten.
+
+EIGENSCHAFTEN:
+
+30%ige Chance das Ziel für eine Runde zu betäuben.
+
+ETWO-Bonus: -1
+Schaden: 1W8 +1 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Krummsäbel/Wakizashi/Ninjato
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@110 = ~Zweihänder +1:
+"Das Smaragdgrüne Auge"
+
+Etwas nördlich von Tiefwasser liegt das Dorf Amphail, die Heimat des zwergischen Meisterschmiedes Kathian Hammerhand. Zusammen mit ihrem Schwesterschwert "Der Leuchtende Saphir" wurden diese Klinge von dem Schmied erschaffen, um den Harfnern gegen die Spione der Zentarim zu helfen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält die Fähigkeit "Böses entdecken".
+
+ETWO-Bonus: -1
+Schaden: 1W10 +1 (Klinge)
+Schadensbonus: +1W3 (Feuer) 
+Gewicht: 10
+Initiativefaktor: 8
+Mindeststärke: 14
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~

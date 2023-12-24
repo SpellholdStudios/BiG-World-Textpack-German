@@ -1,0 +1,100 @@
+@0    = ~Realm of the Bhaalspawn Armor Set~
+@1    = ~Jyssevs Erbstücke~
+@2    = ~  Jyssevs Plattenpanzer~
+@3    = ~James Issiac Jyssev, einer der reichsten Adligen Tiefwassers, lies sich diese Rüstung während seiner Dienstzeit beim Militär anfertigen. Die Rüstung wurde von ihm in vielen Schlachten getragen, bevor sie schließlich als Ausstellungsstück im Landsitz der Familie Jyssev ausgestellt wurde. James Sohn, Issiac, trug sie dann später während seines eigenen Armeedienstes. Auf diese Art wurde die Plattenrüstung der Jyssevs von Generation zu Generation weitergegeben, bis hin zu William Jyssev, einem fahrenden Händler aus Tiefwasser.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanente Handlungsfreiheit
+Der Träger ist geschützt vor den Geist beeinflussende Magie
+50% Resistenz gegen Geschosse
+
+Rüstungsklasse: -3
+Gewicht: 50
+Mindeststärke: 16
+Kann nur verwendet werden von:
+  Kriegern
+  Klerikern
+  Allen guten Charakteren~
+@4    = ~Gesegnete Triade~
+@5    = ~Dieser Panzer ist einer aus einem legendären Dreierset, geschaffen von einem Geschwistertrio. Dieser gesegnete, Plattenpanzer wurde von Godric Gladivir, einem mächtigen Magier und Anhänger Torms geschaffen. Angeblich schützt dieser Panzer seinen Träger durch die Segnungen Torms vor vielen verschiedenen Arten schädlicher Magie.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanente Segnung
+Gewährt Schutz vor Lebenskraftentzug, Blindheit, Verwirrung und Gift
+
+Rüstungsklasse: -3
+Gewicht: 10
+Kann nur verwendet werden von:
+  Guten Charakteren~
+@6    = ~Verzauberte Triade~
+@7    = ~Dieser Panzer ist einer aus einem legendären Dreierset, geschaffen von einem Geschwistertrio. Dieser, verzauberte, Plattenpanzer wurde von Natale Natal geschaffen, die nicht Gladivir hießn weil sie den reichen Adligen Nevil Natal geheiratet und seinen Namen angenommen hatte. Natale war die Jüngste des Geschwistertrios, eine ebenfalls mächtige Magierin und Anhängerin Mystras.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanenter der Zauber Gesang
+Gewährt Schutz vor Stille, Langsamkeit und Horror
+
+Rüstungsklasse: -3
+Gewicht: 20
+Kann nur verwendet werden von:
+  Neutralen Charakteren~
+@8    = ~Verfluchte Triade~
+@9    = ~Dieser Panzer ist einer aus einem legendären Dreierset, geschaffen von einem Geschwistertrio. Dieser verfluchte Plattenpanzer wurde von Vladric Gladivir geschaffen. Vlad war der verwirrteste der drei und wurde mit der Zeit ein wirklich böser Mann. Vlad war der Älteste der drei und ein treuer Anhänger der Besheba, der möglicherweise seinen eigenen Bruder ermordete, nur um dann von seiner Schwester getötet zu werden.
+
+EIGENSCHAFTEN:
+
+Gewährt Schutz vor Krankheit, Festhalten und Tod
+Wirft Zauber des 1. Grades auf den Verursacher zurück
+
+Rüstungsklasse: -3
+Gewicht: 30
+Kann nur verwendet werden von:
+  Bösen Charakteren~
+@10   = ~Goblinischer Bänderpanzer~
+@11   = ~Obwohl aus der Haut eines Orks gefertigt, leistet dieser Panzer seinem Träger erstaunlich gute Dienste. Denn obwohl die Nähte schlecht gesetzt sind, das Leder wiederlich nach Ork stinkt und sogar einige Löcher im Leder zu erkennen sind, schützt er besser als ein einfacher Plattenpanzer. Er wurde augenscheinlich von einem mächtigen Goblinschamanen verzaubert, um verbesserten Schutz vor Angriffen mit Klingen zu bieten und einem Magieanwender gar das Zaubern zu erlauben.
+
+EIGENSCHAFTEN:
+
+25% Schutz vor Klingenwaffen
+50% Resistenz gegen Gifte
+Charisma-Einbußen von -2
+
+Rüstungsklasse: 0
+Gewicht: 5
+Kann nur verwendet werden von:
+  Dieben
+  Barden~
+@12   = ~Gewandheit des Mönches~
+@13   = ~Mönche tragen normalerweise keinerlei Rüstungen. Durch ihr ständiges Training werden sie schnell genug, um Schlägen gekonnt auszuweichen, statt auf eine schwere, verlangsamende Rüstung zu vertrauen. Diese Robe wurde von Mönchen entwickelt, um diese Geschicklichkeit noch weiter zu erhöhen, ohne sich mit verzauberten Panzern zu behindern. Die Robe kann nur von Mönchen verwendet werden.
+
+EIGENSCHAFTEN:
+
+Die Geschicklichkeit des Trägers wird auf 25 erhöht
+
+Kann nur verwendet werden von:
+  Mönchen~
+@14   = ~Schreiender Umhang~
+@15   = ~Dieser Umhang wurde von einem sadistischen und grausamen Leichnam aus den Haaren einer Banshee und der Haut eines Nabassu genäht. Er benutzte ihn gerne, um Eindringlinge in sein Versteck mittels eines schrecklichen Schreies taub zu machen oder sie gar auf der Stelle zu töten.
+
+EIGENSCHAFTEN:
+
+Der Träger kann wortlos Zaubern
+Schrei der Banshee einmal/Tag anwendbar
+
+RK-Bonus: +3 
+Kann nur verwendet werden von:
+  Bösen Magiern~
+@16   = ~Yuan-Ti Schuppen~
+@17   = ~Yuan-Ti sind eher große Schlangen als Humanoide. Über sie ist nicht viel bekannt, außer dass sie gerne in kleinen Gruppen reisen und recht intelligent zu sein scheinen, einige können sogar zaubern. Yaun-Ti sind erwiesenermaßen tödlich, weshalb dieser Panzer auch über sehr gute Schutzeigenschaften verfügt.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt Schutz vor Gift
+
+Rüstungsklasse: -1
+Gewicht: 10
+Kann nicht verwendet werden von:
+  Magiern~
+@18   = ~William Jyssev~

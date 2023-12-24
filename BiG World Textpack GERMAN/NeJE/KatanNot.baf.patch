@@ -1,0 +1,56 @@
+--- NeJE\TS\baf\KatanNot.baf	Thu Dec 30 16:47:13 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\KatanNot.baf	Tue Apr 09 19:39:59 2019
+@@ -9,7 +9,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ IF
+@@ -23,7 +23,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ IF
+@@ -37,7 +37,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ IF
+@@ -51,7 +51,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ IF
+@@ -65,7 +65,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ IF
+@@ -79,7 +79,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Katana_Warning","GLOBAL",1)
+-		DisplayStringHead(Player1,~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~)
++		DisplayStringHead(Player1,@0)
+ END
+ 
+ 

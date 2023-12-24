@@ -1,0 +1,83 @@
+--- NeJ2\baf\ehhroth.baf	Tue Dec 25 13:10:50 2018
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\ehhroth.baf	Wed Apr 10 10:31:01 2019
+@@ -704,7 +704,7 @@
+ 	RandomNum(9,1)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~I wouldn't try that again. Thieves are not welcome in these parts.~)
++		DisplayStringHead(Myself,@0)
+ 		SetGlobal("VP_Enough_IsEnough","LOCALS",1)
+ 		Continue()
+ END
+@@ -715,7 +715,7 @@
+ 	RandomNum(9,2)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~That better not have been your hand I felt in my pocket.~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ END
+ 
+@@ -725,7 +725,7 @@
+ 	RandomNum(9,3)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~You thieving scoundrel. I'll let you off this time with a warning, but next time...~)
++		DisplayStringHead(Myself,@2)
+ 		SetGlobal("VP_Enough_IsEnough","LOCALS",1)
+ 		Continue()
+ END
+@@ -736,7 +736,7 @@
+ 	RandomNum(9,4)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Watch yourself, stranger. Pickpocketing is risky business - especially when your as clumsy as you seem to be.~)
++		DisplayStringHead(Myself,@3)
+ 		Continue()
+ END
+ 
+@@ -746,7 +746,7 @@
+ 	RandomNum(9,5)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Hey, watch it! Keep your hands to yourself, friend.~)
++		DisplayStringHead(Myself,@4)
+ 		Continue()
+ END
+ 		
+@@ -756,7 +756,7 @@
+ 	RandomNum(9,6)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~I don't appreciate the attempt at theft. You'd better behave yourself.~)
++		DisplayStringHead(Myself,@5)
+ 		Continue()
+ END
+ 		
+@@ -766,7 +766,7 @@
+ 	RandomNum(9,7)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~You're lucky I'm a forgiving person. Don't try to steal from me again.~)
++		DisplayStringHead(Myself,@6)
+ 		SetGlobal("VP_Enough_IsEnough","LOCALS",1)
+ 		Continue()
+ END
+@@ -777,7 +777,7 @@
+ 	RandomNum(9,8)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Keep your distance. You think I can't tell what you were doing just now?~)
++		DisplayStringHead(Myself,@7)
+ 		Continue()
+ END
+ 		
+@@ -787,7 +787,7 @@
+ 	RandomNum(9,9)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~What were you just doing? I'd like to ask that you step away, thank you.~)
++		DisplayStringHead(Myself,@8)
+ 		Continue()
+ END
+ 

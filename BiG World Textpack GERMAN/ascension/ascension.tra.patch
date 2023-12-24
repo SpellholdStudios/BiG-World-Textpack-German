@@ -1,0 +1,162 @@
+--- ascension\lang\german\ascension.tra	Sat May 21 11:06:40 2022
++++ C:\BWP Patchstudio\patched files\ascension\lang\german\ascension.tra	Mon Feb 06 13:46:00 2023
+@@ -1,55 +1,55 @@
+-@500 = ~Babau~
++@500  = ~Babau~ 
+ @1003 = ~Verwandlung in eine Fledermaus~
+-@1006 = ~Abazigals Schockwelle~
++@1006 = ~Schockwelle~ 
+ @1007 = ~Aura der Blitze~
+-@1009 = ~Telekinese~
++@1009 = ~Telekinese~ 
+ @1012 = ~Resistenzen wechseln~
+ @1013 = ~Dämon beherrschen~
+-@1014 = ~Fokus~
++@1014 = ~Fokus~ 
+ @1016 = ~Göttlicher Schutzmantel~
+-@1017 = ~Macht aufnehmen~
++@1017 = ~Macht aufnehmen~ 
+ @1018 = ~Göttliches Zauberschild~
+ @1019 = ~Dämon kommandieren~
+-@1020 = ~Verbannen~
++@1020 = ~Verbannen~ 
+ @1022 = ~Entfesseln~
+-@1024 = ~Feedback~
++@1024 = ~Rückmeldung~ 
+ @1025 = ~Göttliche Genesung~
+ @1026 = ~Göttliche Reinigung~
+ @1027 = ~Aura der Lähmung~
+-@1029 = ~Lava Bombe~
++@1029 = ~Lava Bombe~ 
+ @1031 = ~Symbol: Verlangsamen~
+-@1037 = ~Verwandlung zum Wüter~
+-@1038 = ~Melissan: Rufe die Diener der Abyss~
+-@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+-@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+-@1041 = ~Transfixed~
+-@1042 = ~Weapons weakened by Babau slime~
+-@1043 = ~Grabbed~
+-@1044 = ~Regains Bhaal powers~
+-@1045 = ~You have regained control for now.~
+-@1046 = ~Magic Resistance lowered by 5%~
+-@1047 = ~Magic Resistance lowered by 5%~
+-@1048 = ~Slayer transformation enhanced~
+-@1049 = ~The demon bows to your will~
+-@1050 = ~The demon defies your will~
+-@1051 = ~This power only affects demons~
+-@1052 = ~The demon bows to Melissan's will~
+-@1053 = ~The demon defies Melissan's will~
+-@1054 = ~Bhaalspawn Power gained: Unleash~
+-@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+-@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+-@1057 = ~Bhaalspawn Power gained: Dimension Door~
+-@1058 = ~Bhaalspawn Power gained: Control Demons~
+-@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+-@1060 = ~Bhaalspawn Power gained: Focus~
+-@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
++@1037 = ~Verwandlung zum Wüter~ 
++@1038 = ~Melissan: Rufe die Diener der Abyss~ 
++@1039 = ~Bhaalspross Macht erlangt: Immunität gegen Energieentzug~
++@1040 = ~Bhaalspross Macht erlangt: 25% Widerstand gegen körperlichen Schaden~ 
++@1041 = ~Gelähmt~
++@1042 = ~Waffen durch Babau-Schleim geschwächt ~
++@1043 = ~Erfasst~
++@1044 = ~Bhaal-Kräfte wiedererlangen~
++@1045 = ~Ihr habt vorerst die Kontrolle wiedererlangt.~
++@1046 = ~Magie-Widerstand um 5% gesenkt~
++@1047 = ~Magie-Widerstand um 5% gesenkt~
++@1048 = ~Verwandlung zum Schlächter verbessert~
++@1049 = ~Der Dämon beugt sich Eurem Willen~
++@1050 = ~Der Dämon widersetzt sich Eurem Willen~
++@1051 = ~Diese Kraft wirkt nur auf Dämonen~
++@1052 = ~Der Dämon beugt sich Melissans Willen~
++@1053 = ~Der Dämon widersetzt sich Melissans Willen~
++@1054 = ~Bhaalspross Macht erlangt: Entfesseln~
++@1055 = ~Bhaalspross Macht erlangt: Immunität gegen Todesmagie~
++@1056 = ~Bhaalspross Macht erlangt: Immunität gegen tödliche Auswirkungen~
++@1057 = ~Bhaalspross Macht erlangt: Dimensionstor~
++@1058 = ~Bhaalspross Macht erlangt: Dämonen kontrollieren~
++@1059 = ~Bhaalspross Macht erlangt: Immunität gegen Irrgarten und Gefangenschaft~
++@1060 = ~Bhaalspross Macht erlangt: Fokus~
++@1061 = ~Bhaalspross Macht erlangt: Immunität gegen den Makel des Schlächters~
+ @1062 = ~Göttlicher Schutzmantel~
+-@1063 = ~Magic Resistance Restored~
+-@1064 = ~Antimagic Protections Removed~
+-@1065 = ~Combat Protections Removed~
+-@1066 = ~AI deactivated~
+-@1067 = ~AI activated~
+-@1068 = ~Lunar Malison~
++@1063 = ~Magie-Widerstand wiederhergestellt~
++@1064 = ~Antimagischer Schutz entfernt~
++@1065 = ~Schutz vor Kampfhandlungen entfernt~
++@1066 = ~KI deaktiviert~
++@1067 = ~KI aktiviert~
++@1068 = ~Mond-Unbehagen~
+ @2000 = ~Bhaalspross-Fähigkeiten
+ 
+ <CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+@@ -73,7 +73,7 @@
+ Wirkungsbereich: Das berührte Wesen
+ Rettungswurf: Nein
+ 
+-Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde.   Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird.  Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
++Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde. Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird. Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
+ @2002 = ~Bhaalspross-Fähigkeiten
+ 
+ <CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+@@ -118,7 +118,24 @@
+ Wirkungsbereich: Der Zaubernde
+ Rettungswurf: Keiner
+ 
+-Wenn ein Kind Bhaals diese Fähigkeit einsetzt, erhöht sich der Schaden, den es im Nahkampf anrichtet, egal mit welcher Waffe es zuschlägt (beispielsweise mit Schwert oder Faust). Die dunkle Energie des Kindes von Bhaal strömt durch die Waffe in den Gegner und entreißt ihm Lebenskraft. So richtet jeder Schlag zusätzlichen Schaden an und heilt das Kind Bhaals.
++Wenn ein Sohn Bhaals diese Fähigkeit einsetzt, fügt er seinem Ziel mit jeder beliebigen Nahkampfwaffe (egal ob Faust oder Schwert) sofort zusätzlichen Schaden zu. Seine dunklen Energien strömen durch seine Waffe, um seine Opfer anzugreifen, und erlauben ihm, diesen Schaden als Heilung für sich selbst zu absorbieren.
++Die Auswirkungen hängen von der Stufe ab:
++Ab der 10. Stufe: 2 Runden, +4 Schadenspunkte pro Schlag, Kind Bhaals heilt 4 Trefferpunkte
++Ab der 15. Stufe: 3 Runden, +6 Schadenspunkte pro Schlag, Kind Bhaals heilt 6 Trefferpunkte
++Ab der 20. Stufe: 4 Runden, +8 Schadenspunkte pro Schlag, Kind Bhaals heilt 8 Trefferpunkte
++Ab der 25. Stufe: 5 Runden, +10 Schadenspunkte pro Schlag, Kind Bhaals heilt 10 Trefferpunkte
++Ab der 30. Stufe: 6 Runden, +12 Schadenspunkte pro Schlag, Kind Bhaals heilt 12 Trefferpunkte~ ~Bhaalspross-Fähigkeiten
++
++<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
++
++Hand des Mordes (Nekromantie)
++Reichweite: Zaubernder
++Wirkungsdauer: 1 Runde pro 5 Stufen
++Zeitaufwand: 1
++Wirkungsbereich: Der Zaubernde
++Rettungswurf: Keiner
++
++Wenn eine Tochter Bhaals diese Fähigkeit einsetzt, fügt sie ihrem Ziel mit jeder beliebigen Nahkampfwaffe (egal ob Faust oder Schwert) sofort zusätzlichen Schaden zu. Ihre dunklen Energien strömen durch ihre Waffe, um ihre Opfer anzugreifen, und erlauben ihr, diesen Schaden als Heilung für sich selbst zu absorbieren.
+ Die Auswirkungen hängen von der Stufe ab:
+ Ab der 10. Stufe: 2 Runden, +4 Schadenspunkte pro Schlag, Kind Bhaals heilt 4 Trefferpunkte
+ Ab der 15. Stufe: 3 Runden, +6 Schadenspunkte pro Schlag, Kind Bhaals heilt 6 Trefferpunkte
+@@ -139,9 +156,10 @@
+ @2007 = ~Bhaalspross-Fähigkeiten
+ 
+ <CHARNAME> hat eine 25%ige Resistenz gegenüber physikalischen Schaden (also Schaden durch Stich-, Hieb-, Wucht- und Geschosswaffen) erhalten.~
+-@2008 = ~Slayer Change ability improved~
+-@3000 = ~Schwert des Chaos +4~
++@2008 = ~Schlächter-Veränderungsfähigkeit verbessert~
++@3000 = ~Sarevoks Schwert des Chaos +4~
+ @3001 = ~Sarevoks Schwert des Chaos
++
+ Die Klinge von Sarevok, <CHARNAME>s Bruder, die er im Kampf im fernen Baldurs Tor benutzte. <CHARNAME> siegte, vereitelte Sarevoks Pläne und bewahrte die Schwertküste vor einem Krieg. Nun kämpft Sarevok an <CHARNAME>s Seite, und die Klinge wurde ihm zurückgegeben. Sarevok bezeichnet die Waffe als Klinge eines Todesbringers und hat etwas von ihrer alten Macht wiederhergestellt. Ohne dass die Essenz der Bhaalbrut durch sie fließt, verfügt sie zwar nicht über ihre früheren Fähigkeiten; dennoch ist sie eine tödliche Waffe... und Sarevok warnt, dass sie schwer zu führen sein wird für einen, der kein Todesbringer ist - wenn er sie überhaupt tragen kann.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+@@ -150,7 +168,7 @@
+ 
+ Die Klinge gewährt zusätzlich +10% Magieresistenz, wenn sie getragen wird.
+ 
+-Schaden:  1W10 +4 (Klingenwaffe)
++Schaden: 1W10 +4 (Klingenwaffe)
+ ETW0: -4
+ 
+ Gewicht: 10
+@@ -166,5 +184,6 @@
+ Druiden
+ Charakteren ohne chaotische Gesinnung~
+ @3002 = ~Trank der Heilung~
+-@3003 = ~Trank der Heilung
++@3003 = ~Sendais Trank der Heilung
++
+ Womöglich von Sendai selbst gebraut, ist dieses ein ungeheuer mächtiger Heiltrank, der die kompletten Trefferpunkte desjenigen, der ihn zu sich nimmt, wiederherstellt.~

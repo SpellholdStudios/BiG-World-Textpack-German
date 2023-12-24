@@ -1,0 +1,100 @@
+--- Bdash\ThirdP\dlg\rGaelan.d	Sat Dec 19 19:47:14 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rGaelan.d	Wed May 04 07:21:21 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~GAELAN~
+ 
+ IF ~Global("Attacked","LOCALS",1)~ THEN BEGIN 20
+-  SAY ~Ye're more of a fool than I be thinkin', me <LADYLORD>. Learn what happens to fools who double-cross the Shadow Thieves!~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("Attacked","LOCALS",2)
+ SetGlobal("VP_Guild_Attacked","GLOBAL",1)
+ IncrementChapter("")
+@@ -15,7 +15,7 @@
+   IF ~~ THEN REPLY #20945 GOTO 29
+   IF ~~ THEN REPLY #20946 GOTO 30
+   IF ~~ THEN REPLY #20947 GOTO 27
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'll better kill you now and then deal with your friends than to pay such an outrageous sum.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @1 GOTO 20
+   IF ~PartyGoldGT(19999)~ THEN REPLY #20948 DO ~AddXPObject(Player1,45000)
+ AddXPObject(Player2,45000)
+ AddXPObject(Player3,45000)
+@@ -32,14 +32,14 @@
+   SAY #20951 
+   IF ~~ THEN REPLY #20954 GOTO 26
+   IF ~~ THEN REPLY #20955 GOTO 33
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'll better kill you now and then deal with your organization than to pay such an outrageous sum.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @2 GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 29
+   SAY #20959
+   IF ~~ THEN REPLY #20960 GOTO 30
+   IF ~~ THEN REPLY #20962 GOTO 27
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~'The thing to be done lightly' is to kill you now and then deal with your friends. Prepare to die scum.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @3 GOTO 20
+   IF ~PartyGoldGT(49999)~ THEN REPLY #20966 DO ~AddXPObject(Player1,45000)
+ AddXPObject(Player2,45000)
+ AddXPObject(Player3,45000)
+@@ -55,7 +55,7 @@
+   SAY #20970
+   IF ~~ THEN REPLY #20971 GOTO 29
+   IF ~~ THEN REPLY #20972 GOTO 27
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~Oh, you misunderstand the situation. You will help me whether you want it or not. I'll kill you first and then deal with your friends.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @4 GOTO 20
+   IF ~PartyGoldGT(19999)~ THEN REPLY #20977 DO ~AddXPObject(Player1,45000)
+ AddXPObject(Player2,45000)
+ AddXPObject(Player3,45000)
+@@ -72,7 +72,7 @@
+   SAY #20982 
+   IF ~~ THEN REPLY #20987 GOTO 38
+   IF ~~ THEN REPLY #20988 GOTO 39
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'm tired of this nonsense. I'll better kill you now and then deal with your friends directly.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @5 GOTO 20
+   IF ~~ THEN REPLY #48036 GOTO 74
+ END
+ 
+@@ -81,7 +81,7 @@
+   IF ~~ THEN REPLY #20991 GOTO 29
+   IF ~~ THEN REPLY #20992 GOTO 30
+   IF ~~ THEN REPLY #20993 GOTO 27
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'll better kill you now and then deal with your friends than to pay such an outrageous sum.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @1 GOTO 20
+   IF ~PartyGoldGT(19999)~ THEN REPLY #20994 DO ~AddXPObject(Player1,45000)
+ AddXPObject(Player2,45000)
+ AddXPObject(Player3,45000)
+@@ -101,7 +101,7 @@
+   SAY #21014
+   IF ~~ THEN REPLY #21015 GOTO 43
+   IF ~~ THEN REPLY #21016 GOTO 48
+-  IF ~~ THEN REPLY ~I have changed my mind. I'll better kill you now and then deal with your friends than to pay such an outrageous sum. Prepare to die scum.~ GOTO 20
++  IF ~~ THEN REPLY @6 GOTO 20
+   IF ~Global("ImTooSexyForThisBrus","GLOBAL",1)~ THEN REPLY #49835 GOTO 84
+ END
+ 
+@@ -113,7 +113,7 @@
+   SAY #21023
+   IF ~~ THEN REPLY #21024 GOTO 43
+   IF ~~ THEN REPLY #21025 GOTO 48
+-  IF ~~ THEN REPLY ~I have changed my mind. I'll better kill you now and then deal with your friends than to pay such an outrageous sum. Prepare to die scum.~ GOTO 20
++  IF ~~ THEN REPLY @6 GOTO 20
+   IF ~Global("ImTooSexyForThisBrus","GLOBAL",1)~ THEN REPLY #49836 GOTO 84
+ END
+ 
+@@ -133,7 +133,7 @@
+ TakePartyGold(15000)
+ DestroyGold(15000)
+ SetGlobal("WorkingForAran","GLOBAL",1)~ SOLVED_JOURNAL #47537 GOTO 53
+-  IF ~~ THEN REPLY ~I have changed my mind. I'll better kill you now and then deal with your friends than to pay such an outrageous sum. Prepare to die scum.~ GOTO 20
++  IF ~~ THEN REPLY @6 GOTO 20
+   IF ~~ THEN REPLY #21034 GOTO 52
+   IF ~Global("ImTooSexyForThisBrus","GLOBAL",1)~ THEN REPLY #49838 GOTO 84
+ END
+@@ -150,7 +150,7 @@
+ AddXPObject(Player6,45000)
+ TakePartyGold(15000)
+ SetGlobal("WorkingForAran","GLOBAL",1)~ SOLVED_JOURNAL #47537 GOTO 53
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'm not happy with the price and I don't trust anyone of you. I'll better kill you now and then deal with your friends. Prepare to die scum.~ GOTO 20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @7 GOTO 20
+   IF ~~ THEN REPLY #49845 GOTO 52
+ END
+ END

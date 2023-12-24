@@ -1,0 +1,11 @@
+--- NeJ3\baf\RoadToKd.baf	Thu Jan 25 23:07:34 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\RoadToKd.baf	Wed Apr 10 10:34:02 2019
+@@ -6,7 +6,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_RoadTo_Kuldahar","MYAREA",1)
+-		DisplayStringHead([PC],~Road to Kuldahar~)
++		DisplayStringHead([PC],@0)
+ END
+ 
+ 

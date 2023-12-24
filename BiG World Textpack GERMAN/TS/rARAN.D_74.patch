@@ -1,0 +1,67 @@
+--- TS\bgtnodlg\rARAN.D	Sun Feb 03 00:25:48 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\rARAN.D	Thu May 05 10:46:44 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~ARAN~
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~Excellent. The ship awaits. Good luck to you... I hope we all find what we are looking for.~ [ARAN21]
++  SAY @0
+   IF ~Global("Sime_Meet","GLOBAL",0)~ THEN DO ~EraseJournalEntry(47783)
+ EraseJournalEntry(47805)
+ EraseJournalEntry(47806)
+@@ -9,17 +9,7 @@
+ EraseJournalEntry(47837)
+ EraseJournalEntry(47838)
+ StartCutSceneMode()
+-StartCutScene("Movie03b")~ JOURNAL ~Aran’s tasks to receive the Shadow Thieves’ aid.
+-
+-I have completed the tasks Aran Linvail set out for me, and at last the location of Imoen has been revealed.  This did not come, mind you, without some revelations.
+-
+-The Shadow Thieves have been interested in me from the beginning. They were aware of my capture, but thought it nothing more than a simple kidnapping and none of their business. However, soon after that Bodhi appeared and their members started disappearing. They thought another guild was converting them, making a bid for control of the city’s underground, and directed an attack against what they thought was the guild headquarters, Irenicus’ dungeon below Waukeen’s. 
+-
+-They were totally unprepared for how strong Irenicus was. After the battle they set their sights on me, because I was the only thing that came out of that dungeon alive. Since I was of such interest to Irenicus they needed to know what I was up to. Once they realized that Irenicus was a threat to us both, they sought to aid me, while also aiding themselves. Their intentions were good, despite their selfish motive.
+-
+-They believe that Irenicus is still very much a threat.  Both Irenicus and Imoen have been taken to an island asylum called Spellhold where mages are imprisoned and studied.  And yet it sounds doubtful that Irenicus has been so easily overcome.  Bodhi and her rival guild are tied to him in some manner...and his purpose in studying both myself and Imoen is still unknown.
+-
+-Imoen still remains in that place, however.  The Shadow Thieves have arranged a ship to take me to the isle at no small expense, hoping in that retrieving Imoen I might rid them of their other problem, as well.  Whatever happens, I am sure my biggest challenge yet awaits me on this isle.~ EXIT
++StartCutScene("Movie03b")~ JOURNAL @1 EXIT
+   IF ~Global("Sime_Meet","GLOBAL",1)
+ InParty("Sime")~ THEN DO ~EraseJournalEntry(47783)
+ EraseJournalEntry(47805)
+@@ -28,17 +18,7 @@
+ EraseJournalEntry(47837)
+ EraseJournalEntry(47838)
+ StartCutSceneMode()
+-StartCutScene("Movie3ba")~ JOURNAL ~Aran’s tasks to receive the Shadow Thieves’ aid.
+-
+-I have completed the tasks Aran Linvail set out for me, and at last the location of Imoen has been revealed.  This did not come, mind you, without some revelations.
+-
+-The Shadow Thieves have been interested in me from the beginning. They were aware of my capture, but thought it nothing more than a simple kidnapping and none of their business. However, soon after that Bodhi appeared and their members started disappearing. They thought another guild was converting them, making a bid for control of the city’s underground, and directed an attack against what they thought was the guild headquarters, Irenicus’ dungeon below Waukeen’s. 
+-
+-They were totally unprepared for how strong Irenicus was. After the battle they set their sights on me, because I was the only thing that came out of that dungeon alive. Since I was of such interest to Irenicus they needed to know what I was up to. Once they realized that Irenicus was a threat to us both, they sought to aid me, while also aiding themselves. Their intentions were good, despite their selfish motive.
+-
+-They believe that Irenicus is still very much a threat.  Both Irenicus and Imoen have been taken to an island asylum called Spellhold where mages are imprisoned and studied.  And yet it sounds doubtful that Irenicus has been so easily overcome.  Bodhi and her rival guild are tied to him in some manner...and his purpose in studying both myself and Imoen is still unknown.
+-
+-Imoen still remains in that place, however.  The Shadow Thieves have arranged a ship to take me to the isle at no small expense, hoping in that retrieving Imoen I might rid them of their other problem, as well.  Whatever happens, I am sure my biggest challenge yet awaits me on this isle.~ EXIT
++StartCutScene("Movie3ba")~ JOURNAL @1 EXIT
+   IF ~Global("Sime_Meet","GLOBAL",1)
+ !InParty("Sime")~ THEN DO ~EraseJournalEntry(47783)
+ EraseJournalEntry(47805)
+@@ -47,16 +27,6 @@
+ EraseJournalEntry(47837)
+ EraseJournalEntry(47838)
+ StartCutSceneMode()
+-StartCutScene("Movie03b")~ JOURNAL ~Aran’s tasks to receive the Shadow Thieves’ aid.
+-
+-I have completed the tasks Aran Linvail set out for me, and at last the location of Imoen has been revealed.  This did not come, mind you, without some revelations.
+-
+-The Shadow Thieves have been interested in me from the beginning. They were aware of my capture, but thought it nothing more than a simple kidnapping and none of their business. However, soon after that Bodhi appeared and their members started disappearing. They thought another guild was converting them, making a bid for control of the city’s underground, and directed an attack against what they thought was the guild headquarters, Irenicus’ dungeon below Waukeen’s. 
+-
+-They were totally unprepared for how strong Irenicus was. After the battle they set their sights on me, because I was the only thing that came out of that dungeon alive. Since I was of such interest to Irenicus they needed to know what I was up to. Once they realized that Irenicus was a threat to us both, they sought to aid me, while also aiding themselves. Their intentions were good, despite their selfish motive.
+-
+-They believe that Irenicus is still very much a threat.  Both Irenicus and Imoen have been taken to an island asylum called Spellhold where mages are imprisoned and studied.  And yet it sounds doubtful that Irenicus has been so easily overcome.  Bodhi and her rival guild are tied to him in some manner...and his purpose in studying both myself and Imoen is still unknown.
+-
+-Imoen still remains in that place, however.  The Shadow Thieves have arranged a ship to take me to the isle at no small expense, hoping in that retrieving Imoen I might rid them of their other problem, as well.  Whatever happens, I am sure my biggest challenge yet awaits me on this isle.~ EXIT
++StartCutScene("Movie03b")~ JOURNAL @1 EXIT
+ END
+ END

@@ -1,0 +1,17 @@
+--- NeJE\dlg\Sebast.d	Mon Jan 19 15:55:34 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Sebast.d	Tue Apr 09 19:37:10 2019
+@@ -1,12 +1,12 @@
+ BEGIN ~SEBAST~
+ 
+ IF ~~ THEN BEGIN 0
+- SAY ~They are only students Vrielle. Though I have to wonder how they came to find their way here?~
++ SAY @0
+  IF ~~ THEN EXTERN ~BRIAL~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 1
+- SAY ~By their own admission, they are spies Vrielle!~
++ SAY @1
+  IF ~~ THEN DO ~SetGlobal("VP_Leveller_Quest","GLOBAL",7)
+ SetGlobalTimer("VP_Reveal_Spies_D","GLOBAL",ONE_DAY)
+ SetGlobal("VP_HalruaaAlarm","MYAREA",1)

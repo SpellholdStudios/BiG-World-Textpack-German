@@ -1,0 +1,101 @@
+@0    = ~A last... The mighty adventurer stands before me. To what do I owe this... honor?~ [KRES_01]
+@1    = ~I take it you were expecting me?~
+@2    = ~I would know who you are, spirit.~
+@3    = ~I seek the evil that plagues Kuldahar.~
+@4    = ~I have no time for this banter, farewell.~
+@5    = ~Once more you grace me with your presence. Why?~ [KRES_02]
+@6    = ~I have been observing your progress since you first stepped foot into my realm. It was only a matter of time before you made your way here. So tell me, why have you come?~ [KRES_03]
+@7    = ~In life, I was Kresselack, the Black Wolf. In death, I am nothing, a mere shadow cursed to haunt these halls.~ [KRES_04]
+@8    = ~Why are you cursed?~
+@9    = ~I will take my leave of you now. Farewell.~
+@10   = ~Hmn. Why indeed... That is a tale long in the telling. Would you hear it?~ [KRES_05]
+@11   = ~Yes, I am listening.~
+@12   = ~No, I think not. Farewell.~
+@13   = ~As a young man, I was a conqueror. I ravaged the lands and brought all who opposed me under my rule. I built a kingdom upon the corpses of my enemies, and I reveled in the glories of war.~ [KRES_06]
+@14   = ~However, in time my sword grew heavy, my aim less true, and I realized I was growing old. For the first time in my life, I knew fear...~ [KRES_07]
+@15   = ~Realizing that death would some day claim me, I returned to my homeland. For months I pondered what course I should pursue in my remaining years.~ [KRES_08]
+@16   = ~I thought of my kingdom and all that I had fought to create, but it was meaningless to me. A kingdom lasts a lifetime, but death lasts an eternity.~ [KRES_09]
+@17   = ~I decided to forsake all that I had wrought in life for a place in the afterlife...~ [KRES_10]
+@18   = ~What did you do?~
+@19   = ~I ordered this tomb built in utmost secrecy and squandered the wealth of my kingdom doing so. Upon its completion, I traveled here with my most faithful followers to survey the work.~ [KRES_11]
+@20   = ~Finding all in order, I slew the workers and buried them in the Vale outside. My faithful followers I sacrificed to become... the guardians of this tomb.~ [KRES_12]
+@21   = ~Finally, I sacrificed myself to my god, hoping to stand at his side in the land of the dead. Little did I know that my actions would instead bind me to these halls for eternity.~ [KRES_13]
+@22   = ~A just reward for deeds so foul, spirit.~
+@23   = ~I seek the evil that plagues Kuldahar. Would that be you?~
+@24   = ~I... do not know... I have had centuries to reflect upon my life and my deeds. I can see the wisdom in your words... Perhaps justice *is* served.~ [KRES_14]
+@25   = ~If it is evil that you seek, then you need look no further. I stand here before you. However, I am not the one who plagues Kuldahar. For that evil, you must look elsewhere.~ [KRES_15]
+@26   = ~Having heard of your past deeds, why should I believe you to be innocent?~
+@27   = ~Why should I believe you to be innocent, spirit?~
+@28   = ~I care not at all whether you believe me, adventurer. I am centuries dead and bound to these halls for eternity.~ [KRES_16]
+@29   = ~I care even less for the living or their gathering places. If your Kuldahar is beset by evil, it is not of my doing. Go seek your villain elsewhere.~ [KRES_17]
+@30   = ~If not you, then who is responsible?~
+@31   = ~Who indeed... I can answer your question, but I require a boon first. Perform a task for me, and I will answer you.~ [KRES_18]
+@32   = ~What task, spirit?~
+@33   = ~Auril, the ice goddess, is worshiped by some here in the cold north. Auril commands her followers to extinguish all fires, to open structures to the cold winds, and to deny warmth a place to gather.~ [KRES_19]
+@34   = ~As you can see, my tomb would be an abomination to a follower of Auril.~ [KRES_20]
+@35   = ~I concede your point. Go on.~
+@36   = ~Vale of Shadows.
+
+We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar... but he claims to know who is. In exchange for an answer, he asked a boon of our party: slay a priestess of Auril who has recently tried to enter his tomb and extinguish the warmth within. Only when she is dead would he give us the answer we seek.~
+@37   = ~A priestess of Auril has stood at the threshold of my tomb and gazed within. Recently she attempted entry, but my guardians foiled her.~ [KRES_21]
+@38   = ~Now that you have slain my guardians, there is nothing to prevent her from returning and carrying out the will of Auril.~ [KRES_22]
+@39   = ~I do not wish to spend eternity in a cold, lightless hell. Find this Aurilite... and slay her. Only then will I answer you.~ [KRES_23]
+@40   = ~I am no assassin, spirit.~
+@41   = ~I will consider your words, spirit. Farewell.~
+@42   = ~Very well. I will find this priestess and deal with her.~
+@43   = ~Know this, adventurer. Your precious Kuldahar is just as much an abomination to Auril as this tomb. Think of the great tree, the circle of warmth, and the tenets of Auril.~ [KRES_24]
+@44   = ~How will Kuldahar fare under Auril's cold gaze? Find this Aurilite and slay her. Only then will both of us feel safe and only then will I answer you.~ [KRES_25]
+@45   = ~As I said, I am no assassin. Farewell.~
+@46   = ~Excellent. Be quick about the task, for even now I sense her presence within the Vale. Return to me when you have dealt with her. Until then, I have nothing more to say.~ [KRES_26]
+@47   = ~Farewell, spirit.~
+@48   = ~Vale of Shadows.
+
+The spirit of Kresselack asked us to slay an Aurilite priestess whom he thinks intends to destroy his tomb. We have agreed to find this priestess and deal with her but not necessarily slay her. In any case, Kresselack says that he senses her presence within the Vale of Shadows. We should begin our search there.~
+@49   = ~You have returned. Perhaps you have reconsidered your refusal to deal with the Aurilite priestess?~ [KRES_27]
+@50   = ~No, I have not. I am no assassin.~
+@51   = ~Have you reconsidered? Will you tell me who is behind the evil that plagues Kuldahar?~
+@52   = ~You have returned. Have you considered dealing with the Aurilite priestess?~ [KRES_28]
+@53   = ~I am still considering it. Farewell.~
+@54   = ~You have returned. You have performed the task that I set before you?~ [KRES_29]
+@55   = ~Yes, the priestess is dead.~
+@56   = ~Vale of Shadows.
+
+We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~
+@57   = ~Vale of Shadows.
+
+We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~
+@58   = ~Vale of Shadows.
+
+We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.~
+@59   = ~Vale of Shadows.
+
+We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. She didn't welcome the intrusion, and she attacked us.~
+@60   = ~Vale of Shadows.
+
+We met the priestess of Auril, and recognized her as a barmaid from Kuldahar. Once she revealed herself, we attacked her.~
+@61   = ~Vale of Shadows.
+
+We killed Lysan, the Auril priestess, and returned to Kresselack. Unfortunately, all Kresselack could tell us was that neither he or nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~
+@62   = ~No, I have yet to find her.~
+@63   = ~Yes... I no longer sense her presence. You have done well, and I thank you. As a reward, you may take what you find in my sarcophagus.~ [KRES_30]
+@64   = ~You said you would tell me who is responsible for the evil that plagues Kuldahar.~
+@65   = ~Yes... so I did... The truth of the matter is that I do not know who is responsible. I can only assure you that it is not I, nor is it anyone in this vale. Were it to be otherwise, I would sense it.~ [KRES_31]
+@66   = ~That is not the answer I was promised, spirit.~
+@67   = ~Then be about your task! I have nothing to say to you until it is completed! Fare thee well.~ [KRES_32]
+@68   = ~Farewell.~
+@69   = ~You have done me a great service by removing the threat of the Aurilite priestess. For that, I am grateful.~ [KRES_33]
+@70   = ~However, I would ask you to leave me to my rest now. There is nothing else that either of us can do for the other. Farewell.~ [KRES_34]
+@71   = ~I... Hmm. Interesting... It seems you've already slain Lysan. I sense her death at your hands. As a reward, you may take what you find in my sarcophagus.~ [KRES_35]
+@72   = ~Then will you answer my question, spirit?~
+@73   = ~Vale of Shadows.
+
+We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar, but he knows who is... since we had already slain the Auril priestess that he wished dead, he was willing to share his knowledge with us. Unfortunately, all Kresselack could tell me was that neither he nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~
+@74   = ~Why was this... Lysan, of importance to you?~
+@75   = ~Very well... The truth of the matter is that I do not know who is responsible. I can only assure you that it is not I, nor is it anyone in this vale. Were it to be otherwise, I would sense it...~ [KRES_36]
+@76   = ~I concede your point. What of it?~
+@77   = ~Lysan was a priestess of Auril. On several occasions, she stood at the threshold of my tomb and gazed within.~ [KRES_39]
+@78   = ~I am certain that she was plotting a way to enter here and carry out the will of Auril. With her gone, I need not worry.~ [KRES_40]
+@79   = ~Promised? I made you no promise, adventurer. As for your answer... knowing where your enemy is *not* is as vital as knowing where he *is.*  Think upon that.~ [KRES_41]
+@80   = ~Very well, spirit. Farewell.~
+@81   = ~No. I will only answer you after you have dealt with the threat of the Aurilite. Will you help me?~ [KRES_42]
+@82   = ~I care little for the threats of one with the wits of a child.~

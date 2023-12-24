@@ -1,0 +1,15 @@
+--- Setup-Sheena.TP2	Tue May 16 10:26:57 2023
++++ C:\BWP Patchstudio\patched files\Setup-Sheena.TP2	Tue May 16 10:14:20 2023
+@@ -52,7 +52,11 @@
+ 		 
+ LANGUAGE ~Russian (ART BERSERKER & Aerie TEAM)~
+          ~Russian~
+-         ~Sheena/tra/Russian/SETUP.tra~		 
++         ~Sheena/tra/Russian/SETUP.tra~	
++
++LANGUAGE ~Deutsch (Uebersetzung von Gerri, Korrektur Leonardo Watson)~
++         ~German~
++         ~Sheena/tra/German/setup.tra~	 
+ 
+ ///////////////////////////////////////////////////////////////
+ 

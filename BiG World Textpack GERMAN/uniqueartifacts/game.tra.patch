@@ -1,0 +1,10 @@
+--- uniqueartifacts\tra\english\game.tra	Wed Apr 24 12:28:41 2019
++++ C:\BWP Patchstudio\patched files\uniqueartifacts\tra\english\game.tra	Wed Sep 25 08:52:00 2019
+@@ -1,5 +1,5 @@
+-@101 = ~Show me what you have, and I'll tell you if it can be altered.~
+-@102 = ~Just tell me what you have, and I'll tell you if it can be made better.~
++@101 = ~Zeigt mir, was Ihr habt, und ich werde Euch sagen, ob es verändert werden kann. ~
++@102 = ~Sagt mir einfach, was Ihr habt und ich sage Euch, ob ich es aufwerten kann.~
+ 
+ @103 = ~Boots of Speed: "The Paws of the Cheetah"
+ Originaly, enchanted boots like these were the property of an order of deadly assassins fond of chasing down their prey. They moved with such speed that their targets often didn't have the opportunity to respond, even on horseback. Over time the order's infamy spread, and though its name was never known, all knew to fear the words last heard by their victims: "you can hide, but you cannot run!". Since then, many copies emerged, and this is one of them.

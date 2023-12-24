@@ -1,0 +1,87 @@
+--- TS\bgtnodlg\VAMPVAL.D	Wed Dec 29 16:31:44 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\VAMPVAL.D	Thu May 05 10:47:02 2016
+@@ -1,60 +1,60 @@
+ BEGIN ~VAMPVAL~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~As you desire, Mistress... (*suddenly the hiss of the vampire is interrupted by the voice you know so well*)... Nay, Bodhi. I served no god and I served no man willingly. I shall not serve you, bloodthirsty beast!~
++  SAY @0
+   IF ~~ THEN EXTERN ~C6BODHI~ TS30
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Yes, mistress... (*Valygar twitches with pain, then slowly regains his composure.*)... I... I f-found a target... m-more to my liking...~
++  SAY @1
+   IF ~~ THEN EXTERN ~C6BODHI~ TS31
+ END
+ 
+ IF ~Global("VP_ValygarVamp_Alive","GLOBAL",1)~ THEN BEGIN 2
+-  SAY ~Do not put your weapons away yet. <CHARNAME>, while I am still capable to fight off the urges of a vampire... While I am still a bit of a human... While I can still stand here and look at you without trying to kill you... kill me.~
+-  IF ~~ THEN REPLY ~What? No! I cannot kill you... Vampire, big deal! At least she did not turn you into a giant space hamster or some such. I will take you along and we will travel by night to keep you healthy. With the amount of people we kill on a daily basis you'd have a ready supply of fresh blood... I find that this pale look makes you rather... interesting.~ GOTO 3
+-  IF ~~ THEN REPLY ~As you wish.~ GOTO 4
+-  IF ~~ THEN REPLY ~Valygar... I... you are asking too much of me. I cannot loose you again.~ GOTO 6
+-  IF ~~ THEN REPLY ~I think there is irony somewhere in here... Did not your mother turn vampire and you killed her?~ GOTO 7
+-  IF ~~ THEN REPLY ~I would like you to join me as you are right now. I was impressed by your efficiency in battle and I can use a vampire companion.~ GOTO 8
++  SAY @2
++  IF ~~ THEN REPLY @3 GOTO 3
++  IF ~~ THEN REPLY @4 GOTO 4
++  IF ~~ THEN REPLY @5 GOTO 6
++  IF ~~ THEN REPLY @6 GOTO 7
++  IF ~~ THEN REPLY @7 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~What... what are you talking about? How can you be joking at my misery? Your heart is colder than Bodhi's.~
+-  IF ~~ THEN REPLY ~Do not you see that I am crying, not laughing, you idiot? Be it as you wish. Good buy, my dear friend.~ GOTO 4
+-  IF ~~ THEN REPLY ~You are hilarious, ranger, just hilarious... (*laugh*)~ GOTO 5
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 4
++  IF ~~ THEN REPLY @10 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Thank you, <CHARNAME>.~
++  SAY @11
+   IF ~~ THEN DO ~SetGlobal("ValygarVampire","GLOBAL",3)
+ SetGlobal("VP_ValygarVamp_Alive","GLOBAL",2)
+ Kill(Myself)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~You know what's funny? I loved you. What's even funnier - I still love you and I cannot hurt you. What are you standing here for? Go, Bhaal's daughter, leave me to my fate.~
++  SAY @12
+   IF ~~ THEN DO ~SetGlobal("ValygarVampire","GLOBAL",3)
+ SetGlobal("VP_ValygarVamp_Alive","GLOBAL",2)
+ ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You already did. If I was dead, you might have tried to resurrect me, though I doubt that any priest would have succeeded to capture my soul. Kill me my dear friend, I shall feel no pain.~
+-  IF ~~ THEN REPLY ~Go away, just go away!~ GOTO 5
+-  IF ~~ THEN REPLY ~Valygar, I swear, I will find a way to bring you back... I hate you, Bodhi! I hope you are suffering in the Abyss! Good buy, Valygar.~ GOTO 4
++  SAY @13
++  IF ~~ THEN REPLY @14 GOTO 5
++  IF ~~ THEN REPLY @15 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Ironic indeed. What I did brought my mad mother peace at last. I have seen it in her eyes a moment before she died. I beg you to have mercy on me and do what I asked you to do.~
+-  IF ~~ THEN REPLY ~I will do the deed then. Good buy, my dear friend.~ GOTO 4
+-  IF ~~ THEN REPLY ~You are hilarious, ranger, just hilarious... (*laugh*)~ GOTO 5
+-  IF ~~ THEN REPLY ~Complex as always. So your mother had thoroughly enjoyed herself as her son cut her throat. Go away from me, you sick bastard.~ GOTO 5
++  SAY @16
++  IF ~~ THEN REPLY @17 GOTO 4
++  IF ~~ THEN REPLY @10 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~What... what are you talking about? You want to turn my misery and shame into a weapon? You are no better than Bodhi, <CHARNAME>. I cannot believe that someone I thought to be kind and compassionate is a cruel, egoistic...~
+-  IF ~~ THEN REPLY ~Oh, stop it! I was wrong. Mercy killing than. Common, lean your head back, I do not want to cause you more pain than necessary.~ GOTO 4
+-  IF ~~ THEN REPLY ~Valygar... I... you are asking too much of me. I cannot loose you again.~ GOTO 6
+-  IF ~~ THEN REPLY ~Finally you got it, Valygar! I am Bhaal's daughter, remember? I am to be the Lady of Murder one day... May be I shall start practicing from killing goody-goody delusional rangers...~ GOTO 5
++  SAY @19
++  IF ~~ THEN REPLY @20 GOTO 4
++  IF ~~ THEN REPLY @5 GOTO 6
++  IF ~~ THEN REPLY @21 GOTO 5
+ END

@@ -1,0 +1,10 @@
+--- NeJE\dlg\seigemes.d	Fri Nov 13 19:50:43 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\seigemes.d	Tue Apr 09 19:37:10 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~SIEGEMES~
+ 
+ IF ~Global("VP_Kr_Casle_Siege","GLOBAL",3)~ THEN BEGIN 1
+-	SAY ~Your Grace! The castle is under siege! A large group of Sythillisians approached the castle from the south. You must come to the gate immediatly!~
++	SAY @0
+ 		IF ~~ THEN DO ~SetGlobal("VP_Kr_Casle_Siege","GLOBAL",4)~ EXTERN ~KELDORJ~ siege
+ END

@@ -1,0 +1,885 @@
+@0   = ~GESCHUNDENE SEELEN v7.06~ 
+@1   = ~Bitte installiert "Thron von Bhaal" und den offiziellen TvB-Patch vor der Installation dieser Mod.~
+@2   = ~Bitte installiert Baldurdash-WeiDU v1.75 vor der Installation dieser Mod.~ 
+@3   = ~Spielt Schatten von Amn <TM> mit der neuen Erweiterung "Geschundene Seelen"~
+@4   = ~NEUES KAPITEL
+
+  Nachdem Saemon Havarian seine Beschwörungen beendet hatte, standet Ihr einige Minuten erwartungvoll auf dem Deck. Das Schiff, das fertig zum Auslaufen war, lag immer noch im Hafen von Athkatla... Plötzlich wurde die Besatzung unruhig und jeder deutete nach Osten. Ihr drehtet Euch in die Richtung und saht eine graue Wolkenwand am Horizont, die sehr schnell auf die "Gallante" zuraste. Einige Besatzungsmitglieder sprangen über Bord. Einige hinter Euch flüsterten: "Was hat das Schicksal wohl mit uns vor?" und spuckten auf das Deck. Dann wurde alles zu einem grauen Nebel und alles was Ihr spüren konntet, war eine Bewegung mit unglaublicher Geschwindigkeit... Aber Ihr konntet nicht die Richtung oder die Zeit bestimmen... Ihr verlort langsam Euer Bewusstsein... konntet Euch jedoch relativ schnell erholen. Das Schiff dümpelte nun in ruhigen Gewässern an einer geschützten Bucht, die von Felsen umgeben war. Kapitän Havarian nähert sich Euch ziemlich aufgeregt...~ [theme3] 
+@5   = ~KAPITEL VIER
+
+  Nach einigen Stunden ungestörter Seereise saht Ihr einen schimmernden Kreis am Horizont. Es ist das Portal! Saemon verringerte die Geschwindigkeit seiner "Gallante". Euer erfahrener Käpitän sah nervös aus, als das Schiff das Zeittor durchfuhr. "Athkatla" sagte er erleichtert... und der bekannte Hafen kam in Sichtweite... Ihr machtet aber in dem Hafen keinen Halt, sondern segeltet direkt nach Brynnlaw.
+
+  Bodhi hielt ihr Wort. Die Reise verlief ereignislos und wenn andere Schiffe am Horizont zu sehen waren, dann waren diese in sehr grosser Entfernung. Es war eine gute Zeit, und bald erschien eine mittelgrosse Insel am Horizont. Es hätte kein unfreundlicherer Ort sein können, aber ein drohender Schatten liegt über ihm. Die Zauberfeste ragt bedrohlich hoch auf den Klippen.~ [intro8]
+@6   = ~KAPITEL VIER
+
+  Nach einigen Stunden ungestörter Seereise saht Ihr einen schimmernden Kreis am Horizont. Es ist das Portal! Saemon verringerte die Geschwindigkeit seiner "Gallante". Euer erfahrener Käpitän sah nervös aus, als das Schiff das Zeittor durchfuhr. "Athkatla" sagte er erleichtert... und der bekannte Hafen kam in Sichtweite... Ihr machtet aber in dem Hafen keinen Halt, sondern segeltet direkt nach Brynnlaw.
+
+  Aran Linvail and Sime erwiesen sich als vertrauenswürdig. Die Reise war ereignislos, und wenn irgendwelche Schiffe am Horizont auftauchten, dann waren sie sehr weit enfernt. Es war eine gute Zeit, und bald erschien eine mittelgrosse Insel am Horizont. Es hätte kein unfreundlicherer Ort sein können, aber ein drohender Schatten liegt über ihm. Die Zauberfeste ragt bedrohlich hoch auf den Klippen.~ [intro8]
+@7   = ~Sime hatte Tod rundum um <CHARNAME> miterlebet, und nachdem ihre Abenteuer mit dem berüchtigten Bhaalspross zu Ende waren, kehrte sie nach Athkatla zurück, entschlossen, nie wieder die Seite ihres Vaters zu verlassen. Ihre Verwicklung mit den Schattendieben lief jedoch auf fremde Ereignisse hinaus, wie das Verteilen von Kostbarkeiten eines ausgeraubten Herrn an die Unglücklichen oder dem Verwenden von Mitteln und Arbeitskraft der Schattendiebe für edle Zwecke. Dewegen war Aran Linvail schließlich gezwungen, sich zurückzuziehen. Er ging mit Sime in ein kleines Dorf im Norden von Amn, wo Sime die Stellung des Schutzpatrons trotz ihrer Herkunft angeboten wurde. Aran war so gelangweilt, dass er anfing, sich für die örtliche Politik zu interessieren und innerhalb weniger Jahre wurde diese Gemeinde als Steuerparadies bekannt. Die Bürokraten in Athkatla hatten seit Jahren geglaubt, dass das nur ein namenloses kleines Dorf war, während es tatsächlich ein herausragender Handelsposten war. Aran blieb bis zu seinem Tod Bürgermeister der Gemeinschaft. Es ist nicht bekannt, was später aus seiner Halbelfen- Tochter wurde.~ 
+@8   = ~Nach einem halbes Dutzend Besuchen durch die Boten der Schattendiebe wurde es offensichtlich für <CHARNAME> und Sime, dass es Zeit war, Athkatla wieder zu besuchen. Es war keine grosse Überraschung für <CHARNAME>, dass ihr Aufenthalt mit Aran Linvail nicht lange dauerte. Sime warf einen Blick auf die Pläne ihres Vaters für ihre Hochzeit, und in dieser besonderen Nacht überzeugte sie <CHARNAME>, durchzubrennen. Um das Problem zu lösen, sich auszuruhen, verheirateten sie sich kurz danach im Wäldchen des Druiden. Jedoch hielt die Ehe Sime davon nicht ab, den nomadischen Lebensstil zu führen, und zusammen reisten sie viele Jahre lang durch das Land. Es wird gesagt, dass das Paar die Geburt eines Sohns und einer Tochter, genannt Gorion und Imoen, gesehen hat. Schließlich wurden die Märchen über <CHARNAME> und Sime so unglaublich, dass man nur annehmen kann, dass sie nicht mehr waren. Es ist nicht bekannt, wie und wenn sie ihr Ende fanden.~
+@9   = ~Nachdem sich seine Wege von <CHARNAME> getrennt haben, setzte Valygar seine Abenteuer mehrere Jahre lang fort, reiste in die unzivilisierten Gebiete des nördlichem Faerûn und wurde ein bekannter Anblick im Gebiet von Tiefwasser. Später war er zufrieden, schließlich nach Athkatla zurückzukehren und sich zu einem ruhigen, besinnlichen Leben auf dem Anwesen seiner Familie zurückzuziehen, das er sich immer gewünscht hatte. Auf Druck von Bewunderern innerhalb des lokalen Adels nahm er den Mantel des Hauptinspektors auf, eine Verantwortung, die er nie wünschte, aber bereitwillig an nahm, um die wachsende Bestechlichkeit innerhalb der Stadt zu bekämpfen. Viele Jahre lang wurde Valygars Name von jedem Verbrecher oder Sklavenhändler gespuckt, der es wagte, einen Fuß in die Stadt zu setzen. Valygar war unerschrocken und verwandelte die Stadt-Garnison in eine Macht, die sogar die selbstsichersten Diebe respektieren mussten. Valygar setzte sich oft mit den Schattendieben auseinander, bis sie schließlich einen Punkt der gegenseitigen Rücksicht erreichten... obwohl sogar dann meist der Waldläufer als Sieger betrachtet wurde. Zu seiner eigenen Überraschung stellte Valygar schließlich den guten Namen des Corthalas in Athkatla wieder her und verheiratete sich sogar. Sein einziger Sohn, der Stolz seines Lebens, nahm sich die Lehren seines Vaters zu Herzen? Valygar würde sehen, wie er fortsetzte, Kopf der Verhüllten Magier zu werden und ihr größten Vertreters der Verbesserungen, und dieses eine Mal in seinem Leben würde Valygar Stolz kennen. Sich an den Mann erinnernd, der er einmal gewesen war, vor seiner Geschichte in den tiefsten Wald von Amn fliehend, würde der Waldläufer dankbar sein, dass <CHARNAME> in sein Leben eingetreten ist und seinen alten Freund für immer alles gute wünschen.~ 
+@10  = ~Wirklich, <CHARNAME>, Ihr solltet es sein, die das schreibt... Weil Ihr am besten wisst, was mit Eurem loyalen Freund Valygar geschah, nachdem Ihr Euren Platz im Pantheon als Dame des Mordes zurückgewiesen habt. Valygar reiste mit <CHARNAME>, und eines Tages führte ihre Straße zu einem Dorf in Zakhara. Sehr zu Valygars Überraschung fand er, dass er dort eine große Familie hatte, von der kein einziges Mitglied mit dem Corthala-Fluch verdorben war. Abyssinas Sohn und <CHARNAME> erhielten ein warmes Willkommen, und bevor sie es wussten, verwandelte sich das ganze Dorf in einen Karneval, der ihre Ehe feiert. Um die Versammlung nicht zu enttäuschen, tauschten Valygar und <CHARNAME> ihre Gelübde vor dem Dorf und allen Göttern aus, die zugehört haben könnten. Sie lebten seit dieser Zeit glücklich und starben in dem selben Ort.~
+@11  = ~Kachiko and Yoshimo bereisten Faerûn noch viele Jahre nachdem sie <CHARNAME>s Gruppe verließen. Das Paar war überall beliebt sie gingen ihrem unbezähmbaren Geist und der Bereitschaft nach, jedem in Not zu helfen. Sie lebten viele Jahre lang aus ihren Rucksäcken und einigen Nimmervollen Beuteln. Es gab Gerüchte, dass Yoshimo und Kachiko Agenten im Dienst des Harfner waren. Andere sagen, dass sie niemandem dienten. 
+
+Die Hashimoto Familie verdoppelte sich zuerst und verdreifachte sich dann, und alle ihre Kinder wuchsen während der endlosen Reisen der Familie auf.  Das älteste Kind erhielt den Namen <CHARNAME>, in Erinnerung an ihren alten Freund. Yoshimo und Kachiko kehrten nie wieder nach Kozakura zurück, der Untergang ihrer Familien lastete zu schwer auf ihnen. Schließlich zogen sie sich zu Athkatla zurück. Yoshimo besitzt jetzt den "Abenteurer Markt", und Hashimotos kleines Haus im Brückenbezirk ist voll mit Enkeln und allen Arten von Wanderern. ~
+@12  = ~Hasuno~ 
+@13  = ~Kampfgrube~
+@14  = ~Diese Statue ist ein Abbild der Göttin Waukeen.  Sie stellt eine wunderschöne junge Frau dar, die eine Palme ausgestreckt hält.~ 
+@15  = ~Diese Regale sind vollgestopft mit Büchern, die den Handel in Kara-Tur beschreiben.~
+@16  = ~Diese Treppe ist blockiert.~
+@17  = ~Dieser Durchgang ist magisch versiegelt. Ihr könnt die Kampfarena nicht ohne Sondergenehmigung betreten.~
+@18  = ~Der Ring von Niri Alud~ 
+@19  = ~Dieser blaue Ring mit einem eingravierten tiefschwarzen Figürchen eines Turms war der Lieblingsring von Niri Alud, einem Beschwörer aus Tethyr, der das Schachspielen liebte. Auf seinen zahlreichen Reisen hatte er oft Schachspiele im Gepäck. Er wollte in der Lage sein, im Handumdrehen Verbündete herbeizurufen, ohne seine Absicht zu verraten. Aus diesem Grund schuf er verschiedene Schachspiele unterschiedlicher Farbe und andere Gegenstände wie diesen Ring, die konstruierte, golemartige Automaten herbeirufen konnten, um ihm in der Schlacht zu helfen. Fast alle Schachspiele und Gegenstände von Niri Alud gingen verloren, als er in Calimshan von Wüstenräubern überfallen wurde. Die Räuber, die nichts von Magie verstanden, ließen den größten Teil seiner Habe im Wüstensand versinken, die dann durch Handel und Diebstahl über hunderte von Kilometern reiste. Schatzsucher sind immer noch auf der Suche nach den Figuren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Fähigkeiten:
+ Unauffindbarkeit
+ +15% Im Schatten verstecken
+ +15% Schlösser öffnen
+
+Spezielle Fähigkeiten:
+ Kann dreimal am Tag einen Dieb als Verbündeten erschaffen
+
+Kann verwendet werden von:
+ Dieben (Einklassig, Zweiklassig und Mehrklassig)~
+@20  = ~Sunas Blüte~ 
+@21  = ~Eine hüsche lila Blume.~ 
+@22  = ~Gürtel des Stromnos~
+@23  = ~Der Zauberer Presdon erschuf diesen Gürtel vor vielen hundert Jahren für seine Leibwache namens Dendes. Er benannte den breiten Gürtel nach einem Hügelriesen, der ihn fast getötet hätte, als er nach Utensilien eines Spruches suchte. Dendes starb, als er Presdon gegen rivalisierende Magier aus Ordulin verteidigte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erhöht die Stärke des Trägers auf 19
+
+Kann nur verwendet werden von:
+ Kriegern (auch Mehrklassig)
+ Waldläufern (auch Mehrklassig)
+ Paladinen~ 
+@24  = ~Die Liebe der schwarzen Bess~
+@25  = ~Diese fürchterliche Waffe wurde durch eine schöne und grausame Zauberin gefertigt, die die Dame des Unglücks, Beshaba, anbetete. Ihr Name war Redani, und sie war sowohl für ihre Mächte als Zauberin als auch Verführerin bekannt. Die Liebe der schwarzen Bess wurde ihrem bevorzugtem Gefährten immer zu einem bestimmten Zeitpunkt gegeben. Ohne dass es ihre Liebhaber wissen, würde sie einen Ring der Bereitschaft an der Keule anbringen und den passenden Ring für einen besonderen Zeitpunkt aufheben. Wenn sie ihres Gefährten überdrüssig wurde, wie sie es immer tat, würde sie einem neuen Liebhaber den passenden Ring geben und den jungen Mann ausschicken, um ihren alten Liebhaber zu töten. Der neue Liebhaber würde den Ring einfach aufrufen, und die Keule würde in seine Hand fliegen.
+
+Leider war Redani erledigt, als sie dem falschen Mann vertraute, um ihren alten Geliebten zu töten. Gural von Chessenta, ein gut verkleideter Priester aus Hoar, nahm es selbst auf sich, Rache für einen Mann zu verüben, dessen Schädel er neben einer Straße aufgehoben hatte. Unglücklicherweise für Redani tun Priester von Hoar alles nur Erdenkliche, um die Toten zu rächen, selbst wenn es die Wiederbelebung aller ihrer toten Geliebten bedeutet, um ihr Glied für Glied abzureißen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 4 (Wuchtwaffe)
+ETW0-Bonus:  +3
+Spezielle Fähigkeiten:
+  10% aller Treffer bewirken, dass das Ziel 4 Punkte "Sagenkunde" verliert
+Gewicht:  7
+Geschwindigkeitsfaktor:  5
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben~
+@26  = ~Schachfigur~
+@27  = ~Weisser Läufer~
+@28  = ~Schach ist eines der "vier universellen Spiele" (Dame, Würfeln und Taliskarten sind die anderen drei). Viele glauben, dass Schach das anspruchsvollste und fesselndste dieser vier Spiele ist. Schachfiguren und -bretter werden oft aus einer Vielzahl von Materialien hergestellt. Marmor, Holz und Elfenbein sind die für Schachfiguren am häufigsten verwendeten Materialien..~
+@29  = ~Diese Schachfigur ist ein weißer Läufer aus Speckstein. Er ist eine der vielen verschollenen Figuren der legendären Schachspiele von Niri Alud. Niri Alud war ein Beschwörer aus Tethyr, der das Schachspielen liebte. Auf seinen zahlreichen Reisen hatte er oft Schachspiele im Gepäck. Er wollte in der Lage sein, im Handumdrehen Verbündete herbeizurufen, ohne seine Absicht zu verraten. Aus diesem Grund schuf er verschiedene Schachspiele unterschiedlicher Farbe, die konstruierte, golemartige Automaten herbeirufen konnten, um ihm in der Schlacht zu helfen. Fast alle Schachspiele von Niri Alud gingen verloren, als er in Calimshan von Wüstenräubern überfallen wurde. Die Räuber, die nichts von Magie verstanden, ließen die meisten Spiele im Wüstensand versinken. Die Schachspiele, die sie mitnahmen, wurden bald aufgeteilt, die Figuren reisten durch Handel und Diebstahl über Hunderte von Kilometern. Schatzsucher sind immer noch auf der Suche nach den Figuren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erschafft einmal am Tag einen priesterähnlichen Verbündeten.~
+@30  = ~Klinge der Nacht +4~
+@31  = ~Dies war die Waffe, die von der berühmtesten Meuchelmörderin in Kara Tur verwendet wurde, aber niemand außer dem Kaiser kannte ihren Namen. Sie war die größte Diebin, die die Welt jemals gesehen hatte. Sie erhielt diese mächtige Waffe nach der Vollendung einer Reihe von erfolgreichen Missionen für den Kaiser, der entschied, dass sie der Klinge würdig war. Sie wurde von den besten Waffenschmieden des Kaisers gefertigt, und dann im Blut von roten, schwarzen, silbernen und blauen Drachen veredelt. Die Legende sagt, dass diese Waffe irgendjemanden als Dieb fast ebenso gut machen würde wie den ursprünglichen Eigentümer, aber wegen der starken Verzauberung erfordert das Katana viel von seinem/ihrem Träger, und sie kann nur von Dieben verwendet werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+ +2 auf Rüstungsklasse
+ +2 auf Geschicklichkeit
+ -1 auf Konstitution
+
+Besondere Fähigkeiten:
+ + 15% auf alle Diebesfähigkeiten
+ Schutz vor negativer Ebene
+ Immunität gegen Gift
+ Immunität gegen hinterhältige Angriffe
+
+Kampffähigkeiten:
+ 10%-ige Chance von Lebensentzug beim Ziel bei jedem Treffer (wenn dem Ziel der Rettungswurf gegen Sprüche misslingt)
+
+Schaden: 1W10 + 5 (Hiebwaffe)
+ETW0-Bonus: +5
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Mindeststärke: 6
+
+Kann nur verwendet werden von:
+ Jeder Diebesklasse (auch Mehrklassig)~
+@32  = ~Der schwarze Bogen~
+@33  = ~Ein grob gearbeiteter Bogen, der von einem Siedler aus Cormyr in den westlichen Herzlanden von Faerûn als Racheinstrument hergestellt wurde. Ein ehemaliger Soldat namens Jonan von Suzail kehrte nach jahrelangen Feldzügen im Namen der Krone nach Hause zurück, um seine Jugendliebe zu heiraten. All die Jahre seines Militärdienstes hindurch war er seiner Liebsten treu geblieben und hatte seinen Lohn gespart. Er und seine junge Braut zogen nach Westen, um sich dort im Grenzgebiet anzusiedeln. In den Ländern nördlich von Baldurs Tor, östlich vom Trollwald, baute Jonan sein Heim und seinen Hof auf. Nach fünf Jahren suchten Räuber die Gegend heim, und Höfe rund um Jonans Hof wurden zerstört. Schließlich griffen sie auch Jonans Hof an, töteten seine Frau und sein Kind, und ließen ihn im Glauben zurück, er sei tot. Sein Bauernhof brannte bis auf die Grundmauern ab. Jonan fertigte kurz darauf diesen Bogen und rieb ihn mit der Asche seines Hofes und seiner Familie ein. Er begann dann einen mörderischen Rachefeldzug und tötete jeden der Räuber, wo er ihn fand, und tötete später jeden, der mit ihnen verkehrte. Die Weisen debattieren, wie der Bogen verzaubert wurde, aber die meisten glauben, dass er nach Jonans Tod von einem Gott gesegnet wurde. Einige sagen, dass er von Tyr gesegnet wurde, einige sagen durch Hoar, und andere sagen durch Bhaal. Theorien neigen dazu, sich zu drehen, je nachdem, ob der Sprecher glaubt, dass die Handlungen von Jonan gerecht, rachsüchtig, oder mörderisch waren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: 
+ 2 Bonus-Angriffe pro Runde
+
+Schaden: +3
+ETW0-Bonus: +4
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Bogen
+Waffentyp: zweihändig
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@34  = ~Stiefel der Vergessenen~
+@35  = ~Die runzligen, groben Stiefel wurden aus der Kopfhaut von toten Orkschamanen des Stammes der Stinkenden Pranke gemacht. Der machthungrige, religiöse Führer des Stamms, Algrash Der-Im-Dunkeln-Wacht, erteilte seinen Untergebenen den Befehl, seine Vorgänger auszubuddeln und aus ihrer Kopfhaut die Stiefel anzufertigen. Algrash wurde getötet, als er einen Kampf gegen eine Bande Oger provozierte. Seine Stiefel blieben am Ort seines Todes zurück.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ermöglicht dem Träger 2 extra Sprüche der 1. und 2. Stufe, sowie 1 extra Spruch der 3. Stufe
+Verdoppelt die Bewegungsrate des Trägers
+
+Kann nur verwendet werden von:
+ Klerikern (auch Mehrklassig)
+ Druiden (auch Mehrklassig)~
+@36  = ~Edventars Geschenk~
+@37  = ~Komposit Langbogen +4: Verteidiger~
+@38  = ~Der Komposit Langbogen ist dem Langbogen sehr ähnlich, außer dass der aus mehreren unterschiedlichen Materialien bestehende Schaft schwerer ist und fast so groß wie der Bogenschütze, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit. Dieser Langbogen wurde mit magischen Eigenschaften versehen, die ihm einen Hauch von Perfektion verleihen. Außerdem ist der starke Schaft dieses Bogens aus magisch verstärkter Zeder und Zirbelkiefer gemacht, was seinem Träger zusätzlichen Schutz gewährt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: +4 (Geschoss)
+ETW0-Bonus: +4
+Bonus auf Rüstungsklasse: +2
+Besonderheit: 
+ 4 Bonusangriffe pro Runde
+Gewicht:  8
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Bogen
+Waffentyp: zweihändig
+Mindestgeschicklichkeit: 17
+Mindeststärke: 17
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Barden
+ Mönchen
+ Kensai
+ Rittern~
+@39  = ~Katana +3: "Element der Luft"~
+@40  = ~Katana +3: "Element der Luft"
+
+Eines des vier Katanas der Elemente, das die Macht der Luft auf den Träger überträgt, wenn er die Sitten von Kara-Tur respektiert. Das nicht zu tun, könnte sein Glück drastisch zum schlechteren ändern. Nur jemand mit reinem Herzen kann ein Katana der Elemente benutzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+  +1 Geschicklichkeit
+  +1 Intelligenz
+  -2 Stärke
+  Immunität gegen Säure und Gift
+  Immunität gegen jeden elektrischen Schaden
+
+Fähigkeiten im Kampf:
+  Wenn ein Luftelementar getroffen wird, muss er einen Rettungswurf gegen Zaubersprüche bestehen, ansonsten wird er zerstört.
+
+Schaden: 1W10 + 3 (Hiebwaffe)
+Schadensbonus: 1W10 zusätzlicher elektrischer Schaden
+ETW0-Bonus: +3
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Mindestgeschicklichkeit: 16
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen
+ Tiermeistern
+ Bösen Charakteren
+ Gnomen
+ Zwergen
+ Halblingen~
+@41  = ~Katana +3: "Element der Erde"~
+@42  = ~Katana +3: "Element der Erde"
+
+Eines des vier Katanas der Elemente, das die Macht der Luft auf den Träger überträgt, wenn er die Sitten von Kara-Tur respektiert. Das nicht zu tun, könnte sein Glück drastisch zum schlechteren ändern. Nur jemand mit reinem Herzen kann ein Katana der Elemente benutzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+  +1 Stärke
+  +1 Konstitution
+  -2 Geschicklichkeit
+  Immunität gegen Versteinerung, Verwandlung, Panik und Krankheit
+  Immun gegen Wuchtwaffen und Hinterhältigen Angriff
+
+Fähigkeiten im Kampf:
+  5%-ige Chance der Versteinerung, wenn das Schwert den Gegner trifft
+  Wenn ein Erdelementar getroffen wird, muß er einen erfolgreichen Rettungswurf gegen Zaubersprüche ablegen, ansonsten wird er zerstört.
+
+Schaden: 1W10 + 3 (Hiebwaffe), zusätzlich 1W10 Wuchtschaden
+ETW0: +3 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Benötigt: Konstitution 16
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen
+ Tiermeistern
+ Bösen Charakteren
+ Gnomen
+ Zwergen
+ Halblingen~
+@43  = ~Katana +3: "Element des Feuers"~
+@44  = ~Katana +3: "Element des Feuers"
+
+Eines des vier Katanas der Elemente, das die Macht des Feuers auf den Träger überträgt, wenn er die Sitten von Kara-Tur respektiert. Das nicht zu tun, könnte sein Glück drastisch zum schlechteren ändern. Nur jemand mit reinem Herzen kann ein Katana der Elemente benutzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+  +1 Stärke
+  +1 Geschicklichkeit
+  -2 Weisheit
+  Immunität gegen alle Sprüche, die den Willen beeinflussen (Bezauberung, Schlaf, usw.)
+  Immunität gegen alle Sprüche, die die Mobilität beeinflussen (Halten, Hast, Verlangsamung, Betäubung)
+  100%-ige Feuerresistenz (normal und magisch)
+
+Fähigkeiten im Kampf:
+ Wenn ein Feuerelementar getroffen wird, muss er einen Rettungswurf gegen Zaubersprüche bestehen, ansonsten wird er zerstört.
+
+Schaden: 1W10 + 3 (Hiebwaffe), zusätzlich 1W10 Feuerschaden
+ETW0: +3 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Benötigt:
+  Stärke 17
+  Geschicklichkeit 17
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen
+ Tiermeistern
+ Bösen Charakteren
+ Chaotischen und Rechtschaffenen Gesinnungen
+ Gnomen
+ Zwergen
+ Halblingen~
+@45  = ~Katana +3: "Element des Wassers"~
+@46  = ~Katana +3: "Element des Wassers"
+
+Eines des vier Katanas der Elemente, das die Macht des Wassers auf den Träger überträgt, wenn er die Sitten von Kara-Tur respektiert. Das nicht zu tun, könnte sein Glück drastisch zum schlechteren ändern. Nur jemand mit reinem Herzen kann ein Katana der Elemente benutzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+ +1 Weisheit
+ +1 Charisma
+ -2 Konstitution
+ Immunität gegen Blindheit, Stille und Zeitstopp
+ Schutz vor negativer Ebene
+ Immunität gegen unbändige Magie
+ 100% Kälteresistenz (normal and magisch)
+
+Fähigkeiten im Kampf:
+ Jede vampirische Kreatur, die getroffen wird, muss einen Rettungswurf gegen Zaubersprüche bestehen, ansonsten wird es zerstört
+
+Schaden: 1W10 + 3 (Hiebwaffe), zusätzlich 1W10 Kälteschaden
+ETW0: +3 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Benötigt:
+ Weisheit 16
+ Charisma 16
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen
+ Tiermeistern
+ Bösen Charakteren
+ Gnomen
+ Zwergen
+ Halblingen~
+@47  = ~Nakanishi Schutzstein~
+@48  = ~Untersucht man diesen Schutzstein genauer, scheint dieser von mittelmässigem Wert zu sein, auf dem verschiedene Symbole eingraviert wurden.~
+@49  = ~Ring der Heiligkeit II~
+@50  = ~Ring der Heiligkeit II: "Segen der Götter"
+
+Ringe dieser Art wurden den treusten Priestern von Sune gegeben, die Handlungen der erstaunlichen Aufrichtigkeit und Güte demonstrierten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Sprüche: Gewährt einen extra Spruch der Stufen 5 bis 8
+
+Kann nur verwendet werden von:
+ Klerikern
+ Druiden~
+@51  = ~Selunes Lorbeeren der Gunst~
+@52  = ~Dieser Kranz aus Lorbeerblättern und Rosen war ein weiteres Geschenk der Kirche von Selune an Simes Mutter. Die Vertreter der silberhaarigen Göttin wurden gut empfangen, und die Hohepriesterin von Hanali Celanil trug den Lorbeer immer, wenn Menschen ihren Tempel besuchten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassenbonus: 2
+Besonderheit: +2 auf Charisma
+Gewicht: 1
+
+Ausschliesslich verwendbar von:
+  Sime~
+@53  = ~Kachikos Wakizashi +3~
+@54  = ~Dieses spezielle Schwert wurde Kachiko von ihrem Vater überreicht, als sie das Erwachsenenalter erreicht hatte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3 (Stichwaffe)
+ETW0-Bonus: -3
+Fähigkeiten im Kampf: 
+ Entzieht dem Ziel 2 Punkte Weisheit (dauert zwei Runden) bei jedem Treffer. (Ein erfolgreicher Rettungswurf gegen Tod verhindert die Auswirkung.)
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nur verwendet werden von:
+  Kachiko~
+@55  = ~Bambusgeist Wakizashi +4~
+@56  = ~Bambusgeist Wakizashi +4
+
+Dieses hochwertige Wakizashi besticht durch seine ungewöhnliche Konstruktion. Seine Klinge wurde aus einem unbekannten, farbig schimmernden Metall hergestellt. Die Schneide scheint jedoch aus reinem Silber zu bestehen. Schimmernde Runen sind auf der ganzen Klinge des Schwertes zu erkennen. Bei näherem Hinsehen scheinen die Runen sich zu bewegen. Über die Herkunft dieses Schwertes ist nicht viel bekannt. Kachiko sagte nur, dass es sich um ihre Lieblingswaffe handelt und dass es ihr vom Volk der Bambusgeister, welches in den südlichen Wäldern von Kozakura lebt, überreicht wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+ Regeneration (1 Trefferpunkt pro Sekunde)
+ Complete Mind Shield (Immunität gegen Panik, Furcht, Verwirrung, Zauber und Psionik)
+        
+Schaden:  2W6 + 4  (Hiebwaffe)
+ETWO: +4 Bonus
+Gewicht: 4
+Schadensart:  Wakizashi
+Geschwindigkeitsfaktor:  1
+Waffentyp: einhändig
+Mindeststärke: 8
+Kann verwendet werden von:
+ Kachiko~
+@57  = ~Silberne Handschuhe des Kedl~
+@58  = ~Dieser Magier, dessen Heimat in Phlan war, war auch als "Kedl der Drei Ringe" bekannt. Von ihm wird behauptet, dass er es war, der die Technik erfand, drei magische Ringe gleichzeitig zu tragen. Seine polierten silbernen Handschuhe waren ein ständiger Teil seiner Garderobe. Kedl hat seine Handschuhe möglicherweise verkauft, als er Geld für mächtige magische Ringe brauchte. Kedl starb vor vielen Jahren durch einen Überfall der Orks.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magierkiller
+ Kensai~
+@59  = ~Bronzeschlüssel~
+@60  = ~Ein verzierter Schlüssel aus Bronze.~
+@61  = ~Kupferschlüssel~
+@62  = ~Ein verzierter Schlüssel aus Kupfer.~
+@63  = ~Eisenschlüssel~
+@64  = ~Ein verzierter Schlüssel aus Eisen.~
+@65  = ~Elektrumschlüssel~
+@66  = ~Ein verzierter Schlüssel aus Elektrum.~
+@67  = ~Goldschlüssel~
+@68  = ~Ein verzierter Schlüssel aus Gold.~
+@69  = ~Platinschlüssel~
+@70  = ~Ein verzierter Schlüssel aus Platin.~
+@71  = ~Silberschlüsel~
+@72  = ~Ein verzierter Schlüssel aus Silber.~
+@73  = ~Schwarzer Springer~
+@74  = ~Diese Schachfigur ist ein schwarzer Springer aus Ebenholz. Er ist eine der vielen verschollenen Figuren der legendären Schachspiele von Niri Alud. Niri Alud war ein Beschwörer aus Tethyr, der das Schachspielen liebte. Auf seinen zahlreichen Reisen hatte er oft Schachspiele im Gepäck. Er wollte in der Lage sein, im Handumdrehen Verbündete herbeizurufen, ohne seine Absicht zu verraten. Aus diesem Grund schuf er verschiedene Schachspiele unterschiedlicher Farbe, die konstruierte, golemartige Automaten herbeirufen konnten, um ihm in der Schlacht zu helfen. Fast alle Schachspiele von Niri Alud gingen verloren, als er in Calimshan von Wüstenräubern überfallen wurde. Die Räuber, die nichts von Magie verstanden, ließen die meisten Spiele im Wüstensand versinken. Die Schachspiele, die sie mitnahmen, wurden bald aufgeteilt, die Figuren reisten durch Handel und Diebstahl über hunderte von Kilometern. Schatzsucher sind immer noch auf der Suche nach den Figuren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erschafft einen Verbündeten in der Form eines Springers, der Gegner angreift. Der schwarze Springer greift den nähesten Feind automatisch an.
+
+Kann nicht verwendet werden von:
+ Magierkiller~
+@75  = ~Simes Körper~
+@76  = ~Sime wurde von Bodhi entführt und mit Vampirismus angesteckt, Euch zwingend, sie zu töten. Es mag vielleicht einen Weg geben, sie wiederzubeleben, obwohl Ihr nicht wisst, was es sein könnte.~
+@77  = ~Diese Rüstung, schon lange im Besitz von der Corthalas Blutlinie, schützt den Anwender vor vielen Arten von Angriffen. Die Rüstung ist mit verzauberten elfischen Metallbändern vollendet, so dass sie den gleichen Schutz und die gleiche Rüstungsklasse für Valygar wie die Vollplattenrüstung gewährt. Sie fügt auch einen Bonus für Feuerwiderstand und Kälteschäden hinzu. Die Rüstung macht Valygar auch immun gegen Drachenatem und Energie- und Lebensentzug. Da sie speziell für Valygar ausgestattet ist, können wenige andere als er sie tragen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ausgerüstet Fähigkeiten:
+ Schutz vor negativer Ebene
+ Immunität gegen nichtmagische Waffen
+ Immunität gegen magische Waffen +1
+ Immunität gegen Flügelschlag
+   
+Rüstungsklasse: -2
+Rettungswürfe: +2 Bonus
+Feuer- Kältwiderstand: + 30% Bonus
+Gewicht: 9
+Kann verwendet werden von:
+ Valygar~
+@78  = ~Hojo Kriegsring der Nakanishi~
+@79  = ~Jeder weibliche Samurai von den Clans in Kozakura, der am Krieg in Hojo teilgenommenen hat, erhielt ihren eigenen Familienring des Schutzes von einem von Acht Millionen Göttern. Diesen Ring erhielt Kachiko von ihrer Mutter bei ihrem Aufstieg zum Erwachsensein. Da er an ihr Blut gebunden ist, darf der Ring weder von Kachiko entfernt noch seine Mächte von irgend jemand anderem verwendet werden. Der Ring gewährt einen +3 Bonus zur Rüstungsklasse und zur Konstitution.~
+@80  = ~Familienklinge der Corthalas
+Dieses herrliche Katana strahlt magische Energie aus, wenn es von Valygar benutzt wird. Sie gehorcht nur denjenigen, die das Blut der Familie Corthala in ihren Venen haben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: 3 Punkte zusätzlichen Schaden durch Bluten für 3 Runden
+ETW0-Bonus: -3
+Rüstungsklasse: -3 gegen Hiebwaffen
+Schaden:  1W10 + 3 (Hiebwaffe)
+Gewicht:  4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Kann nur verwendet werden von:
+ Valygar~
+@81  = ~Halbmond Medallion~
+@82  = ~Ein kleines Medallion in der Form eines Halbmondes an einer Kette.~
+@83  = ~Magisches Seil~
+@84  = ~Dieses Verzauberte Seil erlaubt dem Benutzer, hinunterzusteigen oder jede Höhe zu ersteigen. Es wird sich zu jeder Länge strecken und dennooch seine Festigkeit beibehalten.~
+@85  = ~Diese Waffe scheint ein riesiger Stab mit einem Metallring zu sein, der den Stab die Eigenschaften eines Streitkolbens annehmen lässt. Jedoch können ihn nur die stärksten Leute mit einer Hand ausüben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden:  2W4 + 2 (Kampfstab)
+ETW0:  +2 Bonus
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: einhändig
+Mindeststärke: 19
+
+Kann nicht verwendet werden von:
+ Mönchen~
+@86  = ~Edions Magiering~
+@87  = ~Edion, ein im Sterben liegender Nekromant aus Sembia, war der letzte Besitzer dieses mächtigen Rings. Er hatte den Ring für sich selbst angefertigt. Im hohen Alter gewöhnte er sich schon so an den Ring, dass er ihn praktisch immer trug. Er trug ihn am gleichen Finger, an dem man normalerweise einen Ehering trägt, um zu symbolisieren, dass er mit der Magie verheiratet sei.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verdoppelt die Anzahl der Sprüche der 5. Stufe eines Charakters.
+
+Kann nur verwendet werden von:
+  Magiern (auch Mehrklassig)~
+@88  = ~Rüstungsrobe~
+@89  = ~Von diesen wertvollen goldenen und purpurroten Roben sind in den Reichen nur einige wenige in Umlauf, und sie wurden alle von einem Bannwirker namens Delgam der Vielseitige gefertigt, der so genannt wurde, weil er so oft "auf der anderen Seite" oder "andererseits" sagte. Delgam vermied es, seine Gegenstände mit offensiven Kräften oder diversen anderen magischen Fähigkeiten zu versehen. Stattdessen konzentrierte er sich auf das, worauf sich Bannwirker am besten verstehen: auf die Verteidigung. Seine Roben waren so beliebt, dass Magier aus aller Welt zu ihm kamen und mehr davon wollten. Delgam zog es jedoch vor, in Vergessenheit zu geraten, anstatt die Bedürfnisse ganzer Horden machthungriger Zauberer abzudecken. Seine Roben sind seine bekannteste Hinterlassenschaft.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Besonderheit: 
+  +10%-ige Resistenz gegen Hieb-, Stich-, Wucht- und Fernkampfangriffe
+Gewicht:  5
+
+Kann nur verwendet werden von:
+ Magiern (auch mehrklassig)~
+@90  = ~Hut~
+@91  = ~Spitzbubenkutte~
+@92  = ~Magische Hüte können wirklich von fast jeder Art Kopfbedeckung sein. Sie schrumpfen oder dehnen sich, um sichjeder Kopfgröße anzupassen. Zeitgenössische Mode und Beruf diktieren häufig die Form und den Stil von magischen Hüten.~
+@93  = ~Diese dunkelbraune Kutte ist vorgesehen, um auf dem Kopf und über die Schultern als weite Kapuze getragen zu werden. Sie wurde von dem gnomischen Dieb und Zauberkünstler Brein Kastanie gefertigt. Brein verwendete die Kutte seit mehreren Jahren bei seinen eigenen Abenteuern, bevor sein Liebling aus derKindheit ihn überzeugte, sich niederzulassen. Er gab die Kutte seinem Neffen, Chirchet, der wiederum den Gegenstand für weit ausgedehnten Ackerboden verkaufte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse:  +2
+Besonderheit:
+  +10% auf Schleichen und im Schatten verstecken
+  Träger kann Blindheit und sprühende Farben einmal am Tag
+Gewicht:  2
+
+Kann nur verwendet werden von:
+ Dieben (auch Mehrklassig)
+ Waldläufern (auch Mehrklassig)
+ Barden~
+@94  = ~Skarabäus des guten Willens~
+@95  = ~Ein derartiges Amulett hat die Form eines Käfers und ist normalerweise nur in der Gegend von Mulhorand anzutreffen. Dieser Skarabäus wurde von einer Priesterin von Nepthys namens Ani Haloua gefertigt. Sie verwendete ihn in Verhandlungen mit Geschäftsleuten und der örtlichen Bevölkerung. Ähnliche Skarabäen sollen auch anderswo in den Reichen in Umlauf sein. Die Priester der Waukeen mögen sie besonders gern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+  +2 Geschicklichkeit
+  +2 Charisma
+  Träger kann einmal am Tag Freundschaft und Bezauberung wirken
+
+Kann nicht verwendet werden von:
+  bösen Charakteren
+  Magierkillern~
+@96  = ~Gesegnetes Amulett~
+@97  = ~Dies Amulett trägt das sich ständig wiederholende, eckige, geometrische Muster, für dass die Handwerker des vor langer Zeit untergegangenen Myth Lharast bekannt waren. Nach heutigem elfischen Kunstbegriff ist das Amulett fast schon schmucklos. Es war ein Geschenk an Kiran-Hai, der Kreissängerin von Angharradh und Hüterherrin der Baumgräber in Myth Lahl. Der Name des Schöpfers des Amuletts ist verloren gegangen. Wie man glaubt, ist es später von Priesterinnen von Selune, Göttin des Mondes, gesegnet worden. Sime erbte dieses Amulett von ihrer Mutter, und nimmt es niemals ab.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ Magieresistenz: +15%
+ Senkt die Dauer um einen Spruch zu sprechen um 1
+ Immunität gegen Stufenabzug
+ +2 auf Geschicklichkeit
+ +2 auf Charisma
+
+Kann nur verwendet werden von:
+  Sime~
+@98  = ~Arans Schutzumhang~
+@99  = ~Die Ursprünge dieser Robe gerieten in den Nebeln der Zeit in Vergessenheit. Sie befand sich jedoch einige Zeit im Besitz von Drosus, einem relativ mächtigen Magier aus Tiefwasser. Drosus wurde das Opfer eines besonders großen Rudels Winterwölfe, nachdem er allein in die Berge des Grates der Welt aufgebrochen war. Dort war er gezwungen diesen Umhang gegen einen anderen, dickeren Umhang zu tauschen, um sich vor der Kälte zu schützen...
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Der Umhang gewährt einen Rüstungsklasse-Bonus +3 und kann in Kombination mit jeder anderen Art Schutzzauber getragen werden - folglich kann er anders als ein Schutzumhang über einer magischen Rüstung  getragen werden.
+
+Rüstungsklasse:  +3
+Gewicht:  3
+
+Kann nicht verwendet werden von:
+  Magierkillern~
+@100 = ~Arans Liebe +6~
+@101 = ~Es gab ein Gerücht, dass Aran Linvail sich einmal als junger Abenteurer in ein Elfen-Mädchen verliebte. Sie war das schönste Wesen, das er jemals in seinem Leben gesehen hatte. Um seine Geliebte auf ihrem Reisen zu schützen, bat er einen der berühmten Calishite Großhändler, ihm die am meisten unverwundbare Lederrüstung zu bringen, die er finden würde. Nach zwei Monaten brachte der Großhändler diese ausgezeichnete Garnitur einer beschlagenen Lederrüstung zu Aran, aber das war zu spät. Seine Geliebte wurde von einem Goblin-Bogenschützen im Wald von Tethyr erschossen. Aran hat diese Rüstung lange in Erinnerung an seine kurze und leidenschaftliche Liebe behalten, und hat diese Rüstung schließlich seinem bevorzugtem Gildenmeister geschenkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ +15% Resistenz gegen Feuer, Kälte und Säure
+ +50% Resistenz gegen Fernkampfwaffen
+ +15% Im Schatten verstecken
+ Immunität gegen Verwirrung
+
+Rüstungsklasse: 1
+Gewicht: 35
+Mindeststärke: 6
+
+Verwendbar von:
+  Sime~
+@102 = ~Selûnes Gelöbnis~
+@103 = ~Die Waffe befand sich einst im Besitz einer trauernden Hohepriesterin der Mondmaid. Selûnes Gelöbnis hat eine kurze, aber traurige Geschichte. Die Melancholische Fassa, wie man sie heutzutage nennt, war die Anführerin einer Gruppe von Abenteurern im Dienste der Selûne, die es sich zur Aufgabe gemacht hatten, Untote zu zerstören, wo auch immer sie auf sie trafen. Die Gruppe war zuerst ziemlich erfolgreich und musste nur selten Verluste hinnehmen. Tymoras Glück konnte natürlich nicht ewig auf ihrer Seite sein.
+
+Im Jahr 1156 TZ betraten Fassa und ihre Gruppe das Grabmal der Düsternis. Die Gruppe hatte erfahren, dass es in dem Grabmal angeblich eine Verbindung zur Negativen Ebene gab, doch sie hatten keine Ahnung, wie viele untote Wesen sich tatsächlich im Grabmal aufhielten. Zwischen den scheinbar harmlosen Poltergeistern und Phantomen lauerten mächtige Todesalbe und Schreckgespenster. Innerhalb weniger Minuten verzweifelten Kampfes, der durch eine grausige Stille gekennzeichnet war, hatten die Untoten beinahe alle Gefährten von Fassa ihrer Lebensenergie beraubt. Fassa und die Überlebenden flohen und versuchten, einen Plan für einen Gegenangriff zu schmieden. Als sie in der nächsten Nacht zurückkehrten, waren alle von Fassas ehemaligen Gefährten als Schreckgespenster im Dienste ihres neuen Meisters auferstanden. Fassa und ihre verbleibenden Gefährten zerstörten den Meister und erlösten schließlich auch die Seelen ihrer gequälten Brüder. Schlussendlich stand nur noch Fassa.
+
+Fassa kehrte verzweifelt in ihren Tempel zurück und betete zu Selûne, sie möge sie den Schmerz dieser Nacht niemals vergessen lassen. Selûne gewährte ihr den Wunsch, und ein geisterhafter bläulichweißer Streitkolben tauchte beim nächsten Vollmond auf Fassas Bett auf. In den Schaft der Waffe waren zwei Worte geritzt: Vergieß niemals.
+
+Fassa wurde zu einer fanatischen Untotenjägerin. Im Alter von 33 Jahren verfiel die verbitterte und ermüdete Fassa immer mehr. In der Nacht des Vollmondes schwor sie vor der versammelten Priesterschaft und ihren Vorgesetzten dem Glauben an Selûne ab. Wenige Stunden später warf sie sich von einer hohen Klippe in die Mondsee. Der Streitkolben wurde in ihrem Zimmer gefunden und blieb ungern in der Kirche. Viele Jahre später entschied sich der neue Hohepriester des Tempels dafür, diese einzigartige Waffe einer neuen vielversprechenden Priesterin zu schenken. Dieser Streitkolben war die Lieblingswaffe der Mutter von Sime.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden:  1W6 + 4 (Wuchtwffe)
+ETW0-Bonus:  +3
+Besonderheit:   
+ Doppelter Schaden gegen Untote und Außerplanare Wesen
+ Untote:
+  1-4 Trefferwürfel: Automatisch zerstört
+  5 Trefferwürfel: 95%-ige Chance zerstört zu werden
+  6 Trefferwürfel: 80%
+  7 Trefferwürfel: 65%
+  8-9 Trefferwürfel: 50%
+  10 Trefferwürfel: 35%
+  11+ Trefferwürfel: 20%
+ Außerplanare Wesen:
+  5%-ige Chance zerstört zu werden
+Gewicht:  5
+Geschwindigkeitsfaktor:  4
+Waffenfertigkeit:  Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+ bösen Charakteren
+ Druiden
+ Magiern
+ Dieben
+ Mönchen~
+@104 = ~Drei weisse Tauben~
+@105 = ~Drei Weiße Tauben, ein äußerst ungewöhnlicher Streitkolben, wurde im Jahr 850 TZ von Alledec, einem Priester des Ilmater, angefertigt. Alledec hatte zwanzig Jahre lang für den Orden gekämpft und beschlossen, dass es an der Zeit war, etwas zu hinterlassen, das die Kirche auch nach seinem Tod noch verwenden könnte. So entstand dieser Streitkolben mit einem Kopf aus Elfenbein. Der Schaft der Waffe besteht aus schwarz emailliertem Stahl, und der Griff ist aus Elfenbein geschnitzt. Goldringe halten den Kopf und den Griff fest. Der Kopf selbst ist der ungewöhnlichste Teil des Streitkolbens. Er ist aus purem Elfenbein geschnitzt und ähnelt drei weißen Tauben, die zum Zentrum des Streitkolbens schauen. Die ausgebreiteten Flügel der Tauben formen die Flansche des Streitkolbens.
+
+Alledec starb drei Jahre, nachdem er den Streitkolben fertiggestellt hatte, im Schlaf. Der Streitkolben wurde einem umherziehenden Kämpfer im Dienste der Kirche des Ilmater gegeben. Der Kämpfer gab die Waffe später an einen Priester des Ilmater namens Recken der Tapfere weiter. Recken verlor den Streitkolben, als er in der Nähe des Trollwaldes gegen einen mächtigen Vampir kämpfen musste. Recken gewann zwar schließlich den Kampf gegen den Vampir, aber den Streitkolben bekam er nie zurück.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 2, +3 gegen Untote (Wuchtwaffe)
+ETW0-Bonus:  +2, +3 gegen Untote
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+ bösen Charakteren
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@106 = ~Riesentöter~
+@107 = ~Ein Halblingkrieger namens Kim Sumpfwächter setzte diese mächtige Waffe gegen die Riesen ein, die oft mordend und plündernd in sein Heimatland einfielen. Er schleuderte ihnen damit so viele Steine an den Schädel, dass sie entweder vor Schmerzen umfielen oder wegliefen. Nachdem Kim als Aufseher seiner Heimat abgelöst worden war, wurde er widerwillig zu einem Abenteurer. Er soll 760 TZ von den gefürchteten Moornebeln von Acallo verschluckt worden sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: +1, +4 gegen Riesen
+ETW0-Bonus: +2, +5 gegen Riesen
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Schleuder
+Waffentyp: einhändig
+
+Nich verwendbar von:
+  Kensai
+  Ritter~
+@108 = ~Vergänglicher Schutzstein~
+@109 = ~Zauberring II~
+@110 = ~Zauberring II: "Ergreifender Ring"
+
+Das ist die verzauberte Version des berühmten Zauberrings.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewährt zwei extra Sprüche der des fünften und sechsten Grades, einen extra Spruch des siebten und achten Grades.
+
+Kann nur verwendet werden von:
+ Magiern~
+@111 = ~Trank der Taten-Übertragung~
+@112 = ~Die Flüssigkeit des Tranks hat eine seltsame trübe Qualität, die Ihr in anderen Tränken nicht bemerkt habt. Er scheint, einige Eurer Eigenschaften zu beeinflussen, aber Ihr seid nicht sicher, welche von ihnen und wie.~
+@113 = ~Trank der Kraft-Übertragung~
+@114 = ~Trank der Lebens-Übertragung~
+@115 = ~Trank der Aura-Erhöhung~
+@116 = ~Wenn er vollständig verbraucht ist, scheint dieser seltsam trübe Trank Eure Intelligenz und Weisheit um einen Punkt zu erhöhen und gewähren Euch 10% Magiewiderstand. Der Effekt ist augenblicklich und der Trank wird dabei zerstört.~
+@117 = ~Trank der Heiligen Übertragung~
+@118 = ~Abyssinas Halskette~
+@119 = ~Diese Halskette besteht aus weissen, rosanen und sehr seltenen blauen Perlen. Geheimnisvolles Schimmern erhöht ihre außerordentliche Schönheit, und Ihr könnt annehmen, dass sie mit einer starken Verzauberung versehen ist. Die Halskette gehörte einst Abyssina Corthala, einer Magierin mit keinem unbedeutendem Ruf.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
++1 auf Intelligenz
++1 auf Weisheit
+Sagenkunde wird um 50 erhöht~
+@120 = ~Weisses Figürchen vom Schreckenswolf~
+@121 = ~Geschnitzt aus weissem Aalabaster, ist diese Figur mehr als nur ein Kunstwerk. Es ist vollgesogen mit der Seele eines weißen Schreckenswolfes namens Veter. Der Schreckenswolf kann leicht unter seiner Sippe durch seine Größe, den rubinroten Augen und dem schneeweißen Fell erkannt werden. Außerdem trägt der Schreckenswolf ein rubinbesetztes silbernes Halsband. Anders als andere Wesen, die durch solche Figürchen gebunden sind, wird Veter nicht auf der Materiellen Ebene schwächer und kann mit seinem gewählten Meister solange wie nötig bleiben. Der Wolf kann jederzeit gerufen werden. Veter betrachtet Sime zur Zeit als seine Herrin.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+ Immunität gegen Todesmagie
+ Immunität gegen PSI-Kräfte und Gedankenkontrolle
+ Immunität gegen Halten, Betäuben und Versteinerung
+
+Diebesfähigkeiten:
+ Fallen entdecken: 100%
+ Im Schatten verstecken: 90%
+ Leise bewegen: 95%
+ 4x hinterhältiger Angriff
+
+Magische Fähigkeiten:
+ Infravision
+ Magieresistenz: 50%
+ Erweiterte Unsichtbarkeit: zweimal am Tag
+ Heilender Speichel: zweimal am Tag~
+@122 = ~Katana +3~
+@123 = ~Katana +3 "Wu Haltai"
+
+Der Träger eines edlen Katanas wie diesem, muss die Gebräuche von Kara-Tur und der Samurai respektieren, die einst diese Klinge im Kampf trugen. Das nicht zu tun, könnte sein Glück drastisch zum schlechteren ändern. Dieses besondere Katana hat sein Gegenstück, das "Wu Jen" Katana. Es wird gesagt, dass, wenn diese beiden von derselben Person im Kampf ausgeübt werden, der Träger unverwundbar wird. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ Gewährt +1 Rüstungsklasse-Bonus
+ Regeneriert 1 Trefferpunkt pro Runde
+ Jeder Treffer verringert die Magieresistenz des Gegners um 10%
+
+Schaden: 1W10 + 3 (Hiebwaffe)
+ETW0: +3 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Benötigt:
+ 17 Stärke
+ 17 Geschicklichkeit
+ 12 Intelligenz
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Zwergen
+ Halblingen
+ Gnomen
+ Tiermeistern
+
+Kann nur verwendet werden von:
+ Guten oder Neutralen Gesinnungen~
+@124 = ~Katana +2 "Wu Jen"
+
+Dieses Katana ist das Gegenstück zu dem "Wu Haltai" Katana. Es wird gesagt, dass, wenn diese beiden von derselben Person im Kampf ausgeübt werden, der Träger unverwundbar wird. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ Immunität gegen Sprüche der Stufe 1, 2, 3 und 4
+ Immun gegen Stufenabzug
+ Einmal am Tag kann Genesung gesprochen werden
+
+Schaden: 1W10 + 2 (Hiebwaffe)
+ETW0: +2 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+Benötigt:
+  15 Geschicklichkeit
+  15 Intelligenz
+
+Kann nicht verwendet werden von:
+ Paladinen
+ Druiden
+ Klerikern
+ Magiern
+ Zwergen
+ Halblingen
+ Gnomen
+ Tiermeistern
+
+Kann nur verwendet werden von:
+ Guten oder Neutralen Gesinnungen~
+@125 = ~Mourners Rüstung~
+@126 = ~Diese einzigartige Rüstung hat eine fremdländische Form und wurde geschaffen für einen Kara-Turian Samurai der Baika Sippe. Die Rüstung, gefertigt aus dünnen, steifen Leder, ist schwarz gefärbt, aber mit den Abzeichen der Pflaumenblüte, dem Mon (Wappensymbol) der Baika Sippe. Es wurde nur einst in der Schlacht getragen werden, als Baika Himuro einen aussichtslosen Kampf gegen den feindlichen Samurai kämpfte, der den Besitz seiner Vorfahren überflutete. Es wird angenommen, dass die feildliche Sippe die Rüstung erbeutete und später gegen Belagerungswaffen tauschte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+maximale Trefferpunkte: +15
+
+Ausgestattete Fähigkeiten:
+ +75% Widerstand gegen Geschosswaffen
+ +25% Widerstand gegen Feuer und Kälte
+
+Ausgestattet Nachteile:
+ -1 auf die Geschicklichkeit
+
+Besondere Fähigkeiten:
+Immunität gegen hinterhältige Angriffe
+Immunität gegen normale Waffen
+Regeneriert 1 Trefferpunkt alle 3 Sekunden
+
+Diese Rüstung ist verflucht und kann nur einem "Entfernt Verzauberung"-Spruch entfernt werden.
+
+Gewicht: 20
+
+Kann nur verwendet werden von:
+ Dieben~
+
+@128  = ~%str_add%         -1~
+@129 = ~Streitkolben~
+@130 = ~Magie bannen~
+@131 = ~Kampfstab~
+@132 = ~Morgenstern~
+@133 = ~Langschwert~
+@134 = ~Zweihändiges Schwert~
+@135 = ~Blindheit~
+@136 = ~Sprühende Farben~
+@137 = ~Freundschaft~
+@138 = ~Bezauberung~
+@139 = ~Entzug von Lebenskraft~
+@140 = ~Horror~
+@141 = ~Vampirgriff~
+@142 = ~Katana +2 "Wu Jen"~
+@143 = ~Geringere Genesung~
+@144 = ~Aino Hashimoto~
+@145 = ~Aino~
+@146 = ~Alome Nakanishi~
+@147 = ~Alome~
+@148 = ~Basilisk~
+@149 = ~Bischof~
+@150 = ~Berserker Krieger~
+@151 = ~Gefangene Frau~
+@152 = ~Ätherische Stimme~
+@153 = ~Farbiger Drachen~
+@154 = ~Dalhaleitkazyyr~
+@155 = ~Höherer Wasserelementar~
+@156 = ~Höherer Zombie~
+@157 = ~Hitomi Nakanishi~
+@158 = ~Hitomi~
+@159 = ~Hashimoto Wache~
+@160 = ~Kachiko~
+@197 = ~Kachikos dunkle, mandelförmige Augen funkeln geheimnisvoll, als Ihr sie nach Ihrer Vergangenheit fragt. "Ich bin Kachiko, vom Hause der Nakanishi," sagt sie mit sanfter Stimme und erzählt Euch von ihrem weit entfernten Heimatland. Sie spricht von Tempeln, deren Dächer so spitz wie die Gebirge sind, Gärten aus Steinen, von tapferen Kriegern, die einem strikten Ehrenkodex folgen, von Perlen, die aus der Tiefe des Meeres geholt werden, von Kaisern und Millionen von Geistern, die ihr Land bevölkern, bis Ihr sie unterbrecht: "Aber was ist mit Euch, Kachiko?" Sie lächelt und antwortet: "Ich bin Kachiko vom Hause Nakanishi. Ich bin, was Ihr vor Euch seht, mein Freund. Seht in mein Gesicht, dann könnt Ihr meine Vergangenheit, meine Gegenwart und meine Zukunft sehen."~
+@198 = ~König~
+@199 = ~Kiotsi~
+@200 = ~Ritter~
+@201 = ~Merella~
+@202 = ~Darriel~
+@203 = ~Lulu Hashimoto~
+@204 = ~Lulu~
+@205 = ~Masaki Hayashi~
+@206 = ~Masaki~
+@207 = ~Schattendieb~
+@208 = ~Michio Nakanishi~
+@209 = ~Michio~
+@210 = ~Momoko Nakanishi~
+@211 = ~Momoko~
+@212 = ~Najoki Nakanishi~
+@213 = ~Najoki~
+@214 = ~Nanny~
+@215 = ~Nakanishi Wache~
+@216 = ~Untoter Samurai~
+@217 = ~Nakanishi Acolyt~
+@218 = ~Ogi Hashimoto~
+@219 = ~Ogi~
+@220 = ~Otako Hashimoto~
+@221 = ~Otako~
+@222 = ~Pawn~
+@223 = ~Königin~
+@224 = ~Gauner~
+@225 = ~Sasaki Hashimoto~
+@226 = ~Sasaki~
+@227 = ~Sime~
+@263 = ~Diese lebhafte Blondine redet und handelt, als ob die Welt eine große Reise ist und sie nicht vorhat, irgendetwas zu verpassen. Sime lacht leichthin, kann eine Nacht fort tanzen, und sie singt ein Lied über eine große weit zur[ckliegenden Schlacht mit der gleichen Begeisterung wie eines über die Liebe. Durch diese Kühnheit könnt Ihr eine freundliche Stimme, die wahre Stimme von Sime Linvail hören. Nach einer Weile erfahrt Ihr, dass sie eine Tochter des Schattenmeisters von Athkatla ist. Sime Linvail besucht Athkatla hin und wieder, um sich mit ihrem Vater zu treffen. Diese Sitzungen enden jedoch immer in einem Streit über Arans Handlungen und Sime flieht aus der Stadt und verspricht, niemals zurückzukommen.~
+@264 = ~Sol~
+@265 = ~Sola~
+@266 = ~Solauf~
+@267 = ~Flügger Vampir~
+@268 = ~Priester der Selune~
+@269 = ~Veter~
+@270 = ~Hsiang~
+@271 = ~TS Musik-Themen hinzufügen...~
+@272 = ~Yoshimos Katana +3
+
+Diese von Kara-Turianischen Meistern der geheimnisvollen Künste stark verzaubert Klinge hat einen Anflug von Bewusstsein erlangt, genug, dass es nur Yoshimo erlaubt, es zu schwingen. Jeder andere kann dieses einzigartige Katana nicht verwenden. Es gewährt Yoshimo nicht nur physischen und magischen Schutz, sondern ermöglicht ihm auch Zeit für einen zusätzlichen Angriff.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+   +1 Bonus auf die Rüstungsklasse
+   10% Magiewiderstand
+
+Kampffähigkeiten:
+   Erhöht die Angriffe um +1 pro Runde
+
+ETW0: +3 Bonus
+Schaden: 1W10 + 3
+Schadensart: aufschlitzen
+Gewicht: 5
+Gewschwindigkeitsfaktor: 3
+Waffenfertigkeit: Katana
+Waffentyp: einhändig
+
+Kann nur verwendet werden von:
+    Yoshimo~
+@273 = ~Boo~
+@287 = ~Heilender Speichel~
+@288 = ~Böses entdecken~
+@289 = ~ANIMATIONEN. Bitte installiert diese Komponente nicht, wenn Ihr bereits NEVER ENDING JOURNEY 2 installiert habt oder installieren wollt.~
+@290 = ~GRAFISCHE BENUTZEROBERFLÄCHE (GUI). Diese Komponente fügt Eurem ursprünglichen BG2 eine neue GUI hinzu. Bitte installiert diese Komponente nicht, wenn Ihr bereits NEVER ENDING JOURNEY 2 installiert habt oder installieren wollt.~
+@291 = ~GEBIETE & KLÄNGE. Diese Komponente ist erforderlich, um die Mod zu spielen.~

@@ -1,0 +1,224 @@
+@0 = ~Lester der NPC für BGII~
+@1 = ~Krieger mit dem Bierkrug~ 
+@2 = ~BIERKRUG-KRIEGER: Auf den ersten Blick ist dies nichts weiter als ein durchschnittlicher Ritter. Allerdings, wenn er betrunken ist, werden seine außerordentlichen Fähigkeiten freigesetzt.
+
+Vorteile:
+- Der Charakter erhält, wenn er betrunken ist, hohen Bonus auf Kraft und Ausdauer
+- Die Fähigkeit "Illusionen entdecken" ist so wirkungsvoll wie "Im Schatten verstecken"
+- Konstante Unempfindlichkeit gegenüber psychischen Attacken
+
+Nachteile:
+- Kann sich nicht auf Distanzwaffen spezialisieren
+- Kann nicht zwei- oder mehrklassig sein
+- Hat manchmal Probleme mit dem Umgang von Alkohol
+- Übermäßiger Alkoholkonsum verursacht hohe Abzüge bei Fähigkeiten und Fertigkeiten.~
+@3 = ~Lester~
+@4 = ~Als er nach seiner Vergangenheit gefragt wird, wendet sich LESTER Euch zu und Ihr spürt seinen Atem mit dem Geruch von Alkohol. Gerührt von Eurem Interesse beginnt er, seine Geschichte zu erzählen, aber die Geschichte ist so chaotisch, voll von bunten Beschreibungen der wichtigsten Schlachten und schönen Jungfrauen, voller Flüche und Verwünschungen, dass es Euch kaum gelingt, sie zu verstehen. Ihr könnt nur so viel daraus schließen, dass Lester dem Alkoholismus verfiel, wahrscheinlich wegen dem Bekenntnis zur Liebe, die ihn vor vielen Jahren traf, und sein wichtigstes Ziel im Leben ist, ist eine romantische Liebe bis zum Tode zu finden. Und nebenbei, weil er ein gutes Herz hat und voller Mitleid ist, versucht er so viele böse Monster zu töten, wie er nur schafft.
+Zum Abschluss seiner Geschichte wischt sich Lester mit dem Ärmel Tränen aus den Augen und fängt dann an, auf der Suche nach Bier wie wild im Rucksack zu stöbern.~
+@5 = ~So soll es sein! Tapferkeit und großer Konsum von Bier gehen Hand in Hand.~
+@6 = ~Können wir unser eigenes Verhalten zu besprechen? Bei einem Bier?~
+@7 = ~Ihr trinkt kein Bier... Ihr seid lächerlich... Was mache ich in dieser Gruppe?~
+@8 = ~Bierkrug-Krieger geben sich nicht mit einem solchem Aas wie Euch ab.~
+@9 = ~Was?~
+@10 = ~Ich kann jetzt nicht mehr.~
+@11 = ~Keinen Augenblick Ruhe...~
+@12 = ~Wartet~
+@13 = ~Oh, in Ordnung!~
+@14 = ~Gruppe! Bitte folgt mir!~
+@15 = ~Als Anführer ordne ich eine halbstündige Rast im nächstgelegenen Wirtshaus an!~
+@16 = ~Die Beine tun mir weh. Ich möchte etwas trinken.~
+@17 = ~Da wir jetzt nirgedwo hingehen, lasst uns ein Bier trinken.~
+@18 = ~Aua~
+@19 = ~Mein Schwert ist sehr schmutzig!~
+@20 = ~Achtung, Achtung, geht in Deckung.~
+@21 = ~Ah... hebt mir ein Bier auf!~
+@22 = ~Alles in Ordnung, es schmerzt mich nichts.~
+@23 = ~Oh, Entschuldigung, wo ist die nächste Kneipe?~
+@24 = ~Ich kenne hier einen kühlen Gasthof. Sie haben billiges Bier und Bratwurst. ~
+@25 = ~Oh, wie schön hier. Wie in einem Weinkeller. Oder gibt es vielleicht irgendwo Wein?~
+@26 = ~Naoch ein Bier!~
+@27 = ~Ach, Pech gehabt!~
+@28 = ~Ah, ein harter Kerl! Trinkt Wahrscheinlich eine Menge Bier.~
+@29 = ~Löchrige Taschen! Ich habe etwas verloren.~
+@30 = ~Ich kann mich nicht konzentrieren. Habt Ihr nicht genug Bier?~
+@31 = ~Tarin~
+@32 = ~Bons~
+@33 = ~Lenn~
+@34 = ~Fuzuli~
+@35 = ~Hlayster~
+@36 = ~Artemis Entreri~
+@37 = ~Raserei vor Trunkenheit~ 
+@38 = ~Hicks~
+@39 = ~Besoffen~
+@40 = ~Tinktur~
+@41 = ~Vortäuschung~
+@42 = ~Trinklied~
+@43 = ~Rolle~
+@44 = ~Gähnen~
+@45 = ~Lesters Schmutziges Schwert~
+@46 = ~Lesters Schmutziges Schwert +2
+
+Lester legte wie die meisten Betrunkenen nicht allzu viel Wert auf Hygiene, was zu einem unangenehmen Geruch führte sowie dem katastrophalen Zustand, den seine Waffen boten.
+Das Schwert, einst wahrscheinlich glatt und glänzend, ist so schmutzig und rostig, dass jeder Hieb Wundinfektion verursachen und dadurch weiteren Schaden zufügen kann.
+Darüber hinaus besteht die Gefahr einer Infektion bei jeder Person, die das Schwert handhabt. In diesem Fall - Lester, denn nur er kann mit dieser Waffe umgehen, alle anderen ekeln sich davor, sie in die Hand zu nehmen.
+
+EIGENSCHAFTEN:
+
+Besonderheit:
+Bei jedem Schlag besteht ein 25%-ige Chance, eine Krankheit bei einem verwundeten Feind zu verursachen.
+Bei jedem Schlag besteht ein 5%-ige Chance, eine Krankheit bei einem Menschen zu verursachen, der das Schwert benutzt.
+
+ETW0: 2
+Schaden: 1W8 2
+Art der Verletzung: Schnitt
+Gewicht: 4
+Initiativefaktor: 3
+Art der Fertigkeit: Langschwert
+Waffenart: 1-händig
+
+Kann verwendet werden von:
+ Lester~
+@47 = ~Lesters Schmutziges Schwert +3, +4 gegen Rechtschaffene
+
+Dieses magische Schwert könnte das Gegenteil dessen bewirken, was vorgesehen ist. Anstatt wieder seine alte Pracht herzustellen, verursachte Cromwell, dass es noch mehr verschmutzt und verrostet. Zumindest umwickelte er den Griff mit Lumpen, damit es nicht Vergiftungen bei Personen hervorruft, die es handhaben.
+Diese Waffe hat einen schlechten Ruf in den Kreisen all jener, die sich der Hygiene allzu bewußt sind (alle rechtschaffene Charaktere), in dem Maße, dass der bloße Ausblick, es zu benutzen, sie abschreckt.
+
+EIGENSCHAFTEN:
+
+Besonderheit:
+Bei jedem Schlag besteht ein 25%-ige Chance, eine schwere Krankheit bei einem verwundeten Feind zu verursachen.
+
+ETW0: 3
+Schaden: 1W8 +3, +4 gegen Rechtschaffene
+Gewicht: 4
+Initiativefaktor: 3
+Art der Fertigkeit: Langschwert
+Waffenart: 1-händig
+
+Kann verwendet werden von:
+ Lester~
+@48 = ~Lesters Schmutziges Schwert +4, +6 gegen Rechtschaffene
+
+Ein mit Magie durchtränktes Schwert mit noch mehr Macht, diesmal von Cespenara im Abgrund der Hölle geschaffen, das bedeutete, dass es, obwohl es noch schmutzig und rostig ist, eine der stärksten Waffen in Faerûn ist, während seine mörderischen Eigenschaften bereits als Legenden im Umlauf sind.
+Lester nannte es "Den Rächer", aber unter den Feinden des Schmutzes war es als "Schmutziger Donnerball" bekannt. Das Aussehen des Schwertes ruft Entsetzen unter rechtschaffenen Charakteren hervor.
+
+EIGENSCHAFTEN:
+
+Besonderheit:
+Bei jedem Schlag besteht ein 25%-ige Chance, eine Krankheit bei einem verwundeten Feind zu verursachen.
+
+ETW0: 4
+Schaden: 1W8 +4, +6 gegen Rechtschaffene
+Gewicht: 4
+Initiativefaktor: 3
+Art der Fertigkeit: Langschwert
+Waffenart: 1-händig
+
+Kann verwendet werden von:
+ Lester~
+@49 = ~Lesters Steppjacke~
+@50 = ~Lesters bevorzugte Steppjacke
+
+Diese Steppjacke ist eine Art warm gefütteter dicker Jacke. Sie sieht ziemlich abstoßend aus und bildet keinen Schutz gegen Angriffe, aber schützt vor Kälte und wird von Lester dermaßen geliebt, dass er sie nie auszieht (auch nicht während er schläft). Durch die Vernachlässigung der Hygiene ist sie für seine Begleiter ziemlich unangenehm.
+
+EIGENSCHAFTEN:
+
+60% Widerstand gegen Kälte
+
+Rüstungsklasse: 5
+Gewicht: 25
+
+Kann verwendet werden von:
+ Lester~
+@51 = ~Wurfflasche~
+@52 = ~Wurfflasche
+
+Diese leere Flasche von einem Getränk (wahrscheinlich Alkohol) kann als Wurfwaffe verwendet werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6
+Art der Verletzung: Zertümmerung
+Schaden: 1W4
+Art der Verletzung: Schnitt
+Gewicht: 5
+Art der Fertigkeit: Pfeil
+Waffenart: 1-händig
+
+Kann nicht verwendet werden von:
+ Jeder Art von Rechtschaffenen
+ Priestern
+ Paladinen
+ Magiern
+ Druiden
+ Mönchen
+ Elfen
+ Halbelfen~
+@53 = ~Medizintrank~
+@54 = ~Dieser Trank wirkt wie ein Zauber oder ein gewöhnlicher Trank zur  Wundbehandlung und stellt 14 Punkte wieder her. Allerdings ist er stark genug, dass nur Krieger mit einer Mindeststärke von 17 ihn einnehmen können. Jeder, der diese Anforderung nicht erfüllt, wird sich auf jedem Fall weigern, sich mit dieser Tinktur behandeln zu lassen.~
+@55 = ~Gerstenbier~
+@56 = ~Zwergen-Gerstenbier Bernsteinmond
+
+Dies ist ein reines, starkes untergäriges Bier, das seit mehr als 300 Jahren von Zwergen auf der Grundlage eines traditionellen klösterlichen Rezepts hergestellt wird. Seine Zusammensetzung unterliegt einem Geheimnis, das viele erfolglos versucht haben, zu stehlen - auf Kosten ihres Lebens, wie es heißt.
+Dieses Bier ist bernsteinfarben (daher der offizielle Name: Bernsteinmond), ist bitter im Geschmack, und beim Eingießen bildet sich ein dichter, üppiger Schaum.~
+@57 = ~Rotwein~
+@58 = ~Rotwein
+
+Dieser Wein ist keiner der wertvollsten Sorten, hat aber viele begeisterte Anhänger. Es ist aromatisch, trocken und kräftig, und wird sowohl von einfachen Leuten von mittlerem Stand als auch vom Adel sehr geschätzt.~
+@59 = ~Geheimnisvoller Trank~
+@60 = ~Diese klare Flüssigkeit sieht scheinbar harmlos aus, aber wenn man daran riecht,  fühlt sich sein Geruch schärfer und berauschender an als der stärkste bekannte Wodka. Es ist möglich, dass Lester diese Spezialität selbst brannte, daher sollte man mit besonderer Vorsicht mit ihm umgehen. Vielleicht war der Entschluss, ihn zu probieren, zu voreilig...?~
+@61 = ~Geschichte von der Bruderschaft der Bierkrug-Krieger~
+@62 = ~Geschichte von der Bruderschaft der Bierkrug-Krieger:
+
+Die Bruderschaft der Bierkrug-Krieger wurde im Jahr 1117 von Barnena Tiris Luskan, genannt die Petze, gegründet. Barnen war zu jung für einen Söldner, Schmuggler, Barde und Abenteurer, wurde aber vor allem für seine Liebe zum Bier bekannt, das er in einer unglaublichen Menge vertilgen könnte.
+Mit Zeit wurden dseine Person zunehmend auch in den Kreisen von jungen, ehrgeizigen Abenteurern bekannt, aber seine derben Sinngedichte von der Art "Der Schalk und das ängstliche Goblin-Mädchen", das er unter Pseudonym veröffentlichte, war sehr beliebt bei den jungen Damen und ließ manche von ihnen erröten.
+In früherer Zeit war Barnena von einem Kreis Bewunderer umgeben und schwamm in Geld (angeblich während der Expedition auf dem blauen Drachen erworben, desto wahrscheinlicher ist es, dass er auf Lizenzgebühren als auf eine "Fee" zurückzuführen war), und schließlich, angeregt durch die Idee eines jungen Burschen, beschlossen sie, einen Elite-Verband zu gründen, eine Bruderschaft von Anhängern eines guten Kampfes, die eines Umtrunks und anderer Unterhaltung würdig waren.
+Die Bruderschaft wurde zunächst als "Orden der betrunken Paladine" bezeichnet, aber infolge zahlreicher Proteste von religiösen Orden des Rittertums war Tiris gezwungen, ihr einen neuen Namen zu geben, der bis heute blieb.
+Nach dem Tod von Barnena übernahm Grot Tarman den Titel Großer Säufer und führte eine Reihe wichtiger Änderungen in den grundlegenden Prinzipien und Strukturen der Bruderschaft ein.
+Der Sitz der Bierkrug-Krieger wurde nach Tiefwasser verlegt, und die Vereinigung selbst, die bisher eigentlich nur ein geselliger Klub war, verwandelte sich in einen echten militärischen Orden, der entsprechend den Regeln funktionierte, wie sie von anderen "ernsthaften" Orden gepflegt werden. Eingeführt wurde eine strenge Ausbildung, die sowohl Praxis als auch theoretischen Unterricht, Exkursionen, zahlreiche Spiele und Turniere umfasst.
+In den zehn Jahren nach der Machtübernahme in der Höhle der Bruderschaft hat sich die Zahl der Mitglieder mehr als vervierfacht und erreichte fast tausend. Das waren goldene Zeiten, in denen in fast jedem Restaurant dieErfahrung von Bierkrug-Kriegern miterlebt werden konnte, die atemberaubende Geschichten von ihren Abenteuern erzählten, aber in gewissen Abständen waren stockbetrunkene Ritter, die in Wäldern gegen gefährliche Monster kämpften, kein seltener Anblick.
+Nach seinem Tod in einer Höhle im Jahr 1156 begannen sich über der Bruderschaft dunkle Wolken zu sammeln. Als Ergebnis der inneren Auseinandersetzungen wurde über drei Jahre hinweg der Große Säufer nicht ausgewählt, und leider haben viele Fälle von Veruntreuung von Geldern der Bruderschaft zur Beschlagnahme eines wesentlichen Teil des Vermögens durch den Gerichtsvollzieher geführt.
+Nur mit schnellen und dramatischen Umwälzungen, die im Jahr 1172 stattfanden, die auf die Hinrichtung des Grossen Säufers und des Rates hinausliefen, konnte die Stabilität und Ordnung der inneren Strukturen des Ordens wiedergestellt werden.
+Die Bruderschaft steht heute gewissen finanziellen Schwierigkeiten gegenüber, die Rekruten werden jedes Jahr weniger*, aber dennoch ist sie bereits eine Legende unter den vielen jungen Menschen, die vom Abenteuer fasziniert sind, und die Qualität der Ausbildung gewährleistet, dass Krieger das Tor des Vereins verlassen, die im Umgang mit dem Schwert und dem Konsum von Bier besonders erfahren sind.
+Der Titel Ehren-Säufer wird auf besonders verdienstvolle Mitglieder  übertragen oder auf Personen, die von der Bruderschaft unabhängige sind, aber er spiegelt die großen Verdienste wieder. Unter den mit dieser Auszeichnung geehrten sind so bekannte Namen wie:
+Der König der Mithrilhalle Bruenor Schlachtenhammer für die Förderung der gesunden Ernährung durch helles Bier in großen Mengen.
+Der Bierkrug-Krieger Adalbert Fester für den heldenhaften Akt der Zerstörung der Troll-Höhle in den Sümpfen der Immermoore (Die Auszeichnung wurde nach dem Tode verliehen).
+Der Bierkrug-Krieger Nottel Zacharias für ein Sieg in einem internationalen Turnierspiel mit Koboldköpfen im Jahr 1322.
+Der Bierkrug-Krieger Vernon serter, für die heldenhafte Tat, den roten Drachen Firkraag allein zu töten.**
+Der Chemie-Professor Harold Starkel für die Entwicklung von Methoden zur Herstellung von starkem untergärigen Bier.
+
+*) Im Jahr 1365 hatte der Orden 428 Mitglieder, rund 37 weniger als im Vorjahr. Quelle: Statistisches Jahrbuch 1365, Tiefwasser.
+**) Dieser Titel wurde wahrscheinlich aberkannt, weil der Drache Firkraag in Amn gesehen wurde und sich bester Gesundheit erfreut. Zur Zeit der Drucklegung des Buches haben die Redakteure noch keine Nachricht von einem Sonderbeauftragten erhalten, der die Gerüchte untersuchen sollte.~
+@63 = ~Trank der Sturm-Kaninchenstärke~
+@64 = ~Gemäß den Worten von Bonsa erhält die Person, die diesen Trank trinkt, eine gewaltige Kraft vergleichbar mit einem Monster der Oberfläche - einem Sturm-Kaninchen.
+
+EIGENSCHAFTEN:
+
+Stärke: 28 (Sturm-Kaninchenstärke)
+Dauer: 10 Runden~
+@65 = ~Purpurrotes Öl der Schildkröten-Geschwindigkeit~
+@66 = ~Bons behauptet, dass diese Mixtur der Person, die sie trinkt, eine Lebendigkeit vergleichbar mit der Geschwindigkeit eines kleinen Tiers der Oberfläche verleiht - der Purpurroten Schildkröte.
+Der Trank wirkt 5 Runden lang.~
+@67 = ~Kobold Hautausschlag-Salbe<TM>~
+@68 = ~Wenn Ihr bei Eurer Arbeit zufällig eine schmutzige Waffen berührt, nicht mehr frische Würmer esst oder einen bösen Zauber erlitten habt und Hautausschlag bekommt - dann ist das Produkt für Euch!
+Mit der Kobold Hautausschlag-Salbe<TM> werdet Ihr schmerzhaftes Jucken wieder los und Eure Haut bekommt wieder die gesunde Farbe von faulem Obst. Tragt ein wenig der Kobold Hautausschlag-Salbe<TM> gegen Reizung auf und reibt sie mit sanften Bewegungen in Eure Haut ein.
+Kobold Hautausschlag-Salbe<TM> ist ein Ergebnis langjähriger Erfahrung bei der Bekämpfung der Hautreizung und ist eine Garantie für gesunde Haut und Wohlbefinden!
+
+Zutaten:
+ getrocknete Mistel
+ Gargoyle Krallen
+ Salamander-Öl
+ Ratten Kleinhirn
+ Farbstoff E150d
+ Wasser
+
+EIGENSCHAFTEN:
+
+Dauer: die Wirkung!
+Nebenwirkungen: keine
+
+Lest vor Gebrauch das dem Paket beigefügte Pergament oder wendet Euch an einen spezialisierten Heiler oder Magier.~
+@69 = ~Vampir-Hefe~
+@70 = ~Dieses Fläschchen enthält eine geringe Menge einer sehr seltenen und wertvollen Substanz - Vampir-Hefe.
+Hefen gehören zu einer Gruppe sogenannter Edelpilze, werden in der Alchemie verwendet, und - der Legende nach - von Vampiren zur Durchführung der Fermentation von menschlichem Blut.
+Alle Arten von Hefe-Organismen sind saprophytisch {zersetzend}, aber Vampir-Hefen haben in der Tat parasitäre Eigenschaften. Der Inhalt der Flasche reicht aus, um große Mengen von Blut zu fermentieren.~ 

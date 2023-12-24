@@ -1,0 +1,20 @@
+--- TS\baf\YOSHX.baf	Thu Jan 06 16:01:48 2005
++++ C:\BWP Patchstudio\patched files\TS\baf\YOSHX.baf	Mon Oct 03 16:14:14 2016
+@@ -10,7 +10,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("VP_Kachiko_Dies","GLOBAL",1)
+ 		EquipMostDamagingMelee()
+-		DisplayStringHead(Myself,~Kachiko, don't give up, I will help you!~)
++		DisplayStringHead(Myself,@0)
+ 		MoveToObjectNoInterrupt(LastAttackerOf("Kachiko"))
+ 		AttackReevaluate(LastAttackerOf("Kachiko"),75)
+ 		Continue()
+@@ -24,7 +24,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Kachiko_Dies","GLOBAL",2)
+-		DisplayStringHead(Myself,~Kachiko! Nooooo!!!~)
++		DisplayStringHead(Myself,@1)
+ 		Attack(LastAttackerOf("Kachiko"))
+ END
+ 

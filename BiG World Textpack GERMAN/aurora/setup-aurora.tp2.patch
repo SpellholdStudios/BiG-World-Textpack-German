@@ -1,0 +1,10 @@
+--- aurora\setup-aurora.tp2	Fri Jul 19 04:29:04 2019
++++ C:\BWP Patchstudio\patched files\aurora\setup-aurora.tp2	Thu Dec 02 09:23:24 2021
+@@ -65,6 +65,7 @@
+ LANGUAGE ~Francais~ ~french~ ~aurora/french/setup.tra~
+ LANGUAGE ~Italiano~ ~italian~ ~aurora/italian/setup.tra~
+ LANGUAGE ~Russian~ ~russian~ ~aurora/russian/setup.tra~
++LANGUAGE ~German~ ~german~ ~aurora/german/setup.tra~
+ 
+ //! Main component //////////////////////////////////////////////////////////
+ BEGIN @1 //Aurora's Shoes and Boots

@@ -1,0 +1,31 @@
+--- NeJ\baf\4001V4.baf	Tue Dec 02 00:21:06 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V4.baf	Wed Apr 10 10:28:32 2019
+@@ -8,22 +8,22 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #16
+-		DisplayStringHead(Myself,~You distract them, Maud, and I'll...~) // "You distract them, Maud, and I'll..."
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #20
+-		DisplayStringHead(Myself,~SOMEONE HELP US!~) // "SOMEONE HELP US!"
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ 	RESPONSE #16
+-		DisplayStringHead(Myself,~Why aren't we being saved?~) // "Why aren't we being saved?"
++		DisplayStringHead(Myself,@2) // @2
+ 		Wait(3)
+ 	RESPONSE #16
+-		DisplayStringHead(Myself,~I'll not be food for these...beasts.~) // "I'll not be food for these...beasts."
++		DisplayStringHead(Myself,@3) // @3
+ 		Wait(3)
+ 	RESPONSE #16
+-		DisplayStringHead(Myself,~The nerve of these lizard men...~) // "The nerve of these lizard men..."
++		DisplayStringHead(Myself,@4) // @4
+ 		Wait(3)
+ 	RESPONSE #16
+-		DisplayStringHead(Myself,~Why, if I had a stout sword in my hand...~) // "Why, if I had a stout sword in my hand..."
++		DisplayStringHead(Myself,@5) // @5
+ 		Wait(3)
+ END
+ 

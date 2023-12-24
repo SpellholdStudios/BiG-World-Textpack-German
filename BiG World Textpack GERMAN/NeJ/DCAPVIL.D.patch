@@ -1,0 +1,150 @@
+--- NeJ\Dfiles\DCAPVIL.D	Tue Dec 02 23:25:46 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DCAPVIL.D	Wed Apr 10 10:23:54 2019
+@@ -6,126 +6,126 @@
+ IF WEIGHT #19 
+ ~RandomNum(10,1)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 0 // from:
+-  SAY ~We're going to die in here unless someone kills those... things.~ 
++  SAY @0 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #20 
+ ~RandomNum(10,2)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 1 // from:
+-  SAY ~I'm scared out of my wits, I am.~ 
++  SAY @1 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #0 ~RandomNum(10,3)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 2 // from:
+-  SAY ~Please, you *must* stop these lizard... things from eating us.~ 
++  SAY @2 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #1 ~RandomNum(10,4)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 3 // from:
+-  SAY ~I wish Egenia were here.  She'd help us through this.~ 
++  SAY @3 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #2 ~RandomNum(10,5)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 4 // from:
+-  SAY ~I swear, had I a knife I'd have skinned those lizards myself.~ 
++  SAY @4 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #3 ~RandomNum(10,6)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 5 // from:
+-  SAY ~We're all gonna die!  Aaaugh!  *sob*  *sob*~ 
++  SAY @5 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #4 ~RandomNum(10,7)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 6 // from:
+-  SAY ~Ilmater protect us.  If you can't do that, at least help us endure the suffering to come.~ 
++  SAY @6 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #5 ~RandomNum(10,8)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 7 // from:
+-  SAY ~I *told* them.  I said, "We're probably going to be abducted by lizard men."  Did anyone listen to me?  Nooooooo.~ 
++  SAY @7 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #6 ~RandomNum(10,9)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 8 // from:
+-  SAY ~I'm so hungry, *I* could eat me.  Heh.  Uh, just kidding, of course.~ 
++  SAY @8 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #7 ~RandomNum(10,10)
+ !Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 9 // from:
+-  SAY ~At least we'll be warm when we die.~ 
++  SAY @9 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #8 ~RandomNum(10,1)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 10 // from:
+-  SAY ~You killed 'em!  You actually did it!  Ha HA!~ 
++  SAY @10 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #9 ~RandomNum(10,2)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 11 // from:
+-  SAY ~Oh, thank you!  Thank you!~ 
++  SAY @11 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #10 ~RandomNum(10,3)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 12 // from:
+-  SAY ~We're free... we're finally free!~ 
++  SAY @12 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #11 ~RandomNum(10,4)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 13 // from:
+-  SAY ~About time.  You'd think you were building an ice castle before you got rid of those lizard men.  I almost *died,* you know.~ 
++  SAY @13 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #12 ~RandomNum(10,5)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 14 // from:
+-  SAY ~Whew.  Thank Waukeen we're out of that.  I sure hope someone knows the way down to the village.~ 
++  SAY @14 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #13 ~RandomNum(10,6)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 15 // from:
+-  SAY ~I can't wait to get back to Kuldahar!~ 
++  SAY @15 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #14 ~RandomNum(10,7)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 16 // from:
+-  SAY ~If you hadn't come right when ya did, I'd a kicked those lizard arses up and down this mountain.~ 
++  SAY @16 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #15 ~RandomNum(10,8)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 17 // from:
+-  SAY ~I wonder what happened to that elf who tried to help us.~ 
++  SAY @17 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #16 ~RandomNum(10,9)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 18 // from:
+-  SAY ~I'll never forget this horrid place.~ 
++  SAY @18 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #17 ~RandomNum(10,10)
+ Global("LKingDead","GLOBAL", 1)~ THEN BEGIN 19 // from:
+-  SAY ~Time to make me some lizard skin boots.  Ha!  That'll show 'em.~ 
++  SAY @19 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #18 ~True()~ THEN BEGIN 20 // from:
+-  SAY ~I'll never go up in these mountains again, that's for sure.~ 
++  SAY @20 
+   IF ~~ THEN EXIT
+ END

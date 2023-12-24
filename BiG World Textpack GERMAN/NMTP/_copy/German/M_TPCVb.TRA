@@ -1,0 +1,11 @@
+@65   = ~(Ermittlung der Fertigkeiten...)~ 
+@66   = ~(Ermittlung der Fertigkeiten beendet.)~
+@101  = ~(Das Kochen ist beendet.)~ 
+@200  = ~\[Erfolg\]... (Ihr kocht erfolgreich ein leckeres Essen.)~
+@300  = ~\[Misserfolg\]... (Ihr vermasselt es.)~ 
+@1000 = ~Ihr wollt nichts kochen.~
+@1001 = ~Seid Ihr bereit, das Gericht nach diesen Rezepten zu kochen?~
+@1002 = ~\[Kochen\] - Ihr versucht, entsprechend der "Rezepte und Grübeleien des Dradeel von Tethir" einen Tollkirsch-Kuchen zuzubereiteten. (Ihr benötigt 1 Tollkirsche, die kostet 20 Goldmünzen).~ 
+@1003 = ~\[Kochen\] - Ihr versucht, entsprechend der "Rezepte und Grübeleien des Dradeel von Tethir" eine Gemüse-Überraschung zuzubereiteten (kostet 20 Goldmünzen).~
+@1004 = ~\[Kochen\] - Ihr versucht, entsprechend der "Rezepte und Grübeleien des Dradeel von Tethir" köstliche und günstige Nudeln zuzubereiteten (kostet 5 Goldmünzen).~ 
+@1005 = ~\[Kochen\] - Ihr versucht, entsprechend der "Ork-Rezepte" einen Topf mit Wildschweinfleisch zuzubereiten (kostet 30 Goldmünzen).~

@@ -1,0 +1,19 @@
+--- TS\Boo\BOO.D	Sat Mar 05 15:52:29 2016
++++ C:\BWP Patchstudio\patched files\TS\Boo\BOO.D	Thu May 05 10:47:07 2016
+@@ -1,14 +1,14 @@
+ BEGIN ~BOO~
+ 
+ IF ~!CharName("Minsc",LastTalkedToBy)~ THEN BEGIN Boo1
+-  SAY ~(You grab Boo and give 'him' to Minsc.)~ [BOOHL]
++  SAY @0
+   IF ~~ THEN DO ~GiveItemCreate("Boo","Minsc",0,0,0)
+ RealSetGlobalTimer("VP_NoBoo","GLOBAL",6)
+ DestroySelf()~ EXIT
+ END
+ 
+ IF ~CharName("Minsc",LastTalkedToBy)~ THEN BEGIN Boo2
+-  SAY ~(Minsc grabs Boo and places 'him' on his shoulder.)~ [BOOHL]
++  SAY @1
+   IF ~~ THEN DO ~GiveItemCreate("Boo","Minsc",0,0,0)
+ RealSetGlobalTimer("VP_NoBoo","GLOBAL",6)
+ DestroySelf()~ EXIT

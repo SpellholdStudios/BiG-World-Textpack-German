@@ -1,0 +1,29 @@
+--- NeJE\TS\baf\AltUniv.baf	Thu Dec 30 16:40:44 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\AltUniv.baf	Tue Apr 09 19:39:38 2019
+@@ -5,7 +5,7 @@
+ 	Range(LastTrigger,9)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~This altar requires a key of some sort.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF
+@@ -20,7 +20,7 @@
+ 		!PartyHasItem("USPOT5B")
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~Upon thorough investigation of the altar, you find the ancient carvings, which form the words: "BRING ME YOUR ACTION, STRENGTH, LIFE AND HOLY WATER"~) 
++		DisplayString(Myself,@1) 
+ END
+ 
+ IF
+@@ -54,7 +54,7 @@
+ 	Global("VP_UnivAltar","GLOBAL",1)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~There is nothing else to do with this altar.~) 
++		DisplayString(Myself,@2) 
+ END
+ 
+ IF

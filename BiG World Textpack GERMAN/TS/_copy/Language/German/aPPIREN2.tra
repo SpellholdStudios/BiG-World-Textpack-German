@@ -1,0 +1,54 @@
+@0  = ~Ich verstehe nicht, wovon Ihr da eigentlich redet?~ 
+@1  = ~Grämt Euch nicht, <CHARNAME>. Es wird schnell vorüber sein.~
+@2  = ~Im Inneren des Heims
+
+Irenicus offenbarte sich selbst. Er hatte geplant, mich hierher zu bringen. Durch Verrat konnte er mich in seine Gewalt bringen und nun will er meine "unsterbliche Seele" an sich reissen. Mit Imoen hatte er das gleiche vorher schon getan... die laut Irenicus auch ein Kind Bhaals sein soll.
+
+Warum hat Gorion mir dies nicht erzählt? Wie konnte sie die ganze Zeit ein Kind Bhaals sein? Sicher gab es da eine Art Verbindung zwischen uns... Und wenn man Irenicus glauben kann, dann hielt Imoens Geist der Belastung ziemlich lange stand... Aber am Ende ist dies alles unwichtig. Er sagte, dass Imoen den Prozess fast nicht überlebte, den er ebenso mit mir vorhatte. Er scheint nicht zu glauben, dass ich überlebe.~ 
+@3  = ~Yoshimo! Es ist noch nicht zu spät! Helft mir!~
+@4  = ~Ich verfluche Euch und auch Bodhi, Irenicus. Und auch Yoshimo!~ 
+@5  = ~Tut, was Ihr müsst. Ich bin auf jeden Verrat vorbereitet.~
+@6  = ~Nun! Ihr seid in der Tat stark! Ihr leistet trotz allem Widerstand! Eine Schande, dass Ihr innerlich tot seid.~ [IRENIC45]
+@7  = ~Welche Kreatur Ihr auch immer erschaffen habt, ich habe sie bezwungen. Ihr werdet der Nächste sein.~ 
+@8  = ~Eure Pläne sind fehlgeschlagen. Lasst mich frei und ich werde Milde walten lassen.~
+@9  = ~Ihr könnt mich nicht gegen mich selbst aufbringen. Ich habe Kräfte, die Ihr nicht sehen könnt.~ 
+@10 = ~Yoshimos Verrat war umsonst. Ich habe Euren miesen Diener beseitigt.~
+@11 = ~Ich habe Euch dessen beraubt, was Euch ausmacht. Das ist der schlimmste aller Flüche, ich weiss das nur zu gut.~ [IRENIC46]
+@12 = ~Was versucht Ihr zu bewerkstelligen, Irenicus? Was habt Ihr vor?~ 
+@13 = ~Ich werde Euch immer bekämpfen, Irenicus! Egal, wie Eure Pläne auch sein mögen!~
+@14 = ~Ich werde es nicht zulassen, dass Ihr Imoen weiter quält. Ich werde uns beide befreien.~ 
+@15 = ~Ich werde mich dafür rächen, was Ihr und Yoshimo getan habt!~
+@16 = ~Ich entbiete Euch ein Lebewohl, Kind von Bhaal. Wir werden uns nicht wieder sehen.~ [IRENIC52]
+@17 = ~Die Transformation und der Traum
+
+Während Irenicus seinen Zauber anwandte, um mir meine Essenz... meine Seele... zu nehmen, hatte ich einen Traum, in dem ich gegen die Personifizierung meines Instinktes kämpfte und siegte. Ich wachte wieder auf. Mein Sieg in meinem Traum bedeutete nicht automatisch den Sieg in der Wirklichkeit. Irenicus hatte meine Seele erfolgreich an sich gerissen und merkte an, dass er und Bodhi nun von ihrem Fluch befreit wären... und dass Imoen und ich einen langsamen qualvollen Tod sterben würden.
+Was er als nächstes plante, wollte er nicht sagen. Aber er überliess es Bodhi, mich ein für alle Mal zu erledigen.~
+@18 = ~Ihr könnt nach Rache oder Gerechtigkeit sinnen wie Ihr wollt. Das beeindruckt mich nicht im geringsten. Ihr könnt nichts tun, was sich gegen meinen Willen richtet.~ 
+@19 = ~Es wird keinen Kampf geben; kein Heldentum. Nur Schlaf.~
+@20 = ~Ihr habt getan, was Ihr musstet, Yoshimo. Ich habe es vohergesehen. Ist jetzt alles nach Euren Wünschen?~ 
+@21 = ~Was habt Ihr gesagt? Hmm... Und wie konntet Ihr den Geas umgehen?~ 
+@22 = ~So, <CHARNAME>, Ihr seid findiger, als ich dachte.~
+@23 = ~Ich unterbreche ja nur ungern, aber könnte mir einmal jemand sagen, was hier vor sich geht?~ 
+@24 = ~Von was redet er da, Yoshimo?~
+@25 = ~Ich weiss zwar nicht, was hier vor sich geht, aber ich weiss, dass es mir nicht gefällt...~
+@26 = ~Ich wusste, dass Ihr stark seid, aber ich hatte keine Ahnung, dass Ihr derart mächtig seid... Ich gratuliere Euch, obwohl ich schon ein wenig enttäuscht bin. Yoshimo war einer meiner besten Diener, aber jetzt betrügt er mich ohne ersichtlichen Grund. Wir hatten eine Abmachung und ich bezahlte ihn gut... So, Yoshimo, Ihr habt mich also wegen <CHARNAME> betrogen. Ich war der Meinung, dass Eure Seele mir gehört...~
+@27 = ~Seid Ihr sicher? Glaubt Ihr, dass Ihr irgend jemanden gerettet habt? Sie sind alle tot... sie waren schon vor langer Zeit tot, sogar bevor ich Euch traf.~
+@28 = ~(*Er lacht.*) Nein, das glaube ich wohl nicht. Aber seid nicht so durcheinander, Yoshimo. Ihr hättet ihnen nicht helfen können, und glaubt mir, sie haben bekommen, was sie verdient haben. Merkt Euch dies und hört genau auf die Worte, die ich sagen werde. Eure Zeit ist kurz.~
+@29 = ~Was ist schon das Leben? Das Leben ist eine miserable Reflektion des Todes. Mein Leben in dieser Welt scheint so weit weg zu sein... Die Erinnerungen sind nur wie ein Nebel. Aber dann... als ich die dunkelste Magie anrief, die mir Einblicke in die Wahrheit gab. Ja, seht mich an. Was seht Ihr? Ein Monster? Eine Abnormität?~
+@30 = ~(*Wieder lacht er.*) Ich war ein Elfenmagier von grosser Macht, vielleicht der mächtigste Elfenmagier, der je gelebt hatte. Über 200 Jahre lang studierte ich die Magie der Nekromantie... die Künste der physischen und spirituellen Heilung, die Auferstehung der Seelen der Toten... Vielleicht sind die Menschen darin sehr beschränkt, aber was ich gesehen und gelernt hatte, war nicht genug.~
+@31 = ~Meine Studien befassten sich mit den Seelen der Toten. Seit ich die dunklere Seite der Nekromantie kennengelernt hatte, begann ich, mit diesen Seelen zu sprechen, sie zu animieren... Die Körper, mit denen ich experimentierte, waren schon alle tot! Wenn ich also ihre Seelen wieder erweckte, wer kann da sagen, dass ich nicht Recht getan hatte?~
+@32 = ~Ich sehnte mich nach Wissen, fühlte den Schatten meiner eigenen Sterblichkeit. Und so grub ich tiefer, und die Geheimnisse der schwarzen Nekromantie taten sich mir auf, ich genoss die Wahrheiten, die sich mir auftaten. Ich teilte mein Wissen mit meinem Volk...~
+@33 = ~Doch sie sahen es anders als ich... (*er lacht zu sich selbst.*) Sie wussten nicht, was sie davon halten sollten. Wie konnten sie auch? Es waren neue Entdeckungen, es gab keinen Vergleich... und sie hörten auf "SIE" entgegen ihrer eigenen Überzeugung und meiner...~
+@34 = ~Sie hatte mich nie geliebt. Sie belog mich, sie betrog mich, Sie wartete auf eine Gelegenheit, mich zu diffamieren. Als die Zeit gekommen war, griff sie bösartig an...~
+@35 = ~Ich bin kein Monster... Ich weiss, dass der Grat zwischen Gut und Böse sehr schmal ist und vielleicht waren alle meine Handlungen nicht immer geradlinig, aber ich habe nie eine lebende Seele getötet...~
+@36 = ~Wer waren sie denn, die über mich richteten? Und verbannten? Verbannung für einige fragwürdige Experimente? Sie hatten meine Verbannung vorbereitet, wollten mich von sich ausschliessen... aber nein! Ihre Eifersucht brachte sie gegen mich auf. Ihre Worte wurden der Beweis gegen mich und sie sandten mich in die Leere...~
+@37 = ~Dieser Ort... müsst Ihr wissen, ist ohne Zeit... Ich war unzählige Jahre dort und bin doch nicht gealtert... Mir ist so, als hätten sie mich eben erst hierher geschickt, oder als die Dunkelelfen mich das erste Mal riefen.~
+@38 = ~Seht Ihr es jetzt? Dort kann ich alles tun, was ich auch in Eurer Welt tat, aber ich bin von den Ketten der Sterblichkeit befreit, die die Zeit über uns verhängt...~
+@39 = ~Die Gründe für meine Rückkehr sind nicht so, wie Ihr denkt... Ich habe kein Verlangen nach Macht oder Herrschaft wie Ihr. Aber andererseits... verflucht mit der Kürze des Lebens, Eurer Begrenztheit... was bedeutet diese Macht? Was kann aus dem kurzen Aufblitzen, das Ihr Euer Leben nennt, gelernt werden? Nichts. Aber hier, in diesem sogenannten "Gefängnis", gibt es keine Grenzen und kein Ende...~
+@40 = ~Ich komme langsam zu dem Schluss, dass Ihr wirklich wahnsinnig seid. Dieses Heim ist der passende Ort für Euch, wo Ihr Eure Rache weiter planen könnt... Ich nehme mir jetzt Imoen und werde gehen...~
+@41 = ~Die Zeit des Redens ist vorbei. Bringen wir es zu Ende...~
+@42 = ~Äh... Ich denke, dass ich Euch immer noch töten werde...~
+@43 = ~Es tut mir sehr Leid, aber ich fürchte, dass Ihr nirgendwo hingehen werdet...~
+@44 = ~Oh, das glaube ich nicht. Vielleicht kommt unser Gespräch zu einem Ende...~
+@45 = ~Ich schätze, Ihr werdet nicht in der Lage sein, dies zu tun...~
+@46 = ~Ihr werdet feststellen, dass Ihr machtlos seid. Ich habe Vorsorge getroffen, dass Ihr keinen Schaden nehmt. Wut wäre vergeudet.~

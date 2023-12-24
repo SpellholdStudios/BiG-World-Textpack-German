@@ -1,0 +1,209 @@
+--- NeJ\Dfiles\DCALLIAN.D	Mon Aug 09 03:45:28 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DCALLIAN.D	Wed Apr 10 10:23:52 2019
+@@ -1,138 +1,130 @@
+ BEGIN ~DCALLIAN~ 86216 // non-zero flags may indicate non-pausing dialogue
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~Greetings, friend.  You are welcome in the House of the Bleeding Rose.  May the healing hands of Ilmater lift your burdens and set your tortured soul at ease.  ~ 
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Sister Calliana, I presume?  I was told you could provide the services of a healer.~  GOTO 1
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings.  I seek the services of a healer.~  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
+-  IF ~~ THEN REPLY ~Uh... never mind.  Farewell.~  EXIT
++  SAY @0 
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @1  GOTO 1
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @2  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 9.0 0.0
+-  SAY ~You have been informed correctly.  As acting head of this temple, it is my privilege to bestow whatever aid I can upon those in need -- no small task I might add, what with all the troubles that plague this town of late.~ 
+-  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY ~Acting head of this temple?  Who is normally in charge?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ JOURNAL ~Ilmater Clergy in Kuldahar.
+-
+-We spoke with Sister Calliana, the acting head priest of the Temple of Ilmater in Kuldahar.  She's assumed the role of head priest of the temple ever since Mother Egenia vanished a few weeks ago.  Calliana also mentioned that another member of the Ilmater clergy, a man by the name of Brother Poquelin, passed through Kuldahar recently from all the way from Cormyr and was going to try and get help from the Monastery of the Weeping Lilac in Bryn Shader.  Calliana fears he may have been abducted as well.~  GOTO 3
++  SAY @4 
++  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY @5  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ JOURNAL @6  GOTO 3
+   IF ~GlobalGT("Yxunomei_Dead","GLOBAL",0)
+ Global("Egenia_Dead","GLOBAL",0)
+-Global("Talonite_Dead","GLOBAL",4)~ THEN REPLY ~Tell me Sister, what manner of trouble plagues Kuldahar?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 10
+-  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY ~Tell me Sister, what manner of trouble plagues Kuldahar?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 4
+-  IF ~~ THEN REPLY ~Very well.  What aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++Global("Talonite_Dead","GLOBAL",4)~ THEN REPLY @7  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 10
++  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY @7  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 4
++  IF ~~ THEN REPLY @8  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 11.1 9.1 7.1 7.0 0.1
+-  SAY ~Then step forward and offer your pain to the One who Endures All.  I am Revered Sister Calliana.  As acting head of this temple, it is my privilege to bestow whatever aid I can upon those in need -- no small task I might add, what with all the troubles that plague this town of late.~ 
+-  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY ~Acting head of this temple?  Who is normally in charge?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ JOURNAL ~Ilmater Clergy in Kuldahar.
+-
+-We spoke with Sister Calliana, the acting head priest of the Temple of Ilmater in Kuldahar.  She's assumed the role of head priest of the temple ever since Mother Egenia vanished a few weeks ago.  Calliana also mentioned that another member of the Ilmater clergy, a man by the name of Brother Poquelin, passed through Kuldahar recently from all the way from Cormyr and was going to try and get help from the Monastery of the Weeping Lilac in Bryn Shader.  Calliana fears he may have been abducted as well.~  GOTO 3
++  SAY @9 
++  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY @5  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ JOURNAL @6  GOTO 3
+   IF ~GlobalGT("Yxunomei_Dead","GLOBAL",0)
+ Global("Egenia_Dead","GLOBAL",0)
+-Global("Talonite_Dead","GLOBAL",4)~ THEN REPLY ~Tell me Sister, what manner of trouble plagues Kuldahar?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 10
+-  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY ~Tell me Sister, what manner of trouble plagues Kuldahar?~  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 4
+-  IF ~~ THEN REPLY ~Very well.  What aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++Global("Talonite_Dead","GLOBAL",4)~ THEN REPLY @7  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 10
++  IF ~Global("Yxunomei_Dead", "GLOBAL", 0)~ THEN REPLY @7  DO ~SetGlobal("Know_Egenia", "GLOBAL", 1)~ GOTO 4
++  IF ~~ THEN REPLY @8  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 2.0 1.0
+-  SAY ~Up until a few weeks ago, Revered Mother Egenia presided over this house.  Alas, she, like so many others in town, has gone missing and is presumed dead.  Being the next highest-ranking member of the clergy, I have assumed the duties of the head of this temple until either she or Revered Brother Poquelin returns.~ 
+-  IF ~~ THEN REPLY ~You mean to tell me your head priest was abducted?~  GOTO 5
+-  IF ~~ THEN REPLY ~Revered Brother Poquelin?  Who is he?~  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
+-  IF ~~ THEN REPLY ~Fascinating.  Now about that healing... what aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Well, I best be off now.  Farewell.~  EXIT
++  SAY @10 
++  IF ~~ THEN REPLY @11  GOTO 5
++  IF ~~ THEN REPLY @12  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 2.2 1.2
+-  SAY ~Evil has cast its shadow upon this land; even the weather seems to have been affected by its presence.  The source of this evil is unknown to me, but its touch can be felt everywhere.  Several townspeople have mysteriously disappeared, including our former head priest, Revered Mother Egenia.  Being the next highest-ranking member of the clergy, I have assumed the duties of the head of this temple until either she or Revered Brother Poquelin returns.~ 
+-  IF ~~ THEN REPLY ~You mean to tell me your head priest was abducted?~  GOTO 5
+-  IF ~~ THEN REPLY ~Revered Brother Poquelin?  Who is he?~  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
+-  IF ~~ THEN REPLY ~Fascinating.  Now about that healing... what aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Well, I best be off now.  Farewell.~  EXIT
++  SAY @15 
++  IF ~~ THEN REPLY @11  GOTO 5
++  IF ~~ THEN REPLY @12  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 4.0 3.0
+-  SAY ~Perhaps.  We're not quite sure.  She grew tired of standing by while the people around us were being snatched up in the night.  So she decided to hold a midnight vigil on the outskirts of town in hopes that she too might share in the suffering of those taken.  That was the last we saw of her.  Her fate remains a mystery.~ 
+-  IF ~~ THEN REPLY ~You mentioned a Revered Brother Poquelin?  Who is he?~  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
+-  IF ~~ THEN REPLY ~Fascinating.  Now about that healing... what aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Well, I best be off now.  Farewell.~  EXIT
++  SAY @16 
++  IF ~~ THEN REPLY @17  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 10.0 9.2 8.0 5.0 4.1 3.1
+-  SAY ~Revered Brother Poquelin is a visiting senior priest of Ilmater.  He passed through Kuldahar several days ago on a pilgrimage to the Monastery of the Weeping Lilac in Bryn Shander.  He traveled quite a ways, all the way from... from Cormyr, I believe is what he said.  He must be from those distant regions, for he bore a holy symbol of Ilmater that was unfamiliar to me.  In any case, he promised to return with aid once he reached Bryn Shander.  I hope he is all right.~ 
+-  IF ~~ THEN REPLY ~Fascinating.  Now about that healing... what aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Well, I best be off now.  Farewell.~  EXIT
++  SAY @18 
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Know_Egenia", "GLOBAL", 0)~ THEN BEGIN 7 // from:
+-  SAY ~You have returned, friend.  How may the faithful of Ilmater serve you?~ 
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings.  I seek the services of a healer.~  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Greetings, Sister Calliana.  I am in need of healing.~  GOTO 2
+-  IF ~~ THEN REPLY ~Uh... never mind.  Farewell.~  EXIT
++  SAY @19 
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @2  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @20  GOTO 2
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Know_Egenia", "GLOBAL", 1)
+ GlobalLT("SPRITE_IS_DEADTalona","GLOBAL",5)~ THEN BEGIN 8 // from:
+-  SAY ~You have returned, friend.  There still has been no word from either Revered Mother Egenia or Revered Brother Poquelin.  Until they return, I am at your service.~ 
+-  IF ~Global("Know_Poquelin", "GLOBAL", 0)~ THEN REPLY ~You mentioned a Revered Brother Poquelin?  Who is he?~  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
+-  IF ~Global("Know_Poquelin", "GLOBAL", 1)~ THEN REPLY ~Very well.  What aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Just checking.  Farewell.~  EXIT
++  SAY @21 
++  IF ~Global("Know_Poquelin", "GLOBAL", 0)~ THEN REPLY @17  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
++  IF ~Global("Know_Poquelin", "GLOBAL", 1)~ THEN REPLY @8  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @22  EXIT
+ END
+ 
+ IF ~GlobalGT("Yxunomei_Dead","GLOBAL",0)
+ Global("Egenia_Dead","GLOBAL",0)
+ GlobalGT("SPRITE_IS_DEADTalona","GLOBAL",4)~ THEN BEGIN 9 // from:
+-  SAY ~You are the ones who restored Revered Mother Egenia to us.  For that, we thank you.  How may the faithful of Ilmater serve you?~ 
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Sister Calliana, I presume?  I was told you could provide the services of a healer.~  GOTO 1
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings.  I seek the services of a healer.~  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
+-  IF ~Global("Know_Poquelin", "GLOBAL", 1)~ THEN REPLY ~Before, you mentioned a Revered Brother Poquelin.  Who is he?~  GOTO 6
+-  IF ~~ THEN REPLY ~Just checking.  Farewell.~  EXIT
++  SAY @23 
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @1  GOTO 1
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @2  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 2
++  IF ~Global("Know_Poquelin", "GLOBAL", 1)~ THEN REPLY @24  GOTO 6
++  IF ~~ THEN REPLY @22  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 2.1 1.1
+-  SAY ~Evil has cast its shadow upon this land; even the weather seems to have been affected by its presence.  The source of this evil is unknown to me, but its touch can be felt everywhere.  Although you have restored Revered Mother Egenia to us, several townspeople are still missing, including Revered Brother Poquelin.~ 
+-  IF ~~ THEN REPLY ~Revered Brother Poquelin?  Who is he?~  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
+-  IF ~~ THEN REPLY ~Fascinating.  Now about that healing... what aid can you offer?~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Well, I best be off now.  Farewell.~  EXIT
++  SAY @25 
++  IF ~~ THEN REPLY @12  DO ~SetGlobal("Know_Poquelin", "GLOBAL", 1)~ GOTO 6
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~NumTimesTalkedTo(0)
+ Global("Voice_Quest","GLOBAL",2)
+ PartyHasItem("VoiceBn")~ THEN BEGIN 11 // from:
+-  SAY ~Welcome to the house of the Bleeding Rose, traveler.  There is... something familiar about you.  It is as though I have seen you in a dream.   Perhaps Ilmater foretold your arrival.~ 
+-  IF ~~ THEN REPLY ~I believe I have something for you.  A cursed paladin in Dorn's Deep recently asked me to bring his mortal remains to a temple of the Trinity for proper burial.  I helped end his curse, but he wanted to insure that he would find rest on consecrated ground.~  DO ~SetGlobal("Voice_Quest","GLOBAL",3)
++  SAY @26 
++  IF ~~ THEN REPLY @27  DO ~SetGlobal("Voice_Quest","GLOBAL",3)
+ TakePartyItem("VoiceBn")
+-AddExperienceParty(86256)~ JOURNAL ~Ilmater Clergy in Kuldahar.
+-
+-We returned to Kuldahar and spoke to Sister Calliana.  We told her of the Voice of Durdel Anatha and successfully returned his mortal remains to consecrated ground.~  GOTO 13
+-  IF ~~ THEN REPLY ~Greetings.  I seek the services of a healer.~  GOTO 2
+-  IF ~~ THEN REPLY ~Sorry to disturb you.  Farewell.~  EXIT
++AddExperienceParty(86256)~ JOURNAL @28  GOTO 13
++  IF ~~ THEN REPLY @2  GOTO 2
++  IF ~~ THEN REPLY @29  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Voice_Quest","GLOBAL",2)
+ PartyHasItem("VoiceBn")~ THEN BEGIN 12 // from:
+-  SAY ~I welcome you back to the house of the Bleeding Rose, traveler.  In my sleep, I have had visions of you in dreadful places.  I am glad to see that you are intact.~ 
+-  IF ~~ THEN REPLY ~I believe I have something for you.  A cursed paladin in Dorn's Deep recently asked me to bring his mortal remains to a temple of the Trinity for proper burial.  I helped end his curse, but he wanted to insure that he would find rest on consecrated ground.~  DO ~SetGlobal("Voice_Quest","GLOBAL",3)
++  SAY @30 
++  IF ~~ THEN REPLY @27  DO ~SetGlobal("Voice_Quest","GLOBAL",3)
+ TakePartyItem("VoiceBn")
+-AddExperienceParty(86256)~ JOURNAL ~Ilmater Clergy in Kuldahar.
+-
+-We returned to Kuldahar and spoke to Sister Calliana.  We told her of the Voice of Durdel Anatha and successfully returned his mortal remains to consecrated ground.~  GOTO 13
+-  IF ~~ THEN REPLY ~Greetings, Sister Calliana.  I am in need of healing.~  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Uh... never mind.  Farewell.~  EXIT
++AddExperienceParty(86256)~ JOURNAL @28  GOTO 13
++  IF ~~ THEN REPLY @20  DO ~StartStore("KUTEMPLE", Player1)~ EXIT
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13 // from: 12.0 11.0
+-  SAY ~Yes... yes.  I can sense the truth of your words.  I had heard the tales of a phantom Tormish paladin, but I thought they were only stories.  If the legends are correct, you have done our church a great service.  Torm, Tyr, and Ilmater are brothers in righteousness.  We will inter this holy warrior's remains with pride.~ 
++  SAY @31 
+   IF ~~ THEN GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 14 // from: 13.0
+-  SAY ~Please accept a gift on behalf of the church of Ilmater.  You have suffered long and hard in your quest to vanquish the evil that threatens us.  If you are pure of heart, this will aid you in your struggles to come.~ 
+-  IF ~Class(Player1,PALADIN)~ THEN REPLY ~I am glad that I could be of service.~  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,FIGHTER)~ THEN REPLY ~It was nothing, really.~  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,RANGER)~ THEN REPLY ~It was nothing, really.~  DO ~GiveItemCreate("ArmPen",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,THIEF)~ THEN REPLY ~Sure.~  DO ~GiveItemCreate("ArmPen",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,CLERIC)~ THEN REPLY ~Certainly.~  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,BARD)~ THEN REPLY ~Good.~  DO ~GiveItemCreate("CLCKBS",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~I understand.~  DO ~GiveItemCreate("CLCKBS",Player1,0,0,0)~ EXIT
+-  IF ~Class(Player1,MAGE)~ THEN REPLY ~My work here is finished.~  DO ~GiveItemCreate("ROBEANG",Player1,0,0,0)~ EXIT
++  SAY @32 
++  IF ~Class(Player1,PALADIN)~ THEN REPLY @33  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,FIGHTER)~ THEN REPLY @34  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,RANGER)~ THEN REPLY @34  DO ~GiveItemCreate("ArmPen",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,THIEF)~ THEN REPLY @35  DO ~GiveItemCreate("ArmPen",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,CLERIC)~ THEN REPLY @36  DO ~GiveItemCreate("Glory",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,BARD)~ THEN REPLY @37  DO ~GiveItemCreate("CLCKBS",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,DRUID)~ THEN REPLY @38  DO ~GiveItemCreate("CLCKBS",Player1,0,0,0)~ EXIT
++  IF ~Class(Player1,MAGE)~ THEN REPLY @39  DO ~GiveItemCreate("ROBEANG",Player1,0,0,0)~ EXIT
+ END

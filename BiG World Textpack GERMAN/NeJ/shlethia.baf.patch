@@ -1,0 +1,29 @@
+--- NeJ\baf\shlethia.baf	Fri Aug 20 15:32:10 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\shlethia.baf	Wed Apr 10 10:29:47 2019
+@@ -37,7 +37,7 @@
+ 	ActionListEmpty()
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"For blade and faith."~)
++		DisplayStringHead(Myself,@0)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",2)
+ END
+ 
+@@ -55,7 +55,7 @@
+ 	ActionListEmpty()
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"My duty is clear."~)
++		DisplayStringHead(Myself,@1)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",4)
+ END
+ 
+@@ -73,7 +73,7 @@
+ 	ActionListEmpty()
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"The needs of the many..."~)
++		DisplayStringHead(Myself,@2)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",6)
+ END
+ 

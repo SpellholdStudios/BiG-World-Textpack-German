@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDADSON.BAF	Mon Nov 10 01:01:15 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDADSON.BAF	Wed Apr 10 10:33:47 2019
+@@ -2,7 +2,7 @@
+ 	Global("IDOL_DEAD","GLOBAL",0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~...black...~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(5)
+ 		Continue()
+ END

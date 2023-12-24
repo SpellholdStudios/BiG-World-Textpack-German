@@ -1,0 +1,165 @@
+--- NeJ3\dlg\DBELHIFE.d	Mon Dec 29 01:17:18 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DBELHIFE.d	Wed Apr 10 10:24:26 2019
+@@ -1,121 +1,121 @@
+ BEGIN ~DBELHIFE~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~*You* again.  I admire your persistence, but come now... I think it is time you accepted the fact that it is not within *your* power to stop me.~ [BELH_01]
+-  IF ~~ THEN REPLY ~Why don't you step away from that stone, and I'll show you just what I am capable of?~ GOTO 19
+-  IF ~~ THEN REPLY ~Enough talk, Poquelin -- or whoever you are.  This time there will be no escape for you.~ GOTO 1
+-  IF ~~ THEN REPLY ~Silence!  Your lies sicken me.~ GOTO 13
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 19
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Escape?  I assure you... I have no intention of fleeing.  I would have finished you back at Dorn's Deep were it not for the fact that Crenshinibon willed it otherwise.~ [BELH_02]
+-  IF ~~ THEN REPLY ~Sounds to me like you are nothing but a pawn to Crenshinibon, a mindless puppet that dances at its whim.~ GOTO 2
+-  IF ~~ THEN REPLY ~The Shard will not save you this time.  Now you shall pay for your villainy. ~ GOTO 19
++  SAY @4 
++  IF ~~ THEN REPLY @5 GOTO 2
++  IF ~~ THEN REPLY @6 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I am not interested in your feeble-minded perceptions.  The Shard is nothing but a tool to me.~ [BELH_03]
++  SAY @7 
+   IF ~~ THEN GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~I have used its power to further my plans and gain advantage where none existed before.  I am *its* master.~ [BELH_04]
+-  IF ~~ THEN REPLY ~Nevertheless, your conquest is at an end.  This land will not fall to you or to the influences of the Shard.~ GOTO 6
+-  IF ~~ THEN REPLY ~Now who's being feeble-minded?  It is you who has been used by Crenshinibon.  And now that you have failed to serve its purposes, the Shard has betrayed you.~ GOTO 4
+-  IF ~~ THEN REPLY ~Believe what you wish.  Now you must die.~ GOTO 19
++  SAY @8 
++  IF ~~ THEN REPLY @9 GOTO 6
++  IF ~~ THEN REPLY @10 GOTO 4
++  IF ~~ THEN REPLY @11 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Please.  Do not insult me with such transparent lies.  Deception is a delicate art form and should not be practiced by one as clumsy and inexperienced as yourself.~ [BELH_05]
+-  IF ~~ THEN REPLY ~Unfortunately for you, I am not so clumsy and inexperienced in the ways of battle.~ GOTO 19
+-  IF ~~ THEN REPLY ~It is no lie.  How do you think we got here?  The Shard led us to you.  It *wants* us to destroy you.~ GOTO 5
++  SAY @12 
++  IF ~~ THEN REPLY @13 GOTO 19
++  IF ~~ THEN REPLY @14 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Impossible!  Crenshinibon serves me.  It has obeyed my commands all along, aiding my cause and-~ [BELH_06]
+-  IF ~~ THEN REPLY ~It served you only to serve its self.  Its evil is fueled by the desire for conquest.  But reopening this portal is not conquest... it's madness.  What will be left to rule once the minions of hell are set free in this world?~ GOTO 6
++  SAY @15 
++  IF ~~ THEN REPLY @16 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~I care nothing for ruling *this* miserable land.  The scope of my desire is far beyond your mortal comprehension.~ [BELH_07]
++  SAY @17 
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I exist solely for the purpose of corrupting the corruptible.  To me, this world is nothing but a fertile field, a vast crop of temptable souls.  ~ [BELH_08]
++  SAY @18 
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~And now... it is harvest time!  Consider yourselves fortunate!  You alone shall witness this historical moment!~ [BELH_09]
++  SAY @19 
+   IF ~~ THEN DO ~SetGlobal("END_PORTAL","GLOBAL",1)
+ SetGlobal("VP_BackTo_DornDeep","GLOBAL",2)~ GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Behold!  The circle is complete!  What was undone so long ago has been done once more.  The doors to the Lower Planes have been thrown wide!~ [BELH_10]
++  SAY @20 
+   IF ~~ THEN GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~And now my brethren are free to plunder this world for its immortal spoils.  Soon, the ranks of the Blood War army will swell with thousands of fresh souls! ~ [BELH_11]
++  SAY @21 
+   IF ~Global("Everard_Dead", "GLOBAL", 0)
+ !Dead("EVERARD")~ THEN EXTERN ~DEVERARD~ 35
+   IF ~OR(2)
+ Global("Everard_Dead", "GLOBAL", 1)
+-Dead("EVERARD")~ THEN REPLY ~Too bad you won't be around to see it.  Your time in this world is over.~ GOTO 20
++Dead("EVERARD")~ THEN REPLY @22 GOTO 20
+ END
+ 
+ IF ~Global("End_Portal", "GLOBAL", 2)~ THEN BEGIN 11
+-  SAY ~Fools!  Do you think you can defeat me so easily?!  The priest has done nothing but delay the inevitable!~ [BELH_12]
++  SAY @23 
+   IF ~~ THEN GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~I still possess the secrets of unlocking the portal!  It is only a matter of time before I open the gate once more.~ [BELH_13]
+-  IF ~~ THEN REPLY ~You won't get the chance.  Your time is over.~ GOTO 20
++  SAY @24 
++  IF ~~ THEN REPLY @25 GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Perhaps you are nauseated by the realization that my actions, however appalling they might seem, serve a greater good. ~ [BELH_14]
+-  IF ~~ THEN REPLY ~Greater good?  You're a fiend... what could an evil creature such as yourself possibly know about goodness?~ GOTO 14
+-  IF ~~ THEN REPLY ~I don't think so.  I think I am sickened by the fact that I am looking at you standing there, still breathing.~ GOTO 19
++  SAY @26 
++  IF ~~ THEN REPLY @27 GOTO 14
++  IF ~~ THEN REPLY @28 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~That's the problem with you mortals... you have always had such trouble coming to terms with abstract concepts such as good and evil.~ [BELH_15]
++  SAY @29 
+   IF ~~ THEN GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~When will you ever learn that there *is* no black and white?  You call me evil... what is it that I have done that affronts your moral sensibilities so?~ [BELH_16]
+-  IF ~~ THEN REPLY ~You are a corruptor of men and a sacker of peaceful towns and villages.~ GOTO 16
+-  IF ~~ THEN REPLY ~The fact that you exist is an affront to me.  Prepare to die!~ GOTO 19
+-  IF ~~ THEN REPLY ~I call you evil because you *are* evil, plain and simple, black and white.  Your plans to conquer this land clearly demonstrate your true nature.~ GOTO 6
++  SAY @30 
++  IF ~~ THEN REPLY @31 GOTO 16
++  IF ~~ THEN REPLY @32 GOTO 19
++  IF ~~ THEN REPLY @33 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~True, I've destroyed a couple of towns here and there, but since the beginning of time, men have done that and more.  You call it war, and suddenly it is no longer morally depraved?~ [BELH_17]
++  SAY @34 
+   IF ~~ THEN GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~As for a corruptor of men... those that have allied with me did so of their own free will.  I just present the path, the choosing is always left up to the mortals.  It is they who must decide whether they will or will not be tempted.~ [BELH_18]
+-  IF ~~ THEN REPLY ~What about Arundel?  Was it his choice to be murdered by your hand?~ GOTO 18
++  SAY @35 
++  IF ~~ THEN REPLY @36 GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~Well... you cannot make wine without crushing a few grapes.  The elimination of the old druid was a necessary means to an end.~ [BELH_19]
+-  IF ~~ THEN REPLY ~How many more people will it be *necessary* for you to crush in order to complete your conquest?~ GOTO 6
++  SAY @37 
++  IF ~~ THEN REPLY @38 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~There is no need for such empty threats.  The only reason you are still alive is because I want you to witness this historical moment.~ [BELH_20]
++  SAY @39 
+   IF ~~ THEN DO ~SetGlobal("END_PORTAL","GLOBAL",1)~ GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~Over?!  On the contrary, my time has only just begun!~ [BELH_21]
++  SAY @40 
+   IF ~~ THEN DO ~SetGlobal("END_PORTAL","GLOBAL",10)
+ SetGlobal("END_PROGRESS","GLOBAL",5)
+ Enemy()~ EXIT

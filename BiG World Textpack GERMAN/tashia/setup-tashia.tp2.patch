@@ -1,0 +1,15 @@
+--- tashia\setup-tashia.tp2	Fri Aug 19 07:32:05 2011
++++ C:\BWP Patchstudio\patched files\tashia\setup-tashia.tp2	Fri Aug 19 20:01:07 2011
+@@ -34,9 +34,11 @@
+          ~french~
+          ~tashia/american/wsetup.tra~
+          ~tashia/french/wsetup.tra~
+-LANGUAGE ~Deutsch (Uebersetzung von Maus)~
++*/
++LANGUAGE ~Deutsch (Uebersetzung von Maus) Tashia Add-on NICHT übersetzt!~
+          ~deutsch~
+          ~tashia/deutsch/wsetup.tra~
++ /*
+ LANGUAGE ~Espanol (Traducido por el Clan DLAN)~
+          ~spanish~
+          ~tashia/spanish/wsetup.tra~

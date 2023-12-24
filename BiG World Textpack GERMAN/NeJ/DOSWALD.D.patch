@@ -1,0 +1,165 @@
+--- NeJ\Dfiles\DOSWALD.D	Fri Apr 02 03:12:06 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DOSWALD.D	Wed Apr 10 10:24:14 2019
+@@ -2,105 +2,105 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+-  SAY ~Oh... hello there.  I didn't see you come in.  What can I do for you?~ 
+-  IF ~Global("Know_Oswald", "GLOBAL", 0)~ THEN REPLY ~Who are you?~  GOTO 1
+-  IF ~Global("Know_Oswald", "GLOBAL", 1)~ THEN REPLY ~Are you the one they call Fiddlebender?~  GOTO 1
+-  IF ~~ THEN REPLY ~What is this place?~  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
+-  IF ~~ THEN REPLY ~Nothing, thanks.  Sorry to disturb you.  Farewell.~  EXIT
++  SAY @0 
++  IF ~Global("Know_Oswald", "GLOBAL", 0)~ THEN REPLY @1  GOTO 1
++  IF ~Global("Know_Oswald", "GLOBAL", 1)~ THEN REPLY @2  GOTO 1
++  IF ~~ THEN REPLY @3  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
++  IF ~~ THEN REPLY @4  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 0.1 0.0
+-  SAY ~Of course, introductions.  How rude of me.  Sometimes I just get so wrapped up in my work.  The name's Oswald... Oswald Fiddlebender.~ 
+-  IF ~~ THEN REPLY ~What is this place?~  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
+-  IF ~~ THEN REPLY ~Your work?  What is it that you do here?~  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
+-  IF ~~ THEN REPLY ~I must take my leave.  Farewell.~  EXIT
++  SAY @5 
++  IF ~~ THEN REPLY @3  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
++  IF ~~ THEN REPLY @6  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
++  IF ~~ THEN REPLY @7  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 14.0 12.1 5.2 5.1 1.0 0.2
+-  SAY ~Why, this ship is my home.  At least it has been since I crashed here over a year ago.  I know, I know... she's not much to look at, but some day I'll have her back in one piece and in the air once more.~ 
+-  IF ~~ THEN REPLY ~In the air?  You mean this contraption can actually fly?~  GOTO 3
+-  IF ~~ THEN REPLY ~I see.  What is it that you do here?~  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @8 
++  IF ~~ THEN REPLY @9  GOTO 3
++  IF ~~ THEN REPLY @10  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 2.0
+-  SAY ~Of course it can... or at least it could once.  You should have seen it.  It was amazing!  It was like sailing on a sea of clouds.  She is my greatest invention yet, you know.~ 
+-  IF ~~ THEN REPLY ~A flying boat, eh?  That *is* truly amazing.~  GOTO 4
+-  IF ~~ THEN REPLY ~Why would you build such a strange device?~  GOTO 8
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @12 
++  IF ~~ THEN REPLY @13  GOTO 4
++  IF ~~ THEN REPLY @14  GOTO 8
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.0
+-  SAY ~I'm glad you think so.  I call it an *air* *ship*.  Isn't that wonderful?  Airship... as in it is a ship that floats upon the air.  Get it?  It's really quite clever when you think about it.~ 
+-  IF ~~ THEN REPLY ~Yes, clever.  Why would you build such a strange device?~  GOTO 8
+-  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY ~Tell me, what is it that you do here?~  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
+-  IF ~Global("Know_Work", "GLOBAL", 1)~ THEN REPLY ~Tell me again, what is it that you do here?~  GOTO 5
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @15 
++  IF ~~ THEN REPLY @16  GOTO 8
++  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY @17  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
++  IF ~Global("Know_Work", "GLOBAL", 1)~ THEN REPLY @18  GOTO 5
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 14.1 11.1 11.0 4.2 4.1 2.1 1.1
+-  SAY ~I am an inventor, of sorts.  I make things.  Things that are meant to improve the lives of others.  Like this ship, for instance.  I also dabble in alchemy.  Would you care to sample some of the potions I have concocted?~ 
+-  IF ~~ THEN REPLY ~Sure.  What sort of potions do you have?~  GOTO 6
+-  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY ~No thanks.  Tell me about this ship of yours.~  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
+-  IF ~Global("Know_Airship", "GLOBAL", 1)~ THEN REPLY ~Tell me again about this ship of yours.~  GOTO 2
+-  IF ~~ THEN REPLY ~Maybe some other time.  Farewell.~  EXIT
++  SAY @19 
++  IF ~~ THEN REPLY @20  GOTO 6
++  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY @21  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
++  IF ~Global("Know_Airship", "GLOBAL", 1)~ THEN REPLY @22  GOTO 2
++  IF ~~ THEN REPLY @23  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 5.0
+-  SAY ~I have all kinds.  Currently, I am working on a special brew for the farmers of Kuldahar, something that will help protect their livestock from the bitter cold front that seems to have settled upon the valley.  Several farmers were kind enough to donate some cows to serve as test subjects for my experiments.~ 
+-  IF ~~ THEN REPLY ~You're feeding experimental potions to these cows?  Don't you think that is kind of cruel?~  GOTO 7
+-  IF ~~ THEN REPLY ~I see.  Do you have any potions that we might find useful?~  GOTO 12
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @24 
++  IF ~~ THEN REPLY @25  GOTO 7
++  IF ~~ THEN REPLY @26  GOTO 12
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 6.0
+-  SAY ~Nonsense.  I would never hurt these animals.  In fact, I've come to think of them as my friends.  Besides, without my help, they would all freeze to death.~ 
+-  IF ~~ THEN REPLY ~I see.  Do you have any potions that we might find useful?~  GOTO 12
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @27 
++  IF ~~ THEN REPLY @26  GOTO 12
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 4.0 3.1
+-  SAY ~The passes through the Spine of the World are fraught with many dangers.  The caravans that travel between the southlands and the Ten-Towns must brave not only the treacherous terrain, but all the nasty creatures that inhabit it as well.  I simply sought to find an alternative route through the mountains -- or, in this case, over them.~ 
+-  IF ~~ THEN REPLY ~So how did you end up in Kuldahar?~  GOTO 9
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @28 
++  IF ~~ THEN REPLY @29  GOTO 9
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.0
+-  SAY ~Yes... well, that's a rather embarrassing story.  You see, when I attempted the crossing on the Airship's maiden voyage, I was the only one onboard.  I had a bit of... ahem... trouble convincing anyone back in Bryn Shander to crew with me.~ 
+-  IF ~~ THEN REPLY ~Go on.  I'm listening.~  GOTO 10
+-  IF ~~ THEN REPLY ~On second thought, I'm really not in the mood for a story.  Farewell.~  EXIT
++  SAY @30 
++  IF ~~ THEN REPLY @31  GOTO 10
++  IF ~~ THEN REPLY @32  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 9.0
+-  SAY ~Anyhow, I managed to get the ship airborne and was making excellent progress over the mountains.  It really was a magnificent view!  The billowing clouds, the snow-capped peaks that shimmered like diamonds in the sunlight...  I guess I was so enamored by the beauty of it all that I didn't notice that outcropping of rock until it was too late.~ 
+-  IF ~~ THEN REPLY ~You hit the mountain?  What happened next?~  GOTO 11
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @33 
++  IF ~~ THEN REPLY @34  GOTO 11
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 10.0
+-  SAY ~Well, the collision ripped the bottom of the ship wide open.  The steering mechanism was badly damaged and the ship began to lose altitude.  I tried desperately to keep it aloft, but down we came, falling from the sky like a stone.  It is by sheer luck that I crashed here in the town of Kuldahar.~ 
+-  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY ~Lucky indeed.  Tell me, what is it you do here?~  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
+-  IF ~Global("Know_Work", "GLOBAL", 1)~ THEN REPLY ~Lucky indeed.  Tell me again, what is it you do here?~  GOTO 5
+-  IF ~~ THEN REPLY ~Interesting.  Well, I must take my leave.  Farewell.~  EXIT
++  SAY @35 
++  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY @36  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
++  IF ~Global("Know_Work", "GLOBAL", 1)~ THEN REPLY @37  GOTO 5
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from: 7.0 6.1
+-  SAY ~Most certainly.  I'd be more than happy to supply you with whatever potions you might need... at a fair price, of course.  ~ 
+-  IF ~~ THEN REPLY ~Very well.  Let's see what you have.~  DO ~StartStore("KUOSWALD", Player1)~ EXIT
+-  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY ~On second thought, forget it.  However, I would like to hear about this ship of yours.~  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
+-  IF ~~ THEN REPLY ~Never mind.  Farewell.~  EXIT
++  SAY @38 
++  IF ~~ THEN REPLY @39  DO ~StartStore("KUOSWALD", Player1)~ EXIT
++  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY @40  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
++  IF ~~ THEN REPLY @41  EXIT
+ END
+ 
+ IF ~Global("Kuldahar_Murder", "GLOBAL", 1)~ THEN BEGIN 13 // from:
+-  SAY ~I'm afraid I must ask you to leave.  Murderers are not welcome in my home.  Leave now, for I have nothing more to say to you.~ 
++  SAY @42 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 14 // from:
+-  SAY ~Ah, welcome back, travelers.  You're looking a little worse for wear today.  Perhaps one of my potions could put a little color in your cheeks, eh?~ 
+-  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY ~No thanks.  Tell me about this ship of yours.~  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
+-  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY ~No thanks.  Tell me, what is it that you do here?~  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
+-  IF ~~ THEN REPLY ~Sure.  Let's see what you have.~  DO ~StartStore("KUOSWALD", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~No potions today, Oswald.  Farewell.~  EXIT
++  SAY @43 
++  IF ~Global("Know_Airship", "GLOBAL", 0)~ THEN REPLY @21  DO ~SetGlobal("Know_Airship", "GLOBAL", 1)~ GOTO 2
++  IF ~Global("Know_Work", "GLOBAL", 0)~ THEN REPLY @44  DO ~SetGlobal("Know_Work", "GLOBAL", 1)~ GOTO 5
++  IF ~~ THEN REPLY @45  DO ~StartStore("KUOSWALD", Player1)~ EXIT
++  IF ~~ THEN REPLY @46  EXIT
+ END

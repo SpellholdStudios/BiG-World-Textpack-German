@@ -1,0 +1,23 @@
+--- NeJ\baf\SHLARCT2.BAF	Sun Aug 22 05:38:50 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHLARCT2.BAF	Wed Apr 10 10:29:42 2019
+@@ -7,15 +7,15 @@
+ 		MultiPlayerSync()
+ 		ClearAllActions()
+ 		MultiPlayerSync()
+-		DisplayStringHead(Myself,~"It worked!  It worked!"~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(3)
+-		DisplayStringHead(Myself,~"Blew it up I did!"~)
++		DisplayStringHead(Myself,@1)
+ 		Wait(3)
+-		DisplayStringHead(Myself,~"hehehhahhaHAHA"~)
++		DisplayStringHead(Myself,@2)
+ 		Wait(3)
+-		DisplayStringHead(Myself,~"Ascend not, they will"~)
++		DisplayStringHead(Myself,@3)
+ 		Wait(3)
+-		DisplayStringHead(Myself,~"Spell now, I complete"~)
++		DisplayStringHead(Myself,@4)
+ 		Wait(2)
+ 		MoveToPoint([640.722])
+ 		MoveViewObject([0.0.10000.10000],FAST)

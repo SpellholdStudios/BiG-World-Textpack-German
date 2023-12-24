@@ -1,0 +1,11 @@
+--- TS\bgtnodlg\aMINSCJ.D	Wed Dec 29 12:52:54 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\aMINSCJ.D	Thu May 05 10:45:53 2016
+@@ -1,7 +1,7 @@
+ APPEND ~MINSCJ~
+ 
+ IF ~Global("NPCRemark","GLOBAL",1)~ THEN BEGIN TS241
+-  SAY ~Boo senses evil in every crack. Ooo! Major butt-kicking is coming!~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("NPCRemark","GLOBAL",2)~ EXIT
+ END
+ END

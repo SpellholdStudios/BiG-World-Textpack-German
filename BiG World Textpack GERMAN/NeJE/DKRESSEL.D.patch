@@ -1,0 +1,448 @@
+--- NeJE\dlg\DKRESSEL.D	Sun Dec 11 00:05:12 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DKRESSEL.D	Tue Apr 09 19:35:50 2019
+@@ -1,326 +1,274 @@
+ BEGIN ~DKRESSEL~
+ 
+ IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~A last... The mighty adventurer stands before me. To what do I owe this... honor?~ [KRES_01]
+-  IF ~~ THEN REPLY ~I take it you were expecting me?~ GOTO 2
+-  IF ~~ THEN REPLY ~I would know who you are, spirit.~ GOTO 3
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar.~ GOTO 14
+-  IF ~~ THEN REPLY ~I have no time for this banter, farewell.~ EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~~ THEN REPLY @3 GOTO 14
++  IF ~~ THEN REPLY @4 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalLT("Kress_Quest","GLOBAL",3)
+ ~ THEN BEGIN 1
+-  SAY ~Once more you grace me with your presence. Why?~ [KRES_02]
+-  IF ~~ THEN REPLY ~I would know who you are, spirit.~ GOTO 3
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar.~ GOTO 14
+-  IF ~~ THEN REPLY ~I have no time for this banter, farewell.~ EXIT
++  SAY @5 
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~~ THEN REPLY @3 GOTO 14
++  IF ~~ THEN REPLY @4 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I have been observing your progress since you first stepped foot into my realm. It was only a matter of time before you made your way here. So tell me, why have you come?~ [KRES_03]
+-  IF ~~ THEN REPLY ~I would know who you are, spirit.~ GOTO 3
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar.~ GOTO 14
+-  IF ~~ THEN REPLY ~I have no time for this banter, farewell.~ EXIT
++  SAY @6 
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~~ THEN REPLY @3 GOTO 14
++  IF ~~ THEN REPLY @4 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~In life, I was Kresselack, the Black Wolf. In death, I am nothing, a mere shadow cursed to haunt these halls.~ [KRES_04]
+-  IF ~~ THEN REPLY ~Why are you cursed?~ GOTO 4
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar.~ GOTO 14
+-  IF ~~ THEN REPLY ~I will take my leave of you now. Farewell.~ EXIT
++  SAY @7 
++  IF ~~ THEN REPLY @8 GOTO 4
++  IF ~~ THEN REPLY @3 GOTO 14
++  IF ~~ THEN REPLY @9 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Hmn. Why indeed... That is a tale long in the telling. Would you hear it?~ [KRES_05]
+-  IF ~~ THEN REPLY ~Yes, I am listening.~ DO ~SetGlobal("Kress_Tale","GLOBAL",1)
++  SAY @10 
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("Kress_Tale","GLOBAL",1)
+ ~ GOTO 5
+-  IF ~~ THEN REPLY ~No, I think not. Farewell.~ EXIT
++  IF ~~ THEN REPLY @12 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~As a young man, I was a conqueror. I ravaged the lands and brought all who opposed me under my rule. I built a kingdom upon the corpses of my enemies, and I reveled in the glories of war.~ [KRES_06]
++  SAY @13 
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~However, in time my sword grew heavy, my aim less true, and I realized I was growing old. For the first time in my life, I knew fear...~ [KRES_07]
++  SAY @14 
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Realizing that death would some day claim me, I returned to my homeland. For months I pondered what course I should pursue in my remaining years.~ [KRES_08]
++  SAY @15 
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I thought of my kingdom and all that I had fought to create, but it was meaningless to me. A kingdom lasts a lifetime, but death lasts an eternity.~ [KRES_09]
++  SAY @16 
+   IF ~~ THEN GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~I decided to forsake all that I had wrought in life for a place in the afterlife...~ [KRES_10]
+-  IF ~~ THEN REPLY ~What did you do?~ GOTO 10
++  SAY @17 
++  IF ~~ THEN REPLY @18 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I ordered this tomb built in utmost secrecy and squandered the wealth of my kingdom doing so. Upon its completion, I traveled here with my most faithful followers to survey the work.~ [KRES_11]
++  SAY @19 
+   IF ~~ THEN GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Finding all in order, I slew the workers and buried them in the Vale outside. My faithful followers I sacrificed to become... the guardians of this tomb.~ [KRES_12]
++  SAY @20 
+   IF ~~ THEN GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Finally, I sacrificed myself to my god, hoping to stand at his side in the land of the dead. Little did I know that my actions would instead bind me to these halls for eternity.~ [KRES_13]
+-  IF ~~ THEN REPLY ~A just reward for deeds so foul, spirit.~ GOTO 13
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar. Would that be you?~ GOTO 14
++  SAY @21 
++  IF ~~ THEN REPLY @22 GOTO 13
++  IF ~~ THEN REPLY @23 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~I... do not know... I have had centuries to reflect upon my life and my deeds. I can see the wisdom in your words... Perhaps justice *is* served.~ [KRES_14]
+-  IF ~~ THEN REPLY ~I seek the evil that plagues Kuldahar. Would that be you?~ GOTO 14
++  SAY @24 
++  IF ~~ THEN REPLY @23 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~If it is evil that you seek, then you need look no further. I stand here before you. However, I am not the one who plagues Kuldahar. For that evil, you must look elsewhere.~ [KRES_15]
++  SAY @25 
+   IF ~GlobalGT("Kress_Tale","GLOBAL",0)
+-!InParty("Minsc")~ THEN REPLY ~Having heard of your past deeds, why should I believe you to be innocent?~ GOTO 15
++!InParty("Minsc")~ THEN REPLY @26 GOTO 15
+   IF ~Global("Kress_Tale","GLOBAL",0)
+-!InParty("Minsc")~ THEN REPLY ~Why should I believe you to be innocent, spirit?~ GOTO 15
++!InParty("Minsc")~ THEN REPLY @27 GOTO 15
+   IF ~InParty("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ280
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~I care not at all whether you believe me, adventurer. I am centuries dead and bound to these halls for eternity.~ [KRES_16]
++  SAY @28 
+   IF ~~ THEN GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~I care even less for the living or their gathering places. If your Kuldahar is beset by evil, it is not of my doing. Go seek your villain elsewhere.~ [KRES_17]
+-  IF ~~ THEN REPLY ~If not you, then who is responsible?~ GOTO 17
++  SAY @29 
++  IF ~~ THEN REPLY @30 GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Who indeed... I can answer your question, but I require a boon first. Perform a task for me, and I will answer you.~ [KRES_18]
+-  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",0)~ THEN REPLY ~What task, spirit?~ GOTO 18
+-  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",1)~ THEN REPLY ~What task, spirit?~ DO ~SetGlobal("Kress_Quest","GLOBAL",4)
++  SAY @31 
++  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",0)~ THEN REPLY @32 GOTO 18
++  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",1)~ THEN REPLY @32 DO ~SetGlobal("Kress_Quest","GLOBAL",4)
+ AddexperienceParty(7915)~ GOTO 34
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~Auril, the ice goddess, is worshiped by some here in the cold north. Auril commands her followers to extinguish all fires, to open structures to the cold winds, and to deny warmth a place to gather.~ [KRES_19]
++  SAY @33 
+   IF ~~ THEN GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~As you can see, my tomb would be an abomination to a follower of Auril.~ [KRES_20]
+-  IF ~~ THEN REPLY ~I concede your point. Go on.~ DO ~SetGlobal("Kress_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar... but he claims to know who is. In exchange for an answer, he asked a boon of our party: slay a priestess of Auril who has recently tried to enter his tomb and extinguish the warmth within. Only when she is dead would he give us the answer we seek.~ GOTO 20
++  SAY @34 
++  IF ~~ THEN REPLY @35 DO ~SetGlobal("Kress_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL @36 GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~A priestess of Auril has stood at the threshold of my tomb and gazed within. Recently she attempted entry, but my guardians foiled her.~ [KRES_21]
++  SAY @37 
+   IF ~~ THEN GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~Now that you have slain my guardians, there is nothing to prevent her from returning and carrying out the will of Auril.~ [KRES_22]
++  SAY @38 
+   IF ~~ THEN GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~I do not wish to spend eternity in a cold, lightless hell. Find this Aurilite... and slay her. Only then will I answer you.~ [KRES_23]
+-  IF ~~ THEN REPLY ~I am no assassin, spirit.~ GOTO 23
+-  IF ~!InParty("Hrothgar")~ THEN REPLY ~I will consider your words, spirit. Farewell.~ DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
+-  IF ~InParty("Hrothgar")~ THEN REPLY ~I will consider your words, spirit. Farewell.~ DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXTERN ~HROTHJ~ 116
+-  IF ~~ THEN REPLY ~Very well. I will find this priestess and deal with her.~ DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
++  SAY @39 
++  IF ~~ THEN REPLY @40 GOTO 23
++  IF ~!InParty("Hrothgar")~ THEN REPLY @41 DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
++  IF ~InParty("Hrothgar")~ THEN REPLY @41 DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXTERN ~HROTHJ~ 116
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~Know this, adventurer. Your precious Kuldahar is just as much an abomination to Auril as this tomb. Think of the great tree, the circle of warmth, and the tenets of Auril.~ [KRES_24]
++  SAY @43 
+   IF ~~ THEN GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~How will Kuldahar fare under Auril's cold gaze? Find this Aurilite and slay her. Only then will both of us feel safe and only then will I answer you.~ [KRES_25]
+-  IF ~~ THEN REPLY ~As I said, I am no assassin. Farewell.~ EXIT
+-  IF ~~ THEN REPLY ~I will consider your words, spirit. Farewell.~ DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
+-  IF ~~ THEN REPLY ~Very well. I will find this priestess and deal with her.~ DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
++  SAY @44 
++  IF ~~ THEN REPLY @45 EXIT
++  IF ~~ THEN REPLY @41 DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Excellent. Be quick about the task, for even now I sense her presence within the Vale. Return to me when you have dealt with her. Until then, I have nothing more to say.~ [KRES_26]
+-  IF ~~ THEN REPLY ~Farewell, spirit.~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-The spirit of Kresselack asked us to slay an Aurilite priestess whom he thinks intends to destroy his tomb. We have agreed to find this priestess and deal with her but not necessarily slay her. In any case, Kresselack says that he senses her presence within the Vale of Shadows. We should begin our search there.~ EXIT
++  SAY @46 
++  IF ~~ THEN REPLY @47 UNSOLVED_JOURNAL @48 EXIT
+ END
+ 
+ IF ~Global("Kress_Quest","GLOBAL",1)~ THEN BEGIN 26
+-  SAY ~You have returned. Perhaps you have reconsidered your refusal to deal with the Aurilite priestess?~ [KRES_27]
+-  IF ~~ THEN REPLY ~No, I have not. I am no assassin.~ EXIT
+-  IF ~~ THEN REPLY ~I will consider your words, spirit. Farewell.~ DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
+-  IF ~~ THEN REPLY ~Very well. I will find this priestess and deal with her.~ DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
+-  IF ~~ THEN REPLY ~Have you reconsidered? Will you tell me who is behind the evil that plagues Kuldahar?~ GOTO 41
++  SAY @49 
++  IF ~~ THEN REPLY @50 EXIT
++  IF ~~ THEN REPLY @41 DO ~SetGlobal("Kress_Quest","GLOBAL",2)~ EXIT
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
++  IF ~~ THEN REPLY @51 GOTO 41
+ END
+ 
+ IF ~Global("Kress_Quest","GLOBAL",2)~ THEN BEGIN 27
+-  SAY ~You have returned. Have you considered dealing with the Aurilite priestess?~ [KRES_28]
+-  IF ~~ THEN REPLY ~I am still considering it. Farewell.~ EXIT
+-  IF ~~ THEN REPLY ~Very well. I will find this priestess and deal with her.~ DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
+-  IF ~~ THEN REPLY ~Have you reconsidered? Will you tell me who is behind the evil that plagues Kuldahar?~ GOTO 41
++  SAY @52 
++  IF ~~ THEN REPLY @53 EXIT
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
++  IF ~~ THEN REPLY @51 GOTO 41
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kress_Quest","GLOBAL",3)~ THEN BEGIN 28
+-  SAY ~You have returned. You have performed the task that I set before you?~ [KRES_29]
+-  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",1)~ THEN REPLY ~Yes, the priestess is dead.~ DO ~SetGlobal("Kress_Quest","GLOBAL",4)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar... but he claims to know who is. In exchange for an answer, he asked a boon of our party: slay a priestess of Auril who has recently tried to enter his tomb and extinguish the warmth within. Only when she is dead would he give us the answer we seek.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-The spirit of Kresselack asked us to slay an Aurilite priestess whom he thinks intends to destroy his tomb. We have agreed to find this priestess and deal with her but not necessarily slay her. In any case, Kresselack says that he senses her presence within the Vale of Shadows. We should begin our search there.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. She didn't welcome the intrusion, and she attacked us.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We met the priestess of Auril, and recognized her as a barmaid from Kuldahar. Once she revealed herself, we attacked her.%)
+-AddexperienceParty(16769)~ JOURNAL ~Vale of Shadows.
+-
+-We killed Lysan, the Auril priestess, and returned to Kresselack. Unfortunately, all Kresselack could tell us was that neither he or nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~ GOTO 29
+-  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",0)~ THEN REPLY ~No, I have yet to find her.~ GOTO 31
++  SAY @54 
++  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",1)~ THEN REPLY @55 DO ~SetGlobal("Kress_Quest","GLOBAL",4)
++EraseJournalEntry(@36)
++EraseJournalEntry(@48)
++EraseJournalEntry(@56)
++EraseJournalEntry(@57)
++EraseJournalEntry(@58)
++EraseJournalEntry(@59)
++EraseJournalEntry(@60)
++AddexperienceParty(16769)~ JOURNAL @61 GOTO 29
++  IF ~Global("SPRITE_IS_DEADLYSAN","GLOBAL",0)~ THEN REPLY @62 GOTO 31
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~Yes... I no longer sense her presence. You have done well, and I thank you. As a reward, you may take what you find in my sarcophagus.~ [KRES_30]
+-  IF ~~ THEN REPLY ~You said you would tell me who is responsible for the evil that plagues Kuldahar.~ GOTO 30
++  SAY @63 
++  IF ~~ THEN REPLY @64 GOTO 30
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~Yes... so I did... The truth of the matter is that I do not know who is responsible. I can only assure you that it is not I, nor is it anyone in this vale. Were it to be otherwise, I would sense it.~ [KRES_31]
+-  IF ~~ THEN REPLY ~That is not the answer I was promised, spirit.~ GOTO 40
++  SAY @65 
++  IF ~~ THEN REPLY @66 GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~Then be about your task! I have nothing to say to you until it is completed! Fare thee well.~ [KRES_32]
+-  IF ~~ THEN REPLY ~Farewell.~ EXIT
++  SAY @67 
++  IF ~~ THEN REPLY @68 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kress_Quest","GLOBAL",4)
+ ~ THEN BEGIN 32
+-  SAY ~You have done me a great service by removing the threat of the Aurilite priestess. For that, I am grateful.~ [KRES_33]
++  SAY @69 
+   IF ~~ THEN GOTO 33
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~However, I would ask you to leave me to my rest now. There is nothing else that either of us can do for the other. Farewell.~ [KRES_34]
+-  IF ~~ THEN REPLY ~Farewell.~ EXIT
++  SAY @70 
++  IF ~~ THEN REPLY @68 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~I... Hmm. Interesting... It seems you've already slain Lysan. I sense her death at your hands. As a reward, you may take what you find in my sarcophagus.~ [KRES_35]
+-  IF ~~ THEN REPLY ~Then will you answer my question, spirit?~ DO ~EraseJournalEntry(%Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar... but he claims to know who is. In exchange for an answer, he asked a boon of our party: slay a priestess of Auril who has recently tried to enter his tomb and extinguish the warmth within. Only when she is dead would he give us the answer we seek.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-The spirit of Kresselack asked us to slay an Aurilite priestess whom he thinks intends to destroy his tomb. We have agreed to find this priestess and deal with her but not necessarily slay her. In any case, Kresselack says that he senses her presence within the Vale of Shadows. We should begin our search there.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. She didn't welcome the intrusion, and she attacked us.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We met the priestess of Auril, and recognized her as a barmaid from Kuldahar. Once she revealed herself, we attacked her.%)
+-AddexperienceParty(16769)~ JOURNAL ~Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar, but he knows who is... since we had already slain the Auril priestess that he wished dead, he was willing to share his knowledge with us. Unfortunately, all Kresselack could tell me was that neither he nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~ GOTO 35
+-  IF ~~ THEN REPLY ~Why was this... Lysan, of importance to you?~ GOTO 36
++  SAY @71 
++  IF ~~ THEN REPLY @72 DO ~EraseJournalEntry(@36)
++EraseJournalEntry(@48)
++EraseJournalEntry(@56)
++EraseJournalEntry(@57)
++EraseJournalEntry(@58)
++EraseJournalEntry(@59)
++EraseJournalEntry(@60)
++AddexperienceParty(16769)~ JOURNAL @73 GOTO 35
++  IF ~~ THEN REPLY @74 GOTO 36
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~Very well... The truth of the matter is that I do not know who is responsible. I can only assure you that it is not I, nor is it anyone in this vale. Were it to be otherwise, I would sense it...~ [KRES_36]
+-  IF ~~ THEN REPLY ~That is not the answer I was promised, spirit.~ GOTO 40
++  SAY @75 
++  IF ~~ THEN REPLY @66 GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~Auril, the ice goddess, is worshiped by some here in the cold north. Auril commands her followers to extinguish all fires, to open structures to the cold winds, and to deny warmth a place to gather.~ [KRES_19]
++  SAY @33 
+   IF ~~ THEN GOTO 37
+ END
+ 
+ IF ~~ THEN BEGIN 37
+-  SAY ~As you can see, my tomb would be an abomination to a follower of Auril.~ [KRES_20]
+-  IF ~~ THEN REPLY ~I concede your point. What of it?~ GOTO 38
++  SAY @34 
++  IF ~~ THEN REPLY @76 GOTO 38
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~Lysan was a priestess of Auril. On several occasions, she stood at the threshold of my tomb and gazed within.~ [KRES_39]
++  SAY @77 
+   IF ~~ THEN GOTO 39
+ END
+ 
+ IF ~~ THEN BEGIN 39
+-  SAY ~I am certain that she was plotting a way to enter here and carry out the will of Auril. With her gone, I need not worry.~ [KRES_40]
+-  IF ~~ THEN REPLY ~Then will you answer my question, spirit?~ DO ~EraseJournalEntry(%Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar... but he claims to know who is. In exchange for an answer, he asked a boon of our party: slay a priestess of Auril who has recently tried to enter his tomb and extinguish the warmth within. Only when she is dead would he give us the answer we seek.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-The spirit of Kresselack asked us to slay an Aurilite priestess whom he thinks intends to destroy his tomb. We have agreed to find this priestess and deal with her but not necessarily slay her. In any case, Kresselack says that he senses her presence within the Vale of Shadows. We should begin our search there.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar's Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. She didn't welcome the intrusion, and she attacked us.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We met the priestess of Auril, and recognized her as a barmaid from Kuldahar. Once she revealed herself, we attacked her.%)
+-AddexperienceParty(16769)~ JOURNAL ~Vale of Shadows.
+-
+-We spoke with Kresselack's spirit, and he claims he is not responsible for the evil that plagues Kuldahar, but he knows who is... since we had already slain the Auril priestess that he wished dead, he was willing to share his knowledge with us. Unfortunately, all Kresselack could tell me was that neither he nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~ GOTO 35
++  SAY @78 
++  IF ~~ THEN REPLY @72 DO ~EraseJournalEntry(@36)
++EraseJournalEntry(@48)
++EraseJournalEntry(@56)
++EraseJournalEntry(@57)
++EraseJournalEntry(@58)
++EraseJournalEntry(@59)
++EraseJournalEntry(@60)
++AddexperienceParty(16769)~ JOURNAL @73 GOTO 35
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~Promised? I made you no promise, adventurer. As for your answer... knowing where your enemy is *not* is as vital as knowing where he *is.*  Think upon that.~ [KRES_41]
+-  IF ~~ THEN REPLY ~Very well, spirit. Farewell.~ EXIT
++  SAY @79 
++  IF ~~ THEN REPLY @80 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~No. I will only answer you after you have dealt with the threat of the Aurilite. Will you help me?~ [KRES_42]
+-  IF ~~ THEN REPLY ~I am still considering it. Farewell.~ EXIT
+-  IF ~~ THEN REPLY ~Very well. I will find this priestess and deal with her.~ DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
++  SAY @81 
++  IF ~~ THEN REPLY @53 EXIT
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("Kress_Quest","GLOBAL",3)~ GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~I care little for the threats of one with the wits of a child.~
++  SAY @82
+   IF ~~ THEN GOTO 16
+ END

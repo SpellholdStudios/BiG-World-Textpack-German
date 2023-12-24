@@ -1,0 +1,71 @@
+@0    = ~What do we have here?  Another slave for the pens, perhaps?  Speak up.  What do you want?!~
+@1    = ~I seek the one in charge.~
+@2    = ~Nothing at this time, farewell.~
+@3    = ~You again.  What do you want?~
+@4    = ~Well, you’ve found him.  I’m Joril Frostbeard, and I rule here.  What do you want of me?~
+@5    = ~What gives you the right to rule this glacier, Joril?  Certainly the slaves would contest your rule. ~
+@6    = ~I see no symbol of office... no title, Joril.  By what right do you rule? ~
+@7    = ~Watch your tongue, fool!  Kreg is dead, and now I am the chosen lieutenant.  Who dares to say otherwise?~
+@8    = ~It is my understanding that the *master* chooses his lieutenants.  Did he choose you, Joril?~
+@9    = ~Wyrm’s Tooth.
+
+We talked to Joril Frostbeard and demanded his badge of office. He refused at first, but then we decided to lead him to believe that we were collecting it for his *master*.~
+@10   = ~I...  Well...  Kreg was weak and a fool.  He didn’t deserve to be Jarl.  How else could I have slain him so easily?~
+@11   = ~I am not here to argue the point with you.  I have come to collect the badge.~
+@12   = ~Listen, jackass. I am not here to argue with you. Just give me the damn badge.~
+@13   = ~This is pointless. Farewell for now.~
+@14   = ~Bah!  And what if I refuse to hand it over, *little* one?  Do you think you can defeat me and my warriors combined? ~
+@15   = ~Joril, think about it.  If you do not give me the badge, who do you think will be sent to collect it next?~
+@16   = ~Wyrm’s Tooth.
+
+We asked Joril how he managed to slay his father Kreg. Apparently he made a pact with some creatures he calls *wyrms* and had them perform the deed. He pays them for their aid with sacrifices from the slave pens on a daily basis.~
+@17   = ~Wyrm’s Tooth.
+
+We talked to Joril Frostbeard and demanded his badge of office. He was refused at first, demanding to know who sent us to collect it. We were vague with our answer and lead him to believe that we were collecting it for some *higher authority*.~
+@18   = ~Wyrm’s Tooth.
+
+We decided to continue to reason with Joril to try and get his badge of office. The plan worked, and it is now in our possession.~
+@19   = ~Very well, if it is a fight want, a fight you shall have.~
+@20   = ~Wyrm’s Tooth.
+
+Although we probably could have continued to reason with Joril to try and get his badge of office, we decided to fight him for it instead.~
+@21   = ~Urrrh!  To the nine hells with you!  Here, take the damn badge... but when you return to your master tell him of my feat.  He will see that Kreg was too weak to carry out his plans!~
+@22   = ~So tell me, Joril.  How did you manage to kill your father?~
+@23   = ~What is this feat you speak of?~
+@24   = ~Farewell for now, Joril.~
+@25   = ~Humph...  I challenged the old fool to prove his worth as Jarl.  I told him a true leader would be able to subdue the wyrms in the cavern.  He couldn’t refuse me, or he’d lose the respect of the tribe...~
+@26   = ~Go on.~
+@27   = ~He didn’t know that I’d made a pact with the wyrms.  I told them I’d give them sacrifices if they’d pretend to be beaten and jump the old fool when he turned his back.  They agreed.~
+@28   = ~You didn’t even have the stones to kill him yourself?~
+@29   = ~Tell me about these sacrifices, Joril.~
+@30   = ~What wyrms, Joril?~
+@31   = ~Arrrrgh!  You dare to call me a coward?  Watch your tongue before I offer you up on the altar...~
+@32   = ~You mentioned sacrifices.  Tell me about them, Joril.~
+@33   = ~What are these wyrms you mentioned?~
+@34   = ~Slaves.  I give the wyrms a slave a day.  There’s plenty available, and I can always get more.~
+@35   = ~The slaves are to be freed, Joril.~
+@36   = ~Wyrm’s Tooth.
+
+Wonderful. Our paladin demanded that Joril Frostbeard free the slaves he held in captivity. Naturally Joril became suspicious of our true identities and attacked us. Oh, well.~
+@37   = ~I want to be allowed to look around.~
+@38   = ~Free the slaves?  Never...  Who are you really?  If you were who you pretend to be you would never make such a demand.  Die, fool!~
+@39   = ~So be it!~
+@40   = ~So look.  Who’s stopping you?~
+@41   = ~Oh, really?  And just who do you think you are that you can walk in here and...  Wait...  Who sent you here?~
+@42   = ~Who do you think sent me, Joril?~
+@43   = ~Yes...  who indeed.  So...  He sends a *minion* to collect the badge...  I’m not worthy of his personal attention.  Is that it?!~
+@44   = ~I am not here to discuss your personal worth.  I am here for the badge.~
+@45   = ~The slaying of Kreg, my father!  He was weak and a fool.  He didn’t deserve to be Jarl.  How else could I have slain him so easily?~
+@46   = ~Ha!  I will crush the life out of you with my bare hands.  Die, fool!~
+@47   = ~Go see for yourself.  Leave here and take the path to the left. ~
+@48   = ~You said something about sacrifices.  Tell me about them.~
+@49   = ~You again?  You have what you came for.  Get out of my sight!~
+@50   = ~Yes, I have the badge.  Now I have come for your life.  Prepare to die!~
+@51   = ~Very well, farewell.~
+@52   = ~This badge gives me the right, *small* one.  It is a symbol given to all lieutenants in service to the master.  Where once my father held it, now *I* hold it.~
+@53   = ~It is my understanding that Kreg Frostbeard still rules.~
+@54   = ~Yes, killing your father gained you the throne.~
+@55   = ~If that badge proves you rule, then I’ve come to take it from you. ~
+@56   = ~Very well, then, that is all I wished to know.  Farewell, Joril.~
+@57   = ~Jackass?!  How dare you!  Who the hell do you think you are talking to?~
+@58   = ~Talking?  I think I am listening to the braying of a donkey.~

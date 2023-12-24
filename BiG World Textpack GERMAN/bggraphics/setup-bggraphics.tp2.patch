@@ -1,0 +1,10 @@
+--- bggraphics\setup-bggraphics.tp2	Sun May 25 12:14:54 2014
++++ C:\BWP Patchstudio\patched files\bggraphics\setup-bggraphics.tp2	Tue Aug 19 17:58:41 2014
+@@ -6,6 +6,7 @@
+ README ~bggraphics/bggraphics-readme.html~
+ 
+ LANGUAGE ~English~ ~English~ ~bggraphics/language/english/bggraphics_setup.tra~
++LANGUAGE ~German~ ~German~ ~bggraphics/language/german/bggraphics_setup.tra~
+ 
+ // Quest title
+ BEGIN @1

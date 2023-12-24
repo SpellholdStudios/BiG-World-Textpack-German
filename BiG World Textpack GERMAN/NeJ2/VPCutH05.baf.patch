@@ -1,0 +1,17 @@
+--- NeJ2\baf\VPCutH05.baf	Fri Jul 13 01:00:47 2018
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\VPCutH05.baf	Wed Apr 10 10:32:14 2019
+@@ -3,12 +3,8 @@
+ THEN
+ 	RESPONSE #100
+ 		CutSceneId(Player1)
+-		AddJournalEntry(~Meeting Tilorn.
+-
+-Tilorn’s arrival at Ulcaster before our own only leads me to believe that both he and Hrothgar are keeping much from me and yet they expect me to trust and aid them without question. Tilorn’s fantastic tale of the balance between past and future being upset brings to my mind the conversation between Hrothgar and Gorion that I witnessed whilst travelling the portal from Kuldahar... *I already feel the adverse effects the imbalance between future and past is having on The Realms*... those were the words Hrothgar spoke and now Tilorn speaks of the same imbalance. Was it a dream I now find myself asking, or maybe a glimpse of another time as I fell through the dimensions back to the present, and why was Hrothgar so quick to dismiss it as such? Perhaps by accepting Tilorn’s task I may discover who these two men are who speak of travelling through time as though it were as simple as opening a door?~,INFO)
+-		AddJournalEntry(~The Second Key Quest.
+-
+-Hrothgar was surprised to find Tilorn waiting for us on our arrival at Ulcaster and I was equally surprised to learn that this Tilorn knew me by name. It would appear that he and Hrothgar are old friends... something he omitted to mention when I asked about Tilorn’s mysterious visit to Arundel in Kuldahar. After a brief introduction Tilorn set about explaining his reason for being at Ulcaster... an incredulous story. It would appear there is something amiss in the realms, upsetting the balance between past and future... Tilorn believes it all began with the untimely fall of Ulcaster after an assault by Halruaa, an  academy for specialist magic. He proposes to send us to Halruaa, prior to the event which led to Ulcaster’s downfall... once there we are to find that which sparked the assault and prevent it from happening. Thus, preserving all the knowledge contained in Ulcaster’s walls that may be of help in averting the impending chaos in the future. If Hrothgar of Easthaven wasn’t standing beside me now I would say Tilorn was insane... as it is who am I to judge what is and was isn’t possible anymore. So I have agreed to help and now stand stripped of all armour and weapons, clothed in wizard robes... ready to depart for Halruaa.~,QUEST)
++		AddJournalEntry(@0,INFO)
++		AddJournalEntry(@1,QUEST)
+ 		PlaySound("PORTAL3")
+ 		CreateVisualEffectObject("SPCLOUD1",Player1)
+ 		CreateVisualEffectObject("SPCLOUD1",Player2)

@@ -1,0 +1,13 @@
+--- rpgsolaflirtpack\rpgsolaflirtpack.tp2	Sun Apr 12 15:45:25 2020
++++ C:\BWP Patchstudio\patched files\rpgsolaflirtpack\rpgsolaflirtpack.tp2	Wed Oct 05 10:08:02 2022
+@@ -60,6 +60,10 @@
+          ~english~
+ 		 ~rpgsolaflirtpack/lang/english/setup.tra~
+ 
++LANGUAGE ~German~
++         ~german~
++		 ~rpgsolaflirtpack/lang/german/setup.tra~
++
+ 
+ /* =========================================================== *
+  *  The RPG Dungeon Solaufein Flirt Pack for BG2: SoA and ToB  *

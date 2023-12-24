@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V13.baf	Tue Dec 02 00:21:38 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V13.baf	Wed Apr 10 10:28:32 2019
+@@ -8,10 +8,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~Can't anyone hear us down here?~) // "Can't anyone hear us down here?"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~My sister's sick, lady.~) // "My sister's sick, lady."
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ END
+ 

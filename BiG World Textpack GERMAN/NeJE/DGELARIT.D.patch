@@ -1,0 +1,318 @@
+--- NeJE\dlg\DGELARIT.D	Fri Mar 09 22:20:20 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DGELARIT.D	Tue Apr 09 19:35:46 2019
+@@ -3,225 +3,225 @@
+ IF ~NumberOfTimesTalkedTo(0)
+ GlobalLT("Astrolab","GLOBAL",4)
+ ~ THEN BEGIN 0
+-  SAY ~Blasted machine!  I’ll never get her fixed!  ~
+-  IF ~~ THEN REPLY ~Might I ask what’s wrong with *her?*~ GOTO 1
+-  IF ~~ THEN REPLY ~Who are you?~ GOTO 3
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 3
+   IF ~PartyHasItem("PIECE1")
+-~ THEN REPLY ~Kaylessa bestowed me with this piece of machinery.  Perhaps this is what you seek?~ DO ~TakePartyItem("PIECE1")
++~ THEN REPLY @3 DO ~TakePartyItem("PIECE1")
+ SetGlobal("ASTRO1","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE2")
+-~ THEN REPLY ~This piece of machinery was retrieved from Solonor Tower.  Could you use this to fix the machine?~ DO ~TakePartyItem("PIECE2")
++~ THEN REPLY @4 DO ~TakePartyItem("PIECE2")
+ SetGlobal("ASTRO2","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE3")
+-~ THEN REPLY ~I found this piece in one of the war rooms.  It might be able to help you.~ DO ~TakePartyItem("PIECE3")
++~ THEN REPLY @5 DO ~TakePartyItem("PIECE3")
+ SetGlobal("ASTRO3","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE4")
+-~ THEN REPLY ~I removed this piece from an undead shadow within the Hand.  It looks like it’s part of that machine.~ DO ~TakePartyItem("PIECE4")
++~ THEN REPLY @6 DO ~TakePartyItem("PIECE4")
+ SetGlobal("ASTRO4","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+-  IF ~~ THEN REPLY ~I have intruded, forgive me.  I’ll come back later.~ EXIT
++  IF ~~ THEN REPLY @7 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Can’t you see she’s broken?  I can’t power her up until her missing pieces are replaced.~
+-  IF ~~ THEN REPLY ~What missing pieces?~ GOTO 2
+-  IF ~~ THEN REPLY ~Can you tell me about yourself?~ GOTO 3
+-  IF ~~ THEN REPLY ~Perhaps you will have made more progress when I return.  Farewell.~ EXIT
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 2
++  IF ~~ THEN REPLY @10 GOTO 3
++  IF ~~ THEN REPLY @11 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I have no time to talk to those mechanically ignorant!  Find me a piece that fits or stay out of my way!~
++  SAY @12
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~GAHHH!  You waste my time with pointless chatter.    My name is Geralith.  During the days when I was alive, I built and maintained this hunk of junk that used to be an astrolabe.~
+-  IF ~~ THEN REPLY ~How did you end up here when the Hand fell?~ GOTO 5
+-  IF ~~ THEN REPLY ~You built the astrolabe?~ GOTO 4
+-  IF ~~ THEN REPLY ~I’m sorry I have wasted your time.  Farewell.~ EXIT
++  SAY @13
++  IF ~~ THEN REPLY @14 GOTO 5
++  IF ~~ THEN REPLY @15 GOTO 4
++  IF ~~ THEN REPLY @16 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~That I did.  Larrel charged me with designing and building this machine.   A device was needed by the wizards to help research the stars and the moons.  Now it’s only good for collecting dust.~
+-  IF ~~ THEN REPLY ~How did you end up here when the Hand fell?~ GOTO 5
+-  IF ~~ THEN REPLY ~Perhaps Larrel has some insight?~ GOTO 6
+-  IF ~~ THEN REPLY ~I must take my leave.  Farewell.~ EXIT
++  SAY @17
++  IF ~~ THEN REPLY @14 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 6
++  IF ~~ THEN REPLY @19 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~The last thing I remembered while defending the Hand was an arrow piercing my back.  When I awoke, I found myself in this ghastly form.  Now I spend my days trying to figure a way to fix this blasted machine.~
+-  IF ~~ THEN REPLY ~Perhaps Larrel has some insight?~ GOTO 6
+-  IF ~~ THEN REPLY ~You mentioned you built the astrolabe?~ GOTO 4
+-  IF ~~ THEN REPLY ~Maybe I can help you later.  Farewell.~ EXIT
++  SAY @20
++  IF ~~ THEN REPLY @18 GOTO 6
++  IF ~~ THEN REPLY @21 GOTO 4
++  IF ~~ THEN REPLY @22 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Have you spoken to him?  All he does is rant about worthless dribble.  I can’t make any sense out of him.  Quite different from the noble elven wizard he once was.~
+-  IF ~~ THEN REPLY ~How did you end up here when the Hand fell?~ GOTO 5
+-  IF ~~ THEN REPLY ~You said you built the astrolabe?~ GOTO 4
+-  IF ~~ THEN REPLY ~Maybe I can make some sense out of him.  Farewell.~ EXIT
++  SAY @23
++  IF ~~ THEN REPLY @14 GOTO 5
++  IF ~~ THEN REPLY @24 GOTO 4
++  IF ~~ THEN REPLY @25 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Well send me to the abyss.  You might be right.  If you find any more pieces, let me know.  Otherwise, check back with me after I’ve put the part in.~
++  SAY @26
+   IF ~PartyHasItem("PIECE1")
+-~ THEN REPLY ~Kaylessa bestowed me with this piece of machinery.  Perhaps this is what you seek?~ DO ~TakePartyItem("PIECE1")
++~ THEN REPLY @3 DO ~TakePartyItem("PIECE1")
+ SetGlobal("ASTRO1","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE2")
+-~ THEN REPLY ~This piece of machinery was retrieved from Solonor Tower.  Could you use this to fix the machine?~ DO ~TakePartyItem("PIECE2")
++~ THEN REPLY @4 DO ~TakePartyItem("PIECE2")
+ SetGlobal("ASTRO2","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE3")
+-~ THEN REPLY ~I found this piece in one of the war rooms.  It might be able to help you.~ DO ~TakePartyItem("PIECE3")
++~ THEN REPLY @5 DO ~TakePartyItem("PIECE3")
+ SetGlobal("ASTRO3","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE4")
+-~ THEN REPLY ~I removed this piece from an undead shadow within the Hand.  It looks like it’s part of that machine.~ DO ~TakePartyItem("PIECE4")
++~ THEN REPLY @6 DO ~TakePartyItem("PIECE4")
+ SetGlobal("ASTRO4","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+-  IF ~~ THEN REPLY ~I’ll check back with you after you’ve put it together.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @27 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalLT("Astrolab","GLOBAL",4)
+ ~ THEN BEGIN 8
+-  SAY ~Gah!  This infernal machine will never be fixed!~
++  SAY @28
+   IF ~PartyHasItem("PIECE1")
+-~ THEN REPLY ~Kaylessa bestowed me with this piece of machinery.  Perhaps this is what you seek?~ DO ~TakePartyItem("PIECE1")
++~ THEN REPLY @3 DO ~TakePartyItem("PIECE1")
+ SetGlobal("ASTRO1","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE2")
+-~ THEN REPLY ~This piece of machinery was retrieved from Solonor Tower.  Could you use this to fix the machine?~ DO ~TakePartyItem("PIECE2")
++~ THEN REPLY @4 DO ~TakePartyItem("PIECE2")
+ SetGlobal("ASTRO2","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE3")
+-~ THEN REPLY ~I found this piece in one of the war rooms.  It might be able to help you.~ DO ~TakePartyItem("PIECE3")
++~ THEN REPLY @5 DO ~TakePartyItem("PIECE3")
+ SetGlobal("ASTRO3","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+   IF ~PartyHasItem("PIECE4")
+-~ THEN REPLY ~I removed this piece from an undead shadow within the Hand.  It looks like it’s part of that machine.~ DO ~TakePartyItem("PIECE4")
++~ THEN REPLY @6 DO ~TakePartyItem("PIECE4")
+ SetGlobal("ASTRO4","GLOBAL",1)
+ IncrementGlobal("ASTROLAB","GLOBAL",1)
+ AddexperienceParty(19500)
+ ~ GOTO 10
+-  IF ~~ THEN REPLY ~Might I ask what’s wrong with *her?*~ GOTO 1
+-  IF ~~ THEN REPLY ~Who are you?~ GOTO 3
+-  IF ~~ THEN REPLY ~I have intruded, forgive me.  I’ll come back later.~ EXIT
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~~ THEN REPLY @7 EXIT
+ END
+ 
+ IF ~Global("Astrolab","GLOBAL",4)
+ Global("VP_Astrolabe_Fixed","GLOBAL",1)~ THEN BEGIN 9
+-  SAY ~Look at her!  Isn’t she beautiful?  You have my eternal gratitude for helping me fix her.  May Corellon guide you.~
+-  IF ~~ THEN REPLY ~A moment Geralith, I have more questions about this astrolabe of yours.~ GOTO 11
+-  IF ~~ THEN REPLY ~I have helped you fix her now maybe you can help me.~ GOTO 12
+-  IF ~~ THEN REPLY ~Yes she is beautiful, more so than you can imagine, I need yours and her help Geralith.~ GOTO 13
++  SAY @29
++  IF ~~ THEN REPLY @30 GOTO 11
++  IF ~~ THEN REPLY @31 GOTO 12
++  IF ~~ THEN REPLY @32 GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Let me see...~
++  SAY @33
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~What more can I tell you my friend? She is but a machine built to aid the research of Larrel and his wizards, to enable them to study and unlock the wonders of the skies.~
+-  IF ~~ THEN REPLY ~Kaylessa told me Larrel and his wizards were using the astrolabe to study space and time. Is this true?~ GOTO 14
+-  IF ~~ THEN REPLY ~What do you know of the research  that Larrel and his wizards were conducting before the hand fell?~ GOTO 15
+-  IF ~~ THEN REPLY ~I believe your astrolabe may be able to return me to my home. Is it possible that she can be used to travel through time?~ GOTO 16
++  SAY @34
++  IF ~~ THEN REPLY @35 GOTO 14
++  IF ~~ THEN REPLY @36 GOTO 15
++  IF ~~ THEN REPLY @37 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~What more can I tell you my friend? She is but a machine built to aid the research of Larrel and his wizards, to enable them to study and unlock the wonders of the skies.~
+-  IF ~~ THEN REPLY ~Kaylessa told me Larrel and his wizards were using the astrolabe to study space and time. Is this true?~ GOTO 14
+-  IF ~~ THEN REPLY ~What do you know of the research  that Larrel and his wizards were conducting before the hand fell?~ GOTO 15
+-  IF ~~ THEN REPLY ~I believe your astrolabe may be able to return me to my home. Is it possible that she can be used to travel through time?~ GOTO 16
++  SAY @34
++  IF ~~ THEN REPLY @35 GOTO 14
++  IF ~~ THEN REPLY @36 GOTO 15
++  IF ~~ THEN REPLY @37 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~What more can I tell you my friend? She is but a machine built to aid the research of Larrel and his wizards, to enable them to study and unlock the wonders of the skies.~
+-  IF ~~ THEN REPLY ~Kaylessa told me Larrel and his wizards were using the astrolabe to study space and time. Is this true?~ GOTO 14
+-  IF ~~ THEN REPLY ~What do you know of the research  that Larrel and his wizards were conducting before the hand fell?~ GOTO 15
+-  IF ~~ THEN REPLY ~I believe your astrolabe may be able to return me to my home. Is it possible that she can be used to travel through time?~ GOTO 16
++  SAY @34
++  IF ~~ THEN REPLY @35 GOTO 14
++  IF ~~ THEN REPLY @36 GOTO 15
++  IF ~~ THEN REPLY @37 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~That is what I built her for and Larrel seemed well pleased with her performance, but I have no idea what he discovered during his research. You would need to speak with Larrel himself. Now if that is all I must tend my machine.~
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17A
++  SAY @38
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @39 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @40 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @41 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @39 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @40 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @41 GOTO 17A
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~Very little I am afraid. I built this beautiful machine and I was her keeper, but all the research done by Larrel and his wizards was kept among themselves. To learn more you will have to speak with Larrel himself.~
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17A
++  SAY @42
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @39 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @40 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @41 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @39 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @40 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @41 GOTO 17A
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Well, she was built to study time and space but as to whether she can be used to travel I have never given it a thought. It is an intriguing idea I must say, but I am puzzled as to why you should need to ask such a question? You should probably speak with Larrel, he may have answers for you.~
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~Thank you Geralith, I will. Farewell.~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~What sort of a builder are you when you don’t even know what your creation is capable of? Bah, perhaps the crazed wizard can tell me more!~ GOTO 17A
+-  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY ~I have other questions for Larrel, I only  hope he is of a mind to give me answers. Farewell Geralith.~ GOTO 17A
++  SAY @43
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @39 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @40 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN REPLY @41 GOTO 17
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @39 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @40 GOTO 17A
++  IF ~Global("VP_Mute_Hrothgar","LOCALS",1)~ THEN REPLY @41 GOTO 17A
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Yes... yes, you go and speak with Larrel, I have much to do now that has been neglected since she lay idle... yes there is much to do.~
++  SAY @44
+   IF ~Global("VP_Mute_Hrothgar","LOCALS",0)~ THEN DO ~SetGlobal("VP_Mute_Hrothgar","LOCALS",1)~ EXTERN ~HROTHJ~ 210
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~...she has changed, I cannot put my finger on how but she is like a caterpillar that has slept as a chrysalis and emerged as a butterfly. I can only think that reassembling her has brought her to her full potential, and yes, I believe she is capable of almost anything you ask of her now.~
+-  IF ~~ THEN REPLY ~That is music to my ears! When do we start?~ EXTERN ~HROTHJ~ 221
+-  IF ~~ THEN REPLY ~Then what are waiting for... let us be gone from this place.~ EXTERN ~HROTHJ~ 221
+-  IF ~~ THEN REPLY ~Forgive my earlier mistrust Hrothgar, you were right, another portal, such as it is, has been opened. Come, will you not travel with me out of this place?~ EXTERN ~HROTHJ~ 222
+-  IF ~~ THEN REPLY ~Praise be... come my friends and I mean all my friends, it is time to go home.~ EXTERN ~HROTHJ~ 222
+-  IF ~Global("VP_Kuldahar_Portal","GLOBAL",0)~ THEN REPLY ~Larrel, actually, we need to re-supply before we can continue our journey. Could you take us to Kuldahar instead?~ DO ~SetGlobal("VP_Kuldahar_Portal","GLOBAL",1)~ EXTERN ~HROTHJ~ 238
++  SAY @45
++  IF ~~ THEN REPLY @46 EXTERN ~HROTHJ~ 221
++  IF ~~ THEN REPLY @47 EXTERN ~HROTHJ~ 221
++  IF ~~ THEN REPLY @48 EXTERN ~HROTHJ~ 222
++  IF ~~ THEN REPLY @49 EXTERN ~HROTHJ~ 222
++  IF ~Global("VP_Kuldahar_Portal","GLOBAL",0)~ THEN REPLY @50 DO ~SetGlobal("VP_Kuldahar_Portal","GLOBAL",1)~ EXTERN ~HROTHJ~ 238
+ END
+ 
+ IF ~Global("Astrolab","GLOBAL",4)
+ Global("VP_Astrolabe_Fixed","GLOBAL",0)
+ Global("VP_Larrel_May_Talk","GLOBAL",0)~ THEN BEGIN 19
+-  SAY ~Thank you very much for helping me fix her. She is in order now. Isn’t she beautiful?~
++  SAY @51
+   IF ~~ THEN DO ~SetGlobal("VP_Astrolabe_Fixed","GLOBAL",1)
+ SetGlobal("VP_Larrel_May_Talk","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17A
+-  SAY ~Yes... yes, you go and speak with Larrel, I have much to do now that has been neglected since she lay idle... yes there is much to do.~
++  SAY @44
+   IF ~~ THEN EXIT
+ END

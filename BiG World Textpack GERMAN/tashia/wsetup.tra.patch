@@ -1,0 +1,34 @@
+--- tashia\deutsch\wsetup.tra	Wed Jun 04 21:57:00 2003
++++ C:\BWP Patchstudio\patched files\tashia\deutsch\wsetup.tra	Fri Jul 15 08:29:04 2011
+@@ -264,4 +264,31 @@
+ @289  = ~Du bewegst dich langsam aber bestimmt auf Tashia zu, umarmst die sanft und gibst ihr einen kurzen aber doch leidenschafltichen Kuss, was sie für einen Moment sprachlos und mit weit aufgerissenen Augen dastehen lässt!~
+ @290  = ~Peanelians Klauen~
+ @291  = ~Tashia, eine zusaetzliche Mitstreiterin (ohne TdB)~
++@300 = ~Tashia Add-on Pack von Bri und Lord Ernie (Tashia ToB erforderlich)~
++@301 = ~Action Style Dialoge~
++@302 = ~Baldurisierte Dialoge~
++@303 = ~Tashia NPC Mod~
++@304 = ~Tashias Wintermantel~
++@305 = ~Dieser Mantel wurde aus einem reinen weißen Pelz eines Winterwolfes gefertigt. Seine Weichheit und Luxuriösität sind nahezu unerreicht, auch wenn ein Abenteurer ihn ehrer wegen seiner Schutzeigenschaften wertschätzen dürfte. Tashia liebt ihn und spricht mit großer Vorliebe über den Tag an dem <CHARNAME> den Mantel für sie anfertigen ließ.
+ 
++STATISTIKEN:
++50% Resistenz gegen Kälte
++Küstungsklassenbonus:  1
++Rettungswurfbonus:  1
++Eistrahl, genau wie der Stab des Frostes (3 mal pro Tag)~
++@306 = ~Winterwolfpelz~
++@307 = ~Der reine weiße Pelz von einem Winterwolf is weich und luxuriös. Er wird oft in die Kleidung eingenäht und ist so vielfältig wie die robusten Westen der Uthgardt Barbaren und so fein und modisch wie eine Winterstola welche von noblen Frauen in der Schwertküstenregion getragen wird.
++
++STATISTICS:
++50% Resistenz gegen Kälte~
++@308 = ~Aimilíona Goldmantel~
++@309 = ~Ladenbesitzer~
++@310 = ~Tashias Körper~
++@311 = ~Tashia wurde von Bodhi gefangen und mit Vampirismus infiziert, Ihr wart gezungen sie zu töten. Es gibt vielleicht einen Weg sie wieder zu beleben, doch Ihr habt keine Ahnung welcher es sein könne.~
++@312 = ~Du hast die Tashias ToB-Version nicht installiert. Installiere sie zuerst, bevor du dieses Expansion-Pack installierst.~
++@313 = ~Belmin Gergas~
++@314 = ~Verhüllter Vollstrecker~
++@315 = ~Zauber 'Andere Verwandeln' - Belmin Gergas~
++@316 = ~Tashias alternatives Portrait 1 -  Erstellt von Amalthea.~
++@317 = ~Tashias alternatives Portrait 2.~
++@318 = ~Alternatives Portrait für Tashia.~

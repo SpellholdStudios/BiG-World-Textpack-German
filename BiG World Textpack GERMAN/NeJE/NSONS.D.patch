@@ -1,0 +1,10 @@
+--- NeJE\dlg\NSONS.D	Wed Dec 29 15:20:58 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\NSONS.D	Tue Apr 09 19:36:58 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~NSONS~ 74343
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~I have no desire to speak with you.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

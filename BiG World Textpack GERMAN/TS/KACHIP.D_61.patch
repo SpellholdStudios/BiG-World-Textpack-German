@@ -1,0 +1,178 @@
+--- TS\bgtnodlg\KACHIP.D	Sat Apr 02 04:42:05 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\KACHIP.D	Thu May 05 10:46:38 2016
+@@ -3,31 +3,31 @@
+ // Joining party, Yoshimo initiates
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~I think it is a good idea! Better than staying in this barbaric tavern and listening to drunkard sailors!~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",0)
+ ActionOverride("Yoshimo",JoinParty())
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~If that is what you wish.~
++  SAY @1
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",0)
+ ActionOverride("Yoshimo",JoinParty())
+ JoinParty()~ EXIT
+ END
+ 
+ IF WEIGHT #5 ~Global("Kicked_Out","LOCALS",0)~ THEN BEGIN 2
+-  SAY ~Shall we continue on, or has this ended our travels?~
++  SAY @2
+   IF ~InParty("Yoshimo")
+-!Dead("Yoshimo")~ THEN REPLY ~Perhaps we should go separate ways.~ GOTO 3
++!Dead("Yoshimo")~ THEN REPLY @3 GOTO 3
+   IF ~OR(2)
+ !InParty("Yoshimo")
+-Dead("Yoshimo")~ THEN REPLY ~Perhaps we should go separate ways.~ GOTO 4
+-  IF ~~ THEN REPLY ~We go on as before. Let’s go.~ DO ~JoinParty()~ EXIT
++Dead("Yoshimo")~ THEN REPLY @3 GOTO 4
++  IF ~~ THEN REPLY @4 DO ~JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Where should we meet if you were to change your mind?~
++  SAY @5
+   IF ~!AreaCheck("AR0601")
+ !AreaCheck("AR0602")
+ !AreaCheck("AR0603")
+@@ -79,7 +79,7 @@
+ !InWatchersKeep()
+ GlobalLT("Chapter","GLOBAL",7)
+ Global("VP_OnIsland","GLOBAL",0)
+-Global("VP_InHalruaa","GLOBAL",0)~ THEN REPLY ~Meet us at the Sea Bounty Tavern.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS216
++Global("VP_InHalruaa","GLOBAL",0)~ THEN REPLY @6 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS216
+   IF ~!AreaCheck("AR0301")
+ !AreaCheck("AR0302")
+ !AreaCheck("AR0303")
+@@ -121,15 +121,15 @@
+ !AreaCheck("AR1510")
+ !AreaCheck("AR1511")
+ !InWatchersKeep()
+-Global("VP_OnIsland","GLOBAL",0)~ THEN REPLY ~Just wait right here and we’ll come back for you later.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS217
++Global("VP_OnIsland","GLOBAL",0)~ THEN REPLY @7 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS217
+   IF ~Global("VP_OnIsland","GLOBAL",0)
+-Global("VP_InHalruaa","GLOBAL",0)~ THEN REPLY ~I don’t know. If you can, try and wait at a major tavern or inn.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS215
+-  IF ~Global("VP_OnIsland","GLOBAL",1)~ THEN REPLY ~Please, come back to the ship, and stay around there.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS214
+-  IF ~~ THEN REPLY ~Find your own way. We won’t meet again.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS214
++Global("VP_InHalruaa","GLOBAL",0)~ THEN REPLY @8 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS215
++  IF ~Global("VP_OnIsland","GLOBAL",1)~ THEN REPLY @9 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS214
++  IF ~~ THEN REPLY @10 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHJ~ TS214
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~If that is what you wish.~
++  SAY @1
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+@@ -139,20 +139,20 @@
+ GlobalGT("VP_YoshimoSearch","GLOBAL",0)
+ GlobalLT("VP_YoshimoSearch","GLOBAL",4)
+ Global("VP_OnIsland","GLOBAL",0)~ THEN BEGIN 5
+-  SAY ~You lied to me. You have no intention to lead me to Yoshimo! I do not need your help!  I’ll find Yoshimo eventually!  I SWEAR I’ll find him! There has to be somewhere I haven’t looked!~
++  SAY @11
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF WEIGHT #3 ~Global("Kicked_Out","LOCALS",1)
+ Global("VP_OnIsland","GLOBAL",0)
+ GlobalLT("Chapter","GLOBAL",4)~ THEN BEGIN 6
+-  SAY ~It is good to see you again. I had hoped you would return. We still have not managed to get a ship. Do you need our help?~
+-  IF ~~ THEN REPLY ~Yes.~ GOTO 7
+-  IF ~~ THEN REPLY ~No.~ GOTO 8
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 7
++  IF ~~ THEN REPLY @14 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Good. Not another word, then.~
++  SAY @15
+   IF ~~ THEN DO ~ActionOverride("Yoshimo",SetGlobal("Kicked_Out","LOCALS",0))
+ ActionOverride("Yoshimo",JoinParty()
+ SetGlobal("Kicked_Out","LOCALS",0)
+@@ -160,52 +160,52 @@
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~If that is what you wish.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #1 ~Global("Kachiko_Reborn","GLOBAL",1)~ THEN BEGIN 9
+-  SAY ~Who... who calls for me?~ [KACHIQ09]
++  SAY @16
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Reborn","GLOBAL",2)~ EXTERN ~YOSHJ~ TS198
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~It ’s so dreadfully dark in here, I cannot see...~
++  SAY @17
+   IF ~~ THEN EXTERN ~YOSHJ~ TS199
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Yoshimo... I dreamt that I was walking a long trail between the mountains towards the exit from the valley bathed in a bright light... and I was walking and walking and it was so far... I grew tired and then I heard a voice, calling... I was not sure it was you, but I hoped it was.~ [KACHIQ10]
++  SAY @18
+   IF ~~ THEN EXTERN ~YOSHJ~ TS200
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Where am I? It looks like... It looks like a coffin. Oh, mine! It is a tomb, is not it? My tomb. Now I remember. Yoshimo, you saved me! Despite everything, you have come for me.~
++  SAY @19
+   IF ~~ THEN EXTERN ~YOSHJ~ TS201
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Yoshimo, I love you too... Let’s get out of this cold, terrible place... ~
++  SAY @20
+   IF ~~ THEN DO ~JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Yoshimo? What is the meaning of that?  How dare you to disturb my rest? How dare you to come here, blood of my family on your hands? You are a fool and a pathetic liar, Yoshimo!~ [KACHIQ11]
++  SAY @21
+   IF ~~ THEN EXTERN ~YOSHJ~ TS205
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~All Hashimoto are liars! I was so blind and you almost fooled me, just like you fooled Naoko! I can see it all so clearly now... Masaki was right about you... you know, it was him, who discovered Naoko’s treachery and punished it. ~
++  SAY @22
+   IF ~~ THEN EXTERN ~YOSHJ~ TS206
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Yes, and he alerted the wizard who had helped us to get away from Kara-Tur to this blessed Island about your whereabouts. So even if you flee you’d have to face Joneleth, the great mage, who champions Nakanishi’s case.~
++  SAY @23
+   IF ~~ THEN EXTERN ~YOSHJ~ TS207
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Liar! I will not listen to you any longer! Masaki! Father! Brothers! Let’s kill them all! For Nakanishi’s honor!~
++  SAY @24
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Saved","GLOBAL",3)
+ StartCutScene("TTcutBad")~ EXIT
+ END
+@@ -214,13 +214,13 @@
+ !InParty("Yoshimo")
+ See("Yoshimo")
+ GlobalGT("Chapter","GLOBAL",3)~ THEN BEGIN 18
+-  SAY ~It is good to see you again, my <PRO_LADYLORD>. Was there something that you wished?~
+-  IF ~~ THEN REPLY ~Maybe you can join my party?~ GOTO 7
+-  IF ~~ THEN REPLY ~No.~ GOTO 8
++  SAY @25
++  IF ~~ THEN REPLY @26 GOTO 7
++  IF ~~ THEN REPLY @14 GOTO 8
+ END
+ 
+ IF WEIGHT #0 ~Global("VP_Yoshimo_Dies","GLOBAL",1)
+ !Global("Kachiko_Reborn","GLOBAL",1)~ THEN BEGIN 19
+-  SAY ~Sorry, <CHARNAME>, I cannot stay with you any longer. Without Yoshimo, I have nothing to do in your party. I must go back to Kozakura. Good luck to you.~
++  SAY @27
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END

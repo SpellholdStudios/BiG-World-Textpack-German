@@ -1,0 +1,206 @@
+--- NeJE\dlg\DEGENIA.D	Sun May 24 17:42:32 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DEGENIA.D	Tue Apr 09 19:35:45 2019
+@@ -3,18 +3,16 @@
+ IF ~NumTimesTalkedTo(0)
+ GlobalGT("SPRITE_IS_DEADTalona","GLOBAL",4)
+ Global("Egenia_Talked","GLOBAL",0)~ THEN BEGIN 0
+- SAY ~Thank you for saving me from the Talonites, but I would have gladly endured their ritual to prevent them from harming the innocents.~
++ SAY @0
+  IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~Who are you? What are you doing here?~ DO ~AddXPObject(Player1,5500)
++Dead("Hrothgar")~ THEN REPLY @1 DO ~AddXPObject(Player1,5500)
+ AddXPObject(Player2,5500)
+ AddXPObject(Player3,5500)
+ AddXPObject(Player4,5500)
+ AddXPObject(Player5,5500)
+ AddXPObject(Player6,5500)
+-SetGlobal("Egenia_Talked","GLOBAL",1)~ JOURNAL ~Dragon’s Eye.
+-
+-We saved a priestess of Ilmater, Egenia, from a group of Talonite priests and trolls. She came up into Dragon’s Eye to join in the suffering of the abducted villagers. She told us that she would wait in Dragon’s Eye to aid us until we had destroyed the source of evil.~ GOTO 1
++SetGlobal("Egenia_Talked","GLOBAL",1)~ JOURNAL @2 GOTO 1
+  IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN DO ~AddXPObject(Player1,5500)
+ AddXPObject(Player2,5500)
+@@ -22,43 +20,41 @@
+ AddXPObject(Player4,5500)
+ AddXPObject(Player5,5500)
+ AddXPObject(Player6,5500)
+-SetGlobal("Egenia_Talked","GLOBAL",1)~ JOURNAL ~Dragon’s Eye.
+-
+-We saved a priestess of Ilmater, Egenia, from a group of Talonite priests and trolls. She came up into Dragon’s Eye to join in the suffering of the abducted villagers. She told us that she would wait in Dragon’s Eye to aid us until we had destroyed the source of evil.~ EXTERN ~HROTHJ~ 141
++SetGlobal("Egenia_Talked","GLOBAL",1)~ JOURNAL @2 EXTERN ~HROTHJ~ 141
+ END
+ 
+ IF ~~ THEN BEGIN 1
+- SAY ~I’m Egenia, a priestess of Ilmater from Kuldahar. When I learned that people were being abducted from our town, I decided to go into the mountains and wait for these vermin to come take me.~
+- IF ~Global("Know_Egenia","GLOBAL",1)~ THEN REPLY ~Ah, yes. Calliana told me about you.~ GOTO 2
+- IF ~~ THEN REPLY ~The priests of Talona abducted you?~ GOTO 3
+- IF ~~ THEN REPLY ~Speaking of the people from Kuldahar, where are they?~ GOTO 4
+- IF ~~ THEN REPLY ~I need to be going now. Farewell, Egenia.~ GOTO 5
++ SAY @3
++ IF ~Global("Know_Egenia","GLOBAL",1)~ THEN REPLY @4 GOTO 2
++ IF ~~ THEN REPLY @5 GOTO 3
++ IF ~~ THEN REPLY @6 GOTO 4
++ IF ~~ THEN REPLY @7 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 2
+- SAY ~She always worries about me without reason. She should have been worrying about the other people who were abducted.~
+- IF ~~ THEN REPLY ~Where are the others?~ GOTO 4
+- IF ~~ THEN REPLY ~What were the priests of Talona doing?~ GOTO 3
+- IF ~~ THEN REPLY ~Please, then tell us everything that you have heard.~ GOTO 14
+- IF ~~ THEN REPLY ~I need to be going now. Farewell, Egenia.~ GOTO 5
++ SAY @8
++ IF ~~ THEN REPLY @9 GOTO 4
++ IF ~~ THEN REPLY @10 GOTO 3
++ IF ~~ THEN REPLY @11 GOTO 14
++ IF ~~ THEN REPLY @7 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 3
+- SAY ~The priests and their reptilian allies seized me as I wandered in the mountains. They were about to sacrifice me to Talona in hopes that their foul god would grant them power for their deed.~
+- IF ~~ THEN REPLY ~Where are the rest of the captives?~ GOTO 4
+- IF ~~ THEN REPLY ~Please, then tell us everything that you have heard.~ GOTO 14
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ GOTO 5
++ SAY @12
++ IF ~~ THEN REPLY @13 GOTO 4
++ IF ~~ THEN REPLY @11 GOTO 14
++ IF ~~ THEN REPLY @14 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+- SAY ~They are located to the southeast. The children are kept in a separate cave. There were some trolls guarding them. I’m not sure if they are there now.~
+- IF ~~ THEN REPLY ~What were the priests of Talona doing?~ GOTO 3
+- IF ~~ THEN REPLY ~Please, then tell us everything that you have heard.~ GOTO 14
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ GOTO 5
++ SAY @15
++ IF ~~ THEN REPLY @10 GOTO 3
++ IF ~~ THEN REPLY @11 GOTO 14
++ IF ~~ THEN REPLY @14 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+- SAY ~I will remain here until you have removed the source of the suffering that Kuldahar has been subjected to. I hope and pray that you will deliver our town from the terrible things lurking in this place.~
++ SAY @16
+  IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 144
+  IF ~OR(2)
+@@ -69,80 +65,80 @@
+ IF ~GlobalGT("SPRITE_IS_DEADTalona","GLOBAL",4)
+ Global("Egenia_Talked","GLOBAL",1)
+ Global("VP_Learn_About_Talona","GLOBAL",0)~ THEN BEGIN 6
+- SAY ~You have returned. Can I help you with something?~
+- IF ~~ THEN REPLY ~Yes, I need some healing.~ DO ~StartStore("Detemple",Player1)~ EXIT
++ SAY @17
++ IF ~~ THEN REPLY @18 DO ~StartStore("Detemple",Player1)~ EXIT
+  IF ~OR(2)
+ !InParty("Dar")
+-Dead("Dar")~ THEN REPLY ~Yes. Do you know anything about the Talonite religion?~ DO ~SetGlobal("VP_Learn_About_Talona","GLOBAL",1)~ GOTO 7
++Dead("Dar")~ THEN REPLY @19 DO ~SetGlobal("VP_Learn_About_Talona","GLOBAL",1)~ GOTO 7
+  IF ~InParty("Dar")
+-!Dead("Dar")~ THEN REPLY ~Yes. Do you know anything about the Talonite religion?~ DO ~SetGlobal("VP_Learn_About_Talona","GLOBAL",1)~ EXTERN ~DARJ~ 61 
+- IF ~~ THEN REPLY ~I need to find someplace safe to rest. Could you make sure we aren’t attacked while we’re sleeping?~ DO ~RestParty()~ EXIT
+- IF ~~ THEN REPLY ~No, thanks. Farewell, Egenia.~ EXIT
++!Dead("Dar")~ THEN REPLY @19 DO ~SetGlobal("VP_Learn_About_Talona","GLOBAL",1)~ EXTERN ~DARJ~ 61 
++ IF ~~ THEN REPLY @20 DO ~RestParty()~ EXIT
++ IF ~~ THEN REPLY @21 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+- SAY ~The Talonites are a foul bunch. They worship Talona, a goddess of venom and pestilence. Allied with the minions of many reptilian gods, I am not surprised to have found them here. They strike out at us Ilmaterians in the name of their goddess’ superior, Loviatar, the Maiden of Pain. She is the chief enemy of my god, Ilmater.~
+- IF ~~ THEN REPLY ~I thought Ilmaterians were supposed to enjoy suffering.~ GOTO 8
+- IF ~~ THEN REPLY ~I am in need of some healing. Can you help me?~ DO ~StartStore("Detemple",Player1)~ EXIT
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ EXIT
++ SAY @22
++ IF ~~ THEN REPLY @23 GOTO 8
++ IF ~~ THEN REPLY @24 DO ~StartStore("Detemple",Player1)~ EXIT
++ IF ~~ THEN REPLY @14 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+- SAY ~No, no, my child. We do not enjoy suffering. We simply enjoy taking on the suffering of others. Sacrificing yourself for the good of others heals all wounds that you may incur in the process. It is the way of charity and humility.~
+- IF ~~ THEN REPLY ~I am in need of some healing. Can you help me?~ DO ~StartStore("Detemple",Player1)~ EXIT
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ EXIT
++ SAY @25
++ IF ~~ THEN REPLY @24 DO ~StartStore("Detemple",Player1)~ EXIT
++ IF ~~ THEN REPLY @14 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+- SAY ~Certainly. Is there anything else I can help you with?~
+- IF ~~ THEN REPLY ~Where are the rest of the captives?~ GOTO 4
+- IF ~~ THEN REPLY ~What were the priests of Talona doing?~ GOTO 7
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ EXIT
++ SAY @26
++ IF ~~ THEN REPLY @13 GOTO 4
++ IF ~~ THEN REPLY @10 GOTO 7
++ IF ~~ THEN REPLY @14 EXIT
+ END
+ 
+ IF ~GlobalLT("SPRITE_IS_DEADTalona","GLOBAL",5)~ THEN BEGIN 10
+- SAY ~While I am willing to suffer and die for my god, I’d rather avoid it. So, please... *HELP ME!*~
++ SAY @27
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+- SAY ~Hrothgar, my old friend, I’m so glad to see you! I couldn’t imagine meeting you in such a horrible place... you saved my life from those Talonites...~
++ SAY @28
+  IF ~~ THEN EXTERN ~HROTHJ~ 142
+ END 
+  
+ IF ~~ THEN BEGIN 12
+- SAY ~I’m afraid not Hrothgar. My knowledge of this place is limited to what the Talonites let slip during my captivity.~
++ SAY @29
+  IF ~~ THEN GOTO 13 
+ END
+ 
+ IF ~~ THEN BEGIN 13
+- SAY ~When I learned that people were being abducted from our town, I decided to go into the mountains and wait for these vermin to come take me.~
+- IF ~Global("Know_Egenia","GLOBAL",1)~ THEN REPLY ~Ah, yes. Calliana told me about you.~ GOTO 2
+- IF ~~ THEN REPLY ~The priests of Talona abducted you?~ GOTO 3
+- IF ~~ THEN REPLY ~Speaking of the people from Kuldahar, where are they?~ GOTO 4
+- IF ~~ THEN REPLY ~Is there any chance you could heal me?~ DO ~StartStore("Detemple",Player1)~ EXIT
+- IF ~~ THEN REPLY ~I need to find someplace safe to rest. Could you make sure we aren’t attacked while we’re sleeping?~ DO ~RestParty()~ GOTO 5
+- IF ~~ THEN REPLY ~Please, then tell us everything that you have heard.~ GOTO 14
+- IF ~~ THEN REPLY ~I need to be going now. Farewell, Egenia.~ GOTO 5
++ SAY @30
++ IF ~Global("Know_Egenia","GLOBAL",1)~ THEN REPLY @4 GOTO 2
++ IF ~~ THEN REPLY @5 GOTO 3
++ IF ~~ THEN REPLY @6 GOTO 4
++ IF ~~ THEN REPLY @31 DO ~StartStore("Detemple",Player1)~ EXIT
++ IF ~~ THEN REPLY @20 DO ~RestParty()~ GOTO 5
++ IF ~~ THEN REPLY @11 GOTO 14
++ IF ~~ THEN REPLY @7 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 14
+- SAY ~I will try. The Talonites talked about a maze-like set of caverns controlled by undead. They also spoke of a second set of caverns guarded by the snake people themselves and the chamber of the snake queen Yxunomei.~
++ SAY @32
+  IF ~~ THEN EXTERN ~HROTHJ~ 144
+ END
+ 
+ IF ~~ THEN BEGIN 15
+- SAY ~They strike out at us Ilmaterians in the name of their goddess’ superior, Loviatar, the Maiden of Pain. She is the chief enemy of our goddess, Ilmater.~
+- IF ~~ THEN REPLY ~I thought Ilmaterians were supposed to enjoy suffering.~ GOTO 8
+- IF ~~ THEN REPLY ~I am in need of some healing. Can you help me?~ DO ~StartStore("Detemple",Player1)~ EXIT
+- IF ~~ THEN REPLY ~Farewell, Egenia.~ EXIT
++ SAY @33
++ IF ~~ THEN REPLY @23 GOTO 8
++ IF ~~ THEN REPLY @24 DO ~StartStore("Detemple",Player1)~ EXIT
++ IF ~~ THEN REPLY @14 EXIT
+ END
+ 
+ IF ~GlobalGT("SPRITE_IS_DEADTalona","GLOBAL",4)
+ Global("Egenia_Talked","GLOBAL",1)
+ Global("VP_Learn_About_Talona","GLOBAL",1)~ THEN BEGIN 6
+- SAY ~You have returned. Can I help you with something?~
+- IF ~~ THEN REPLY ~Yes, I need some healing.~ DO ~StartStore("Detemple",Player1)~ EXIT
+- IF ~~ THEN REPLY ~I need to find someplace safe to rest. Could you make sure we aren’t attacked while we’re sleeping?~ DO ~RestParty()~ EXIT
+- IF ~~ THEN REPLY ~No, thanks. Farewell, Egenia.~ EXIT
++ SAY @17
++ IF ~~ THEN REPLY @18 DO ~StartStore("Detemple",Player1)~ EXIT
++ IF ~~ THEN REPLY @20 DO ~RestParty()~ EXIT
++ IF ~~ THEN REPLY @21 EXIT
+ END 

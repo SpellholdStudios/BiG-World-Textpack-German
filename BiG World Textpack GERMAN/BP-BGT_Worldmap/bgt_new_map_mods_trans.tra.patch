@@ -1,0 +1,11 @@
+--- bp-bgt_worldmap\language\german\revised\bgt_new_map_mods_trans.tra	Mon Dec 29 14:13:29 2014
++++ C:\BWP Patchstudio\patched files\bp-bgt_worldmap\language\german\revised\bgt_new_map_mods_trans.tra	Wed Nov 09 09:43:50 2016
+@@ -37,7 +37,7 @@
+ @BGT_781035  =   "Mutamins###Garten"
+ @BGT_781036  =   "Leuchtturm"
+ @BGT_781037  =   "Roter###Canyon"
+-@BGT_781038  =   "Wildniss"
++@BGT_781038  =   "Wildnis"
+ @BGT_781039  =   "Schule###von###Ulcaster"
+ @BGT_781040  =   "Gullykin"
+ @BGT_781041  =   "Ausgrabung"

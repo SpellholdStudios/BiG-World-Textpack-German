@@ -1,0 +1,165 @@
+--- NeJE\dlg\Leina.d	Fri Apr 24 03:44:46 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Leina.d	Tue Apr 09 19:36:43 2019
+@@ -1,118 +1,118 @@
+ BEGIN ~Leina~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Who... who are you people? You are not employees of my father, that much is obvious.~ [leina_01]
+-  IF ~~ THEN REPLY ~No, we are not employees of your father, Leina. There is no time to explain, you are free but we must make haste and leave here quickly.~ GOTO 1
+-  IF ~~ THEN REPLY ~Do not be afraid, Leina, you are free but I am not sure for how long. There may be more of your father’s guards about so we should move quickly.~ GOTO 1
+-  IF ~~ THEN REPLY ~You girl, Leina is it? You have your freedom but I suggest you take it whilst you can.~ GOTO 1
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I will gladly leave this place, but not before I know more of my rescuer and how you came to be here? My father would not have relinquished the key to my prison easily, unless... unless as D’Cai says, he is dead.~ [leina_02]
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~Forgive my manners Leina, I am <CHARNAME>. Samuel Thunderburp, the bartender of The Five Flagons was concerned for your safety and bid us to find you. Further answers will have to wait until we are safely out of here.~ GOTO 2
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~I am called <CHARNAME>. We were promised a reward by the old barkeep of The Five Flagons if we found you safe. Well, we have found you and you seem to be unharmed so we guess we have earned our reward.~ GOTO 2
+-  IF ~~ THEN REPLY ~My name is <CHARNAME>. Forgive my haste, Leina, but this is not the time for questions, I urge you to hurry.~ GOTO 3
++  SAY @4 
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @5 GOTO 2
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @6 GOTO 2
++  IF ~~ THEN REPLY @7 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Ah yes, Samuel. I should have realised, he is a good man and knows me well enough to know I would not let him down without good cause. I thank you, <CHARNAME>, for coming to my aid, but what of my father?~ [leina_03]
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~You can thank me later, Leina, and I assure you, that you will have your answers, just not now. For the moment it is safer if you make your way to The Five Flagons. Samuel will be relieved to have you safely under his roof again.~ GOTO 4
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~Thanks is all well and good, but my interest is in the reward. When you return to the tavern be sure to tell that old barkeep that I am close behind you.~ GOTO 4
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY ~You can thank me later, Leina, and I assure you, that you will have your answers, just not now. For the moment it is safer if we make our way out of here.~ GOTO 4
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY ~Thanks is all well and good, but we must hurry.~ GOTO 4
++  SAY @8 
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @9 GOTO 4
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @10 GOTO 4
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY @11 GOTO 4
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY @12 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~I can well understand your urgency to leave this place, so my questions will wait, however, my appreciation for your aid will not, I thank you, <CHARNAME>.~ 
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~You can thank me later, Leina, and I assure you, that you will have your answers, just not now. For the moment it is safer if you make your way to The Five Flagons. Samuel will be relieved to have you safely under his roof again.~ GOTO 4
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY ~Thanks is all well and good, but my interest is in the reward. When you return to the tavern be sure to tell that old barkeep that I am close behind you.~ GOTO 4
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY ~You can thank me later, Leina, and I assure you, that you will have your answers, just not now. For the moment it is safer if we make our way out of here.~ GOTO 11
+-  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY ~Thanks is all well and good, but we must hurry.~ GOTO 11
++  SAY @13 
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @9 GOTO 4
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",1)~ THEN REPLY @10 GOTO 4
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY @11 GOTO 11
++  IF ~Global("VP_Met_FFBarkeep","GLOBAL",0)~ THEN REPLY @12 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~If I return to the inn, I will not remain there, <CHARNAME>, I should not have stayed as long in Athkatla as I have.~ [leina_04]
++  SAY @14 
+   IF ~~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~My only reason for doing so was the hope of a reconciliation with my father but my mother’s death has changed him so, I am not even sure that I want a reconciliation with the man he has become.~ [leina_05]
++  SAY @15 
+   IF ~~ THEN GOTO 6
+ END
+   
+ IF ~~ THEN BEGIN 6
+-  SAY ~Nor do I wish to remain at The Five Flagons with the memories of the last few days keeping me from my sleep each night.~ [leina05a]
+-  IF ~~ THEN REPLY ~To leave the safety of the inn at this time, do you see that as a wise decision Leina?~ GOTO 7
+-  IF ~~ THEN REPLY ~What other choice do you have Leina?~ GOTO 7
+-  IF ~~ THEN REPLY ~Whatever you decide to do is not my concern. Just do not go skipping the city until you have shown yourself to that barkeep, he owes me for your freedom.~ GOTO 7
++  SAY @16 
++  IF ~~ THEN REPLY @17 GOTO 7
++  IF ~~ THEN REPLY @18 GOTO 7
++  IF ~~ THEN REPLY @19 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I have little choice now, <CHARNAME>, other than to leave Athkatla. My father will not miss me, and Samuel will understand my reasons for going.~ [leina_06]
++  SAY @20 
+   IF ~~ THEN GOTO 8
+ END
+   
+ IF ~~ THEN BEGIN 8
+-  SAY ~I would feel much safer in your company if you have room for me in your group, but be it with you or be it alone, either way I will be taking to the road.~ [leina06a]
+-  IF ~~ THEN REPLY ~It is an uncertain and hostile road that I travel. One that I feel you will not find easy Leina, but if you are sure that this is the right path for you then you are welcome to join me. I would sleep better knowing that you are safe.~ GOTO 10
+-  IF ~~ THEN REPLY ~I have no use for a minstrel! The reward is my only concern. Go and take your problems with you. I have enough problems of my own without you adding to them.~ GOTO 9
+-  IF ~~ THEN REPLY ~I am sorry Leina, I have no room for you at this moment, but before you leave be sure to let Samuel know that you are safe. We will check on you back at the inn.~ GOTO 9
++  SAY @21 
++  IF ~~ THEN REPLY @22 GOTO 10
++  IF ~~ THEN REPLY @23 GOTO 9
++  IF ~~ THEN REPLY @24 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~If that is your final word, I will thank you again for my rescue and return to the inn to assure Samuel that I am safe but I will not remain there for long. Goodbye to you, <CHARNAME>.~ [leina_07]
++  SAY @25 
+   IF ~~ THEN DO ~SetGlobal("VP_ResqueLeina","GLOBAL",10)
+ EscapeAreaMove("AR0509",313,437,14)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~It gives me great comfort to hear you say this. Please, <CHARNAME>, accompany me to the inn so that I may collect my things and we will leave this place together.~ [leina_08]
++  SAY @26 
+   IF ~~ THEN DO ~SetGlobal("VP_ResqueLeina","GLOBAL",11)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~I would feel much safer in your company if you have room for me in your group, but be it with you or be it alone, either way I will be taking to the road.~ [leina_09]
+-  IF ~~ THEN REPLY ~It is an uncertain and hostile road that I travel. One that I feel you will not find easy Leina, but if you are sure that this is the right path for you then you are welcome to join me. I would sleep better knowing that you are safe.~ GOTO 13
+-  IF ~~ THEN REPLY ~I have no use for a minstrel! Go and take your problems with you. I have enough problems of my own without you adding to them.~ GOTO 12
+-  IF ~~ THEN REPLY ~I am sorry Leina, I have no room for you at this moment.~ GOTO 12
++  SAY @21 
++  IF ~~ THEN REPLY @22 GOTO 13
++  IF ~~ THEN REPLY @28 GOTO 12
++  IF ~~ THEN REPLY @29 GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~If that is your final word, I will thank you again for my rescue and return to the Five Flagons Inn, but I will not remain there for long. Goodbye to you, <CHARNAME>.~ [leina_10]
++  SAY @30 
+   IF ~~ THEN DO ~SetGlobal("VP_ResqueLeina","GLOBAL",12)
+ EscapeAreaMove("AR0509",313,437,14)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~It gives me great comfort to hear you say this. Please, <CHARNAME>, accompany me to the Five Flagons Inn, so that I may collect my things and we will leave this place together.~ [leina_08]
++  SAY @31 
+   IF ~~ THEN DO ~SetGlobal("VP_ResqueLeina","GLOBAL",13)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~Global("VP_ResqueLeina","GLOBAL",10)~ THEN BEGIN 14
+-  SAY ~It is truly good to see you again ,<CHARNAME>. Can I take it that your reappearance here means that you have need of me once more?~
+-  IF ~~ THEN REPLY ~It is good to see you again Leina, and if you are free it is my intention to ask you to join with me once more. Are you free to consider my offer?~ GOTO 15
+-  IF ~~ THEN REPLY ~I am sorry Leina, I have no room for you at this moment.~ GOTO 16
++  SAY @32
++  IF ~~ THEN REPLY @33 GOTO 15
++  IF ~~ THEN REPLY @29 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~I have been hoping that you would pass this way again with such a request. I gladly accept, and I am ready to leave with you now, <CHARNAME>.~
++  SAY @34
+   IF ~~ THEN DO ~JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~That is fine with me, though I will not remain here for long. Goodbye to you, <CHARNAME>.~
++  SAY @35
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~(*She kisses the hafling man fondly*)... Then this is goodbye Samuel, thank you for all that you have done... your memory will always hold a place in my heart, you I shall never forget. Goodbye my friend.~
++  SAY @36
+   IF ~~ THEN GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~(*She looks about the room and sighs*)... This lowly inn has afforded me more comfort and warmth than any place I have called home... I will not stay away long.~
++  SAY @37
+   IF ~~ THEN EXTERN ~FFBART~ NEJ91
+ END   
+ 

@@ -1,0 +1,1840 @@
+--- NeJE\dlg\BMelora.D	Thu Apr 19 23:22:42 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BMelora.D	Tue Apr 09 19:35:19 2019
+@@ -1,368 +1,368 @@
+ BEGIN ~BMELORA~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~That is reassuring to hear Dar, but I have always had to be one step ahead of bounty hunters and being wary has held me in good stead.~ [melora1d]
++  SAY @0 
+   IF ~~ THEN GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Looking over my shoulder is not a habit that I wish to stop. There may come a time when I need to survive on my wits again.~ [melora2d]
++  SAY @1 
+   IF ~~ THEN EXTERN ~BDAR~ 15
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~It is true, that is one attribute that I am grateful that I took the time to learn. That and being able to deal with devious traps that bounty hunters lay.~ [melora3d]
++  SAY @2 
+   IF ~~ THEN EXTERN ~BDAR~ 16
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~(*Stops and puts her hands on her hips.*) Dar, you know very well that it is not for personal gain that I do what I do!~ [melora4d]
++  SAY @3 
+   IF ~~ THEN GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Helping to distribute the wealth of those that have more than they know what to do with to a more needy part of the community cannot be seen as an evil action!~ [melora5d]
++  SAY @4 
+   IF ~~ THEN EXTERN ~BDAR~ 17
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Those that I help are people that suffer misery through no fault of their own.~ [melora6d]
++  SAY @5 
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Fate has been unkind to them and sometimes they need a helping hand once in a while, they need to know that someone does care what happens to them.~ [melora7d]
++  SAY @6 
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I have very little time for authorities that allow children to starve or forces families to live on the streets for the want of a gold piece or two!~ [melora8d]
++  SAY @7 
+   IF ~~ THEN EXTERN ~BDAR~ 19
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Then there will always be a need for people like me to try and lessen that divide for people that cannot help themselves through circumstance.~ [melora9d]
++  SAY @8 
+   IF ~~ THEN EXTERN ~BDAR~ 20
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~(*Starts to walk off*)... Agreed!~ [melora0d]
++  SAY @9 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BHrothgar","LOCALS",2)~ THEN BEGIN 10
+-  SAY ~Hrothgar, I do not usually listen to rumour but I have heard enough to know that this is an odd situation here. If you get what I mean, you being... well... dead really.~ [melora1h]
++  SAY @10 
+   IF ~~ THEN DO ~SetGlobal("VP_BHrothgar","LOCALS",3)~ EXTERN ~BHROTH~ 37
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~It is not that it feels strange, more that it does not make sense how you come to be here.~ [melora2h]
++  SAY @11 
+   IF ~~ THEN EXTERN ~BHROTH~ 38
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~I know about that from bits of information I have overheard from the rest of the group. What happened between the portals Hrothgar?~ [melora3h]
++  SAY @12 
+   IF ~~ THEN EXTERN ~BHROTH~ 39
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Then can you tell me what brought you to this time?~ [melora4h]
++  SAY @13 
+   IF ~~ THEN EXTERN ~BHROTH~ 40
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Yes, I know that! Why did you leave your time and venture through the portal in the first place?~ [melora5h]
++  SAY @14 
+   IF ~~ THEN EXTERN ~BHROTH~ 41
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~Of course, your mysterious quest. I overheard a little about that too. You are trying to locate some keys, right?~ [melora6h]
++  SAY @15 
+   IF ~~ THEN EXTERN ~BHROTH~ 42
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~(*Blushes slightly*) A self preservation skill that I taught myself Hrothgar. Being able to blend into the shadows has saved my life on more than one occasion.~ [melora7h]
++  SAY @16 
+   IF ~~ THEN EXTERN ~BHROTH~ 43
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~I will take that as a hint that you wish to say no more Hrothgar, so be it.~ [melora8h]
++  SAY @17 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",2)~ THEN BEGIN 18
+-  SAY ~Candlekeep is awash with tales of your adventures along The Sword Coast <CHARNAME> and though it was not your place of birth it claims you as its own, but tell me, do you never wonder about your true parents?~ [melora1p]
+-  IF ~~ THEN REPLY ~Gorion raised me well, but yes, sometimes my thoughts do turn to my mother. I would be lying if I said they did not.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
+-  IF ~~ THEN REPLY ~Gorion was all the parent I ever needed whilst growing up.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
+-  IF ~~ THEN REPLY ~I am curious of course, but as Gorion was the only one to know my parentage and he is dead, I feel it a waste of time allowing myself to dwell too much on the answers.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
+-  IF ~~ THEN REPLY ~Given who my real father is, I think I know all I need to know.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 20
+-  IF ~~ THEN REPLY ~No. I know who my father is and he is the only parent I am keen to know learn about.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 20
++  SAY @18 
++  IF ~~ THEN REPLY @19 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
++  IF ~~ THEN REPLY @20 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
++  IF ~~ THEN REPLY @21 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 19
++  IF ~~ THEN REPLY @22 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 20
++  IF ~~ THEN REPLY @23 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~Yes, but Gorion was only your foster father. It is said that the god of murder is your true sire. Is that not so?~ [melora2p]
+-  IF ~~ THEN REPLY ~Yes, Bhaal was my father. I was raised in ignorance of this fact and at times I wish that was still so.~ GOTO 21
+-  IF ~~ THEN REPLY ~It is true, whereas Bhaal may be my true father, Gorion was the one I knew and called father.~ GOTO 21
+-  IF ~~ THEN REPLY ~It is true enough Melora, but my connection with Bhaal is no concern of yours!~ GOTO 22
++  SAY @24 
++  IF ~~ THEN REPLY @25 GOTO 21
++  IF ~~ THEN REPLY @26 GOTO 21
++  IF ~~ THEN REPLY @27 GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~Your father, yes. I have heard the stories of how your father is none other than the god of murder. Are they true?~ [melora3p]
+-  IF ~~ THEN REPLY ~Yes, Bhaal was my father. I was raised in ignorance of this fact and at times I wish that was still so.~ GOTO 21
+-  IF ~~ THEN REPLY ~It is true, whereas Bhaal may be my true father, Gorion was the one I knew and called father.~ GOTO 21
+-  IF ~~ THEN REPLY ~It is true enough Melora, but my connection with Bhaal is no concern of yours!~ GOTO 22
++  SAY @28 
++  IF ~~ THEN REPLY @25 GOTO 21
++  IF ~~ THEN REPLY @26 GOTO 21
++  IF ~~ THEN REPLY @27 GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~(*Shivers visibly*) I would not relish having the blood of the god of murder running through my veins <CHARNAME>, but I still think you are better off not knowing who your parents are, than knowing your parents and that they despise you. At least you had the love of a father.~
+-  IF ~~ THEN REPLY ~Yes, Gorion loved me, but he never told me who I was, but you Alora, you grew up knowing who you were.~ GOTO 25
+-  IF ~~ THEN REPLY ~Your parents may not have loved you as much as you would have hoped, but at least you knew them. I will never know mine.~ GOTO 25
+-  IF ~~ THEN REPLY ~Our parents give us life, sometimes it is unintentional. Children are often conceived through the selfishness of their parents who seek only their own pleasure. They then, unfairly, blame and despise the child that is born through their own indiscretions.~ GOTO 26
++  SAY @29
++  IF ~~ THEN REPLY @30 GOTO 25
++  IF ~~ THEN REPLY @31 GOTO 25
++  IF ~~ THEN REPLY @32 GOTO 26
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~You are right it is no concern of mine, but tell me instead of the man you called father?~ [melora7p]
+-  IF ~~ THEN REPLY ~Gorion raised me but I never considered him my father and he was foolish to think I did!~ GOTO 23
+-  IF ~~ THEN REPLY ~Gorion kept the truth of the true identity of my father from me and it cost him his life. He was foolish!~ GOTO 23
+-  IF ~~ THEN REPLY ~My father, or fathers are not something I wish to speak of to you, or to anyone else for that matter! The subject is closed! You hear me Melora!?~ GOTO 24
++  SAY @33 
++  IF ~~ THEN REPLY @34 GOTO 23
++  IF ~~ THEN REPLY @35 GOTO 23
++  IF ~~ THEN REPLY @36 GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~(*Indignantly*) You <CHARNAME>, do not realise how lucky you were to have someone care enough to raise you as their own despite your parentage! You show only contempt for a man who obviously loved you dearly. You are the fool! (*Turns away.*)~
++  SAY @37
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~Very clearly <CHARNAME>. I will bother you know more.(*Turns away.*)~ [melora5p]
++  SAY @38 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~I would still have preferred to have grown up not knowing, if it would have saved me from the unhappy childhood I had.~ [melora4p]
+-  IF ~~ THEN REPLY ~Maybe it is through such experiences that you have become the caring person that you are Melora.~ GOTO 27
+-  IF ~~ THEN REPLY ~We cannot choose how we come into the world Melora, we just have to do the best we can whilst we are here.~ GOTO 27
+-  IF ~~ THEN REPLY ~You can blame your parents for your unhappy childhood, but you are no longer a child Melora. It is your opinion of yourself that should matter to you now.~ GOTO 27
+-  IF ~~ THEN REPLY ~Fate decrees how and why we come into the world Melora, what is important is how we deal with what fate has chosen for us.~ GOTO 27
++  SAY @39 
++  IF ~~ THEN REPLY @40 GOTO 27
++  IF ~~ THEN REPLY @41 GOTO 27
++  IF ~~ THEN REPLY @42 GOTO 27
++  IF ~~ THEN REPLY @43 GOTO 27
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~Wise words <CHARNAME> but it is still the child that suffers for the sins of the parents. My own child hood was proof of that.~ [melora6p]
+-  IF ~~ THEN REPLY ~Maybe it is through such experiences that you have become the caring person that you are Melora.~ GOTO 27
+-  IF ~~ THEN REPLY ~We cannot choose how we come into the world Melora, we just have to do the best we can whilst we are here.~ GOTO 27
+-  IF ~~ THEN REPLY ~You can blame your parents for your unhappy childhood, but you are no longer a child Melora. It is your opinion of yourself that should matter to you now.~ GOTO 27
+-  IF ~~ THEN REPLY ~Fate decrees how and why we come into the world Melora, what is important is how we deal with what fate has chosen for us.~ GOTO 27
++  SAY @44 
++  IF ~~ THEN REPLY @40 GOTO 27
++  IF ~~ THEN REPLY @41 GOTO 27
++  IF ~~ THEN REPLY @42 GOTO 27
++  IF ~~ THEN REPLY @43 GOTO 27
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~I know we cannot choose our parents <CHARNAME>, for if we could, maybe we both would be leading different lives to that which fate has laid before us. We may not even be the same people that we are today. You have given me much to think on. What, if anything do I owe my parents for making me who I am? I will think long and hard on all that you have said <CHARNAME>.~
++  SAY @45
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",5)~ THEN BEGIN 28
+-  SAY ~(*With a noticable edge to her voice*) <CHARNAME>, could I ask you not to stand so close to me when you are about to use magic of any sort!~
+-  IF ~~ THEN REPLY ~Melora, you may not have noticed, but combat seldom affords one the luxury of time to check who is standing where.~ DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
+-  IF ~~ THEN REPLY ~You can always move Melora if you feel uncomfortable being so close to me.~ DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
+-  IF ~~ THEN REPLY ~Magic is often required without chance of prior warning Melora. What should I do, risk the groups welfare whilst I check that you are not standing too close to me?~ DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
+-  IF ~~ THEN REPLY ~If I bother you that much Melora, then it is up to you to keep your distance as I do not have the time to keep an eye as to where you might be!~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 29
++  SAY @46
++  IF ~~ THEN REPLY @47 DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
++  IF ~~ THEN REPLY @48 DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
++  IF ~~ THEN REPLY @49 DO ~SetGlobal("VP_BPC","LOCALS",6)~ GOTO 29
++  IF ~~ THEN REPLY @50 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 29
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~Hmmph! I am only asking for a bit of consideration from you. You are so typical of a mage, you cast your spells without a thought for those around you!~
+-  IF ~~ THEN REPLY ~As I see it, you are the only one around here that has problems with my spell casting.~ GOTO 30
+-  IF ~~ THEN REPLY ~That is unfair Melora! I have helped everyone in this group at some time or other.~ GOTO 30
+-  IF ~~ THEN REPLY ~Get over yourself Melora, magic is as valuable an asset to the group as are your skills!~ GOTO 30
+-  IF ~~ THEN REPLY ~Come Melora, is it not time that you got over your ridiculous hatred of magic?~ GOTO 31
++  SAY @51
++  IF ~~ THEN REPLY @52 GOTO 30
++  IF ~~ THEN REPLY @53 GOTO 30
++  IF ~~ THEN REPLY @54 GOTO 30
++  IF ~~ THEN REPLY @55 GOTO 31
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~(*Her voice takes on a tone of contempt*) That may be so, but I know of magic and what its power does to the mind of a mage!~
+-  IF ~~ THEN REPLY ~So, tell me, how many mages have you known to draw such a conclusion?~ GOTO 32
+-  IF ~~ THEN REPLY ~Might I ask on what you base your knowledge Melora?~ GOTO 32
+-  IF ~~ THEN REPLY ~Why the hostility in your voice whenever magic is mentioned Melora?~ GOTO 32
+-  IF ~~ THEN REPLY ~Tell me, what do you a common thief, know of the way of mages?~ GOTO 32
++  SAY @56
++  IF ~~ THEN REPLY @57 GOTO 32
++  IF ~~ THEN REPLY @58 GOTO 32
++  IF ~~ THEN REPLY @59 GOTO 32
++  IF ~~ THEN REPLY @60 GOTO 32
+ END
+ 
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~(*Her voice takes on a tone of contempt*) I know from experience the conceit of mages and how they view others not adept in the arts!~
+-  IF ~~ THEN REPLY ~So, tell me, how many mages have you known to draw such a conclusion?~ GOTO 32
+-  IF ~~ THEN REPLY ~Might I ask on what you base your knowledge Melora?~ GOTO 32
+-  IF ~~ THEN REPLY ~Why the hostility in your voice whenever magic is mentioned Melora?~ GOTO 32
+-  IF ~~ THEN REPLY ~Tell me, what do you a common thief, know of the way of mages?~ GOTO 32
++  SAY @61
++  IF ~~ THEN REPLY @57 GOTO 32
++  IF ~~ THEN REPLY @58 GOTO 32
++  IF ~~ THEN REPLY @59 GOTO 32
++  IF ~~ THEN REPLY @60 GOTO 32
+ END
+ 
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~My father was a mage! I learnt all I need to know about mages from him. The power that comes with magic corrupts the mind. Soon *you* mages begin to see *yourselves* as more than you are and everyone else is looked upon as lesser beings, not worthy of your notice!~
+-  IF ~~ THEN REPLY ~Is that not the same as me saying all thieves are evil because I was once mugged by a thief!~ GOTO 33
+-  IF ~~ THEN REPLY ~I did not know your father, but is your opinion not biassed if he is the sole experience of your encounter with magic?~ GOTO 33
+-  IF ~~ THEN REPLY ~I object to your usage of the word *you* when referring to mages in the pluralMelora! You do not know me well enough to draw any conclusions concerning me.~ GOTO 33
+-  IF ~~ THEN REPLY ~Magic is a powerful and difficult weapon to wield, so maybe *us* mages have a right to put *ourselves* above the likes of you who live by dishonesty!~ GOTO 35
++  SAY @62
++  IF ~~ THEN REPLY @63 GOTO 33
++  IF ~~ THEN REPLY @64 GOTO 33
++  IF ~~ THEN REPLY @65 GOTO 33
++  IF ~~ THEN REPLY @66 GOTO 35
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~(*Defiantly*) I know what I know <CHARNAME>! Neither your words nor circumstances will alter that. To me, magic and the magic user are both to be avoided whenever possible!~
+-  IF ~~ THEN REPLY ~Enough said. I shall respect your feelings Melora but hope that you will come to see both myself and magic as allies in the future.~ GOTO 34
+-  IF ~~ THEN REPLY ~Think what you will Melora. I will however, try to be more considerate with regards to magic whilst you are nearby and perhaps that will be the way to us becoming closer as allies.~ GOTO 34
+-  IF ~~ THEN REPLY ~Maybe if you try to be less stubborn and open your mind more, given time I will be able to show you that mages differ in temperament as do thieves.~ GOTO 34
++  SAY @67
++  IF ~~ THEN REPLY @68 GOTO 34
++  IF ~~ THEN REPLY @69 GOTO 34
++  IF ~~ THEN REPLY @70 GOTO 34
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~You probably should not hold your breath waiting for that <CHARNAME>, but at least we understand each other better now.~
++  SAY @71
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~(*Angrily*) You display just the arrogance that I speak of! You know nothing of how I live and I am not about to justify what I do to you!~
+-  IF ~~ THEN REPLY ~You are a thief Melora, nothing more. No matter how you may to try to disguise what you do.~ GOTO 36
+-  IF ~~ THEN REPLY ~Hit a nerve did I Melora?~ GOTO 36
+-  IF ~~ THEN REPLY ~Your claim to be helping those less fortunate carries no weight with me, Melora. You 	are naught but a thief!~ GOTO 36
++  SAY @72
++  IF ~~ THEN REPLY @73 GOTO 36
++  IF ~~ THEN REPLY @74 GOTO 36
++  IF ~~ THEN REPLY @75 GOTO 36
+ END
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~(*Angrily and drawing herself up to her full height*) I have already said that I will not justify myself to you! I should have had more sense than to embark on a conversation with a mage! I will not do so again eagerly!~
++  SAY @76
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC_Halruaa","LOCALS",2)~ THEN BEGIN 37
+-  SAY ~(*Sighs loudly*) How much longer am I expected to walk in the stench of wizards?~ [Melora63]
+-  IF ~~ THEN REPLY ~For as long as it takes to get the job done Melora.~ DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 38
+-  IF ~~ THEN REPLY ~Not so loud Melora, mages have big ears and not to mention familiars spying for them.~ DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 44
+-  IF ~~ THEN REPLY ~Please Melora, a little quiter, you know the danger we all face being here.~ DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 45
+-  IF ~~ THEN REPLY ~Not too much longer I hope.~ DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 46
++  SAY @77 
++  IF ~~ THEN REPLY @78 DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 38
++  IF ~~ THEN REPLY @79 DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 44
++  IF ~~ THEN REPLY @80 DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 45
++  IF ~~ THEN REPLY @81 DO ~SetGlobal("VP_BPC_Halruaa","LOCALS",3)~ GOTO 46
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~From the little we have discovered that means we could be stuck here indefinitely, doomed to live and breath the same air as these wizards.~
+-  IF ~~ THEN REPLY ~Don’t be daft Melora! We know that Ulcaster falls soon if we are unable to prevent it, and when that happens we no longer have reason to be here.~ GOTO 39
+-  IF ~~ THEN REPLY ~Not so Melora! Tilorn will return us when we either save Ulcaster, or when it falls.~ GOTO 39
+-  IF ~~ THEN REPLY ~Don’t be so melodramatic Melora! I have no intentions of being stuck here.~ GOTO 43
++  SAY @82
++  IF ~~ THEN REPLY @83 GOTO 39
++  IF ~~ THEN REPLY @84 GOTO 39
++  IF ~~ THEN REPLY @85 GOTO 43
+ END
+ 
+ IF ~~ THEN BEGIN 39
+-  SAY ~And what if the mere fact that our presence here has already changed the outcome and it is Halruaa that falls? How can we be sure that we will not fall with it? How sure are *you* that Tilorn will get us out of here in time?~
+-  IF ~~ THEN REPLY ~We can never be sure of anything in life, except that it ends in death for us all at some point. However, I trust Tilorn’s word to return us as promised and that is what counts here.~ GOTO 40
+-  IF ~~ THEN REPLY ~You have to try not to be so paranoid and learn to trust more. Put your mind at ease by believing  that Tilorn can and will return us to Ulcaster safely.~ GOTO 40
+-  IF ~~ THEN REPLY ~I have to trust Tilorn otherwise I would not be here.~ GOTO 40
+-  IF ~~ THEN REPLY ~You worry too much. Be grateful that there are no bounty hunters here after your head.~ GOTO 41
++  SAY @86
++  IF ~~ THEN REPLY @87 GOTO 40
++  IF ~~ THEN REPLY @88 GOTO 40
++  IF ~~ THEN REPLY @89 GOTO 40
++  IF ~~ THEN REPLY @90 GOTO 41
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~(*Scoffs*) Tilorn, and what do you know of this Tilorn, apart from his knowing Hrothgar that is? Very little would be my guess. I can not believe I was witless enough to allow myself to be dragged here by you! I have spent my life keeping one step ahead of bounty hunters only to find myself surrounded by wizards!~
+-  IF ~~ THEN REPLY ~Well you are here, so stop berating me and get back to our search. You’ll be seeing your bounty hunters soon enough!~ GOTO 41
+-  IF ~~ THEN REPLY ~Then the sooner we finish here, the sooner you can stop being surrounded by mages and go back to being pursued by bounty hunters!~ GOTO 41
+-  IF ~~ THEN REPLY ~Come Melora, if you can not trust Tilorn, trust me enough to believe me when I say that I sense and trust Tilorn to be a man of his word.~ GOTO 42
++  SAY @91
++  IF ~~ THEN REPLY @92 GOTO 41
++  IF ~~ THEN REPLY @93 GOTO 41
++  IF ~~ THEN REPLY @94 GOTO 42
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~Sarcasm is not becoming <CHARNAME>, let us be done with this task and with this accursed place.~
++  SAY @95
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~I don’t have the same faith in people as you <CHARNAME>, my conflict with the authorities has taught me to be ever wary. Too many know of the bounty on my head for me to afford the luxury to trust. Still, I am here by choice and it was wrong of me to speak to you as I did. Come we will finish this task and hope your faith in Tilorn is not misplaced.~
++  SAY @96
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 43
+-  SAY ~Me melodramatic! I am only stating what everyone knows to be true, we have discovered nothing of use. Oh it’s true the wizards are plotting something but that is nothing new, wizards are always up to no good with their spells and their egos!~
++  SAY @97
+   IF ~~ THEN GOTO 47
+ END
+   
+ IF ~~ THEN BEGIN 44
+-  SAY ~You have no need to remind me of wizards and there methods of scrying! We can walk as stealthily as you like but if they so much as suspect that something is afoot, they’ll find us anyway with their filthy mind invading spells! They don’t need to use their ears!~ 
+-  IF ~~ THEN REPLY ~Nevertheless, there is no sense in announcing our presence quite so loudly. Tilorn warned us to be discreet in our search.~ GOTO 40
+-  IF ~~ THEN REPLY ~That may be so but it can not help to be wary and not give them cause to use their spells. Tilorn is depending on us to succeed in this.~ GOTO 40
+-  IF ~~ THEN REPLY ~Please, try not to be so paranoid. Any sign of trouble and I am sure Tilorn will pull us out of here... somehow.~ GOTO 40
++  SAY @98 
++  IF ~~ THEN REPLY @99 GOTO 40
++  IF ~~ THEN REPLY @100 GOTO 40
++  IF ~~ THEN REPLY @101 GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 45
+-  SAY ~I know well enough of the dangers in meddling with wizards and their magic. Have I not been trying to warn you of them from the start? No matter how quiet we are, their filthy mind probing spells will find us out if we so much as look at them wrong. Wizards don’t need their ears to hear us!~
+-  IF ~~ THEN REPLY ~Nevertheless, there is no sense in announcing our presence quite so loudly. Tilorn warned us to be discreet in our search.~ GOTO 40
+-  IF ~~ THEN REPLY ~That may be so but it can not help to be wary and not give them cause to use their spells. Tilorn is depending on us to succeed in this.~ GOTO 40
+-  IF ~~ THEN REPLY ~Please, try not to be so paranoid. Any sign of trouble and I am sure Tilorn will pull us out of here... somehow.~ GOTO 40
++  SAY @102
++  IF ~~ THEN REPLY @99 GOTO 40
++  IF ~~ THEN REPLY @100 GOTO 40
++  IF ~~ THEN REPLY @101 GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 46
+-  SAY ~What sort of an answer is that? We have discovered very little and if there is anything to discover on this foolhardy task of yours we should have seen a glimmer of it by now. Bah! To think you could change the past, your ego is twice as big as that of any wizard! Look where that ego has landed us, stuck here among wizards... maybe forever!~ 
+-  IF ~~ THEN REPLY ~Don’t be daft Melora! We know that Ulcaster falls soon if we are unable to prevent it, and when that happens we no longer have reason to be here.~ GOTO 39
+-  IF ~~ THEN REPLY ~Not so Melora! Tilorn will return us when we either save Ulcaster, or when it falls.~ GOTO 39
+-  IF ~~ THEN REPLY ~Don’t be so melodramatic Melora! I have no intentions of being stuck here.~ GOTO 43
++  SAY @103 
++  IF ~~ THEN REPLY @83 GOTO 39
++  IF ~~ THEN REPLY @84 GOTO 39
++  IF ~~ THEN REPLY @85 GOTO 43
+ END
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~Well, I for one am not too happy at being caught in the middle the affairs of wizards. How sure are you of this Tilorn and his ability to get us out of here?~
+-  IF ~~ THEN REPLY ~We can never be sure of anything in life, except that it ends in death for us all at some point. However, I trust Tilorn’s word to return us as promised and that is what counts here.~ GOTO 40
+-  IF ~~ THEN REPLY ~You have to try not to be so paranoid and learn to trust more. Put your mind at ease by believing  that Tilorn can and will return us to Ulcaster safely.~ GOTO 40
+-  IF ~~ THEN REPLY ~I have to trust Tilorn otherwise I would not be here.~ GOTO 40
+-  IF ~~ THEN REPLY ~You worry too much. Be grateful that there are no bounty hunters here after your head.~ GOTO 41
++  SAY @104
++  IF ~~ THEN REPLY @87 GOTO 40
++  IF ~~ THEN REPLY @88 GOTO 40
++  IF ~~ THEN REPLY @89 GOTO 40
++  IF ~~ THEN REPLY @90 GOTO 41
+ END
+ 
+ IF ~~ THEN BEGIN 48
+-  SAY ~(*Unsteadily she gets to her feet, her mug already half empty.*) A jug of ale and a merry jig, next to a good feed there is no better way to a haflings heart.~
++  SAY @105
+   IF ~~ THEN EXTERN ~BTAFFIC~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 49
+-  SAY ~(*Clutching her ale*) You are all talk gnome. Why don’t you just crawl back under that rock you came from and give us all a break from that bad temper of yours.~
++  SAY @106
+   IF ~~ THEN EXTERN ~BTAFFIC~ 2
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~(*Laughs*) That’s a gem gnome, you’d have to be able to reach my head in order to chuck something over it.~
+-  IF ~~ THEN REPLY ~Melora, Taffic please! Can’t we just enjoy Leina’s song without listening to you two and your petty squabbles!~ EXTERN ~BTAFFIC~ 3
+-  IF ~~ THEN REPLY ~Taffic, no one is wasting good ale tonight... and Melora, if you are insistent on wanting a shampoo I will dunk you in the river myself!~ EXTERN ~BTAFFIC~ 3
+-  IF ~~ THEN REPLY ~(*Rolling your eyes*) You two again! Taffic, Melora cease this now or I will bang both your heads together. That will ensure you sleep for the next eight hours.~ EXTERN ~BTAFFIC~ 3
++  SAY @107
++  IF ~~ THEN REPLY @108 EXTERN ~BTAFFIC~ 3
++  IF ~~ THEN REPLY @109 EXTERN ~BTAFFIC~ 3
++  IF ~~ THEN REPLY @110 EXTERN ~BTAFFIC~ 3
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~(*Snorts*) I wouldn’t touch your back with a the tip of a halberd gnome.~
+-  IF ~~ THEN REPLY ~I said ENOUGH!~ GOTO 52
+-  IF ~~ THEN REPLY ~Hey, have you two suddenly become deaf!~ GOTO 52
+-  IF ~~ THEN REPLY ~One more word out of you two and I will gag you both and tie you together and leave you until the sun rises. Understood?~ GOTO 52
++  SAY @111
++  IF ~~ THEN REPLY @112 GOTO 52
++  IF ~~ THEN REPLY @113 GOTO 52
++  IF ~~ THEN REPLY @114 GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~(*She takes a swig from her mug and throws the gnome a look of contempt*) We haven’t finished this conversation yet gnome! (*She walks off*)~
++  SAY @115
+   IF ~~ THEN EXTERN ~BTAFFIC~ 4
+ END
+ 
+ IF ~~ THEN BEGIN 53
+-  SAY ~(*Trying to swing her hips in a way that hafling’s hips aren’t designed to swing*) Tee-dum-de-dum...  ouch! Now why will Leina’s hips go that way and mine won’t? Tee-dum-de-dum...~
++  SAY @116
+   IF ~~ THEN EXTERN ~BTAFFIC~ 5
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~(*Glares at the gnome and mutters under her breath as she walks past you*)... Another time gnome, another time!~
++  SAY @117
+   IF ~True()~ THEN DO ~RestParty()~ EXIT
+   IF ~InParty("Minsc")~ THEN EXTERN ~BMINSC~ NEJ136
+ END
+ 
+ IF ~~ THEN BEGIN 55
+-  SAY ~(*Unsteadily she gets to her feet, her mug already half empty.*) A jug of ale and a merry jig, next to a good feed there is no better way to a haflings heart.~
++  SAY @105
+ 	IF ~Gender(Player1,FEMALE)~ THEN EXTERN ~BLEINA~ PCF2Leina23a
+ 	IF ~Gender(Player1,MALE)~ THEN EXTERN ~BLEINA~ PCM4Leina23a
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~(*Trying to swing her hips in a way that hafling’s hips aren’t designed to swing*) Tee-dum-de-dum...  ouch! Now why will Leina’s hips go that way and mine won’t? Tee-dum-de-dum...~
++  SAY @116
+   IF ~~ THEN EXTERN ~BTAFFIC~ 7
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~(*Glares at the gnome and mutters under her breath as she walks past you*)... Another time gnome, another time!~
++  SAY @117
+   IF ~~ THEN DO ~SetGlobal("VP_Danicng_Queen","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~Smelling like this I couldn’t pickpocket a blind man... not that I would stoop so low!~
++  SAY @118
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest2
+ 	IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~BMINSC~ NEJ140
+ END
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~(*Raising her voice and screwing up her nose*) Phew... the heat coming from you two is making the smell a darn sight smellier!~
++  SAY @119
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest17
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ 8
+@@ -371,7 +371,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 60
+-	SAY ~Why backtrack let’s collect and get out of here.~
++	SAY @120
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest21
+ 	IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~BHROTH~ 88
+@@ -386,7 +386,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~I’m betting it’s something constructed by a mage... but I’ve no idea what nor do I wish to know if magic is involved!~
++	SAY @121
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere18
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher1
+@@ -409,7 +409,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~I’m sticking to my idea that it’s some wizard’s contraption!~
++	SAY @122
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere19
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher2
+@@ -432,7 +432,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher3
+-	SAY ~This is silly Leina! How can we guess given the clue it holds a person comfortably. A lot of things would hold me comfortably but not you!~
++	SAY @123
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere20
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher3
+@@ -455,226 +455,226 @@
+ END
+ 
+ IF ~Global("VP_Mel_Edwin","LOCALS",2)~ THEN BEGIN edwin1
+-	SAY ~Take your eyes off me wizard or I’ll skewer them with my sword!~
++	SAY @124
+ 	  IF ~~ THEN DO ~SetGlobal("VP_Mel_Edwin","LOCALS",3)~ EXTERN ~BEDWIN~ melora1
+ END
+ 
+ IF ~~ THEN BEGIN edwin2
+-	SAY ~You think I don’t know when a man’s eyes are burning into the back of my head, especially if they are the eyes of a wizard!~
++	SAY @125
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora2
+ END
+ 
+ IF ~~ THEN BEGIN edwin3
+-	SAY ~The only delusions were those going through your mind when I caught you looking at me. My mother may have fallen under a wizard’s spell but I am not my mother.~
++	SAY @126
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora3
+ END
+ 
+ IF ~~ THEN BEGIN edwin4
+-	SAY ~(*Her face becomes hot with anger*) Hold your tongue wizard or I’ll not only skewer your eyeballs, I’ll rip the filthy thing from your mouth. That should ensure that no more magic escapes from it!~ 
++	SAY @127 
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora4
+ END
+ 
+ IF ~~ THEN BEGIN edwin5
+-	SAY ~(*Starting to draw her sword*) To hell with the eyeballs and the tongue, I’ll take your heart first!~
+-  	IF ~~ THEN REPLY ~What the hell is going on here?~ GOTO edwin6
+-  	IF ~~ THEN REPLY ~I might have known it would be you two bickering. What is it with you two? You want the whole world to know of your grievances?~ GOTO edwin6
+-  	IF ~~ THEN REPLY ~*STOP* this bickering right now or you are both out!~ GOTO edwin9
+-  	IF ~~ THEN REPLY ~Melora, put that sword away. Edwin, if you know what’s good for you, you’ll forget what it was you just opened your mouth to say!~ GOTO edwin9
+-  	IF ~~ THEN REPLY ~Melora, Edwin, enough or I will be the one doing the carving!~ GOTO edwin9
++	SAY @128
++  	IF ~~ THEN REPLY @129 GOTO edwin6
++  	IF ~~ THEN REPLY @130 GOTO edwin6
++  	IF ~~ THEN REPLY @131 GOTO edwin9
++  	IF ~~ THEN REPLY @132 GOTO edwin9
++  	IF ~~ THEN REPLY @133 GOTO edwin9
+ END
+ 
+ IF ~~ THEN BEGIN edwin6
+-	SAY ~(*Turning to face you*) It was his filthy mouth that started.~
++	SAY @134
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora5
+ END
+ 
+ IF ~~ THEN BEGIN edwin7
+-	SAY ~Of what Edwin? Go on I am sure the group would love to know, apart from magic, what else goes on in that mind of yours!~
+-  	IF ~~ THEN REPLY ~That’s it! You Melora, here with me, and you Edwin, to the back. I mean now!~ GOTO edwin8 
+-  	IF ~~ THEN REPLY ~Forget I asked! Both of you back in line and don’t you so much as look at each other again. You hear me?~ GOTO edwin8
+-  	IF ~~ THEN REPLY ~No more! If your intentions are to remain with this group then I suggest you learn to get on with each other, and quickly! Is that clear?~ GOTO edwin8
+-  	IF ~~ THEN REPLY ~That’s enough! I don’t want to hear another word from either of you, unless a spell is called for, and then I only expect to hear your voice Edwin? Are you both clear on this?~ GOTO edwin8
++	SAY @135
++  	IF ~~ THEN REPLY @136 GOTO edwin8 
++  	IF ~~ THEN REPLY @137 GOTO edwin8
++  	IF ~~ THEN REPLY @138 GOTO edwin8
++  	IF ~~ THEN REPLY @139 GOTO edwin8
+ END
+ 
+ IF ~~ THEN BEGIN edwin8
+-	SAY ~You’re the boss. (*If that wizard values his life then he’d best be gone by the time this mission is done.*)~
++	SAY @140
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora6
+ END
+ 
+ IF ~~ THEN BEGIN edwin9
+-	SAY ~(*Still brandishing her sword*) I’m sorry <CHARNAME>, but this wizard is so... so egotistical and chauvinistic, he just rubs me up the wrong way!~
++	SAY @141
+ 	  IF ~~ THEN EXTERN ~BEDWIN~ melora7
+ END
+ 
+ IF ~~ THEN BEGIN edwin10
+-	SAY ~(*Her sword flashes in her hand*) You think your brain is so evolved? Let me cut it out and let us all have a look!~ 
+-  	IF ~~ THEN REPLY ~That’s it! You Melora, here with me, and you Edwin, to the back. I mean now!~ GOTO edwin8 
+-  	IF ~~ THEN REPLY ~Forget I asked! Both of you back in line and don’t you so much as look at each other again. You hear me?~ GOTO edwin8
+-  	IF ~~ THEN REPLY ~No more! If your intentions are to remain with this group then I suggest you learn to get on with each other, and quickly! Is that clear?~ GOTO edwin8
+-  	IF ~~ THEN REPLY ~That’s enough! I don’t want to hear another word from either of you, unless a spell is called for, and then I only expect to hear your voice Edwin? Are you both clear on this?~ GOTO edwin8
++	SAY @142 
++  	IF ~~ THEN REPLY @136 GOTO edwin8 
++  	IF ~~ THEN REPLY @137 GOTO edwin8
++  	IF ~~ THEN REPLY @138 GOTO edwin8
++  	IF ~~ THEN REPLY @139 GOTO edwin8
+ END
+ 
+ IF ~~ THEN BEGIN halrustb
+-	SAY ~(*Her little eyes light up*) Sounds good to me. The only good magic academy is a razed magic academy!~
++	SAY @143
+ 	  	  IF ~~ THEN EXTERN ~BSHART~ halrustb
+ END
+ 
+ IF ~Global("VP_Mel_Immy_Heist","LOCALS",7)~ THEN BEGIN heist8
+-  SAY ~(*Slowly opening one eye*) What... oh it’s you <CHARNAME>, ready to leave already?~
+-  IF ~~ THEN REPLY ~Gorion raised me well, but yes, sometimes my thoughts do turn to my mother. I would be lying if I said they did not.~ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
+-  IF ~~ THEN REPLY ~Yes, and if you’re not with us in five, we’ll be leaving without you.~ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
+-  IF ~~ THEN REPLY ~Jump to it Melora, we have no need for lazy lie-a-beds in this group.~ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
+-  IF ~~ THEN REPLY ~What, too much ale last night Melora? Don’t think for one minute I didn’t hear you when you finally hit the sack.~ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
+-  IF ~~ THEN REPLY ~Sorry to disturb your slumber but, will M’lady be joining us sometime... TODAY!~ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
++  SAY @144
++  IF ~~ THEN REPLY @19 DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
++  IF ~~ THEN REPLY @145 DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
++  IF ~~ THEN REPLY @146 DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
++  IF ~~ THEN REPLY @147 DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
++  IF ~~ THEN REPLY @148 DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",8)~ GOTO heist9
+ END
+ 
+ IF ~~ THEN BEGIN heist9
+-  SAY ~(*Rubbing the back of her neck she stops when her fingers find a lump*) Righto, whatever <CHARNAME>, be with you in two...~
++  SAY @149
+ =
+-~(*Running her fingers over the large lump, she mumbles to herself*) (*Strange, I don’t remember that being there last night.*)~
++@150
+   IF ~InParty("Leina")
+-!Dead("Leina")~ THEN REPLY ~Make sure you are. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist10
++!Dead("Leina")~ THEN REPLY @151 GOTO heist10
+   IF ~InParty("Leina")
+-!Dead("Leina")~ THEN REPLY ~Good, because I’ll not tolerate tardiness brought about by over indulgences of any kind. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist10
++!Dead("Leina")~ THEN REPLY @152 GOTO heist10
+   IF ~InParty("Leina")
+-!Dead("Leina")~ THEN REPLY ~Fine, just make sure you have both eyes open before joining us. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist10
++!Dead("Leina")~ THEN REPLY @153 GOTO heist10
+   IF ~InParty("Leina")
+-!Dead("Leina")~ THEN REPLY ~Don’t rush, five will be fine, M’lady (*Smiling, you turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist10
++!Dead("Leina")~ THEN REPLY @154 GOTO heist10
+   IF ~OR(2)
+ !InParty("Leina")
+-Dead("Leina")~ THEN REPLY ~Make sure you are. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist17
++Dead("Leina")~ THEN REPLY @151 GOTO heist17
+   IF ~OR(2)
+ !InParty("Leina")
+-Dead("Leina")~ THEN REPLY ~Good, because I’ll not tolerate tardiness brought about by over indulgences of any kind. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist17
++Dead("Leina")~ THEN REPLY @152 GOTO heist17
+   IF ~OR(2)
+ !InParty("Leina")
+-Dead("Leina")~ THEN REPLY ~Fine, just make sure you have both eyes open before joining us. (*You turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist17
++Dead("Leina")~ THEN REPLY @153 GOTO heist17
+   IF ~OR(2)
+ !InParty("Leina")
+-Dead("Leina")~ THEN REPLY ~Don’t rush, five will be fine, M’lady (*Smiling, you turn your attention to the preparations being made for your continuing journey.*)~ GOTO heist17
++Dead("Leina")~ THEN REPLY @154 GOTO heist17
+ END
+ 
+ IF ~~ THEN BEGIN heist10
+-  SAY ~(*Walking across to Leina, who is quietly humming to herself*) (*Yea gods, how does the bard manage to look so good and be so chirpy after last night?*)~
++  SAY @155
+ =
+-~Hi Leina, you seen Imoen? I want to know what happened last night and how I got this lump on the back of my head. I remember a chest exploding but not a lot more.~
++@156
+ 	  IF ~~ THEN EXTERN ~BLEINA~ heist7
+ END
+ 
+ IF ~~ THEN BEGIN heist11
+-  SAY ~What do you mean no thanks to me, and what second chest. Tell me, what happened Leina?~
++  SAY @157
+ 	  IF ~~ THEN EXTERN ~BLEINA~ heist8
+ END
+ 
+ IF ~~ THEN BEGIN heist12
+-  SAY ~Not until you fill me in on what went down last night. What’s this about a second chest, my informant told me clearly that one chest held more than enough gold for our needy widow? So why did we open the other?~
++  SAY @158
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist6
+ END
+ 
+ IF ~~ THEN BEGIN heist13
+-  SAY ~(*Wrinkling her brow in an effort to remember*) I... I remember opening the first chest,  then leaning over to take the gold and then as Leina said... *BOOM* and we’re all making a run for it.~
++  SAY @159
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist7
+ END
+ 
+ IF ~~ THEN BEGIN heist14
+-  SAY ~Strange I can’t remember. I must have been hit by a piece of that flying chest judging by the bump I’ve got here.~
++  SAY @160
+ =
+-~Still, nice one Imoen, thanks for that, but more importantly, what of the gold, tell me, did we manage to get enough to help the widow and her family?~
++@161
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist8
+ END
+ 
+ IF ~~ THEN BEGIN heist15
+-  SAY ~Then last night was a success and I have the two of you to thank. I really don’t remember telling Imoen to open the chest but if you say I did then I guess I did.~
++  SAY @162
+ =
+-~I can only apologise for placing you both in danger. Thank you Imoen and you too Leina.~ 
++@163 
+ 	  IF ~~ THEN EXTERN ~BLEINA~ heist9
+ END
+ 
+ IF ~~ THEN BEGIN heist16
+-  SAY ~(*Scowling*) You smile sweetly. Any smile from me sweet or otherwise and <PRO_HESHE> will know for certain that we are hiding something.~
++  SAY @164
+ 	  IF ~~ THEN EXTERN ~BLEINA~ heist10
+ END
+ 
+ IF ~~ THEN BEGIN heist17
+-  SAY ~(*She heads off towards Imoen*) Yea gods Imoen, what happened last night? I’ve a lump the size of a melon on the back of my head?~
++  SAY @165
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist10
+ END
+ 
+ IF ~~ THEN BEGIN heist18
+-  SAY ~No, so tell me, what went down last night?~
++  SAY @166
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist11
+ END
+ 
+ IF ~~ THEN BEGIN heist19
+-  SAY ~(*A puzzled expression on her face*) Why did we open two chests? My informant told me clearly that one chest held more than enough gold for our needy widow?~
++  SAY @167
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist12
+ END
+ 
+ IF ~~ THEN BEGIN heist20
+-  SAY ~(*Wrinkling her brow in an effort to remember*) I... I remember opening the first chest,  then leaning over to take the gold and then as 	you said *BOOM* and we’re making a run for it.~
++  SAY @168
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist13
+ END
+ 
+ IF ~~ THEN BEGIN heist21
+-  SAY ~Strange I can’t remember, as you say, I must have been hit by a piece of that flying chest judging by the bump I’ve got here.~
++  SAY @169
+ =
+-~Still, nice one Imoen, thanks for that. But more importantly, what of the gold, tell me, did we manage to get enough to help the widow and her family?~
++@170
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist14
+ END
+ 
+ IF ~~ THEN BEGIN heist22
+-  SAY ~Then last night was a success and I have you to thank. (*Rubbing the back of her head*) Still can’t remember asking you to open that other chest, but if you say I did, then I guess I did.~
++  SAY @171
+ =
+-~It’ll come back to me... in time. Thanks again Imoen and sorry for putting you in danger like that.~
++@172
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist15
+ END
+ 
+ IF ~~ THEN BEGIN heist23
+-  SAY ~(*Scowling*) You smile sweetly. Any smile from me, sweet or otherwise, and <PRO_HESHE> will know for certain that we are hiding something.~
++  SAY @173
+ 	  IF ~~ THEN EXTERN ~BIMOEN2~ heist16
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~Idea, ale, idea, ale? Mmm, no competition really, let’s get to the bar!~
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++  SAY @174
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @175 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @176 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @177 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheaA
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheaA
+-  SAY ~I’ll ignore the obvious insult gnome, only because we seem of one mind this time. (*She laughs as Taffic starts to bluster*)~
++  SAY @178
+  IF ~~ THEN EXTERN ~BTAFFIC~ LeiTheaB
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~(*Suspiciously*) I’ll not be a party to anything until I hear what it is you have in mind, <CHARNAME>.~
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++  SAY @179
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @175 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @176 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @177 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~OK, but do not blame me if she loses her rag and blows you all to smithereens!~
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
+- IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++  SAY @180
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @175 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @176 GOTO LeiThea1
++ IF ~!IsValidForPartyDialogue("Taffic")~ THEN REPLY @177 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheaC
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~Whatever, but I doubt somehow that a bath is as far from Leina’s mind as you may be thinking.~
++  SAY @181
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea2
+-  SAY ~Oh no you don’t Leina, the last thing I need are bounty hunters after me.~
++  SAY @182
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiThea2
+@@ -701,9 +701,9 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheaN
+-  SAY ~Oh no you don’t Leina, the last thing I need are bounty hunters after me.~
++  SAY @182
+ =
+-~Half-pint am I you gnarled piece of stink wood. At least my part would be the truth, not a lot of hot air.~
++@183
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiThea2
+@@ -730,7 +730,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadia
+-  SAY ~Aye, I'm all for a tankard and maybe a meal as well? Look how I'm wasting away here, what with being on the road so long a girl is forced 	to  forgo so many of her in between snacks.~
++  SAY @184
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiRadia
+@@ -739,7 +739,7 @@
+ END	
+ 
+ IF ~~ THEN BEGIN LeiRadi1
+-  SAY ~(*Her eyes narrow as she looks at the gnome*) Yea and if that tongue of yours doesn't learn to be civil, you'll be wearing it to warm your neck!~
++  SAY @185
+ 	IF ~~ THEN EXTERN ~BTAFFIC~ LeiRadi2
+ END	
+ 
+@@ -748,577 +748,577 @@
+ CHAIN IF ~Global("VP_Melora_Yoshimo","LOCALS",2)
+ InParty("Kachiko")
+ !Dead ("Kachiko")~ THEN BMELORA melyoshl1
+-  ~Yoshimo Hashimoto... you are Yoshimo Hashimoto the bounty hunter!~
++  @186
+ =
+-~(*She draws her sword*) Tell me Yoshimo Hashimoto, just how long were you planning to keep that from me? I am guessing, just long enough to collect on my head!~
++@187
+ DO ~SetGlobal("VP_Melora_Yoshimo","LOCALS",3)~
+-== BYOSHIM ~(*Bows to the young hafling*) I am Yoshimo Hashimoto, bounty hunter, but please, I have no desire to separate such a pretty head from its shoulders.~
++== BYOSHIM @188
+ =
+-~I prefer to look into live, flashing eyes than look at the dead sparkle of the gold pieces that your head would bring.~
+-== BMELORA ~Save your pretty words for one foolish enough to believe them! You are (*she spits her next words out*) *a bounty hunter*, a trader of lives for coin and the lowest of the low!~
+-== BYOSHIM ~I have been accused of far worse and no doubt deservedly so, but my little friend, you have Yoshimo’s word that he has no interest in your head, nor in the gold that it might bring him.~
+-== BMELORA ~I am not your little friend... Melora Tenarien is no friend to bounty hunters!~
++@189
++== BMELORA @190
++== BYOSHIM @191
++== BMELORA @192
+ =
+-~I have seen too many suffer at the hands of the likes of  your and for what... for a few pieces of gold!~ 
++@193 
+ =
+-~You question neither the innocence nor the guilt of your prey, all that matters to you is the gold at the end of the chase.~ 
+-== BYOSHIM IF ~~ THEN ~I have enough worries of my own to be thinking of bounties.~
++@194 
++== BYOSHIM IF ~~ THEN @195
+ =
+-~See how the beautiful Kachiko never lets me out of her sight, she is determined to drag me back to Kara Tur to determine the truth of her brother’s murder.~
++@196
+ =
+-~That in itself would mean certain death for me. The feud between our two families has become so inflamed, that neither side will believe the word of the other.~ 
+-== BKACHI ~If you are truly innocent Yoshimo, then my dragging you back home should not bother you.~
++@197 
++== BKACHI @198
+ =
+-~Our families may be at war, but honour and truth are still very important to both of them.~
++@199
+ =
+-~Neither side would bring dishonour to their families by taking the life of a man until his guilt was proven.~ 
++@200 
+ =
+-~You have my word that if you are innocent, you have no fear of retribution from my family.~
+-== BYOSHIM ~You are still so very young, Kachiko and your eyes still see the world as it used to be.~ 
++@201
++== BYOSHIM @202 
+ =
+-~Have you not seen in this strange land how honour has been replaced with greed... greed for power and position.~ 
++@203 
+ =
+-~Sadly, this greed has touched Kara Tur, and it took my coming to this land to see the truth of why our families still feud... it is no longer over honour but power.~ 
+-== BKACHI ~No, you are wrong! I am not so naive that I haven’t seen deceit and greed in this land, but I have also seen honour and truth in abundance.~ 
++@204 
++== BKACHI @205 
+ =
+-~Maybe Kara Tur has been tainted by these things, but as honour exists in this land, so is there still honour to be found among our people, and more importantly... among both our families.~ 	
++@206 	
+ =
+-~Only if you return will the truth be determined Yoshimo.~
+-== BMELORA ~(*Interrupting them*) What the hell are you two going on about? I care little for your families and their problems. My concern is this snake here.~
++@207
++== BMELORA @208
+ =
+-~If you Kachiko, want to take this bounty hunter back to this Kara Tur of yours, then you are welcome to him, but if you want him one piece, then I suggest you keep him well out of my way.~
++@209
+ =
+-~As for you bounty hunter, you take one step near me that I feel is a tad too close and it will be your head that hits the dirt, not mine.~
++@210
+ =
+-~(*Sheathing her sword she walks away*) Yea gods! Is this some perverse trick of fate? How the hell else could I have ended up in the company of a mage... and a bounty hunter!~
++@211
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Melora_Yoshimo","LOCALS",2)
+ OR(2)
+ !InParty("Kachiko")
+ Dead ("Kachiko")~ THEN BMELORA melyoshl2
+-  ~Yoshimo Hashimoto... you are Yoshimo Hashimoto the bounty hunter!~
++  @186
+ =
+-~(*She draws her sword*) Tell me Yoshimo Hashimoto, just how long were you planning to keep that from me? I am guessing, just long enough to collect on my head!~
++@187
+ DO ~SetGlobal("VP_Melora_Yoshimo","LOCALS",3)~
+-== BYOSHIM ~(*Bows to the young hafling*) I am Yoshimo Hashimoto, bounty hunter, but please, I have no desire to separate such a pretty head from its shoulders.~
++== BYOSHIM @188
+ =
+-~I prefer to look into live, flashing eyes than look at the dead sparkle of the gold pieces that your head would bring.~
+-== BMELORA ~Save your pretty words for one foolish enough to believe them! You are (*she spits her next words out*) *a bounty hunter*, a trader of lives for coin and the lowest of the low!~
+-== BYOSHIM ~I have been accused of far worse and no doubt deservedly so, but my little friend, you have Yoshimo’s word that he has no interest in your head, nor in the gold that it might bring him.~
+-== BMELORA ~I am not your little friend... Melora Tenarien is no friend to bounty hunters!~
++@189
++== BMELORA @190
++== BYOSHIM @191
++== BMELORA @192
+ =
+-~I have seen too many suffer at the hands of the likes of  your and for what... for a few pieces of gold!~ 
++@193 
+ =
+-~You question neither the innocence nor the guilt of your prey, all that matters to you is the gold at the end of the chase.~ 
+-== BYOSHIM ~Believe me, I speak only the truth when I say the bounty on your pretty little head is the last thing on my mind.~
++@194 
++== BYOSHIM @212
+ =
+-~I have concerns of my own that are far more important to me. This is one bounty hunter you have no need to fear.~
+-== BMELORA ~(*Scoffs*) Huh, a bounty hunter turning his back on an opportunity to collect? Now why don’t I believe you Yoshimo?~   
++@213
++== BMELORA @214   
+ =
+-~Let me give you a warning *bounty hunter*, you take one step near me that I feel is a tad too close and it will be your head that hits the dirt, not mine!~
++@215
+ =
+-~(*Sheathing her sword she strides away*) Yea gods, have I become so complacent in this group’s company that I fail to recognize a viper when it’s at my back?~
++@216
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Mel_Nalia","LOCALS",2)~ THEN BMELORA melnal1
+-~Tell me Nalia, whatever possessed you to give up a perfectly good career and turn to the study of foul magic?~
++@217
+ DO ~SetGlobal("VP_Mel_Nalia","LOCALS",3)~
+-== BNALIA ~Look, I know of your low opinion of magic users and the skills they practise Melora, but thankfully we don’t all share them. I am more than content in my chosen path thank you.~
+-== BMELORA ~Yet you are always saying how much you want to help others. There is no way magic is going to do that half as good as providing the means for the poor to feed and clothe themselves.~
+-== BNALIA ~By that, I take it you mean thieving Melora, because after all, that is what you do. Isn’t it?~
+-== BMELORA ~(*Drawing herself up to her full height and looking Nalia in the eye*) And what may I ask, did you use your skills for when you were a thief?~
+-== BNALIA ~(*Returning the hafling’s stare*) I used my skills as you call them, to get myself in and out places... places where I knew people needed my help.~
+-=
+-~I didn’t steal for them if that’s what you mean.~
+-== BMELORA ~Of course you didn’t steal. You had a rich daddy who didn’t begrudge his only daughter the gold pieces she needed to feed the poor.~
+-=
+-~Did he I wonder, know where his gold was going, that it was being used to make his little girl feel less guilty at having so much when so many have so little?~
+-== BNALIA ~What a horrid thing to say! Look, we both help the poor and oppressed, does it matter how we do it as long as we do?~ 
+-=
+-~Surely instead of arguing the right and wrong way to go about it, we would do better... help more people if we joined our resources?~
+-== BMELORA ~(*Scoffs*) Join resources with a mage, you’ve got to be kidding!~
+-=
+-~I’d rather walk up to the nearest bounty hunter and hand him my head on a plate than join forces with a mage, no matter how good they say their intentions are!~
+-== BNALIA ~Have it your way Melora, but as we are of like minds, it is a shame that you are going to let a little thing like my being a mage get in the way of all the good things we could do together.~
+-== BMELORA ~(*Looking even harder at Nalia*) We are not of like minds Nalia, and I would thank you not to insult me by inferring that my mind is anything like a mage’s!~ 
++== BNALIA @218
++== BMELORA @219
++== BNALIA @220
++== BMELORA @221
++== BNALIA @222
++=
++@223
++== BMELORA @224
++=
++@225
++== BNALIA @226 
++=
++@227
++== BMELORA @228
++=
++@229
++== BNALIA @230
++== BMELORA @231 
+ =
+-~Now, if you’ll excuse me, I think my skills are going to be needed upfront soon.~
++@232
+ EXIT
+ 	
+ CHAIN IF ~Global("VP_Mel_Minsc","LOCALS",2)~ THEN BMELORA melmin1
+-~Say Minsc, have you any of that cheese left that you were keeping for Boo. I am famished?~
++@233
+ DO ~SetGlobal("VP_Mel_Minsc","LOCALS",3)~
+-== BMINSC ~Famished, what is this famished that Melora speaks of and what does it have to do with Boo’s cheese?~
+-== BMELORA ~Famished Minsc... you know, as in hungry. F-A-M-I-S-H-E-D, from the word famine, meaning a scarcity of food.~
+-== BMINSC ~But we have plenty of food. It was only two hours ago that we all shared a feast of food.~
+-== BMELORA ~Two hours is a long time for a hafling to go without so much as a snack break.~
+-=
+-~So if you have any of that cheese to spare, it would go a long way to ending this famine that my stomach feels it is experiencing.~
+-== BMINSC ~Boo does not like to think of Melora as *famished* and says he will gladly share his cheese with her... right Boo? (*Squeak*)~ [BOONEJ1]
+-== BMELORA ~Thank you Minsc, you too Boo, you are a life saver.~
+-== BMINSC ~(*Looking closely at the hafling*) Minsc wants to know, where does Melora find the room to put all the food she eats? She is not a very big person outside so she can not have a lot of room inside.~ 
+-== BMELORA ~(*She stops eating and tries to size up to the burly ranger*) And what does size have to do with anything?~
+-=
+-~You eat when you’re hungry whereas we haflings eat because we find pleasure in eating, so we do it whenever we can, six meals a day is normal.~ 
+-=
+-~Let me see, first there is breakfast followed by brunch, followed by lunch and then we have teatime followed by supper and then bedtime snack.~ 
+-=
+-~Then of course there are the in between meals, the 11'sies, the 2'sies and the 3'sies, all washed down with a fine mug of ale.~
+-== BMINSC ~Oooo... so much eating in one day! Minsc, is sorry, he did not mean to upset Melora, he likes her as she is. If she were any bigger then she would not be Melora.~
+-=
+-~Like Melora, Minsc and Boo enjoy a fine mug of ale too, although Boo says he likes to drink his ale from a saucer in case he should fall in the mug and not be able to climb out again. (*Squeak*)~ [BOONEJ1]
+-== BMELORA ~(*She relaxes and goes back to her cheese*) Hmph, I will let you off this time Minsc, but remember, what you see on the outside is not always an indication of what is on the inside.~
+-== BMINSC ~Minsc has a pretty good idea of what is inside Melora, cheese and more cheese, right Boo? (*Squeak*)~ [BOONEJ1]
++== BMINSC @234
++== BMELORA @235
++== BMINSC @236
++== BMELORA @237
++=
++@238
++== BMINSC @239 
++== BMELORA @240
++== BMINSC @241 
++== BMELORA @242
++=
++@243 
++=
++@244 
++=
++@245
++== BMINSC @246
++=
++@247 
++== BMELORA @248
++== BMINSC @249 
+ EXIT
+ 				
+ CHAIN IF ~Global("VP_Mel_Keldorn","LOCALS",2)~ THEN BMELORA melkel1
+-~Keldorn, please stop looking at me so disapprovingly. If you have something to say, just say it!~
++@250
+ DO ~SetGlobal("VP_Mel_Keldorn","LOCALS",3)~
+-== BKELDOR ~Then I will Melora. I know your heart is in the right place, but I can not stand by and watch you continually take that which is not yours to take.~
+-== BMELORA ~Then don’t watch me so closely. That way you won’t see what I am doing.~
+-== BKELDOR ~I don’t need to watch you, it is enough that I know of your actions that warrants my bringing the wrongness of them to your attention.~
+-== BMELORA ~Ok, point taken. You have done your duty in bringing it to my attention, now go away and pick on someone else to preach to.~
+-== BKELDOR ~I do not preach Melora. I am not a priest, nor do I expect others to live to the standards I have set myself, but you are intelligent and you know right from wrong.~
++== BKELDOR @251
++== BMELORA @252
++== BKELDOR @253
++== BMELORA @254
++== BKELDOR @255
+ =
+-~You don’t need me to tell you that stealing is wrong.~
+-== BMELORA ~If your gods had not divided  the people in the world into different classes, then there would not be a need for my actions Keldorn. Blame them, not me.~
+-== BKELDOR ~Be careful how you speak of the gods my girl, they do not take kindly to blasphemy.~
++@256
++== BMELORA @257
++== BKELDOR @258
+ =
+-~It was not they who made the world the way it is today. It is its people who have devised the structure of their societies, not the gods.~
+-== BMELORA ~Do the gods approve of the way the people of the world have structured these societies, giving ruthless men the power to prey on the weak?~
+-== BKELDOR ~It is not for the gods to approve or disapprove, just as they can not interfere and change anything of our own making.~
++@259
++== BMELORA @260
++== BKELDOR @261
+ =
+-~It is our world more than it is theirs, by right that we live in it, they do not.~
+-== BMELORA ~Then if it is not their place to disapprove, what right do you have in making it yours?~
+-== BKELDOR ~The gods can not interfere, but as there will always be good and evil, right and wrong lies and truth in the world, so will there always be a need for their servants to protect and bring justice for those too weak to stand against these ills.~ 
++@262
++== BMELORA @263
++== BKELDOR @264 
+ =
+-~We also try and show those who have strayed from the honourable path the way back to it.~ 
++@265 
+ =
+-~So, as you can see, it is not so much disapproval Melora, more a reminder of what you know in your heart is right.~
+-== BMELORA ~But your god doesn’t say to you that you have the right to be so judgmental.~
++@266
++== BMELORA @267
+ =
+-~He doesn’t actually speak to you, tell you it is for you to approve or disapprove of the conduct of any one individual does he?~ 
++@268 
+ =
+-~You have set yourself very high moral standards to live your life by, but that is your choice and it doesn’t give you the right to disapprove of those who can not live up to them.~
+-== BKELDOR ~It has nothing to do with living up to standards. The gods know that there are faults in all the races, they also understand that it is these faults that separates them from us.~
++@269
++== BKELDOR @270
+ =
+-~We all have our own moral code of behaviour that we try to live by, knowing right...~ 
+-== BMELORA ~(*Interrupting the paladin*) You said it yourself Keldorn, our own codes and it seems to me that if your gods don’t push their standards on to us, then neither should you.~
++@271 
++== BMELORA @272
+ =
+-~If you disapprove of my activities then tough! I am doing what I think is right to help the weak and oppressed that you speak of, in the best way I can, by using the skills that the gods gave me the brain to master.~
++@273
+ =
+-~Now if you don’t mind...~
+-== BKELDOR ~You haven’t heard a word of...~
+-== BMELORA ~I have heard enough words. (*She walks away*).~
++@274
++== BKELDOR @275
++== BMELORA @276
+ EXIT
+ 				
+ CHAIN IF ~Global("VP_Mel_HaerDalis","LOCALS",2)~ THEN BMELORA melhaer1
+-~That’s an odd tune you are whistling Haer’Dalis. If tune is the right way to describe it, sounds more like the cry of a bird that’s been shot with an arrow.~
++@277
+ DO ~SetGlobal("VP_Mel_HaerDalis","LOCALS",3)~
+-== BHAERDA ~The cry of a bird it is but not one shot with an arrow. It is the triumphant cry of the magpie as she returns to her nest with a bauble.~ 
++== BHAERDA @278 
+ =
+-~Strange, you would expect her to keep silent if she doesn’t want another to steal her treasure, wouldn’t you say my little magpie?~
+-== BMELORA ~Magpie? I am no bird and certainly not your little bird by any name!~ 
+-== BHAERDA ~It is true you do not sing to the world when you secrete the prize into your nest, but do you think that Haer’Dalis does not see what the magpie tries to conceal? Like the magpie, my eyes are also very sharp.~
+-== BMELORA ~If your eyes are truly that good, then maybe you could take a turn at scouting ahead... give us all a break from their prying. What do you say bard?~
+-== BHAERDA ~(*Laughs*) Not so touchy my friend. You have nothing to fear from me, but what of <CHARNAME> and the rest of the group? How do you suppose they would feel if they knew there was a magpie in the midst?~
+-== BMELORA ~Sop calling me that ridiculous name! After all, unlike this magpie of yours, I do not feather my nest with the baubles that I find.~ 
+-=
+-~As for the group, do you see them going short on account of the little I keep for myself? Such a paltry amount of coin, I doubt they even notice.~
+-== BHAERDA ~I am sure they don’t, but that is not to say that they wouldn’t take exception if they knew that their coin was being given away without them being consulted.~
+-== BMELORA ~Come off it Haer’Dalis! You know very well that if it weren’t for my skills, a lot of their coin would still be safely locked inside chests or cupboards.~
+-=
+-~I keep very little back compared to what they would lose if not for me. Besides, since when have you been so concerned with making sure that other peoples money stay in their pockets?~
+-== BHAERDA ~Touche mon petite, touche!~
+-=
+-~Be careful my little magpie, for it will not be through the word of Haer’Dalis that the little bird finds her wings clipped, but as surely as my eyes see the magpie at work, so in time, might the eyes of others.~
+-== BMELORA ~Then again, have you ever thought that maybe others have far more important things going on in their own lives to be concerned with the antics of the birds?~ 
+-== BHAERDA ~(*He leans forward and whispers in her ear*) It is only through concern that this bard speaks his mind my little magpie.~
++@279
++== BMELORA @280 
++== BHAERDA @281
++== BMELORA @282
++== BHAERDA @283
++== BMELORA @284 
++=
++@285
++== BHAERDA @286
++== BMELORA @287
++=
++@288
++== BHAERDA @289
++=
++@290
++== BMELORA @291 
++== BHAERDA @292
+ =
+-~After all, as with all birds, the magpie is not without her charm. (*Then, whistling the same tune, he turns and walks away leaving the hafling maiden with more than a little pink in her cheeks.*)~
++@293
+ EXIT				
+ 
+ CHAIN IF ~Global("VP_Mel_Valygar","LOCALS",2)~ THEN BMELORA melval1
+-~Valygar Corthala... Corthala was once a well respected name in Athkatla.~
++@294
+ DO ~SetGlobal("VP_Mel_Valygar","LOCALS",3)~
+-== BVALYGA ~(*Hastily interrupting the hafling girl*) Before you go any further Melora, no I do not have a tale to tell as to why the Corthala 	name no longer carries the prestige it once did.~
+-== BMELORA ~Oh, I know all about that, I was about to say that I understand why and I admire you for your stand against magic. I have no love for the arcane arts myself.~
+-== BVALYGA ~Then you must be the only person in the whole of Faerun who does understand.~
++== BVALYGA @295
++== BMELORA @296
++== BVALYGA @297
+ =
+-~I am tired of wizards trying to show me the usefulness of what they call their *gifts*, boasting of the power they hold at their finger tips!~
++@298
+ =
+-~Let me tell you Melora, I have seen first hand how this power of theirs corrupts.~
++@299
+ =
+-~I have seen the same look in their eye that I once saw in my mother’s as she proudly tried to show her young son how she shaped the energy necessary to cast her newest spell.~
++@300
+ =
+-~I saw how this power became the be and end all of her life until eventually.~
++@301
+ =
+-~Well, if you’ve been listening to your gossiping colleagues as closely as you say then I need say no more.~
+-== BMELORA ~Hey, steady up ranger! Melora Tenarien is not one to deliberately open her ears to gossip.~
++@302
++== BMELORA @303
+ =
+-~But your actions have brought you into conflict with the cowled wizards and anyone who takes a stand against them and their foul arts is an okay guy by me. That’s all I was saying.~
+-== BVALYGA ~I didn’t set out to antagonise them or anyone else for that matter, all I wanted was to be left alone to live out my life peacefully.~ 
++@304
++== BVALYGA @305 
+ =
+-~The life of a woodsman suits me fine, at least in the forests and woodlands the animals don’t ask questions, nor do they expect me to conform to their rules.~
++@306
+ =
+-~I have learnt, that as long as I respect their territories, I can enjoy their world in reasonable safety.~
++@307
+ =
+-~But even that was to be denied me once the wizards learnt of my connection to Lavok and that damned sphere!~
+-== BMELORA ~The necromancer, dabbler in death and the blackest of all the arcane arts.~ 
++@308
++== BMELORA @309 
+ =
+-~My own father was a wizard and not a day goes past that I don’t look for a sign, that through his blood, he has passed his foul arts to me.~
++@310
+ =
+-~But for you Valygar, the fear must be tenfold greater than my own.~
++@311
+ =
+-~To carry the genes of a wizard is abhorrent in itself, but you carry the blood of the necromancer, a fearful legacy for any man to have to live with.~
+-== BVALYGA ~Aye, it is Melora, and that is why I have sworn that it will not be a legacy that I pass to an innocent babe.~ 
++@312
++== BVALYGA @313 
+ =
+-~Though it will herald the end of the Corthala line, when this Corthala draws his last breath, so too dies the legacy.~
+-== BMELORA ~I am ashamed to say that I never thought to meet a man that I would call honourable, but you Valygar Corthala, are an honourable man.~ 
++@314
++== BMELORA @315 
+ =
+-~You deny yourself the comforts and pleasures that so many men feel are theirs by right just because they are men, so’s to spare those you may come to love in the future, the anguish that you feel today. I salute your resolve.~
+-== BVALYGA ~It is no great sacrifice on my part, for I do not miss these comforts and pleasures that you speak of.~
++@316
++== BVALYGA @317
+ =
+-~Although... there was once a time when I would have walked through the Nine Hells themselves if it meant holding on to a girl who once swore she loved me.~
++@318
+ =
+-~But that was a long time ago and I am a wiser man today.~
++@319
+ EXIT
+ 					
+ CHAIN IF ~Global("VP_Mel_Jaheira","LOCALS",2)~ THEN BMELORA meljahi1
+-~Jaheira, you’ve travelled with <CHARNAME> and this Imoen <PRO_HESHE> is out to rescue. So, what’s the story here, is she <CHARNAME>’s sister, friend or maybe  lover?~
++@320
+ DO ~SetGlobal("VP_Mel_Jaheira","LOCALS",3)~
+-== BJAHEIR ~Imoen... she is the closest thing <CHARNAME> has to a sister. They were both raised in Candlekeep and being very similar in age they were inseparable.~
++== BJAHEIR @321
+ =
+-~That is why, when she got the inkling that <CHARNAME> was leaving with Gorion, she crept out and followed them rather than be separated from her friend.~
++@322
+ =
+-~She has stuck close and remained fiercely loyal ever since.~
+-== BMELORA ~I spent a lot of time around Candlekeep as you know and there are many tales of <CHARNAME>, the hero of The Sword Coast who hailed from Candlekeep, but hardly a mention of the girl who followed <PRO_HIMHER> out of the keep.~
++@323
++== BMELORA @324
+ =
+-~What’s she like, this Imoen?~
+-== BJAHEIR ~Imoen... now what can one say about Imoen?~
++@325
++== BJAHEIR @326
+ =
+-~She is a romantic, willful child but has the knack of endearing herself to all who meet her. Little do they know the spitfire that hides behind those wide, innocent eyes of hers.~ 
++@327 
+ =
+-~She is very headstrong with her own ideas of what life is all about, and she shows little respect for anyone who tries to tell her what she should do, even if it is for her own good, but saying that, she is a very capable, resourceful young woman.~
++@328
+ =
+-~All of which I hope holds her in good stead for whatever Irenicus has planned for her.~
+-== BMELORA ~Irenicus... didn’t it seem odd to you that it was Imoen that he insisted the cowled wizards took and not <CHARNAME>?~
++@329
++== BMELORA @330
+ =
+-~After all, what possible value could a friend of Bhaal’s offspring have compared to the offspring <PRO_HIMHER>self?~ 
+-== BJAHEIR ~Of course I thought it odd, but I didn’t know what was going on in the man’s head any more than you would have!~ 
++@331 
++== BJAHEIR @332 
+ =
+-~It’s true <CHARNAME> has had a rough road for one so young. There have been those out to claim the prestige of being the one to rid the world of the 'Spawn of Bhaal', as some would call <PRO_HIMHER>.~
++@333
+ =
+-~And there have been those out to murder the offspring of the god of murder, just for the bounty set by another, but none have shown interest in <PRO_HISHER> companions... until now.~
+-== BMELORA ~Perhaps he’s using her to get to <CHARNAME>, using her as a hostage maybe?~
+-== BJAHEIR ~No, I don’t believe that was his purpose. If it was, then why hasn’t he left a clear trail for us to ensure that we followed him?~ 
++@334
++== BMELORA @335
++== BJAHEIR @336 
+ =
+-~Also, he brutally abused and tortured both Imoen and <CHARNAME> in exactly the same manner.~ 
++@337 
+ =
+-~No, whatever his reasons for abducting Imoen, I fear they are far more sinister than anything we can imagine.~
+-== BMELORA ~I can imagine plenty, Jaheira. I have seen a lot of cruelty in my efforts to help the oppressed.~
++@338
++== BMELORA @339
+ =
+-~I have seen people do unspeakable things to their fellow men, and people who have had unspeakable things done to them for the price of a loaf of bread, just so’s their children won’t go hungry.~
+-== BJAHEIR ~What are you saying Melora, that you believe Imoen is in the hands of some perverted monster who intends to use her to satisfy his own depravity?~
+-== BMELORA ~I am sorry Jaheira, I am not saying that is to be Imoen’s fate but when a man abducts an innocent young woman, a woman who he has already cruelly abused, would it be wrong to assume that he has taken her for any reason other than to continue abusing her for his own sadistic pleasure?~ 
+-== BJAHEIR ~I... please Melora, you have only voiced the words that I keep desperately trying to push to the back of my mind, but knowing the cruelty this man is capable of, if 'man' is the appropriate word to describe such a being, I fear that you may be right and I also fear for her sanity the longer she is in his hands.~
++@340
++== BJAHEIR @341
++== BMELORA @342 
++== BJAHEIR @343
+ =
+-~I know that <CHARNAME> has put <PRO_HISHER> trust in Hrothgar when he says Imoen will be found so let’s not distress <PRO_HIMHER> further with our fears Melora.~ 
+-== BMELORA ~I am not about to go upsetting anyone Jaheira, after all, our fears, however unlikely, may turn out to be for nowt.~
++@344 
++== BMELORA @345
+ EXIT					
+ 
+ CHAIN IF ~Global("VP_Mel_Aerie","LOCALS",2)~ THEN BMELORA melaye1
+-~What is it Aerie, your legs hurting yet again?~
++@346
+ DO ~SetGlobal("VP_Mel_Aerie","LOCALS",3)~
+-== BAERIE ~(*Sniffs*) So what if they are? It’s not my fault I was born to fly, not trudge these mud tracks you call roads.~
+-== BMELORA ~(*Rolls her eyes*) I can’t understand why <CHARNAME> brought you along, it’s obvious you had no idea what you were getting yourself into.~
+-== BAERIE ~I knew fine well what I was doing and anyway, if <CHARNAME> hadn’t thought I would be of any help, I doubt I would be here.~
+-== BMELORA ~I am wondering why we have a mage along anyway. Seems like we are always having to watch your back while you concentrate and cast your spells.~ 
++== BAERIE @347
++== BMELORA @348
++== BAERIE @349
++== BMELORA @350 
+ =
+-~Still, I suppose you are more useful than the usual run of the mill mages, you can cast some handy healing when it’s needed.~
+-== BAERIE ~I know you don’t like magic Melora, you let us all know often enough, but maybe, just maybe it’s about time you tried giving the magic user a fair go.~
++@351
++== BAERIE @352
+ =
+-~You may find you are pleasantly surprised by what you find underneath!~
+-== BMELORA ~I don’t think so Aerie, whereas I have nothing against you, in fact I’m sure you are a very nice girl, but I don’t see why nice girls should want to mess with magic.~ 
++@353
++== BMELORA @354 
+ =
+-~You are a competent cleric but you let your love for magic and the power you feel it affords you restrict your development as a cleric.~
++@355
+ =
+-~Now if you gave up being a mage imagine how much more time you could devote to being a more accomplished cleric.~
+-== BAERIE ~(*Forgetting the ache in her legs, she stands tall and raises her voice angrily*) Where do you get off telling me who I should be?~
++@356
++== BAERIE @357
+ =
+-~Do I tell you that you would do well to give up being a thief and take up a more respectable vocation because I don’t agree with people taking other peoples things?~
++@358
+ =
+-~No, and why, because I have more respect for the skills a person is blessed with and the way they choose to use their gifts.~
++@359
+ =
+-~I have no problems with being friends with a thief but you obviously have a big hang up over being friendly with a mage, so from now on, let’s just try to get along and forget the friends bit.~
+-== BMELORA ~Oooh... no need to get shirty with me. I was only pointing out how good a cleric you could be if you didn’t spend so much of your time learning loathsome magic.~ 
++@360
++== BMELORA @361 
+ =
+-~Anyway, I have enough friends as it is and I certainly wouldn’t choose a mage, even if I were looking for another.~
++@362
+ EXIT
+ 			
+ CHAIN IF ~Global("VP_Mel_Mazzy","LOCALS",2)~ THEN BMELORA melmazy1
+-~(*Slapping her forehead*) Mazzy Fenton, of course. I knew it would come to me eventually! You’re the Mazzy Fenton, Truesword of Arvoreen. You’re quite a heroine to all would be hafling adventurers Mazzy, it’s good to meet you fellow sister.~
++@363
+ DO ~SetGlobal("VP_Mel_Mazzy","LOCALS",3)~
+-== BMAZZY ~Well met to you too Melora, but please, I don’t see myself as a heroine. Still, if my actions inspire our young kin to live righteous and unselfish lives, then they can call me whatever they wish.~ 
++== BMAZZY @364 
+ =
+-~Speaking of heroines, I believe Melora Tenarien is another name equally as well known for her deeds of kindness and her selfless acts.~
+-== BMELORA ~I do what I can to help ease the lives of the disadvantaged in our world. Someone has to Mazzy. You wouldn’t believe the way some folks are forced to live, and not always through their own failings!~
+-== BMAZZY ~In my travels I have fought evil and injustice of all kinds, nothing in this world surprises me any more.~ 
++@365
++== BMELORA @366
++== BMAZZY @367 
+ =
+-~I thank Arvoreen for the strength she gives me to continue the fight.~
++@368
+ =
+-~I ask nothing of her, except that she guides my blade, and that my aim will be true when I am faced with the evil that invades this world and causes misery to those who live in it.~ 
+-== BMELORA ~I believe that strength and courage are either within a person or they aren’t, just as I believe that it is Fate who makes us who we are by the paths she sets before us.~
++@369 
++== BMELORA @370
+ =
+-~But, if you believe your strength comes from your goddess and that’s what works for you, then that is all that is important.~ 
++@371 
+ =
+-~We all have our own ways of tapping into our inner strengths when need arises.~ 
+-== BMAZZY ~I know my goddess has granted me her favour for she has bestowed upon me abilities that aid me in my quest to fight evil and she has blessed these weapons that I carry and use in her name.~
++@372 
++== BMAZZY @373
+ =
+-~My wish to serve Arvoreen is what spurs my actions, but I understand that not all good and selfless deeds are done to please a person’s god.~
++@374
+ =
+-~Some are done from the goodness of the heart and that you have in abundance Melora, even if you do act beneath the law to achieve your goals.~
+-== BMELORA ~I am not a godless person Mazzy! I may not pay tribute or go down on my knees to the gods, but my actions are founded on the ways of Brandobaris, Master of Stealth or as some call him The Trickster.~
++@375
++== BMELORA @376
+ =
+-~He too abhors all forms of cruelty and greed. And whereas he enjoys playing his tricks on the 'big folk' as he calls them, he does not seek wealth for himself.~
+-== BMAZZY ~The Irrepressible Scamp is I believe another name for Brandobaris.~
++@377
++== BMAZZY @378
+ =
+-~Please be careful Melora, whereas none can touch Brandobaris for playing his tricks on the big folk, you do not have the immunity of the gods, and fate, as you call it, has a habit of turning the tables when you least expect it.~
+-== BMELORA ~(*She laughs heartily*) I have already had many close calls with the authorities and bounty hunters, but always I manage to slip past them.~
++@379
++== BMELORA @380
+ =
+-~Who knows, maybe the Master of Stealth is watching over Melora Tenarien as Arvoreen keeps watch over Mazzy Fenton.~
++@381
+ EXIT
+ 	
+ CHAIN IF ~Global("VP_Mel_Anomen","LOCALS",2)~ THEN BMELORA melanom1
+-~What is it Anomen, do I have dirt or a huge spot on my nose? (*Her hand moves to her nose.*)~
++@382
+ DO ~SetGlobal("VP_Mel_Anomen","LOCALS",3)~
+-== BANOMEN ~What... oh... sorry my lady. If  my glances lingered longer than is proper then I am sorry. I did not mean to appear rude or to offend.~
+-== BMELORA ~Then what did you mean? No, don’t answer that, you are after all a man!~ 
+-== BANOMEN ~I... my lady... it is true I am a man and one not well versed in the paying of compliments to the fairer sex.~
++== BANOMEN @383
++== BMELORA @384 
++== BANOMEN @385
+ =
+-~Whereas the females of your race have a beauty of their own, you, my lady... your features have a beauty of their own.~
+-== BMELORA ~(*Gruffly*) My father was human and it is my misfortune to have inherited, my fine features as you call them, from him.~ 
++@386
++== BMELORA @387 
+ =
+-~Every time I look in a mirror I am reminded of that fact, I do not need you doing it as well!~
+-== BANOMEN ~I have offended you, I am sorry. I meant only to compliment my lady on her beauty.~
+-== BMELORA ~I’m not so ungracious that I can’t except a compliment Anomen, so I thank you, but please, so’s you know before you think to flatter me further, I am not a female who looks for, or needs compliments to boost her self esteem.~
+-== BANOMEN ~I have yet to meet a female who doesn’t enjoy the attention of being told she is pretty, and you my lady, are extremely pretty.~ 
++@388
++== BANOMEN @389
++== BMELORA @390
++== BANOMEN @391 
+ =
+-~Perhaps it is my awkwardness with words which offends, if it is then I apologise once again but my lady must understand, I seldom find myself in the company of ladies.~ 
+-== BMELORA ~Yes... well, that much is obvious.~
++@392 
++== BMELORA @393
+ =
+-~Whereas there are many foolish girls who fall under the spell of pretty words, I am not one of them. So you would be wise to find another to practise your chat up technique on and leave me be.~
+-== BANOMEN ~I... I... I truly meant no offence my lady, nor was there any dishonourable intent behind my words.~
++@394
++== BANOMEN @395
+ =
+-~I am sorry that my clumsy attempt at a compliment has lead you to believe otherwise. I will leave you in peace and refrain from offending you further. Good day my lady.~
++@396
+ EXIT
+ 	
+ CHAIN IF ~Global("VP_Mel_Korgan","LOCALS",2)~ THEN BMELORA melkorg1
+-~What in the Nine Hells do you think you are doing dwarf? Try that again and you’ll be missing that hand, and the other one to match!~
++@397
+ DO ~SetGlobal("VP_Mel_Korgan","LOCALS",3)~
+-== BKORGAN ~(*Smirking at the hafling*) Settle girly, I’m ‘aving a feel fer meself to see if ye be sporting iron drawers... like ye’d have us all believe.~
+-== BMELORA ~Get away from me and keep your filthy paws to yourself, and that goes for the rest of your disgusting anatomy!~
+-== BKORGAN ~Now, no need for yer to be acting coy with Korgan.~
+-=
+-~Yer’ll not find me lacking when it comes to giving a girl what she needs, even if it be her first time, ol’ Korgan here knows how to make ‘em squeal. (*He winks lasciviously at her*)~
+-== BMELORA ~(*Drawing her sword and brandishing it at the dwarf*) You disgusting piece of orc dung, there’s nothing that I want from you or from any man!~
+-=
+-~You come any closer and I’ll stick you with my sword. Then we’ll see who does the squealing!~
+-== BKORGAN ~Come girl, how can yer be saying you don’t want summit when yer never ‘ad it in the first place to be finding out? (*He moves as if to take a step closer.*)~
+-== BMELORA ~I warn you, stay away from me dwarf!~
+-=
+-~The last man who thought he was just what I needed ended up spilling more than he intended, his innards spilt out all over the dirt, you get my meaning dwarf?~ 
+-== BKORGAN ~I gets yer meaning girly, but sooner or later, and the dwarf here is reckoning it’ll be sooner, those iron drawers are gonna become a might too tight and begin to pinch yer, then we’ll see how quick yer be to droppen ‘em.~
+-== BMELORA ~You’re a disgusting and vulgar creature dwarf, stay out of my way!~
++== BKORGAN @398
++== BMELORA @399
++== BKORGAN @400
++=
++@401
++== BMELORA @402
++=
++@403
++== BKORGAN @404
++== BMELORA @405
++=
++@406 
++== BKORGAN @407
++== BMELORA @408
+ EXIT	
+ 
+ CHAIN IF ~Global("VP_Mel_Sime","LOCALS",2)~ THEN BMELORA melsime1
+-~I have heard the whispers which speak of the beautiful half elf who visits Aran Linvail on occasion, young enough to be his daughter they say.~ 
++@409 
+ =
+-~Why, I ask you Sime Linvail, is your relationship to the Shadowmaster not widely  known? Is it that you are ashamed of the fact or is it at his request?~
++@410
+ DO ~SetGlobal("VP_Mel_Sime","LOCALS",3)~
+-== BSIME ~I have never hidden the fact that Aran is my father, just as I have never seen reason to announce it to the world. After all, what is between me and my father is our business and not the world’s.~
+-== BMELORA ~Even if it means Aran would have the world believe that you are just another one of the Shadowmaster’s women, drawn to him by the lure of power and wealth?~ 
++== BSIME @411
++== BMELORA @412 
+ =
+-~Hmph... what sort of respect is that for a man to show his daughter!~
+-== BSIME ~My father’s position leaves little room for trust. Like all men in a position of power, he knows that there will always be another waiting for the opportunity to usurp him and take the position for them self.~
++@413
++== BSIME @414
+ =
+-~Imagine the leverage that it would give such an opportunist if it were common knowledge that Aran Linvail has a daughter.~
+-== BMELORA ~And you consider that reason enough to allow yourself be looked upon as no better than a whore?~
++@415
++== BMELORA @416
+ =
+-~Sheesh girl, even if your father shows no respect for his daughter’s reputation, have you none for yourself?~
+-== BSIME ~My father sees, that because I disapprove of his lifestyle, I will never live under his roof, and the gods know how much we argue this point!~
++@417
++== BSIME @418
+ =
+-~For this reason alone he knows that he can’t protect me from the less scrupulous among his associates, so what better way to ensure my safety and to allow me to live my life freely than by keeping silent.~
++@419
+ =
+-~Also, if in the eyes of the world Aran has no daughter, then I can never be taken hostage and my life used as a thing to be bargained for.~
++@420
+ =
+-~Those who for security reason’s need to know... know, and unless I choose to tell anyone else, it is no one’s business but Aran’s and mine.~
+-== BMELORA ~If I have heard the whispers, then you can guarantee these unscrupulous associates of your father have heard also and maybe even looked into them. Why the need to continue the subterfuge, Sime?~
+-== BSIME ~My father’s morality is such that I doubt anyone will think to look into why he’s visited by a woman young enough to be his daughter.~
++@421
++== BMELORA @422
++== BSIME @423
+ =
+-~Whereas it saddens me greatly to see him behaving as such, for I fear he is destined for a lonely old age.~
++@424
+ =
+-~I am tired of trying to make him see the error of his ways... no... I doubt anyone will question his behaviour regards the age of his women.~
++@425
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Mel_Jan","LOCALS",2)~ THEN BMELORA meljan1
+-~Stop right there gnome! It’ll take more than stealth or cheap illusionary tricks to get the better of me!~
++@426
+ DO ~SetGlobal("VP_Mel_Jan","LOCALS",3)~
+-== BJAN ~I don’t know what you mean, and please, there’s no need to shout, I can hear you well enough.~
+-== BMELORA ~You know very well what I mean. I saw you reaching that grubby little hand of yours towards my sword. Now back off!~
+-== BJAN ~(*Inspecting his hands*) Hmph... I am sure I washed them day before yesterday.~
++== BJAN @427
++== BMELORA @428
++== BJAN @429
+ =
+-~(*Then turning back to Melora*) As for stealing your sword girl, I only wanted a closer look.~
++@430
+ =
+-~Who in our profession hasn’t heard of Adlonn and the weapons that helped to make his name for him.~
++@431
+ =
+-~It is said that the one he passed them on to will gain fame herself for as long as she carries them and continues to follow his ideal.~ 
++@432 
+ =
+-~Oh, and something you should know about us Jansen’s, never in the history of the Jansen family has a Jansen taken to 'borrowing' from a member of the brotherhood, or should that be sisterhood in your case?~
++@433
+ =
+-~No matter, it just isn’t a done thing. Unless you count the time when...~
+-== BMELORA ~I am not interested in what your great uncle somebody or other did, nor anything else that you claim some other distant relation of yours has done!~ 
++@434
++== BMELORA @435 
+ =
+-~Yes, Adlonn entrusted his weapons to me and yes I follow his ideals, but I seek neither fame nor fortune for myself.~ 
++@436 
+ =
+-~If you know their history, then you know also, that as he entrusted them to me, then shall no other wield them. In another’s hands, they are but pieces of useless metal and wood.~ 
++@437 
+ =
+-~Now, you lay one more hand on my property and your family will be making up tales of what the late Jan Jansen did, or did not do. Understood?~
+-== BJAN ~Late... I’ll have you know that Jan Jansen has never been late in his life!~
++@438
++== BJAN @439
+ =
+-~Except of course when he was waylaid by a group of beauteous nymphs, led by my brother’s wife’s cousin little Loreley.~ 
++@440 
+ =
+-~Well, she had been away from the family so long she just begged for more and more news of all the Jansen’s... "Oh please Jan, what of aunty Petunia or your uncle Spanky", there was just no getting away from her.~ 
++@441 
+ =
+-~Made me a week or more late for my dinner she did, and I can tell you, ma Jansen was not best pleased at having to keep my dinner in the oven for that long.~ 
++@442 
+ =
+-~It left her no room for baking her famous turnip pies the family love so much, and believe me, a Jansen who’s had to go without one of ma’s turnip pies for more than a week is not a happy Jansen at all, no sirree, not happy at all!~
+-== BMELORA ~Get away from me gnome! A ridiculous tale if ever I heard one, like all the rest of your family’s so called antics.~
++@443
++== BMELORA @444
+ =
+-~If you believe these stories of yours then clearly your use of magic has warped your perception of reality, as it does to all magic users in the end.~
++@445
+ =
+-~Now, unless you want to feel the keenness of Adlonn’s blade for yourself, I suggest you go about your own business and leave me to mine.~
+-== BJAN ~Oh dear, it seems the ol’ Jansen charm is starting to wear off, and here’s me, still in my prime. for a gnome that is.~
++@446
++== BJAN @447
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Mel_Imoen2","LOCALS",2)~ THEN BMELORA melimmy2
+-~Imoen, I don’t understand how someone as bright as ever you got mixed up with the magics of <CHARNAME>.~
++@448
+ DO ~SetGlobal("VP_Mel_Imoen2","LOCALS",3)~
+-== BIMOEN2 ~Not all magic is to be distrusted you know. Many times has <CHARNAME> 's magic saved me from taking an early dirt bath.~
+-== BMELORA ~And I’m just as sure that more than once that magic also got you into trouble... it always leads to trouble.~
+-== BIMOEN2 ~Now hold it right there Melora, <CHARNAME> is a good person, and has never intentionally got us into harm with <PRO_HISHER>magic!~  
+-=
+-~In fact, <PRO_HESHE> has saved many lives using this exact thing that you hate. Maybe you should go talk to some of those people if you want to know the true measure of magic.~
+-== BMELORA ~(*Scoffs*) Mages are not only sneaky but also arrogant! How can you be sure that what you witnessed was real and not just illusions conjured up to make <CHARNAME> look the hero?~
+-== BIMOEN2 ~<CHARNAME> and me have been together since... well, since we grew up together and I trust <PRO_HIMHER> with my life. I have no reason not to, but plenty of reasons why I should.~
+-=
+-~If your mistrust is purely because of magic, then maybe you should cut  <PRO_HIMHER> some slack and who knows, you may be proven wrong.~
+-== BMELORA ~Who’s to say that in time things won’t change, mages blow hot and cold. It’s the nature of the power, it eventually corrupts all that it touches.~ 
+-=
+-~Then you’ll wish you’d thought twice before trusting so much in a mage, no matter how close you say you are now.~
+-== BIMOEN2 ~Perhaps you have forgotten how you came to be in this group Melora, something about needing protection from bounty hunters was it? It didn’t seem to bother you then that you were hiding behind a mage, or have I got it wrong?~
+-== BMELORA ~(*A little flustered*) Yes, but...~
+-== BIMOEN2 ~Well, <CHARNAME> and magic is protecting you, its protecting all of us, keeping us safe from the real dangers that are out there.~
++== BIMOEN2 @449
++== BMELORA @450
++== BIMOEN2 @451  
++=
++@452
++== BMELORA @453
++== BIMOEN2 @454
++=
++@455
++== BMELORA @456 
++=
++@457
++== BIMOEN2 @458
++== BMELORA @459
++== BIMOEN2 @460
+ =
+-~Now if you’re really not happy about being surrounded by all this protection, well, you know what you can do about it.~
++@461
+ =
+-~On the other hand, if you want to remain under our protection, you should get over yourself and then maybe, just maybe, you’ll see what a good thing you have here.~
+-== BMELORA ~You’ll never convince me that anything good can ever come from magic, and as long as it continues to weave its illusions, then I will ever be on my guard against its foul manipulations.~
++@462
++== BMELORA @463
+ EXIT							
+ 
+ CHAIN IF ~Global("VP_Mel_Immy_Heist","LOCALS",2)~ THEN BMELORA heist
+-~Imoen, may I steal your ear for one moment? ~
++@464
+ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",3)~
+-== BIMOEN2 ~Steal my... oh, you mean you want to talk to me. Sure.~
+-== BMELORA ~I need your help with something... something, shall we say that needs your... our specialist touch. You up for it?~
+-== BIMOEN2 ~(*A glint comes to her eye as she anticipates that fun is to be had here*) Specialist touch you say... hmmm... how about you tell me just what this is that needs my specialist touch and then I’ll tell you whether I am up for it or not.~
+-== BMELORA ~A small matter of righting a wrong, but I need your help to do it. So can I count you in?~
+-== BIMOEN2 ~Stop beating about the bush Melora. I can see you are up to something, just spell it out and tell what you have in mind?~
+-== BMELORA ~Well there’s this family, a widow and her children. She lost her husband during the time of troubles at the mine down near Nashkiel.~
+-=
+-~They moved to Athkatla in the hope that her parents would take them in but when they died, she was left destitute and took a job working for some fat lord in order to keep a roof over her children’s head.~ 
+-=
+-~The house is small, water leaking through the roof, doors and windows badly in need of repair, you know the sort of thing. As you can imagine, all this letting in of the weather is making the children ill all the time.~
+-== BIMOEN2 ~What can we do? I'm a thief not a carpenter, so I can’t build a bigger house for them, or even begin to repair the one they’re living in now?~
+-== BMELORA ~(*A little angry at Imoen’s flippancy*) That's not what I meant and well you know it!~ 
+-=
+-~The fat lord who rents them the house, says he’ll fix it up... some day, but if they keep whinging, he’s threatening to take away what little roof they do have over their heads now.~
+-=
+-~They have no money and you can’t raise a family on pieces of straw. So, I have a plan to help them to a better life that they deserve, but I can’t do it without another thief on board. You getting my meaning now?~
+-== BIMOEN2 ~I reckon I am Melora, and I’m thinking you’re not just gonna go waltzing in and demand that this fat lord fix their house, right?~
+-== BMELORA ~Right. This plan of mine has to be done under the cover of night. You see, I have information from a friend of mine, exactly where this lord stores his gold.~ 
+-=
+-~I figure we break in, take what we consider a fair share of the gold and give it to those who have a use other than storing it to count and gloat over.~
+-== BIMOEN2 ~And what about guards? I’ve never known a fortune worth taking to be left unguarded for the likes of us to help ourselves to?~
+-== BMELORA ~From what my informant says two, not too smart either.~
+-== BIMOEN2 ~(*The glint in her eye brightens*) A most worthy quest Melora, and if by helping the helpless we help ourselves a little, then we’ll all be happy, excepting the fat lord that is.~
++== BIMOEN2 @465
++== BMELORA @466
++== BIMOEN2 @467
++== BMELORA @468
++== BIMOEN2 @469
++== BMELORA @470
++=
++@471 
++=
++@472
++== BIMOEN2 @473
++== BMELORA @474 
++=
++@475
++=
++@476
++== BIMOEN2 @477
++== BMELORA @478 
++=
++@479
++== BIMOEN2 @480
++== BMELORA @481
++== BIMOEN2 @482
+ =
+-~Just tip me the wink when you’re ready and I’ll be good to go. We’ll slip way when the group isn’t looking and be about our good doings.~
+-== BMELORA ~Many thanks, I thought I could rely on you Imoen. I owe you one.~
++@483
++== BMELORA @484
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Mel_Imoen2","LOCALS",5)~ THEN BMELORA heist1
+-~Imoen, may I steal your ear for one moment?~
++@485
+ DO ~SetGlobal("VP_Mel_Imoen2","LOCALS",6)~
+-== BIMOEN2 ~Of course, providing you aren’t going to bend it anymore with your talk of *bad* magic.~
+-== BMELORA ~No, not magic but another subject close to my heart. I need your help with something... something, shall we say that needs your... our specialist touch. You up for it? ~
+-== BIMOEN2 ~(*A glint comes to her eye as she anticipates that fun is to be had here*) Specialist touch you say... hmmm... how about you tell me just what this is that needs my specialist touch and then I’ll tell you whether I am up for it or not.~
+-== BMELORA ~A small matter of righting a wrong, but I need your help to do it. So can I count you in?~
+-== BIMOEN2 ~Stop beating about the bush Melora. I can see you are up to something, just spell it out and tell what you have in mind?~
+-== BMELORA ~Well there’s this family, a widow and her children. She lost her husband during the time of troubles at the mine down near Nashkiel.~
+-=
+-~They moved to Athkatla in the hope that her parents would take them in but when they died, she was left destitute and took a job working for some fat lord in order to keep a roof over her children’s head.~ 
+-=
+-~The house is small, water leaking through the roof, doors and windows badly in need of repair, you know the sort of thing. As you can imagine, all this letting in of the weather is making the children ill all the time.~
+-== BIMOEN2 ~What can we do? I'm a thief not a carpenter, so I can’t build a bigger house for them, or even begin to repair the one they’re living in now?~
+-== BMELORA ~(*A little angry at Imoen’s flippancy*) That's not what I meant and well you know it!~ 
+-=
+-~The fat lord who rents them the house, says he’ll fix it up... some day, but if they keep whinging, he’s threatening to take away what little roof they do have over their heads now.~
+-=
+-~They have no money and you can’t raise a family on pieces of straw. So, I have a plan to help them to a better life that they deserve, but I can’t do it without another thief on board. You getting my meaning now?~
+-== BIMOEN2 ~I reckon I am Melora, and I’m thinking you’re not just gonna go waltzing in and demand that this fat lord fix their house, right?~
+-== BMELORA ~Right. This plan of mine has to be done under the cover of night. You see, I have information from a friend of mine, exactly where this lord stores his gold.~ 
+-=
+-~I figure we break in, take what we consider a fair share of the gold and give it to those who have a use other than storing it to count and gloat over.~
+-== BIMOEN2 ~And what about guards? I’ve never known a fortune worth taking to be left unguarded for the likes of us to help ourselves to?~
+-== BMELORA ~From what my informant says two, not too smart either.~
+-== BIMOEN2 ~(*The glint in her eye brightens*) A most worthy quest Melora, and if by helping the helpless we help ourselves a little, then we’ll all be happy, excepting the fat lord that is.~
++== BIMOEN2 @486
++== BMELORA @487
++== BIMOEN2 @467
++== BMELORA @468
++== BIMOEN2 @469
++== BMELORA @470
++=
++@471 
++=
++@472
++== BIMOEN2 @473
++== BMELORA @474 
++=
++@475
++=
++@476
++== BIMOEN2 @477
++== BMELORA @478 
++=
++@479
++== BIMOEN2 @480
++== BMELORA @481
++== BIMOEN2 @482
+ =
+-~Just tip me the wink when we're back to Athkatla and you’re ready, and I’ll be good to go. We’ll slip way when the group isn’t looking and be about our good doings.~
+-== BMELORA ~Many thanks, I thought I could rely on you Imoen. I owe you one.~
++@488
++== BMELORA @484
+ EXIT	
+ 
+ CHAIN IF ~Global("VP_Mel_Immy_Heist","LOCALS",4)~ THEN BMELORA heist2
+-~(*Whispering*) Psst... Imoen, you awake? ~
++@489
+ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",6)~
+-== BIMOEN2 ~(*Sounding a little agitated*) Uh... what... who? Melora, what the blazes you doing? Quit poking me will you... I'm still sleeping.~
+-== BMELORA ~Shhh... you’ll have everyone awake. Come on shake a leg, we’ve business with a fat lord’s gold tonight.~
+-== BIMOEN2 ~(*Suddenly alert*) Then what are waiting for? Let’s be at it.~
++== BIMOEN2 @490
++== BMELORA @491
++== BIMOEN2 @492
+ DO ~RestParty()~
+ EXIT
+ 
+ CHAIN IF ~Global("VP_Mel_Immy_Heist","LOCALS",5)~ THEN BMELORA heist3
+-~(*Whispering*) Psst... Imoen, you awake? ~
++@489
+ DO ~SetGlobal("VP_Mel_Immy_Heist","LOCALS",6)~
+-== BIMOEN2 ~(*Sounding a little agitated*) Uh... what... who? Melora, what the blazes you doing? Quit poking me will you... I'm still sleeping.~
+-== BMELORA ~Shhh... you’ll have everyone awake. Come on shake a leg, we’ve business with a fat lord’s gold tonight.~
+-== BIMOEN2 ~(*Suddenly alert*) Then what are waiting for? Let’s be at it.~
+-== BLEINA ~(*Yawning and rubbing her eyes*) What... what’s going on? Oh, Melora, Imoen, it’s you two again. What are you up to now?~
+-== BMELORA ~(*Whispers*) Go back to sleep Leina, there is real work afoot tonight, not the petty pilfering of pockets.~
+-== BLEINA ~What work, I don’t recall <CHARNAME> giving out covert assignments to the group? No I’m sure we were ALL told to get some rest. So, what are you two really up to?~
+-== BIMOEN2 ~(*Looking about uneasily*) Melora, quit parleying with her and just tell her what it is we’re doing or the night’ll be gone! It’s the only way you’re going to shut her up.~
+-== BMELORA ~Yea gods, those elven ears of yours never miss a trick do they Leina?~
+-== BLEINA ~(*Smiling*) And they are a might pretty too don’t you think?~
+-== BMELORA ~(*Scowling*) If you like that sort of thing.~
+-=
+-~As to what we are doing, let’s just say there’s a family in need of a boost to their purse and a fat lord whose pockets are full to bursting, need I say more? Now go back to sleep and let us get on with it.~
+-== BLEINA ~(*Jumping up, her eyes wide with excitement*) Not likely, I’m coming with you. Unless of course... Oh my, is this bandits I see before me, armed and ready to launch an assault on the group? Quickly! I must raise the alarm!~
+-== BMELORA ~Forget it Leina, I’ll not have some spellcaster jeopardising this mission, besides, this one calls for real skills, not magic.~
+-== BLEINA ~(*Looking around, her face suddenly anxious*) What... who... quickly ban...~
+-== BIMOEN2 ~Melora, do something quickly! If she wakens the rest of the group, this family of yours will be in for a drenching when the rains come!~
+-== BMELORA ~(*Clamping her hand over the bard’s mouth*) Ok, ok, just keep your mouth shut and the only movement I want to see from either of those hand of yours is when one of them has a sword in it. Understood?~
+-== BLEINA ~(*Prising the hafling’s hand from her mouth*) Sure. Now where did you say this lord lives?~
++== BIMOEN2 @490
++== BMELORA @491
++== BIMOEN2 @492
++== BLEINA @493
++== BMELORA @494
++== BLEINA @495
++== BIMOEN2 @496
++== BMELORA @497
++== BLEINA @498
++== BMELORA @499
++=
++@500
++== BLEINA @501
++== BMELORA @502
++== BLEINA @503
++== BIMOEN2 @504
++== BMELORA @505
++== BLEINA @506
+ DO ~RestParty()~
+ EXIT

@@ -1,0 +1,11 @@
+--- NeJ\baf\TELE2IWD.BAF	Wed Dec 07 21:47:27 2016
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TELE2IWD.BAF	Wed Apr 10 10:29:52 2019
+@@ -5,7 +5,7 @@
+ 	Global("TeleportDialog","GLOBAL",0)
+ THEN
+ 	RESPONSE #100
+-		ActionOverride(Player1,DisplayStringHead(Myself,~Suddenly, you have a feeling that this portal leads nowhere and there may be no way back. Perhaps it would be better to leave this portal for now and investigate the rest of the dungeon, while you still have a choice.~))
++		ActionOverride(Player1,DisplayStringHead(Myself,@0))
+ 		SetGlobal("TeleportDialog","GLOBAL",1)
+ END
+ 

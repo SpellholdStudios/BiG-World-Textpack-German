@@ -1,0 +1,62 @@
+--- TS\bgtnodlg\eC6BODHI.D	Sun Jun 09 00:55:53 2013
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\eC6BODHI.D	Thu May 05 10:46:29 2016
+@@ -5,30 +5,30 @@
+ END
+ 
+ EXTEND_BOTTOM ~C6BODHI~ 23
+-	IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY ~You place too much confidence in sentiment. The theft of Valygar will not save you.~ EXTERN C6BODHI  TS29
+-  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY ~You have taken too much already! You will return both Imoen's soul and Valygar!~ EXTERN C6BODHI  TS29
+-  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY ~And you have delivered on that promise. Return Valygar and perhaps I will be merciful.~ EXTERN C6BODHI  TS29
+-  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY ~I would have hunted you for your theft of Valygar alone. He is very important to me.~ EXTERN C6BODHI  TS29
+-  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY ~You place too much confidence in sentiment.  The theft of Sime will not save you.~ EXTERN C6BODHI TS32
+-  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY ~You have taken too much already!  You will return both Imoen's soul and Sime!~ EXTERN C6BODHI TS32
+-  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY ~And you have delivered on that promise. Return Sime and perhaps I will be merciful.~ EXTERN C6BODHI TS32
+-  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY ~I would have hunted you for your theft of Sime alone. She is very important to me.~ EXTERN C6BODHI TS32
++	IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY @0 EXTERN C6BODHI  TS29
++  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY @1 EXTERN C6BODHI  TS29
++  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY @2 EXTERN C6BODHI  TS29
++  IF ~Global("ValygarVampire","GLOBAL",2)~ THEN REPLY @3 EXTERN C6BODHI  TS29
++  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY @4 EXTERN C6BODHI TS32
++  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY @5 EXTERN C6BODHI TS32
++  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY @6 EXTERN C6BODHI TS32
++  IF ~Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY @7 EXTERN C6BODHI TS32
+ END
+ 
+ APPEND ~C6BODHI~
+ 
+ IF ~~ THEN BEGIN TS29
+-  SAY ~Ah yes, the noble hermit Valygar. Very naughty despite his declarations otherwise. I doubt your fumbling could inspire the loyalty I have taken with a bite and a gaze.~
++  SAY @8
+   IF ~~ THEN EXTERN ~VAMPVAL~ 0
+ END
+ 
+ IF ~~ THEN BEGIN TS30
+-  SAY ~What is the meaning of this performance, slave? You cannot disobey me. Go, attack the Bhaal child! Pain you feel now is going to increase slowly and infinitely if you keep neglecting my order.~
++  SAY @9
+   IF ~~ THEN EXTERN ~VAMPVAL~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS31
+-  SAY ~What? How dare you are? Terrible pain will be your punishment!~
++  SAY @10
+   IF ~~ THEN DO ~ReallyForceSpell("Vampval",0)
+ ActionOverride("Vampval",PlayDead(2))
+ OpenDoor("DOOR01")
+@@ -40,14 +40,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS32
+-  SAY ~She is lost to you, <CHARNAME>. Sime has been quite receptive to my wiles. I doubt your fumbling could have inspired the loyalty I have taken with a bite and a gaze.~
+-  IF ~~ THEN JOURNAL ~The Final Battle with Bodhi.
+-
+-Bodhi has turned Sime into a vampire!  Or... or very nearly.  The process may not have been completed in the short time Bodhi has had her.  Hopefully something can be done or I will have lost her.  Perhaps the elven war sage might know some way of restoration... or Elhan... ~ EXTERN ~VAMPSIME~ 0
++  SAY @11
++  IF ~~ THEN JOURNAL @12 EXTERN ~VAMPSIME~ 0
+ END
+ 
+ IF ~~ THEN BEGIN TS33
+-  SAY ~Love... I should have sealed my doors tighter against that perpetrator. I have no times for follies, stupid bitch. Punishment you want - then you should get it. Die.~
++  SAY @13
+   IF ~~ THEN DO ~SetGlobal("C6BodhiFight","AR0809",1)
+ OpenDoor("DOOR01")
+ OpenDoor("DOOR02")

@@ -1,0 +1,98 @@
+@0    = ~Greetings, I am Gareth.  Oh my...  You are armed and armored...  Have you come to return us to slavery?~
+@1    = ~No, I am not here to enslave you.~
+@2    = ~Yes, the salamanders want you back.  You are to come with me.~
+@3    = ~Wyrm’s Tooth.
+
+We informed Gareth that the frost salamanders asked us to return him and the other slaves. He said he would rather die than return to slavery and attacked us.~
+@4    = ~I will speak with you another time.  Farewell.~
+@5    = ~You have returned.  What can I do for you?~
+@6    = ~The salamanders want you back. You are to come with me.~
+@7    = ~I said that I would consider helping you get the key to the exit from Kerish.~
+@8    = ~I have been thinking about helping you get the key to the exit from Kerish.~
+@9    = ~I have been trying to get the key to the exit from Kerish.~
+@10   = ~I am surprised to see you here, Gareth.~
+@11   = ~Gareth, I have seen Vera.~
+@12   = ~Gareth, may I rest here?~
+@13   = ~Thank the gods.  Then perhaps you would agree to help us?  We are in a desperate situation.~
+@14   = ~What is wrong?~
+@15   = ~The people you see here are all slaves.  Recently we escaped our masters and fled here to this room.~
+@16   = ~Who enslaved you?~
+@17   = ~Wyrm’s Tooth.
+
+We met a man named Gareth who claims to be an escaped slave of a group of frost salamanders.~
+@18   = ~I believe they are called frost salamanders.  They have humanoid torsos, reptilian heads, and serpentine tails.  They have an aura of cold about them and seem to thrive here in the glacier.~
+@19   = ~I see.  So how did you manage your escape?~
+@20   = ~That is a long tale...  Will you listen?~
+@21   = ~Yes, please begin.~
+@22   = ~No, I don’t have the time right now.  Farewell.~
+@23   = ~Very well...  We were held captive in the building directly above this one.  It appears to be some sort of museum.  There are numerous display cases showing specimens of aquatic life, all of which has succumbed to the cold of the glacier and frozen solid.~
+@24   = ~Wait.  If your former masters are so close, why do they not just come and get you?~
+@25   = ~Wyrm’s Tooth.
+
+According to Gareth, frost salamanders are sensitive to heat. Perhaps we could use this knowledge against them.~
+@26   = ~Go on.~
+@27   = ~The temperature here is hot enough to cause them pain, and thus, they shun this place.~
+@28   = ~I see.  Go on.~
+@29   = ~I have heard enough for now.  We can speak of this again later.  Farewell.~
+@30   = ~There was one room within the museum the salamanders avoided, and we were ordered never to enter there.  So naturally, we began to wonder why.  We did our best to try and sneak in to see what it was the salamanders feared, but with little success.  Finally, a woman named Vera managed to do it!~
+@31   = ~What did she find there?~
+@32   = ~Ancient machinery -- really old stuff, most of it in ruin.  However, there was one device that emitted a soft glow and warmth!  Vera realized that the warmth must be why the salamanders avoided the area.  She also concluded the displays of the museum had not always been frozen -- perhaps this machinery was what kept the cold at bay in the past.~
+@33   = ~Interesting conclusion.  Please continue.~
+@34   = ~Vera felt that this was the chance of a lifetime.  There was no way to know if either she or anyone else would ever gain access to this room again so she decided to take action.  She began to fiddle with dials and knobs until suddenly an indicator began to pulse with a steady light.  At once the room filled with a warm glow and the hum of power.  Quietly she returned to tell us of her discovery.~
+@35   = ~I see.  So what happened next?~
+@36   = ~Wyrm’s Tooth.
+
+We have learned that the slave leader is a woman named Vera.~
+@37   = ~At first, nothing.  For days we waited, always expecting the temperature to rise, but it never did.  We had finally given up hope when, just yesterday, a commotion started and the salamanders fled this room in a flurry of confusion.  Vera saw this as our one chance at freedom.  We could not allow the salamander’s time to reorganize and cut off our access to this room.  So, she yelled for all of us to run to the stairs that led here.  Many died in the attempt.  We are the few who survived.  If only Vera were here...~
+@38   = ~Well done... Now, what is this desperate situation you said you were in?~
+@39   = ~Vera is not here? She did not escape with the rest of you?~
+@40   = ~We have no food or water.  We are in the heart of enemy lands.  We will surely die if we stay here... the maddening thing is, we *have* discovered another exit that leads back to the surface, but it is locked and we do not have the key.~
+@41   = ~It is probably in the hands of the salamanders. ~
+@42   = ~It is probably in the possession of the salamanders.  I suppose this is where you ask me to risk life and limb to get this key for you.~
+@43   = ~Yes.  We believe that Kerish, their leader, has the key.  Will you recover it for us?~
+@44   = ~Hmm.  Yes, I will try to get this key for you.~
+@45   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key. The key unlocks the door to the passage leading to the surface. He believes it is in the possession of the salamanders. We have agreed to do this.~
+@46   = ~Fight a building full of frost salamanders?  I think not.~
+@47   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key, which will unlock the door to the passage leading to the surface. He believes the key is the possession of the salamanders. We told him we were not willing to fight a building full of frost salamanders for this key.~
+@48   = ~I will think about it.~
+@49   = ~Wyrm’s Tooth.
+
+Gareth has asked us to retrieve a key, which will unlock the door to the passage leading to the surface. He believes the key is the possession of the salamanders. We informed him that we would think about this.~
+@50   = ~Your bravery and compassion are beyond compare.  I do not know what to say other than thank you... which seems hardly enough under the circumstances.  Please recover the key quickly.  Our fate is in your hands.~
+@51   = ~I will.  Farewell for now.~
+@52   = ~I understand your reluctance to do this but you are our only hope.  Please think the matter through and let me know if you change your mind.~
+@53   = ~I am sorry, but no.  Vera never made it down here with the rest of us.  The last I saw, there was a wave of salamanders between her and escape.  I fear she is dead.~
+@54   = ~I am sorry to hear that, Gareth. You mentioned being in a desperate situation. Can you tell me about it?~
+@55   = ~Never!  We would rather die than return to slavery!~
+@56   = ~So be it!~
+@57   = ~Yes.  Have you given any more thought to helping us?  We desperately need the key to the exit.~
+@58   = ~Fight a building full of frost salamanders? I think not.  Farewell.~
+@59   = ~I am still thinking about it.  Farewell for now.~
+@60   = ~I will be going now.  Farewell.~
+@61   = ~Oh?  I know you declined to help us, but we desperately need the key to the exit.  Will you get it for us?~
+@62   = ~Yes.  Have you found the key?  We desperately need it.~
+@63   = ~Yes, I have the key.~
+@64   = ~Wyrm’s Tooth.
+
+We gave Gareth the key that unlocks the door to the passage leading to the surface. Now he and the other slaves can escape to safety.~
+@65   = ~No, not yet.  I am still searching.  Farewell for now.~
+@66   = ~Oh my...  You have done it!  I will tell everyone to prepare to leave here immediately.  Thank you so much for what you have done. ~
+@67   = ~You are welcome, Gareth.  Farewell.~
+@68   = ~We are preparing to leave at this very moment.  Thank you for your help, friend.~
+@69   = ~You are welcome, Gareth. ~
+@70   = ~Hello again.  Have you come to finish our conversation?~
+@71   = ~Yes, please start at the beginning and relate your tale to me again.~
+@72   = ~No, not at this time.  Farewell.~
+@73   = ~What? Where is she? Is she all right?~
+@74   = ~She is safe and in hiding. That is all that I can say.~
+@75   = ~I am sorry to say that she is dead, Gareth.~
+@76   = ~I see...  Well, thank you for telling me.  I will let the others know the news.~
+@77   = ~You are welcome, Gareth. You mentioned a desperate situation that you are in. Can you tell me about it?~
+@78   = ~What?  Where is she?  Is she all right?~
+@79   = ~I see... Well, thank you for telling me. I will let the others know the news.~
+@80   = ~You are welcome, Gareth. Farewell.~
+@81   = ~Sure. I'll heal you and watch over you while you rest.~

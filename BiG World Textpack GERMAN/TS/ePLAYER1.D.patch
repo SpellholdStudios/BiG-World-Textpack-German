@@ -1,0 +1,117 @@
+--- TS\bgtdlg\ePLAYER1.D	Fri Apr 29 16:53:18 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\ePLAYER1.D	Thu May 05 10:44:49 2016
+@@ -28,9 +28,7 @@
+ 
+ EXTEND_BOTTOM PLAYER1 25 // Finding Irenicus in Hell
+   IF ~InParty("Kachiko")
+-See("Kachiko")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+-
+-Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~KACHIJ~ N55
++See("Kachiko")~ THEN UNSOLVED_JOURNAL @0 EXTERN ~KACHIJ~ N55
+ //  IF ~InParty("Dynaheir")
+ //See("Dynaheir")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+ //
+@@ -40,9 +38,7 @@
+ //
+ //Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~CORANJ~ TS6
+ IF ~InParty("Sime")
+-See("Sime")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+-
+-Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~SIMEJ~ 116
++See("Sime")~ THEN UNSOLVED_JOURNAL @0 EXTERN ~SIMEJ~ 116
+ END
+ 
+ EXTEND_BOTTOM PLAYER1 33 // Tree of Life Talk
+@@ -63,24 +59,24 @@
+ APPEND ~PLAYER1~
+ 
+ IF ~~ THEN BEGIN TS55yosh
+-	SAY ~Yoshimo... the man whom you helped to rescue his family from a bitter vendetta and to find his true love. Yet he is also a man who was once hired by Irenicus to facilitate your demise.~
+-	IF ~~ THEN REPLY ~Yoshimo... Your life just started anew. If you do not want to face Irenicus again, you do not have to. ~ EXTERN ~YOSHJ~ TS221
+-	IF ~~ THEN REPLY ~Listen, Yoshimo. I trust you and everything, but I need to hear that you are on my side in the upcoming battle.~ EXTERN ~YOSHJ~ TS222
+-	IF ~~ THEN REPLY ~Irenicus is a mighty foe, Yoshimo. I do not know if all of us shall survive this battle. I would understand if you do not want to come with me.~ EXTERN ~YOSHJ~ TS221
++	SAY @1
++	IF ~~ THEN REPLY @2 EXTERN ~YOSHJ~ TS221
++	IF ~~ THEN REPLY @3 EXTERN ~YOSHJ~ TS222
++	IF ~~ THEN REPLY @4 EXTERN ~YOSHJ~ TS221
+ END
+ 
+ IF ~~ THEN BEGIN TS55
+-  SAY ~Kachiko. A warrior from a distant land, she insisted to join you to be close to Yoshimo whom she hated. She stayed with you through thick and thin to be close to Yoshimo she loved...~
+-  IF ~~ THEN REPLY ~Kachiko... You had fought valiantly by my side, but if you wish to go back to your life now, I would understand...~ EXTERN ~KACHIJ~ N37
+-  IF ~~ THEN REPLY ~Irenicus is a terrible creature, Kachiko. Please, let me know that you are prepared to face such a challenge.~ EXTERN ~KACHIJ~ N38
+-  IF ~~ THEN REPLY ~Behind these doors is death... May be it awaits Irenicus, may be it awaits all of us... You have seen death closer than I. Would you go through this door?~ EXTERN ~KACHIJ~ N39
++  SAY @5
++  IF ~~ THEN REPLY @6 EXTERN ~KACHIJ~ N37
++  IF ~~ THEN REPLY @7 EXTERN ~KACHIJ~ N38
++  IF ~~ THEN REPLY @8 EXTERN ~KACHIJ~ N39
+ END
+ 
+ IF ~~ THEN BEGIN TS56
+-  SAY ~Sime is before you, the woman you had not come to know very well, though she was a loyal companion.~
+-  IF ~~ THEN REPLY ~Sime, I know little of you, but Irenicus is no enemy of yours. You do not have to fight my battle...~ EXTERN ~SIMEJ~ TOL21
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. If you wish, you may take your leave now~ EXTERN ~SIMEJ~ TOL22
+-  IF ~~ THEN REPLY ~Sime, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~SIMEJ~ TOL23
++  SAY @9
++  IF ~~ THEN REPLY @10 EXTERN ~SIMEJ~ TOL21
++  IF ~~ THEN REPLY @11 EXTERN ~SIMEJ~ TOL22
++  IF ~~ THEN REPLY @12 EXTERN ~SIMEJ~ TOL23
+ END
+ 
+ //IF ~~ THEN BEGIN TS57
+@@ -89,14 +85,14 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS58
+-  SAY ~There is something else too... He looks at you sometimes... strangely... just like now...~
++  SAY @13
+   IF ~OR(2)
+ Dead("lavok02")
+-Dead("lavok01")~ THEN REPLY ~Valygar... Lavok is dead. You could return to your life now, if you wish. This is my fight.~ EXTERN ~VALYGARJ~ TS127
++Dead("lavok01")~ THEN REPLY @14 EXTERN ~VALYGARJ~ TS127
+   IF ~!Dead("lavok01")
+-!Dead("lavok02")~ THEN REPLY ~Valygar... Lavok is still alive. Your own quest is unfinished, but mine ends here. This is my fight.~ EXTERN ~VALYGARJ~ TS127
+-  IF ~~ THEN REPLY ~Irenicus is a powerful wizard, Valygar. I know how you hate magic users; you do not have to endanger yourself for me.~ EXTERN ~VALYGARJ~ TS127
+-  IF ~~ THEN REPLY ~This is it, Valygar. I need to know that you are ready, that you are willing to commit yourself to the battle ahead.~ EXTERN ~VALYGARJ~ TS127
++!Dead("lavok02")~ THEN REPLY @15 EXTERN ~VALYGARJ~ TS127
++  IF ~~ THEN REPLY @16 EXTERN ~VALYGARJ~ TS127
++  IF ~~ THEN REPLY @17 EXTERN ~VALYGARJ~ TS127
+ END
+ 
+ //IF ~~ THEN BEGIN TS59
+@@ -107,26 +103,26 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS60
+-  SAY ~Sime... You look at the maiden’s eyes and you see what you have hoped and scared to see: the determination to follow you to the end of the world and beyond it. It is obvious that you might keep Sime out of this battle, if you, say, tied her up and gagged her. Still, you want to give her a chance to reconsider.~
+-  IF ~~ THEN REPLY ~Sime, Irenicus is no enemy of yours. You do not have to fight my battles.~ EXTERN ~SIMEJ~ TOL1
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. I am afraid that you might get hurt or die... I would rather... Do you think you might wait here?~ EXTERN ~SIMEJ~ TOL2
+-  IF ~~ THEN REPLY ~Sime, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~SIMEJ~ TOL3
++  SAY @18
++  IF ~~ THEN REPLY @19 EXTERN ~SIMEJ~ TOL1
++  IF ~~ THEN REPLY @20 EXTERN ~SIMEJ~ TOL2
++  IF ~~ THEN REPLY @12 EXTERN ~SIMEJ~ TOL3
+ END
+ END
+ 
+ REPLACE ~PLAYER1~
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~Valygar... the intense and noble ranger whom you saved from the predations of the Cowled Wizards and has been your companion ever since. You came to rely upon him and he gained your trust.~
++  SAY @21
+   IF ~Gender(Player1,MALE)
+ OR(2)
+ Dead("lavok02")
+-Dead("lavok01")~ THEN REPLY ~Valygar... Lavok is dead. You could return to your life now, if you wish. This is my fight.~ EXTERN ~VALYGARJ~ 106
++Dead("lavok01")~ THEN REPLY @14 EXTERN ~VALYGARJ~ 106
+   IF ~Gender(Player1,MALE)
+ !Dead("lavok01")
+-!Dead("lavok02")~ THEN REPLY ~Valygar... Lavok is still alive. Your own quest is unfinished, but mine ends here. This is my fight.~ EXTERN ~VALYGARJ~ 106
+-  IF ~Gender(Player1,MALE)~ THEN REPLY ~Irenicus is a powerful wizard, Valygar. I know how you hate magic users; you do not have to endanger yourself for me.~ EXTERN ~VALYGARJ~ 106
+-  IF ~Gender(Player1,MALE)~ THEN REPLY ~This is it, Valygar. I need to know that you are ready, that you are willing to commit yourself to the battle ahead.~ EXTERN ~VALYGARJ~ 106
++!Dead("lavok02")~ THEN REPLY @15 EXTERN ~VALYGARJ~ 106
++  IF ~Gender(Player1,MALE)~ THEN REPLY @16 EXTERN ~VALYGARJ~ 106
++  IF ~Gender(Player1,MALE)~ THEN REPLY @17 EXTERN ~VALYGARJ~ 106
+   IF ~Gender(Player1,FEMALE)~ THEN GOTO TS58 
+ END
+ END

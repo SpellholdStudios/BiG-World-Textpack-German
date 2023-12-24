@@ -1,0 +1,45 @@
+@0    = ~Oh, thank the gods.  Whoever you are, you picked the perfect time to wander by.  I could really use some help.~
+@1    = ~My name is <GABBER>. Who might you be?~
+@2    = ~What seems to be the problem?~
+@3    = ~Sorry, but I'm rather busy right now.  Farewell.~
+@4    = ~The name's Apsel.  But, please... we don't have time for such pleasantries.  I need your help!~
+@5    = ~A wolf somehow got into my workshop and is tearing the place apart.  It attacked me as I was opening the shop this morning.  I was so startled by the sight of the beast that I accidentally broke the key off in the lock while trying to get away.  Now I can't even get back in.~
+@6    = ~Your shop?  What do you sell?~
+@7    = ~What is it exactly that you want me to do?~
+@8    = ~Tough luck, friend.  Farewell.~
+@9    = ~I am a scrimshander.  I carve the huge, bony skulls of knucklehead trout into fine works of art.  This summer, southlanders will come up and buy my pieces to take back to their fancy shops -- that is, of course, if I ever get any work done.  Damn wolf!~
+@10   = ~Quit your whining, you grouchy, old toad.  Why don't you be a man and go back in there and kill that thing?~
+@11   = ~I'd be most grateful if you could go in there and get rid of that stupid thing for me.  Then I could get back to my scrimshaw.  Of course, you'll have to find a way to get the door open first.~
+@12   = ~Very well.  I'll dispatch your troublesome hound shortly.~
+@13   = ~Sounds like quite a task.  What's in it for me?~
+@14   = ~How am I supposed to get the door open if you broke the key off in the lock?~
+@15   = ~We have already killed the beast.~
+@16   = ~We have already killed the beast but forgot to pick up his pelt.~
+@17   = ~I ought to spin your head for talking to me that way.  Ah, forget it.  You're not worth it.  I'll take my troubles elsewhere.~
+@18   = ~I sincerely thank you.  The door to my shop is just around the corner here.  Please get rid of that demonic canine as soon as possible, and bring me his pelt.~
+@19   = ~Get rid of the wolf in Apsel's workshop.
+  
+We've agreed to help the old scrimshander, Apsel, by breaking into his shop and dispatching the wolf that has somehow found its way inside.~
+@20   = ~All right, you greedy bastard, I'll throw in some gold for your trouble.  Will that satisfy your copper-clenching black heart?~
+@21   = ~Nope.  Not good enough.  Sorry.  Farewell.~
+@22   = ~You again.  Look, I'm begging you...  help me get rid of this wolf?  Please?  The creature is in there right now, ravaging my workshop as we speak.~
+@23   = ~What in Tempus's holy name are you still puttering about here for?  I can still hear that wolf jumping around in there.  If you don't hurry, there won't be anything left of my shop.  I'll be ruined!~
+@24   = ~Sorry, Apsel.  I'll get right to it.~
+@25   = ~Look, I'll get rid of that wolf when I'm good and ready.  Now get out of my way, you worm.~
+@26   = ~Ah!  My friend!  The wolf is no more!  I am now a happy man.  Thank you for helping me.  Here's a little something for your trouble.~
+@27   = ~Thank you.  I must take my leave now.  Farewell.~
+@28   = ~Get rid of the wolf in Apsel's workshop.
+
+We succeeded in getting rid of the wolf in Apsel's workshop.  Apparently the beast had chewed its way inside to get at the fish bones the old man had stored inside.  Apsel was quite relieved and graciously rewarded us with some gold and carved scrimshaw dagger.~
+@29   = ~Hello again, my friend.  Thank you again for helping me with my problem.~
+@30   = ~Farewell.~
+@31   = ~Please... help me, please.~
+@32   = ~I don't care!  Break it down if you have to.  I doubt it'll come to that, though.  Judging by the looks of you, I'd say you've picked more than your share of locks.  My door shouldn't be much of a challenge.~
+@33   = ~Forget it.  I've got better things to do.  Farewell~
+@34   = ~I don't care!  Break it down if you have to.  I'm sure it'll be nothing compared to the damage that monster inside is capable of.~
+@35   = ~Thank the Gods you're here.  You best go over and speak with Everard.  The old warhorse has taken quite a beating, but he still has the strength enough to lead us to safety.~
+@36   = ~I shall speak with him straight away.  Farewell.~
+@37   = ~Something sinister is behind this attack... I can feel it in my bones.  Whoever or whatever it is, I'd be willing to wager what's left of my shop that it's inside that cursed ice tower.  Watch your backs, friends.~
+@38   = ~You do the same.  Farewell, Apsel.~
+@39   = ~I sincerely thank you. Please, bring me the pelt.~
+@40   = ~You again. Look, I'm begging you... bring me the wolf's pelt.~

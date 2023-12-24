@@ -1,0 +1,28 @@
+@1     = ~Oder vielleicht folgt Ihr Helm? Falls ja, dann solltet Ihr Euch schleunigst zu seinem Tempel begeben. Es spielt keine Rolle, für wen von uns Ihr diesen Auftrag erledigt, solange Ihr Euch schnell darum kümmert.~
+@2     = ~Vielleicht wollt Ihr Lathander in dieser Angelegeneit dienen? Es macht kaum einen Unterschied, so lange diese Bedrohung schnell beseitigt wird.~
+@3     = ~Der Kult der Augenlosen
+
+Nachdem ich Zeuge der Rede des augenlosen Priesters wurde, suchte mich ein Priester des Lathander auf und legte mir die dringende Notwendigkeit dar, diesen neuen Kult näher zu untersuchen. Er bat mich, ihm zum Tempel Lathanders zu folgen, damit wir die Angelegenheit weiter besprechen können. Er erwähnte auch, dass wir dem Tempel Helms helfen könnten.~
+@4     = ~Der Kult der Augenlosen
+
+Nachdem ich Zeuge der Rede des augenlosen Priesters wurde, suchte mich ein Priester des Helm auf und legte mir die dringende Notwendigkeit dar, diesen neuen Kult näher zu untersuchen. Er bat mich, ihm zum Tempel Helms zu folgen, damit wir die Angelegenheit weiter besprechen können. Er erwähnte auch, dass wir dem Tempel Lathanders helfen könnten.~
+@5     = ~Ich begrüße Euch im Haus des Morgenfürsten.~
+@6     = ~Hohewachender Oisig erwähnte eine Bedrohung unser beider Tempel.~
+@7     = ~Danke. Ich werde jetzt gehen.~
+@8     = ~Ich bin auf Geheiß von Oisig hier. Es geht um diesen augenlosen Prediger in den Straßen.~
+@9     = ~Hohewachender Oisig schickt Euch? Dann stehe ich wirklich in seiner Schuld. Ihr wirkt wie ein Diener der gerechten Sache, jemand von starkem Glauben und mildem Herzen.~
+         ~Hohewachender Oisig schickt Euch? Dann stehe ich wirklich in seiner Schuld. Ihr wirkt wie eine Dienerin der gerechten Sache, jemand von starkem Glauben und mildem Herzen.~
+@10    = ~Dann muss ich dem Hohewachenden für seine Dienste danken. Obwohl Euer Ruf alles andere als über jeden Zweifel erhaben ist, seht Ihr wie ein Diener des Lichts aus, wie jemand mit einem guten Herzen.~
+         ~Dann muss ich dem Hohewachenden für seine Dienste danken. Obwohl Euer Ruf alles andere als über jeden Zweifel erhaben ist, seht Ihr wie eine Dienerin des Lichts aus, wie jemand mit einem guten Herzen.~
+@11    = ~Wartet! Ihr scheint mir ein Diener der Gerechtigkeit zu sein, jemand von starkem Glauben und mit einem mitfühlenden Herzen. Ich bitte Euch um einen Gefallen.~
+         ~Wartet! Ihr scheint mir eine Dienerin der Gerechtigkeit zu sein, jemand von starkem Glauben und mit einem mitfühlenden Herzen. Ich bitte Euch um einen Gefallen.~
+@12    = ~Wartet! Obwohl Euer Ruf alles andere als über jeden Zweifel erhaben ist, scheint Ihr mir dennoch ein Diener des Lichts zu sein, jemand, der Milde in seinem Herzen trägt. Ich bitte Euch um einen Gefallen.~
+         ~Wartet! Obwohl Euer Ruf alles andere als über jeden Zweifel erhaben ist, scheint Ihr mir dennoch eine Dienerin des Lichts zu sein, jemand, der Milde in seinem Herzen trägt. Ich bitte Euch um einen Gefallen.~
+@13    = ~Willkommen im Haus des Alles Sehenden.~
+@14    = ~Morgenmeister Arval erwähnte ein Problem mit dem augenlosen Prediger in den Straßen.~
+@15    = ~Der Hohepriester des Tempels von Lathander erwähnte eine Bedrohung unser beider Tempel und sandte mich hierher, um meine Hilfe anzubieten.~
+@16    = ~Der Morgenmeister kann einen Charakter gut beurteilen. Ich bin dankbar für seine Hilfe. Ihr tragt die Zeichen eines guten Herzens, und ein gutes Herz sieht immer beide Seiten einer Auseinandersetzung.~
+@17    = ~Der Morgenmeiter und ich teilen eine Sorge. Ich kenne Euch und Euresgleichen; Eure Taten beweisen, dass Ihr dem Guten nicht so ergeben seid, wie Ihr es sein könntet, obwohl Ihr beide Seiten einer Auseinandersetzung überdenkt.~
+@18    = ~Bevor Ihr geht, möchte ich Euch einen Vorschlag machen. Ihr tragt die Zeichen eines guten Herzens, und ein gutes Herz sieht immer beide Seiten einer Auseinandersetzung.~
+@19    = ~Bevor Ihr geht, möchte ich Euch einen Vorschlag machen. Ich kenne Euch und Euresgleichen; Eure Taten beweisen, dass Ihr dem Guten nicht so ergeben seid, wie Ihr es sein könntet, obwohl Ihr beide Seiten einer Auseinandersetzung überdenkt.~
+@10001 = ~Ich komme im Auftrag des Tempels des Morgenfürsten, um dem hier ein Ende zu setzen!~

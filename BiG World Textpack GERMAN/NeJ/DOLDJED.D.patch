@@ -1,0 +1,250 @@
+--- NeJ\Dfiles\DOLDJED.D	Sun Nov 30 00:30:39 2014
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DOLDJED.D	Wed Apr 10 10:24:13 2019
+@@ -2,175 +2,147 @@
+ 
+ IF ~Global("Drunk_Quest", "GLOBAL", 0)
+ Global("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+-  SAY ~Hey there, matey.  How are ye... hic... doing?~ 
+-  IF ~~ THEN REPLY ~Hi, nice to meet you.  How are you?~  GOTO 1
+-  IF ~~ THEN REPLY ~Whew!  Been hittin' the sauce lately, old man?~  GOTO 3
+-  IF ~~ THEN REPLY ~I'm doing okay but I really have to be going.  Farewell.~  EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @1  GOTO 1
++  IF ~~ THEN REPLY @2  GOTO 3
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 0.0
+-  SAY ~Not so good, matey.  Grisella, the barkeep over at the Winter's Cradle, cut me off.  How am I supposed ta git any proper fishing done?~ 
+-  IF ~~ THEN REPLY ~Er... I dunno.  Just do it without liquor?  Maybe?~  GOTO 2
+-  IF ~~ THEN REPLY ~You're breaking my heart, old man.~  GOTO 3
+-  IF ~~ THEN REPLY ~Why'd she do that?~  GOTO 2
+-  IF ~Class(Player1, THIEF)~ THEN REPLY ~You can't let her pull that. I suggest you smash in one of her windows at night with a thick cloth and use a fishing rod to snag some choice booze.  I can show you how to tie the line...~ GOTO 12
+-  IF ~~ THEN REPLY ~You can't let people walk all over you like that. I suggest you teach her a lesson... while she's sleeping... if you get my drift.  That'll show the people of this town that they can't just push you around.~ GOTO 12
+-  IF ~~ THEN REPLY ~Hmm.  That's too bad.  Well, I gotta go.  Farewell.~  EXIT
++  SAY @4 
++  IF ~~ THEN REPLY @5  GOTO 2
++  IF ~~ THEN REPLY @6  GOTO 3
++  IF ~~ THEN REPLY @7  GOTO 2
++  IF ~Class(Player1, THIEF)~ THEN REPLY @8 GOTO 12
++  IF ~~ THEN REPLY @9 GOTO 12
++  IF ~~ THEN REPLY @10  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 1.2 1.0
+-  SAY ~The barkeep says I be drinkin' too much.  What does she know?  I've only overturned my boat three... well, four times.  Anyway, I need me wine to fish proper-like.~ 
+-  IF ~~ THEN REPLY ~Well, is there anything I can do to support your downward spiral into oblivion?~  GOTO 4
+-  IF ~Class(Player1, PALADIN)~ THEN REPLY ~Hmm.  Alcohol isn't a solution to your vocational dilemmas.  I suggest you go see a priest about your problems.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  SAY @11 
++  IF ~~ THEN REPLY @12  GOTO 4
++  IF ~Class(Player1, PALADIN)~ THEN REPLY @13  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+   IF ~CheckStatGT(Player1, 15, INT)
+-CheckStatGT(Player1, 14, CHR)~ THEN REPLY ~The wine isn't really what you need.  It is just a symbol of your lost youth and your failure to accomplish all that you wanted to in the short span of time that you have in this desolate wasteland, this... this, Easthaven.  The bottle is your prison, a cornucopia of sanguinary delight that represents all of your problems in this world.  Seriously.~  GOTO 11
++CheckStatGT(Player1, 14, CHR)~ THEN REPLY @14  GOTO 11
+   IF ~CheckStatGT(Player1, 15, INT)
+-CheckStatLT(Player1, 15, CHR)~ THEN REPLY ~You don't really *need* the wine.  You're just attached to the wine.  You're addicted.  It doesn't help you fish any better.  In fact, it's probably holding you back from being a truly great fisherman and enjoying your "golden years."~  GOTO 3
+-  IF ~~ THEN REPLY ~Well, best of luck with that problem.  I have to go now.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++CheckStatLT(Player1, 15, CHR)~ THEN REPLY @15  GOTO 3
++  IF ~~ THEN REPLY @16  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 12.2 2.3 1.1 0.1
+-  SAY ~Well, there's no need ta be mean about it.  It's a real problem for me, you see.  I NEED me wine ta fish.  It's a matter of life and death, matey!~ 
+-  IF ~~ THEN REPLY ~Well, is there anything I can do to support your downward spiral into oblivion?~  GOTO 4
+-  IF ~~ THEN REPLY ~Too bad, old man.  You're a withered husk of a man and it's no one's fault but your own.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+-  IF ~~ THEN REPLY ~Well, best of luck with that problem.  I have to go now.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  SAY @17 
++  IF ~~ THEN REPLY @12  GOTO 4
++  IF ~~ THEN REPLY @18  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  IF ~~ THEN REPLY @16  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 12.0 3.0 2.0
+-  SAY ~Ye could go ta Pomab's and fetch me some wine.  Then I could git back ta me fishing.  I would be grateful for it.  I'd go ta git it meself, but two summers past, I got so mad at that pompous Pomab that I threw his sorry behind inta Lac Dinneshere.~ 
+-  IF ~!PartyHasItem("Wine")~ THEN REPLY ~Sure.  You seem like a nice old man... in that "drunken fisherman" sort of way...~  GOTO 5
+-  IF ~~ THEN REPLY ~Just how grateful are you going to be?~ GOTO 6
+-  IF ~PartyHasItem("Wine")~ THEN REPLY ~You mean like this bottle I have with me?~ GOTO 7
+-  IF ~~ THEN REPLY ~Hmm.  Doesn't sound like my kind of thing.  Farewell.~  EXIT
++  SAY @19 
++  IF ~!PartyHasItem("Wine")~ THEN REPLY @20  GOTO 5
++  IF ~~ THEN REPLY @21 GOTO 6
++  IF ~PartyHasItem("Wine")~ THEN REPLY @22 GOTO 7
++  IF ~~ THEN REPLY @23  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 8.2 6.0 4.0
+-  SAY ~Aye!  Thanks, matey.  Ye can find Pomab's store in the nort-east corner o' town.~ 
+-  IF ~~ THEN REPLY ~Great.  I'll be back presently.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 1)~ UNSOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.~  EXIT
+-  IF ~~ THEN REPLY ~Whoa, whoa.  On second thought, I don't think I want to be a part of this.  Sorry.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  SAY @24 
++  IF ~~ THEN REPLY @25  DO ~SetGlobal("Drunk_Quest","GLOBAL", 1)~ UNSOLVED_JOURNAL @26  EXIT
++  IF ~~ THEN REPLY @27  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 4.1
+-  SAY ~Well, uh... I can give ye a bit o' gold.  And... and, ye can be a member o' the Eternal Brotherhood o' Fishermen!~ 
+-  IF ~!PartyHasItem("Wine")~ THEN REPLY ~Well, in that case, I'll do it.~  UNSOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.~  GOTO 5
+-  IF ~PartyHasItem("Wine")~ THEN REPLY ~Well, in that case... here you go.  I just happened to have some wine with me.~  GOTO 7
+-  IF ~~ THEN REPLY ~Why would I want to be an old drunk guy?  See you later, wino.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  SAY @28 
++  IF ~!PartyHasItem("Wine")~ THEN REPLY @29  UNSOLVED_JOURNAL @26  GOTO 5
++  IF ~PartyHasItem("Wine")~ THEN REPLY @30  GOTO 7
++  IF ~~ THEN REPLY @31  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~Global("Drunk_Quest", "GLOBAL", 1)
+ PartyHasItem("Wine")
+ Global("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 7 // from: 8.1 6.1 4.2
+-  SAY ~Ah!  Ye have a bottle o' wine fer me!  Matey, I am indeed grateful.~ 
+-  IF ~~ THEN REPLY ~Don't drink it all in one place, buddy.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
++  SAY @32 
++  IF ~~ THEN REPLY @33  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
+ GivePartyGold(6)
+ AddexperienceParty(3500)
+ TakePartyItem("Wine")
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)~ SOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-We delivered a bottle of wine to Old Jed, one of the local Easthaven fishermen.~  EXIT
+-  IF ~~ THEN REPLY ~You better make that last, cap'n.  You're not always going to have strapping adventurers around to get you your "medicine."  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
++EraseJournalEntry(@26)
++EraseJournalEntry(@26)~ SOLVED_JOURNAL @34  EXIT
++  IF ~~ THEN REPLY @35  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
+ GivePartyGold(6)
+ AddexperienceParty(3500)
+ TakePartyItem("Wine")
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)~ SOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-We delivered a bottle of wine to Old Jed, one of the local Easthaven fishermen.~  EXIT
+-  IF ~~ THEN REPLY ~It's all in a day's work for heroic adventuring types.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
++EraseJournalEntry(@26)
++EraseJournalEntry(@26)~ SOLVED_JOURNAL @34  EXIT
++  IF ~~ THEN REPLY @36  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
+ GivePartyGold(6)
+ AddexperienceParty(3500)
+ TakePartyItem("Wine")
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)~ SOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-We delivered a bottle of wine to Old Jed, one of the local Easthaven fishermen.~  EXIT
++EraseJournalEntry(@26)
++EraseJournalEntry(@26)~ SOLVED_JOURNAL @34  EXIT
+ END
+ 
+ IF ~Global("Drunk_Quest", "GLOBAL", 2)
+ Global("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 8 // from:
+-  SAY ~Hey!  I don't want ta see any mean hooligans around here anymore.  I can't believe ye won't even help an old --ack!  I'm dying, dying... need... wine...~ 
+-  IF ~~ THEN REPLY ~You reap what you sow, old man.  I hope you wither up and die, you salty bastard.  Farewell.~  EXIT
+-  IF ~PartyHasItem("Wine")~ THEN REPLY ~Fine, fine.  Here's your stupid wine.~  GOTO 7
+-  IF ~!PartyHasItem("Wine")~ THEN REPLY ~Oh, alright.  I'll go get your wine for you.~  GOTO 5
+-  IF ~~ THEN REPLY ~Geez.  Sorry.  Farewell.~  EXIT
++  SAY @37 
++  IF ~~ THEN REPLY @38  EXIT
++  IF ~PartyHasItem("Wine")~ THEN REPLY @39  GOTO 7
++  IF ~!PartyHasItem("Wine")~ THEN REPLY @40  GOTO 5
++  IF ~~ THEN REPLY @41  EXIT
+ END
+ 
+ IF ~Global("Drunk_Quest", "GLOBAL", 1)
+ !PartyHasItem("Wine")~ THEN BEGIN 9 // from:
+-  SAY ~Ah, me matey!  Do ye have me wine yet?~ 
+-  IF ~~ THEN REPLY ~Listen, you old drunk, I've got places to go and things to do.  I'll fetch your booze when I feel like getting around to it.  Farewell.~ EXIT
+-  IF ~~ THEN REPLY ~I changed my mind.  I'm not getting you the wine.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+-  IF ~~ THEN REPLY ~I'm working on it.  These things take time.  Farewell.~  EXIT
++  SAY @42 
++  IF ~~ THEN REPLY @43 EXIT
++  IF ~~ THEN REPLY @44  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++  IF ~~ THEN REPLY @45  EXIT
+ END
+ 
+ IF ~Global("Drunk_Quest", "GLOBAL", 3)
+ Global("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 10 // from:
+-  SAY ~Well, if it isn't the newest member o' the Eternal Brotherhood o' Fishermen!  Thanks again fer helping me out, matey.  Arrrr!~ 
++  SAY @46 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 12.1 2.2
+-  SAY ~I... uh... well.  Hmm.  I never really had it explained ta me that way, matey.  I suppose that does make sense, now that I think about it.  In fact, that be the best advice I've had in a long time.  Thank ye, matey!  Here's a little something for yer help.~ 
+-  IF ~~ THEN REPLY ~I'm glad I could help.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
++  SAY @47 
++  IF ~~ THEN REPLY @48  DO ~SetGlobal("Drunk_Quest","GLOBAL",3)
+ GivePartyGold(6)
+ AddexperienceParty(3500)
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)
+-EraseJournalEntry(%A bottle of wine for Old Jed.
+-
+-One of the local fishermen, Old Jed, asked us to fetch a bottle of wine from Pomab's Emporium, a store in the northeast part of town.%)~ SOLVED_JOURNAL ~A bottle of wine for Old Jed.
+-
+-We convinced Old Jed, one of the local Easthaven fishermen, that he's caught in a self-destructive cycle of alcohol abuse. He should lay off the alcohol from now on... or at least drink a little less.~  EXIT
++EraseJournalEntry(@26)
++EraseJournalEntry(@26)~ SOLVED_JOURNAL @49  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from: 1.4 1.3
+-  SAY ~Er... thanks fer the advice, matey, but I don't think I'll be doin' that.  I NEEDS me wine, matey, but I can't break the law ta git it.~ 
+-  IF ~~ THEN REPLY ~Well, is there anything I can do to support your downward spiral into oblivion?~  GOTO 4
++  SAY @50 
++  IF ~~ THEN REPLY @12  GOTO 4
+   IF ~CheckStatGT(Player1, 15, INT)
+-CheckStatGT(Player1, 14, CHR)~ THEN REPLY ~The wine isn't really what you need.  It is just a symbol of your lost youth and your failure to accomplish all that you wanted to in the short span of time that you have in this desolate wasteland, this... this, "Easthaven."  The bottle is your prison, a fountain of sanguinary delight that represents all of your problems in this world.  Seriously.~  GOTO 11
++CheckStatGT(Player1, 14, CHR)~ THEN REPLY @51  GOTO 11
+   IF ~CheckStatGT(Player1, 15, INT)
+-CheckStatLT(Player1, 15, CHR)~ THEN REPLY ~You don't really NEED the wine.  You're just attached to the wine.  You're addicted.  It doesn't help you fish any better.  In fact, it's probably holding you back from being a truly great fisherman and enjoying your "golden years."~  GOTO 3
+-  IF ~~ THEN REPLY ~Well, best of luck with that problem.  Sorry, but I can't help you.  I have to go now.  Farewell.~  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
++CheckStatLT(Player1, 15, CHR)~ THEN REPLY @52  GOTO 3
++  IF ~~ THEN REPLY @53  DO ~SetGlobal("Drunk_Quest","GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedTo(0)
+ GlobalGT("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 13 // from:
+-  SAY ~Heh, there, matey.  *hic*  We be done fer.  All the gianssan sshildren are bein' held by the women in a sshtockade south o' town, passht the bridge.  Everard be captured down there too.  Join drink in a Jed and we can passh the time.~ 
+-  IF ~Global("Everard_Freed","GLOBAL",0)~ THEN REPLY ~What happened?  Why was Everard captured?~  JOURNAL ~We found Old Jed, drunk, in the cellar of the Winter's Cradle.  He told us that Everard and the other villagers had been captured by giants and were being held in a stockade south of the town, past the bridge.  As soon as we were done talking to him, he passed out.~  GOTO 15
+-  IF ~Global("Everard_Freed","GLOBAL",1)~ THEN REPLY ~I already rescued Everard and the other villagers, Jed.~  JOURNAL ~We found Old Jed, drunk, in the cellar of the Winter's Cradle.  He told us that Everard and the other villagers had been captured by giants and were being held in a stockade south of the town, past the bridge.  As soon as we were done talking to him, he passed out.~  GOTO 16
+-  IF ~~ THEN REPLY ~Farewell, Jed.~  JOURNAL ~We found Old Jed, drunk, in the cellar of the Winter's Cradle.  He told us that Everard and the other villagers had been captured by giants and were being held in a stockade south of the town, past the bridge.  As soon as we were done talking to him, he passed out.~  EXIT
++  SAY @54 
++  IF ~Global("Everard_Freed","GLOBAL",0)~ THEN REPLY @55  JOURNAL @56  GOTO 15
++  IF ~Global("Everard_Freed","GLOBAL",1)~ THEN REPLY @57  JOURNAL @56  GOTO 16
++  IF ~~ THEN REPLY @58  JOURNAL @56  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalGT("Know_Balance", "GLOBAL", 0)~ THEN BEGIN 14 // from:
+-  SAY ~You again, eh, matey?  I shuppose you think I'm coward, right?  I AINT AFEARD A NOTHIN'!  I seen me a giant waves comin' over the shquid.  I be sshpearin' that salty pickle with ten o' me harpoonssh if he be comin' 'round here.  Heh heh he... *snore* *snore*~ 
+-  IF ~~ THEN REPLY ~Uh... farewell, Jed.~  DO ~PlayDead(9000)~ EXIT
++  SAY @59 
++  IF ~~ THEN REPLY @60  DO ~PlayDead(9000)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15 // from: 13.0
+-  SAY ~Oh, what ye be askin' me fer?  There was the... *snore*  GIANTS!  There be giansshin the town!  They be only havin' one orb o' sight to be ssheein' with.  Aye.  And the... *snore*  *snore*  Accalia... pretty... *snore*  Everard... protect... captured... *snore*~ 
+-  IF ~~ THEN REPLY ~Uh... farewell, Jed.~  DO ~PlayDead(9000)~ EXIT
++  SAY @61 
++  IF ~~ THEN REPLY @60  DO ~PlayDead(9000)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16 // from: 13.1
+-  SAY ~Well, HOO-ray.  I be sure to be toashtin' to ye, matey... *snore*  *snore*  hate... Pomab... *snore* harpoon his arse... *snore*~ 
+-  IF ~~ THEN REPLY ~Uh... farewell, Jed.~  DO ~PlayDead(9000)~ EXIT
++  SAY @62 
++  IF ~~ THEN REPLY @60  DO ~PlayDead(9000)~ EXIT
+ END

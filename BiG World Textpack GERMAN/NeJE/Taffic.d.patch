@@ -1,0 +1,78 @@
+--- NeJE\dlg\Taffic.d	Thu Aug 30 01:06:04 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Taffic.d	Tue Apr 09 19:37:20 2019
+@@ -1,52 +1,52 @@
+ BEGIN ~TAFFIC~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Hello there. You have the look of a capable person to me, just the sort I need to help me out with a little task I have. I am Taffic are you interested?~ [taffic01]
+-  IF ~~ THEN REPLY ~Well met Taffic. I am <CHARNAME>, and whether I am interested in helping you or not rather depends on what you have in mind.~ GOTO 1
+-  IF ~~ THEN REPLY ~I am always ready to lend a hand to our smaller brothers Taffic. I am <CHARNAME>, what is it that you require of me?~ GOTO 1
+-  IF ~~ THEN REPLY ~I may be interested if there is a profit to be made from your proposal Taffic, say gold maybe or something equally as pleasing. Tell me what it is you want and let me judge if it is worth my while. I am called  <CHARNAME>.~ GOTO 1
+-  IF ~~ THEN REPLY ~I am <CHARNAME>. How much is my aid in your little task worth to you gnome?~ GOTO 1
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 1
++  IF ~~ THEN REPLY @4 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Yes the task. Let me start from the beginning and tell you of my search to fulfil a life long dream <CHARNAME>. You see, I have always dreamt that I could be more than what I am. A sort of bigger me, a person to be looked up to and not always down on. If you know what I mean.~ [taffic02]
+-  IF ~~ THEN REPLY ~Are you saying that you wish to be a taller gnome Taffic, or is it that you wish people to look up to you and respect you more? I can offer no advice if it is to become taller that you seek but if it is respect that you look for Taffic, then that is something that can only be earned.~ GOTO 2
+-  IF ~~ THEN REPLY ~Taffic, what is it that you are saying? Is it that you wish to be a taller gnome or a bigger person?~ GOTO 2
+-  IF ~~ THEN REPLY ~This is starting to sound crazy gnome and you’ve only uttered a few lines. Whoever heard of a tall gnome? How can anyone be other than what they are?~ GOTO 2
+-  IF ~~ THEN REPLY ~I am not at all sure that I want a crazy gnome on some foolish quest to make himself taller tagging along with me but carry on!~ GOTO 2
++  SAY @5 
++  IF ~~ THEN REPLY @6 GOTO 2
++  IF ~~ THEN REPLY @7 GOTO 2
++  IF ~~ THEN REPLY @8 GOTO 2
++  IF ~~ THEN REPLY @9 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~No! No  <CHARNAME>! I see that you are not understanding me at all! If I was just a taller gnome then I would be looked on as a freak. What I dream of is becoming a member of one of the taller races. A human or maybe an elf say. That is what I mean <CHARNAME>.~ [taffic03]
+-  IF ~~ THEN REPLY ~Taffic, surely you know that what you seek is impossible! The Gods have made each of us as we are and we should not tamper with the works of Gods.~ GOTO 3
+-  IF ~~ THEN REPLY ~Taffic, we all have dreams of being something that we are not, but no-one actually seeks to change what they are.~ GOTO 3 
+-  IF ~~ THEN REPLY ~I cannot see how this is going to turn out to be a very profitable endeavour for me. It has the sounds of just some crazy gnome bemoaning his lot in life!~ GOTO 3
++  SAY @10 
++  IF ~~ THEN REPLY @11 GOTO 3
++  IF ~~ THEN REPLY @12 GOTO 3 
++  IF ~~ THEN REPLY @13 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~(*Angrily*) Let me finish before you judge the sense of what I say! For the past 15 years I have followed every rumour, experimented with spells and potions, sought and tried every artifact that I hear of, I have prayed earnestly to my God and even tried combinations of all those things <CHARNAME>.~ [taffic04]
++  SAY @14 
+   IF ~~ THEN GOTO 4
+ END
+    
+ IF ~~ THEN BEGIN 4
+-  SAY ~It has all been a lot of wasted time and energy, but now, yes now at last I know how to do it! I have heard tell that there is a wizard living on the outskirts of Beregost and he holds the key to the secret of how a person can change his race, how I can become a bigger person!~ [taffic05]
++  SAY @15 
+   IF ~~ THEN GOTO 5
+ END  
+   
+ IF ~~ THEN BEGIN 5
+-  SAY ~If you will help me in this <CHARNAME>, I will certainly recompense you as is appropriate for your time, but only when I have become a bigger person you understand.~ [taffic06]
+-  IF ~~ THEN REPLY ~To try and undo what the Gods have done is surely a dangerous thing to attempt Taffic. I do not think that this is a wise quest and I prefer not to be involved. I would beseech you Taffic, give it up and be content with how you are, there is no shame in your gnomish heritage.~ GOTO 6
+-  IF ~~ THEN REPLY ~As I said, crazy. Why I wasted my time even listening to you gnome is beyond me! Be gone and find someone as crazy as yourself to aid you. I want no part of your impossible schemes.~ GOTO 6 
+-  IF ~~ THEN REPLY ~Recompense you say, now you are talking sense gnome. If there is gold to be made let us away. The quicker you become this bigger person the quicker I become a richer one. I warn you though, do not doublecross me or your time as a bigger person will be brief!~ GOTO 7
+-  IF ~~ THEN REPLY ~I can see that this dream of yours means a lot to you Taffic, although I feel that it will prove a disappointing venture for you, I will go along with you for now.~ GOTO 7
++  SAY @16 
++  IF ~~ THEN REPLY @17 GOTO 6
++  IF ~~ THEN REPLY @18 GOTO 6 
++  IF ~~ THEN REPLY @19 GOTO 7
++  IF ~~ THEN REPLY @20 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~What do you know of what is possible and what is not <CHARNAME>? I have spent a lot of time researching this matter and I am therefore in a better position than you to say what can and what cannot be done or undone. If you are reluctant to help me then I shall proceed without you. When we next meet, I will be Taffic The Great and you will see just how wrong you were to disbelieve me.~ [taffic07]
++  SAY @21 
+ 	IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I am happy indeed to hear that you will help me <CHARNAME>. Quickly now, I am impatient for the start of my new life.~ [taffic08]
++  SAY @22 
+ 	IF ~~ THEN DO ~JoinParty()~ EXIT
+ END

@@ -1,0 +1,15 @@
+--- NeJE\dlg\TuEnch.d	Tue Feb 07 22:41:01 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuEnch.d	Tue Apr 09 19:37:29 2019
+@@ -6,8 +6,8 @@
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Hello, <CHARNAME>.~
+-  IF ~~ THEN REPLY ~Hello Sharia, nice to meet you.~ EXTERN ~XANH~ 21
+-  IF ~~ THEN REPLY ~Hello Sharia, you drew the short straw did you?~ EXTERN ~XANH~ 21
+-  IF ~~ THEN REPLY ~(*Not looking at Sharia*) The tasks Xan, just tell me what they are?~ EXTERN ~XANH~ 21
++  SAY @0
++  IF ~~ THEN REPLY @1 EXTERN ~XANH~ 21
++  IF ~~ THEN REPLY @2 EXTERN ~XANH~ 21
++  IF ~~ THEN REPLY @3 EXTERN ~XANH~ 21
+ END

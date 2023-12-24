@@ -1,0 +1,265 @@
+--- NeJE\dlg\AERIEJ.d	Sat Dec 08 05:47:11 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\AERIEJ.d	Tue Apr 09 19:34:43 2019
+@@ -3,7 +3,7 @@
+ APPEND ~AERIEJ~
+ 
+ IF ~~ THEN BEGIN NEJ221
+-  SAY ~How could such beautiful words not have touched the heart of this Leina? These are surely the words of a man who, when he loves, he loves with every part of his body and soul. Surely he will want to aid us in finding her.~
++  SAY @0
+   IF ~True()~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXIT
+   IF ~InParty("Hrothgar")~ THEN EXTERN ~HROTHJ~ 47
+   IF ~InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ NEJ157
+@@ -14,7 +14,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ222
+-  SAY ~To see yet more of this land and not from a cage, it is so...so... so exciting!~
++  SAY @1
+   IF ~True()~ THEN EXTERN ~HROTHJ~ 60
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ546
+@@ -58,12 +58,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ223
+-  SAY ~(*Looking soulfully at Tilorn*) You are sending us into the past, to a time before my birth, before my...my... my incarceration?~
++  SAY @2
+   IF ~~ THEN GOTO NEJ224
+ END  
+ 
+ IF ~~ THEN BEGIN NEJ224
+-  SAY ~(*She looks away quickly but not before you notice tears well up in her eyes. You know what is in her thoughts, but you also know that words would not ease her pain so you keep silent.*)~
++  SAY @3
+   IF ~True()~ THEN EXTERN ~TILORN~ 19
+   IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ261
+@@ -100,58 +100,58 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ225
+-  SAY ~Me? Oh... I hope I don’t let you down.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_EnchQuest","GLOBAL",1)~ EXTERN ~XANH~ 23
+ END
+ 
+ IF ~~ THEN BEGIN NEJ226
+-  SAY ~I’ll have you know that Uncle Quayle was a very good teacher. I just wasn’t ready this time that was all.~
++  SAY @5
+   IF ~~ THEN EXTERN ~XANH~ 37
+ END
+ 
+ IF ~~ THEN BEGIN NEJ227
+-  SAY ~Me? Oh... I hope I don’t let you down.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_AbjQuest","GLOBAL",1)~ EXTERN ~TUPHIN~ 7
+ END
+ 
+ IF ~~ THEN BEGIN NEJ228
+-  SAY ~Me? Oh... I hope I don’t let you down.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_InvQuest","GLOBAL",1)~ EXTERN ~TUTHEOD~ 28
+ END
+ 
+ IF ~~ THEN BEGIN NEJ229
+-  SAY ~Me? Oh... I hope I don’t let you down.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_InvQuest","GLOBAL",1)~ EXTERN ~TUTHEOD~ 31
+ END
+ 
+ IF ~~ THEN BEGIN NEJ230
+-  SAY ~Me? Oh... I hope I don’t let you down.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_IllQuest","GLOBAL",1)~ EXTERN ~TUVASHON~ 19
+ END
+ 
+ IF ~~ THEN BEGIN NEJ231
+-  SAY ~I believe I can, or at least, I will try my very best.~
++  SAY @6
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_ConQuest","GLOBAL",1)~ EXTERN ~TUMORD~ 15
+ END
+ 
+ IF ~~ THEN BEGIN NEJ232
+-  SAY ~I was so sure that if I tried my hardest I would succeed. I am sorry.~
+-  IF ~~ THEN REPLY ~Do we need an intelligence check or something here? All you had to do was to read a couple of scrolls... you can read can’t you?~ GOTO NEJ233
+-  IF ~!Class(Player1,MAGE_ALL)~ THEN REPLY ~I don’t understand a lot about magic but surely it has to be easier to read scrolls then trying to remember spells that have been memorised?~ GOTO NEJ233
++  SAY @7
++  IF ~~ THEN REPLY @8 GOTO NEJ233
++  IF ~!Class(Player1,MAGE_ALL)~ THEN REPLY @9 GOTO NEJ233
+ END
+ 
+ IF ~~ THEN BEGIN NEJ233
+-  SAY ~I must have I read the words wrong, or maybe I missed a word. I really don’t know what I did wrong, I am sorry.~
++  SAY @10
+   IF ~~ THEN DO ~ActionOverride("TuMord",EscapeArea())~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ234
+-  SAY ~I can’t promise to succeed but I will try.~
++  SAY @11
+   IF ~~ THEN DO ~SetGlobal("VP_Aerie_TraQuest","GLOBAL",1)~ EXTERN ~TUMALV~ 19
+ END
+ 
+ IF ~~ THEN BEGIN NEJ235
+-  SAY ~Ugh! Please don’t do this <CHARNAME>. I... I think I am going to be sick just thinking about what this mage has in mind.~
++  SAY @12
+ 	IF ~True()~ THEN EXIT
+ 	IF ~InParty("Korgan")
+ !Dead("Korgan")~ THEN EXTERN ~KORGANJ~ NEJ224
+@@ -174,71 +174,71 @@
+ END
+ 
+ IF ~~ THEN BEGIN abjurer2
+-  SAY ~I... I  have let you down, I’m sorry, <CHARNAME>.~
+-  IF ~~ THEN REPLY ~You call yourself a mage? Thanks to your incompetence, girl, we have lost some valuable prizes.~ GOTO abjurer3
+-  IF ~~ THEN REPLY ~It happens, we win some we lose some, I am sure you gave it your best shot.~ GOTO abjurer4
++  SAY @13
++  IF ~~ THEN REPLY @14 GOTO abjurer3
++  IF ~~ THEN REPLY @15 GOTO abjurer4
+ END
+   
+ IF ~~ THEN BEGIN abjurer3
+-  SAY ~What a beastly thing to say, <CHARNAME>. I did my best.~
++  SAY @16
+   IF ~~ THEN EXTERN ~TUPHIN~ npcfail
+ END
+ 	
+ IF ~~ THEN BEGIN abjurer4
+-  SAY ~I am so glad you understand, <CHARNAME>.~
++  SAY @17
+   IF ~~ THEN EXTERN ~TUPHIN~ npcfail
+ END
+ 
+ IF ~~ THEN BEGIN tranfail
+-  SAY ~I ... I  have let you down, I’m sorry <CHARNAME>.~
+-  IF ~~ THEN REPLY ~You failed, a simple kill the monster and open the chest task! It isn’t as if you haven’t done it before.~ GOTO tranfai2
+-  IF ~~ THEN REPLY ~It’s not that important. What is important is that Malvolio got you out safely.~ GOTO tranfai3
++  SAY @18
++  IF ~~ THEN REPLY @19 GOTO tranfai2
++  IF ~~ THEN REPLY @20 GOTO tranfai3
+ END
+ 
+ IF ~~ THEN BEGIN tranfai2
+-  SAY ~Not alone I haven’t, ever! You can be so beastly sometimes <CHARNAME>!~
++  SAY @21
+   IF ~~ THEN EXTERN ~TUMALV~ 24
+ END  
+ 
+ IF ~~ THEN BEGIN tranfai3
+-  SAY ~I failed to win your prizes for you and yet you are still nice to me. You remind me a little of Uncle Quayle (*sighs*), I still miss him sometimes <CHARNAME>.~
++  SAY @22
+   IF ~~ THEN EXTERN ~TUMALV~ 24
+ END
+ 
+ IF ~~ THEN BEGIN invfail
+-  SAY ~I ... I  have let you down, I’m sorry  <CHARNAME>.~
+-  IF ~~ THEN REPLY ~That was abysmal! With all the spells you have at your disposal, I can not believe that you couldn’t take care of a few pesky pests!~ GOTO invfail2
+-  IF ~~ THEN REPLY ~It happens. I was probably expecting too much letting you go into a situation you hadn’t been given time to prepare for.~GOTO invfail3
++  SAY @23
++  IF ~~ THEN REPLY @24 GOTO invfail2
++  IF ~~ THEN REPLY @25GOTO invfail3
+ END
+ 
+ IF ~~ THEN BEGIN invfail2
+-  SAY ~There were more than a few pests <CHARNAME>! They were horrible, crawling everywhere and I couldn’t cast my spells quick enough before they were all around me, but I did try, I really tried!~
++  SAY @26
+   IF ~~ THEN EXTERN ~TUTHEOD~ failtest  
+ END
+ 
+ IF ~~ THEN BEGIN invfail3
+-  SAY ~Even if I had prepared, I don’t think I could have stood being alone with so many nasty beasties crawling all around me <CHARNAME>, but I would still have tried my best.~
++  SAY @27
+   IF ~~ THEN EXTERN ~TUTHEOD~ failtest  
+ END
+ 
+ IF ~~ THEN BEGIN vashon
+-  SAY ~It was too much for me by myself, I am sorry, <CHARNAME>.~
+-  IF ~~ THEN REPLY ~If I had a gold piece for each time I heard sorry for an excuse, I would be rich beyond your imaginings. Sorry is never an excuse for failure.~ GOTO vashon3
+-  IF ~~ THEN REPLY ~No matter, you couldn’t have second guessed Vashon’s test, no one could... not even if you’d been a diviner.~ GOTO vashon4
++  SAY @28
++  IF ~~ THEN REPLY @29 GOTO vashon3
++  IF ~~ THEN REPLY @30 GOTO vashon4
+ END
+   
+ IF ~~ THEN BEGIN vashon3
+-  SAY ~At least I am not too proud to admit my failings, <CHARNAME>. As to whether you accept my apology or not, that is up to you.~
++  SAY @31
+   IF ~~ THEN EXTERN ~TUVASHON~ npcfail
+ END
+ 	
+ IF ~~ THEN BEGIN vashon4
+-  SAY ~I still failed and if I am to be as good a mage as uncle Quayle has tried to teach me to be, I must learn to think more for myself.~
++  SAY @32
+   IF ~~ THEN EXTERN ~TUVASHON~ npcfail
+ END
+ 
+ IF ~~ THEN BEGIN tafficuh
+-  SAY ~Oh my!(*Putting a hand on the Umberhulk’s shoulder*) I know what you must be feeling Taffic. I was also trapped in a monstrous body for a while until <CHARNAME> released me. I am sure there is a way to do the same for you.~
++  SAY @33
+  IF ~True()~ THEN EXTERN ~TAFFICP~ umberhk3 
+  IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ tafficuh
+@@ -278,12 +278,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS219
+-  SAY ~How... how romantic...~
++  SAY @34
+   IF ~~ THEN EXTERN ~NAJOKI~ 7
+ END
+ 
+ IF ~~ THEN BEGIN Kr_WarTk
+-  SAY ~W-war? Oh, <CHARNAME>, you will still have need of me, won't you? I must go with you!~
++  SAY @35
+   	IF ~True()~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("KRCut04")~ EXIT
+@@ -300,7 +300,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kr_Curse
+-  SAY ~I believe Keldorn has been struck by Cyric's curse and he will most certainly die if any attempt is made to remove it. Only the gods themselves in their mercy can revoke the curse.~
++  SAY @36
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_CyricPlot","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -308,29 +308,29 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~W-where am I? Oh my, how did I g-get here? It's so s-scary and so d-dark here. Hello, who... who's there?~
+-  	IF ~~ THEN REPLY ~It is I, Aerie. I have come for you. You do not belong here, you are too young, my sweet girl.~ GOTO Kelem1A
++	SAY @37
++  	IF ~~ THEN REPLY @38 GOTO Kelem1A
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1A
+-	SAY ~S-so I have died. I remember now, perhaps it is for the best <CHARNAME>. No-no, I do not hold it against you, I know you wanted to save Keldorn! You know, if I were you, I would have done the same without hesitation.~
+-  	IF ~~ THEN REPLY ~Come then if you have forgiven me, let's return. I have need of your skills... your power Aerie!~ GOTO Kelem1
+-  	IF ~~ THEN REPLY ~I'm glad you understand me! Let's get out of here... and please, stop crying!~ GOTO Kelem2
++	SAY @39
++  	IF ~~ THEN REPLY @40 GOTO Kelem1
++  	IF ~~ THEN REPLY @41 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~Power... you consider me powerful? Now I know you are laughing at me!~
+-  	IF ~~ THEN REPLY ~Aerie... Aerie, listen to me! Your power is in your kindness. Yes it's true you can not run fast, but after all, you are used to flying. I can not restore your wings for you Aerie... I am not a god, but I believe that one day, you will find happiness.~ GOTO Kelem3
+-  	IF ~~ THEN REPLY ~What nonsense is this my friend? Would I have taken you from the circus, if I hadn't had faith in you? Come Aerie!~ GOTO Kelem3
++	SAY @42
++  	IF ~~ THEN REPLY @43 GOTO Kelem3
++  	IF ~~ THEN REPLY @44 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~(Sniffing) Crying? I cry a lot, and do you know, I h-haven't cried all my tears yet... I do not want to irritate you any further. I will stay here.~
+-  	IF ~~ THEN REPLY ~What nonsense is this my friend? Would I have taken you from the circus, if I hadn't had faith in you? Come Aerie!~ GOTO Kelem3
++	SAY @45
++  	IF ~~ THEN REPLY @44 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-	SAY ~(A smile comes to her face) I... I did not know that you valued me so highly. Yes, let us hurry away from here, we must save Keldorn!~
++	SAY @46
+ 	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0

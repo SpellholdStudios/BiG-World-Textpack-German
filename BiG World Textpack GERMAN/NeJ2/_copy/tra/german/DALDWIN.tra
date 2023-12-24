@@ -1,0 +1,95 @@
+@0  = ~Ihr - Ihr seid dafür verantwortlich, dass all diese Riesenkreaturen durch Kuldahar rennen, nicht wahr? Was für eine Art, Unruhe zu stiften... "Held".~ ~Ihr - Ihr seid dafür verantwortlich, dass all diese Riesenkreaturen durch Kuldahar rennen, nicht wahr? Was für eine Art, Unruhe zu stiften... "Heldin".~ 
+@1  = ~Ich habe mit diesen Angreifern nichts zu tun - aber ich *werde* der Sache auf den Grund gehen. Fürs Erste brauche ich ein Zimmer.~
+@2  = ~Diese Angreifer in der Stadt kamen *nicht* von Drachenauge. Sie sind Teil eines anderen Problems, und ich fürchte, ich werde mich als Nächstes darum kümmern müssen. Aber im Augenblick suche ich ein Zimmer..~ 
+@3  = ~Ihr, Aldwin?~
+@4  = ~Wer seid Ihr?~ 
+@5  = ~Dies ist Euer Gasthof?~
+@6  = ~Ich habe in einem der Zimmer oben einen Ring gefunden, an dem Ihr vielleicht interessiert seid.~
+@7  = ~Ich muss mich jetzt verabschieden. Lebt wohl.~ 
+@8  = ~Sucht Ihr ein Zimmer, oder wollt Ihr nur die Kälte reinlassen? Ich hab keine Zimmer für Landstreicher - zeigt Euer Geld, oder verschwindet.~
+@9  = ~Ja, ich suche ein Zimmer. Sind noch welche frei?~ 
+@10 = ~Ich muss weiter. Lebt wohl.~
+@11 = ~Ach, Ihr schon wieder. Was wollt Ihr diesmal?~
+@12 = ~Ich suche ein Zimmer. Sind noch welche frei?~ 
+@13 = ~Ich würde mich gern in einem Eurer *freien* Zimmer ausruhen, "mein Freund".~
+@14 = ~Nichts im Moment, danke. Lebt wohl.~ 
+@15 = ~Ja, wir haben da noch was frei, aber kein Gefeilsche über den Preis, verstanden? Dies ist der einzige Gasthof in der Stadt, also glaubt bloß nicht, dass Ihr woanders ein besseres Angebot bekommt.~
+@16 = ~Nun gut, dann lasst mal Eure Zimmer sehen.~
+@17 = ~Ich glaube, ich muss weiter. Lebt wohl.~
+@18 = ~Natürlich haben wir Platz für so redliche Reisende wie Euch. Ruht Euch aus, Ihr habt morgen einen schweren Tag des Schweigens vor Euch, "mein Freund". Ich hoffe, das ist kein *Problem* für Euch.~ ~Natürlich haben wir Platz für so redliche Reisende wie Euch. Ruht Euch aus, Ihr habt morgen einen schweren Tag des Schweigens vor Euch, "meine Freundin". Ich hoffe, das ist kein *Problem* für Euch.~ 
+@19 = ~Sorgt Ihr nur weiter dafür, dass die Zimmer frei sind, dann haben wir KEINERLEI Probleme, Aldwin. ~
+@20 = ~Überhaupt nicht... aber im Moment bin ich nicht müde. Ich komme später wieder.~ 
+@21 = ~Natürlich haben wir Platz für so redliche Reisende wie Euch. Übrigens, ich habe mit den anderen in der Stadt gesprochen, wie Ihr es verlangt habt, und sie sind bereit, die ganze Sache mit Eidan zu vergessen - vorausgesetzt, ich gebe einen Prozentsatz meines Umsatzes, um die Stadt zu unterstützen. Verdammte Blutsauger! ~ 
+@22 = ~Gut. Dann möchte ich mich gern ausruhen.  ~
+@23 = ~Der Weg zum guten Gewissen kann sehr lang sein, Aldwin. Ich sehe später nochmal nach Euch. ~ 
+@24 = ~Ich bin Aldwin - und Ihr tragt anscheinend den Kopf so hoch, dass Ihr  da oben nicht gut hört... Wollt Ihr ein *Zimmer* oder nicht? Dies ist der einzige Gasthof in der Stadt, also glaubt bloß nicht, dass Ihr woanders ein besseres Angebot bekommt.~
+@25 = ~Mein Kopf mag wohl hier oben sein, Wicht, aber meine Faust schwingt sich gern herunter und stattet Euch einen Besuch ab, wenn es sein muss.~
+@26 = ~Das ist also Euer Gasthof?~
+@27 = ~Das ist also Euer Gasthof? Also, ich habe in einem der Zimmer oben einen Ring gefunden, der Zweifel darüber aufkommen lässt.~
+@28 = ~Ich bin Aldwin; und Euch hat anscheinend der Winterwind die Ohren abgefroren... Wollt Ihr ein *Zimmer* oder nicht? Dies ist der einzige Gasthof in der Stadt, also glaubt bloß nicht, dass Ihr woanders ein besseres Angebot bekommt.~
+@29 = ~Passt lieber auf, was Ihr sagt, Gastwirt, ich bin nicht dazu aufgelegt, mit Euch zu streiten. ~
+@30 = ~Tatsächlich? Na, ich hab keine Zeit, hier zu sitzen und Drohungen mit Euch auszutauschen. Sagt, was Ihr wollt oder verschwindet aus meinem Gasthof... und nehmt Euren Straßengestank mit.~
+@31 = ~Dann will ich mal weiter. Lebt wohl.~
+@32 = ~Ja... wieso? Sagt jemand in der Stadt was anderes?~
+@33 = ~Ich habe diesen Ring oben gefunden. Er scheint infrage zu stellen, wem der Gasthof "Zum Abendschatten" gehört.~
+@34 = ~Amelia, das Barmädchen im "Wurzelkeller", hat von Euch gesprochen. Sie sagte, Ihr hättet diesen Gasthof von einem Mann namens Eidan gekauft. Das heißt, bevor er verschwunden ist.~
+@35 = ~Nein, ich bin bloß neugierig. Habt Ihr noch Zimmer frei?~
+@36 = ~Schon gut. Ich muss dann weiter. Lebt wohl.~
+@37 = ~Kann schon sein. *Kenne* ich Euch?~
+@38 = ~Nein, ich hab bloß gehört, Aldwin sei der Name des Gastwirts in Kuldahar. Habt Ihr noch Zimmer frei?~
+@39 = ~Amelia? Dieses vertrocknete Barweib mit der kreischenden Stimme? Ja, ich kenn sie, und sie hat Recht: Ich *habe* diesen Laden von Eidan gekauft, und mir wird auch langsam klar, wieso der alte Schlawiner diesen Gasthof so schnell verkaufen und "verschwinden" wollte.~
+@40 = ~Warum?~
+@41 = ~Er hat mich auf diesem Loch hier sitzen lassen, das so gut wie nichts einbringt. Der Winter hat alle Pässe blockiert, die Karawanen kommen nicht durch, und das Geschäft läuft mies. Ich hoffe, der alte Eidan wurde von einer Schneewehe begraben oder von einem Oger als Kauknochen benutzt. Hmpf. Naja, der Laden ist mein Eigentum, also muss ich sehen, dass ich zurecht komme.~
+@42 = ~Darüber wollte ich gerade reden. Ich habe oben diesen Ring gefunden, der Eure Besitzansprüche zweifelhaft erscheinen lässt. ~
+@43 = ~Eidan hat Euch das Eigentum übertragen?~
+@44 = ~Aha. Vielleicht könnt Ihr mir weiterhelfen: Ich suche ein Zimmer für die Nacht. ~
+@45 = ~Allerdings! Schwarz auf weiß, rechtskräftig, jeder Punkt und jedes Komma peinlich genau bis ins kleinste Detail - kann jeder nachlesen. Und?~
+@46 = ~Das mag sein, aber ich habe oben diesen Ring gefunden, der Eure Besitzansprüche zweifelhaft erscheinen lässt. ~
+@47 = ~Eidan war gelähmt - das habt Ihr doch sicher gewusst? Wenn Euch also der Besitz überschrieben wurde - mal davon ausgegangen, dass Eidan schreiben konnte, was er aber nie gelernt hatte - dann wäre die Schrift wohl kaum so perfekt gewesen, wie Ihr behauptet habt.~
+@48 = ~War nur eine Frage. Vielleicht könnt Ihr mir weiterhelfen: Ich suche ein Zimmer für die Nacht. ~
+@49 = ~Na, dann muss der alte Eidan jemanden gebeten haben, die Eigentumsbekundung FÜR ihn zu schreiben, denn für mich sieht sie völlig in Ordnung aus. Es kommt durchaus vor, dass man jemanden damit beauftragt, ein Schriftstück aufzusetzen. Ich weiß nur, dass der Gasthof *mir* gehört. Also, wollt Ihr jetzt ein Zimmer oder nicht? Wenn nicht, dann macht, dass Ihr *raus* kommt.~
+@50 = ~Ich werde bald gehen. Nur eines noch: Ich hab Eidans Ring oben gefunden. ~
+@51 = ~Na, schon gut. Ich suche ein Zimmer. Ist noch eins frei?~
+@52 = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Wir haben mit Aldwin gesprochen, dem Inhaber des Gasthofes "Zum Abendschatten" in Kuldahar. Er versuchte eifrigst, das Thema seines Eigentumsanspruchs auf den Gasthof zu umgehen. An Amelias Verdacht auf Betrug könnte also etwas dran sein. Wenn wir nur Beweise hätten...~
+@53 = ~Hä? Was? ~
+@54 = ~Dieser Ring trägt eine Inschrift auf der Innenseite, die Angaben über den *wahren* Besitzer des Gasthofs zu machen scheint. Wieso solltet Ihr der Besitzer sein, wenn hier was anderes steht?~
+@55 = ~Oh, nun seid Ihr so weit gesunken, verschlossene Kisten in fremder Leute Häuser aufzubrechen? Bevor Ihr MICH anklagt, etwas Unrechtes getan zu haben, solltet Ihr mal vor EURER EIGENEN Tür kehren. Ihr seid doch ein PALADIN, nicht wahr? Wie kommt ein allerheiligster Krieger wie Ihr dazu, Schlösser aufzubrechen, hä?~
+@56 = ~Ihr wusstet also, dass er oben eingeschlossen war? ~
+@57 = ~Ich kann über Eure Tat nicht einfach hinwegsehen, aber möglicherweise gibt es ein größeres Verbrechen zu untersuchen. Die Tatsache, dass Ihr von dem Ring wusstet, bestärkt mich in meiner Annahme, dass Ihr irgendwas auf dem Kerbholz habt. Ihr habt die ganze Zeit über gewusst, dass der Ring oben war?~
+@58 = ~Oh, nun seid Ihr so weit gesunken, verschlossene Kisten in andrer Leute Häusern aufzubrechen? Bevor Ihr MICH anklagt, etwas Unrechtes getan zu haben, solltest Ihr mal vor EURER EIGENEN Tür kehren. Wie kommt Ihr dazu, einfach irgendwo einzubrechen? ~
+@59 = ~Öh... nein, nein, ich wusste nicht, dass er oben eingeschlossen war. Hört zu, ich muss hier gar nichts erkl--~
+@60 = ~Ihr habt Recht. Ich werde Eidans Ring den Ältesten der Stadt bringen und sie entscheiden lassen, wie die Sache zu behandeln ist. Vielleicht können sie mit diesem Ring Eidans Schatten heraufbeschwören und ihn dazu befragen. Vergehen müssen bestraft werden.~
+@61 = ~Hört zu, winselnder Köter, ich bin es Leid, Eure Lügen und Ausflüchte zu hören. Ich könnte Euch auf der Stelle töten und diesen Gasthof selbst in Besitz nehmen, und ich würde nicht einen *Funken* Reue verspüren. Sagt mir jetzt die Wahrheit, sonst lasse ich Euch draußen sitzen, bis Ihr gefriert, und bearbeite Euch dann mit einem Eispickel.~
+@62 = ~Hört zu, wartet... ich sag Euch, was passiert ist. Zunächst mal: Ich habe Eidan kein *Haar* gekrümmt. ~
+@63 = ~Also *ist* Eidan tatsächlich tot. ~
+@64 = ~Also gut, ja. Aber es war nicht meine Schuld... Ich komm eines nachts in den Gasthof, nachdem ich es gerade noch durch den Kuldaharpass geschafft habe, und da liegt er auf dem Boden, kalt und steif. Ich bin schon öfter durch den Pass gekommen, hab mich ein bisschen mit dem alten Eidan unterhalten, und wusste, dass er keine Angehörigen hatte. ~
+@65 = ~Was habt Ihr mit der Leiche gemacht?~
+@66 = ~Man hörte Gerüchte über Leute, die verschollen waren, also hab ich seine Leiche außerhalb der Stadt begraben, und dann, naja, dann habe ich Feder und Tinte zusammengesucht und die Verfügung selbst geschrieben. Zugegeben, ich habe ihm seine Habseligkeiten abgenommen - ich hätte den verdammten Ring lieber wegwerfen sollen - aber seht mal, ich füge niemandem Schaden zu. Er hatte WIRKLICH keine Angehörigen. Und diese Stadt BRAUCHT einen Gasthof. ~
+@67 = ~Warum habt Ihr das getan? Ihr werdet diesen Laden vermutlich nicht verkaufen können, und die stürmische Jahreszeit schneidet die Karawanenstraßen zu oft von hier ab, als dass Ihr Umsatz machen könntet. ~
+@68 = ~Ich weiß, es ist nur... ich weiß nicht, ich hab es SATT herumzureisen, und ich hatte auf einmal das Bedürfnis, mich niederzulassen. Wahrscheinlich ist es der Halbling in mir. Wenigstens habe ich mich nicht in einem verdammten Maulwurfsbau eingenistet und eine stinkende Tabakpfeife geraucht, bis ich vor Langeweile umkomme.~
+@69 = ~Es ist zwar schön, dass Ihr Eidan nichts angetan habt, aber Ihr hättet *nicht* die Leiche verstecken und die Verfügung fälschen dürfen. Es gab bestimmt Leute hier, die ihn kannten und mochten, und sie hätten ihm sicher gern die letzte Ehre erwiesen. Außerdem besagt Eidans Ring, dass der Gasthof *Kuldahar* gehört und nicht Euch. Was Ihr getan habt, war Unrecht. ~
+@70 = ~Hört zu... Aldwin... Ich suche nur eine *billige* Unterkunft für die Nacht, oder jede andere Nacht, die ich mich ausruhen möchte. Ihr wollt nur, dass ich den Mund halte. Es sieht so aus, als könnten wir uns gegenseitig einen Gefallen tun.~
+@71 = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Eine der Kellnerinnen erwähnte, dass ein Halbling namens Aldwin die Taverne "Zum Abendschatten" unter mysteriösen Umständen geerbt haben könnte - möglicherweise einen Eigentumsanspruch fälschend. Hmmm. Vielleicht ist es von Vorteil, diesen Halbling zu überprüfen und herauszufinden, wie wir diese Situation verwerten können.~
+@72 = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Amelia, eine Bardame in der Kuldahar-Taverne, erwähnte, dass Aldwin, ein Halbling, den Besitz der Taverne "Zum Abendschatten" übernommen hatte, als sein Vorbesitzer verschwand. Aldwin meldete einen Anspruch an, der darauf hindeutete, dass Eidan wusste, dass er fortgehen würde - aber laut Amelia konnte Eidan nicht schreiben, und selbst wenn, er war gelähmt. Wir sollten das untersuchen. Aldwin weiß vielleicht, was mit den Vermissten passiert ist.~
+@73 = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Wir haben Aldwin Eidans Siegelring gezeigt, den wir oben gefunden hatten. Er gestand dann auch, dass er das Papier, in dem ihm der Gasthof "Zum Abendschatten" übertragen wurde, gefälscht hatte... Doch da wir keinen Vorteil darin sahen, den Betrug auffliegen zu lassen, haben wir uns darauf geeinigt, dass unsere Gruppe als Gegenleistung für unser Schweigen kostenlos im Gasthof logieren darf.~
+@74 = ~Ja... ja, das können wir. Ich habe viele freie Zimmer. Ich sehe keinen Grund, warum ein so *ausgesprochen* ruhiger Gast wie Ihr etwas zahlen sollte. Ich meine, Ihr bleibt für Euch und redet nicht viel - da muss auch kein Gold den Besitzer wechseln, richtig?~
+@75 = ~Sehr gut. Dann zeigt mir mein Zimmer.~
+@76 = ~Ja... ich komme wieder, wenn ich mich ausruhen möchte. Lebt wohl.~
+@77 = ~Hmm, bevor Ihr mir hier weitere Predigten haltet, solltet *Ihr* erst 'mal damit aufhören, Schlösser aufzubrechen und unbefugt  irgendwo einzudringen. Das stinkt nach Diebstahl, und das stellt uns meiner Ansicht nach auf eine Stufe. ~
+@78 = ~Da habt Ihr wohl Recht. Trotzdem möchte ich, dass Ihr mit den Ältesten der Stadt sprecht und ihnen erzählt, was Ihr getan habt. Wenn nicht, rede *ich* mit ihnen, und das wird auf lange Sicht für Euch schlimmer. ~
+@79 = ~Ich... hmm. Hört zu, vielleicht könnten wir... ich meine, was sollte mich davon abhalten --~
+@80 = ~Die Stadt verlassen? Da werdet Ihr nicht sehr weit kommen. Der Pass wurde von einer Lawine zugeschüttet, und außerdem machen Räuber die Berge unsicher. Legt einfach vor den Ältesten ein Geständnis ab. ~
+@81 = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Wir haben Aldwin Eidans Siegelring gezeigt, den wir oben gefunden hatten. Er gestand dann auch, dass er das Papier, in dem ihm der Gasthof "Zum Abendschatten" übertragen wurde, gefälscht hatte... Mit etwas Druck brachten wir ihn schließlich dazu, sein Verbrechen den Dorfältesten Kuldahars zu gestehen und sich der Strafe zu beugen, die sie ihm auferlegen würden.~
+@82 = ~Ist gut, ist gut, verdammt! Ich werde mit ihnen reden. Und jetzt lasst mich in Frieden. ~
+@83 = ~Gut. Jetzt suche ich ein Zimmer. Könnt Ihr mir helfen?~
+@84 = ~Ist gut. Ich komme wieder, um nach Euch zu sehen, Aldwin. Lebt wohl.~

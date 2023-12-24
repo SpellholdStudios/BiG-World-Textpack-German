@@ -1,0 +1,17 @@
+--- NeJ3\fixes\eAR9799.baf	Fri Apr 08 15:51:57 2016
++++ C:\BWP Patchstudio\patched files\NeJ3\fixes\eAR9799.baf	Wed Apr 10 10:34:18 2019
+@@ -20,12 +20,8 @@
+ 	RESPONSE #100
+ 		SetGlobal("VP_Ulcast_Journal","GLOBAL",1)
+ 		SetGlobal("VP_Hrothgar_Tilorn","GLOBAL",0)
+-		AddJournalEntry(~Journey to Ulcaster.
+-
+-I have agreed to journey with Hrothgar to Ulcaster ruins... forgive my delay Imoen but when I look into the face of the man Hrothgar, I feel that this is the right thing for me to do... you of all people should know that often the road I must take is not always the one I would choose. Hrothgar says very little but I believe he knows much ... this I am sure or I would not trust and follow him. Nevertheless, I will watch him closely.~,INFO)
+-		AddJournalEntry(~The Second Key Quest.
+-
+-I have agreed to join Hrothgar on his journey to Ulcaster and aid him in his search for a mysterious key. He has assured me that Imoen will be found in time but will say no more... for some inexplicable reason, I believe him. We make for the ruins of Ulcaster this day.~,QUEST)
++		AddJournalEntry(@0,INFO)
++		AddJournalEntry(@1,QUEST)
+ 		ActionOverride(Player1,SetDialog("Player1"))
+ 		Continue()
+ END		

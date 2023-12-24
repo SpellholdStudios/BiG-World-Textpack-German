@@ -1,0 +1,50 @@
+@0    = ~Papers, please.~
+@1    = ~Uh... what?~
+@2    = ~Lower Dorn's Deep.
+
+A halfling named Seth asked me for "papers" outside of a palace in Durdel Anatha.  When I expressed my confusion, he asked me if someone in the "Kraken Society" had sent me.~
+@3    = ~We don't have the papers you're looking for.~
+@4    = ~Lower Dorn's Deep.
+
+A halfling named Seth asked me for "papers" outside of a palace in Durdel Anatha.  When I told him that I didn't have any papers for him, he had a gang of hidden goons leap out and attack me.~
+@5    = ~Sorry.  I must have left them at home.  Farewell.~
+@6    = ~Hmm.  I don't suppose you were *told* to come here by someone in the Kraken Society, were you?~
+@7    = ~Nope.  I don't know what you're talking about.~
+@8    = ~No, brother.  I heard that one of my fellows was up in the big time down here and I came a lookin'.  Sorry for the intrusion.  How's about giving a distant kinsman some work?~
+@9    = ~Yep.  That's right.  Me and the Kraken Society... we go way back.  Ahh... the good old "Kraken Days."~
+@10   = ~Lower Dorn's Deep.
+
+I told Seth that I've known the Kraken Society for years.  Apparently, he wasn't convinced.  He had a bunch of thugs jump me.~
+@11   = ~Yes.  I have connections with the Kraken Society.  I've done some jobs for them in the past, so they thought they could trust me with a job here.~
+@12   = ~Lower Dorn's Deep.
+
+I told Seth that I've done work for the Kraken Society.  I kept it pretty casual and nonchalant.  He wasn't entirely convinced, so he asked me a slew of questions about the Kraken and whom we were supposed to work and fight for.~
+@13   = ~Er.. I think I should go now.  Farewell.~
+@14   = ~How unfortunate for you. If you will excuse me... Get them! Now, now!~
+@15   = ~Not so fast, chum. If you don't have the proper papers, I'm afraid you'll have to be killed. Sorry about this. I'm sure you understand... Get them! Now, now!~
+@16   = ~Sure. For some reason, I just don't believe you. Sorry, old boy, but we're going to have to kill you... Get them! Now, now!~
+@17   = ~But they didn't give you the proper papers.  I suppose that's not so surprising.  Very well.  What's the color of the kraken?~
+@18   = ~Blue.~
+@19   = ~Yellow.~
+@20   = ~Red.~
+@21   = ~White~
+@22   = ~Green.~
+@23   = ~Purple.~
+@24   = ~Black.~
+@25   = ~I don't know.~
+@26   = ~I like it when a person can admit their own ignorance. I'm impressed. Now, if you'll excuse me... Get them! Now, now!~
+@27   = ~Who did you come here to work for?~
+@28   = ~Yxunomei.~
+@29   = ~Bane.~
+@30   = ~Ilmater.~
+@31   = ~Marketh.~
+@32   = ~Tempus.~
+@33   = ~Dorn.~
+@34   = ~Hrothgar.~
+@35   = ~Presio.~
+@36   = ~Under whose banner do we fight?~
+@37   = ~Hmm.  Nice try... Get them! Now, now!~
+@38   = ~Excellent.  Marketh will want to see you as soon as possible.  It's a busy time around here.~
+@39   = ~Farewell.~
+@40   = ~Our blood isn't *that* thick, old chum. Oh... I suppose you can't cause much harm just to give Marketh a visit. Go on inside, but mind you, kinsman or not, I'll cut you down if you try anything... funny.~
+@41   = ~Good morning and good day after that!  Farewell.~

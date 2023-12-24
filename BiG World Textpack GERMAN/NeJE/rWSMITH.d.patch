@@ -1,0 +1,1143 @@
+--- NeJE\bdash\cromwell\rWSMITH.d	Sat Dec 01 03:39:09 2018
++++ C:\BWP Patchstudio\patched files\NeJE\bdash\cromwell\rWSMITH.d	Tue Apr 09 19:34:40 2019
+@@ -7739,7 +7739,7 @@
+ 
+ //1. Enhanced King Strohm Mask
+ IF ~~ THEN BEGIN IU10
+-  SAY ~Aye, ye've collected some nice items to forge. I can make a new helmet for yon, very powerful, if ye like.~
++  SAY @0
+   IF ~PartyHasItem("key20")
+ !PartyHasItem("ring41")
+ !PartyHasItem("helm05")
+@@ -7803,86 +7803,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU101
+-  SAY ~Well, ye've got the Mask of King Strohm the Third here, but I would need other three pieces: Ring of Protection +3, Dusty Rose Ioun Stone and Helm of Infravision, in order to forge them into a very enhanced helmet.~
++  SAY @1
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU102
+-  SAY ~Well, ye've got the Dusty Rose Ioun Stone, here, indeed. But I would need other three pieces: Mask of King Strohm the Third, Ring of Protection +3 and Helm of Infravision, in order to forge it into a new helmet piece for ye.~
++  SAY @2
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU103
+-  SAY ~Hmmmn. A pretty enough Helm of Infravision, but without the Mask of King Strohm the Third, Ring of Protection +3 and Dusty Rose Ioun Stone, I cannae forge it into one piece for ye.~
++  SAY @3
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU104
+-  SAY ~Hmmmn. A rare enough Ring of Protection +3, but without the Mask of King Strohm the Third, Dusty Rose Ioun Stone and Helm of Infravision, I cannae forge it into one piece of a very enhanced helmet for ye.~
++  SAY @4
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU105
+-  SAY ~Well, ye've got the Mask of King Strohm the Third and Ring of Protection +3 here, but I would need other two pieces: Dusty Rose Ioun Stone and Helm of Infravision, in order to forge them into a very enhanced helmet.~
++  SAY @5
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU106
+-  SAY ~Well, ye've got the Mask of King Strohm the Third and Helm of Infravision here, but I would need other two pieces: Ring of Protection +3 and Dusty Rose Ioun Stone, in order to forge them into a very enhanced helmet.~
++  SAY @6
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU107
+-  SAY ~Well, ye've got the Mask of King Strohm the Third and Dusty Rose Ioun Stone here, but I would need other two pieces: Ring of Protection +3 and Helm of Infravision, in order to forge them into a very enhanced helmet.~
++  SAY @7
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU108
+-  SAY ~Hmmmn. A rare enough Ring of Protection +3 and Helm of Infravision, but without the Mask of King Strohm the Third and Dusty Rose Ioun Stone, I cannae forge it into one piece of a very enhanced helmet for ye.~
++  SAY @8
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU109
+-  SAY ~Hmmmn. A rare enough Ring of Protection +3 and Dusty Rose Ioun Stone, but without the Mask of King Strohm the Third and Helm of Infravision, I cannae forge it into one piece of a very enhanced helmet for ye.~
++  SAY @9
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU110
+-  SAY ~Hmmmn. Ye've got not one but two pretty head gears: Helm of Infravision and Dusty Rose Ioun Stone. But without the Mask of King Strohm the Third and Ring of Protection +3, I cannae forge it into one very enhanced helmet for ye.~
++  SAY @10
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU111
+-  SAY ~Well, ye've collected three rare pieces: Mask of King Strohm the Third, Ring of Protection +3 and Helm of Infravision. Brin' me the Dusty Rose Ioun Stone, and I'll forge a great helmet for ye.~
++  SAY @11
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU112
+-  SAY ~Well, ye've collected three rare pieces: Mask of King Strohm the Third, Ring of Protection +3 and Dusty Rose Ioun Stone. Brin' me the Helm of Infravision, and I'll forge a great helmet for ye.~
++  SAY @12
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU113
+-  SAY ~Well, ye've collected three rare pieces: Mask of King Strohm the Third, Helm of Infravision and Dusty Rose Ioun Stone. Brin' me the Ring of Protection +3, and I'll forge it into much better helmet for ye.~
++  SAY @13
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU114
+-  SAY ~Well, ye've collected three rare pieces: Ring of Protection +3, Helm of Infravision, and Dusty Rose Ioun Stone. Brin' me the Mask of King Strohm the Third, and I'll forge a great helmet for ye.~
++  SAY @14
+   IF ~~ THEN GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU115
+-  SAY ~Hmmmn... I see.  ye've got the Mask of King Strohm the Third, Ring of Protection +3, Helm of Infravision and Dusty Rose Ioun Stone. I could forge it all into one very protective helmet for ye.~
++  SAY @15
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",11)~ GOTO IU116
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU117
+ END
+ 
+ IF ~~ THEN BEGIN IU116
+-  SAY ~Two things, me friend. It will cost ye 10,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @16
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU117
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU117
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU117
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -8603,7 +8603,7 @@
+ 
+ //2. Enhanced Lilarcor
+ IF ~~ THEN BEGIN IU30
+-  SAY ~Aye, ye've collected some nice items to forge. I can make a new sword for yon, very powerful, if ye like.~
++  SAY @18
+   IF ~PartyHasItem("sw2h14")
+ !PartyHasItem("sw2h10")
+ !PartyHasItem("misc45")~ THEN GOTO IU31
+@@ -8628,46 +8628,46 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU31 //79
+-  SAY ~Well, ye've got the infamous Lilarcor here, indeed... rather stupid. If ye bring me Carsomyr and Rogue Stone, I'll forge it into a smarter sword for ye.~
++  SAY @19
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU32 //80
+-  SAY ~Hmmmn. The rare enough Carsomyr, but without a Rogue Stone and infamous Lilarcor, I cannae forge it into one piece of a very powerful sword for ye. A pity.~
++  SAY @20
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU33 //81
+-  SAY ~Well, ye've got the Rogue Stone here, but I would need two swords: Carsomyr and Lilarcor, in order to forge them into a new and very powerful sword for ye.~
++  SAY @21
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU34 //82
+-  SAY ~Well, ye've got a pair of nasty swords here: Carsomyr and Lilarcor. But I would need a Rogue Stone in order to forge them into a new and very powerful sword for ye.~
++  SAY @22
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU35 //83
+-  SAY ~Well, ye've got the infamous Lilarcor here and a Rogue Stone. If ye brin' me the great Carsomyr, I'll forge it into a smarter sword for ye.~
++  SAY @23
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU36 //84
+-  SAY ~Oh, ye've got the mighty Carsomyr here and a Rogue Stone. If ye brin' me the infamous Lilarcor, I'll forge it into a very powerful sword for ye.~
++  SAY @24
+   IF ~~ THEN GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU37 //85
+-  SAY ~Hmmmn... I see.  ye've got the Carsomyr, Lilarcor and Rogue Stone. I could forge it all into one very powerful sword for ye.~
++  SAY @25
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",13)~ GOTO IU38
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU39
+ END
+ 
+ IF ~~ THEN BEGIN IU38 //86
+-  SAY ~Two things, me friend. It will cost ye 20,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @26
+   IF ~PartyGoldGT(19999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(20000)
+ DestroyGold(20000)~ GOTO 56
+-  IF ~PartyGoldLT(25000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU39
++  IF ~PartyGoldLT(25000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU39
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU39
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -9303,7 +9303,7 @@
+ 
+ //3. Enhanced Selune's Promise
+ IF ~~ THEN BEGIN IU40
+-  SAY ~Aye, ye've collected some nice items to forge. I know an ol' recipe and I can make a new mace for yon, very powerful, if ye like.~
++  SAY @27
+   IF ~PartyHasItem("simace1")
+ !PartyHasItem("hammcomm")
+ !PartyHasItem("rithore")
+@@ -9339,37 +9339,37 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU41
+-  SAY ~Well, ye've got the Selune's Promise here, indeed. But I would need the Hammer of Comminution and a very special ore, in order to forge it into a new mace for ye.~
++  SAY @28
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU42
+-  SAY ~Hmmmn. A rare enough Hammer of Comminution, but without the Selune's Promise and a very special ore, I cannae forge it into one piece of a very powerful mace for ye. A pity.~
++  SAY @29
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU43
+-  SAY ~Well, ye've got an extremely rare ore here that I thought I'd never seen again... Interestin' me where did ye got it... Hmmm... But I would need other two pieces: Selune's Promise and Hammer of Comminution, in order to forge them into a new and very powerful mace for ye.~
++  SAY @30
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU44
+-  SAY ~I see ye've got a pair of nice weapons here, good for priest: the Selune's Promise and Hammer of Comminution. But without a very special ore, I cannae forge it into one piece of a very powerful mace for ye. A pity.~
++  SAY @31
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU45
+-  SAY ~Well, ye've got the Selune's Promise here and the rarest ore that I thought I'd never seen again. If ye brin' me the Hammer of Comminution, I'll forge it into a very powerful mace for ye.~
++  SAY @32
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU46
+-  SAY ~Well, ye've got the Hammer of Comminution here and the rarest ore that I thought I'd never seen again. If ye brin' me the Selune's Promise, I'll forge it into a very powerful mace for ye.~
++  SAY @33
+   IF ~~ THEN GOTO IU49
+ END
+ 
+ IF ~~ THEN BEGIN IU47
+-  SAY ~Hmmmn... I see.  ye've got the Selune's Promise, Hammer of Comminution and the very same ore I was dreamin' to see again. I could forge it all into one very powerful mace for ye.~
++  SAY @34
+   IF ~PartyHasItem("rithtel")
+ !PartyHasItem("rithore")~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",14)~ GOTO IU48
+   IF ~PartyHasItem("rithore")~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",15)~ GOTO IU48
+@@ -9377,10 +9377,10 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU48
+-  SAY ~Three things, me friend. It will cost ye 10,000 gp for the work, no less, ye'll hav' to assist me with your magics, and ye'll stay here a full day and help me run the forge.~
++  SAY @35
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU49
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU49
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU49
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -9969,86 +9969,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU001
+-  SAY ~Well, ye've got the Leather of Thorns here, but I would need other three pieces: Robe of Armory, Barrier Amulet and Amulet Of Proof Against Detection and Location, in order to forge them into a very enhanced robe.~
++  SAY @36
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU002
+-  SAY ~Well, ye've got the Barrier Amulet, here, indeed. But I would need other three pieces: Leather of Thorns, Robe of Armory and Amulet Of Proof Against Detection and Location, in order to forge it into a new robe piece for ye.~
++  SAY @37
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU003
+-  SAY ~Hmmmn. A pretty enough Amulet Of Proof Against Detection and Location, but without the Leather of Thorns, Robe of Armory and Barrier Amulet, I cannae forge it into one piece for ye.~
++  SAY @38
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU004
+-  SAY ~Hmmmn. A rare enough Robe of Armory, but without the Leather of Thorns, Barrier Amulet and Amulet Of Proof Against Detection and Location, I cannae forge it into one piece of a very enhanced robe for ye.~
++  SAY @39
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU005
+-  SAY ~Well, ye've got the Leather of Thorns and Robe of Armory here, but I would need other two pieces: Barrier Amulet and Amulet Of Proof Against Detection and Location, in order to forge them into a very enhanced robe.~
++  SAY @40
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU006
+-  SAY ~Well, ye've got the Leather of Thorns and Amulet Of Proof Against Detection and Location here, but I would need other two pieces: Robe of Armory and Barrier Amulet, in order to forge them into a very enhanced robe.~
++  SAY @41
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU007
+-  SAY ~Well, ye've got the Leather of Thorns and Barrier Amulet here, but I would need other two pieces: Robe of Armory and Amulet Of Proof Against Detection and Location, in order to forge them into a very enhanced robe.~
++  SAY @42
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU008
+-  SAY ~Hmmmn. A rare enough Robe of Armory and Amulet Of Proof Against Detection and Location, but without the Leather of Thorns and Barrier Amulet, I cannae forge it into one piece of a very enhanced robe for ye.~
++  SAY @43
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU009
+-  SAY ~Hmmmn. A rare enough Robe of Armory and Barrier Amulet, but without the Leather of Thorns and Amulet Of Proof Against Detection and Location, I cannae forge it into one piece of a very enhanced robe for ye.~
++  SAY @44
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU010
+-  SAY ~Hmmmn. Ye've not one but two pretty amulets: Amulet Of Proof Against Detection and Location and Barrier Amulet. But without the Leather of Thorns and Robe of Armory, I cannae forge it into one very enhanced robe for ye.~
++  SAY @45
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU011
+-  SAY ~Well, ye've collected three rare pieces: Leather of Thorns, Robe of Armory and Amulet Of Proof Against Detection and Location. Brin' me the Barrier Amulet, and I'll forge a great robe for ye.~
++  SAY @46
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU012
+-  SAY ~Well, ye've collected three rare pieces: Leather of Thorns, Robe of Armory and Barrier Amulet. Brin' me the Amulet Of Proof Against Detection and Location, and I'll forge a great robe for ye.~
++  SAY @47
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU013
+-  SAY ~Well, ye've collected three rare pieces: Leather of Thorns, Amulet Of Proof Against Detection and Location and Barrier Amulet. Brin' me the Robe of Armory, and I'll forge it into much better robe for ye.~
++  SAY @48
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU014
+-  SAY ~Well, ye've collected three rare pieces: Robe of Armory, Amulet Of Proof Against Detection and Location, and Barrier Amulet. Brin' me the Leather of Thorns, and I'll forge a great robe for ye.~
++  SAY @49
+   IF ~~ THEN GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU015
+-  SAY ~Hmmmn... I see.  ye've got the Robe of Armory, Leather of Thorns, Barrier Amulet and Amulet Of Proof Against Detection and Location. I could forge it all into one very protective robe for ye.~
++  SAY @50
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",10)~ GOTO IU016
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU017
+ END
+ 
+ IF ~~ THEN BEGIN IU016
+-  SAY ~Two things, me friend. It will cost ye 10,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @16
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU017
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU017
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU017
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -10459,7 +10459,7 @@
+ 
+ //5. Enhanced Staff of Besieging
+ IF ~~ THEN BEGIN IU50
+-  SAY ~Aye, ye've collected some nice items to forge. I can make a new staff for yon, very powerful, if ye like.~
++  SAY @51
+   IF ~PartyHasItem("staffbes")
+ !PartyHasItem("staffpow")
+ !PartyHasItem("ring31")~ THEN GOTO IU51
+@@ -10484,46 +10484,46 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU51
+-  SAY ~Well, ye've got the extremely rare Staff of Besieging, here, indeed. But I would need the Staff of Super Power and a Ring of Regeneration, in order to forge it into a new staff for ye. A pity.~
++  SAY @52
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU52
+-  SAY ~Hmmmn. A rare enough Staff of Super Power, but without the Staff of Besieging and a Ring of Regeneration, I cannae forge it into one piece of a very powerful staff for ye. A pity.~
++  SAY @53
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU53
+-  SAY ~Well, ye've got a Ring of Regeneration here. But I would need the two rare staves: Staff of Besieging and Staff of Super Power, in order to forge them into a new and very powerful staff for ye.~
++  SAY @54
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU54
+-  SAY ~Well, ye've get a pair of nice staves here: the Staff of Super Power and Staff of Besieging. But I would need a Ring of Regeneration in order to forge them into a new and very powerful staff for ye.~
++  SAY @55
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU55
+-  SAY ~Well, ye've got the Staff of Besieging here and a Ring of Regeneration. If ye brin' me the Staff of Super Power, I'll forge it into a much better staff for ye.~
++  SAY @56
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU56
+-  SAY ~Well, ye've got the Staff of Super Power here and a Ring of Regeneration. If ye brin' me the Staff of Besieging, I'll forge it into a much better staff for ye.~
++  SAY @57
+   IF ~~ THEN GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU57
+-  SAY ~Hmmmn... I see.  ye've got the Staff of Besieging, Staff of Super Power and a Ring of Regeneration. I could forge it all into one very powerful staff for ye.~
++  SAY @58
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",16)~ GOTO IU58
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU59
+ END
+ 
+ IF ~~ THEN BEGIN IU58
+-  SAY ~Two things, me friend. It will cost ye 10,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @16
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU59
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU59
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU59
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -10882,7 +10882,7 @@
+ 
+ //6. Enhanced Messenger of Sseth
+ IF ~~ THEN BEGIN IU60
+-  SAY ~Aye, ye're a bows collector... Hehehe...~
++  SAY @59
+   IF ~PartyHasItem("bowmess")
+ !PartyHasItem("bowhamm")
+ !PartyHasItem("bow10")~ THEN GOTO IU61
+@@ -10907,46 +10907,46 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU61
+-  SAY ~Well, ye've got the Messenger of Sseth, not from Merrshaulk himself, I hope... But I would need the two composite long bows called "Defender" and "Heartseeker", in order to forge it into a new bow for ye.~
++  SAY @60
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU62
+-  SAY ~Hmmmn. A rare enough Defender, but without the Messenger of Sseth and Heartseeker, I cannae forge it into one piece of a very powerful bow for ye. A pity.~
++  SAY @61
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU63
+-  SAY ~Well, ye've got the bow called "Heartseeker" here. But I would need the other two rare bows: the Messenger of Sseth and Defender, in order to forge them into a new and very powerful bow for ye.~
++  SAY @62
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU64
+-  SAY ~Well, ye've got a pair of nice bows here: the Messenger of Sseth and Defender. But I would need Heartseeker in order to forge them into a new and very powerful bow for ye.~
++  SAY @63
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU65
+-  SAY ~Well, ye've got the Messenger of Sseth here and Heartseeker. If ye brin' me the bow called "Defender", I'll forge it into a much better bow for ye.~
++  SAY @64
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU66
+-  SAY ~Well, ye've got the two composite long bows: Defender and Heartseeker. If ye brin' me the Messenger of Sseth, I'll forge it into a much better bow for ye.~
++  SAY @65
+   IF ~~ THEN GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU67
+-  SAY ~Hmmmn... I see.  ye've got the Messenger of Sseth, Defender and Heartseeker. I could forge it all into one very powerful bow for ye.~
++  SAY @66
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",12)~ GOTO IU68
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU69
+ END
+ 
+ IF ~~ THEN BEGIN IU68
+-  SAY ~Two things, me friend. It will cost ye 10,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @16
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU69
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU69
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU69
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -11237,7 +11237,7 @@
+ 
+ //7. Enhanced Firetooth
+ IF ~~ THEN BEGIN IU70
+-  SAY ~Aye, ye've collected some components for a mighty crossbow...~
++  SAY @67
+ //1 from 5
+   IF ~PartyHasItem("xbow15")
+ !PartyHasItem("daisy")
+@@ -11419,167 +11419,167 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU71
+-  SAY ~Well, ye've got the Firetooth... But I would need another crossbow called "Daisy", a Cloak of Reflection, Dusty Rose Ion Stone and a Wand of Spell Striking in order to forge it into a new xbow for ye.~
++  SAY @68
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU72
+-  SAY ~Hmmmn. A rare enough Daisy, but without another crossbow called "Firetooth", a Cloak of Reflection, Dusty Rose Ion Stone and a Wand of Spell Striking, I cannae forge it into one piece of a very powerful crossbow for ye. A pity.~
++  SAY @69
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU73
+-  SAY ~Well, ye've got the Cloak of Reflection here. But I would need two rare crossbows: Daisy and Firetooth, as well as Dusty Rose Ion Stone and a Wand of Spell Striking, in order to forge them into a new and very powerful crossbow for ye.~
++  SAY @70
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU731
+-  SAY ~Well, ye've got the Dusty Rose Ion Stone here. But I would need two rare crossbows: Daisy and Firetooth, as well as Cloak of Reflection and a Wand of Spell Striking, in order to forge them into a new and very powerful crossbow for ye.~
++  SAY @71
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU74
+-  SAY ~Well, ye've got the Wand of Spell Striking here. But I would need two rare crossbows: Daisy and Firetooth, as well as a Cloak of Reflection and Dusty Rose Ion Stone, in order to forge them into a new and very powerful crossbow for ye.~
++  SAY @72
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU75
+-  SAY ~Well, ye've got a pair of nice crossbows here: Daisy and Firetooth. But I would need a Cloak of Reflection, Dusty Rose Ion Stone and a Wand of Spell Striking in order to forge them into a new and very powerful crossbow for ye.~
++  SAY @73
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU76
+-  SAY ~Well, ye've got the Firetooth and Cloak of Reflection here. If ye brin' me the crossbow called "Daisy" together with Dusty Rose Ion Stone and a Wand of Spell Striking, I'll forge it into a much better crossbow for ye.~
++  SAY @74
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU761
+-  SAY ~Well, ye've got the Firetooth and Dusty Rose Ion Stone here. If ye brin' me the crossbow called "Daisy" together with Cloak of Reflection and a Wand of Spell Striking, I'll forge it into a much better crossbow for ye.~
++  SAY @75
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ 
+ IF ~~ THEN BEGIN IU77
+-  SAY ~Well, ye've got the Firetooth and Wand of Spell Striking here. If ye brin' me the crossbow called "Daisy" together with Dusty Rose Ion Stone and a a Cloak of Reflection, I'll forge it into a much better crossbow for ye.~
++  SAY @76
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU78
+-  SAY ~Well, ye've got the Daisy and Cloak of Reflection here. If ye brin' me the crossbow called "Firetooth" together with Dusty Rose Ion Stone and a Wand of Spell Striking, I'll forge it into a much better crossbow for ye.~
++  SAY @77
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU781
+-  SAY ~Well, ye've got the Daisy and Dusty Rose Ion Stone here. If ye brin' me the crossbow called "Firetooth" together with Cloak of Reflection and a Wand of Spell Striking, I'll forge it into a much better crossbow for ye.~
++  SAY @78
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU79
+-  SAY ~Well, ye've got the Daisy and Wand of Spell Striking here. If ye brin' me the crossbow called "Firetooth" together with Dusty Rose Ion Stone and a a Cloak of Reflection, I'll forge it into a much better crossbow for ye.~
++  SAY @79
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU791
+-  SAY ~Well, ye've got the Cloak of Reflection and Dusty Rose Ion Stone here. But I would need two rare crossbows: Daisy and Firetooth, together with a Wand of Spell Striking, to forge them into a much better crossbow for ye.~
++  SAY @80
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU792
+-  SAY ~Well, ye've got the Cloak of Reflection and Wand of Spell Striking here. But I would need two rare crossbows: Daisy and Firetooth, together with Dusty Rose Ion Stone, to forge them into a much better crossbow for ye.~
++  SAY @81
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU793
+-  SAY ~Well, ye've got the Dusty Rose Ion Stone and Wand of Spell Striking here. But I would need two rare crossbows: Daisy and Firetooth, together with a Cloak of Reflection, to forge them into a much better crossbow for ye.~
++  SAY @82
+   IF ~~ THEN GOTO IU719
+ END
+ 
+ IF ~~ THEN BEGIN IU710
+-  SAY ~Well, ye've got the two rare crossbows: Firetooth and Daisy, and also a Cloak of Reflection. If ye brin' me a Wand of Spell Striking and Dusty Rose Ion Stone, I'll forge it into one mighty crossbow for ye.~
++  SAY @83
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7101
+-  SAY ~Well, ye've got the two rare crossbows: Firetooth and Daisy, and also a Dusty Rose Ion Stone. If ye brin' me a Wand of Spell Striking and Cloak of Reflection, I'll forge it into one mighty crossbow for ye.~
++  SAY @84
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7102
+-  SAY ~Well, ye've got the two rare crossbows: Firetooth and Daisy, and also a Wand of Spell Striking. If ye brin' me a Cloak of Reflection and Dusty Rose Ion Stone, I'll forge it into one mighty crossbow for ye.~
++  SAY @85
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU711
+-  SAY ~Hmmm... I see Daisy in your bag together with a Cloak of Reflection and Dusty Rose Ion Stone. If ye brin' me another crossbow called "Firetooth" and a Wand of Spell Striking, I'll forge it into one mighty crossbow for ye.~
++  SAY @86
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU712
+-  SAY ~Hmmm... I see Daisy in your bag together with a Cloak of Reflection and Wand of Spell Striking. If ye brin' me another crossbow called "Firetooth" and a Dusty Rose Ion Stone, I'll forge it into one mighty crossbow for ye.~
++  SAY @87
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7121
+-  SAY ~Hmmm... I see Daisy in your bag together with a Dusty Rose Ion Stone and Wand of Spell Striking. If ye brin' me another crossbow called "Firetooth" and a Cloak of Reflection, I'll forge it into one mighty crossbow for ye.~
++  SAY @88
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU713
+-  SAY ~Hmmm... I see Firetooth in your bag together with a Cloak of Reflection and Dusty Rose Ion Stone. If ye brin' me another crossbow called "Daisy" and a Wand of Spell Striking, I'll forge it into one mighty crossbow for ye.~
++  SAY @89
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU714
+-  SAY ~Hmmm... I see Firetooth in your bag together with a Cloak of Reflection and Wand of Spell Striking. If ye brin' me another crossbow called "Daisy" and a Dusty Rose Ion Stone, I'll forge it into one mighty crossbow for ye.~
++  SAY @90
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7141
+-  SAY ~Hmmm... I see Firetooth in your bag together with a Dusty Rose Ion Stone and Wand of Spell Striking. If ye brin' me another crossbow called "Daisy" and a Cloak of Reflection, I'll forge it into one mighty crossbow for ye.~
++  SAY @91
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7142
+-  SAY ~Ye've got some interesting items in your bag... I see a Cloak of Reflection, Dusty Rose Ion Stone and Wand of Spell Striking. If ye brin' me a pair of crossbows: Firetooth and Daisy, I'll forge 'em into one mighty crossbow for ye.~
++  SAY @92
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU715
+-  SAY ~Well, ye've got a pair of nice crossbows here: Daisy and Firetooth together with a Wand of Spell Striking and Dusty Rose Ion Stone. If ye brin me' a Cloak of Reflection, I'll forge a mighty crossbow for ye.~
++  SAY @93
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7151
+-  SAY ~Hmmm... I see Daisy in your bag together with a Dusty Rose Ion Stone, Wand of Spell Striking and Cloak of Reflection. If ye brin' me another crossbow called "Firetooth", I'll forge it into one mighty crossbow for ye.~
++  SAY @94
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU7152
+-  SAY ~Hmmm... I see Firetooth in your bag together with a Dusty Rose Ion Stone, Wand of Spell Striking and Cloak of Reflection. If ye brin' me another crossbow called "Daisy", I'll forge it into one mighty crossbow for ye.~
++  SAY @95
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU716
+-  SAY ~Well, ye've got a pair of nice crossbows here: Daisy and Firetooth together with a Wand of Spell Striking and Cloak of Reflection. If ye brin me' a Dusty Rose Ion Stone, I'll forge a mighty crossbow for ye.~
++  SAY @96
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU717
+-  SAY ~Well, ye've got a pair of nice crossbows here: Daisy and Firetooth together with a Cloak of Reflection and Dusty Rose Ion Stone. If ye brin me' a Wand of Spell Striking, I'll forge a mighty crossbow for ye.~
++  SAY @97
+   IF ~~ THEN GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU718
+-  SAY ~Hmmmn... I see.  Ye've got a pair of nice crossbows here: Daisy and Firetooth together with a Wand of Spell Striking, Cloak of Reflection and Dusty Rose Ion Stone. I could forge it all into one very powerful crossbow for ye.~
++  SAY @98
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",17)~ GOTO IU719
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU720
+ END
+ 
+ IF ~~ THEN BEGIN IU719
+-  SAY ~Two things, me friend. It will cost ye 35,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @99
+   IF ~PartyGoldGT(34999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(35000)
+ DestroyGold(35000)~ GOTO 56
+-  IF ~PartyGoldLT(35000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU720
++  IF ~PartyGoldLT(35000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU720
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU720
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -11837,86 +11837,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU801
+-  SAY ~Well, ye've got the Flame Tongue here, but I would need other three swords: Flaming Long Sword, Hell‘s Bane and Trollslayer, in order to forge them into a very enhanced flamin' sword.~
++  SAY @100
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU802
+-  SAY ~Well, ye've got the Hell‘s Bane, here, indeed. But I would need other three swords: Flame Tongue, Flaming Long Sword and Trollslayer, in order to forge it into a new flamin' sword for ye.~
++  SAY @101
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU803
+-  SAY ~Hmmmn. A rare enough Trollslayer, but without the Flame Tongue, Flaming Long Sword and Hell‘s Bane, I cannae forge it into a new flamin' sword for ye.~
++  SAY @102
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU804
+-  SAY ~Hmmmn. A mighty Flaming Long Sword, but without the Flame Tongue, Hell‘s Bane and Trollslayer, I cannae forge it into one piece of a very enhanced flamin' sword for ye.~
++  SAY @103
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU805
+-  SAY ~Well, ye've collected a pair of flamin' swords: Flame Tongue and Flaming Long Sword. Brin' me other two swords: Hell‘s Bane and Trollslayer, in order to forge them into one very powerfull flamin' sword.~
++  SAY @104
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU806
+-  SAY ~Well, ye've got the Flame Tongue and Trollslayer here, but I would need other two swords: Flaming Long Sword and Hell‘s Bane, in order to forge them into a very enhanced flamin' sword.~
++  SAY @105
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU807
+-  SAY ~Well, ye've got the Flame Tongue and Hell‘s Bane here, but I would need other two swords: Flaming Long Sword and Trollslayer, in order to forge them into a very enhanced flamin' sword.~
++  SAY @106
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU808
+-  SAY ~Hmmmn. Two fancy swords: Flaming Long Sword and Trollslayer... But without the Flame Tongue and Hell‘s Bane, I cannae forge 'em into one very powerfull flamin' sword for ye.~
++  SAY @107
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU809
+-  SAY ~Hmmmn. Two fancy swords: Flaming Long Sword and Hell‘s Bane... But without the Flame Tongue and Trollslayer, I cannae forge 'em into one very powerfull flamin' sword for ye.~
++  SAY @108
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU810
+-  SAY ~Hmmmn. Two fancy swords: Trollslayer and Hell‘s Bane... pretty useless though. Brin' me a pair of flamin' swords: Flame Tongue and Flaming Long Sword, and I'll forge 'em into one very powerfull flamin' sword for ye.~
++  SAY @109
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU811
+-  SAY ~Well, ye've collected three fancy swords: Flame Tongue, Flaming Long Sword and Trollslayer. Brin' me the Hell‘s Bane, and I'll forge a great falmin' sword for ye.~
++  SAY @110
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU812
+-  SAY ~Well, ye've collected three fancy swords: Flame Tongue, Flaming Long Sword and Hell‘s Bane. Brin' me the Trollslayer, and I'll forge a great falmin' sword for ye.~
++  SAY @111
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU813
+-  SAY ~Well, ye've collected three fancy swords: Flame Tongue, Trollslayer and Hell‘s Bane. Brin' me the Flaming Long Sword, and I'll forge it into much better falmin' sword for ye.~
++  SAY @112
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU814
+-  SAY ~Well, ye've collected three fancy swords: Flaming Long Sword, Trollslayer, and Hell‘s Bane. Brin' me the Flame Tongue, and I'll forge a great falmin' sword for ye.~
++  SAY @113
+   IF ~~ THEN GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU815
+-  SAY ~Hmmmn... I see.  ye've got the Flaming Long Sword, Flame Tongue, Hell‘s Bane and Trollslayer. I could forge it all into one very powerfull flamin' sword for ye.~
++  SAY @114
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",18)~ GOTO IU816
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU817
+ END
+ 
+ IF ~~ THEN BEGIN IU816
+-  SAY ~Two things, me friend. It will cost ye 25,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @115
+   IF ~PartyGoldGT(24999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(25000)
+ DestroyGold(25000)~ GOTO 56
+-  IF ~PartyGoldLT(25000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU817
++  IF ~PartyGoldLT(25000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU817
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU817
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -12044,7 +12044,7 @@
+ 
+ //9. Enhanced Sebastian's Dagger
+ IF ~~ THEN BEGIN IU90
+-  SAY ~Aye, ye like daggers... Hehehe...~
++  SAY @116
+   IF ~PartyHasItem("dagseb")
+ !PartyHasItem("misc75")
+ !PartyHasItem("udagg5a")~ THEN GOTO IU91
+@@ -12069,46 +12069,46 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU91
+-  SAY ~Well, ye've got Sebastian's Dagger, not from Sebastian himself, I hope... Hehehe... But I would need other two daggers: Dagger of Venom and Chaos Dagger, in order to forge it into a new dagger for ye.~
++  SAY @117
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU92
+-  SAY ~Hmmmn. A rare enough Dagger of Venom, but without the Chaos Dagger and Sebastian's Dagger, I cannae forge it into one piece of a very powerful dagger for ye. A pity.~
++  SAY @118
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU93
+-  SAY ~Well, ye've got the Chaos Dagger here. But I would need the other two daggers: Dagger of Venom and Sebastian's Dagger, in order to forge them into a new and very powerful dagger for ye. Good for mages though.~
++  SAY @119
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU94
+-  SAY ~Well, ye've got a pair of nice daggers here: the Dagger of Venom and Sebastian's Dagger. But I would need the Chaos Dagger in order to forge them all into a new and very powerful dagger for ye.~
++  SAY @120
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU95
+-  SAY ~Well, ye've got the Chaos Dagger here and Sebastian's Dagger. If ye brin' me the Dagger of Venom, I'll forge it into a much better dagger for ye. Good for mages though.~
++  SAY @121
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU96
+-  SAY ~Well, ye've got the two dagges: the Chaos Dagger and Dagger of Venom. If ye find Sebastian's Dagger somewhere in yer travels, brin' it to me and I'll forge it into a much better dagger for ye.~
++  SAY @122
+   IF ~~ THEN GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU97
+-  SAY ~Hmmmn... I see.  ye've got the Chaos Dagger, Dagger of Venom and Sebastian's Dagger. I could forge it all into one very powerful dagger for ye. Good for mages though.~
++  SAY @123
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",19)~ GOTO IU98
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU99
+ END
+ 
+ IF ~~ THEN BEGIN IU98
+-  SAY ~Two things, me friend. It will cost ye 10,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @16
+   IF ~PartyGoldGT(9999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO 56
+-  IF ~PartyGoldLT(10000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU99
++  IF ~PartyGoldLT(10000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU99
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU99
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -12220,46 +12220,46 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU1001
+-  SAY ~Aye, ye've collected the scales of a crimson dragon. By the Soul Forger, 'tis a grand sight. I can make a suit of armor from yon scales, if ye like, but I would need two other items: the Night's Gift armour and Cloak of Non-Detection.~
++  SAY @124
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1002
+-  SAY ~Hmmmn. The nice suite of Night's Gift armour... Brin' me the scales of a crimson dragon and Cloak of Non-Detection, I can forge it into one piece of a very strong armour for ye.~
++  SAY @125
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1003
+-  SAY ~Well, ye've got the Cloak of Non-Detection here. But I would need the scales of a crimson dragon and Night's Gift armour, in order to forge them into a new and very strong armour for ye. Good for mages and thieves too.~
++  SAY @126
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1004
+-  SAY ~Ah! Scales from a crimson dragon and the Night's Gift armour. It shall make a new grand suit of armor, if ye wish, me friend. But I would need the Cloak of Non-Detection too.~
++  SAY @127
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1005
+-  SAY ~Ah! Scales from a crimson dragon and the Cloak of Non-Detection. It shall make a new grand suit of armor, if ye wish, me friend. But I would need the Night's Gift armour too.~
++  SAY @128
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1006
+-  SAY ~Well, ye've got the Night's Gift armour and Cloak of Non-Detection. If ye find and kill a crimson dragon somewhere in yer travels, brin' its scale to me it and I'll forge all 'tis into a new grand suit of armour for ye.~
++  SAY @129
+   IF ~~ THEN GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1007
+-  SAY ~Aye, ye've collected the scales of a crimson dragon. By the Soul Forger, 'tis a grand sight. ye've got also the Night's Gift armour and Cloak of Non-Detection. It shall make a grand suit of armor, if ye wish, me friend. Good for mages and thieves too. Does that hold yer interest?~
++  SAY @130
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",20)~ GOTO IU1008
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU1009
+ END
+ 
+ IF ~~ THEN BEGIN IU1008
+-  SAY ~Two things, me friend. It will cost ye 30,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @131
+   IF ~PartyGoldGT(29999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(30000)
+ DestroyGold(30000)~ GOTO 56
+-  IF ~PartyGoldLT(30000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU1009
++  IF ~PartyGoldLT(30000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU1009
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU1009
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -12378,86 +12378,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU2001
+-  SAY ~Well, ye've got the Crimson Chain here, but I would need Melodic Chain, Ring of Free Action and Boots of Speed, in order to forge them into a very enhanced chain.~
++  SAY @132
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2002
+-  SAY ~Well, ye've got the Melodic Chain, here, indeed. But I would need Crimson Chain, Ring of Free Action and Boots of Speed, in order to forge it into a new chain for ye.~
++  SAY @133
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2003
+-  SAY ~Hmmmn. Speedy Boots... Brin' me the Crimson Chain, Melodic Chain and Ring of Free Action, and I'll forge a new chain for ye.~
++  SAY @134
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2004
+-  SAY ~Hmmmn. The gift from bloody Edventar himself... Brin' me the Crimson Chain, Melodic Chain and Boots of Speed, I'll forge a very enhanced chain for ye.~
++  SAY @135
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2005
+-  SAY ~Well, ye've got the Crimson Chain and Ring of Free Action. Brin' me the Melodic Chain and Speedy Boots, in order to forge them into one very sturdy and light chain for ye.~
++  SAY @136
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2006
+-  SAY ~Well, ye've got the Crimson Chain and Speedy Boots here, but I would need Melodic Chain and Ring of Free Action in order to forge them into a very enhanced chain.~
++  SAY @137
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2007
+-  SAY ~Well, ye've two fashion chains here: the Crimson Chain and Melodic Chain... Brin' me the Ring of Free Action and Boots of Speed, in order to forge a very enhanced chain for ye.~
++  SAY @138
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2020
+-  SAY ~Hmmmn. Ring of Free Action and Speedy Boots... Brin' me the Crimson Chain and Melodic Chain, I'll forge a new very sturdy and light chain for ye.~
++  SAY @139
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2009
+-  SAY ~Hmmmn. Ring of Free Action and Melodic Chain... But without the Crimson Chain and Boots of Speed, I cannae forge 'em into one very sturdy and light chain for ye.~
++  SAY @140
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2010
+-  SAY ~Hmmmn. Boots of Speed and Melodic Chain... pretty useless though. Brin' me the Crimson Chain and Ring of Free Action, and I'll forge 'em into a very sturdy and light chain for ye.~
++  SAY @141
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2011
+-  SAY ~Well, ye've collected Crimson Chain, Ring of Free Action and Speedy Boots. Brin' me the Melodic Chain, and I'll forge a great chain for ye.~
++  SAY @142
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2012
+-  SAY ~Well, ye've collected Crimson Chain, Ring of Free Action and Melodic Chain. Brin' me the Boots of Speed, and I'll forge a great chain for ye.~
++  SAY @143
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2013
+-  SAY ~Well, ye've collected Crimson Chain, Boots of Speed and Melodic Chain. Brin' me the Ring of Free Action, and I'll forge it into much better chain for ye.~
++  SAY @144
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2014
+-  SAY ~Well, ye've collected Ring of Free Action, Boots of Speed, and Melodic Chain. Brin' me the Crimson Chain, and I'll forge a great chain for ye.~
++  SAY @145
+   IF ~~ THEN GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2015
+-  SAY ~Hmmmn... I see.  Ye've got the Ring of Free Action, Crimson Chain, Melodic Chain and Boots of Speed. I could forge it all into one very sturdy and light chain for ye.~
++  SAY @146
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",21)~ GOTO IU2016
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO IU2017
+ END
+ 
+ IF ~~ THEN BEGIN IU2016
+-  SAY ~Two things, me friend. It will cost ye 25,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @115
+   IF ~PartyGoldGT(24999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(25000)
+ DestroyGold(25000)~ GOTO 56
+-  IF ~PartyGoldLT(25000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU2017
++  IF ~PartyGoldLT(25000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU2017
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO IU2017
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -12546,86 +12546,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN IU3001
+-  SAY ~Well, ye've got the Mercykiller Ring here, but I would need Ring of Lock Picks, Ring of Free Action and Ring of Danger Sense, in order to forge them into an enhanced ring, good for thieves.~
++  SAY @147
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3002
+-  SAY ~Well, ye've got the Ring of Lock Picks, here, indeed. But I would need Mercykiller Ring, Ring of Free Action and Ring of Danger Sense, in order to forge it into a new ring for ye.~
++  SAY @148
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3003
+-  SAY ~Hmmmn. Ring of Danger Sense... Brin' me the Mercykiller Ring, Ring of Lock Picks and Ring of Free Action, and I'll forge a new ring for ye.~
++  SAY @149
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3004
+-  SAY ~Hmmmn. The gift from bloody Edventar himself... Brin' me the Mercykiller Ring, Ring of Lock Picks and Ring of Danger Sense, I'll forge a very enhanced ring for ye.~
++  SAY @150
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3005
+-  SAY ~Well, ye've got the Mercykiller Ring and Ring of Free Action. Brin' me the Ring of Lock Picks and Ring of Danger Sense, in order to forge them into one very nice ring, good for thieves.~
++  SAY @151
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3006
+-  SAY ~Well, ye've got the Mercykiller Ring and Ring of Danger Sense here, but I would need Ring of Lock Picks and Ring of Free Action in order to forge them into a very enhanced ring, good for thieves.~
++  SAY @152
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3007
+-  SAY ~Well, ye've two nice rings here: the Mercykiller Ring and Ring of Lock Picks... Brin' me the Ring of Free Action and Ring of Danger Sense, in order to forge a very enhanced ring for ye.~
++  SAY @153
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3020
+-  SAY ~Hmmmn. Ring of Free Action and Ring of Danger Sense... Brin' me the Mercykiller Ring and Ring of Lock Picks, I'll forge a new ring for ye, good for thieves.~
++  SAY @154
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3009
+-  SAY ~Hmmmn. Ring of Free Action and Ring of Lock Picks... But without the Mercykiller Ring and Ring of Danger Sense, I cannae forge 'em into one nice ring for ye.~
++  SAY @155
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3010
+-  SAY ~Hmmmn. Ring of Danger Sense and Ring of Lock Picks... pretty useless though. Brin' me the Mercykiller Ring and Ring of Free Action, and I'll forge 'em into a very enhanced ring, good for thieves.~
++  SAY @156
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3011
+-  SAY ~Well, ye've collected Mercykiller Ring, Ring of Free Action and Ring of Danger Sense. Brin' me the Ring of Lock Picks, and I'll forge a great ring for ye.~
++  SAY @157
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3012
+-  SAY ~Well, ye've collected Mercykiller Ring, Ring of Free Action and Ring of Lock Picks. Brin' me the Ring of Danger Sense, and I'll forge a great ring for ye.~
++  SAY @158
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3013
+-  SAY ~Well, ye've collected Mercykiller Ring, Ring of Danger Sense and Ring of Lock Picks. Brin' me the Ring of Free Action, and I'll forge it into much better ring for ye.~
++  SAY @159
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3014
+-  SAY ~Well, ye've collected Ring of Free Action, Ring of Danger Sense, and Ring of Lock Picks. Brin' me the Mercykiller Ring, and I'll forge a great ring for ye.~
++  SAY @160
+   IF ~~ THEN GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3015
+-  SAY ~Hmmmn... I see.  Ye've got the Ring of Free Action, Mercykiller Ring, Ring of Lock Picks and Ring of Danger Sense. I could forge it all into one very nice ring for ye, great for thieves.~
++  SAY @161
+   IF ~~ THEN REPLY #59740 /* ~What would be involved in that?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",22)~ GOTO IU3016
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN IU3016
+-  SAY ~Two things, me friend. It will cost ye 5,000 gp for the work, no less, and ye'll have to stay here a full day and help me run the forge.~
++  SAY @162
+   IF ~PartyGoldGT(4999)~ THEN REPLY #59785 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(5000)
+ DestroyGold(5000)~ GOTO 56
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Unfortunately, I don't have sufficient funds for that. Anything else of use?~ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 52
++  IF ~PartyGoldLT(5000)~ THEN REPLY @17 DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 52
+   IF ~~ THEN REPLY #59741 /* ~No, I'm not interested in that.  Anything else of use?~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 52
+   IF ~~ THEN REPLY #59791 /* ~No, I don't think so.  I think I'll be going, now.~ */ DO ~SetGlobal("ForgeItem","GLOBAL",0)~ GOTO 12
+ END
+@@ -12647,15 +12647,15 @@
+ APPEND ~WSMITH01~
+ 
+ IF ~AreaCheck("AR1603")~ THEN BEGIN N1 // from:
+-  SAY ~A good <DAYNIGHTALL> to ye, me friend.  Good to see ye here in Brynnlaw.~
++  SAY @163
+   IF ~!Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY #59658 /* ~Who are you?~ */ GOTO 1
+   IF ~~ THEN REPLY #59659 /* ~What do you have for sale, here?~ */ GOTO 2
+-  IF ~Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY ~Cromwell? What are you doing here?~ GOTO N2
++  IF ~Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY @164 GOTO N2
+   IF ~~ THEN REPLY #59661 /* ~No thanks.  I'll be on my way.~ */ GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN N2
+-  SAY ~Visiting me human friend and apprentice. Be there something that ye need?~
++  SAY @165
+   IF ~Global("TalkedToCromwell","LOCALS",0)~ THEN REPLY #59803 /* ~What sorts of things do you forge here?~ */ GOTO 8
+   IF ~Global("TalkedToCromwell","LOCALS",0)~ THEN REPLY #59799 /* ~What do you have for sale, here?~ */ GOTO 2
+   IF ~Global("TalkedToCromwell","LOCALS",1)~ THEN REPLY #59800 /* ~What sorts of things would you need in order to make something?~ */ GOTO 11

@@ -1,0 +1,47 @@
+--- amber\tra\german\dialogs.tra	Mon Aug 31 10:56:00 2009
++++ C:\BWP Patchstudio\patched files\amber\tra\german\dialogs.tra	Tue Nov 24 19:22:46 2009
+@@ -1568,7 +1568,7 @@
+ @4386 = ~Es tut mir leid. Es war taktlos von mir, nicht zuerst zu fragen, was ich für Euch tun kann, bevor ich selbst um Hilfe bitte.~
+ @4387 = ~Sklavenhändler, sagt Ihr? Leider ist das kein unbekanntes Problem, obwohl ich glücklicherweise sagen kann, dass es nur selten vorkommt, dass sie sich so weit von Atkatla entfernen.~
+ @4388 = ~Handelstreff ist eine wohlhabende Stadt; wahrscheinlich gibt es hier einfach nicht genug unglückliche Leute, die sie ausnutzen können.~
+-@4389 = ~Also würde ich sagen, dass Ihr Eure Suche nach Eurer Gefährtin und dem Versteck der Sklavenhändler am besten in Atkatla beginnen solltet. Sklaverei ist in ganz Amn verboten, also werdet Ihr sie wahrscheinlich kaum in einem ehrbaren Teil der Stadt finden. Mehr Hilfe kann ich Euch leider nicht anbieten.~
++@4389 = ~Also würde ich sagen, dass Ihr Eure Suche nach Eurer Gefährtin und dem Versteck der Sklavenhändler am besten in Atkatla beginnen solltet. Sklaverei ist in ganz Amn verboten, also werdet Ihr sie wahrscheinlich kaum in einem ehrbaren Teil der Stadt finden.~ ~Mehr Hilfe kann ich Euch leider nicht anbieten.~
+ @4390 = ~Es tut gut, das zu hören.~
+ @4391 = ~Also würde ich sagen, dass Ihr Eure Suche nach Eurer Gefährtin und dem Versteck der Sklavenhändler am besten in Atkatla beginnen solltet. Sklaverei ist in ganz Amn verboten, also werdet Ihr sie wahrscheinlich kaum in einem ehrbaren Teil der Stadt finden.~
+ @4392 = ~Solltet Ihr uns später in der Sache mit den Genies behilflich sein wollen, wendet Euch bitte an Gildenmeisterin Busya. Ihr findet sie direkt vor meinem Büro. Ich bin sicher, sie wird Euch mit Freuden anheuern.~
+@@ -1587,7 +1587,7 @@
+ @4405 = ~Die Toten scheren sich nicht um Gründe.~
+ @4406 = ~Ihr seid erledigt, Sklavenhändler! Stellt Euch der Obrigkeit.~
+ @4407 = ~Die Entführung Eurer Freundin war nichts als ein netter Zusatzverdienst für mich. Ich habe kein persönliches Interesse an ihr. Und den Abschaum, mit dem wir normalerweise handeln, kann man kaum als Personen bezeichnen! Das ist wie Viehhandel! Wenn wir gerade dabei sind, ich glaube, es ist Zeit, dass Ihr geschlachtet werdet!~
+-@4408 = ~Verantwortlich? Wir haben nur getan, wofür wir bezahlt wurden. Und übrigens, sie gar nicht mehr hier. Ymmyrts Männer haben sie mitgenommen, sobald sie hier ankam. Das war vielleicht ein streitsüchtiges Biest, ich vermisse sie nicht im Geringsten. Ein paar meiner Männer verdanken ihr ziemlich hässliche Blutergüsse. Aber ohnehin hat ihr momentaner Aufenthaltsort keine Bedeutung für Euch. Ihr werdet diesen Ort nicht lebend verlassen! Auf sie, Männer!~
++@4408 = ~Verantwortlich? Wir haben nur getan, wofür wir bezahlt wurden. Und übrigens, ist sie gar nicht mehr hier. Ymmyrts Männer haben sie mitgenommen, sobald sie hier ankam. Das war vielleicht ein streitsüchtiges Biest, ich vermisse sie nicht im Geringsten. Ein paar meiner Männer verdanken ihr ziemlich hässliche Blutergüsse. Aber ohnehin hat ihr momentaner Aufenthaltsort keine Bedeutung für Euch. Ihr werdet diesen Ort nicht lebend verlassen! Auf sie, Männer!~
+ 
+ // m#amber.d
+ 
+@@ -1843,7 +1843,7 @@
+ @5247 = ~Warum erzählt Ihr mir zum Ausgleich nicht ebenfalls von Eurer Abstammung?~
+ @5248 = ~Nun, ich habe Euch gesagt, was Ihr wolltet, also lasst uns weitergehen, in Ordnung?~ 
+ @5249 = ~Ich werde es in Erwägung ziehen, aber das wird warten müssen. Ich... Ich muss darüber nachdenken. Nebenbei, wir sollten weitergehen, wir haben keine Zeit zum Plaudern mehr.~
+-@5250 = ~Es war mutig von Euch, mir Eure Abstammung zu enthüllen, <CHARNAME>. Ich denke, es wäre nur gerecht, wenn mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb083]
++@5250 = ~Es war mutig von Euch, mir Eure Abstammung zu enthüllen, <CHARNAME>. Ich denke, es wäre nur gerecht, wenn ich mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb083]
+ @5251 = ~Ja, bitte erzählt mir von Eurer Familie. Ich bin noch nicht vielen Eurer Art begegnet.~
+ @5252 = ~Bitte erspart mir das. Abgesehen von Euren Fähigkeiten, die mich auf meiner Suche unterstützen, habe ich kein Interesse an Euch.~
+ @5253 = ~Ich würde gern mehr von Euch erfahren, aber jetzt ist keine günstige Zeit dafür.~
+@@ -2052,7 +2052,7 @@
+ @5455 = ~Ja, das habe ich. (Ambers mandelförmige Augen weiten sich ein wenig.) Ihr wollt doch nicht etwa sagen, dass... ...<PRO_HESHE> eins der Kinder ist?~
+ @5456 = ~Einmal hielt man mich für eine von <PRO_HISHER>er Art. Das brachte mich fast auf den Scheiterhaufen. Es scheint, dass mein Bluterbe im Vergleich zu dem Eures Freundes recht unbedeutend ist.~ ~Einmal hielt man mich für eine von <PRO_HISHER>er Art. Das brachte mich fast auf den Scheiterhaufen. Es scheint, dass mein Bluterbe im Vergleich zu dem Eurer Freundin recht unbedeutend ist.~
+ @5457 = ~Gut. Ich denke, dann muss ich <CHARNAME> wohl direkt fragen. Ich dachte, Euch zu fragen wäre vielleicht weniger peinlich, aber ich hätte mir denken können, dass das keine gute Idee ist.~
+-@5458 = ~Ich danke Euch für Eure Ehrlichkeit und dafür, mir von <CHARNAME> und <PRO_HISHER>er Abstammung erzählt zu haben - <PRO_HESHE> hat gut daran getan, Eurer Einschätzung zu vertrauen. Ich denke, es wäre nur gerecht, wenn mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb261]
++@5458 = ~Ich danke Euch für Eure Ehrlichkeit und dafür, mir von <CHARNAME> und <PRO_HISHER>er Abstammung erzählt zu haben - <PRO_HESHE> hat gut daran getan, Eurer Einschätzung zu vertrauen. Ich denke, es wäre nur gerecht, wenn ich mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb261]
+ @5459 = ~Bitte erspart mir das. Abgesehen von Euren Fähigkeiten, die unserer Gruppe dienlich sind, habe ich kein Interesse an Euch.~
+ @5460 = ~Ich muss zugeben, dass ich Eure Loyalität <CHARNAME> gegenüber bewundere. Ihr wollt nicht einmal eine Frage an <PRO_HISHER>er Stelle beantworten. <CHARNAME> traf eine gute Entscheidung, als <PRO_HESHE> Euch <PRO_HISHER> Vertrauen schenkte. Ich respektiere das und denke, es wäre nur gerecht, wenn ich mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb263]
+ @5461 = ~Es tut mir Leid, dass ich Euch in Bezug auf <CHARNAME> in eine so unbequeme Situation gebracht habe, aber ich musste es einfach wissen. Ich danke Euch für Euer Verständnis und denke, es wäre nur gerecht, wenn ich mich revanchiere. Würdet Ihr gern etwas über meine Vergangenheit hören?~ [m#amb265]
+@@ -3702,7 +3702,7 @@
+ @7100 = ~So, Männchen... Ihr habt mich in letzter Zeit durchaus beeindruckt, und Ihr verdient eine Belohnung für Eure Anstrengungen. Folgt mir in meine Gemächer.~ [m#amb193]
+ @7101 = ~Seid nicht so ein Langweiler, mein <GABBER>. Ohne Zweifel verdient ein so mächtiges Männchen wie Ihr meine Zuneigung.~
+ @7102 = ~Ich werde <CHARNAME> um Hilfe bitten.~
+-@7103 = ~Dafür ist jetzt keine Zeit, Viconia! Ihr wollt doch nicht für <PLAYER2>s Tod verantwortlich sein, oder? Tut etwas! Bitte?~
++@7103 = ~Dafür ist jetzt keine Zeit, Viconia! Ihr wollt doch nicht für <PLAYER2>s Tod verantwortlich sein, oder? Tut etwas!~ ~Bitte?~
+ @7104 = ~Wir haben jetzt keine Zeit, persönliche Abneigungen auszudiskutieren, Anomen. <PLAYER2> ist verletzt und braucht Eure Hilfe - sofort!~
+ @7105 = ~Haltet durch, <PLAYER2>. I-ich müsste hier irgendwo noch einen Heiltrank haben...~ [m#amb254]
+ @7106 = ~<CHARNAME>! <PLAYER2> braucht dringend einen Eurer Heilzauber!~

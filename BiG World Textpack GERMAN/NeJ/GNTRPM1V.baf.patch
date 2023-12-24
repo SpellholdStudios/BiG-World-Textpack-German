@@ -1,0 +1,11 @@
+--- NeJ\baf\GNTRPM1V.baf	Tue Jan 09 23:42:24 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\GNTRPM1V.baf	Wed Apr 10 10:29:17 2019
+@@ -11,7 +11,7 @@
+ 	See([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~We are under attack!~)
++		DisplayStringHead(Myself,@0)
+ 		Shout(89)
+ 		Continue()
+ END

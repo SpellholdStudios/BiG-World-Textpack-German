@@ -1,0 +1,20 @@
+--- NeJ3\baf\EECYCL4.BAF	Sat Nov 15 23:47:05 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\EECYCL4.BAF	Wed Apr 10 10:33:44 2019
+@@ -4,7 +4,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("SAY_LINE","LOCALS",1)
+-		DisplayStringHead(Myself,~COME OUT, STOOPID HOOMUN!~)		
++		DisplayStringHead(Myself,@0)		
+ 		Wait(2)
+ END
+ 
+@@ -13,7 +13,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("SAY_LINE","LOCALS",2)
+-		DisplayStringHead(Myself,~ME NO SQUISH YOU IF YOU COME OUT NOW.~)
++		DisplayStringHead(Myself,@1)
+ END
+ 
+ IF

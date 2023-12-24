@@ -1,0 +1,18 @@
+--- NeJE\dlg\OGI.D	Mon Nov 15 17:33:26 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\OGI.D	Tue Apr 09 19:36:59 2019
+@@ -1,13 +1,13 @@
+ BEGIN ~OGI~ 74286
+ 
+ IF ~Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 0
+-  SAY ~Yoshimo-san, I want to be an adventurer like you.~
++  SAY @0
+   IF ~True()~ THEN EXIT
+ END
+ 
+ IF ~OR(2)
+ !InPartySlot(LastTalkedToBy,0)
+ !Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 1
+-  SAY ~Greetings to you. I am Ogi.  When I grow up big, I'll be a famous kensai.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END

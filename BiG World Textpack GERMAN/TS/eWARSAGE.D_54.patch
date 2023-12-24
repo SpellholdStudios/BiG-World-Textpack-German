@@ -1,0 +1,17 @@
+--- TS\bgtnodlg\eWARSAGE.D	Wed Dec 29 16:40:23 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\eWARSAGE.D	Thu May 05 10:46:33 2016
+@@ -3,12 +3,12 @@
+ IF ~!Dead("c6bodhi")
+ OR(2)
+ Global("ValygarVampire","GLOBAL",2)
+-Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY ~A loved one was taken by a vampire. What can I expect when I find them?~ EXTERN WARSAGE 6
++Global("VP_SimeVampire","GLOBAL",2)~ THEN REPLY @0 EXTERN WARSAGE 6
+ END
+ 
+ EXTEND_BOTTOM WARSAGE 0
+ 
+ IF ~OR(2)
+ PartyHasItem("misc7l")
+-PartyHasItem("miscbsim")~ THEN REPLY ~Someone I care about has fallen to a vampire. Is there any way to save them?~ EXTERN WARSAGE 5
++PartyHasItem("miscbsim")~ THEN REPLY @1 EXTERN WARSAGE 5
+ END

@@ -1,0 +1,48 @@
+--- BGTComp\POGHM7.D	Fri Apr 02 03:12:06 2004
++++ C:\BWP Patchstudio\patched files\BGTComp\POGHM7.D	Wed Apr 10 10:23:48 2019
+@@ -2,35 +2,35 @@
+ 
+ IF ~True()
+ ~ THEN BEGIN 0
+-  SAY ~Hello.  I am the level coordinator.  Is there anything I can help you with?~
+-  IF ~~ THEN REPLY ~No, I don't need your help.~ EXIT
+-  IF ~~ THEN REPLY ~Could you tell me where I could find Tethtoril?~ GOTO 1
+-  IF ~~ THEN REPLY ~I was wondering where I could find Ulraunt?~ GOTO 2
+-  IF ~~ THEN REPLY ~Have you seen Gorion today?~ GOTO 5
++  SAY @0
++  IF ~~ THEN REPLY @1 EXIT
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 2
++  IF ~~ THEN REPLY @4 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Tethtoril is a very busy man, and I don't keep track of his schedule.  Sorry.~
++  SAY @5
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~You can find Ulraunt in his apartment on the sixth floor.  I wouldn't bother him there though, he doesn't like unannounced intrusions.~
++  SAY @6
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~StateCheck(Myself,STATE_CHARMED)
+ ~ THEN BEGIN 3
+-  SAY ~Good friend, would you like me to give you a sermon on the wisdom of Oghma?  No?  Well, perhaps another time then.~
++  SAY @7
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~It would be wise for you to leave.  Now.~
++  SAY @8
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Gorion is waiting for you on the fifth floor.~
++  SAY @9
+   IF ~~ THEN EXIT
+ END

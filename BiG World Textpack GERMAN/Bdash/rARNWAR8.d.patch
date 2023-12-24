@@ -1,0 +1,20 @@
+--- Bdash\ThirdP\dlg\rARNWAR8.d	Sun Sep 06 03:34:56 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rARNWAR8.d	Wed May 04 07:21:20 2016
+@@ -3,7 +3,7 @@
+ IF WEIGHT #0 ~OpenState("DOOR03",TRUE)~ THEN BEGIN 2
+   SAY #39239 /* ~Praise Mask! Thank you for freeing me. My former guild isn't as friendly as I had hoped it would be.~ */
+   IF ~Global("WorkingForBodhi","GLOBAL",1)~ THEN REPLY #39250 GOTO 3
+-  IF ~Global("WorkingForBodhi","GLOBAL",0)~ THEN REPLY ~I have no idea, what you're talking about. Explain yourself.~ GOTO kr1
++  IF ~Global("WorkingForBodhi","GLOBAL",0)~ THEN REPLY @0 GOTO kr1
+   IF ~Global("WorkingForBodhi","GLOBAL",1)~ THEN REPLY #39258 GOTO 4
+ END
+ 
+@@ -19,7 +19,7 @@
+ APPEND ~ARNWAR08~
+ 
+ IF ~~ THEN BEGIN kr1
+-  SAY ~Ah, you are not working for the mistress. Anyway, it matters not. You have no choice but to kill Aran or he will kill you.~
++  SAY @1
+   IF ~~ THEN GOTO 5
+ END
+ END

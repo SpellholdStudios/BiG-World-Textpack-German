@@ -1,0 +1,20 @@
+--- NeJE\TS\baf\AltFire.baf	Thu Dec 30 16:39:40 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\AltFire.baf	Tue Apr 09 19:39:38 2019
+@@ -5,7 +5,7 @@
+ 	Range(LastTrigger,9)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~This altar requires a key of some sort.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF
+@@ -27,7 +27,7 @@
+ 	Global("VP_FireAltar","GLOBAL",1)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~There is nothing else to do with this altar.~)
++		DisplayString(Myself,@1)
+ END
+ 
+ IF

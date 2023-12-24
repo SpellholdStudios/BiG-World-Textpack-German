@@ -1,0 +1,9 @@
+--- NeJ3\baf\UDTRAP1.BAF	Sat Dec 09 04:35:10 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\UDTRAP1.BAF	Wed Apr 10 10:34:09 2019
+@@ -4,5 +4,5 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("SAID_COLD","MYAREA",1)
+-		DisplayString(LastTrigger,~You suddenly feel very, very cold.~)
++		DisplayString(LastTrigger,@0)
+ END

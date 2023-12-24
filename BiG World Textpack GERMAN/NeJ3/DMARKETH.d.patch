@@ -1,0 +1,270 @@
+--- NeJ3\dlg\DMARKETH.d	Wed Aug 01 02:41:15 2018
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DMARKETH.d	Wed Apr 10 10:24:47 2019
+@@ -1,172 +1,166 @@
+ BEGIN ~DMARKETH~
+ 
+ IF WEIGHT #1 ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Well, well.  What have we here?  To whom do I owe the pleasure of this visit?~
+-  IF ~~ THEN REPLY ~I'll be asking the questions.  Who are you?~ JOURNAL ~Lower Dorn's Deep.
+-
+-I met Marketh in a small palace in Lower Dorn's Deep.  He was a shifty man who fancied himself to be the new ruler of Dorn's Deep.~ GOTO 1
+-  IF ~~ THEN REPLY ~I am called <CHARNAME>.  Who are you?~ JOURNAL ~Lower Dorn's Deep.
+-
+-I met Marketh in a small palace in Lower Dorn's Deep.  He was a shifty man who fancied himself to be the new ruler of Dorn's Deep.~ GOTO 1
++  SAY @0
++  IF ~~ THEN REPLY @1 JOURNAL @2 GOTO 1
++  IF ~~ THEN REPLY @3 JOURNAL @2 GOTO 1
+   IF ~OR(4)
+ Global("Ginafae_Promise","GLOBAL",1)
+ Global("Ginafae_Eye","GLOBAL",1)
+ Global("Flozem_Portrait","GLOBAL",1)
+-Global("Know_Marketh","GLOBAL",1)~ THEN REPLY ~You must be Marketh.  I've heard about you.~ JOURNAL ~Lower Dorn's Deep.
+-
+-I met Marketh in a small palace in Lower Dorn's Deep.  He was a shifty man who fancied himself to be the new ruler of Dorn's Deep.~ GOTO 2
++Global("Know_Marketh","GLOBAL",1)~ THEN REPLY @4 JOURNAL @2 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I am Lord Chamberlain Marketh.  I'm responsible for making sure that New Dorn's Deep runs efficiently, among other things.~
+-  IF ~~ THEN REPLY ~Even if you have to crush a few gnomes into the ground to do it, eh?~ GOTO 3
+-  IF ~~ THEN REPLY ~Lord Chamberlain?  New Dorn's Deep?  That's a little pretentious, don't you think?~ GOTO 4
+-  IF ~!Global("Ginafae_Eye","GLOBAL",0)~ THEN REPLY ~Ah.  Marketh.  You're the guy who likes beating up women.  You must feel like a really big man.~ GOTO 5
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 3
++  IF ~~ THEN REPLY @7 GOTO 4
++  IF ~!Global("Ginafae_Eye","GLOBAL",0)~ THEN REPLY @8 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~You have?  Terrific!  News travels quickly even on the outskirts of the Underdark, it seems.  I'm glad to see that New Dorn's Deep is getting a reputation.~
+-  IF ~~ THEN REPLY ~New Dorn's Deep?  It seems like New Dorn's Deep is nothing more than a slave camp.  Aren't you being a little pretentious?~ GOTO 4
+-  IF ~!Global("Ginafae_Eye","GLOBAL",0)~ THEN REPLY ~Yeah, you have a reputation for beating up women.  You feel like you're a big man because you can beat up Ginafae?~ GOTO 5
++  SAY @9
++  IF ~~ THEN REPLY @10 GOTO 4
++  IF ~!Global("Ginafae_Eye","GLOBAL",0)~ THEN REPLY @11 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~If my superior needs something done, it must be done, whatever the cost.  I don't have the luxury or time to be burdened with ethics.~
+-  IF ~~ THEN REPLY ~Have you ever stopped to consider the possibility that your superior is *evil?*~ GOTO 6
+-  IF ~~ THEN REPLY ~Hmm.  I guess that is kind of a difficult situation to be in.~ GOTO 7
+-  IF ~~ THEN REPLY ~Ah.  I like your attitude.  Is there any chance I could do business with you and your superior?~ GOTO 8
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 6
++  IF ~~ THEN REPLY @14 GOTO 7
++  IF ~~ THEN REPLY @15 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Certainly not.  We believe that New Dorn's Deep is going to be the center of a very impressive community in the coming years.  A community which the dwarves will have no part in, of course.~
+-  IF ~~ THEN REPLY ~You're living in a dream world, Marketh.~ GOTO 9
+-  IF ~~ THEN REPLY ~Interesting.  Crazy, but interesting.~ GOTO 10
++  SAY @16
++  IF ~~ THEN REPLY @17 GOTO 9
++  IF ~~ THEN REPLY @18 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Yeah, I guess I do feel like I'm pretty big.  After all, I'm a human man and Ginafae's a dark elf woman.  They're not very sturdy.  It's pretty easy to just throw them around if they lip off to you.~
+-  IF ~~ THEN REPLY ~You black-hearted rat.  You're actually *joking* about beating up a woman?~ GOTO 12
+-  IF ~~ THEN REPLY ~Why don't you try picking on someone your own size?~ GOTO 13
+-  IF ~~ THEN REPLY ~Heh.  You're a funny guy.  How'd you wind up here?~ GOTO 14
++  SAY @19
++  IF ~~ THEN REPLY @20 GOTO 12
++  IF ~~ THEN REPLY @21 GOTO 13
++  IF ~~ THEN REPLY @22 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Oh, here it comes.  "You're grinding up people and destroying their lives... blah, blah, blah... the children... blah, blah, blah..."  I didn't claw my way to the top of the heap just to be taken down by something as pathetic as moral sentiment.  Give it a rest.~
+-  IF ~~ THEN REPLY ~No, I *won't* just give it a rest.  You'll pay for what you've done.~ GOTO 17
+-  IF ~~ THEN REPLY ~How did you wind up here, anyway?~ GOTO 14
++  SAY @23
++  IF ~~ THEN REPLY @24 GOTO 17
++  IF ~~ THEN REPLY @25 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Exactly.  Moral fortitude is easy to display when your life is all bunny rabbits and rainbows.  Down here in the lava pools of Dorn's Deep, everything's not quite so... pleasant.  If I wasn't doing this, someone else would be.~
+-  IF ~~ THEN REPLY ~That's no excuse.  I hold you responsible for the villainous deeds taking place down here.  I'll make you pay for your crimes.~ GOTO 17
+-  IF ~~ THEN REPLY ~Nice rationale.  I understand what you're saying, but it still seems pretty shallow.~ GOTO 16
+-  IF ~~ THEN REPLY ~Makes sense to me.  Say, is there any chance I could get in on the action?~ GOTO 8
++  SAY @26
++  IF ~~ THEN REPLY @27 GOTO 17
++  IF ~~ THEN REPLY @28 GOTO 16
++  IF ~~ THEN REPLY @29 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Oh, I'm sorry, but you've done enough damage already, friend.  Run along now.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  I'm not going anywhere until you hand it over.~ GOTO 21
++  SAY @30
++  IF ~~ THEN REPLY @31 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Ah, but this dream *will* come true, my friends.  There is nothing anyone can do to stop it.  Now, if you'll excuse me, I have some business to attend to.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @32
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Ha!  We'll see who's crazy when our forces march across Icewind Dale.  It will truly be a sight to behold.  Now, you must excuse me.  I have someplace I'd rather be right now.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @34
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Yes, farewell indeed.~
++  SAY @35
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~It's better than being serious about beating up men.  That's practically all Ginafae did before Malavon brought her here.  She was a priestess of Lolth!  Abusing her "inferior male servants" was practically her entire job.  Malavon is her brother, and if you've met him, you *know* how deranged he is.  Now, if you'll excuse me...~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @36
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~No, no thank you.  If I did that, I could get hurt.  Badly.  I think I'll just stick to avenging my sex's mistreatment at Ginafae's hands.  She used to be a priestess of Lolth, using her snake whip on every male in sight, including her brother, Malavon.  She deserves every beating I give her.  At least my fists don't send magical waves of pain shooting through her body.  Now, if you'll excuse me, I think I'll be leaving before you decide to jump me.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @37
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Well, I used to be part of a silly adventuring company.  I was in it for the money.  They were in it for some sort of "noble cause."  That's what brought us here.  They came to stop Poquelin.  After we had slaughtered most of Poquelin's beast minions, he offered us all jobs working for him.~
++  SAY @38
+   IF ~~ THEN GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~Of course, the stupid paladin starting spouting off about how Poquelin would pay for his evil, and so on.  That's when I decided to slip my dagger into our wizard's back.  He died without a sound.  I killed our priest, too.  Poquelin made short work of the paladin.  He appreciated my help and my style.  The rest is history.~
+-  IF ~~ THEN REPLY ~You bastard.  I hate traitors.~ GOTO 16
++  SAY @39
++  IF ~~ THEN REPLY @40 GOTO 16
+   IF ~OR(2)
+ Class(LastTalkedToBy,PALADIN)
+-Class(LastTalkedToBy,PALADIN_ALL)~ THEN REPLY ~Dishonorable fiend!  I will avenge the death of my holy brother-in-arms.  Prepare to defend yourself, scum!~ GOTO 17
++Class(LastTalkedToBy,PALADIN_ALL)~ THEN REPLY @41 GOTO 17
+   IF ~OR(3)
+ Class(LastTalkedToBy,MAGE)
+ Class(LastTalkedToBy,MAGE_ALL)
+-Class(LastTalkedToBy,SORCERER)~ THEN REPLY ~So, you like killing mages, eh?  I can guarantee that you're not going to die without a sound.~ GOTO 18
+-  IF ~~ THEN REPLY ~Hmm.  Interesting.~ GOTO 19
++Class(LastTalkedToBy,SORCERER)~ THEN REPLY @42 GOTO 18
++  IF ~~ THEN REPLY @43 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Well too bad, kid.  Keep yourself alive... that's the name of the game.  Speaking of which, I think I'll be leaving now.  Farewell, fools.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @44
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Guess what, Sir Goodytums?  If you think I'm going to stick around to watch you do a dramatic vengeance dance for me, you're wrong.  Farewell, idiot.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @45
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~Whoops.  I suppose it was crude of me to talk about killing mages in front of a practitioner of "The Art."  Oh well, no matter.  By the time you wiggle your fingers, I'll be long gone.  Oh, and the next time you're in the shadows... watch your back.  Farewell, speedy.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @46
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~Yes, well... I like to think so.  Story time is over now, children.  I'd best be making my exit.  Farewell.~
+-  IF ~~ THEN REPLY ~You don't get it, do you Marketh?  I came here for your badge.  You're not going anywhere until you hand it over.~ GOTO 21
++  SAY @47
++  IF ~~ THEN REPLY @33 GOTO 21
+ END
+ 
+ IF WEIGHT #0 ~Global("SPRITE_IS_DEADGinafae","GLOBAL",1)~ THEN BEGIN 20
+-  SAY ~This morning, I woke up and realized that my little ring was a fake and that my little concubine is dead.  I have no idea who you are, but I feel safe in assuming that *you* are responsible.~
+-  IF ~~ THEN REPLY ~Yes.  Good guess.~ GOTO 22
+-  IF ~~ THEN REPLY ~You are correct.  You've reached the end of your rule, Marketh.~ GOTO 21
++  SAY @48
++  IF ~~ THEN REPLY @49 GOTO 22
++  IF ~~ THEN REPLY @50 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~You know, you look like a  reasonable person.  I'm just a thief.  I'm not looking for a fight.  I don't suppose there's any chance you'd just take the badge and let me go, is there?~
+-  IF ~Global("Ginafae_Promise","GLOBAL",1)~ THEN REPLY ~Yes, actually.  I promised Ginafae I wouldn't hurt you.  Hand over the badge and I'll let you go.~ GOTO 23
++  SAY @51
++  IF ~Global("Ginafae_Promise","GLOBAL",1)~ THEN REPLY @52 GOTO 23
+   IF ~OR(2)
+ CheckStatGT(LastTalkedToBy,13,INT)
+-CheckStatGT(LastTalkedToBy,13,WIS)~ THEN REPLY ~Hmm... I've got an idea, Marketh.  Why don't you hand over the badge *and* all of your armor and weapons?  I don't want you causing any trouble.~ GOTO 26
+-  IF ~!Global("Ginafae_Promise","GLOBAL",1)~ THEN REPLY ~Hmm... I guess so.  Just give me the badge and get out of here.~ GOTO 28
+-  IF ~~ THEN REPLY ~No.  No chance at all.  Your time has come, Marketh.~ GOTO 24
++CheckStatGT(LastTalkedToBy,13,WIS)~ THEN REPLY @53 GOTO 26
++  IF ~!Global("Ginafae_Promise","GLOBAL",1)~ THEN REPLY @54 GOTO 28
++  IF ~~ THEN REPLY @55 GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~I should have killed you the first time I saw you.  I knew you'd be trouble.  Well, you've done it.  Malavon worded his contingency too literally.  Since she didn't physically cross the border of the palace, she wasn't affected by Malavon's spells.  You both outsmarted me.~
+-  IF ~~ THEN REPLY ~You are correct.  You've reached the end of your rule, Marketh.~ GOTO 21
+-  IF ~~ THEN REPLY ~If I didn't think you were degenerate scum, I'd appreciate the complement.~ GOTO 21
++  SAY @56
++  IF ~~ THEN REPLY @50 GOTO 21
++  IF ~~ THEN REPLY @57 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~Ah, what a sweet girl she is.  Very well.  Say goodbye to Poquelin for me.  Farewell.~
++  SAY @58
+   IF ~~ THEN DO ~GiveItem("Marketh",Player1)
+ SetGlobal("Marketh_Gone","GLOBAL",1)
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~Very well.  If you're so anxious for death, come and get it.~
++  SAY @59
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Ah... you're truly a saint.  I'm sure Ilmater will give you a big pat on the head when you die.  Farewell.~
++  SAY @60
+   IF ~~ THEN DO ~GiveItem("Marketh",Player1)
+ GiveItem("dragarm",Protagonist)
+ GiveItem("valiant",Protagonist)
+@@ -176,13 +170,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~Ugh... how embarrassing.  Fine, here's my Black Dragon Scale... you know how hard it is to get this?  Here's my sword.  Uh, I don't suppose there's any chance you'd let me keep this ring around my neck, is there?  At least leave me *something.*~
+-  IF ~~ THEN REPLY ~No.  Sorry, Marketh.  Hand over everything.~ GOTO 27
+-  IF ~~ THEN REPLY ~Okay, you can keep your precious ring.~ GOTO 25
++  SAY @61
++  IF ~~ THEN REPLY @62 GOTO 27
++  IF ~~ THEN REPLY @63 GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~*sigh*  Fine.  Here you go.  Farewell.~
++  SAY @64
+   IF ~~ THEN DO ~GiveItem("Marketh",Player1)
+ GiveItem("dragarm",Protagonist)
+ GiveItem("valiant",Protagonist)
+@@ -193,7 +187,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~Ah... you're truly a saint.  I'm sure Ilmater will give you a big pat on the head when you die.  Farewell.~
++  SAY @60
+   IF ~~ THEN DO ~GiveItem("Marketh",Player1)
+ SetGlobal("Marketh_Gone","GLOBAL",1)
+ EscapeArea()~ EXIT

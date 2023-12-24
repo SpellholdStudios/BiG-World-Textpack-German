@@ -1,0 +1,143 @@
+--- stratagems\lang\german\fine_weapons.tra	Sun Jun 02 14:32:13 2019
++++ C:\BWP Patchstudio\patched files\stratagems\lang\german\fine_weapons.tra	Thu Nov 10 09:25:26 2022
+@@ -1,4 +1,3 @@
+-
+ @401 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+ 
+ Diese besondere Streitaxt ist ungewöhnlich dünn gefertigt mit einer vollkommen ausbalancierten und zur Rasiermesser-Stärke geschärften Klinge. Obwohl  sie nicht magisch ist, schlägt sie genauer und schneidet tiefer als eine kleinere Axt.
+@@ -20,7 +19,7 @@
+  Magiern
+  Dieben
+  Mönchen
+- Tiermeistern~
++ Tiermeistern~ 
+ @402 = ~Erstklassige Streitaxt~
+ @403 = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+ 
+@@ -42,7 +41,7 @@
+  Magiern
+  Dieben
+  Mönchen
+- Tiermeistern~
++ Tiermeistern~ 
+ @404 = ~Erstklassiger Morgenstern~
+ @405 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.
+ 
+@@ -64,7 +63,7 @@
+  Dieben
+  Mönchen
+  Kensai
+- Rittern~
++ Rittern~ 
+ @406 = ~Erstklassiger Langbogen~
+ @407 = ~Ein Kurzbogen ist die älteste Form eines Bogens, jedoch wurde er nicht als solcher bezeichnet. Der Begriff "Kurzbogen" ist eher eine Standardbezeichnung für alle Bögen, die nicht als Langbogen gelten. Ein Kurzbogen ist durchschnittlich etwa 1,50 m lang. Im Laufe der Zeit versuchte man die Reichweite von Bögen zu vergrößern. Dabei verlängerte man entweder den Wurfarm oder erhöhte seine Flexibilität, ohne gleichzeitig die Länge zu verändern. Im ersten Fall entwickelte sich daraus der so genannte Langbogen.
+ 
+@@ -87,7 +86,7 @@
+  Mönchen
+  Kensai
+  Rittern~
+-@408 = ~Erstklassiger Kurzbogen~
++@408 = ~Erstklassiger Kurzbogen~ 
+ @409 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+ 
+ Dieser Dolch ist die Arbeit eines Meister-Handwerkers. Obwohl er nicht verzaubert ist, macht sein vollkommenes Gleichgewicht und die rasiermesserscharfe Schneide daraus eine schöne und tödliche Waffe.
+@@ -106,10 +105,10 @@
+ Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+-@410 = ~Erstklassiger Dolch~
++@410 = ~Erstklassiger Dolch~ 
+ @411 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+ 
+-Diese Hellebarde wurde mit besonderenr Sorgfalt gefertigt: von der Schnitzerei auf dem Schaft bis zum spiegelnden Glanz ihrer Beilklinge ist es eine so schöne Waffe, wie Ihr sie ohne Verzauberung zu schmieden erhoffen könnt.
++Diese Hellebarde wurde mit besonderer Sorgfalt gefertigt: von der Schnitzerei auf dem Schaft bis zum spiegelnden Glanz ihrer Beilklinge ist es eine so schöne Waffe, wie Ihr sie ohne Verzauberung zu schmieden erhoffen könnt.
+ 
+ EIGENSCHAFTEN:
+ 
+@@ -150,7 +149,7 @@
+  Magiern
+  Dieben
+  Mönchen
+- Tiermeistern~
++ Tiermeistern~ 
+ @414 = ~Erstklassiger Kriegshammer~
+ @415 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+ 
+@@ -168,7 +167,7 @@
+ Mindeststärke: 5
+ 
+ Kann nicht verwendet werden von:
+- Mönchen~
++ Mönchen~ 
+ @416 = ~Erstklassiger Kampfstab~
+ @417 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m.
+ 
+@@ -214,7 +213,7 @@
+  Druiden
+  Klerikern
+  Magiern
+- Tiermeistern~
++ Tiermeistern~ 
+ @420 = ~Erstklassiges Langschwert~
+ @421 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet.
+ 
+@@ -235,8 +234,8 @@
+  Druiden
+  Klerikern
+  Magiern
+- Tiermeistern~
+-@422 = ~Erstklassiges Kurzschwert~
++ Tiermeistern~ 
++@422 = ~Erstklassiges Kurzschwert~ 
+ @423 = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte.
+ 
+ Die meisten Speere sind grobe, serienmäßig hergestellte Waffen, aber ungewöhnliche Sorgfalt wurde auf diesem verschwendet. Die Spitze ist aus Qualitätsstahl gemacht, und das Gleichgewicht ist sehr ausgewogen.
+@@ -258,7 +257,7 @@
+  Dieben
+  Mönchen
+  Tiermeistern~
+-@424 = ~Erstklassiger Speer~
++@424 = ~Erstklassiger Speer~ 
+ @425 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. In diesem Fall ist der Kopf pyramidenförmig und mit ungewöhnlicher Sorgfalt geschmiedet, was diesen Streitkolben ziemlich wirkungsvoll im Kampf macht, vor allem, da er nicht mit Verzauberungen ausgestattet ist.
+ 
+ EIGENSCHAFTEN:
+@@ -349,3 +348,39 @@
+  Magiern 
+  Dieben~
+ @434 = ~Erstklassiger Flegel~
++@435 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
++
++Die Handwerkskunst dieses schönen Katanas ist erstaunlich, auch wenn es keine Verzauberung trägt. Nur wenige Schmiede haben die Fähigkeit, eine solche Waffe herzustellen.
++
++EIGENSCHAFTEN:
++
++Schaden: 1W10+1 (Klinge)
++Gewicht: 6
++Initiativefaktor: 4
++Mindeststärke: 6
++Fertigkeit: Katana
++Typ: 1-händig
++
++Kann nicht verwendet werden von:
++ Druiden
++ Klerikern
++ Magiern~
++@436 = ~Erstklassiges Katana~
++@437 = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Das Wakizashi ist von ebenso hochwertiger Fertigung wie das Katana. Es ist allerdings deutlich kürzer und die Klinge ist nur 30 bis 60 cm lang. In den Händen eines geschulten Kriegers ist es eine tödliche Waffe.
++
++Dieses Wakishashi ist außergewöhnlich gut gearbeitet, obwohl es keine Verzauberung trägt.
++
++EIGENSCHAFTEN:
++
++Schaden: 1W8 +1 (Stich)
++Gewicht: 3
++Initiativefaktor: 3
++Mindeststärke: 5
++Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
++Typ: 1-händig
++
++Kann nicht verwendet werden von:
++ Druiden
++ Klerikern
++ Magiern~
++@438 = ~Erstklassiges Wakisashi~

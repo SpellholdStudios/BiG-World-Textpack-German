@@ -1,0 +1,1316 @@
+--- NeJE\dlg\DARUNDEL.D	Thu Jan 05 22:03:27 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DARUNDEL.D	Tue Apr 09 19:35:43 2019
+@@ -3,360 +3,360 @@
+ IF ~NumberOfTimesTalkedTo(0)
+ Global("Dying_Arundel","GLOBAL",0)
+ Global("Arundel_Insulted","GLOBAL",0)~ THEN BEGIN 0
+-  SAY ~Welcome. I‘ve been expecting you for some time now.~ [ARUN_01]
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Expecting us? How is that possible? We‘ve only just recently arrived in town.~ DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 1
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~You‘ve been expecting me? How is that possible? I‘ve only just recently arrived in town.~ DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 1
+-  IF ~Global("Know_Arundel","GLOBAL",0)~ THEN REPLY ~Who are you, old man?~ DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 2
+-  IF ~Global("Know_Arundel","GLOBAL",1)~ THEN REPLY ~You must be Arundel.~ GOTO 51
+-  IF ~CheckStatGT(Player1,15,INT)~ THEN REPLY ~Expecting us? I see. You‘re the one who sent the messenger to Easthaven. You must be the Archdruid of Kuldahar?~ DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 51
++  SAY @0 
++  IF ~NumInPartyGT(1)~ THEN REPLY @1 DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 1
++  IF ~NumInPartyLT(2)~ THEN REPLY @2 DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 1
++  IF ~Global("Know_Arundel","GLOBAL",0)~ THEN REPLY @3 DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 2
++  IF ~Global("Know_Arundel","GLOBAL",1)~ THEN REPLY @4 GOTO 51
++  IF ~CheckStatGT(Player1,15,INT)~ THEN REPLY @5 DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 51
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Yes, well... bad news travels upon swift wings in these mountains. I know about your expedition from Easthaven. I know why you are here, for it was I who sent for you.~ [ARUN_02]
++  SAY @6 
+   IF ~NumInPartyGT(1)
+-CheckStatLT(Player1,12,INT)~ THEN REPLY ~You sent for us? I don‘t understand.~ GOTO 2
++CheckStatLT(Player1,12,INT)~ THEN REPLY @7 GOTO 2
+   IF ~NumInPartyLT(2)
+-CheckStatLT(Player1,12,INT)~ THEN REPLY ~You sent for me? I don‘t understand.~ GOTO 2
+-  IF ~Global("Know_Arundel","GLOBAL",0)~ THEN REPLY ~Who are you, old man?~ DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 2
+-  IF ~Global("Know_Arundel","GLOBAL",1)~ THEN REPLY ~You must be Arundel.~ GOTO 51
++CheckStatLT(Player1,12,INT)~ THEN REPLY @8 GOTO 2
++  IF ~Global("Know_Arundel","GLOBAL",0)~ THEN REPLY @3 DO ~SetGlobal("Know_Arundel","GLOBAL",1)~ GOTO 2
++  IF ~Global("Know_Arundel","GLOBAL",1)~ THEN REPLY @4 GOTO 51
+   IF ~CheckStatGT(Player1,11,INT)
+-CheckStatLT(Player1,16,INT)~ THEN REPLY ~You? You sent the messenger? You are the Archdruid he spoke of then?~ GOTO 51
+-  IF ~CheckStatGT(Player1,15,INT)~ THEN REPLY ~I see. You must be the Archdruid the messenger spoke of.~ GOTO 51
++CheckStatLT(Player1,16,INT)~ THEN REPLY @9 GOTO 51
++  IF ~CheckStatGT(Player1,15,INT)~ THEN REPLY @10 GOTO 51
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I am Arundel, known to some as the Archdruid of Kuldahar. Though I invite you to dispense with the formalities and just call me Arundel, plain and simple. Titles tend only to serve one‘s own vanity and aren‘t really of much use in this small mountain community.~ [ARUN_03]
++  SAY @11 
+   IF ~!InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 3
++!InParty("Erevain")~ THEN REPLY @12 GOTO 3
+   IF ~!InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 3
++!InParty("Erevain")~ THEN REPLY @13 GOTO 3
+   IF ~InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 96
++!InParty("Erevain")~ THEN REPLY @12 GOTO 96
+   IF ~InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 96
++!InParty("Erevain")~ THEN REPLY @13 GOTO 96
+   IF ~InParty("Erevain")~ THEN EXTERN ~EREVAINJ~ 17
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Yes, it was I who sent Hallaster to Easthaven for help. His death weighs heavily upon my conscience, for not only was he a student of mine, but he was also a friend and trusted companion. He will be missed. As will Hrothgar and the other members of your expedition.~ [ARUN_04]
+-  IF ~~ THEN REPLY ~You know about the avalanche?~ GOTO 4
+-  IF ~!InParty("Hrothgar")~ THEN REPLY ~You knew Hrothgar?~ GOTO 5
++  SAY @14 
++  IF ~~ THEN REPLY @15 GOTO 4
++  IF ~!InParty("Hrothgar")~ THEN REPLY @16 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Oh, yes, I know. I also know that it was no accident. Someone or... *something* did not want your party to reach Kuldahar alive.~ [ARUN_05]
+-  IF ~~ THEN REPLY ~What is going on around here, old man?~ GOTO 6
+-  IF ~~ THEN REPLY ~Tell me, Arundel, what troubles this town?~ GOTO 6
+-  IF ~~ THEN REPLY ~This someone or something, I presume, is the reason you sent for help?~ GOTO 6
++  SAY @17 
++  IF ~~ THEN REPLY @18 GOTO 6
++  IF ~~ THEN REPLY @19 GOTO 6
++  IF ~~ THEN REPLY @20 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Let us say I knew *of* him. Word of his deeds has reached even our small, isolated town. I also know that his death, tragic as it is, was no accident. Someone or something did not want your party to reach Kuldahar alive.~ [ARUN_06]
+-  IF ~~ THEN REPLY ~What is going on around here, old man?~ GOTO 6
+-  IF ~~ THEN REPLY ~Tell me, Arundel, what troubles this town?~ GOTO 6
+-  IF ~~ THEN REPLY ~This someone or something, I presume, is the reason you sent for help?~ GOTO 6
++  SAY @21 
++  IF ~~ THEN REPLY @18 GOTO 6
++  IF ~~ THEN REPLY @19 GOTO 6
++  IF ~~ THEN REPLY @20 GOTO 6
+   IF ~!Dead("Hrothgar")
+ !InParty("Hrothgar")
+-~ THEN REPLY ~Hrothgar is alive. We have just part our ways.~ GOTO 100
++~ THEN REPLY @22 GOTO 100
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~There are malevolent forces at work in these mountains, forces that seek to undermine the delicate balance we druids have struggled to preserve for centuries.~ [ARUN_07]
+-  IF ~~ THEN REPLY ~Malevolent forces? Could you be more specific?~ DO ~SetGlobal("Know_Balance","GLOBAL",1)
++  SAY @23 
++  IF ~~ THEN REPLY @24 DO ~SetGlobal("Know_Balance","GLOBAL",1)
+ ~ GOTO 7
+-  IF ~~ THEN REPLY ~Look, why don‘t you cease your tedious ramblings on the philosophies of nature, and just tell me who‘s behind all this nonsense?~ DO ~SetGlobal("Know_Balance","GLOBAL",1)
++  IF ~~ THEN REPLY @25 DO ~SetGlobal("Know_Balance","GLOBAL",1)
+ ~ GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Would that I could. The face of the evil remains hidden, but its presence is unmistakable. All about us, there are signs of its damaging influence on the balance... the unnatural weather, the recent rash of abductions, the numerous monster sightings in the pass...~ [ARUN_08]
++  SAY @26 
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~These all point toward something sinister. Even the animals sense something is amiss.~ [ARUN_09]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @27 
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Would that I could. The face of the evil remains hidden, but its presence is unmistakable. All about us, there are signs of its damaging influence on the balance... the unnatural weather, the recent rash of abductions, the numerous monster sightings in the pass...~ [ARUN_08]
++  SAY @26 
+   IF ~~ THEN GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~These all point toward something sinister. Even the animals sense something is amiss.~ [ARUN_09]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @27 
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~I can only tell you of what little I know. Which disturbances would you have me speak of?~ [ARUN_12]
+-  IF ~~ THEN REPLY ~Tell me of the unnatural weather.~ GOTO 12
+-  IF ~~ THEN REPLY ~Tell me about the recent rash of abductions.~ GOTO 14
+-  IF ~~ THEN REPLY ~Tell me about the monster sightings.~ GOTO 19
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @30 
++  IF ~~ THEN REPLY @31 GOTO 12
++  IF ~~ THEN REPLY @32 GOTO 14
++  IF ~~ THEN REPLY @33 GOTO 19
++  IF ~~ THEN REPLY @29 GOTO 23
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~Never mind. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @34 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~Never mind. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @35 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Never mind. Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @36 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~Never mind. I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @37 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~Never mind. We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @38 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~The weather in these mountains has always been harsh, but never like this. Fierce storms ravage the valley without warning, often lasting for several days at a time before vanishing as quickly as they come.~ [ARUN_13]
++  SAY @39 
+   IF ~~ THEN GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~It is barely midway into Leafall, and yet the pass to the south has been snowed in entirely. Weather such as this is most unnatural. Nature presents itself in cycles that are predictable by those who know what to look for.~ [ARUN_14]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @40 
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Ah, yes. Terrible. Terrible. At first, there were tales told by travelers of companions disappearing into the night, snatched up from their bedrolls as they camped along the narrow trail that winds through the pass.~ [ARUN_15]
++  SAY @46 
+   IF ~~ THEN GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~We did not think much of these tales, for such occurrences are not unheard of in these mountains.~ [ARUN_16]
++  SAY @47 
+   IF ~~ THEN GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Then one night Conlan‘s boy, Sheemish, went missing. The next morning, the whole town searched for the boy but turned up nothing. He was just gone. Vanished without a trace.~ [ARUN_17]
+-  IF ~~ THEN REPLY ~That is strange indeed.~ GOTO 17
+-  IF ~~ THEN REPLY ~Some tavern ghost stories and a little boy lost in the mountains? Don‘t you think you are overreacting?~ GOTO 17
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @48 
++  IF ~~ THEN REPLY @49 GOTO 17
++  IF ~~ THEN REPLY @50 GOTO 17
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~The boy was just the first. Several nights later, another disappeared - Maegan Potts, the local midwife. Her husband Kaleel was grief-stricken to the point of madness. With barely a word to anyone, he snatched up his sword and marched off into the darkness after his wife. No one has heard from him since.~ [ARUN_18]
++  SAY @51 
+   IF ~~ THEN GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~And now, the abductions are occurring *more* frequently. Eidan, the old innkeeper from the Evening Shade was taken only three days ago.~ [ARUN_19]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @52 
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~As I‘m sure you have noticed by now, there seems to be quite a few goblins about. It is not usual to see so many of their kind roaming the mountains so late in the year. It is almost as if something has drawn them out of their holes, like carrion birds drawn to the scent of death.~ [ARUN_20]
++  SAY @53 
+   IF ~~ THEN GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~As if the goblins weren‘t enough, several giants have been spotted moving through the pass in groups as large as ten.~ [ARUN_21]
++  SAY @54 
+   IF ~~ THEN GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~That many giants traveling together in such numbers indicates they are organized and are acting with a singular purpose. I have watched their activities closely. Their tracks trace a deliberate pattern through the mountains, almost as if they were on patrol.~ [ARUN_22]
++  SAY @55 
+   IF ~~ THEN GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~Another thing... while I was out scouting the giants, I discovered other sets of tracks, tracks I have never encountered before. What manner of beast made them... I could not say.~ [ARUN_23]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~You spoke before of balance. What sort of balance are you talking about?~ GOTO 23
++  SAY @56 
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @29 GOTO 23
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~*The* balance. It is what the druids of Kuldahar hold sacred and have worked to preserve for generations. It is all around us. It *is* us.~ [ARUN_24]
++  SAY @57 
+   IF ~!InParty("Jaheira")~ THEN GOTO 24
+   IF ~InParty("Jaheira")~ THEN GOTO 99
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~Balance is the harmony that is achieved when man and nature learn to coexist, no longer contending with one another, but coming together as two parts of a whole.~ [ARUN_25]
++  SAY @58 
+   IF ~Class(Player1,RANGER)
+ !Race(Player1,ELF)
+-~ THEN REPLY ~I understand. Such balance is an ideal worth striving for indeed.~ GOTO 25
++~ THEN REPLY @59 GOTO 25
+   IF ~Class(Player1,DRUID)
+ !Race(Player1,ELF)
+-~ THEN REPLY ~I understand. Such balance is an ideal worth striving for indeed.~ GOTO 25
++~ THEN REPLY @59 GOTO 25
+   IF ~Class(Player1,RANGER)
+ Race(Player1,ELF)
+-~ THEN REPLY ~I understand. Such balance is an ideal worth striving for indeed.~ GOTO 25
++~ THEN REPLY @59 GOTO 25
+   IF ~Class(Player1,DRUID)
+ Race(Player1,ELF)
+-~ THEN REPLY ~I understand. Such balance is an ideal worth striving for indeed.~ GOTO 25
++~ THEN REPLY @59 GOTO 25
+   IF ~!Class(Player1,RANGER)
+ !Class(Player1,DRUID)
+ !Race(Player1,ELF)
+-~ THEN REPLY ~You really take this nature thing seriously, don‘t you?~ GOTO 25
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
+-  IF ~~ THEN REPLY ~What can you tell me about the druids of Kuldahar?~ GOTO 25
++~ THEN REPLY @60 GOTO 25
++  IF ~~ THEN REPLY @28 GOTO 11
++  IF ~~ THEN REPLY @61 GOTO 25
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Balance is the belief that this town is built upon... the very reason for its existence. Druids of Silvanus, the Oakfather, have tended this shrine since the beginning. For hundreds of years, we have striven to achieve the ideal balance between man and nature.~ [ARUN_26]
++  SAY @62 
+   IF ~~ THEN GOTO 26
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~When settlers finally came to this pass, it was the Archdruid Tolben, my predecessor, who laid the foundation for the relationship that led to the birth of this community.~ [ARUN_27]
+-  IF ~~ THEN REPLY ~Shrine? What shrine are you talking about?~ GOTO 27
++  SAY @63 
++  IF ~~ THEN REPLY @64 GOTO 27
+   IF ~Global("Know_Tolben","GLOBAL",1)
+-~ THEN REPLY ~Archdruid Tolben? The statue in the center of town... it is of him, yes?~ GOTO 29
++~ THEN REPLY @65 GOTO 29
+   IF ~Global("Know_Tolben","GLOBAL",0)
+-~ THEN REPLY ~Who is this Tolben?~ DO ~SetGlobal("Know_Tolben","GLOBAL",1)
++~ THEN REPLY @66 DO ~SetGlobal("Know_Tolben","GLOBAL",1)
+ ~ GOTO 29
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
++  IF ~~ THEN REPLY @28 GOTO 11
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~The Great Oak. The massive tree that stands above us... around us. It is a holy shrine to Silvanus, for it was he who planted its seed when Faerun was first born. It is a testament to the raw power of nature, a monument to its ability to thrive in the face of adversity.~ [ARUN_28]
++  SAY @67 
+   IF ~~ THEN GOTO 28
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~Thanks to Tolben, the Great Oak we druids called the Kuldahar, and the town that has come to be known by the same name, have together become a monument of even greater significance... a monument to the balance.~ [ARUN_29]
++  SAY @68 
+   IF ~Global("Know_Tolben","GLOBAL",0)
+-~ THEN REPLY ~Who is this Tolben?~ DO ~SetGlobal("Know_Tolben","GLOBAL",1)
++~ THEN REPLY @66 DO ~SetGlobal("Know_Tolben","GLOBAL",1)
+ ~ GOTO 29
+   IF ~Global("Know_Tolben","GLOBAL",1)
+-~ THEN REPLY ~Archdruid Tolben? The statue in the center of town... it is of him, yes?~ GOTO 29
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
++~ THEN REPLY @65 GOTO 29
++  IF ~~ THEN REPLY @28 GOTO 11
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~Tolben was the catalyst for the transformation of the shrine from a sacred grove to a thriving community in which man and nature exist as one. At first, settlers were kept away from this site. The druids of old saw outsiders as an affront to the sanctity of the tree and its sphere of benign influence.~ [ARUN_30]
++  SAY @69 
+   IF ~~ THEN GOTO 30
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~They erected thorny brambles to keep intruders out, and used their powers to frighten away the men and women that came to build homes in a place they felt was... obviously so close to the gods.~ [ARUN_31]
++  SAY @70 
+   IF ~~ THEN GOTO 31
+ END
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~It wasn‘t until the succession of Archdruid Tolben that things changed. Unlike his predecessors, he believed that the settlement of the valley was not only inevitable, but it was actually the will of Silvanus.~ [ARUN_32]
++  SAY @71 
+   IF ~~ THEN GOTO 32
+ END
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~He also believed that we had been wrong in keeping the settlers away, and that the Oak Father had intended people to share in the miracle of the Great Oak from the beginning.~ [ARUN_33]
++  SAY @72 
+   IF ~~ THEN GOTO 33
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~When Tolben finally became Archdruid, he formed a plan to fulfill the destiny of this sacred site by bringing about a union between the Great Oak shrine and the settlers.~ [ARUN_34]
++  SAY @73 
+   IF ~~ THEN GOTO 34
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~It was this union that the Archdruid Tolben believed would achieve the harmony that we had been striving for for generations... the harmony between man and nature. As it stands, Kuldahar is a monument to this vision.  ~ [ARUN_35]
++  SAY @74 
+   IF ~OR(2)
+ !InParty("Erevain")
+ Dead("Erevain")~ THEN GOTO 35
+@@ -365,91 +365,83 @@
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~The tree and town exist in a natural symbiosis where it is next to impossible to tell where one leaves off and the other begins. But now, the balance is threatened.~ [ARUN_36]
+-  IF ~~ THEN REPLY ~Can you tell me more about these disturbances?~ GOTO 11
++  SAY @75 
++  IF ~~ THEN REPLY @28 GOTO 11
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~I see. So what are we to do about all this?~ GOTO 36
++~ THEN REPLY @41 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I see. So what am I to do about all this?~ GOTO 36
++~ THEN REPLY @42 GOTO 36
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~I fear that if we do not soon discover the source of these disturbances, then all that we have worked for will be destroyed.~ [ARUN_37]
++  SAY @76 
+   IF ~~ THEN GOTO 37
+ END
+ 
+ IF ~~ THEN BEGIN 37
+-  SAY ~The evil that has come to these mountains infects this town like a disease. As its people suffer, so does the tree suffer from the sickness that attacks the balance, corrupting it with its very presence.~ [ARUN_38]
++  SAY @77 
+   IF ~~ THEN GOTO 38
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~Already, the circle of warmth that radiates from the Great Oak has begun to recede.~ [ARUN_39]
++  SAY @78 
+   IF ~~ THEN GOTO 39
+ END
+ 
+ IF ~~ THEN BEGIN 39
+-  SAY ~We were forced to abandon the outlying farmsteads as a result of the shrine‘s fading power. If we do not take action soon, I am afraid that the life-giving warmth will cease altogether.~ [ARUN_40]
++  SAY @79 
+   IF ~~ THEN GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~Both the Great Oak and the town nestled within its roots will die. This must *not* happen. We need your help.~ [ARUN_41]
+-  IF ~~ THEN REPLY ~What? Help you? I don‘t think so, old man. I‘m only interested in getting out of these miserable mountains alive. Understand?~ DO ~SetGlobal("Arundel_Insulted","GLOBAL",1)
++  SAY @80 
++  IF ~~ THEN REPLY @81 DO ~SetGlobal("Arundel_Insulted","GLOBAL",1)
+ ~ GOTO 41
+-  IF ~~ THEN REPLY ~I‘d like to help you, but there really isn‘t anything I can do to help.~ GOTO 41
+-  IF ~~ THEN REPLY ~Very well, together we shall root out this evil that threatens this town. What must we do?~ DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~ GOTO 43
++  IF ~~ THEN REPLY @82 GOTO 41
++  IF ~~ THEN REPLY @83 DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL @84 GOTO 43
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~I understand, but the circumstances leave you little choice *but* to get involved. I needn‘t remind you that the avalanche that wiped out your expedition, the one that you were fortunate to survive, has blocked the way back to the Ten-Towns. As I mentioned before, the pass south has been entirely snowed-in.~ [ARUN_42]
++  SAY @85 
+   IF ~!InParty("Hrothgar")~ THEN GOTO 42
+   IF ~InParty("Hrothgar")~ THEN EXTERN ~HROTHJ~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~There is no other way out of this valley. Your fate and the fate of Kuldahar are intertwined. You *must* discover the source of the disturbances and restore the balance... or we shall all perish together.~ [ARUN_43]
+-  IF ~~ THEN REPLY ~Very well, together we shall root out this evil that threatens this town. What must we do?~ DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~ GOTO 43
+-  IF ~~ THEN REPLY ~I see your point. Well then, where shall we begin?~ DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~ GOTO 43
+-  IF ~~ THEN REPLY ~If saving my own skin means helping you out, then that‘s what I will do. But get one thing straight, I wouldn‘t give two coppers for you, your town, or your precious balance. I mean to stay alive... one way or another.~ DO ~SetGlobal("Vale_Quest","GLOBAL",1)
+-SetGlobal("Arundel_Insulted","GLOBAL",2)~ UNSOLVED_JOURNAL ~Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~ GOTO 43
++  SAY @86 
++  IF ~~ THEN REPLY @83 DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL @84 GOTO 43
++  IF ~~ THEN REPLY @87 DO ~SetGlobal("Vale_Quest","GLOBAL",1)~ UNSOLVED_JOURNAL @84 GOTO 43
++  IF ~~ THEN REPLY @88 DO ~SetGlobal("Vale_Quest","GLOBAL",1)
++SetGlobal("Arundel_Insulted","GLOBAL",2)~ UNSOLVED_JOURNAL @89 GOTO 43
+ END
+ 
+ IF ~~ THEN BEGIN 43
+-  SAY ~I suggest you begin by investigating the Vale of Shadows. It is a place not far from here. Darkness has always clung to the floor of the small canyon, as if the light of the sun itself were wary of the place.~ [ARUN_44]
++  SAY @90 
+   IF ~~ THEN GOTO 44
+ END
+ 
+ IF ~~ THEN BEGIN 44
+-  SAY ~There are a number of ancient crypts hidden within the shadows of the Vale‘s narrow cliff walls. There have been rumors of the dead awakening and emerging from their dusty tombs to walk once more amongst men.~ [ARUN_45]
++  SAY @91 
+   IF ~~ THEN GOTO 45
+ END
+ 
+ IF ~~ THEN BEGIN 45
+-  SAY ~If these rumors are true, then I suspect that whatever is responsible for disturbing their slumber may be behind the other disturbances as well.~ [ARUN_46]
++  SAY @92 
+   IF ~~ THEN GOTO 46
+ END
+ 
+ IF ~~ THEN BEGIN 46
+-  SAY ~Go to the Vale of Shadows. I shall open a passage for you to the east of Kuldahar. Learn what you can about the happenings there, then return here and we shall discuss a course of action. Good luck, and farewell.~ [ARUN_47]
++  SAY @93 
+   IF ~!InParty("Sharteel")~ THEN DO ~SetGlobal("To3000","GLOBAL",1)~ EXIT
+   IF ~InParty("Sharteel")~ THEN DO ~SetGlobal("To3000","GLOBAL",1)~ EXTERN ~SHARTJ~ frellaru
+ END
+@@ -458,190 +450,188 @@
+ Global("Vale_Quest","GLOBAL",1)
+ Global("TT3000_Visited","GLOBAL",0)
+ ~ THEN BEGIN 47
+-  SAY ~Please... you must make haste. Time works *against* us. We must discover the source of this evil before the balance is altered irrevocably.~ [ARUN_48]
+-  IF ~~ THEN REPLY ~I understand. Before I go, could you tell me more of the disturbances in the pass?~ GOTO 11
+-  IF ~~ THEN REPLY ~I understand. Before I go, could you tell me more about the druids of Kuldahar?~ GOTO 25
++  SAY @94 
++  IF ~~ THEN REPLY @95 GOTO 11
++  IF ~~ THEN REPLY @96 GOTO 25
+   IF ~Global("Ghereg_Head","GLOBAL",1)
+ Global("Ghereg_Dead","GLOBAL",0)
+-~ THEN REPLY ~I thought you should know... I came across an ogre in the pass outside of town. This ogre, who calls himself Ghereg, complained to me about a sharp pain in his head. Is there something you can do to help him?~ GOTO 49
++~ THEN REPLY @97 GOTO 49
+   IF ~Global("Vale_Quest","GLOBAL",1)
+-~ THEN REPLY ~Tell me again... what must be done?~ GOTO 43
++~ THEN REPLY @43 GOTO 43
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyLT(2)
+-~ THEN REPLY ~I will do what I can. Farewell.~ EXIT
++~ THEN REPLY @44 EXIT
+   IF ~GlobalGT("Vale_Quest","GLOBAL",0)
+ NumInPartyGT(1)
+-~ THEN REPLY ~We will do what we can. Farewell.~ EXIT
++~ THEN REPLY @45 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Vale_Quest","GLOBAL",1)
+ Global("TT3000_Visited","GLOBAL",1)
+ ~ THEN BEGIN 48
+-  SAY ~Ah, you have returned. What news? Does the evil we seek lie within the Vale of Shadows?~ [ARUN_49]
++  SAY @98 
+   IF ~Global("Kress_Quest","GLOBAL",0)
+-~ THEN REPLY ~I‘m afraid I haven‘t discovered anything of use yet. I shall return when I know more.~ GOTO 47
++~ THEN REPLY @99 GOTO 47
+   IF ~GlobalGT("Kress_Quest","GLOBAL",0)
+ GlobalLT("Kress_Quest","GLOBAL",4)
+-~ THEN REPLY ~Deep within one of the tombs in the Vale, I spoke with a spirit named Kresselack. This spirit claims to have information about the evil we seek.~ GOTO 52
++~ THEN REPLY @100 GOTO 52
+   IF ~Global("Kress_Quest","GLOBAL",4)
+-~ THEN REPLY ~I‘ve discovered that the undead in the Vale of Shadows were not connected to the disturbances in the pass.~ DO ~AddexperienceParty(16500)
++~ THEN REPLY @101 DO ~AddexperienceParty(16500)
+ SetGlobal("Vale_Quest","GLOBAL",2)
+ ~ GOTO 61
+ END
+ 
+ IF ~~ THEN BEGIN 49
+-  SAY ~Interesting. It is impossible to determine exactly what ails him without examining him myself, but I do know of an herbal remedy that may ease his suffering. If you like, I could tell you the recipe so that you may help him help himself.~ [ARUN_50]
+-  IF ~~ THEN REPLY ~I won‘t be the go-between for druids and whining ogres. Forget it. He can rot for all I care. Farewell.~ EXIT
+-  IF ~~ THEN REPLY ~Very well. What is this recipe?~ GOTO 50
++  SAY @102 
++  IF ~~ THEN REPLY @103 EXIT
++  IF ~~ THEN REPLY @104 GOTO 50
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~Tell him to gather a handful of Frostberries that grow throughout these mountains. He must squeeze the juices from the berries into a pot of boiling tundra grass. Once mixed, the entire brew must be consumed in order for the pain to subside.~ [ARUN_51]
+-  IF ~~ THEN REPLY ~I shall tell him. I‘m sure he‘ll be grateful. Farewell.~ DO ~SetGlobal("Ghereg_Head","GLOBAL",2)
++  SAY @105 
++  IF ~~ THEN REPLY @106 DO ~SetGlobal("Ghereg_Head","GLOBAL",2)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~Yes, I am Arundel, known to some as the Archdruid of Kuldahar. Though I invite you to dispense with the formalities and just call me Arundel, plain and simple. Titles tend only to serve one‘s own vanity and aren‘t really of much use in this small mountain community.~ [ARUN_52]
++  SAY @107 
+   IF ~!InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 3
++!InParty("Erevain")~ THEN REPLY @12 GOTO 3
+   IF ~!InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 3
++!InParty("Erevain")~ THEN REPLY @13 GOTO 3
+   IF ~InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 96
++!InParty("Erevain")~ THEN REPLY @12 GOTO 96
+   IF ~InParty("Hrothgar")
+-!InParty("Erevain")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 96
++!InParty("Erevain")~ THEN REPLY @13 GOTO 96
+   IF ~InParty("Erevain")~ THEN EXTERN ~EREVAINJ~ 17
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~Interesting. What did this spirit reveal to you?~ [ARUN_53]
+-  IF ~~ THEN REPLY ~Nothing yet. He offered to tell me what he knows in exchange for performing a service for him. He wants me to kill a priestess of Auril that is threatening his tomb.~ GOTO 53
++  SAY @108 
++  IF ~~ THEN REPLY @109 GOTO 53
+ END
+ 
+ IF ~~ THEN BEGIN 53
+-  SAY ~I see. What do you intend to do?~ [ARUN_54]
++  SAY @110 
+   IF ~Global("Kress_Quest","GLOBAL",1)
+-~ THEN REPLY ~Nothing. I won‘t play errand boy to some self-important ghost who dangles answers like carrots before a mule. I am nobody‘s fool!~ DO ~SetGlobal("Arundel_Insulted","GLOBAL",3)
++~ THEN REPLY @111 DO ~SetGlobal("Arundel_Insulted","GLOBAL",3)
+ ~ GOTO 54
+   IF ~Global("Kress_Quest","GLOBAL",1)
+ Alignment(Player1,CHAOTIC_GOOD)
+ Alignment(Player1,NEUTRAL_GOOD)
+ Alignment(Player1,LAWFUL_GOOD)
+-~ THEN REPLY ~I refused his bargain. I cannot justify murder for reward.~ GOTO 55
++~ THEN REPLY @112 GOTO 55
+   IF ~Global("Kress_Quest","GLOBAL",1)
+-~ THEN REPLY ~I told him I wouldn‘t do it. This priestess is *his* problem. She is no concern of mine.~ GOTO 57
++~ THEN REPLY @113 GOTO 57
+   IF ~Global("Kress_Quest","GLOBAL",2)
+-~ THEN REPLY ~I‘m not sure. I told the spirit I would consider his bargain.~ GOTO 47
++~ THEN REPLY @114 GOTO 47
+   IF ~Global("Kress_Quest","GLOBAL",3)
+-~ THEN REPLY ~I intend to find this priestess and attempt to reason with her. Should she prove to be amenable, there may not be a need for violence.~ GOTO 47
++~ THEN REPLY @115 GOTO 47
+   IF ~Global("Kress_Quest","GLOBAL",3)
+-~ THEN REPLY ~I shall do as he asks.~ GOTO 47
++~ THEN REPLY @116 GOTO 47
+   IF ~Global("Kress_Quest","GLOBAL",3)
+ OR(3)
+ Alignment(Player1,CHAOTIC_EVIL)
+ Alignment(Player1,NEUTRAL_EVIL)
+ Alignment(Player1,LAWFUL_EVIL)
+-~ THEN REPLY ~I intend to find this frosty bitch and cut her throat.~ GOTO 59
++~ THEN REPLY @117 GOTO 59
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~I understand your position. Typically, such vengeful spirits are not known for keeping their word. But, in this case, I do not think we have much choice. I urge you to reconsider the spirit‘s offer in order to learn what it knows - at this point, any information is better than none.~ [ARUN_55]
+-  IF ~~ THEN REPLY ~Very well. I shall return to the tomb and speak once more with this spirit.~ GOTO 47
+-  IF ~~ THEN REPLY ~I am still not convinced. I shall think on it some more.~ GOTO 47
++  SAY @118 
++  IF ~~ THEN REPLY @119 GOTO 47
++  IF ~~ THEN REPLY @120 GOTO 47
+ END
+ 
+ IF ~~ THEN BEGIN 55
+-  SAY ~I understand your position. But perhaps there is more to this priestess than you know. Sometimes, we must choose between the lesser of two evils in order to accomplish good. This is but one of the ways in which balance is maintained.~ [ARUN_56]
++  SAY @121 
+   IF ~~ THEN GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~I urge you to reconsider the spirit‘s offer in order to learn what it knows. At this point, any information is better than none.~ [ARUN_57]
+-  IF ~~ THEN REPLY ~Very well. I shall return to the tomb and speak once more with this spirit.~ GOTO 47
+-  IF ~~ THEN REPLY ~I am still not convinced. I shall think on it some more.~ GOTO 47
++  SAY @122 
++  IF ~~ THEN REPLY @119 GOTO 47
++  IF ~~ THEN REPLY @120 GOTO 47
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~I understand your position. But perhaps there is more to this priestess than you know. If she is indeed a servant of the Frostmaiden, then she may be connected in some way to the unnatural weather in the pass.~ [ARUN_58]
++  SAY @123 
+   IF ~~ THEN GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~I urge you to reconsider the spirit‘s offer in order to learn what it knows. At this point, any information is better than none.~ [ARUN_59]
+-  IF ~~ THEN REPLY ~Very well. I shall return to the tomb and speak once more with this spirit.~ GOTO 47
+-  IF ~~ THEN REPLY ~I am still not convinced. I shall think on it some more.~ GOTO 47
++  SAY @122 
++  IF ~~ THEN REPLY @119 GOTO 47
++  IF ~~ THEN REPLY @120 GOTO 47
+ END
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~Well, if that is what you feel you must do... sometimes, we must choose between the lesser of two evils in order to accomplish good. This is but one of the ways in which balance is maintained.~ [ARUN_60]
+-  IF ~~ THEN REPLY ~Spare me your posturing. I have work to do.~ GOTO 47
+-  IF ~~ THEN REPLY ~Whatever. I‘ll be going now.~ GOTO 47
++  SAY @125 
++  IF ~~ THEN REPLY @126 GOTO 47
++  IF ~~ THEN REPLY @127 GOTO 47
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Temple_Quest","GLOBAL",1)
+ Global("Heartstone_Stolen","GLOBAL",0)~ THEN BEGIN 60
+-  SAY ~Please... you must make haste. Time works *against* us. We must discover the source of this evil before the balance is altered irrevocably.~ [ARUN_48]
++  SAY @94 
+   IF ~Global("Ghereg_Head","GLOBAL",1)
+-Global("Ghereg_Dead","GLOBAL",0)~ THEN REPLY ~I thought you should know... I came across an ogre in the pass outside of town. This ogre, who calls himself Ghereg, complained to me about a sharp pain in his head. Is there something you can do to help him?~ GOTO 49
+-  IF ~~ THEN REPLY ~Tell me again... what must be done?~ GOTO 69
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~I will do what I can. Farewell.~ DO ~ClearAllActions()
++Global("Ghereg_Dead","GLOBAL",0)~ THEN REPLY @97 GOTO 49
++  IF ~~ THEN REPLY @43 GOTO 69
++  IF ~NumInPartyLT(2)~ THEN REPLY @44 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("To3600")~ EXIT
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~We will do what we can. Farewell.~ DO ~ClearAllActions()
++  IF ~NumInPartyGT(1)~ THEN REPLY @45 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("To3600")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 61
+-  SAY ~Then the true source must lie elsewhere. I sense this evil has taken great care to conceal itself from prying eyes. I fear that by the time we discover it... it may be too late.~ [ARUN_62]
+-  IF ~~ THEN REPLY ~So what are we to do?~ GOTO 62
++  SAY @128 
++  IF ~~ THEN REPLY @129 GOTO 62
+ END
+ 
+ IF ~~ THEN BEGIN 62
+-  SAY ~There may be a way to find that which does not wish to be found through magical means. However, to accomplish this, I *will* need your help.~ [ARUN_63]
+-  IF ~~ THEN REPLY ~We are ready to help any way we can.~ GOTO 64
+-  IF ~~ THEN REPLY ~Do we have any other choice?~ GOTO 63
++  SAY @130 
++  IF ~~ THEN REPLY @131 GOTO 64
++  IF ~~ THEN REPLY @132 GOTO 63
+ END
+ 
+ IF ~~ THEN BEGIN 63
+-  SAY ~Of course you do. I can only show you the path, I would not presume to choose it for you. You can either choose to help me, thereby helping yourself, or you can choose to allow your fate to be determined by forces you do not understand.~ [ARUN_64]
+-  IF ~~ THEN REPLY ~Some choice. Very well, we‘ll help.~ GOTO 64
++  SAY @133 
++  IF ~~ THEN REPLY @134 GOTO 64
+ END
+ 
+ IF ~~ THEN BEGIN 64
+-  SAY ~Then here is what must be done. I need you to find an ancient druidic artifact known as the Heartstone Gem. It is a powerful scrying stone that can be used to divine the location of this evil.~ [ARUN_65]
++  SAY @135 
+   IF ~~ THEN GOTO 65
+ END
+ 
+ IF ~~ THEN BEGIN 65
+-  SAY ~Long ago, the Heartstone rested here within this shrine. The druids of Kuldahar used its power to gain insight on the balance and to look into the affairs of men throughout the realms.~ [ARUN_66]
++  SAY @136 
+   IF ~~ THEN GOTO 66
+ END
+ 
+ IF ~~ THEN BEGIN 66
+-  SAY ~Then, one day an initiate of the shrine stole the Heartstone and fled Kuldahar. The young druid had grown impatient with the humble teachings of his mentor, the Archdruid, and hungered for power of his own. He disappeared into the mountains, along with the artifact, and was never heard from again.~ [ARUN_67]
++  SAY @137 
+   IF ~~ THEN GOTO 67
+ END
+ 
+ IF ~~ THEN BEGIN 67
+-  SAY ~A few short years after the theft, there were rumors of a strange cult establishing a temple in these mountains. It is conceivable that the rogue druid may have been connected in some way with the emergence of this new cult. If so, then it is possible that the Heartstone Gem may still be found within this temple.~ [ARUN_68]
++  SAY @138 
+   IF ~~ THEN GOTO 68
+ END
+ 
+ IF ~~ THEN BEGIN 68
+-  SAY ~The temple is rumoured to lie in a canyon far to the east of Kuldahar. Since the northern pass has been blocked by the avalanche, and we have sealed the western pass to prevent monsters intrusion, I will teleport you directly to this canyon, where you have to find your way to the temple. Journey to the temple and discover if the Heartstone is indeed there. If so, return it to Kuldahar and I shall use its power to find the answers we seek.~ [ARUN_69]
+-  IF ~~ THEN REPLY ~Very well. We shall do as you ask.~ DO ~SetGlobal("Temple_Quest","GLOBAL",1)
+-StartCutScene("To3600")~ UNSOLVED_JOURNAL ~Search for the Heartstone Gem.
+-
+-We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.~ EXIT
++  SAY @139 
++  IF ~~ THEN REPLY @140 DO ~SetGlobal("Temple_Quest","GLOBAL",1)
++StartCutScene("To3600")~ UNSOLVED_JOURNAL @141 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 69
+-  SAY ~Journey to the temple and discover if the Heartstone is indeed there. If so, return it to Kuldahar and I shall use its power to find the answers we seek.~ [ARUN_70]
+-  IF ~~ THEN REPLY ~Thank you. Farewell.~ DO ~StartCutScene("To3600")
++  SAY @142 
++  IF ~~ THEN REPLY @143 DO ~StartCutScene("To3600")
+ ~ EXIT
+ END
+ 
+@@ -649,82 +639,80 @@
+ Global("Temple_Quest","GLOBAL",1)
+ Global("Heartstone_Stolen","GLOBAL",1)
+ ~ THEN BEGIN 70
+-  SAY ~Ah, you have returned. What news? Have you found the Heartstone Gem?~ [ARUN_71]
+-  IF ~~ THEN REPLY ~I‘m afraid I haven‘t discovered anything of use yet. I shall return when I know more.~ GOTO 60
++  SAY @144 
++  IF ~~ THEN REPLY @99 GOTO 60
+   IF ~Global("Heartstone_Stolen","GLOBAL",1)
+-~ THEN REPLY ~We discovered that the Heartstone was indeed at the temple. Unfortunately, someone seemed to have gotten there first and taken the Gem.~ DO ~SetGlobal("Temple_Quest","GLOBAL",2)
++~ THEN REPLY @145 DO ~SetGlobal("Temple_Quest","GLOBAL",2)
+ ~ GOTO 71
+ END
+ 
+ IF ~~ THEN BEGIN 71
+-  SAY ~Ah, this is terrible news. Did you find any clues as to who these mysterious thieves may be or where they might have taken the Gem?~ [ARUN_72]
++  SAY @146 
+   IF ~PartyHasItem("Poison")
+-~ THEN REPLY ~I found the body of a Talonite priest among the corpses of the slain cultists and their verbeeg guards. He was carrying this vial of strange liquid.~ DO ~TakePartyItem("Poison")
++~ THEN REPLY @147 DO ~TakePartyItem("Poison")
+ AddexperienceParty(21500)
+ ~ GOTO 72
+   IF ~!PartyHasItem("Poison")
+-~ THEN REPLY ~A number of the temple‘s acolytes and verbeeg guards were already dead when we arrived. There was evidence that some were poisoned by what looked to be snake bites.~ DO ~AddexperienceParty(15500)
++~ THEN REPLY @148 DO ~AddexperienceParty(15500)
+ ~ GOTO 76
+ END
+ 
+ IF ~~ THEN BEGIN 72
+-  SAY ~Hmm. The liquid appears to be a form of undiluted snake venom. No doubt this priest of Talona was carrying it for use as a poison. You did well in bringing this to me. This may be just the clue we needed.~ [ARUN_73]
+-  IF ~~ THEN REPLY ~What do you mean?~ GOTO 73
++  SAY @149 
++  IF ~~ THEN REPLY @150 GOTO 73
+ END
+ 
+ IF ~~ THEN BEGIN 73
+-  SAY ~You see, once extracted, venom such as this tends to lose its potency rather quickly... usually over the course of a few days. So, it follows that this Talonite must have obtained the poison from somewhere within these mountains. There is only one place where poisonous reptiles could thrive in these cold, wind-swept mountains.~ [ARUN_74]
+-  IF ~~ THEN REPLY ~And that place is?~ GOTO 74
++  SAY @151 
++  IF ~~ THEN REPLY @152 GOTO 74
+ END
+ 
+ IF ~~ THEN BEGIN 74
+-  SAY ~Dragon‘s Eye. It is a vast network of caverns that lead deep into the bowels of a dormant volcano. The entrance is barely a day‘s journey from here. I suggest you continue the search for the missing Heartstone Gem there.~ [ARUN_75]
+-  IF ~~ THEN REPLY ~Very well. To Dragon‘s Eye, then.~ GOTO 75
++  SAY @153 
++  IF ~~ THEN REPLY @154 GOTO 75
+ END
+ 
+ IF ~~ THEN BEGIN 75
+-  SAY ~Take care. The caverns of Dragon‘s Eye are fraught with many perils. Tread lightly, and be wary of the creatures that dwell within its depths.~ [ARUN_76]
+-  IF ~~ THEN REPLY ~Thank you. Farewell.~ DO ~SetGlobal("Deye_Quest","GLOBAL",1)
++  SAY @155 
++  IF ~~ THEN REPLY @143 DO ~SetGlobal("Deye_Quest","GLOBAL",1)
+ ClearAllActions()
+ StartCutSceneMode()
+-StartCutScene("To4000")~ UNSOLVED_JOURNAL ~Search for the Heartstone Gem.
+-
+-Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.~ EXIT
++StartCutScene("To4000")~ UNSOLVED_JOURNAL @156 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 76
+-  SAY ~Snake bites, you say? Hmm. Did you see any snakes or creatures that could have caused such marks?~ [ARUN_77]
+-  IF ~~ THEN REPLY ~No. Only the bodies of their victims.~ GOTO 77
++  SAY @157 
++  IF ~~ THEN REPLY @158 GOTO 77
+ END
+ 
+ IF ~~ THEN BEGIN 77
+-  SAY ~Hmm. Then the creature must have come from outside the temple... interesting. This may be just the clue we needed.~ [ARUN_78]
+-  IF ~~ THEN REPLY ~What do you mean?~ GOTO 78
++  SAY @159 
++  IF ~~ THEN REPLY @150 GOTO 78
+ END
+ 
+ IF ~~ THEN BEGIN 78
+-  SAY ~There is only one place where poisonous reptiles could thrive in these cold, windswept mountains.~ [ARUN_79]
+-  IF ~~ THEN REPLY ~And that place is?~ GOTO 74
++  SAY @160 
++  IF ~~ THEN REPLY @152 GOTO 74
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Deye_Quest","GLOBAL",1)
+ !Dead("Yxunomei")~ THEN BEGIN 79
+-  SAY ~Please... you must make haste. Time works *against* us. We must discover the source of this evil before the balance is altered irrevocably.~ [ARUN_48]
++  SAY @94 
+   IF ~Global("Ghereg_Head","GLOBAL",1)
+-Global("Ghereg_Dead","GLOBAL",0)~ THEN REPLY ~I thought you should know... I came across an ogre in the pass outside of town. This ogre, who calls himself Ghereg, complained to me about a sharp pain in his head. Is there something you can do to help him?~ GOTO 49
+-  IF ~~ THEN REPLY ~Tell me again... what must be done?~ GOTO 80
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~I will do what I can. Farewell.~ DO ~ClearAllActions()
++Global("Ghereg_Dead","GLOBAL",0)~ THEN REPLY @97 GOTO 49
++  IF ~~ THEN REPLY @43 GOTO 80
++  IF ~NumInPartyLT(2)~ THEN REPLY @44 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("To4000R")~ EXIT
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~We will do what we can. Farewell.~ DO ~ClearAllActions()
++  IF ~NumInPartyGT(1)~ THEN REPLY @45 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("To4000R")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 80
+-  SAY ~You must journey to the caverns of Dragon‘s Eye. I shall teleport you there. Find the Heartstone Gem and any information you can about the identities of the thieves who sacked the temple. When you have the Gem, return here and I will use its powers to divine the source of the evil in the pass.~ [ARUN_81]
+-  IF ~~ THEN REPLY ~Thank you. Farewell.~ DO ~ClearAllActions()
++  SAY @161 
++  IF ~~ THEN REPLY @143 DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("To4000R")~ EXIT
+ END
+@@ -732,227 +720,165 @@
+ IF ~NumberOfTimesTalkedTo(0)
+ Global("Dying_Arundel","GLOBAL",1)
+ ~ THEN BEGIN 81
+-  SAY ~(*Wounded, dying*)... At last... I feared I could not hold any longer... th-the last of my life has almost left my body, and... soon I shall be restored to the balance.~ [ARUN_82]
+-  IF ~~ THEN REPLY ~Arundel... what happened? ~ GOTO 82
++  SAY @162 
++  IF ~~ THEN REPLY @163 GOTO 82
+ END
+ 
+ IF ~~ THEN BEGIN 82
+-  SAY ~A man, but not a man... he wore my skin like a cloak, my face like a mask... he came suddenly in the night, and struck me down...~ [ARUN_83]
++  SAY @164 
+   IF ~~ THEN GOTO 83
+ END
+ 
+ IF ~~ THEN BEGIN 83
+-  SAY ~Nature itself seemed to recoil from him - even with the strength of the Great Oak bolstering me, I was unable to stop him. He touched me once... his hands as blood, and I felt... my life begin to drain away.~ [ARUN_84]
+-  IF ~~ THEN REPLY ~Arundel, hold on - we still may be able to help y--~ GOTO 84
++  SAY @165 
++  IF ~~ THEN REPLY @166 GOTO 84
+ END
+ 
+ IF ~~ THEN BEGIN 84
+-  SAY ~(*Voice strengthens, becomes steadier.*)... No, only the hope you would return has kept my body alive. You... you must take the Heartstone Gem to... the elven fortress of the Severed Hand.~ [ARUN_85]
+-  IF ~~ THEN REPLY ~Severed Hand? But why?~ GOTO 85
++  SAY @167 
++  IF ~~ THEN REPLY @168 GOTO 85
+ END
+ 
+ IF ~~ THEN BEGIN 85
+-  SAY ~The Severed Hand is the prison of Larrel, one of the last of the elven archmages... he is the only one left who can use the Heartstone Gem... if he still lives...~ [ARUN_86]
+-  IF ~!InParty("Hrothgar")~ THEN REPLY ~But the Severed Hand... I‘ve never heard of it - where can I find it?~ DO ~SetGlobal("Severed_Hand_Reveal","GLOBAL",1)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ UNSOLVED_JOURNAL ~The Severed Hand.
+-
+-We discovered Arundel in the upstairs chamber of his cottage, struck down by a man that wore the Archdruid‘s own face and whose hands were as blood. Arundel barely had the strength to tell us to seek out the ancient elven fortress of the Severed Hand, and that within the fortress is an elven mage named Larrel, the last person who can use the gem to find the source of evil plaguing Kuldahar. Arundel told us nature would guide us to the Severed Hand.~ GOTO 86
+-  IF ~InParty("Hrothgar")~ THEN REPLY ~But the Severed Hand... I‘ve never heard of it - where can I find it?~ DO ~SetGlobal("Severed_Hand_Reveal","GLOBAL",1)EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ UNSOLVED_JOURNAL ~The Severed Hand.
+-
+-We discovered Arundel in the upstairs chamber of his cottage, struck down by a man that wore the Archdruid‘s own face and whose hands were as blood. Arundel barely had the strength to tell us to seek out the ancient elven fortress of the Severed Hand, and that within the fortress is an elven mage named Larrel, the last person who can use the gem to find the source of evil plaguing Kuldahar. Arundel told us nature would guide us to the Severed Hand.~ GOTO 101
++  SAY @169 
++  IF ~!InParty("Hrothgar")~ THEN REPLY @170 DO ~SetGlobal("Severed_Hand_Reveal","GLOBAL",1)
++EraseJournalEntry(@84)
++EraseJournalEntry(@89)
++EraseJournalEntry(@141)
++EraseJournalEntry(@156)
++EraseJournalEntry(@171)~ UNSOLVED_JOURNAL @172 GOTO 86
++  IF ~InParty("Hrothgar")~ THEN REPLY @170 DO ~SetGlobal("Severed_Hand_Reveal","GLOBAL",1)EraseJournalEntry(@84)
++EraseJournalEntry(@89)
++EraseJournalEntry(@141)
++EraseJournalEntry(@156)
++EraseJournalEntry(@171)~ UNSOLVED_JOURNAL @172 GOTO 101
+ END
+ 
+ IF ~~ THEN BEGIN 86
+-  SAY ~It is to the south - nature will guide you... (*a little quieter, a little weaker*)... enough of my power remains that I may do that. Now... I must go... (*One final burst of strength, enough to keep his voice steady, but not commanding*)... Take this key. You will need it soon. Serve the balance. Protect Kuldahar from this evil.~
++  SAY @173
+   IF ~!Global("Arundel_Insulted","GLOBAL",3)
+-~ THEN REPLY ~I serve *no one,* old man, and Kuldahar can burn - but not as long as I‘m trapped here.~ GOTO 103
++~ THEN REPLY @174 GOTO 103
+   IF ~!Alignment(Player1,CHAOTIC_EVIL)
+ !Alignment(Player1,NEUTRAL_EVIL)
+ !Alignment(Player1,LAWFUL_EVIL)
+-~ THEN REPLY ~Farewell, Arundel. We will see you avenged.~ GOTO 103
++~ THEN REPLY @175 GOTO 103
+   IF ~Global("Arundel_Insulted","GLOBAL",3)
+-~ THEN REPLY ~I serve *no one,* old man, and Kuldahar can burn - but not as long as I‘m trapped here.~ GOTO 102
++~ THEN REPLY @174 GOTO 102
+ END
+ 
+ IF ~Dead("Yxunomei")
+ Global("Dying_Arundel","GLOBAL",0)
+ ~ THEN BEGIN 87
+-  SAY ~Thank Silvanus you have returned!  Evil is afoot in Kuldahar. Strange orcs prowl through town, killing our townspeople!~ [FAB_01]
++  SAY @176 
+   IF ~~ THEN GOTO 88
+ END
+ 
+ IF ~~ THEN BEGIN 88
+-  SAY ~I must ask you... have you found the source of evil in Dragon‘s Eye?~ [FAB_02]
+-  IF ~~ THEN REPLY ~Perhaps. A strange "woman" named Yxunomei was raising an army of trolls, lizard men, yuan-ti, and undead. I defeated her and many of her minions.~ DO ~SetGlobal("Arundel_Belhifet","GLOBAL",1)
++  SAY @177 
++  IF ~~ THEN REPLY @178 DO ~SetGlobal("Arundel_Belhifet","GLOBAL",1)
+ SetGlobal("Big_Scary_Global","GLOBAL",1)
+ ~ GOTO 89
+ END
+ 
+ IF ~~ THEN BEGIN 89
+-  SAY ~Excellent. Thank you for destroying my ancient enemy. I couldn‘t have planned this better myself.~ [FAB_03]
+-  IF ~~ THEN REPLY ~Wh... what? What do you mean?~ GOTO 90
++  SAY @179 
++  IF ~~ THEN REPLY @180 GOTO 90
+   IF ~Class(Player1,PALADIN)
+-~ THEN REPLY ~I can discern your aura, evil one. You are not Arundel. Who are you?~ GOTO 94
+-  IF ~~ THEN REPLY ~"Ancient enemy?"  What are you talking about?~ GOTO 94
++~ THEN REPLY @181 GOTO 94
++  IF ~~ THEN REPLY @182 GOTO 94
+ END
+ 
+ IF ~~ THEN BEGIN 90
+-  SAY ~You have been unwitting pawns in the grand scheme of things. You have saved this town from immediate destruction, but it is all for naught.~ [FAB_04]
++  SAY @183 
+   IF ~~ THEN GOTO 91
+ END
+ 
+ IF ~~ THEN BEGIN 91
+-  SAY ~In a few months, Kuldahar will be frozen solid. There‘s nothing you can do about it.~ [FAB_05]
+-  IF ~~ THEN REPLY ~Who are you?~ GOTO 92
++  SAY @184 
++  IF ~~ THEN REPLY @185 GOTO 92
+ END
+ 
+ IF ~~ THEN BEGIN 92
+-  SAY ~Who am I? I am but a simple priest, spreading the gospel of suffering to the masses.~ [FAB_06]
++  SAY @186 
+   IF ~~ THEN GOTO 93
+ END
+ 
+ IF ~~ THEN BEGIN 93
+-  SAY ~Soon, everyone will learn the litany of our faith.~ [FAB_07]
++  SAY @187 
+   IF ~~ THEN GOTO 94
+ END
+ 
+ IF ~~ THEN BEGIN 94
+-  SAY ~I am sure Yxunomei must have explained this to you. She and I have been foes for centuries. Thanks to you, the vendetta has ended. Now you may travel back to your future.~ [FAB_08]
++  SAY @188 
+   IF ~Global("TrBack0602","GLOBAL",0)
+-~ THEN REPLY ~W-What? I don‘t beleive you! You are not Arundel! How did you manage to haul me out of my time?~ DO ~SetGlobal("TrBack0602","GLOBAL",1)
++~ THEN REPLY @189 DO ~SetGlobal("TrBack0602","GLOBAL",1)
+ ~ GOTO 95
+ END
+ 
+ IF ~~ THEN BEGIN 95
+-  SAY ~Arundel is bleeding out his life upstairs. Now I can begin to build my own forces in this world without fear... There is a portal in his room you may use to return to your world. Other things are not so important for you. You may not stay here even if you wish to take your revenge over me. You must solve your parentage‘s problem as soon as possible... By the way, you shouldn‘t be upset. You destroyed the great evil forces here. Farewell, <CHARNAME>.~ [FAB_09]
++  SAY @190 
+   IF ~~ THEN DO ~SetGlobal("Dying_Arundel","GLOBAL",1)
+-EraseJournalEntry(%Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about her minions.  She told us that they were yuan-ti, and that they would inherit her "kingdom" when she concluded her business and left.%)
+-EraseJournalEntry(%Dragon‘s Eye.
+-
+-We encountered an undead creation today that was used as the "eyes and mouth" of a necromancer.  It attacked us after it had addressed us.%)
+-EraseJournalEntry(%Dragon‘s Eye.
+-
+-We saved a priestess of Ilmater, Egenia, from a group of Talonite priests and trolls.  She came up into Dragon‘s Eye to join in the suffering of the abducted villagers.  She told us that she would wait in Dragon‘s Eye to aid us until we had destroyed the source of evil.%)
+-EraseJournalEntry(%Find the missing people of Kuldahar.
+-
+-After killing the Lizard King, we encountered a little girl in front of a decline leading to a deeper level of Dragon‘s Eye.  She thanked us for killing the lizard men and told us that she was going to go home.%)
+-EraseJournalEntry(%Dragon‘s Eye.
+-
+-We met the "Lizard King" of Dragon‘s Eye.  He informed us that the upper caves of the volcano belonged to him.  He also indicated that he was brought to the caves by someone named Yxunomei.  Apparently, the lizard men do the bidding of Yxunomei to feed his people.  They abduct the villagers for food and for Yxunomei.%)
+-EraseJournalEntry(%Finding the priestess of Auril.
+-
+-We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We spoke with Kresselack‘s spirit, and he claims he is not responsible for the evil that plagues Kuldahar, but he knows who is... since we had already slain the Auril priestess that he wished dead, he was willing to share his knowledge with us. Unfortunately, all Kresselack could tell me was that neither he nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We found a little boy hiding in a closet in a mill near Kuldahar.  He told us that his father and sister were killed by goblins.  Their bodies were probably the ones we passed on the first floor.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He told us that his head hurt, that something was whispering things to him.  He didn‘t understand what was wrong with him, but he felt some instinctive urge to "answer" the voice in his head.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He asked us what he was doing there.  We responded by telling him the obvious.  It looked like he and his cousins were looting and pillaging the mill.  He responded angrily, telling us that that they were without food and had been "called" to the pass.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He asked us what he was doing there.  We asked him what he meant.  He responded bluntly, claiming that he didn‘t understand why he and his kin were "called" to the pass.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We met a strange hermit in the valley at the mouth of Kuldahar Pass.  He claimed to have witnessed the avalanche that wiped out the rest of the expedition from Easthaven and nearly killed us as well.  He told us, somewhat reluctantly, that the town of Kuldahar lay to the east of the valley, just beyond an old mill.%)
+-EraseJournalEntry(%Disturbances in Kuldahar.
+-
+-Everard, the head priest of Tempus in Easthaven, confirmed there was a messenger from the northern town of Kuldahar that came to the Temple of Tempus and died shortly after his arrival.  Before his death, the messenger spoke of great disturbances in Kuldahar and asked the people of Easthaven for help. Apparently, Hrothgar is organizing an expedition to Kuldahar to investigate the matter.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Vale of Shadows.
+-
+-We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.%)
+-EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.%)
+-EraseJournalEntry(%Finding Sheemish, Conlan‘s son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.%)
++EraseJournalEntry(@191)
++EraseJournalEntry(@192)
++EraseJournalEntry(@193)
++EraseJournalEntry(@194)
++EraseJournalEntry(@195)
++EraseJournalEntry(@196)
++EraseJournalEntry(@197)
++EraseJournalEntry(@198)
++EraseJournalEntry(@199)
++EraseJournalEntry(@200)
++EraseJournalEntry(@201)
++EraseJournalEntry(@202)
++EraseJournalEntry(@203)
++EraseJournalEntry(@84)
++EraseJournalEntry(@89)
++EraseJournalEntry(@141)
++EraseJournalEntry(@156)
++EraseJournalEntry(@204)
+ StartCutSceneMode()
+ ClearAllActions()
+ ActionOverride("arundel",Wait(1))
+ ActionOverride("arundel",ForceSpell(Myself,DRYAD_TELEPORT))
+-ActionOverride("arundel",EndCutSceneMode())~ JOURNAL ~Search for the Heartstone Gem.
+-
+-We returned to Kuldahar - only to find someone masquerading as Arundel. The shapechanger, whoever he was, thanked us for disposing of Yxunomei and allowing him "free reign" over Kuldahar and Easthaven. He vanished before we could learn more. I fear that with Arundel‘s murder, darker times are ahead for the people of Kuldahar and Easthaven.~ EXIT
++ActionOverride("arundel",EndCutSceneMode())~ JOURNAL @205 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 96
+-  SAY ~I see Hrothgar amongst you. It‘s a good sign. How do you do, my friend?~
++  SAY @206
+   IF ~~ THEN EXTERN ~HROTHJ~ 6
+ END
+ 
+ IF ~~ THEN BEGIN 97
+-  SAY ~You have already insulted me thrice. You have no respect to people, even to people who are much older and wiser than you do. I‘m dying, and you‘re still insulting me. But I do not have rights judging neither your words nor your actions. Your God will judge you.~
++  SAY @207
+   IF ~~ THEN EXTERN ~HROTHJ~ 4
+ END
+ 
+ IF ~~ THEN BEGIN 98
+-  SAY ~I know, and I am really sorry. It was I who sent Hallaster to Easthaven for help. His death weighs heavily upon my conscience, for not only was he a student of mine, but he was also a friend and trusted companion. He will be missed.~
+-  IF ~~ THEN REPLY ~You know about the avalanche?~ GOTO 4
++  SAY @208
++  IF ~~ THEN REPLY @15 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 99
+-  SAY ~You‘ve a druid in your party, I‘m sure that she has spoken to you of the balance.~
++  SAY @209
+   IF ~~ THEN EXTERN ~JAHEIRAJ~ NEJ582 //Insert before 24
+ END
+ 
+ IF ~~ THEN BEGIN 100
+-  SAY ~It‘s good to know. He is a man of legends.~
++  SAY @210
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 101
+-  SAY ~It is to the south - nature will guide you... (*a little quieter, a little weaker*)... enough of my power remains that I may do that. Now... I must go... (*One final burst of strength, enough to keep his voice steady, but not commanding*)... Hrothgar, my friend, I know you are looking for the key... Tilorn was here... Take it. Serve the balance. Protect Kuldahar from this evil.~ [ARUN_87]
+-  IF ~!Global("Arundel_Insulted","GLOBAL",3)~ THEN REPLY ~I serve *no one,* old man, and Kuldahar can burn - but not as long as I‘m trapped here.~ EXTERN ~HROTHJ~ 4
++  SAY @211 
++  IF ~!Global("Arundel_Insulted","GLOBAL",3)~ THEN REPLY @174 EXTERN ~HROTHJ~ 4
+   IF ~!Alignment(Player1,CHAOTIC_EVIL)
+ !Alignment(Player1,NEUTRAL_EVIL)
+-!Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY ~Farewell, Arundel. We will see you avenged.~ GOTO 103
+-  IF ~Global("Arundel_Insulted","GLOBAL",3)~ THEN REPLY ~I serve *no one,* old man, and Kuldahar can burn - but not as long as I‘m trapped here.~ GOTO 97
++!Alignment(Player1,LAWFUL_EVIL)~ THEN REPLY @175 GOTO 103
++  IF ~Global("Arundel_Insulted","GLOBAL",3)~ THEN REPLY @174 GOTO 97
+ END
+ 
+ IF ~~ THEN BEGIN 102
+-  SAY ~You have already insulted me thrice. You have no respect to people, even to people who are much older and wiser than you do. I‘m dying, and you‘re still insulting me. But I do not have rights judging neither your words nor your actions. Your God will judge you.~
++  SAY @207
+   IF ~~ THEN DO ~GiveItemCreate("KeyArund",Player1,0,0,0)
+ SetGlobal("VP_SoW_Portal_Talk","GLOBAL",1)
+ StartCutSceneMode()
+@@ -966,7 +892,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 103
+-  SAY ~Do what you must...~
++  SAY @212
+   IF ~~ THEN DO ~GiveItemCreate("KeyArund",Player1,0,0,0)
+ SetGlobal("VP_SoW_Portal_Talk","GLOBAL",1)
+ StartCutSceneMode()
+@@ -980,7 +906,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 104
+-  SAY ~Sometimes it is not easy to teach others of balance. Many see evil as a force to be eradicated, they cannot understand that neither will triumph fully over the other. The balance will be maintained and the cycles will continue.~
++  SAY @213
+   IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")~ THEN EXTERN ~JAHEIRAJ~ NEJ584
+@@ -989,14 +915,14 @@
+ END
+ 
+ IF ~~ THEN BEGIN 105
+-  SAY ~That is true but it is also true that occasionally, the conflict between good and evil threatens to overwhelm the balance. I sense that this is one of those times.~
++  SAY @214
+   IF ~~ THEN EXTERN ~JAHEIRAJ~ NEJ585
+ END
+ 
+ IF ~~ THEN BEGIN EREVARU1
+- SAY ~As do I Erevain. This mountain community is under more strain than ever. With me as an archdruid or not, we will need this expedition's help.~
+-  IF ~!InParty("Hrothgar")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 3
+-  IF ~!InParty("Hrothgar")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 3
+-  IF ~InParty("Hrothgar")~ THEN REPLY ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~ GOTO 96
+-  IF ~InParty("Hrothgar")~ THEN REPLY ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~ GOTO 96
++ SAY @215
++  IF ~!InParty("Hrothgar")~ THEN REPLY @12 GOTO 3
++  IF ~!InParty("Hrothgar")~ THEN REPLY @13 GOTO 3
++  IF ~InParty("Hrothgar")~ THEN REPLY @12 GOTO 96
++  IF ~InParty("Hrothgar")~ THEN REPLY @13 GOTO 96
+ END  

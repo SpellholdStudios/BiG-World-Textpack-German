@@ -1,0 +1,54 @@
+--- NeJE\dlg\TuGuard2.d	Sun Mar 29 23:37:45 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuGuard2.d	Tue Apr 09 19:37:30 2019
+@@ -1,20 +1,20 @@
+ BEGIN ~TUGUARD2~
+ 
+ IF ~Global("VP_Breaking_Rules","GLOBAL",1)~ THEN BEGIN 0
+-  SAY ~You people there! What is the meaning of bearing arms in the Academy? You know the rules well enough!~
+-  IF ~PartyHasItem("TuSwordP")~ THEN REPLY ~I apologise for my forgetfulness. I found this sword whilst aiding Lavallin.~ GOTO 1
+-  IF ~~ THEN REPLY ~Whoops! I forgot for a moment.~ GOTO 3
+-  IF ~PartyHasItem("TuSwordP")~ THEN REPLY ~Hold a minute. I took this from the body of a thief and was about to give it to Lavallin.~ GOTO 1
+-  IF ~PartyHasItem("TuSwordP")~ THEN REPLY ~Speak to Lavallin. He will assure you that I am not intentionally carrying weapons. Here, take it yourself.~ GOTO 1
++  SAY @0
++  IF ~PartyHasItem("TuSwordP")~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~PartyHasItem("TuSwordP")~ THEN REPLY @3 GOTO 1
++  IF ~PartyHasItem("TuSwordP")~ THEN REPLY @4 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~There is no excuse for weapons being on the premises. The rules are plain enough so that even an imbecile knows the consequences for flouting them.~
++  SAY @5
+   IF ~~ THEN GOTO 2    
+ END  
+   
+ IF ~~ THEN BEGIN 2
+-  SAY ~I‘ll take this sword and talk to Lavallin. You shall be warned only once. The rules must and will be upheld by all!~
++  SAY @6
+   IF ~~ THEN DO ~RealSetGlobalTimer("VP_Last_Warning","GLOBAL",60)
+ TakePartyItem("TuSwordP")
+ DestroyItem("TuSwordP")
+@@ -22,12 +22,12 @@
+ END   
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~There is no excuse for weapons being on the premises. The rules are plain enough so that even an imbecile knows the consequences for flouting them.~
++  SAY @5
+   IF ~~ THEN GOTO 4    
+ END  
+   
+ IF ~~ THEN BEGIN 4
+-  SAY ~You shall be warned only once. The rules must and will be upheld by all!~
++  SAY @7
+   IF ~~ THEN DO ~RealSetGlobalTimer("VP_Last_Warning","GLOBAL",60)
+ TakePartyItem("TuSw1H01")
+ TakePartyItem("TuSw1H02")
+@@ -39,7 +39,7 @@
+ END
+ 
+ IF ~Global("VP_Breaking_Rules","GLOBAL",2)~ THEN BEGIN 5
+-  SAY ~You have been warned.~
++  SAY @8
+   IF ~~ THEN DO ~SetGlobal("VP_Breaking_Rules","GLOBAL",3)
+ SetGlobal("VP_HalruaaHostile","GLOBAL",1)
+ Enemy()~ EXIT

@@ -1,0 +1,19 @@
+@0    = ~Good, I see you are awake at last <CHARNAME>. Come and meet our distinguished guest. <CHARNAME> this is Hrothgar.~
+@1    = ~(*You look at the man and know instinctively that here is a man of immense importance. A feeling of familiarity passes over you for a second but is instantly lost*.)
+
+I am pleased to meet you sir, but have we not met before? For a moment there I thought I should know you.~
+@2    = ~Hrothgar, now that you have made the acquaintance of <CHARNAME>, should we not consider setting about the task at hand?~
+@3    = ~<CHARNAME>, we must ready ourselves for a journey. Go, gather your possessions and equip yourself for the road.~
+@4    = ~This is very unnerving, I know, but you must trust me.  It is very important that you pack your possessions so that we may leave Candlekeep immediately. Hurry, for there is no time to tarry! The keep is well protected, but not invulnerable.~
+@5    = ~I'm ready to go right now.~
+@6    = ~Please father, tell me where we will be going.~
+@7    = ~What could possibly harm us here? This place is a fortress, and guarded beyond measure.~
+@8    = ~What should I bring with me on this journey? If you would just give some clue as to what I will need...~
+@9    = ~Gorion, am I to know where it is that we are in so much haste to be going to? What is this artifact is that you seek or even who Hrothgar's Brethren are? Why...~
+@10   = ~Alas, I cannot, for I have not truly decided yet. All that is certain is that we will be far safer on the move. Perhaps the woods might offer some secluded security, or perhaps the city of Baldur's Gate would offer cover amidst its teaming throngs of people. I do not know where we shall end up, but I have a few friends here and there. Hmm...I will think on this...~
+@11   = ~What could possibly harm us here?  This place is a fortress, and guarded beyond measure.~
+@12   = ~What should I bring with me on this journey?  If you would just give some clue as to what I will need...~
+@13   = ~Candlekeep is indeed a formidable obstacle for ne'er-do-wells, but it is not insurmountable. No matter how thick the mesh, at least one mosquito always finds its way through. No my child, we must leave as soon as possible, for our safety, and for that of our friends here.~
+@14   = ~My dear child, you should know yourself well enough to purchase the gear you need. I have given you what I can spare, so hurry off to the Inn and speak with Winthrop. Use your skills as a reference and buy what basics you must, though spend wisely. His prices are fair, but you may not have enough gold to purchase all that you would want. I'll wait for you outside.~
+@15   = ~(*Interrupts you before you can finish your next question.*) This is not the time for questions, <CHARNAME>, they will have to wait. You must ready yourself for our journey.~
+@16   = ~But...~

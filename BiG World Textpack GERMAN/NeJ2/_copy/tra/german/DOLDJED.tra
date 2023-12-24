@@ -1,0 +1,69 @@
+@0  = ~Hallo, Kumpel. Wie geht's... hick... Euch?~ 
+@1  = ~Hallo, nett, Euch kennen zu lernen. Wie geht es Euch?~
+@2  = ~Puh! Mal wieder zu tief ins Glas geschaut, Alter?~ 
+@3  = ~Mir geht's gut, aber ich muss wirklich weiter. Lebt wohl.~
+@4  = ~Nicht so gut, Kumpel. Grisella, die Wirtin von der "Winterwiege", gibt mir nichts mehr. Wie soll ich da richtig fischen?~ 
+@5  = ~Ähm... Ich weiß nicht. Einfach ohne Alkohol? Vielleicht?~
+@6  = ~Ihr brecht mir das Herz, Alter.~
+@7  = ~Warum tut sie das?~ 
+@8  = ~Das kann sie nicht machen. Ich schlage vor, Ihr schlagt nachts eines ihrer Fenster mit einem dicken Tuch ein und nehmt eine Angelrute, um eine Auswahl an Alkohol rauszufischen. Ich kann Euch zeigen, wie Ihr die Schnur knoten müsst...~
+@9  = ~Ihr könnt Euch nicht alles gefallen lassen. Ich schlage vor, Ihr erteilt ihr eine Lektion... Während sie schläft... wenn Ihr verstehst, was ich meine. Dann sehen die Leute in der Stadt, dass sie nicht alles mit Euch machen können.~ 
+@10 = ~Hmm. Das ist ja wirklich bitter. Na ja, ich muss gehen. Lebt wohl.~
+@11 = ~Die Wirtin sagt, ich trink zu viel. Was weiß die denn? Mein Boot ist nur dreimal... na ja, viermal gekentert. Egal, ich brauch meinen Wein, damit ich richtig fischen kann.~
+@12 = ~Kann ich irgendetwas tun, um Euer unaufhaltsames Abrutschen in die Besinnungslosigkeit zu unterstützen?~ 
+@13 = ~Hmm. Alkohol ist keine Lösung für Eure beruflichen Probleme. Ich schlage vor, Ihr besprecht Eure Probleme mit einem Priester. Lebt wohl.~
+@14 = ~Den Wein braucht Ihr nicht wirklich. Er ist nur ein Symbol für Eure verlorene Jugend und Eure Unfähigkeit, alles, was Ihr wolltet, in dieser kurzen Zeit zu erreichen, die Ihr in dieser verlassenen Einöde, diesem... diesem Osthafen habt. Die Flasche ist Euer Gefängnis, ein Füllhorn von derber Freude, das für alle Eure Probleme in dieser Welt steht. Im Ernst.~ 
+@15 = ~Ihr *braucht* den Wein nicht wirklich. Ihr hängt nur am Wein. Ihr seid süchtig. Er hilft Euch gar nicht beim Fischen. Er hindert Euch wahrscheinlich sogar daran, ein wirklich guter Fischer zu sein und Eure "goldenen Jahre" zu genießen.~
+@16 = ~Na, viel Glück mit Eurem Problem. Ich muss jetzt gehen. Lebt wohl.~
+@17 = ~Das ist keine Sache, über die man sich lustig macht. Ich hab damit wirklich ein Problem, versteht Ihr. Ich BRAUCH meinen Wein zum Fischen. Es geht um Leben und Tod, Kumpel!~
+@18 = ~Zu dumm, Alter. Ihr seid nur eine verwelkte Hülle, und Schuld daran ist niemand anderer als Ihr selbst. Lebt wohl.~ 
+@19 = ~Ihr könntet zu Pomab gehen und mir Wein holen. Dann könnt ich weiter fischen. Dafür wär' ich dankbar. Ich würd' ihn selbst holen, aber vor zwei Sommern hab ich mich so aufgeregt über diesen aufgeblasenen Pomab, dass ich seinen dummen Hintern in den Dinneshere-See befördert hab'.~
+@20 = ~Sicher. Ihr scheint ein ganz netter alter Mann zu sein... in der Art "betrunkener Fischer"...~ 
+@21 = ~Aber wie dankbar genau wäret Ihr?~ 
+@22 = ~Ihr meint, wie diese Flasche, die ich hier habe?~
+@23 = ~Hmm. Scheint nicht mein Ding zu sein. Lebt wohl.~ 
+@24 = ~Ja! Danke, Kumpel. Pomabs Laden ist in der nordöstlichen Ecke der Stadt.~
+@25 = ~Gut. Ich bin bald wieder da.~
+@26 = ~Eine Flasche Wein für den Alten Jed
+
+Einer der einheimischen Fischer, der Alte Jed, bat uns, ihm aus Pomabs Warenhaus, einem Laden im Nordostteil der Stadt, eine Flasche Wein zu holen.~
+@27 = ~Oh, oh. Wenn ich's mir recht überlege, will ich damit nichts zu tun haben. Tut mir Leid. Lebt wohl.~
+@28 = ~Ja, ähm... Ich kann Euch ein bisschen Gold geben. Und... und Ihr könnt Mitglied der Ewigen Bruderschaft der Fischer werden!~
+@29 = ~Also, wenn das so ist, mache ich es.~
+@30 = ~Also, wenn das so ist... Hier, nimm. Ich habe zufällig Wein dabei.~
+@31 = ~Warum sollte ich ein alter, betrunkener Mann sein wollen? Bis später, Saufbruder. Lebt wohl.~
+@32 = ~Ah! Ihr habt eine Flasche Wein für mich! Kumpel, ich bin Euch wirklich dankbar.~
+@33 = ~Trinkt nicht alles auf einmal, Freund. Lebt wohl.~
+@34 = ~Eine Flasche Wein für den Alten Jed
+
+Wir brachten dem Alten Jed, einem der Fischer von Osthafen, eine Flasche Wein.~
+@35 = ~Teilt's Euch gut ein, Käpt'n. Es wird nicht immer gerade ein Abenteurer da sein, der Euch Eure "Medizin" holt. Lebt wohl.~
+@36 = ~Das ist alles Teil eines Arbeitstags von Abenteurertypen. Lebt wohl.~
+@37 = ~Hey! Ich will hier keine gemeinen Rüpel mehr sehen. Ich kann's nicht glauben, dass Ihr nicht mal einem alten -ack helfen wollt! Ich sterbe, sterbe... brauch'... Wein...~
+@38 = ~Man erntet, was man sät, Alter. Ich hoffe, Ihr vertrocknet und sterbt, stocksaurer Trottel. Lebt wohl.~
+@39 = ~Gut, gut. Hier ist Euer blöder Wein.~
+@40 = ~In Ordnung. Ich hol Euch Euren Wein.~
+@41 = ~Oje. Tut mir Leid. Lebt wohl.~
+@42 = ~Ah, mein Kumpel! Habt Ihr meinen Wein schon?~
+@43 = ~Hört zu, Ihr alter Trunkenbold, ich habe noch woanders was zu tun. Ich holEuch Euren Fusel, wenn ich dazu komme. Lebt wohl.~
+@44 = ~Ich hab's mir anders überlegt. Ich werde Euch den Wein nicht holen.~
+@45 = ~Ich arbeite dran. Solche Dinge brauchen Zeit. Lebt wohl.~
+@46 = ~Na, wenn das nicht das neueste Mitglied der Ewigen Bruderschaft der Fischer ist! Danke noch mal, dass Ihr mir geholfen habt, Kumpel. Arrrr!~
+@47 = ~Ich... ähm... also. Hmm. So hat mir das noch keiner erklärt, Kumpel. Ich vermute, es macht Sinn, wenn ich's mir so überleg'. Eigentlich ist es sogar der beste Rat, den ich seit langem bekommen hab. Danke, Kumpel! Hier habt Ihr was für Eure Hilfe.~
+@48 = ~Hat mich gefreut, helfen zu können. Lebt wohl.~
+@49 = ~Eine Flasche Wein für den Alten Jed
+
+Wir überzeugten den Alten Jed, einen der Fischer von Osthafen, dass er mit seiner Trinkerei in einem selbstzerstörerischen Teufelskreis versinkt. Er sollte von jetzt an die Finger vom Alkohol lassen... oder wenigstens ein bisschen weniger trinken.~
+@50 = ~Ähm... Danke für Euren Rat, Kumpel, aber ich glaub nicht, dass ich das mach'. Ich BRAUCH meinen Wein, Kumpel, aber ich kann nicht das Gesetz brechen, um ihn zu kriegen.~
+@51 = ~Den Wein braucht Ihr nicht wirklich. Er ist nur ein Symbol für Eure verlorene Jugend und Eure Unfähigkeit, alles, was Ihr wolltet, in dieser kurzen Zeit zu erreichen, die Ihr in dieser verlassenen Einöde, diesem... diesem "Osthafen" habt. Die Flasche ist Euer Gefängnis, ein Füllhorn von derber Freude, das für alle Eure Probleme in dieser Welt steht. Im Ernst.~
+@52 = ~Ihr BRAUCHT den Wein nicht wirklich. Ihr hängt nur am Wein. Ihr seid süchtig. Er hilft Euch gar nicht beim Fischen. Er hindert Euch wahrscheinlich sogar daran, ein wirklich guter Fischer zu sein und Eure "goldenen Jahre" zu genießen.~
+@53 = ~Also, viel Glück mit Eurem Problem. Tut mir Leid, aber ich kann Euch nicht helfen. Ich muss jetzt gehen. Lebt wohl.~
+@54 = ~He da, Kumpel. *hick* Wir sin' erledischt. Alle Riesen un' Kinder werd'n von den Frau'n inner Feschtung südlich vonner Stadt gehalt'n, hinner de Brücke. Everard is auch gefang'n. Komm, trink einen mit Jed, dann können wa uns die Zeit  vertreib'n.~
+@55 = ~Was ist passiert? Warum wurde Everard gefangen genommen?~
+@56 = ~Wir fanden den Alten Jed betrunken im Keller der Winterwiege. Er sagte uns, dass Everard und die anderen Dorfbewohner von Riesen gefangen worden seien und in einem Palisadenlager im Süden des Dorfes, hinter der Brücke, festgehalten würden. Kaum beendeten wir unser Gespräch mit ihm, verlor er die Besinnung.~
+@57 = ~Ich rettete Everard und die anderen Dorfbewohner bereits, Jed.~
+@58 = ~Lebt wohl, Jed.~
+@59 = ~Ihr wieder, hä, Kumpel? Ihr glaubt wohl, ich binnen Feichling, hä? ICH HAB KEINE ANGSCHT VOR GAR NISCHT! Ich hab geseh'n, wie Wellen von Riesen übern See gekommen sinn. Ich ssspieß die salzigen Heringe mit zehn von meine Harpunen auf, wennse hierher kommen. Hähähä... *scharch* *schnarch*~
+@60 = ~Öh... lebt wohl, Jed.~
+@61 = ~Ach, was wollt Ihr von mir wiss'n? Da war'n die... *schnarch* RIESEN! Es kommen Ries'n inne Stadt! Sie ham nur ein Auge zum Sehen. Ja, ja. Und die... *schnarch* *schnarch* Accalia... hübsches Ding... *schnarch* Everard... beschützt... gefang'n... *schnarch*~
+@62 = ~HE, HURRAH. Ich proschte Euch zu, Kumpel... *schnarch* *schnarch* hasse... Pomab... *schnarch* werd' seinen Arsch harpunier'n... *schnarch*~

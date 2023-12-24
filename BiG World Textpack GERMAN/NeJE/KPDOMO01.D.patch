@@ -1,0 +1,11 @@
+--- NeJE\dlg\KPDOMO01.D	Thu Aug 30 00:42:48 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\KPDOMO01.D	Tue Apr 09 19:36:38 2019
+@@ -33,7 +33,7 @@
+ APPEND ~KPDOMO01~
+ 
+ IF ~~ THEN BEGIN N2 // from:
+-  SAY ~I run day-to-day operations in the keep, handling servants and any minor problems that occur with the farmers or others on your land.~
++  SAY @0
+   IF ~~ THEN GOTO 3
+ END
+ END

@@ -1,0 +1,56 @@
+--- NeJ\Dfiles\DEHEALER.D	Tue Dec 02 23:26:14 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DEHEALER.D	Wed Apr 10 10:23:57 2019
+@@ -1,33 +1,33 @@
+ BEGIN ~DEHEALER~ 87818 // non-zero flags may indicate non-pausing dialogue
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~Well met, traveler.  I'm Sharra, a healer.  Can I be of some assistance?~ 
+-  IF ~~ THEN REPLY ~Yes.  I need the services of a healer.~  DO ~StartStore("Dehtempl",Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Yes.  Do you know anything about the Heartstone Gem?~  GOTO 1
+-  IF ~~ THEN REPLY ~Do you know anything about the strange happenings in Kuldahar?~  GOTO 2
+-  IF ~~ THEN REPLY ~Could I rest here?~  DO ~RestParty()~ EXIT
+-  IF ~~ THEN REPLY ~No.  Farewell, Sharra.~  EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @1  DO ~StartStore("Dehtempl",Player1)~ EXIT
++  IF ~~ THEN REPLY @2  GOTO 1
++  IF ~~ THEN REPLY @3  GOTO 2
++  IF ~~ THEN REPLY @4  DO ~RestParty()~ EXIT
++  IF ~~ THEN REPLY @5  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 3.0 2.0 0.1
+-  SAY ~The Heartstone Gem?  No, I'm sorry.  I've never even heard of it.  I'm sorry I can't be of more help.~ 
+-  IF ~~ THEN REPLY ~Could I rest here?~  DO ~RestParty()~ EXIT
+-  IF ~~ THEN REPLY ~Strange abductions and sightings of monsters have been occurring near Kuldahar.  Do you know anything about them?~  GOTO 2
+-  IF ~~ THEN REPLY ~Farewell, Sharra.~  EXIT
++  SAY @6 
++  IF ~~ THEN REPLY @4  DO ~RestParty()~ EXIT
++  IF ~~ THEN REPLY @7  GOTO 2
++  IF ~~ THEN REPLY @8  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 3.1 1.1 0.2
+-  SAY ~We live a secluded life here in these caverns.  I don't get out very much.  It's difficult with all of the evil going on above us.~ 
+-  IF ~~ THEN REPLY ~Sure.  Do you know anything about the Heartstone Gem?~  GOTO 1
+-  IF ~~ THEN REPLY ~Could I rest here?~  DO ~RestParty()~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Sharra.~  EXIT
++  SAY @9 
++  IF ~~ THEN REPLY @10  GOTO 1
++  IF ~~ THEN REPLY @4  DO ~RestParty()~ EXIT
++  IF ~~ THEN REPLY @8  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 3 // from:
+-  SAY ~Hello again.  Can I assist you with something?~ 
+-  IF ~~ THEN REPLY ~Sure.  Do you know anything about the Heartstone Gem?~  GOTO 1
+-  IF ~~ THEN REPLY ~Strange abductions and sightings of monsters have been occurring near Kuldahar.  Do you know anything about them?~  GOTO 2
+-  IF ~~ THEN REPLY ~Yes.  Can you help heal me?~  DO ~StartStore("Dehtempl",Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Could I rest here?~  DO ~RestParty()~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Sharra.~  EXIT
++  SAY @11 
++  IF ~~ THEN REPLY @10  GOTO 1
++  IF ~~ THEN REPLY @7  GOTO 2
++  IF ~~ THEN REPLY @12  DO ~StartStore("Dehtempl",Player1)~ EXIT
++  IF ~~ THEN REPLY @4  DO ~RestParty()~ EXIT
++  IF ~~ THEN REPLY @8  EXIT
+ END

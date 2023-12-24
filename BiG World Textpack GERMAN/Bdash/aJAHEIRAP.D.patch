@@ -1,0 +1,77 @@
+--- Bdash\BGTComp\aJAHEIRAP.D	Sat Aug 05 22:25:44 2006
++++ C:\BWP Patchstudio\patched files\Bdash\BGTComp\aJAHEIRAP.D	Wed May 04 07:21:18 2016
+@@ -5,14 +5,14 @@
+ IF WEIGHT #-4 ~!InParty("Khalid")
+ Global("IWasKickedOut","LOCALS",0)
+ GlobalLT("ENDOFBG1","GLOBAL",2)~ THEN BEGIN s0
+-  SAY ~I openly question your judgement, but it is your decision to make. You do show some measure of leadership, and I should be glad to assist you in the future.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("IWasKickedOut","LOCALS",1)~ EXIT
+ END
+ 
+ IF WEIGHT #-3 ~InParty("Khalid")
+ Global("IWasKickedOut","LOCALS",0)
+ GlobalLT("ENDOFBG1","GLOBAL",2)~ THEN BEGIN s1
+-  SAY ~I openly question your judgement, but it is your decision to make. You do show some measure of leadership, and I should be glad to assist you in the future.  Come Khalid, we must depart for now.~
++  SAY @1
+   IF ~~ THEN DO ~ActionOverride("Khalid",ChangeAIScript("",DEFAULT))
+ ActionOverride("Khalid",LeaveParty())
+ ActionOverride("Khalid",SetDialogue("KhaliP"))
+@@ -23,13 +23,13 @@
+ END
+ 
+ IF ~False()~ THEN BEGIN s2
+-  SAY ~Perhaps it is for the best. I would rather be somewhere else, as you appear to be somewhat of a lost cause.  You have some of Gorion’s sense, but little of his wisdom.~
++  SAY @2
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",1)
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~False()~ THEN BEGIN s3
+-  SAY ~Perhaps it is for the best. I would rather be somewhere else, as you appear to be somewhat of a lost cause.  You have some of Gorion’s sense, but little of his wisdom.  Come Khalid, there are better places for us than this.~
++  SAY @3
+   IF ~~ THEN DO ~ActionOverride("Khalid",ChangeAIScript("",DEFAULT))
+ ActionOverride("Khalid",LeaveParty())
+ ActionOverride("Khalid",SetDialogue("KhaliP"))
+@@ -42,32 +42,32 @@
+ IF WEIGHT #-2 ~!Dead("Khalid")
+ Global("IWasKickedOut","LOCALS",1)
+ GlobalLT("ENDOFBG1","GLOBAL",2)~ THEN BEGIN s4
+-  SAY ~You have returned. Perhaps you have discovered some of the wisdom that Gorion tried to impart upon you?  Shall we rejoin for the good of all?~
+-  IF ~~ THEN REPLY ~I have returned to you by my own choice, not that of my foster father.  If you join with me, you join MY group, not Gorion’s.~ GOTO s8
+-  IF ~~ THEN REPLY ~Regardless of Gorion’s teachings, I have decided that it is not the best time for you to rejoin with me.~ GOTO s6
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO s8
++  IF ~~ THEN REPLY @6 GOTO s6
+ END
+ 
+ IF WEIGHT #-1 ~Dead("Khalid")
+ Global("IWasKickedOut","LOCALS",1)
+ GlobalLT("ENDOFBG1","GLOBAL",2)~ THEN BEGIN s5
+-  SAY ~You have returned.  Perhaps you have discovered some of the wisdom that Gorion tried to impart upon you?  Shall we rejoin for the good of all?~
+-  IF ~~ THEN REPLY ~I have returned to you by my own choice, not that of my foster father.  If you join with me, you join MY group, not Gorion’s.~ GOTO s7
+-  IF ~~ THEN REPLY ~Regardless of Gorion’s teachings, I have decided that it is not the best time for you to rejoin with me.~ GOTO s6
++  SAY @7
++  IF ~~ THEN REPLY @5 GOTO s7
++  IF ~~ THEN REPLY @6 GOTO s6
+ END
+ 
+ IF ~~ THEN BEGIN s6
+-  SAY ~Then I shall await the day when your senses return to you, for it is foolish to disregard such helpful and righteous allies.~
++  SAY @8
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN s7
+-  SAY ~As well it should be.  Gorion taught you as best he could, and evidently some of that knowledge has stuck after all.~
++  SAY @9
+   IF ~~ THEN DO ~SetGlobal("IWasKickedOut","LOCALS",0)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN s8
+-  SAY ~As well it should be.  Gorion taught you as best he could, and evidently some of that knowledge has stuck after all.~
++  SAY @9
+   IF ~~ THEN DO ~ActionOverride("Khalid",SetGlobal("IWasKickedOut","LOCALS",0))
+ ActionOverride("Khalid",JoinParty())
+ SetGlobal("IWasKickedOut","LOCALS",0)

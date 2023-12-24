@@ -1,0 +1,315 @@
+--- NeJE\dlg\DACCALIA.D	Mon Jan 19 15:54:10 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DACCALIA.D	Tue Apr 09 19:35:39 2019
+@@ -2,214 +2,214 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ Global("Accalia_Jerk","GLOBAL",0)~ THEN BEGIN 0
+-  SAY ~Hello.  My name is Accalia.  I'm an initiate here at the temple of Tempus.  I help Everard maintain the temple armoury and perform rituals.~
+-  IF ~GlobalGT("Know_Hrothgar","GLOBAL",0)~ THEN REPLY ~Well met, Accalia.  I'm <CHARNAME>.  You're an initiate in the Tempuran faith, eh?  I didn't realize that the Lord of Battles was so popular up here.~ GOTO 1
+-  IF ~~ THEN REPLY ~Greetings, Accalia.  Rituals, you say?  What kind of rituals?~ GOTO 2
+-  IF ~~ THEN REPLY ~Well met, Accalia, but I have to go.  Farewell.~ EXIT
+-  IF ~Global("Meet_Accalia","GLOBAL",0)~ THEN REPLY ~Greetings, Accalia. You remind me somebody I knew well... Your eyes, your voice...~ DO ~SetGlobal("Meet_Accalia","GLOBAL",1)
++  SAY @0
++  IF ~GlobalGT("Know_Hrothgar","GLOBAL",0)~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 2
++  IF ~~ THEN REPLY @3 EXIT
++  IF ~Global("Meet_Accalia","GLOBAL",0)~ THEN REPLY @4 DO ~SetGlobal("Meet_Accalia","GLOBAL",1)
+ SetGlobal("My_Grand_Daughter","GLOBAL",1)~ GOTO 23
+-  IF ~Global("Join_Accalia","GLOBAL",1)~ THEN REPLY ~Hrothgar has told me that you would be willing to join our expedition.~ GOTO 20
++  IF ~Global("Join_Accalia","GLOBAL",1)~ THEN REPLY @5 GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Tempus is revered a great deal by the barbarian tribes up here.  They call him "Tempos."  We immigrants see a lot of conflict and violence in these parts, and people want to make sense out of it all.~
+-  IF ~~ THEN REPLY ~Barbarian tribes?~ GOTO 3
+-  IF ~~ THEN REPLY ~And what sense *can* be made out of it all?~ GOTO 4
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @8 GOTO 4
+   IF ~Class(Player1,PALADIN)
+-~ THEN REPLY ~I suppose you could make sense out it, but why not seek a spiritual anchor for hope instead of a gloomy explanation about mankind's warlike nature?~ GOTO 5
++~ THEN REPLY @9 GOTO 5
+   IF ~Global("Accalia_Immigrant","GLOBAL",0)
+-~ THEN REPLY ~You said, "We immigrants."  Where are you from?~ DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
++~ THEN REPLY @10 DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
+ ~ GOTO 6
+-  IF ~~ THEN REPLY ~This is a harsh realm, indeed.  I must take my leave now.  Farewell, Accalia.~ EXIT
++  IF ~~ THEN REPLY @11 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~We celebrate the Feast of the Moon in remembrance of the battle dead.  We also sing the Song of the Sword at least once a tenday.  Because of the church's close proximity to the site of so many great battles, our congregation also has local celebrations to remember all of the mighty conflicts that have raged across Icewind Dale.  The most important daily ceremonies are the Feast of Heroes at highsun and the Song for the Fallen at sunset.~
++  SAY @12
+   IF ~Class(Player1,CLERIC)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
++~ THEN REPLY @13 GOTO 7
+   IF ~Class(Player1,CLERIC_MAGE)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
++~ THEN REPLY @13 GOTO 7
+   IF ~Class(Player1,CLERIC_RANGER)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
++~ THEN REPLY @13 GOTO 7
+   IF ~Class(Player1,CLERIC_THIEF)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
++~ THEN REPLY @13 GOTO 7
+   IF ~Class(Player1,FIGHTER_CLERIC)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
++~ THEN REPLY @13 GOTO 7
+   IF ~Class(Player1,FIGHTER_MAGE_CLERIC)
+-~ THEN REPLY ~Aren't ceremonies for the dead more important for the church of Myrkul?~ GOTO 7
+-  IF ~~ THEN REPLY ~What local battles do you celebrate?~ DO ~SetGlobal("Jered_Stone","GLOBAL",1)
++~ THEN REPLY @13 GOTO 7
++  IF ~~ THEN REPLY @14 DO ~SetGlobal("Jered_Stone","GLOBAL",1)
+ ~ GOTO 8
+-  IF ~~ THEN REPLY ~What are the "Feast of Heroes" and the "Song for the Fallen?"~ GOTO 9
+-  IF ~~ THEN REPLY ~That's interesting.  It was nice speaking with you, Accalia, but I must be off.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @15 GOTO 9
++  IF ~~ THEN REPLY @16 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~It changes from season to season, from year to year... like all things.  They are mistrustful of us immigrants and often view our settlements here as an intrusion on their land.  Sometimes they trade with us, sometimes they war with us.~
+-  IF ~~ THEN REPLY ~Sounds like a love-hate relationship.  At least they don't try to kill you *all* the time.~ GOTO 10
+-  IF ~~ THEN REPLY ~Bah!  Some civilized nation should come up here and smash the life out of those impudent barbarians.  How do they expect progress to be made?  By sitting on the tundra and beating on a stupid drum?~ GOTO 11
++  SAY @17
++  IF ~~ THEN REPLY @18 GOTO 10
++  IF ~~ THEN REPLY @19 GOTO 11
+   IF ~Class(Player1,DRUID)
+-~ THEN REPLY ~I suppose it is their nature to see the immigrants as a threat to their way of life.  The tribes' anger is probably more out of cultural isolation than any actual threat.~ GOTO 10
++~ THEN REPLY @20 GOTO 10
+   IF ~Class(Player1,RANGER)
+-~ THEN REPLY ~I suppose it is their nature to see the immigrants as a threat to their way of life.  The tribes' anger is probably more out of cultural isolation than any actual threat.~ GOTO 10
+-  IF ~~ THEN REPLY ~And well they should.  You people treat this land like garbage!  Why, this very temple is an affront to the pristine beauty of the Spine of the World.~ GOTO 12
++~ THEN REPLY @20 GOTO 10
++  IF ~~ THEN REPLY @21 GOTO 12
+   IF ~Global("Accalia_Immigrant","GLOBAL",0)
+-~ THEN REPLY ~You said "us immigrants."  Where are you from?~ DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
++~ THEN REPLY @22 DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
+ ~ GOTO 6
+-  IF ~~ THEN REPLY ~This seems to be a dangerous place to live.  I must be going now.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @23 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~It is actually part of a simple truth that we Tempurans believe.  Conflict is all around us.  Every man and woman has something that he or she believes in, which he or she will die to promote or preserve.  Tempus tells us that we should live for something of importance.  If we kill, if we die... the same.  We preach that conflict and war are vital to mankind's existence.~
+-  IF ~~ THEN REPLY ~I agree.  Even if we don't like the fact that it's happening, conflict is pretty inevitable in life.~ GOTO 13
+-  IF ~~ THEN REPLY ~What a joke.  I can't believe you're actually serious.  War isn't vital to our existence.  How about things like love and tolerance?  How do those fit into Tempus' plan?  Some theory you got there.~ GOTO 14
+-  IF ~~ THEN REPLY ~That's something to think about.  I must be going now.  Farewell.~ EXIT
++  SAY @24
++  IF ~~ THEN REPLY @25 GOTO 13
++  IF ~~ THEN REPLY @26 GOTO 14
++  IF ~~ THEN REPLY @27 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~The point is that it's not "gloomy."  It's not an end unto itself.  Conflict, war - they are the means to an end.  Tempus does not determine the merit of a cause.  He simply measures the valor and dedication of those who are brave enough to fight, kill and die for what they believe in.~
+-  IF ~~ THEN REPLY ~Hmm.  That seems like a rather empty philosophy.  I'd much rather belong to a religion that stands for something of moral significance.~ GOTO 15
+-  IF ~~ THEN REPLY ~You do have a point.  I suppose I do practice what you preach.  The battle between good and evil is as old as Abeir-Toril itself.  However, I cannot revere conflict itself.  Even if I rely on war to accomplish my goals, I certainly do not cherish the activity.~ GOTO 15
+-  IF ~~ THEN REPLY ~An interesting viewpoint.  Farewell.~ EXIT
++  SAY @28
++  IF ~~ THEN REPLY @29 GOTO 15
++  IF ~~ THEN REPLY @30 GOTO 15
++  IF ~~ THEN REPLY @31 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~I am originally from Neverwinter.  I came here to aid Battlelord Everard when the former Warpriest, Renfeld, was killed in a battle against the barbarians near Bryn Shander.~
+-  IF ~~ THEN REPLY ~Ouch.  I guess those barbarians really don't like the immigrants too much.~ GOTO 3
++  SAY @32
++  IF ~~ THEN REPLY @33 GOTO 3
+   IF ~Global("Jered_Stone","GLOBAL",1)
+-~ THEN REPLY ~What's Everard like?~ GOTO 16
+-  IF ~~ THEN REPLY ~Interesting.  Farewell.~ EXIT
++~ THEN REPLY @34 GOTO 16
++  IF ~~ THEN REPLY @35 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~True, the church of Myrkul does perform ceremonies for the dead, but that foul god does them no honor.  Tempus holds a special place in his heart for those who have died in battle, showing valor and passion.  We celebrate their deaths to show respect for a life given to battle.~
+-  IF ~~ THEN REPLY ~I see.  What local battles do you celebrate?~ DO ~SetGlobal("Jered_Stone","GLOBAL",1)
++  SAY @36
++  IF ~~ THEN REPLY @37 DO ~SetGlobal("Jered_Stone","GLOBAL",1)
+ ~ GOTO 8
+-  IF ~~ THEN REPLY ~How pathetic.  Holding a celebration for those who have thrown away their lives...that's just stupid.~ GOTO 12
+-  IF ~~ THEN REPLY ~Thanks for the information.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @38 GOTO 12
++  IF ~~ THEN REPLY @39 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~We celebrate the Battle of Jerrod's Stone.  I'd tell you more about it, but Everard prefers that any questions about it be directed to him... he has somewhat of a different perspective on the teachings than most.  Ask him about it if you see him.~
+-  IF ~Class(Player1,BARD)~ THEN REPLY ~How about the Feast of Heroes and Song for the Fallen?~ GOTO 9
+-  IF ~~ THEN REPLY ~What's Everard like?~ DO ~SetGlobal("Jered_Stone","GLOBAL",1)
++  SAY @40
++  IF ~Class(Player1,BARD)~ THEN REPLY @41 GOTO 9
++  IF ~~ THEN REPLY @34 DO ~SetGlobal("Jered_Stone","GLOBAL",1)
+ ~ GOTO 16
+-  IF ~~ THEN REPLY ~Thanks for the information.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @39 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~They're pretty straightforward.  The Feast of Heroes is a meal that we eat at highsun.  During it, we remember the final meal which each warrior eats before he or she enters mortal battle.  The Song for the Fallen is a dirge that we sing at sunset as a daily memorial for those who have died in battle.~
+-  IF ~~ THEN REPLY ~Interesting.  What local battles do you celebrate?~ DO ~SetGlobal("Jered_Stone","GLOBAL",1)
++  SAY @42
++  IF ~~ THEN REPLY @43 DO ~SetGlobal("Jered_Stone","GLOBAL",1)
+ ~ GOTO 8
+-  IF ~~ THEN REPLY ~Thank you.  I must take my leave now.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @44 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~It is just part of our daily routine.  We know that the barbarians are just a few peaks away and we immigrants understand the danger that they bring into our lives.~
++  SAY @45
+   IF ~Global("Accalia_Immigrant","GLOBAL",0)
+-~ THEN REPLY ~You said, "We immigrants."  Where are you from?~ DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
++~ THEN REPLY @10 DO ~SetGlobal("Accalia_Immigrant","GLOBAL",1)
+ ~ GOTO 6
+-  IF ~~ THEN REPLY ~It seems almost pointless to live in such harsh conditions.  Aren't people afraid?~ GOTO 4
+-  IF ~~ THEN REPLY ~Thanks.  Farewell.~ EXIT
++  IF ~~ THEN REPLY @46 GOTO 4
++  IF ~~ THEN REPLY @47 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~That is exceptionally rude.  We are different from the barbarians, but they are honorable people who brave extremely harsh conditions and live proud lives.  I do not believe we have anything more to discuss.  Good day.~
+-  IF ~~ THEN REPLY ~Farewell.~ DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
++  SAY @48
++  IF ~~ THEN REPLY @49 DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~This temple is a symbol of the endurance of mankind in the face of adversity.  I will not have you insult my people or my faith again.  Try it and I'll crack your blasphemous head against the corner of the nearest building.  Believe me, people here wouldn't criticize me for doing it if I told them what you just said.  Good day.~
+-  IF ~~ THEN REPLY ~Farewell.~ DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
++  SAY @50
++  IF ~~ THEN REPLY @49 DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Exactly.  That is why we Easthaveners practice the Tempuran faith and perform the rituals of the Lord of Battles.~
+-  IF ~~ THEN REPLY ~What rituals do you perform?~ GOTO 2
+-  IF ~~ THEN REPLY ~I understand now.  Farewell.~ EXIT
++  SAY @51
++  IF ~~ THEN REPLY @52 GOTO 2
++  IF ~~ THEN REPLY @53 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Thank you for starting an argument with me.  You have proven my point admirably.  Good day... idiot.~
+-  IF ~~ THEN REPLY ~Farewell.~ DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
++  SAY @54
++  IF ~~ THEN REPLY @49 DO ~SetGlobal("Accalia_Jerk","GLOBAL",1)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~We all must seek our own paths through life.  I have chosen the path of the warrior, walking in the bloody footsteps of the Lord of Battles.  As a woman, it is difficult to do at times, especially since I am a foreigner to this land.  The native barbarians do not believe that foreigners understand what "Tempos" really stands for, and they certainly don't believe that women can be his champions or representatives on Toril.  Perhaps someday this will change.~
+-  IF ~~ THEN REPLY ~How do the barbarians feel about the Ten-Towns being here?~ GOTO 3
+-  IF ~~ THEN REPLY ~Where are you from?~ GOTO 6
+-  IF ~~ THEN REPLY ~Farewell.~ EXIT
++  SAY @55
++  IF ~~ THEN REPLY @56 GOTO 3
++  IF ~~ THEN REPLY @57 GOTO 6
++  IF ~~ THEN REPLY @49 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Everard... well, Everard is still adjusting to his position here.  I think he'd much rather still be serving Tempus on the front lines, but his duty is to guard this holy site - the site of Jerrod's Stone.  You should ask him about it; he knows more of the tale than I do. ~
+-  IF ~~ THEN REPLY ~Everard is both a warrior and a priest?  How does that fit into the Tempuran faith?~ GOTO 4
+-  IF ~~ THEN REPLY ~Farewell.~ EXIT
++  SAY @58
++  IF ~~ THEN REPLY @59 GOTO 4
++  IF ~~ THEN REPLY @49 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Accalia_Jerk","GLOBAL",0)
+ !Global("Join_Accalia","GLOBAL",1)
+ ~ THEN BEGIN 17
+-  SAY ~Hello again.  Can I help you with something?~
+-  IF ~~ THEN REPLY ~Could you tell me about the Tempuran rituals?~ GOTO 2
+-  IF ~~ THEN REPLY ~Can you tell me about the high priest of the temple of Tempus?~ GOTO 16
+-  IF ~~ THEN REPLY ~Can you tell me about the barbarian tribes?~ GOTO 3
+-  IF ~~ THEN REPLY ~Farewell, Accalia.~ EXIT
++  SAY @60
++  IF ~~ THEN REPLY @61 GOTO 2
++  IF ~~ THEN REPLY @62 GOTO 16
++  IF ~~ THEN REPLY @63 GOTO 3
++  IF ~~ THEN REPLY @64 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Accalia_Jerk","GLOBAL",1)
+ ~ THEN BEGIN 18
+-  SAY ~Well, well.  It's you again.  Why are you bothering me?  I have nothing to say to you.~
+-  IF ~~ THEN REPLY ~Farewell, Accalia.~ EXIT
++  SAY @65
++  IF ~~ THEN REPLY @64 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Accalia_Jerk","GLOBAL",0)
+ Global("Join_Accalia","GLOBAL",1)
+ ~ THEN BEGIN 19
+-  SAY ~Hello again.  Can I help you with something?~
+-  IF ~~ THEN REPLY ~Could you tell me about the Tempuran rituals?~ GOTO 2
+-  IF ~~ THEN REPLY ~Can you tell me about the high priest of the temple of Tempus?~ GOTO 16
+-  IF ~~ THEN REPLY ~Can you tell me about the barbarian tribes?~ GOTO 3
+-  IF ~~ THEN REPLY ~Hrothgar has told me that you would be willing to join our expedition. We are now making ready to leave, are you still prepared to join with us?~ GOTO 20
+-  IF ~~ THEN REPLY ~Farewell, Accalia.~ EXIT
++  SAY @60
++  IF ~~ THEN REPLY @61 GOTO 2
++  IF ~~ THEN REPLY @62 GOTO 16
++  IF ~~ THEN REPLY @63 GOTO 3
++  IF ~~ THEN REPLY @66 GOTO 20
++  IF ~~ THEN REPLY @64 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~Yes, I have already discussed this matter with Everard. He also thinks that my faith should be proven with my deeds. So would you like me to join your group?~
+-  IF ~~ THEN REPLY ~Yes, you're welcome among us.~ GOTO 21
+-  IF ~~ THEN REPLY ~Could you go with another group? I have no room for you.~ GOTO 22
++  SAY @67
++  IF ~~ THEN REPLY @68 GOTO 21
++  IF ~~ THEN REPLY @69 GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~Thank you, <CHARNAME>. I shall try to do my best.~
++  SAY @70
+   IF ~~ THEN DO ~JoinParty()
+ SetGlobal("Join_Accalia","GLOBAL",2)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~As you wish. Farewell.~
++  SAY @71
+   IF ~~ THEN DO ~SetGlobal("Join_Accalia","GLOBAL",0)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~And who might she be?~
+-  IF ~~ THEN REPLY ~Her name was Branwen, but she probably has not been born yet.~ GOTO 24
++  SAY @72
++  IF ~~ THEN REPLY @73 GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~I cannot understand what you say. What do you mean?~
+-  IF ~~ THEN REPLY ~I cannot understand it myself. By the way, she was a cleric of Tempus.~ GOTO 25
++  SAY @74
++  IF ~~ THEN REPLY @75 GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Please explain yourself, otherwise do not waste my time.~
+-  IF ~~ THEN REPLY ~Bran... Oh sorry, Accalia... Well met, Accalia.  I'm <CHARNAME>.  You're an initiate in the Tempuran faith, eh? I didn't realize that the Lord of Battles was so popular up here.~ GOTO 1
+-  IF ~~ THEN REPLY ~Well met, Accalia, but I have to go.  Farewell.~ EXIT
++  SAY @76
++  IF ~~ THEN REPLY @77 GOTO 1
++  IF ~~ THEN REPLY @3 EXIT
+ END

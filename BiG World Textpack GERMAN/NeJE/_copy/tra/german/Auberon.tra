@@ -1,0 +1,49 @@
+@0  = ~Govan! Was tun diese Leute hier, die sich uneingeladen hereindrängen und Drohungen ausstoßen?~ 
+@1  = ~Seid still, Govan!~
+@2  = ~Ich möchte Eure Geschichte hören, Leina.~ 
+@3  = ~Ich schäme mich für Euch, Govan. Eure Behandlung dieser jungen Frau war schlimmer als barbarisch.~
+@4  = ~Ich kann nicht glauben, dass einer meiner Söhne zu solchen Dingen fähig ist. Was haben wir großgezogen?~ 
+@5  = ~Nicht zu vergessen seinen Handel mit Killian bezüglich meines Wohlergehens. Er ist ein Kumpel, Euer Junge!~
+@6  = ~Es wird besser, was ist das für ein Geschäft, das Ihr mit Killian abgeschlossen habt, Duvaine, beendet Ihr die Geschichte für Leina?~
+@7  = ~Haltet Eure Zunge in Zaum, <CHARNAME>, Ihr seid nicht besser als mein Sohn, Leina hat mir auch von Eurem Teil in dieser Sache erzählt.~ 
+@8  = ~Und Ihr, Govan, habt Geschäfte mit diesem zwielichtigen Killian? Nach den Schwierigkeiten, in die er die Familie von Duvaine brachte, was für ein Sohn seid Ihr, Govan?~
+@9  = ~Lasst mich einen Moment hier unterbrechen, ich hätte mich erinnern sollen, Killian hat Euch und Eurer Frau eine Nachricht gesandt, Herzog, er sagt, ich solle Euch *Hallo* sagen. Ihr seht, ich bin nicht nur wegen Eurem Sohn hier, ich bin auch ein Bote für Killian, wenn Ihr wisst, was ich meine.~ 
+@10 = ~Das vergaß ich fast. Ich habe eine Nachricht für Euch und Eure Frau, Herzog. Killian sagt, ich solle Euch beiden *Hallo* sagen, und der Rest ist hier irgendwo in Stahl geätzt, ich werde es liefern, nachdem ich mich mit Eurem Sohn befasst habe.~
+@11 = ~Wer war ein unartiger Junge, Govan. Mit schlechten Kerlen hinter Papas Rücken zu spielen? Oh, übrigens sagt Killian *Hallo* zu Euch, Herzog, und auch Eurer Gemahlin hier. Ich werde die Nachricht in Kürze vollständig liefern. Ich habe zuerst ein unerledigtes Geschäft mit Eurem Sohn.~
+@12 = ~Es gibt keine Notwendigkeit für weiters Blutvergießen. Leina ist unversehrt, und ich bin ganz bereit, mich mit dem schändlichen Verhalten meines Sohns selbst zu befassen.~ 
+@13 = ~Wir, <CHARNAME>, haben keinen Streit miteinander. Diesem zwielichtige Killian, mit dem Ihr ein Abkommen habt, ist nichts weiter als ein gedungener Mörder. Was sagt Ihr dazu, wenn wir das jetzt beenden?~
+@14 = ~Euer Sohn hat mich zum Narren gehalten, niemand hat das getan und überlebt, um damit zu prahlen. Ich bin todsicher, ihn nicht den ersten sein zu lassen!~ 
+@15 = ~Ärger im Gasthof zu den Fünf Krügen
+
+Ich hätte es wissen sollen... keiner gibt 20.000 Gold für eine so einfache Aufgabe aus. Duvaine mag eine armselige Entschuldigung für einen Mann im Leben gewesen sein, aber im Tod hat er sich als eine sehr gewinnbringende Ware für mich erwiesen. Mein Geldbeutel ist jetzt schwererer... und ich rettete die Bardin ebenso. Ein höchst befriedigendes Ergebnis alles in allem... abgesehen vom Duvaine natürlich, aber man kann es nicht allen Recht machen.~
+@16 = ~Ärger im Gasthof zu den Fünf Krügen
+
+Nachdem ich in das geheime Zimmer an der Rückseite von Vulovas Haus betrat und meinem Weg durch einen Kaninchenbau voll von seinen Gefolgsmännern freikämpfte, befand ich mich schließlich in etwas, was ausschaute wie eine Art Innungshaus. Ich war überrascht, auch die Bardin Leina zu finden, verängstigt, aber unverletzt... Es scheint, dass ihr Vater sie entführt hatte, um sie in eine Ehe mit einem Govan Duvaine, einem verzogenen, reichen Jungen aus einer der wohlhabendsten Familien von Athkatla zu zwingen... der sich bemühte, noch reicher zu werden, indem er das Vermögen von Leinas Familie mit seinem eigenen Erbe verschmilzt. Es scheint, dass der vorzeitige Tod seiner Frau, der Mutter von Leina, die Sinne ihres Vaters so verwirrt hatte, dass er sich bemühte, sie in seiner Nähe zu behalten... da sie die einzige Verbindung ist, die ihm zu seiner toten Frau übrig blieb. Er glaubte, dass die Ehe sie in der Stadt behalten würde. Ein trauriger und einsamer Mann, wahrlich, aber der Tod eines geliebten wirkt auf uns alle auf unterschiedliche Weise. Duvaine erschien dann und bot mir 20.000 Gold an, um ihm das Mädchen zu übergeben... 20.000 Gold! Alles, was ich tun müsste, war dem alten Gastwirt zu sagen, dass sich Leina dafür entschieden hätte, Duvaine zu heiraten und dann mich mit einem der Finanzberater von Duvaine, einem Mann namens Killian, auf dem Dach der Kupferkrone zu treffen. Er würde den Wechsel für mich einlösen... leichtes Gold!~
+@17 = ~Meinen Streit habe ich mit Eurem Sohn, wenn Ihr zur Seite tretet, kann ich Euch und Eure Frau verschonen, wenn ich mit ihm fertig bin. Ich könnte es natürlich auch nicht, aber das ist ein Risiko, das Ihr werdet eingehen müssen.~
+@18 = ~Wie viel ist Euch das Leben dieses wertlosen Abschaums, den Ihr Sohn nennt, wert?~ 
+@19 = ~Sicherlich, ich habe keinen Streit mit Euch oder Eurer Frau. Mein Geschäft mit Killian war rein wegen dem finanziellen Gewinn, meinem natürlich. Nun, sollte mir ein anderes Angebot gemacht werden, ich bin bekannt dafür, vernünftig zu sein.~
+@20 = ~Er mag vielleicht kein Mann sein, aber er ist mein Sohn, und ich werde nicht dabeistehen und zusehen, wie er ermordet wird.~ 
+@21 = ~Ihr habt Euch nicht besser benommen als er, <CHARNAME>, deshalb, was Ihr auch immer für eine Strafe für meinem Sohn als angemessen erachtet, Ihr verdient sie auch.~ 
+@22 = ~Wenn Ihr das nicht aus moralischer Entrüstung tut, werde ich Eure geldgierige Seite entschädigen. Sind 10.000 Goldstücke genug, um Euch zu befriedigen?~
+@23 = ~10.000 Goldstücke, abgemacht, nehmt jetzt Eure wertlose Nachkommenschaft und schafftt ihn hier raus. Stellt sicher, dass er mir nie wieder über den Weg läuft.~ 
+@24 = ~Ärger im Gasthof zu den Fünf Krügen
+
+Ich hätte es wissen sollen... keiner gibt 20.000 Gold für eine so einfache Aufgabe aus. Duvaine mag ein wertloser Scheißkerl sein, aber er hat sich als eine sehr gewinnbringende Ware für mich erwiesen. Mein Geldbeutel ist jetzt schwererer... und ich rettete die Bardin ebenso. Ein höchst befriedigendes Ergebnis alles in allem... abgesehen von Duvaine natürlich, aber man kann es nicht allen Recht machen.~
+@25 = ~Die Summe ist stattlich genug und wird für Euer Leben und das Eurer Frau ausreichen, außer Govan hier, er erhält eine andere Art der Bezahlung mehr nach meinem Gemschmack.~
+@26 = ~Nehmt Euer Gold, <CHARNAME>. Seid versichert, ich werde an eine geeignete Weise denken, mich mit meinem Sohn zu befassen.~
+@27 = ~Er hat dem Namen Duvaine Unehre gebracht, so wird es seine Sache sein, einen Weg zu finden, ihn wiederherzustellen.~
+@28 = ~Govan, Bewegung!~
+@29 = ~Ich fand Euch schließlich. Ich bin Auberon Duvaine, es gibt keine Notwendigkeit, Euch vorzustellen, ich weiß ganz genau, wer Ihr seid.~
+@30 = ~Es hat mich einige Zeit gekostet, um den Mörder meines Sohns, Govan, zu identifizieren, aber ich bin ein geduldiger sowie ein wohlhabender Mann, <CHARNAME>.~
+@31 = ~Die Leute reden, wenn der Preis stimmt. Nahmt Ihr ernstlich an, dass ich die Wahrheit nicht aufdecken würde?~
+@32 = ~Euer Sohn Duvaine entführte eine junge Frau namens Leina Vulova-Katuron, mit der Absicht, eine Ehe zwischen ihnen zu erzwingen. Nicht weil er vor Liebe zu dieser Leina verrückt war, sondern wegen dem Reichtum, das ihr Glück ihm bringen würde.~
+@33 = ~Euer Sohn versuchte, eine Ehe zwischen sich und einer jungen Frau namens Leina Vulova-Katuron zu erzwingen, indem er sie entführte und sie gegen ihren Willen festhielt. Er hatte die Vorstellung, dass Reichtum ihm den Vorzug gewährte, seinen Willen anderen aufzuzwingen.~
+@34 = ~Er war ein übler Kerl, Duvaine. Ich kann wirklich nicht glauben, dass Euer Geld den Grund nicht aufdeckte, warum Euer Sohn tot ist. Oder zogt Ihr vor, das Verbrechen der Entührung und der ungesetzlichen Haft zu ignorieren?~
+@35 = ~Das Verhalten meines Sohn mag falsch gewesen sein, aber die Sache hätte direkt zu mir gebracht werden sollen. Ich hätte Govan selbst strengstens für solch abscheuliches Verhalten getadelt.~
+@36 = ~Er war meine Aufsichtspflicht und deshalb war das meine Pflicht, sich mit ihm zu befassen, nicht Eure.~
+@37 = ~Pflicht, und was hättet Ihr getan, Duvaine, ihm auf die Hand geschlagen und gesagt, nicht wieder ein unartiger Junge zu sein?~
+@38 = ~Da war keine Zeit, Duvaine, Euer Sohn traf mich zur gleichen Zeit, als ich Leina fand, und wenn ich sie nicht von ihm befreit hätte, wäre er unangenehm geworden.~
+@39 = ~Ich hatte keinen Beweis, dass Govan beteiligt war, Duvaine. Erst als er mir gegenübertrat, nachdem ich Leina befreit hatte, gab er seine Beteiligung zu. Ich versuchte, ihn zur Vernunft zu bringen, aber er hörte nicht, er ging ohne Herausforderung auf mich los.~
+@40 = ~Er ist tot, Duvaine. Euer Tod oder meiner hier wird daran nichts ändern. Akzeptiert, dass er kein achtbarer Mann war und als solcher starb. Lasst es sein, Duvaine.~
+@41 = ~Unabhängig von den Umständen, mein Sohn ist tot. Sein Verhalten mag weniger als achtbar gewesen sein, aber sein Verbrechen verdiente nicht den Tod. Er hat bitter für sein Verhalten gezahlt, und ich kann und will seinen Mörder nicht straflos davonkommen lassen.~
+@42 = ~Der Vorwand der Selbstverteidigung mag gut bei den Gerichten gelten, <CHARNAME>, aber das ist nicht die Gerechtigkeit, die ich für meinen Jungen will. Ich bin zu Wort gekommen, jetzt will ich meine Gerechtigkeit haben.~

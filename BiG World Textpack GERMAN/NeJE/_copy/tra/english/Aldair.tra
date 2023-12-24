@@ -1,0 +1,58 @@
+@0    = ~Friends, I am Aldair and you have come to seek the wisdom. I am the teacher of wisdom and I will teach all who heed my word.~
+@1    = ~Yes my friend, I seek the wisdom, what can you tell me?~
+@2    = ~I seek the wisdom but I do not need you to teach me Aldair. I want only the book that you teach it from.~
+@3    = ~(*Not another insane druid, what is it with these nature guys! Too much fresh air, it must soften the brain*) Aldair, I have friends who wish to hear of the wisdom and have asked that I take the book to them so they might read it.~
+@4    = ~I can teach you whatever you want to learn, but first you must tell me what you wish to learn. Only when I know what it is you do not know can I proceed to teach you.~
+@5    = ~I would like to teach myself Aldair. Will you not give me the book that I may learn these great words?~
+@6    = ~(*This is not going to work, may the gods protect from insane druids!*) Just give me the book Aldair and I will leave you to your ramblings.~
+@7    = ~If your friends wish to hear my word then they must come to me so I can speak it to them, they can not hear it by reading the book. Bring them to me and I will teach them.~
+@8    = ~Alas, that is not possible, I must take your wisdom to them. I am sure they will return it to you once they have learnt.~
+@9    = ~Then let me read the words Aldair, that way I can teach them myself.~
+@10   = ~No, you cannot read the great book! It is forbidden to all that do not know the way to read what is written.~
+@11   = ~If you wish to hear what the wisdom says then only I can read it to you for the wisdom is not whole.~
+@12   = ~Any who are not permitted to look upon its words or do not know the way of the wisdom will be driven insane because they will not understand.~
+@13   = ~I have been told to take it and keep it safe, it is the only way to maintain balance.~
+@14   = ~I already know the wisdom Aldair. I am permitted to read the words.~
+@15   = ~(*That  explains a lot*) Yes, yes, I know all this. I would not ask to read it if I thought it would drive me insane, would I?~
+@16   = ~Give me the book and I will prove to you that I can read its words and retain my wits?~
+@17   = ~If you wish to read the book then you must prove to me that you speak the truth that you know the way of the wisdom.~
+@18   = ~It is too dangerous for me to allow you to read the words if you are lying.~
+@19   = ~You will answer me three questions. If you truly possess the knowledge and you answer all three correctly you shall be permitted to read the word. Are you ready?~
+@20   = ~Ask your questions.~
+@21   = ~I suppose it will do no harm to humour you, ask away.~
+@22   = ~(*Yet another druid with a fondness for games*) I am, but regardless of the outcome of this little game I will have that book.~
+@23   = ~Then this is my first question, listen carefully:
+
+   If you break me,
+   I do not stop working.
+   If you touch me,
+   I may be ensnared.
+   If you lose me, 
+   Nothing will matter.
+   What am I?~
+@24   = ~Hope.~
+@25   = ~My soul.~
+@26   = ~My Heart.~
+@27   = ~Breath.~
+@28   = ~Spirit.~
+@29   = ~You lie to me! If you have the knowledge then you would have known what it is that I speak of! I will speak no more with you.~
+@30   = ~A wise reply, now to the next. Once again listen carefully and then answer me.~
+@31   = ~A wizard has four apprentices named Ardel, Brynn, Caryl and Demetri. One day, whilst playing with the wizards magic wand, one of them broke it.~
+@32   = ~Ardel says Brynn broke it. Brynn says Caryl broke it. Caryl and Demetri say they do not know who broke it.~
+@33   = ~Given that only the guilty apprentice is lying, who broke the wizard’s wand?~
+@34   = ~Ardel.~
+@35   = ~Brynn.~
+@36   = ~Caryl.~
+@37   = ~Demetri.~
+@38   = ~(*Beginning to look agitated*) Again a wise reply, now to my final question. Once again, listen carefully and then answer me.~
+@39   = ~I have a deck of cards, but some are missing from it. If I deal them equally between nine people, I have two cards left over.~
+@40   = ~If I deal them between four people, I have three cards left over. If I deal them between seven people, I have five cards left over.~
+@41   = ~Given that there would be fifty-two cards in my deck if it was complete, how many are missing from my deck?~
+@42   = ~One.~
+@43   = ~Two.~
+@44   = ~Three.~
+@45   = ~Four.~
+@46   = ~Five.~
+@47   = ~Six.~
+@48   = ~No I will not let the wisdom leave my hand! I am being told that you will use it to destroy the balance and at all cost balance must be maintained!~
+@49   = ~I must listen to what is said to me and destroy you before you make it whole and bring insanity to the world.~

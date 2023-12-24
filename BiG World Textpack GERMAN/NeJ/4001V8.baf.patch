@@ -1,0 +1,19 @@
+--- NeJ\baf\4001V8.baf	Tue Dec 02 00:17:56 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V8.baf	Wed Apr 10 10:28:34 2019
+@@ -8,13 +8,13 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #33
+-		DisplayStringHead(Myself,~I'm hungry.~) // "I'm hungry."
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #34
+-		DisplayStringHead(Myself,~My shoulder hurts!~) // "My shoulder hurts!"
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ 	RESPONSE #34
+-		DisplayStringHead(Myself,~I'm so tired.~) // "I'm so tired."
++		DisplayStringHead(Myself,@2) // @2
+ 		Wait(3)
+ END
+ 

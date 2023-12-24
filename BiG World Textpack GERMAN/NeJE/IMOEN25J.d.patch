@@ -1,0 +1,40 @@
+--- NeJE\dlg\IMOEN25J.d	Sat Jun 09 04:00:33 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\IMOEN25J.d	Tue Apr 09 19:36:22 2019
+@@ -1,28 +1,28 @@
+ APPEND ~IMOEN25J~
+ 
+ IF ~~ THEN BEGIN KRst0
+-  SAY ~(Annoyingly) <CHARNAME>, <CHARNAME>, so tell me! I saw you sleeping together. So how is he, huh? And how are you? You liked it, didn't ya?~
++  SAY @0
+ =
+-~(Whispering in your ear) Listen, does he really have a beautiful and brawny body, that's what I think, does he? Does he?~
+-  	IF ~~ THEN REPLY ~(Turning red) Imoen! You should be ashamed of yourself. Yes, we slept together, but I'm not going to tell you a thing...you shameless little...~ GOTO KRst1
+-  	IF ~~ THEN REPLY ~(You're looking around in order to check whether Keldorn can hear you) C'mon, let's go where we can talk. Listen, I really did like it! You were right, it was great! (You're looking around again, whispering in to Imoen's ear afterwards) He's much more beautiful without his clothes.~ GOTO KRst2
+-  	IF ~~ THEN REPLY ~What are you up to Imoen? You should take care of yourself, not be spying on others!~ GOTO KRst3
++@1
++  	IF ~~ THEN REPLY @2 GOTO KRst1
++  	IF ~~ THEN REPLY @3 GOTO KRst2
++  	IF ~~ THEN REPLY @4 GOTO KRst3
+ END
+ 
+ IF ~~ THEN BEGIN KRst1
+-  SAY ~(Making fun of you) Shameless person... It's you who is really shameless. You are not even married to him. And don't be all saints with me, sister.~
++  SAY @5
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Im0 
+ END  
+ 
+ IF ~~ THEN BEGIN KRst2
+-  SAY ~(Her eyes are glowing brightly) Oh, I so want to see him, at least with one eye! But you are even bathing in your clothes.~
++  SAY @6
+ =
+-~Oh, you can't imagine how much I envy you, <CHARNAME>. There is much more divinity in you, and what a great man you've got for yourself, and look at me... always the younger sister.~
++@7
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Im0 
+ END  
+ 
+ IF ~~ THEN BEGIN KRst3
+-  SAY ~(Pouting) You are so mean!~
++  SAY @8
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Im0 
+ END
+ 

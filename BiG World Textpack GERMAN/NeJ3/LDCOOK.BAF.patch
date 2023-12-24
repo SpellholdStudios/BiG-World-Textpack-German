@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDCOOK.BAF	Wed Apr 30 00:01:34 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDCOOK.BAF	Wed Apr 10 10:33:49 2019
+@@ -10,7 +10,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("MAP_GROUP_HOSTILE10","MYAREA",1)
+-		DisplayStringHead(Myself,~Oy! Fleezum! Flozem! We gots us a trouble-maker!~)
++		DisplayStringHead(Myself,@0)
+ 		Enemy()
+ 		Continue()
+ END

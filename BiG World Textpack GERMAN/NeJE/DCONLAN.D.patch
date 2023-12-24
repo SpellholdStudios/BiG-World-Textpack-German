@@ -1,0 +1,260 @@
+--- NeJE\dlg\DCONLAN.D	Sun May 24 17:42:32 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DCONLAN.D	Tue Apr 09 19:35:44 2019
+@@ -2,180 +2,160 @@
+ 
+ IF WEIGHT #0 ~NumTimesTalkedTo(0)
+ Global("Know_Conlan", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+-  SAY ~Welcome, stranger. What can I do for you?~ 
+-  IF ~~ THEN REPLY ~Greetings. My name is <CHARNAME>. Who might you be?~  GOTO 2
+-  IF ~~ THEN REPLY ~I'm interested in purchasing some weapons. Could you point me in the right direction, sirrah?~  GOTO 2
+-  IF ~~ THEN REPLY ~Nothing. Just passing through.~  EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @1  GOTO 2
++  IF ~~ THEN REPLY @2  GOTO 2
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF WEIGHT #1 ~NumTimesTalkedTo(0)
+ GlobalGT("Know_Conlan", "GLOBAL", 0)~ THEN BEGIN 1 // from:
+-  SAY ~Welcome, stranger. What can I do for you?~ 
+-  IF ~~ THEN REPLY ~Greetings. My name is <CHARNAME>. You must be Conlan, the local blacksmith.~  GOTO 12
+-  IF ~~ THEN REPLY ~I'm told you're the man to see about purchasing weapons.~  GOTO 12
+-  IF ~~ THEN REPLY ~Nothing. Just passing through.~  EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @4  GOTO 12
++  IF ~~ THEN REPLY @5  GOTO 12
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 0.1 0.0
+-  SAY ~The name's Conlan. I'm the local smithy of these here parts. If yer needin' a sharp blade or stout mace, I'm the man to see. Best take advantage while I'm still here.~ 
+-  IF ~~ THEN REPLY ~'While you're still here?'  Are you going somewhere?~  DO ~SetGlobal("Know_Conlan", "GLOBAL", 2)~ GOTO 3
+-  IF ~~ THEN REPLY ~Right then... what do you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Never mind. Farewell.~  EXIT
++  SAY @6 
++  IF ~~ THEN REPLY @7  DO ~SetGlobal("Know_Conlan", "GLOBAL", 2)~ GOTO 3
++  IF ~~ THEN REPLY @8  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @9  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 13.0 12.0 2.0
+-  SAY ~Aye, I suppose so. With all the skullduggery that's been goin' on around here, I imagine I'll not be around much longer.~ 
+-  IF ~~ THEN REPLY ~I see. So you're planning on leaving town.~  GOTO 4
+-  IF ~~ THEN REPLY ~You're leaving Kuldahar? That doesn't surprise me... this town IS rather dull. Perhaps I could accompany you?~  GOTO 4
++  SAY @10 
++  IF ~~ THEN REPLY @11  GOTO 4
++  IF ~~ THEN REPLY @12  GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.1 3.0
+-  SAY ~Ha! I wish that were possible. The southern pass has long since been snowed-in by this damnable weather we've been having lately. Now I hear tell that even the northern route to the Ten-Towns has been blocked by an avalanche. Mark my words; none of us will last through this winter. We're all done for.~ 
+-  IF ~CheckStatGT(Player1, 9, CHR)~ THEN REPLY ~I have no intention of dying here. Why is it that you are so ready to line your own grave?~  GOTO 5
+-  IF ~CheckStatLT(Player1, 10, CHR)~ THEN REPLY ~I have no intention of leaving until I am satisfied there is no threat to Kuldahar within these walls.~  GOTO 11
+-  IF ~~ THEN REPLY ~Cheerful thought. May I see what you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Well, it's been... nice talking to you. Farewell.~  EXIT
++  SAY @13 
++  IF ~CheckStatGT(Player1, 9, CHR)~ THEN REPLY @14  GOTO 5
++  IF ~CheckStatLT(Player1, 10, CHR)~ THEN REPLY @15  GOTO 11
++  IF ~~ THEN REPLY @16  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @17  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 4.0
+-  SAY ~Humph. Not much for me to live for, really. My Mary passed a few years ago from the fever. And now... now my son's gone missin', snatched out of his bed in the middle of the night -- right out from under my nose!  He was just a boy!~ 
++  SAY @18 
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~I'm sorry, Conlan. Any idea who or what took him?~  GOTO 7
++Dead("Hrothgar")~ THEN REPLY @19  GOTO 7
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~That's unfortunate. Would you mind showing me what weapons you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
++Dead("Hrothgar")~ THEN REPLY @20  DO ~StartStore("KUSMITH", Player1)~ EXIT
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~Hmm. The little brat probably just ran away. I would've run away too if my father were such a depressing bore.~  GOTO 6
++Dead("Hrothgar")~ THEN REPLY @21  GOTO 6
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 115
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 5.2
+-  SAY ~Sure, kick a man when he's down. I hope you feel better now. Now, if you don't mind, I've got work that needs doin'. Go torment someone else.~ 
++  SAY @22 
+   IF ~~ THEN DO ~SetGlobal("Conlan_Break","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 5.0
+-  SAY ~If I knew that, do you think I'd be standin' around here poundin' at metal? He just vanished, I tell you. Gone without a trace. Even ol' Arundel couldn't find a trail, and he's got a nose for such things. I imagine whatever took him will come back for me next. I can't say it'll be unwelcome.~ 
+-  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY ~Who is this Arundel?~  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ UNSOLVED_JOURNAL ~Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.~  GOTO 8
+-  IF ~Global("Vale_Quest", "GLOBAL", 1)~ THEN REPLY ~I've spoken with Arundel. He believes the source of the disturbances may lie within the Vale of Shadows.~ UNSOLVED_JOURNAL ~Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace.~  GOTO 10
+-  IF ~~ THEN REPLY ~You have my sympathy, Conlan. Perhaps you can show me what blades you have so I might arm myself against the likes of the rogues that abducted your son.~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Well... I'd love to talk about your missing son all day, but I came to purchase weapons. What have you got?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting. Farewell, Conlan.~  EXIT
++  SAY @23 
++  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY @24  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ UNSOLVED_JOURNAL @25  GOTO 8
++  IF ~Global("Vale_Quest", "GLOBAL", 1)~ THEN REPLY @26 UNSOLVED_JOURNAL @27  GOTO 10
++  IF ~~ THEN REPLY @28  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @29  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @30  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 11.0 7.0
+-  SAY ~Arundel is sort of the town elder of Kuldahar. He's the closest thing to a leader we got. Quiet fellow he is... often spends days alone out in the passes, walking among the animals -- he's got a way with beasts, ya know.  I actually saw him talk to an eagle once. He had it perched on his shoulder, and the two of 'em were chattin' back and forth like ol' friends.   ~ 
+-  IF ~~ THEN REPLY ~Perhaps I should meet him. Where can I find him?~  GOTO 9
+-  IF ~~ THEN REPLY ~Interesting. Say, would you mind showing me what you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Great, a suicidal blacksmith and a loony town elder who speaks to birds. This town keeps getting better and better. Goodbye.~  EXIT
++  SAY @31 
++  IF ~~ THEN REPLY @32  GOTO 9
++  IF ~~ THEN REPLY @33  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @34  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.0
+-  SAY ~He has a house at the south end of town by the ancient standing stones. You can't miss it. It's the biggest building in town. I hear it's the oldest, too.~ 
+-  IF ~~ THEN REPLY ~Before I go, could I see what you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~My thanks to you, Conlan. Farewell.~  EXIT
++  SAY @35 
++  IF ~~ THEN REPLY @36  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @37  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 11.1 7.1
+-  SAY ~The Vale of Shadows, eh? That doesn't surprise me. That place reeks of evil. Most folks in town avoid it like the plague. Those that wander off in that direction are never heard from again.~ 
+-  IF ~~ THEN REPLY ~Hmm. May I see what you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting. Farewell, Conlan.~  EXIT
++  SAY @38 
++  IF ~~ THEN REPLY @39  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @30  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 4.1
+-  SAY ~Humph!  I wouldn't expect someone like you to understand. You're not from around here, stranger. You have no idea how much we've suffered. I tell you there is an evil loose in these mountains, and none of us are safe. Not even Arundel can protect us anymore.~ 
+-  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY ~Who is this Arundel?~  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 8
+-  IF ~Global("Know_Arundel", "GLOBAL", 1)~ THEN REPLY ~I've spoken with Arundel. He believes the source of the disturbances may lie within the Vale of Shadows.   ~  GOTO 10
++  SAY @40 
++  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY @24  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 8
++  IF ~Global("Know_Arundel", "GLOBAL", 1)~ THEN REPLY @41  GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from: 1.1 1.0
+-  SAY ~Aye, I'm Conlan. If yer needin' a sharp blade or stout mace, I'm the man to see. Best take advantage while I'm still here.~ 
+-  IF ~~ THEN REPLY ~'While you're still here?'  Are you going somewhere?~  GOTO 3
+-  IF ~~ THEN REPLY ~Right then... what do you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Never mind. Farewell.~  EXIT
++  SAY @42 
++  IF ~~ THEN REPLY @7  GOTO 3
++  IF ~~ THEN REPLY @8  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @9  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Know_Conlan", "GLOBAL", 0)
+ Global("Conlan_Break","GLOBAL",0)~ THEN BEGIN 13 // from:
+-  SAY ~Back again, eh? If yer wantin' weapons, I suggest you get 'em while I'm still here.~ 
+-  IF ~~ THEN REPLY ~'While you're still here?'  Are you going somewhere?~  DO ~SetGlobal("Know_Conlan", "GLOBAL", 2)~ GOTO 3
+-  IF ~~ THEN REPLY ~Right then... what do you have for sale?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Never mind. Farewell.~  EXIT
++  SAY @43 
++  IF ~~ THEN REPLY @7  DO ~SetGlobal("Know_Conlan", "GLOBAL", 2)~ GOTO 3
++  IF ~~ THEN REPLY @8  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @9  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalGT("Know_Conlan", "GLOBAL", 0)
+ Global("Conlan_Break","GLOBAL",0)~ THEN BEGIN 14 // from:
+-  SAY ~Welcome back. I'm glad to see you're not dead yet. What can I do for you today?~ 
+-  IF ~~ THEN REPLY ~I'd like to purchase some weapons.~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Nothing. Just making sure you were still around. Farewell.~  EXIT
++  SAY @44 
++  IF ~~ THEN REPLY @45  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @46  EXIT
+ END
+ 
+ IF ~Global("Kuldahar_Murder", "GLOBAL", 1)
+ Global("Conlan_Break","GLOBAL",0)~ THEN BEGIN 15 // from:
+-  SAY ~You!  Get out of my shop!  I'll not do business with a band of murdering jackals such as yourselves!~ 
+-  IF ~~ THEN REPLY ~Wait. I can explain everything.~  GOTO 16
+-  IF ~~ THEN REPLY ~Have it your way. Farewell.~  EXIT
++  SAY @47 
++  IF ~~ THEN REPLY @48  GOTO 16
++  IF ~~ THEN REPLY @49  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16 // from: 15.0
+-  SAY ~I'm not interested in your filthy lies!  Get out now... or, by the Gods, I'll split your skulls and use your stinkin' corpses to fire my forge!~ 
+-  IF ~~ THEN REPLY ~You're a dead man, blacksmith.~  DO ~Enemy()
++  SAY @50 
++  IF ~~ THEN REPLY @51  DO ~Enemy()
+ Attack(Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Have it your way. Farewell.~  EXIT
++  IF ~~ THEN REPLY @49  EXIT
+ END
+ 
+ IF WEIGHT #2 ~GlobalGT("Sheemish_Escape","GLOBAL",0)
+ Global("Conlan_Thanked", "GLOBAL", 0)
+ Global("Conlan_Break","GLOBAL",0)~ THEN BEGIN 17 // from:
+-  SAY ~I want to thank you for finding my boy for me. I had almost given up hope. I nearly fell out of my chair when he came bouncing through the door, telling tales of heroes and monsters with nary a scratch on him. He's in the back now resting. Go on in and say hello if you wish.~ 
+-  IF ~~ THEN REPLY ~We will. First, we'd like to make a purchase.~  DO ~SetGlobal("Conlan_Thanked", "GLOBAL", 1)
++  SAY @52 
++  IF ~~ THEN REPLY @53  DO ~SetGlobal("Conlan_Thanked", "GLOBAL", 1)
+ SetGlobal("Know_Conlan", "GLOBAL", 2)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.%)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace.%)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We freed Conlan's son, Sheemish from the depths of Dragon's Eye. We should probably return to Kuldahar to check on him to make sure he got home all right.%)
++EraseJournalEntry(@25)
++EraseJournalEntry(@27)
++EraseJournalEntry(@54)
+ StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~We'll do that. Farewell.~  DO ~SetGlobal("Conlan_Thanked", "GLOBAL", 1)
++  IF ~~ THEN REPLY @55  DO ~SetGlobal("Conlan_Thanked", "GLOBAL", 1)
+ SetGlobal("Know_Conlan", "GLOBAL", 2)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.%)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace.%)
+-EraseJournalEntry(%Finding Sheemish, Conlan's son.
+-
+-We freed Conlan's son, Sheemish from the depths of Dragon's Eye. We should probably return to Kuldahar to check on him to make sure he got home all right.%)~ EXIT
++EraseJournalEntry(@25)
++EraseJournalEntry(@27)
++EraseJournalEntry(@54)~ EXIT
+ END
+ 
+ IF ~Global("Conlan_Break","GLOBAL",1)~ THEN BEGIN 18 // from:
+-  SAY ~You!  Get out of my shop! I'll not do business with you anymore!~ 
++  SAY @56 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~My son just vanished, I tell you. Gone without a trace. Even ol' Arundel couldn't find a trail, and he's got a nose for such things. I imagine whatever took him will come back for me next. I can't say it'll be unwelcome.~ 
+-  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY ~Who is this Arundel?~  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ UNSOLVED_JOURNAL ~Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.~  GOTO 8
+-  IF ~Global("Vale_Quest", "GLOBAL", 1)~ THEN REPLY ~I've spoken with Arundel. He believes the source of the disturbances may lie within the Vale of Shadows.~ UNSOLVED_JOURNAL ~Finding Sheemish, Conlan's son.
+-
+-We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace.~  GOTO 10
+-  IF ~~ THEN REPLY ~You have my sympathy, Conlan. Perhaps you can show me what blades you have so I might arm myself against the likes of the rogues that abducted your son.~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Well... I'd love to talk about your missing son all day, but I came to purchase weapons. What have you got?~  DO ~StartStore("KUSMITH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Interesting. Farewell, Conlan.~  EXIT
++  SAY @57 
++  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY @24  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ UNSOLVED_JOURNAL @25  GOTO 8
++  IF ~Global("Vale_Quest", "GLOBAL", 1)~ THEN REPLY @26 UNSOLVED_JOURNAL @27  GOTO 10
++  IF ~~ THEN REPLY @28  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @29  DO ~StartStore("KUSMITH", Player1)~ EXIT
++  IF ~~ THEN REPLY @30  EXIT
+ END

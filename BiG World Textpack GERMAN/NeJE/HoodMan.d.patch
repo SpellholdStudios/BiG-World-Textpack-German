@@ -1,0 +1,78 @@
+--- NeJE\dlg\HoodMan.d	Sat Apr 07 18:00:21 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\HoodMan.d	Tue Apr 09 19:36:12 2019
+@@ -1,33 +1,33 @@
+ BEGIN ~HoodMan~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~A moment <CHARNAME>...~
+-  IF ~~ THEN REPLY ~I don’t believe I know you... do I? Care to explain how it is you know my name?~ GOTO 1
+-  IF ~~ THEN REPLY ~What the... who are you skulking in the shadows and more to the point... how is it you know my name?~ GOTO 1
+-  IF ~~ THEN REPLY ~I don’t know you, so you’d best tell me how it is you know my name and what business you think you have with me?~ GOTO 1
+-  IF ~~ THEN REPLY ~Isn’t there anyone in this damned city who doesn’t know who I am? What is it you want with me and make it fast... I have unfinished business with another!~ GOTO 6
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 1
++  IF ~~ THEN REPLY @4 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~It is not necessary for you to know my name, as to my knowing your name... my Mistress knows much about you already. You are known to us, if not us to you.~
++  SAY @5
+ 	IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Your business with Armagaran Vulova is your own and of no interest to my Mistress. However, and listen to my words, for I speak only the truth when I say to you, that she can and will help you gain access to his estate.~
++  SAY @6
+ 	IF ~~ THEN GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Know that, ONLY through her help will the way be opened for you. Consider this when the time comes for deciding.~
+-  IF ~!Global("BodiAppear","GLOBAL",0)~ THEN REPLY ~Would I be right in thinking that this mysterious mistress whom you serve, is also the mistress of another who has recently approached me?~ GOTO 4
+-  IF ~~ THEN REPLY ~Deciding what... and who is this mistress you speak of?~ GOTO 4
+-  IF ~~ THEN REPLY ~Time for deciding... what does this mistress of yours know of any decisions I will be asked to make?~ GOTO 4
+-  IF ~~ THEN REPLY ~I make my own choices and you can tell this mistress of yours, whoever she is, that my mind will not be swayed by ambiguous promises.~ GOTO 7
++  SAY @7
++  IF ~!Global("BodiAppear","GLOBAL",0)~ THEN REPLY @8 GOTO 4
++  IF ~~ THEN REPLY @9 GOTO 4
++  IF ~~ THEN REPLY @10 GOTO 4
++  IF ~~ THEN REPLY @11 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Patience <CHARNAME>... all answers will be given in due time...~
++  SAY @12
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 380
+   IF ~OR(2)
+@@ -36,17 +36,17 @@
+ END  
+    
+ IF ~~ THEN BEGIN 5
+-  SAY ~(*The hooded man looks around furtively*)... I must go, for guards approach and I must not be seen. Consider... (*Consider... his final word echos in your mind as the shadowy figure melts into the shadows and out of sight.*)~
++  SAY @13
+ 	IF ~~ THEN DO ~DestroySelf()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Your reputation spreads far and wide <CHARNAME>, there are very few who don’t know the story of the hero of the Sword Coast. There are however, not so many who know of your parentage... my mistress is one who knows much about you already. You are known to us, if not us to you.~
++  SAY @14
+   IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~(*The mysterious figure laughs softly and the sound of his mirth, wraps itself around your heart, turning the blood it pumps to ice*)... Your choices are not so much your own as you would like to believe... if you were to be given a hundred choices or only two, the terms would still be laid down by the one offering those choices.~
++  SAY @15
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 380
+   IF ~OR(2)
+@@ -55,6 +55,6 @@
+ END 
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~(*He looks around furtively*)... I must go, for guards approach and I must not be seen. Consider... (*Consider... his final word echos in your mind as the shadowy figure melts into the shadows and out of sight.*)~
++  SAY @16
+ 	IF ~~ THEN DO ~DestroySelf()~ EXIT
+ END         

@@ -1,0 +1,11 @@
+--- NeJE\TS\baf\SEALBCKP.baf	Thu Dec 30 16:54:42 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\SEALBCKP.baf	Tue Apr 09 19:40:11 2019
+@@ -124,7 +124,7 @@
+ 	!PartyHasItem("ExitWard")
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~This exit is magically sealed. You have no means to unseal it.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF

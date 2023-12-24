@@ -1,0 +1,50 @@
+@0    = ~Ich nehme an, Ihr bringt mir noch Topase zum Schleifen. Legt sie nur dort hin und lasst mich weiterarbeiten.~
+@1    = ~Öh... tut mir Leid, aber ich weiß nicht, wovon Ihr redet.~
+@2    = ~Hallo. Was treibt Ihr denn noch hier in der Gegend?~
+@3    = ~Marketh ist tot. Ich habe ihn getötet.~
+@4    = ~Nicht viel. Lebt wohl, Norl.~
+@5    = ~Hmm... ich schätze, selbst Markeths Schergen haben etwas Besseres zu tun, als hier hereinzukommen und mich zu schikanieren. Ich heiße Norl. Ich bin Diamantschleifer. Marketh hält mich hier gefangen, damit ich für seinen Meister Diamanten und für seine Konkubine kunstvollen Schmuck anfertige.~
+@6    = ~Was ist mit Euren Beinen los?~
+@7    = ~Wer ist Marketh?~
+@8    = ~Unter-Dorntief
+
+In Durdel Anatha haben wir einen Edelsteinschleifer namens Norl getroffen, der Marketh hasst. Marketh zwingt Norl, Schmuck für seine Konkubine anzufertigen.~
+@9    = ~Wer ist sein Meister?~
+@10   = ~Marketh hat mir Fesseln angelegt, weil ich versucht habe zu fliehen. Ich schätze, ich sollte froh sein. Zumindest hat er mir nicht die Zunge herausgeschnitten. Eines Tages bekommt der Bastard, was er verdient.~
+@11   = ~Wer ist Markeths Meister?~
+@12   = ~Hat er bereits. Ich habe ihn getötet.~
+@13   = ~Marketh ist der Mensch, der im Palast des alten Dorn. Er hat sich selbst zum Obersten Kammerherrn ernannt. Er lebt dort mit seiner Konkubine, Ginafae, und seinen beiden Leibwächtern. Schergen, die von einem Halbling namens Seth angeführt werden, bewachen den Eingang zum Palast. Marketh macht sich gerne fürchterlich wichtig. Er ist nichts weiter als ein gemeiner Verbrecher.~
+@14   = ~Für wen arbeitet Marketh? Was macht er hier unten?~
+@15   = ~Marketh dient einem Priester eines menschlichen Gottes, der Ilmater heißt. Ich weiß nichts über diese Religion, aber mir scheint, sie beinhaltet grausame Strafen und Sklaverei. Er erzählt uns immer, dass wir für Ilmater leiden müssen, und dass wir Sklaven seines Willens und dem der Kirche sein müssen.~
+@16   = ~Wie heißt dieser Priester? Wie sieht er aus?~
+@17   = ~Er heißt Poquelin. Ehrwürdiger Bruder Poquelin. Er sieht wie ein Irrer aus. Er trägt weiße Roben mit roten Flecken am Saum, als liefe er durch Blut. An seinen Ärmeln sind auch Flecken. Seine Handgelenke sind immer verbunden. Er trägt eine rote Mütze und seine Augen... sind kalt wie Eis.~
+@18   = ~Hmm. Wo finde ich diesen Mann?~
+@19   = ~Ich weiß es nicht. Und ich weiß auch nicht, ob ich es wissen will. Ab und zu, wenn Marketh herkommt, überkommt mich der Drang aufzuspringen und ihn zu schlagen. Ich hatte denselben Gedanken, als Poquelin herkam. Sofort packte er meinen Kopf und schaute mir direkt in die Augen. Als hätte er es gewusst.~
+@20   = ~Bitte helft mir, Marketh zu finden und ihn loszuwerden.~
+@21   = ~Sicher. Die Chance lasse ich mir nicht entgehen. Sagt mir, was ich tun soll.~
+@22   = ~Marketh besitzt einen Ring, mit dem er sich durch ganz Dorntief teleportieren kann. Wenn Ihr ein Duplikat des Rings anfertigen würdet, könnten wir ihn vielleicht vertauschen und Marketh in die Falle locken.~
+@23   = ~Unter-Dorntief
+
+Ein Diamantschleifer namens Norl hat gesagt, dass er mir helfen würde, Marketh loszuwerden, wenn wir ihm Markeths Ring beschaffen würden. Wenn wir das schaffen würden, wäre eine Kopie des Rings natürlich überflüssig.~
+@24   = ~Hmm. Das ist ein Problem. Ich werde mir etwas ausdenken. Lebt wohl.~
+@25   = ~Ring hier hätte, dann könnte ich es tun. Andernfalls glaube ich nicht, dass ich eine genaue Kopie anfertigen kann.~
+@26   = ~Nun, ich habe eine Zeichnung von ihm, die ich von zwei Bildhauern bekommen habe. Sie zeigt den Ring mit allen Details. Würde das reichen?~
+@27   = ~Unter-Dorntief
+
+Wir haben Norl eine Zeichnung von Marketh gegeben, die wir von zwei Bildhauern im Palast haben. Norl sagte, dass er die Zeichnung gut gebrauchen könnte, um den Ring anzufertigen.~
+@28   = ~Ja... ja... das wird gehen. Dieser Ring wird mein bestes Stück werden...~
+@29   = ~Gewiss. Da, nehmt. Ich komme später wieder, um den Ring abzuholen.~
+@30   = ~Ah. You again?~
+@31   = ~ich habe eine Zeichnung von Marketh, die zwei Bildhauer gemacht haben. Sie zeigt den Ring, mit dem sich Marketh durch ganz Dorntief teleportieren kann. Wenn Ihr ein Duplikat des Rings anfertigen würdet, könnten wir ihn vielleicht vertauschen und Marketh in die Falle locken.~
+@32   = ~Unter-Dorntief
+
+Ein Diamantschleifer namens Norl hat gesagt, dass er mir helfen würde, Marketh loszuwerden, wenn wir ihm Markeths Ring beschaffen würden. Wir haben Norl eine Zeichnung von Marketh gegeben, die wir von zwei Bildhauern im Palast haben. Norl sagte, dass er die Zeichnung gut gebrauchen könnte, um den Ring anzufertigen.~
+@33   = ~Macht nichts, Norl. Lebt wohl.~
+@34   = ~Tut mir Leid, aber der Ring ist noch nicht fertig. Kommt später wieder und ich habe, was Ihr braucht.~
+@35   = ~Ah! Der Ring ist fertig, ehrwürdige Verbündete. Hier ist er, ein Silberring mit einem dicken Smaragd für Markeths dicken Kopf. Es wird nicht leicht sein, ihn auszutauschen, aber Callarduran wird mit Euch sein.~
+@36   = ~Danke, Norl. Lebt wohl.~
+@37   = ~Unter-Dorntief
+
+Norl hat die Kopie von Markeths Teleportationsring fertig gestellt und uns gegeben. Bevor wir ihn verließen, hat er mir gesagt, dass Callarduran mit uns wäre.~
+@38   = ~Lasst mich wissen, wenn Ihr Marketh die Strafe erteilt, die er verdient. Ich kann das Ende seiner Schreckensherrschaft kaum abwarten.~
+@39   = ~Der Gerechtigkeit wurde endlich genüge getan. Danke für Eure Hilfe. Ich werde Euch bis ans Ende meiner Tage nicht vergessen.~

@@ -1,0 +1,273 @@
+--- Bdash\ThirdP\dlg\rPPSAEM.d	Sat Jan 09 23:04:33 2016
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rPPSAEM.d	Wed May 04 07:21:21 2016
+@@ -10,37 +10,37 @@
+ IF ~Global("ThiefGroup","GLOBAL",0)
+ Global("AsylumPlot","GLOBAL",0)
+ Global("VP_SailTo_Brynnlaw","GLOBAL",2)~ THEN BEGIN KR0
+-	SAY ~This is a grand day to see you. You must be <CHARNAME>, the one that Aran Linvail told me about. He said that you would be a very capable help to his course.~
++	SAY @0
+ =
+-~But I don't see Aran here... In fact, I heard very bad rumours that Aran has ultimately passed away and not without your help.~
+-  IF ~~ THEN REPLY ~Yes, I've killed Aran Livnail and destroyed his guild, and you must be Saemon Havarian, the infamous captain mentioned in this letter. I need your ship to sail to Brynnlaw.~ DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
++@1
++  IF ~~ THEN REPLY @2 DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
+ TakePartyItem("aranlett")~ GOTO KR1
+-  IF ~~ THEN REPLY ~Yes, I've killed Aran Livnail and destroyed his guild. Here is the letter I've got from his corpse, but I presume you have been well aware of my soon arrival. I need your ship to sail to Brynnlaw.~ DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
++  IF ~~ THEN REPLY @3 DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
+ TakePartyItem("aranlett")~ GOTO KR1
+-  IF ~~ THEN REPLY ~(*Pretending to be surpsrised*) No, I haven't heard of his death, and if it's true, I am not responsible for that. Aran mentioned that you might be waiting for me in this tavern. I need your ship to sail to Brynnlaw.~ DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
++  IF ~~ THEN REPLY @4 DO ~SetGlobal("VP_SailTo_Brynnlaw","GLOBAL",3)
+ TakePartyItem("aranlett")~ GOTO KR1
+ END
+ 
+ IF ~~ THEN BEGIN KR1
+-  SAY ~Well, frankly speaking, I don't care about Aran Linvail and his guild. If you succeeded to assassinate Aran and destroy his guild in a single blow, I would like to have such a powerful ally on board.~
++  SAY @5
+ =
+-~However, I had a certain deal with Aran which due to his present condition and circumstances behind that he could not respect.~
++@6
+ =
+-~So, the ship will be yours to the island provided that you now purchase the passage for mere 10,000 gp, as well as the silence of the crew.~
++@7
+ =
+-~Though a silence more symbolic than anything, as you may well find my men a boisterous lot at all hours. I encourage general revelry.~
+-	  IF ~PartyGoldGT(9999)~ THEN REPLY ~The personal habits of the crew are your business, Captain. Just as long as they perform as they should and deliver me and my group safely and in good time. Here your gold is then.~ DO ~TakePartyGold(10000)
++@8
++	  IF ~PartyGoldGT(9999)~ THEN REPLY @9 DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO KR2
+-	  IF ~PartyGoldGT(9999)~ THEN REPLY ~Sure, here your gold is then.~ DO ~TakePartyGold(10000)
++	  IF ~PartyGoldGT(9999)~ THEN REPLY @10 DO ~TakePartyGold(10000)
+ DestroyGold(10000)~ GOTO KR2
+ 	  IF ~PartyGoldLT(10000)~ THEN REPLY #20968 GOTO KR3
+ 	  IF ~PartyGoldLT(10000)~ THEN REPLY #20988 GOTO KR4
+ END
+ 
+ IF ~~ THEN BEGIN KR2
+-  SAY ~Thank you <CHARNAME>. Then we are fully staffed and ready to sail. Never a fear nor worry should cross your thoughts this eve, m'<PRO_LADYLORD>. I have traveled this sea a good many times, and I foresee no troubles.~
++  SAY @11
+ =
+-~Although, I am sure, nothing untoward will happen during our crossing, best that we get underway as soon as possible. Please follow me to the docks where my ship is waiting for us.~
++@12
+ 	  IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ KeldR0
+ 	  IF ~!InParty("Kachiko")~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+@@ -48,12 +48,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN KR3
+-  SAY ~I am sure you have spent as much in the past and will again. Surely there be work in the city for you. Or perhaps some of your expensive goods to sell?~
++  SAY @13
+ 	  IF ~~ THEN REPLY #20988 GOTO KR4
+ END
+ 
+ IF ~~ THEN BEGIN KR4
+-  SAY ~I'll wait for you here.~
++  SAY @14
+ 	  IF ~~ THEN EXIT
+ END
+ 
+@@ -61,23 +61,23 @@
+ Global("AsylumPlot","GLOBAL",0)
+ Global("VP_SailTo_Brynnlaw","GLOBAL",3)
+ Global("Start_Island","GLOBAL",0)~ THEN BEGIN KR5
+-	SAY ~Hey, <CHARNAME>.  It's nice to see you again. Have you gathered the required fee for me?~
++	SAY @15
+ 	  IF ~~ THEN REPLY #21031 GOTO KR6
+ 	  IF ~~ THEN REPLY #21033 GOTO KR2
+ END
+ 
+ IF ~~ THEN BEGIN KR6
+-  SAY ~As you fish, I'll wait for you. I enjoy here my drinks and chatting with friends.~
++  SAY @16
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN KR7
+-  SAY ~Half a year, may be a year... It is a long and dangerous route. Not many ships go that far away, and of those that do few return back.~
+-  IF ~~ THEN REPLY ~Yoshimo, Kachiko, I am sorry, but I have to haste to Imoen’s rescue, her life is at stake! May be after we find Imoen I will go to Kara-Tur with you.~ EXTERN ~YOSHJ~ KeldR0
++  SAY @17
++  IF ~~ THEN REPLY @18 EXTERN ~YOSHJ~ KeldR0
+ END
+ 
+ IF ~~ THEN BEGIN KR8
+-  SAY ~Ahem, if I may interrupt... I think I have a solution for your problem. Recently I run into a... mmh... an arch-mage of great renown, Harkle Harpel. For a minor service, he gave me this scroll. It’s called the Harpel’s Fog of Fate. If I cast it, my "Gallante" will carry you to the place you destined to be in mere hours, be it Kara-Tur or Spellhold.~
++  SAY @19
+   IF ~True()~ THEN GOTO TS81
+   IF ~InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ TS122
+   IF ~InParty("Anomen")~ THEN EXTERN ~ANOMENJ~ TS310
+@@ -86,15 +86,15 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS81
+-  SAY ~Of course, I would not part with this scroll for less then 5,000 gold.~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ GOTO KR3
+-  IF ~~ THEN REPLY ~We will pay you, Saemon... if we are to survive this spell.~ GOTO KR11
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ KeldR1
+-  IF ~~ THEN REPLY ~On the second thought, this spell seems a way suspicious to trust it. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++  SAY @20
++  IF ~PartyGoldLT(5000)~ THEN REPLY @21 GOTO KR3
++  IF ~~ THEN REPLY @22 GOTO KR11
++  IF ~PartyGoldGT(4999)~ THEN REPLY @23 EXTERN ~KACHIJ~ KeldR1
++  IF ~~ THEN REPLY @24 EXTERN ~YOSHJ~ KeldR1
+ END
+   
+ IF ~~ THEN BEGIN KR9
+-  SAY ~With pleasure. Well, then everything is settled. Here is the scroll.~
++  SAY @25
+   IF ~~ THEN DO ~TakePartyGold(5000)
+ DestroyGold(5000)
+ SetGlobal("Start_Island","GLOBAL",1)
+@@ -103,24 +103,24 @@
+ END
+ 
+ IF ~~ THEN BEGIN KR10
+-  SAY ~As you wish...~
++  SAY @26
+   IF ~~ THEN DO ~StartCutSceneMode()
+ StartCutScene("VPMov03K")~ EXIT // --->  to Brynnlaw (the Island is by-passed) => VPMov03K => VPMov03L => CUT41krb 
+ END
+ 
+ IF ~~ THEN BEGIN KR11
+-  SAY ~That is why I would like to get my payment before I cast the spell.~
+-  IF ~~ THEN REPLY ~Watch you tongue, Saemon. We have already paid you enough!~ GOTO KR12
++  SAY @27
++  IF ~~ THEN REPLY @28 GOTO KR12
+ END
+ 
+ IF ~~ THEN BEGIN KR12
+-  SAY ~ You have paid me only for one way to Brynnlaw... Sorry to say, but business is business.~
++  SAY @29
+   IF ~PartyGoldLT(5000)
+-AreaCheck("AR0500")~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ GOTO KR3
++AreaCheck("AR0500")~ THEN REPLY @21 GOTO KR3
+   IF ~PartyGoldLT(5000)
+-AreaCheck("AR0313")~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ GOTO KR6
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Okay, take this money, and try to do your best.~ EXTERN ~KACHIJ~ KeldR1
+-  IF ~~ THEN REPLY ~Imoen is too dear to me to trust this suspicious spell. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++AreaCheck("AR0313")~ THEN REPLY @21 GOTO KR6
++  IF ~PartyGoldGT(4999)~ THEN REPLY @30 EXTERN ~KACHIJ~ KeldR1
++  IF ~~ THEN REPLY @31 EXTERN ~YOSHJ~ KeldR1
+ END
+ 
+ ///////////////////////////////////////////////
+@@ -167,35 +167,35 @@
+ IF ~Global("ThiefGroup","GLOBAL",0)
+ Global("Start_Island","GLOBAL",1)
+ Global("Saemon_Mistake","GLOBAL",0)~ THEN BEGIN KR15
+-  SAY ~Ahem... dear <SIRMAAM> we had arrived it seems... ~
+-  IF ~~ THEN REPLY ~Where?~ DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO KR16
++  SAY @32
++  IF ~~ THEN REPLY @33 DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO KR16
+ END
+ 
+ IF ~~ THEN BEGIN KR16
+-  SAY ~Uhm, that’s not Brinnlaw, I am positive... Maybe it is some part of Kara-Tur. You have couple locals among your ranks they would know better than I.~
++  SAY @34
+   IF ~~ THEN EXTERN ~YOSHJ~ KR166
+ END
+ 
+ IF ~~ THEN BEGIN KR17
+-  SAY ~We’d have to wait for the night to fall, to be able to tell our position from the stars. Meanwhile, the crew will inspect the ship and repair what we can... The journey ahead of us might be long and harsh.~
+-  IF ~~ THEN REPLY ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are.~ DO ~SetGlobal("Island_War","GLOBAL",1)~ EXIT
++  SAY @35
++  IF ~~ THEN REPLY @36 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~Global("ThiefGroup","GLOBAL",0)
+ Global("VP_OnIsland","GLOBAL",1)
+ Global("End_Island","GLOBAL",2)~ THEN BEGIN KR18
+-  SAY ~The good news is that the ship is ready to sail. The bad news is that we are far to the south from Athkatla, and I am not sure if we will see Amn’s shores again.~
++  SAY @37
+ =
+-~I have no knowledge of these waters and I am reluctant to start out without more information... What is your command, my <PRO_LADYLORD>?~
+-  IF ~~ THEN REPLY ~Well, I’d trade you my good news! I got a map, showing a magical portal, which can teleport our ship back to our lands, and a wardstone, which makes possible to restore our time-space continuum.~ DO ~SetGlobal("End_Island","GLOBAL",3)~ GOTO KR19
++@38
++  IF ~~ THEN REPLY @39 DO ~SetGlobal("End_Island","GLOBAL",3)~ GOTO KR19
+ END
+ 
+ IF ~~ THEN BEGIN KR19
+-  SAY ~Magical portal? Time wardstone? Sounds just as good as the Fog of Fate spell... Let me see the sea charts you get...~
++  SAY @40
+ =
+-~Hmm, looks like it was made with skill. I have a feeling it’s genuine.~
++@41
+ =
+-~I suggest that we go to Athkatla and then sail to Brinnlaw in a more traditional way, because the area miles around Brinnlaw is heavily warded against magical travels... Rig up, crew!~
++@42
+   IF ~~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41krS")~ EXIT
+ END
+@@ -204,48 +204,48 @@
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN TS252
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~~ THEN REPLY ~Well, what’s life if not one big gamble!~ EXTERN ~PPSAEM~ TS81
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++  SAY @43
++  IF ~~ THEN REPLY @44 EXTERN ~PPSAEM~ TS81
++  IF ~~ THEN REPLY @45 EXTERN ~YOSHJ~ KeldR1
+ END
+ END
+ 
+ APPEND ~JAHEIRAJ~
+ 
+ IF ~~ THEN BEGIN TS531
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~~ THEN REPLY ~Well, what’s life if not one big gamble!~ EXTERN ~PPSAEM~ TS81
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++  SAY @43
++  IF ~~ THEN REPLY @44 EXTERN ~PPSAEM~ TS81
++  IF ~~ THEN REPLY @45 EXTERN ~YOSHJ~ KeldR1
+ END
+ END
+ 
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN TS310
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~~ THEN REPLY ~Well, what’s life if not one big gamble!~ EXTERN ~PPSAEM~ TS81
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++  SAY @43
++  IF ~~ THEN REPLY @44 EXTERN ~PPSAEM~ TS81
++  IF ~~ THEN REPLY @45 EXTERN ~YOSHJ~ KeldR1
+ END
+ END
+ 
+ APPEND ~VALYGARJ~
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~~ THEN REPLY ~Well, what’s life if not one big gamble!~ EXTERN ~PPSAEM~ TS81
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ KeldR1
++  SAY @43
++  IF ~~ THEN REPLY @44 EXTERN ~PPSAEM~ TS81
++  IF ~~ THEN REPLY @45 EXTERN ~YOSHJ~ KeldR1
+ END
+ END
+ 
+ APPEND ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN KeldR0
+-  SAY ~No! This is impossible! Eh, no, I’d rather part our ways right now.~
++  SAY @46
+   IF ~~ THEN EXTERN ~PPSAEM~ KR8
+ END
+ 
+ IF ~~ THEN BEGIN KeldR1
+-  SAY ~I understand. I wish you good luck in your dealings with Irenicus and rescuing Imoen. Farewell and do not think ill of us.~
++  SAY @47
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",2)~ EXTERN ~KACHIJ~ KeldR2
+ END
+ 
+@@ -261,8 +261,8 @@
+ END
+ 
+ IF ~~ THEN BEGIN KR166
+-  SAY ~No, I had spent several years sailing around Kara-Tur. This place reminds nothing of what I have seen and with a bay like that it would be a lively port be it in Kara-Tur. The spell went astray, I suppose... I am very sorry <CHARNAME>.~
+-  IF ~~ THEN REPLY ~We are neither at Spellhold, nor Kara-Tur. Damn you, Harkle Harpel and the whole mad family of yours! But we have to deal with our plight here now. I heard you are resourceful, Saemon. Any suggestions?~ EXTERN ~PPSAEM~ KR17
++  SAY @48
++  IF ~~ THEN REPLY @49 EXTERN ~PPSAEM~ KR17
+ END
+ END
+ 

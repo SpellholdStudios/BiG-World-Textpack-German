@@ -1,0 +1,13 @@
+--- LongerRoad\LongerRoad.tp2	Tue Jul 13 18:48:04 2021
++++ C:\BWP Patchstudio\patched files\LongerRoad\LongerRoad.tp2	Tue Nov 30 15:20:22 2021
+@@ -42,6 +42,10 @@
+          ~russian~
+          ~LongerRoad/tra/russian/setup.tra~
+ 
++LANGUAGE ~German (LW)~
++         ~german~
++         ~LongerRoad/tra/german/setup.tra~
++
+ ///////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////////////////////
+ // The Longer Road

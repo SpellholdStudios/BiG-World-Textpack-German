@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V9.baf	Mon Jan 17 17:05:34 2005
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V9.baf	Wed Apr 10 10:28:35 2019
+@@ -20,10 +20,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~Shhh!~) // "Shhh!"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~I lost my dolly.~) // "I lost my dolly."
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ END
+ 

@@ -1,0 +1,9 @@
+--- NeJ2\baf\TuAlert3.baf	Mon Jan 19 16:45:52 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\TuAlert3.baf	Wed Apr 10 10:31:33 2019
+@@ -4,5 +4,5 @@
+ 	!StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+ THEN
+ 	RESPONSE #100
+-		DisplayString("TuEzek",~Please leave my drawer, there is nothing to loot!~)
++		DisplayString("TuEzek",@0)
+ END

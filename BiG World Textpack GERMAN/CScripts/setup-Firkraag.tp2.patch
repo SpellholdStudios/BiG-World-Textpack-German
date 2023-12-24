@@ -1,0 +1,10 @@
+--- setup-Firkraag.tp2	?
++++ C:\BWP Patchstudio\patched files\setup-Firkraag.tp2	Sat Sep 15 15:52:02 2012
+@@ -4,6 +4,7 @@
+ LANGUAGE ~English~ ~English~ ~CScripts/english/fsetup.tra~
+ LANGUAGE ~French~ ~French~ ~CScripts/french/fsetup.tra~
+ LANGUAGE ~Russian~ ~Russian~ ~CScripts/russian/fsetup.tra~
++LANGUAGE ~German~ ~German~ ~CScripts/german/fsetup.tra~
+ 
+ BEGIN @6
+ 

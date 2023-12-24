@@ -1,0 +1,11 @@
+--- TS\bgtdlg\aJAHEIRJ.D	Thu Feb 07 00:19:24 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aJAHEIRJ.D	Thu May 05 10:44:12 2016
+@@ -1,7 +1,7 @@
+ APPEND ~JAHEIRAJ~
+ 
+ IF ~~ THEN BEGIN TS532
+-  SAY ~Unnatural creatures, unnatural place. What a dread to be here. Yet there seem to be some awkward balance in Nakanishi and Hashimoto’s war. <CHARNAME> your command to come here was one of the many leadership errors.~
++  SAY @0
+   IF ~Global("NPCRemark","GLOBAL",1)~ THEN DO ~SetGlobal("NPCRemark","GLOBAL",2)~ EXIT
+ END
+ 

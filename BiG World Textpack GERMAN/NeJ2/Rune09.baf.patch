@@ -1,0 +1,11 @@
+--- NeJ2\baf\Rune09.baf	Mon Jan 19 16:44:56 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\Rune09.baf	Wed Apr 10 10:31:12 2019
+@@ -12,7 +12,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("VP_Rune09","MYAREA",1)
+ 		RealSetGlobalTimer("VP_Rune09_Close","MYAREA",180)
+-		DisplayString(Myself,~When you step on this rune, it begins to glow.~)
++		DisplayString(Myself,@0)
+ 		OpenDoor("DOOR18")
+ END
+ 

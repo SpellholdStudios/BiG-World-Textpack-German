@@ -1,0 +1,32 @@
+--- NeJ\baf\SHOFLT1.baf	Sun Jan 07 00:16:06 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHOFLT1.baf	Wed Apr 10 10:29:47 2019
+@@ -2,7 +2,7 @@
+ 	See([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~You cannot barge in here like this!~)
++		DisplayStringHead(Myself,@0)
+ 		Shout(89)
+ 		Continue()
+ END
+@@ -35,16 +35,16 @@
+ 	CombatCounter(0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Larrel has decreed that the dwarves are still not to be trusted.~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~We will vote on the next measure shortly.~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Come to order.~)
++		DisplayStringHead(Myself,@3)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~The time has come to make a decision.~)
++		DisplayStringHead(Myself,@4)
+ 		Continue()
+ END
+ 

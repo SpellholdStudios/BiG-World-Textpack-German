@@ -1,0 +1,1328 @@
+--- NeJE\dlg\TafficJ.D	Sat Dec 08 05:47:10 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TafficJ.D	Tue Apr 09 19:37:21 2019
+@@ -1,105 +1,105 @@
+ BEGIN ~TAFFICJ~
+ 
+ IF WEIGHT #0 ~Global("VP_Start_My_Quest","LOCALS",1)~ THEN BEGIN 0
+-  SAY ~I insist that we make our way to Ribald’s store on the promenade. I hear Dreide has returned and I must speak with her at once. She knows of my dream and has promised me that on her return she would have answers to how I might achieve it. We must make haste for I feel my destiny is indeed very close now.~
+-  IF ~~ THEN REPLY ~Deidre... what has she to do with this insane fantasy of yours Taffic?~ GOTO 1
+-  IF ~~ THEN REPLY ~I have enough with my own concerns at the moment without allowing myself to be drawn into your insane ideas.~ GOTO 3
+-  IF ~~ THEN REPLY ~If this Deidre supports your insane ideas Taffic I have no wish to speak with her.~ GOTO 3
+-  IF ~~ THEN REPLY ~You insist Taffic... since when did you become the decision maker of this group?~ GOTO 4
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 3
++  IF ~~ THEN REPLY @3 GOTO 3
++  IF ~~ THEN REPLY @4 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Deidre is a very powerful, intelligent witch and she knows many secrets that have been lost and forgotten by others. She has travelled widely, conversed with Shamen and wizards of peoples we know only by name.~
++  SAY @5
+ 	IF ~~ THEN GOTO 2
+ END 
+   
+ IF ~~ THEN BEGIN 2
+-  SAY ~She is of a great age herself, though you would not know this to look at her, and some of whom she has spoken with in her travels are older then she. If anyone knows of a way to hasten my destiny it is she and we are wasting time with words here, let us make our way there now!~
+-  IF ~~ THEN REPLY ~I am thinking that she isn’t that wise but I don’t suppose there is any harm in speaking with her... come, let us find her.~ GOTO 5
+-  IF ~~ THEN REPLY ~Maybe if she is as intelligent as you say, she will put an end to this insanity once and for all! Let us find her and hear what she has to say.~ GOTO 5
+-  IF ~~ THEN REPLY ~I have heard enough of you and your destiny gnome! Either you forget this madness, accept who you are and continue with the group, or we separate now. You decide, but make it quick.~ GOTO 6
+-  IF ~~ THEN REPLY ~I can not afford to keep someone in the group who is continually distracted by his own ambition... I need everyone focussed on the tasks ahead. So, unless you are prepared to give up this madness I would prefer it if you left now.~ GOTO 6
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @8 GOTO 5
++  IF ~~ THEN REPLY @9 GOTO 6
++  IF ~~ THEN REPLY @10 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Insane ideas! Who are you to say my ideas are insane? Deidre is a very wise and learned woman. She knows much of the old secrets of magic and if she sees that I am indeed destined to be more than I am, you can be sure it is true and not insanity on my part! If you will not accompany me whilst I speak with her then I go my own way from here... which is it to be <CHARNAME>?~
+-  IF ~~ THEN REPLY ~I am thinking that she isn’t that wise but I don’t suppose there is any harm in speaking with her... come, let us find her.~ GOTO 5
+-  IF ~~ THEN REPLY ~Maybe if she is as intelligent as you say, she will put an end to this insanity once and for all! Let us find her and hear what she has to say.~ GOTO 5
+-  IF ~~ THEN REPLY ~I have heard enough of you and your destiny gnome! Either you forget this madness, accept who you are and continue with the group, or we separate now. You decide, but make it quick.~ GOTO 6
+-  IF ~~ THEN REPLY ~I can not afford to keep someone in the group who is continually distracted by his own ambition... I need everyone focussed on the tasks ahead. So, unless you are prepared to give up this madness I would prefer it if you left now.~ GOTO 6
++  SAY @11
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @8 GOTO 5
++  IF ~~ THEN REPLY @9 GOTO 6
++  IF ~~ THEN REPLY @10 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~You promised to help me achieve my destiny when I consented to join your little group and now the opportunity to bring it about has presented itself, we should make sure it is not lost by dithering. So I repeat, let us make our way there now!~
+-  IF ~~ THEN REPLY ~I made no such promise. I told you when we met that I thought it would turn out to be a disappointing endeavour, but I did agree to go along with your fantasy so let us seek out this witch of yours.~ GOTO 5
+-  IF ~~ THEN REPLY ~I agreed to go along with your scheme only because you promised to recompense me for my trouble gnome. I have seen no such reward as of yet.~ GOTO 7
+-  IF ~~ THEN REPLY ~I made no such promise gnome, in fact your fantasy becomes more ludicrous to me with each passing day. So either you give up this nonsense and concentrate on the task ahead or you leave now?~ GOTO 6
+-  IF ~~ THEN REPLY ~I should never have agreed to such an insane notion. You are of no use to me if you insist on chasing every rumour... so unless you are prepared to give up this madness I would prefer it if you left now.~ GOTO 6
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 5
++  IF ~~ THEN REPLY @14 GOTO 7
++  IF ~~ THEN REPLY @15 GOTO 6
++  IF ~~ THEN REPLY @16 GOTO 6
+ END
+ 											
+ IF ~~ THEN BEGIN 5
+-  SAY ~(*Striding ahead*) Then what are we dithering here for?~
++  SAY @17
+ 	IF ~~ THEN DO ~RealSetGlobalTimer("VP_GoToDreideDelay","GLOBAL",600)
+ SetGlobal("VP_Start_My_Quest","LOCALS",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Then I shall be on my way. Greatness beckons me and none shall stand in my way, least of all this small minded group of yours who, when we next meet had better have learnt to put their breeches on before their boots if you wish to recruit the help of Taffic the tall hero... which is how you will address me then. (*He abruptly stomps off.*)~
++  SAY @18
+ 	IF ~~ THEN DO ~SetGlobal("VP_Start_My_Quest","LOCALS",2)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~There will be reward enough, but for as long as I remain Taffic the forest gnome I have no cause to thank you. However, once my greatness has come about, then you will be recompensed handsomely by Taffic the tall hero. Now, I grow impatient for your answer and will not tolerate more delay! What do you say <CHARNAME>?~ 
+-  IF ~~ THEN REPLY ~Common sense tells me that I am not going to get rich following your fantasy gnome, but stranger things have been known to happen. Let us see what Deidre has to say.~ GOTO 5
+-  IF ~~ THEN REPLY ~I will hear what Deidre has to say but be warned gnome, I will not be paying out gold to subsidize this fantasy of yours.~ GOTO 5
+-  IF ~~ THEN REPLY ~I should never have agreed to such an insane notion, there is no profit in chasing dreams. If you are not prepared to give up this nonsense of yours and concentrate on the tasks ahead then I would prefer it if you left now.~ GOTO 6
++  SAY @19 
++  IF ~~ THEN REPLY @20 GOTO 5
++  IF ~~ THEN REPLY @21 GOTO 5
++  IF ~~ THEN REPLY @22 GOTO 6
+ END
+ 
+ IF WEIGHT #-1 ~Global("VP_Start_My_Quest","LOCALS",3)~ THEN BEGIN 8
+-  SAY ~(*Angrily*) I am wasting my time here <CHARNAME>! I am no closer to achieving my full potential than I was when first we met! I will take my leave of you and continue my search alone. Goodbye <CHARNAME>.~ [taffic13]
++  SAY @23 
+ 	IF ~~ THEN DO ~SetGlobal("VP_Start_My_Quest","LOCALS",4)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~I am in no mood for jests Deidre... you know my reasons for coming here! You promised me that on your return you would have the necessary knowledge for me to achieve the greatness I am destined for. Well, have you discovered the secret or not?~
++  SAY @24
+   IF ~~ THEN EXTERN ~WMART2~ 4
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Don’t toy with me witch, I know your mind to be as sharp as it ever was in your youth! A simple yes or no to my question would suffice... have you the means to make Taffic into the tall hero or am I wasting my time here?~
++  SAY @25
+   IF ~~ THEN EXTERN ~WMART2~ 5
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~(*Angrily*) If that is true, then what was the, *I can not help you now Taffic, I have people that I must speak with first* excuse that you gave me when first we spoke? You have added yet even more delay to my achieving greatness and I’m beginning to tire of such hindrances.~
++  SAY @26
+   IF ~~ THEN EXTERN ~WMART2~ 6
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~(*Excitedly*) Anything Deidre! Just tell me what it is you want found and I will find it for you... won’t we <CHARNAME>?~
+-  IF ~~ THEN REPLY ~*We* Taffic... how did *I* suddenly become *we*?~ EXTERN ~WMART2~ 7
+-  IF ~~ THEN REPLY ~Now hold on a moment gnome... I will decide whether *we* continue with this insanity of yours or not.~ EXTERN ~WMART2~ 7
+-  IF ~~ THEN REPLY ~As I expected, everything in life has a price tag attached to it. However it is for me to decide whether I wish to pay it, not you Taffic.~ EXTERN ~WMART2~ 7
+-  IF ~~ THEN REPLY ~Rule No.1, Taffic, hear what the other person wants from you before agreeing to anything. That way you may get to enjoy your status as a bigger person longer.~ EXTERN ~WMART2~ 7
++  SAY @27
++  IF ~~ THEN REPLY @28 EXTERN ~WMART2~ 7
++  IF ~~ THEN REPLY @29 EXTERN ~WMART2~ 7
++  IF ~~ THEN REPLY @30 EXTERN ~WMART2~ 7
++  IF ~~ THEN REPLY @31 EXTERN ~WMART2~ 7
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Never mind <CHARNAME>’s path and destiny, it is my path, my future as a great hero that I came here to discuss! The sooner you spit out what it is you want from me, the sooner we will both be content!~
+-  IF ~~ THEN REPLY ~One moment Taffic, I have more questions to ask Deidre.~ EXTERN ~WMART2~ 12
+-  IF ~~ THEN REPLY ~Quiet gnome, there is more I wish to hear from the witch.~ EXTERN ~WMART2~ 12
++  SAY @32
++  IF ~~ THEN REPLY @33 EXTERN ~WMART2~ 12
++  IF ~~ THEN REPLY @34 EXTERN ~WMART2~ 12
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~At last! All this talk of the future and one’s destiny is making me impatient to begin the road to my own. Now, what is it that we are to find and where do we start looking? I presume you have some idea where this what ever it is might be?~
++  SAY @35
+   IF ~~ THEN EXTERN ~WMART2~ 14
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~(*Groans*) Ooh... yet more delay! No wonder many people never fulfil that which they are destined for... chasing one’s destiny is an arduous journey and hard on the feet too! No matter, the journey back will be much easier as my new, longer legs will enable me to take longer strides.~
++  SAY @36
+   IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ 34
+   IF ~OR(2)
+@@ -108,17 +108,17 @@
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~You forget yourself hafling, I have very good hearing. You’ll not be so quick with that acid tongue of yours when you witness the true miracle of me, Taffic, achieving the greatness I have always known I was destined to find.~
++  SAY @37
+   IF ~~ THEN EXTERN ~MELORAJ~ 35
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Bah... you carry on with your petty little quest! Now that I know what I must do, I no longer have need of you, nor do I need to be taking orders from you any more, soon Taffic will be the one giving orders, all will listen and do the bidding of Taffic the great!~
++  SAY @38
+   IF ~~ THEN GOTO 18
+ END
+   
+ IF ~~ THEN BEGIN 18
+-  SAY ~You <CHARNAME>, will very soon be telling of how Taffic the gnome, come hero, once travelled beside you and people will be in awe that you were so privileged. (*He storms off.*)~
++  SAY @39
+   IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ 36
+   IF ~OR(2)
+@@ -129,42 +129,42 @@
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~Then I shall be on my way. Now that I know what I must do, I no longer have need of you, nor do I need to be taking orders from you any more, soon Taffic will be the one giving orders, all will listen and do the bidding of Taffic the great! Greatness beckons me and none shall stand in my way, least of all this small minded group of yours who, when we next meet had better have learnt to put their breeches on before their boots if you wish to recruit the help of Taffic the tall hero... which is how you will address me then... (*He abruptly stomps off.*)~
++  SAY @40
+ 	IF ~~ THEN DO ~SetGlobal("VP_Start_My_Quest","LOCALS",4)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~Nooo! If the witch won’t give us the information then you must force it out of her <CHARNAME>! If you will not then I shall, there is no way I am leaving here without knowing all that she has to tell!~
++  SAY @41
+   IF ~~ THEN EXTERN ~WMART2~ 30
+ END
+ 
+ IF ~Global("VP_Taffic_Grumbles","GLOBAL",2)
+ Global("VP_Find_Rithelium","GLOBAL",1)
+ Dead("wmart2")~ THEN BEGIN 21
+-  SAY ~(*Muttering to himself*) It’s like looking for a needle in a haystack here. When a shadow thief hides a thing it’ll never be found unless he wants it to be found.~
++  SAY @42
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_Grumbles","GLOBAL",3)~ EXIT
+ END
+ 
+ IF ~Global("VP_Taffic_Grumbles","GLOBAL",4)
+ Global("VP_Find_Rithelium","GLOBAL",1)
+ Dead("wmart2")~ THEN BEGIN 22
+-  SAY ~(*Muttering to himself*) These fools are looking in the wrong place... we should be looking for secret doors, not opening chests that are in full view of everyone.~
++  SAY @43
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_Grumbles","GLOBAL",5)~ EXIT
+ END 
+ 
+ IF ~Global("VP_Taffic_Grumbles","GLOBAL",6)
+ Global("VP_Find_Rithelium","GLOBAL",1)
+ Dead("wmart2")~ THEN BEGIN 23
+-  SAY ~(*Muttering to himself*) Yea gods, I say it would be quicker to grab one of these blighters and make him tell us where the goddam ore is hidden!~
++  SAY @44
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_Grumbles","GLOBAL",7)~ EXIT
+ END
+ 
+ IF ~Global("VP_Taffic_Grumbles","GLOBAL",8)
+ Global("VP_Find_Rithelium","GLOBAL",1)
+ Dead("wmart2")~ THEN BEGIN 24
+-  SAY ~(*Muttering to himself*) That witch has sent us on a wild goose chase. There’s no rithtellium to be had here!~
++  SAY @45
+   IF ~OR(2)
+ !InParty("Melora")
+ Dead("Melora")~ THEN DO ~SetGlobal("VP_Taffic_Grumbles","GLOBAL",9)~ EXIT
+@@ -173,54 +173,54 @@
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Shut your mouth hafling! Carry on with your sarcasm and I’ll give you a proper reason to hate magic!~
++  SAY @46
+   IF ~~ THEN EXTERN ~MELORAJ~ 38
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~You’re  not worth wasting the energy it takes to cast a spell hafling. Besides, the sooner we find this damn rithtellium the sooner I can put a stop your harangue.~
++  SAY @47
+   IF ~~ THEN EXTERN ~MELORAJ~ 39
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~Damn fool hafling female. Her bloody hatred of magic is going to bring us all down one day you mark my words!~
++  SAY @48
+  	IF ~~ THEN EXTERN ~HROTHJ~ 322
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~Will somebody tell me what the hell these females are talking about? Did we decide at some point that were going to blow up the whole damned academy and now we aren’t?~
++  SAY @49
+  	IF ~True()~ THEN EXTERN ~HROTHJ~ 407
+   IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 92
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~We are in agreement there half orc! How any one can make sense of any female is beyond me. This damn fool hafling female, in particular... her bloody hatred of magic is going to bring us all down one day you mark my words!~ 
++  SAY @50 
+   IF ~~ THEN EXTERN ~MELORAJ~ 40
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~And what would you, a ’half-wit’, know of my destiny? You who still has no idea that the breeches go on before the boots?~ 
++  SAY @51 
+   IF ~~ THEN EXTERN ~MELORAJ~ 41
+ END
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~(*Angrily*) Bah! I’ll waste no more breath on words with you hafling. We’ll see soon enough who is the short ass and then you’ll be grovelling to kiss the boots of Taffic the tall hero, if I let you near my boots that is. (*Starts to turn away*)...~ 
++  SAY @52 
+   IF ~~ THEN EXTERN ~MELORAJ~ 42
+ END
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~Damn fool hafling female. Her bloody hatred of magic is going to bring us all down one day you mark my words!~ 
++  SAY @48 
+   IF ~~ THEN EXTERN ~MELORAJ~ 40
+ END
+  
+ IF ~~ THEN BEGIN driadsint_taf
+-  SAY ~Maybe it’s because you have such a thick neck hafling or perhaps, if you learnt to keep that great gob of yours shut, you wouldn’t get it so much in that thick neck of yours!~
++  SAY @53
+   IF ~~ THEN EXTERN ~MELORAJ~ driadsint_mel7
+ END
+ 
+ IF ~~ THEN BEGIN firattak
+-	SAY ~(*Looking uneasily he inches his way towards the stairs*)... Er... um... I think I go this way!~
++	SAY @54
+ 	IF ~True()~ THEN EXTERN ~SHARTJ~ legacy406a
+ 	IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ firattak
+@@ -233,30 +233,30 @@
+ END
+ 
+ IF WEIGHT #-2 ~Global("VP_ThalantyrDead","GLOBAL",1)~ THEN BEGIN thaldead
+-  SAY ~What in the Nine Hells did you have to go and do that for? He was the one positive lead that I had to me achieving my greatness and now you have gone and blown it! I’ve always said that this group needs to learn to put their breeches on before their boots!~
++  SAY @55
+ =
+-~I am finished with you all... there is too much at stake for me to risk your hot headedness getting the better of you again. I’m off  and I’ll be sure to stay clear of your path in the future.~
++@56
+ 	IF ~~ THEN DO ~SetGlobal("VP_ThalantyrDead","GLOBAL",2)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN thal2
+-	SAY ~Show him the letter <CHARNAME>, the one Deidre’s friend wrote to her. If he still refuses to say anything maybe we can force him to speak, after all, we out number him and his golems.~
+-  	IF ~~ THEN REPLY ~I suppose it’s worth a try Taffic.~ EXTERN ~THALAN~ thalan7 
+-  	IF ~~ THEN REPLY ~I don’t think that’s such a good idea Taffic, he seemed pretty angry last time he spoke. I think it best if we just leave.~ GOTO thal3
+-  	IF ~~ THEN REPLY ~No I am done talking here, I am heading back to Athkatla, with or without you.~ GOTO thal3
++	SAY @57
++  	IF ~~ THEN REPLY @58 EXTERN ~THALAN~ thalan7 
++  	IF ~~ THEN REPLY @59 GOTO thal3
++  	IF ~~ THEN REPLY @60 GOTO thal3
+ END
+ 
+ IF ~~ THEN BEGIN thal3
+-	SAY ~Then give me the darn letter and you can be on your way, I am not afraid of him!~ 
+-		IF ~~ THEN REPLY ~Here the letter is yours. Farewell Taffic and I hope you find your dream.~ GOTO thal4
+- 		IF ~~ THEN REPLY ~Take the thing, it is of no use to me, just be careful it doesn’t become your death warrant. Goodbye and good luck, you are going to need it you crazy gnome.~ GOTO thal4
+-  	IF ~~ THEN REPLY ~No, it’s ok Taffic, if you are that determined I will see this through with you. After all, what’s the worst that can happen... we end up having to battle a very powerful conjurer.~  EXTERN ~THALAN~ thalan7
++	SAY @61 
++		IF ~~ THEN REPLY @62 GOTO thal4
++ 		IF ~~ THEN REPLY @63 GOTO thal4
++  	IF ~~ THEN REPLY @64  EXTERN ~THALAN~ thalan7
+ END
+ 
+ IF ~~ THEN BEGIN thal4
+-	SAY ~I’ll not be needing luck ,<CHARNAME>, destiny is on my side, I thought you understood this.~
++	SAY @65
+ 		IF ~~ THEN DO ~SetGlobal("VP_TafficLeft","GLOBAL",4)
+ TakePartyItem("tafflet1")
+ LeaveParty()
+@@ -264,32 +264,32 @@
+ END
+ 
+ IF ~~ THEN BEGIN thal5
+-	SAY ~There most certainly is not! I have no time for such frivolities! My dream is to fulfil my destiny and become the great hero that I am set to be.~
++	SAY @66
+ =
+-~Then there may be time for dalliance with fair maidens, but for the moment achieving my dream is all that I can think of, it haunts me day and night.~
++@67
+ =
+-~I will have no peace until it is done. Can you help me conjurer... this Leanaro seems to think you can?~
++@68
+ 		IF ~~ THEN EXTERN ~THALAN~ thalan10
+ END
+ 
+ IF ~~ THEN BEGIN thal6
+-	SAY ~Anything that you care to ask! <CHARNAME> here has a reputation for getting done anything that is asked, no matter how outrageous the request might be. Whatever you want is already yours.~
++	SAY @69
+ 		IF ~~ THEN EXTERN ~THALAN~ thalan11
+ END
+ 
+ IF ~~ THEN BEGIN thal7
+-	SAY ~Undead... consider them gone! None but the living shall walk this area once Taffic and <CHARNAME> have purged it.~
++	SAY @70
+ 		IF ~~ THEN EXTERN ~THALAN~ thalan13
+ END
+ 
+ IF ~~ THEN BEGIN thal8
+-	SAY ~Bah! You lily-livered dolt, I am not giving up that easily. There’s nothing distasteful in putting that which has come from the ground back into the ground!~
++	SAY @71
+ =
+-~As for the body who keeps waking them up ... if he doesn’t stop, then he jolly well deserves to join them!~
++@72
+ =
+-~What’s dead should be allowed to stay dead is what Taffic says and if your stomach is too weak for the job then I will take care of it myself.~
++@73
+ =
+-~(*He storms off before any more can be said*)~
++@74
+ 		IF ~~ THEN DO ~SetGlobal("VP_TafficLeft","GLOBAL",4)
+ TakePartyItem("tafflet1")
+ LeaveParty()
+@@ -297,107 +297,107 @@
+ END
+ 
+ IF WEIGHT #-3 ~Global("VP_NecriasDead","GLOBAL",1)~ THEN BEGIN necdead1
+-  SAY ~(*Stamping around the necromancer’s body*) Shall I cut his head off, just in case the mage wants prove that he is dead ... come who has the biggest sword?~
+-  	IF ~~ THEN REPLY ~I don’t think that will be necessary Taffic. I am sure a mage as accomplished as Thalantyr has his methods of scrying, he will know Necrias is dead. Now we need to be sure that all his creations have been taken care of.~ GOTO necdead2
+-  	IF ~~ THEN REPLY ~I really don’t think we need to be carrying a bloody head with us Taffic ... think of the mess it would make of your backpack. We do however need to be sure that we have dealt with all his creatures before returning to Thalantyr.~ GOTO necdead2
+-  	IF ~~ THEN REPLY ~He is dead Taffic. Thalantyr will know this ... we have no need to desecrate his body or we would be no better than he was. Come, let us make sure that all his creatures have been taken care of.~ GOTO necdead2
++  SAY @75
++  	IF ~~ THEN REPLY @76 GOTO necdead2
++  	IF ~~ THEN REPLY @77 GOTO necdead2
++  	IF ~~ THEN REPLY @78 GOTO necdead2
+ END
+ 
+ IF ~~ THEN BEGIN necdead2
+-	SAY ~I just wanted to leave the mage in no doubt that that we have done as he asked. No better proof than to return with the victim’s head. Still if you are sure we won’t be needing it, lets high tail it back and get the wheels of my destiny in motion.~
++	SAY @79
+   	IF ~~ THEN DO ~SetGlobal("VP_NecriasDead","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Taffic11
+-	SAY ~Yes, we left not one single undead walking. They and their necromancer animator are all sleeping the sleep of the dead. I thought to bring you his head but <CHARNAME> here was too squeamish to do the chopping, but it’s there at his house if you want to go and have a look at it.~ 
++	SAY @80 
+ 		IF ~~ THEN EXTERN ~THALAN~ Thal16
+ END
+ 
+ IF ~~ THEN BEGIN Taffic12
+-	SAY ~(*Jumping up and down excitedly*) There... didn’t I tell you all that it was possible! This gnome is not crazy after all! When can you start, mage...~ 
++	SAY @81 
+ 		IF ~~ THEN EXTERN ~THALAN~ Thal18
+ END
+ 
+ IF ~~ THEN BEGIN Taffic13
+-	SAY ~(*He eyes the mage suspiciously*) You do know where this Rhezon is don’t you mage? Now you had better have the answer that I want or your next breath will be the last you ever take in this life!~ 
++	SAY @82 
+ 		IF ~~ THEN EXTERN ~THALAN~ Thal19
+ END
+ 
+ IF ~~ THEN BEGIN Taffic14
+-	SAY ~(*Groans*) Trademeet! We come all this way only to find the answer was close to home after all ... my poor aching feet, still Taffic is not one to give up on destiny because of aching feet.~
+-  	IF ~~ THEN REPLY ~I swear to you Taffic, Trademeet is the very last place I am travelling to. If Rhezon tries to send us off on another errand you are on your own!~ GOTO Taffic15
+-  	IF ~~ THEN REPLY ~We will visit Trademeet when next we pass it or when we have business that takes us there. I am not taking any more time out purposely to chase your delusional dreams. You hear me gnome?~ GOTO Taffic15
+-  	IF ~~ THEN REPLY ~Well, at least we cleared High Hedge of all those pesky undead. I remember Imoen and I both coming close to losing our lives once or twice when ambushed by them in earlier days.~ GOTO Taffic16
++	SAY @83
++  	IF ~~ THEN REPLY @84 GOTO Taffic15
++  	IF ~~ THEN REPLY @85 GOTO Taffic15
++  	IF ~~ THEN REPLY @86 GOTO Taffic16
+ END
+ 
+ IF ~~ THEN BEGIN Taffic15
+-	SAY ~Whatever ... we shall see what we shall see. Destiny will never be denied no matter how hard you try to walk around or away from it. (*He strides off*)~
++	SAY @87
+ 		IF ~~ THEN DO ~SetGlobal("VP_GoTo_Thalantyr","GLOBAL",7)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Taffic16
+-	SAY ~I learnt more of my destiny and you got to thumb your nose at some old enemies... a satisfactory out come to our journey after all. Now, to Trademeet. (*He strides off*)~
++	SAY @88
+ 		IF ~~ THEN DO ~SetGlobal("VP_GoTo_Thalantyr","GLOBAL",7)
+ SetGlobalTimer("VP_BackToTrademeet","GLOBAL",FIVE_DAYS)~ EXIT
+ END
+ 
+ IF WEIGHT #-4 ~Global("VP_TafficIsLeaving","LOCALS",1)~ THEN BEGIN leaving
+-  SAY ~You don't wish to go to Trademeet and I do. I’m off and I’ll be sure to stay clear of your path in the future.~
++  SAY @89
+ 	IF ~~ THEN DO ~SetGlobal("VP_TafficIsLeaving","LOCALS",2)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Taffic1
+-	SAY ~If I needed either of those I am more than capable of performing the necessary spells myself. No, I have come from Thalantyr of Beregost, he assures me that you know the magics that will alter people, say give them different bodies to which they were born into. Can you actually do this, does he speak the truth?~
++	SAY @90
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon2
+ END	
+ 	
+ IF ~~ THEN BEGIN Taffic2
+-	SAY ~He told us of his last visit to Aldruis, of  how he was witness to the sorcerer change a dwarf into an elf and that you were also present at the time. He also believes that Aldruis would have passed the secret on to you, his apprentice before his passing.~
++	SAY @91
+ =
+-~Did he teach you his secrets Rhezon ... is it possible that you can make me bigger, give me a body that will cause all who look upon me to lose their minds?~
++@92
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon3
+ END	
+ 
+ IF ~~ THEN BEGIN Taffic3
+-	SAY ~You are saying that if I get this component for you, you can work the magic, you will be able to give me that which I seek? Done! You just tell me what it is you need and it is yours.~
++	SAY @93
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon4
+ END	
+ 
+ IF ~~ THEN BEGIN Taffic4
+-	SAY ~Poof! My destiny ordains that I am to become greater, and if this component is 	necessary then destiny will find a way of delivering it into my hands. Just get on and tell me what it is so’s I can set about finding it!~
++	SAY @94
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon5
+ END	
+ 
+ IF ~~ THEN BEGIN Taffic5
+-	SAY ~Bah! No problem, we’ll get you the blood. I am not sure where we are going to find a Balor, yet, but I have faith in my destiny and in the ability of <CHARNAME> to find me one. Right <CHARNAME>?~
+-  	IF ~~ THEN REPLY ~That is one promise I am not about to make Taffic ... heck, I am not even sure I want to meet a Balor!~ GOTO Taffic6
+-  	IF ~~ THEN REPLY ~If I encounter a Balor Taffic, I am almost certainly going to be heading in the opposite direction to which it is travelling!~ GOTO Taffic6
+-  	IF ~~ THEN REPLY ~Of course Taffic, no problem, I can take on a Balor with one hand tied behind my back... yea gods you crazy gnome... who do you think I am!~ GOTO Taffic6
++	SAY @95
++  	IF ~~ THEN REPLY @96 GOTO Taffic6
++  	IF ~~ THEN REPLY @97 GOTO Taffic6
++  	IF ~~ THEN REPLY @98 GOTO Taffic6
+ END
+ 
+ IF ~~ THEN BEGIN Taffic6
+-	SAY ~I wouldn’t expect you to take on the demon by yourself ... the rest of the group will help you.~
+-  	IF ~~ THEN REPLY ~Thank you for that, and where will you be might I ask when we find this demon?~ GOTO Taffic7
+-  	IF ~~ THEN REPLY ~If we are unfortunate to ever find ourselves beset by a Balor, I will be sure to tell it that it is you who wants its blood ... not me!~ GOTO Taffic7
+-  	IF ~~ THEN REPLY ~Forget it Taffic, any Balor that we may encounter is all yours!~ GOTO Taffic7
++	SAY @99
++  	IF ~~ THEN REPLY @100 GOTO Taffic7
++  	IF ~~ THEN REPLY @101 GOTO Taffic7
++  	IF ~~ THEN REPLY @102 GOTO Taffic7
+ END
+ 
+ IF ~~ THEN BEGIN Taffic7
+-	SAY ~(*Turning to Rhezon*) As I said Rhezon ... no problem, I have never known <CHARNAME> run away from a fight yet. We’ll get that blood for you.~
++	SAY @103
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon6
+ END	
+ 
+ IF ~~ THEN BEGIN Taffic71
+-	SAY ~Excellent!~
+-  	IF ~~ THEN REPLY ~You are truly insane gnome, where in the Nine Hells are you expecting to find yourself a Balor?~ GOTO Taffic8
+-  	IF ~~ THEN REPLY ~I guess this will put a stop to your nonsense once and for all. We are hardly likely to encounter a Balor anytime soon on this plane, or at least we can pray that we don’t.~ GOTO Taffic9
+-  	IF ~~ THEN REPLY ~If you even dare to suggest that we now look for a wizard to send us to The Abyss, you will find yourself even shorter than you are at present ... say by at least a head!~ GOTO Taffic10
++	SAY @104
++  	IF ~~ THEN REPLY @105 GOTO Taffic8
++  	IF ~~ THEN REPLY @106 GOTO Taffic9
++  	IF ~~ THEN REPLY @107 GOTO Taffic10
+ END
+ 
+ IF ~~ THEN BEGIN Taffic8
+-	SAY ~Well yes, we would probably not find one there, but I know we will not have to go that far. We will find one closer to home soon, my destiny dictates that if we need a Balor then it will provide one for us.~
++	SAY @108
+ 	IF ~True()~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",1)~ EXIT
+ 	IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ taffic01
+@@ -410,7 +410,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN Taffic9
+-	SAY ~Oh we will find one, mark my words. My destiny is already mapped out and if we need a Balor ... then we will meet one and very soon enough.~ 
++	SAY @109 
+ 	IF ~True()~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",1)~ EXIT
+ 	IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ taffic01
+@@ -423,7 +423,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN Taffic10
+-	SAY ~We have no need to go to such extremes, a Balor will come our way. If my destiny has decreed that I need the blood of this demon, then you can be sure we will be meeting one very soon.~
++	SAY @110
+ 	IF ~True()~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",1)~ EXIT
+ 	IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ taffic01
+@@ -436,12 +436,12 @@
+ END
+ 	
+ IF ~~ THEN BEGIN TafficN1
+-	SAY ~(*Excitedly*) Is that all! Look ... look see here, I already have the blood of the demon.~
++	SAY @111
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon61
+ END
+ 
+ IF ~~ THEN BEGIN Taffic30
+-	SAY ~Yes, well it didn’t give it up easily. Now what do I do... drink the stuff while you incant the spells... wait for you to infuse it with other components? Come I am eager to begin, too many years have been wasted already!~
++	SAY @112
+ 	IF ~InParty("Leina")
+ !Dead("Leina")~ THEN GOTO Taffic31
+ 	IF ~OR(2)
+@@ -450,62 +450,62 @@
+ END
+ 
+ IF ~~ THEN BEGIN Taffic31
+-	SAY ~You Leina, as  promised, now you will have a tale worthy of many renditions.~
++	SAY @113
+ 	IF ~~ THEN GOTO Taffic32
+ END
+ 
+ IF ~~ THEN BEGIN Taffic32
+-	SAY ~All of you losers that mocked me, come bear witness to a true miracle, watch my glorious transformation... Well, what you waiting for wizard, get on with it!~
++	SAY @114
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon40
+ END
+ 
+ IF ~~ THEN BEGIN Taffic40
+-	SAY ~Ha! I am not that stupid wizard, and you will not renege on our bargain. You will undo the injustice I have been forced to endure or I’ll send your stinking, lying soul to the abyss where it belongs! Now work your spells, and quickly!~
++	SAY @115
+ 		IF ~~ THEN EXTERN ~RHEZON~ Rhezon50
+ END
+ 
+ IF ~~ THEN BEGIN Taffic50
+-	SAY ~You lie wizard! I am not fooled so easily. (*Turning to you*) <CHARNAME>, he’s frelling well lying! Force him to do as he promised, threaten him, he is no match for us all!~
+-  	IF ~~ THEN REPLY ~Calm down Taffic, you know Rhezon is right. We should leave here now whilst it is only your pride that is damaged.~ GOTO Taffic72
+-  	IF ~~ THEN REPLY ~Look how this wizard mocks you Taffic. It is time to give up this obsession of yours and save yourself future humiliation.~ GOTO Taffic60
+-  	IF ~~ THEN REPLY ~Come, let this be a lesson to you gnome! Forget this insane dream of yours, I need you focussed on the tasks ahead.~ GOTO Taffic60
+-  	IF ~~ THEN REPLY ~This wizard has played you for a fool Taffic, we can either leave him laughing or show him how we deal with wizards who cross members of this group. What say you Taffic?~ GOTO Taffic72
++	SAY @116
++  	IF ~~ THEN REPLY @117 GOTO Taffic72
++  	IF ~~ THEN REPLY @118 GOTO Taffic60
++  	IF ~~ THEN REPLY @119 GOTO Taffic60
++  	IF ~~ THEN REPLY @120 GOTO Taffic72
+ END
+ 
+ IF ~~ THEN BEGIN Taffic60
+-	SAY ~No, I will not be robbed by this lying pool of slime! The demon’s blood is mine, even if it means I have to blast his lying head from his shoulders to retrieve it!~
+-	  IF ~~ THEN REPLY ~Taffic, calm down. I won't help you fighting Rezon. Killing him is not right... it's madness.~ GOTO Taffic70
+-	  IF ~~ THEN REPLY ~Taffic, this is your lesson! I won't support you in your insanity and I won't fight Rhezon.~ GOTO Taffic70
++	SAY @121
++	  IF ~~ THEN REPLY @122 GOTO Taffic70
++	  IF ~~ THEN REPLY @123 GOTO Taffic70
+ END
+ 
+ IF ~~ THEN BEGIN Taffic70
+-	SAY ~What in The Nine Hells do you think you will be doing, standing around and twiddling your thumbs while I'm fighting him alone? You think this is some kind of spectator sport?~
++	SAY @124
+ =
+-~I have seen Deurgar mithril miners show more comaraderie than you lot! Bah! I have to ask myself whether I need you losers after all?~
+-	  IF ~~ THEN REPLY ~That is your choice Taffic. I have to ask myself, do I really need an insane gnome hindering the progress of this group?~ GOTO Taffic73
+-	  IF ~~ THEN REPLY ~The wizard could no more change you than I Taffic, any sane being knows this. Rhezon did not threaten me, the quarrel was between the wizard and yourself.~ GOTO Taffic73 
+-	  IF ~~ THEN REPLY ~I am sorry Taffic. You are part of this group and as such we must back you up. We will not let you down. Let's do you fight.~ GOTO Taffic72 
++@125
++	  IF ~~ THEN REPLY @126 GOTO Taffic73
++	  IF ~~ THEN REPLY @127 GOTO Taffic73 
++	  IF ~~ THEN REPLY @128 GOTO Taffic72 
+ END
+ 
+ IF ~~ THEN BEGIN Taffic73
+-	SAY ~Well that’s frelling gratitude for you! I am not staying with a group too scared to go out on a limb for a comrade or doesn’t know to put their breeches on before their boots.~
++	SAY @129
+ =
+-~Thanks for aiding me in finding the balor. When next we meet, I’ll not have to look up to you or anyone else for that matter.~
++@130
+ 		IF ~~ THEN EXTERN ~RHEZON~ blood4
+ END
+ 
+ IF ~~ THEN BEGIN Taffic72
+-	SAY ~Then let us blast that double crossing head off his shoulders, <CHARNAME>, and send his lying soul to the abyss!~	
++	SAY @131	
+ 	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",5)
+ ActionOverride("Rhezon",Enemy())
+ Attack("Rhezon")~ EXIT
+ END
+ 
+ IF WEIGHT #-5 ~Global("VP_TafficQuest","GLOBAL",6)~ THEN BEGIN Taffic80
+-	SAY ~Ha that showed him! He’ll not cross anyone again... and it seems you do know to put your breeches on before your boots after all <CHARNAME>! Now to find another to work the miracle before this blood becomes frelling useless.~
+-	 IF ~~ THEN REPLY ~Understand this Taffic, our path is set, I will not chase your insane notions any further.~ GOTO taff_end
+-	 IF ~~ THEN REPLY ~Gnome, let me make one thing clear, if you insist on pursuing this nonsense do not rely on me to save your neck again.~ GOTO taff_end
+-	 IF ~~ THEN REPLY ~Taffic, let us get back to our tasks and wait for the future to reveal what it really holds for you.~ GOTO taff_end
++	SAY @132
++	 IF ~~ THEN REPLY @133 GOTO taff_end
++	 IF ~~ THEN REPLY @134 GOTO taff_end
++	 IF ~~ THEN REPLY @135 GOTO taff_end
+ END
+ 
+ //IF ~~ THEN BEGIN Taffic90 //<-- from Taffic80
+@@ -515,38 +515,38 @@
+ 
+ //Abjurer Tests
+ IF ~~ THEN BEGIN abjurer
+-	SAY ~Hey, watch who you’re calling small! You’ll all be looking up at me one day, just you wait and see!~
++	SAY @136
+   IF ~True()~ THEN DO ~SetGlobal("VP_Taffic_AbjQuest","GLOBAL",1)~ EXTERN ~TUPHIN~ taffcast
+ 	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ abjurer
+ END
+ 
+ IF ~~ THEN BEGIN abjurer2
+-	SAY ~That frelling wizard cheated!~
++	SAY @137
+ 	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ abjurer2
+ 	 IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~Taffic ... you failed, plain and simple, accept it.~ GOTO abjurer4 
++Dead("Melora")~ THEN REPLY @138 GOTO abjurer4 
+ 	 IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~I doubt that Phineas cheated Taffic. You’re just having a bad day like the rest of us have at one time or another. No shame in that.~ GOTO abjurer4
++Dead("Melora")~ THEN REPLY @139 GOTO abjurer4
+ END
+ 
+ IF ~~ THEN BEGIN abjurer3
+- SAY ~If someone doesn’t get that frelling hafling out of my hair I swear I’ll...~
+-	 IF ~~ THEN REPLY ~Taffic ... you failed, plain and simple, accept it.~ GOTO abjurer4 
+-	 IF ~~ THEN REPLY ~I doubt that Phineas cheated Taffic. You’re just having a bad day like the rest of us have at one time or another. No shame in that.~ GOTO abjurer4
++ SAY @140
++	 IF ~~ THEN REPLY @138 GOTO abjurer4 
++	 IF ~~ THEN REPLY @139 GOTO abjurer4
+ END 
+ 
+ IF ~~ THEN BEGIN abjurer4
+- SAY ~I KNOW that wizard cheated, whatever you might say! (*Storms off*)~
++ SAY @141
+  	IF ~~ THEN EXTERN ~TUPHIN~ npcfail
+ END
+ 
+ //Conjurer Tests
+ IF ~~ THEN BEGIN conjurer
+-	SAY ~(*Scoffs*) Me mess things up? You must be getting me confused with another gnome illusionist, this is Taffic you are speaking to.~
++	SAY @142
+ 	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ conjurer
+ 	 IF ~OR(2)
+@@ -555,61 +555,61 @@
+ END
+ 
+ IF ~~ THEN BEGIN conjure2
+-	SAY ~I am going to pretend for now that I didn’t hear that hafling. There is important business going on here!~
++	SAY @143
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_ConQuest","GLOBAL",1)~ EXTERN ~TUMORD~ taffic1
+ END
+ 
+ IF ~~ THEN BEGIN conjure3
+-	SAY ~I never did trust scrolls, you can’t tell if they’ve been tampered with. Always best to use what’s in your head.~
++	SAY @144
+ 	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ conjure2
+ 	 IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~Do we need an intelligence check or something here? All you had to do was to read a couple of scrolls ... you can read can’t you?~ GOTO conjure6
++Dead("Melora")~ THEN REPLY @145 GOTO conjure6
+ 	 IF ~OR(2)
+ !InParty("Melora")
+ Dead("Melora")
+-!Class(Player1,MAGE_ALL)~ THEN REPLY ~I don’t understand a lot about magic but surely it has to be easier to read scrolls then trying to remember spells that have been memorised?~ GOTO conjure6
++!Class(Player1,MAGE_ALL)~ THEN REPLY @146 GOTO conjure6
+ 	 IF ~OR(2)
+ !InParty("Melora")
+ Dead("Melora")
+-Class(Player1,MAGE_ALL)~ THEN REPLY ~According to my understanding, it has to be easier to read scrolls then trying to remember spells that have been memorised.~ GOTO conjure6
++Class(Player1,MAGE_ALL)~ THEN REPLY @147 GOTO conjure6
+ END
+ 
+ IF ~~ THEN BEGIN conjure4
+- SAY ~I’ll soon show you what can be done with what’s in my head hafling, just as soon as I get my second wind!~
++ SAY @148
+    	IF ~~ THEN EXTERN ~MELORAJ~ conjure3
+ END
+ 
+ IF ~~ THEN BEGIN conjure5
+- SAY ~Do we need an intelligence check or something here? All you had to do was to read a couple of scrolls ... you can read can’t you?~
+-	 IF ~!Class(Player1,MAGE_ALL)~ THEN REPLY ~I don’t understand a lot about magic but surely it has to be easier to read scrolls then trying to remember spells that have been memorised?~ GOTO conjure6
+-	 IF ~Class(Player1,MAGE_ALL)~ THEN REPLY ~According to my understanding, it has to be easier to read scrolls then trying to remember spells that have been memorised.~ GOTO conjure6
++ SAY @145
++	 IF ~!Class(Player1,MAGE_ALL)~ THEN REPLY @146 GOTO conjure6
++	 IF ~Class(Player1,MAGE_ALL)~ THEN REPLY @147 GOTO conjure6
+ END
+ 
+ IF ~~ THEN BEGIN conjure6
+- SAY ~(*Scoffs*) I can only read what’s written. It’s hardly my fault this mage gave me a scroll that he’d meddled with!~
++ SAY @149
+   	IF ~~ THEN EXTERN ~TUMORD~ 38
+ END
+ 
+ IF ~~ THEN BEGIN transmut
+- SAY ~(*Scoffs*) Hmph! Since when is a mage’s intelligence measured by his height? Of course I can handle it!~
++ SAY @150
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_TraQuest","GLOBAL",1)~ EXTERN ~TUMALV~ taffic
+ END
+ 
+ IF ~~ THEN BEGIN tranfail
+-  SAY ~What’s the big idea? I’m not done here yet, I still have my best spells to go!~
+-  IF ~~ THEN REPLY ~You had your chance Taffic and you should consider yourself lucky Malvolio pulled you out when he did. If it had been up to me I would have left you there.~ GOTO tranfai2
+-  IF ~~ THEN REPLY ~Unfortunately Malvolio doesn’t know that Taffic.~ GOTO tranfai2
++  SAY @151
++  IF ~~ THEN REPLY @152 GOTO tranfai2
++  IF ~~ THEN REPLY @153 GOTO tranfai2
+ END
+ 
+ IF ~~ THEN BEGIN tranfai2
+-  SAY ~I would have done a lot better if that frelling wizard had kept his nose out and let me get on with it.~
++  SAY @154
+   IF ~~ THEN EXTERN ~TUMALV~ 24
+ END
+ 
+ IF ~~ THEN BEGIN necrtest
+-  SAY ~Well, as I see it this mage is dead. He left his body and no longer has a claim on it. So what’s your frellimg problem with this here mage making use of it?~
++  SAY @155
+ 	IF ~True()~ THEN EXIT
+ 	IF ~InParty("Korgan")
+ !Dead("Korgan")~ THEN EXTERN ~KORGANJ~ NEJ224
+@@ -646,24 +646,24 @@
+ END 
+ 
+ IF ~~ THEN BEGIN bodhi
+- SAY ~If this lady can get the job done we should at least listen and hear if her offer is better than that other crowd, I say we hear her out.~
++ SAY @156
+  IF ~True()~ THEN EXTERN ~BODHI~ 2
+  IF ~InParty("Melora")~ THEN EXTERN ~MELORAJ~ 4
+ END
+ 
+ IF ~~ THEN BEGIN bodhi2
+-  SAY ~A wise choice <CHARNAME>. We come out of this in pocket, nice to see you have some sense in that head of yours.~
++  SAY @157
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN bodhi3
+-  SAY ~This lady would have saved us 5,000g. What the blazes does it matter who gets us where we want to be as long as we get there!~
++  SAY @158
+   IF ~True()~ THEN EXIT
+  	IF ~InParty("Melora")~ THEN EXTERN ~MELORAJ~ 6
+ END
+ 
+ IF ~~ THEN BEGIN rayvon
+- SAY ~What ever you’re going to do, do it quick! It’s not my destiny to die a gnome.~
++ SAY @159
+   IF ~True()~ THEN EXTERN ~RAYVON~ 2
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ rayvon2
+@@ -682,21 +682,21 @@
+ END
+ 
+ IF ~~ THEN BEGIN rayvon2
+-  SAY ~Shut it hafling, or I will shut you up myself! This is a mage of some power and standing here.~
++  SAY @160
+ =
+-~Even you with your limited understanding of magic should be able to sense this. I am not about to let you and your mouth get me disintegrated!~
++@161
+  	IF ~~ THEN EXTERN ~MELORAJ~ rayvon2
+ END
+ 
+ IF ~~ THEN BEGIN rayvon3
+-  SAY ~No more haf... ~
++  SAY @162
+  	IF ~~ THEN EXTERN ~HROTHJ~ rayvon
+ END
+ 
+ IF ~~ THEN BEGIN ulcaster
+- SAY ~You got rocks or summit in your head instead of brains <CHARNAME>? I can see no other reason you would take it to mind to visit a ruin!~
++ SAY @163
+ =
+-~I see no sense in this venture at all, maybe it is time I took the lead!~
++@164
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 60
+  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ546
+@@ -742,9 +742,9 @@
+ END
+ 
+ IF ~~ THEN BEGIN halruaa
+- SAY ~(*His eyes light up at the mention of Halruaa*) An academy full of mages you say! What an opportunity!~
++ SAY @165
+ =
+-~I can do some research whilst you go about whatever it is this Tilorn wants you to do <CHARNAME>. We should make haste, I am eager to see this Halruaa.~
++@166
+  IF ~True()~ THEN EXTERN ~TILORN~ 19
+  IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ261
+@@ -783,154 +783,154 @@
+ END
+ 
+ IF ~~ THEN BEGIN vulova
+-  SAY ~That’s nothing new... you’re suspicious of everyone! I thought he was most helpful, at least it gives us another line of enquiry...~
++  SAY @167
+ =
+-~... even if we do have to wait for this deciding time, as he called it, before we can pursue it.~
++@168
+  	IF ~~ THEN EXTERN ~MELORAJ~ vulova
+ END
+ 
+ IF ~~ THEN BEGIN vulova1
+-  SAY ~Follow your lead hafling...why I’d rather walk into the abyss behind a whole hoard of demons than follow you anywhere...~
++  SAY @169
+  	IF ~~ THEN EXTERN ~HROTHJ~ vulova
+ END
+ 
+ IF ~~ THEN BEGIN vulova2
+-  SAY ~Who do you think you are calling stupid you *halfwit*?~
+-  IF ~~ THEN REPLY ~Enough! I swear Taffic, if you didn’t need your voice to cast your spells, then I would gag you both!~ EXTERN ~MELORAJ~ vulova2
+-  IF ~~ THEN REPLY ~Enough...or I swear I will have a silence spell permanently cast on you both. Understood?~ EXTERN ~MELORAJ~ vulova2
+-  IF ~~ THEN REPLY ~Yea gods, if you both weren’t so good at what you do, I’d let you both go. Now, please, if you want to continue with me, give it up and let my ears have some rest.~ EXTERN ~MELORAJ~ vulova2 
++  SAY @170
++  IF ~~ THEN REPLY @171 EXTERN ~MELORAJ~ vulova2
++  IF ~~ THEN REPLY @172 EXTERN ~MELORAJ~ vulova2
++  IF ~~ THEN REPLY @173 EXTERN ~MELORAJ~ vulova2 
+ END
+ 
+ IF ~~ THEN BEGIN vulova3
+-  SAY ~(*He stomps of loudly*) Why that stuck up insolent harpy? She hasn’t heard the last of this, not by a long way!~
++  SAY @174
+  		IF ~True()~ THEN EXTERN ~HROTHJ~ vulova1
+  		IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ vulova
+ END
+ 
+ IF ~~ THEN BEGIN xantest1
+-  SAY ~Fate and destiny are not the same thing. Fate will do as she will and destiny is attained, as you will see when my own is reached.~
++  SAY @175
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_EnchQuest","GLOBAL",1)~ EXTERN ~XANH~ 23
+ END
+ 
+ IF ~~ THEN BEGIN xantest2
+-  SAY ~Hmph, what could these mages possibly teach one from the future?~
++  SAY @176
+ =
+-~(*Then thoughtfully*). Still ... I wouldn’t mind getting a look in their library, there are bound to be books that have been lost to the future there.~
++@177
+   IF ~~ THEN EXTERN ~XANH~ 37
+ END
+ 
+ IF ~~ THEN BEGIN vashtest
+-  SAY ~So, it’s Taffic the *illusionist* is it when you need my skills and not Taffic who is *small*.~
++  SAY @178
+ =
+-~Bah what do I care! It’ll all change soon enough and with it the one who gives the orders but for now, I’ll pass your little test for you.~
++@179
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_IllQuest","GLOBAL",1)~ EXTERN ~TUVASHON~ taffic
+ END
+ 
+ IF ~~ THEN BEGIN invoker
+-  SAY ~Bah! Any gnomeling from Cloakwood can handle that.~
++  SAY @180
+   IF ~True()~ THEN DO ~SetGlobal("VP_Taffic_InvQuest","GLOBAL",1)~ EXTERN ~TUTHEOD~ taftest1
+   IF ~InParty("Melora")
+ !Dead("Melora")~ THEN DO ~SetGlobal("VP_Taffic_InvQuest","GLOBAL",1)~ EXTERN ~MELORAJ~ invoker1
+ END
+ 
+ IF ~~ THEN BEGIN invoker2
+-  SAY ~Piece of cake for any gnomeling from Cloakwood.~
++  SAY @181
+   IF ~~ THEN DO ~SetGlobal("VP_Taffic_InvQuest","GLOBAL",1)~ EXTERN ~TUTHEOD~ taftest2
+ END
+ 
+ IF ~~ THEN BEGIN invfail
+-  SAY ~I had the little blighters cornered and then that fool mage goes and pulls me out!~
++  SAY @182
+   IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~Taffic, I suspect your bad temper is due to the fact that the *little blighters* as you called them had you cornered and not the other way around.~ GOTO invfail2
++Dead("Melora")~ THEN REPLY @183 GOTO invfail2
+   IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~No need for the bad temper Taffic. for one your size, you made a brave attempt and I am very grateful.~ GOTO invfail2
++Dead("Melora")~ THEN REPLY @184 GOTO invfail2
+   IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ invfail
+ END
+ 
+ IF ~~ THEN BEGIN invfail2
+-  SAY ~I am not bad tempered, just angry. I bet if I was a bigger person that wizard wouldn’t have been so quick to pull me out and I could have got the job done.~
++  SAY @185
+     IF ~~ THEN EXTERN ~TUTHEOD~ failtest
+ END
+ 
+ IF ~~ THEN BEGIN invfail3
+-  SAY ~You really are pushing your luck today hafling!~
+-  IF ~~ THEN REPLY ~Taffic, I suspect your bad temper is due to the fact that the *little blighters* as you called them had you cornered and not the other way around.~ GOTO invfail2
+-  IF ~~ THEN REPLY ~No need for the bad temper Taffic. for one your size, you made a brave attempt and I am very grateful.~ GOTO invfail2
++  SAY @186
++  IF ~~ THEN REPLY @183 GOTO invfail2
++  IF ~~ THEN REPLY @184 GOTO invfail2
+ END
+ 
+ IF ~~ THEN BEGIN leveler1
+-  SAY ~Wizards toy eh... then maybe I am the best one to be looking after it.~
++  SAY @187
+   IF ~True()~ THEN EXTERN ~HROTHJ~ 335
+   IF ~InParty("Melora")
+ !Dead("Melora")~ THEN EXTERN ~MELORAJ~ leveler1
+ END
+ 
+ IF ~~ THEN BEGIN leveler2
+-  SAY ~Listen hafling and listen good, it’s only because of your unfortunate birth that I tolerate your remarks.~
++  SAY @188
+ =
+-~When I reach my destiny you will look up to me with awe and I shall forgive your transgressions, but there is no saying my temper will hold until then so I am warning you hold your tongue!~
++@189
+  	IF ~~ THEN EXTERN ~MELORAJ~ leveler2
+ END
+ 
+ IF ~~ THEN BEGIN balor1
+-  SAY ~Why in blazes are you bargaining with it for <CHARNAME>? We need its blood! We should kill it, kill it now, who knows when we might see another balor on this plane!~
++  SAY @190
+ =
+-~Oh glorious day, fate has brought us together and then to this place, she knows of my search. Is this not proof of my destiny, to become more than that which I was born into?~
++@191
+  	IF ~~ THEN EXTERN ~BALOR~ 9
+ END
+ 
+ IF WEIGHT #-6 ~Global("VP_TafficQuest","GLOBAL",3)~ THEN BEGIN balor2
+-  SAY ~(*Excidedly*) You have the demons blood <CHARNAME>? Please be careful, we cannot risk spilling one drop, the more we get safely to Rhezon, the bigger the hero I shall become.~
++  SAY @192
+ =
+-~Quickly, back to the wizard, this is a most fortuitous day for me, my search is almost over.~
+-  IF ~~ THEN REPLY ~Not so fast Taffik, we still have these wolfweres to take care of before we go anywhere.~ GOTO balor3	
+-  IF ~~ THEN REPLY ~Once we make it out of here gnome, it is for me to say whether we visit the wizard or not.~ GOTO balor3
+-  IF ~~ THEN REPLY ~Of course Taffik, whatever you say.~ GOTO balor3
++@193
++  IF ~~ THEN REPLY @194 GOTO balor3	
++  IF ~~ THEN REPLY @195 GOTO balor3
++  IF ~~ THEN REPLY @196 GOTO balor3
+ END
+ 
+ IF ~~ THEN BEGIN balor3
+-  SAY ~It is an omen <CHARNAME>, we have the blood, we will get out of here, we have to or this will have meant nothing!~
++  SAY @197
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",9)
+ RealSetGlobalTimer("VP_Taffic_Warns","GLOBAL",60)~ EXIT
+ END
+ 
+ IF WEIGHT #-7 ~Global("VP_TafficQuest","GLOBAL",10)~ THEN BEGIN warning1
+-  SAY ~<CHARNAME>! We must get the blood back to the wizard, it becomes more rancid by the hour. If we do not hurry I may become an older, taller hero and not the young vigorous one that I am destined to be.~
+-  IF ~~ THEN REPLY ~Taffic, we go when I say we go, now stop your whinging!~ GOTO warning2
+-  IF ~~ THEN REPLY ~This dream of yours is ridiculous Taffic and I have no intentions of travelling to Trademeet on a fool’s errand!~ GOTO warning4
+-  IF ~~ THEN REPLY ~Taffic, take some time to think before you take this drastic step. You are a gnome by the will of the gods, it could be dangerous to mess with their plans.~ GOTO warning6
+-  IF ~~ THEN REPLY ~I am tired of hearing of your insane dream gnome! Take the blood and chase this insanity of yours.~ GOTO warning5
+-  IF ~~ THEN REPLY ~The only hero you are destined to be is an insane one Taffic. Open your eyes to the real world and live your life as nature intended. If it is your fate to become a hero, then you will, but only when fate decrees it.~ GOTO warnin10
+-  IF ~~ THEN REPLY ~I can see the only way to put a stop to this madness is for you to see the futility of it  yourself. Come Taffic, we will confront this wizard together.~ GOTO warning7
++  SAY @198
++  IF ~~ THEN REPLY @199 GOTO warning2
++  IF ~~ THEN REPLY @200 GOTO warning4
++  IF ~~ THEN REPLY @201 GOTO warning6
++  IF ~~ THEN REPLY @202 GOTO warning5
++  IF ~~ THEN REPLY @203 GOTO warnin10
++  IF ~~ THEN REPLY @204 GOTO warning7
+ END
+ 
+ IF ~~ THEN BEGIN warning2
+-  SAY ~My destiny is more important than this... this... whatever it is you are doing! The wizard needs fresh demon blood, not a frelling black congealed mess, which is all it will be if we put off going much longer.~
+-  IF ~~ THEN REPLY ~You heard me Taffic, when I am ready! Now quit badgering me!~ GOTO warning3
+-  IF ~~ THEN REPLY ~When you lead this group gnome, then and only then do you get to say where and when we go, so until then we leave on my say so!~ GOTO warning3
++  SAY @205
++  IF ~~ THEN REPLY @206 GOTO warning3
++  IF ~~ THEN REPLY @207 GOTO warning3
+ END
+ 
+ IF ~~ THEN BEGIN warning3
+-  SAY ~Another day and then I am out of here <CHARNAME>. It will be your loss if you forego the chance to have a real hero in this miserable group.~ 
++  SAY @208 
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",11)
+ RealSetGlobalTimer("VP_Taffic_Escapes","GLOBAL",60)~ EXIT
+ END	
+ 	
+ IF ~~ THEN BEGIN warning4
+-  SAY ~Then give me the frelling demon’s blood and we shall see who is being ridiculous!~
+-  IF ~~ THEN REPLY ~As you wish, but you are on your own if this should backfire on you Taffic.~ GOTO warnin41
+-  IF ~~ THEN REPLY ~You are of no use to me whilst you persist with this crazy obsession of yours. Take the stuff and be gone gnome!~ GOTO warning5
+-  IF ~~ THEN REPLY ~I will not. You either stay and forget this insanity or you can leave now and find yourself another demon to slaughter?~ GOTO warning8
++  SAY @209
++  IF ~~ THEN REPLY @210 GOTO warnin41
++  IF ~~ THEN REPLY @211 GOTO warning5
++  IF ~~ THEN REPLY @212 GOTO warning8
+ END
+ 
+ IF ~~ THEN BEGIN warnin41
+-  SAY ~My destiny is to be greater than I am and destiny does not backfire on a person, it is there to be reached.~
++  SAY @213
+ =
+-~You will see the truth when next we meet <CHARNAME>, no one will look down on Taffic ever again.~
++@214
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",13)
+ TakePartyItem("balblood")
+ DestroyItem("balblood")
+@@ -942,9 +942,9 @@
+ END	
+ 
+ IF ~~ THEN BEGIN warning5
+-  SAY ~Hmph! That’s gratitude for you! No matter, this group has served its purpose. Why else would I join this pathetic group of yours other than to have you to kill the beast for me should we ever encounter one?~ 
++  SAY @215 
+ =
+-~Look me up when you have need of Taffic the hero, this group can do with some proper leadership. Just remember you losers, your breeches go on before your boots.~
++@216
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",13)
+ TakePartyItem("balblood")
+ DestroyItem("balblood")
+@@ -956,55 +956,55 @@
+ END	
+ 
+ IF ~~ THEN BEGIN warning6
+-  SAY ~What do you know of the plans of the gods, they have been known to make mistakes?~
++  SAY @217
+ =
+-~I now know that they never meant for me to be a gnome and have given me the knowledge to become who they always intended me to be.~
++@218
+ =
+-~You will do well not to ignore their wishes and aid me in getting to Trademeet, now!~
+-  IF ~~ THEN REPLY ~If you believe this then your mind is truly unbalanced. Take the blood and go, I want nothing more to do with your insane ideas.~ GOTO warning5
+-  IF ~~ THEN REPLY ~I can see the only way to put a stop to this madness is for you to see the futility of it  yourself. Come Taffic, we will confront this wizard together.~ GOTO warning7
+-  IF ~~ THEN REPLY ~I will aid you Taffic and we will go to Trademeet, only not at this precise moment.~ GOTO warning2
+-  IF ~~ THEN REPLY ~I will not Taffic, nor will I aid you to undo their work. The blood stays with me and no more will be said on the matter.~ GOTO warning8
++@219
++  IF ~~ THEN REPLY @220 GOTO warning5
++  IF ~~ THEN REPLY @204 GOTO warning7
++  IF ~~ THEN REPLY @221 GOTO warning2
++  IF ~~ THEN REPLY @222 GOTO warning8
+ END
+ 
+ IF ~~ THEN BEGIN warning7
+-  SAY ~Then what are we waiting for, the wizard will not wait forever.~ 
++  SAY @223 
+ =
+-~Perhaps I should stop along the way and buy myself some bigger clothes. What do you think <CHARNAME>?~
++@224
+ =
+-~After all I don’t want to walk around naked and cause all who look upon the magnificence of my new body to lose their minds now do I?!~
++@225
+ =
+-~(*Taffic turns and you would swear his gait has become more of a swagger as he walks off.*)~
++@226
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",11)
+ RealSetGlobalTimer("VP_Taffic_Escapes","GLOBAL",60)~ EXIT
+ END	
+ 
+ IF ~~ THEN BEGIN warning8
+-  SAY ~You have no right to deny me my destiny! You will give me the blood or...~
+-  IF ~~ THEN REPLY ~Or what Taffic? You think the threats of a forest gnome frighten me?~ GOTO warning9
+-  IF ~~ THEN REPLY ~Before you finish that tirade, consider how many dead gnomes have become bigger people, eh Taffic, how many?~ GOTO warning9
+-  IF ~~ THEN REPLY ~Taffic my friend, if I allow you to do this I fear you will bring the wrath of the gods down upon your head. Do not force a confrontation with me over this insane obsession of yours, it will end badly for you.~ GOTO warning9
++  SAY @227
++  IF ~~ THEN REPLY @228 GOTO warning9
++  IF ~~ THEN REPLY @229 GOTO warning9
++  IF ~~ THEN REPLY @230 GOTO warning9
+ END
+ 
+ IF ~~ THEN BEGIN warning9
+-  SAY ~That’s right, turn on me because I am a gnome! (*I will have that frelling blood, maybe not today but soon!*)~ 
++  SAY @231 
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",11)
+ RealSetGlobalTimer("VP_Taffic_Escapes","GLOBAL",60)~ EXIT
+ END	
+ 
+ IF ~~ THEN BEGIN warnin10
+-  SAY ~Bah, nature you say? Look at the many perversions that exist because she has allowed her creatures to breed unchecked.~ 
++  SAY @232 
+ =
+-~As for fate, to believe in fate is to surely believe in destiny and it is my destiny that 	beckons me now.~ 
++@233 
+ =
+-~The key has been placed in my hands for me to use, my true self will soon be revealed, and you <CHARNAME>, you must be there for the revelation, come to Trademeet with me.~
+-  IF ~~ THEN REPLY ~I cannot follow your delusions Taffic, for I am sure that is all it is, a delusion. However, take the blood and I hope for your sake that this does not backfire on you. Farewell.~ GOTO warnin41
+-  IF ~~ THEN REPLY ~I can see the only way to put a stop to this madness is for you to see the futility of it yourself. Come Taffic, we will confront this wizard together.~ GOTO warning7
+-  IF ~~ THEN REPLY ~Forget this nonsense Taffic! I have no intentions of giving you the demon’s blood nor travelling to Trademeet on a fool’s errand!~ GOTO warning8
++@234
++  IF ~~ THEN REPLY @235 GOTO warnin41
++  IF ~~ THEN REPLY @236 GOTO warning7
++  IF ~~ THEN REPLY @237 GOTO warning8
+ END
+ 
+ IF ~Global("VP_TafficQuest","GLOBAL",12)~ THEN BEGIN warning1
+-  SAY ~I don't have time for that! I’m off, I must make haste for I feel my destiny is indeed very close now.~
++  SAY @238
+  	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",13)
+ TakePartyItem("balblood")
+ DestroyItem("balblood")
+@@ -1016,21 +1016,21 @@
+ END
+ 
+ IF ~~ THEN BEGIN blood1
+-	SAY ~The word is destiny wizard! Ambitions one strives for and may reach, destiny is what one is born with and will always attain.~
++	SAY @239
+ =
+-~With a little help sometimes it is reached sooner, which is where you fit in, your help, my destiny.~
++@240
+  		IF ~~ THEN EXTERN ~RHEZON~ blood2
+ END		
+ 
+ IF ~~ THEN BEGIN blood2
+-	SAY ~Was there any doubt I wouldn’t? Here see for yourself Rhezon the blood of a mighty balor, brought down by my own hand. Its life sacrificed so that mine can begin.~ 
++	SAY @241 
+  		IF ~~ THEN EXTERN ~RHEZON~ blood3
+ END	
+ 
+ IF ~~ THEN BEGIN blood3
+-	SAY ~Yes, well it didn’t give it up easily. Now what do I do? Drink the stuff while you incant the spells? Wait for you to infuse it with other components?~
++	SAY @242
+ =
+-~Come I am eager to begin, too many years have been wasted already!~
++@243
+ 		IF ~InParty("Leina")
+ !Dead("Leina")~ GOTO blood31
+ 		IF ~OR(2)
+@@ -1039,26 +1039,26 @@
+ END
+ 
+ IF ~~ THEN BEGIN blood31
+-	SAY ~You Leina, as  promised, now you will have a tale worthy of many renditions.~
++	SAY @113
+ 		IF ~~ THEN GOTO blood32
+ END
+ 
+ IF ~~ THEN BEGIN blood32
+-	SAY ~All of you losers that mocked me, come bear witness to a true miracle, watch my glorious transformation.~
++	SAY @244
+ =
+-~Well, what you waiting for wizard, get on with it!~
++@245
+  		IF ~~ THEN EXTERN ~RHEZON~ Rhezon40
+ END
+ 
+ IF ~Global("VP_TafficQuest","GLOBAL",18)~ THEN BEGIN umberhk9
+-  SAY ~You don't help me! You ungrateful pool of slime. You really are your father’s son! I will not forget this <CHARNAME> and you had best hope that our paths never cross again! (*Taffic turns and storms off.*)~
++  SAY @246
+   IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",19)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN taffich1
+-  SAY ~And how many Umberhulks are there in Trademeet that visit you wizard? Save your breath your sarcasm is wasted on me!~
++  SAY @247
+  		IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")~ THEN EXTERN ~RHEZON~ taffich2
+@@ -1067,19 +1067,19 @@
+ END
+ 
+ IF ~Global("VP_TafficQuest","GLOBAL",21)~ THEN BEGIN taffich2
+-  SAY ~Hmph, I suppose I should thank you <CHARNAME>. Now that I have, we must search for another demon. This I will put down to experience.~
+-  IF ~~ THEN REPLY ~Taffic, you cannot be serious! Did you not listen to one word Rhezon said, have you learnt nothing from this?~ GOTO taffich3
+-  IF ~~ THEN REPLY ~This nonsense stops now gnome! You heard Rhezon say how foolish and insane your quest is.~ GOTO taffich3
++  SAY @248
++  IF ~~ THEN REPLY @249 GOTO taffich3
++  IF ~~ THEN REPLY @250 GOTO taffich3
+ END
+ 
+ IF ~~ THEN BEGIN taffich3
+-  SAY ~I only heard him say he could not cast the magic, does not mean that no one can. We just have to find the right someone. Now let’s move our butts and start looking.~ 
+-  	IF ~~ THEN REPLY ~Out of my group! Now!~ GOTO taff_end 
+-  	IF ~~ THEN REPLY ~Taffic I... (*Sighs*) Never mind Taffic, let us move on.~ GOTO newend2 
++  SAY @251 
++  	IF ~~ THEN REPLY @252 GOTO taff_end 
++  	IF ~~ THEN REPLY @253 GOTO newend2 
+ END
+ 	
+ IF ~~ THEN BEGIN taff_end
+-  SAY ~You refuse to help me? After all I've done for you! You ungrateful pool of slime. I will not forget this <CHARNAME> and you had best hope that our paths never cross again! (*Taffic turns and storms off.*)~
++  SAY @254
+   IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",19)
+ ActionOverride("Rhezon",EscapeArea())
+ LeaveParty()
+@@ -1087,7 +1087,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN newend2
+-  SAY ~You don't hear what I say? I must start searching for another demon! (*Taffic turns and storms off.*)~
++  SAY @255
+   IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",22)
+ ActionOverride("Rhezon",EscapeArea())
+ LeaveParty()
+@@ -1095,86 +1095,86 @@
+ END
+ 
+ IF ~~ THEN BEGIN taffich4
+-  SAY ~What in blazes are you doing <CHARNAME>, I warned you not to provoke him, will you never learn to put your breeches on before your boots! Just give him the frelling gold!~
++  SAY @256
+  		IF ~~ THEN EXTERN ~RHEZON~ taffich9
+ END
+ 
+ IF ~~ THEN BEGIN taffich5
+-  SAY ~I don’t frelling well believe this <CHARNAME>! What you done with your gold, squandered it on ale and loose living.~
++  SAY @257
+ =
+-~For once, put your breeches on before your boots and let's go get the frelling gold.~
+-  	IF ~~ THEN REPLY ~Watch that tongue of yours gnome, I said I would get the gold and I will!~ GOTO taffich6
+-  	IF ~~ THEN REPLY ~What I do with my gold is my business. I said I would help you and I will Taffic, so a little less of the attitude please.~ GOTO taffich6
++@258
++  	IF ~~ THEN REPLY @259 GOTO taffich6
++  	IF ~~ THEN REPLY @260 GOTO taffich6
+ END
+ 
+ IF ~~ THEN BEGIN taffich6
+-  SAY ~Then what are we standing about here for!~
++  SAY @261
+   IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",23)
+ RealSetGlobalTimer("VP_Taffic_End_Time","GLOBAL",300)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN taffich8
+-  SAY ~Give the man his gold, <CHARNAME>.~ 
+-  	IF ~~ THEN REPLY ~Sorry gnome, I have returned on another matter. I have decided to teach you a lesson and leave you as you are. Farewell and luck in your new found destiny!~ GOTO taff_end
+-  	IF ~~ THEN REPLY ~I have returned with your gold wizard, now restore the gnome.~ GOTO taffich0
+-  	IF ~~ THEN REPLY ~I am having second thoughts Taffic. Tell me, why do I need an arrogant pain in the butt such as you in my group?~ GOTO taffich9
++  SAY @262 
++  	IF ~~ THEN REPLY @263 GOTO taff_end
++  	IF ~~ THEN REPLY @264 GOTO taffich0
++  	IF ~~ THEN REPLY @265 GOTO taffich9
+ END
+ 
+ IF ~~ THEN BEGIN taffich9
+-  SAY ~(*Spluttering*) You... you...~
+-  	IF ~~ THEN REPLY ~I am jesting Taffic, not about the arrogant pain in the butt part, that much is true. Of course I am going to help you, here wizard take the gold and work your spell.~ GOTO taffich0
++  SAY @266
++  	IF ~~ THEN REPLY @267 GOTO taffich0
+ END	 
+ 	
+ IF ~~ THEN BEGIN taffich0
+-  SAY ~Yes, please, Rhezon.~
++  SAY @268
+  		IF ~~ THEN EXTERN ~RHEZON~ taffich5
+ END
+ 
+ IF ~~ THEN BEGIN immy1
+- SAY ~So you’re the Imoen we’ve all been so hard pressed to rescue! Not quite what I was expecting... can’t see what all the fuss was about myself.~ 
++ SAY @269 
+ =
+-~Still, your friends think you were worth saving and now you owe me one girly.~  
++@270  
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic1
+ END
+ 
+ IF ~~ THEN BEGIN immy2
+- SAY ~The repaying bit will come later, that you can be sure of. After all, it was a pretty big risk that I took upon myself when I agreed to rescue you.~
++ SAY @271
+ =
+-~What with the road being fraught with the likes of vampires and pirates. Blood thirsty beggars they were too... and  the vampires were no better either.~
++@272
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic2
+ END
+ 
+ IF ~~ THEN BEGIN immy3
+- SAY ~(*With an edge to his voice*) Dare you mock me girly! Heroes are champions you look up to, not down on. My time will come and when it does all will look up to me and I down on them!~
++ SAY @273
+ =
+-~Be thankful I was available to help release you from the clutches of the mad sorcerer before he had time to find other ways to entertain himself whilst awaiting your rescuer.~
++@274
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic3
+ END
+ 
+ IF ~~ THEN BEGIN immy4
+- SAY ~No, there will be plenty of time for that later. You can owe me for now. However, when my true status is realised...~
++ SAY @275
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic4
+ END
+ 
+ IF ~~ THEN BEGIN immy5
+- SAY ~One more reference to size and I’ll 'zap' you straight back into the sorcerer’s arms!~
++ SAY @276
+ =
+-~As you’ve already been a party to his other quirks, I am sure you are in no hurry to  re-acquaintance yourself with him?~
++@277
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic5
+ END
+ 
+ IF ~~ THEN BEGIN immy6
+- SAY ~Just as long as you remember, you owe me and one day I’ll come around looking for payback!~
++ SAY @278
+  	IF ~~ THEN EXTERN ~IMOEN2~ taffic6
+ END
+ 
+ IF ~~ THEN BEGIN vashon
+-  SAY ~Hey, I am not finished yet!~
+-  IF ~~ THEN REPLY ~I am afraid you are gnome. It would seem that Taffic the great illusionist is just another of your egotistical dreams.~ GOTO vashon3
+-  IF ~~ THEN REPLY ~Unfortunately, Vashon thinks differently, Taffic.~ GOTO vashon3
++  SAY @279
++  IF ~~ THEN REPLY @280 GOTO vashon3
++  IF ~~ THEN REPLY @281 GOTO vashon3
+ END
+   
+ IF ~~ THEN BEGIN vashon3
+-  SAY ~Hmph! How’s a person ever going to pass an exam when the frelling tutor won’t give him a fair go!~
++  SAY @282
+   IF ~~ THEN EXTERN ~TUVASHON~ npcfail
+ END

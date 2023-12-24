@@ -1,0 +1,50 @@
+--- allison\german\setup.tra	Sat Aug 18 19:45:00 2007
++++ C:\BWP Patchstudio\patched files\allison\german\setup.tra	Sat Oct 06 08:33:52 2012
+@@ -7,6 +7,44 @@
+ 
+ Berichten ihr engsten Freunde nach, gab es nur eine Sache, die sie trotz ihres nur kurzen Lebens bedauerte: Das sie niemals in der Lage gewesen war, eine emotionale Bindung mit <CHARNAME> zu entwickeln.~
+ @4    = ~Diese Komponente ist momentan installiert.~
+-
+-
+-/* Translation by Wedge/Übersetzung von Wedge (JediWedge@web.de) - http://kerzenburg.nightisforum.de/ */
++@5 = ~Aah! Wie ich das liebe, wenn die Sonne meine Haut wärmt.~ [R#ALSS01]
++@6 = ~Wie kann jemand in diesem Winkel von Faerûn leben?~ [R#ALSS02]
++@7 = ~Gibt es irgendetwas Schöneres als das Lied der Grillen?~ [R#ALSS03]
++@8 = ~Ich möchte mir die Kleidung herabreißen und nackt zwischen diesen Bäume laufen!~ [R#ALSS04]
++@9 = ~Ich fühle mich an solch einem unnatürlichen Ort nicht wohl.~ [R#ALSS05]
++@10 = ~Angriff!~ [R#ALSS06]
++@11 = ~Fühlt den Zorn der Natur!~ [R#ALSS07]
++@12 = ~Ich schlage schnell!~ [R#ALSS08]
++@13 = ~Ich sollte Euch dem Boden zurückgeben, aus dem Ihr kamt!~ [R#ALSS09]
++@14 = ~Sogar die größten Wesen können fallen!~ [R#ALSS10]
++@15 = ~Ihr werdet jetzt sterben!~ [R#ALSS11]
++@16 = ~Verflixt! Daneben!~ [R#ALSS12]
++@17 = ~Diese Ding hat eine zähe Haut!~ [R#ALSS13]
++@18 = ~Aua!~ [R#ALSS14]
++@19 = ~Sofort!~ [R#ALSS15]
++@20 = ~Euer Wunsch ist mein Befehl!~ [R#ALSS16]
++@21 = ~Ich werde gehorchen.~ [R#ALSS17]
++@22 = ~Ihr seid der Chef.~ [R#ALSS18]
++@23 = ~Lasst es uns tun!~ [R#ALSS19]
++@24 = ~Mit der Geschwindigkeit eines Geparden.~ [R#ALSS20]
++@25 = ~Schon gut, hier komme ich.~ [R#ALSS21]
++@26 = ~Wie kann ich Euch helfen?~ [R#ALSS22]
++@27 = ~Braucht Ihr mich?~ [R#ALSS23]
++@28 = ~Ich  bin es nur!~ [R#ALSS24]
++@29 = ~Ich bin Euer!~ [R#ALSS25]
++@30 = ~Sagt mir, was zu tun ist.~ [R#ALSS26]
++@31 = ~Ihr wollt mich?~ [R#ALSS27]
++@32 = ~Vielleicht wir sollten verlobt sein, bevor Ihr mich weiterhin so berührt.~ [R#ALSS28]
++@33 = ~Wie würde es Euch gefallen, wenn ich Euch ständig stupse?! Stups, stups, stups!~ [R#ALSS29]
++@34 = ~D-Dieses... Ding hat mich beim Wiken meines Zaubers gestört!~ [R#ALSS30]
++@35 = ~Tut mir Leid, aber meine Taschen sind voll. (Gekicher) Ups, etwas fiel heraus.~ [R#ALSS31]
++@36 = ~Ich bin kein Baum... Ich will nicht stillstehen.~ [R#ALSS32]
++@37 = ~Ich will nicht sterben! Jemand helfe mir!~ [R#ALSS33]
++@38 = ~Ich blute und brauche Hilfe!~ [R#ALSS34]
++@39 = ~Ich... Ich kann wirklich nicht gut führen.~ [R#ALSS35]
++@40 = ~Meine Augen werden müde. Ich muss mich ausruhen, um für Euch von Nutzen zu sein.~ [R#ALSS36]
++@41 = ~Ich fühle mich Euch so nahe!~ [R#ALSS37]
++@42 = ~Ich hoffe, dass ich nicht bedauern werde, mit Euch zu reisen.~ [R#ALSS38]
++@43 = ~Ihr seid eine schreckliche Person! I-Ich werde Euch verlassen!~ [R#ALSS39]
++@44 = ~Diese bösen Taten dürfen nicht weitergehen!~ [R#ALSS40]
++@45 = ~Ich bin fort von hier!~ [R#ALSS41]

@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDKELLY.BAF	Mon Apr 14 02:44:56 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDKELLY.BAF	Wed Apr 10 10:33:56 2019
+@@ -6,7 +6,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_See_Intruders","MYAREA",1)
+-		DisplayStringHead(Myself,~Holy sh... Wow! How'd you get in here? Get 'em, boys! Get 'em!~)
++		DisplayStringHead(Myself,@0)
+ END
+ 
+ IF

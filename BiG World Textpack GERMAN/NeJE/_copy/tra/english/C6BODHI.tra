@@ -1,0 +1,29 @@
+@0    = ~You place too much confidence in sentiment. The theft of Valygar will not save you.~
+@1    = ~You have taken too much already! You will return both Imoen's soul and Valygar!~
+@2    = ~And you have delivered on that promise. Return Valygar and perhaps I will be merciful.~
+@3    = ~I would have hunted you for your theft of Valygar alone. He is very important to me.~
+@4    = ~You place too much confidence in sentiment.  The theft of Sime will not save you.~
+@5    = ~You have taken too much already!  You will return both Imoen's soul and Sime!~
+@6    = ~And you have delivered on that promise. Return Sime and perhaps I will be merciful.~
+@7    = ~I would have hunted you for your theft of Sime alone. She is very important to me.~
+@8    = ~Bodhi, you nefarious hag! I will tear out your black heart and feed it to the beasts, I swear I will!~
+@9    = ~You have taken too much already! You will return both Imoen's soul and Keldorn!~
+@10   = ~And you have delivered on that promise. Return Keldorn and perhaps I will be merciful.~
+@11   = ~You place too much confidence in sentiment. The theft of Leina will not save you.~
+@12   = ~You have taken too much already! You will return both Imoen's soul and Leina!~
+@13   = ~And you have delivered on that promise. Return Leina and perhaps I will be merciful.~
+@14   = ~I would have hunted you for your theft of Leina alone. She is very important to me.~
+@15   = ~Ah yes, the noble hermit Valygar. Very naughty despite his declarations otherwise. I doubt your fumbling could inspire the loyalty I have taken with a bite and a gaze.~
+@16   = ~What is the meaning of this performance, slave? You cannot disobey me. Go, attack the Bhaal child! Pain you feel now is going to increase slowly and infinitely if you keep neglecting my order.~
+@17   = ~What? How dare you are? Terrible pain will be your punishment!~
+@18   = ~She is lost to you, <CHARNAME>. Sime has been quite receptive to my wiles. I doubt your fumbling could have inspired the loyalty I have taken with a bite and a gaze.~
+@19   = ~The Final Battle with Bodhi.
+
+Bodhi has turned Sime into a vampire!  Or... or very nearly.  The process may not have been completed in the short time Bodhi has had her.  Hopefully something can be done or I will have lost her.  Perhaps the elven war sage might know some way of restoration... or Elhan... ~
+@20   = ~Love... I should have sealed my doors tighter against that perpetrator. I have no times for follies, stupid bitch. Punishment you want - then you should get it. Die.~
+@21   = ~Ah yes, the noble and beloved Keldorn. Very naughty despite his declarations otherwise. I doubt your fumbling could inspire the loyalty I have taken with a bite and a gaze.~
+@22   = ~What? How dare you are? You will die nevertheless! Naive romantic.~
+@23   = ~She is lost to you, <CHARNAME>. Leina has been quite receptive to my wiles. I doubt your fumbling could have inspired the loyalty I have taken with a bite and a gaze.~
+@24   = ~The Final Battle with Bodhi.
+
+Bodhi has turned Leina into a vampire! Or... or very nearly. The process may not have been completed in the short time Bodhi has had her. Hopefully something can be done or I will have lost her. Perhaps the elven war sage might know some way of restoration... or Elhan... ~

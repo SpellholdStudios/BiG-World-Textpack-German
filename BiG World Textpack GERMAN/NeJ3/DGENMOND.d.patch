@@ -1,0 +1,10 @@
+--- NeJ3\dlg\DGENMOND.d	Fri Dec 15 04:52:42 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DGENMOND.d	Wed Apr 10 10:24:36 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~DGENMOND~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~Eyes filled with hatred and bloodlust gaze upon you steadily.  There is no other reaction from the creature. ~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

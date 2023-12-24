@@ -1,0 +1,11 @@
+--- NeJ\baf\KUMIREK.baf	Sat Sep 02 00:08:52 2006
++++ C:\BWP Patchstudio\patched files\NeJ\baf\KUMIREK.baf	Wed Apr 10 10:29:27 2019
+@@ -62,7 +62,7 @@
+ 	!Died(Myself)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Help!! Monsters!~)
++		DisplayStringHead(Myself,@0)
+ 		MoveToObjectFollow([PC])
+ 		Dialogue([PC])
+ END

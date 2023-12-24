@@ -1,0 +1,56 @@
+@2    = ~Jemand will mich umbringen! Hilfe!~ 
+@3    = ~Seid vorsichtig.~
+@4    = ~Nicht...~ 
+@10   = ~...Die Welt ist trostlos,
+Und ich bin müde
+Der Wanderschaft, ohne dich, Mary;
+Eine Freude war ehemals
+In deiner Stimme und deinem Lächeln,
+Und dies ist vergangen, wenn auch ich weg bin, Mary.~
+@11   = ~...Du reißt auf deinem blauen Wogen mit - 
+Mänadenmähne, hell, die aufgelöst 
+Vom Horizontsaum flattert zum Zenit - 
+Des nahen Sturmes wirre Lockenpracht.
+Du, todverfallnen Jahres Klagelied, 
+Hoch wölbst, wie überm Riesengrab die Nacht, 
+Die letzte, du als Kuppel, wuchtig schwer, 
+Spannst auf ein Dachgewölb mit ganzer Macht.~ 
+@12   = ~...Sieh den Berg gen Himmel streben,
+Well in Welle sieh zerfließen;
+Keiner Blume wird vergeben,
+Wollte sie den Kelch verschließen,
+Und der Himmel küsst die Erd,
+Und das Mondenlicht den Fluss -
+Was sind all die Küsse wert,
+Weigerst du den Kuss?~
+@100  = ~Training der Lebensfertigkeiten
+
+Ihr trefft im Karneval von Nashkel einen Straßenkünstler, der bereit ist, Eure Fähigkeiten der \[Schauspielkunst\] zu trainieren.~
+@101  = ~Training der Lebensfertigkeiten
+
+Ihr habt gehört, dass sich der berühmte Meister der Schauspielkunst in Baldurs Tor aufhält - Herr Valthonis.~ 
+@1000 = ~Kann ich irgendetwas für Euch tun, <LADYLORD>?~
+@1001 = ~Eure Schauspielkunst sieht gut aus, könntet Ihr mich unterrichten?~ 
+@1002 = ~Nichts, auf Wiedersehen.~
+@1010 = ~Ihr mögt die Schauspielkunst? Was für eine Überraschung. Oh, entschuldigt, nichts für ungut, aber Ihr seht aus wie ein Abenteurer, und ich dachte, dass Abenteurer diejenigen sind, die nur den Geruch der Gefahr lieben.
+Jedenfalls kann ich Euch die Fähigkeiten \[Schauspielkunst\] lehren, aber Ihr müsst mir 100 Goldstücke als Belohnung bezahlen.~ ~Ihr mögt die Schauspielkunst? Was für eine Überraschung. Oh, entschuldigt, nichts für ungut, aber Ihr seht aus wie eine Abenteurerin, und ich dachte, dass Abenteurer diejenigen sind, die nur den Geruch der Gefahr lieben.
+Jedenfalls kann ich Euch die Fähigkeiten \[Schauspielkunst\] lehren, aber Ihr müsst mir 100 Goldstücke als Belohnung bezahlen.~
+@1011 = ~Hier ist das Gold, das Ihr wollt.~ 
+@1012 = ~Lasst mich darüber nachdenken, auf Wiedersehen.~
+@1013 = ~Ihr mögt die Schauspielkunst? Was für eine Überraschung. Oh, entschuldigt, nichts für ungut, aber Ihr seht aus wie ein Abenteurer, und ich dachte, dass Abenteurer diejenigen sind, die nur den Geruch der Gefahr lieben.
+Ich bin bereit, Euch die Fähigkeiten \[Schauspielkunst\] zu lehren, möchtet Ihr jetzt gerne mit dem Training beginnen?~ ~Ihr mögt die Schauspielkunst? Was für eine Überraschung. Oh, entschuldigt, nichts für ungut, aber Ihr seht aus wie eine Abenteurerin, und ich dachte, dass Abenteurer diejenigen sind, die nur den Geruch der Gefahr lieben.
+Ich bin bereit, Euch die Fähigkeiten \[Schauspielkunst\] zu lehren, möchtet Ihr jetzt gerne mit dem Training beginnen?~ 
+@1020 = ~(Nimmt die Münzen) Vielen Dank, <LADYLORD>, sehr großzügig, wisst Ihr, mit unserem Beruf den Lebensunterhalt zu verdienen ist nicht so einfach.
+Nun kurzerhand, sollten wir jetzt mit dem Training beginnen?~
+@1021 = ~Ja.~
+@1022 = ~Nein, wenn ich bereit bin, werde ich zu Euch kommen.~
+@1030 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Schauspielkunst\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~ 
+@1031 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Schauspielkunst\] trainieren.~
+@1032 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~ 
+@1033 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~ 
+@1034 = ~Ich will so viel Fertigkeiten \[Schauspielkunst\] wie möglich trainieren.~
+@1035 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~ 
+@1040 = ~Was kann ich für Euch tun, <LADYLORD>? (verbeugt sich leicht)~
+@1041 = ~Ich möchte meine \[Schauspielkunst\] trainieren.~
+@1050 = ~Es tut mir Leid, ich kann Euch nicht mehr lehren, wenn Ihr Eure schauspielerischen Fähigkeiten weiterhin vertiefen wollt, empfehle ich Euch, nach Baldurs Tor zu gehen sehen, ich hörte, der berühmte Meister der Schauspielkunst - Herr Valthonis - ist derzeit vorübergehend dort, vielleicht könnt Ihr versuchen, ihn davon zu überzeugen, Euer Lehrer zu werden.~
+@1051 = ~Danke, ich verstehe.~

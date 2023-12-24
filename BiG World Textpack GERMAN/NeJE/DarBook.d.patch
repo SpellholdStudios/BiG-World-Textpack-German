@@ -1,0 +1,52 @@
+--- NeJE\dlg\DarBook.d	Wed Apr 29 01:03:03 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DarBook.d	Tue Apr 09 19:35:40 2019
+@@ -1,28 +1,21 @@
+ BEGIN ~DARBOOK~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~(*Suddenly an etheral voice resounds within your head*) Prove your worth and solve the riddle, then you'll get your life and freedom.
+-
+-My first you put on glowing coal 
+-And into it you put my whole 
+-My second really is the first 
+-My third mislikes the winter's cold.
+-
+-What is it?~
+-		IF ~~ THEN REPLY ~Canape.~ GOTO 1
+-		IF ~~ THEN REPLY ~Tomatoe.~ GOTO 1
+-		IF ~~ THEN REPLY ~Cauldron.~ GOTO 1
+-		IF ~~ THEN REPLY ~Soul.~ GOTO 1
+-		IF ~~ THEN REPLY ~Panacea.~ GOTO 1
+-		IF ~~ THEN REPLY ~Porridge.~ GOTO 1
+-		IF ~~ THEN REPLY ~Fire.~ GOTO 1
+-		IF ~~ THEN REPLY ~Spring.~ GOTO 1
+-		IF ~~ THEN REPLY ~Potatoe.~ GOTO 2
+-		IF ~~ THEN REPLY ~Kindling.~ GOTO 1		
++  SAY @0
++		IF ~~ THEN REPLY @1 GOTO 1
++		IF ~~ THEN REPLY @2 GOTO 1
++		IF ~~ THEN REPLY @3 GOTO 1
++		IF ~~ THEN REPLY @4 GOTO 1
++		IF ~~ THEN REPLY @5 GOTO 1
++		IF ~~ THEN REPLY @6 GOTO 1
++		IF ~~ THEN REPLY @7 GOTO 1
++		IF ~~ THEN REPLY @8 GOTO 1
++		IF ~~ THEN REPLY @9 GOTO 2
++		IF ~~ THEN REPLY @10 GOTO 1		
+ END
+ 
+ IF ~~ THEN BEGIN 1
+- SAY ~Wrong answer. You lack wisdowm. My guardians will teach you.~
++ SAY @11
+ 		IF ~~ THEN DO ~ActionOverride("DarSen1",Enemy())
+ ActionOverride("DarSen2",Enemy())
+ ActionOverride("DarSen3",Enemy())
+@@ -30,7 +23,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 2
+- SAY ~Correct answer. You may take my part of the book.~
++ SAY @12
+ 		IF ~~ THEN DO ~SetGlobal("VP_Dar_Quest","GLOBAL",14)
+ ActionOverride("DarSen1",DestroySelf())
+ ActionOverride("DarSen2",DestroySelf())

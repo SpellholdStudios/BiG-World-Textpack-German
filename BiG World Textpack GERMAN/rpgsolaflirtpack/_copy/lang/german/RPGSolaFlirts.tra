@@ -1,0 +1,661 @@
+//SOAFlirts1
+
+@0    = ~(Solaufein tritt näher, um mit Euch zu sprechen.)~
+@1    = ~(Sein Blick begegnet Eurem. Ein Ausdruck ernster Eindringlichkeit lodert in seinen Augen.)~
+@2    = ~(Solaufein legt eine Hand an die Stirn, um seine Augen gegen das Gleißen der Sonne abzuschirmen. An den reichen Lichtstrom seiner neuen Heimat scheint er noch immer nicht gewöhnt.)~
+@3    = ~(Ihr fühlt mit ihm in seiner misslichen Lage. Und wie beiläufig lenkt Ihr den Schritt Eurer Guppe in den Schatten, um den Augen des Elfen ein wenig Linderung zu verschaffen.)~
+@4    = ~(Eure Geste verbleibt nicht unbemerkt: Solaufein offenbart Euch ein Lächeln der Anerkennung und Dankbarkeit.)~
+@5    = ~(Ihr seht Solaufein Nacken und Schultern neigen, um die Spannung zu lösen, die sich darin gefestigt hat. Während er die Muskeln spannt, gleitet das Licht über die kräftigen Formen und zeichnet jeden Strang in verlockender Erkennbarkeit.)~
+@6    = ~(Ihr spürt eine eigenartige Regung an Eurem Haar, als zupfte jemand an den Strähnen. Ihr wendet Euch dem Missetäter zu. Euer Blick fällt auf Solaufein, der hinter Euch steht und ein Blatt zwischen seinen Fingern hält.)~
+@7    = ~Vergebt mir, <PRO_LADYLORD>, doch dies hier sah ich in Eurem Haar und nahm an, Ihr sähet es womöglich gerne entfernt.~
+@8    = ~(Solaufein lässt seine Finger durch das silbrigweiße Haar gleiten. Die schimmernden Strähnen scheinen das Licht aufzusaugen und ein glänzendes Gewebe zu spinnen. Er bemerkt Euren prüfenden Blick und beantwortet ihn mit seinem eigentümlichen halbseitigen Lächeln. Die Wärme in seinen Augen teilt Euch indes mit, dass Eure Aufmerksamkeit nicht unerwünscht ist.)~
+@9    = ~(Solaufein fällt hinter den Rest eurer Gruppe zurück und verringert das Tempo seines Schrittes, bis er schließlich im Stillstand verharrt. Ihr beobachtet, und seht einen Schmetterling um den Kopf des Elfen tanzen. Sonnenlicht glitzert auf den farbsatten Schwingen.)~
+@10   = ~(In einladender Geste streckt der dunkle Elf seine Hand aus und der Schmetterling lässt sich anmutig auf den gespreizten Fingern nieder. Vergnügt kreucht das Insekt umher, und es scheint, als fühle es sich wohl in der Gegenwart des Drow. Als er Euren Blick auf sich ruhen spürt, blickt Solaufein einmal mehr auf den Schmetterling hinab, dann gleitet sein Blick abermals zu Euch herüber.)~
+@11   = ~Diese Kreatur erinnert mich an Euch, <PRO_LADYLORD>. Denn auch Ihr offenbart solche Anmut und Schönheit, wenn Ihr Euch bewegt.~
+@12   = ~(Lautlos löst Solaufein sich aus der Formation und tritt an Eure Seite. Gelassen ruht seine Hand auf dem Heft der Waffe und unentwegt sucht sein Blick den Horizont ab nach den Spuren eines Feindes. Zu Euch spricht er kein Wort. Schließlich weicht er zurück und nimmt wieder seinen Platz in der Gruppe ein.)~
+@13   = ~Oft habe ich davon geträumt, dass ich die Oberfläche bereisen und all die Schönheit erblicken würde, welche diese Welt zu bieten vermag. Aber niemals habe ich zu hoffen gewagt, dass ich eines Tages dem Unterreich entkommen und mein Traum wahr würde.~
+@14   = ~Dank Euch fand mein Traum Verwirklichung. Doch Euch meinen Dank in Worten zu entrichten, erscheint mir ungenügend, verglichen mit dem, das Ihr für mich getan habt. Ich werde gründlich darüber nachdenken müssen, wie ich Eure Güte in angemessener Weise vergelten kann.~
+@15   = ~(Solaufeins Stimme ist erfüllt von Ehrfurcht und in seinen Blick mengt sich scheue Bewunderung:)~
+@16   = ~<CHARNAME>, Ihr selbst mögt dies nicht bemerken, doch bewegt Ihr Euch mit der Anmut eines Liedes, welches der Kehle eines jungen Vogels entsteigt, der sich zum ersten Mal in die Lüfte schwingt. Wahrhaftig ein Geschenk für die Augen, dessen einer niemals überdrüssig wird.~
+@17   = ~(Er lächelt, nickt einmal, und wendet sich wieder Eurem Marsch zu. Diesmal jedoch postiert er sich auffällig hinter Euch.)~
+@18   = ~(Ihr könnt Euch nicht des Eindrucks erwehren, dass jemand Euch während Eurer Reise beobachtet. Rasch wirbelt Ihr herum, nicht gewillt, dieses Empfinden länger zu ignorieren, und bereit, beim ersten Anzeichen von Feindseligkeit das Gefecht aufzunehmen.)~
+@19   = ~(Aus dem Augenwinkel noch bemerkt Ihr Solaufein rasch seinen Kopf abwenden und mit größter Konzentration irgendetwas Faszinierendes nahe seines Stiefels mustern.)~
+
+//soladeadlyspider
+@20   = ~(Einmal mehr verspürt Ihr das unbehagliche Empfinden beobachtet zu werden und die Härchen auf Eurem Nacken richten sich langsam auf. Euch scheint, ein schweres Gewicht lastete zwischen Euren Schulterblättern.)~
+@21   = ~(Ihr blickt Euch um. Solaufein hält seinen Blick fest auf Euren Rücken gerichtet, ein grimmiger Ausdruck liegt über seiner Miene. Als Ihr den Mund öffnen und nach seinem Anliegen forschen wollt, hebt er mit scharfer Geste die Hand und bringt Euch abrupt zum Verstummen.)~
+@22   = ~Schweigt, <CHARNAME>! Sprecht nicht! Bewegt Euch nicht! ~
+@23   = ~(Obwohl die Worte des Drow Euch harsch erscheinen, reagiert Euer Körper ohne Protest des Willens und Ihr verharrt in völliger Reglosigkeit. Nicht einmal Euren Atem wagt Ihr zu ziehen.)~
+@24   = ~(Solaufein tritt hinter Euch. Seine Haltung drückt höchste Anspannung aus, als er nach dem Dolch an seinem Gürtel greift. Ihr spürt, wie Ihr zu beben beginnt, als das kalte Metall der Klinge sich auf Eure Haut legt.)~
+@25   = ~(Wenige Augenblicke später ist das Gefühl gewichen und Solaufein tritt langsam zurück. Er bedeutet Euch, Euch umzudrehen. Ihr seht ihn den Dolch auf Armeslänge von sich gestreckt halten. Von der Kante der Klinge, an einem seidenen, gesponnenen Faden, bemerkt Ihr den Körper einer kleinen braunen Spinne pendeln.)~
+@26   = ~(Noch während Ihr beobachtet, wendet Solaufein den Dolch ab von seinem Körper und schleudert die kleine Kreatur von der Gruppe fort. Das Spinnentier landet auf seinem Rücken, und ehe es entkommen kann, verwandelt ein wohlgezielter Zauber es zu Staub. Fragend seht Ihr zu dem Drow hinüber. Der erwidert Euren Blick mit einem verhaltenen Lächeln.)~
+@27   = ~Verzeiht, falls ich Euch beunruhigt haben sollte, <PRO_LADYLORD>, doch war es von höchster Bedeutung, dass Ihr tun würdet, wie ich es Euch hieß. Das war eine Meuchelspinne, weithin bekannt unter dem Namen Herrin des Todes. Ihr Gift ist derart tödlich, dass sogar die Bevorzugten der Lolth sie lediglich als ein letztes Mittel zu gebrauchen wagen. ~
+@28   = ~Hätte sie Euch gebissen, so wärt Ihr binnen Stunden tot gewesen. Für Ihren Biss existiert keine Heilung. Wie es scheint, schlich sie sich in Eure Kleidung, ehe Ihr das Unterreich verließet. Ich bin nur froh, sie rechtzeitig entdeckt zu haben. ~
+@29   = ~(Der dunkle Elf schreitet neben Euch und schiebt vorsichtig seinen Arm um Eure Schultern. Er zieht Euch tiefer in seine Umschließung, als er erkennt, dass Ihr ihn nicht von Euch stoßen würdet. Eine Weile wandert Ihr so nebeneinander her.)~
+@30   = ~ <CHARNAME>, hier auf der Oberfläche gibt es unzählig viele neue Eindrücke für mich zu erfahren.~
+@31   = ~(Solaufein wirft Euch einen bedeutungsvollen Blick zu, während er spricht.)~
+@32   = ~Manche sind höchst liebreizend anzuschauen. Wann immer sie meinen Blick erfüllen, scheinen sie meinen Atem zu rauben.~
+@33   = ~(Ganz in Eurer Nähe bricht plötzlich ein großer Vogel aus einem kleinen Hain hervor. Das Klirren und Scheppern Eurer Rüstung scheint ihn aufgeschreckt zu haben, als Eure Gruppe etwas zu dicht für sein Behagen vorüberzog.)~
+@34   = ~(In der Annahme, ihr würdet angegriffen, zückt Solaufein die Klinge und richtet sie instinktiv gegen den Feind, bereit, ihn nötigenfalls ohne Unterstützung niederzuringen.)~
+@35   = ~(Er unterbricht sich, als Ihm bewusst wird, dass unmittelbare Gefahr nicht droht. Mit rauem Gelächter über seine eigene Nervosität und einer anmutigen, geschickten Drehung seines Handgelenks bringt er die Waffe in die Schwertscheide zurück.)~
+@36   = ~Wie es scheint, bin ich ein wenig unruhig so fernab meiner vertrauten Umgebung. Ich hoffe, dies wird mit der Zeit vergehen.~
+@37   = ~(Der Elf beschleunigt plötzlich seinen Schritt und marschiert an Euch vorüber.)~
+@38   = ~(Obwohl er zu fern ist, um Euch zu berühren, schreitet er nahe genug, dass Ihr den Duft jenes Öls wahrnehmen könnt, das er aufträgt, um seine Haut gegen die Sonne zu schützen.)~
+@39   = ~(Es liegt etwas Beruhigendes darin, ihn so nahe bei Euch zu wissen. Und so sprecht nicht. Aus Angst, es könnte den Moment ruinieren.)~
+@40   = ~Noch immer denke ich manchmal, dass ich hätte zurückbleiben sollen, um jenen ähnlich gesonnenen Drow zu helfen, die womöglich meiner Unterstützung bedürft hätten.~
+@41   = ~Doch dann besinne ich, dass es bedeutet hätte, Euch nicht auf der Oberfläche zu begleiten. Und ich weiß, dass ich die richtige Entscheidung getroffen habe.~
+@42   = ~(Aufmerksam sucht Ihr den Horizont mit Euren Blicken ab. So hört Ihr nicht Solaufein sich leise nähern und schließlich hinter Euch zum Stehen kommen. Einen kurzen Moment später spürt Ihr eine sachte Berührung an Eurem Arm, als der Elf Euch ruhig auf seine Gegenwart hinweist.)~
+@43   = ~Sagt mir, was es ist, das Ihr dort sucht, <PRO_LADYLORD>. Ich könnte Euch dabei behilflich sein, es zu finden.~
+@44   = ~(Solaufein öffnet das Buch der Gedichte und blättert langsam durch die Seiten. Lautlos bewegen sich seine Lippen, als er über die Wörter liest.)~
+@45   = ~(Ihr habt ihn bereits mehrere Male dabei beobachtet und seid Euch gewiss, dass er jeden der Verse in- und auswendig kennen muss. Dieses Mal jedoch scheint er nach etwas Bestimmtem zu suchen.)~
+@46   = ~Nein, nein, auch das ist nicht das Rechte.~
+@47   = ~(Nach weiteren Momenten des Suchens scheint er aufzugeben und er schließt den Band mit einem tiefen Seufzen.)~
+@48   = ~(Solaufein öffnet das Buch der Gedichte und blättert langsam durch die Seiten. Lautlos bewegen sich seine Lippen, als er über die Wörter liest.)~
+@49   = ~(Ihr habt ihn bereits mehrere Male dabei beobachtet und seid Euch gewiss, dass er jeden der Verse in- und auswendig kennen muss. Dieses Mal jedoch scheint er nach etwas Bestimmtem zu suchen.)~
+@50   = ~(Schließlich findet er die Worte, die er suchte, und beginnt, sie mit so sanfter Stimme zu verlesen, als wären sie ausschließlich ihm bestimmt. Der Wind jedoch trägt den beruhigenden Klang zu Euch herüber und Ihr kommt nicht umhin zu lauschen ...)~
+@51   = ~Tosender Wind durchpeitscht meine Glieder,
+heulend Geklage dringt mir ins Mark,
+schenkt meiner Seele traurige Lieder,
+schweres Gemüt in bleischwerem Sarg.
+Auf Irrwegen taumelnd durchs Zeitenmeer,
+Was nur tat ich? Was trieb mich hierher?
+
+Stumm hallen die Schreie der Toten,
+die von gewaltigem Schlachtenfeld künden.
+Bin von Schuld überwältigt, hinabgezogen,
+doch meine Hand fährt hinauf, umklammernd die Sünden.
+Ergötze mich dran... am Blut der Feindeswogen,
+jener zu mir zum Sterben gesandten.
+Sie nennt man die Auserwählten,
+mich den Verdammten.~
+
+@52   = ~Und ich schreite über den Pfad aus Stein,
+dem Portal entgegen, zum Feinde hinab.
+Mein Gesicht gehüllt in des Schaurigen Schein,
+kalt glühender Schimmer aus grausigem Grab.
+Gegen den Geist jedoch will ich mein Schwert nicht erheben,
+allein seiner Herrin gilt mein Trachten und Streben.
+
+Und so trete ich vor ihren äschernen Thron,
+ein Platz, von den Lügen der Diener durchtränkt.
+Meiner Feindin Augen sind schwarz vor Hohn,
+ohne Furcht tret' ich näher, die Arme verschränkt.~ 
+
+@53   = ~Sie fassen mich, fangen mich, Augen eiskalt;
+ihre heisere Stimme zu den Himmeln erschallt:
+"Motte! Gewürm! Du Wesen der Nacht!
+Der Tag der Vegeltung ist ausgemacht!"
+
+Von ihrem Heer aus Dämonen umgeben,
+Augen, in denen die Mordlust gährt,
+Höllenklauen nach meinem Blute streben,
+meine Rechte zur trauten Klinge fährt.
+Viele der Diener dem Leben entrückten,
+im Blick ihrer Herrin von vernichtender Art.
+Ich falle - Held der Unterdrückten
+und singe das Lied meiner Himmelfahrt.~
+@54   = ~(Solaufein öffnet das Buch der Gedichte und blättert langsam durch die Seiten. Lautlos bewegen sich seine Lippen, als er über die Wörter liest.)~
+@55   = ~(Ihr habt ihn bereits mehrere Male dabei beobachtet und seid Euch gewiss, dass er jeden der Verse in- und auswendig kennen muss. Dieses Mal jedoch scheint er nach etwas Bestimmtem zu suchen.)~
+@56   = ~(Schließlich findet er die Worte, die er suchte, und beginnt, sie mit so sanfter Stimme zu verlesen, als wären sie ausschließlich ihm bestimmt. Der Wind jedoch trägt den beruhigenden Klang zu Euch herüber und Ihr kommt nicht umhin zu lauschen ...)~
+@57   = ~Ich schmähe die brennende Sonne,
+das Gestirn, das stechend mein Augenlicht trifft.
+Schier endlose Zeit steh ich da - nur da,
+mich wundernd, wieviel Zeit schon verstrichen.
+In Furcht und Angst vor der Welt,
+fürchtend auch, dass alles erlischt,
+wenn die Sonne in der Ferne entwichen.
+
+Ich tauche ab in Erinnerungen, in Gedankengespinste
+von einer Welt, glückselig und traut,
+wo die Freiheit geehrt,
+wo Krieg längst geächtet,
+wo Hass nicht gekannt -
+doch die Zeit schon verrinnt,
+sie verfließt wie der körnige Sand.
+Mein Glück, es ist nicht von Dauer - ist's niemals.
+Dies ist sie - die wirkliche Welt,
+durch meine Augen geschaut.~
+
+@58   = ~Das Leben im Kampfe verloren,
+und doch zum Leben geboren.
+Für eine Bestimmung geblutet,
+den Geist mit Trauer durchflutet.
+Gleichwie das Sonnenlicht weicht,
+so unser Glück auch vergeht.
+Denn im Leben ist selten erreicht,
+was man zuvor noch erstrebt.
+
+Gebunden und in Ketten geschlagen,
+das Überleben zum einzigen Ziel.
+Das Leben bleibt stets kostbarstes Wagen,
+ehe das Licht am Weltrand verfiel.~
+
+//PC INITIATED
+
+@59   = ~(Ihr wendet Euch Solaufein zu, dem abtrünnigen Drow, der sich Euch im Unterreich als Freund anschloss.)~
+@60   = ~Ja, <CHARNAME>? Gibt es da etwas, das Ihr von mir benötigt?~
+@61   = ~(Mehr und mehr behagen Euch die Momente einträchtiger Kurzweil in der Gegenwart des Drow.)~
+@62   = ~(Sogleich wendet Ihr Euch ihm mit Feuereifer zu, um mehr über ihn zu erfahren, und bereitwillig begrüßt er Eure Hinwendung.)~
+@63   = ~(Euer Herz schlägt höher, sobald Euer Blick auf Euren elfischen Liebhaber fällt. Widrigkeiten und Unbill, die ihr gemeinsam überwunden habt, brachten Euch einander näher als Ihr je zu hoffen gewagt hattet.)~
+@64   = ~(Ihr seid Euch gewiss, dass Solaufein auf dieselbe Weise empfindet. Wann immer Ihr Euch ihm zuwendet, gilt seine Aufmerksamkeit einzig Euch. Nichts würde ihn je von Eurer Seite trennen.)~
+@65   = ~(Ihr umarmt Solaufein.)~
+@66  = ~Ich bin so froh, dass Ihr hier seid, Solaufein. Ich danke Euch dafür, dass Ihr entschieden habt, uns zu begleiten.~
+@67  = ~(Ihr schließt Solaufeins Hand in Eure.)~
+@68  = ~(Ihr gebt Euch einem kurzweiligen Augenschmaus hin.)~
+@69  = ~Wie gefällt es Euch bisher auf der Oberfläche, Solaufein?~
+@70  = ~(Ihr berührt Solaufein.)~
+@71  = ~Denkt Ihr, Ihr werdet das Unterreich vermissen, Solaufein?~
+@72  = ~(Ihr schenkt Solaufein ein Lächeln.)~
+@73  = ~(Ihr überprüft die Wachsamkeit des Drow.)~
+@74  = ~Solaufein, ist es wahr, dass die Drow höchst begabt und bewandert sind in den Künsten des Fleisches?~
+@75  = ~(Ihr spendiert Solaufein einen Drink.)~
+@76  = ~(Ihr nehmt ein gemeinsames Bad mit Solaufein.)~
+@77  = ~Solaufein, ich wertschätze alles, das Ihr für mich tut. Doch ich meine, unser Verhältnis sollte schlichter Natur bleiben.~
+@78  = ~Solaufein, ich liebe Euch!~
+@79  = ~(Ihr neckt Solaufein.)~
+@80  = ~(Ihr küsst Solaufein.)~
+//@81   = ~(Show Sola what you have learned in Drow)~//
+//@82   = ~(Cop a quick feel)~//
+//@83   = ~(Kiss Solaufein deeply)~//
+//@84   = ~Teach me something in Drow Solaufein~//
+//@85   = ~(Pinch Sola’s Butt – You know you’ve been wanting to)~//
+@86  = ~(Ihr bändelt für diesen Augenblick nicht mit Solaufein.)~
+@87   = ~(Ihr tretet neben Solaufein und legt Euren Arm um ihn. Als der sanfte Griff Eurer Umarmung sich für einen kurzen Moment festigt, graben Eure Finger sich leicht in seine Seite.)~
+@88   = ~(Jäh fährt er zusammen und windet sich augenblicklich aus der Reichweite Eurer Arme. Wachsamen Blickes beobachtet er Eure Bewegungen, doch als er den verwirrten Ausdruck auf Eurem Gesicht bemerkt, entspannt er wieder und spricht eine Entschuldigung.)~
+@89   = ~Vergebt mir, <CHARNAME>. Ich bin nicht gewöhnt an solche … Handlungen.~
+@90  = ~(Während Ihr durch die Straßen der Stadt schreitet, erblickt Ihr nicht weit entfernt von euch eine Frau, die Solaufein mit Furcht und unverhohlenem Abscheu mustert. Sie ergreift das kleine Kind, das sie an ihrer Seite führt und trägt es in ein nahes Gebäude. Im Vorübergehen bemerkt Ihr, dass Vorhänge zugezogen werden und vernehmt das schwache Klopfen eines Balkens, der vor eine Tür geschoben wird, um sie gegen Eindringen zu sichern.)~
+@91  = ~(Aufmerksam mustert Ihr die Umgebung und entdeckt weitere Leute, die von Eurem Weg abkehren. Die meisten überqueren die Straße um euch auszuweichen und werfen dabei besorgte Blicke auf den Drow. Obgleich das Verhalten der Bürger Solaufeins Aufmerksamkeit nicht entgeht, schweigt er und hält den Blick geradeaus gerichtet, während ihr euren Weg durch die Stadt fortsetzt.)~
+@92  = ~(Ihr schiebt Euch dichter an ihn heran. Beschwichtigend legt Ihr Euren Arm um ihn und werft dem Mann, der Euch von der gegenüberliegenden Straßenseite her anstarrt, einen trotzigen Blick zu. Solaufein erwidert Eure Geste, er legt seinen Arm um Eure Hüfte. Schicksalsergeben Blickes sieht er Euch an.)~
+@93  = ~Ich fürchte, von nun an wird dies ein alltägliches Bild darstellen. Vielleicht sollte ich mir eine neue Tunika beschaffen. Um mich besser einzufügen. Die Mode des Unterreichs ist doch recht verschieden von der Art der Oberflächenbewohner, sich zu kleiden.~
+@94  = ~(Ihr grinst und zieht Solaufein dichter heran. Sein Vermögen, die Situation so gelassen zu nehmen, beeindruckt Euch.)~
+@95  = ~(Solaufein scheint noch hingebungsvoller zu grübeln als sonst, sofern dies überhaupt möglich ist. Ihr beschließt, ihn seine Sorgen mit einem aufmunternden Lächeln und einer behutsamen Umarmung vergessen zu lassen.)~
+@96  = ~(Er scheint verdutzt. Seine Haltung versteift sich zunächst, als Eure Arme sich um ihn legen. Doch schließlich entspannt er sich und er erwidert zögernd Euer breites Lächeln.)~
+@97   = ~(Als Ihr später einen Blick zurückwerft, stellt Ihr fest, dass Eure Handlung die ersehnte Wirkung zeigte: Obwohl das Lächeln von seinen Lippen gewichen ist, leuchtet es noch immer in seinen Augen, und Euch scheint, er fühlt sich nun behaglicher.)~
+@98   = ~So wie ich es bin, <CHARNAME>. Und obwohl ich mich noch immer fremd hier fühle, komme ich mir wohl nicht so verloren vor, wie ich es getan hätte, wenn ich alleine gewesen wäre.~
+@99  = ~Ich hätte mich schwerlich dagegen entscheiden können, <CHARNAME>. Dieser Pfad, den ich gemeinsam mit Euch beschreite, ist sicherlich weniger unangenehm als jener, dem ich hätte entgegensehen müssen, wenn ich unter meinesgleichen geblieben wäre.~
+@100 = ~(Solaufein dreht sich zu Euch um. Beherzt legt er eine Hand auf Eure Schulter, blickt in Eure Augen und lächelt.) Und wie hätte ich wohl ablehnen können?~
+@101 = ~(Solaufein schüttelt seinen Kopf und lacht leise, ganz so, als hättet Ihr ihm soeben eine amüsante Geschichte erzählt.)~
+@102 = ~Da steht Ihr, mir dafür dankend, dass ich mich Euch anschloss; wenn es doch an mir ist, Euch meinen Dank dafür zu erweisen, mich aufgenommen zu haben! Die Bewohner der Oberfläche sind wahrlich interessant.~
+@103 = ~(Ihr hegt den Wunsch, Euren elfischen Gefährten sich willkommen fühlen zu lassen: So hebt Ihr den Arm und ergreift seine Hand. Neugierig sieht er Euch an, als wolle er Eure Absicht ergründen.)~
+@104 = ~(Ihr beantwortet seinen Blick mit einem Lächeln, sprecht aber keine Worte. Eure Finger festigen stattdessen ihren Griff kurz in freundschaftlicher Geste, dann gebt Ihr seine Hand wieder frei.)~
+@105 = ~(Ihr bemerkt ein dünnes Blutrinnsal über Solaufeins Unterarm kriechen und ergreift seine Hand, um es genauer zu untersuchen. Rasch entreißt er seinen Arm Eurem Griff und zerstreut Eure Bedenken mit einem gelassenen Achselzucken.)~
+@106 = ~Es ist nichts, um das Ihr Euch sorgen müsstet, <CHARNAME>. Ich habe weitaus Schlimmeres überstanden als diesen unbedeutenden Kratzer.~
+@107 = ~(Als er sich der Bedeutung seiner Worte gewahr wird, schließt Solaufein den Mund und wendet sich voller Unbehagen von Euch ab.)~
+@108 = ~Verzeiht mir, <CHARNAME>, doch sollte ich meine Hände verfügbar haben, sollte die Notwendigkeit bestehen, einen Zauber zu sprechen.~
+@109   = ~(Solaufein, der ganz und gar nicht gewöhnt ist an solche Gesten der Zuneigung, zögert, unsicher darüber, wie er nun reagieren soll.)~
+@110   = ~(Zunächst schließt er seine Finger um die eine Seite Eurer Hand. Dann legt er sie auf die andere Seite. Nervös blickt er Euch an, ehe er versucht, sie einmal mehr auf ihre ursprüngliche Position zurückzuschieben.)~
+@111   = ~(Darum bemüht zu entspannen, verschränkt er seine Finger schließlich mit Euren. Doch nun erscheint er derart kraftlos und matt, dass Euch der Eindruck überkommt, Ihr zöget eine Stoffpuppe neben Euch her.)~
+@112   = ~(Gleich einer Henne, die sich um ihr Küken sorgt, wendet Ihr Euch Solaufein zu, um Euch zu vergewissern, dass er sich einleben und nicht unwohl fühlen würde inmitten so vieler Nicht-Drow.)~
+@113   = ~(Ihr entdeckt ihn ein wenig fernab der übrigen Gefährten - nicht ausgeschlossen, nicht gänzlich dazu gehörend.)~
+@114   = ~(Während Ihr ihn aufmerksam mustert, beobachtet er mit derselben Sorgfalt Eure Freunde; studiert jene Eintracht und Ungezwungenheit ihres Miteinanders, die nur Wochen gemeinsamen Reisens entspringt. Er lauscht, während sie munter plaudern und Geschichten teilen, die so beginnen: „Erinnert ihr euch daran, als wir ...“)~
+@115   = ~(Der Schatten eines Lächelns huscht über sein Gesicht, als jemand erwähnt, wie Ihr einst nackt auf einem Bärenfellvorleger lagt. Obwohl Ihr errötet vor Verlegenheit, erfreut es Euch zu sehen, dass Solaufein ein wenig Vergnügen daraus zu schöpfen scheint, in eurer Gemeinschaft zu wandern.)~
+@116   = ~(Ihr widersteht dem Drang, Euch schützend an seine Seite zu stellen und kehrt wieder herum. Ihr überlegt, es sei das Beste, Solaufein sich auf eigenen Wegen und Weisen in die Gruppe einfinden zu lassen.)~
+@117   = ~(Ihr meint, aus dem Augenwinkel erkennen zu können, wie Solaufein sich umwendet und Euch entgegensieht. Ihr jedoch blickt nicht zurück, um herauszufinden, ob Ihr Recht behalten würdet.)~
+@118   = ~(Ehe Ihr Ust Natha betreten hattet, wart Ihr lediglich dem dunklen Elfen Drizzt persönlich begegnet. Doch jene kurze Begegnung bot Euch kaum Gelegenheit, einen Drow eingehend zu studieren. Nun, da einer sich in Eurer Gruppe befindet, nutzt Ihr die Gelegenheit für gründlichere Betrachtungen.)~
+@119   = ~(Aufgrund seiner geringeren Körpergröße unterschätzt manch einer die Kampffertigkeit des Elfen und erachtet ihn als einen schwächlichen Gegner. Eine falsche Annahme, wie Ihr wisst, denn sowohl seine Magie als auch seine Waffen habt Ihr Solaufein mit Präzision und tödlichem Kunstgeschick führen gesehen.)~
+@120   = ~(Ihr seid dankbar dafür, dass er euch im Unterreich zur Seite stand. Ohne seine Hilfe hätte manches sich in eine falsche Richtung entwickeln können.)~
+@121   = ~(Einmal mehr fühlt Ihr Euren Blick angezogen von dem dunklen Elfen, den Ihr als Euren Freund gewonnen habt. Eure Finger kribbeln bei der Vorstellung, sie durch die Mähne weißblonden Haars gleiten zu lassen und nur zu gerne würdet ihr die Stunden damit verbringen, in dem Blick seiner ungewöhnlichen Augen zu versinken. Ihr reißt Euch jedoch zusammen, als Ihr bedenkt, dass diese Zeit Euch nicht gegeben ist.)~
+@122   = ~(Ein Seufzen der Niedergeschlagenheit ausstoßend, wendet Ihr Euch erneut den vor Euch liegenden Aufgaben zu.)~
+@123   = ~(Ihr blickt just in dem Moment zu Solaufein hinüber, als er seinen Wasserschlauch hebt, um den Schweiß und den Schmutz der Straße von seinem Gesicht zu schwemmen.)~
+@124   = ~(In zauberhaften Mustern glitzert das Licht auf dem Wasser, welches die ebenholzfarbene Haut benetzt und die fein geschnittenen Züge des Elfen deutlicher denn je hervorzuheben scheint. In verlockenden Rinnsälen tanzt es über die hohen Wangen, gleitet den Rücken der zarten Nase hinab und verebbt in einer Liebkosung der vollen Lippen.)~
+@125   = ~(Völlig hingerissen beobachtet Ihr einen einzigen Tropfen den Lippen entrinnen und seinen Weg entlang Solaufeins muskulösen Halses bahnen, eine verheißungsvoll schimmernde Spur hinter sich zeichnend, ehe er unter dem Kragen der Tunika verschwindet.)~
+@126 = ~(... Ihr stellt Euch vor, dieselbe Spur mit der Spitze Eurer Zunge nachzufahren, dem eigensinnigen Tropfen hinab in die Tiefen der Kleidung des Elfen zu folgen, dorthin, wohin auch immer er es wagen würde, Euch zu führen ...)~
+@127   = ~(Endlich richtet Ihr Euren Blick wieder auf das Gesicht des Elfen. Der blickt Euch geradewegs entgegen - mit einem Ausdruck heiterer Belustigung.)~
+@128   = ~(Ihr wisst, dass Drow nicht in Gedanken lesen können. Trotzdem müsst Ihr Euch der Erkenntnis stellen, dass Eure lüsternen Vorstellungen wohl ziemlich unverhohlen auf Eurem Antlitz prangen. Und nach Solaufeins amüsierter Miene zu urteilen, hat er eine ziemlich genaue Vorstellung von dem, was Ihr dachtet.)~
+@129 = ~(Solaufein schließt seine Augen und nimmt einen tiefen Atemzug. Einen Moment lang hält er inne, als wolle er den Geschmack kosten. Schließlich atmet er aus und blickt zu Euch herüber, mit einem bedächtigen Lächeln auf seinen Lippen.)~
+@130 = ~Erquickend, <CHARNAME>. Wahrlich erquickend.~
+@131 = ~Ich finde keine Worte für die Schönheit meiner neuen Heimat. Bisweilen scheint es mir, als vermöge der Reichtum ihrer Eindrücke mich zu überwältigen.~
+@132 = ~Ich gewöhne mich gut an meine neue Umgebung. Ich hoffe bloß, sie wird sich meiner ebenso annehmen, wie ich mich ihrer annahm.~
+@133 = ~Sie ist sehr verschieden. Ich verstehe, dass ich viel zu lernen habe, wünsche ich, den Rest meiner Tage oberhalb der Dunkelheit zu verbringen.~
+@134 = ~Es ist nicht die Zeit, uns solchen Handlungen hinzugeben, <CHARNAME>. Es zu tun, würde bedeuten, dass wir im Augenblick eines Überfalls wehrlos und verletzbar wären.~
+@135 = ~(Während Ihr einen Hain durchwandert, erhebt sich plötzlich eine Brise und taucht eure Gruppe in einen regelrechten Schauer grünen Laubs, das sie von den Ästen über euch befreit hat. Ihr beobachtet einige Ausreißer davonstieben, ganz so als versuchten sie, eine Reisegelegenheit auf dem nächsten Wanderer zu erhaschen. Schließlich verfangen sie sich in Solaufeins  langen, geschwungenen Locken. Ihr streckt die Hand aus, um die grünen Störenfriede aus seinem Haar zu zupfen.)~
+@136   = ~(Solaufein unterbricht Euch. Er nimmt Eure Hand in seine und bedenkt Euch mit einem ernsten, ruhigen Blick.) Lasst sie, <CHARNAME>. Mir erscheint es so, als wäre ich soeben von meiner neuen Heimat willkommen geheißen worden.~
+@137 = ~(Er hält Eure Hand umschlossen. Gemeinsam setzt ihr euren Weg fort unter dem andauernden Regen sanften Blattgrüns.)~
+@138   = ~(Als Ihr einen Schmutzfleck auf Solaufeins Gesicht bemerkt, hebt Ihr die Hand, um diesen impertinenten Anblick fortzuwischen, der die delikaten Züge besudelt. Reglos verharrt der Elf; wagt es nicht einmal, seinen Atem zu ziehen.)~
+@139   = ~(Schließlich senkt Ihr die Hand und Solaufein schenkt Euch ein vorsichtiges Lächeln.) Ich danke Euch, <CHARNAME>. Eure Sorge um meine Erscheinung schätze ich sehr.~
+@140   = ~(Das Haar des Elfen scheint von innerem Glanz erhellt, als wäre den Locken ein eigenes Leben eingehaucht. Verlockt durch diesen Anblick streckt Ihr den Arm aus und windet einige der Strähnen um Eure forschenden Finger. Ihr lächelt ob der seidenen Berührung.)~
+@141   = ~(Solaufein scheint nicht bemerkt zu haben, was Ihr dort tut. Doch Ihr seht, wie er Euch verstohlen aus dem Winkel seiner Augen beobachtet. Als Ihr Euch abwendet und zu Eurem Platz in der Formation zurückkehrt, meint Ihr, etwas kaum merklich über Euer eigenes Haar streichen zu spüren.)~
+@142   = ~Nein, wäre meine erste Antwort, <CHARNAME>. Doch wer weiß, was sich verändern mag, so mehr Zeit vergeht? Wir werden abwarten müssen und sehen.~
+@143   = ~Das Unterreich ist ein grausamer Ort, <CHARNAME>. Doch es war meine Heimat und, ob Ihr dies glauben mögt oder nicht, in ihr lag Schönheit. Eine kalte Schönheit zwar, doch WAR es Schönheit. Eines Tages, so wir mehr Zeit haben, werde ich Euch davon berichten.~
+@144 = ~(Solaufein stößt ein bitteres Lachen aus, als er Eure Frage vernimmt.)~
+@145 = ~Es vermissen, von Phaere und Ihren Zofen missbraucht zu werden? Ich denke nicht, <CHARNAME>.~
+@146 = ~Gewiss vermisse ich meine Heimat, <CHARNAME>. Ungeachtet des Rufes, der auf Ihr lastet, ist sie jener Ort, an dem ich aufwuchs. Sie stellt all jenes dar, das ich während meines bisherigen Lebens erfahren konnte. Ihr selbst haltet Euch weit entfernt vom Ort Eurer Jugend auf. Vermisst Ihr ihn nicht?~
+@147 = ~(Ohne eine Antwort abzuwarten, wendet sich Solaufein fort von Euch. Das Thema scheint ihn zu schmerzen.)~
+@148 = ~(Ihr blickt zu Solaufein hinüber und offenbart ihm ein Lächeln der Zuneigung und tief empfundener Warmherzigkeit.)~
+@149 = ~(Da Ihr Euch besonders ausgelassen und unbeschwert fühlt, wendet Ihr Euch Solaufein zu und grinst - Hell blitzen Eure Zähne, als Eure Lippen sich zu einem breiten Lächeln teilen.)~
+@150   = ~(Zu Eurer Überraschung erscheint ein Ausdruck unterwürfigen Entsetzens auf seinem Gesicht. Er verharrt augenblicklich inmitten seiner Bewegung, scheut sich, einen weiteren Schritt zu setzen.)~
+@151 = ~(Einen Augenblick später scheint er zu verstehen, dass Ihr nichts tun würdet, außer zu lächeln. Er kommt wieder zu Sinnen.)~
+@152 = ~Vergebt mir, <CHARNAME>. Ich vergaß: das Lächeln eines Oberflächenbewohners bedeutet nicht dasselbe wie das Lächeln eines Drow. Wenn eine der Zofen im Unterreich lächelte, bedeutete dies den Männchen für gewöhnlich, wachsam zu sein und sich gut vorzusehen.~
+@153 = ~(Ihr kraust Eure Nase und schielt, als Solaufein sich zu Euch umwendet.)~
+@154 = ~(Der völlig entgeisterte Ausdruck auf seinem Gesicht ist unbezahlbar.) <CHARNAME>? (Er wölbt eine schneeweiße Braue und neigt Euch den Kopf fragend entgegen.)~
+@155 = ~(Ihr wackelt mit den Ohren, um das Bild zu vollenden.)~
+@156   = ~Geht es Euch gut? Welches ist die Bedeutung dieser Grimasse? Handelt es sich um einen besonders eigentümlichen Brauch der Oberflächenbewohner, dessen ich mir nicht gewahr bin?~
+@157 = ~(Als Ihr nicht antwortet, sondern ihn weiterhin mit dieser lächerlichen Fratze anstarrt, seht Ihr seine Mundwinkel sich zu einem Lächeln verziehen. Bald darauf lacht er über Eure Possen.)~
+@158 = ~Ihr habt in der Tat Humor, <CHARNAME>. Zugegeben, es handelt sich um einen sonderbaren, mienenentstellenden Humor. Nichtsdestotrotz ist es unterhaltsam. (Er schüttelt den Kopf und lächelt, als er Euch ansieht.)~
+@159 = ~(Ihr kraust Eure Nase und schielt, als Solaufein sich zu Euch umwendet.)~
+@160 = ~(Der völlig entgeisterte Ausdruck auf seinem Gesicht ist unbezahlbar.) <CHARNAME>? (Er wölbt eine schneeweiße Braue und neigt Euch seinen Kopf fragend entgegen.)~
+@161 = ~(Beschämt wendet Ihr rasch den Kopf ab, als Ihr feststellen müsst, dass er Eure spielerische Absicht nicht erkennt.)~
+@162   = ~(Ihr steht neben Solaufein und küsst ihn vorsichtig auf die Wange.)~
+@163   = ~(Überrascht sieht er Euch an, sagt jedoch nichts. Als Ihr einen weiteren Blick auf ihn werft, legt er seine Finger gegen jene Stelle, die Eure Lippen berührten und lächelt zufrieden.)~
+@164 = ~(Er ergreift Euch, als Eure Lippen sich von seiner Wange lösen, und blickt Euch verwundert an.)~
+@165 = ~Welch zarten Hauch des Windes ich verspüre.~
+@166 = ~(Ihr küst ihn und lasst Eure Wimpern über seine Wange streichen.)~
+@167 = ~Küsste soeben ein Schmetterling meine Wange?~
+@168   = ~(Solaufein hällt Euch fest an sich gedrückt. Ihr fühlt seine Zunge über Eure Unterlippe gleiten. Doch ehe die Dinge in eine interessante Richtung entwickeln können, öffnet er die Augen und gibt Euch hastig frei.)~
+@169   = ~<CHARNAME>! Verzeiht mir, ich habe mich für einen Moment vergessen!~
+@170   = ~(Solaufein richtet einen aufmerksamen Blick auf Euch, während er Euren Vorschlag vernimmt. Dann schenkt er Euch ein liebenswertes Lächeln.) Gewiss, <CHARNAME>. Ich denke, ich würde es sehr genießen, mit Euch einen Trunk einzunehmen.~
+@171   = ~(Ihr bezahlt die Getränke und lasst euch in einer unbeobachteten Ecke nieder. Zu Eurer Freude erweist Solaufein sich als ein beredter wie gewinnender Gesprächspartner, und es scheint, als schätzte er auch Euch als einen solchen. Denn in Eurer Gegenwart gebart er sich vollkommen zufrieden und gelassen.)~
+@172   = ~(Bald schon grinst und lacht ihr gemeinsam und ignoriert unbekümmert die abscheuerfüllten Blicke jener Kunden, die zufällig an Eurem Tisch vorüberschreiten. Dieses Mal, so scheint es, sind all Eure zermürbenden Sorgen und Kümmernisse gewichen, um in Eurem Denken einzig dieser Unterhaltung Raum zu gewähren. Sehr viel später erst beendet ihr diese allzu flüchtige Zeit der Kurzweil und setzt Eure Reise fort.)~
+@173 = ~(Solaufein hält inne und blickt zu Euch herüber. Sollte Eure Bemerkung ihn verletzt haben, so offenbart er keine Anzeichen dessen in seinen Zügen.)~
+@174 = ~Nun gut, <CHARNAME>. Wenn es das ist, was Ihr wirklich wünscht.~
+@175 = ~Ja. Ich denke, es wäre das Beste, wenn wir bloß Freunde und Reisegefährten blieben.~
+@176 = ~Nein! Nein, verzeiht mir! Ich weiß wirklich nicht, was über mich kam!~
+@177 = ~So wie Ihr sagt, soll es sein.~
+@178 = ~(Solaufein schließt seine Augen, womöglich erleichtert darüber, dass Ihr Euch anders besonnen habt.) Ich bin froh, das zu hören, <CHARNAME>. Sollen wir weitermachen?~
+
+//SOLA INITIATED MEDIUM
+
+@201 = ~(Obwohl Solaufein sich noch immer nicht recht zugehörig fühlt, ist er eifrig bestrebt, mehr über die Bewohner der Oberfläche herauszufinden. Er nähert sich und schreitet an Eurer Seite.)~
+@202   = ~(Ihr seht Solaufein Nacken und Schultern neigen, um die Spannung zu lösen, die sich darin gefestigt hat. Während er die Muskeln spannt, gleitet das Licht über die kräftigen Formen und zeichnet jeden Strang in verlockender Erkennbarkeit.)~
+@203   = ~(Ihr spürt eine eigenartige Regung an Eurem Haar, als zupfte jemand sanft an den Strähnen. Ihr wendet Euch dem Missetäter zu. Euer Blick fällt auf Solaufein, der hinter Euch steht und ein Blatt zwischen seinen Fingern hält.)~
+@204   = ~Vergebt mir, <PRO_LADYLORD>, doch dies hier sah ich in Eurem Haar und nahm an, Ihr sähet es womöglich gerne entfernt.~
+@205   = ~(Solaufein lässt seine Finger durch das silbrigweiße Haar gleiten. Die schimmernden Strähnen scheinen das Licht aufzusaugen und ein glänzendes Gewebe zu spinnen. Er bemerkt Euren prüfenden Blick und beantwortet ihn mit seinem eigentümlichen halbseitigen Lächeln. Die Wärme in seinen Augen teilt Euch indes mit, dass Eure Aufmerksamkeit nicht unerwünscht ist.)~
+@206   = ~(Lautlos löst Solaufein sich aus der Formation und tritt an Eure Seite. Gelassen ruht seine Hand auf dem Heft der Waffe und unentwegt sucht sein Blick den Horizont ab nach den Spuren eines Feindes. Zu Euch spricht er kein Wort. Schließlich weicht er zurück und nimmt wieder seinen Platz in der Gruppe ein.)~
+@207   = ~<CHARNAME>, Ihr selbst mögt dies nicht bemerken, doch bewegt Ihr Euch mit der Anmut eines Liedes, welches der Kehle eines jungen Vogels entsteigt, der sich zum ersten Mal in die Lüfte schwingt. Wahrhaftig ein Geschenk für die Augen, dessen einer niemals überdrüssig wird.~
+@208   = ~(Er lächelt, nickt einmal, und wendet sich wieder Eurem Marsch zu. Diesmal jedoch postiert er sich auffällig hinter Euch.)~
+@209   = ~(Ihr könnt Euch nicht des Eindrucks erwehren, dass jemand Euch während Eurer Reise beobachtet. Rasch wirbelt Ihr herum, nicht gewillt, dieses Empfinden länger zu ignorieren, und bereit, beim ersten Anzeichen von Feindseligkeit das Gefecht aufzunehmen.)~
+@210   = ~(Aus dem Augenwinkel noch bemerkt Ihr Solaufein rasch seinen Kopf abwenden und mit größter Konzentration irgendetwas Faszinierendes nahe seines Stiefels mustern.)~
+@211   = ~(Der dunkle Elf schreitet neben Euch und schiebt vorsichtig seinen Arm um Eure Schultern. Er zieht Euch tiefer in seine Umschließung, als er erkennt, dass Ihr ihn nicht von Euch stoßen würdet. Eine Weile wandert Ihr so nebeneinander her.)~
+@212   = ~<CHARNAME>, hier auf der Oberfläche gibt es unzählig viele neue Erscheinungen und Eindrücke für mich zu erfahren.~
+@213   = ~(Solaufein wirft Euch einen bedeutungsvollen Blick zu, während er spricht.)~
+@214   = ~Manche sind höchst liebreizend anzuschauen. Wann immer sie meinen Blick erfüllen, scheinen sie meinen Atem zu rauben.~
+@215   = ~(Solaufein öffnet das Buch der Gedichte und blättert langsam durch die Seiten. Lautlos bewegen sich seine Lippen, als er über die Wörter liest.)~
+@216   = ~(Ihr habt ihn bereits mehrere Male dabei beobachtet und seid Euch gewiss, dass er jeden der Verse in- und auswendig kennen muss. Dieses Mal jedoch scheint er nach etwas Bestimmtem zu suchen.)~
+@217   = ~Nein, nein, auch das ist nicht das Rechte.~
+@218   = ~(Nach weiteren Momenten des Suchens scheint er aufzugeben und er schließt den Band mit einem tiefen Seufzen.)~
+@219   = ~(Solaufein öffnet das Buch der Gedichte und blättert langsam durch die Seiten. Lautlos bewegen sich seine Lippen, als er über die Wörter liest.)~
+@220   = ~(Ihr habt ihn bereits mehrere Male dabei beobachtet und seid Euch gewiss, dass er jeden der Verse in- und auswendig kennen muss. Dieses Mal jedoch scheint er nach etwas Bestimmtem zu suchen.)~
+@221   = ~(Schließlich findet er die Worte, die er suchte, und beginnt, sie mit so sanfter Stimme zu verlesen, als wären sie ausschließlich ihm bestimmt. Der Wind jedoch trägt den beruhigenden Klang zu Euch herüber und Ihr kommt nicht umhin zu lauschen ...)~
+@222   = ~Zeit ist ein Band,
+langsam gewunden,
+Geschichte wie Sand
+und im Geiste gebunden.
+Liebe wie ein reißender Fluss,
+unaufhaltsamer, tückischer Herzenserguss.~
+@222   = ~(Ihr spürt Solaufeins Blick auf Euch ruhen, als er näher tritt. Ein wenig zögerlich beugt er sich vor, ergreift Eure Hand und hebt sie an seine Lippen. Seine Augen sind auf Eure gerichtet, als der Kuss Eure Haut berührt. Solaufein richtet sich auf, macht aber keine Anstalten, Eure Hand freizugeben.)~
+@223 = ~Ich habe das Verhalten der Oberflächenbewohner beobachtet, während wir in der Sadt waren. Ich hoffe aufrichtig, mein Wissen auf angemessene Weise angewandt zu haben.~
+@224 = ~(Er lächelt sanft. Mit einer leichten Verbeugung kehrt er zu seinem Platz in der Formation zurück.)~
+@225   = ~(Ohne ein Geräusch zu verursachen, erscheint Solaufein an Eurer Seite, und ohne ein Wort zu sprechen, schließt er Euch in seine liebevolle Umarmung. Dann weicht er zurück, verschwindet so behände, wie er zuvor erschienen war. Nur das Schaudern, das Euer Rückgrat hinabrinnt, bleibt als einziges Zeugnis seiner kurzen Gegegenwart.)~
+@226   = ~(Ein sanftes Lächeln umspielt Solaufeins Lippen, als er sich Euch nähert und eine Locke aus Eurer Stirn streicht. Da Ihr keine Anstalten macht ihn zu tadeln, führt er seine Finger in zärtlicher Geste über Eure Wange.)~
+@227 = ~So ist es besser. Nun kann ich Eure Augen sehen.~
+@228 = ~(Eifrig bestrebt, sein neuerworbenes Wissen zu nutzen, nähert sich Solaufein und schließt Euch in seine Umarmung.)~
+@229 = ~(Die zunächst zögerliche und befremdliche Erfahrung verwandelt sich, nachdem ihr beide Euch ein wenig entspannt habt, in eine höchst ergötzliche. Ihr atmet den exotischen Duft, der Solaufein selbst während eurer Reisen anhaftet, und die berauschende Essenz scheint Euch ebenso vollkommen zu umfangen wie seine Arme.)~
+@230 = ~(Während einer kurzen Rast, für die ihr euren alltäglichen Marsch unterbrochen habt, seht Ihr Solaufein zu Euch herüberschreiten. Ihr mustert ihn und fragt Euch, was wohl sein Ansinnen sein mag, als er die Hand hebt und sie bedächtig an die Seite Eures Gesichts führt.)~
+@231 = ~(Sanft gleitet die Rückseite seiner Finger über Eure Wange ... und schieben eine Strähne hinter Euer Ohr. Ihr blickt ihn fragend an. Er antwortet: "Ihr hattet etwas Schmutz auf Eurer Wange, <CHARNAME>". Dann wendet er sich ab und kehrt zu seinem Platz zurück.)~
+@232 = ~(Ihr grübelt darüber, ob er Eure Scharade durchschaut haben mag. Immerhin habt Ihr selbst diese Strategie angewandt.)~
+@233 = ~(Gerade, als Ihr beschlossen habt, dass es sich um eine gänzlich unschuldige Geste gehandelt haben muss, wendet er sich um, begegnet Eurem Blick. Und zwinkert verschmitzt.)~
+@234 = ~(Eure Muskeln haben sich zu einer schmerzenden Masse zusammengeballt. In dem verzweifelten Versuch, Eure Pein ein wenig zu lindern, windet Ihr vergeblich Schultern und Nacken hin und her. Solaufein bemerkt Euer Missbehagen. Er veranlasst Euch dazu stehen zu bleiben und auf dem Grund Platz zu nehmen. Dann lässt er sich hinter Euch nieder und beginnt, die Verhärtungen zu lösen.)~
+@235 = ~(Seine Berührung ist zunächst schmerzhaft, doch bald schon empfindet Ihr sie als einen ebenmäßigen und besänftigenden Rhythmus. Nachdem er seine unverhoffte Massage beendet hat, zeichnet Solaufein mit Küssen eine Spur über Euer Schlüsselbein, den Hals hinauf, und vollendet sie mit einem letzten sanften Kuss auf Euren Lippen.)~
+@236 = ~Ich hoffe, Euer Missbehagen gelindert zu haben, Ussta Xukoth.~
+@237 = ~ (Euch dürstet nach einem Schluck Wasser. Leider müsst Ihr feststellen, dass Euer ungehobelter Wasserschlauch bloß tadelvolle Leere enthält. Solaufein bemerkt dies und hebt seine eigene Feldflasche an Eure Lippen.)~
+@238 = ~(Ihr hattet erwartet Wasser zu schmecken. Was Ihr nicht erwartet habt, ist der Geschmack des leichten süßlichen Weins, der Eure Lippen nun benetzt. Ihr beendet Euren Trunk und werft Solaufein einen fragenden Blick zu.)~
+@239 = ~Verwandlungsmagie, mein werter <CHARNAME>, findet vielerlei Nutzen.~ ~Verwandlungsmagie, meine werte <CHARNAME>, findet vielerlei Nutzen.~
+@240 = ~(Wieder einmal verspürt ihr ein Zupfen an Eurem Haar und wieder einmal ist es Solaufein, der ein lästiges Stäubchen aus Euren Locken entfernt. Aber dabei lässt er es diesmal nicht bewenden: seine Fingerspitzen wandern in kreisenden Bewegungen über Euer Haupt und senden Wogen des Schauderns durch Euren Körper. Eine seltsame Erfahrung; gleichsam entspannend wie erregend...)~
+@241 = ~(Der Erschöpfung nicht länger Widerstand bietend, ordnet Ihr eine Unterbrechung Eurer Reise an. Die jüngsten Widrigkeiten lasten schwer auf Eurem Gemüt. Ihr schleudert Euer Gepäck mit einem lauten Pochen gen Boden und folgt ihm sogleich mit tiefem, schwerem Seufzen nach.)~
+@242 = ~(Solaufein lässt sich neben Euch nieder. Zögernd legt er eine Hand auf Eure Schulter.) Ihr seid ein starker Führer, <PRO_LADYLORD>. Ich bin zuversichtlich, dass Ihr siegreich hervorgehen werdet. Auch wenn Erschöpfung und Verzweiflung Euch unerbittlich nachsetzen mögen.~
+@243 = ~(Wortlos drückt Solaufein seine Finger gegen zwei bestimmte Stellen auf Eurem Nacken. Ihr spürt die Anspannung aus Euch weichen, als hätte sie niemals von Euch Besitz ergriffen. Doch ehe Ihr Euch erkenntlich zeigen könnt, ist Solaufein bereits verschwunden.)~
+@244 = ~(Ihr wendet Euch zurück und bemerkt ein einzelnes Blütenblatt vor Euch durch die Luft gleiten. Es berührt Euren Schoß und vor Euren Augen entfaltet sich plötzlich eine farbenprächtige Blüte mit dutzenden delikater Blumenblätter verschiedenster Schattierungen. Fragend blickt Ihr zu Solaufein hinüber. Der Elf gibt nicht zu erkennen, für das Geschenk verantwortlich zu sein. Das wissende Lächeln auf seinen Zügen straft seine Unwissenheit jedoch lügen.)~
+@245 = ~(Gänzlich versunken in Euren Gedanken, nehmt Ihr kaum den neben Euch sitzenden Solaufein wahr. Der mustert Euch mit aufrechter Besorgnis. Er streckt die Hand aus, als wollte er Euch berühren. Dann jedoch zieht er sie jäh wieder zurück. Verärgert über sich selbst stößt er ein Seufzen aus. Er erhebt sich und überlässt Euch Eurer tiefen Versonnenheit.)~
+@246 = ~(Der gedämpfte Klang eines leisen Liedes, getragen von einer tiefen Stimme, dringt an Euer Ohr. Ihr blickt Euch um und seht, dass ein zufriedenes Lächeln auf den Lippen Solaufeins liegt, während die Worte sachte von ihnen schweifen.)~
+@247 = ~(Ihr konzentriert Euch auf seinen Gesang.)~
+@248 = ~(Ihr begebt Euch unauffällig dichter an ihn heran, um zu lauschen und den Klang seiner samtenen Stimme zu genießen.)~
+@249 = ~(Ihr ignoriert ihn. Es gibt wichtigere Dinge, als das Anschmachten eines Gruppenmitglieds, denen Ihr Euch widmen müsst.)~
+@250 = ~(Solaufein singt in der Sprache der Drow. Wenn Ihr Euch konzentriert, könnt Ihr die Worte nachformen und seinen Gesang begleiten.)~
+@251 = ~(Das Lied weist einen Refrain auf, den Solaufein oft wiederholt und so beschließt Ihr, Euch an diesem Teil zu versuchen. Leise, zögerlich zunächst, setzt Ihr ein. Eure beiden Stimmen verschmelzen zu einer lieblichen Einheit, doch seid Ihr davon überzeugt, dass Solaufein Euren gedämpften Beitrag nicht vernehmen wird. Überrascht horcht Ihr auf, als er plötzlich dieselben Verse in der Gemeinsprache singt.)~
+@252 = ~(Ihr hebt den Blick und bemerkt ihn Euch unverwandt ansehen, während er singt. Eine sonderbare Empfindung, die Ihr nicht zu bestimmen vermögt, schwelt in seinen Augen. Nun, da er in der Gemeinsprache singt, fällt es Euch leichter, seinen Worten zu folgen und binnen weniger Augenblicke habt ihr das Lied gemeinsam vollendet. Solaufein schenkt Euch ein herzliches Lächeln.)~
+@253 = ~Das war ... liebreizend, <CHARNAME>. Bisher hatte ich nicht das Vergnügen gehabt, gemeinsam mit einem Partner zu singen. Ich danke Euch für dieses Geschenk.~
+@254 = ~(Einen Moment lang scheint er unschlüssig. Dann jedoch entscheidet er, seine Gedanken mit Euch zu teilen.) Wenn der Mond meiner Eilistraee sich in der Nacht erhebt, dann könnte ich Euch einige ihrer Lieder lehren. Würdet ... würdet Ihr das wollen?~
+@255 = ~(Ihr offenbart ihm ein Lächeln.) Das tue ich, Solaufein. Es wäre mir eine Freude, mehr über die Weisheiten und Lehren Eurer Göttin zu erfahren. Erst recht auf eine so vergnügliche Weise!~
+@256 = ~Ah, nun. Ich denke wirklich nicht, dass mein Gesang so großartig ist, Solaufein. Ich bevorzuge es, Eilistraees Ohren nicht mit meinem Katzengejammer zu plagen. Offen gestanden bin ich mir nicht sicher, was mich dazu veranlasste, mit Euch zu singen.~
+@257 = ~(Solaufein schüttelt den Kopf.) Euer Gesang klang allerliebst in meinen Ohren. Doch solltet Ihr zögern zu lernen, so verstehe ich das.~
+@258 = ~(Ein Lächeln liegt auf Euren Zügen. Ihr schreitet an seiner Seite und lauscht dem Gesang, der in Euren Ohren perlt. Die Bedeutung seiner Worte bleibt Euch verborgen, doch der feierliche Ausdruck auf Solaufeins Miene lässt Euch vermuten, dass es sich um ein Lied für seine Göttin handelt.)~
+@259 = ~(Bald darauf verebbt seine Stimme. Als Ihr aufseht, begegnet Euer Blick dem seinen und Ihr erkennt, dass er Euch die ganze Zeit über beobachtet haben muss.)~
+@260 = ~(Ich habe Eilistraee einen Lobgesang entrichtet, <CHARNAME>. Ihr schient gelauscht zu haben. Gefiel Euch also, was Ihr vernahmt?~
+@261 = ~Das tat es, Solaufein. Werdet Ihr noch öfter Lieder für Eure Göttin singen? ~
+@262 = ~Nicht wirklich, Solaufein. Ich möchte Euch nicht zu nahe treten, doch Gesang in fremden Sprachen lässt mich ... unbehaglich fühlen. Ich würde es begrüßen, wenn Ihr außerhalb meiner Hörweite in der Sprache der Drow singt.~
+@263 = ~(Solaufein lächelt.) Ich kenne weitaus mehr Lieder als jene, die meiner Göttin bestimmt sind. So Ihr es wünscht, werde ich Euch einige davon singen, wenn uns die Zeit gegeben ist. Diese Erfahrung wäre mir eine sehr ... kostbare.~
+@264 = ~(Solaufeins Züge verhärten sich. Es ist offenkundig, dass Eure Worte ihn beleidigt haben.) Ich verstehe. Womöglich habe ich Eure Reaktion falsch gedeutet. (Ohne etwas hinzuzufügen, entfernt er sich von Euch.)~
+@265 = ~(Ein frostiger Wind weht in dieser Nacht. Bebend windet Ihr den Umhang fest um Euren Leib. Als materialisierte er aus dem Nichts, erscheint Solaufein mit nahezu unhörbaren Schritten neben Euch. Er legt den Arm zögernd um Eure Schultern, als wäre er unsicher wie Ihr reagieren würdet, und hüllt Euch beide in seinen Umhang. So setzt er seinen Marsch an Eurer Seite fort, ohne ein Mal in Eure Augen zu blicken.)~
+@266 = ~(Ihr lehnt Euch dichter an Solaufein und legt Euren Kopf an ihn, um diese seltene Nähe gründlich auszukosten, die er Euch gewährt hat.)~
+@267 = ~(Sanft entwindet Ihr Euch seinem Griff.) Ich wertschätze Eure Geste, Solaufein. Doch ich ziehe es vor, das hier für mich selbst zu handhaben.~
+@268 = ~(Vorsichtig legt Ihr Euren Arm um seine Hüfte und hofft auf das Beste.)~
+@269 = ~(Solaufein bemerkt, dass Ihr Euch behaglich fühlt in seiner Umarmung und zieht Euch dichter heran. Seine Hand streicht bedächtig über Euren Arm. Die Wärme, welche diese Geste in Euch rührt, vertreibt augenblicklich die durchdringende Kälte. Solaufein blickt in Eure Augen.)~
+@270 = ~Ich danke Euch für dieses Vertrauen, das Ihr in mich legt, <CHARNAME>. ~
+@271 = ~(Keine weiteren Worte werden gesprochen und die eisige Kälte der Nacht schwindet dahin, als ihr die Nähe des jeweils anderen in vertraulicher Stille genießt.)~
+@272 = ~(Solaufein nickt einmal und überlässt Euch Eurer selbst.~
+@273 = ~(Erfüllt von Behagen und Zufriedenheit legt Ihr Euren Arm um Solaufeins Hüfte und lehnt Euch gegen ihn. Als er Euch den Kopf zuwendet, bemerkt Ihr ein Empfinden in seinen Augen glimmen, das Ihr nicht recht zu bestimmen vermögt.)~
+@274 = ~(Sein Lächeln ist sanft, als er leise zu Euch spricht.) Dieses Vertrauen, welches Ihr mir schenkt, ist noch immer etwas höchst Sonderbares für jemanden wie mich, <CHARNAME>. Ihr ahnt nicht, wie viel es mir bedeutet.~
+@275 = ~(Er hält Euch in seiner kräftigen Umarmung dicht an sich gedrückt und scheint jene Gefühle zu kosten, die Euer Vertrauen ihm gewährt hat.)~
+
+//PC INITIATED – MEDIUM 
+
+@276 = ~(Während Ihr durch die Straßen der Stadt schreitet, erblickt Ihr nicht weit entfernt von euch eine Frau, die Solaufein mit Furcht und unverhohlenem Abscheu mustert. Sie ergreift das kleine Kind, das sie an ihrer Seite führt und trägt es in ein nahes Gebäude. Im Vorüberschreiten bemerkt Ihr, dass Vorhänge zugezogen werden und Ihr vernehmt das schwache Klopfen eines Balkens, der vor eine Tür geschoben wird, um sie gegen mögliches Eindringen zu sichern.)~
+@277 = ~(Aufmerksam mustert Ihr die Umgebung und entdeckt weitere Leute, die von Eurem Weg abkehren. Die meisten überqueren die Straße um euch auszuweichen und werfen dabei besorgte Blicke auf den Drow. Obgleich das Verhalten der Bürger Solaufeins Aufmerksamkeit nicht entgeht, schweigt er und hält den Blick geradeaus gerichtet, während ihr euren Weg durch die Stadt fortsetzt.)~
+@278 = ~(Ihr schiebt Euch dichter an ihn heran. Beschwichtigend legt Ihr Euren Arm um ihn und werft dem Mann, der Euch von der gegenüberliegenden Straßenseite her anstarrt, einen trotzigen Blick zu. Solaufein erwidert Eure Geste, er legt seinen Arm um Eure Hüfte. Schicksalsergeben Blickes sieht er Euch an.)~
+@279 = ~Ich fürchte, von nun an wird dies ein alltägliches Bild darstellen. Vielleicht sollte ich mir eine neue Tunika beschaffen. Um mich besser einzufügen. Die Mode des Unterreichs ist doch recht verschieden von der Art der Oberflächenbewohner, sich zu kleiden.~
+@280 = ~(Ihr grinst und zieht Solaufein dichter heran. Sein Vermögen, die Situation so gelassen zu nehmen, beeindruckt Euch.)~
+@281 = ~(Solaufein scheint noch hingebungsvoller zu grübeln als sonst, sofern dies überhaupt möglich ist. Ihr beschließt, ihn seine Sorgen mit einem aufmunternden Lächeln und einer behutsamen Umarmung vergessen zu lassen.)~
+@282 = ~(Er scheint verdutzt. Seine Haltung versteift sich zunächst, als Eure Arme sich um ihn legen. Doch schließlich entspannt er sich und erwidert zögernd Euer breites Lächeln.)~
+@283 = ~(Als Ihr später einen Blick zurückwerft, stellt Ihr fest, dass Eure Handlung die ersehnte Wirkung zeigte: Obwohl das Lächeln von seinen Lippen gewichen ist, leuchtet es noch immer in seinen Augen, und Euch scheint, er fühlt sich nun behaglicher.)~
+@284 = ~(Überkommen von dem plötzlichen Verlangen, den grüblerischen Drow zu umarmen, gebt Ihr unverzüglich Eurem Trachten nach.)~
+@285 = ~(Ihr springt vor ihn. Festen Griffes umschließen Eure Arme seine Hüfte und während Ihr ihn an Euch gedrückt haltet, saugt Ihr den eigentümlichen exotischen Duft ein, der ihn umgibt.)~
+@286 = ~<CHARNAME>? (Überraschung schwingt in seiner Stimme und noch hat er Eure Geste zu erwidern.)~
+@287 = ~Oh, nun kommt schon, Solaufein! Jeder braucht hin und wieder eine Umarmung. Es erinnert Euch daran, noch immer unter den Lebenden zu weilen!~
+@288 = ~(Ihr sprecht nicht. Stattdessen blickt Ihr in seine Augen, während ein Lächeln sich auf Euren Lippen entfaltet.)~
+@289 = ~(Solaufeins Augen blitzen vergnügt.) Ist dem so? Dann werde ich es mir merken. Um künftig darauf zurückzukommen.~
+@290 = ~(Mit diesen Worten legt er seine kräftigen Arme behutsam um Euch. Als er seine Wange gegen Euer Haupt lehnt, spürt Ihr seinen Atem über Euer Haar streichen. Euch scheint, es erfüllt ihn mit Zufriedenheit, einfach dort zustehen und Euch so nahe bei sich zu halten. Schließlich ist auch dieser Moment verstrichen und ihr löst eure Umarmung.)~
+@291 = ~(Fragenden Blickes neigt er den Kopf zur Seite. Nach einer Weile scheint er zu verstehen, dass Ihr beabsichtigt, genau so dort stehen zu bleiben. Vorsichtig erwidert er Eure Umarmung. Solaufein entspannt sich in Eurem Griff und lässt seine Finger durch Euer Haar gleiten, während er Euch an sich gedrückt hält.)~
+@292 = ~(Als Ihr Euch voneinander löst, bemerkt Ihr ein ungewöhnliches Lächeln sich auf den ebenholzfarbenen Zügen ausbreiten.)~
+@293 = ~(Ihr tretet vor Solaufein und schlingt ungezwungen Euren Arm um seine Hüfte. Als Ihr ihn dichter heranzieht, versteift er sich für die Spanne eines Augenblicks. Der unverhohlene Ausdruck Eurer Zuneigung scheint ihn noch immer zu befremden. Alsbald jedoch weicht seine Anspannung und er zerrinnt regelrecht in Eurer Umarmung: Seine Hände legen sich um Euch, sein Kinn ruht auf Eurer Schulter, und Ihr hört ihn ein Seufzen tief empfundener Zufriedenheit ausstoßen.)~
+@294 = ~(So verharrt ihr für eine Weile und kostet jenes Gefühl der Nähe, bis Euch scheint, eure Körper wären zu einem verschmolzen.)~
+@295 = ~(Ihr bemerkt ein dünnes Blutrinnsal über Solaufeins Unterarm kriechen und ergreift seine Hand, um es genauer zu untersuchen. Rasch entreißt er seinen Arm Eurem Griff und zerstreut Eure Bedenken mit einem gelassenen Achselzucken.)~
+@296 = ~Es ist nichts, um das Ihr Euch sorgen müsstet, <CHARNAME>. Ich habe weitaus Schlimmeres überstanden als diesen unbedeutenden Kratzer.~
+@297 = ~(Als er sich der Bedeutung seiner Worte gewahr wird, schließt Solaufein den Mund und wendet sich voller Unbehagen von Euch ab.)~
+@298 = ~Verzeiht mir, <CHARNAME>, doch sollte ich meine Hände verfügbar haben, sollte die Notwendigkeit bestehen, einen Zauber zu wirken.~
+@299 = ~(Ihr lasst Eure Hand in Solaufeins gleiten. Noch immer seid Ihr unsicher, wie er reagieren würde. Er jedoch scheint vertrauter geworden mit dem Verhalten der Oberweltler, denn der Griff, mit dem er Eure Geste beantwortet, ist gleichermaßen fest wie zuversichtlich. Er bedenkt Euch mit einem Lächeln, seine Augen funkelnd, und schreitet behaglich an Eurer Seite.)~
+@300 = ~(Ihr bemerkt, dass Solaufein seine Hände mehrmals zur Faust ballt und wieder öffnet. Das Kämpfen und Zauberwirken scheinen sie versehrt zu haben. Ihr nehmt seine Hand in Eure und versucht, die Schmerzen nach bestem Vermögen zu lindern.)~
+@301 = ~(Er entzieht seine Hand nicht Eurem Griff, doch seht Ihr das Befremden in seinen Zügen, als Ihr zu ihm aufblickt. Er scheint es nicht gewöhnt zu sein, dass jemand sich um sein Wohlergehen sorgt.)~
+@302 = ~(Ihr ignoriert seinen Ausdruck und setzt Eure Pflege lang fort. Schließlich entspannt er sich. Der anerkennende Blick in seinen Augen erfüllt Euch mit Genugtuung und Zufriedenheit.)~
+@303 = ~Ich danke Euch, <CHARNAME>. Meine Hand fühlt sich nun besser an.~
+@304 = ~(Anstatt seine Hand loszulassen haltet Ihr sie fest umschlossen und setzt Euren Marsch an Solaufeins Seite fort.)~
+@305 = ~(Einmal mehr fühlt Ihr Euren Blick angezogen von dem dunklen Elfen, den Ihr als Euren Freund gewonnen habt. Eure Finger kribbeln bei der Vorstellung, sie durch die Mähne weißblonden Haars gleiten zu lassen und nur zu gerne würdet ihr die Stunden damit verbringen, in dem Blick seiner ungewöhnlichen Augen zu versinken. Ihr reißt Euch jedoch zusammen, als Ihr bedenkt, dass diese Zeit Euch nicht gegeben ist.)~
+@306 = ~(Ein Seufzen der Niedergeschlagenheit ausstoßend, wendet Ihr Euch erneut den vor Euch liegenden Aufgaben zu.)~
+@307 = ~(Ihr blickt just in dem Moment zu Solaufein hinüber, als er seinen Wasserschlauch hebt, um den Schweiß und den Schmutz der Straße von seinem Gesicht zu schwemmen.)~
+@308 = ~(In zauberhaften Mustern glitzert das Licht auf dem Wasser, welches die ebenholzfarbene Haut benetzt und die fein geschnittenen Züge des Elfen deutlicher denn je hervorzuheben scheint. In verlockenden Rinnsälen tanzt es über die hohen Wangen, gleitet den Rücken der zarten Nase hinab und verebbt in einer Liebkosung der vollen Lippen.)~
+@309 = ~(Völlig hingerissen beobachtet Ihr einen einzigen Tropfen den Lippen entrinnen und seinen Weg entlang Solaufeins muskulösen Halses bahnen, eine verheißungsvoll schimmernde Spur hinter sich zeichnend, ehe er unter dem Kragen der Tunika verschwindet.)~
+@310 = ~(... Ihr stellt Euch vor, dieselbe Spur mit der Spitze Eurer Zunge nachzufahren, dem eigensinnigen Tropfen hinab in die Tiefen der Kleidung des Elfen zu folgen, dorthin, wohin auch immer er es wagen würde, Euch zu führen ...)~
+@311 = ~(Endlich richtet Ihr Euren Blick wieder auf das Gesicht des Elfen. Der blickt Euch geradewegs entgegen - mit einem Ausdruck heiterer Belustigung.)~
+@312 = ~(Ihr wisst, dass Drow nicht in Gedanken lesen können. Trotzdem müsst Ihr Euch der Erkenntnis stellen, dass Eure lüsternen Vorstellungen wohl ziemlich unverhohlen auf Eurem Antlitz prangen. Und nach Solaufeins amüsierter Miene zu urteilen, hat er eine ziemlich genaue Vorstellung von dem, was Ihr dachtet.)~
+@313 = ~(Ihr verlangsamt Euren Schritt und lasst Euch zurückfallen, bis Ihr wenige Schritt hinter dem dunklen Elfen wandert. Während er voranmarschiert, genehmigt Ihr Euch einen ausgiebigen prüfenden Blick. Ein anerkennendes Grinsen glänzt auf Euren Zügen, als Euer Blick über seinen Körper schweift; die Wohlgestalt seiner Muskeln aufnimmt, die Anmut seiner Bewegungen und, nicht zu vergessen, die Festigkeit seiner Kehrseite ...)~
+@314 = ~(Euch beschleicht das vage Empfinden beobachtet zu werden. Ihr seht auf und begegnet dem Blick des Objekts Eurer eingehenden Betrachtungen.)~
+@315 = ~(Schlagartig wird Euch bewusst, dass noch immer das dümmliche Grinsen breit auf Euren Zügen klebt. Und Ihr ahnt, dass Solaufein daraus bloß einen einzigen Schluss ziehen kann.)~
+@316 = ~(Die Wangen feurig glühend senkt Ihr den Kopf und schreitet voran, entschlossen darum bemüht, seinem Blick nicht zu begegnen.)~
+@317 = ~(Solaufein mustert Euch, während Ihr an ihm vorüberschreitet. Seine Mundwinkel zucken unter dem Bemühen, über Eure missliche Lage nicht in schallendes Gelächter auszubrechen.)~
+@318 = ~Es ist nicht die Zeit, uns solchen Handlungen hinzugeben, <CHARNAME>. Es zu tun, würde bedeuten, dass wir im Augenblick eines Überfalls wehrlos und verwundbar wären.~
+@319 = ~(Als Ihr einen Schmutzfleck auf Solaufeins Gesicht bemerkt, hebt Ihr die Hand, um diesen impertinenten Anblick fortzuwischen, der die delikaten Züge besudelt. Reglos verharrt der Elf; wagt es nicht einmal, seinen Atem zu ziehen.)~
+@320 = ~(Schließlich senkt Ihr die Hand und Solaufein schenkt Euch ein vorsichtiges Lächeln.) Ich danke Euch, <CHARNAME>. Eure Sorge um meine Erscheinung schätze ich sehr.~
+@321 = ~(Selbst nach dem kritischsten aller Ermessen muss Solaufein als schöne Erscheinung gelten. Ihr spürt eine seltsame Empfindung in Euch schwelen, und ohne dessen wirklich gewahr zu sein, hebt Ihr Eure Hand und führt sie sanft an die makellose ebenholzfarbene Haut.)~
+@322 = ~(Er hält inne und lächelt. Seine Hand bedeckt Eure, während er die andere an Euer Gesicht legt. Sachte liebkost er die Wölbung Eurer Wange, und ein liebevolles Lächeln entfaltet sich langsam auf seinen Lippen.)~
+@323 = ~(Sanft ergreift Ihr Solaufein am Ellenbogen und wendet ihn zu Euch um. Er wölbt fragenden Blickes die Brauen und wartet geduldig darauf, dass Ihr Euer Begehr äußern würdet.)~
+@324 = ~(Wortlos schiebt Ihr Euch näher heran und seht forschend in seine Augen. Er begegnet dem Euren mit seinem eigenen durchdringenden Blick. Im Licht der Oberfläche scheinen seine sonderbar gefärbten Augen zu glühen.)~
+@325 = ~(Ihr reicht hinauf und lasst Eure Fingerspitzen behutsam über die kurzen Härchen einer der perfekt geschwungenen Brauen gleiten; dann hinab entlang der Seite seines Gesichts. Dort lasst Ihr sie ruhen. Euer Daumen streicht bedächtig über die Wölbung seiner Wange.)~
+@326 = ~(Solaufeins Blick weicht nicht dem Euren, als er sich zu entspannen beginnt und tiefer in Eure Liebkosung lehnt. Ihr lächelt ob seiner Reaktion. In diesem Moment inniger Verbundenheit fühlt Ihr eine Woge wohliger Wärme durch Euren Körper strömen.)~
+@327 = ~(Solaufein setzt seinen Marsch fort, seine Augen auf der unermüdlichen Suche nach Gefahr. Des Blicks Eurer Augen, der auf ihm ruht, scheint er sich allerdings nicht gewahr zu sein. Alle Vorsicht in den Wind schlagend, stehlt Ihr Euch hinter ihn und spannt die Muskeln für einen Sprungangriff.)~
+@328 = ~(Zu schnell bewegt er sich, als dass Euer Verstand begreifen könnte, was sich soeben ereignet hat. Solaufein hält Euch gegen seine Brust gedrückt und scheint Euch im Griff seiner kräftigen Arme zerdrücken zu wollen. Ihr könnt Euch nicht entsinnen, dass er Euch jemals derart unsanft behandelt hat. Ehe Ihr jedoch Gelegenheit erhalten zu reagieren, liegt bereits ein gefährlich scharfer Dolch an Eurer Kehle.)~
+@329 = ~(Solaufein erbleicht, als er erkennt, wen er gefangennahm. Unversehens lässt er den Dolch fallen und gibt Euch frei.)~
+@330 = ~<CHARNAME>! (Gefühle lassen seine Stimme beben) Was, um alles in den finsteren Abgründen des Abyss habt Ihr Euch dabei gedacht? Ich hätte … ich hätte Euch umbringen können! (Entsetzen und Angst ringen in seinen Augen).~
+@331 = ~Solaufein! Es … tut mir Leid. Ich habe bloß … es war bloß Tollheit … Ich fürchte, ich habe schlichtweg nicht darüber nachgedacht …~
+@332 = ~(Ohne ein Wort zieht Solaufein Euch in seine Umarmung. Er hält Euch dicht an sich gedrückt und Ihr hört ein Seufzen tiefster Erleichterung von seinen Lippen weichen.)~
+@333 = ~<CHARNAME>, ich kam dem soeben gefährlich nahe, Euch für Eure 'Tollheit' zu töten. Diese Reaktion wurde in mir nahezu bis zur Instinktgebundenheit herausgebildet. Ihr solltet Euch davor hüten, Euch an einen Drow heranzupirschen. Gebt zumindest eine Warnung beim nächsten Mal, auf dass ich Euren Kopf nicht versehre.~
+@334 = ~(Der Griff seiner Arme um Euch festigt sich. Und obwohl der Kuss, mit dem er Eure Lippen bedenkt, zärtlich ist vor Liebe, sengt er gleichermaßen vor leidenschaftlicher Erleichterung.)~
+@335 = ~(Dieses Mal entscheidet Ihr Euch für einen anderen Angriffsplan und stürmt unerwartet auf Solaufein zu. Ihr peilt Euer Ziel an und stoßt den überraschten Drow zu Boden, landet mit einem dumpfen Pochen über ihm.)~
+@336 = ~Uff!  <CHARNAME>!? Was …~
+@337 = ~(Er windet sich und schließlich gelingt es ihm, Euch abzuwerfen. Er versucht, einen Gegenangriff durchzuführen, doch seid Ihr es, der dieses Mal als Sieger hervorgeht. Ihr lasst ab von ihm. Während er sich den Staub von der Kleidung klopft, lehnt Ihr Euch näher und raunt in sein Ohr...)~
+@338 = ~Der Sieg ist mein, Drow!~
+@339 = ~(Wider besseren Wissens schleicht Ihr hinter Solaufein, einmal mehr in dem Versuch begriffen ihn zu übermannen. Rasch werft Ihr Euch auf den Drow und in Euch schwelt die Gewissheit, ihn dieses Mal unvorbereitet erwischt zu haben.)~
+@340 = ~(Ihr habt kein Glück. Er hält Euch im Griff seiner Arme umschlossen, ehe Euch überhaupt bewusst wird, dass Ihr gefangen wurdet. Er wirbelt Euch einige Male herum, setzt Euch dann auf den Füßen ab. Liebevoll zerzaust er Euer Haar.) <CHARNAME>, hättet Ihr es nicht besser wissen sollen? Womöglich werfe ich Euch nächstes Mal einfach in einen Fluss.~
+@341 = ~(Angestrengt bemüht Ihr Euch darum, hinter Solaufein zu pirschen. Ihr pustet auf seinen Nacken. Ein Grinsen entfaltet sich auf Euren Lippen, als Ihr seht, wie er schaudert.)~
+@342 = ~(Er wendet sich um. Als sein Blick Eurem begegnet, seht Ihr einen eindringlichen Ausdruck in seinen Augen blitzen, den Ihr nicht zu deuten vermögt. Er schließt eine Hand um Eure Schulter und beugt sich vor zu Eurem Ohr, und der Klang seiner tiefen, sinnlichen Stimme umschmiegt Euch, als er sanft sein Versprechen der Vergeltung flüstert. Langsam weicht er zurück, ein rätselhaftes Lächeln auf den Zügen. Ihr bleibt zurück, benommen ob dieser erstaunlich anrüchigen Reaktion auf Euer Bändeln.)~
+@343 = ~(Solaufein rekelt sich, demonstriert Euch das beeindruckende Ausmaß seiner Agilität und die Geschmeidigkeit seiner Bewegungen. Dann wirft er Euch ein kurzes Lächeln zu.)~
+@344 = ~Ich schätze, Ihr *könntet* dies so sagen, <CHARNAME>. (Sein Gebaren wirkt gelassen und gleichmütig, doch Euch beschleicht das Gefühl, dass Eure Frage ihn ziemlich belustigt.)~
+@345 = ~Fragt Ihr aus Neugierde, <CHARNAME>? Oder wünscht Ihr eine Unterweisung?~
+@346 = ~Welch eigentümliche Frage, die Ihr dort stellt, <CHARNAME>, doch ja, alle Drow, insbesondere die Männchen, sind in *allen* Formen sexueller Handlungen bewandert. Beginnend im Jünglingsalter werden wir unterwiesen und unsere Ausbildung endet niemals. Es ist von höchster Bedeutung, dass wir imstande sind, unsere Herrinnen - oder irgendein Weibchen - zufrieden zu stellen, sollten wir dazu aufgefordert sein. Ein Männchen, das dabei versagt, die Lust eines Weibchens mindestens drei Mal …~
+@347 = ~(Solaufeins Stimme verebbt, als er Euren Ausdruck bemerkt, eine Mischung aus Verwunderung und Unglauben.) Ah, nun … Womöglich habe ich zu viel gesagt, <CHARNAME>. Es genügt wohl, Euch wissen zu lassen, dass die Antwort auf Eure Frage 'ja' lautet.~
+@348 = ~(Solaufein mustert Euch interessiert, ehe er antwortet) In der Tat sind wir das, <CHARNAME>. Insbesondere die Männchen. Ich muss jedoch gestehen, dass ich neugierig bin, weshalb dieser Umstand so bedeutsam sein sollte für einen Bewohner der Oberfläche. Werdet Ihr nicht unterwiesen?~
+@349 = ~Nun, ich schätze, auf manche trifft das zu, insbesondere in anderen Kulturen. Ich zähle jedoch nicht dazu. Alles, das mich solch etwas lehren konnte, waren Bücher.~
+@350 = ~(Ihr schnaubt höhnisch.) Ich wurde aufgezogen in einer Wacht voller alternder menschlicher Mönche, Solaufein. Was ich lernte, das erlangte ich durch eigene Erfahrungen während meiner Reisen außerhalb ihrer Wälle.~
+@351 = ~(Ihr errötet vor Verlegenheit.) Ah … nun. Das ist … Ich. Ahem. Ich weiß darüber wenig … ah … Ich schätze, anderen mag derartiges gelehrt worden sein, aber ich … Zu denen gehöre ich nicht.~
+@352 = ~So einer keinen Lehrmeister findet, muss er sich selbst lehren. Lesen ist stets ein guter Anfang.~
+@353 = ~Das ist mir unbekannt. Die Männchen der Drow bleiben viril bis ins hohe Alter. Sofern sie das Glück haben, so lange zu überleben. Wie dem auch sei, sollte dies auf Menschen nicht zutreffen, so erscheint es logisch, dass Ihr reisen musstet, um zu lernen.~
+@354 = ~(Solaufein scheint etwas überrascht zu sein.) Niemals? Jemand, der so wundervoll ist, wie Ihr es seid? Ich sehe nicht, dass Ihr einen Lehrer missen solltet, wann immer Ihr auch eines bedürftet. So muss es Eurem Willen entsprechend geschehen sein. Womöglich habt ihr bislang keinen gefunden, der Eurer würdig gewesen wäre. Wie dem auch sei, ich danke Euch dafür, dass Ihr meine Frage beantwortet habt.~
+@355 = ~(Solaufein hält inne und blickt zu Euch herüber. Sollte Eure Bemerkung ihn verletzt haben, so offenbart er keine Anzeichen dessen in seinen Zügen.)~
+@356 = ~Nun gut, <CHARNAME>. Wenn es das ist, was Ihr wirklich wünscht.~
+@357 = ~Ja. Ich denke, es wäre das Beste, wenn wir bloß Freunde und Reisegefährten blieben.~
+@358 = ~Nein! Nein, verzeiht mir! Ich weiß wirklich nicht, was über mich kam!~
+@359 = ~So wie Ihr sagt, soll es sein.~
+@360 = ~(Solaufein schließt seine Augen, womöglich erleichtert darüber, dass Ihr Euch anders besonnen habt.) Ich bin froh, das zu hören, <CHARNAME>. Sollen wir weitermachen?~
+@361 = ~(Ihr schleicht hinter Solaufein ... und klopft auf seine Schulter. Als er sich umwendet, schließen Eure Arme sich um seinen Hals. Ihr zieht ihn dicht gegen Euch und küsst seine Lippen.) ~
+@362 = ~(Solaufeins Überraschung wandelt sich rasch zu Genuss.) Dieses ist der bei Weitem ergötzlichste Überfall.~
+@363 = ~(Ihr beugt Euch vor, um Euren staubbedeckten Begleiter zu küssen, verfehlt jedoch, und küsst stattdessen die Spitze seiner Nase.)~
+@364 = ~(Solaufein blinzelt überrascht, er lächelt sanft und rauft Euer Haar.)~
+@365 = ~(Solaufein legt seine Arme um Euch und zieht Euch dicht an sich. Er schließt die Augen und kostet das Gefühl Eurer Lippen gegen seinen. Sehr viel später erst löst Ihr euch aus eurer Umarmung.)~
+@366 = ~(In einem seltenen Augenblick der Eigeninitiative küsst Solaufein Eure Wange ehe Ihr die seine berühren könnt. Seine Lippen fühlen sich warm und weich an auf Eurer Haut und Ihr kommt nicht umhin Euch zu fragen, wie sie sich auf den Euren anfühlen mögen.)~
+@367 = ~(Ihr blickt zu Solaufein hinüber und offenbart ihm ein ehrliches Lächeln der Zuneigung und tief empfundener Warmherzigkeit.)~
+@368 = ~(Da Ihr Euch besonders ausgelassen und unbeschwert fühlt, wendet Ihr Euch zu Solaufein um und grinst - Hell blitzen Eure Zähne, als Eure Lippen sich zu einem breiten Lächeln teilen.)~
+@369 = ~(Zu Eurer Überraschung erscheint ein Ausdruck unterwürfigen Entsetzens auf seinem Gesicht. Er verharrt augenblicklich inmitten seiner Bewegung, scheut sich, einen weiteren Schritt zu setzen.)~
+@370 = ~(Einen Augenblick später scheint er zu verstehen, dass Ihr nichts tun würdet, außer zu lächeln. Er kommt wieder zu Sinnen.)~
+@371 = ~Vergebt mir, <CHARNAME>. Ich vergaß: das Lächeln eines Oberflächenbewohners bedeutet nicht dasselbe wie das Lächeln eines Drow. Wenn eine der Zofen im Unterreich lächelte, bedeutete dies den Männchen für gewöhnlich, wachsam zu sein und sich gut vorzusehen.~
+@372 = ~(Ihr kraust Eure Nase und schielt, als Solaufein sich zu Euch umwendet.)~
+@373 = ~(Der völlig entgeisterte Ausdruck auf seinem Gesicht ist unbezahlbar.) <CHARNAME>? (Er wölbt eine schneeweiße Braue und neigt Euch seinen Kopf fragend entgegen.)~
+@374 = ~(Ihr wackelt mit den Ohren, um das Bild zu vollenden.)~
+@375 = ~Geht es Euch wirklich gut? Was bedeutet diese Grimasse? Handelt es sich dabei um einen besonders eigentümlichen Brauch der Oberflächenbewohner, dessen ich mir nicht gewahr bin?~
+@376 = ~(Als Ihr nicht antwortet, sondern ihn weiterhin mit dieser lächerlichen Fratze anstarrt, seht Ihr seine Mundwinkel sich zu einem Lächeln verziehen. Bald darauf lacht er über Eure Possen.)~
+@377 = ~Ihr habt in der Tat Humor, <CHARNAME>. Zugegeben, es handelt sich um einen sonderbaren, mienenentstellenden Humor; nichtsdestotrotz unterhaltsam. (Er schüttelt den Kopf und grinst, als er Euch ansieht.)~
+@378 = ~(Ihr kraust Eure Nase und schielt, als Solaufein sich zu Euch umwendet.)~
+@379 = ~(Der völlig entgeisterte Ausdruck auf seinem Gesicht ist unbezahlbar.) <CHARNAME>? (Er wölbt eine schneeweiße Braue und neigt Euch seinen Kopf fragend entgegen.)~
+@380 = ~(Beschämt wendet Ihr rasch den Kopf ab, als Ihr feststellen müsst, dass er Eure spielerische Absicht nicht erkennt.)~
+
+//TOB This has not yet been coded in the .tra file//
+
+@400   = ~(Eure Beziehung zu Solaufein ist nunmehr getragen von einer Innigkeit, die Ihr zuvor nicht für möglich befunden hattet. Während der Zeit, die ihr gemeinsam verbracht habt, standet ihr vielen Gefahren gegenüber und stets war Solaufein Euch ein unerschütterlicher Pfeiler der Stärke und Unterstützung. Ihr vermögt Euch Euer Leben nicht länger ohne ihn vorzustellen und scheut jeden Gedanken daran, dass er einstmals nicht mehr an Eurer Seite weilen könnte.)~
+@401   = ~(Sola stretches as he walks, rolling his neck and shoulders in an attempt to relieve the tension built there. While he moves, the light shines off his muscles as they flex, outlining each one in tantalizing detail.)~
+@402   = ~(Ihr kommt nicht umhin, diesem Anblick wohlwollende Beachtung zu schenken. So starrt Ihr völlig ungeniert, ohne einen Gedanken daran zu vergeuden, was irgendjemand über Euch denken könnte.)~
+@403   = ~(Er bemerkt Euch verstohlene Blicke auf ihn werfen und zwinkert verschmitzt.) Nun, mein lieber <CHARNAME>, ich frage mich, was Ihr nun wohl denken mögt …~
+@404   = ~(Solaufein ist sicherlich wagemutiger geworden, denn einmal mehr ertappt Ihr ihn dabei Euch unverhohlen zu beäugen, während ein halbseitiges teuflisches Grinsen seine Lippen ziert. Gemächlich rekelt er sich - die Aufmerksamkeit gänzlich ausnutzend, welche Ihr ihm nun schenkt - und prahlt mit einem jeden der sich abzeichnenden Muskeln seiner Gestalt, ehe er seinen Marsch wieder aufnimmt.)~
+@405   = ~(Als er an Euch vorüberschreitet, "streift" er Euch mit so viel Nähe, wie zwischen euren Körpen möglich scheint, ehe er sich von Euch entfernt. Etwas sagt Euch, dass die nächste Unterbrechung Eurer Reise keine ereignislose Begebenheit sein wird.)~
+@406   = ~(Sola quietly breaks formation and moves up to walk by your side. His hand rests casually upon his weapon and his gaze constantly sweeps the horizon for signs of an enemy. He says nothing to you, but after a few moments, he falls back into line once more.)~
+@407   = ~(Sola opens his book of poetry and slowly thumbs through the pages, his lips moving silently as he reads over the words)~
+@408   = ~(You have seen him do this several times before and are certain that he must know every line by heart, but this time he seems to be looking for something in particular)~
+@409   = ~No, no, that one is not right either~
+@410   = ~(After several more moments of searching, he seems to give up and, closing the book with a deep sigh)~
+@411   = ~(Sola opens his book of poetry and slowly thumbs through the pages, his lips moving silently as he reads over the words)~
+@412   = ~(You have seen him do this several times before and are certain that he must know every line by heart, but this time he seems to be looking for something in particular)~
+@413   = ~(He finally seems to hit on the right set of words and begins to recite. He speaks softly, as if the words are meant for him alone, but the wind carries the soothing sound of his voice your way and you cannot help but listen…)~
+@414   =	~I can see now, ‘neath moon and star
+			she who walks with passion's grace
+			Her feet touch not a thing, nor mar
+			She consumes all with her embrace
+
+			She drifts away, she drifts away,
+			oh how umbrous her dancing stride!
+			Her body so elegant, her features so fey
+			Her beautiful form she carries with pride!~
+
+@415   =	~Her eyes do seem to dance upon me
+			a gentle smile 'pon her face
+			What can her gaze within me see?
+			Will she see my heart in its hidden place?
+
+			She embraces me - All of me
+			Embraces innocence within
+			This life-torn soul that cannot see
+			The wounded heart is Forgiven~
+@416   = ~(Sola opens his book of poetry and slowly thumbs through the pages, his lips moving silently as he reads over the words)~
+@417   = ~(You have seen him do this several times before and are certain that he must know every line by heart, but this time he seems to be looking for something in particular)~
+@418   = ~(He finally seems to hit on the right set of words and begins to recite. He speaks softly, as if the words are meant for him alone, but the wind carries the soothing sound of his voice your way and you cannot help but listen…)~
+@419   = 	~From childhood's hour I have not been 
+			As others were; I have not seen 
+			As others saw; I could not bring 
+			My passions from a common spring.
+
+			From the same source I have not taken 
+			My sorrow; I could not awaken 
+			My heart to joy at the same tone; 
+			And all I loved, I loved alone.~
+
+@420   = 	~Then - in my childhood, in the dawn 
+			Of a most stormy life - was drawn 
+			From every depth of good and ill 
+			The mystery which binds me still:
+
+			From the torrent, or the fountain, 
+			From the red cliff of the mountain, 
+			From the sun that round me rolled 
+			In its autumn tint of gold, 
+			From the lightning in the sky 
+			As it passed me flying by,~
+
+@421   = 	~From the thunder and the storm, 
+			And the cloud that took the form 
+			When the rest of Heaven was blue 
+			Of a demon in my view.~
+@422   = ~(Nicht fähig, sein Begehren länger zu beherrschen, tritt Solaufein näher, vergräbt seine Hände in Euren dichten Locken und zieht Euch an sich, um Euch mit seinem innigen und begehrlichen Kuss zu bedenken. Euer Körper scheint in Flammen zu stehen, während Ihr seine inbrünstige Umarmung erwidert. Ungezügelt wandern Eure Hände über seinen Körper; einzig behindert durch den Umstand, dass er noch immer seine Kleidung trägt ...)~
+@423   = ~(Gerade, als Ihr den Entschluss gefasst habt, diese lästigen Stücke entbehrlichen Beiwerks von seinem Körper zu reißen, hört Ihr ein Mitglied Eurer Gruppe die abfällige Bemerkung äußern, Ihr solltet Euch ein Zimmer beschaffen.)~
+@424   = ~(Widerstrebend lasst Ihr voneinander ab. Doch Eure Augen versprechen einander, Eure Beschäftigungen fortzusetzen, sobald weniger neugierige Gesellen zugegen sind.)~
+@425   = ~(Solaufein begibt sich an Eure Seite und windet liebevoll seinen Arm um Eure Schultern. Er zieht Euch tiefer in seine Umarmung, hält Euch dicht an sich gedrückt, während er diese eine empfindsame Stelle am auf Eurem Nacken liebkost. Seine Hände wandern wie beiläufig Euren Rücken hinab, bis sie schließlich just über Eurem Gesäß innehalten und dort Euer Rückgrat in langsamen kreisenden Bewegungen massieren.)~
+@426   = ~(Ihr jedoch besinnt Euch auf die vielzähligen Unternehmungen, die heute noch auf Eurem Weg liegen und löst Euch von ihm mit einem tiefen Seufzen. Als Ihr Euch abwendet, versetzt Solaufein Eurer Kehrseite einen liebevollen Klaps. Er flüstert ein Versprechen ob jener Dinge, die Euch heute Abend noch erwarten würden.)~
+@427   = ~(Ein frostiger Wind weht in dieser Nacht. Bebend windet Ihr den Umhang fest um Euren Leib. Als materialisierte er aus dem Nichts, erscheint Solaufein mit nahezu unhörbaren Schritten neben Euch.)~
+@428   = ~(Mit einem zärtlichen Kuss auf Euren Nacken schließt Solaufein seine Arme um Eure Hüfte, zieht Euch gegen seine Brust und windet den Mantel um Euch. Die Wärme seines Körpers sickert in Euren, vertreibt die eisige Kälte.)~
+@429   = ~(Im Schutze seiner Umarmung, fernab neugierig lugender Augen, gestattet er seiner Hand, langsam über Euren Körper zu streichen. Auf verführerischen Pfaden wandert sie über Euren Arm, Eure Brust und Euren Bauch. Seine Finger ergreifen den Bund Eurer Hose. Sie schieben sich tiefer, als Eure Augen sich schließten und Ihr Euch mit einem Keuchen tiefer in seine Umarmung lehnt. Ihr spürt seine Lippen Euer Ohr berühren; die gesprochenen Worte kaum vernehmbar über dem heftigen Schlagen Eures Herzens.)~
+@430   = ~Ich will Euch, <CHARNAME>. Können wir uns nicht davonstehlen? Nur für einen Moment? (Seine Hand sinkt tiefer, und als er sein Begehren so bekräftigt, fahren Eure Fingernägel über seine Haut. Er seufzt leise.)~
+@431   = ~(Ihr veranlasst eine kurze Unterbrechung. Gemeinsam entschwindet ihr beide zwischen die Bäume, als niemand zu Euch herübersieht.)~
+@432   = ~(Ein sanftes Lächeln umspielt Solaufeins Lippen, als er sich Euch nähert und eine Locke aus Eurer Stirn streicht. Da Ihr keine Anstalten macht ihn zu tadeln, führt er seine Finger in zärtlicher Geste über Eure Wange.)~
+@433   = ~Ich danke Euch, <CHARNAME>. Ein weiteres Mal liebkosen seine Finger Euren Hals. Dann entfernt er sich und lässt Euch, über den Grund seiner Dankbarkeit grübelnd, zurück.)~
+@434   = ~Ich habe viele Dinge gesehen während dieser kurzen Zeit, die ich auf der Oberfläche verbracht habe, <CHARNAME>. (Seine Augen wandern anerkennend über Euren Körper.) Es ist zu schade, dass die Gesellschaft uns heißt, sie verborgen zu halten. Gewisse Dinge sind besser belassen in ihrem natürlichen Zustand.~
+@435   = ~(Ohne ein Geräusch zu verursachen, erscheint Solaufein an Eurer Seite, und ohne ein Wort zu sprechen, schließt er Euch in seine liebevolle Umarmung. Dann weicht er zurück, verschwindet so behände, wie er zuvor erschienen war. Nur das Schaudern, das Euer Rückgrat hinabrinnt, bleibt als einziges Zeugnis seiner kurzen Gegegenwart.)~
+@436   = ~(Ihr schreitet an Eurem Platz in der Gruppe, als Ihr plötzlich spürt, wie ein Finger sich in wohliger Bahn über Euer Rückgrat senkt. Ihr haltet inne. Solaufein schließt Euch in seine Arme. Während er zärtlich Euren Nacken küsst, zeichnen seine Hände gemächlich Muster auf Eurer Bauchdecke. Viel später erst löst ihr euch aus dieser liebevollen Umarmung.)~
+@437   = ~(Einmal mehr erschöpft von der Mühsal und Anstrengung der vergangenen Tage reibt Ihr müde Euer Gesicht.)~
+@438   = ~(Binnen eines Augenblicks ist Solaufein an Eurer Seite und zieht Euch wortlos in seine trostvolle Umarmung. Beschützend hält er Euch an sich gedrückt; als würde er verdammt sein, ließe er irgendetwas in der Welt Euch zu nahe kommen.)~
+@439   = ~Ussta Xukoth. (Dies ist alles, was er spricht. Der Kuss auf Euren Lippen und die zärtliche Geste sprechen jedoch Bände.)~
+@440   = ~(Ihr schreckt aus melancholischen Gedanken auf, als Ihr spürt, dass Hände sich auf Eure Schultern senken. Sanft beginnt Solaufein, Eure Sorgen hinwegzumassieren und wispert süße Worte in Euer Ohr, und alsbald entspannt Ihr unter seiner liebevollen Zuwendung.)~
+@441   = ~Die Welt ist ein grausamer Lehrmeister, <PRO_LADYLORD>, der Euch unentwegt zusetzt mit seinen Sporen und Peitschen. Auch, wenn es schmalen Trost bedeuten sollte, wisset, dass ich stets hier sein werde für Euch. Immer.~
+@442   = ~(Solaufeins Arm schiebt sich um Eure Hüfte, zieht Euch an sich. So schreitet ihr eine Weile nebeneinander her. Bis er Euch vollends überrascht und eine ordentliche Handvoll Eures Allerwertesten packt.)~
+@443   = ~(Er lacht, als Ihr zusammenfahrt.) Seid stets wachsam, <CHARNAME>, seid stets wachsam. Ihr wisst nie, ob Euch ein … Überfall … bevorsteht, wenn Ihr ihn am wenigsten erwartet.~
+@444   = ~(Gerade als Ihr ein weiteres Gähnen unterdrückt, sieht Solaufein besorgten Blickes zu Euch herüber.)~
+@445   = ~Mein Lieber, Ihr wirkt ein wenig müde heute.  Ich hoffe, dass unsere … Beschäftigungen der vergangenen Nacht Euch nicht haben ungewappnet sein lassen, den Herausforderungen dieses Tages gegenüberzutreten.~ ~Meine Liebe, Ihr wirkt ein wenig müde heute.  Ich hoffe, dass unsere … Beschäftigungen der vergangenen Nacht Euch nicht haben ungewappnet sein lassen, den Herausforderungen dieses Tages gegenüberzutreten.~
+@446   = ~(Gerne würdet Ihr Solaufein daran erinnern, dass der Hinweis, jemand sei *müde*, denkbar unhöflich sei. Die freimütige Erwähnung der vergangenen Nacht vor dem Rest Eurer Gruppe bringt Euch jedoch schlagartig zu voller Besinnung. Ihr ignoriert das leise Gelächter Eurer Gefährten, ergreift Solaufeins Arm und führt ihn an Eurer Seite; fest dazu entschlossen, die Gruppe in Bewegung zu halten, um das Treiben Eurer privaten Stunden nicht zum Tagesthema werden zu lassen.)~
+@447   = ~(You have stopped for a brief rest in your daily trek when you notice Sola walking over to you. You look at him, wondering what he is up to, when he reaches out and gently touches the side of your face.)~
+@448   = ~(You stand that way, the two of you starting lovingly at one another as the world around melts away for just a moment.)~
+@449   = ~(Your muscles are painfully stiff, and you shift your neck and shoulders in a vain attempt to alleviate the pain. Sola notices your discomfort, brings you to a halt, directing you to take a seat on the ground. He takes up a position behind you and begins working on the knots and kinks.)~
+@450   = ~(His touch is painful at first, but it soon melts into a rather soothing rhythm. As he finishes his impromptu massage, he drifts gentle kisses from your collarbone, up your neck, and finally, a tender kiss for your lips.)~
+@451   = ~I should continue this tonight <CHARNAME>. I am sure there are other…*tense areas* that require my attention.~
+@452   = ~<CHARNAME>?~
+@453   = ~(You turn at the sound of your name being called and Sola moves closer to you, placing his lips against your neck and using his teeth to send a series of little nips across your skin.)~
+@454   = ~I was desperate for a taste of you. I do hope that this will hold me over till we camp.~
+@455   = ~(You have called a quick break to your march, and are sitting on a fallen log, quite tired from the day’s exertions. The other members of your party are nowhere nearby, taking their leisure in other places. Sola takes a seat beside you, and cradles you into his lap.  He begins to massage your neck, working out the kinks with practiced ease.)~
+@456   = ~I realize you are tired now, my beloved <CHARNAME>, and that your muscles are sore. I have had considerable training in soothing such things, so perhaps tonight I may be able to… assuage your discomfort.~
+@457   = ~(An indolent, lascivious grin appears on his face even as one of his hands strays from your neck. His touch is soft as a gentle wind as he allows his fingers to dance first across your collarbone, then the sensitive area of your chest, causing you to shiver with delight. Slowly they waltz lower, ever lower, as he silences your protests by eclipsing your mouth with his own. Before you topple over the edge of your desire, he withdraws, smiling at your frustrated cry.)~
+@458   = ~Merely a taste of what is in store for you tonight, Ussta Xukoth.~
+@459   = ~(As you walk, you cannot shake the feeling that someone is watching you.  Unable to ignore it any longer, you whirl around quickly, ready to fight at the first sign of hostility.)~
+@460   = ~(You turn just swiftly enough to catch Sola staring at you quite openly. He makes no attempt to avert his gaze, instead, allowing his eyes to roam hungrily across your form, taking in every detail.)~
+@461   = ~(When his eyes move back up to your face once more, you can tell that he has more in mind than just looking.)~
+
+//PC FLIRTS
+
+@500   = ~(Ihr tretet vor Solaufein und schlingt ungezwungen Euren Arm um seine Hüfte. Als Ihr ihn dichter heranzieht, versteift er sich für die Spanne eines Augenblicks. Der unverhohlene Ausdruck Eurer Zuneigung scheint ihn noch immer zu befremden. Alsbald jedoch weicht seine Anspannung und er zerrinnt regelrecht in Eurer Umarmung: Seine Hände legen sich um Euch, sein Kinn ruht auf Eurer Schulter, und Ihr hört ihn ein Seufzen tief empfundener Zufriedenheit ausstoßen.)~ 
+@501   = ~(Für eine Weile verharrt Ihr in dieser Geste, genießt das Empfinden, einander so nahe zu sein.)~
+@502   = ~(Aufmerksamen Blickes sucht Solaufein die Umgebung ab und hört nicht Euer Nahen. Leise und behände schleicht Ihr hinter ihn. Eure Hände legen sich um seine Hüfte, Ihr stützt Euer Kinn auf seine Schulter und atmet seinen reinen, unvergleichbaren Duft.)~
+@503   = ~(Solaufein blickt Euch über seine Schulter hinweg an und lächelt herzlich.) Ah. Es ist mein Geliebter, der gekommen ist, um diesen Moment mit seiner Gegenwart zu erhellen.~ ~(Solaufein blickt Euch über seine Schulter hinweg an und lächelt herzlich.) Ah. Es ist meine Geliebte, die gekommen ist, um diesen Moment mit ihrer Gegenwart zu erhellen.~
+@504   = ~(Er wendet sich Euch zu, umfängt Euch in seiner Umarmung. Sachte streicht eine Hand über Euer Haar und seine Stirn ruht an Eurer.)~
+@505   = ~Ihr seid meine Welt, <CHARNAME>. Ein Licht, das ich verzweifelt suchte und von dem ich nun nicht genug bekommen kann. (Er küsst die Spitze Eurer Nase und hält Euch einen Moment lang dichter bei sich, ehe er den Griff widerstrebend löst.)~
+@506   = ~(Gerade möchtet Ihr Solaufein in Eure Arme schließen, da werdet unversehens Ihr in seine Arme gezogen. Ihm gänzlich ausgeliefert in seiner Umarmung, hält er Euch dicht an sich gedrückt; seine Lippen wandern über Eure Wangen ... Eure Lider ... Eure Lippen ... ein letzter leidenschaftlicher Kuss raubt Euch vollkommen den Atem ob dieses unerwarteten Überfalls.)~
+@507   = ~Nehmt Euch in Acht vor ... Überraschungen, mein geliebter <CHARNAME>. Seht Euch stets vor ...~ ~Nehmt Euch in Acht vor ... Überraschungen, meine geliebte <CHARNAME>. Seht Euch stets vor ...~
+@508   = ~(Ihr lasst Eure Hand in Solaufeins gleiten. Noch immer seid Ihr unsicher, wie er reagieren würde. Er jedoch scheint vertrauter geworden mit dem Verhalten der Oberweltler, denn der Griff, mit dem er Eure Geste beantwortet, ist gleichermaßen fest wie zuversichtlich. Er bedenkt Euch mit einem Lächeln, seine Augen funkelnd, und schreitet behaglich an Eurer Seite.)~
+@509   = ~(Ihr ergreift Solaufeins Hand und beginnt, die Handfläche sanft zu massieren. Es muss sich um einen empfindsamen Bereich handeln, bemerkt Ihr, denn Solaufein schaudert unter Eurer Liebkosung. Ihr küsst die Haut und übersät sie mit kleinen, liebevollen Bissen. Nach einer Weile gelingt es ihm, sich aus Eurem Griff zu befreien und kurzerhand findet Ihr Euch dicht an ihn gedrückt in seiner Umarmung. Ihr seid Euch ziemlich sicher, dass Solaufein Eure Zuwendung genossen hat.)~
+@510   = ~Verzeiht mir, <CHARNAME>, doch sollte ich meine Hände verfügbar haben, sollte die Notwendigkeit bestehen, einen Zauber zu sprechen.~
+@511   = ~(Ihr bemerkt, dass Solaufein seine Hände mehrmals zur Faust ballt und wieder öffnet. Das Kämpfen und Zauberwirken scheinen sie versehrt zu haben. Ihr nehmt seine Hand in Eure und versucht, die Schmerzen nach bestem Vermögen zu lindern.)~
+@512   = ~(Er entzieht seine Hand nicht Eurem Griff, doch seht Ihr das Befremden in seinen Zügen, als Ihr zu ihm aufblickt. Er scheint es nicht gewöhnt zu sein, dass jemand sich um sein Wohlergehen sorgt.)~
+@513   = ~(Ihr ignoriert seinen Ausdruck und setzt Eure Pflege eine Zeit lang fort. Schließlich entspannt er sich. Der anerkennende Blick in seinen Augen erfüllt Euch mit Genugtuung.)~
+@514   = ~Ich danke Euch, <CHARNAME>. Meine Hand fühlt sich nun besser an.~
+@515   = ~(Anstatt seine Hand loszulassen haltet Ihr sie fest umschlossen und setzt Euren Marsch an Solaufeins Seite fort.)~
+@516   = ~(Ihr blickt just in dem Moment zu Solaufein hinüber, als er seinen Wasserschlauch hebt, um den Schweiß und den Schmutz der Straße von seinem Gesicht zu schwemmen.)~
+@517   = ~(In zauberhaften Mustern glitzert das Licht auf dem Wasser, welches die ebenholzfarbene Haut benetzt und die fein geschnittenen Züge des Elfen deutlicher denn je hervorzuheben scheint. In verlockenden Rinnsälen tanzt es über die hohen Wangen, gleitet den Rücken der zarten Nase hinab und verebbt in einer Liebkosung der vollen Lippen.)~
+@518   = ~(Völlig hingerissen beobachtet Ihr einen einzigen Tropfen den Lippen entrinnen und sich seinen Weg entlang Solaufeins muskulösen Halses bahnen, eine verheißungsvoll schimmernde Spur hinter sich zeichnend, ehe er unter dem Kragen der Tunika verschwindet.)~
+@519   = ~(Ihr stellt Euch vor, dieselbe Spur mit der Spitze Eurer Zunge nachzufahren, dem eigensinnigen Tropfen hinab in die Tiefen der Kleidung des Elfen zu folgen, dorthin, wohin auch immer er es wagen würde, Euch zu führen ...)~
+@520   = ~(Umgehend lasst Ihr Gedanken Taten folgen und führt Eure Lippen und Zunge entlang Solaufeins benetzten Halses.)~
+@521   = ~(Er wendet Euch seinen Kopf zu. Eure Lippen begegnen seinen und Ihr teilt einen innigen Kuss. Obgleich der Trunk die Berührung seines Mundes kühl sein lässt, wärmt ihr ihn rasch wieder unter der Liebkosung Eurer Zunge.)~
+@522   = ~(Als Ihr Euren Blick endlich wieder auf Solaufeins Gesicht richtet, stellt Ihr fest, dass er Euch belustigt mustert.)~
+@523   = ~Ihr hättet bloß um einen Zug zu bitten brauchen, wenn Ihr so durstig wart, <CHARNAME>. Nur allzu gerne hätte ich mit Euch geteilt.~
+@524   = ~Natürlich war eure Weise bedeutend vergnüglicher.~
+@525   = ~(Euer Herz hüpft, als Ihr den Blick auf Euren geliebten Drow richtet. Ihr wisst, dass Solaufein sich sehr unterscheidet von den hass- und furchtgetränkten Bildern, die von seinesgleichen gezeichnet werden.)~
+@526   = ~(Durch sein mitfühlendes Wesen und poetisches Gemüt bereicherte er Euer Leben um etwas, das Ihr bis dahin vermisst hattet. Es gibt nichts, das Ihr nicht für ihn tun würdet. Und solange er an Euer Seite weilt, möchtet Ihr sicherstellen, dass er um seine Bedeutung für Euch weiß.)~
+@527   = ~(Ihr verlangsamt Euren Schritt und lasst Euch wenige Fuß hinter den dunklen Elfen fallen. Während er voranschreitet, gestattet Ihr Euch einen ausgiebigen prüfenden Blick. Ihr grinst anerkennend, als Euer Blick über seinen Körper schweift; die Wohlgestalt seiner Muskeln aufnimmt, die Anmut seiner Bewegungen und, nicht zu vergessen, die Festigkeit seiner Kehrseite ...)~
+@528   = ~(Euch beschleicht das vage Empfinden beobachtet zu werden. Ihr seht auf und begegnet dem Blick des Objekts Eurer eingehenden Betrachtungen.)~
+@529   = ~(Schlagartig werdet Ihr Euch dessen gewahr, dass noch immer das dümmliche Grinsen breit auf Euren Zügen klebt. Und Ihr ahnt, dass Solaufein daraus bloß einen einzigen Schluss ziehen kann.)~
+@530   = ~(Glücklicherweise spiegelt seine Miene Euren Ausdruck. Ihr tauscht hungrige Blicke; Versprechen über jene Dinge, die Ihr miteinander zu tun gedenkt, bringen die Luft zwischen Euch regelrecht zum Lodern.)~
+@531   = ~(Selbst nach dem kritischsten aller Ermessen muss Solaufein als schöne Erscheinung gelten. Ihr spürt eine seltsame Empfindung in Euch schwelen, und ohne dessen wirklich gewahr zu sein, hebt Ihr Eure Hand und führt sie sanft an die makellose ebenholzfarbene Haut.)~
+@532   = ~(Er hält inne und lächelt. Seine Hand bedeckt Eure, während er die andere an Euer Gesicht legt. Sachte liebkost er die Wölbung Eurer Wange, und ein liebevolles Lächeln entfaltet sich langsam auf seinen Lippen.)~
+@533   = ~(Sanft ergreift Ihr Solaufein am Ellenbogen und wendet ihn zu Euch um. Er wölbt fragenden Blickes die Brauen und wartet geduldig darauf, dass Ihr Euer Begehr äußern würdet.)~
+@534   = ~(Ihr schweigt, schiebt Euch stattdessen näher heran und seht forschend in seine Augen. Er begegnet dem Euren mit seinem eigenen durchdringenden Blick. Im Licht der Oberfläche scheinen seine sonderbar gefärbten Augen zu glühen.)~
+@535   = ~(Ihr reicht hinauf und lasst Eure Fingerspitzen behutsam über die kurzen Härchen einer der perfekt geschwungenen Brauen gleiten; dann hinab entlang der Seite seines Gesichts. Dort lasst Ihr sie ruhen. Euer Daumen streicht bedächtig über die Wölbung seiner Wange.)~
+@536   = ~(Der Blick seiner Augen weicht nicht dem Euren, als er sich entspannt und tiefer in Eure Liebkosung lehnt. Ihr lächelt ob dieser Reaktion und fühlt eine Woge angenehmer Wärme durch Euren Körper strömen, während ihr beide diesen Augenblick inniger Verbundenheit teilt.)~
+@537   = ~(Als Ihr einen Schmutzfleck auf Solaufeins Gesicht bemerkt, hebt Ihr die Hand, um diesen impertinenten Anblick fortzuwischen, der die delikaten Züge besudelt. Reglos verharrt der Elf; wagt es nicht einmal, seinen Atem zu ziehen.)~
+@538   = ~(Ihr senkt Eure Hand wieder und er schenkt Euch ein vages Lächeln.) Ich danke Euch, <CHARNAME>, doch sehe ich nicht, dass dies irgendeinen Unterschied bedeuten würde, wenn der Rest doch nach wie vor schmutzig ist.~
+@539   = ~(Forsch lehnt er sich dichter heran, blickt tief in Eure Augen. Als er spricht, tönt seine Stimme ebenmäßig und ernst.)~
+@540   = ~Vielleicht möchtet Ihr Euch heute Nacht gründlicher meiner Reine widmen?~
+@541   = ~(Ihr erkennt, wie mühelos Solaufein mittlerweile auf das Geplänkel der Oberweltler zu reagieren vermag und versichert ihm, ein verwegenes Grinsen auf Euren Zügen, dass Ihr mit Vegnügen dafür sorgen würdet, dass ein jeder Teil seines Körpers gänzlich von Unreinheit befreit ist, sowie Ihr Euer Lager für die Nacht aufgeschlagen habt.)~
+@542   = ~Ich als Drow hätte niemals zu hoffen gewagt, je solche Worte an mich gerichtet zu vernehmen. Wisset dies, geliebter <CHARNAME>: Ich bin überglücklich, dass Ihr es seid, der diese Worte zum ersten Male zu mir spricht. Und Ihr sollt wissen, dass auch ich Euch liebe, von ganzem Herz, mit ganzer Seele. ~
+@543   = ~<CHARNAME> (erwidert er liebevoll und zieht Euch in seine Umarmung.)~
+@544   = ~Niemals soll ich dessen müde werden, diese Worte von Euren Lippen zu vernehmen.~
+@545   = ~(Mit der Zeit, die Solaufein auf der Oberfläche verbracht hat, scheint sich etwas in ihm verändert zu haben. Denn als er sich umwendet und den Blick auf Euch richtet, seht Ihr einen seltsamen Ausdruck in seinen Augen glimmen.)~
+@546   = ~Wie wäre es, wenn Ihr mir zeigtet, wie sehr? Heute Nacht? Während die anderen schlafen?~
+@547   = ~(Er schenkt Euch ein besonderes Lächeln, Verheißung über das, was Euch erwarten würde. Dann begibt er sich gelassen auf seinen Platz in der Formation zurück.)~
+@548   = ~(Atemlos und bebend hofft Ihr, dass Euer Gesicht nicht allzu merklich erglüht, als Ihr wieder Euren Posten einnehmt; fest entschlossen nicht umgehend zu veranlassen, dass euer Lager aufgeschlagen würde.)~
+@549   = ~Ich vermag kaum auszudrücken, was es mir bedeutet, diese Worte zu hören, <CHARNAME>. Ich kann nur sagen, dass auch ich Euch liebe.~
+@550   = ~(Euch steht der Sinn nach etwas Unanständigkeit und so lehnt Ihr Euch zu Solaufein hinüber und berichtet ihm in pikanten Einzelheiten, was ihr mit ihm zu tun gedenkt, sowie ihr beide alleine sein würdet.)~
+@551   = ~(Seine Augen weiten sich, während er Euren Worten lauscht und sein Atem wird plötzlich flach und schwerfällig.)~
+@552   = ~(Als Ihr Euch zurücklehnt, bewegt er sich voller Unbehagen, darum bemüht, seine offensichtliche Erregung zu verbergen.)~
+@553   = ~(In Gedanken jene Dinge ausgestaltend, die Ihr mit Eurem Geliebten zu tun beabsichtigt, flüstert Ihr sachte in Solaufeins Ohr. Eure Lippen streifen über sein Ohrläppchen, während Ihr sprecht.)~
+@554   = ~(Solaufein lehnt sich vor zu Euch. Eine Hand vergräbt sich in Eurem Haar, als er seinen Kopf Euch zuwendet und mit seiner Zunge eine leichte Spur auf Eurer Haut zeichnet.)~
+@555   = ~Das wäre allerliebst, <CHARNAME>. Doch wie wäre es, wenn wir Folgendes versuchten ...~
+@556   = ~(Als das letzte Wort verklungen ist, bebt Ihr vor Aufregung und wähnt Euch kaum länger imstande geradeaus zu blicken.)~
+@557   = ~(Ihr schleicht hinter Euren köstlichen Drow und lasst Eure Zunge langsam und bedächtig entlang der Kante seines Ohrs gleiten, sorgsam darauf bedacht, Solaufeins Wonne so lange wie möglich währen zu lassen, ehe Ihr sachte an der Spitze knabbert.)~
+@558   = ~(Solaufein wendet sich um. Sein Gesicht ist gerötet unter dem Staub und sein Atem scheint mühsamer zu gehen.) <CHARNAME>, hört unverzüglich auf damit, wenn Ihr wünscht, dass ich von irgendeinem Nutzen sein soll im Kampf!~
+@559   = ~(Ihr kitzelt Solaufeins Nacken; veranlasst Ihn so dazu, unwillkürlich zusammenzuzucken. Er wirbelt herum und seine Hände bewegen sich flink über Eure Seiten. Bald schon lacht Ihr beide, entschlossen darum bemüht, den jeweils Anderen zu kitzeln und gleichzeitig zu verhindern, dass selbiges Euch widerfährt. Als Ihr schließlich zur Ruhe kommt, hält er Euch dicht bei sich und setzt sanft einen Kuss über Eure Braue.)~
+@560   = ~Ihr bringt mir so viel Freude, Ussta Xukoth.~
+@561   = ~(Ihr tretet unauffällig hinter Solaufein und bewegt Eure Hände sachte über dessen Hinterpartie. Er nimmt die Entwürdigung seiner Person ausdruckslos zur Kenntnis. Schließlich jedoch beginnt seine Fassade zu schwinden und er seufzt voller Wonne, während Ihr die vollendeten Formen knetet und massiert, ganz so, als wolltet Ihr sorgfältig deren Rundlichkeit überprüfen.)~
+@562   = ~(Als er nicht länger an sich zu halten vermag, dreht er sich um und ergreift Euch. Leidenschaftlich vergräbt er seine Hände in Eurem Haar und zieht Euch dicht zu sich heran.)~
+@563   = ~(Seine Augen glühen, als er Euch anblickt, und seine dunkle Baritonstimme ertönt in einem tiefen Grollen) Ussta Xukoth, es ist töricht, eine schlummernde Bestie zu wecken. Sie wird ... Vergeltung begehren.~
+@564   = ~(Ihr ergebt Euch in Solaufeins einladende Umarmung. Dicht hält er Euch an sich gedrückt und erwidert Euren Kuss.)~
+@565   = ~Ich scheine einen Mondstrahl zu halten. Solches ist der Glanz, der den Tag bleich erscheinen lässt.~
+@566   = ~(Ihr knabbert an der Außenkante seines Ohrs, sorgsam darauf bedacht, die besondere Erfahrung so lange wie möglich vorhalten zu lassen. Als Ihr Eure Zunge über die Spitze führt, wirbelt Solaufein herum, zieht Euch in seine Arme und hält Euch dicht an sich gedrückt. Etwas gibt Euch die Gewissheit, dass er Eure Aufmerksamkeit genossen hat. Seine Augen lohen wie Flammen, als er Euch ansieht und sein Atem geht schneller.)~
+@567   = ~(Ohne ein Wort zu äußern beugt er sich vor und führt seine Zähne sanft entlang der Kante Eures Ohrs, ein jeder der winzigen Bisse Wogen berauschender Glut durch Euren Körper sendend. Ihr spürt Euer Herz wild schlagen und kämpft angestrengt darum, Euch aus seinem Griff zu befreien.)~ 
+@568   = ~(Solaufein jedoch scheint zu dem Schluss gelangt, dass er Vergeltung verdient habe für all die ungezählten Male, da Ihr geneckt und kokettiert habt. Er weigert sich, Euch freizugeben; lässt Euch gekonnt binnen Kurzem beben und um Atem ringen. Schließlich zeigt er Erbarmen. Als Ihr benommen zu ihm aufblickt, fragt Ihr Euch, ob nun wohl der Zeitpunkt gekommen sei, ein Lager aufzuschlagen.)~
+@569   = ~(Ihr entdeckt einen selten Fund in dieser Wildnis: eine natürliche Quelle, deren Wasser von irgendetwas im nahen Grund erhitzt wird. Ihr befindet, diese hervorragende Gelegenheit könntet Ihr schwerlich ungenutzt an Euch vorüberstreichen lassen.)~
+@570   = ~(Ihr ergreift Solaufeins Hand, beugt Euch vor und bittet ihn mit gedämpfter Stimme darum, Euch für ein gemeinsames Bad zu begleiten. Er nickt zustimmend, wenn auch nicht mit der Begeisterung, die Ihr erhofft hattet. Immerhin schlug er Eure Bitte nicht aus.)~
+@571   = ~(Als Ihr euch entkleidet, bemerkt Ihr Solaufeins Unruhe. Doch ehe Ihr die Ursache ergründen könnt, hat er seine Kleider bereits abgelegt und taucht ins Wasser. Ihr schleudert die restlichen Stücke von Eurem Leib und eilt Euch ihm nachzufolgen.)~
+@572   = ~(Das heiße Wasser spült über Eure schmerzenden Gliedmaßen, vertreibt die Auszehrung der Schlachten aus Euren Körpern. Beide stoßt ihr Seufzer tief empfundener Zufriedenheit und Erleichterung aus. Ihr lacht verhalten und fühlt die Röte über Eure Haut kriechen, als Solaufein lächelt und Euch mit dargebotener Hand bedeutet näher zu rücken. Ihr egreift seine Hand und erhebt Euch. Das heiße Wasser, das Euren Körper hinabströmt, kühlt in der Luft, verhärtet Eure Brustwarzen und schickt eine Gänsehaut über Eure Haut.)~
+@573   = ~(Anstatt Euch neben ihn zu setzen, lasst Ihr Euch plötzlich rittlings auf seinen Schoß sinken; mit spitzbübischem Grinsen legt Ihr die Beine an seine Seiten. Solaufein sagt nichts. Als Ihr Euch jedoch an seinen Körper schmiegt, stellt Ihr fest, dass Eure Entscheidung ihm ziemlich zu behagen scheint. Ihr taucht Eure Hand in das Wasser, lasst das warme Nass über Solaufeins Schultern strömen und beginnt, mit Euren Fingern die Verhärtungen in seinen Schultern und am Hals zu lösen. Er macht es Euch gleich, bewegt seine Hände in kreisenden Bewegungen über Euren Rücken, um die Spannung zu vertreiben, die er in Euren Muskeln spürt.)~
+@574   = ~(Euer Atem geht schneller, die dunkle Färbung auf Solaufeins Wangen teilt Euch mit, dass er Eure Erregung teilt. Ihr lehnt Euch dichter gegen ihn. Eure Stirn berührt die seine, wenige Zentimeter nur trennen Eure Lippen von seinen. Ein Funkeln der Leidenschaft blitzt in Euren Augen, als Eure Hände sich in der dichten Mähne seines Haars vergraben und ihn fester gegen Euch drücken.)~
+@575   = ~(Ehe ihr euch jedoch gänzlich in diesem Moment verlieren könnt, hört ihr die Rufe eurer Gefährten, die Euch zur Eile aufforden, damit auch sie ein Bad nehmen können.)~
+@576   = ~(Ihr seufzt enttäuscht. Doch ihr tauscht verheißungsvolle Blicke, die einander versprechen, dass ihr eure "Beschäftigungen" in nächster Zukunft fortsetzen würdet.)~
+@577   = ~(Eine Erschöpfung, die Euch glattweg den Schlaf eines Zehntags abverlangen könnte, veranlasst Euch, die Reise zu unterbrechen. Eure gleichermaßen entkräfteten Gefährten lassen sich nieder, als plötzlich das Geräusch plätschernden Wassers von jenseits der Baumgrenze an Eure Ohren dringt.)~
+@578   = ~(Ihr bedeutet Solaufein Euch zu folgen. Gemeinsam entfernt ihr euch leise von den Anderen, um die Herkunft des Geräuschs näher zu untersuchen.)~
+@579   = ~(Ihr jauchzt vor Freude, als sich Eurem Blick ein kleiner See von reinstem Wasser offenbart. Das Geräusch, das ihr vernommen hattet, stammt von einem Wasserfall, der einer nahen Klippe entspringt und sich mit plätscherndem Schwall auf die Oberfläche des Gewässers ergießt. Das einladende Glitzern und Funkeln bittet Euch regelrecht darum, hineinzutauchen.)~
+@580   = ~(Ohne weitere Gedanken zu vergeuden, entfernt Ihr Eure Rüstung, erpicht darauf, den Schmutz der Straße von Eurem Leib zu spülen.)~
+@581   = ~(Während Ihr die Tunika über Euren Kopf zieht, wendet Ihr Euch zu Solaufein um; eine Frage auf Euren Lippen. Nur um festzustellen, dass Ihr alleine seid. Der dunkle Elf hat sich entfernt, auf dass Ihr ungestört Euer Bad genießkönnen würdet. Es scheint, mit den unterschwelligen Botschaften im Verhalten der Oberweltler ist er noch immer nicht vertraut.)~
+@582   = ~(Während Ihr unterwegs zu Euren Räumlichkeiten seid, bemerkt Ihr Solaufein verstohlen seine Muskeln reiben und immer wieder anspannen. Ihr überlegt, dass die vergangenen Tage sowohl von seinem Geist als auch seinem Körper ihren Tribut fordern müssen und beschließt, etwas für ihn vorzubereiten.)~
+@583   = ~(Ihr begebt Euch in die Badekammern und trefft Vorbereitungen für ein privates, exquisites Bad ... und einige andere annehmliche Vergnügungen. Ohne ihn in Kenntnis zu setzen über das, was ihn erwartet, dirigiert Ihr ihn in die Badekammern und dort zu der eigens hergerichteten Badestätte. Ihr beginnt, ihn zu entkleiden, bringt die Proteste zum verstummen, die er leise äußert. Schließlich führt ihn zum Wasser hinüber, wo Ihr die eigenen Kleider ablegt und ihm sogleich ins Nass nachfolgt.)~
+@584   = ~(Ihr reibt ein Stück Seife zwischen Euren Fingern, bewegt die schaumbedeckten Hände sanft über seinen Körper und spült die Sorgen und Strapazen des Tages mit besänftigender Berührung hinfort. Die Geste zu erwidern gestattet Ihr ihm nicht: Ihr gebt entschlossen zu verstehen, dass dieses Mal Ihr es wäret, der sich um ihn kümmern würde. Solaufein schließt seine Augen und genießt Eure zärtliche Pflege, entspannt sich gänzlich unter Eurer fürsorglichen Hinwendung.)~
+@585   = ~(Ihr schickt Euch an, sämtliche Schmerzen und Versehrungen mit dem Euch möglichen Kunstgeschick aus seinem Körper zu treiben und wendet Euch einem jedem verhärteten Muskelstrang zu, als bedeutete der eine persönliche Beleidigung gegen Euch. Solaufeins zufriedene Seufzer lassen Euch erkennen, dass ihm behagt, was Ihr tut.)~
+@586   = ~(Gerade als Ihr meint, er wäre eingeschlafen, dreht er sich auf den Rücken. Ihr seht Euch gezwungen, rittlings auf ihm sitzend, um Halt zu kämpfen, um nicht herunterzufallen. Er windet einen Arm um Eure Hüfte um Euch zu stützen und zieht Euch zu sich hinunter. Er reibt seine Nase leicht gegen Eure, küsst Euch dann zärtlich.)~
+@587   = ~Es mag sein, mein lieber <CHARNAME>, dass Euch nicht bewusst ist, dass die Drow bereits in sehr jungen Jahren Erfahrungen sammeln in der Kunst der Massage ... neben anderen Dingen ...~
+@588   = ~(Solaufeins Stimme senkt sich zu einem Flüstern.) Vielleicht möchtet Ihr, dass ich es Euch zeige?~
+
+@600   = ~(Solaufeins Augen blitzen, als Ihr Euch ihm nähert.) Bis die Mutter Oberinnen anderes verlautbaren lassen, Veldrin, erinnert Euch daran, dass Ihr hier weniger als nichts seid. Ihr genießt nicht die Freiheiten der höchsten der Weibchen oder des niedrigsten aller Männchen. Bleibt mir fern. Ich werde es Euch wissen lassen, wenn ich Nutzen für Euch finde.~
+
+//not coded//
+
+@585   = ~(Suddenly overcome by an urge you cannot resist, you casually make your way closer to Sola. His attention is elsewhere at the moment, drawn into admiring yet another marvel in his new home, and he does not notice you right away. Seizing the opportunity, you give into temptation and affectionately grab a handful of his adorable backside.)~
+@586   = ~(The elf jumps in surprise at your assault and tries in vain to wriggle away from your tenacious fingers. Dancing	back to keep out of your reach, he eventually manages to grab hold of your hands and grips you tightly, essentially making you his prisoner)~
+@587   = ~(When he recovers his composure, and is certain that you cannot escape him, he leans forward and glares at you)~
+@588   = ~You needed something to do? Perhaps you would be open to a suggestion or two of mine?~
+@589   = ~(Your eyes widen at the elf’s suggestion and a smile crosses your face at the images it conjures in your mind.)~
+
+@590   = ~(Because you have nothing better to do than to plod across the Sword Coast, you decide to once again attempt to tackle your ever-brooding Drow party member.)~
+@591   = ~(But this time, he surprises you.)~
+@592   = ~(In one smooth motion, he reverses your tackle, knocking you on your bottom.  You, however, manage to kick his legs from under him, and he falls down next to you with a satisfying thud.)~
+@593   = ~(His laughter is full of amusement when he sees that you are just as out of breath as he is and rolling to his side, he boldly allows his hand to travel lazily down your side, before coming to a rest on your thigh.)~
+@594   = ~I believe we have a draw, Ussta Xukoth.  Perhaps we shall have to settle this some…other way? ~
+@595   = ~(Before you have a chance to retaliate, Solaufein’s lips descend on yours, the smoldering, passionate kiss burning all your breath away. He stands up, offers you his hand, and pulls you to your feet. He kisses you thoroughly once more before releasing you with a wink, and adding a hearty smack to your backside before walking back to his place 		in formation.)~
+

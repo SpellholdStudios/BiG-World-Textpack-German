@@ -1,0 +1,52 @@
+@60 = ~Ihr scheint diesen Bestandteil bereits installiert zu haben, wird übersprungen...~
+
+// Note to translators: ignore from here...
+@1600    = ~The curse of Mprolla the spammer~
+@1601    = ~Mike Prolla~
+@1602    = ~Royalty We~
+@1700    = ~The curse of Mprolla the cheater~
+@1701    = ~You need The curse of Mprolla the Spammer~
+@1702	 = ~The Curse of Mprolla is present, good!~
+// ... Until here
+// The above component makes no sense if you don't know Mprilla, which requires you to know English  :)
+  
+@2000 = ~Ein großer Kampf~
+@2002 = ~Maniar~
+@2003 = ~Oger-Lehensmann~
+@2004 = ~Ered der Verrückte Magier~
+@2005 = ~Arker, Schamanen-Lehensmann~
+@2006 = ~Ork-Lehensmann~
+@2007 = ~General Argor~
+@2008 = ~Leutenant Beldor~
+@2009 = ~Shamanen-Magier Gobrog~
+@2010 = ~Gobrogs Umwandlung~
+@2011 = ~Gobrogs Umwandlung
+
+Gobrog, ein offensichtlich überaus intelligenter Kleriker/Magier-Ork war im Stande, seine eigene Version von Tensers berühmtesten Zauber zu entwickeln. Er ist ein bisschen schwächer, aber er erlaubt dem Wirker, Zauber zu wirken.
+
+UNTERSCHIED:
+Erhält nicht den 2 ETW0 Bonus. ETW0 kommt dennoch zur Kämpfer-Stufe.
+Trefferpunkte bekommen nur einen Bonus von 150% statt einem von 200%.
+Kann Zauber wirken, während der Zauber im Einsatz ist, mit einigen geringen Nachteilen.
+Die Chance des Misserfolges beim Zauberwirken wird um 15% erhöht, die Zeit fürs Wirken verlängert sich um 2, und schließlich verliert Ihr einen der eingeprägten Zauber.
+
+ENDERGEBNIS:
+Die Umwandlung sorgt für einen Anblick, der jedes Wesen, das den Zauber noch nie in Aktion gesehen hat, in Erstaunen versetzt. Der Anwender durchläuft nämlich eine verblüffende Umwandlung. Seine Größe und Stärke nehmen heroische Ausmaße an, wodurch er zu einer furchterregenden Kampfmaschine wird. Der Zauber lässt den Wirker zu einem Berserker-Kämpfer werden.
+
+Die Trefferpunkte des Zauberers erhöhen sich auf 150% ihres tatsächlichen Werts, und aller Schaden, den der Anwender erleidet, wird zuerst von den zusätzlichen Trefferpunkten abgezogen. Die Rüstungsklasse verbessert sich um -4. Alle Angriffe sind wie die eines Kämpfers desselben Stufe wie der Zauberer (d. h. der Zauberer verwendet die für Kämpfer normalerweise vorbestellten Kampfwerte). Ebenso fügt jeder erfolgreiche Treffer im Kampf zusätzliche 2 Schadenpunkte hinzu. Diese Auswirkungen halten an, bis die Wirkungsdauer endet oder der Zauber gebannt wird. BEACHTET: Dieser Zauber gibt dem Wirker keine Extraangriffe.
+Kann Zauber wirken, während der Zauber im Einsatz ist, mit einigen geringen Nachteilen.
+Die Chance des Misserfolges beim Zauberwirken wird um 15% erhöht, die Zeit fürs Wirken verlängert sich um 2, und schließlich verliert Ihr einen der eingeprägten Zauber.~
+@3000 = ~Magier-Duell im Unterreich~
+@3001 = ~Kix~
+@3002 = ~Thix~
+@3003 = ~Laniz~
+@3004 = ~Spinnen-Figürchen~
+@3005 = ~Dieses Figürchen aus Obsidian stellt eine schwarze Spinne dar; Ihr habt gesehen, wie der namenlose Drow-Zauberer, den Ihr herausgefordert habt, es benutzt hat, um einige veränderte Spinnen herbeizurufen, aber Ihr könnt nicht herausfinden, wie man die Wirkung wiederholt.~
+@3006 = ~Dieses Figürchen aus Obsidian stellt eine schwarze Spinne dar; Ihr habt gesehen, wie Laniz es verwendet hat, um einige veränderte Spinnen mit speziellen Fähigkeiten herbeizurufen. Um es zu verwenden, werft es einfach auf den Boden und sagt das Befehls-Wort. Das Figürchen wird ein Paar veränderte Spinnen herbeirufen, Kix und Thix. Die Spinnen folgen den Befehlen seines Meisters für die Dauer des Zaubers oder bis sie getötet werden. Nach dreißig Sekunden, unabhängig davon, ob die Spinnen überleben oder sterben, kehrt das Figürchen zurück. Es dauert einen Tag, um das Figürchen wieder zu laden.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Ruft einmal pro Tag Kix und Thix für fünf Minuten herbei. Kix kann Unsichtbarkeit alle zwei Runden wirken und jemandem wie ein Dieb der Stufe 5 in den Rücken fallen, während Thix alle zwei Runden Gift und alle zehn Runden (= die Dauer des Zaubers) Netz wirken kann.
+
+Kann nicht verwendet werden von:
+ Magierkillern~

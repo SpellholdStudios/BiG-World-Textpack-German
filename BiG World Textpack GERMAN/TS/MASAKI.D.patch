@@ -1,0 +1,107 @@
+--- TS\bgtdlg\MASAKI.D	Fri Apr 29 16:25:13 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\MASAKI.D	Thu May 05 10:44:57 2016
+@@ -3,47 +3,47 @@
+ IF ~NumberOfTimesTalkedTo(0)
+ Global("Kachiko_Kidnapped","GLOBAL",0)
+ Global("Masaki_Meet","GLOBAL",0)~ THEN BEGIN 0
+-  SAY ~Kachiko! You have returned and brought the fugitive Yoshimo back. Well done, the spirit of true kensai and true Nakanishi is in you, girl. I am happy to be the first to greet you upon your return.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("Masaki_Meet","GLOBAL",1)~ EXTERN ~KACHIJ~ N21
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I had been young and foolish and did not want beautiful Kachiko to wonder far away from those who love her. But your deed honors our family. I would see that you have the privilege of executing the murderer.~
++  SAY @1
+   IF ~~ THEN EXTERN ~KACHIJ~ N22
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~We are at home my dearest Kachiko, and the better home it is. No silly law is above us here and you do not have to go through the pains of trial and shifty advocates to accuse Yoshimo. Nor can he run. We, Nakanishi ourselves will exact punishment on him for killing our beloved brother, Naoko.~
++  SAY @2
+   IF ~~ THEN EXTERN ~KACHIJ~ N23
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~All in good time. First, let us get rid of this Hashimoto scum...~
++  SAY @3
+   IF ~~ THEN EXTERN ~KACHIJ~ N24
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~No, my dear - I defend Nakanishi’s honor. It is you who disgrace your family, consorting with the enemy in the time of dire need. Us, Nakanishi shall stand together against evil Hashimoto clan. Did you forget your duty completely in the foreign parts? Kill him and leave the side of these outlandish mercenaries. No earlier than that will the gates of our house be open for you.~
++  SAY @4
+   IF ~~ THEN EXTERN ~KACHIJ~ N25
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~That I do, my sweet cousin. You shall bend to my will or we shall treat you as a Hashimoto’s consort. You are Nakanishi no more.~
++  SAY @5
+   IF ~~ THEN EXTERN ~KACHIJ~ N26
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Fool girl! Ha-ha-ha... (*laughs threateningly*)~
++  SAY @6
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Fool girl! You have been seen entering and leaving Hashimoto’s compound. Do you dare to deny it?~
++  SAY @7
+   IF ~~ THEN EXTERN ~KACHIJ~ N27
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I see. These foreigners have brainwashed you. But we are going to return you to your proper place in the family.~
++  SAY @8
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Kidnapped","GLOBAL",1)
+ StartCutSceneMode()
+ StartCutScene("TSCutK01")~ EXIT
+@@ -52,13 +52,13 @@
+ IF ~Global("Kachiko_Kidnapped","GLOBAL",0)
+ Global("Masaki_Meet","GLOBAL",1)
+ Global("Hashimoto_Visited","GLOBAL",1)~ THEN BEGIN 9
+-  SAY ~Fool girl! You have been seen entering and leaving Hashimoto’s compound. Do you dare to deny it?~
++  SAY @7
+   IF ~~ THEN EXTERN ~KACHIJ~ N27
+ END
+ 
+ IF ~Global("Kachiko_Kidnapped","GLOBAL",3)
+ Global("Alome_Meet","GLOBAL",1)~ THEN BEGIN 10
+-  SAY ~You are stupid enough to come here? Do not you know that Nakanishi hold the dungeon now?~
++  SAY @9
+   IF ~Global("Kachiko_Hostile","GLOBAL",0)
+ Global("TT_Evil_Path","GLOBAL",0)~ THEN DO ~SetGlobal("Kachiko_Kidnapped","GLOBAL",4)~ EXTERN ~YOSHJ~ TS193
+   IF ~OR(2)
+@@ -67,19 +67,19 @@
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Fool! Pathetic fool! For Nakanishi’s honor we shall strike you and the foreigners you aligned yourself with!~
++  SAY @10
+   IF ~~ THEN DO ~StartCutSceneMode()
+ ActionOverride(Myself,ForceSpell(Myself,DRYAD_TELEPORT))
+ ActionOverride(Myself,EndCutSceneMode())~ EXIT
+ END
+ 
+ IF ~Global("Kachiko_Kidnapped","GLOBAL",4)~ THEN BEGIN 12
+-  SAY ~Doing your best to stay alive? Let me tell you that it is not good enough! You cannot resist Nakanishi for much longer! For Nakanishi’s honor!~
++  SAY @11
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Kidnapped","GLOBAL",5)~ EXTERN ~YOSHJ~ TS195
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Me? Fight scum like you? Ha-ha-ha...~
++  SAY @12
+   IF ~~ THEN DO ~StartCutSceneMode()
+ ActionOverride(Myself,ForceSpell(Myself,DRYAD_TELEPORT))
+ ActionOverride(Myself,EndCutSceneMode())
+@@ -88,7 +88,7 @@
+ 
+ IF ~Global("Kachiko_Kidnapped","GLOBAL",5)
+ ~ THEN BEGIN 14
+-  SAY ~I see, that I would have to finish you off...short of doing it yourself, you would never get it done... Defend yourself! For Nakanishi’s honor!~
++  SAY @13
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Kidnapped","GLOBAL",6)
+ Enemy()~ EXIT
+ END

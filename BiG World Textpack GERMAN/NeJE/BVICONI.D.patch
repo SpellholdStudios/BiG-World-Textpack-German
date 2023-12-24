@@ -1,0 +1,364 @@
+--- NeJE\dlg\BVICONI.D	Sat Dec 01 21:11:54 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BVICONI.D	Tue Apr 09 19:35:33 2019
+@@ -81,23 +81,23 @@
+ APPEND ~BVICONI~
+ 
+ IF ~~ THEN BEGIN NEJ0
+-  SAY ~Whilst you persist in leading these males into believing they are a females equal I will have none of your surface games. (*She turns her back and spits out her next words*) Jal shinduago jalilen ph’ jal yibin!~
++  SAY @0
+ 	IF ~Gender(Player1,FEMALE)~ THEN EXTERN ~BLEINA~ PCF2Leina31a
+ 	IF ~Gender(Player1,MALE)~ THEN EXTERN ~BLEINA~ PCM4Leina31a
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~How pathetic. You surface dwellers are prepared to fight like dogs in heat over such a pitiful female... if that’s what you want to call her.~
++	SAY @1
+ 	IF ~~ THEN EXTERN ~BLEINA~ Sphere8a
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~For once a male has half an idea which is about as good as a half elf, maybe the males should split her in half the whole thing is pathetic.~
++	SAY @2
+ 	IF ~~ THEN EXTERN ~BLEINA~ Sphere13a
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher3
+-	SAY ~You surface dwellers are so stupid. Who really cares?~
++	SAY @3
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere10
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher1
+@@ -116,205 +116,205 @@
+ END	
+ 
+ IF ~~ THEN BEGIN TS575
+-  SAY ~The surface... what a stupid place! Here, in Amn, you are a strong and valiant warrior. In your homeland you'd be subservient to some lowly jaluk. Stupid place.~
++  SAY @4
+   IF ~~ THEN EXTERN ~BKACHI~ 32
+ END
+ 
+ IF ~~ THEN BEGIN TS576
+-  SAY ~Do not think me a fool. In Kara-Tur women are slaves of men... The ones who sell themselves are considered to be "free"! ~
++  SAY @5
+   IF ~~ THEN EXTERN ~BKACHI~ 33
+ END
+ 
+ IF ~~ THEN BEGIN TS577
+-  SAY ~What about you, Kachiko? Are you trying to find a lover to gain power?~
++  SAY @6
+   IF ~~ THEN EXTERN ~BKACHI~ 34
+ END
+ 
+ IF ~~ THEN BEGIN TS578
+-  SAY ~I do not understand you. If the only place to find power is some jaluk's bed that's where I would be...~
++  SAY @7
+   IF ~~ THEN EXTERN ~BKACHI~ 35
+ END
+ 
+ IF ~~ THEN BEGIN TS579
+-  SAY ~I care not for your displeasure. When female desires to watch a male he should be grateful of attention and shiver with delight and anticipation of an order.~
++  SAY @8
+   IF ~~ THEN EXTERN ~BVALYGA~ TS392
+ END
+ 
+ IF ~~ THEN BEGIN TS580
+-  SAY ~That's because you are a fool, rivvin. I can see now why <CHARNAME> would take an interest in you. Such a pleasure is torturing a bold male...~
++  SAY @9
+   IF ~~ THEN EXTERN ~BVALYGA~ TS393
+ END
+ 
+ IF ~~ THEN BEGIN TS581
+-  SAY ~You are sad and pathetic, male. You see not the obvious. You refute what could be your greatest chance to change your lowly station. I shall not spare you any more of my time, rivvin.~
++  SAY @10
+   IF ~~ THEN EXTERN ~BVALYGA~ TS394
+ END
+ 
+ IF ~~ THEN BEGIN TS582
+-  SAY ~Oh, the male is rude. Were we in Menzoberranzan, I'd beat you to death for a tenth of this insult. But you would not dare even look at me, let alone speak to me there. You would crawl by my feet and beg for my attention.~
++  SAY @11
+   IF ~~ THEN EXTERN ~BVALYGA~ TS396
+ END
+ 
+ IF ~~ THEN BEGIN TS583
+-  SAY ~Do you even know what desire is? The longer I watch you, the firmer is my conviction that you are no man's friend and no woman's lover. Fury and emptiness you are.~
++  SAY @12
+   IF ~~ THEN EXTERN ~BVALYGA~ TS397
+ END
+ 
+ IF ~~ THEN BEGIN TS584
+-  SAY ~I am bored and I will accept an inadequate substitute, such as an ungraceful human.~
++  SAY @13
+   IF ~~ THEN EXTERN ~BVALYGA~ TS398
+ END
+ 
+ IF ~~ THEN BEGIN TS585
+-  SAY ~Valygar? (*catches his sleeve*)~
++  SAY @14
+   IF ~~ THEN EXTERN ~BVALYGA~ TS399
+ END
+ 
+ IF ~~ THEN BEGIN TS586
+-  SAY ~You will regret this! I hate you!~
++  SAY @15
+   IF ~~ THEN EXTERN ~BVALYGA~ TS400
+ END
+ 
+ IF ~~ THEN BEGIN TS587
+-  SAY ~Silence, male. I have decided that you will deliver me some pleasure tonight. That's of course if your clumsiness is bearable...~
++  SAY @16
+   IF ~~ THEN EXTERN ~BVALYGA~ TS476
+ END
+ 
+ IF ~~ THEN BEGIN TS588
+-  SAY ~What that has to do with my order?~
++  SAY @17
+   IF ~~ THEN EXTERN ~BVALYGA~ TS477
+ END
+ 
+ IF ~~ THEN BEGIN TS589
+-  SAY ~So if mutual hate forbids surfacers to become lovers, mutual love shall promote it?~
++  SAY @18
+   IF ~~ THEN EXTERN ~BVALYGA~ TS478
+ END
+ 
+ IF ~~ THEN BEGIN TS590
+-  SAY ~Then why are you not laying by <CHARNAME>'s side?~
++  SAY @19
+   IF ~~ THEN EXTERN ~BVALYGA~ TS479
+ END
+ 
+ IF ~~ THEN BEGIN TS591
+-  SAY ~Do you hate her?~
++  SAY @20
+   IF ~~ THEN EXTERN ~BVALYGA~ TS480
+ END
+ 
+ IF ~~ THEN BEGIN TS592
+-  SAY ~Does she hate you?~
++  SAY @21
+   IF ~~ THEN EXTERN ~BVALYGA~ TS481
+ END
+ 
+ IF ~~ THEN BEGIN TS593
+-  SAY ~So?~
++  SAY @22
+   IF ~~ THEN EXTERN ~BVALYGA~ TS482
+ END
+ 
+ IF ~~ THEN BEGIN TS594
+-  SAY ~You are a hypocrite and a liar, male. I may not know much of the surfacers but I know desire when I see it. Now, leave this pointless argument and do what I ordered you.~
++  SAY @23
+   IF ~~ THEN EXTERN ~BVALYGA~ TS483
+ END
+ 
+ IF ~~ THEN BEGIN TS595
+-  SAY ~Shut up, rivvin! I am going to tell you something you want to hear.~
++  SAY @24
+   IF ~~ THEN EXTERN ~BVALYGA~ TS485
+ END
+ 
+ IF ~~ THEN BEGIN TS596
+-  SAY ~You say your blood is cursed by a hereditary affliction to dark magic. <CHARNAME> says that her dark ancestry taints her blood.~
++  SAY @25
+   IF ~~ THEN EXTERN ~BVALYGA~ TS486
+ END
+ 
+ IF ~~ THEN BEGIN TS597
+-  SAY ~Blood against blood, taint against taint. Which should win? Do you think Corthala's blood is stronger than Bhaal's? Do not you think that your precious magical curse will be burnt out of the veins of a child should it mix with a god's blood?~
++  SAY @26
+   IF ~~ THEN EXTERN ~BVALYGA~ TS487
+ END
+ 
+ IF ~~ THEN BEGIN TS598
+-  SAY ~No, no. You are not afraid of the curse. You are simply an impotent, miserable, scared male who is incapable of touching a woman.~
++  SAY @27
+   IF ~~ THEN EXTERN ~BVALYGA~ TS488
+ END
+ 
+ IF ~~ THEN BEGIN TS599
+-  SAY ~There is a sweet torture to see a winner and her prize burn. I had a husband once and I caught him with my sister. I burnt them. I still can see the flames licking their corpses. Shaar was smiling that day on me.~
++  SAY @28
+   IF ~~ THEN EXTERN ~BVALYGA~ TS489
+ END
+ 
+ IF ~~ THEN BEGIN TS600
+-  SAY ~(*laughs*) The one you cherish is no better than I. Think about what I have said about the taint, ranger.~
++  SAY @29
+   IF ~~ THEN EXTERN ~BVALYGA~ TS490
+ END
+ 
+ IF ~~ THEN BEGIN TS601
+-  SAY ~Why you are going away from the Shadow Thieves Guild? You do not look stupid to me, and yet your actions are inapt. In your absence another would usurp your rightful place by your father.~
++  SAY @30
+   IF ~~ THEN EXTERN ~BSIME~ 94
+ END
+ 
+ IF ~~ THEN BEGIN TS602
+-  SAY ~You find it more desirable to crawl through the dirty streets and be treated like rubbish by every rivvin you meet and still have no station?~
++  SAY @31
+   IF ~~ THEN EXTERN ~BSIME~ 95
+ END
+ 
+ IF ~~ THEN BEGIN TS603
+-  SAY ~(*snorts*) And they will get it, no doubt. Typical. Imbecilic surfacers.~
++  SAY @32
+   IF ~~ THEN EXTERN ~BSIME~ 96
+ END
+ 
+ IF ~~ THEN BEGIN TS604
+-  SAY ~Very few. Lloth is a cunning Mistress and watches her herd carefully. The high priestesses are ever restless, hunting the outlaws to sacrifice to Lloth and gain her favor.~
++  SAY @33
+   IF ~~ THEN EXTERN ~BSIME~ 98
+ END
+ 
+ IF ~~ THEN BEGIN TS605
+-  SAY ~I know of none. Drizzt * spits * brought misfortune and ill fate to all of the Menzoberranzan. I doubt that anyone would feel anything but loathing for him and his choices. Drizzt's treachery strengthened my people's resolve to keep to their own ways.~
++  SAY @34
+   IF ~~ THEN EXTERN ~BSIME~ 99
+ END
+ 
+ IF ~~ THEN BEGIN TS606
+-  SAY ~If you wish for me to answer to all of my kin's doings, you are too late. You should have thrown a torch into my pyre.~
++  SAY @35
+   IF ~~ THEN EXTERN ~BSIME~ 100
+ END
+ 
+ IF ~~ THEN BEGIN TS607
+-  SAY ~(*Hisses and tries to stab Sime*)~
+-  IF ~~ THEN REPLY ~What is going on? I did not think you were such close friends to stay up late and chat.~ EXTERN ~BSIME~ 577
+-  IF ~~ THEN REPLY ~Can I ever get any sleep around here? Viconia, Sime, break it!~ EXTERN ~BSIME~ 577
+-  IF ~~ THEN REPLY ~What in Nine Hells is going on?~ EXTERN ~BSIME~ 577
++  SAY @36
++  IF ~~ THEN REPLY @37 EXTERN ~BSIME~ 577
++  IF ~~ THEN REPLY @38 EXTERN ~BSIME~ 577
++  IF ~~ THEN REPLY @39 EXTERN ~BSIME~ 577
+ END
+ 
+ IF ~~ THEN BEGIN TS608
+-  SAY ~Shut up mrannd d'ssins. Rivvin.~
+-  IF ~~ THEN REPLY ~Viconia, that's it. I have given you shelter against fanatics and how do you repay me? By trying to kill the woman I love?~ GOTO TS609
+-  IF ~~ THEN REPLY ~Viconia, get you backpack and go away. Now!~ GOTO TS610
++  SAY @40
++  IF ~~ THEN REPLY @41 GOTO TS609
++  IF ~~ THEN REPLY @42 GOTO TS610
+ END
+ 
+ IF ~~ THEN BEGIN TS609
+-  SAY ~Jal ssinrig zhah waella - All love is foolish.~
+-  IF ~~ THEN REPLY ~No it is not. You are wrong, have not I taught you anything? (*sighs*) Oh, Viconia. I guess it is my own fault, I should not have spend so much time with another and give your poor lost heart so much troubles. Sime, I am sorry about what have happened. I am sure you have it in you to forgive both Viconia and myself. I should not have abandoned the road I walked with Viconia.~ EXTERN ~BSIME~ 578
+-  IF ~~ THEN REPLY ~Whatever you say, Viconia. But do not you dare to as much as look at Sime unfriendly again! I am sorry that you have suffered from that vile woman, Sime. Be strong, my love.~ EXTERN ~BSIME~ 579
++  SAY @43
++  IF ~~ THEN REPLY @44 EXTERN ~BSIME~ 578
++  IF ~~ THEN REPLY @45 EXTERN ~BSIME~ 579
+ END
+ 
+ IF ~~ THEN BEGIN TS610
+-  SAY ~I was going to. (*laughs*)  But I wanted to kill your blonde first. Ssun usst - fear me!~
++  SAY @46
+   IF ~~ THEN DO ~SetGlobal("ViconiaRomanceActive","GLOBAL",3)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~Then keep it yourself, your mundane thoughts are of no interest to me.~
++  SAY @47
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @48 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @49 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @50 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheat
+ 	IF ~InParty("Melora")
+@@ -326,19 +326,19 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~Bah! You surfacers and your infantile minds! It is no wonder you have not progressed, unlike the drow! Udos zhal ilstar ultrin... you will see!~
++  SAY @51
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @48 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @49 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @50 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ 	IF ~InParty("Melora")
+@@ -350,19 +350,19 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~Children, you are all nought but children! It’s no wonder you surfacers struggle to survive... udos zhal ilstar ultrin!~
++  SAY @52
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @48 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @49 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @50 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea4
+ 	IF ~InParty("Melora")
+@@ -374,9 +374,9 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~Go play your foolish prank! If the half elf hasn’t sussed you yet then the half breed deserves to be made a fool of.~
++  SAY @53
+ =
+-~(*She spits out her next words*) Kitrye kyuvren ph' nau mzild darthirii taga ph' rothe!~
++@54
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1
+@@ -389,17 +389,17 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea2
+-  SAY ~Leina, I need no such silly songs. But if you must, be sure you tell of how I ripped the beasts hearts out with my bare hands and laid them open for the vultures to feed on their soft parts.~
++  SAY @55
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ END
+ 
+ IF ~~ THEN BEGIN RadianQ
+-  SAY ~Bah! You bard, you couldn't handle an evil thought if one ever took a hold on you, you'd soil your pants and fall down screaming!~
++  SAY @56
+  IF ~~ THEN EXTERN ~BLEINA~ RadiQ19A
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadia
+-  SAY ~Surfacers! Your fetish for fluffy towels is unhealthy girl, some one needs to give you a good rub down with a horse blanket. That'll cure all this jumping into hot water every spare minute!~
++  SAY @57
+ 	IF ~~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ END	
+ END

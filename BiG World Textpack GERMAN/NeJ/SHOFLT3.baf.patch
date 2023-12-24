@@ -1,0 +1,27 @@
+--- NeJ\baf\SHOFLT3.baf	Sun Jan 07 00:17:00 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHOFLT3.baf	Wed Apr 10 10:29:48 2019
+@@ -3,19 +3,19 @@
+ 	CombatCounter(0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Hmmm.~)
++		DisplayStringHead(Myself,@0)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Makes sense.~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~That should be good.~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Go on.~)
++		DisplayStringHead(Myself,@3)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Interesting.~)
++		DisplayStringHead(Myself,@4)
+ 		Continue()
+ END
+ 

@@ -1,0 +1,63 @@
+--- TS\fix_f\nBVALYG2.D	Thu Jan 06 17:20:04 2005
++++ C:\BWP Patchstudio\patched files\TS\fix_f\nBVALYG2.D	Thu May 05 10:47:05 2016
+@@ -2,50 +2,50 @@
+ 
+ IF ~Global("VP_BExpValygar1","LOCALS",2)
+ Global("VP_Banter_Switch","LOCALS",1)~ THEN BEGIN TS102
+-  SAY ~What's your opinion on marriage?~
+-  IF ~~ THEN REPLY ~Marriage? I...~ DO ~SetGlobal("VP_BExpValygar1","LOCALS",3)
++  SAY @0
++  IF ~~ THEN REPLY @1 DO ~SetGlobal("VP_BExpValygar1","LOCALS",3)
+ SetGlobal("VP_Banter_Switch","LOCALS",0)~ EXTERN ~BIMOEN25~ TS112
+ END
+ 
+ IF ~~ THEN BEGIN TS103
+-  SAY ~Ahem, I merely asked an abstract question...~
++  SAY @2
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS113
+ END
+ 
+ IF ~~ THEN BEGIN TS104
+-  SAY ~The biggest temple in Athkatla is the Temple of Talos, Imoen. And we are not getting married...~
++  SAY @3
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS114
+ END
+ 
+ IF ~~ THEN BEGIN TS105
+-  SAY ~Well, I think I've understood YOUR idea on marriages, Imoen...~
++  SAY @4
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar2","LOCALS",2)
+ Global("VP_Banter_Switch","LOCALS",1)~ THEN BEGIN TS106
+-  SAY ~Our latest exploits made me doubt that a large family is such a good thing after all... Look, your so-called father manifests himself even after his death by transforming <CHARNAME> into some kind of a monster. Maniacal half-siblings of yours do their best to drag your lives into Nine Hells or exterminate you, along with the half of the Sword Coast population for a good measure...~
++  SAY @5
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar2","LOCALS",3)
+ SetGlobal("VP_Banter_Switch","LOCALS",0)~ EXTERN ~BIMOEN25~ TS117
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~Blood mixes strangely in people... Thank you for your insights, Imoen, what you say is true. Your closeness with <CHARNAME> is enviable. The weariness of the battle made me succumb to my prejudices.~
++  SAY @6
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS119
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~True again. Many things that have happened because of  <CHARNAME>'s heritage do not make sense to me. I hate the dark power, which she has been bestowed. But I would not betray or desert her...~
++  SAY @7
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS120
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~I treasure her friendship.~
++  SAY @8
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS121
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~No other reason Imoen.~
++  SAY @9
+   IF ~~ THEN EXIT
+ END
+ END

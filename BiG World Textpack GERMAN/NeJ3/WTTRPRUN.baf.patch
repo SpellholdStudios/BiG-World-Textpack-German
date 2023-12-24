@@ -1,0 +1,26 @@
+--- NeJ3\baf\WTTRPRUN.baf	Sun Dec 17 23:56:18 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\WTTRPRUN.baf	Wed Apr 10 10:34:17 2019
+@@ -10,19 +10,19 @@
+ 	!Global("SLAVES_FREE_1","GLOBAL",0)
+ THEN
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~Traitor!~)
++		DisplayStringHead(Myself,@0)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",1)
+ 		Continue()
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~Betrayer!~)
++		DisplayStringHead(Myself,@1)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",1)
+ 		Continue()
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~You freed the slaves. Traitor!~)
++		DisplayStringHead(Myself,@2)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",1)
+ 		Continue()
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~I will free your soul.~)
++		DisplayStringHead(Myself,@3)
+ 		SetGlobal("MOVEMENT_LIST_0_LOC","LOCALS",1)
+ 		Continue()
+ 	RESPONSE #100

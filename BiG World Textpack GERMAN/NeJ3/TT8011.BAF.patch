@@ -1,0 +1,11 @@
+--- NeJ3\baf\TT8011.BAF	Sat Nov 01 23:03:38 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\TT8011.BAF	Wed Apr 10 10:34:06 2019
+@@ -5,7 +5,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("MAIDEN_BADGE","GLOBAL",1)
+ 		AddexperienceParty(60000)
+-		DisplayStringHead(Player1,~You have retrieved Ilmadia's Badge.~)
++		DisplayStringHead(Player1,@0)
+ 		Continue()
+ END
+ 

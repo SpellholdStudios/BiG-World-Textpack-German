@@ -1,0 +1,119 @@
+@0   = ~So, ist es tatsächlich so weit gekommen? Ich hätte nicht erwartet, dass eine Gruppe Einheimischer sich in meinen Rachefeldzug einmischt. Warum seid ihr hier hergekommen und tötet meine Untergebenen?~ [YXUN_01] 
+@1   = ~Untergebene? Ihr meint die Schlangenmenschen?~
+@2   = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir erkundigten uns nach ihren Ergebenen. Sie sagte, es seien die Yuan-Ti, die ihr "Königreich" erben würden, wenn ihre eigene Mission zu Ende sei.~ 
+@3   = ~Suche nach dem Herzsteinjuwel
+ 
+Wir sind in das innerste Heiligtum des Tempels des vergessenen Gottes vorgedrungen, nur um festzustellen, dass uns jemand zuvor gekommen war. Der Sockel, auf dem das Artefakt vermutlich gestanden hatte, war leer. In der ganzen Kammer lagen Leichen, was vermuten lässt, dass die Altardiener und ihre Verbeeg-Wächter das Juwel mit aller Macht verteidigt haben. Unter den Leichen war auch die eines jungen Mannes, der in das Gewand eines Priesters von Talona gehüllt war. Es ist schwer zu sagen, welche Rolle er in dem Kampf und dem darauf folgenden Diebstahl spielte. Vielleicht sollten wir zu Arundel zurückkehren und sehen, ob er das alles versteht.~
+@4   = ~Von was für einer Fehde redet Ihr?~ 
+@5   = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir erkundigten uns nach ihrer Fehde, doch sie meinte, unsere Beteiligung sei völlig irrelevant.~
+@6   = ~Kennt Ihr das Herzsteinjuwel?~
+@7   = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir erkundigten uns nach dem Herzsteinjuwel. Dieses brauche sie jedoch selber für den Krieg, den sie führte.~ 
+@8   = ~Ich bin hergekommen, um Eure Kinder zu töten, weil sie Menschen aus Kuldahar verschleppten.~
+@9   = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir klärten sie auf, dass wir nach Drachenauge gekommen seien, weil ihre Diener die Bewohner von Kuldahar verschleppten. Daraufhin murmelte sie etwas Seltsames darüber, dass sie die Dorfbewohner zu einem Rezept für einem alten Freund brauchte und ihrem Feind die Suppe versalzen wollte.~ 
+@10  = ~Ich kam her, weil ich weiß, dass Ihr für all das verantwortlich seid, was am Pass geschieht. Die Entführungen. Das seltsame Wetter. Die Untoten im Tal. Die Lawine. Ihr steht hinter all dem.~
+@11  = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir hielten ihr all die schrecklichen Dinge vor, die am Pass passieren. Sie sagte, wir wüssten nicht, wovon wir da sprechen. Wir erkundigten uns auch nach dem Herzsteinjuwel, doch sie wollte es uns nicht geben, weil sie es selber brauche.~
+@12  = ~Ich kam, um das Herzsteinjuwel Euren kalten, toten Händen zu entreißen.~ 
+@13  = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir hatten keine Lust, ihr etwas vorzuspielen und sagten klipp und klar, dass wir das Herzsteinjuwel einfach aus ihren kalten, toten, schuppigen Hände reißen würden. Daraufhin griff sie uns an.~
+@14  = ~Das sind keine "Schlangenmenschen", du Ignorant. Das sind Yuan-Ti, treue Diener und würdige Erben des Königreichs, das ich ihnen eines Tages, wenn ich meine Aufgabe erfüllt habe, hinterlassen werde. ~ [YXUN_02] 
+@15  = ~Aufgabe? Was für eine Aufgabe?~
+@16  = ~Warum macht Ihr Euch die Mühe, ein Königreich aufzubauen, wenn ihr es sowieso zurücklassen werdet?~
+@17  = ~Mein Rachefeldzug geht Euch nichts an. Eure Bedeutung in dem großen Plan der Dinge ist völlig nichtig. Ihr seid nur ein Staubkorn, das für einen Moment durch das Meer der Zeit wirbelt.~ [YXUN_03]
+@18  = ~Aber... Ich kann Euch helfen.~ 
+@19  = ~Ihr unterschätzt meine Lebenserwartung gewaltig. Unser Volk kann Hunderte von Jahren leben.~
+@20  = ~Ihr habt Recht, oh Mächtige. Aber... Sind wir nicht alle nur Staubkörner in einem Meer der Zeit?~ 
+@21  = ~Warum habt Ihr das Herzsteinjuwel gestohlen?~ 
+@22  = ~Mein Interesse am Herzsteinjuwel ist persönlicher Natur. Ich führe schon seit einiger Zeit einen Krieg. ~ [YXUN_04]
+@23  = ~Diese Welt ist einfach nur ein weiteres Schlachtfeld. Das Juwel ist eines mehrerer Werkzeuge, die ich benutze, um meine Schlachten zu schlagen. ~ [YXUN_05] 
+@24  = ~Also... Um was geht es bei dieser Schlacht überhaupt?~
+@25  = ~Ist das der Grund, dass Ihr das Herzsteinjuwel braucht?~
+@26  = ~Wer, oder was, seid Ihr?~
+@27  = ~Mir steht nicht der Sinn nach Euren albernen Moralvorstellungen. Die Bewohner Kuldahars waren notwendige Zutaten in meinem Erfolgsrezept.~ [YXUN_06]
+@28  = ~Ich koche etwas Besonderes für einen alten Freund. Es wird auf einem Teller namens "Tod" serviert. Das soll meinem Feind die Suppe ordentlich versalzen.~ [YXUN_07]
+@29  = ~Ähm... Wovon redet Ihr? Ihr seid wirklich seltsam.~
+@30  = ~Wer ist dieser "alte Freund"? Es klingt, als hegt Ihr einen Groll gegen ihn.~
+@31  = ~Ihr habt keine Ahnung, wovon Ihr sprecht. Euer Versuch, die Geschehnisse um Euch herum zu verstehen, ist bestenfalls erheiternd.~ [YXUN_08]
+@32  = ~Wie auch immer. Gebt einfach das Herzsteinjuwel heraus und ich gehe wieder.~
+@33  = ~Warum braucht Ihr dann das Herzsteinjuwel?~
+@34  = ~Die Einheimischen dieser Welt sind von so simplen Dingen motiviert. In Ordnung. Ich werde Euch den Gefallen tun.~ [YXUN_09]
+@35  = ~Königreiche brauchen Könige. Ich hege nicht den Wunsch, einer solchen Rolle hier nachzukommen. Meine Aufgabe besteht allein darin, meinen alten Feind ausfindig zu machen, und das Böse wie Samen in diese sterbende Welt zu säen.~ [YXUN_10]
+@36  = ~"Böse - Samen - säen"?  Was meint Ihr damit?~
+@37  = ~Warum sagt Ihr, dass unsere Welt stirbt?~
+@38  = ~Wer seid Ihr, dass Ihr diese Dinge tut?~
+@39  = ~Wer ist Euer alter Feind?~
+@40  = ~Das glaube ich nicht. Die Mächte, die hier am Werke sind, sind Wahrheitsfabriken, die Eurem Verständnis so fremd sind, dass Euer armes Gehirn zu Dampf versieden würde, würdet Ihr versuchen, die Maschinerie in ihrer Ganzheit zu begreifen.~ [YXUN_11]
+@41  = ~Ist das Eure ausgefallene Art, zu sagen "Ihr könnt die Wahrheit nicht ertragen?"~
+@42  = ~Da wäre ich mir nicht so sicher. Ich bin ziemlich böse.~
+@43  = ~Ach je. Hunderte von Jahren. Ihr müsst sehr stolz darauf sein, dem ursprünglichen Strom göttlicher Schöpfung entschlüpfen zu können, für einen Moment nach Luft zu schnappen und im Glauben, dass Ihr nicht wie alle anderen Fische sterben werdet, am Ufer zu liegen...~ [YXUN_12]
+@44  = ~Währenddessen trampeln steinerne Elefanten auf diesen himmlischen Ufern herum und Ihr in Eurer Blindheit bemerkt nichts davon.~ [YXUN_13]
+@45  = ~Ich fass das mal so auf, dass Ihr älter als ein paar hundert Jahre seid.~
+@46  = ~Ja, ja, sicher. Also, ah... Was ist mit dem Herzsteinjuwel?~
+@47  = ~Nein.Ihr seid eines von vielen Glühwürmchen, die für einen Moment in der Nacht tanzen und die in ihren hellsten Momenten denken, sie könnten das Universum nach Belieben beleuchten. *Ich* bin ein Stern.~ [YXUN_14]
+@48  = ~Ich wurde geboren, als Eure Welt ihre Formen annahm. Ich bin so dauerhaft wie die Zeit. Wohin ich gehe, schlagen höllische Gezeiten gegen fremde Ufer und hoch entwickelte Zivilisationen ertrinken in Blut.~ [YXUN_15]
+@49  = ~Wow.~
+@50  = ~Meine Güte, was sind wir wichtig.~
+@51  = ~Warum braucht jemand so Mächtiges wie Ihr dann das Herzsteinjuwel?~
+@52  = ~Es ist ein Krieg der Prinzipien, ein Krieg, der im Interesse grundlegender Wahrheiten ausgefochten wird. Diese Ozeane des Glaubens werden die Basaltsäulen des Verständnisses untergraben, die die einfachen Religionen und Philosophien von Welten wie dieser seit Tausenden von Jahren aufrechterhalten.~ [YXUN_16]
+@53  = ~Ihr versucht mir also zu sagen, dass all die Dinge, an die ich glaube, eines Tages in sich zusammenbrechen werden wegen dieses geheimen Krieges, den Ihr führt?~
+@54  = ~Und das Herzsteinjuwel, wie passt das in das Ganze?~
+@55  = ~Von welchen Prinzipien redet Ihr?~
+@56  = ~Das Juwel ist ein Gegenstand mit unglaublicher Prophezeiungskraft. Nur diejenigen mit besonderen Verbindungen zum Natürlichen oder Übernatürlichen dürfen es nutzen. ~ [YXUN_17]
+@57  = ~Dieser Stein verleiht Sehen über das Sehen hinaus und kann sogar physikalische und magische Hindernisse in seinen Offenbarungen durchdringen. Ich nutze ihn nicht, um meine Angelegenheiten geheim zu halten. Ich verwende ihn aus persönlichen Gründen. ~ [YXUN_18]
+@58  = ~Tut mir Leid. Wir brauchen das Juwel. Gebt es heraus.~
+@59  = ~Es gibt ein Problem. Das Juwel könnte uns helfen, Kuldahar mit Wärme zu versorgen und so zu verhindern, dass die Kälte alle im Ort tötet. Die Menschen dort brauchen das Juwel mehr als Ihr.~
+@60  = ~Ich bin Yxunomei. Ich bin ein Soldat.~ [YXUN_19]
+@61  = ~Na gut. Und wozu braucht ein Soldat das Herzsteinjuwel?~
+@62  = ~Ihr seht auf jeden Fall nicht wie ein Soldat aus.~
+@63  = ~Töten da, wo Ihr herkommt, Soldaten immer Frauen und Kinder?~
+@64  = ~Wenn ich das Gefühl hätte, etwas Falsches zu tun, würde ich mich entschuldigen. Euer Verstand kann nicht den Kern der Sache erfassen, von der ich spreche.~ [YXUN_20]
+@65  = ~Von Zeit zu Zeit erhalten Wesen Eurer Welt Einblick in meine Welt. Sie hören Stimmen im Wind, Lieder in der süßen Sprache des Schmerzes, von blutigen Zungen gemurmelt. Ihr nennt sie Wahnsinnige. Ihr solltet sie als Propheten erkennen.~ [YXUN_21]
+@66  = ~Ja, ja, ja. Verrückte. Ich verstehe schon. Glaubt Ihr also, dass mein Geist explodieren würde, wenn Ihr mir sagen würdet, was Ihr mit dem Herzsteinjuwel vorhabt?~
+@67  = ~Und was hören diese Propheten, dass sie davon verrückt werden? Es klingt, als würdet Ihr eine Art Krieg führen.~
+@68  = ~Ihr könnt es nicht haben. Es gehört mir. Wenn ich es nicht mehr brauche, werde ich es an meine treuen Diener weitergeben. ~ [YXUN_22]
+@69  = ~Wenn ihre Pläne versagen, nehmt ihnen einfach das Juwel weg. Ich habe wenig Verständnis für... Versager.~ [YXUN_23]
+@70  = ~Ihr fangt langsam an, mir auf den Geist zu gehen. Her mit dem Juwel, oder es gibt Ärger.~
+@71  = ~Mir gefällt Eure Einstellung, aber ich muss leider darauf bestehen, dass Ihr mir das Juwel gebt.~
+@72  = ~Also gut. Ich habe es versucht. Lebt wohl.~
+@73  = ~Ich bin Soldat bei Tag und Bauer bei Nacht. Die Ernte toter Seelen ist Nahrung für den Krieg meines Volkes.~ [YXUN_24]
+@74  = ~Lange nach meiner Zeit hier werde ich in meiner Heimat schwarzes Getreide ernten und in den Mühlen der Eroberung mahlen.~ [YXUN_25]
+@75  = ~Was hat das mit dem Herzsteinjuwel zu tun?~
+@76  = ~Ich sage, dass Eure Welt stirbt, weil sie lebt. Alle Dinge, die leben, müssen sterben. Ich kann die Muster von Leben und Tod in allem, was mir in diesem Reich begegnet, jeder Maus und jedem Stein, sehen. ~ [YXUN_26]
+@77  = ~Die Lebenskraft Eurer Welt wird von denen aufgezehrt, die das Chaos eher nähren, als die Energie in sinnvolle Bahnen lenken würden. Es ist nur eine Frage der Zeit.~ [YXUN_27]
+@78  = ~Toll. Ich dachte nicht, dass ich so früh im Leben anfangen müsste, Vorräte anzusammeln.~
+@79  = ~Sicher. Guter Versuch, Madame Wahnsinn. Warum habt Ihr das Herzsteinjuwel gestohlen?~
+@80  = ~Wenn ich es primitiver ausdrücken muss, ja, Ihr habt Recht.~ [YXUN_28]
+@81  = ~Und wie passt das Herzsteinjuwel in das Ganze?~
+@82  = ~Euer lockeres Verständnis von Moral ist ein gutes Beispiel für Eure vollkommene Unfähigkeit, die Beschaffenheit des Universums um Euch herum zu verstehen.~ [YXUN_29]
+@83  = ~Schön. Ihr haltet mich also für einen Idioten. Na großartig. Jetzt zum Herzsteinjuwel. Wie passt das in das Ganze?~
+@84  = ~Hm, vielleicht würde ich Euch besser verstehen, wenn Ihr nicht so erklären würdet, als würdet Ihr schlechte Gedichte rezitieren.~
+@85  = ~Ja.~ [YXUN_30]
+@86  = ~Also gut. Also, das Herzsteinjuwel...~
+@87  = ~Ganz recht.~ [YXUN_31]
+@88  = ~Ja.~ [YXUN_32]
+@89  = ~Eben noch redet Ihr wie ein Buch, und auf einmal seid Ihr totenstill. Könntet Ihr das noch ein bisschen genauer erläutern?~
+@90  = ~In Ordnung. Wenn Ihr nicht darüber reden wollt, wir müssen es nicht. Trotzdem würde ich gerne wissen, was Ihr mit dem Herzsteinjuwel vorhabt.~
+@91  = ~Freiheit und Ordnung. Oberflächlich glaubt euresgleichen, dass diese Prinzipien nebeneinander existieren können, ohne miteinander in Konflikt zu geraten.~ [YXUN_33]
+@92  = ~Kratzt man jedoch etwas an dieser Oberfläche, blutet Eure Haut Philosophie. Geht man tiefer, bis auf den Knochen, stößt man auf mich.~ [YXUN_34]
+@93  = ~Okay. Was hat das mit dem Herzsteinjuwel zu tun?~
+@94  = ~Die Bewohner dieser Welt schrecken davor zurück, Wesen in dieser Gestalt anzugreifen. Es verursacht einen gewissen seelischen Schmerz, das zu tun. Aus diesem Grund habe ich diese Gestalt gewählt.~ [YXUN_35]
+@95  = ~Die Konzepte männlich und weiblich, Kind und Erwachsener sind nicht vorhanden in meiner Heimat und sind bei der Kriegsführung völlig irrelevant.~ [YXUN_36]
+@96  = ~Körperliche Hüllen sind mir gleichgültig. Seelen sind die Grundlage meiner Existenz. Sie sind das Licht, das sich durch das Meer des Chaos zu meinen Augen hinabfiltert.~ [YXUN_37]
+@97  = ~Schön.~
+@98  = ~Ganz recht.~ [YXUN_38]
+@99  = ~Ihr habt soeben einen guten Teil meiner Armee zerstört und verlangt nun, dass ich Euch weitere Mittel überlasse. Ich denke, ich bin jetzt mal mit dem Nehmen dran. Betet, dass Eure Seelen bereit sind.~ [YXUN_39]
+@100 = ~Ihr geht nirgendwo hin. Ich werde mich ein bisschen daran erfreuen, Euch für das Vereiteln meiner Pläne zahlen zu lassen.~ [YXUN_40]
+@101 = ~Betet, dass Eure Seelen bereit sind. Sind sie es nicht, werdet Ihr bald meinen Untergebenen dienen.~ [YXUN_41]
+@102 = ~Ich glaube nicht, dass Ihr Euchjetzt Sorgen um Eure langfristigen Pläne machen solltest. Ihr habt im Moment dringlichere Probleme.~ [YXUN_42]
+@103 = ~Sicher... Wie das Herzsteinjuwel. Würde es Euch etwas ausmachen, mir zu sagen, was Ihr damit vorhabt?~
+@104 = ~Wer seid Ihr, dass Ihr mir sagt, was ich zu tun habe?~

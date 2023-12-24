@@ -1,0 +1,11 @@
+--- TS\bgtdlg\rJANJ.D	Wed Dec 29 16:01:59 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rJANJ.D	Thu May 05 10:45:01 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~JANJ~
+ 
+ IF ~~ THEN BEGIN 150
+-  SAY ~Yes, that was quite the voyage, wasn't it?  All the swaying to and fro, and then there was that storm two days ago and the close brush with the dragon turtle, there.  The food reminded me of the time Ma Jansen went on her trip to Smurtlepuss and Uncle Scratchy did all the cooking, too.  Ahhhh, smell the air!  Feel the invigoration!~
++  SAY @0
+   IF ~!IfValidForPartyDialogue("Yoshimo")
+ !IfValidForPartyDialogue("Korgan")
+ Global("ThiefGroup","GLOBAL",2)~ THEN EXTERN ~PPBODHI3~ 12

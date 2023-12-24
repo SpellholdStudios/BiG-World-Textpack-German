@@ -1,0 +1,11 @@
+--- NeJE\dlg\TuMage5.d	Mon Jan 19 15:56:24 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuMage5.d	Tue Apr 09 19:37:33 2019
+@@ -1,7 +1,7 @@
+ BEGIN ~TuMage5~ 1
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~It is not necessary, Caius, the wheels have already been set in motion. What has started cannot now be stopped. We will see to this *other* concern when it is over.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Know_Caius","GLOBAL",3)
+ RealSetGlobalTimer("VP_Hrothar_Timer","GLOBAL",10)
+ ClearAllActions()

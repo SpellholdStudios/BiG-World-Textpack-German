@@ -1,0 +1,10 @@
+--- BardSong_BG2_IWD\SETUP-BardSong_BG2_IWD.tp2	Wed May 26 14:23:49 2021
++++ C:\BWP Patchstudio\patched files\BardSong_BG2_IWD\SETUP-BardSong_BG2_IWD.tp2	Fri Aug 18 09:30:41 2023
+@@ -69,6 +69,7 @@
+ LANGUAGE ~Chinese Simplified~ ~schinese~ ~BardSong_BG2_IWD/tra/schinese/game.tra~ //~BardSong_BG2_IWD/tra/schinese/setup.tra~
+ LANGUAGE ~Chinese Traditional~ ~tchinese~ ~BardSong_BG2_IWD/tra/tchinese/game.tra~ //~BardSong_BG2_IWD/tra/tchinese/setup.tra~
+ LANGUAGE ~French~ ~french~ ~BardSong_BG2_IWD/tra/french/game.tra~ //~BardSong_BG2_IWD/tra/french/setup.tra~
++LANGUAGE ~German~ ~german~ ~BardSong_BG2_IWD/tra/german/game.tra~ //~BardSong_BG2_IWD/tra/german/setup.tra~
+ 
+ 
+ BEGIN @13  

@@ -1,0 +1,11 @@
+--- NeJE\bdash\BGTComp\Xan\AR4405.BAF	Fri Jul 31 18:41:47 2015
++++ C:\BWP Patchstudio\patched files\NeJE\bdash\BGTComp\Xan\AR4405.BAF	Tue Apr 09 19:38:05 2019
+@@ -7,7 +7,7 @@
+ 		SetGlobal("Chapter","GLOBAL",2)
+ 		IncrementChapter("Chptxt-3")
+ 		SetGlobal("Chapter","GLOBAL",4)
+-		AddJournalEntry(~Chapter Four: Bandits and the Iron Shortage  It is certain that the death of Mulahey will relieve the fears of the terrorized folk of Nashkel, but you remain uneasy.  While the half-orc may indeed have caused the evils that befell the mine, the shortage of iron is too widespread to be his doing alone.  His letters confirm your suspicions, and though they give little indication as to where his cohorts are hiding, they may have links to the bandits that currently plague the Coast Way.~,INFO)
++		AddJournalEntry(@0,INFO)
+ END
+ 
+ IF

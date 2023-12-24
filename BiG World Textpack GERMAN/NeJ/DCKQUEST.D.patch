@@ -1,0 +1,61 @@
+--- NeJ\Dfiles\DCKQUEST.D	Sat Sep 18 19:35:04 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DCKQUEST.D	Wed Apr 10 10:23:56 2019
+@@ -2,49 +2,47 @@
+ 
+ IF ~RandomNum(5,0)
+ !Global("LKingDead","GLOBAL",1)~ THEN BEGIN 0
+-  SAY ~When people die, they turn into skeletons.  I'm going to turn into a skeleton.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,1)
+ !Global("LKingDead","GLOBAL",1)~ THEN BEGIN 1
+-  SAY ~Don't let the monsters eat us!~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,2)
+ !Global("LKingDead","GLOBAL",1)~ THEN BEGIN 2
+-  SAY ~They think we're yummy.~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,3)
+ !Global("LKingDead","GLOBAL",1)~ THEN BEGIN 3
+-  SAY ~I want to punch the monsters in the eye.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,4)
+ !Global("LKingDead","GLOBAL",1)~ THEN BEGIN 4
+-  SAY ~I'm hungry!  I'm thirsty!~
++  SAY @4
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("Liz_King_Quest","GLOBAL",1)~ THEN BEGIN 5
+-  SAY ~I don't like this place.~
++  SAY @5
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("LKingDead","GLOBAL",1)~ THEN BEGIN 6
+-  SAY ~Thank you for saving us from the icky lizards.  I'm going to go home now.  Bye bye!~
+-  IF ~~ THEN REPLY ~Farewell, kid.~ DO ~AddXPObject(Player1,21500)
++  SAY @6
++  IF ~~ THEN REPLY @7 DO ~AddXPObject(Player1,21500)
+ AddXPObject(Player2,21500)
+ AddXPObject(Player3,21500)
+ AddXPObject(Player4,21500)
+ AddXPObject(Player5,21500)
+ AddXPObject(Player6,21500)
+ SetGlobal("Liz_King_Quest","GLOBAL",1)
+-EscapeArea()~ SOLVED_JOURNAL ~Find the missing people of Kuldahar.
+-
+-After killing the Lizard King, we encountered a little girl in front of a decline leading to a deeper level of Dragon's Eye.  She thanked us for killing the lizard men and told us that she was going to go home.~ EXIT
++EscapeArea()~ SOLVED_JOURNAL @8 EXIT
+ END

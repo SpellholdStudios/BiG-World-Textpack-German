@@ -1,0 +1,82 @@
+--- NeJE\dlg\BYOSHI25.D	Wed Nov 17 18:27:30 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BYOSHI25.D	Tue Apr 09 19:35:33 2019
+@@ -1,66 +1,66 @@
+ BEGIN ~BYOSHI25~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~Yet I have no doubts that you'd press on for as long as needed. I wonder at the spirit which is so strong in such a delicate body.~
++  SAY @0
+   IF ~~ THEN EXTERN ~BKACHI25~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Fiery maiden, your anger is in vain for I love you all the more for it. I love that you are different from what I was taught to treasure in a woman: the ideal wife shall be obedient, defenseless and rely on her husband to survive. More nonsense invented by old fools and repeated by young fools from generation to generation.~
++  SAY @1
+   IF ~~ THEN EXTERN ~BKACHI25~ 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Kachiko, ever since your family kidnapped you, I have been thinking of a way to prevent an incident like this happening in the future...~
++  SAY @2
+   IF ~~ THEN EXTERN ~BKACHI25~ 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~And I came to the conclusion, that I need to stay by your side day and night to guard you.~
++  SAY @3
+   IF ~~ THEN EXTERN ~BKACHI25~ 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Cherry blossom let me try it in another way then. (Yoshimo goes to his knees): Kachiko, the moment I saw you I wished for us to be together. You are the first woman I love and I feel inseparable from. Would you accept my plea and allow me to stay by your side tonight, Kachiko?~
++  SAY @4
+   IF ~~ THEN EXTERN ~BKACHI25~ 6
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I just put on my most serious mask, my cherry blossom...~
++  SAY @5
+   IF ~~ THEN EXTERN ~BKACHI25~ 7
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Yes, cherry blossom.~
++  SAY @6
+   IF ~~ THEN EXTERN ~BKACHI25~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I saw it for sale at the local market and I acquired it. Are you interested in more details about my... hmm... purchase or do you want to join me in returning the freedom to this wondrous being?~
++  SAY @7
+   IF ~~ THEN EXTERN ~BKACHI25~ 10
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~As the wisest of our ancestors did.~
++  SAY @8
+   IF ~~ THEN EXTERN ~BKACHI25~ 11
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~And may they smile at Kachiko and grant her happiness...~
++  SAY @9
+   IF ~~ THEN EXTERN ~BKACHI25~ 12
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I'll spare you this time, ranger. Cherry Blossom, you embarrass Valygar.~
++  SAY @10
+   IF ~~ THEN EXTERN ~BKACHI25~ 20
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Yes you do. After all, it is a private matter.~
++  SAY @11
+   IF ~~ THEN EXTERN ~BKACHI25~ 21
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~(*Sighs*) You and <CHARNAME> of course.~
++  SAY @12
+   IF ~~ THEN EXTERN ~BVALYG25~ TS150
+ END

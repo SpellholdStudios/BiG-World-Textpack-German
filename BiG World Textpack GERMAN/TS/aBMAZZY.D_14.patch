@@ -1,0 +1,185 @@
+--- TS\bgtnodlg\aBMAZZY.D	Wed Nov 17 12:20:40 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\aBMAZZY.D	Thu May 05 10:45:29 2016
+@@ -1,152 +1,152 @@
+ APPEND ~BMAZZY~
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~The spirit, Kachiko is not always coached from childhood... Sometimes it's like a fire breaking through no matter the attempts to extinguish it. A legend of great deeds, which I heard from a passing bard woke my heart. And I have followed the calling ever since.  ~
++  SAY @0
+   IF ~~ THEN EXTERN ~BKACHI~ 62
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~You are right. There was Patrick. He was a troubled kid, a funny sort... But I liked him a lot. We read together the books of old, going into all sorts of tricks to earn a gold piece a two for another tome. He... he ran away from home to become a sailor or some such and I could not let him do it on his own. Patrick was too... irresponsible. He needed someone to look after him, to keep him on the right track...~
++  SAY @1
+   IF ~~ THEN EXTERN ~BKACHI~ 63
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~Anyway, that was my reason to leave Trademeet. It was awkward for a while, but now I cannot stop. I wish to see all of Faerun! I would like to journey to faraway lands, like Maztica or Kara-Tur! I just cannot stop. My biggest grief is that Patrick is with me no more...~
++  SAY @2
+   IF ~~ THEN EXTERN ~BVALYGA~ TS153
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~That would be a grand thing to do.~
++  SAY @3
+   IF ~~ THEN GOTO TS131
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~Valygar, you shall come along too, my loyal squire.~
++  SAY @4
+   IF ~~ THEN EXTERN ~BVALYGA~ TS154
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Squire... Squire!~
++  SAY @5
+   IF ~~ THEN EXTERN ~BVALYGA~ TS330
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~Are you always listening to my conversations with Valygar? I do not need your help to give him instructions, <CHARNAME>.  You do not own him!~
++  SAY @6
+   IF ~~ THEN EXTERN ~BVALYGA~ TS331
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~I know your name perfectly well, my loyal squire. Yet I did not start imagine that you preferred it over the title of a knight's squire.~
++  SAY @7
+   IF ~~ THEN EXTERN ~BVALYGA~ TS332
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~I bet if it <CHARNAME> offered to let you be her squire, you'd be very willing.~
++  SAY @8
+   IF ~~ THEN EXTERN ~BVALYGA~ TS333
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~<CHARNAME>, let me judge for myself when I need speak to my squire.~
++  SAY @9
+   IF ~~ THEN EXTERN ~BVALYGA~ TS334
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~Oh, so you did hear me? You just decided not to answer my call?~
++  SAY @10
+   IF ~~ THEN EXTERN ~BVALYGA~ TS335
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~Might I know why?~
++  SAY @11
+   IF ~~ THEN EXTERN ~BVALYGA~ TS336
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~Typical! <CHARNAME> says a single word and she is tact and kindness and gentleness incarnate... whereas I am merely bossy and complaining. Might I remind you that it is I that watched your back and who protected from blows that were to injure you in the last battle...~
++  SAY @12
+   IF ~~ THEN EXTERN ~BVALYGA~ TS337
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~I apologize then that I have disturbed you. You can return to what you were doing... Staring at <CHARNAME> I believe...~
++  SAY @13
+   IF ~~ THEN EXTERN ~BVALYGA~ TS338
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~No, no. I am in fine condition, ready for battle as always!~
++  SAY @14
+   IF ~~ THEN EXTERN ~BVALYGA~ TS340
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~I was thinking of someone... someone who is no longer with me... of Patrick. I miss him so much, Valygar. He was a wonderful person and a dear friend. I fell in love with him the day we met. Patrick could track an enemy tirelessly for days, he could fight like a lion, just like any other ranger, but he could also tell a story of old as if it happened before his very eyes...~
++  SAY @15
+   IF ~~ THEN EXTERN ~BVALYGA~ TS341
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~Patrick was not a halfing. You know Valygar, just because we were lovers, everyone assumes that he was a halfing. He was a human.~
++  SAY @16
+   IF ~~ THEN EXTERN ~BVALYGA~ TS342
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~Yes. You find that strange do you? That other races should find us, short people, attractive?~
++  SAY @17
+   IF ~~ THEN EXTERN ~BVALYGA~ TS343
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~ Love should be reserved for tall and beautiful in the world of humans and elvenkind, is that it?~
++  SAY @18
+   IF ~~ THEN EXTERN ~BVALYGA~ TS344
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~Maybe... you are somewhat similar... But... But that does not imply that I might be falling for you! Not at all. Do not even think of that.~
++  SAY @19
+   IF ~~ THEN EXTERN ~BVALYGA~ TS345
+ END
+ 
+ IF ~~ THEN BEGIN TS147
+-  SAY ~Pap! It is common knowledge and plain as the nose on your face that you are partial to <CHARNAME>'s attentions...~
++  SAY @20
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS148
+-  SAY ~None of them are here to trade a tale or share a glass of wine with. Shadows took them all.~
++  SAY @21
+   IF ~~ THEN EXTERN ~BSIME~ 84
+ END
+ 
+ IF ~~ THEN BEGIN TS149
+-  SAY ~I was under the impression that you are a loner, Sime.~
++  SAY @22
+   IF ~~ THEN EXTERN ~BSIME~ 85
+ END
+ 
+ IF ~~ THEN BEGIN TS150
+-  SAY ~So do I. To Patrick, my beloved!~
++  SAY @23
+   IF ~~ THEN EXTERN ~BSIME~ 86
+ END
+ 
+ IF ~~ THEN BEGIN TS151
+-  SAY ~To Andrea and her little pseudo-dragon! I swear, I miss the little bugger.~
++  SAY @24
+   IF ~~ THEN EXTERN ~BSIME~ 262
+ END
+ 
+ IF ~~ THEN BEGIN TS152
+-  SAY ~But of course the sword! Long had the slender and bright blades fascinated me. Look, how well balanced it is and how it flows lightly through the air. Is it not beautiful?~
++  SAY @25
+   IF ~~ THEN EXTERN ~BSIME~ 88
+ END
+ 
+ IF ~~ THEN BEGIN TS153
+-  SAY ~Your voice is impartial, but I can see the glimmer in your eyes. You like swords, Sime Linvail.~
++  SAY @26
+   IF ~~ THEN EXTERN ~BSIME~ 89
+ END
+ 
+ IF ~~ THEN BEGIN TS154
+-  SAY ~Of course. Still I reckon you a fierce adversary, no matter what you wield. Swords do not win battles. Fighters do.~
++  SAY @27
+   IF ~~ THEN EXTERN ~BSIME~ 90
+ END
+ 
+ IF ~~ THEN BEGIN TS155
+-  SAY ~(*laughs*) Oh, that one! A wizards' toy!~
++  SAY @28
+   IF ~~ THEN EXTERN ~BSIME~ 91
+ END
+ 
+ IF ~~ THEN BEGIN TS156
+-  SAY ~I wish I had been there to see it. Serves as a good warning. A good fighter shall not entrust his life to a magical trinket!~
++  SAY @29
+   IF ~~ THEN EXTERN ~BSIME~ 92
+ END
+ END

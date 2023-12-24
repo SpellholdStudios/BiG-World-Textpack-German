@@ -1,0 +1,10 @@
+--- TS\bgtdlg\NSONS.D	Wed Dec 29 14:20:58 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\NSONS.D	Thu May 05 10:44:59 2016
+@@ -1,6 +1,6 @@
+ BEGIN ~NSONS~ 74343
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~I have no desire to speak with you.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

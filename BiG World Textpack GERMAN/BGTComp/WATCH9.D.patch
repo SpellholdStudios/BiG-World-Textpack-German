@@ -1,0 +1,28 @@
+--- BGTComp\WATCH9.D	Sat Sep 09 19:04:00 2006
++++ C:\BWP Patchstudio\patched files\BGTComp\WATCH9.D	Wed Apr 10 10:23:49 2019
+@@ -1,21 +1,21 @@
+ BEGIN ~WATCH9~
+ 
+ IF ~RandomNum(4,1)~ THEN BEGIN 0
+-  SAY ~Hmph. The twerp's grown up, I see.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,2)~ THEN BEGIN 1
+-  SAY ~<CHARNAME>, where've you been all my life? This place has fallen apart without you around to run errands all the time.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,3)~ THEN BEGIN 2
+-  SAY ~Hull's got to stop holding his meadfests. My head is killing me!~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,4)~ THEN BEGIN 3
+-  SAY ~Welcome home, <CHARNAME>.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END

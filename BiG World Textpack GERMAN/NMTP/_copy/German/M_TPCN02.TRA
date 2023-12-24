@@ -1,0 +1,57 @@
+@1    = ~Nein, ich möchte lieber hier bleiben.~
+@2    = ~Ihr wolltet mich angreifen?~
+@3    = ~Vorsicht mit meinem Wein.~ 
+@4    = ~Ha, verstorben.~
+@10   = ~\[Sinneswandel\] (Ihr bemerkt, dass sein linkes Auge ein künstliches Auge ist.)~ 
+@11   = ~(Etwas scheint Eure Aufmerksamkeit zu erwecken.)~
+@65   = ~(Fertigkeiten Identifizierung...)~
+@66   = ~(Fertigkeiten Identifizierung beendet)~
+@1000 = ~Ich kenne Euch nicht... (Der betrunkene alte Mann dreht den Kopf und starrt Euch an. Ihr bemerkt, dass in seinem linken Auge ein seltsames Licht aufblitzt.) Ihr habt den Falschen.~
+@1001 = ~Tut mir Leid, auf Wiedersehen.~ 
+@1010 = ~Ist Eure Gruppe junger Abenteurer also auf der Suche nach dem alten einäugigen Kauz. Was ist los?~
+@1011 = ~Ich frage mich... was ist mit Eurem linken Auge passiert?~
+@1012 = ~(Rülpst)... In den Privatangelegenheiten anderer Leute herumzuschnüffeln ist keine gute Angewohnheit. (Der Alte dreht sich um und starrt Euch an, Ihr bekommt plötzlich unerklärliche Angst, so dass es Euch den Atem raubt.)
+Macht das nicht wieder. (Gerade als Ihr merkt, wie Eure Hände zu zittern beginnen, lächelt der alte Mann plötzlich und Ihr fühlt Euch sofort entspannt.) Ich lade Euch auf ein Getränk ein!~ 
+@1013 = ~Vielen Dank, darf ich fragen (und sorgfältig wählt Ihr Eure Worte), wie das passiert ist?~
+@1014 = ~(Der alte Mann schaut Euch an, seine Augen leuchten unterschiedlich im Licht, was besonders merkwürdig aussieht.) 
+Angst geht nicht von äußerlicher Bedrohung aus, sondern ist eine Antwort der innersten Gefühle. Einige von Euch haben großen Scharfsinn. Wenn Ihr diese Fähigkeiten erlernen wollt, kann ich sie Euch beibringen.~ 
+@1015 = ~Vielen Dank.~
+@1020 = ~Ist eine Gruppe junger Abenteurer nicht auf der Jagd nach Kobold-Hintern, sondern auf der Suche nach dem einäugigem Kauz. Was kann ich für Euch tun?~
+@1021 = ~Woher wisst Ihr, dass wir Kobolde töteten?~
+@1022 = ~(Rülpst) ...Weil Euer ganzer Körper stinkt! (Der alte Mann nimmt einen kräftigen Schluck und hustet, Ihr bemerkt, dass seine Augen im Licht unterschiedlich leuchten.) Kommt, Ihr Helden aus Nashkel, ich lade Euch ein, ein Glas zu trinken!~ 
+@1023 = ~Vielen Dank, Euer Scharfsinn ist sehr groß, könnt Ihr uns unterrichten?~
+@1024 = ~(Der alte Mann dreht sich überrascht zu Euch um und lacht plötzlich.) 
+Ihr Helden aus Nashkel wollt also vom einäugigem Kauz lernen? Ha ha! Könnt Ihr, ah, aber Ihr müsst mir ein paar Bier als Entgelt für den Unterricht zahlen. Ich möchte Euch nicht nüchtern unterrichten. Naja... ungefähr 200 Goldmünzen.~ 
+@1025 = ~Vielen Dank, hier ist das Gold, das Ihr wollt.~ 
+@1026 = ~Ich werde darüber nachdenken.~
+@1030 = ~Ist Eure Gruppe junger Abenteurer nicht bei der Sammlung von Räuberskalpen, sondern auf der Suche nach dem einäugigem Kauz. Was kann ich für Euch tun?~ 
+@1031 = ~Woher wusstet Ihr, dass wir die Räuber töteten?~
+@1032 = ~(Rülpst)... Wenn die Armeepatrouille von Amn Euch an der Türe sieht, wissen sie nach einen Blick auf Eure Kleidung, woher Ihr kommt. (Der alte Mann nimmt einen kräftigen Schluck und hustet, Ihr bemerkt, dass seine Augen im Licht unterschiedlich leuchten) Kommt, Ihr Helden der Schwertküste, ich lade Euch ein, ein Glas zu trinken!~
+@1033 = ~Vielen Dank, Euer Scharfsinn ist sehr groß, könnt Ihr uns unterrichten?~
+@1034 = ~(Der alte Mann dreht sich überrascht zu Euch um und lacht plötzlich.)
+Ihr Helden der Schwertküste wollt also vom einäugigem Kauz lernen? Ha ha! Könnt Ihr, ah, aber Ihr müsst mir ein paar Bier als Entgelt für den Unterricht zahlen. Ich möchte Euch nicht nüchtern unterrichten. Naja... ungefähr 100 Goldmünzen.~
+@1035 = ~Vielen Dank, hier ist das Gold, das Ihr wollt.~
+@1036 = ~Ich werde darüber nachdenken.~
+@1040 = ~Hallo, Ihr seid auf der Suche nach dem einäugigen Kauz. Was kann ich für Euch tun?~
+@1041 = ~Hier ist das Gold, das Ihr wollt.~
+@1042 = ~Nichts, hallo sagen, auf Wiedersehen.~
+@1060 = ~Was möchtet Ihr lernen?~
+@1061 = ~Ich möchte \[Bedrohung\] trainieren.~
+@1062 = ~Ich möchte \[Sinneswandel\] trainieren.~
+@1063 = ~Ich werde zu Euch kommen, wenn ich trainieren will.~
+@1100 = ~Ich freue mich, Euch zu sehen. Ihr seid auf der Suche nach dem einäugigen Kauz. Was kann ich für Euch tun?~
+@1101 = ~Ich will die Fertigkeiten \[Einschüchterung\] trainieren.~
+@1102 = ~Ich will die Fertigkeiten \[Sinneswandel\] trainieren.~
+@1103 = ~Nichts, nur "Hallo" sagen.~
+@1110 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Bedrohung\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~
+@1111 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Bedrohung\] trainieren.~
+@1112 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Bedrohung\] trainieren.~
+@1113 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Bedrohung\] trainieren.~
+@1114 = ~Ich will so viel Fertigkeiten \[Bedrohung\] wie möglich trainieren.~
+@1115 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1120 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Sinneswandel\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~
+@1121 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Sinneswandel\] trainieren.~
+@1122 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Sinneswandel\] trainieren.~
+@1123 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Sinneswandel\] trainieren.~
+@1124 = ~Ich will so viel Fertigkeiten \[Sinneswandel\] wie möglich trainieren.~
+@1125 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~

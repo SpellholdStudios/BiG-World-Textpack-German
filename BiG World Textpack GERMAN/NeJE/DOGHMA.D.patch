@@ -1,0 +1,36 @@
+--- NeJE\dlg\DOGHMA.D	Fri Mar 30 02:57:11 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DOGHMA.D	Tue Apr 09 19:35:51 2019
+@@ -4,7 +4,7 @@
+ PartyHasItem("misc7L")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 3
+@@ -13,7 +13,7 @@
+ PartyHasItem("misc7L")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 7
+@@ -22,7 +22,7 @@
+ PartyHasItem("misc7L")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 9
+@@ -31,5 +31,5 @@
+ PartyHasItem("misc7L")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END

@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V10.baf	Tue Dec 02 00:22:40 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V10.baf	Wed Apr 10 10:28:30 2019
+@@ -8,10 +8,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~We might as well just lie down and die.~) // "We might as well just lie down and die."
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~No one's going to save us..~) // "No one's going to save us.."
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ END
+ 

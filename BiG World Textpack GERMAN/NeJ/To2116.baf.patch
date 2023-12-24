@@ -1,0 +1,11 @@
+--- NeJ\baf\To2116.baf	Fri Mar 05 08:20:54 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\To2116.baf	Wed Apr 10 10:29:54 2019
+@@ -12,7 +12,7 @@
+ 		ActionOverride(Player5,LeaveAreaLUA("TT2100","",[1304.2157],12))
+ 		ActionOverride(Player6,LeaveAreaLUA("TT2100","",[1300.2108],12))
+ 		ActionOverride(Player1,MultiPlayerSync())
+-		ActionOverride(Player1,DisplayStringHead(Myself,~This entrance is locked. Arundel doesn't permit you to go upstairs.~))
++		ActionOverride(Player1,DisplayStringHead(Myself,@0))
+ END
+ 
+ IF

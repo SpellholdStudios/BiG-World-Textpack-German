@@ -1,0 +1,41 @@
+--- NeJE\dlg\BAERIE2.D	Tue Nov 16 19:35:22 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BAERIE2.D	Tue Apr 09 19:34:50 2019
+@@ -1,32 +1,32 @@
+ APPEND ~BAERIE25~
+ 
+ IF ~~ THEN BEGIN TS166
+-  SAY ~I thought... or never mind... You will laugh...~
++  SAY @0
+   IF ~~ THEN EXTERN ~BVALYG25~ TS190
+ END
+ 
+ IF ~~ THEN BEGIN TS167
+-  SAY ~But you... you will laugh at me...~
++  SAY @1
+   IF ~~ THEN EXTERN ~BVALYG25~ TS191
+ END
+ 
+ IF ~~ THEN BEGIN TS168
+-  SAY ~I thought that you... you might be Shaundakul's avatar... You are tall and handsome and dark-haired... You are dressed in the plain leather and you step lightly.~
++  SAY @2
+   IF ~~ THEN EXTERN ~BVALYG25~ TS192
+ END
+ 
+ IF ~~ THEN BEGIN TS169
+-  SAY ~I knew... I knew you would laugh.~
++  SAY @3
+   IF ~~ THEN EXTERN ~BVALYG25~ TS193
+ END
+ 
+ IF ~~ THEN BEGIN TS170
+-  SAY ~Valygar, do you ever think about anybody but <CHARNAME>?~
++  SAY @4
+   IF ~~ THEN EXTERN ~BVALYG25~ TS194
+ END
+ 
+ IF ~~ THEN BEGIN TS171
+-  SAY ~No... nothing... Do not mind me...~
++  SAY @5
+   IF ~~ THEN EXTERN ~BVALYG25~ TS195
+ END
+ END

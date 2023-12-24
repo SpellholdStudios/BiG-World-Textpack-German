@@ -1,0 +1,122 @@
+@0    = ~So the giants have new lackeys.  What is it that you want of me?~
+@1    = ~I do not serve the giants.~
+@2    = ~Nothing.  Farewell.~
+@3    = ~So you return.  What do you want of me?~
+@4    = ~I would ask you some questions.~
+@5    = ~Wyrm’s Tooth.
+
+We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.~
+@6    = ~You asked me to free you from slavery.  I will make an effort to do so, although I foresee this as a difficult task.~
+@7    = ~I have been working toward earning you your freedom.~
+@8    = ~You asked me to kill the creature that the slaves are being sacrificed to.  I will do it.~
+@9    = ~I have been working toward slaying the beast that the slaves are being sacrificed to.~
+@10   = ~I find that hard to believe... but let us suppose for the moment that it is true.  What is it that you want of me?~
+@11   = ~Then ask them.~
+@12   = ~Who are you?~
+@13   = ~What are you doing here?~
+@14   = ~Wyrm’s Tooth.
+
+We have found a group of people in the caverns that are held by the frost giants as slaves.~
+@15   = ~Do you know anything about these caverns?~
+@16   = ~Is there anything you can tell me about the giants?~
+@17   = ~That skeleton over there.  I find it fascinating.  Do you know anything about it?~
+@18   = ~My name is Davin Berenson.  I am at your service.  Is there something else you would ask of me?~
+@19   = ~Yes, I have more questions.~
+@20   = ~No, farewell.~
+@21   = ~I am a slave.  As a matter of fact, all the people that you see here are slaves.  However, we will not be slaves for much longer.~
+@22   = ~Why do you say that?~
+@23   = ~Every day the giants come here and take one of us away.  Whoever is taken is never seen again.  Our numbers are dwindling so it is only a matter of time before we are slaves no more.~
+@24   = ~What happens to the ones who are taken away?~
+@25   = ~Wyrm’s Tooth.
+
+We have discovered that the frost giants are sacrificing slaves to some creature that lives here in the caverns.~
+@26   = ~They are sacrificed to some... creature that lives here in the caverns.  I know this because the giants gloat over our fate as they lead their chosen victim off.~
+@27   = ~The creature you speak of is dead.  There will be no more sacrifices.~
+@28   = ~Wyrm’s Tooth.
+
+We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.~
+@29   = ~That is a terrible fate that none should suffer.  I would end it if it were in my power.~
+@30   = ~Wyrm’s Tooth.
+
+The slave, Davin Berenson, told us of some creature that the frost giants are sacrificing slaves to. This is a terrible fate that no one should have to suffer.~
+@31   = ~Oh? How do you know this to be true?~
+@32   = ~I am the slayer of the creature. ~
+@33   = ~That is excellent news.  You have saved us from a horrible fate.  However, we are still in a desperate situation since the giants hold us captive here.  I would ask that you free us.~
+@34   = ~Yes, I will make an effort to do so.  I foresee this as a difficult task, though.~
+@35   = ~No, I have no desire to fight the frost giants.  Farewell for now.~
+@36   = ~Wyrm’s Tooth.
+
+We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We refused to help him at this time. None of us want to fight a cavern full of frost giants. Such a battle could be very costly.~
+@37   = ~I will consider it.  Farewell for now.~
+@38   = ~Wyrm’s Tooth.
+
+We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We told him we would take the matter under consideration. Fighting a cavern full of frost giants could be a very costly battle.~
+@39   = ~Yes... but I think I know how it may be accomplished...~
+@40   = ~Oh?  Please tell me.~
+@41   = ~There are only two paths out of here.  One lies through the heart of the giants’ domain, and they know we cannot pass through without being seen.  The other is a small cave to the north of here.  The giants only place one guard upon us to prevent us from entering that cave and gaining our freedom.~
+@42   = ~Do you know what lies within this cave?~
+@43   = ~Well... no.  Perhaps you should start your quest by scouting the cave and removing any... *hazards* there before removing the guard.~
+@44   = ~Very well.  I shall do so.  Farewell.~
+@45   = ~Wyrm’s Tooth.
+
+We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. We have agreed to scout out the cave for any dangers and see if it indeed leads to an exit.~
+@46   = ~I have done so already.  You need fear nothing in the cave.~
+@47   = ~Wyrm’s Tooth.
+
+We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. Davin asked us to scout out this cave for dangers and to see if it indeed leads to freedom. Fortunately, we have already done this.~
+@48   = ~That is good news indeed.  Then you need only eliminate the guard without alerting the giants. ~
+@49   = ~Wyrm’s Tooth.
+
+We need to slay the frost giant that guards the slave pens, and we need to accomplish this without alerting the other giants. This may prove a difficult task, but it is necessary.~
+@50   = ~I have done so already.  It seems there are no obstacles to your freedom.  Leave now, while you can.~
+@51   = ~Wyrm’s Tooth.
+
+We told Davin that we cleared the cave north of the slave pens of any danger. We now need to slay the guard and then the slaves will be free.~
+@52   = ~Wyrm’s Tooth.
+
+We told Davin that the slave pen guard is dead. We now need to go to the cave to the north of the pens and clear it of any dangers.~
+@53   = ~Wyrm’s Tooth.
+
+We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We have agreed to go and slay this beast, whatever it may be.~
+@54   = ~Wyrm’s Tooth.
+
+We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We agreed that we have no desire to fight some unknown beast.~
+@55   = ~Wyrm’s Tooth.
+
+We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. Although we agree that we have no desire to fight some unknown beast, we are still considering the matter.~
+@56   = ~Upper Dorn’s Deep.
+
+Bandoth informed us that there is a puzzle room to tackle before we’ll be able to descend further into the stronghold. Apparently it has three rings with multiple plates on each ring. From what we gather, each ring has one plate that disarms the other plates on that particular ring. It can only be assumed that the other plates contain traps of some sort.~
+@57   = ~Wyrm’s Tooth.
+
+Davin asked us to slay the frost giant guard that watches over the slave pens, but we had already done it, so he was free to go.~
+@58   = ~You... I... my friend, that is excellent news!  I thank you from the bottom of my heart.  Forgive me for cutting our conversation short, but we will be leaving now.  Thank you for all that you have done for us.~
+@59   = ~Farewell, Davin.~
+@60   = ~I am sorry, but there is nothing I can tell you.  My experience in these caverns has been limited to this small area you see here.~
+@61   = ~I see.  Let me ask you something else.~
+@62   = ~Farewell for now.~
+@63   = ~The giants have shown themselves to be brutal, cruel, and stupid.  However, at times, they show cunning that astounds me considering their lack of intelligence.  I know nothing more of them.~
+@64   = ~That skeleton... I feel shivers travel up my spine every time I lay eyes upon it... but I have no idea what it is.  I suppose it could be the remains of a great wyrm.  Perhaps that is why this is known as Wyrm’s Tooth glacier.  Who is to say?~
+@65   = ~Why does it frighten you so?~
+@66   = ~A man spends a lifetime hearing tales of such creatures and in that lifetime he will see nary a one.  Tales of the boogieman, ghosts, and dragons -- in time you begin to think they are nothing but tales spun to frighten small children... I never believed in dragons till I saw that skeleton.  Now I wonder just how many of those other tales may be true and what really lies out there in the world...~
+@67   = ~Yes, and we are all very grateful.  How goes the task?~
+@68   = ~I have slain the giant leader, Joril.  You are free to leave by that path.~
+@69   = ~Wyrm’s Tooth.
+
+We told Davin of Joril Frostbeard’s death. With his death the path to freedom for the slaves has been opened.~
+@70   = ~I have cleared the north cave of any *hazards* and slain the guard.  You are free to go now.~
+@71   = ~Wyrm’s Tooth.
+
+We told Davin that we cleared the cave north of the slave pens of any danger. We also have slain the frost giant guarding the pens. This opened the path to freedom for the slaves.~
+@72   = ~I have cleared the north cave of any *hazards* for you.  I will go and slay the guard now.  Farewell.~
+@73   = ~I have slain the guard.  I will go and clear the north cave for you now.  Farewell.~
+@74   = ~I am working on it.  I will return when I have completed the task.~
+@75   = ~I pray that this is not some evil game of deception that you are playing with me... If what you say is true then by all means go and slay the beast.~
+@76   = ~Yes, I will make an effort to do so.  Where can this creature be found?~
+@77   = ~No, I have no desire to fight some unknown beast.  Farewell for now.~
+@78   = ~A heroic task that I am certain you can accomplish.  Good luck to you and thank you.~
+@79   = ~I have already slain the beast.  You need no longer fear it.~
+@80   = ~I have slain the beast.  You need no longer fear it.~
+@81   = ~I have yet to complete the quest but I am working on it.  Farewell for now.~
+@82   = ~I am not certain.  I have seen the giants lead their victim to the south upon leaving this cavern.  The beast must lie in that direction.~
+@83   = ~I see.  I will begin my search there.  Farewell for now.~

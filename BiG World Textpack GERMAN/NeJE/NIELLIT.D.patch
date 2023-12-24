@@ -1,0 +1,11 @@
+--- NeJE\dlg\NIELLIT.D	Mon Jan 19 15:55:28 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\NIELLIT.D	Tue Apr 09 19:36:57 2019
+@@ -1,7 +1,7 @@
+ BEGIN ~NIELLIT~ 2
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~Tilorn, we need this artifact, we need it pretty soon... You cannot deny <PRO_HISHER> role is important in our cause. At all costs, we must preserve the cycle.~
++  SAY @0
+   IF ~~ THEN DO ~PlaySound("EFF_M83")
+ ScreenShake([50.50],15)~ EXTERN ~LARIA~ 1
+ END

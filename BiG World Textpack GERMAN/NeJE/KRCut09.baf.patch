@@ -1,0 +1,11 @@
+--- NeJE\KeldornR\baf\KRCut09.baf	Sun Jan 03 21:24:04 2016
++++ C:\BWP Patchstudio\patched files\NeJE\KeldornR\baf\KRCut09.baf	Tue Apr 09 19:41:04 2019
+@@ -21,7 +21,7 @@
+ 		SmallWait(6)
+ 		ActionOverride("Keldorn",CreateVisualEffectObject("SPDEATH3",Myself))
+ 		ActionOverride("Keldorn",PlayDead(120))
+-		DisplayStringHead(Myself,~Keldorn!~) 
++		DisplayStringHead(Myself,@0) 
+ 		Wait(3)
+ 		ActionOverride("PrCyric",ForceSpell(Myself,DRYAD_TELEPORT))
+ 		Wait(2)

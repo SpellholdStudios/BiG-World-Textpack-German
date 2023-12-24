@@ -1,0 +1,20 @@
+--- NeJE\TS\baf\DoorSeal.baf	Thu Dec 30 16:35:49 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\DoorSeal.baf	Tue Apr 09 19:39:52 2019
+@@ -5,7 +5,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Nakanishi_Hostile","GLOBAL",1)
+-		DisplayStringHead([PC],~Doors to Nakanishi underground compound are sealed. An invisible wall prevents your advancement into thier territory. Nakanishi are all hostile.~)
++		DisplayStringHead([PC],@0)
+ END
+ 
+ IF
+@@ -15,7 +15,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Nakanishi_Hostile","GLOBAL",2)
+-		DisplayStringHead([PC],~You cannot move back to the caves. Doors to the underground compound have been sealed forever.~)
++		DisplayStringHead([PC],@1)
+ END
+ 
+ 

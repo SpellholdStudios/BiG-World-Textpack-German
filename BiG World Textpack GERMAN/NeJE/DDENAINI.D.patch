@@ -1,0 +1,374 @@
+--- NeJE\dlg\DDENAINI.D	Fri Nov 26 08:59:35 2021
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DDENAINI.D	Mon Nov 22 10:27:21 2021
+@@ -1,275 +1,235 @@
+ BEGIN ~DDENAINI~ 8248
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~I will not permit you to desecrate this tower!  Stay away!  I... I... don't want to fight you!  Just leave!~
+-  IF ~~ THEN REPLY ~Calm down.  We have no intention of desecrating this tower.   Tell me -- who are you?  ~ GOTO 1
+-  IF ~~ THEN REPLY ~You'll haunt this place no more, spirit!  Time to send you back to your realm!~ DO ~Enemy()~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 DO ~Enemy()~ EXIT
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~We will do as you ask and leave.~ EXIT
++Dead("Erevain")~ THEN REPLY @3 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~We will do as you ask and leave.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @3 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~My... My name is Denaini.  I am a priestess of the Hand.  Er... what used to be the Hand.   As you can see, there isn't much left of it.  And what remains is a horrid travesty of what we once held sacred.~
+-  IF ~~ THEN REPLY ~What happened to the Hand?~ GOTO 2
+-  IF ~~ THEN REPLY ~You're a priestess?~ GOTO 11
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO 2
++  IF ~~ THEN REPLY @6 GOTO 11
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I will see what remains for myself. Farewell, priestess.~ EXIT
++Dead("Erevain")~ THEN REPLY @7 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I will see what remains for myself. Farewell, priestess.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @7 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~The Hand of the Seldarine was once a proud achievement of the Ar-Tel Quessir.  Out of the raw harshness of the cold, we carved a beautiful Elven citadel where we prospered for many centuries.  During that time, we were in constant war with the dark horde that plagued the area.  In the end, the dark horde began to overwhelm us and in a desperate plan to save what was left, Larrel cast the Mythal that cursed us all.~
+-  IF ~~ THEN REPLY ~What can you tell me about Larrel and the Mythal?~ GOTO 3
+-  IF ~~ THEN REPLY ~Tell me about yourself.~ GOTO 11
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 3
++  IF ~~ THEN REPLY @10 GOTO 11
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Larrel was our leader, one of the most respected wizards of the Hand.  He was the one responsible for building the Hand of the Seldarine centuries ago.  After its creation, the Ar-Tel Quisser lived in a state of growth and prosperity.  Turning the surrounding area into fertile lands and crafting magical items of exceptional power, we made a proud monument to the elven way of life.~
+-  IF ~~ THEN REPLY ~Then what happened?~ GOTO 4
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 4
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Soon after, we found ourselves in a war with the dark horde.  Vicious orcs and goblins who wanted nothing more than to destroy everything we held dear!  The war with them raged for many decades.  Towards the end, the dark horde was beginning to overrun us.  Desperate, Larrel cast the Mythal in hopes of bringing us salvation.  Instead he brought annihilation.~
+-  IF ~~ THEN REPLY ~Mythal?  Is that some sort of enchantment?~ GOTO 5
++  SAY @14
++  IF ~~ THEN REPLY @15 GOTO 5
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~The Mythal is a powerful spell from ancient and almost forgotten elven lore.  It creates a living force that embodies the area it is cast on.  Sustaining itself on the natural processes of the environment, it can be bestowed with powers to enhance its protective nature.~
+-  IF ~~ THEN REPLY ~And the Mythal was intended to protect the Hand from the horde?~ GOTO 6
+-  IF ~~ THEN REPLY ~I see.  Can you tell me more about the Hand itself?~ GOTO 2
++  SAY @16
++  IF ~~ THEN REPLY @17 GOTO 6
++  IF ~~ THEN REPLY @18 GOTO 2
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Yes.  When we faced the grim reality that we were losing, we had to buy time to receive reinforcements from our brothers and sisters in the south.  Larrel devised a desperate plan to save us.  He intended to lay a Mythal down on the Hand that would prevent any of the dark horde from entering.~
+-  IF ~~ THEN REPLY ~What happened then?~ GOTO 8
+-  IF ~~ THEN REPLY ~I see.  Can you tell me more about the Hand itself?~ GOTO 2
++  SAY @19
++  IF ~~ THEN REPLY @20 GOTO 8
++  IF ~~ THEN REPLY @18 GOTO 2
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Even with our swords striking swift and our arrows hitting true, our defenses were being breached.  We held out for a week before our last line of defense was broken.  As the dark horde began ascending our towers and cutting down the last of the elven defenders, a shroud of light engulfed the Hand.  We had succeeded in buying Larrel time with our lives.  The Mythal had been cast.~
+-  IF ~~ THEN REPLY ~What went wrong?~ GOTO 8
+-  IF ~~ THEN REPLY ~I see.  Can you tell me more about the Hand itself?~ GOTO 2
++  SAY @21
++  IF ~~ THEN REPLY @22 GOTO 8
++  IF ~~ THEN REPLY @18 GOTO 2
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~At the time, we thought Larrel had released our salvation.  Instead, he damned us all.  Something went terribly wrong with the spell -- every living thing in the surrounding land and inside the Hand itself was drained of its life essence, almost to the point of death.  Our people and our attackers became as shades, driven mad by the life that was taken from them.  Even worse, the energies of the Mythal took those who had died and brought them back as undead.~
+-  IF ~~ THEN REPLY ~You say all living things were driven mad when they became shades, yet you can still speak to me.  Why?~ UNSOLVED_JOURNAL ~To restore the pools of the elven shrine.
+-
+-We came upon Denaini in Solonor's Tower of the Severed Hand.  She told us the sad tale of how the Severed Hand fell and Larrel's disastrous attempt at saving his people by casting a Mythal, a form of ancient elven magic.~ GOTO 9
+-  IF ~~ THEN REPLY ~I see.  Can you tell me more about the Hand itself?~ GOTO 2
++  SAY @23
++  IF ~~ THEN REPLY @24 UNSOLVED_JOURNAL @25 GOTO 9
++  IF ~~ THEN REPLY @18 GOTO 2
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~A few of us maintained our sanity and some semblance of who we were.  Cursed, as we are powerless to do anything to change it or to put any of our brothers and sisters to proper rest.    ~
+-  IF ~~ THEN REPLY ~A sad tale indeed, Denaini.  Could you speak of your time here as a priestess?~ GOTO 10
++  SAY @26
++  IF ~~ THEN REPLY @27 GOTO 10
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I grieve for your pain, Denaini. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @28 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I grieve for your pain, Denaini. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @28 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I was one of the younger acolytes of the Hand.  During the days when the Hand was still in its glory, I spent most of my time here.  As you can see, this level of Solonor Tower was our shrine to our gods.  Here is where the elves of the Hand spent some of their free time worshipping.~
+-  IF ~Global("PriestsQuest","GLOBAL",0)~ THEN REPLY ~What of the other priests in this tower?~ GOTO 11
+-  IF ~Global("HolyWaterGiven","GLOBAL",0)~ THEN REPLY ~Tell me more of this elven shrine.~ DO ~SetGlobal("HolyWaterQuestGiven","GLOBAL",1)~ UNSOLVED_JOURNAL ~To restore the pools of the elven shrine.
+-
+-Denaini spoke of the beauty of this elven shrine in its more glorious days.  She mentioned she could restore the pools if she had some holy water.~ GOTO 15
++  SAY @29
++  IF ~Global("PriestsQuest","GLOBAL",0)~ THEN REPLY @30 GOTO 11
++  IF ~Global("HolyWaterGiven","GLOBAL",0)~ THEN REPLY @31 DO ~SetGlobal("HolyWaterQuestGiven","GLOBAL",1)~ UNSOLVED_JOURNAL @32 GOTO 15
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I must take my leave. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @11 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I must take my leave. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @11 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~As with everyone in the Hand when Larrel cast the Mythal, we were drained of our life essence and transformed into this blasphemous state of existence.  Except for myself, the priests now haunt the upper levels of Solonor tower completely void of soul and consciousness.   They are condemned to live this way unless... unless someone can put them to rest.~
+-  IF ~~ THEN REPLY ~I'd like to hear more about Larrel and the Mythal.~ GOTO 3
+-  IF ~~ THEN REPLY ~You're asking me to kill the priests?~ DO ~SetGlobal("PriestsQuest","GLOBAL",1)~ GOTO 12
++  SAY @33
++  IF ~~ THEN REPLY @34 GOTO 3
++  IF ~~ THEN REPLY @35 DO ~SetGlobal("PriestsQuest","GLOBAL",1)~ GOTO 12
+   IF ~GlobalGT("PriestsDead","GLOBAL",24)
+-GlobalLT("PriestsQuest","GLOBAL",2)~ THEN REPLY ~I have already done what you ask.  The priests have been laid to rest.~ DO ~SetGlobal("PriestsQuest","GLOBAL",2)
+-EraseJournalEntry(%To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.%)~ SOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We returned to Denaini and told her that the priests have all been laid to rest.  She was very grateful that they now can move on to the afterlife.~ GOTO 18
++GlobalLT("PriestsQuest","GLOBAL",2)~ THEN REPLY @36 DO ~SetGlobal("PriestsQuest","GLOBAL",2)
++EraseJournalEntry(@41)~ SOLVED_JOURNAL @37 GOTO 18
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I'm not sure I like where this is going. We will speak later, Denaini.~ EXIT
++Dead("Erevain")~ THEN REPLY @38 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I'm not sure I like where this is going. We will speak later, Denaini.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @38 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~You would *not* be killing them - they are already dead!  Please, I beg you -- I would do it myself if I could.  In this ghastly form, I am powerless to bring them peace.  All I ask is that you grant them the eternal rest they deserve after being condemned for so long.~
+-  IF ~~ THEN REPLY ~They must be laid to proper rest.  I will do as you ask.~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.~ GOTO 13
++  SAY @39
++  IF ~~ THEN REPLY @40 UNSOLVED_JOURNAL @41 GOTO 13
+   IF ~InParty("Erevain")
+-!Dead("Erevain")~ THEN REPLY ~Perhaps I can be persuaded with a reward of some sort?~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.~ EXTERN ~EREVAINJ~ 8
++!Dead("Erevain")~ THEN REPLY @42 UNSOLVED_JOURNAL @41 EXTERN ~EREVAINJ~ 8
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~Perhaps I can be persuaded with a reward of some sort?~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.~ GOTO 14
+-  IF ~~ THEN REPLY ~It sounds rather grim.  Give me some time to think about it.  In the meantime, can you tell me more about the Hand?~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.~ GOTO 2
+-  IF ~~ THEN REPLY ~I will need some time to decide.  I'd like to hear more about your duties in the Hand.~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.~ GOTO 10
++Dead("Erevain")~ THEN REPLY @42 UNSOLVED_JOURNAL @41 GOTO 14
++  IF ~~ THEN REPLY @43 UNSOLVED_JOURNAL @41 GOTO 2
++  IF ~~ THEN REPLY @44 UNSOLVED_JOURNAL @41 GOTO 10
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I will think about it. Farewell, Denaini.~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests. She told us of their horrid existence and has asked us to put them to proper rest.~ EXIT
++Dead("Erevain")~ THEN REPLY @45 UNSOLVED_JOURNAL @46 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I will think about it. Farewell, Denaini.~ UNSOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests. She told us of their horrid existence and has asked us to put them to proper rest.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @45 UNSOLVED_JOURNAL @46 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Thank you for listening to my desperate plea.  Please make it as quick and painless as possible.  Return to me when it is done.~
++  SAY @47
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I will return, Denaini.~ EXIT
++Dead("Erevain")~ THEN REPLY @48 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I will return, Denaini.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @48 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~If all you seek is a few magic trinkets, then you will have them.  Just please end their suffering.  When you have finished, return to me, and I will reward you.~
++  SAY @49
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~We have a deal then. Farewell.~ EXIT
++Dead("Erevain")~ THEN REPLY @50 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~We have a deal then. Farewell.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @50 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~In its former glory, this shrine was a monument to our elven gods.  The statues and adornment pools were built by our most talented artisans.  Flowers blossomed year round in the small garden.  We had a simple ritual where we would take a flower from the garden and place it in one of the adornment pools as an offering for our prayer.   As you can see, these same pools are not even fit to look at anymore.  Until I can find some holy water to purify the pools, they will remain this way.~
+-  IF ~~ THEN REPLY ~I would like to hear more about the Hand.~ GOTO 2
+-  IF ~~ THEN REPLY ~Can you tell me more about yourself and your duties?~ GOTO 10
++  SAY @51
++  IF ~~ THEN REPLY @52 GOTO 2
++  IF ~~ THEN REPLY @53 GOTO 10
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~I will see what I can do, Denaini. Take care.~ EXIT
++Dead("Erevain")~ THEN REPLY @54 EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+-Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY ~I will see what I can do, Denaini. Take care.~ EXTERN ~EREVAINJ~ 9
++Global("VP_Denaini_Erevain","GLOBAL",0)~ THEN REPLY @54 EXTERN ~EREVAINJ~ 9
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 16
+-  SAY ~You have returned.  What is it you wish?~
+-  IF ~~ THEN REPLY ~I‘d like to ask you about the Severed Hand.~ GOTO 2
+-  IF ~~ THEN REPLY ~Can you tell me about yourself and your duties?~ GOTO 10
++  SAY @55
++  IF ~~ THEN REPLY @56 GOTO 2
++  IF ~~ THEN REPLY @57 GOTO 10
+   IF ~PartyHasItem("HOLYWAT")
+ Global("HolyWaterGiven","GLOBAL",0)
+-Global("HolyWaterQuestGiven","GLOBAL",1)~ THEN REPLY ~I have brought some holy water to purify the pools.~ DO ~TakePartyItem("HOLYWAT")
+-EraseJournalEntry(%To restore the pools of the elven shrine.
+-
+-We came upon Denaini in Solonor‘s Tower of the Severed Hand.  She told us the sad tale of how the Severed Hand fell and Larrel‘s disastrous attempt at saving his people by casting a Mythal, a form of ancient elven magic.%)
+-EraseJournalEntry(%To restore the pools of the elven shrine.
+-
+-Denaini spoke of the beauty of this elven shrine in its more glorious days.  She mentioned she could restore the pools if she had some holy water.%)~ SOLVED_JOURNAL ~To restore the pools of the elven shrine.
+-
+-We gave Denaini the holy water she requested so that the pools for the elven shrine can be restored.~ GOTO 17
++Global("HolyWaterQuestGiven","GLOBAL",1)~ THEN REPLY @58 DO ~TakePartyItem("HOLYWAT")
++EraseJournalEntry(@25)
++EraseJournalEntry(@32)~ SOLVED_JOURNAL @59 GOTO 17
+   IF ~GlobalGT("PriestsDead","GLOBAL",24)
+-GlobalLT("PriestsQuest", "GLOBAL",2)~ THEN REPLY ~I have done as you asked.  The priests have been laid to rest.~ DO ~SetGlobal("PriestsQuest","GLOBAL",2)
+-EraseJournalEntry(%To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.%)~ SOLVED_JOURNAL ~To lay the priests of the Severed Hand to rest.
+-
+-We returned to Denaini and told her that the priests have all been laid to rest.  She was very grateful that they now can move on to the afterlife.~ GOTO 18
+-  IF ~~ THEN REPLY ~Just visiting. Farewell, Denaini.~ EXIT
++GlobalLT("PriestsQuest", "GLOBAL",2)~ THEN REPLY @60 DO ~SetGlobal("PriestsQuest","GLOBAL",2)
++EraseJournalEntry(@41)~ SOLVED_JOURNAL @37 GOTO 18
++  IF ~~ THEN REPLY @61 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~You have brought holy water!  With this, I can purify the pools and restore some glory to this place of beauty. I know it‘s not much, but please -- take this as thanks.~
+-  IF ~~ THEN REPLY ~Farewell, Denaini.~ DO ~AddexperienceParty(18000)
++  SAY @62
++  IF ~~ THEN REPLY @63 DO ~AddexperienceParty(18000)
+ SetGlobal("HolyWaterGiven","GLOBAL",1)
+ SetGlobal("Restore5201","GLOBAL",1)
+ GiveItemCreate("CLCK66", Player1, 0, 0, 0)
+-EraseJournalEntry(%To restore the pools of the elven shrine.
+-
+-We came upon Denaini in Solonor‘s Tower of the Severed Hand.  She told us the sad tale of how the Severed Hand fell and Larrel‘s disastrous attempt at saving his people by casting a Mythal, a form of ancient elven magic.%)
+-EraseJournalEntry(%To restore the pools of the elven shrine.
+-
+-Denaini spoke of the beauty of this elven shrine in its more glorious days.  She mentioned she could restore the pools if she had some holy water.%)~ EXIT
++EraseJournalEntry(@25)
++EraseJournalEntry(@32)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~I thank you.  You do not know how much this means to me.  The priests of Seldarine‘s Hand now know peace and can go to the afterlife.  May this help you in your cause.~
++  SAY @64
+   IF ~OR(2)
+ !InParty("Erevain")
+-Dead("Erevain")~ THEN REPLY ~May you find peace, Denaini. Farewell.~ DO ~AddexperienceParty(36000)
++Dead("Erevain")~ THEN REPLY @65 DO ~AddexperienceParty(36000)
+ GiveItemCreate("SLINGED", Player1, 0, 0, 0)
+ GiveItemCreate("ZZG7TS", Player1, 0, 0, 0)
+-EraseJournalEntry(%To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.%)~ EXIT
++EraseJournalEntry(@41)~ EXIT
+   IF ~InParty("Erevain")
+-!Dead("Erevain")~ THEN REPLY ~May you find peace, Denaini. Farewell.~ DO ~AddexperienceParty(36000)
++!Dead("Erevain")~ THEN REPLY @65 DO ~AddexperienceParty(36000)
+ GiveItemCreate("SLINGED", Player1, 0, 0, 0)
+ GiveItemCreate("ZZG7TS", Player1, 0, 0, 0)
+-EraseJournalEntry(%To lay the priests of the Severed Hand to rest.
+-
+-We spoke with Denaini in Solonor Tower of the Severed Hand about the other priests.  She told us of their horrid existence and has asked us to put them to proper rest.%)~ EXTERN ~EREVAINJ~ 10
++EraseJournalEntry(@41)~ EXTERN ~EREVAINJ~ 10
+ END

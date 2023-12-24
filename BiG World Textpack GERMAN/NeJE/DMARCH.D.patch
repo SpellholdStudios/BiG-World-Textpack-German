@@ -1,0 +1,148 @@
+--- NeJE\dlg\DMARCH.D	Sun May 24 17:42:32 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DMARCH.D	Tue Apr 09 19:35:51 2019
+@@ -2,10 +2,10 @@
+ 
+ IF WEIGHT #0 ~NumTimesTalkedTo(0)
+ Global("VP_KnightsHelp","GLOBAL",1)~ THEN BEGIN 0
+-  SAY ~AHHH!  Get back you damned snake fiends!  Back!  BACK!  I'll kill you all!~
++  SAY @0
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~Wait!  What are you talking about?~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++Dead("Hrothgar")~ THEN REPLY @1 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ SetGlobal("VP_KnightsHelp","GLOBAL",2)~ GOTO 1
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+@@ -13,45 +13,45 @@
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Huh?  You can't trick me like you tricked the caravan guards!  Oh no!  This time, you're dead!  AHHH!~
+-  IF ~~ THEN REPLY ~What caravan?  What are you talking about?  We've come here from Kuldahar.  What are you doing in here?~ GOTO 2
++  SAY @2
++  IF ~~ THEN REPLY @3 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Uh... you're from Kuldahar?  I suppose you don't look like those white robed imposters.  Listen, it'll only be a matter of time before the snake people come in here and try to kill us all.  They thought we were dead...~
+-  IF ~!GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN REPLY ~What's going on?  What are you talking about?~ DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 3
+-  IF ~GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN REPLY ~Hold on.  Just calm down.  We already killed them.~ DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 4
++  SAY @4
++  IF ~!GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN REPLY @5 DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 3
++  IF ~GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN REPLY @6 DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Don't you get it?  The people in the white robes - they're not *human.*  They're serpents in the form of men.  There's no time to explain now!  Just get out of the way or help us kill them.  We're fighting our way out - NOW!  CHAAAAAAAAAARGE!~
++  SAY @7
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~My name's Marchon... Marchon of Waterdeep.  My group were sleeping in the back of a caravan cart when the whole area started swarming with these, these... snake people.~
+-  IF ~~ THEN REPLY ~Go on.~ GOTO 5
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~We played dead.  Hey, I know it sounds bad, but there was no way we would have won the battle in our state.  They threw us in here with all of the slaughtered caravan merchants and guards - weapons and all.  I don't know how long we've been in here.  Thank Tymora you came along!~
++  SAY @10
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~No problem.  Can you watch over us while we rest?  It's a long hike up to the mountainside.~ GOTO 6
++Dead("Hrothgar")~ THEN REPLY @11 GOTO 6
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~Farewell, Marchon.~ GOTO 7
++Dead("Hrothgar")~ THEN REPLY @12 GOTO 7
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 10
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Sure thing!  I'll wait here until you find whatever is causing this mess.  I owe you my thanks as well as my life.  Sleep well.~
+-  IF ~~ THEN REPLY ~Thanks.~ DO ~RestParty()~ EXIT
++  SAY @13
++  IF ~~ THEN REPLY @14 DO ~RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Farewell to you.  I'll wait here until you find whatever is causing this mess.  If you need someone to watch over you while you rest, I'm your man.~
++  SAY @15
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -59,58 +59,58 @@
+ Global("VP_KnightsHelp","GLOBAL",3)
+ Global("Marchon_Free","GLOBAL",1)
+ GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN BEGIN 8
+-  SAY ~I'm glad as hell that we won that battle. I was afraid we were done for sure. Thanks.~
++  SAY @16
+   IF ~~ THEN DO ~SetGlobal("VP_KnightsHelp","GLOBAL",4)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~My name's Marchon... Marchon of Waterdeep.  My group were sleeping in the back of a caravan cart when the whole area started swarming with these, these... snake people.~
+-  IF ~~ THEN REPLY ~Go on.~ GOTO 4
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 4
+ END
+ 
+ IF WEIGHT #3 ~NumTimesTalkedToGT(0)
+ Global("Marchon_Free","GLOBAL",1)
+ GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)
+ Global("VP_KnightsHelp","GLOBAL",4)~ THEN BEGIN 10
+-  SAY ~Welcome back, friend.  Need someone to watch over you while you rest?~
+-  IF ~~ THEN REPLY ~Yes, thanks.~ DO ~RestParty()~ EXIT
+-  IF ~~ THEN REPLY ~No.  I'm fine.  Farewell, Marchon.~ EXIT
++  SAY @17
++  IF ~~ THEN REPLY @18 DO ~RestParty()~ EXIT
++  IF ~~ THEN REPLY @19 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Hrothgar! My old friend, well it's been many a year since I've seen you and what a welcome sight you are. Always you appear when most needed and here you are once again appearing just in the nick of time to save my life.~
++  SAY @20
+   IF ~GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 5
+   IF ~!GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",28)~ THEN DO ~SetGlobal("Marchon_Free","GLOBAL",1)~ GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~No, I haven't heard any news nor from Arundel, neither from anybody else from Kuldahar for a long time. And I have never heard about this gem. Are you looking for it?~
++  SAY @21
+   IF ~~ THEN GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~My group were sleeping in the back of a caravan cart returning to Waterdeep when the whole area started swarming with these, these... snake people... It seems to me things are really bad in Kuldahar. Hmm... How may I help you, my friend?~
+-  IF ~~ THEN REPLY ~Can you watch over us while we rest?  It's a long hike up to the mountainside.~ GOTO 6
++  SAY @22
++  IF ~~ THEN REPLY @23 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~My group were sleeping in the back of a caravan cart returning to Waterdeep when the whole area started swarming with these, these... snake people.~
++  SAY @24
+   IF ~~ THEN GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~We played dead.  Hey, I know it sounds bad, but there was no way we would have won the battle in our state.  They threw us in here with all of the slaughtered caravan merchants and guards - weapons and all.  I don't know how long we've been in here.  Thank Tymora you came along!~
++  SAY @10
+   IF ~~ THEN GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Help us kill them all. We're fighting our way out!~
++  SAY @25
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #1 ~Global("Marchon_Free","GLOBAL",1)
+ GlobalLT("SPRITE_IS_DEADYUANTI","GLOBAL",29)
+ Global("VP_KnightsHelp","GLOBAL",2)~ THEN BEGIN 17
+-  SAY ~I can't talk right now.  There are more snake creatures hiding somewhere nearby.  Please, help us defeat them.~
++  SAY @26
+   IF ~~ THEN EXIT
+ END

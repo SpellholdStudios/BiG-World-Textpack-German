@@ -1,0 +1,80 @@
+--- NeJE\dlg\RayVon.d	Sun Feb 15 01:27:55 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\RayVon.d	Tue Apr 09 19:37:06 2019
+@@ -1,7 +1,7 @@
+  BEGIN ~RayVon~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~Do not fret so, Ayana. We are awaiting word that the last of our forces are ready to move. Then we launch our assault. Ulcaster cannot prevail.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Leaving_Halruaa","GLOBAL",1)
+ SetGlobalTimer("VP_RayVon_Attacks","GLOBAL",TWELVE_DAYS)
+ RealSetGlobalTimer("VP_Hrothar_Timer","GLOBAL",5)
+@@ -11,7 +11,7 @@
+ END
+ 
+ IF ~Global("VP_Leaving_Halruaa","GLOBAL",4)~ THEN BEGIN 1
+-  SAY ~I will speak with you! It has been brought to my attention that you have been asking questions about matters that do not concern you. Unless you give me a satisfactory explanation as to why you are here, you will be treated as enemies of Halruaa and duly dealt with!~
++  SAY @1
+   IF ~OR(2)
+  !InParty("Yoshimo")
+ Dead("Yoshimo")
+@@ -41,7 +41,7 @@
+ Dead("Leina")
+ OR(2)
+  !InParty("Edwin")
+-Dead("Edwin")~ THEN REPLY ~Curses! This I do not need!~ GOTO 2
++Dead("Edwin")~ THEN REPLY @2 GOTO 2
+   IF ~OR(2)
+  !InParty("Yoshimo")
+ Dead("Yoshimo")
+@@ -71,7 +71,7 @@
+ Dead("Leina")
+ OR(2)
+  !InParty("Edwin")
+-Dead("Edwin")~ THEN REPLY ~I think the time for talking has just run out!~ GOTO 2
++Dead("Edwin")~ THEN REPLY @3 GOTO 2
+   IF ~OR(2)
+  !InParty("Yoshimo")
+ Dead("Yoshimo")
+@@ -101,7 +101,7 @@
+ Dead("Leina")
+ OR(2)
+  !InParty("Edwin")
+-Dead("Edwin")~ THEN REPLY ~I have a bad feeling about this! I just know you are not going to listen to whatever I say!~ GOTO 2
++Dead("Edwin")~ THEN REPLY @4 GOTO 2
+   IF ~OR(2)
+  !InParty("Yoshimo")
+ Dead("Yoshimo")
+@@ -131,7 +131,7 @@
+ Dead("Leina")
+ OR(2)
+  !InParty("Edwin")
+-Dead("Edwin")~ THEN REPLY ~I may yet talk us out of this.~ GOTO 2
++Dead("Edwin")~ THEN REPLY @5 GOTO 2
+   IF ~InParty("Edwin")
+ !Dead("Edwin")~ THEN EXTERN ~EDWINJ~ rayvon
+   IF ~InParty("Yoshimo")
+@@ -155,16 +155,16 @@
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I grow impatient and will have your answer now!~
+-  IF ~~ THEN REPLY ~There is nothing sinister in our being here. We are here to learn.~ GOTO 3
+-  IF ~~ THEN REPLY ~As new students we are curious about our surroundings so we ask questions.~ GOTO 3
+-  IF ~~ THEN REPLY ~If you will just give me a moment I can explain why we are here.~ GOTO 3
+-  IF ~~ THEN REPLY ~Now hold on just a darn minute! Not so hasty with you assumptions here!~ GOTO 3
+-  IF ~~ THEN REPLY ~We are students, nothing more, and I defy you to prove otherwise!~ GOTO 3
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @8 GOTO 3
++  IF ~~ THEN REPLY @9 GOTO 3
++  IF ~~ THEN REPLY @10 GOTO 3
++  IF ~~ THEN REPLY @11 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Please, credit me with intelligence enough to know when you are stalling. I can clearly see that you are not what you pretend to be. I would prefer to know why you are here but it is not that important as you will not be leaving with whatever you came for. I will take your refusal to answer as proof that you are enemies of Halruaa, and as such, your lives are forfeit here and now!~
++  SAY @12
+   IF ~~ THEN DO ~SetGlobal("VP_Leaving_Halruaa","GLOBAL",5)
+ SetGlobal("VP_HalruaaHostile","GLOBAL",1)
+ CreateCreatureObjectDoor("TuMage3",Player1,0,0,0) // Mage

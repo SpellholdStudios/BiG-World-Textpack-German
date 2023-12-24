@@ -1,0 +1,73 @@
+--- NeJE\dlg\Athia.d	Mon Apr 27 01:33:33 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Athia.d	Tue Apr 09 19:34:47 2019
+@@ -2,49 +2,49 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ Global("VP_Dar_Quest","GLOBAL",10)~ THEN BEGIN 0
+-  SAY ~Well met <CHARNAME>, Erhard said you might be wanting to speak with me. How can I help.~
+-  IF ~~ THEN REPLY ~Well met Athia. Erhard mentioned you heard activity around the pond a few nights ago. Tell me, did you see anything?~ GOTO 1
+-  IF ~~ THEN REPLY ~Well met to you Athia. Erhard tells me you were out wandering the grove a few nights past, care to tell me what you were doing?~ GOTO 1
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~It was about three nights past and such a beautiful still evening that I thought to walk in the freshness of the evening.~
++  SAY @3
+ =
+-~Nature is so beautiful at night <CHARNAME>, the scents of the earth are so much more enhanced when one’s eyes are diminished by the darkness of the night. Do you not agree?~
+-  IF ~~ THEN REPLY ~Uh... yes of course Athia, please continue.~ GOTO 3
+-  IF ~~ THEN REPLY ~I never travel at night unless pressed to do so, and when I am I have better things to do then spend time sniffing the night air, but please Athia, continue.~ GOTO 3
+-  IF ~~ THEN REPLY ~Not really Athia, I like to see where I am going when I travel. You were saying?~ GOTO 3
++@4
++  IF ~~ THEN REPLY @5 GOTO 3
++  IF ~~ THEN REPLY @6 GOTO 3
++  IF ~~ THEN REPLY @7 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Of course, well I passed close to that pond and heard what I took to be the sounds of the animals of the wood as they gathered to drink.~ 
++  SAY @8 
+ =
+-~I did not venture closer as I know how shy natures creatures are and I did not want to disturb them, it has been many weeks since the animals have been heard in the grove.~
++@9
+ =
+-~It gave me hope that if the animals had returned, all would be well again soon. All this I told to Erhard.~
+-  IF ~~ THEN REPLY ~It is a pity you did not think to take a closer look, given that the pond is tainted and the animals would sense this, but thank you any way Athia.~ GOTO 4
+-  IF ~~ THEN REPLY ~Thank you Athia, perhaps I will take a closer look at this pond.~ GOTO 4
+-  IF ~~ THEN REPLY ~So, you did not actually see any animals Athia, only heard them?~ GOTO 5
+-  IF ~~ THEN REPLY ~Tell me Athia, do you often wander the woods on your own of a night?~ GOTO 6
++@10
++  IF ~~ THEN REPLY @11 GOTO 4
++  IF ~~ THEN REPLY @12 GOTO 4
++  IF ~~ THEN REPLY @13 GOTO 5
++  IF ~~ THEN REPLY @14 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~I am sorry I could not be of more help <CHARNAME>. Farewell and I hope you have more luck in your investigations than Erhard has.~
++  SAY @15
+ 		IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 	
+ IF ~~ THEN BEGIN 5
+-  SAY ~That is what I said, I did not approach because I did not want to disturb them. Now, there is no more I can tell you.~
++  SAY @16
+ =
+-~I am sorry I could not be of more help <CHARNAME>. Farewell and I hope you have more luck in your investigations than Erhard has.~ 
++@15 
+ 		IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~It is none of your business, but yes I do. I love how the night heightens one’s sense of smell when we are forced to use our noses and not our eyes.~
++  SAY @17
+ =
+-~I feel so much closer to nature when I can sense the different scents she exudes. All can use their eyes and all can see the same, but with smell it is more subtle, more of an individual experience.~ 
++@18 
+ =
+-~That is why I love to walk at night, you should try it for yourself sometime. Now if you will excuse me, there really is no more I can tell you. Farewell <CHARNAME>.~ 
++@19 
+ 		IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END

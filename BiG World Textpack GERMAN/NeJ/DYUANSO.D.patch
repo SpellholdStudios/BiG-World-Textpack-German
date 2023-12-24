@@ -1,0 +1,10 @@
+--- NeJ\Dfiles\DYUANSO.D	Tue Dec 02 17:14:50 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DYUANSO.D	Wed Apr 10 10:24:21 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~DYUANSO~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~Silence, warm-blood!  The High Ritualist is about to begin our dinnertime prayer.~
++  SAY @0
+   IF ~~ THEN DO ~Enemy()~ EXTERN ~DHIGHRIT~ 0
+ END

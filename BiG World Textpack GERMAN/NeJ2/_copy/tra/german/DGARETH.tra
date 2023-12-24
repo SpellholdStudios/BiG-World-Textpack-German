@@ -1,0 +1,98 @@
+@0  = ~Seid gegrüßt, ich bin Gareth. Oh je... Ihr tragt Waffen und Rüstung... Seid Ihr gekommen, uns in die Sklaverei zurückzuführen?~ 
+@1  = ~Nein, ich bin nicht hier, um Euch zu versklaven.~
+@2  = ~Ja, die Salamander wollen euch wiederhaben. Ihr sollt mit mir kommen.~ 
+@3  = ~Wyrmzahn
+
+Wir haben Gareth mitgeteilt, dass die Frostsalamander uns aufgefordert haben, ihn und die übrigen Sklaven an sie auszuliefern. Er hat geantwortet, dass er lieber stürbe als in die Sklaverei zurückzugehen und hat uns angegriffen.~
+@4  = ~Ich werde ein andermal mit Euch sprechen. Lebt wohl!~ 
+@5  = ~Ihr seid zurückgekommen. Was kann ich für Euch tun?~
+@6  = ~Die Salamander wollen Euch zurück haben. Ihr sollt mit mir kommen.~
+@7  = ~Ich sagte, ich würde darüber nachdenken, ob ich euch helfe, Kerish den Schlüssel zum Ausgang abzunehmen.~ 
+@8  = ~Ich habe darüber nachgedacht, ob ich Euch helfe, Kerish den Schlüssel zum Ausgang abzunehmen.~
+@9  = ~Ich habe versucht, Kerish den Schlüssel zum Ausgang abzunehmen.~ 
+@10 = ~Ich bin überrascht, Euch hier zu sehen, Gareth.~
+@11 = ~Gareth, ich habe Vera gesehen.~
+@12 = ~Gareth, kann ich hier ausruhen?~ 
+@13 = ~Den Göttern sei Dank! Dann würdet Ihr uns vielleicht helfen? Wir sind in einer verzweifelten Lage..~
+@14 = ~Was ist nicht in Ordnung?~ 
+@15 = ~Die Leute, die Ihr hier seht, sind alle Sklaven. Wir sind unseren Herren vor kurzem entkommen und haben in diesem Raum Zuflucht gefunden.~
+@16 = ~Wer hat Euch versklavt?~
+@17 = ~Wyrmzahn
+
+Wir sind einem Mann namens Gareth begegnet, der behauptet, einer Gruppe Frostsalamander entkommen zu sein.~
+@18 = ~Ich glaube, man nennt sie Frostsalamander. Sie haben humanoide Oberkörper, Reptilienköpfe und Schlangenschwänze. Sie sind von einer Aura der Kälte umgeben, und es scheinen Massen von ihnen hier in den Gletschern zu leben.~ 
+@19 = ~Ich verstehe. Und wie seid ihr entkommen?~
+@20 = ~Das ist eine lange Geschichte... Wollt Ihr sie hören?~ 
+@21 = ~Ja, bitte erzählt.~ 
+@22 = ~Nein, ich habe jetzt keine Zeit. Lebt wohl!~
+@23 = ~Also gut... Wir wurden in dem Gebäude genau über diesem gefangen gehalten. Es scheint eine Art Museum zu sein. Dort sind zahlreiche Vitrinen mit Wasserlebewesen, die der Kälte des Gletschers zum Opfer gefallen und gefroren sind.~ 
+@24 = ~Moment mal. Wenn eure ehemaligen Herren so nah sind, warum kommen sie dann nicht, euch zu holen?~
+@25 = ~Wyrmzahn
+
+Gareth zufolge sind Frostsalamander wärmeempfindlich. Vielleicht können wir uns dieses Wissen gegen sie zu Nutze machen.~
+@26 = ~Erzählt weiter.~
+@27 = ~Die Temperatur hier ist so hoch, dass sie ihnen wehtut. Deshalb meiden sie diesen Ort.~
+@28 = ~Ich verstehe. Erzählt weiter..~
+@29 = ~Ich habe fürs Erste genug gehört. Lasst uns später weiter darüber reden. Lebt wohl!~
+@30 = ~Es gab einen Raum in dem Museum, den die Salamander mieden, und es war uns verboten, ihn zu betreten. Wir haben uns natürlich gefragt, warum. Wir ließen nichts unversucht, uns hineinzustehlen, um zu sehen, wovor sich die Salamander so fürchteten, doch ohne Erfolg. Schließlich gelang es einer Frau namens Vera!~
+@31 = ~Was hat sie dort entdeckt?~
+@32 = ~Alte Maschinen - richtig altes Zeug, das meiste davon Schrott. Doch es gab ein Gerät, das gedämpft leuchtete und Wärme ausstrahlte! Vera erkannte, dass die Wärme der Grund sein musste, warum die Salamander den Raum mieden. Sie folgerte, dass die Ausstellungsstücke im Museum nicht immer gefroren gewesen sind - und dass die Maschinen vielleicht früher die Kälte begrenzt haben.~
+@33 = ~Interessante Schlussfolgerung. Erzählt weiter..~
+@34 = ~Vera sah eine einmalige Chance. Es war ungewiss, ob sie oder ein anderer jemals wieder in diesen Raum gelangen würde. Also entschloss sie sich zu handeln. Sie fummelte an den Schaltern und Knöpfen herum, bis eine der Anzeigen plötzlich gleichmäßigzu blinken begann. Sofort war der Raum von einem warmen Schein und einem elektrischen Summen erfüllt. Leise schlich sie zurück, um uns von ihrer Entdeckung zu erzählen.~
+@35 = ~Aha. Und was passierte dann?~
+@36 = ~Wyrmzahn
+
+Wir haben erfahren, dass die Sklaven von einer Frau namens Vera angeführt werden.~
+@37 = ~Erst einmal nichts. Wir haben tagelang darauf gewartet, dass die Temperatur ansteigen würde, aber das tat sie nicht. Am Ende hatten wir die Hoffnung schon aufgegeben, als die Salamander gestern plötzlich in helle Aufregung ausbrachen und Hals über Kopf aus diesem Raum geflohen sind. Vera sah das als die Chance für uns, frei zu kommen. Wir durften keine Zeit verlieren, in der sie sich wieder organisiert und den Zugang zu diesem Raum abgeschnitten hätten. Also rief sie uns zu, dass wir alle zu der Treppe laufen sollten, die hierher führt. Viele starben bei dem Versuch. Wir sind die wenigen, die überlebt haben. Wäre Vera doch nur hier...~
+@38 = ~Gut gemacht... Und in was für einer verzweifelten Lage seid ihr jetzt?~
+@39 = ~Vera ist nicht hier? Ist sie denn nicht mit euch übrigen entflohen?~
+@40 = ~Wir haben weder Wasser noch Nahrung. Wir befinden uns mitten im Land des Feindes. Wenn wir hier bleiben, werden wir sterben... Was mich dabei schier wahnsinnig macht, ist, das wir einen anderen Ausgang zur Oberfläche *gefunden* haben, aber er verschlossen ist, und wir den Schlüssel nicht haben.~
+@41 = ~Wahrscheinlich befindet er sich in den Händen der Salamander.~
+@42 = ~Wahrscheinlich befindet er sich im Besitz der Salamander. Ich nehme an, an dieser Stelle werdet Ihr mich bitten, Leib und Leben zu riskieren, um den Schlüssel für Euch zu holen...~
+@43 = ~Ja. Wir glauben, dass Kerish, ihr Anführer, den Schlüssel hat. Würdet Ihr ihn für uns holen?~
+@44 = ~Hmm. Gut, ich werde versuchen, den Schlüssel für Euch zu besorgen.~
+@45 = ~Wyrmzahn
+
+Gareth hat uns gebeten, den Schlüssel zu finden, mit dem die Tür zum Gang geöffnet werden kann, der an die Oberfläche führt. Er glaubt, dass sich der Schlüssel in den Händen der Salamander befindet. Wir haben ihm unsere Unterstützung zugesichert.~
+@46 = ~Ich soll gegen ein ganzes Gebäude voller Frostsalamander kämpfen? Daraus wird nichts.~
+@47 = ~Wyrmzahn
+
+Gareth hat uns gebeten, den Schlüssel zu finden, mit dem die Tür zum Gang geöffnet werden kann, der an die Oberfläche führt. Er glaubt, dass sich der Schlüssel in den Händen der Salamander befindet. Wir haben ihm gesagt, dass wir nicht bereit waren, für diesen Schlüssel gegen ein ganzes Gebäude voller Frostsalamander zu kämpfen.~
+@48 = ~Ich werde darüber nachdenken.~
+@49 = ~Wyrmzahn
+
+Gareth hat uns gebeten, einen Schlüssel wiederzubekommen, der die Tür zum Durchgang aufschließen wird, der zur Oberfläche führt. Er glaubt, dass der Schlüssel der Besitz der Salamander ist. Wir informierten ihn, dass wir daran denken würden.~
+@50 = ~Eure Tapferkeit und Euer Mitgefühl sind beispiellos. Ich weiß nicht, was ich sagen soll, außer danke... und das scheint unter diesen Umständen kaum genug zu sein. Bitte bringt den Schlüssel so schnell wie möglich. Unser Schicksal liegt in Euren Händen.~
+@51 = ~Das werde ich. Lebt wohl für jetzt.~
+@52 = ~Ich verstehe, dass Ihr davor zurückschreckt, doch Ihr seid unsere einzige Hoffnung. Bitte denkt darüber nach und lasst mich wissen, wenn Ihr Eure Meinung ändert.~
+@53 = ~Leider nein. Vera hat es nicht mit dem Rest von uns hier herunter geschafft. Das Letzte, was ich gesehen habe, war eine Schar von Salamandern zwischen ihr und dem Fluchtweg. Ich fürchte, sie ist tot.~
+@54 = ~Tut mir Leid, das zu hören, Gareth. Ihr erwähntet, in einer verzweifelten Situation zu sein. Könnt Ihr mehr darüber sagen?~
+@55 = ~Niemals! Wir würden lieber sterben, als in die Sklaverei zurückzugehen!~
+@56 = ~So sei es!~
+@57 = ~Ja. Habt Ihr noch einmal darüber nachgedacht, uns zu helfen? Wir brauchen unbedingt den Schlüssel zum Ausgang.~
+@58 = ~Ich soll gegen ein ganzes Gebäude voller Frostsalamander kämpfen? Daraus wird nichts. Lebt wohl!~
+@59 = ~Ich denke noch darüber nach. Lebt wohl für jetzt.~
+@60 = ~Ich werde jetzt gehen. Lebt wohl!~
+@61 = ~Oh? Ich weiß, dass Ihr es abgelehnt habt, uns zu helfen, aber wir brauchen unbedingt den Schlüssel zum Ausgang. Werdet Ihr ihn für uns holen?~
+@62 = ~Ja. Habt Ihr den Schlüssel gefunden? Wir brauchen ihn unbedingt.~
+@63 = ~Ja, ich habe den Schlüssel.~
+@64 = ~Wyrmzahn
+
+Wir haben Gareth den Schlüssel ausgehändigt, mit dem die Tür zum Gang geöffnet werden kann, der an die Oberfläche führt. Jetzt können sich er und die anderen Sklaven in Sicherheit bringen.~
+@65 = ~Nein, noch nicht. Ich suche noch danach. Bis später.~
+@66 = ~Mein Gott! Ihr habt es wirklich geschafft! Ich werde jedem sagen, sich vorzubereiten, hier sofort aufzubrechen. Vielen Dank für das, was Ihr getan habt.~
+@67 = ~Gern geschehen, Gareth. Auf Wiedersehen!~
+@68 = ~Wir bereiten sich vor, aufzubrechen. Habt Dank für Eure Hilfe, Freund.~ ~Wir bereiten sich vor, aufzubrechen. Habt Dank für Eure Hilfe, Freundin.~
+@69 = ~Gern geschehen, Gareth.~
+@70 = ~Hallo, da seid Ihr ja wieder. Seid Ihr gekommen, um unser Gespräch zu beenden?~
+@71 = ~Ja, bitte fangt noch mal von vorne an und erzählt mir Eure Geschichte.~
+@72 = ~Nein, jetzt nicht. Lebt wohl!~
+@73 = ~Was? Wo ist sie? Geht es ihr gut?~
+@74 = ~Sie ist in einem sicheren Versteck. Mehr kann ich nicht sagen.~
+@75 = ~Es tut mir Leid, sagen zu müssen, dass sie tot ist, Gareth.~
+@76 = ~Ich verstehe... Nun ja, danke, dass Ihr es mir gesagt habt Ich werde den anderen die Nachricht überbringen.~
+@77 = ~Keine Ursache, Gareth. Ihr erwähntet, dass ihr in einer verzweifelten Lage steckt. Wollt Ihr mir davon erzählen?~
+@78 = ~Was? Wo ist sie? Geht es ihr gut?~
+@79 = ~Ich verstehe... Danke, dass Ihr es mir gesagt habt. Ich werde den anderen die Nachricht überbringen.~
+@80 = ~Keine Ursache, Gareth. Lebt wohl!~
+@81 = ~Sicher. Ich werde Euch heilen und über Euch wachen, während Ihr Euch ausruht.~

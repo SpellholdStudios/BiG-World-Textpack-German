@@ -1,0 +1,258 @@
+@0    = ~Welcome. I‘ve been expecting you for some time now.~ [ARUN_01]
+@1    = ~Expecting us? How is that possible? We‘ve only just recently arrived in town.~
+@2    = ~You‘ve been expecting me? How is that possible? I‘ve only just recently arrived in town.~
+@3    = ~Who are you, old man?~
+@4    = ~You must be Arundel.~
+@5    = ~Expecting us? I see. You‘re the one who sent the messenger to Easthaven. You must be the Archdruid of Kuldahar?~
+@6    = ~Yes, well... bad news travels upon swift wings in these mountains. I know about your expedition from Easthaven. I know why you are here, for it was I who sent for you.~ [ARUN_02]
+@7    = ~You sent for us? I don‘t understand.~
+@8    = ~You sent for me? I don‘t understand.~
+@9    = ~You? You sent the messenger? You are the Archdruid he spoke of then?~
+@10   = ~I see. You must be the Archdruid the messenger spoke of.~
+@11   = ~I am Arundel, known to some as the Archdruid of Kuldahar. Though I invite you to dispense with the formalities and just call me Arundel, plain and simple. Titles tend only to serve one‘s own vanity and aren‘t really of much use in this small mountain community.~ [ARUN_03]
+@12   = ~You are the Archdruid, eh? Then I assume you can tell me what is going on around here?~
+@13   = ~Very well. Tell me, Arundel, do you know anything about the reports of disturbances in these mountains?~
+@14   = ~Yes, it was I who sent Hallaster to Easthaven for help. His death weighs heavily upon my conscience, for not only was he a student of mine, but he was also a friend and trusted companion. He will be missed. As will Hrothgar and the other members of your expedition.~ [ARUN_04]
+@15   = ~You know about the avalanche?~
+@16   = ~You knew Hrothgar?~
+@17   = ~Oh, yes, I know. I also know that it was no accident. Someone or... *something* did not want your party to reach Kuldahar alive.~ [ARUN_05]
+@18   = ~What is going on around here, old man?~
+@19   = ~Tell me, Arundel, what troubles this town?~
+@20   = ~This someone or something, I presume, is the reason you sent for help?~
+@21   = ~Let us say I knew *of* him. Word of his deeds has reached even our small, isolated town. I also know that his death, tragic as it is, was no accident. Someone or something did not want your party to reach Kuldahar alive.~ [ARUN_06]
+@22   = ~Hrothgar is alive. We have just part our ways.~
+@23   = ~There are malevolent forces at work in these mountains, forces that seek to undermine the delicate balance we druids have struggled to preserve for centuries.~ [ARUN_07]
+@24   = ~Malevolent forces? Could you be more specific?~
+@25   = ~Look, why don‘t you cease your tedious ramblings on the philosophies of nature, and just tell me who‘s behind all this nonsense?~
+@26   = ~Would that I could. The face of the evil remains hidden, but its presence is unmistakable. All about us, there are signs of its damaging influence on the balance... the unnatural weather, the recent rash of abductions, the numerous monster sightings in the pass...~ [ARUN_08]
+@27   = ~These all point toward something sinister. Even the animals sense something is amiss.~ [ARUN_09]
+@28   = ~Can you tell me more about these disturbances?~
+@29   = ~You spoke before of balance. What sort of balance are you talking about?~
+@30   = ~I can only tell you of what little I know. Which disturbances would you have me speak of?~ [ARUN_12]
+@31   = ~Tell me of the unnatural weather.~
+@32   = ~Tell me about the recent rash of abductions.~
+@33   = ~Tell me about the monster sightings.~
+@34   = ~Never mind. So what are we to do about all this?~
+@35   = ~Never mind. So what am I to do about all this?~
+@36   = ~Never mind. Tell me again... what must be done?~
+@37   = ~Never mind. I will do what I can. Farewell.~
+@38   = ~Never mind. We will do what we can. Farewell.~
+@39   = ~The weather in these mountains has always been harsh, but never like this. Fierce storms ravage the valley without warning, often lasting for several days at a time before vanishing as quickly as they come.~ [ARUN_13]
+@40   = ~It is barely midway into Leafall, and yet the pass to the south has been snowed in entirely. Weather such as this is most unnatural. Nature presents itself in cycles that are predictable by those who know what to look for.~ [ARUN_14]
+@41   = ~I see. So what are we to do about all this?~
+@42   = ~I see. So what am I to do about all this?~
+@43   = ~Tell me again... what must be done?~
+@44   = ~I will do what I can. Farewell.~
+@45   = ~We will do what we can. Farewell.~
+@46   = ~Ah, yes. Terrible. Terrible. At first, there were tales told by travelers of companions disappearing into the night, snatched up from their bedrolls as they camped along the narrow trail that winds through the pass.~ [ARUN_15]
+@47   = ~We did not think much of these tales, for such occurrences are not unheard of in these mountains.~ [ARUN_16]
+@48   = ~Then one night Conlan‘s boy, Sheemish, went missing. The next morning, the whole town searched for the boy but turned up nothing. He was just gone. Vanished without a trace.~ [ARUN_17]
+@49   = ~That is strange indeed.~
+@50   = ~Some tavern ghost stories and a little boy lost in the mountains? Don‘t you think you are overreacting?~
+@51   = ~The boy was just the first. Several nights later, another disappeared - Maegan Potts, the local midwife. Her husband Kaleel was grief-stricken to the point of madness. With barely a word to anyone, he snatched up his sword and marched off into the darkness after his wife. No one has heard from him since.~ [ARUN_18]
+@52   = ~And now, the abductions are occurring *more* frequently. Eidan, the old innkeeper from the Evening Shade was taken only three days ago.~ [ARUN_19]
+@53   = ~As I‘m sure you have noticed by now, there seems to be quite a few goblins about. It is not usual to see so many of their kind roaming the mountains so late in the year. It is almost as if something has drawn them out of their holes, like carrion birds drawn to the scent of death.~ [ARUN_20]
+@54   = ~As if the goblins weren‘t enough, several giants have been spotted moving through the pass in groups as large as ten.~ [ARUN_21]
+@55   = ~That many giants traveling together in such numbers indicates they are organized and are acting with a singular purpose. I have watched their activities closely. Their tracks trace a deliberate pattern through the mountains, almost as if they were on patrol.~ [ARUN_22]
+@56   = ~Another thing... while I was out scouting the giants, I discovered other sets of tracks, tracks I have never encountered before. What manner of beast made them... I could not say.~ [ARUN_23]
+@57   = ~*The* balance. It is what the druids of Kuldahar hold sacred and have worked to preserve for generations. It is all around us. It *is* us.~ [ARUN_24]
+@58   = ~Balance is the harmony that is achieved when man and nature learn to coexist, no longer contending with one another, but coming together as two parts of a whole.~ [ARUN_25]
+@59   = ~I understand. Such balance is an ideal worth striving for indeed.~
+@60   = ~You really take this nature thing seriously, don‘t you?~
+@61   = ~What can you tell me about the druids of Kuldahar?~
+@62   = ~Balance is the belief that this town is built upon... the very reason for its existence. Druids of Silvanus, the Oakfather, have tended this shrine since the beginning. For hundreds of years, we have striven to achieve the ideal balance between man and nature.~ [ARUN_26]
+@63   = ~When settlers finally came to this pass, it was the Archdruid Tolben, my predecessor, who laid the foundation for the relationship that led to the birth of this community.~ [ARUN_27]
+@64   = ~Shrine? What shrine are you talking about?~
+@65   = ~Archdruid Tolben? The statue in the center of town... it is of him, yes?~
+@66   = ~Who is this Tolben?~
+@67   = ~The Great Oak. The massive tree that stands above us... around us. It is a holy shrine to Silvanus, for it was he who planted its seed when Faerun was first born. It is a testament to the raw power of nature, a monument to its ability to thrive in the face of adversity.~ [ARUN_28]
+@68   = ~Thanks to Tolben, the Great Oak we druids called the Kuldahar, and the town that has come to be known by the same name, have together become a monument of even greater significance... a monument to the balance.~ [ARUN_29]
+@69   = ~Tolben was the catalyst for the transformation of the shrine from a sacred grove to a thriving community in which man and nature exist as one. At first, settlers were kept away from this site. The druids of old saw outsiders as an affront to the sanctity of the tree and its sphere of benign influence.~ [ARUN_30]
+@70   = ~They erected thorny brambles to keep intruders out, and used their powers to frighten away the men and women that came to build homes in a place they felt was... obviously so close to the gods.~ [ARUN_31]
+@71   = ~It wasn‘t until the succession of Archdruid Tolben that things changed. Unlike his predecessors, he believed that the settlement of the valley was not only inevitable, but it was actually the will of Silvanus.~ [ARUN_32]
+@72   = ~He also believed that we had been wrong in keeping the settlers away, and that the Oak Father had intended people to share in the miracle of the Great Oak from the beginning.~ [ARUN_33]
+@73   = ~When Tolben finally became Archdruid, he formed a plan to fulfill the destiny of this sacred site by bringing about a union between the Great Oak shrine and the settlers.~ [ARUN_34]
+@74   = ~It was this union that the Archdruid Tolben believed would achieve the harmony that we had been striving for for generations... the harmony between man and nature. As it stands, Kuldahar is a monument to this vision.  ~ [ARUN_35]
+@75   = ~The tree and town exist in a natural symbiosis where it is next to impossible to tell where one leaves off and the other begins. But now, the balance is threatened.~ [ARUN_36]
+@76   = ~I fear that if we do not soon discover the source of these disturbances, then all that we have worked for will be destroyed.~ [ARUN_37]
+@77   = ~The evil that has come to these mountains infects this town like a disease. As its people suffer, so does the tree suffer from the sickness that attacks the balance, corrupting it with its very presence.~ [ARUN_38]
+@78   = ~Already, the circle of warmth that radiates from the Great Oak has begun to recede.~ [ARUN_39]
+@79   = ~We were forced to abandon the outlying farmsteads as a result of the shrine‘s fading power. If we do not take action soon, I am afraid that the life-giving warmth will cease altogether.~ [ARUN_40]
+@80   = ~Both the Great Oak and the town nestled within its roots will die. This must *not* happen. We need your help.~ [ARUN_41]
+@81   = ~What? Help you? I don‘t think so, old man. I‘m only interested in getting out of these miserable mountains alive. Understand?~
+@82   = ~I‘d like to help you, but there really isn‘t anything I can do to help.~
+@83   = ~Very well, together we shall root out this evil that threatens this town. What must we do?~
+@84   = ~Vale of Shadows.
+
+We finally spoke with Arundel, the Archdruid of Kuldahar. The old man explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. We have agreed to help discover the source of the evil by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~
+@85   = ~I understand, but the circumstances leave you little choice *but* to get involved. I needn‘t remind you that the avalanche that wiped out your expedition, the one that you were fortunate to survive, has blocked the way back to the Ten-Towns. As I mentioned before, the pass south has been entirely snowed-in.~ [ARUN_42]
+@86   = ~There is no other way out of this valley. Your fate and the fate of Kuldahar are intertwined. You *must* discover the source of the disturbances and restore the balance... or we shall all perish together.~ [ARUN_43]
+@87   = ~I see your point. Well then, where shall we begin?~
+@88   = ~If saving my own skin means helping you out, then that‘s what I will do. But get one thing straight, I wouldn‘t give two coppers for you, your town, or your precious balance. I mean to stay alive... one way or another.~
+@89   = ~Vale of Shadows.
+
+We finally spoke with that tree-loving codger who calls himself the Archdruid of Kuldahar. The old druid explained the reason why he sent for help from Easthaven. It seems that there are evil forces stirring in the mountains nearby. He believes this evil is somehow affecting the weather in the pass, causing the ring of warmth that centers around Kuldahar‘s Great Oak to slowly shrink. He also believes that the evil is behind the numerous monster sightings and the mysterious abductions about town. Reluctantly, we have agreed to help by investigating a nearby vale. Apparently, there have been rumors of undead stirring within some ancient crypts located within this "Vale of Shadows."  We are to travel to the Vale, discover if there is a connection between the undead and the disturbances in Kuldahar, then return to Arundel with whatever information we find.~
+@90   = ~I suggest you begin by investigating the Vale of Shadows. It is a place not far from here. Darkness has always clung to the floor of the small canyon, as if the light of the sun itself were wary of the place.~ [ARUN_44]
+@91   = ~There are a number of ancient crypts hidden within the shadows of the Vale‘s narrow cliff walls. There have been rumors of the dead awakening and emerging from their dusty tombs to walk once more amongst men.~ [ARUN_45]
+@92   = ~If these rumors are true, then I suspect that whatever is responsible for disturbing their slumber may be behind the other disturbances as well.~ [ARUN_46]
+@93   = ~Go to the Vale of Shadows. I shall open a passage for you to the east of Kuldahar. Learn what you can about the happenings there, then return here and we shall discuss a course of action. Good luck, and farewell.~ [ARUN_47]
+@94   = ~Please... you must make haste. Time works *against* us. We must discover the source of this evil before the balance is altered irrevocably.~ [ARUN_48]
+@95   = ~I understand. Before I go, could you tell me more of the disturbances in the pass?~
+@96   = ~I understand. Before I go, could you tell me more about the druids of Kuldahar?~
+@97   = ~I thought you should know... I came across an ogre in the pass outside of town. This ogre, who calls himself Ghereg, complained to me about a sharp pain in his head. Is there something you can do to help him?~
+@98   = ~Ah, you have returned. What news? Does the evil we seek lie within the Vale of Shadows?~ [ARUN_49]
+@99   = ~I‘m afraid I haven‘t discovered anything of use yet. I shall return when I know more.~
+@100  = ~Deep within one of the tombs in the Vale, I spoke with a spirit named Kresselack. This spirit claims to have information about the evil we seek.~
+@101  = ~I‘ve discovered that the undead in the Vale of Shadows were not connected to the disturbances in the pass.~
+@102  = ~Interesting. It is impossible to determine exactly what ails him without examining him myself, but I do know of an herbal remedy that may ease his suffering. If you like, I could tell you the recipe so that you may help him help himself.~ [ARUN_50]
+@103  = ~I won‘t be the go-between for druids and whining ogres. Forget it. He can rot for all I care. Farewell.~
+@104  = ~Very well. What is this recipe?~
+@105  = ~Tell him to gather a handful of Frostberries that grow throughout these mountains. He must squeeze the juices from the berries into a pot of boiling tundra grass. Once mixed, the entire brew must be consumed in order for the pain to subside.~ [ARUN_51]
+@106  = ~I shall tell him. I‘m sure he‘ll be grateful. Farewell.~
+@107  = ~Yes, I am Arundel, known to some as the Archdruid of Kuldahar. Though I invite you to dispense with the formalities and just call me Arundel, plain and simple. Titles tend only to serve one‘s own vanity and aren‘t really of much use in this small mountain community.~ [ARUN_52]
+@108  = ~Interesting. What did this spirit reveal to you?~ [ARUN_53]
+@109  = ~Nothing yet. He offered to tell me what he knows in exchange for performing a service for him. He wants me to kill a priestess of Auril that is threatening his tomb.~
+@110  = ~I see. What do you intend to do?~ [ARUN_54]
+@111  = ~Nothing. I won‘t play errand boy to some self-important ghost who dangles answers like carrots before a mule. I am nobody‘s fool!~
+@112  = ~I refused his bargain. I cannot justify murder for reward.~
+@113  = ~I told him I wouldn‘t do it. This priestess is *his* problem. She is no concern of mine.~
+@114  = ~I‘m not sure. I told the spirit I would consider his bargain.~
+@115  = ~I intend to find this priestess and attempt to reason with her. Should she prove to be amenable, there may not be a need for violence.~
+@116  = ~I shall do as he asks.~
+@117  = ~I intend to find this frosty bitch and cut her throat.~
+@118  = ~I understand your position. Typically, such vengeful spirits are not known for keeping their word. But, in this case, I do not think we have much choice. I urge you to reconsider the spirit‘s offer in order to learn what it knows - at this point, any information is better than none.~ [ARUN_55]
+@119  = ~Very well. I shall return to the tomb and speak once more with this spirit.~
+@120  = ~I am still not convinced. I shall think on it some more.~
+@121  = ~I understand your position. But perhaps there is more to this priestess than you know. Sometimes, we must choose between the lesser of two evils in order to accomplish good. This is but one of the ways in which balance is maintained.~ [ARUN_56]
+@122  = ~I urge you to reconsider the spirit‘s offer in order to learn what it knows. At this point, any information is better than none.~ [ARUN_57]
+@123  = ~I understand your position. But perhaps there is more to this priestess than you know. If she is indeed a servant of the Frostmaiden, then she may be connected in some way to the unnatural weather in the pass.~ [ARUN_58]
+@124  = ~I urge you to reconsider the spirit‘s offer in order to learn what it knows. At this point, any information is better than none.~ [ARUN_59]
+@125  = ~Well, if that is what you feel you must do... sometimes, we must choose between the lesser of two evils in order to accomplish good. This is but one of the ways in which balance is maintained.~ [ARUN_60]
+@126  = ~Spare me your posturing. I have work to do.~
+@127  = ~Whatever. I‘ll be going now.~
+@128  = ~Then the true source must lie elsewhere. I sense this evil has taken great care to conceal itself from prying eyes. I fear that by the time we discover it... it may be too late.~ [ARUN_62]
+@129  = ~So what are we to do?~
+@130  = ~There may be a way to find that which does not wish to be found through magical means. However, to accomplish this, I *will* need your help.~ [ARUN_63]
+@131  = ~We are ready to help any way we can.~
+@132  = ~Do we have any other choice?~
+@133  = ~Of course you do. I can only show you the path, I would not presume to choose it for you. You can either choose to help me, thereby helping yourself, or you can choose to allow your fate to be determined by forces you do not understand.~ [ARUN_64]
+@134  = ~Some choice. Very well, we‘ll help.~
+@135  = ~Then here is what must be done. I need you to find an ancient druidic artifact known as the Heartstone Gem. It is a powerful scrying stone that can be used to divine the location of this evil.~ [ARUN_65]
+@136  = ~Long ago, the Heartstone rested here within this shrine. The druids of Kuldahar used its power to gain insight on the balance and to look into the affairs of men throughout the realms.~ [ARUN_66]
+@137  = ~Then, one day an initiate of the shrine stole the Heartstone and fled Kuldahar. The young druid had grown impatient with the humble teachings of his mentor, the Archdruid, and hungered for power of his own. He disappeared into the mountains, along with the artifact, and was never heard from again.~ [ARUN_67]
+@138  = ~A few short years after the theft, there were rumors of a strange cult establishing a temple in these mountains. It is conceivable that the rogue druid may have been connected in some way with the emergence of this new cult. If so, then it is possible that the Heartstone Gem may still be found within this temple.~ [ARUN_68]
+@139  = ~The temple is rumoured to lie in a canyon far to the east of Kuldahar. Since the northern pass has been blocked by the avalanche, and we have sealed the western pass to prevent monsters intrusion, I will teleport you directly to this canyon, where you have to find your way to the temple. Journey to the temple and discover if the Heartstone is indeed there. If so, return it to Kuldahar and I shall use its power to find the answers we seek.~ [ARUN_69]
+@140  = ~Very well. We shall do as you ask.~
+@141  = ~Search for the Heartstone Gem.
+
+We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.~
+@142  = ~Journey to the temple and discover if the Heartstone is indeed there. If so, return it to Kuldahar and I shall use its power to find the answers we seek.~ [ARUN_70]
+@143  = ~Thank you. Farewell.~
+@144  = ~Ah, you have returned. What news? Have you found the Heartstone Gem?~ [ARUN_71]
+@145  = ~We discovered that the Heartstone was indeed at the temple. Unfortunately, someone seemed to have gotten there first and taken the Gem.~
+@146  = ~Ah, this is terrible news. Did you find any clues as to who these mysterious thieves may be or where they might have taken the Gem?~ [ARUN_72]
+@147  = ~I found the body of a Talonite priest among the corpses of the slain cultists and their verbeeg guards. He was carrying this vial of strange liquid.~
+@148  = ~A number of the temple‘s acolytes and verbeeg guards were already dead when we arrived. There was evidence that some were poisoned by what looked to be snake bites.~
+@149  = ~Hmm. The liquid appears to be a form of undiluted snake venom. No doubt this priest of Talona was carrying it for use as a poison. You did well in bringing this to me. This may be just the clue we needed.~ [ARUN_73]
+@150  = ~What do you mean?~
+@151  = ~You see, once extracted, venom such as this tends to lose its potency rather quickly... usually over the course of a few days. So, it follows that this Talonite must have obtained the poison from somewhere within these mountains. There is only one place where poisonous reptiles could thrive in these cold, wind-swept mountains.~ [ARUN_74]
+@152  = ~And that place is?~
+@153  = ~Dragon‘s Eye. It is a vast network of caverns that lead deep into the bowels of a dormant volcano. The entrance is barely a day‘s journey from here. I suggest you continue the search for the missing Heartstone Gem there.~ [ARUN_75]
+@154  = ~Very well. To Dragon‘s Eye, then.~
+@155  = ~Take care. The caverns of Dragon‘s Eye are fraught with many perils. Tread lightly, and be wary of the creatures that dwell within its depths.~ [ARUN_76]
+@156  = ~Search for the Heartstone Gem.
+
+Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.~
+@157  = ~Snake bites, you say? Hmm. Did you see any snakes or creatures that could have caused such marks?~ [ARUN_77]
+@158  = ~No. Only the bodies of their victims.~
+@159  = ~Hmm. Then the creature must have come from outside the temple... interesting. This may be just the clue we needed.~ [ARUN_78]
+@160  = ~There is only one place where poisonous reptiles could thrive in these cold, windswept mountains.~ [ARUN_79]
+@161  = ~You must journey to the caverns of Dragon‘s Eye. I shall teleport you there. Find the Heartstone Gem and any information you can about the identities of the thieves who sacked the temple. When you have the Gem, return here and I will use its powers to divine the source of the evil in the pass.~ [ARUN_81]
+@162  = ~(*Wounded, dying*)... At last... I feared I could not hold any longer... th-the last of my life has almost left my body, and... soon I shall be restored to the balance.~ [ARUN_82]
+@163  = ~Arundel... what happened? ~
+@164  = ~A man, but not a man... he wore my skin like a cloak, my face like a mask... he came suddenly in the night, and struck me down...~ [ARUN_83]
+@165  = ~Nature itself seemed to recoil from him - even with the strength of the Great Oak bolstering me, I was unable to stop him. He touched me once... his hands as blood, and I felt... my life begin to drain away.~ [ARUN_84]
+@166  = ~Arundel, hold on - we still may be able to help y--~
+@167  = ~(*Voice strengthens, becomes steadier.*)... No, only the hope you would return has kept my body alive. You... you must take the Heartstone Gem to... the elven fortress of the Severed Hand.~ [ARUN_85]
+@168  = ~Severed Hand? But why?~
+@169  = ~The Severed Hand is the prison of Larrel, one of the last of the elven archmages... he is the only one left who can use the Heartstone Gem... if he still lives...~ [ARUN_86]
+@170  = ~But the Severed Hand... I‘ve never heard of it - where can I find it?~
+@171  = ~Search for the Heartstone Gem.
+
+We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.~
+@172  = ~The Severed Hand.
+
+We discovered Arundel in the upstairs chamber of his cottage, struck down by a man that wore the Archdruid‘s own face and whose hands were as blood. Arundel barely had the strength to tell us to seek out the ancient elven fortress of the Severed Hand, and that within the fortress is an elven mage named Larrel, the last person who can use the gem to find the source of evil plaguing Kuldahar. Arundel told us nature would guide us to the Severed Hand.~
+@173  = ~It is to the south - nature will guide you... (*a little quieter, a little weaker*)... enough of my power remains that I may do that. Now... I must go... (*One final burst of strength, enough to keep his voice steady, but not commanding*)... Take this key. You will need it soon. Serve the balance. Protect Kuldahar from this evil.~
+@174  = ~I serve *no one,* old man, and Kuldahar can burn - but not as long as I‘m trapped here.~
+@175  = ~Farewell, Arundel. We will see you avenged.~
+@176  = ~Thank Silvanus you have returned!  Evil is afoot in Kuldahar. Strange orcs prowl through town, killing our townspeople!~ [FAB_01]
+@177  = ~I must ask you... have you found the source of evil in Dragon‘s Eye?~ [FAB_02]
+@178  = ~Perhaps. A strange "woman" named Yxunomei was raising an army of trolls, lizard men, yuan-ti, and undead. I defeated her and many of her minions.~
+@179  = ~Excellent. Thank you for destroying my ancient enemy. I couldn‘t have planned this better myself.~ [FAB_03]
+@180  = ~Wh... what? What do you mean?~
+@181  = ~I can discern your aura, evil one. You are not Arundel. Who are you?~
+@182  = ~"Ancient enemy?"  What are you talking about?~
+@183  = ~You have been unwitting pawns in the grand scheme of things. You have saved this town from immediate destruction, but it is all for naught.~ [FAB_04]
+@184  = ~In a few months, Kuldahar will be frozen solid. There‘s nothing you can do about it.~ [FAB_05]
+@185  = ~Who are you?~
+@186  = ~Who am I? I am but a simple priest, spreading the gospel of suffering to the masses.~ [FAB_06]
+@187  = ~Soon, everyone will learn the litany of our faith.~ [FAB_07]
+@188  = ~I am sure Yxunomei must have explained this to you. She and I have been foes for centuries. Thanks to you, the vendetta has ended. Now you may travel back to your future.~ [FAB_08]
+@189  = ~W-What? I don‘t beleive you! You are not Arundel! How did you manage to haul me out of my time?~
+@190  = ~Arundel is bleeding out his life upstairs. Now I can begin to build my own forces in this world without fear... There is a portal in his room you may use to return to your world. Other things are not so important for you. You may not stay here even if you wish to take your revenge over me. You must solve your parentage‘s problem as soon as possible... By the way, you shouldn‘t be upset. You destroyed the great evil forces here. Farewell, <CHARNAME>.~ [FAB_09]
+@191  = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about her minions.  She told us that they were yuan-ti, and that they would inherit her "kingdom" when she concluded her business and left.~
+@192  = ~Dragon‘s Eye.
+
+We encountered an undead creation today that was used as the "eyes and mouth" of a necromancer.  It attacked us after it had addressed us.~
+@193  = ~Dragon‘s Eye.
+
+We saved a priestess of Ilmater, Egenia, from a group of Talonite priests and trolls.  She came up into Dragon‘s Eye to join in the suffering of the abducted villagers.  She told us that she would wait in Dragon‘s Eye to aid us until we had destroyed the source of evil.~
+@194  = ~Find the missing people of Kuldahar.
+
+After killing the Lizard King, we encountered a little girl in front of a decline leading to a deeper level of Dragon‘s Eye.  She thanked us for killing the lizard men and told us that she was going to go home.~
+@195  = ~Dragon‘s Eye.
+
+We met the "Lizard King" of Dragon‘s Eye.  He informed us that the upper caves of the volcano belonged to him.  He also indicated that he was brought to the caves by someone named Yxunomei.  Apparently, the lizard men do the bidding of Yxunomei to feed his people.  They abduct the villagers for food and for Yxunomei.~
+@196  = ~Finding the priestess of Auril.
+
+We found the priestess of Auril that Kresselack spoke of, a woman named Lysan. Once she revealed herself, we attacked her.~
+@197  = ~Vale of Shadows.
+
+We spoke with Kresselack‘s spirit, and he claims he is not responsible for the evil that plagues Kuldahar, but he knows who is... since we had already slain the Auril priestess that he wished dead, he was willing to share his knowledge with us. Unfortunately, all Kresselack could tell me was that neither he nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~
+@198  = ~Kuldahar Pass.
+
+We found a little boy hiding in a closet in a mill near Kuldahar.  He told us that his father and sister were killed by goblins.  Their bodies were probably the ones we passed on the first floor.~
+@199  = ~Kuldahar Pass.
+
+We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He told us that his head hurt, that something was whispering things to him.  He didn‘t understand what was wrong with him, but he felt some instinctive urge to "answer" the voice in his head.~
+@200  = ~Kuldahar Pass.
+
+We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He asked us what he was doing there.  We responded by telling him the obvious.  It looked like he and his cousins were looting and pillaging the mill.  He responded angrily, telling us that that they were without food and had been "called" to the pass.~
+@201  = ~Kuldahar Pass.
+
+We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He asked us what he was doing there.  We asked him what he meant.  He responded bluntly, claiming that he didn‘t understand why he and his kin were "called" to the pass.~
+@202  = ~Kuldahar Pass.
+
+We met a strange hermit in the valley at the mouth of Kuldahar Pass.  He claimed to have witnessed the avalanche that wiped out the rest of the expedition from Easthaven and nearly killed us as well.  He told us, somewhat reluctantly, that the town of Kuldahar lay to the east of the valley, just beyond an old mill.~
+@203  = ~Disturbances in Kuldahar.
+
+Everard, the head priest of Tempus in Easthaven, confirmed there was a messenger from the northern town of Kuldahar that came to the Temple of Tempus and died shortly after his arrival.  Before his death, the messenger spoke of great disturbances in Kuldahar and asked the people of Easthaven for help. Apparently, Hrothgar is organizing an expedition to Kuldahar to investigate the matter.~
+@204  = ~Finding Sheemish, Conlan‘s son.
+
+We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.~
+@205  = ~Search for the Heartstone Gem.
+
+We returned to Kuldahar - only to find someone masquerading as Arundel. The shapechanger, whoever he was, thanked us for disposing of Yxunomei and allowing him "free reign" over Kuldahar and Easthaven. He vanished before we could learn more. I fear that with Arundel‘s murder, darker times are ahead for the people of Kuldahar and Easthaven.~
+@206  = ~I see Hrothgar amongst you. It‘s a good sign. How do you do, my friend?~
+@207  = ~You have already insulted me thrice. You have no respect to people, even to people who are much older and wiser than you do. I‘m dying, and you‘re still insulting me. But I do not have rights judging neither your words nor your actions. Your God will judge you.~
+@208  = ~I know, and I am really sorry. It was I who sent Hallaster to Easthaven for help. His death weighs heavily upon my conscience, for not only was he a student of mine, but he was also a friend and trusted companion. He will be missed.~
+@209  = ~You‘ve a druid in your party, I‘m sure that she has spoken to you of the balance.~
+@210  = ~It‘s good to know. He is a man of legends.~
+@211  = ~It is to the south - nature will guide you... (*a little quieter, a little weaker*)... enough of my power remains that I may do that. Now... I must go... (*One final burst of strength, enough to keep his voice steady, but not commanding*)... Hrothgar, my friend, I know you are looking for the key... Tilorn was here... Take it. Serve the balance. Protect Kuldahar from this evil.~ [ARUN_87]
+@212  = ~Do what you must...~
+@213  = ~Sometimes it is not easy to teach others of balance. Many see evil as a force to be eradicated, they cannot understand that neither will triumph fully over the other. The balance will be maintained and the cycles will continue.~
+@214  = ~That is true but it is also true that occasionally, the conflict between good and evil threatens to overwhelm the balance. I sense that this is one of those times.~
+@215  = ~As do I Erevain. This mountain community is under more strain than ever. With me as an archdruid or not, we will need this expedition's help.~

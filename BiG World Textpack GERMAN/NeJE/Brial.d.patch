@@ -1,0 +1,10 @@
+--- NeJE\dlg\Brial.d	Mon Jan 19 15:54:06 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Brial.d	Tue Apr 09 19:35:23 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~BRIAL~
+ 
+ IF ~~ THEN BEGIN 0
+-	SAY ~By the horns of the Tarrasque! What are students doing here?~
++	SAY @0
+  IF ~~ THEN EXTERN ~VRIELLE~ 1
+ END

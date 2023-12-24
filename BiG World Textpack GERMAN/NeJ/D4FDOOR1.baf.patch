@@ -1,0 +1,20 @@
+--- NeJ\baf\D4FDOOR1.baf	Wed Jul 16 01:57:02 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\D4FDOOR1.baf	Wed Apr 10 10:28:49 2019
+@@ -5,7 +5,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("YUANTI_ROOM","GLOBAL",1)
+ 		SetGlobal("YUANTI_SURPRISE","GLOBAL",1)
+-		DisplayStringHead(Myself,~A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.~) // A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.
++		DisplayStringHead(Myself,@0) // A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.
+ END
+ 
+ IF
+@@ -15,7 +15,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("YUANTI_ROOM","GLOBAL",1)
+ 		SetGlobal("YUANTI_SURPRISE","GLOBAL",1)
+-		DisplayStringHead(Myself,~A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.~) // A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.
++		DisplayStringHead(Myself,@0) // A blast of fetid air, heavy with the scent of dead flesh, pours out of this room as you open the door.
+ END
+ 
+ 

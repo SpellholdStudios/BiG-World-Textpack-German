@@ -1,0 +1,63 @@
+--- TS\bgtnodlg\aPPBODH3.D	Mon Apr 11 23:09:36 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\aPPBODH3.D	Thu May 05 10:45:54 2016
+@@ -5,46 +5,46 @@
+ APPEND ~PPBODHI3~
+ 
+ IF ~~ THEN BEGIN TS23
+-  SAY ~I am not for walking in the blazing sun on a deserted beach... I will find some cool quiet place to rest on this accursed Island and then we shall see...~
+-  IF ~~ THEN REPLY ~Great, stay with the ship then, I do not fully trust Saemon. It might easily be his own ploy to get the cash and avoid a dangerous sailing to Spellhold.~ GOTO TS24
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO TS24
+ END
+ 
+ IF ~~ THEN BEGIN TS24
+-  SAY ~<CHARNAME>, I sense something very wrong with this island. Please, watch your steps. Perhaps, you will need my assistance yet.~
++  SAY @2
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~GlobalGT("Start_Island","GLOBAL",0)
+ Global("VP_Bodhi_Joins","GLOBAL",1)~ THEN BEGIN TS25
+-  SAY ~I see, you come to seek refuge in this 'peaceful' place as well...~
+-  IF ~~ THEN REPLY ~Peaceful? Are you mocking me? Bodhi, we are fighting for our lives here! Look, my companions and I carry grievous wounds and Kachiko was taken from us! We have no choice but to fight - that's our only hope to get off this Island!~ GOTO TS26
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO TS26
+ END
+ 
+ IF ~~ THEN BEGIN TS26
+-  SAY ~Ahem... I have also a big problem staying in this dungeon. Those beasties turned to stone all my faithful servants, and I am afraid of my destiny as well... Moreover, I cannot allow you to get yourself killed on this island, can I? I myself shall go with you and see that you will be through it and that all of us can be away from here...~
+-  IF ~~ THEN REPLY ~Bodhi, your help would be very timely! Come along!~ GOTO TS27
+-  IF ~~ THEN REPLY ~On the second thought it's better to have no ally, rather than an ally you cannot trust! I do not want your help!~ GOTO TS28
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO TS27
++  IF ~~ THEN REPLY @7 GOTO TS28
+ END
+ 
+ IF ~~ THEN BEGIN TS27
+-  SAY ~And so I shall. Lead on!~
++  SAY @8
+   IF ~~ THEN DO ~SetGlobal("VP_Bodhi_Joins","GLOBAL",2)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS28
+-  SAY ~As you wish, you proud imbecile. My offer stands. Come back and beg for my help any time.~
++  SAY @9
+   IF ~~ THEN DO ~SetGlobal("VP_Bodhi_Joins","GLOBAL",3)~ EXIT
+ END
+ 
+ IF ~Global("VP_Bodhi_Joins","GLOBAL",3)~ THEN BEGIN TS29
+-  SAY ~Did you come back to beg my assistance?~
+-  IF ~~ THEN REPLY ~No, just to check you're okay. I do not need your help.~ GOTO TS28
+-  IF ~~ THEN REPLY ~Bodhi, your help would be very timely! Come along!~ GOTO TS27
++  SAY @10
++  IF ~~ THEN REPLY @11 GOTO TS28
++  IF ~~ THEN REPLY @6 GOTO TS27
+ END
+ 
+ IF ~Global("VP_Bodhi_Joins","GLOBAL",4)~ THEN BEGIN TS30
+-  SAY ~I must go and check if the treacherous captain and his ship are still on the island... See you later...~
++  SAY @12
+   IF ~~ THEN DO ~SetGlobal("VP_Bodhi_Joins","GLOBAL",5)
+ LeaveParty()
+ EscapeArea()~ EXIT

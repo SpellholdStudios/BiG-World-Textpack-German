@@ -1,0 +1,310 @@
+--- TS\bgtdlg\aBMINSC.D	Sat Feb 02 18:03:48 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aBMINSC.D	Thu May 05 10:43:48 2016
+@@ -1,254 +1,254 @@
+ APPEND ~BMINSC~
+ 
+ IF ~~ THEN BEGIN TS99
+-  SAY ~Boo says Kachiko is nice. I am looking for a big rounded purple bottle. The one, which makes people smart...~
++  SAY @0
+   IF ~~ THEN EXTERN ~BKACHI~ 25
+ END
+ 
+ IF ~~ THEN BEGIN TS100
+-  SAY ~Aye, Kachiko, the very same! See, when Dynaheir was alive, she told me that I could drink it and become smart, like Boo... But then she said: "Do not do it Minsc. You are a happy man, your heart tells you to defend the small and helpless and to strike evil.  A smart man is never happy, because he does not trust his heart to know which butt is evil. Do you want to be unhappy, Minsc?"- That’s what she said...~
++  SAY @1
+   IF ~~ THEN EXTERN ~BKACHI~ 26
+ END
+ 
+ IF ~~ THEN BEGIN TS101
+-  SAY ~Aye, but Boo says: "Minsc since Dynaheir dead, you are unhappy anyway. So why do not you become smart if you are already unhappy?"~
++  SAY @2
+   IF ~~ THEN EXTERN ~BKACHI~ 27
+ END
+ 
+ IF ~~ THEN BEGIN TS102
+-  SAY ~Regular hamsters - no, but Boo is the Giant Space Hamster! Now, why do I hold the potion bag?~
++  SAY @3
+   IF ~~ THEN EXTERN ~BKACHI~ 28
+ END
+ 
+ IF ~~ THEN BEGIN TS103
+-  SAY ~Yes! Let me stamp this skinny evil butt with my righteous boot!~
+-  IF ~~ THEN REPLY ~Calm down, all of you! We have enough enemies without starting to fight among ourselves!~ EXIT
+-  IF ~~ THEN REPLY ~Edwin, to be honest, you are wearing on my nerves also. I think we’d better part ways.~ EXTERN ~BEDWIN~ TS108
+-  IF ~~ THEN REPLY ~Speaking about violent death, Edwin, I killed you once and I shall do so again!~ EXTERN ~BEDWIN~ TS109
++  SAY @4
++  IF ~~ THEN REPLY @5 EXIT
++  IF ~~ THEN REPLY @6 EXTERN ~BEDWIN~ TS108
++  IF ~~ THEN REPLY @7 EXTERN ~BEDWIN~ TS109
+ END
+ 
+ IF ~~ THEN BEGIN TS104
+-  SAY ~Ah, my brother ranger, Boo wishes you to know he has observed your bravery in battle and is considering you for a knighthood into the Order of the Hamster.~
++  SAY @8
+   IF ~~ THEN EXTERN ~BVALYGA~ TS359
+ END
+ 
+ IF ~~ THEN BEGIN TS105
+-  SAY ~There is little you can hide from one so wise as Boo.~
++  SAY @9
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS106
+-  SAY ~(*Whispers*) Psst! Valygar! Heh, you is a sly one, ranger. Boo has sniffed out your attractiveness to <CHARNAME>. He lets me know that is beaming with approval for everyone. Hamsters, rangers, Bhaalspawn and all.~
++  SAY @10
+   IF ~~ THEN EXTERN ~BVALYGA~ TS361
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~Boo knows all, my woody brother. There is no secret, no matter how tiny - that is too small for Boo’s wisdom to perceive.~
++  SAY @11
+   IF ~~ THEN EXTERN ~BVALYGA~ TS362
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~Boo is never wrong my foresty friend - he sees the future as well as your blushes.~
++  SAY @12
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~You put him down you, you, you! (*Minsc sputters inarticulately and snatches Boo away from Valygar before cradling him.*) You must not lay hands on Boo in this manner. There is no dignity in dangling by tails.~
++  SAY @13
+   IF ~~ THEN EXTERN ~BVALYGA~ TS364
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~Boo is not a pet! Boo is a wise and ancient being: small on the outside, large as a bear in the middle! He was just investigating if you are virginal, nothing to get so scared and tail-dangly about.~
++  SAY @14
+   IF ~~ THEN EXTERN ~BVALYGA~ TS365
+ END
+ 
+ IF ~~ THEN BEGIN TS111
+-  SAY ~You slippery fellow, you. Boo needs to be sure that <CHARNAME> ’s husband to be is as clean as she is. Boo is very fond of her, you know.~
++  SAY @15
+   IF ~~ THEN EXTERN ~BVALYGA~ TS366
+ END
+ 
+ IF ~~ THEN BEGIN TS112
+-  SAY ~Boo is not small, Sime. Boo is a Miniature Giant Space Hamster. He is incredibly large for his very young age. And he is not pitiful! Have not you seen how he hungers for a battle?~
++  SAY @16
+   IF ~~ THEN EXTERN ~BSIME~ 208
+ END
+ 
+ IF ~~ THEN BEGIN TS113
+-  SAY ~And after the battle is won he is the first one to drink the blood of our defeated enemies!~
++  SAY @17
+   IF ~~ THEN EXTERN ~BSIME~ 209
+ END
+ 
+ IF ~~ THEN BEGIN TS114
+-  SAY ~Yes! Boo learns the ferocity from Minsc! And he gives Minsc his wise counsel in return.~
++  SAY @18
+   IF ~~ THEN EXTERN ~BSIME~ 210
+ END
+ 
+ IF ~~ THEN BEGIN TS115
+-  SAY ~Boo says that he likes what Lady Sime says about him. He says that Lady Sime has eyes like stars.~
++  SAY @19
+   IF ~~ THEN EXTERN ~BSIME~ 212
+ END
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~Actually he said "as pretty as a hamster’s" but I thought "like stars" would be better. It is better, is it not?~
++  SAY @20
+   IF ~~ THEN EXTERN ~BSIME~ 213
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~Ahem, Lady Sime, I am not sure that I know. Did you like what Boo said or did you like what Minsc said?~
++  SAY @21
+   IF ~~ THEN EXTERN ~BSIME~ 214
+ END
+ 
+ IF ~~ THEN BEGIN TS118
+-  SAY ~He is just shy, Lady Sime. Now, Boo, be a good hamster, go sit with Lady Sime, and tell her all the nice things you wanted to tell her.~
++  SAY @22
+   IF ~~ THEN EXTERN ~BSIME~ 267
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~Can I talk to you about Boo?~
++  SAY @23
+   IF ~~ THEN EXTERN ~BSIME~ 217
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~Boo wants to know what happened when you took him from me.~
++  SAY @24
+   IF ~~ THEN EXTERN ~BSIME~ 218
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~I... fainted?~
++  SAY @25
+   IF ~~ THEN EXTERN ~BSIME~ 219
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~I will not, Lady Sime.~
++  SAY @26
+   IF ~~ THEN EXTERN ~BSIME~ 220
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~Boo’s saying that if I tell you, it would not be a secret place.~
++  SAY @27
+   IF ~~ THEN EXTERN ~BSIME~ 222
+ END
+ 
+ IF ~~ THEN BEGIN TS124
+-  SAY ~Minsc does not want Lady Sime to be dead. Boo would be very sad.~
++  SAY @28
+   IF ~~ THEN EXTERN ~BSIME~ 223
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~Boo is not sure it is a good idea. Lady Sime should not go up front. It is dangerous for Lady Sime. Lady Sime should stay behind Minsc and throw stones.~
++  SAY @29
+   IF ~~ THEN EXTERN ~BSIME~ 224
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~Dirty tricksters would die once Minsc unleashed his righteous boot on them! But Boo thinks you are right. Here is your mace, Sime.~
++  SAY @30
+   IF ~~ THEN EXTERN ~BSIME~ 225
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~Yes, Sime. I protected Dynaheir. That was my duty. But I failed it. Irenicus killed Dynaheir and I failed my dajemma. Now I have only Boo to defend.~
++  SAY @31
+   IF ~~ THEN EXTERN ~BSIME~ 227
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~That it was, but the mage tricked us! He did not face us and he avoided the battle, that coward. He had us poisoned! And then he killed Dynaheir. You are not like Dynaheir, Sime. Boo says I can protect you, but you are not a witch. That’s mean I can think of you as a non-witch even if I do protect you.~
++  SAY @32
+   IF ~~ THEN EXTERN ~BSIME~ 228
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~Boo says if you are not a witch then I am not prohibited to love you. I was not allowed to love Dynaheir, only protect her, because she was my witch.~
++  SAY @33
+   IF ~~ THEN EXTERN ~BSIME~ 229
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~Sime, Boo says if I am to court a lady properly, I am to give her little gifts. He says a carrot would be good. Will you take the carrot?~
++  SAY @34
+   IF ~~ THEN EXTERN ~BSIME~ 231
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~But I thought that carrots are not very pretty. Ladies like pretty things.~
++  SAY @35
+   IF ~~ THEN EXTERN ~BSIME~ 232
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Do you like ugly things?~
++  SAY @36
+   IF ~~ THEN EXTERN ~BSIME~ 233
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~I wanted to give you a gem, but all the gems we are getting are already in our bags so you have them anyway. I have this little round pebble. It is not a precious stone, but I like it. I think it is pretty. I want to give it to you.~
++  SAY @37
+   IF ~~ THEN EXTERN ~BSIME~ 234
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~Of course! Nobody before wanted to talk to Boo. Strange, no? Here, I will hold it in my palms and you need to put your ear closer. He has very quiet voice, Boo.~
++  SAY @38
+   IF ~~ THEN EXTERN ~BSIME~ 236
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~Beautiful Sime wants to talk to Boo? Poi... poin...~
++  SAY @39
+   IF ~~ THEN EXTERN ~BOO~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~Yes, you have it! Smart Boo! Boo is so smart, Lady Sime, no?~
++  SAY @40
+   IF ~~ THEN EXTERN ~BOO~ 6
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~Little Boo is tired? Boo, do you want cheese? Aye, not very polite of you to stop talking to Lady Sime like that, Boo.~
++  SAY @41
+   IF ~~ THEN EXTERN ~BSIME~ 243
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~Yes, yes. I shall settle him to sleep in his little woolen sock. Then he will rest well and be as ferocious as ever in the next battle.~
++  SAY @42
+   IF ~~ THEN EXTERN ~BSIME~ 244
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~Are you talking to Boo about love Sime? I did not listen, just heard "love".~
++  SAY @43
+   IF ~~ THEN EXTERN ~BSIME~ 251
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~Oh, my little Boo is such a kidder!~
++  SAY @44
+   IF ~~ THEN EXTERN ~BSIME~ 256
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~Do not get all fluffy and upset, Boo. You know that your name is noble. Very noble.~
++  SAY @45
+   IF ~~ THEN EXTERN ~BOO~ 18
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~There was that hero of old, great king.~
++  SAY @46
+   IF ~~ THEN EXTERN ~BOO~ 19
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~No, why in Rasheman?~
++  SAY @47
+   IF ~~ THEN EXTERN ~BOO~ 20
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~The great king... ahem, knight fought some strange battle, when there are no enemy.~
++  SAY @48
+   IF ~~ THEN EXTERN ~BOO~ 21
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~The knight was very brave, and kicked all enemies. Than he was a winner. He went to take the wreath from the pretty girl. But Lady Sime is prettier.~
++  SAY @49
+   IF ~~ THEN EXTERN ~BOO~ 22
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~But than a hamster ran. Girl got scared and fell. The knight was very tired and fell too.~
++  SAY @50
+   IF ~~ THEN EXTERN ~BOO~ 23
+ END
+ 
+ IF ~~ THEN BEGIN TS147
+-  SAY ~The king laughed and announced the hamster the winner of the tournament ’cause he made the best knight to fall from the saddle.~
++  SAY @51
+   IF ~~ THEN EXTERN ~BOO~ 24
+ END
+ 
+ IF ~~ THEN BEGIN TS148
+-  SAY ~Because the man who sold Boo to me called him Boo.~
++  SAY @52
+   IF ~~ THEN EXTERN ~BSIME~ 261
+ END
+ END

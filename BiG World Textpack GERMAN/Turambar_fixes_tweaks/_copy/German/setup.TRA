@@ -1,0 +1,301 @@
+@-1004 = ~BITTE poste den Inhalt dieser Datei~ 
+@-1005 = ~an dieses Forum~
+@101   = ~Nicht für die Mac-Version von BG2 verfügbar.~ 
+@102   = ~Diese Komponente benötigt ToBEx.
+ToBEx wird nun automatisch installiert. Bitte warten...~
+@103   = ~Bei der Installation von ToBEx ist ein Fehler aufgetreten.
+Deine BGMain.exe scheint veraltet zu sein.
+Vergewissere Dich bitte, ob BG2:ToB, und der letzte offiziellen Patch (v. 26498) richtig installiert wurden.
+INSTALLATION WIRD ABGEBROCHEN~ 
+@104   = ~Bei der Installation von ToBEx ist ein unbekannter Fehler aufgetreten.
+INSTALLATION WIRD ABGEBROCHEN~
+@1     = ~BGII - BGT - DSotSC - NTotSC Korrekturpack (empfohlen!)~
+@10    = ~Nur für die Italienische Version - Namenskorrektur von Nalia's Ring~ 
+@11    = ~Northern Tales of Swordcoast Korrekturen für Gegenstände, Dialoge und grafische Fehler~
+@12    = ~Inaktive Korrektur von Kreaturen~ 
+@13    = ~Gerde's Quest und andere zusammenhängende Korrekturen~
+@14    = ~Korrektur für einige Fehler auf der Weltkarte für BG1-Gebiete~
+@15    = ~Korrekturen für SoBH~ 
+@16    = ~Andere Kompatibilitätskorrekturen~
+@100   = ~Diese Komponente ist nur für italienischsprachige Installationen~ 
+@110   = ~NTotSC wurde nicht installiert oder die NTotSC-Installation ist defekt~
+@111   = ~Der Anführer eines Fischerdorfes an der nördlichen Schwertküste erzählte uns von Euch. Wir haben das Problem dort gelöst, Ihr könnt dorthin zurückkehren!~
+@120   = ~Dein BG2 Spiel ist beschädigt~
+@121   = ~Patchen der BGT- und DSotSC-Xvarte...~ 
+@122   = ~Patchen der BGT Xvarte...~
+@123   = ~Patchen von NTotSC-Kreaturen...~ 
+@124   = ~BGT scheint nicht installiert zu sein. SKIPPING~ 
+@125   = ~Patchen anderer fehlerfafter Scripts~
+@130   = ~Wartet, Ich sehe, dass Ihr diesen Auftrag schon augeführt habt! Nehmt diese 75 Goldstücke und habt Dank für Eure Hilfe!~ 
+@131   = ~Patchen von Kreaturen...~
+@132   = ~Gebiete korrigieren...~
+@133   = ~Patchen von Dialogen und Scripten...~
+@140   = ~Du musst die Installationsdatei der Weltkarte ins Spieleverzeichnis extrahieren, um diese Komponente installieren zu können~
+@141   = ~The Weltkarte ist bereits installiert, muss aber deiinstalliert werden, um dies zu beheben. Soll sie jetzt  deinstalliert werden? Y/N~
+@142   = ~Die "Weltkarten"-Modifikation wurde kürzlich von Wisp aktualisiert. Bitte lade Dir die neueste Version unter: http://www.shsforums.net/index.php?app=downloads&showfile=308 herunter~
+@145   = ~Kreaturen-Fixes~
+@146   = ~Wiederausgleichung des Xvart-Dorfes~
+@147   = ~Fixe Anomen's Waffenfertigkeiten~
+@150   = ~NTotSC benötigt~
+@151   = ~SoBH benötigt~
+@155   = ~Fixes für DS-Gegenstände und Ressourcen~
+@160   = ~"Verbesserte Verzerrte Rune" Komponente von Baldurdash entdeckt. Überprüfe Kompatibility...~
+@161   = ~Shadows over Soubar entdeckt. Fixen von Kompatibilitätsproblemen~
+@2     = ~Tweaks für BGII und BGT~
+@200   = ~Tweaks für den Spiegelumhang~
+@201   = ~Verzauberter Ring Nalia's~
+@202   = ~Der Tagesstern schützt gegen Stufenabzug~
+@203   = ~Fenten kauft mehr Ankhegpanzer (Baldur's Gate)~
+@204   = ~Shar Teel benutzt "Kampf mit Einhandwaffen" (nicht mit dem Amazonen Kit empfohlen)~
+@205   = ~Turambar's Langsamer Zerfall von Drow-Waffen (eine Überarbeitung des Codes aus BG2 Tweaks)~
+@2001  = ~Umhang schützt nicht gegen Gebietszauber~
+@2002  = ~Originaler Umhang des Zauber zurückwerfens (SoA)~
+@2010  = ~
+
+Nalia verbesserte ihren Ring, damit er ihr helfen konnte, aus ihrer Festung zu schleichen:
+- Schlösser öffnen: +10
+- Taschendiebstahl, Fallen finden: +5
+- Im Schatten verstecken, List: +15~
+@2015  = ~BG2 immunitäten (empfohlen!)~
+@2016  = ~BG1 Immunitäten~
+@2017  = ~Gebe allen Skelettkriegern die gleichen Immunitäten~
+@2020  = ~
+
+Besonderheit: Der Träger ist gegen Stufenabzug geschützt~
+@2023  = ~Cespenar kann den Tagesstern mit dem Auge von Tyr verbessern~
+@2024  = ~ToB wird benötigt~
+@2025  = ~Ob die Klinge speziell für den Einsatz der treuesten Diener Torms erschaffen oder irgendwann in der langen Geschichte der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verloren gegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote oft sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Fertigkeit verliehen, den Zauber "Sonnenstrahl" einzusetzen. Dabei wird eine starke Energie von der Positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
+
+EIGENSCHAFTEN:
+Besondere Fähigkeiten (dreimal täglich):
+Sonnenstrahl
+Schaden: 3W6 (Rettungswurf gegen Zauber oder das Ziel erblindet für 10 Runden)
+Untote: zusätzlich 1W6 Schaden pro Stufe des Zaubernden (muss Rettungswurf gegen Zauber bestehen, oder wird vernichtet)
+Reichweite: 20 m
+Gebiet: 20 m Radius
+
+ETW0-Bonus: -4 bonus, -6 gg. böse Wesen
+Schaden: 1W8 +4, +6 gg böse Wesen, doppelten Schaden gegen Untote
+Schadensart: Klinge
+
+Besonderheit: Schutz gegen Festhalten, Bezauberung und Einkerkerung.
+
+Magieresistenz: + 25%
+
+Gewicht: 2
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Waffentyp: 1-händig
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern~
+@2026  = ~Sonnenklinge: Tagesstern +6
+Ob die Klinge speziell für den Einsatz der treuesten Diener Torms erschaffen oder irgendwann in der langen Geschichte der Kirche diesem Zweck zugeführt wurde, ist im Nebel der Zeit verloren gegangen. Auf jeden Fall haben die Paladine vom Orden des Heiligen Zorns der Loyalen Streiter das Schwert Tagesstern in ihrem Kampf gegen böse Untote oft sehr effektiv eingesetzt. Magie oder ein mächtiger Segen haben der Waffe die Fertigkeit verliehen, den Zauber "Sonnenstrahl" einzusetzen. Dabei wird eine starke Energie von der Positiven Ebene kanalisiert, die sowohl lebende Wesen als auch Untote vernichten kann.
+
+
+<CHARNAME> errang diese Klinge im Kampf mit einem Leichnam nahe der Stadttore von Athkatla. Er schmiedetet es um zu einem noch mächtigeren Instrument der heiligen Gerechtigkeit. 
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten (viermal pro Tag):
+Sonnenstrahl
+Schaden: 3W6 (Rettungswurf gegen Zauber oder das Ziel erblindet für 10 Runden)
+Untote: zusätzlich 10W6 Schaden pro Stufe des Zaubernden (muss Rettungswurf gegen Zauber bestehen, oder wird vernichtet)
+Reichweite: 20 m
+Gebiet: 20 m Radius
+
+ETW0-Bonus: -6, -10 gg. böse Wesen
+Schaden: 1W8 +6, +10 gg. böse Wesen
+Kampffähigkeit: Jeder Untote, der vom Tagesstern getroffen wird, erleidet den doppelten Schaden. 
+Schadensart: Klinge
+Gewicht: 2
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Waffentyp: 1-händig
+Mindeststärke: 6
+Nicht benutzbar von:
+Druiden
+Klerikern
+Magiern
+
+Besondere Fähigkeiten: auf dem Träger liegt Schutz vor Bösem
+Magieresistenz: + 25%
+Besonderheit: Der Träger ist gegen Festhalten, Bezauberung und Einkerkerung geschützt.~
+@2027  = ~Sonnenklinge: Tagesstern +6~
+@2030  = ~nur Fixen~
+@2031  = ~unendlich Panzer~
+@2032  = ~nur BGT~
+@2033  = ~Hier bitte, Habt Ihr noch weitere?~
+@2034  = ~Wundervolle Arbeit! Ist das alles?~
+@2035  = ~Keiria and Skeezer sind nur ab Kapitel 4 verfügbar~
+@2036  = ~Benötigt DSotSC~
+@2037  = ~Helm der Gesinnungsveränderung~
+@2038  = ~Benötigt TotSC~
+@2040  = ~Diese Datei wurde bereits von einem inkompatiblen Mod verändert~
+@2041  = ~Welche Wurfwaffen-Fertigkeiten möchtest Du beherrschen?
+1] Dolch (NICHT kompatibel mit dem Amazonen Kit)
+2] Axt~
+@2042  = ~Welchen Waffenstil möchtest Du beherrschen?
+1] Schwert und Schild (NICHT mit dem Kensai-Kit kompatibel)
+2] Einhandwaffen~
+@2045  = ~Erlaube die Bardenklasse für Elfen~
+@2046  = ~Diese Komponente kann nicht nach dem "Klingensänger" Kit installiert werden. Bitte deinstallieren das Kit und versuche es erneut; Du kannst das Kit später neu installieren.~
+@2047  = ~Erlaube, Klingen während dem Defensiven Klingenwirbel als freie Aktion zu benutzen~
+@2048  = ~Turambar's überarbeitete XP-Belohnungs-Tabelle für das lernen von Zaubern und das anwenden von Diebesfähigkeiten~
+@2050  = ~Dein Drow-Gegenstand ist zerfallen~
+@2051  = ~Das starke Licht zerstört Deinen Drow-Bolzen~
+@2052  = ~Drachen sind nicht gegen hinterhältige Angriffe immun~
+@2053  = ~Kreaturen werden gepatcht. Das kann einige Zeit dauern...~
+@2054  = ~Items werden gepatcht...~
+@2056  = ~Fixe Bereiche, die in Spielständen angelegt sind~
+@2057  = ~Benötigt die vorherige Komponente~
+@2055  = ~Pink Panther~
+@4     = ~Das BG1 Kit Projekt: Neue Kits~
+@400   = ~Amazonen Kit (benötigt für Shar Teel)~
+@401   = ~Priester der Shar (benötigt für Viconia)~
+@402   = ~Priester des Tempus (benötigt für Branwen)~
+@403   = ~Klingensänger (benötigt für Keiria)~
+@4000  = ~amazone~
+@4001  = ~Amazone~
+@4002  = ~AMAZONE:
+  Amazonen sind weibliche Krieger in einer von Männern beherrschten Welt. Ihre Zivilisation könnte von einer Göttin, die Frauen mochte, gegründet worden sein, sie könnten auch Frauen gewesen sein, die sich entschieden hatten, gegen die männliche Überlegenheit zu rebellieren und sich selbst zu regieren oder einfach nur eine matriarchalische Gesellschaft, die lange vor der bekannten Geschichte gegründet worden sein könnte.
+  Wo auch immer ihr Ursprung lag, sie leben nun in Zivilisationen und Gemeinschaften, in denen Frauen die Positionen besetzen, die traditionell von Männern bekleidet werden, insbesondere die Rolle der Krieger und Abenteurer.
+  Eine Kultur der Amazonen kann klein (eine einzelne Stadt oder eine Insel) oder groß (ein ganzes Land oder oder Kontinent), fortschrittlich oder primitiv sein. Manche Amazonenstämme halten sich Männer als Diener und Sklaven, eine strenge Umkehrung des ehemaligen Zustands; andere haben keine Männer in ihren Gemeinschaften, und nehmen lange Urlaube, um befreundete benachbarte Stämme von Männern zu besuchen; andere bestehen fort, indem sie Abenteurer, die ihr Gebiet passieren, sehr gastfreundlich aufnehmen.
+  Amazonen werden allgemein als sehr fähige Kriegerinnen respektiert, die bevorzugt mit Speeren und Bögen kämpfen. Sie haben auch Kenntnisse über Gifte, und haben eine leichte Verbindung zur Natur. Durch ihren weiblichen Status werden die Amazonen oft unterschätzt, was sie scharfsinnig mit anderen Vorteilen im Kampf zu nutzen wissen.
+
+VORTEILE:
+-  Kann Waffen wie Speere auf Stufe 10 vergiften
+-  Kann alle 4 Stufen einmal Tiere bezauberns
+-  Kann ihren weiblichen Status benutzen, um einen Vorteil durch das Ausführen eines Erstschlages auf den Stufen 1, 10 und 14 (Dies gewährt ihr +3 auf Schaden und einen hervorragenden Bonus auf ihre ETW0 für den ersten oder zweiten Treffer)
+-  Erhält 1W10+1 Trefferpunkte statt 1W10
+
+NACHTEILE:
+-  Kann nicht von Rechtschaffener Gesinnung sein
+-  Kann nur Speere, Schwerter, Keulen und Bögen mit jeder Fertigkeit verwenden
+-  Kann nur Großmeisterschaft mit Speeren und Langbögen erreichen
+-  Kann keine Rüstung tragen, die schwerer als ein Schienenpanzer ist
+-  Muss ein Mensch, Halb-Elf oder Elf sein~
+@4003  = ~Erstschlag~
+@4009  = ~Die Kleriker Kits dieses Mods sind nicht mit Divine Remix kompatibel~
+@4010  = ~Heiliges Symbol der Shar~
+@4011  = ~Nur den würdigsten und ergebensten Dienern der Nachtsängerin wird die Ehre zuteil, diese mächtigen heiligen Symbole von ihrer Göttin zu empfangen.
+
+EIGENSCHAFTEN: 
+
+   Gewährt einen zusätzlichen Zauber der 6. und 7. Stufe. 
+   5% Magieresistenz während es getragen wird 
+   +1 auf Stärke, wenn es getragen wird 
+
+Kann nur verwendet werden von: 
+Neutralen und bösen Klerikern~
+@4012  = ~Hinzufügen von fehlenden Ressourcen...~
+@4013  = ~Priester der Shar~
+@4014  = ~PRIESTER DER SHAR:
+  Shar ist die Göttin der Dunkelheit, der Nacht, des Verlusts und des Vergessens.  Sie herrscht in einer Ebene überdimensionalen Schattens. Shar ist eine ungewöhnliche Macht, da sie mehrere Aspekte zu haben scheint, die verschiedener Gesinnungen sind; das am meisten offensichtliche Beispiel ist Sharess, welche genügend Gefolge gewonnen hatte, um sich von Shar abzuspalten und eine eigenständige Einheit zu werden. Ein Aspekt von Shar, der für das Vergessen steht, hat eine Gefolgschaft von Priestern, welche sich der Wahrung ihrer Neutralität verschrieben haben. Shar's Hauptaspekt andererseits wird von denen verehrt, die in der Nacht agieren (wie Diebe), die das Licht hassen (wie Goblinoiden und deren Verbündeten), und jenen, die Bitterkeit und Verlust erleiden. Ihr Symbol ist eine schwarze Scheibe mit einem Rand aus tiefem violett.
+
+  Sie ist also eine Gottheit der Magie: Während ihres ewigen Kampfes gegen Selune erschuf sie eine Wafffe, die sie besiegen sollte, eine entgegengesetzte Art der, deren Macht aus den Löchern zwischen den Fäden aus Mystra's Gewebe stammt. Das Schattengewebe ist für Illusionen und Nekromantie sehr wirkungsvoll, aber völlig unbrauchbar für Zaubersprüche, die mit Licht zu tun haben. Darüber hinaus sind die Geheimnisse des Schattengewebes sehr beunruhigend und zerstören Verstand und Vernunft eines jeden Sterblichen, der sie einzusetzen wagt.
+
+VORTEILE:
+-  Kann alle 10 Stufen einmal täglich Rüstung der Dunkelheit wirken (Hält für 1 Runde/Stufe des Zaubernden an, und gewährt für jeweils 4 Erfahrungsstufen einen Bonus +1 auf die AC bis zu einem Maximum von +4)
+-  Kann auf den Stufen 14 und 16 Kreaturen der Dunkelheit herbeirufen (Beschwört 1 oder 2 Kreaturen, welche dazu fähig sind Fähigkeitspunkte für 8 Runden zu senken)
+-  Erhält Dunkles Geschoss auf den Stufen 10, 12 and 14 (Dieses verursacht einen Schaden von 3W4, lähmt das Ziel, wenn ihm ein Rettungswurf gegen Tod und Gifte mißlingt und belegt es mit Stille, wenn ein Rettungswurf gegen Zauber scheitert)
+-  Erhält Schattenblitz auf den Stufen 14 and 22 (funktioniert wie ein Kettenblitz, verursacht aber W4 statt W6 Schadenspunkte, Die Hälfte davon gilt als Magieschaden und entzieht dem Ziel 1 oder 2 Stufen, wenn ihm ein Rettungswurf gegen Tod misslingt).
+-  Verfügt über einige Magierzauber der Schule Illusion.
+-  Hat einen +3 Bonus auf Rettungswürfe gegen Tod
+
+NACHTEILE:
+-  Muss von neutraler oder böser Gesinnung sein
+-  Muss ein Elf oder Halb-Elf sein
+-  Kann keine Rüstungen tragen, die schwerer sind als ein Schienenpanzer
+-  Gewinnt THAC0 etwas langsame als ein normaler Kleriker
+- Kann keine Zauber wirken, die mit Licht zu tun haben (wie Sonnenstrahl)
+-  erhält -1 auf maximale Weisheit~
+@4015  = ~Rüstung der Dunkelheit~
+@4016  = ~Kreaturen der Dunkelheit~
+@4017  = ~Dunkles Geschoss~
+@4018  = ~Schattenschild~
+@4019  = ~Schattenblitz~
+@4020  = ~Priester des Tempus~
+@4021  = ~PRIESTER DES TEMPUS:
+Tempus ist der Gott des Krieges, der Herr der Schlachten, der Schlaghammer. Er ist willkürlich in seiner Gunst, doch seine chaotische Natur begünstigt alle Seiten gleichermaßen. An einem Tag mag er auf Seiten einer Armee stehen und am nächsten gegen sie. So ist die Natur des Krieges, verkörpert von Tempus.
+Das Gewand der Priester des Tempus ist die Rüstung, schlachtenerprobt und verbeult. In zivilisierteren Gebieten wurde sie von einer stählernen Schädelhaube ersetzt, aber die Botschaft ist die selbe: dies sind Kriegerpriester. Ihr Platz ist in den Gräben bei den Truppen, um sie voran zu treiben. Priester des Tempus lassen sich auf beiden Seiten eines Konflikts finden, da sich nie vorhersagen läßt, wem der Kriegsgott seine Gunst schenken wird.
+
+VORTEILE:
+- Erhält auf den Stufen 3, 5 und 7 jeweils einmal täglich ‘Geisterhammer‘.
+- Erhält auf den Stufen 4, 6 und 10 jeweils einmal täglich ‘Tempus' Willen‘; funktioniert wie der Zauber ‘Heilige Macht‘.
+- Erhält auf den Stufen 4, 7 und 12 jeweils einmal täglich ‘Schild des Tempus‘; funktioniert wie der Zauber ‘Materiespiegel‘.
+- Erhält jeweils eine Benutzung ‘Eisenhaut‘ auf den Stufen 10, 13 und 16.
+- Erhält jeweils eine Benutzung von ‘Falscher Sonnenaufgang‘ auf den Stufen 12, 15, and 18.
+- Das heilige Symbol gewährt +3 auf Stärke, aber keine Magieresistenz.
+- Kann Großmeisterschaft mit dem Kriegshammer erreichen.
+
+NACHTEILE:
+- Kann nur von wirklich neutraler oder mancher chaotischen Gesinnung sein.
+- Benötigt eine Stärke von 12~
+@4022  = ~Heiliges Symbol des Tempus~
+@4023  = ~Nur den würdigsten und ergebensten Dienern des Schlachtenfürstes wird die Ehre zuteil, diese mächtigen heiligen Symbole von ihrem Gott zu empfangen.
+
+EIGENSCHAFTEN: 
+
+   Gewährt einen weiteren Zauber der 6. und 7. Zauberstufe. 
+   +3 auf Stärke, wenn es getragen wird
+
+Kann nur benutzt werden von: 
+Neutralen und  und chaotischen Klerikern~
+@4024  = ~Tempus' Wille~
+@4025  = ~Schild des Tempus~
+@4030  = ~klingensänger~
+@4031  = ~Klingensänger~
+@4032  = ~KLINGENSÄNGER:
+Der Klingensänger ist ein hochangesehener Elfenkrieger, der von Jugend an eine bestimmte Art von Einhandklinge wählt, auf die er sich voll konzentriert, um zu lernen, sie perfekt zu beherrschen. Dies beeinträchtigt jedoch keine anderen Fähigkeiten. Dieses einzigartige Fokussieren auf eine Waffe, erlaubt dem Klingensänger, Angriffe zu parieren. Dies, kombiniert mit seiner berühmten Fähigkeit, Zauber zu wirken und seiner erhöhten Reaktionsgeschwindigkeit, machen den Klingensänger im Kampf zu einem unberechenbaren Feind. Auch während dem Parieren im Nahkampf können Zauber gewirkt werden. Seine Fähigkeit, Zauber zu wirken sind ein enormer Vorteil, jedoch ist seine Zaubergeschwindigkeit etwas langsamer, als bei normalen Magiern.
+
+VORTEILE:
+-  Kann Großmeisterschaft mit jedem einhändigen Schwert, und jeden Spezialisierungsgrad mit dem Einhandwaffen-Kampfstil erreichen
+-  Erhält alle 8 Stufen einen Bonus von +1 auf AC und THAC0
+-  Erhält einen dauerhaften Schadensmodifikator +1
+-  Hat die Fähigkeit, Feinde viermal täglich zu entwaffnen (Dies erlaubt dem Klingensänger, dem Ziel die Waffe aus der Hand zu schlagen, wenn ein Angriffswurf auf -5 erfolgreich ist und dem Ziel ein Rettungswurf -5 gegen Tod misslingt. Entwaffnen kann 2 Runden pro Einsatz der Fähigkeit versucht werden.)
+-  Erhält auf den Stufen 2, 7, 10 und 13 eine besondere Parieren-Bewegung, die ihndaran hindert, anzugreifen, aber einen Bonus auf die AC und die Zaubergeschwindigkeit gewährt.
+-  Kann ab Stufe 7 Zauber wirken, während er eine Rüstung trägt
+-  Das Bardenlied ist identisch mit dem, welches der Skalde benutzt
+
+NACHTEILE:
+-  Muss ein Elf, Halb-Elf oder Mensch sein
+-  Kann keine Fertigkeitspunkte auf Zweihandwaffen und alle anderen Nichteinhändigen Waffen vergeben.
+-  Erhält eine Strafe auf die Zaubergeschwindigkeit
+-  Kann keinen Taschendiebstahl
+-  Hat dieselbe Sagenkunde wie ein Magier.~
+@4033  = ~Entwaffnen~
+@4034  = ~Parade~
+@4035  = ~ToBEx wurde noch nicht installiert, ist aber notwenig, um dieses Kit für Elfen zugänglich zu machen. Möchtest Du ToBEx jetzt installieren?
+[I]nstall or [N]ot install~
+@4036  = ~Offenbar benutzt Du die Mac-Wersion von BG2
+Ünfähig, die ausführbare Datei zu patchen. Dieses Kit wird nicht für Elfen verfügbar.~
+@5     = ~Das BG1 Kit-Projekt: NPC-Kits~
+@500   = ~Ein Kit für Shar Teel~
+@501   = ~Ein Kit für Keiria~
+@5000  = ~Kensai~
+@5001  = ~Amazone~
+@5002  = ~Waffenfertigkeiten auswählen:
+1] Lieblingswaffen der Amazone (Speer und Bogen) (empfohlen)
+2] Nur korrigieren~
+@5003  = ~Du musst zuerst das Kit installieren!~
+@5004  = ~Dieser Mod ist nicht kompatibel mit Level 1 NPCs~
+@5005  = ~Priester der Shar Kit für Viconia~
+@5006  = ~Priester des Tempus Kit für Branwen~
+@5007  = ~Rächer Kit für Faldorn~
+@5010  = ~Keiria Fertigkeiten im Kampfstil mit zwei Waffen geben?
+[N]o or choose one:
+1] Langschwert und Kampfstil mit zwei Waffen
+2] Scimitar und Kampfstil mit zwei Waffen~
+@5011  = ~Keiria wurde bereits modifiziert. Bitte installiere diese Komponente ohne die Fertigkeitenoption erneut~
+@5012  = ~Skalden Kit für Will Scarlet O'Hara~
+@5013  = ~Harlekin Kit für Eldoth Kron~
+@5014  = ~Klinge~
+@5015  = ~Keiria Fertigkeiten im Kampfstil mit Einhandwaffen geben?
+[N]o or choose one:
+1] Langschwert und Kampfstil mit Einhandwaffen
+2] Scimitar und Kampfstil mit Einhandwaffen~
+@5016  = ~Klingensänger~

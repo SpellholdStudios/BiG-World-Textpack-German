@@ -1,0 +1,73 @@
+--- NeJE\dlg\TuIllus.d	Mon Jan 19 15:56:18 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuIllus.d	Tue Apr 09 19:37:31 2019
+@@ -1,50 +1,50 @@
+ BEGIN ~TuIllus~ 1
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Ah, so Vashon has sent another of his protegees to creep about my quarters has he? That is your purpose for being here is it not?~
+-  IF ~~ THEN REPLY ~It is, and I suppose having been discovered means that I have failed?~ GOTO 1
+-  IF ~PartyHasItem("shadbfak")~ THEN REPLY ~It is. I have secured the scroll I was sent to retrieve, surely that is all that is important here?~ GOTO 1
+-  IF ~PartyHasItem("shadbfak")~ THEN REPLY ~It is and I  have what I came for, does Vashon need to know that I failed at the last moment? I could make it worth your while not to say anything to him?~ GOTO 2
+-  IF ~~ THEN REPLY ~Yes Vashon sent me here to retrieve a scroll, could you not just give me the scroll and forget that you saw me? I would be prepared to make it worth your while?~ GOTO 2
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~PartyHasItem("shadbfak")~ THEN REPLY @2 GOTO 1
++  IF ~PartyHasItem("shadbfak")~ THEN REPLY @3 GOTO 2
++  IF ~~ THEN REPLY @4 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I believe your task was to retrieve the item and return to Vashon undetected. I am afraid you are discovered so you have failed I am sorry to say. I believe he will have been watching your progress himself and knows this already. I suggest you return to him and hear it from him yourself.~
+-  IF ~~ THEN REPLY ~There is nothing more to be said. I will take my leave of you and go see Vashon. Maybe he will give me another chance. Farewell.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
++  SAY @5
++  IF ~~ THEN REPLY @6 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
+ TakePartyItem("shadbfak")
+ EscapeArea()~ EXIT // If PC.returns to Vashon then Vashon 20.
+-  IF ~PartyHasItem("shadbfak")~ THEN REPLY ~What is to prevent me from keeping the scroll and not returning it to Vashon?~ GOTO 4
++  IF ~PartyHasItem("shadbfak")~ THEN REPLY @7 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Did I hear what I thought I heard? Were you offering me a bribe? Do not answer that! I know fine well what I heard and so does Vashon. You can be assured that he was watching your progress very carefully and will not be amused by your offer to me. I suggest you return to him and see what he makes of your words.~
+-  IF ~~ THEN REPLY ~I apologise for offending you by my offer. I can only say it was made rashly and I should have not have been so hasty in my eagerness to do well. Forgive me. I will take my leave of you and make my apologies to Vashon also. Farewell.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
++  SAY @8
++  IF ~~ THEN REPLY @9 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
+ TakePartyItem("shadbfak")
+ EscapeArea()~ EXIT // If PC.returns to Vashon: Then Vashon 22
+-  IF ~PartyHasItem("shadbfak")~ THEN REPLY ~I have no need to face Vashon or his words of disapproval. I have his scroll, and I intend keeping it for my time!~ GOTO 3
+-  IF ~~ THEN REPLY ~I have no need to look on Vashon’s disapproving face! I have no use for his silly tests or his scroll, keep them all! I will take my leave of you both. I shall presume that he is still listening to this conversation when I say farewell Vashon.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",5)
++  IF ~PartyHasItem("shadbfak")~ THEN REPLY @10 GOTO 3
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",5)
+ TakePartyItem("shadbfak")
+ EscapeArea()~ EXIT // If PC.returns to Vashon: Then Vashon 22
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~A warning, the scroll you have is warded against anyone other than Vashon reading it. He alone can dispel the ward, you would be wise to leave it here with me if you do not intend returning it to him.~
+-  IF ~~ THEN REPLY ~Here take the accursed thing!~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
++  SAY @12
++  IF ~~ THEN REPLY @13 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
+ TakePartyItem("shadbfak")
+ EscapeArea()~ EXIT // If PC.returns to Vashon: Then Vashon 22
+-  IF ~~ THEN REPLY ~I think I will keep it anyway and get it checked out sometime.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",6)
++  IF ~~ THEN REPLY @14 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",6)
+ EscapeArea()~ EXIT // Quest is lost to PC.
+-  IF ~~ THEN REPLY ~Then the scroll is useless to me, I will return it to Vashon and maybe he will give me another chance.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
++  IF ~~ THEN REPLY @15 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",4)
+ EscapeArea()~ EXIT // If PC.returns to Vashon: Then Vashon 22
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~A warning, the scroll you have is warded against anyone other than Vashon reading it. He alone can dispel the ward, you would be wise to leave it here with me if you do not intend returning it to him.~
+-  IF ~~ THEN REPLY ~Here take the accursed thing!~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
++  SAY @12
++  IF ~~ THEN REPLY @13 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
+ TakePartyItem("shadbfak")
+ EscapeArea()~ EXIT // If PC.returns to Vashon then Vashon 20.
+-  IF ~~ THEN REPLY ~I think I will keep it anyway and get it checked out sometime.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",6)
++  IF ~~ THEN REPLY @14 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",6)
+ EscapeArea()~ EXIT // Quest is lost to PC.
+-  IF ~~ THEN REPLY ~Then the scroll is useless to me, I will return it to Vashon and maybe he will give me another chance.~ DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
++  IF ~~ THEN REPLY @15 DO ~SetGlobal("VP_Illusion_Quest","GLOBAL",3)
+ EscapeArea()~ EXIT // If PC.returns to Vashon then Vashon 20.
+ END

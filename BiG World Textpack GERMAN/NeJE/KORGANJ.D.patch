@@ -1,0 +1,109 @@
+--- NeJE\dlg\KORGANJ.D	Tue May 29 23:12:09 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\KORGANJ.D	Tue Apr 09 19:36:37 2019
+@@ -13,7 +13,7 @@
+ APPEND ~KORGANJ~
+ 
+ IF ~~ THEN BEGIN NEJ222
+-  SAY ~If we be travlin' to ruins, we best be showing a profit when we come out, or you, me, an' me axe will be having some words!~
++  SAY @0
+   IF ~True()~ THEN EXTERN ~HROTHJ~ 60
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ546
+@@ -45,7 +45,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ223
+-  SAY ~Now that be more like it! Wizards be always storing gold and treasure that needs liberating for m....uh...our use!~
++  SAY @1
+   IF ~True()~ THEN EXTERN ~TILORN~ 19
+   IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ261
+@@ -70,12 +70,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ224
+-  SAY ~Don’t be such a load of wusses’, ‘tis only a bloody slab o’meat after all, like a dead cow!~
++  SAY @2
+ 	IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN firattak
+-	SAY ~(*Licking his thumb and running it along the edge of his axe’s head*)... Jus getting her ready... in case ye ave an idea to go blowin fire at our backsides as we leave.~
++	SAY @3
+ 	IF ~True()~ THEN EXTERN ~SHARTJ~ legacy406a
+ 	IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ firattak
+@@ -94,7 +94,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN tafficuh
+-  SAY ~Never thought I’d git t’see a gnome bigger than m’self!~
++  SAY @4
+  IF ~True()~ THEN EXTERN ~TAFFICP~ umberhk3 
+  IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ tafficuh
+@@ -122,7 +122,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS222
+-  SAY ~Re yer gonna stop greasing the floor with yer mumbo-jumbo, stupid woman?~
++  SAY @5
+   IF ~!InParty("Aerie")~ THEN EXTERN ~NAJOKI~ 7
+   IF ~InParty("Aerie")
+ See("Aerie")~ THEN EXTERN ~AERIEJ~ TS219
+@@ -130,12 +130,12 @@
+ 
+ IF ~Global("SPRITE_IS_DEADKiotsi","GLOBAL",1)
+ Global("Kiotsi_Dead","GLOBAL",0)~ THEN BEGIN TS223
+-  SAY ~Bah! The fool aren't worth a fight. Bastard.~
++  SAY @6
+   IF ~~ THEN DO ~SetGlobal("Kiotsi_Dead","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Kr_WarTk
+-  SAY ~I be a mercenary as ye all know, so I fight beside thems that pays the best. Although... traveling with ye do promise huge trophies! Maybe the dwarf will take yer side in this <CHARNAME>, if ye don't mind.~
++  SAY @7
+   	IF ~True()~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("KRCut04")~ EXIT
+@@ -149,29 +149,29 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kelem0
+-  SAY ~The dwarf be dead? That wern't no fair fight yer know.~
+-	IF ~~ THEN REPLY ~Hey, Korgan! The dark making you morose is it?~ GOTO Kelem1
+-	IF ~~ THEN REPLY ~Feeling uncomfortable, dwarf? Now you know how those whom you've murdered felt.~ GOTO Kelem1
++  SAY @8
++	IF ~~ THEN REPLY @9 GOTO Kelem1
++	IF ~~ THEN REPLY @10 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-  SAY ~Bad jokes ye have, <CHARNAME>!~
+-	IF ~~ THEN REPLY ~Jokes? You are dead, you old butcher and that is no joke! I killed you... unintentionally yes, but...~ GOTO Kelem2
+-	IF ~~ THEN REPLY ~I'm not joking, and you will be in no mood for jokes when those whom you butchered find you here. Remember your old group, Korgan?~ GOTO Kelem3
++  SAY @11
++	IF ~~ THEN REPLY @12 GOTO Kelem2
++	IF ~~ THEN REPLY @13 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-  SAY ~Aye, but ye will take me from here, won't ye? Yer Keldorn will miss me. Where be he anyway? Did ye manage to save his hide or be he a gonna too?~
+-	IF ~~ THEN REPLY ~(Sadly) That I do not know yet, Korgan. Join with me and we will find out.~ GOTO Kelem4
++  SAY @14
++	IF ~~ THEN REPLY @15 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-  SAY ~Don't ye be doin' that... leaving me here! Me axe served ye well enough in the past and so she will agin in the future. What yer going to be telling yer Keldorn? Ye did save him, didn't ye?~
+-	IF ~~ THEN REPLY ~(Sadly) Not yet, Korgan. Come with me and we will find him together.~ GOTO Kelem4
++  SAY @16
++	IF ~~ THEN REPLY @17 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem4
+-  SAY ~Good and good. There's gold aplenty to be had together.~
++  SAY @18
+ 	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0

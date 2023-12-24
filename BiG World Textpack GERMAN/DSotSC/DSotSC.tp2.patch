@@ -1,0 +1,65 @@
+--- DSotSC\DSotSC.tp2	Wed Jan 18 20:24:25 2023
++++ C:\BWP Patchstudio\patched files\DSotSC\DSotSC.tp2	Sat Oct 14 17:36:18 2023
+@@ -142,7 +142,7 @@
+ 	~DSotSC/language/polish/soundsets.tra~
+ 	~DSotSC/language/polish/journal.tra~
+ 
+-/*
++
+ LANGUAGE
+ 	~German (translation Leonard Watson & Jastey)~
+ 	~german~
+@@ -150,7 +150,7 @@
+ 	~DSotSC/language/german/setup.tra~
+ 	~DSotSC/language/english/soundsets.tra~
+ 	~DSotSC/language/german/journal.tra~
+-*/
++
+ 
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+@@ -160,7 +160,7 @@
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ 
+-BEGIN ~Dark Side of the Sword Coast (DSotSC)~
++BEGIN @3001
+ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+ FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
+ LABEL SHS-DSOTSC-TRILOGY-MAIN
+@@ -2123,7 +2123,7 @@
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ 
+-BEGIN ~DSotSC Wizard spells~
++BEGIN @3002
+ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+ REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+ LABEL SHS-DSOTSC-TRILOGY-WIZARD-SPELLS
+@@ -2547,7 +2547,7 @@
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ 
+-BEGIN ~DSotSC Priest spells~
++BEGIN @3003
+ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+ REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+ LABEL SHS-DSOTSC-TRILOGY-PRIEST-SPELLS
+@@ -2735,7 +2735,7 @@
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ 
+-BEGIN ~More common encounters in vanilla areas~
++BEGIN @3004
+ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+ REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+ LABEL SHS-DSOTSC-TRILOGY-MORE-ENCOUNTERS
+@@ -2826,7 +2826,7 @@
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ 
+-BEGIN ~Distribute DSotSC items also in vanilla content~
++BEGIN @3005
+ REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
+ REQUIRE_COMPONENT ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
+ LABEL SHS-DSOTSC-TRILOGY-ITEMS

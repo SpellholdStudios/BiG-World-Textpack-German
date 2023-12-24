@@ -1,0 +1,333 @@
+--- TS\bgtnodlg\KachiJ.d	Fri Apr 29 16:42:32 2016
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\KachiJ.d	Thu May 05 10:46:36 2016
+@@ -3,32 +3,32 @@
+ // Search for Yoshimo
+ 
+ IF WEIGHT #0 ~Global("VP_Yoshimo_Dies","GLOBAL",3)~ THEN BEGIN yoshdied
+-	SAY ~Sorry, <CHARNAME>, I cannot stay with you any longer. Without Yoshimo, I have nothing to do in your party. I must go back to Kozakura. Good luck to you.~
++	SAY @0
+ 	IF ~~ THEN DO ~SetGlobal("VP_Yoshimo_Dies","GLOBAL",4)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF WEIGHT #-1 ~Global("VP_YoshimoSearch","GLOBAL",2)~ THEN BEGIN remind_1
+-	SAY ~<CHARNAME>, you promised that you would lead me to Yoshimo! Yet all we are doing is running around in small circles all day!~
+-	IF ~~ THEN REPLY ~Oh, and I was wondering what was it that we forgot to do? Kachiko, we are going right away!~ GOTO remind_2
+-	IF ~~ THEN REPLY ~Girl, what do you need Yoshimo for anyway? Can’t you skip your vendetta or something?~ GOTO remind_3
++	SAY @1
++	IF ~~ THEN REPLY @2 GOTO remind_2
++	IF ~~ THEN REPLY @3 GOTO remind_3
+ END
+ 
+ IF ~~ THEN BEGIN remind_2
+-	SAY ~You better act upon your word, <CHARNAME>!~
++	SAY @4
+ 	IF ~~ THEN DO ~SetGlobal("VP_YoshimoSearch","GLOBAL",3)
+ SetGlobalTimer("VP_KachikoLeaves","GLOBAL",TWO_DAYS)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN remind_3
+-	SAY ~No, I cannot. You lied to me. You have no intention to lead me to Yoshimo! I do not need your help! I’ll find Yoshimo eventually! I SWEAR I’ll find him! There has to be somewhere I haven’t looked!~
++	SAY @5
+ 	IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF WEIGHT #-2 ~Global("VP_YoshimoSearch","GLOBAL",4)~ THEN BEGIN leave
+-	SAY ~You lied to me. You have no intention to lead me to Yoshimo! I do not need your help! I’ll find Yoshimo eventually! I SWEAR I’ll find him! There has to be somewhere I haven’t looked!~
++	SAY @6
+ 	IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+@@ -39,23 +39,23 @@
+ IF WEIGHT #-3 ~Global("VP_YoshimoSearch","GLOBAL",5)
+ Global("MetYoshimo","GLOBAL",1)
+ Global("VP_Yosh_WasInParty","GLOBAL",0)~ THEN BEGIN KrFix0
+-  SAY ~Ah, here you are, bastard! You thought you could flee far enough? I promised to find you even in Nine Hells! Prepare to die!~
++  SAY @7
+   IF ~~ THEN DO ~SetGlobal("VP_YoshimoSearch","GLOBAL",6)~ EXTERN ~YOSHIMO~ TS53
+ END
+ 
+ IF ~~ THEN BEGIN KrFix1
+-  SAY ~Yoshimo, you sound sincere... Hmm... If what you say is true, we must come back to Kara-Tur and try to convince my family that you’re not the murderer. But if you lied... <CHARNAME>, we have to leave for Kara-Tur immediately.~
+-  IF ~~ THEN REPLY ~Kachiko, are you going back on your promise to help me?~ GOTO KrFix2
+-  IF ~~ THEN REPLY ~Of course, Kachiko, I understand. Farewell.~ EXTERN ~YOSHIMO~ TS57
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO KrFix2
++  IF ~~ THEN REPLY @10 EXTERN ~YOSHIMO~ TS57
+ END
+ 
+ IF ~~ THEN BEGIN KrFix2
+-  SAY ~<CHARNAME>, do you need another companion in your group? May be you let Yoshimo to tag along? Then I can keep an eye on him and we both will help you out...~
++  SAY @11
+   IF ~~ THEN EXTERN ~YOSHIMO~ TS56
+ END
+ 
+ IF ~~ THEN BEGIN KrFix3
+-  SAY ~You will not get away that easily! Sorry, <CHARNAME>, but I have to go after him!~
++  SAY @12
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Yoshimo",EscapeArea())
+ ChangeAIScript("",DEFAULT)
+@@ -65,14 +65,14 @@
+ END
+ 
+ IF ~~ THEN BEGIN N4
+-  SAY ~Don’t lie to me. You won’t escape again. I’ll watch you even if I have to break my word to <CHARNAME>.~
+-  IF ~~ THEN REPLY ~Of course, I need all help I can get. Welcome back, Yoshimo.~ EXTERN ~YOSHIMO~ TS58
+-  IF ~~ THEN REPLY ~I don’t need your help. Go away, both of you.~ EXTERN ~YOSHIMO~ TS57
+-  IF ~~ THEN REPLY ~I don’t know you, I don’t need your problems and I grow tired of this soap opera. Perhaps killing both of you will brighten things up!~ EXTERN ~YOSHIMO~ TS59
++  SAY @13
++  IF ~~ THEN REPLY @14 EXTERN ~YOSHIMO~ TS58
++  IF ~~ THEN REPLY @15 EXTERN ~YOSHIMO~ TS57
++  IF ~~ THEN REPLY @16 EXTERN ~YOSHIMO~ TS59
+ END
+ 
+ IF ~~ THEN BEGIN New4
+-  SAY ~Farewell, <CHARNAME>.~
++  SAY @17
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ SetGlobal("VP_YoshNeverJoined","GLOBAL",1)
+ ActionOverride("Yoshimo",EscapeAreaMove("AR0313",723,319,14))
+@@ -87,24 +87,24 @@
+ IF WEIGHT #-4 ~Global("VP_YoshimoSearch","GLOBAL",5)
+ Global("MetYoshimo","GLOBAL",1)
+ Global("VP_Yosh_WasInParty","GLOBAL",1)~ THEN BEGIN 9
+-  SAY ~Ah, here you are, bastard! You thought you could flee far enough? I promised to find you even in Nine Hells! Prepare to die!~
++  SAY @7
+   IF ~~ THEN  DO ~SetGlobal("VP_YoshimoSearch","GLOBAL",6)~ EXTERN ~YOSHP~ TS14
+ END
+ 
+ IF ~~ THEN BEGIN N10
+-  SAY ~Yoshimo, you sound sincere... Hmm... If what you say is true, we must come back to Kara-Tur and try to convince my family that you’re not the murderer. But if you lied... <CHARNAME>, we have to leave for Kara-Tur immediately.~
+-  IF ~~ THEN REPLY ~Kachiko, are you going back on your promise to help me?~ GOTO N11
+-  IF ~~ THEN REPLY ~Of course, Kachiko, I understand. Farewell.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO N11
++  IF ~~ THEN REPLY @10 DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ~ EXTERN ~YOSHP~ TS18
+ END
+ 
+ IF ~~ THEN BEGIN N11
+-  SAY ~<CHARNAME>, do you need another companion in your group? May be you let Yoshimo to tag along? Then I can keep an eye on him and we both will help you out...~
++  SAY @11
+   IF ~~ THEN EXTERN ~YOSHP~ TS17
+ END
+ 
+ IF ~~ THEN BEGIN N12
+-  SAY ~You will not get away that easily! Sorry, <CHARNAME>, but I have to go after him!~
++  SAY @12
+   IF ~~ THEN DO ~ActionOverride("Yoshimo",EscapeArea())
+ ChangeAIScript("",DEFAULT)
+ SetLeavePartyDialogFile()
+@@ -113,16 +113,16 @@
+ END
+ 
+ IF ~~ THEN BEGIN N13
+-  SAY ~Don’t lie to me. You won’t escape again. I’ll watch you even if I have to break my word to <CHARNAME>.~
+-  IF ~~ THEN REPLY ~Of course, I need all help I can get. Welcome back, Yoshimo.~ EXTERN ~YOSHP~ TS19
+-  IF ~~ THEN REPLY ~I don’t need your help. Go away, both of you.~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHP~ TS18
+-  IF ~~ THEN REPLY ~I don’t know you, I don’t need your problems and I grow tired of this soap opera. Perhaps killing both of you will brighten things up!~ DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHP~ TS20
++  SAY @13
++  IF ~~ THEN REPLY @14 EXTERN ~YOSHP~ TS19
++  IF ~~ THEN REPLY @15 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHP~ TS18
++  IF ~~ THEN REPLY @16 DO ~SetGlobal("Kicked_Out","LOCALS",1)~ EXTERN ~YOSHP~ TS20
+ END
+ 
+ // Parting ways, initiated by Yoshimo
+ 
+ IF ~~ THEN BEGIN partway1
+-  SAY ~Yoshimo, wait. I am leaving with you. Alone you will only get into more troubles. Sorry <CHARNAME>, but I told you from the very start that I would follow whenever he goes... and I shall do so now.~ [KACHIL26]
++  SAY @18
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ActionOverride("Yoshimo",ChangeAIScript("",DEFAULT))
+ ActionOverride("Yoshimo",SetLeavePartyDialogFile())
+@@ -135,7 +135,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN partway2
+-  SAY ~Yoshimo, I am staying with you. Alone you will only get into more troubles. Sorry <CHARNAME>, but I told you from the very start that I wouldn't allow him to escape... and I shan't do so now.~
++  SAY @19
+   IF ~~ THEN DO ~SetGlobal("Kicked_Out","LOCALS",1)
+ ChangeAIScript("",DEFAULT)
+ SetLeavePartyDialogFile()
+@@ -145,52 +145,52 @@
+ // Interjections
+ 
+ IF ~~ THEN BEGIN N17
+-  SAY ~Yoshimo, does not this... man looks a bit familiar to you? It is strange but he reminds me Otako Hashimoto.~ [KACHIQ03]
++  SAY @20
+   IF ~~ THEN EXTERN ~YOSHJ~ TS170
+ END
+ 
+ IF ~~ THEN BEGIN N18
+-  SAY ~My guess is that the spell might have worked and we are somehow moving towards solving our family feud. But why are we on an island, and not at home?~
+-  IF ~~ THEN REPLY ~The spell... Harpel must have done something that works for once. Let’s go on, and we will have better chance to find some answers. Yoshimo, I am mourn your loss.~ EXTERN ~YOSHJ~ TS172
++  SAY @21
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS172
+ END
+ 
+ IF ~Global("Dead_Bodies","GLOBAL",3)~ THEN BEGIN N19
+-  SAY ~There are more bodies out there. Do you see them? I cannot look, I am afraid to find my kin among them.~
++  SAY @23
+   IF ~~ THEN DO ~SetGlobal("Dead_Bodies","GLOBAL",4)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN N20
+-  SAY ~Yoshimo, I appreciate what you have said. Even if you said it because you were afraid that I’d kill you both if you ever tried anything funny.~ [KACHIQ04]
++  SAY @24
+   IF ~~ THEN EXTERN ~YOSHJ~ TS176
+ END
+ 
+ IF ~~ THEN BEGIN N21
+-  SAY ~I am surprised by your welcome, my cousin, after all those lies you told my parents to prevent me from going after Yoshimo.~ [KACHIQ05]
++  SAY @25
+   IF ~~ THEN EXTERN ~MASAKI~ 1
+ END
+ 
+ IF ~~ THEN BEGIN N22
+-  SAY ~Hold Masaki, you are too hasty. Yoshimo is no murderer and we were going home so the proof of his innocence may be found. But now I meet you on this desolate Island, talking to me as if we are at home...~
++  SAY @26
+   IF ~~ THEN EXTERN ~MASAKI~ 2
+ END
+ 
+ IF ~~ THEN BEGIN N23
+-  SAY ~I mourn Naoko. Yet your words scare me. What is this place? How did Hashimoto and Nakanishi come to be here? Answer me!~
++  SAY @27
+   IF ~~ THEN EXTERN ~MASAKI~ 3
+ END
+ 
+ IF ~~ THEN BEGIN N24
+-  SAY ~Yoshimo is innocent and I will fight you if I must to protect justice, which you so eagerly discard! You are disgrace to Nakanishi’s honor!~ [KACHIQ06]
++  SAY @28
+   IF ~~ THEN EXTERN ~MASAKI~ 4
+ END
+ 
+ IF ~~ THEN BEGIN N25
+-  SAY ~Does Masaki Hayashi speak for Nakanishi family now?~
++  SAY @29
+   IF ~~ THEN EXTERN ~MASAKI~ 5
+ END
+ 
+ IF ~~ THEN BEGIN N26
+-  SAY ~I doubt that you find it in your black heart to tell my mother that Kachiko is praying to see her and plead her case...~
++  SAY @30
+   IF ~Global("Hashimoto_Visited","GLOBAL",0)
+ ~ THEN EXTERN ~MASAKI~ 6
+   IF ~Global("Hashimoto_Visited","GLOBAL",1)
+@@ -198,52 +198,52 @@
+ END
+ 
+ IF ~~ THEN BEGIN N27
+-  SAY ~I go where I please. I refuse to see people as enemies because they are named Hashimoto.~ [KACHIQ07]
++  SAY @31
+   IF ~~ THEN EXTERN ~MASAKI~ 8
+ END
+ 
+ IF ~~ THEN BEGIN N28
+-  SAY ~I am no assassin! And no one sent me!~ [KACHIQ08]
++  SAY @32
+   IF ~~ THEN EXTERN ~AINO~ 2
+ END
+ 
+ IF ~~ THEN BEGIN N29
+-  SAY ~I am Nakanishi. Will you kill me as well?~
+-  IF ~~ THEN REPLY ~Do you know of any other way, Aino? I have no desire to kill scores of innocent people.~ EXTERN ~AINO~ 6
+-  IF ~~ THEN REPLY ~No, Kachiko, you are right. I say we kill this scheming bastard instead, take the wardstone and get outta here.~ EXTERN ~YOSHJ~ TS181
+-  IF ~~ THEN REPLY ~Sorry, Kachiko, I see no other choice. I really need this wardstone!~ EXTERN ~YOSHJ~ TS181
++  SAY @33
++  IF ~~ THEN REPLY @34 EXTERN ~AINO~ 6
++  IF ~~ THEN REPLY @35 EXTERN ~YOSHJ~ TS181
++  IF ~~ THEN REPLY @36 EXTERN ~YOSHJ~ TS181
+ END
+ 
+ IF ~~ THEN BEGIN N30
+-  SAY ~Neither would I. Yoshimo, I love you, and if we are destined to die, then we will die together!~
++  SAY @37
+   IF ~~ THEN DO ~SetGlobal("Kachiko_Hostile","GLOBAL",1)~ EXTERN ~YOSHJ~ TS182
+ END
+ 
+ IF ~Global("VP_YoshimoExcuse","GLOBAL",1)~ THEN BEGIN N32
+-  SAY ~<CHARNAME>, you have been silent, but I think we should talk about what happened. Yoshimo had dishonorable intentions and it is your right to demand his death.~ [KACHIL06]
+-  IF ~~ THEN REPLY ~What do you mean Kachiko? That sounds a bit extreme.~ GOTO N33
+-  IF ~~ THEN REPLY ~Kachiko, my custom is more forgiving than the code of a samurai. I have seen Yoshimo stand against Irenicus and refuse to surrender me. I trust him. ~ GOTO N34
+-  IF ~~ THEN REPLY ~Glad you reminded me of the traitor. I do not wish him in my party. He may do what he wants with his life, but he may not stay.~ EXTERN ~YOSHJ~ TS218
++  SAY @38
++  IF ~~ THEN REPLY @39 GOTO N33
++  IF ~~ THEN REPLY @40 GOTO N34
++  IF ~~ THEN REPLY @41 EXTERN ~YOSHJ~ TS218
+ END
+ 
+ IF ~~ THEN BEGIN N33
+-  SAY ~My <PRO_LADYLORD>, Yoshimo pledged his service to you, yet he was serving Irenicus at the same time. His intention was to deceive you. Yoshimo is not a samurai and he does not follow a strict code of honor, but his upbringing was that of a noble. His actions towards you call for ritual suicide.~
+-  IF ~~ THEN REPLY ~I respect your customs, but he has a noble heart, and he’s faithful ally. He stood against Irenicus and refused to surrender me. I trust him.~ GOTO N34
+-  IF ~~ THEN REPLY ~Uh, well... He may do what he wants with his life, but he may not stay.~ EXTERN ~YOSHJ~ TS218
++  SAY @42
++  IF ~~ THEN REPLY @43 GOTO N34
++  IF ~~ THEN REPLY @44 EXTERN ~YOSHJ~ TS218
+ END
+ 
+ IF ~~ THEN BEGIN N34
+-  SAY ~So you do not see his actions as betrayal, then <CHARNAME>?~
+-  IF ~~ THEN REPLY ~No Kachiko, the way I see it, Yoshimo was loyal to me in deed if not always in his thoughts. I am quite comfortable with him staying in the party.~ GOTO N35
++  SAY @45
++  IF ~~ THEN REPLY @46 GOTO N35
+ END
+ 
+ IF ~~ THEN BEGIN N35
+-  SAY ~You have a different way of thinking <CHARNAME>, but I am... I am glad you do. Yoshimo and I will prove our loyalty to you in battle. ~ [KACHIL16]
++  SAY @47
+   IF ~~ THEN DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN N36
+-  SAY ~Yoshimo, wait. I am leaving with you. Alone you will only get into more troubles. Sorry <CHARNAME>, but I told you from the very start that I would follow whenever he goes... and I shall do so now.~ [KACHIL26]
++  SAY @18
+   IF ~~ THEN DO ~ChangeAIScript("",DEFAULT)
+ SetLeavePartyDialogFile()
+ SetGlobal("Kicked_Out","LOCALS",1)
+@@ -254,7 +254,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N37
+-  SAY ~Avenging the suffering of my family is a part of my life, <CHARNAME>. My blade is thirsty for his blood. For Nakanishi’s honor! For Hashimoto’s honor! No more talk! I am going!~
++  SAY @48
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~InParty("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -297,7 +297,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N38
+-  SAY ~Try to stop me! You would have to tie me up to prevent me from fighting Irenicus. For Nakanishi’s honor! For Hashimoto’s honor!~
++  SAY @49
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~InParty("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -340,7 +340,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N39
+-  SAY ~I have seen it, yes. I am not afraid to die if I know that Irenicus goes down with me. For Nakanishi’s honor! For Hashimoto’s honor!~
++  SAY @50
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~InParty("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -385,14 +385,14 @@
+ IF ~Global("VP_Yoshimo_Dies","GLOBAL",3)
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)~ THEN BEGIN N40
+-  SAY ~Sorry, <CHARNAME>, I cannot stay with you any longer. Without Yoshimo, I have nothing to do in your party. I must go back to Kozakura. Good luck to you.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Yoshimo_Dies","GLOBAL",4)
+ LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN N55
+-  SAY ~Are we dead? I only wished I could tell Yoshimo a proper farewell.~
++  SAY @51
+   IF ~True()~ THEN EXIT
+   IF ~InParty("Imoen2")
+ See("Imoen2")~ THEN EXTERN ~IMOEN2J~ 10

@@ -1,0 +1,17 @@
+--- NeJE\dlg\VESPER.d	Sat Feb 06 16:24:29 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\VESPER.d	Tue Apr 09 19:37:45 2019
+@@ -30,12 +30,12 @@
+ 
+ IF ~Global("VP_Kr_LovedOne","GLOBAL",1)
+ Global("VP_MyTalk","LOCALS",0)~ THEN BEGIN KR0
+-  SAY ~Oh, daddy, you have absolutely forgotten about us.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_MyTalk","LOCALS",1)~ EXTERN ~LEONA~ KR0
+ END
+ 
+ IF ~~ THEN BEGIN KR1
+-  SAY ~(Crying) We are so lonely here, daddy...~
++  SAY @1
+   IF ~~ THEN EXTERN ~LEONA~ KR3
+ END  
+ END

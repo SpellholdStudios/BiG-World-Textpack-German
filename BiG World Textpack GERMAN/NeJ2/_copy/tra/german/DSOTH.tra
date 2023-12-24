@@ -1,0 +1,53 @@
+@0 = ~Mein Name ist Soth. Gibt es etwas, womit ich Euch helfen kann?~
+@1 = ~Darf ich Euch einige Fragen stellen?~
+@2 = ~Nicht jetzt. Lebt wohl!~
+@3 = ~Seid gegrüßt. Es ist schön Euch wieder zu sehen. Was kann ich für Euch tun?~
+@4 = ~Ich möchte Euch einige Fragen stellen.~
+@5 = ~Es gibt hier in der Nähe eine Hängebrücke, die fast zerstört ist. Könnte ich aus einigen der Bücher hier lernen, wie man sie repariert?~
+@6 = ~Im Moment nichts. Lebt wohl!~
+@7 = ~Sicherlich, was wollt Ihr wissen?~
+@8 = ~Wer seid Ihr wieder?~
+@9 = ~Was tut Ihr hier?~
+@10 = ~Wie kamt Ihr hierher, Soth?~
+@11 = ~Habt Ihr schon die meisten der Bücher hier studiert?~
+@12 = ~Wyrmzahn
+
+Wir sprachen mit einem Gelehrten namens Soth, der gerade die Bücher in der Wyrmzahnbibliothek studierte. Er sagte uns, dass diese Bücher Fragen zur Zwergentechnik behandelten.~
+@13 = ~Lebt wohl für jetzt, Soth.~
+@14 = ~Mein Name ist Soth. Kein Nachname, nur Soth.~
+@15 = ~Warum ist das so?~
+@16 = ~Lasst mich Euch etwas anderes fragen.~
+@17 = ~Das ist ein Brauch meines Volkes. Ein Mann muss sich seinen Nachnamen verdienen, er bekommt ihn nicht geschenkt. Ich habe mir meinen Namen noch nicht verdient.~
+@18 = ~Interessante Angewohnheit. Woher seid Ihr?~
+@19 = ~Ich verstehe. Ich möchte Euch noch etwas fragen.~
+@20 = ~Ich stamme aus einem kleinen Dorf in der Nähe von Auckney... Auckney liegt am anderen Ende des Gebirges, das Grat der Welt heißt. Mein Dorf ist ziemlich klein. Ich glaube nicht, dass es auf einer Karte zu finden ist...~
+@21 = ~Nun... Ich bilde mir ein, so etwas wie ein Gelehrter zu sein, also versuche ich, einige dieser Bücher durchzugehen und ein bisschen über diesen Ort zu lernen.~
+@22 = ~Seid Ihr schon fündig geworden?~
+@23 = ~Ja. Es ist schwer zu verstehen, aber ich habe mir ein paar Sachen zusammengereimt.~
+@24 = ~Was habt Ihr gelernt?~
+@25 = ~Wyrmzahn
+
+Wir unterhielten uns mit einem Gelehrten namens Soth. Er erklärte uns, dass die Wyrmzahngebäude einen Tempelkomplex bilden, der Dugmaren Leuchtmantel, dem Zwergengott der Gelehrten und Forscher, geweiht ist.~
+@26 = ~Dieser ganze Komplex scheint ein Tempel zu sein, derr Dugmaren Leuchtmantel geweiht ist...~
+@27 = ~Der Name ist mir nicht bekannt. Wer ist das?~
+@28 = ~Dugmaren... Er ist der Zwergengott der Gelehrten, der Erfinder und der Forscher.~
+@29 = ~Wenn ich mich recht entsinne, ist er der Zwergengott der Gelehrten, der Erfinder und der Forscher.~
+@30 = ~So weit ich das verstanden habe, ist er der Zwergengott der Gelehrten, der Erfinder und der Forscher. Er ist nicht sehr bekannt und wird von anderen Göttern zum Teil argwöhnisch betrachtet. Sie finden ihn etwas... wunderlich, könnte man wohl sagen. Jedenfalls war Dugmaren der Ansicht, dass die Zwerge ausziehen und die Welt mehr erforschen sollten.~
+@31 = ~Ich verstehe, Was könnt Ihr mir sonst noch über diesen Ort sagen?~
+@32 = ~Ja, genau. Er ist nicht sehr bekannt und wird von den anderen Göttern argwöhnisch betrachtet. Sie finden ihn etwas... wunderlich, würde man wohl sagen. Jedenfalls fand Dugmaren, dass die Zwerge ausziehen und die Welt mehr erforschen sollten.~
+@33 = ~Ein genialer Architekt namens Alkonos, der Visionär, hat diesen Komplex gebaut. Er war ein ergebener Anhänger von Dugmaren und störte sich daran, dass sein Gott keinen offiziellen Tempel besaß. Also reichte er beim König ein Gesuch ein und erhielt die Erlaubnis, einen zu bauen. Während des Baus erhielt er den Beinamen Alkonos, der Wahnsinnige.~
+@34 = ~Warum haben sie ihn so genannt?~
+@35 = ~Nun ja, anscheinend wollten die meisten Zwerge einfach einen Tunnel durch diesen Gletscher bohren und in den Bergen auf der anderen Seite einen kleinen Tempel bauen. Aber davon wollte Alkonos nichts wissen. Stattdessen begann er eine Konstruktion in ganz großem Rahmen... und das ist das Ergebnis.~
+@36 = ~Wenn die Zwergen ihn für verrückt gehalten haben, warum haben sie ihn dann nicht aufgehalten?~
+@37 = ~Ich war unterwegs von Auckney nach Osthafen. Wegelagerer überfielen meine Karawane und ich wurde bewusstlos geschlagen. Als ich aufwachte, war ich hier.~
+@39 = ~Auckney liegt am anderen Ende der Bergkette, die Grat der Welt genannt wird. Es ist ein kleiner Ort. Ich glaube nicht, das er auf einer Karte zu finden ist...~
+@40 = ~Ja, das habe ich. Es hat nicht so lange gedauert, wie man annehmen würde, da die meisten so stark beschädigt sind, dass sie unleserlich sind. Es ist eine Schande, denn die, die lesbar sind, sind ausgezeichnete Arbeiten über die Konstruktionen der Zwerge.~
+@41 = ~Es gibt hier in der Nähe eine Hängebrücke, die fast zerstört ist. Könnte ich aus einigen der Bücher hier lernen, wie man sie repariert?~
+@42 = ~Wyrmzahn
+
+Der Gelehrte Soth gab uns ein Buch über Fragen zur Zwergentechnik. Wir hoffen, dass wir mithilfe dieses Buches in der Lage sein werden, die Seilbrücke, die über die südwestliche Schlucht führt, zu reparieren.~
+@43 = ~Das weiß ich nicht genau. Aber es wäre einen Versuch wert. Lasst mal sehen... Brücken... ja, da haben wir's. Hier stehen die Grundlagen über Hängebrücken und Ähnliches. Viel Glück.~
+@44 = ~Danke, Soth. Ich möchte Euch noch etwas fragen.~
+@45 = ~Oh, das haben sie versucht. Ich habe den Stammbaum zwar nicht perfekt rekonstruieren können, aber anscheinend war Alkonos ein Verwandter des damaligen Königs. Er war ein Neffe oder ein Cousin, ich weiß nicht so genau. Auf jeden Fall konnte der König nicht zugeben, dass einer seiner Verwandten nicht alle Tassen im Schrank hatte, das hätte ein schlechtes Licht auf ihn geworfen.~
+@46 = ~Interessant. Ich möchte Euch noch etwas fragen.~
+@47 = ~Ich weiß nicht so recht... Es ist aber sicher einen Versuch wert. Mal überlegen... Brücken... Ja, jetzt fällt mir wieder ein, dass ich mal ein Buch über Brücken hatte. Ich habe es da drüben in der Ecke bei der Wendeltreppe liegen gelassen. Ich kann es nicht gebrauchen.~

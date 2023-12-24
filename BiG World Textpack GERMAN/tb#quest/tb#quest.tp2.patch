@@ -1,0 +1,13 @@
+--- tb#quest\tb#quest.tp2	Sun Oct 14 20:21:24 2012
++++ C:\BWP Patchstudio\patched files\tb#quest\tb#quest.tp2	Sun Oct 14 20:35:31 2012
+@@ -161,6 +161,10 @@
+ 	 ~Russian~
+ 	 ~tb#quest/Russian/setup.tra~
+ 
++LANGUAGE ~German~
++	 ~German~
++	 ~tb#quest/German/setup.tra~
++
+ 	 BEGIN @1600  //Mprilla the spammer
+ UNINSTALL ~setup-tb#pack.tp2~ 2
+ UNINSTALL "setup-prilla.tp2" 0

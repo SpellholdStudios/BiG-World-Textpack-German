@@ -1,0 +1,861 @@
+--- NeJE\dlg\BHROTH.D	Fri Apr 20 02:37:51 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BHROTH.D	Tue Apr 09 19:34:59 2019
+@@ -1,507 +1,507 @@
+ BEGIN ~BHROTH~
+ 
+ IF ~Global("VP_BDar","LOCALS",2)~ THEN BEGIN 0
+-  SAY ~Dar I am intrigued, tell me how it is that you are so well versed in the common tongue? This is indeed a rare thing among your kind.~ [HROT_101]
++  SAY @0 
+   IF ~~ THEN DO ~SetGlobal("VP_BDar_Check","LOCALS",1)
+ SetGlobal("VP_BDar","LOCALS",3)~ EXTERN ~BDAR~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I meant no offence friend Dar. I meant to say that your mannerisms suggest that you had some education in your upbringing and I am interested in knowing a little of yourself and your early life.~ [HROT_102]
++  SAY @1 
+   IF ~~ THEN EXTERN ~BDAR~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Then I am truly sorry for that was not my intention. Know that I do not perceive you as inferior in any way. Can you tell me a little of yourself? Only if you wish to of course.~ [HROT_103]
++  SAY @2 
+   IF ~~ THEN EXTERN ~BDAR~ 2
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~There is very little to tell of me. I go where I am most needed at the time and when done I move on to the next place that requires my aid, but look Dar, we fall behind, we must hurry on.~ [HROT_104]
++  SAY @3 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BDar","LOCALS",5)~ THEN BEGIN 4
+-  SAY ~Dar my friend, we have not spoken much since our departure from Kuldahar. Tell me, how are you faring in these strange times?~ [HROT_105]
++  SAY @4 
+   IF ~~ THEN DO ~SetGlobal("VP_BDar","LOCALS",6)~ EXTERN ~BDAR~ 21
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Then, I take it you are glad <CHARNAME> persuaded you to travel with us?~ [HROT_106]
++  SAY @5 
+   IF ~~ THEN EXTERN ~BDAR~ 22
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You have no need to thank me Dar. You have a good and noble heart, you deserve a better life than the struggle for survival that you called life when first we met. I admit I had no idea where the portal was to take us, but it had to be better than what you had.~ [HROT_107]
++  SAY @6 
+   IF ~~ THEN EXTERN ~BDAR~ 23
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~That is good to hear, but you must remember that you have also played a part in gaining your acceptance. It is not only the ease of this time, you have done much yourself to earn your good name.~ [HROT_108]
++  SAY @7 
+   IF ~~ THEN EXTERN ~BDAR~ 24
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I am pleased for you Dar. I was worried for a while that it might prove too much for you to grasp, but I can see there was no need for my concern after all.~ [HROT_109]
++  SAY @8 
+   IF ~~ THEN EXTERN ~BDAR~ 25
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~No more than I would show for anyone whom I count as friend, so come friend Dar, we have much to do.~ [HROT_110]
++  SAY @9 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",5)~ THEN BEGIN 10
+-  SAY ~Yes <CHARNAME>? (*Hrothgar looks at you.*)~ [HROT_301]
+-  IF ~~ THEN REPLY ~I did not say anything Hrothgar.~ DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
++  SAY @10 
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
+ SetGlobal("VP_BPC","LOCALS",6)~ GOTO 11
+-  IF ~~ THEN REPLY ~Are you reading my mind Hrothgar?~ DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
++  IF ~~ THEN REPLY @12 DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
+ SetGlobal("VP_BPC","LOCALS",6)~ GOTO 11
+-  IF ~~ THEN REPLY ~Was that a question or an answer Hrothgar, as I certainly did not speak?~ DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
++  IF ~~ THEN REPLY @13 DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
+ SetGlobal("VP_BPC","LOCALS",6)~ GOTO 12
+-  IF ~~ THEN REPLY ~What... did you speak Hrothgar?~ DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
++  IF ~~ THEN REPLY @14 DO ~SetGlobal("VP_BPC_Check","LOCALS",1)
+ SetGlobal("VP_BPC","LOCALS",6)~ GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~It was obvious that you were about to say something <CHARNAME>, when you opened your mouth and then closed it quickly. What were you about to say?~ [HROT_302]
+-  IF ~~ THEN REPLY ~I was about to ask you about yourself. Before meeting you I knew only the Hrothgar from legend and rumour.~ GOTO 13
+-  IF ~~ THEN REPLY ~It is not often one gets to travel with a hero from the past. I thought that this might be good opportunity to learn some more of Hrothgar the legend.~ GOTO 13
+-  IF ~~ THEN REPLY ~Just curious Hrothgar, how much of what these rumours tell of you are fact and how much is fiction?~ GOTO 14
++  SAY @15 
++  IF ~~ THEN REPLY @16 GOTO 13
++  IF ~~ THEN REPLY @17 GOTO 13
++  IF ~~ THEN REPLY @18 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~I said *yes*? A question in answer to the look on your face as you were about to speak <CHARNAME>. Why did you change your mind?~ [HROT_303]
+-  IF ~~ THEN REPLY ~I was about to ask you about yourself. Before meeting you I knew only the Hrothgar from legend and rumour.~ GOTO 13
+-  IF ~~ THEN REPLY ~It is not often one gets to travel with a hero from the past. I thought that this might be good opportunity to learn some more of Hrothgar the legend.~ GOTO 13
+-  IF ~~ THEN REPLY ~Just curious Hrothgar, how much of what these rumours tell of you are fact and how much is fiction?~ GOTO 14
++  SAY @19 
++  IF ~~ THEN REPLY @16 GOTO 13
++  IF ~~ THEN REPLY @17 GOTO 13
++  IF ~~ THEN REPLY @18 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~(*Smiles to himself*) A legend you say. Well, suppose you tell me what you have heard that makes Hrothgar a legend?~ [HROT_304]
+-  IF ~~ THEN REPLY ~Why do you always do that Hrothgar!? Answer my question with one of your own?~ GOTO 15
+-  IF ~~ THEN REPLY ~Are you really interested in hearing what rumour says or is this just another way to avoid my questions?~ GOTO 15
+-  IF ~~ THEN REPLY ~Again you show reluctance to talk of yourself. I am beginning to wonder if you have something to hide?~ GOTO 15									
+-  IF ~~ THEN REPLY ~I would rather hear the truth of it from the horse’s mouth so as to speak!~ GOTO 16
++  SAY @20 
++  IF ~~ THEN REPLY @21 GOTO 15
++  IF ~~ THEN REPLY @22 GOTO 15
++  IF ~~ THEN REPLY @23 GOTO 15									
++  IF ~~ THEN REPLY @24 GOTO 16
+ END  
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~(*Smiles to himself*) Curiosity is good and I am also curious as to what rumour has to say about Hrothgar?~ [HROT_305]
+-  IF ~~ THEN REPLY ~Why do you always do that Hrothgar!? Answer my question with one of your own?~ GOTO 15
+-  IF ~~ THEN REPLY ~Are you really interested in hearing what rumour says or is this just another way to avoid my questions?~ GOTO 15
+-  IF ~~ THEN REPLY ~Again you show reluctance to talk of yourself. I am beginning to wonder if you have something to hide?~ GOTO 15									
+-  IF ~~ THEN REPLY ~I would rather hear the truth of it from the horse’s mouth so as to speak!~ GOTO 16
++  SAY @25 
++  IF ~~ THEN REPLY @21 GOTO 15
++  IF ~~ THEN REPLY @22 GOTO 15
++  IF ~~ THEN REPLY @23 GOTO 15									
++  IF ~~ THEN REPLY @24 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~I do not mean to be evasive <CHARNAME>. I am intrigued and wish to know what has been passed down in my name. Does that surprise you?~ [HROT_306]
+-  IF ~~ THEN REPLY ~There is really only one tale Hrothgar, and that tells of your death by the hand of a demon as you fought, very bravely it is said, to save your town of Easthaven.~ GOTO 17
+-  IF ~~ THEN REPLY ~ If I remember correctly, lore says that you were slain, by a demon. It tells of your brave fight at Easthaven and of your dying a hero. An incredible tale do you not agree?~ GOTO 17
+-  IF ~~ THEN REPLY ~Remembering what I was told, the legendary Hrothgar was slain whilst trying to rid the town of some demon. Whether successfully or not I do not recall. More of a fool than a hero if you ask me for even attempting to take on a demon, but I suppose that is the stuff legends are made of.~ GOTO 18
+-  IF ~~ THEN REPLY ~Legend says you died a hero at Easthaven Hrothgar. Now, my being here with you before the event, is too weird to even try to fathom the truth of it.~ GOTO 19
++  SAY @26 
++  IF ~~ THEN REPLY @27 GOTO 17
++  IF ~~ THEN REPLY @28 GOTO 17
++  IF ~~ THEN REPLY @29 GOTO 18
++  IF ~~ THEN REPLY @30 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Patience <CHARNAME>! Allow me the courtesy of hearing what has been told of me first. Surely you understand my curiosity.~ [HROT_307]
+-  IF ~~ THEN REPLY ~There is really only one tale Hrothgar, and that tells of your death by the hand of a demon as you fought, very bravely it is said, to save your town of Easthaven.~ GOTO 17
+-  IF ~~ THEN REPLY ~ If I remember correctly, lore says that you were slain, by a demon. It tells of your brave fight at Easthaven and of your dying a hero. An incredible tale do you not agree?~ GOTO 17
+-  IF ~~ THEN REPLY ~Remembering what I was told, the legendary Hrothgar was slain whilst trying to rid the town of some demon. Whether successfully or not I do not recall. More of a fool than a hero if you ask me for even attempting to take on a demon, but I suppose that is the stuff legends are made of.~ GOTO 18
+-  IF ~~ THEN REPLY ~Legend says you died a hero at Easthaven Hrothgar. Now, my being here with you before the event, is too weird to even try to fathom the truth of it.~ GOTO 19
++  SAY @31 
++  IF ~~ THEN REPLY @27 GOTO 17
++  IF ~~ THEN REPLY @28 GOTO 17
++  IF ~~ THEN REPLY @29 GOTO 18
++  IF ~~ THEN REPLY @30 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~So... So that is what the name Hrothgar has come to mean has it. A hero eh? As you say <CHARNAME>, I stand here now, so how to make sense of it is the question here I think, yes? Well, maybe the legend in this case is more rumour, what do you think?~ [HROT_308]
+-  IF ~~ THEN REPLY ~I do not know what to think. Maybe the legend is yet to be made?~ GOTO 20
+-  IF ~~ THEN REPLY ~I do not know Hrothgar, you follow us from your time into my time, so maybe you have escaped the death that fate had planned for you? Perhaps you have indeed cheated fate.~ GOTO 20
+-  IF ~~ THEN REPLY ~I do not know Hrothgar, perhaps you were not supposed to die by the hand of the demon and maybe fate has put you on this road to avoid it?~ GOTO 20
+-  IF ~~ THEN REPLY ~Bah! Rumours are seldom true so I imagine it is the same in this case!~ GOTO 20
++  SAY @32 
++  IF ~~ THEN REPLY @33 GOTO 20
++  IF ~~ THEN REPLY @34 GOTO 20
++  IF ~~ THEN REPLY @35 GOTO 20
++  IF ~~ THEN REPLY @36 GOTO 20
+ END
+   
+ IF ~~ THEN BEGIN 18
+-  SAY ~That is true, to take on a demon would deem foolish, but so would allowing a demon to dominate a town without at least trying to put it down. There is no place for the evil and cruelty that would ensue from allowing such a creature to live. As you say <CHARNAME>, legends are made from actions of brave men doing what they feel is right.~ [HROT_309]
+-  IF ~~ THEN REPLY ~So, the Hrothgar of that time died a noble death, or so rumour would have us believe. Do we really know how noble he was or why he chose to do what he did? Of course, we cannot even ask the Hrothgar of now because he has not confronted such a demon, has he Hrothgar? Maybe we should ask, did it happen at all?~ GOTO 26
+-  IF ~~ THEN REPLY ~Legends are indeed made from the actions of men, but because these heroic deeds always take place in the past how do we know truth from rumour?~ GOTO 26
++  SAY @37 
++  IF ~~ THEN REPLY @38 GOTO 26
++  IF ~~ THEN REPLY @39 GOTO 26
+ END
+   
+ IF ~~ THEN BEGIN 19
+-  SAY ~Weird you say <CHARNAME>, is life itself not strange with all its twists and turns? We never know what life, or fate, which ever you prefer to call it has in mind for us. Do you try to fathom fate? No, you give it but a fleeting thought at times.~ [HROT_310]
+-  IF ~~ THEN REPLY ~I am used to the strange twists of fate in my life, but this has to be the strangest. To be here talking to a man who, in my future time, would be many years dead.~ GOTO 26
+-  IF ~~ THEN REPLY ~It is not the twists and turns of life that I find strange, those I am used to, it is more the reality that we are here discussing the truth of a legend that maybe never was, with the legend himself.~ GOTO 26
++  SAY @40 
++  IF ~~ THEN REPLY @41 GOTO 26
++  IF ~~ THEN REPLY @42 GOTO 26
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~It could well be <CHARNAME>, but maybe there are more answers to be found if they are sought not only with open eyes but also with an open mind.~ [HROT_312]
+-  IF ~~ THEN REPLY ~I have to admit to having been in strange situations before and always I keep an open mind, but this I cannot make sense of, yet.~ GOTO 21
+-  IF ~~ THEN REPLY ~I am confident that I will unravel this mystery Hrothgar. I will be watching you closely with my eyes and an open mind as I am sure that you have the answers that I seek.~ GOTO 22
++  SAY @43 
++  IF ~~ THEN REPLY @44 GOTO 21
++  IF ~~ THEN REPLY @45 GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~Then maybe it is because you are not trying to understand what it is that you see. Perhaps you prefer to ask another to *tell* you what it is that you are or are not seeing.~ [HROT_313]
+-  IF ~~ THEN REPLY ~Mistakes are made through misunderstandings. Is it not best to avoid them if possible?~ GOTO 23
+-  IF ~~ THEN REPLY ~But if we do not understand what we perceive, surely it is wisest to ask then make wrong assumptions?~ GOTO 23
++  SAY @46 
++  IF ~~ THEN REPLY @47 GOTO 23
++  IF ~~ THEN REPLY @48 GOTO 23
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~There is no mystery here. You may not have all the answers that you want, but think <CHARNAME>, life itself unfolds a bit at a time and is that not what makes it exciting. Not knowing what piece will unfold tomorrow that makes us look forward to the next day. Who knows what knowledge will come with each new day, but it is knowledge that  we have to discover for ourselves. As with life we often get only a piece at a time.~ [HROT_314]
+-  IF ~~ THEN REPLY ~Are you saying that the only way that I am going to learn anymore is by discovering it for myself?~ GOTO 24
+-  IF ~~ THEN REPLY ~Now, why does it come as no surprise to me that once again, I will only learn something as and when I need to?~ GOTO 24
+-  IF ~~ THEN REPLY ~You forget Hrothgar, answers can also be obtained by the sword. Is that not so?~ GOTO 25
++  SAY @49 
++  IF ~~ THEN REPLY @50 GOTO 24
++  IF ~~ THEN REPLY @51 GOTO 24
++  IF ~~ THEN REPLY @52 GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~We also learn from our mistakes, so mistakes are a necessary part of our education. That is why it is important that we must make and learn from our own.~ [HROT_315]
+-  IF ~~ THEN REPLY ~Are you saying that the only way that I am going to learn anymore is by discovering it for myself?~ GOTO 24
+-  IF ~~ THEN REPLY ~Now, why does it come as no surprise to me that once again, I will only learn something as and when I need to?~ GOTO 24
+-  IF ~~ THEN REPLY ~You forget Hrothgar, answers can also be obtained by the sword. Is that not so?~ GOTO 25
++  SAY @53 
++  IF ~~ THEN REPLY @50 GOTO 24
++  IF ~~ THEN REPLY @51 GOTO 24
++  IF ~~ THEN REPLY @52 GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~(*Smiles*) Let us see what time brings <CHARNAME>. Look (*pointing to the group*), the group is getting anxious at our delay. Let us quickly rejoin them and be on our way.~ [HROT_316]
+-  IF ~~ THEN REPLY ~For now Hrothgar but we will speak again later.~ EXIT
++  SAY @54 
++  IF ~~ THEN REPLY @55 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Be warned <CHARNAME>, violence does not guarantee the answers that you seek. Now I suggest that we make a move as the group is looking anxiously towards us.~ [HROT_317]
+-  IF ~~ THEN REPLY ~I have done talking for now Hrothgar, but there will be another time.~ EXIT
++  SAY @56 
++  IF ~~ THEN REPLY @57 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~Whatever legend has passed down, there is always some exaggeration of the truth with each telling. I stand here now, so how to make sense of it is the question here I think, yes? Well, maybe in this case the legend is more rumour, what do you think <CHARNAME>?~ [HROT_311]
+-  IF ~~ THEN REPLY ~I do not know what to think. Maybe the legend is yet to be made?~ GOTO 20
+-  IF ~~ THEN REPLY ~I do not know Hrothgar, perhaps you were not supposed to die by the hand of the demon, and maybe fate has brought us together on this road in order to ensure that you survive the battle?~ GOTO 20
+-  IF ~~ THEN REPLY ~Bah! Rumours are seldom true so I imagine it is the same in this case!~ GOTO 20
++  SAY @58 
++  IF ~~ THEN REPLY @33 GOTO 20
++  IF ~~ THEN REPLY @59 GOTO 20
++  IF ~~ THEN REPLY @36 GOTO 20
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",8)~ THEN BEGIN 27
+-  SAY ~Tell me <CHARNAME>, do you believe that our path is set and cannot be changed? Is it possible do you think, that even though we may get thrown off that path, we will always be returned to it no matter how much time passes?~ [HROT_318]
+-  IF ~~ THEN REPLY ~Hrothgar, you look troubled, is this to do with your words before we left Kuldahar?~ DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
+-  IF ~~ THEN REPLY ~Do these questions have anything to do with your strange words about the feeling of having done something before Hrothgar?~ DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
+-  IF ~~ THEN REPLY ~Ah, you are referring to what you said before we left Kuldahar Hrothgar. I had intended to ask what you meant by them.~ DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
++  SAY @60 
++  IF ~~ THEN REPLY @61 DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
++  IF ~~ THEN REPLY @62 DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
++  IF ~~ THEN REPLY @63 DO ~SetGlobal("VP_BPC","LOCALS",9)~ GOTO 28
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~It was a feeling that fleetingly came over me as Arundel spoke. There was something in his voice, just as he died that caused a chill to pass over me.~ [HROT_319]
+-  IF ~~ THEN REPLY ~Tell me, what was it that he said to cause such a reaction?~ GOTO 30
+-  IF ~~ THEN REPLY ~I took his words to be the ramblings of a dying man, and payed little attention to them. Perhaps you should also treat them as such if they trouble you so.~ GOTO 30
+-  IF ~~ THEN REPLY ~Arundel was dying, Hrothgar, who knows what a man sees when death approaches?~ GOTO 30
+-  IF ~~ THEN REPLY ~All I saw was an old man in the thralls of death Hrothgar. Pay no heed to his words is the best advice I can give.~ GOTO 29
+-  IF ~~ THEN REPLY ~I heard only the words of a crazy old druid as he lay dying.~ GOTO 29
++  SAY @64 
++  IF ~~ THEN REPLY @65 GOTO 30
++  IF ~~ THEN REPLY @66 GOTO 30
++  IF ~~ THEN REPLY @67 GOTO 30
++  IF ~~ THEN REPLY @68 GOTO 29
++  IF ~~ THEN REPLY @69 GOTO 29
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~Arundel may have been old <CHARNAME>, but he was not crazed. No, he was in full control of his thoughts when he died, that I am sure of.~ [HROT_320]
+-  IF ~~ THEN REPLY ~You cannot be sure of anything Hrothgar. No-one knows what thoughts are in the head of a man at the point of death.~ GOTO 30
+-  IF ~~ THEN REPLY ~How can you be so sure Hrothgar? You have not experienced death, you have no idea how a mind is effected as it approaches. Even those raised remember nothing.~ GOTO 30
+-  IF ~~ THEN REPLY ~You are always so sure of yourself Hrothgar. Arundel was old and foolish, he wasted his breath on meaningless words instead of saving it and allowing us to help him.~ GOTO 30
++  SAY @70 
++  IF ~~ THEN REPLY @71 GOTO 30
++  IF ~~ THEN REPLY @72 GOTO 30
++  IF ~~ THEN REPLY @73 GOTO 30
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~(*His brow furrows*) It had nothing to do with his words <CHARNAME>. More to do with the manner of his voice and the look that was in his eye, he knew something that he seemed almost afraid to speak of, and it was as if he was about to speak of it when the life left his body. It was then I knew, but what it was I knew I could not grasp.~ [HROT_321]
+-  IF ~~ THEN REPLY ~I can see this troubles you Hrothgar, but it is too late and in my opinion best forgotten.~ GOTO 32
+-  IF ~~ THEN REPLY ~Forget it for now Hrothgar. My experience has taught me that if I need to know a thing, then I will know it when the time is right.~ GOTO 32
+-  IF ~~ THEN REPLY ~Arundel was wise enough to know that he had very little time left to speak, I am sure he would have spoken that which you most needed to hear with his first words and not with his last Hrothgar.~ GOTO 32
+-  IF ~~ THEN REPLY ~Why did you not speak of this before we left Kuldahar? If you truly thought he had something of importance to say, then perhaps we should have resurrected him?~ GOTO 31
++  SAY @74 
++  IF ~~ THEN REPLY @75 GOTO 32
++  IF ~~ THEN REPLY @76 GOTO 32
++  IF ~~ THEN REPLY @77 GOTO 32
++  IF ~~ THEN REPLY @78 GOTO 31
+ END
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~No <CHARNAME>, that is not the way of the druids! They believe in the circle of life and that all things must eventually make way for that which is yet to be born or reborn. It would not have been Arundel’s way and that is what we had to respect. Even so, for a second as he died, there was something, something I felt I should understand, something Arundel expected me to understand. No matter if it is within me, I am sure it will come, I just need some time to think. Quiet time <CHARNAME>, and I cannot see us getting a lot of that for a long while yet. Let us dwell on it no more for the time being.~ [HROT_322]
++  SAY @79 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~Even so, for a second as he died, there was something, something I felt I should understand, something Arundel expected me to understand. No matter if it is within me, I am sure it will come, I just need some time to think. Quiet time <CHARNAME>, and I cannot see us getting a lot of that for a long while yet. Let us dwell on it no more for the time being.~ [HROT_323]
++  SAY @80 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~I do not feel like a legend Leina. From what I hear these tales tell of a deed that I have not yet done.~ [HROT_401]
++  SAY @81 
+   IF ~~ THEN EXTERN ~BLEINA~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~Why worry about it Leina? If that is what fate has in store for me, then that is what will be. Neither the gods nor fate can be cheated.~ [HROT_402]
++  SAY @82 
+   IF ~~ THEN EXTERN ~BLEINA~ 2
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~If only it were that simple. My task has brought me to this future date and it can just as easily take me back again. I would not refuse if that turned out to be. So do not go dismissing the tales yet, none of us know what tomorrow will bring.~ [HROT_403]
++  SAY @83 
+   IF ~~ THEN EXTERN ~BLEINA~ 3
+ END
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~I thank you for your compliment Leina. Now, I only hope I can live up to this legend that you speak so highly of.~ [HROT_404]
++  SAY @84 
+   IF ~~ THEN EXTERN ~BLEINA~ 4
+ END
+ 
+ IF ~~ THEN BEGIN 37
+-  SAY ~(*Smiles broadly*) Tell me Melora, does it feel strange to you that I am here?~ [HROT_405]
++  SAY @85 
+   IF ~~ THEN EXTERN ~BMELORA~ 11
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~How I come to be here is quite simple. <CHARNAME> was teleported through a portal to my time in the past and it was through another such portal that we travelled to here again.~ [HROT_406]
++  SAY @86 
+   IF ~~ THEN EXTERN ~BMELORA~ 12
+ END
+ 
+ IF ~~ THEN BEGIN 39
+-  SAY ~Now, that is a tale that will have to wait until I have more time to tell it.~ [HROT_407]
++  SAY @87 
+   IF ~~ THEN EXTERN ~BMELORA~ 13
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~I thought I did Melora, I travelled through a portal with <CHARNAME>.~ [HROT_408]
++  SAY @88 
+   IF ~~ THEN EXTERN ~BMELORA~ 14
+ END 
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~At the time it was the right thing to do. Have you never had to make a decision quickly but know that whatever you decide will be the right thing to do? Well, this was one of those times. I was given a task to do and somehow I knew that my way was through the portal.~ [HROT_409]
++  SAY @89 
+   IF ~~ THEN EXTERN ~BMELORA~ 15
+ END 
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~(*Smiling broadly*) You do overhear a lot Melora, now I wonder how it is that you manage that?~ [HROT_410]
++  SAY @90 
+   IF ~~ THEN EXTERN ~BMELORA~ 16
+ END
+ 
+ IF ~~ THEN BEGIN 43
+-  SAY ~I am sure that it has Melora, but you are safe with this group. Blending is not necessary when moving around them, however keeping up with them is. Let us quicken our step and catch up.~ [HROT_411]
++  SAY @91 
+   IF ~~ THEN EXTERN ~BMELORA~ 17
+ END
+ 
+ IF ~~ THEN BEGIN 44
+-  SAY ~Think nothing of it Accalia. I would not have suggested it had I not thought you would be a valuable companion.~
++  SAY @92
+   IF ~~ THEN EXTERN ~BACCALI~ 17
+ END
+ 
+ IF ~~ THEN BEGIN 45
+-  SAY ~You do not have to justify your faith to me Accalia. I have seen the look that leaps to your eyes when you hear of the need to take up the fight in Tempus’s name, and I have also seen the disappointment come into them when you learn that it is not Tempus’s will that you should join the rest of the faithful in battle.~
++  SAY @93
+   IF ~~ THEN EXTERN ~BACCALI~ 18
+ END 
+ 
+ IF ~~ THEN BEGIN 46
+-  SAY ~And that is why I am glad to have you with us. I could not wish for a more stalwart and honest companion at my side in these evil times Accalia.~
++  SAY @94
+   IF ~~ THEN EXTERN ~BACCALI~ 19
+ END 
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~I will always give praise where praise is due, and from what I have come to know of you Accalia, you are more than worthy.~
++  SAY @95
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BJaheira","LOCALS",2)~ THEN BEGIN 48
+-  SAY ~It is clear your thoughts bother you Jaheira. The anxiety shows on your face. Would it help to talk about them?~
++  SAY @96
+   IF ~~ THEN DO ~SetGlobal("VP_BJaheira","LOCALS",3)~ EXTERN ~BJAHEIR~ NEJ461
+ END
+ 
+ IF ~~ THEN BEGIN 49
+-  SAY ~Khalid, your husband, of course I should not have needed to ask. I am sorry Jaheira. I wish I could offer some words of comfort, but all I can give you are words that give courage and hope that you may be re-united very soon.~
++  SAY @97
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ462
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~I know nothing of the kind of man your Khalid is Jaheira, but I am certain that wherever he is, his thoughts are not those of blame and you should not torture yourself so either. He probably worries for your safety and is more than likely doing all that he can to find you. He will not have time to let thoughts of blame come into his head.~
++  SAY @98
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ463
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~Hope and courage Jaheira. Do not ever let words such as *never* enter your mind, or else hope will also fade.~
++  SAY @99
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ464
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~Then I say again, keep hope in your heart Jaheira.~
++  SAY @100
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",2)~ THEN BEGIN 53
+-  SAY ~I have wrestled with my thoughts for a couple of days now on how to speak to you about a matter that is of the gravest concern to me <CHARNAME>.~
+-  IF ~~ THEN REPLY ~I was always taught that if a body had something to say, the best way is to open your mouth and let it out.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
+-  IF ~~ THEN REPLY ~I do not bite Hrothgar, just say your piece.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
+-  IF ~~ THEN REPLY ~A couple of days you say, now what can be so bad that it has taken you so long to mention it?~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
+-  IF ~~ THEN REPLY ~Are you still concerned about my purpose in being here Hrothgar? If so I suggest you take it up with Irenicus the next time he opens a portal in your town.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 60
++  SAY @101
++  IF ~~ THEN REPLY @102 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
++  IF ~~ THEN REPLY @103 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
++  IF ~~ THEN REPLY @104 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
++  IF ~~ THEN REPLY @105 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 60
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~I haven’t mentioned it because it involves you telling me a little of the future. All I ask of you is to tell me whether all this running around is a necessary part of this mission or could we reach our goal quicker by going down another path?~
++  SAY @106
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~BJAHEIR~ NEJ465
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I will be truthful with you Hrothgar, I do not know.~ GOTO 56
++Dead("Jaheira")~ THEN REPLY @107 GOTO 56
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I know you are worried for Kuldahar, but there isn’t anything I can tell you.~ GOTO 58
++Dead("Jaheira")~ THEN REPLY @108 GOTO 58
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~There is nothing I can tell you. You know the risk of learning too much too soon Hrothgar or you would have asked me sooner.~ GOTO 58
++Dead("Jaheira")~ THEN REPLY @109 GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 55
+-  SAY ~Jaheira is right of course and that is why it has taken me so long to ask the question, but I am becoming anxious that time may be running out for Kuldahar.~
+-  IF ~~ THEN REPLY ~I will be truthful with you Hrothgar, I do not know.~ GOTO 56
+-  IF ~~ THEN REPLY ~I know you are worried for Kuldahar, but there isn’t anything I can tell you.~ GOTO 58
+-  IF ~~ THEN REPLY ~There is nothing I can tell you. You know the risk of learning too much too soon Hrothgar or you would have asked me sooner.~ GOTO 58
++  SAY @110
++  IF ~~ THEN REPLY @107 GOTO 56
++  IF ~~ THEN REPLY @108 GOTO 58
++  IF ~~ THEN REPLY @109 GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~You don’t know, how can you not know? You come all this way from the future, say that you know of me, but not what it is you know!~
+-  IF ~~ THEN REPLY ~Yes I know you and of your bid to help Kuldahar, but what was and what wasn’t necessary during your attempt, I have no idea.~ GOTO 57
+-  IF ~~ THEN REPLY ~The story is vague in my mind Hrothgar, I never listened that closely to Gorion’s tales.~ GOTO 57
+-  IF ~~ THEN REPLY ~I found Gorion’s stories of the old glory days boring, so I usually only caught the beginnings and the ends of his tales.~ GOTO 57
+-  IF ~~ THEN REPLY ~I do know the outcome of your mission Hrothgar, but I am not about to risk my own future by telling you. So don’t ask me again or I will leave you to sort this mess alone.~ GOTO 57
++  SAY @111
++  IF ~~ THEN REPLY @112 GOTO 57
++  IF ~~ THEN REPLY @113 GOTO 57
++  IF ~~ THEN REPLY @114 GOTO 57
++  IF ~~ THEN REPLY @115 GOTO 57
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~(*Sighs*) I suppose it is just as well. I am not afraid for myself but I worry for Kuldahar and maybe Easthaven if this evil decides to stretch its hand out in its direction. We will just have to assume that what we are doing has to be done, so let us continue without further delay.~
++  SAY @116
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~It’s not for myself that I am afraid. I have no wish to know whether my own life will be forfeit in this mission, but I am afraid for Kuldahar and maybe Easthaven itself should this evil decide to stretch its hand out in its direction. Please <CHARNAME>, you have to tell me, will Kuldahar fall?~
+-  IF ~~ THEN REPLY ~I am sorry Hrothgar, but it is not for me to say.~ GOTO 59
+-  IF ~~ THEN REPLY ~I do not have to tell you anything, and as I have already said that I am not going to, you can stop badgering me!~ GOTO 59
+-  IF ~~ THEN REPLY ~If I tell you anything Hrothgar, then there is the risk that the future I know and hope to get back to one day will not be there for me to return to.~ GOTO 59
+-  IF ~~ THEN REPLY ~I do know the outcome of your mission Hrothgar, but I am not about to risk my own future by telling you. So don’t ask me again or I will leave you to sort this mess alone.~ GOTO 59
++  SAY @117
++  IF ~~ THEN REPLY @118 GOTO 59
++  IF ~~ THEN REPLY @119 GOTO 59
++  IF ~~ THEN REPLY @120 GOTO 59
++  IF ~~ THEN REPLY @115 GOTO 59
+ END 
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~Damn you <CHARNAME>! You know and yet you will not tell me... I am sorry... forgive my outburst. You are right of course, after all it is your future that is on the line here should we mess with my time. Your concern is justified, my outburst was not. Let us continue and hope your presence here has not already affected your future.~
++  SAY @121
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 60
+-  SAY ~No, I have a far more serious concern on my mind at the moment. You pose no threat to this mission nor do you appear to be in league with whatever threatens Kuldahar, that I am sure of.~
++  SAY @122
+   IF ~~ THEN GOTO 61
+ END
+   
+ IF ~~ THEN BEGIN 61
+-  SAY ~Kuldahar is my main concern and equally as worrying, is whether Easthaven itself is in any danger. So I ask you to tell me please <CHARNAME>, is all this running around necessary or should we be looking elsewhere?~
++  SAY @123
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~BJAHEIR~ NEJ465
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I will be truthful with you Hrothgar, I do not know.~ GOTO 56
++Dead("Jaheira")~ THEN REPLY @107 GOTO 56
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I know you are worried for Kuldahar, but there isn’t anything I can tell you.~ GOTO 58
++Dead("Jaheira")~ THEN REPLY @108 GOTO 58
+   IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~There is nothing I can tell you. You know the risk of learning too much too soon Hrothgar or you would have asked me sooner.~ GOTO 58
++Dead("Jaheira")~ THEN REPLY @109 GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 62
+-  SAY ~Minsc my friend, whatever do you mean *ask first*? Why would you think that I brought you here?~
++  SAY @124
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ116 
+ END
+ 
+ IF ~~ THEN BEGIN 63
+-  SAY ~Minsc, if I was clever enough to make portals we would not be tramping these cold wet roads now, would we?~
++  SAY @125
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ117 
+ END
+ 
+ IF ~~ THEN BEGIN 64
+-  SAY ~Your theory is clever Minsc, but I did not bring you here. I did not even know from where you came until <CHARNAME> told me your story. The portal is as much a mystery to me as it is to you.~
++  SAY @126
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ118 
+ END
+ 
+ IF ~~ THEN BEGIN 65
+-  SAY ~I can assure you Minsc, if this wizard of yours is in the habit of visiting my town, I would know of it. I keep a watchful eye over both my town and its people. No Minsc, I do not think that was the purpose of the portal.~ 
++  SAY @127 
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ119 
+ END
+ 
+ IF ~~ THEN BEGIN 66
+-  SAY ~If this portal originated from where you were held prisoner Minsc, then it could only be the wizard controlling it, but I have no idea why he had it come to Easthaven.~
++  SAY @128
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ120 
+ END
+ 
+ IF ~~ THEN BEGIN 67
+-  SAY ~I think that is a very good idea Minsc, it could be very important to know these things. I will leave you in peace to do your thinking.~
++  SAY @129
+   IF ~~ THEN EXTERN ~BMINSC~ NEJ121 
+ END
+ 
+ IF ~~ THEN BEGIN 68
+-  SAY ~We do Dar. We both came to our respective towns by chance. I ended up in Easthaven when my adventuring days were coming to an end and Arundel, when he was placed as keeper of the great oak. Neither of us has deemed it necessary to move on.~
++  SAY @130
+   IF ~~ THEN EXTERN ~BDAR~ 65 
+ END
+ 
+ IF ~~ THEN BEGIN 69
+-  SAY ~You will Dar, trust the word of Hrothgar. Your struggles, I am sure, have not gone unnoticed, the gods watch over the faithful and their devotion is always rewarded~
++  SAY @131
+   IF ~~ THEN EXTERN ~BDAR~ 66
+ END
+ 
+ IF ~~ THEN BEGIN 70
+-  SAY ~Look around you, you are no longer on a lonely road my friend. You are among people who have not given a second thought to your heritage, they see past the outer packaging to what is inside.~
++  SAY @132
+   IF ~~ THEN EXTERN ~BDAR~ 67 
+ END
+ 
+ IF ~~ THEN BEGIN 71
+-  SAY ~You have achieved plenty Dar. You have become accepted as an equal in this group and you did not once let the cruel abuse that you have suffered at the hands of others destroy that which is human in you. Your road can only get easier from now on my friend.~
++  SAY @133
+   IF ~~ THEN EXTERN ~BDAR~ 68 
+ END
+ 
+ IF ~~ THEN BEGIN 72
+-  SAY ~I do Accalia, but there is nothing I can say that will allay their fears. Believe me, had there been another way of bringing us safely here then I would not have acted as I did.~
++  SAY @134
+   IF ~~ THEN EXTERN ~BACCALI~ 21
+ END
+ 
+ IF ~~ THEN BEGIN 73
+-  SAY ~Tell me Accalia, if it was not for your trust in Tempus would you not perhaps view me with the same suspicion?~
++  SAY @135
+   IF ~~ THEN EXTERN ~BACCALI~ 22
+ END
+ 
+ IF ~~ THEN BEGIN 74
+-  SAY ~Your willingness to trust me comes from your faith in your god. Whereas these people have been abused and used barbarically. Then to find themselves thrown back in time, and in the company of a man who they know has more answers than he is prepared to give. I think their grounds for suspicion is well founded don’t you?~
++  SAY @136
+   IF ~~ THEN EXTERN ~BACCALI~ 23
+ END
+ 
+ IF ~~ THEN BEGIN 75
+-  SAY ~It concerns me greatly, for I realise that should <CHARNAME> decide to abandon this mission, there is nowhere that we can seek alternate aid. We would truly be alone Accalia and I fear both Kuldahar and Easthaven will be lost. As you trust in  Tempus, so must I trust that when the decision to continue or return confronts <CHARNAME>, instinct will prevail and the right choice will be made. A choice, that no matter which way it goes, I will have to accept.~
++  SAY @137
+   IF ~~ THEN EXTERN ~BACCALI~ 24
+ END
+ 
+ IF ~~ THEN BEGIN 76
+-  SAY ~(*He puts his hand on her shoulder*). If that is how it is to be, then know that I am also proud to have so brave a companion to fight by my side. Let us hope we never see such a day Accalia, but if we should, then we will face it ... draw strength from each others resolve to defy all that is evil and who knows, maybe Tempus will look kindly upon the bravest of his battle priests and we shall prevail.~
++  SAY @138
+   IF ~~ THEN DO ~RealSetGlobalTimer("VP_Accalia_PC","GLOBAL",10)
+ SetGlobal("VP_Astrolabe_Talks","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 77
+-  SAY ~(*Smiles*) You ask that question in such a way that you wouldn’t be surprised to hear that I do Accalia.~
++  SAY @139
+   IF ~~ THEN EXTERN ~BACCALI~ 47
+ END
+ 
+ IF ~~ THEN BEGIN 78
+-  SAY ~Astrolabes are I believe devices more commonly used to study the skies, or to be more accurate, the moon and the stars. Just the sort of thing you would expect to find in a wizard’s tower. However, I have no idea as to whether they can transport a body through time, and I am guessing that was to be your next question.~
++  SAY @140
+   IF ~~ THEN EXTERN ~BACCALI~ 48
+ END
+ 
+ IF ~~ THEN BEGIN 79
+-  SAY ~Yes, you are almost certainly right Accalia. I know if I were in <CHARNAME>’s place, then that is what I would be thinking.~
++  SAY @141
+   IF ~~ THEN EXTERN ~BACCALI~ 49
+ END
+ 
+ IF ~~ THEN BEGIN 80
+-  SAY ~I admit that it might seem that way, but all I have heard are questions that I would expect to hear from a person who is lost in another time, and anxious to find their way home. I still believe that <CHARNAME> will hold good on the promise to find and defeat this enemy with me.~
++  SAY @142
+   IF ~~ THEN EXTERN ~BACCALI~ 50
+ END
+ 
+ IF ~~ THEN BEGIN 81
+-  SAY ~Then I will remind <CHARNAME> of the responsibility that comes with giving one’s word and of the responsibility that comes when that word is broken, but ultimately the decision will be between <CHARNAME> and <PRO_HISHER> conscience.~
++  SAY @143
+   IF ~~ THEN EXTERN ~BACCALI~ 51
+ END
+ 
+ IF ~~ THEN BEGIN 82
+-  SAY ~Right. There is too much at stake to force a confrontation with <CHARNAME>, more than you can imagine Accalia. Just trust me when I say <CHARNAME>’s destiny is such that it is imperative that <PRO_HESHE> makes it back to the future. Please I can explain no more so please don’t ask me.~
++  SAY @144
+   IF ~~ THEN EXTERN ~BACCALI~ 52
+ END
+ 
+ IF ~~ THEN BEGIN 83
+-  SAY ~You are indeed an exceptional person Accalia. Your trust in me is not misplaced nor will it ever be abused. Now let us continue and find out what this astrolabe is really capable of.~
++  SAY @145
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 84
+-  SAY ~Well that was... ahem... entertaining. Dancing has certainly come a long way since my days.~
++  SAY @146
+   IF ~Gender(Player1,FEMALE)
+ !InParty("Melora")~ THEN EXTERN ~BLEINA~ PCF2Leina38a
+ 	IF ~Gender(Player1,MALE)
+@@ -522,13 +522,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN 85
+-  SAY ~Well, I must say it has been a while since I’ve kicked up my heels, but if the lady insists... just give me lots of space Leina.~
++  SAY @147
+   IF ~Gender(Player1,FEMALE)~ THEN EXTERN ~BLEINA~ PCF2Leina24a
+ 	IF ~Gender(Player1,MALE)~ THEN EXTERN ~BLEINA~ PCM4Leina24a
+ END
+ 
+ IF ~~ THEN BEGIN 86
+-  SAY ~I couldn’t agree with you more Leina.~
++  SAY @148
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest2
+ 	IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~BMINSC~ NEJ140
+@@ -539,7 +539,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 87
+-  SAY ~(*Sternly*) Please, this is a temple, and not the market place! Or have you two forgotten whose presence we stand before!~
++  SAY @149
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest17
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ 8
+@@ -554,38 +554,38 @@
+ END
+ 
+ IF ~~ THEN BEGIN 88
+-	SAY ~Well it is up to you <CHARNAME>, do we get our hot baths and Leina her warm fluffy towel now or later?~
+-	IF ~~ THEN REPLY ~Later.~ GOTO 89
+-	IF ~~ THEN REPLY ~Better now then later.~ GOTO 90
++	SAY @150
++	IF ~~ THEN REPLY @151 GOTO 89
++	IF ~~ THEN REPLY @152 GOTO 90
+ END
+ 
+ IF ~~ THEN BEGIN 89
+-	SAY ~As you wish <CHARNAME>.~
++	SAY @153
+ 	IF ~~ THEN EXTERN ~BLEINA~ ClericQuest21
+ END
+ 	
+ IF ~~ THEN BEGIN 90
+-	SAY ~As you wish <CHARNAME>.~
++	SAY @153
+ 	IF ~~ THEN EXTERN ~BLEINA~ ClericQuest20
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear1
+-	SAY ~No Leina, we only had small hamlets in my time... (*Coughs several times and scans the looks on the servants faces, relieved to see none has noticed his slip*)... er hem... I mean in the areas I have travelled.~
++	SAY @154
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise17	  
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear2
+-	SAY ~Not in the least, Leina. They were quite civil having the same amenities as the towns around here only on a smaller scale. Why do you ask?~
++	SAY @155
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise18	  
+ END 
+ 
+ IF ~~ THEN BEGIN LeiDear3
+-	SAY ~(*Looking at Leina as if she is a little girl up to some prank, he lowers his voice*) Leina just because I lived 100 yrs ago doesn’t mean we lived in caves!~
++	SAY @156
+ 	IF ~~ THEN GOTO LeiDear3a
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear3a
+-	SAY ~(*Then a little louder*) Oh yes we had many a fine galas. We would dress in our finest, that is after washing off the grime of the day, for only when the grime of hard work was scrubbed away could you smell the fragrance of the many flowers decorating the courtyards. You know Leina, even then after a hard day nothing felt better then a hot bath.~
++	SAY @157
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ DeArnise28
+ 	IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~BLEINA~ DeArnise19
+@@ -594,7 +594,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~We had better help her or we will never get any where... a house?~
++	SAY @158
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere10
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher1
+@@ -623,7 +623,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~Now that you mention it back when I was young there was a tale they use to sing about a man who had a box that was bigger on the inside then the outside. It was sung as a joke to get people laughing. It probably is the same tale. It could be quite true Leina for I am here in your time from the past and we did just come out of this sphere.~
++	SAY @159
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere26
+ 	IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~BJAHEIR~ LeiSpher4
+@@ -632,16 +632,16 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~I’m thinking we are going to hear this idea whether we want to or not, so go on, <CHARNAME>, tell us what you have in mind.~
++  SAY @160
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @161 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @162 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @163 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheat
+ 	IF ~InParty("Melora")
+@@ -651,16 +651,16 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~(*Laughs heartily*) How little you know Leina my friend!~
++  SAY @164
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @161 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @162 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @163 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ 	IF ~InParty("Melora")
+@@ -670,16 +670,16 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~(*Laughing to himself*) I am not sure who will be getting who, but it will be fun to observe.~
++  SAY @165
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @161 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @162 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @163 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea4
+ 	IF ~InParty("Melora")
+@@ -689,7 +689,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~(*He looks towards Leina. She quickly winks at him and turns again to Samuel*) Well, I never... If I didn’t know better, I’d say that young lady is playing with us!~
++  SAY @166
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1
+@@ -700,7 +700,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea2
+-  SAY ~Leina, I do not do this for fame and my presence in this time must not be known... ever! Do you hear me child?~
++  SAY @167
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiThea2
+@@ -733,7 +733,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadia
+-  SAY ~Leina, without you I believe we would spend our lives resting in peasant chambers only.~
++  SAY @168
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiRadia

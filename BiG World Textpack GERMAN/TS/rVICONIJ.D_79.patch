@@ -1,0 +1,20 @@
+--- TS\bgtnodlg\rVICONIJ.D	Thu Jan 06 16:52:59 2005
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\rVICONIJ.D	Thu May 05 10:46:47 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~VICONIJ~
+ 
+ IF ~~ THEN BEGIN 125
+-  SAY ~There can be only one who is responsible for this, thief.  The one we fought earlier and prevented from destroying your precious guild.~
++  SAY @0
+   IF ~!InParty("Sime")
+ See("ppsime")~ THEN EXTERN ~PPSIME~ 7
+   IF ~InParty("Sime")~ THEN EXTERN ~SIMEJ~ 20
+@@ -11,7 +11,7 @@
+ APPEND ~VICONIJ~
+ 
+ IF ~~ THEN BEGIN TS183
+-  SAY ~Love is for weak-hearted rivvins...~
++  SAY @1
+   IF ~!InParty("Aerie")
+ !InParty("Korgan")
+ !InParty("Keldorn")~ THEN EXTERN ~NAJOKI~ 7

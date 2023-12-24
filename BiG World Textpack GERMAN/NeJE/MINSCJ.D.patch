@@ -1,0 +1,747 @@
+--- NeJE\dlg\MINSCJ.D	Sat Jul 14 17:40:41 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\MINSCJ.D	Tue Apr 09 19:36:53 2019
+@@ -1,12 +1,12 @@
+ APPEND ~MINSCJ~
+ 
+ IF ~Global("NPCRemark","GLOBAL",1)~ THEN BEGIN TS241
+-  SAY ~Boo senses evil in every crack. Ooo! Major butt-kicking is coming!~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("NPCRemark","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Kr_WarTk
+-  SAY ~Minsc and Boo are always ready to do some butt-kicking to evil enemies!~
++  SAY @1
+   	IF ~True()~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("KRCut04")~ EXIT
+@@ -16,13 +16,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kelem0
+-  SAY ~Boo? Boo, do you understand where we are now?~ 
+-  	IF ~~ THEN REPLY ~Minsc, you are dead. I have accidently killed you... you and Boo, but I have come to correct my mistake. Take Boo my friend and let's be gone from here.~ GOTO Kelem1
+-  	IF ~~ THEN REPLY ~Minsc, you and Boo just happened to be in the wrong place at the wrong time and I killed you. I am sorry, I swear I did not mean it!~ GOTO Kelem1
++  SAY @2 
++  	IF ~~ THEN REPLY @3 GOTO Kelem1
++  	IF ~~ THEN REPLY @4 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-  SAY ~Ha-ha! You have also become berserk, like Minsc? Well-well... that's all right, Minsc and Boo are ready to rejoin you!~
++  SAY @5
+ 	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -32,12 +32,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ243 
+- SAY ~It reminds Boo his native Rasheman, a lot of snow around.~
++ SAY @6
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ246 
+- SAY ~Evil such as this will feel the wrath and boot of Minsc liberally. Even as Minsc speaks he feels the itching of his toes in his boot!~
++ SAY @7
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 369
+  IF ~InParty("Sharteel")~ THEN EXTERN ~SHARTJ~ comebck1
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 5
+@@ -45,106 +45,106 @@
+ 
+ IF ~Global("VP_NPC_Notes_Hroth","GLOBAL",1)
+ ~ THEN BEGIN NEJ247
+- SAY ~<CHARNAME>, if you have a minute, Boo has sent me to whisper in your ear.~
+- IF ~~ THEN REPLY ~He has, then tell me Minsc, what is it that troubles him?~ DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
++ SAY @8
++ IF ~~ THEN REPLY @9 DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
+ ~ GOTO NEJ248
+- IF ~~ THEN REPLY ~I always have the time to listen to whatever Boo has to say, Minsc. Come, tell me what he has to say that needs to be whispered?~ DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
++ IF ~~ THEN REPLY @10 DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
+ ~ GOTO NEJ248
+- IF ~~ THEN REPLY ~I thought he was making more noise than is normal for Boo. What has got him so het up, Minsc?~ DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
++ IF ~~ THEN REPLY @11 DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
+ ~ GOTO NEJ248
+- IF ~~ THEN REPLY ~Minsc, if you have something to say I would prefer it if you spoke up.~ DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
++ IF ~~ THEN REPLY @12 DO ~SetGlobal("VP_NPC_Notes_Hroth","GLOBAL",2)
+ ~ GOTO NEJ251
+ END
+ 
+ IF ~~ THEN BEGIN NEJ248
+- SAY ~It is Hrothgar that bothers him so. Boos whiskers were twitching greatly when he first heard Hrothgar speaks and then his fur all stood up as he heard more of what he said.~
++ SAY @13
+  IF ~~ THEN GOTO NEJ249
+ END
+ 
+ IF ~~ THEN BEGIN NEJ249
+- SAY ~Boo is a brave hamster but he did not like what this Hrothgar was saying to do.~
++ SAY @14
+  IF ~~ THEN GOTO NEJ250
+ END
+ 
+ IF ~~ THEN BEGIN NEJ250
+- SAY ~Because Boo likes <CHARNAME>, and Boo does not like just anyone, he knew that you would do only the right thing, so he did not say anything.~
+- IF ~~ THEN REPLY ~Minsc, my friend, what is it that you are trying to say? What is causing so much concern in your face?~ GOTO NEJ252
+- IF ~~ THEN REPLY ~Your hamster does not like Hrothgar, is that what you are saying Minsc?~ GOTO NEJ253
+- IF ~~ THEN REPLY ~What did Boo hear that he did not like, Minsc?~ GOTO NEJ253
++ SAY @15
++ IF ~~ THEN REPLY @16 GOTO NEJ252
++ IF ~~ THEN REPLY @17 GOTO NEJ253
++ IF ~~ THEN REPLY @18 GOTO NEJ253
+ END
+ 
+ IF ~~ THEN BEGIN NEJ251
+- SAY ~It is not Minsc that has something to say, <CHARNAME>, it is Boo who is worried and he wishes me to speak to you about it.~
+- IF ~~ THEN REPLY ~(*sigh*) Okay, Minsc...whatever, just tell me what it is that your hamster has to say?~ GOTO NEJ253
+- IF ~~ THEN REPLY ~What does it matter who says it, just spit it out Minsc!~ GOTO NEJ253
++ SAY @19
++ IF ~~ THEN REPLY @20 GOTO NEJ253
++ IF ~~ THEN REPLY @21 GOTO NEJ253
+ END
+ 
+ IF ~~ THEN BEGIN NEJ252
+- SAY ~Minsc is trying to say that it is Boo that is worried and when hamsters worry it is a thing to take note of!~
+- IF ~~ THEN REPLY ~Of course, Minsc, now tell me what it is that Boo is so impatient for you to tell me?~ GOTO NEJ253
+- IF ~~ THEN REPLY ~Of course, Minsc, a worried hamster is not a happy hamster. Tell me, my friend, why is it that Boo is so worried?~ GOTO NEJ253
++ SAY @22
++ IF ~~ THEN REPLY @23 GOTO NEJ253
++ IF ~~ THEN REPLY @24 GOTO NEJ253
+ END
+ 
+ IF ~~ THEN BEGIN NEJ253
+- SAY ~Boo does not like all this to-ing and fro-ing, from now to then and back to now. It is not right. No person should be able to go to then from now.~
++ SAY @25
+  IF ~~ THEN GOTO NEJ254
+ END
+ 
+ IF ~~ THEN BEGIN NEJ254
+- SAY ~Boo does not like that Hrothgar can do this. Only the gods can do such a thing, <CHARNAME>. Boo asks who is this man that can do as gods do?~
+- IF ~~ THEN REPLY ~I have no answers for Boo, Minsc, in fact I have many questions myself. I do however feel that Hrothgar is a good man, so you can tell Boo not to worry so.~ GOTO NEJ255
+- IF ~~ THEN REPLY ~It is all very strange, Minsc, I have to agree with Boo there, but the strangeness does not feel menacing at the moment. Tell Boo that I am sure we are all safe for now.~ GOTO NEJ255
+- IF ~~ THEN REPLY ~I promise you, Minsc, that I intend to watch Hrothgar very closely and learn all that I can from him.~ GOTO NEJ257
++ SAY @26
++ IF ~~ THEN REPLY @27 GOTO NEJ255
++ IF ~~ THEN REPLY @28 GOTO NEJ255
++ IF ~~ THEN REPLY @29 GOTO NEJ257
+ END
+ 
+ IF ~~ THEN BEGIN NEJ255
+- SAY ~It is good to hear you say this, <CHARNAME>. Boo does not like it when things cause his whiskers to twitch.~
++ SAY @30
+  IF ~~ THEN GOTO NEJ256
+ END
+ 
+ IF ~~ THEN BEGIN NEJ256
+- SAY ~This makes him very nervous, and if Boo is nervous then Minsc worries also, but now we do not worry. Except maybe a little bit... eh, Boo?~
++ SAY @31
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ257
+- SAY ~Boo hears what you say, <CHARNAME>. Already I feel his whiskers stopping their twitching, but he says that he will also watch Hrothgar, as will Minsc.~
++ SAY @32
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ258
+- SAY ~You choose to leave this girl caged and frightened as was Minsc and <CHARNAME> not too long ago. I do not understand how your heart does not bleed to help her as does Minsc’s heart.~
++ SAY @33
+  IF ~~ THEN EXTERN ~HROTHJ~ 49
+ END
+ 
+ IF ~~ THEN BEGIN NEJ259
+- SAY ~Minsc does not hold with people taking other people to places they do not want to go to. We must free the lady bard and quickly. Evil must be taught a lesson and my sword is a good teacher of lessons to evil.~
++ SAY @34
+   IF ~True()~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXIT
+   IF ~InParty("Hrothgar")~ THEN EXTERN ~HROTHJ~ 47
+  IF ~InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ NEJ157
+ END
+ 
+ IF ~~ THEN BEGIN NEJ260
+- SAY ~Ah Boo, do you remember Ulcaster? Dynaheir walked with us and evil stood no chance against Minsc’s sword and Dynaheirs magic. She ’will’ be avenged Boo, evil will not go unpunished!~
++ SAY @35
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 60
+  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ546
+ END
+ 
+ IF ~~ THEN BEGIN NEJ261
+- SAY ~Do not worry, <CHARNAME>. Minsc will hold one of your hands and Boo will hold the other, you will not get lost on this jouney.~
++ SAY @36
+  IF ~True()~ THEN EXTERN ~TILORN~ 19
+ END
+ 
+ IF ~~ THEN BEGIN NEJ262
+- SAY ~Boo tells Minsc that space hamsters brains should not be read.~
++ SAY @37
+  IF ~True()~ THEN EXTERN ~TERTIA~ 5
+  IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 62
+ END
+ 
+ IF ~~ THEN BEGIN NEJ263
+- SAY ~Minsc can remember Boo trying to inspire the mage once before. Even Boo had to admit defeat and Boo is always an inspiring hamster. Maybe Minsc should have let Boo try again?~
++ SAY @38
+  IF ~True()~ THEN DO ~SetGlobal("VP_Meeting_Xan","GLOBAL",1)
+ ActionOverride("Xan",MoveToPointNoInterrupt([1801.455]))
+ ActionOverride("Xan",Face(1))~ EXIT
+@@ -153,7 +153,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ264
+- SAY ~Minsc’s fist is ready. This wizard must not tell other wizards he has found us!~
++ SAY @39
+   IF ~True()~ THEN EXTERN ~RAYVON~ 2
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ rayvon2
+@@ -166,54 +166,54 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ265
+- SAY ~This wizard, he is very cunning! We must be wary that this is not another trap he has set for us, right Boo?~
+- IF ~InParty("Imoen")~ THEN REPLY ~This place does feel different, but we should not get our hopes up nor let our guard down because of the way we feel. One thing is for sure, we will not discover anything standing around here so I suggest we move quickly and prepare ourselves for whoever or whatever lies in wait at the bottom of these stairs.~ EXTERN ~IMOENJ~ NEJ77
+- IF ~InParty("Imoen2")~ THEN REPLY ~This place does feel different, but we should not get our hopes up nor let our guard down because of the way we feel. One thing is for sure, we will not discover anything standing around here so I suggest we move quickly and prepare ourselves for whoever or whatever lies in wait at the bottom of these stairs.~ EXTERN ~IMOEN2J~ VP_FIX7
++ SAY @40
++ IF ~InParty("Imoen")~ THEN REPLY @41 EXTERN ~IMOENJ~ NEJ77
++ IF ~InParty("Imoen2")~ THEN REPLY @41 EXTERN ~IMOEN2J~ VP_FIX7
+  IF ~InParty("Sharteel")~ THEN EXTERN ~SHARTJ~ nejopen1
+ END
+ 
+ IF ~~ THEN BEGIN NEJ266
+- SAY ~Minsc is sad to see Imoen so sad. Come, walk beside Minsc.~
++ SAY @42
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ102
+ END
+ 
+ IF ~~ THEN BEGIN NEJ267
+- SAY ~So Minsc and Imoen cannot be happy together in the same place. Perhaps Minsc will stay here if Imoen finds her way home. That way we will both be happy.~
++ SAY @43
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ103
+ END
+ 
+ IF ~~ THEN BEGIN NEJ268
+- SAY ~(*Puts his arm around her*) Do not worry Imoen, Minsc will not leave your side. See you have his big strong arm to look after you, we will find you another portal. Minsc will make sure Imoen sees her home and her sun again.~
++ SAY @44
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ104
+ END
+ 
+ IF ~~ THEN BEGIN NEJ269
+- SAY ~Imoen is no baby. She is very brave and with Imoen’s arrows and Minsc’s sword, evil will rue the day it crossed our path. Right Imoen?!~
++ SAY @45
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ105
+ END
+ 
+ IF ~~ THEN BEGIN NEJ270
+- SAY ~Minsc is sad to see Imoen so sad. Come, walk beside Minsc.~
++ SAY @42
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX32
+ END
+ 
+ IF ~~ THEN BEGIN NEJ271
+- SAY ~So Minsc and Imoen cannot be happy together in the same place. Perhaps Minsc will stay here if Imoen finds her way home. That way we will both be happy.~
++ SAY @43
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX33
+ END
+ 
+ IF ~~ THEN BEGIN NEJ272
+- SAY ~(*Puts his arm around her*) Do not worry Imoen, Minsc will not leave your side. See you have his big strong arm to look after you, we will find you another portal. Minsc will make sure Imoen sees her home and her sun again.~
++ SAY @44
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX34
+ END
+ 
+ IF ~~ THEN BEGIN NEJ273
+- SAY ~Imoen is no baby. She is very brave and with Imoen’s arrows and Minsc’s sword, evil will rue the day it crossed our path. Right Imoen?!~
++ SAY @45
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX35
+ END
+ 
+ IF ~~ THEN BEGIN NEJ274
+- SAY ~Ooooh, so much noise, so much snow! Now we can only go forward, there is no more behind.~
++ SAY @46
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 113
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 26
+@@ -228,42 +228,42 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ275
+- SAY ~Minsc is no healer but he knows that if you knock your head too hard you will only knock out your good sense. Look at Minsc’s poor head since his got knocked too hard.~
++ SAY @47
+  IF ~True()~ THEN EXTERN ~DOGRE~ 4
+  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ580
+ END
+ 
+ IF ~~ THEN BEGIN NEJ276
+- SAY ~Little boys should not be frightened and all alone in dark places, it fills Minsc with so much boiling blood he can feel his inside bits cooking! My beserker wrath will be great indeed when we meet the evil that does this thing.~
++ SAY @48
+  IF ~~ THEN EXTERN ~DJERMSY~ 1
+ END
+ 
+ IF ~~ THEN BEGIN NEJ277
+- SAY ~Why worry about balance. If evil is here, let us pound it to dust and sweep it into the hearth.~
++ SAY @49
+  IF ~~ THEN EXTERN ~JAHEIRAJ~ NEJ583
+ END
+ 
+ IF ~~ THEN BEGIN NEJ278
+- SAY ~Just allow evil to run freely? Never!~
++ SAY @50
+  IF ~~ THEN EXTERN ~JAHEIRAJ~ NEJ584
+ END
+ 
+ IF ~~ THEN BEGIN NEJ279
+- SAY ~Do not worry good sir. Minsc and his hero friends will teach evil doers that to take other peoples sons earns them the hiding of their lives, and I am told by Boo a hiding is a very great boot kicking to be earning!~
++ SAY @51
+  IF ~~ THEN EXTERN ~DCONLAN~ 19 
+ END
+ 
+ IF ~~ THEN BEGIN NEJ280
+- SAY ~You say you are evil but not the evil we look for. To Minsc evil is evil and he looks for evil everywhere. Nowhere can evil hide from Minsc’s righteous bootheels!~
++ SAY @52
+  IF ~~ THEN EXTERN ~DKRESSEL~ 42 
+ END
+ 
+ IF ~~ THEN BEGIN NEJ281
+- SAY ~If this priestess is kicking evil into hell, Minsc says we should not kill her. Instead Boo tells Minsc to give her his boots so she can kick harder.~
+- IF ~~ THEN REPLY ~I don’t see any other means of completing our mission.~ EXTERN ~HROTHJ~ 117
+- IF ~~ THEN REPLY ~Why am I not surprised that the price for the success of this mission is the death of another?~ EXTERN ~HROTHJ~ 117
+- IF ~~ THEN REPLY ~If this priestess is all that stands between the survival of Kuldahar, then her life is already forfeit.~ EXTERN ~HROTHJ~ 117
++ SAY @53
++ IF ~~ THEN REPLY @54 EXTERN ~HROTHJ~ 117
++ IF ~~ THEN REPLY @55 EXTERN ~HROTHJ~ 117
++ IF ~~ THEN REPLY @56 EXTERN ~HROTHJ~ 117
+  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ586 
+  IF ~InParty("Accalia")
+@@ -271,22 +271,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ282
+- SAY ~Stop, it is wrong what we do here!~
+- IF ~~ THEN REPLY ~No it isn’t Minsc. We are helping the lady.~ GOTO NEJ283
++ SAY @57
++ IF ~~ THEN REPLY @58 GOTO NEJ283
+ END
+ 
+ IF ~~ THEN BEGIN NEJ283
+- SAY ~No no, Minsc did not mean it is wrong to help the lady. Look at the poor lady, her skin is blue with the cold. Boo says he would gladly give her his furry coat but it is not big enough to cover so much blueness. Come quickly, we must give her a cloak, bring some rosy pink back to her face.~
++ SAY @59
+  IF ~~ THEN EXTERN ~DELISIA~ 20
+ END
+ 
+ IF ~~ THEN BEGIN NEJ284
+- SAY ~Minsc did not understand. He has only seen skin so blue when his hands were cold, and he was afraid the beautiful Elisia was also cold as so much of her is blue. Boo says for Minsc to tell Elisia that he thinks she looks beautiful in her blue skin. He likes her colour very much.~
++ SAY @60
+  IF ~~ THEN EXTERN ~DELISIA~ 21
+ END 
+ 
+ IF ~~ THEN BEGIN NEJ285
+- SAY ~No, that would never do. Minsc would never let Elisia melt like the snow into the water, or whatever it is she says she will do if Jhonen sees her. Minsc will give this man her sword so that he does not see her.~
++ SAY @61
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ141
+@@ -295,21 +295,21 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ286
+- SAY ~Evil beware, thanks to <CHARNAME> Minsc is becoming a truly formidable hero and warrior.~
++ SAY @62
+  IF ~True()~ THEN DO ~ActionOverride("AcolyteD",Enemy())~ EXIT
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 29
+ END
+ 
+ IF ~~ THEN BEGIN NEJ287
+- SAY ~Minsc’s knows that he is not as clever as some, but if what Hrothgar says is right, only us and him knew we were coming here. Even Minsc sees that the druid is maybe playing hide and seek games with us, and Minsc will not suffer druids who play games and put his friends in danger!~
++ SAY @63
+  IF ~!InParty("Accalia")
+-!InParty("Dar")~ THEN REPLY ~When we have all quite finished, I think it is obvious the gem is not here and we should not waste time debating the issue but do as Hrothgar says and make our back to Kuldahar without delay.~ EXIT
++!InParty("Dar")~ THEN REPLY @64 EXIT
+  IF ~InParty("Accalia")~ THEN EXTERN ~ACCALIJ~ 34
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 30
+ END
+ 
+ IF ~~ THEN BEGIN NEJ288
+- SAY ~To look a dragon in the eye takes great courage, but we are the heroes who will walk into its eye. Let us hope its eye is closed and it doesn’t see us.~
++ SAY @65
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ147
+@@ -320,20 +320,20 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ289
+- SAY ~You must run little boy, run as fast as you can and do not stop until you are home. Now that heroes are here there will be no more eating of children. Right <CHARNAME>?~
+- IF ~~ THEN REPLY ~You betcha Minsc.~ GOTO NEJ290
+- IF ~~ THEN REPLY ~Right you are Minsc, no more eating of children but lots of butt kicking to get through.~ GOTO NEJ290
+- IF ~~ THEN REPLY ~There will be no more eating of anyone when I am through with things here!~ GOTO NEJ290
+- IF ~~ THEN REPLY ~Of course Minsc, as you say.~ GOTO NEJ290
++ SAY @66
++ IF ~~ THEN REPLY @67 GOTO NEJ290
++ IF ~~ THEN REPLY @68 GOTO NEJ290
++ IF ~~ THEN REPLY @69 GOTO NEJ290
++ IF ~~ THEN REPLY @70 GOTO NEJ290
+ END
+ 
+ IF ~~ THEN BEGIN NEJ290
+- SAY ~Minsc is going to need new boots when he has kicked all the evil eaters of children to kingdom come. He doesn’t know how far kingdom come is but Boo tells him it is a very long way and it will use a lot of boot leather to send all the evil in this place there.~
++ SAY @71
+  IF ~~ THEN EXTERN ~DSHEEMIS~ 5
+ END
+ 
+ IF ~~ THEN BEGIN NEJ291
+- SAY ~Foul, evil creature... Boo is glad you are dead.~ [BOONEJ1]
++ SAY @72 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 273
+  IF ~InParty("Accalia")
+ !Dead("Accalia")~ THEN EXTERN ~ACCALIJ~ 59
+@@ -346,41 +346,41 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ292
+- SAY ~Enough talk, more fight... evil awaits a righteous butt kicking!~
++ SAY @73
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 32
+ END
+ 
+ IF ~~ THEN BEGIN NEJ293
+- SAY ~Minsc is honored to have each of you as friends.~
++ SAY @74
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ294
+- SAY ~Why is she saying these things? Does she have a head injury?~
++ SAY @75
+  IF ~~ THEN EXTERN ~HROTHJ~ 145
+ END
+ 
+ IF ~~ THEN BEGIN NEJ295
+- SAY ~Come away from there little girl, those creatures will eat you.~
++ SAY @76
+  IF ~~ THEN EXTERN ~HROTHJ~ 146
+ END
+ 
+ IF ~~ THEN BEGIN NEJ296
+- SAY ~(*Squeak*) Nooooo... Boo is saying she’s evil too. Minsc can’t kill little girls.~
++ SAY @77
+  IF ~~ THEN EXTERN ~HROTHJ~ 147
+ END
+ 
+ IF ~~ THEN BEGIN NEJ297
+- SAY ~Boring! who wants boring? How are Minsc and Boo and <CHARNAME> to be heroes if it’s boring?~
++ SAY @78
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 280
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 35
+ END
+ 
+ IF ~~ THEN BEGIN NEJ298
+- SAY ~Ooh. Boo says that’s a great idea.~ [BOONEJ1]
++ SAY @79 
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ154
+@@ -389,14 +389,14 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ313
+-	SAY ~Dwarf... Minsc sees no dwarf only a little furry creature of the forest? How can such a little creature be stabbing a person in the back? Minsc fears there is madness here, as well as evil.~
++	SAY @80
+  IF ~True()~ THEN DO ~SetGlobal("VP_Severed_Hand","GLOBAL",2)~ EXIT
+  IF ~InParty("Hrothgar")~ THEN EXTERN ~HROTHJ~ 194
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 42
+ END
+ 
+ IF ~~ THEN BEGIN NEJ314
+- SAY ~Have you deceived us Hrothgar of Easthaven? Have you consorted with and led us into the snare of evil? Boo sees all truth... all lies and if this is truth then you will surely feel the full force of Minsc’s wrath and the sharp edge of his righteous sword!~ 
++ SAY @81 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 196
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ172
+  IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ VP_FIX88
+@@ -404,7 +404,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ315
+- SAY ~Minsc’s sword is for bringing evil to it’s knees but it is also a sword for righting wrongs and Boo says that a great wrong has been done to these brave heroes. He says it is ok to bring honour to the names of these spirits and help them to find peace in the great sleep that we must all take one day.~
++ SAY @82
+  IF ~True()~ THEN DO ~SetGlobal("VP_Astrolabe_Talks","GLOBAL",2)
+ RealSetGlobalTimer("VP_Accalia_Hrothgar","GLOBAL",10)~ EXIT
+  IF ~InParty("Sharteel")
+@@ -418,7 +418,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ316
+- SAY ~Minsc and Boo stand ready. Boo says that it is a sad that we must now do battle with heroes... so for goodness sake, let us be swift in righting this wrong.~
++ SAY @83
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 208
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ175
+@@ -427,13 +427,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ317
+-	SAY ~Minsc wants to go home as does Boo, but he will be sad to be in the time when Dynaheir is dead again. Minsc has been happy here knowing that she has not been born and not hurt by the evil wizard, but now that we all talk of going home, he begins to feel his blood boil and his heart cries out for righteous justice to be dealt to the perpetrator of such evil deeds! Yeeeew...~ [BOONEJ1]
++	SAY @84 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 218
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 47
+ END
+ 
+ IF ~~ THEN BEGIN NEJ318
+-	SAY ~You are right, Minsc does not want his berserker rage to hurt his friends, but when Minsc confronts the evil wizard his wrath will not be contained. Dynaheir must know that Minsc has avenged her, only then she can sleep forever in peace.~
++	SAY @85
+  IF ~True()~ THEN DO ~SetGlobal("VP_Astrolabe_Talks","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -442,18 +442,18 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ319
+- SAY ~Minsc is no coward, Boo will testify to all the evil buttocks that carry Minsc’s boot prints! It is not right of the lady priest to say such words when she does not know of all the deeds that we heroes have done...~ 
++ SAY @86 
+  IF ~InParty("Accalia")~ THEN EXTERN ~ACCALIJ~ 46
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 48
+ END
+ 
+ IF ~~ THEN BEGIN NEJ320
+- SAY ~Ooooh... Minsc has lots of butt kicking hero deeds to tell, and Boo has some of his own that he has told only to Minsc but he says he will tell them to Dar now that he is our friend.~ 
++ SAY @87 
+  IF ~~ THEN EXTERN ~ACCALIJ~ 46
+ END
+ 
+ IF ~~ THEN BEGIN NEJ321
+- SAY ~Minsc and Boo will miss the brave priest lady. Boo says to be sure you give evil a good butt kicking from him.~
++ SAY @88
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 233
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 49
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ180
+@@ -461,7 +461,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ322
+- SAY ~No... this is not right! Hrothgar can not fight such evil by himself, he will die and Minsc will have lost another friend! No... Hrothgar must come with us and <CHARNAME> to our future time, there he can live and help Minsc to deliver butt kicking justice to evil that roams free!~
++ SAY @89
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 237 //-->H7.03
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ182 //-->3.02
+  IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ VP_FIX98 //-->3.02
+@@ -469,18 +469,18 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ323
+- SAY ~Minsc is no coward, Boo will testify to all the evil buttocks that carry Minsc’s boot prints! It is not nice of the lady priest to say such words when she does not know of all the deeds that we heroes have done, it is not nice at all!~ 
++ SAY @90 
+  IF ~InParty("Accalia")~ THEN EXTERN ~ACCALIJ~ 54
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 58
+ END
+ 
+ IF ~~ THEN BEGIN NEJ324
+- SAY ~Ooooh... Minsc has lots of butt kicking hero deeds to tell, and Boo has some of his own that he has told only to Minsc but he says he will tell them to Dar now that he is our friend.~ 
++ SAY @87 
+  IF ~~ THEN EXTERN ~ACCALIJ~ 54
+ END
+ 
+ IF ~~ THEN BEGIN NEJ325
+- SAY ~Minsc and Boo will miss the brave priest lady. Boo says to be sure you give evil a good butt kicking from him.~
++ SAY @88
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 258
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 59
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ185
+@@ -488,19 +488,19 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ326
+- SAY ~Minsc has his boots strapped on, is packing steel, and raring to go.~
++ SAY @91
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ327
+- SAY ~What are we waiting for then? There is evil waiting to be kicked!~
++ SAY @92
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 285
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 65
+ END
+ 
+ IF ~~ THEN BEGIN NEJ328
+- SAY ~Ok then. Boo says it is good to know what you are killing... right Boo?~ [BOONEJ1]
++ SAY @93 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 285
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ190
+@@ -509,7 +509,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ329
+- SAY ~No... this is not right! Hrothgar can not fight such evil by himself, he will die and Minsc will have lost another friend! No... Hrothgar must come with us and <CHARNAME> to our future time, there he can live and help Minsc to deliver butt kicking justice to evil that roams free!~
++ SAY @89
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 286
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ191
+  IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ VP_FIX107
+@@ -517,12 +517,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ330
+- SAY ~Will this big creature not be angry if we call him from his home and then try to send him away again <CHARNAME>?~
+- IF ~~ THEN REPLY ~It is alright Minsc, Mordecai knows what he is doing... I hope!~ EXTERN ~TUMORD~ 32
++ SAY @94
++ IF ~~ THEN REPLY @95 EXTERN ~TUMORD~ 32
+ END
+ 
+ IF ~~ THEN BEGIN NEJ331
+-  SAY ~Boo, we must be wary here. It is an evil day when hamsters ,rangers and mages are not safe in their coffins!~ [BOOHL]
++  SAY @96 
+ 	IF ~True()~ THEN EXIT
+ 	IF ~InParty("Korgan")
+ !Dead("Korgan")~ THEN EXTERN ~KORGANJ~ NEJ224
+@@ -547,12 +547,12 @@
+ END
+ 
+ IF ~Global("VP_Leveller_Quest","GLOBAL",3)~ THEN BEGIN NEJ332
+-  SAY ~This is great fun, like treasure hunting. Only the letters lead us to mages that need to be taught lessons in leaving other mages’ schools alone and not treasure, right Boo?~
++  SAY @97
+   IF ~~ THEN GOTO NEJ333
+ END
+ 
+ IF ~~ THEN BEGIN NEJ333
+-  SAY ~(*Squeak*)~ [BOOHL]
++  SAY @98 
+ 	IF ~OR(2)
+ !InParty("Hrothgar")
+ Dead("Hrothgar")
+@@ -569,51 +569,51 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ334
+-  SAY ~You are right Hrothgar, to have this big school fall on our heads would mean a lot digging and big head aches for us all, Boo included.~
++  SAY @99
+   IF ~~ THEN GOTO NEJ335
+ END  
+   
+ IF ~~ THEN BEGIN NEJ335
+-  SAY ~(*Squeak*)~ [BOOHL]
++  SAY @98 
+  	IF ~True()~ THEN EXTERN ~HROTHJ~ 324
+  	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN DO ~SetGlobal("VP_Leveller_Quest","GLOBAL",6)~ EXTERN ~MELORAJ~ 20
+ END
+ 
+ IF ~~ THEN BEGIN NEJ336
+-  SAY ~Oh... Minsc understands now, but fighting so many wizards could still give us all big headaches. Often when they cast their magic Minsc sees stars going around and around the top of his head. If he doesn’t get a headache, watching the stars makes him very confused!~
++  SAY @100
+   IF ~~ THEN EXTERN ~HROTHJ~ 325
+ END
+ 
+ IF ~~ THEN BEGIN NEJ337
+-  SAY ~All this tipping of balance, we should watch for what ever is being tipped to fall soon. Minsc nearly squashed Boo once when he lost his balance and tipped over. We don’t want any squashings when this tipping and falling starts.~
++  SAY @101
+   IF ~True()~ THEN EXTERN ~HROTHJ~ 338
+   IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 77
+ END
+ 
+ IF ~~ THEN BEGIN NEJ338
+-  SAY ~It was indeed a day for hamsters and rangers everywhere to rejoice when the lovely Leina became our friend. Minsc has never heard such beautiful words as the ones Leina sings and even Boo says that he can’t stop his whiskers twitching nor his toes tapping when she sings... right Boo?~ 
++  SAY @102 
+   IF ~~ THEN GOTO NEJ339
+ END
+ 
+ IF ~~ THEN BEGIN NEJ339
+-  SAY ~(*Squeak*)~ [BOOHL]
++  SAY @98 
+   IF ~~ THEN EXTERN ~FFBART~ NEJ160
+ END
+ 
+ IF ~~ THEN BEGIN NEJ340
+- SAY ~Bjorn was a bad husband, he brought great pain and hurt to Leina... not the great love a husband should bring. Minsc will stay close to the lady Leina and if this husband of Leina brings her anymore pain, then my wrath... along with my sword, will bring some hurt of their own into *his* heart!~
++ SAY @103
+  IF ~~ THEN EXTERN ~BJORN~ 4
+ END
+ 
+ IF ~~ THEN BEGIN NEJ341
+- SAY ~But Minsc and Boo do not have tails. Has Hrothgar not told us something?~
++ SAY @104
+  IF ~~ THEN EXTERN ~HROTHJ~ 389
+ END
+ 
+ IF ~~ THEN BEGIN firattak
+-	SAY ~Ooo! This is one of the biggest evils Minsc has been called upon to deliver a righteous butt kicking to... maybe he should come back when he has bigger boots. What say you Boo?~ [BOONEJ1]
++	SAY @105 
+ 	IF ~True()~ THEN EXTERN ~SHARTJ~ legacy406a
+ 	IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ firattak
+@@ -634,56 +634,56 @@
+ END
+ 
+ IF ~~ THEN BEGIN taffic01
+-	SAY ~It is sad that our friend Taffic is so unhappy, look at Boo, he is very small but he is happy being Boo.~
++	SAY @106
+ =
+-~Maybe I should let Boo speak to him, as one little creature to another, Boo can tell him that it is not good to go looking for demons if they are not looking for us. What do you think Boo?~
++@107
+ =
+-~(*Boo becomes very agitated*) *Squeak ... squeak!*~ [BOOHL]
++@108 
+ 	IF ~~ THEN GOTO taffic02
+ END
+ 
+ IF ~~ THEN BEGIN taffic02
+-	SAY ~Oooo ... the mention of such great evil has even Boo twitching his whiskers! He says we must all be ready to deal butt kicking justice if such evil comes our way.~
++	SAY @109
+ 	IF ~~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN vulova
+-	SAY ~Oooo...Minsc does not need to be reminded of such things! That wizard soon learnt that when evil threatens, a ranger and his hamster are not to be messed with.~
++	SAY @110
+ =
+-~As will the evil wizard who murdered sweet Dynaheir in front of mine and Boo’s very eyes bringing down shame upon this poor head of Minsc’s when he couldn’t protect her...right Boo? (*Squeak*).~ [BOONEJ1]
++@111 
+ 	IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN darquest
+-	SAY ~When you travel with Minsc all will be glad to see you Melora, heroes are welcome eveywhere. Right Boo?~
++	SAY @112
+ =
+-~(*Squeak*)~ [BOONEJ1]
++@98 
+ 	IF ~~ THEN DO ~SetGlobal("VP_Talked_to_Ottho","GLOBAL",1)
+ SetGlobal("VP_Slave_Released","GLOBAL",2)
+ SetGlobal("VP_Dar_Quest","GLOBAL",7)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN trebois
+- SAY ~Always Minsc hears that he has little sense! If having sense means giving little Melora to this bounty hunter, then Minsc is glad that he has only little sense!~
++ SAY @114
+ =
+-~Stand away you... you evil hunter of innocent haflings! Minsc and Boo are protectors of Melora!~
++@115
+  IF ~~ THEN EXTERN ~TREBOIS~ 3
+ END
+ 
+ IF ~~ THEN BEGIN trebois2
+- SAY ~Step not one more step! There will be no head chopping whilst Minsc and Boo are protectors of little Melora.~
++ SAY @116
+ =
+-~Minsc says that Melora’s head belongs with Melora’s body and non shall touch a hair on her pretty head, Right Boo? (*Squeak*).~ [BOONEJ1] 
++@117  
+  IF ~~ THEN EXTERN ~MELORAJ~ MQ7
+ END
+ 
+ IF ~~ THEN BEGIN tafficuh
+-  SAY ~This... this creature of evil has devoured our gnome friend! Listen Boo, how he cries from the belly of the beast!~
++  SAY @118
+  IF ~~ THEN EXTERN ~TAFFICP~ umberhk3 
+ END
+ 
+ IF ~~ THEN BEGIN taffichk
+-  SAY ~Wizard, it is an evil thing you have done here and Minsc will not suffer evil doings! You will free the gnome from the belly of the beast or feel the wrath of Minsc!~
++  SAY @119
+  IF ~~ THEN EXTERN ~RHEZON~ taffich2 
+ END    
+ END

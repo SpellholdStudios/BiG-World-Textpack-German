@@ -1,0 +1,813 @@
+--- NeJE\dlg\BMINSC.D	Thu Apr 19 23:22:42 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BMINSC.D	Tue Apr 09 19:35:20 2019
+@@ -1,216 +1,216 @@
+ APPEND ~BMINSC~
+ 
+ IF ~Global("VP_BDar","LOCALS",2)~ THEN BEGIN NEJ99
+-  SAY ~Dar, my fine large fellow, tell Minsc why it is you do not speak much?~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_BDar","LOCALS",3)~ EXTERN ~BDAR~ 51
+ END
+ 
+ IF ~~ THEN BEGIN NEJ100
+-  SAY ~You have been lonely for a good long time, Minsc knows what lonely is. Before Dynaheir, many people laughed at Minsc, said he had only half a brain, but when Minsc travelled with Dynaheir, she would tell them that it was better to have half a brain than no brain at all.~
++  SAY @1
+   IF ~~ THEN EXTERN ~BDAR~ 52
+ END
+ 
+ IF ~~ THEN BEGIN NEJ101
+-  SAY ~Ah my friend! That cannot be. In this time Dynaheir has not yet been born but if Hrothgar was to travel to Minsc’s time, Dynaheir would be taken from him again, to be  foully murdered by the evil wizard Irenicus!! Then it will be for Minsc and Boo to avenge her, evil can not withstand the righteous sword of Minsc!~
++  SAY @2
+   IF ~~ THEN EXTERN ~BDAR~ 53
+ END
+ 
+ IF ~~ THEN BEGIN NEJ102
+-  SAY ~Minsc does not need you to be sorry for him. Dynaheir showed Minsc that real friends accept all that is right and wrong with a person, not the sort of wrong that is evil, the other sort of wrong. There is no evil wrong in Minsc.~
++  SAY @3
+   IF ~~ THEN EXTERN ~BDAR~ 54
+ END
+ 
+ IF ~~ THEN BEGIN NEJ103
+-  SAY ~(*Beaming a smile at Dar*) You and me and Boo are friends now? Perhaps you would like to shake Boo’s paw now and meet him like a proper friend?~
++  SAY @4
+   IF ~~ THEN GOTO NEJ104
+ END
+ 
+ IF ~~ THEN BEGIN NEJ104
+-  SAY ~Here Boo, this is our new friend Dar, you will like him, he understands Minsc.~
++  SAY @5
+   IF ~~ THEN EXTERN ~BDAR~ 55
+ END
+ 
+ IF ~~ THEN BEGIN NEJ105
+-  SAY ~Boo always has to go away and think about liking a person once he has had a good look at them. Now we wait for Boo to ask to look at you again. Right Boo?~
++  SAY @6
+   IF ~~ THEN EXTERN ~BDAR~ 56
+ END
+ 
+ IF ~~ THEN BEGIN NEJ106
+-  SAY ~No it would not, but you could not have had a Boo, there is only the one Boo in all the world, and because giant space hamsters do not like being seen by people.~
++  SAY @7
+   IF ~~ THEN EXTERN ~BDAR~ 57
+ END
+ 
+ IF ~~ THEN BEGIN NEJ107
+-  SAY ~Minsc knows this because Boo is telling him all the time.~
++  SAY @8
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",2)~ THEN BEGIN NEJ108
+-  SAY ~<CHARNAME>, I do not like this place, it makes Minsc feel wrong and Boo all squirrly.~
+-  IF ~~ THEN REPLY ~It does feel strange Minsc, but then all new places do at first.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
+-  IF ~~ THEN REPLY ~I start to worry when you say Boo is feeling squirrly and Minsc is feeling strange. What has Boo to say about his sqirrliness?~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
+-  IF ~~ THEN REPLY ~I know what you mean Minsc, the air does have a strange feel about it.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
+-  IF ~~ THEN REPLY ~You have been in strange places before Minsc, you will get over it.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
++  SAY @9
++  IF ~~ THEN REPLY @10 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
++  IF ~~ THEN REPLY @12 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
++  IF ~~ THEN REPLY @13 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO NEJ109
+ END
+ 
+ IF ~~ THEN BEGIN NEJ109
+-  SAY ~No, you do not understand. Minsc is not feeling strange, he is feeling wrong. This is not his place and Boo is squirrly because he says he should not be here either.~ 
+-  IF ~~ THEN REPLY ~Your instincts are good Minsc, they obviously compensate for your... ah... deficiencies else where.~ GOTO NEJ110
+-  IF ~~ THEN REPLY ~Do not worry my friend, the strangeness will pass.~ GOTO NEJ114
+-  IF ~~ THEN REPLY ~We are all on edge Minsc. It is this damned place and not knowing when or whether we will ever find our way home.~ GOTO NEJ114
++  SAY @14 
++  IF ~~ THEN REPLY @15 GOTO NEJ110
++  IF ~~ THEN REPLY @16 GOTO NEJ114
++  IF ~~ THEN REPLY @17 GOTO NEJ114
+ END
+ 
+ IF ~~ THEN BEGIN NEJ110
+-  SAY ~Yes, hamsters also have very good instincts. Boo is often trying to build a nest in Minsc’s pocket, one day we will have hamsters for us all... when Boo meets a lady miniature giant space hamster that is... right Boo? So, Minsc is anxious to know what <CHARNAME>’s instincts say about all this feeling wrong?~
+-  IF ~~ THEN REPLY ~It is not my instincts that tell me what is wrong, it is what I know Minsc, and what I know is that we have been sent back to a time 100 years in the past.~ GOTO NEJ111
+-  IF ~~ THEN REPLY ~I am not sure how much you will be able to understand Minsc, heck I do not even understand it myself, but we have been sent back 100 years into the past.~ GOTO NEJ111
++  SAY @18
++  IF ~~ THEN REPLY @19 GOTO NEJ111
++  IF ~~ THEN REPLY @20 GOTO NEJ111
+ END
+ 
+ IF ~~ THEN BEGIN NEJ111
+-  SAY ~No wonder Minsc feels all wrong! He was not born 100 years ago, how can he be before he was born?~
+-  IF ~~ THEN REPLY ~Do not worry your head about the how. It was something to do with the portal we found in Irenicus’s dungeon. That is what brought us here.~ GOTO NEJ112
+-  IF ~~ THEN REPLY ~Please Minsc, there is no need to get agitated, the portal brought us here for a reason, We just do not yet know that reason.~ GOTO NEJ112
+-  IF ~~ THEN REPLY ~None of us understand it Minsc, we just have to except where we are for now.~ GOTO NEJ112
++  SAY @21
++  IF ~~ THEN REPLY @22 GOTO NEJ112
++  IF ~~ THEN REPLY @23 GOTO NEJ112
++  IF ~~ THEN REPLY @24 GOTO NEJ112
+ END
+ 
+ IF ~~ THEN BEGIN NEJ112
+-  SAY ~If you are right, then being here means Dynaheir is not dead because Dynaheir also has not been born. Oooh, this could be a happy time for Minsc, do you hear that Boo, Dynaheir is not dead because she does not live yet?~
+-  IF ~~ THEN REPLY ~There is I am sure some logic in there somewhere but I am not even going to attempt to unravel it.~ GOTO NEJ113
+-  IF ~~ THEN REPLY ~Whatever makes you happy Minsc.~ GOTO NEJ113
+-  IF ~~ THEN REPLY ~I am not even going to think about that one, just as long as you are happy and Boo is no longer squirrly.~ GOTO NEJ113
++  SAY @25
++  IF ~~ THEN REPLY @26 GOTO NEJ113
++  IF ~~ THEN REPLY @27 GOTO NEJ113
++  IF ~~ THEN REPLY @28 GOTO NEJ113
+ END
+ 
+ IF ~~ THEN BEGIN NEJ113
+-  SAY ~Now that Minsc does not have to avenge Dynaheir, he can avenge all who have gone unavenged. Evil everywhere, listen to Minsc and prepare to meet the wrath of Minsc and the edge of his righteous sword!~
++  SAY @29
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ114
+-  SAY ~No <CHARNAME>, this is not the sort of wrongness that will pass. All Minsc’s insides and his outsides feel like they are trying to run away, like they do not belong and want to get to where they do belong.~
+-  IF ~~ THEN REPLY ~Now that is not a feeling I would not wish to experience! You have amazing instincts Minsc, you are feeling this way because none of us belong here.~ GOTO NEJ110
+-  IF ~~ THEN REPLY ~Your insides as you call them are your instincts Minsc and they are right, we do not belong here.~ GOTO NEJ110
+-  IF ~~ THEN REPLY ~Your instincts are good Minsc, they obviously compensate for your...ah...deficiencies else where.~ GOTO NEJ110
++  SAY @30
++  IF ~~ THEN REPLY @31 GOTO NEJ110
++  IF ~~ THEN REPLY @32 GOTO NEJ110
++  IF ~~ THEN REPLY @33 GOTO NEJ110
+ END
+ 
+ IF ~Global("VP_BHrothgar","LOCALS",2)~ THEN BEGIN NEJ115
+-  SAY ~Hrothgar, Minsc is asking you, why did you bring us here and not ask first?~
++  SAY @34
+   IF ~~ THEN DO ~SetGlobal("VP_BHrothgar","LOCALS",3)~ EXTERN ~BHROTH~ 62
+ END
+ 
+ IF ~~ THEN BEGIN NEJ116
+-  SAY ~Because, when Minsc came falling through the portal to your Easthaven, it was all confusing at first. Yes, but now Minsc has his head straight again and knows you were looking for true adventurers to aid your fight against this big evil, so you made your portal to bring Minsc and his friends here. Right?~
++  SAY @35
+   IF ~~ THEN EXTERN ~BHROTH~ 63
+ END
+ 
+ IF ~~ THEN BEGIN NEJ117
+-  SAY ~Ah... I have thought of that Hrothgar and I think your portal takes people from another time, not from another place. That took Minsc a while to see, but now he sees.~
++  SAY @36
+   IF ~~ THEN EXTERN ~BHROTH~ 64
+ END
+ 
+ IF ~~ THEN BEGIN NEJ118
+-  SAY ~Then who made the portal to come here? The wizard who kept Minsc caged, does he travel to and fro to here, eh, Hrothgar does he? Yes, that is it, Minsc was not supposed to be here, it is the wizard’s secret! You are in league with evil Hrothgar of Easthaven! What say you?~
++  SAY @37
+   IF ~~ THEN EXTERN ~BHROTH~ 65
+ END
+ 
+ IF ~~ THEN BEGIN NEJ119
+-  SAY ~Then if not for us to come here and not for the wizard, then... for another person?~
++  SAY @38
+   IF ~~ THEN EXTERN ~BHROTH~ 66
+ END
+ 
+ IF ~~ THEN BEGIN NEJ120
+-  SAY ~Now Minsc is confused again and must go away and think some more. I will ask Boo to help me think, he is smarter than anyone.~
++  SAY @39
+   IF ~~ THEN EXTERN ~BHROTH~ 67
+ END
+ 
+ IF ~~ THEN BEGIN NEJ121
+-  SAY ~Do not worry Hrothgar, soon Minsc will know it all, when Boo tells him that is.~
++  SAY @40
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ122
+-  SAY ~Died... in Minsc’s pocket!? The only thing in Minsc’s pocket is Boo and Boo cannot be making such a bad smell, he is too young.~
++  SAY @41
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ468
+ END
+ 
+ IF ~~ THEN BEGIN NEJ123
+-  SAY ~Of course Minsc knows! He knows about all little furry creatures and the not so big less furry ones, but Boo is not just any hamster, he is a space hamster and space hamsters live a good long life!~
++  SAY @42
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ469
+ END
+ 
+ IF ~~ THEN BEGIN NEJ124
+-  SAY ~Prod Boo!! Minsc will do no such thing! Would Jaheira like it if Minsc gave her a prod when was not expecting to be prodded? No she would not and neither would Boo. I will simply ask Boo if he has died.~
++  SAY @43
+   IF ~~ THEN GOTO NEJ125
+ END
+ 
+ IF ~~ THEN BEGIN NEJ125
+-  SAY ~(*To Boo*) Tell me Boo, are you dead and making this awful smell that Jaheira is screwing her nose up at? (*Boo squeaks.*)~
++  SAY @44
+   IF ~~ THEN GOTO NEJ126
+ END
+ 
+ IF ~~ THEN BEGIN NEJ126
+-  SAY ~Boo says he is fine thank you Jaheira. He says it’s his food store that is making the bad smell, not him.~
++  SAY @45
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ470
+ END
+ 
+ IF ~~ THEN BEGIN NEJ127
+-  SAY ~Boo does not normally have to store his food, but he says it is so cold in this place, that his insides are telling him he must store a little for when there may not be any.~
++  SAY @46
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ471
+ END
+ 
+ IF ~~ THEN BEGIN NEJ128
+-  SAY ~Yes but if it gets really cold, Boo will go into hib... hibe... hibe... go to sleep until it gets warm again. So he stores a little of the cheese Minsc gives to him for this later time and that is what is making all this bad smell.~
++  SAY @47
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ472
+ END
+ 
+ IF ~~ THEN BEGIN NEJ129
+-  SAY ~That will be for Boo to decide, it is his food store, not Minsc’s and certainly not Jaheira’s!~
++  SAY @48
+   IF ~~ THEN EXTERN ~BJAHEIR~ NEJ473
+ END
+ 
+ IF ~~ THEN BEGIN NEJ130
+-  SAY ~Minsc can feel Boo’s whiskers twitching as he thinks of the words Leina will sing when she sings of the deeds of Minsc and Boo kicking all the butts of evil.~
++  SAY @49
+   IF ~True()~ THEN EXTERN ~BLEINA~ 32
+   IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ 0
+ END
+ 
+ IF ~~ THEN BEGIN NEJ131
+-  SAY ~Minsc is sorry Leina, but such beautiful music comes from the plucking of the strings, Minsc thought that if he could just touch the strings they would sing for him.~
++  SAY @50
+   IF ~~ THEN EXTERN ~BLEINA~ 191
+ END
+ 
+ IF ~~ THEN BEGIN NEJ132
+-  SAY ~Could Minsc learn the way to unjumble the notes? Would Leina teach him?~
++  SAY @51
+   IF ~~ THEN EXTERN ~BLEINA~ 192
+ END
+ 
+ IF ~~ THEN BEGIN NEJ133
+-  SAY ~Yes Minsc’s boot is good for kicking evil when he meets evil, but when there is no evil to kick he would like to make everyone happy with music, like Leina.~
++  SAY @52
+   IF ~~ THEN EXTERN ~BLEINA~ 193
+ END
+ 
+ IF ~~ THEN BEGIN NEJ134
+-  SAY ~The only thing Minsc feels like that is his berserker rage when evil shows its evil head. Then there is a big bursting from inside Minsc and a big butt kicking for evil!~
++  SAY @53
+   IF ~~ THEN EXTERN ~BLEINA~ 194
+ END
+ 
+ IF ~~ THEN BEGIN NEJ135
+-  SAY ~So, if Minsc stays a ranger Leina, and not tries to be a bard, he will be a wise Minsc? Ooooh, do you hear that Boo, Minsc the wise ranger! Come Boo we must find out what being wise will mean for Minsc.~
++  SAY @54
+   IF ~~ THEN EXTERN ~BLEINA~ 195
+ END
+ 
+ IF ~~ THEN BEGIN NEJ136
+-  SAY ~Great fun, right Boo? All the whirling and twirling poor Minsc’s eyes were going round in circles trying to watch Leina. Even Boo says Leina was faster than a hamster whirling in his wheel.~
++  SAY @55
+   IF ~~ THEN DO ~RestParty()~ EXIT  
+ END
+ 
+ IF ~~ THEN BEGIN NEJ137
+-  SAY ~Boo says Minsc’s boots are big and for butt kicking evil, not dancing boots. Boo is very wise so Minsc will do as he says, drink the ale, but not dancing.~
++  SAY @56
+   IF ~~ THEN EXTERN ~BLEINA~ PCF2Leina23c
+ END
+ 
+ IF ~~ THEN BEGIN NEJ138
+-  SAY ~Oooo... that’s not right Leina, Minsc has not got his dancing socks on either, only the ones that let his toes breathe.~
++  SAY @57
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ PCF2Leina2a
+ 	IF ~InParty("Yoshimo")~ THEN EXTERN ~BYOSHIM~ NEJ9
+ 	IF ~InParty("Jaheira")~ THEN EXTERN ~BJAHEIR~ NEJ497
+@@ -229,7 +229,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ139
+-  SAY ~Ooooo... so much in and out of tables and swayings like the trees in the wind, Minsc’s poor head is dizzy from the watching and the drinking. Boo is right, Minsc’s boots are made for butt kicking and not dancing, they would be taking Minsc under the tables and not around the tables.~
++  SAY @58
+ 	IF ~True()~ THEN DO ~SetGlobal("VP_Danicng_Queen","GLOBAL",2)~ EXIT
+ 	IF ~InParty("Melora")
+ InParty("Taffic")~ THEN EXTERN ~BMELORA~ 56
+@@ -244,12 +244,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ140
+-  SAY ~Boo says cover your noses, our boots are smelly through butt kicking so much stinking evil.~
++  SAY @59
+ 	IF ~~ THEN EXTERN ~BLEINA~ ClericQuest2
+ END
+ 
+ IF ~~ THEN BEGIN NEJ141
+-  SAY ~(*His voice loud and stern*) Boo says a bit of quiet please, this is not a place to be shouting!~
++  SAY @60
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest17
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ 8
+@@ -260,7 +260,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ142
+-	SAY ~Boo says he is a hamster and not a rat best we clean up.~
++	SAY @61
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ ClericQuest21
+ 	IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~BHROTH~ 88
+@@ -277,305 +277,305 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear1
+-	SAY ~Oh, Boo says Minsc shouldn’t talk of home, but you are nice so we will. Rasheman is not a green fluffy place. It’s climate is harsh and breeds fierce warriors like Minsc, true heros.~
++	SAY @62
+ 	IF ~~ THEN GOTO LeiDear1a
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear1a
+-	SAY ~We do not have such squishy things and music is not like that of Leinas. It is made to bring terror into hearts of evil before hero’s deliver swift kicks to evil’s black butts!~
++	SAY @63
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise23  
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear2
+-	SAY ~(*The ranger’s face lights up*) Oh, Minsc know how to make merry he sings of butt kicking, bring terror to nasty evil nose. Yes?~
++	SAY @64
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise24	  
+ END 
+ 
+ IF ~~ THEN BEGIN LeiDear3
+-	SAY ~Oh, you make Boo laugh. Boo says <CHARNAME> singing is stronger then any spell of terror. It make all evil quake. <PRO_HESHE> make good Rasheman warrior.~ [BOONEJ1]
++	SAY @65 
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise25	  
+ END
+ 
+ IF ~~ THEN BEGIN LeiDear4
+-	SAY ~Leina, Minsc no make fun of <CHARNAME>, <PRO_HISHER> war cry is amongst the best of those feared in Rasheman... if not the best cause it has that little notie thing in it.~
++	SAY @66
+ 	IF ~~ THEN EXTERN ~BLEINA~ DeArnise25a	  
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~Oh, Boo we now play guessing game with Leina but Minsc knows not what to guess.~
++	SAY @67
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere18
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher1
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~Oh, Boo is small... how about Boo?~
++	SAY @68
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere19
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher2
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher3
+-	SAY ~This game is causing a big pain in Minsc’s head... it has too much thinking. He will not play anymore.~
++	SAY @69
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere20
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher3
+ END
+ 
+ IF ~~ THEN BEGIN TS99
+-  SAY ~Boo says Kachiko is nice. I am looking for a big rounded purple bottle. The one, which makes people smart...~
++  SAY @70
+   IF ~~ THEN EXTERN ~BKACHI~ 25
+ END
+ 
+ IF ~~ THEN BEGIN TS100
+-  SAY ~Aye, Kachiko, the very same! See, when Dynaheir was alive, she told me that I could drink it and become smart, like Boo... But then she said: "Do not do it Minsc. You are a happy man, your heart tells you to defend the small and helpless and to strike evil.  A smart man is never happy, because he does not trust his heart to know which butt is evil. Do you want to be unhappy, Minsc?"- That’s what she said...~
++  SAY @71
+   IF ~~ THEN EXTERN ~BKACHI~ 26
+ END
+ 
+ IF ~~ THEN BEGIN TS101
+-  SAY ~Aye, but Boo says: "Minsc since Dynaheir dead, you are unhappy anyway. So why do not you become smart if you are already unhappy?"~
++  SAY @72
+   IF ~~ THEN EXTERN ~BKACHI~ 27
+ END
+ 
+ IF ~~ THEN BEGIN TS102
+-  SAY ~Regular hamsters - no, but Boo is the Giant Space Hamster! Now, why do I hold the potion bag?~
++  SAY @73
+   IF ~~ THEN EXTERN ~BKACHI~ 28
+ END
+ 
+ IF ~~ THEN BEGIN TS103
+-  SAY ~Yes! Let me stamp this skinny evil butt with my righteous boot!~
+-  IF ~~ THEN REPLY ~Calm down, all of you! We have enough enemies without starting to fight among ourselves!~ EXIT
+-  IF ~~ THEN REPLY ~Edwin, to be honest, you are wearing on my nerves also. I think we’d better part ways.~ EXTERN ~BEDWIN~ TS108
+-  IF ~~ THEN REPLY ~Speaking about violent death, Edwin, I killed you once and I shall do so again!~ EXTERN ~BEDWIN~ TS109
++  SAY @74
++  IF ~~ THEN REPLY @75 EXIT
++  IF ~~ THEN REPLY @76 EXTERN ~BEDWIN~ TS108
++  IF ~~ THEN REPLY @77 EXTERN ~BEDWIN~ TS109
+ END
+ 
+ IF ~~ THEN BEGIN TS104
+-  SAY ~Ah, my brother ranger, Boo wishes you to know he has observed your bravery in battle and is considering you for a knighthood into the Order of the Hamster.~
++  SAY @78
+   IF ~~ THEN EXTERN ~BVALYGA~ TS359
+ END
+ 
+ IF ~~ THEN BEGIN TS105
+-  SAY ~There is little you can hide from one so wise as Boo.~
++  SAY @79
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS106
+-  SAY ~(*Whispers*) Psst! Valygar! Heh, you is a sly one, ranger. Boo has sniffed out your attractiveness to <CHARNAME>. He lets me know that is beaming with approval for everyone. Hamsters, rangers, Bhaalspawn and all.~
++  SAY @80
+   IF ~~ THEN EXTERN ~BVALYGA~ TS361
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~Boo knows all, my woody brother. There is no secret, no matter how tiny - that is too small for Boo’s wisdom to perceive.~
++  SAY @81
+   IF ~~ THEN EXTERN ~BVALYGA~ TS362
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~Boo is never wrong my foresty friend - he sees the future as well as your blushes.~
++  SAY @82
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~You put him down you, you, you! (*Minsc sputters inarticulately and snatches Boo away from Valygar before cradling him.*) You must not lay hands on Boo in this manner. There is no dignity in dangling by tails.~
++  SAY @83
+   IF ~~ THEN EXTERN ~BVALYGA~ TS364
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~Boo is not a pet! Boo is a wise and ancient being: small on the outside, large as a bear in the middle! He was just investigating if you are virginal, nothing to get so scared and tail-dangly about.~
++  SAY @84
+   IF ~~ THEN EXTERN ~BVALYGA~ TS365
+ END
+ 
+ IF ~~ THEN BEGIN TS111
+-  SAY ~You slippery fellow, you. Boo needs to be sure that <CHARNAME> ’s husband to be is as clean as she is. Boo is very fond of her, you know.~
++  SAY @85
+   IF ~~ THEN EXTERN ~BVALYGA~ TS366
+ END
+ 
+ IF ~~ THEN BEGIN TS112
+-  SAY ~Boo is not small, Sime. Boo is a Miniature Giant Space Hamster. He is incredibly large for his very young age. And he is not pitiful! Have not you seen how he hungers for a battle?~
++  SAY @86
+   IF ~~ THEN EXTERN ~BSIME~ 208
+ END
+ 
+ IF ~~ THEN BEGIN TS113
+-  SAY ~And after the battle is won he is the first one to drink the blood of our defeated enemies!~
++  SAY @87
+   IF ~~ THEN EXTERN ~BSIME~ 209
+ END
+ 
+ IF ~~ THEN BEGIN TS114
+-  SAY ~Yes! Boo learns the ferocity from Minsc! And he gives Minsc his wise counsel in return.~
++  SAY @88
+   IF ~~ THEN EXTERN ~BSIME~ 210
+ END
+ 
+ IF ~~ THEN BEGIN TS115
+-  SAY ~Boo says that he likes what Lady Sime says about him. He says that Lady Sime has eyes like stars.~
++  SAY @89
+   IF ~~ THEN EXTERN ~BSIME~ 212
+ END
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~Actually he said "as pretty as a hamster’s" but I thought "like stars" would be better. It is better, is it not?~
++  SAY @90
+   IF ~~ THEN EXTERN ~BSIME~ 213
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~Ahem, Lady Sime, I am not sure that I know. Did you like what Boo said or did you like what Minsc said?~
++  SAY @91
+   IF ~~ THEN EXTERN ~BSIME~ 214
+ END
+ 
+ IF ~~ THEN BEGIN TS118
+-  SAY ~He is just shy, Lady Sime. Now, Boo, be a good hamster, go sit with Lady Sime, and tell her all the nice things you wanted to tell her.~
++  SAY @92
+   IF ~~ THEN EXTERN ~BSIME~ 267
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~Can I talk to you about Boo?~
++  SAY @93
+   IF ~~ THEN EXTERN ~BSIME~ 217
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~Boo wants to know what happened when you took him from me.~
++  SAY @94
+   IF ~~ THEN EXTERN ~BSIME~ 218
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~I... fainted?~
++  SAY @95
+   IF ~~ THEN EXTERN ~BSIME~ 219
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~I will not, Lady Sime.~
++  SAY @96
+   IF ~~ THEN EXTERN ~BSIME~ 220
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~Boo’s saying that if I tell you, it would not be a secret place.~
++  SAY @97
+   IF ~~ THEN EXTERN ~BSIME~ 222
+ END
+ 
+ IF ~~ THEN BEGIN TS124
+-  SAY ~Minsc does not want Lady Sime to be dead. Boo would be very sad.~
++  SAY @98
+   IF ~~ THEN EXTERN ~BSIME~ 223
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~Boo is not sure it is a good idea. Lady Sime should not go up front. It is dangerous for Lady Sime. Lady Sime should stay behind Minsc and throw stones.~
++  SAY @99
+   IF ~~ THEN EXTERN ~BSIME~ 224
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~Dirty tricksters would die once Minsc unleashed his righteous boot on them! But Boo thinks you are right. Here is your mace, Sime.~
++  SAY @100
+   IF ~~ THEN EXTERN ~BSIME~ 225
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~Yes, Sime. I protected Dynaheir. That was my duty. But I failed it. Irenicus killed Dynaheir and I failed my dajemma. Now I have only Boo to defend.~
++  SAY @101
+   IF ~~ THEN EXTERN ~BSIME~ 227
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~That it was, but the mage tricked us! He did not face us and he avoided the battle, that coward. He had us poisoned! And then he killed Dynaheir. You are not like Dynaheir, Sime. Boo says I can protect you, but you are not a witch. That’s mean I can think of you as a non-witch even if I do protect you.~
++  SAY @102
+   IF ~~ THEN EXTERN ~BSIME~ 228
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~Boo says if you are not a witch then I am not prohibited to love you. I was not allowed to love Dynaheir, only protect her, because she was my witch.~
++  SAY @103
+   IF ~~ THEN EXTERN ~BSIME~ 229
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~Sime, Boo says if I am to court a lady properly, I am to give her little gifts. He says a carrot would be good. Will you take the carrot?~
++  SAY @104
+   IF ~~ THEN EXTERN ~BSIME~ 231
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~But I thought that carrots are not very pretty. Ladies like pretty things.~
++  SAY @105
+   IF ~~ THEN EXTERN ~BSIME~ 232
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Do you like ugly things?~
++  SAY @106
+   IF ~~ THEN EXTERN ~BSIME~ 233
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~I wanted to give you a gem, but all the gems we are getting are already in our bags so you have them anyway. I have this little round pebble. It is not a precious stone, but I like it. I think it is pretty. I want to give it to you.~
++  SAY @107
+   IF ~~ THEN EXTERN ~BSIME~ 234
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~Of course! Nobody before wanted to talk to Boo. Strange, no? Here, I will hold it in my palms and you need to put your ear closer. He has very quiet voice, Boo.~
++  SAY @108
+   IF ~~ THEN EXTERN ~BSIME~ 236
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~Beautiful Sime wants to talk to Boo? Poi... poin...~
++  SAY @109
+   IF ~~ THEN EXTERN ~BOO~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~Yes, you have it! Smart Boo! Boo is so smart, Lady Sime, no?~
++  SAY @110
+   IF ~~ THEN EXTERN ~BOO~ 6
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~Little Boo is tired? Boo, do you want cheese? Aye, not very polite of you to stop talking to Lady Sime like that, Boo.~
++  SAY @111
+   IF ~~ THEN EXTERN ~BSIME~ 243
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~Yes, yes. I shall settle him to sleep in his little woolen sock. Then he will rest well and be as ferocious as ever in the next battle.~
++  SAY @112
+   IF ~~ THEN EXTERN ~BSIME~ 244
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~Are you talking to Boo about love Sime? I did not listen, just heard "love".~
++  SAY @113
+   IF ~~ THEN EXTERN ~BSIME~ 251
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~Oh, my little Boo is such a kidder!~
++  SAY @114
+   IF ~~ THEN EXTERN ~BSIME~ 256
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~Do not get all fluffy and upset, Boo. You know that your name is noble. Very noble.~
++  SAY @115
+   IF ~~ THEN EXTERN ~BOO~ 18
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~There was that hero of old, great king.~
++  SAY @116
+   IF ~~ THEN EXTERN ~BOO~ 19
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~No, why in Rasheman?~
++  SAY @117
+   IF ~~ THEN EXTERN ~BOO~ 20
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~The great king... ahem, knight fought some strange battle, when there are no enemy.~
++  SAY @118
+   IF ~~ THEN EXTERN ~BOO~ 21
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~The knight was very brave, and kicked all enemies. Than he was a winner. He went to take the wreath from the pretty girl. But Lady Sime is prettier.~
++  SAY @119
+   IF ~~ THEN EXTERN ~BOO~ 22
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~But than a hamster ran. Girl got scared and fell. The knight was very tired and fell too.~
++  SAY @120
+   IF ~~ THEN EXTERN ~BOO~ 23
+ END
+ 
+ IF ~~ THEN BEGIN TS147
+-  SAY ~The king laughed and announced the hamster the winner of the tournament ’cause he made the best knight to fall from the saddle.~
++  SAY @121
+   IF ~~ THEN EXTERN ~BOO~ 24
+ END
+ 
+ IF ~~ THEN BEGIN TS148
+-  SAY ~Because the man who sold Boo to me called him Boo.~
++  SAY @122
+   IF ~~ THEN EXTERN ~BSIME~ 261
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~I like Leina’s idea... after so much righteous butt kicking, it is time for hamsters rangers and heroes to rejoice.~
++  SAY @123
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -593,7 +593,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @124 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -611,7 +611,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @125 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -629,7 +629,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @126 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheat
+ 	IF ~InParty("Melora")
+@@ -669,7 +669,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~(*Scratching his head*) Have who and for what?~
++  SAY @127
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -687,7 +687,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @124 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -705,7 +705,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @125 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -723,7 +723,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @126 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ 	IF ~InParty("Melora")
+@@ -763,7 +763,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~Minsc will have to confer with Boo. He likes the lady Leina and must know more of what "getting" means.~
++  SAY @128
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -781,7 +781,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @124 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -799,7 +799,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @125 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Edwin")
+ !IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+@@ -817,7 +817,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @126 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea4
+ 	IF ~InParty("Melora")
+@@ -857,7 +857,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~(*A grin spreading across the big man’s face*) Ah, now Minsc understands. Leina will find this funny, yes?~
++  SAY @129
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1
+@@ -898,7 +898,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea2
+-  SAY ~Oooo... Boo hear that. Our deeds will be sung before all. We are heros. We kick butt now.~
++  SAY @130
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiThea2
+@@ -933,7 +933,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadia
+-  SAY ~Boo says he will gladly join in the drinking of the ale but he must decline the bath. He says too many baths and he won't be able to do a thing with his fur.~
++  SAY @131
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiRadia
+@@ -946,7 +946,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadi2
+-  SAY ~Ooo, do you hear that Boo, you always say how beautiful Imoen's hair is and now you are going to have shiny untangled fur just like Imoen's. Squeak from Boo here.~  [BOONEJ1]
++  SAY @132  
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiRadia

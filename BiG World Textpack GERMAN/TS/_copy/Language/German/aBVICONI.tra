@@ -1,0 +1,57 @@
+@0    = ~Die Oberfläche... was für ein seltsamer Ort! Hier in Amn seid Ihr ein starker und kühner Krieger. In Eurem Heimatland wäret Ihr irgendeinem bescheidenen Jaluk gegenüber unterwürfig. Ziemlich dumm.~
+@1    = ~Haltet mich nicht für eine Närrin. In Kara-Tur sind die Frauen die Sklaven der Männer... Diejenigen, die sich selbst verkaufen, gelten als "frei"!~
+
+@2    = ~Und was ist mit Euch, Kachiko? Versucht Ihr einen Liebhaber zu finden, um Macht zu erlangen?~
+
+@3    = ~Ich verstehe Euch nicht. Wenn der einzige Ort, Macht zu erlangen, das Bett eines Jaluks wäre, dann würde ich es tun...~
+@4    = ~Euer Missfallen kümmert mich nicht. Wenn eine Frau sich für einen Mann interessiert, dann sollte dieser dankbar und demütig sein und auf die Befehle seiner Herrin warten.~
+
+@5    = ~Und genau deswegen seid Ihr eine Närrin, Rivvin. Jetzt verstehe ich, warum <CHARNAME> sich für Euch interessiert. Solch ein Vergnügen quält einen einen kühnen Mann...~
+@6    = ~Ihr seid traurig und bemitleidenswert, Männchen. Ihr seht das Offensichtliche nicht. Ihr weist das zurück, was Eure grösste Chance sein könnte, Euren Status zu verbessern. Ich werde meine Zeit nicht mehr länger mit Euch verschwenden, Rivvin.~
+
+@7    = ~Oh, der Mann ist unhöflich. Wären wir jetzt in Menzoberranzan, dann hätte ich Euch für weniger als diese Beleidigung zu Tode geprügelt. Ihr würdet es nicht einmal wagen, mich anzusehen, geschweige denn, mit mir zu sprechen. Ihr würdet vor mir kriechen und um meine Gunst betteln.~
+
+@8    = ~Wisst Ihr überhaupt, was Begierde ist? Je länger ich Euch beobachte, desto fester ist meine Überzeugung, dass Ihr niemandes Freund und kein Frauenliebhaber seid. Ihr seid voller Wut und Leere.~
+
+@9    = ~Ich bin gelangweilt, und ich akzeptiere einen unzulänglichen Ersatz, wie einen ungelenken Menschen.~
+@10   = ~Valygar? (*greift nach seinem Ärmel*)~
+@11   = ~Das werdet Ihr bereuen! Ich hasse Euch!~
+
+@12   = ~Still, Männchen. Ich habe entschieden, dass Ihr mir heute Nacht etwas Freude bereiten werdet. Aber nur, weil Euer Ungeschick erträglich ist...~
+
+@13   = ~Was hat das mit meinem Orden zu tun?~
+
+@14   = ~Wenn also gegenseitiger Hass Oberflächenbewohnern verbietet, Liebende zu werden, soll gegenseitige Liebe das Ganze fördern?~
+@15   = ~Warum liegt Ihr dann nicht an <CHARNAME>s Seite?~
+@16   = ~Hasst Ihr sie?~
+@17   = ~Hasst sie Euch?~
+@18   = ~So?~
+@19   = ~Ihr seid ein Heuchler und ein Lügner, Männchen. Ich weiss zwar nicht viel über Oberflächenbewohner, aber ich erkenne Leidenschaft, wenn ich sie sehe. Jetzt vergesst dieses sinnlose Argument und tut, was ich Euch befohlen hatte.~
+@20   = ~Schweigt, Rivvin! Ich werde Euch jetzt etwas sagen, was Ihr hören wollt.~
+@21   = ~Ihr sagt, Euer Blut ist durch Eure Blutlinie und dunkle Magie verflucht. <CHARNAME> sagt, dass ihre dunkle Abstammung ihr Blut belastet.~
+@22   = ~Blut gegen Blut, Verderben gegen Verderben. Wer wird gewinnen? Glaubt Ihr, dass das Blut der Corthalas stärker ist, als das Blut von Bhaal? Glaubt Ihr vielleicht, dass Euer kleiner magischer Fluch aus den Venen eines Kindes gebrannt werden kann, wenn sich dessen Blut mit dem Blut eines Gottes vermischt?~
+
+@23   = ~Nein, nein. Ihr fürchtet den Fluch nicht. Ihr seid einfach ein impotenter, miserabler, und feiger Mann, der nicht in der Lage ist, eine Frau zu berühren.~
+@24   = ~Es ist eine süsse Folter, der Gewinner zu sein und den Preis brennen zu sehen. Ich hatte einmal einen Ehemann und ich erwischte ihn mit meiner Schwester. Ich verbrannte sie. Ich kann immer noch sehen, wie die Flammen an ihren Leichen zehren. Shar lächelte mir an diesem Tag zu.~
+@25   = ~(*lacht*) Diejenige, die Ihr im Auge habt, ist nicht besser als ich. Denkt darüber nach, was ich über die Erblast sagte, Waldläufer.~
+@26   = ~Warum habt Ihr die Gilde der Schattendiebe verlassen? Ihr seht mir nicht sehr dumm aus, dennoch sind Eure Handlungen ungeschickt. Während Eurer Abwesenheit könnte eine andere den Platz bei Eurem Vater einnehmen.~
+@27   = ~Ihr zieht es also vor, durch die dreckigen Strassen einer Stadt zu kriechen und von jedem Rivvin, den Ihr trefft, wie Dreck behandelt zu werden?~
+@28   = ~(*schnaubt*) Und sie werden es bekommen, kein Zweifel. Typisch. Idiotische Oberflächenbewohner.~
+@29   = ~Sehr wenige. Llolth ist eine listige Herrin und beobachtet ihre Schäfchen sorgsam. Die Hohepriesterinnen sind immer rastlos, jagen um ihre Gunst zu erwerben die Ausgestossenen, um sie Llolth zu opfern.~
+
+@30   = ~Ich kenne keinen. Drizzt brachte Pech und schlechte Zeiten über ganz Menzoberranzan. Ich bezweifel, dass jemand ausser Verabscheuung für ihn und seine Entscheidungen noch etwas anderes fühlen würde. Drizzts Verrat bestärkte meine Leute darin, ihre eigenen Wege zu gehen.~
+@31   = ~Wenn Ihr glaubt, dass ich für alle Taten meiner Rasse gerade stehe, dann habt Ihr Euch getäuscht. Ihr hättet eine Fackel in meinen Scheiterhaufen werfen sollen.~
+@32   = ~(*Zischt und versucht Sime anzugreifen*)~
+@33   = ~Was ist los? Ich habe gar nicht gewusst, dass ihr so enge Freunde seid und bis spät in die Nacht noch diskutiert.~
+
+@34   = ~Kann man denn nicht einmal in Ruhe schlafen? Viconia, Sime, aufhören damit!~
+@35   = ~Was, bei den Neun Höllen geht hier vor?~
+@36   = ~Schweigt mrannd d'ssins. Rivvin.~
+@37   = ~Viconia, jetzt reicht es. Ich habe Euch vor diesen Fanatikern gerettet, und wie dankt Ihr es mir? Indem Ihr versucht, die Frau, die ich liebe, zu töten?~
+@38   = ~Viconia, packt Eure Sachen und verschwindet. Sofort!~
+
+@39   = ~Jal ssinrig zhah waella - Liebe ist nur etwas für Narren.~
+
+@40   = ~Nein ist sie nicht. Ihr habt Unrecht, habt Ihr denn gar nichts verstanden? (*seufzt*) Oh, Viconia. Ich schätze, das ist meine eigene Schuld. Ich hätte nicht so viel Zeit mit jemandem anderen verbringen sollen, und Eurem armen verlorenen Herzen so viel Ärger bereiten sollen. Sime, es tut mir Leid, was passiert ist. Ich hoffe, Ihr habt die Kraft, mir und Viconia zu vergeben. Ich hätte nicht von dem Weg mit Viconia abkommen sollen.~
+@41   = ~Was immer Ihr sagt, Viconia. Aber wagt es nicht noch einmal, Sime so unfreundlich zu behandeln! Es tut mir Leid, dass Ihr Ärger mit dieser gemeinen Frau hattet, Sime. Seid stark, meine Liebe.~
+@42   = ~Ich war gerade dabei. (*lacht*) Aber ich wollte Euer Blondchen zuerst beseitigen. Ssun usst - fürchtet mich! ~

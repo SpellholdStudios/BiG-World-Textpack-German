@@ -1,0 +1,16 @@
+--- NeJ3\baf\WTSLVRUN.BAF	Sat Dec 16 20:31:46 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\WTSLVRUN.BAF	Wed Apr 10 10:34:16 2019
+@@ -56,11 +56,11 @@
+ 	!Global("SLAVES_FREE_1","GLOBAL",0)
+ THEN
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~We are free!~)
++		DisplayStringHead(Myself,@0)
+ 		MoveToPoint([1112.355])
+ 		EscapeArea()
+ 	RESPONSE #80
+-		DisplayStringHead(Myself,~Thank you!~)
++		DisplayStringHead(Myself,@1)
+ 		MoveToPoint([1112.355])
+ 		EscapeArea()
+ 	RESPONSE #60

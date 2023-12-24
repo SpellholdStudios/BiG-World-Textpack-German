@@ -1,0 +1,603 @@
+--- TS\sailoff\SailOff.d	Sat Nov 28 21:31:26 2015
++++ C:\BWP Patchstudio\patched files\TS\sailoff\SailOff.d	Thu May 05 10:47:07 2016
+@@ -7,7 +7,7 @@
+ REPLACE ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~Hold fast, the journey begins.~
++  SAY @0
+   IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ sailoff1
+   IF ~!InParty("Kachiko")~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41c")~ EXIT  // --->  to Brynnlaw with Bodhi
+@@ -17,17 +17,17 @@
+ APPEND ~KACHIJ~
+ 
+ IF ~~ THEN BEGIN sailoff1
+-  SAY ~Wait a minute! The ship is ours to take anywhere, right? <CHARNAME>, can we go to Kara-Tur now?~
+-  IF ~~ THEN REPLY ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~ EXTERN ~PPSAEM~ TS7
++  SAY @1
++  IF ~~ THEN REPLY @2 EXTERN ~PPSAEM~ TS7
+ END
+ 
+ IF ~~ THEN BEGIN sailoff2
+-  SAY ~Or we will see Kara-Turian shores and prove that Yoshimo is innocent and restore peace between our families. I agree with you, <CHARNAME>, let the fate decide! Cast the spell captain Havarian!~
++  SAY @3
+   IF ~~ THEN EXTERN ~PPSAEM~ TS2
+ END
+ 
+ IF ~~ THEN BEGIN sailoff3
+-  SAY ~Good luck to you, <CHARNAME>. Farewell.~
++  SAY @4
+   IF ~~ THEN EXTERN ~PPSAEM~ TS9
+ END
+ END
+@@ -35,12 +35,12 @@
+ APPEND ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN TS7
+-  SAY ~Half a year, may be a year... It is a long and dangerous route. Not many ships go that far away, and of those that do few return back.~
+-  IF ~~ THEN REPLY ~Yoshimo, Kachiko, I am sorry, but I have to haste to Imoen’s rescue, her life is at stake! May be after we find Imoen I will go to Kara-Tur with you...~ EXTERN ~YOSHJ~ TS166
++  SAY @5
++  IF ~~ THEN REPLY @6 EXTERN ~YOSHJ~ TS166
+ END
+ 
+ IF ~~ THEN BEGIN TS8
+-  SAY ~Ahem, if I may interrupt... I think I have a solution for your problem. Recently I run into a... mmh... an arch-mage of great renown, Harkle Harpel. For a minor service, he gave me this scroll. It’s called the Harpel’s Fog of Fate. If I cast it, my "Gallante" will carry you to the place you destined to be in mere hours, be it Kara-Tur or Spellhold.~
++  SAY @7
+   IF ~True()~ THEN GOTO TS81
+   IF ~InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ TS122
+   IF ~InParty("Anomen")~ THEN EXTERN ~ANOMENJ~ TS310
+@@ -49,31 +49,31 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS81
+-  SAY ~Of course, I would not part with this scroll for less then 5,000 gold.~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff2
+-  IF ~~ THEN REPLY ~Imoen is too dear to me to trust this suspicious spell. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS167
++  SAY @8
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff2
++  IF ~~ THEN REPLY @11 EXTERN ~YOSHJ~ TS167
+ END
+ 
+ IF ~~ THEN BEGIN TS0
+-  SAY ~That is why I would like to get my payment before I cast the spell.~
++  SAY @12
+   IF ~~ THEN EXTERN ~PPBODHI3~ TS21
+ END
+ 
+ IF ~~ THEN BEGIN TS1
+-  SAY ~ You have paid me only for one way to Brynnlaw... Sorry to say, but business is business.~
++  SAY @13
+   IF ~~ THEN EXTERN ~PPBODHI3~ TS22
+ END
+ 
+ IF ~~ THEN BEGIN TS2
+-  SAY ~With pleasure. Well, then everything is settled. Here is the scroll.~
++  SAY @14
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",1)
+ StartCutSceneMode()
+ StartCutScene("Cut41isb")~ EXIT // --->  to the Island with Bodhi
+ END
+ 
+ IF ~~ THEN BEGIN TS9
+-  SAY ~As you wish...~
++  SAY @15
+   IF ~~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41cc")~ EXIT // --->  to Brynnlaw with Bodhi
+ END
+@@ -82,12 +82,12 @@
+ APPEND ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN TS166
+-  SAY ~No! This is impossible! Eh, no, I’d rather part our ways right now.~
++  SAY @16
+   IF ~~ THEN EXTERN ~PPSAEM~ TS8
+ END
+ 
+ IF ~~ THEN BEGIN TS167
+-  SAY ~I understand. I wish you good luck in your dealings with Irenicus and rescuing Imoen. Farewell and do not think ill of us.~
++  SAY @17
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",2)~ EXTERN ~KACHIJ~ sailoff3
+ END
+ END
+@@ -95,17 +95,17 @@
+ APPEND ~PPBODHI3~
+ 
+ IF ~~ THEN BEGIN TS20
+-  SAY ~My guild will pay you, Saemon... if we are to survive this spell...~
++  SAY @18
+   IF ~~ THEN EXTERN ~PPSAEM~ TS0
+ END
+ 
+ IF ~~ THEN BEGIN TS21
+-  SAY ~Watch you tongue, Saemon. We have already paid you enough!~
++  SAY @19
+   IF ~~ THEN EXTERN ~PPSAEM~ TS1
+ END
+ 
+ IF ~~ THEN BEGIN TS22
+-  SAY ~Okay, take this money, and try to do your best.~
++  SAY @20
+   IF ~~ THEN EXTERN ~PPSAEM~ TS2
+ END
+ END
+@@ -113,40 +113,40 @@
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN TS252
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff2
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS167
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff2
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS167
+ END
+ END
+ 
+ APPEND ~JAHEIRAJ~
+ 
+ IF ~~ THEN BEGIN TS531
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff2
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS167
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff2
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS167
+ END
+ END
+ 
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN TS310
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff2
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS167
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff2
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS167
+ END
+ END
+ 
+ APPEND ~VALYGARJ~
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff2
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS167
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPBODHI3~ TS20 // ---> ... TS2 ... ---> ... TS5
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff2
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS167
+ END
+ END
+ 
+@@ -159,7 +159,7 @@
+ REPLACE ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN 48
+-  SAY ~Protection? I was not aware of any such plans. The captain should be consulted on all such matters.~
++  SAY @23
+   IF ~!InParty("Sime")~ THEN EXTERN ~PPARAN2~ 5 // both cases: Sime has been already and has not been yet in party ---> original sequence of dialogues
+   IF ~InParty("Sime")~ THEN EXTERN ~PPARAN2~ TS8 // Sime is in party
+ END
+@@ -174,32 +174,32 @@
+ APPEND ~PPARAN2~
+ 
+ IF ~~ THEN BEGIN TS8
+-  SAY ~Sime has been travelling with <CHARNAME> for some time. She will attempt to improve the overall safety of the voyage.~
++  SAY @24
+   IF ~~ THEN GOTO TS9
+ END
+ 
+ IF ~~ THEN BEGIN TS9
+-  SAY ~She will be staying very close to you, Saemon Havarian. For your safety, of course.~
++  SAY @25
+   IF ~~ THEN EXTERN ~PPSAEM~ TS17
+ END
+ 
+ IF ~~ THEN BEGIN TS10
+-  SAY ~My guild will pay you, Saemon... if we are to survive this spell...~
++  SAY @18
+   IF ~~ THEN EXTERN ~PPSAEM~ TS14
+ END
+ 
+ IF ~~ THEN BEGIN TS11
+-  SAY ~Watch you tongue, Saemon. We have already paid you enough!~
++  SAY @19
+   IF ~~ THEN EXTERN ~PPSAEM~ TS15
+ END
+ 
+ IF ~~ THEN BEGIN TS12
+-  SAY ~Okay, take this money, and try to do your best.~
++  SAY @20
+   IF ~~ THEN EXTERN ~PPSAEM~ TS12
+ END
+ 
+ IF ~~ THEN BEGIN TS13
+-  SAY ~Sime shall also advise you, <CHARNAME>. She is acquainted with a few of the inhabitants of the island.~
++  SAY @26
+   IF ~~ THEN EXTERN ~PPSAEM~ TS19
+ END
+ END
+@@ -207,34 +207,34 @@
+ APPEND ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN TS17
+-  SAY ~Of course.~
++  SAY @27
+   IF ~~ THEN EXTERN ~SIMEJ~ sailoff1
+ END
+ 
+ IF ~~ THEN BEGIN TS18
+-  SAY ~As clear as clear could be, m’lady, though I am not sure I approve of your tone. I assure you, nothing untoward will happen during our crossing.~
++  SAY @28
+   IF ~~ THEN EXTERN ~PPARAN2~ TS13
+ END
+ 
+ IF ~~ THEN BEGIN TS19
+-  SAY ~Then we are fully staffed and ready to sail. Best that we get underway as soon as possible. Disembark, m’lord, and we shall away.~
++  SAY @29
+   IF ~~ THEN GOTO TS20
+ END
+ 
+ IF ~~ THEN BEGIN TS20
+-  SAY ~Hold fast, the journey begins.~
++  SAY @0
+   IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ sailoff4
+   IF ~!InParty("Kachiko")~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41da")~ EXIT // --->  to Brynnlaw with Sime being in-party
+ END
+ 
+ IF ~~ THEN BEGIN TS21
+-  SAY ~Half a year, may be a year... It is a long and dangerous route. Not many ships go that far away, and of those that do few return back.~
+-  IF ~~ THEN REPLY ~Yoshimo, Kachiko, I am sorry, but I have to haste to Imoen’s rescue, her life is at stake! May be after we find Imoen I will go to Kara-Tur with you...~ EXTERN ~YOSHJ~ TS234
++  SAY @5
++  IF ~~ THEN REPLY @6 EXTERN ~YOSHJ~ TS234
+ END
+ 
+ IF ~~ THEN BEGIN TS22
+-  SAY ~Ahem, if I may interrupt... I think I have a solution for your problem. Recently I run into a... mmh... an arch-mage of great renown, Harkle Harpel. For a minor service, he gave me this scroll. It’s called the Harpel’s Fog of Fate. If I cast it, my "Gallante" will carry you to the place you destined to be in mere hours, be it Kara-Tur or Spellhold. Of course, I would not part with it for less then 5,000 gold...~
++  SAY @30
+   IF ~InParty("Keldorn")~ THEN EXTERN ~KELDORJ~ TS257
+   IF ~!InParty("Keldorn")
+ InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ TS158
+@@ -249,38 +249,38 @@
+ !InParty("Valygar")
+ !InParty("Anomen")
+ !InParty("Keldorn")
+-PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff5
++PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff5
+   IF ~!InParty("Jaheira")
+ !InParty("Valygar")
+ !InParty("Anomen")
+-!InParty("Keldorn")~ THEN REPLY ~I think you’re bluffing. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++!InParty("Keldorn")~ THEN REPLY @31 EXTERN ~YOSHJ~ TS233
+   IF ~!InParty("Keldorn")
+ !InParty("Valygar")
+ !InParty("Anomen")
+ !InParty("Jaheira")
+-PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
++PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
+ END
+ 
+ IF ~~ THEN BEGIN TS25
+-  SAY ~With pleasure. Well, then everything is settled. Here is the scroll.~
++  SAY @14
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",1)
+ StartCutSceneMode()
+ StartCutScene("Cut41is")~ EXIT // --->  to the Island with Sime being in-party
+ END
+ 
+ IF ~~ THEN BEGIN TS26
+-  SAY ~As you wish...~
++  SAY @15
+   IF ~~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41da")~ EXIT // --->  to Brynnlaw with Sime being in-party
+ END
+ 
+ IF ~~ THEN BEGIN TS23
+-  SAY ~That is why I would like to get my payment before I cast the spell.~
++  SAY @12
+   IF ~~ THEN EXTERN ~SIMEJ~ sailoff3
+ END
+ 
+ IF ~~ THEN BEGIN TS24
+-  SAY ~ You have paid me only for one way to Brynnlaw... Sorry to say, but business is business.~
++  SAY @13
+   IF ~~ THEN EXTERN ~SIMEJ~ sailoff4
+ END
+ END
+@@ -288,22 +288,22 @@
+ APPEND ~SIMEJ~
+ 
+ IF ~~ THEN BEGIN sailoff1
+-  SAY ~I shall make certain that, should we be surprised at sea, death will not come from a surprise source. Do I make myself clear?~
++  SAY @32
+   IF ~~ THEN EXTERN ~PPSAEM~ TS18
+ END
+ 
+ IF ~~ THEN BEGIN sailoff2
+-  SAY ~My guild will pay you, Saemon... if we are to survive this spell...~
++  SAY @18
+   IF ~~ THEN EXTERN ~PPSAEM~ TS23
+ END
+ 
+ IF ~~ THEN BEGIN sailoff3
+-  SAY ~Watch you tongue, Saemon. We have already paid you enough!~
++  SAY @19
+   IF ~~ THEN EXTERN ~PPSAEM~ TS24
+ END
+ 
+ IF ~~ THEN BEGIN sailoff4
+-  SAY ~Okay, take this money, and try to do your best.~
++  SAY @20
+   IF ~~ THEN EXTERN ~PPSAEM~ TS25
+ END
+ END
+@@ -311,17 +311,17 @@
+ APPEND ~KACHIJ~
+ 
+ IF ~~ THEN BEGIN sailoff4
+-  SAY ~Wait a minute! The ship is ours to take anywhere, right? <CHARNAME>, can we go to Kara-Tur now?~
+-  IF ~~ THEN REPLY ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~ EXTERN ~PPSAEM~ TS21
++  SAY @1
++  IF ~~ THEN REPLY @2 EXTERN ~PPSAEM~ TS21
+ END
+ 
+ IF ~~ THEN BEGIN sailoff5
+-  SAY ~Or we will see Kara-Turian shores and prove that Yoshimo is innocent and restore peace between our families. I agree with you, <CHARNAME>, let the fate decide! Cast the spell captain Havarian!~
++  SAY @3
+   IF ~~ THEN EXTERN ~PPSAEM~ TS25
+ END
+ 
+ IF ~~ THEN BEGIN sailoff6
+-  SAY ~Good luck to you, <CHARNAME>. Farewell.~
++  SAY @4
+   IF ~~ THEN EXTERN ~PPSAEM~ TS26
+ END
+ END
+@@ -329,12 +329,12 @@
+ APPEND ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN TS234
+-  SAY ~No! This is impossible! Eh, no, I’d rather part our ways right now (*aside: before we find Irenicus*)~
++  SAY @33
+   IF ~~ THEN EXTERN ~PPSAEM~ TS22
+ END
+ 
+ IF ~~ THEN BEGIN TS235
+-  SAY ~I understand. I wish you good luck in your dealings with Irenicus and rescuing Imoen. Farewell and do not think ill of us.~
++  SAY @17
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",2)~ EXTERN ~KACHIJ~ sailoff6
+ END
+ END
+@@ -342,40 +342,40 @@
+ APPEND ~JAHEIRAJ~
+ 
+ IF ~~ THEN BEGIN TS536
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~SIMEJ~ sailoff2
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff5
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS235
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~SIMEJ~ sailoff2
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff5
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS235
+ END
+ END
+ 
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN TS314
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~SIMEJ~ sailoff2
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff5
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS235
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~SIMEJ~ sailoff2
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff5
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS235
+ END
+ END
+ 
+ APPEND ~VALYGARJ~
+ 
+ IF ~~ THEN BEGIN TS158
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~SIMEJ~ sailoff2
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff5
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS235
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~SIMEJ~ sailoff2
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff5
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS235
+ END
+ END
+ 
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN TS257
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~SIMEJ~ sailoff2
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff5
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS235
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~SIMEJ~ sailoff2
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff5
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS235
+ END
+ END
+ 
+@@ -388,7 +388,7 @@
+ REPLACE ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~Hold fast, the journey begins.~
++  SAY @0
+   IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ sailoff7
+   IF ~!InParty("Kachiko")
+ Global("Sime_Meet","GLOBAL",0)~ THEN DO ~StartCutSceneMode()
+@@ -402,17 +402,17 @@
+ APPEND ~KACHIJ~
+ 
+ IF ~~ THEN BEGIN sailoff7
+-  SAY ~Wait a minute! The ship is ours to take anywhere, right? <CHARNAME>, can we go to Kara-Tur now?~
+-  IF ~~ THEN REPLY ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~ EXTERN ~PPSAEM~ TS10
++  SAY @1
++  IF ~~ THEN REPLY @2 EXTERN ~PPSAEM~ TS10
+ END
+ 
+ IF ~~ THEN BEGIN sailoff8
+-  SAY ~Or we will see Kara-Turian shores and prove that Yoshimo is innocent and restore peace between our families. I agree with you, <CHARNAME>, let the fate decide! Cast the spell captain Havarian!~
++  SAY @3
+   IF ~~ THEN EXTERN ~PPSAEM~ TS12
+ END
+ 
+ IF ~~ THEN BEGIN sailoff9
+-  SAY ~Good luck to you, <CHARNAME>. Farewell.~
++  SAY @4
+   IF ~~ THEN EXTERN ~PPSAEM~ TS16
+ END
+ END
+@@ -420,12 +420,12 @@
+ APPEND ~PPSAEM~
+ 
+ IF ~~ THEN BEGIN TS10
+-  SAY ~Half a year, may be a year... It is a long and dangerous route. Not many ships go that far away, and of those that do few return back.~
+-  IF ~~ THEN REPLY ~Yoshimo, Kachiko, I am sorry, but I have to haste to Imoen’s rescue, her life is at stake! May be after we find Imoen I will go to Kara-Tur with you...~ EXTERN ~YOSHJ~ TS232
++  SAY @5
++  IF ~~ THEN REPLY @6 EXTERN ~YOSHJ~ TS232
+ END
+ 
+ IF ~~ THEN BEGIN TS11
+-  SAY ~Ahem, if I may interrupt... I think I have a solution for your problem. Recently I run into a... mmh... an arch-mage of great renown, Harkle Harpel. For a minor service, he gave me this scroll. It’s called the Harpel’s Fog of Fate. If I cast it, my "Gallante" will carry you to the place you destined to be in mere hours, be it Kara-Tur or Spellhold. Of course, I would not part with it for less then 5,000 gold...~
++  SAY @30
+   IF ~InParty("Keldorn")~ THEN EXTERN ~KELDORJ~ TS256
+   IF ~!InParty("Keldorn")
+ InParty("Valygar")~ THEN EXTERN ~VALYGARJ~ TS157
+@@ -440,20 +440,20 @@
+ !InParty("Valygar")
+ !InParty("Anomen")
+ !InParty("Keldorn")
+-PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff8
++PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff8
+   IF ~!InParty("Jaheira")
+ !InParty("Valygar")
+ !InParty("Anomen")
+-!InParty("Keldorn")~ THEN REPLY ~I think you’re bluffing. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++!InParty("Keldorn")~ THEN REPLY @31 EXTERN ~YOSHJ~ TS233
+   IF ~!InParty("Keldorn")
+ !InParty("Valygar")
+ !InParty("Anomen")
+ !InParty("Jaheira")
+-PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
++PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
+ END
+ 
+ IF ~~ THEN BEGIN TS12
+-  SAY ~With pleasure. Well, then everything is settled. Here is the scroll.~
++  SAY @14
+   IF ~Global("Sime_Meet","GLOBAL",0)~ THEN DO ~SetGlobal("Start_Island","GLOBAL",1)
+ StartCutSceneMode()
+ StartCutScene("Cut41isa")~ EXIT // ---> to the Island; in-game Sime is destroyed and re-created
+@@ -463,17 +463,17 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS14
+-  SAY ~That is why I would like to get my payment before I cast the spell.~
++  SAY @12
+   IF ~~ THEN EXTERN ~PPARAN2~ TS11
+ END
+ 
+ IF ~~ THEN BEGIN TS15
+-  SAY ~ You have paid me only for one way to Brynnlaw... Sorry to say, but business is business.~
++  SAY @13
+   IF ~~ THEN EXTERN ~PPARAN2~ TS12
+ END
+ 
+ IF ~~ THEN BEGIN TS16
+-  SAY ~As you wish...~
++  SAY @15
+   IF ~Global("Sime_Meet","GLOBAL",0)~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41dd")~ EXIT // --->  to Brynnlaw without Yoshimo/Kachiko; in-game Sime is destroyed and re-created
+   IF ~Global("Sime_Meet","GLOBAL",1)~ THEN DO ~StartCutSceneMode()
+@@ -484,12 +484,12 @@
+ APPEND ~YOSHJ~
+ 
+ IF ~~ THEN BEGIN TS232
+-  SAY ~No! This is impossible! Eh, no, I’d rather part our ways right now... (*aside: before we find Irenicus*)~
++  SAY @34
+   IF ~~ THEN EXTERN ~PPSAEM~ TS11
+ END
+ 
+ IF ~~ THEN BEGIN TS233
+-  SAY ~I understand. I wish you good luck in your dealings with Irenicus and rescuing Imoen. Farewell and do not think ill of us.~
++  SAY @17
+   IF ~~ THEN DO ~SetGlobal("Start_Island","GLOBAL",2)~ EXTERN ~KACHIJ~ sailoff9
+ END
+ END
+@@ -497,39 +497,39 @@
+ APPEND ~JAHEIRAJ~
+ 
+ IF ~~ THEN BEGIN TS535
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff8
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff8
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS233
+ END
+ END
+ 
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN TS313
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff8
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff8
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS233
+ END
+ END
+ 
+ APPEND ~VALYGARJ~
+ 
+ IF ~~ THEN BEGIN TS157
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff8
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff8
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS233
+ END
+ END
+ 
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN TS256
+-  SAY ~<CHARNAME>, Harkle Harpel is no arch-mage, he belongs to a family of lunatics! For what I know of Harpels we might be turned into frogs or some such if you allow Saemon to cast the spell! Be careful!~
+-  IF ~PartyGoldLT(5000)~ THEN REPLY ~Saemon, it sounds good, but I have not got enough coin.~ EXTERN ~PPARAN2~ TS10
+-  IF ~PartyGoldGT(4999)~ THEN REPLY ~Well, what’s life if not one big gamble! Cast your spell, Saemon, and if it fails I will see good old Harkle turned into a frog himself. But if it works, my friends prepare to storm Spellhold this afternoon!~ EXTERN ~KACHIJ~ sailoff8
+-  IF ~~ THEN REPLY ~That’s exactly what I heard about Harpells. Imoen is too dear to me to trust that this spell is an exception from their customary failures. We are sailing to Spellhold.~ EXTERN ~YOSHJ~ TS233
++  SAY @21
++  IF ~PartyGoldLT(5000)~ THEN REPLY @9 EXTERN ~PPARAN2~ TS10
++  IF ~PartyGoldGT(4999)~ THEN REPLY @10 EXTERN ~KACHIJ~ sailoff8
++  IF ~~ THEN REPLY @22 EXTERN ~YOSHJ~ TS233
+ END
+ END

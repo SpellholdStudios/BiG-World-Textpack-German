@@ -1,0 +1,10 @@
+--- NeJ3\dlg\DGNOMEBL.d	Sat Oct 25 00:23:05 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DGNOMEBL.d	Wed Apr 10 10:24:37 2019
+@@ -1,6 +1,6 @@
+ BEGIN ~DGNOMEBL~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~This deep gnome has had his eyes cut out. When he hears you approach, he flinches and scuttles away. He seems too terrified to talk.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END

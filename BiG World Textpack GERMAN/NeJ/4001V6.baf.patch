@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V6.baf	Tue Dec 02 00:23:32 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V6.baf	Wed Apr 10 10:28:33 2019
+@@ -8,10 +8,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~What's going to happen to us?~) // "What's going to happen to us?"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~Don't be afraid, children. We'll be okay.~) // "Don't be afraid, children.  We'll be okay."
++		DisplayStringHead(Myself,@1) // "Don't be afraid, children.  We'll be okay."
+ 		Wait(3)
+ END
+ 

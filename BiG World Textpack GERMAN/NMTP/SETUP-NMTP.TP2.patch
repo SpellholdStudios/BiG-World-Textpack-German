@@ -1,0 +1,12 @@
+--- SETUP-NMTP.TP2	Mon Dec 23 22:50:44 2013
++++ C:\BWP Patchstudio\patched files\SETUP-NMTP.TP2	Fri Dec 27 19:06:49 2013
+@@ -14,6 +14,9 @@
+ LANGUAGE ~ChineseTraditional~ 
+  ~ChineseTraditional~ 
+  ~NMTP/ChineseTraditional/NMTP-setup.tra~
++LANGUAGE ~German (LW)~ 
++ ~German~ 
++ ~NMTP/German/NMTP-setup.tra~
+ ////////////////////金币实体化
+ BEGIN @1
+ APPEND ~spell.ids~ ~2705 WIZARD_KHELBENS_WARDING_WHIP~ UNLESS ~WIZARD_KHELBENS_WARDING_WHIP~

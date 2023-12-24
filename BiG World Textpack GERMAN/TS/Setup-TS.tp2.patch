@@ -1,0 +1,2042 @@
+--- Setup-TS.tp2	Sun Oct 30 11:44:09 2016
++++ C:\BWP Patchstudio\patched files\Setup-TS.tp2	Sun Nov 13 15:32:30 2016
+@@ -2,6 +2,11 @@
+ 
+ AUTHOR ~Vlad & Domi~
+ 
++AUTO_TRA ~TS/Language/%s~
++
++LANGUAGE ~English~ ~English~ ~TS\Language\english\setup.tra~
++LANGUAGE ~German~ ~German~ ~TS\Language\german\setup.tra~
++
+ BEGIN ~TORTURED SOULS v7.06 BWP fix~
+ 
+ //______________________________________//
+@@ -10,58 +15,46 @@
+ //______________________________________//
+ //                                      //
+ 
+-REQUIRE_FILE ~Data/25Dialog.bif~ ~Please install "Throne Of Bhaal" and the official ToB patch before installation of this mod.~
+-REQUIRE_FILE ~Setup-BDToBv175.exe~ ~Please install Baldurdash-WeiDU v1.75 before installation of this mod.~
++REQUIRE_FILE ~Data/25Dialog.bif~ @1
++REQUIRE_FILE ~Setup-BDToBv175.exe~ @2
+ 
+ //Substitute the following string
+-STRING_SET ~Play Shadows of Amn<TM> with the new area of Watcher’s Keep Dungeon~ ~Play Shadows of Amn<TM> with the new expansion set "Tortured Souls"~
++STRING_SET ~Play Shadows of Amn<TM> with the new area of Watcher’s Keep Dungeon~ @3
+ 
+ COPY ~TS/rules~ ~override~
+ 
+ COPY ~TS/screens/SCRTXT09.2da~ ~override~
+-REPLACE ~scrtxt09~ ~NEW CHAPTER
+-
+-  After Saemon Havarian had finished his incantations you stood for a few minutes in expectation. The ship, ready to sail was still in Athkatla’s docks... You were about to sigh and pronounce your thanks that at least it was not frog-turning, and request refund from the sly sailor. Suddenly the crew became agitated, everyone pointing to the east. You turned and saw a gray cloud speeding across the sky straight for the "Gallante". A few of the crewmen leaped overboard. Someone behind your back whispered: "that’s how the fate looks?" and spat heartily on the deck. Then the world became one great gray fog and all you could sense is the movement of tremendous speed... But you could not distinguish the direction or count the time... Slowly you had lost your consciousness... and regained it in what seemed a short instant. The ship is riding shallow waters in a sheltered bay by a stony beach. Captain Havarian approaches you hesitantly...~ [theme3]
++REPLACE ~scrtxt09~ @4
+ 
+ COPY ~TS/screens/SCRTXT10.2da~ ~override~
+-REPLACE ~scrtxt10~ ~CHAPTER FOUR
+-
+-  After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate.   "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+-
+-  Bodhi was as good as her word. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [intro8]
++REPLACE ~scrtxt10~ @5
+ 
+ COPY ~TS/screens/SCRTXT11.2da~ ~override~
+-REPLACE ~scrtxt11~ ~CHAPTER FOUR
+-
+-  After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+-
+-  Aran Linvail and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [intro8]
++REPLACE ~scrtxt11~ @6
+ 
+ //COPY ~TS/toda/DYNAD.2da~ ~override~
+ //REPLACE ~dynafin~ ~Dynaheir returned to Rasheman for a time and her knowledge and experience gained her a high position among her kin. But the adventurous witch soon embarked on another dajemma accompanied by her new guardian. The man had wits and was a valiant fighter. However, it was later said, Dynaheir had never been pleased with his service. She had relieved him of his duties and traveled alone thereafter. The mage was also known to keep hamsters. Later in her life she got married to an ambitious mage from Tethyr and they opened a school of magic together. It can be hoped that one day they will come to love each other.~
+ 
+ COPY ~TS/toda/SIMED.2da~ ~override~
+-REPLACE ~simefin~ ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
++REPLACE ~simefin~ @7
+ 
+ COPY ~TS/toda/SIMEFND.2da~ ~override~
+-REPLACE ~simefin~ ~Sime had witnessed death all around <CHARNAME> and after her adventuring with the notorious Bhaalspawn was over, she returned to Athkatla bent on never leaving the side of her father again. Her involvement with the Shadow Thieves, however, resulted in strange events, like distributing valuables of a robbed lord to the misfortunate or using Shadow Thief resources and manpower for noble causes. Because of that, Aran Linvail was eventually forced to retire. He went with Sime to a small village in Northern Amn where Sime was offered the position of ranger-protector, despite her background. Aran was so bored that he started to take interest in local politics and within a few years the community had become known as a tax haven. The bureaucrats in Athkatla had believed for years that it was just a nameless hamlet, while in fact it was a prominent trade post.  Aran stayed as mayor of the community until his death. It is not known what happened to his half-elven daughter afterwards.~
++REPLACE ~simefin~ @7
+ 
+ COPY ~TS/toda/SIMEND2.2da~ ~override~
+-REPLACE ~sime2fin~ ~After half-a-dozen visits by Shadow Thieves’ messengers it became evident to <CHARNAME> and Sime that it was time to visit Athkatla again. It was not much of a surprise to <CHARNAME> that their sojourn with Aran Linvail did not last for long. Sime took one look at her father’s plans for their wedding and that very night she convinced <CHARNAME> to elope. To lay the issue to rest they got married in the Druid’s Grove shortly after. However the marriage did not stop Sime from leading the nomadic lifestyle and together they traveled the land for many years. It is said that the couple has seen the birth of a son and a daughter, named Gorion and Imoen. Eventually the tales about <CHARNAME> and Sime became so unbelievable that one can only assume that they were no more. It is not known how and when they met their end.~
++REPLACE ~sime2fin~ @8
+ 
+ COPY ~TS/toda/VALYGFND.2da~ ~override~
+-REPLACE ~valfin~ ~After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faerun and becoming a common sight in the area of Waterdeep.  Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family’s estate that he had always desired.  Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city.  For many years, Valygar’s was the name spat by every criminal or slaver who dared to place a foot within the city.  Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect.  Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect...though most considered the ranger the victor even then.  Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married.  His only son, the pride of his life, took the lessons of his father to heart? Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride.  Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well.~
++REPLACE ~valfin~ @9
+ 
+ COPY ~TS/toda/VALYGND.2da~ ~override~
+-REPLACE ~valfin~ ~After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faerun and becoming a common sight in the area of Waterdeep.  Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family’s estate that he had always desired.  Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city.  For many years, Valygar’s was the name spat by every criminal or slaver who dared to place a foot within the city.  Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect.  Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect...though most considered the ranger the victor even then.  Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married.  His only son, the pride of his life, took the lessons of his father to heart? Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride.  Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well.~
++REPLACE ~valfin~ @9
+ 
+ COPY ~TS/toda/VALYGND2.2da~ ~override~
+-REPLACE ~val2fin~ ~Really, <CHARNAME>, it should be you writing this... For you know best what happened to your loyal friend Valygar after you rejected your place in pantheon as a Lady of Murder. Valygar traveled with <CHARNAME>, and one day their road led to a village in Zakhara. Much to Valygar’s surprise, he found that he had large family there, not a single member of which was Tainted with Corthala curse. Abyssina’s son and <CHARNAME> received a warm welcome and before they knew it the whole village turned into a carnival celebrating their marriage. Not to disappoint the gathering, Valygar and <CHARNAME> exchanged their vows in front of the village and any gods that might have been listening. They lived happily ever after and died in the same place.~
++REPLACE ~val2fin~ @10
+ 
+ COPY ~TS/toda/YOSHIMOD.2da~ ~override~
+-REPLACE ~yoshifin~ ~Kachiko and Yoshimo traveled throughout Faerun for years after leaving company of <CHARNAME>. The couple were loved everywhere they went for their indomitable spirit and readiness to help anyone in need. They lived out of their backpacks and a few bags of holding for many years. Rumor has it that Yoshimo and Kachiko were agents in the service of the Harpers. Others say that they served nobody. 
+-
+-The Hashimoto family first doubled then tripled and all of their children grew up during the endless family journey. The eldest child was called <CHARNAME> in memory of their old friend. Yoshimo and Kachiko never returned to Kozakura, the demise of their families weighed heavily on them. Eventually, they retired to Athkatla. Yoshimo now owns the "Adventurer’s Mart" and the Hashimoto’s small home in the Bridge district is full of grandchildren and all sorts of wanderers.~
++REPLACE ~yoshifin~ @11
+ 
+ //Adding NPCs to 2DA
+ 
+@@ -227,7 +220,7 @@
+ COPY ~TS/sto/BAG06TS.sto~ ~override/BAG06TS.sto~
+ 
+ COPY ~TS/sto/Hasuno.sto~ ~override/Hasuno.sto~
+-SAY NAME2 ~Hasuno~
++SAY NAME2 @12
+ 
+ //////////////////////////////
+ //Areas
+@@ -240,7 +233,7 @@
+ COPY ~TS/are/TT0010.ARE~           ~override/TT0010.ARE~
+         
+ COPY ~TS/are/TT0100.ARE~           ~override/TT0100.ARE~         
+-  SAY 0x3e10 ~Fighting Pit~ 
++  SAY 0x3e10 @13 
+ 
+ COPY ~TS/are/TT0101.ARE~           ~override/TT0101.ARE~
+ COPY ~TS/are/TT0102.ARE~           ~override/TT0102.ARE~
+@@ -250,9 +243,9 @@
+ COPY ~TS/are/TT0204.ARE~           ~override/TT0204.ARE~
+ 
+ COPY ~TS/are/TT0301.ARE~           ~override/TT0301.ARE~         
+-  SAY 0x354 ~This statue is a representation of the Goddess Waukeen.  It depicts a beautiful young woman with an outstretched palm.~
+-  SAY 0x418 ~This statue is a representation of the Goddess Waukeen.  It depicts a beautiful young woman with an outstretched palm.~
+-  SAY 0x4dc ~These shelves are crammed with books dealing with trade and commerce in Kara-Tur.~
++  SAY 0x354 @14
++  SAY 0x418 @14
++  SAY 0x4dc @15
+ 
+ COPY ~TS/are/TT0302.ARE~           ~override/TT0302.ARE~
+ COPY ~TS/are/TT0303.ARE~           ~override/TT0303.ARE~
+@@ -260,8 +253,8 @@
+ COPY ~TS/are/TT0305.ARE~           ~override/TT0305.ARE~
+ COPY ~TS/are/TT0306.ARE~           ~override/TT0306.ARE~
+ COPY ~TS/are/TT0307.ARE~           ~override/TT0307.ARE~
+-	SAY 0x684 ~This staircase is blocked.~
+-	SAY 0x5c0 ~This passage is magically sealed. You cannot enter the fighting arena without special permission.~
++	SAY 0x684 @16
++	SAY 0x5c0 @17
+ COPY ~TS/are/TT0308.ARE~           ~override/TT0308.ARE~
+   
+ //////////////////////////////////////////////
+@@ -294,18 +287,8 @@
+ /////////////////////////////////////////////
+ 
+ COPY ~TS/itm/AranRing.ITM~         ~override/AranRing.ITM~
+-  SAY NAME2 ~Ring of Niri Alud~ 
+-  SAY DESC ~This blue ring engraved with an ebony figurine of a black rook was the favourite ring of Niri Alud, a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment’s notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors and other numerous items like this ring that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud’s chess sets and items were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of his possession sinks into the desert sands, then traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   Summons a thief-like ally one time per day.
+-
+-Equipped abilities:
+-   Non-detection
+-   +15% Hide in Shadows
+-   +15% Lock Picking~ 
++  SAY NAME2 @18 
++  SAY DESC @19 
+ 
+ /*COPY ~TS/itm/AXECHAR.ITM~        ~override/AXECHAR.ITM~
+   SAY NAME2 ~Charged Battle Axe +3~
+@@ -337,144 +320,45 @@
+ COPY ~TS/itm/BASILG3.ITM~        ~override/BASILG3.ITM~
+ 
+ COPY ~TS/itm/Beladona.itm~       ~override/Beladona.itm~
+-   SAY NAME1 ~Suna’s Bloom~
+-   SAY NAME2 ~Suna’s Bloom~
+-   SAY UNIDENTIFIED_DESC ~A pretty purple flower.~
+-   SAY DESC ~A pretty purple flower.~
++   SAY NAME1 @20
++   SAY NAME2 @20
++   SAY UNIDENTIFIED_DESC @21
++   SAY DESC @21
+     
+ COPY ~TS/itm/BELTSTR.ITM~        ~override/BELTSTR.ITM~
+-	SAY NAME2 ~Girdle of Stromnos~
+-	SAY DESC ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry.  He named the broad belt after a hill giant who had almost killed him when he was looking for spell components.  Dendes died defending Presdon from rival mages near Ordulin.
+-
+-STATISTICS:
+-
+-Raises the user’s Strength to 19
+-Only Usable By:
+-  Fighters (Single, Dual-, and Multi-Class)
+-  Rangers (Singe, Dual-, and Multi-Class)
+-  Paladins~
++	SAY NAME2 @22
++	SAY DESC @23
+  
+ COPY ~TS/itm/BESS.ITM~           ~override/BESS.ITM~
+-	 SAY NAME2 ~The Love of Black Bess~
+-	 SAY DESC ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba.  Her name was Redani, and she was known both for her powers as an enchanter and a seductress.  The Love of Black Bess was always given to her favored consort at any particular time.  Unknown to her lovers, she would place a Ring of Readiness on the mace, saving the matching ring for a special time.  When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour.  The new lover would simply call upon the ring and the mace would fly to his hand.  
+-
+-Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover.  Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road.  Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+-
+-STATISTICS:
+-
+-Damage:  1D6 +4
+-THAC0:  +3
+-Damage type:  Crushing
+-Special:  10% of all hits cause the target to lose 4 points of Luck
+-Weight:  7
+-Speed Factor:  5
+-Proficiency Type:  Maces
+-Type:  1-handed
+-Not Usable By:
+- Druid
+- Mage
+- Thief~
++	 SAY NAME2 @24
++	 SAY DESC @25
+ 
+ COPY ~TS/itm/Bishop.itm~         ~override/Bishop.itm~
+-	SAY NAME1 ~Chess Piece~
+-	SAY NAME2 ~White Bishop~
+-	SAY UNIDENTIFIED_DESC ~Chess is one of the "four universal games" (draughts, dice, and talis cards being the others).  Many believe chess to be the most challenging and intriguing of the four games.  Chess pieces and boards are often made from a wide variety of materials.  Marble, wood, and ivory are the most common materials used for the construction of chess pieces.~
+-	SAY DESC ~This chess piece is a white bishop, crafted from soapstone.  It is one of the many lost pieces from the fabled Chess Sets of Niri Alud.  Niri Alud was a conjurer from Tethyr who loved playing chess.  He frequently traveled with chess sets on his numerous voyages.  He wanted the ability to summon allies at a moment’s notice without giving away his intention.  For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle.  Almost all of Niri Alud’s chess sets were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands.  The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles.  Treasure hunters search for the pieces still.
+-
+-STATISTICS:
+-
+-Summons a priest-like ally.~
++	SAY NAME1 @26
++	SAY NAME2 @27
++	SAY UNIDENTIFIED_DESC @28
++	SAY DESC @29
+  
+ COPY ~TS/itm/BLACKNIG.itm~       ~override/BLACKNIG.itm~
+-	SAY NAME2 ~Blade Of The Night~
+-	SAY DESC ~This was the weapon used by the most famous assassin in Kara Tur, but none knew her name apart from the emperor. She was the greatest thief the world had ever seen. She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade. It was made by the emperors best weapon smiths, and then tempered in the bloods of red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief.
+-
+-STATISTICS:
+-
+-Equipped Bonuses:
+-	+2 to Armor Class 
+-	+2 to Dexterity
+-
+-Equipped Penalties:
+-	-1 to Constitution
+-	
+-Special Abilities:
+-	+25% to all thieving skills
+-	Negative Plane Protection
+-	Immunity to Poison
+-	Immunity to Backstab
+-
+-Combat Abilities:
+-   10% chance of Level Drain from the target on each hit
+-	(target may save vs. spells to avoid level loss)
+-
+-THAC0 +5 bonus
+-Damage:  1D10 +5 
+-Damage type:  slashing
+-Weight:  6
+-Speed Factor: 4
+-Proficiency Type: Katana
+-Type:  1-handed
+-Requires: 6 Strength
+-Only usable by:
+- Any Thief Kit (single, dual or  multi)~
++	SAY NAME2 @30
++	SAY DESC @31
+ 	
+ COPY ~TS/itm/BLCKBOW.ITM~        ~override/BLCKBOW.ITM~
+-	SAY NAME2 ~The Black Bow~
+-	SAY DESC ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun.  A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart.  Through all of his years in the military, he remained true to his love and saved his earnings.  He and his new wife moved west in the hopes that they would find frontier land to settle.  In the lands north of Baldur’s Gate and east of the Trollbark Forest, Jonan built his home and farm.  Within five years, there were raiders in the area, and farms were being destroyed all around Jonan’s.  Eventually, the raiders targeted Jonan’s home, killing his wife and child and leaving him for dead.  His farm was burned to the ground.  Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood.  He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with.  Sages debate how the bow became enchanted, but most believe that, after Jonan’s death, it was blessed by a god.  Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal.  Theories tend to revolve around whether the speaker believes Jonan’s actions were just, vengeful, or murderous.
+-
+-STATISTICS:
+-
+-Damage:  +3
+-THACO:  +4
+-Weight:  3
+-Speed Factor:  4
+-Proficiency Type:  Bow
+-Type:  2-handed
+-Minimum Strength of 12 required
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Thief~
++	SAY NAME2 @32
++	SAY DESC @33
+ 
+ COPY ~TS/itm/BOOK08.ITM~         ~override/BOOK08.ITM~
+  
+ COPY ~TS/itm/BOOTFOR.ITM~        ~override/BOOTFOR.ITM~
+-	SAY NAME2 ~Boots of the Forgotten Ones~
+-	SAY DESC ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw tribe.  The power hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors.  Algrash was killed when he provoked a fight with a gang of ogres.  His boots were left at the scene of the battle.
+-
+-STATISTICS:
+-
+-Allows the wearer to cast 2 extra first and second level spells and 1 extra third level spell.
+-Increases twice the wearer’s movement rate.
+-Only usable by:
+- Cleric (single, dual, & multi-class)
+- Druid (single, dual, & multi-class)~
++	SAY NAME2 @34
++	SAY DESC @35
+   
+ COPY ~TS/itm/BoRing.ITM~         ~override/BoRing.ITM~
+-	SAY NAME2 ~Edventar’s Gift~
++	SAY NAME2 @36
+   
+ COPY ~TS/itm/BOWHAMM.ITM~        ~override/BOWHAMM.ITM~
+-	SAY NAME2 ~Composite Long Bow +4: Defender~
+-	SAY DESC ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
+-
+-STATISTICS:
+-
+-Damage:  +4 (missile)
+-THAC0: +4
+-Armor Class Bonus: 2
+-Special: 4 attacks per round
+-Speed Factor: 7
+-Proficiency Type: Bow
+-Type:  2-handed
+-Minimum Dexterity of 17 required
+-Minimum Strength of 17 required
+-Not Usable By:
+- Druid
+- Cleric
+- Mage
+- Thief~
++	SAY NAME2 @37
++	SAY DESC @38
+   
+ /*COPY ~TS/itm/CYNICIS.ITM~        ~override/CYNICIS.ITM~
+ 	SAY NAME2 ~Cynicism~
+@@ -507,154 +391,29 @@
+ COPY ~TS/itm/DSHLD.ITM~         ~override/DSHLD.ITM~
+  
+ COPY ~TS/itm/EDVEN.ITM~         ~override/EDVEN.ITM~
+-	SAY NAME2 ~Edventar’s Gift~
++	SAY NAME2 @36
+ 	                
+ COPY ~TS/itm/ELEMHYD1.ITM~       ~override/ELEMHYD1.ITM~
+               
+ COPY ~TS/itm/ELEMKATA.ITM~       ~override/ELEMKATA.ITM~
+-	SAY NAME2 ~Katana +3: "Air Element"~
+-	SAY DESC ~Katana +3 "Air Element"
+-
+-One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   +1 Dexterity
+-   +1 Intelligence
+-   -2 Strength
+-   Immunity to acid and poison.
+-   Immunity to any electricity and lighting effects, including wing buffet.
+-
+-Combat Abilities:
+-   If an air elemental is hit it must save vs. spells or be utterly destroyed
+-
+-THAC0: +3 bonus
+-Damage: 1d10+3, 1d10 electric damage
+-Damage Type: slashing
+-Weight: 2
+-Speed: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires: 16 Dexterity
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-   Evil Characters~
++	SAY NAME2 @39
++	SAY DESC @40
+                  
+ COPY ~TS/itm/ELEMKATE.ITM~       ~override/ELEMKATE.ITM~
+-	SAY NAME2 ~Katana +3: "Earth Element"~
+-	SAY DESC ~Katana +3 "Earth Element"
+-
+-One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   +1 Strength
+-   +1 Constitution
+-   -2 Dexterity
+-   Immunity to pertrification, polymorph, panic and disease.
+-   Immunity to crushing weapons and backstab.
+-
+-Combat Abilities:
+-   5% chance of Pertrification whenever sword strikes an opponent.
+-   If an earth elemental is hit it must save vs. spells or be utterly destroyed.
+-
+-THAC0: +3 bonus
+-Damage: 1d10+3, 1d10 crushing damage
+-Damage Type: slashing
+-Weight: 2
+-Speed: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires: 16 Constitution
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-   Evil Characters~
++	SAY NAME2 @41
++	SAY DESC @42
+                  
+ COPY ~TS/itm/ELEMKATF.ITM~       ~override/ELEMKATF.ITM~
+-	SAY NAME2 ~Katana +3: "Fire Element"~
+-	SAY DESC ~Katana +3 "Fire Element"
+-
+-One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   +1 Strength
+-   +1 Dexterity
+-   -2 Wisdom
+-   Immunity to any mind controlling spells (charm, control, confusion, sleep).
+-   Immunity to any mobility affecting spells (hold, haste, slow, stun).
+-   100% Fire Resistance (normal and magical).
+-
+-Combat Abilities:
+-   If a fire elemental is hit it must save vs. spells or be utterly destroyed.
+-
+-THAC0: +3 bonus
+-Damage: 1d10+3, 1d10 fire damage
+-Damage Type: slashing
+-Weight: 2
+-Speed: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires:
+-   17 Strength
+-   17 Dexterity
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-   Evil Characters
+-   Chaotic and Lawful Alignments~
++	SAY NAME2 @43
++	SAY DESC @44
+                  
+ COPY ~TS/itm/ELEMKATW.ITM~       ~override/ELEMKATW.ITM~
+-	SAY NAME2 ~Katana +3: "Water Element"~
+-	SAY DESC ~Katana +3 "Water Element"
+-
+-One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one’s luck for the worse. Only those of pure heart may use the elemental katanas.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   +1 Wisdom
+-   +1 Charisma
+-   -2 Constitution
+-   Immunity to blindness, silence and time stop.
+-   Negative Plane Protection.
+-   Immunity to wild magic.
+-   100% Cold Resistance (normal and magical).
+-
+-Combat Abilities:
+-   If any vampiric creature is hit it must save vs. spells or be utterly destroyed.
+-
+-THAC0: +3 bonus
+-Damage: 1d10+3, 1d10 cold damage
+-Damage Type: slashing
+-Weight: 2
+-Speed: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires:
+-   16 Wisdom
+-   16 Charisma
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-   Evil Characters~
++	SAY NAME2 @45
++	SAY DESC @46
+                  
+ COPY ~TS/itm/ExitWard.itm~       ~override/ExitWard.itm~
+-	SAY NAME2 ~Nakanishi Wardstone~
+-	SAY DESC ~Upon closer examination this wardstone appears to be a gem of mediocre value, with several symbols carved upon the outer edge.~
++	SAY NAME2 @47
++	SAY DESC @48
+ 	              
+ COPY ~TS/itm/FanMace.itm~        ~override/FanMace.itm~               
+ COPY ~TS/itm/FanPotn1.itm~       ~override/FanPotn1.itm~              
+@@ -668,120 +427,59 @@
+ COPY ~TS/itm/FanSwor2.itm~       ~override/FanSwor2.itm~
+               
+ COPY ~TS/itm/GodBless.ITM~       ~override/GodBless.ITM~
+-	SAY NAME2 ~Ring of Holiness II~
+-	SAY DESC ~Ring of Holiness II:  ’God Blessing’
+-
+-Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
+-
+-STATISTICS:
+-
+-Spells:  Grants an extra spell of each level from 5th to 8th
+-Only usable by:
+-Cleric 
+-Druid~
++	SAY NAME2 @49
++	SAY DESC @50
+ 
+ COPY ~TS/itm/HELMSUN.ITM~        ~override/HELMSUN.ITM~
+-	SAY NAME2 ~Selune’s Laurel of Favor~
+-	SAY DESC ~This wreath of laurel leaves and roses was another gift from the church of Selune to Sime’s mother. The representatives of the silver-haired goddess were well received, and the high priestess of Hanali Celanil wore the laurel whenever humans were visiting her Temple.
+-
+-STATISTICS:
+-
+-Armor Class Bonus: 2
+-Special: +2 to Charisma
+-Weight:  1
+-Usable Only By:
+-  Sime~
++	SAY NAME2 @51
++	SAY DESC @52
+                  
+ COPY ~TS/itm/KaSwor01.itm~       ~override/KaSwor01.itm~
+-	SAY NAME2 ~Kachiko’s Wakizashi +3~
+-	SAY DESC ~Kachiko’s Wakizashi +3
+-
+-This special sword was granted to Kachiko by her father upon her ascension to adulthood.
+-
+-STATISTICS
+-
+-Combat Ability:
+-   Drains 2 points of target's wisdom on each hit
+-      (Target may save vs. death to avoid wisdom loss)
+-
+-Damage:  1D8 +3
+-THAC0: +3 bonus
+-Damage type:  piercing
+-Weight:  2
+-Speed Factor: 0
+-Proficiency Type: Scimitar/Wakizashi/Ninja-To
+-Type:  1-handed
+-Requires: 5 Strength
+-Usable By:
+-   Kachiko~
++	SAY NAME2 @53
++	SAY DESC @54
+               
+ COPY ~TS/itm/KaSwor02.itm~       ~override/KaSwor02.itm~
+-	SAY NAME2 ~Bamboo Spirit Wakizashi +4~
+-	SAY DESC ~Bamboo Spirit Wakizashi +4
+-
+-This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
+-
+-STATISTICS:
+-
+-Equipped Abilities:
+-   Regeneration (1 hit point per second)
+-   Complete Mind Shield
+-      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+-        
+-Damage:  2D6 + 4
+-THACO:  +4 bonus
+-Damage type:  Slashing
+-Weight:  4
+-Proficiency type:  Wakizashi
+-Speed Factor:  1
+-Type:  1-handed
+-Requires: 8 Strength
+-Usable by:
+-   Kachiko~
++	SAY NAME2 @55
++	SAY DESC @56
+                
+ COPY ~TS/itm/KEDL.ITM~           ~override/KEDL.ITM~
+-	SAY NAME2 ~Silver Bracers of Kedl~
+-	SAY DESC ~This mage, who made his home in Phlan, was known as "Kedl of the Three Rings," for it was said that he perfected a technique whereby he could wear three magical rings simultaneously.  An enchanter of items, he was well known for his discriminating taste in clothing, jewelry, and other accessories.  His polished silver bracers were a constant part of his wardrobe.  Kedl eventually sold his bracers when he needed the money for some powerful rings.  Unfortunately, Kedl died in an orc attack on Phlan several years later.
+-
+-STATISTICS:
+-
+-Armor Class: 2
+-Weight: 2~
++	SAY NAME2 @57
++	SAY DESC @58
+ 
+ COPY ~TS/itm/KEYBRON.ITM~        ~override/KEYBRON.ITM~
+-	SAY NAME2 ~Bronze Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in bronze.~
+-	SAY DESC ~An ornate key crafted in bronze.~
++	SAY NAME2 @59
++	SAY UNIDENTIFIED_DESC @60
++	SAY DESC @60
+ 	               
+ COPY ~TS/itm/KEYCOPP.ITM~        ~override/KEYCOPP.ITM~
+-	SAY NAME2 ~Copper Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in copper.~
+-	SAY DESC ~An ornate key crafted in copper.~
++	SAY NAME2 @61
++	SAY UNIDENTIFIED_DESC @62
++	SAY DESC @62
+ 	               
+ COPY ~TS/itm/KEYDUNG.ITM~        ~override/KEYDUNG.ITM~
+-	SAY NAME2 ~Iron Key~
+-	SAY UNIDENTIFIED_DESC ~A complex looking key made from cold iron.~
+-	SAY DESC ~A complex looking key made from cold iron.~
++	SAY NAME2 @63
++	SAY UNIDENTIFIED_DESC @64
++	SAY DESC @64
+ 	               
+ COPY ~TS/itm/KEYELEC.ITM~        ~override/KEYELEC.ITM~
+-	SAY NAME2 ~Electrum Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in electrum.~
+-	SAY DESC ~An ornate key crafted in electrum.~
++	SAY NAME2 @65
++	SAY UNIDENTIFIED_DESC @66
++	SAY DESC @66
+ 	               
+ COPY ~TS/itm/KEYGOLD.ITM~        ~override/KEYGOLD.ITM~
+-	SAY NAME2 ~Gold Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in gold.~
+-	SAY DESC ~An ornate key crafted in gold.~
++	SAY NAME2 @67
++	SAY UNIDENTIFIED_DESC @68
++	SAY DESC @68
+ 	               
+ COPY ~TS/itm/KEYPLAT.ITM~        ~override/KEYPLAT.ITM~
+-	SAY NAME2 ~Platinum Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in platinum.~
+-	SAY DESC ~An ornate key crafted in platinum.~
++	SAY NAME2 @69
++	SAY UNIDENTIFIED_DESC @70
++	SAY DESC @70
+ 	               
+ COPY ~TS/itm/KEYSILV.ITM~        ~override/KEYSILV.ITM~
+-	SAY NAME2 ~Silver Key~
+-	SAY UNIDENTIFIED_DESC ~An ornate key crafted in silver.~
+-	SAY DESC ~An ornate key crafted in silver.~
++	SAY NAME2 @71
++	SAY UNIDENTIFIED_DESC @72
++	SAY DESC @72
+ 	               
+ /*COPY ~TS/itm/KISSGF.ITM~         ~override/KISSGF.ITM~
+ 	SAY NAME2 ~Kiss of the Gloomfrost~
+@@ -809,14 +507,10 @@
+  Mage~*/
+                 
+ COPY ~TS/itm/Knight.itm~         ~override/Knight.itm~
+-	SAY NAME1 ~Chess Piece~
+-	SAY NAME2 ~Black Knight~
+-	SAY UNIDENTIFIED_DESC ~Chess is one of the "four universal games" (draughts, dice, and talis cards being the others).  Many believe chess to be the most challenging and intriguing of the four games.  Chess pieces and boards are often made from a wide variety of materials.  Marble, wood, and ivory are the most common materials used for the construction of chess pieces.~
+-	SAY DESC ~This chess piece is a black knight, crafted from ebony.  It is one of the many lost pieces from the fabled Chess Sets of Niri Alud.  Niri Alud was a conjurer from Tethyr who loved playing chess.  He frequently traveled with chess sets on his numerous voyages.  He wanted the ability to summon allies at a moment’s notice without giving away his intention.  For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle.  Almost all of Niri Alud’s chess sets were lost when he was attacked by desert raiders in Calimshan.  The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands.  The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles.  Treasure hunters search for the pieces still.
+-
+-STATISTICS:
+-
+-Summons a warrior-like ally to attack enemies. The Black Knight will automatically attack the nearest enemy target.~
++	SAY NAME1 @26
++	SAY NAME2 @73
++	SAY UNIDENTIFIED_DESC @28
++	SAY DESC @74
+                 
+ //COPY ~TS/itm/MAILLIF.ITM~        ~override/MAILLIF.ITM~
+ //	SAY NAME2 ~Mail of Life~
+@@ -837,10 +531,10 @@
+ COPY ~TS/itm/MASAKIIM.ITM~       ~override/MASAKIIM.ITM~
+                              
+ COPY ~TS/itm/MISCBSIM.ITM~       ~override/MISCBSIM.ITM~
+-	SAY NAME1 ~Sime’s Body~
+-	SAY NAME2 ~Sime’s Body~
+-	SAY UNIDENTIFIED_DESC ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.~
+-	SAY DESC ~Sime was captured by Bodhi and infected with vampirism, forcing you to slay her. There may be some way to revive her, though you don’t know what it would be.~
++	SAY NAME1 @75
++	SAY NAME2 @75
++	SAY UNIDENTIFIED_DESC @76
++	SAY DESC @76
+               
+ /*COPY ~TS/itm/MYSTERY.ITM~        ~override/MYSTERY.ITM~
+ 	SAY NAME2 ~Mystery of the Dead~
+@@ -1007,30 +701,13 @@
+ BUT_ONLY_IF_IT_CHANGES*/
+ 
+ COPY ~TS/itm/npchan.ITM~ 					~override/npchan.ITM~
+-	STRING_SET 51942 ~This armor, long in the Corthala bloodline, protects the user against many forms of attacks. The armor is finished with elven metal straps enchanted so it grants the same protections and armor class to Valygar as the full plate armor. It also adds a bonus to resisting fire and cold damage. The armor also makes Valygar immune to dragon's breath and to energy and level drain. As it is specially fitted for Valygar, few other than he may wear it.
+-
+-STATISTICS:
+-
+-Equipped Abilities:
+-   Negative Plane Protection
+-   Immunity to non-magical weapons
+-   Immunity to magical +1 weapons
+-   Immunity to Wing Buffet
+-   
+-Armor Class: -2
+-Saving Throws: +2 Bonus
+-Fire/Cold Resistance:  +30% Bonus
+-Weight: 9
+-Usable By:
+-   Valygar~
++	STRING_SET 51942 @77
+ 	          
+ COPY ~TS/itm/npplat.ITM~         	~override/npplat.ITM~
+                 
+ COPY ~TS/itm/NPRing02.ITM~       ~override/NPRing02.ITM~
+-	SAY NAME2 ~Hojo War Ring of Nakanishi~
+-	SAY DESC ~Hojo War Ring of Nakanishi
+-
+-Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, the ring may not be removed from Kachiko, nor its powers used by anyone else. The ring grants a +3 bonus to armour class and constitution.~
++	SAY NAME2 @78
++	SAY DESC @79
+               
+ COPY ~TS/itm/NPSHLD.ITM~         ~override/NPSHLD.ITM~
+                 
+@@ -1065,28 +742,7 @@
+ BUT_ONLY_IF_IT_CHANGES*/
+ 
+ COPY ~TS/itm/NPSW04.ITM~         ~override/NPSW04.ITM~
+-STRING_SET 51945 ~Corthala Family Blade
+-This fine katana radiates magical energy when wielded by Valygar.  The blade was designed to respond only to those with the blood of the family Corthala flowing through their veins.  This +3 blade causes additional bleeding damage when it strikes an opponent.
+-
+-STATISTICS
+-
+-Equipped Abilities:
+-   Complete Immobility Protection
+-      (Immunity to Slow, Stun, Paralyze, Pertrification and Time Stop)
+-
+-Special Abilities:
+-   10% chance to instantly slain a target
+-   3 points of bleeding damage on a target every round for 3 rounds
+-
+-THAC0: +4 bonus
+-Damage:  1D10 + 4
+-Damage type:  slashing
+-Weight:  4
+-Speed Factor: 2
+-Proficiency Type: Katana
+-Type:  1-handed
+-Usable By:
+-   Valygar~
++STRING_SET 51945 @80
+ 
+ COPY_EXISTING ~RING08.ITM~ ~override~
+  READ_LONG  0x6a  "eff_offset"
+@@ -1163,10 +819,10 @@
+   Mage (Single, Dual-, and Multi-)~*/
+                   
+ COPY ~TS/itm/Otakoam.itm~        ~override/Otakoam.itm~
+-	SAY NAME1 ~Crescent Moon Medallion~
+-	SAY NAME2 ~Crescent Moon Medallion~
+-	SAY UNIDENTIFIED_DESC ~A miniature crescent moon on a chain.~
+-	SAY DESC ~A miniature crescent moon on a chain.~
++	SAY NAME1 @81
++	SAY NAME2 @81
++	SAY UNIDENTIFIED_DESC @82
++	SAY DESC @82
+ 	               
+ /*COPY ~TS/itm/PEST.ITM~           ~override/PEST.ITM~
+ 	SAY NAME2 ~Pestilent Dawn~
+@@ -1189,35 +845,16 @@
+  Thief~*/
+                  
+ COPY ~TS/itm/PitRope.itm~        ~override/PitRope.itm~
+-	SAY NAME2 ~Magical Rope~
+-	SAY UNIDENTIFIED_DESC ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.~
+-	SAY DESC ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.~
++	SAY NAME2 @83
++	SAY UNIDENTIFIED_DESC @84
++	SAY DESC @84
+                 
+ COPY ~TS/itm/PurStaff.itm~       ~override/PurStaff.itm~
+-	SAY DESC ~This weapon appears to be a huge staff with a ferrule causes the staff to assume the attributes of a mace. However, only the strongest of the people can wield it in one hand.
+-
+-STATISTICS:
+-
+-THACO:  +2 bonus
+-Damage:  2D4 + 2
+-Weight: 4
+-Speed Factor: 2
+-Damage type:  Bludgeon
+-Proficiency Type: Quarterstaff
+-Type:  1-handed
+-Requires: 19 Strength
+-Not Usable By:
+- Monks~
++	SAY DESC @85
+                 
+ COPY ~TS/itm/RINGED.ITM~         ~override/RINGED.ITM~
+-	SAY NAME2 ~Edion’s Ring of Wizardry~
+-	SAY DESC ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring.  He crafted the ring himself for his private use. In his later years, he became so accustomed to wearing it that he almost never removed it. He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+-
+-STATISTICS:
+-
+-Doubles the character’s available number of 5th level mage spells.
+-Only Usable By:
+-  Mage (Single, Dual-, and Multi-)~
++	SAY NAME2 @86
++	SAY DESC @87
+   	                
+ /*COPY ~TS/itm/RINGELF.ITM~        ~override/RINGELF.ITM~
+ 	SAY NAME1 ~Bone Ring~
+@@ -1233,46 +870,18 @@
+ 	             
+               
+ COPY ~TS/itm/ROBEARM.ITM~        ~override/ROBEARM.ITM~
+-	SAY NAME2 ~Robe of Armory~
+-	SAY DESC ~There are a small number of these valuable gold and crimson robes floating around the Realms, and all of them are the creation of an abjurer named Delgam of the Many Hands - so called for his extensive use of the expression "on the other hand..."  Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects.  Instead, he focused on what abjurers tend to focus on: defense.  His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them.  Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards.  His robes are his most well known legacy.
+-
+-STATISTICS:
+-
+-Armor Class: 1
+-Special: +10% Resistance to Slashing, Piercing, Crushing, and Missile attacks
+-Weight:  5
+-Only Usable By:
+- Mage (Single, Dual-, and Multi-)~
++	SAY NAME2 @88
++	SAY DESC @89
+  	               
+ COPY ~TS/itm/ROGUE.ITM~          ~override/ROGUE.ITM~
+-	SAY NAME1 ~Hat~
+-	SAY NAME2 ~Rogue’s Cowl~
+-	SAY UNIDENTIFIED_DESC ~Magical hats may actually be almost any type of headgear.  They shrink or expand to fit any size head.  Contemporary fashion and profession often dictate the shape and style of magical hats.~
+-	SAY DESC ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood.  It was crafted by the gnomish thief and illusionist Brein Chestnut.  Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down.  He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+-
+-STATISTICS:
+-
+-Armor Class Bonus:  +2
+-Special:  +10% to Stealth.  
+-Wearer can cast Blindness and Color Spray 1/Day.
+-Weight:  2
+-Only Usable By:
+- Thief (Single, Dual-, and Multi-Class)
+- Ranger (Single, Dual-, and Multi-Class)
+- Bard~
++	SAY NAME1 @90
++	SAY NAME2 @91
++	SAY UNIDENTIFIED_DESC @92
++	SAY DESC @93
+                  
+ COPY ~TS/itm/SCARAB.ITM~         ~override/SCARAB.ITM~
+-	SAY NAME2 ~Scarab of Goodwill~
+-	SAY DESC ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand. This particular scarab was crafted by a priest of Nepthys named Ani Haloua. She used it in negotiations with local businesses and the general populace.  Similar scarabs are believed to be circulating in the Realms. Priests of Waukeen are particularly fond of them.
+-
+-STATISTICS:
+-
+-+2 Dexterity
+-+2 Charisma
+-Can cast Friends and Charm 1/Day.
+-
+-Not Usable By:
+-  Evil Characters~
++	SAY NAME2 @94
++	SAY DESC @95
+   	                
+ /*COPY ~TS/itm/SCEPTRE.ITM~        ~override/SCEPTRE.ITM~
+ 	SAY NAME2 ~Sceptre of Tyranny~
+@@ -1298,143 +907,37 @@
+ COPY ~TS/itm/SeaChart.itm~       ~override/SeaChart.itm~
+                 
+ COPY ~TS/itm/SiAmul.itm~         ~override/SiAmul.itm~
+-	SAY NAME2 ~Amulet of Blessing~
+-	SAY DESC ~Amulet of Blessing
+-
+-This amulet bears the repeating angular geometric patterns that the long-dead craftsmen of Myth Lharast were known for. Considered plain by modern elven standards, the amulet was a gift to Kiran-Hai, Circle Singer of Angharradh and Ward Mistress of the Arboreal Tombs in Myth Lahl. The name of its creator has been lost. It is believed to have been blessed later by priestesses of Selune, goddess of the moon. Sime inherited this amulet from her mother, and never takes it off.
+-
+-STATISTICS
+-
+- Magic Resistance: +15%
+- Decrease Spell Casting Speed by 1
+- Immunity to Level Drain
+- +2 to Dexterity
+- +2 to Charisma
+-
+-Usable Only By:
+- Sime~
++	SAY NAME2 @96
++	SAY DESC @97
+                  
+ COPY ~TS/itm/SiCloak.ITM~        ~override/SiCloak.ITM~
+-	SAY NAME2 ~Aran’s Cloak of Protection~
+-	SAY DESC ~Aran’s Cloak of Protection
+-
+-The origins of this cloak have been lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul of an unusually large group of winter wolves on a solo expedition into the Spine of the World mountains having been forced to don a heavier cloak to keep out of the cold...
+-
+-STATISTICS
+-
+-The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
+-
+-Armor Class:  +3 bonus
+-Weight:  3~
++	SAY NAME2 @98
++	SAY DESC @99
+                 
+ COPY ~TS/itm/SiLeat.itm~         ~override/SiLeat.itm~
+-	SAY NAME2 ~Aran’s Love +6~
+-	SAY DESC ~Aran’s Love +6
+-
+-It was a rumor that once upon a time when Aran Linvail was a young adventurer, he fell in love with an elven girl. She was the most beautiful creature he had ever seen in his life. In order to protect his lover in their travels, he asked one of the famous Calimshite merchants to bring him the most invulnerable leather armour he would find. In two months the merchant brought this excellent set of studded leather armour to Aran, but it was too later. His lover was shot dead by a goblin archer in a forest of Tethyr. Aran has kept this armour for a long time in remembrance of his short and passionate love, and eventually bestowed this armour to his favourite guild master.
+-
+-STATISTICS:
+-
+-Bonuses:
+-   +15% Resistance to Fire, Cold, and Acid
+-   +50% Resistance to Missile Attacks
+-   +15% Hide in Shadows
+-   Immunity to Confusion
+-
+-Armor Class: 1
+-Weight: 35
+-Requires: 6 Strength
+-Usable By:
+- Sime~
++	SAY NAME2 @100
++	SAY DESC @101
+  	                
+ COPY ~TS/itm/SiMace1.ITM~        ~override/SiMace1.ITM~
+-	SAY NAME2 ~Selune’s Promise~
+-	SAY DESC ~A weapon once owned by a grief-stricken high priestess of the Moonmaiden, Selune’s Promise has a short and sad history. Fassa the Melancholy (as she is now known) was the head of a band of Selunite adventurers dedicated to destroying undead creatures wherever they found them. The band was initially quite successful, rarely suffering any casualties. Tymora’s luck could not stay with them forever, though.
+-
+-In 1156, Fassa and her band entered the Sepulcher of the Dim. The band knew the Sepulcher was rumored to contain a "leak" to the Negative Material Plane, but they had no idea just how many undead creations were inside. Mixed in with the seemingly harmless poltergeists and phantoms were powerful spectres and wraiths. Over a short and chillingly quiet period of several minutes, almost all of Fassa’s allies had their vital energy drained away. Fassa and her remaining companions fled and tried to form a plan of attack. When they returned on the following night, all of Fassa’s former companions had been turned into slave spectres under the control of the master. She and her few remaining comrades destroyed the master spectre and eventually destroyed the souls of her tormented brethren.  In the end, Fassa was the only one left alive.
+-
+-Fassa returned to her temple in misery and prayed to Selune that she never forget the agony of that night. Selune granted her request by causing a ghostly white and blue mace to appear on her bed when the next full moon rose. Carved into the shaft of the club were two words: Never Forget.
+-
+-Fassa became almost fanatical in her undead hunting in later years. At the age of thirty-three, tired and bitter, Fassa fell into decline. On the night of a full moon, she renounced her faith to Selune in front of her superiors and fellow clergy. Hours later, she threw herself into the Moonsea from a high cliff. The mace was found in her room and reluctantly kept in the church. Many years later, the new high priest of the temple decided to bestow this unique weapon to a new promising priestess. This mace was the favourite weapon of Sime’s mother.
+-
+-STATISTICS:
+-
+-Damage:  1D6 + 4
+-THAC0:  +3
+-Damage type:  Crushing
+-Special:  Double damage against undead and outer planar creatures.
+-Undead:
+-1-4 Hit Dice: Automatically Destroyed
+-5 Hit Dice: 95% chance of being Destroyed
+-6 Hit Dice: 80%
+-7 Hit Dice: 65%
+-8-9 Hit Dice: 50%
+-10 Hit Dice: 35%
+-11+ Hit Dice: 20%
+-Outer Planar Creatures: 5% chance of being Destroyed
+-Weight:  5
+-Speed Factor:  4
+-Proficiency Type:  Mace
+-Type:  1-handed
+-Not Usable By:
+- Evil Characters
+- Druid
+- Mage
+- Thief~             
++	SAY NAME2 @102
++	SAY DESC @103             
+ 
+ COPY ~TS/itm/SiMace2.ITM~        ~override/SiMace2.ITM~
+-	SAY NAME2 ~Three White Doves~
+-	SAY DESC ~An extremely unusual mace, Three White Doves was created by an Ilmaterian priest named Alledec in 850 DR. Alledec had been a fighting priest for the order for twenty years, and he decided it was time to leave a legacy for the church to use after he had passed away. This ivory-headed mace was the result. The shaft of the weapon is made from black-enameled steel, with the handle being crafted of carved ivory. Gold bands lock the head and the handle into place. The head itself is the most unusual part of the mace. It is carved from pure ivory and it resembles three white doves facing the center of the weapon. The flared wings of the doves form the flanges.
+-
+-Alledec died in his sleep three years after completing the mace. It was given to a traveling fighter in service of the church of Ilmater. The fighter later passed the weapon on to a priest of Ilmater named Recken the Bold. Recken lost the weapon when he was fighting a powerful vampire near Trollbark Forest. Recken was eventually victorious over the vampire, but he never recovered the mace.
+-
+-STATISTICS:
+-
+-THAC0: +2, +3 vs. Undead
+-Damage:  1D6 + 2, +3 vs. Undead
+-Damage type:  crushing
+-Weight: 3
+-Speed Factor: 4
+-Proficiency Type: Mace
+-Type:  1-handed
+-Requires: 5 Strength
+-Not Usable By:
+- Evil Characters
+- Druid
+- Mage
+- Thief~
++	SAY NAME2 @104
++	SAY DESC @105
+                 
+ COPY ~TS/itm/SiSling.ITM~        ~override/SiSling.ITM~
+-	SAY NAME2 ~Giant Killer~
+-	SAY DESC ~A halfling warrior named Kim Marchwatch used this potent weapon against the giants that frequently plagued his homeland, hitting them in the head with so many rocks that they fell over in pain or ran away.  When Kim was replaced as shire-reeve of his homeland, he became a reluctant adventurer.  He is believed to have been swallowed up by the dreaded Fen Mists of Acallo in 760 DR.
+-
+-STATISTICS:
+-
+-Damage:  +1, +4 vs. Giants
+-THAC0:  +2, +5 vs. Giants
+-Weight:  0
+-Speed Factor:  5
+-Proficiency Type:  Missile Weapons
+-Type:  1-handed
+-Not Usable By:~
++	SAY NAME2 @106
++	SAY DESC @107
+                 
+ COPY ~TS/itm/SpRing.itm~         ~override/SpRing.itm~
+                 
+ COPY ~TS/itm/TimeWard.itm~       ~override/TimeWard.itm~
+-	SAY NAME2 ~Temporal Wardstone~
++	SAY NAME2 @108
+ 	
+ COPY ~TS/itm/TRRIN02.ITM~        ~override/TRRIN02.ITM~
+-	SAY NAME2 ~Ring of Wizardry II~
+-	SAY DESC ~Ring of Wizardry II:  ’Reaching Ring’
+-
+-This is the enchanted version of the famous Ring of Wizardry.
+-
+-STATISTICS:
+-
+-Spells:  Gives two extra fifth, two extra sixth, one extra seventh and one extra eighth level spells.
+-
+-Only usable by:
+- Mage~
++	SAY NAME2 @109
++	SAY DESC @110
+                
+ //COPY ~TS/itm/ULRING.ITM~         ~override/ULRING.ITM~
+ //	SAY NAME2 ~Ulcaster Academy Ring~
+@@ -1459,108 +962,38 @@
+ COPY ~TS/itm/UnKeNin.itm~        ~override/UnKeNin.itm~
+ 	               
+ COPY ~TS/itm/USPOT1A.ITM~        ~override/USPOT1A.ITM~
+-	SAY NAME2 ~Potion of Action Transference~
+-	SAY DESC ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.~
++	SAY NAME2 @111
++	SAY DESC @112
+ 	               
+ COPY ~TS/itm/USPOT3C.ITM~        ~override/USPOT3C.ITM~
+-	SAY NAME2 ~Potion of Strength Transference~
+-	SAY DESC ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.~
++	SAY NAME2 @113
++	SAY DESC @112
+ 	               
+ COPY ~TS/itm/USPOT4B.ITM~        ~override/USPOT4B.ITM~
+-	SAY NAME2 ~Potion of Life Transference~
+-	SAY DESC ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.~
++	SAY NAME2 @114
++	SAY DESC @112
+                
+ COPY ~TS/itm/USPOT4C.ITM~        ~override/USPOT4C.ITM~
+-	SAY NAME2 ~Potion of Aura Enhancement~
+-	SAY DESC ~When wholly consumed, this oddly murky potion would appear to increase your intelligence and wisdom for one point, and grant you 10% magic resistance. The effect is instantaneous and the potion is destroyed in the process.~
++	SAY NAME2 @115
++	SAY DESC @116
+                
+ COPY ~TS/itm/USPOT5B.ITM~        ~override/USPOT5B.ITM~
+-	SAY NAME2 ~Potion of Holy Transference~
+-	SAY DESC ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.~
++	SAY NAME2 @117
++	SAY DESC @112
+                
+ COPY ~TS/itm/ValNeck1.ITM~       ~override/ValNeck1.ITM~
+-	SAY NAME2 ~Abyssina’s Necklace~
+-  SAY DESC ~This necklace consists of white, pink and very rare blue pearls. Mysterious shimmer enhances its exquisite beauty and you can guess that it is imbibed with a strong enchantment. The necklace once belonged to Abyssina Corthala, a mage of no small repute.
+-
+-STATISTICS
+-
+-Equipped Abilities:
+-   Intelligence: +1 bonus
+-   Wisdom: +1 bonus
+-   Magic Resistance:  +40% bonus
+-   Immunity to Poison
+-   Complete Mind Shield
+-      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+-   Protection from Outerplane Creatures~
++	SAY NAME2 @118
++  SAY DESC @119
+ 
+ COPY ~TS/itm/ValNeck2.ITM~       ~override/ValNeck2.ITM~
+-	SAY NAME2 ~Abyssina’s Necklace~
+-  SAY DESC ~This necklace consists of white, pink and very rare blue pearls. Mysterious shimmer enhances its exquisite beauty and you can guess that it is imbibed with a strong enchantment. The necklace once belonged to Abyssina Corthala, a mage of no small repute.
+-
+-STATISTICS
+-
+-Equipped Abilities:
+-   Intelligence: +1 bonus
+-   Wisdom: +1 bonus
+-   Magic Resistance:  +40% bonus
+-   Immunity to Poison
+-   Complete Mind Shield
+-      (Immunity to Panic, Fear, Confusion, Charm and Psionics)
+-   Protection from Outerplane Creatures~
++	SAY NAME2 @118
++  SAY DESC @119
+                 
+ COPY ~TS/itm/Wolf.itm~           ~override/Wolf.itm~
+-	SAY NAME1 ~White Direwolf Figurine~
+-	SAY NAME2 ~White Direwolf Figurine~
+-	SAY UNIDENTIFIED_DESC ~White Direwolf Figurine
+-
+-Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
+-
+-STATISTICS
+-
+-Special Abilities:
+-
+-Immunity to Death Magic
+-Immunity to Psionics and Mind Control
+-Immunity to Hold, Stun and Pertrification
+-
+-Thief Abilities:
+-
+-Detect Traps: 100%
+-Hide in Shadows: 90%
+-Move Silent: 95%
+-4x Backstab Attack
+-
+-Magic Abilities:
+-
+-Infravision
+-Magic Resistance: 50%
+-Improved Invisibility: twice per day
+-Healing Lick: twice per day~
+-	SAY DESC ~White Direwolf Figurine
+-
+-Carved from the white alabaster, this figurine is more than just a work of art. It is imbibed with a soul of a white direwolf called Veter. The direwolf is easily recognized from its kin by its large size, ruby-colored eyes and snow-white pelt. In addition the direwolf wears a ruby studded silver colar. Unlike other creatures bound to such figurines, Veter does not grow weaker on the Material Plane and can stay with his chosen master for as long as he is needed. The wolf can be called upon at any time. Veter considers Sime as his mistress at present.
+-
+-STATISTICS
+-
+-Special Abilities:
+-
+-Immunity to Death Magic
+-Immunity to Psionics and Mind Control
+-Immunity to Hold, Stun and Pertrification
+-
+-Thief Abilities:
+-
+-Detect Traps: 100%
+-Hide in Shadows: 90%
+-Move Silent: 95%
+-4x Backstab Attack
+-
+-Magic Abilities:
+-
+-Infravision
+-Magic Resistance: 50%
+-Improved Invisibility: twice per day
+-Healing Lick: twice per day~
++	SAY NAME1 @120
++	SAY NAME2 @120
++	SAY UNIDENTIFIED_DESC @121
++	SAY DESC @121
+                 
+ COPY ~TS/itm/WolfBelt.itm~       ~override/WolfBelt.itm~              
+ COPY ~TS/itm/WolfRing.itm~       ~override/WolfRing.itm~              
+@@ -1571,96 +1004,17 @@
+ BUT_ONLY_IF_IT_CHANGES
+                
+ COPY ~TS/itm/WuHaltai.ITM~       ~override/WuHaltai.ITM~
+-	SAY NAME2 ~Katana +3~
+-	SAY DESC ~Katana +3 "Wu Haltai"
+-
+-The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one’s luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   Grants +1 AC bonus while equipped.
+-   Regenerates 1 hp/round.
+-   Each hit lowers opponents’ Magic Resistance by 10%.
+-
+-
+-THAC0: +3 bonus
+-Damage: 1d10+3
+-Damage Type: slashing
+-Weight: 2
+-Speedfactor: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires:
+-   17 Strength
+-   17 Dexterity
+-   12 Intelligence
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-Usable Only By:
+-   Good or Neutral Alignment~
++	SAY NAME2 @122
++	SAY DESC @123
+                  
+ COPY ~TS/itm/WuJen.ITM~          ~override/WuJen.ITM~
+-	SAY DESC ~Katana +2 "Wu Jen"
+-
+-This katana is a defending counterpart of the "Wu Haltai" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   Immunity to 1st, 2nd, 3rd and 4th level spells.
+-   Immunity to Level Drain while equipped.
+-   Cast Lesser Restoration once/day.
+-
+-THAC0: +2 bonus
+-Damage: 1d10+2
+-Damage Type: slashing
+-Weight: 2
+-Speedfactor: 1
+-Proficiency Type: Katana
+-Type: 1-handed
+-Requires:
+-   15 Dexterity
+-   15 Intelligence
+-Not Usable By:
+-   Paladin
+-   Druid
+-   Cleric
+-   Mage
+-Usable Only By:
+-   Good or Neutral Alignment~                
++	SAY DESC @124                
+ 
+ //Yoshimo's New Armour
+ 
+ COPY ~TS/itm/MOURNER.ITM~          ~override/MOURNER.ITM~
+-  SAY NAME2 ~Mourner’s Armor~
+-  SAY DESC ~This unique suit of armor is of foreign design, created for a Kara-Turian samurai from the Baika Clan. The armor, crafted from thin, stiff leather, is dyed black, but features the insignia of the plum blossom, the mon of the Baika Clan. It was only worn into battle once, when Baika Himuro fought a hopeless battle against the enemy samurai that flooded into his ancestral estate. It is believed that the enemy clan captured the armor and later traded it for siege equipment.
+-
+-STATISTICS:
+-
+-Armor Class: 0
+-Hit Point Max: +15
+-
+-Equipped Abilities:
+-	+75% Resistance to Missile Attacks
+-	+25% Resistance to Fire and Cold 
+-
+-Equipped Penalties:
+-	-1 to Dexterity
+-
+-Special Abilities:
+-	Immunity to backstab
+-	Immunity to normal weapons
+-	Regenerates 1 hit point every 3 seconds
+-	
+-This armour is cursed and can only be removed by a 'Remove Curse' spell
+-	
+-Weight: 20
+-Usable By: 
+-	Thieves~
++  SAY NAME2 @125
++  SAY DESC @126
+ 
+ //APPEND ~TOOLTIP.2DA~ ~CYNICIS           66666660        77777770       77777771kkkkkk~
+ APPEND ~TOOLTIP.2DA~ ~FANMACE           66666661        77777772       -1kkkkkk~
+@@ -1701,42 +1055,42 @@
+ // REPLACE ~66666660~ ~Cynicism~              
+ // REPLACE ~77777770~ ~Find Traps~            
+ // REPLACE ~77777771~ ~Knock~                 
+- REPLACE ~66666661~ ~Mace~                  
+- REPLACE ~77777772~ ~Dispel Magic~          
+- REPLACE ~66666662~ ~Quaterstaff~           
+- REPLACE ~66666663~ ~Morning Star~          
+- REPLACE ~66666664~ ~Long Sword~            
+- REPLACE ~66666665~ ~Two-Handed Sword~      
++ REPLACE ~66666661~ @129                  
++ REPLACE ~77777772~ @130          
++ REPLACE ~66666662~ @131           
++ REPLACE ~66666663~ @132          
++ REPLACE ~66666664~ @133            
++ REPLACE ~66666665~ @134      
+ // REPLACE ~66666666~ ~Kiss of the Gloomfrost~
+ // REPLACE ~77777773~ ~Storm Shield~          
+- REPLACE ~77777774~ ~Blindness~             
+- REPLACE ~77777775~ ~Color Spray~           
+- REPLACE ~77777776~ ~Friends~               
+- REPLACE ~77777777~ ~Charm~                 
++ REPLACE ~77777774~ @135             
++ REPLACE ~77777775~ @136           
++ REPLACE ~77777776~ @137               
++ REPLACE ~77777777~ @138                 
+ // REPLACE ~66666667~ ~Sceptre of Tyranny~    
+ // REPLACE ~77777778~ ~Cloak of Fear~         
+ // REPLACE ~77777779~ ~Domination~            
+- REPLACE ~77777780~ ~Larloch’s Minor Drain~ 
+- REPLACE ~77777781~ ~Horror~                
+- REPLACE ~77777782~ ~Vampiric Touch~        
+- REPLACE ~66666668~ ~Katana +2 "Wu Jen"~    
+- REPLACE ~77777783~ ~Lesser Restoration~    
++ REPLACE ~77777780~ @139 
++ REPLACE ~77777781~ @140                
++ REPLACE ~77777782~ @141        
++ REPLACE ~66666668~ @142    
++ REPLACE ~77777783~ @143    
+                                                            
+ ///////////////////////////////
+ //Creatures
+ //////////////////////////////
+ 
+ COPY ~TS/cre/Aino.CRE~          ~override/Aino.CRE~        
+-  SAY NAME1 ~Aino Hashimoto~ 
+-  SAY NAME2 ~Aino~
++  SAY NAME1 @144 
++  SAY NAME2 @145
+ 
+ COPY ~TS/cre/AinoA.CRE~          ~override/AinoA.CRE~        
+-  SAY NAME1 ~Aino Hashimoto~ 
+-  SAY NAME2 ~Aino~
++  SAY NAME1 @144 
++  SAY NAME2 @145
+ 
+ COPY ~TS/cre/Alome.CRE~          ~override/Alome.CRE~        
+-  SAY NAME1 ~Alome Nakanishi~ 
+-  SAY NAME2 ~Alome~
++  SAY NAME1 @146 
++  SAY NAME2 @147
+ 
+ COPY_EXISTING ~ANOMEN6.CRE~       ~override~
+               ~ANOMEN7.CRE~       ~override~
+@@ -1755,20 +1109,20 @@
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY ~TS/cre/BASILL.cre~          ~override/BASILL.cre~        
+-  SAY NAME1 ~Basilisk~ 
+-  SAY NAME2 ~Basilisk~
++  SAY NAME1 @148 
++  SAY NAME2 @148
+ 
+ COPY ~TS/cre/BISHOP1.cre~          ~override/BISHOP1.cre~        
+-  SAY NAME1 ~Bishop~ 
+-  SAY NAME2 ~Bishop~
++  SAY NAME1 @149 
++  SAY NAME2 @149
+ 
+ COPY ~TS/cre/BISHOP.cre~          ~override/BISHOP.cre~        
+-  SAY NAME1 ~Bishop~ 
+-  SAY NAME2 ~Bishop~
++  SAY NAME1 @149 
++  SAY NAME2 @149
+ 
+ COPY ~TS/cre/BKnight.cre~          ~override/BKnight.cre~        
+-  SAY NAME1 ~Berserk Warrior~ 
+-  SAY NAME2 ~Berserk Warrior~
++  SAY NAME1 @150 
++  SAY NAME2 @150
+   
+ COPY_EXISTING ~BODHI.CRE~        ~override~
+               ~BODHI2.CRE~       ~override~
+@@ -1780,39 +1134,39 @@
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY~TS/cre/CDMaid1.cre~      ~override/CDMaid1.cre~
+-  SAY NAME1 ~Captive Woman~
+-  SAY NAME2 ~Captive Woman~
++  SAY NAME1 @151
++  SAY NAME2 @151
+       
+ COPY~TS/cre/CDMaid2.cre~      ~override/CDMaid2.cre~
+-  SAY NAME1 ~Captive Woman~
+-  SAY NAME2 ~Captive Woman~
++  SAY NAME1 @151
++  SAY NAME2 @151
+       
+ COPY~TS/cre/CDMaid3.cre~      ~override/CDMaid3.cre~
+-  SAY NAME1 ~Captive Woman~
+-  SAY NAME2 ~Captive Woman~
++  SAY NAME1 @151
++  SAY NAME2 @151
+       
+ COPY~TS/cre/CDMaid4.cre~      ~override/CDMaid4.cre~
+-  SAY NAME1 ~Captive Woman~
+-  SAY NAME2 ~Captive Woman~
++  SAY NAME1 @151
++  SAY NAME2 @151
+       
+ COPY~TS/cre/CDMaid5.cre~      ~override/CDMaid5.cre~
+-  SAY NAME1 ~Captive Woman~
+-  SAY NAME2 ~Captive Woman~
++  SAY NAME1 @151
++  SAY NAME2 @151
+ 
+ ACTION_IF NOT FILE_EXISTS ~data/BG1ARE.BIF~       //BGT compatibility
+ THEN BEGIN
+  COPY ~TS/cre/CHESS.cre~        ~override~      
+-  SAY NAME1 ~Ethereal Voice~
+-  SAY NAME2 ~Ethereal Voice~
++  SAY NAME1 @152
++  SAY NAME2 @152
+ END
+ 
+ COPY~TS/cre/Chrdrag.cre~      ~override/Chrdrag.cre~
+-  SAY NAME1 ~Chromatic Dragon~
+-  SAY NAME2 ~Chromatic Dragon~
++  SAY NAME1 @153
++  SAY NAME2 @153
+     
+ COPY~TS/cre/ChrDrag2.cre~     ~override/ChrDrag2.cre~
+-  SAY NAME1 ~Dalhaleitkazyyr~
+-  SAY NAME2 ~Dalhaleitkazyyr~
++  SAY NAME1 @154
++  SAY NAME2 @154
+     
+ //COPY~TS/cre/Coran10.cre~      ~override/Coran10.cre~    
+ //COPY~TS/cre/Coran8.cre~       ~override/Coran8.cre~  
+@@ -1828,8 +1182,8 @@
+ 	REPLACE_TEXTUALLY ~YOSHIMO~ ~YOSHINO~
+ 	
+ COPY ~TS/cre/Elemwag.cre~      ~override/Elemwag.cre~
+-  SAY NAME1 ~Greater Water Elemental~
+-  SAY NAME2 ~Greater Water Elemental~
++  SAY NAME1 @155
++  SAY NAME2 @155
+     
+ COPY_EXISTING ~FIRORC03.CRE~     ~override~
+               ~SARBUL04.CRE~     ~override~
+@@ -1839,26 +1193,26 @@
+ BUT_ONLY_IF_IT_CHANGES
+     
+ COPY~TS/cre/GZombie.cre~      ~override/GZombie.cre~
+-  SAY NAME1 ~Greater Zombie~
+-  SAY NAME2 ~Greater Zombie~
++  SAY NAME1 @156
++  SAY NAME2 @156
+     
+ COPY~TS/cre/HAKSU.CRE~        ~override/HAKSU.CRE~
+  
+ COPY~TS/cre/HHealer.cre~      ~override/HHealer.cre~
+-  SAY NAME1 ~Hasuno~
+-  SAY NAME2 ~Hasuno~
++  SAY NAME1 @12
++  SAY NAME2 @12
+     
+ COPY~TS/cre/Hitomi.cre~       ~override/Hitomi.cre~
+-  SAY NAME1 ~Hitomi Nakanishi~
+-  SAY NAME2 ~Hitomi~
++  SAY NAME1 @157
++  SAY NAME2 @158
+   
+ COPY~TS/cre/HKensaF.cre~      ~override/HKensaF.cre~
+-  SAY NAME1 ~Hashimoto Guard~
+-  SAY NAME2 ~Hashimoto Guard~
++  SAY NAME1 @159
++  SAY NAME2 @159
+     
+ COPY~TS/cre/HKensai.CRE~      ~override/HKensai.CRE~
+-  SAY NAME1 ~Hashimoto Guard~
+-  SAY NAME2 ~Hashimoto Guard~
++  SAY NAME1 @159
++  SAY NAME2 @159
+     
+ COPY_EXISTING ~shadel.cre~ ~override/shadel.cre~
+   WRITE_SHORT 0x28     0x7f0d // animation
+@@ -1867,8 +1221,8 @@
+   WRITE_SHORT 0x28     0x7f0d // animation
+             
+ COPY~TS/cre/Kachi08.cre~      ~override/Kachi08.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -1906,11 +1260,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/Kachi09.cre~      ~override/Kachi09.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -1948,11 +1302,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/Kachi10.cre~      ~override/Kachi10.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -1990,11 +1344,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/Kachi11.cre~      ~override/Kachi11.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -2032,11 +1386,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/Kachi12.cre~      ~override/Kachi12.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -2074,11 +1428,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/Kachi13.cre~      ~override/Kachi13.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -2116,11 +1470,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/KachikoD.cre~     ~override/KachikoD.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -2158,11 +1512,11 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/KachikoS.cre~     ~override/KachikoS.cre~
+-  SAY NAME1 ~Kachiko~
+-  SAY NAME2 ~Kachiko~
++  SAY NAME1 @160
++  SAY NAME2 @160
+   SAY MORALE ~~ [KACHIMO]
+   SAY LEADER ~~ [KACHIMC]
+   SAY BATTLE_CRY1 ~~ [KACHIBC1]
+@@ -2200,97 +1554,97 @@
+   SAY TARGET_IMMUNE ~~ [KACHIIM]
+   SAY INVENTORY_FULL ~~ [KACHICA]
+   SAY SPELL_DISRUPTED ~~ [KACHIFA]
+-  SAY BIO ~Kachiko’s dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
++  SAY BIO @197
+     
+ COPY~TS/cre/KING.cre~         ~override/KING.cre~
+-  SAY NAME1 ~King~
+-  SAY NAME2 ~King~
++  SAY NAME1 @198
++  SAY NAME2 @198
+  
+ COPY~TS/cre/Kiotsi.cre~       ~override/Kiotsi.cre~
+-  SAY NAME1 ~Kiotsi~
+-  SAY NAME2 ~Kiotsi~
++  SAY NAME1 @199
++  SAY NAME2 @199
+   
+ COPY~TS/cre/KNIGHT.cre~       ~override/KNIGHT.cre~
+-  SAY NAME1 ~Knight~
+-  SAY NAME2 ~Knight~
++  SAY NAME1 @200
++  SAY NAME2 @200
+     
+ COPY~TS/cre/KNIGHT1.cre~      ~override/KNIGHT1.cre~
+-  SAY NAME1 ~Knight~
+-  SAY NAME2 ~Knight~    
++  SAY NAME1 @200
++  SAY NAME2 @200    
+ 
+ COPY~TS/cre/Loveone5.cre~     ~override/Loveone5.cre~
+-  SAY NAME1 ~Merella~
+-  SAY NAME2 ~Merella~
++  SAY NAME1 @201
++  SAY NAME2 @201
+     
+ COPY~TS/cre/Loveone6.cre~     ~override/Loveone6.cre~
+-  SAY NAME1 ~Darriel~
+-  SAY NAME2 ~Darriel~
++  SAY NAME1 @202
++  SAY NAME2 @202
+     
+ COPY~TS/cre/Lulu.CRE~         ~override/Lulu.CRE~
+-  SAY NAME1 ~Lulu Hashimoto~
+-  SAY NAME2 ~Lulu~
++  SAY NAME1 @203
++  SAY NAME2 @204
+  
+ COPY~TS/cre/Masaki.cre~       ~override/Masaki.cre~
+-  SAY NAME1 ~Masaki Hayashi~
+-  SAY NAME2 ~Masaki~
++  SAY NAME1 @205
++  SAY NAME2 @206
+   
+ COPY~TS/cre/Mask.cre~         ~override/Mask.cre~
+-  SAY NAME1 ~Shadow Thief~
+-  SAY NAME2 ~Shadow Thief~
++  SAY NAME1 @207
++  SAY NAME2 @207
+  
+ COPY~TS/cre/Michio.cre~       ~override/Michio.cre~
+-  SAY NAME1 ~Michio Nakanishi~
+-  SAY NAME2 ~Michio~
++  SAY NAME1 @208
++  SAY NAME2 @209
+   
+ COPY~TS/cre/Momoko.cre~       ~override/Momoko.cre~
+-  SAY NAME1 ~Momoko Nakanishi~
+-  SAY NAME2 ~Momoko~
++  SAY NAME1 @210
++  SAY NAME2 @211
+   
+ COPY~TS/cre/Najoki.cre~       ~override/Najoki.cre~
+-  SAY NAME1 ~Najoki Nakanishi~
+-  SAY NAME2 ~Najoki~
++  SAY NAME1 @212
++  SAY NAME2 @213
+     
+ COPY~TS/cre/NajokiA.cre~      ~override/NajokiA.cre~
+-  SAY NAME1 ~Najoki Nakanishi~
+-  SAY NAME2 ~Najoki~
++  SAY NAME1 @212
++  SAY NAME2 @213
+     
+ COPY~TS/cre/Nanny.cre~        ~override/Nanny.cre~
+-  SAY NAME1 ~Nanny~
+-  SAY NAME2 ~Nanny~
++  SAY NAME1 @214
++  SAY NAME2 @214
+  
+ COPY~TS/cre/NISHRUSU.CRE~     ~override/NISHRUSU.CRE~
+     
+ COPY~TS/cre/NKensai.cre~      ~override/NKensai.cre~
+-  SAY NAME1 ~Nakanishi Guard~
+-  SAY NAME2 ~Nakanishi Guard~
++  SAY NAME1 @215
++  SAY NAME2 @215
+ 
+ COPY~TS/cre/MKensai.cre~      ~override/MKensai.cre~
+-  SAY NAME1 ~Nakanishi Guard~
+-  SAY NAME2 ~Nakanishi Guard~
++  SAY NAME1 @215
++  SAY NAME2 @215
+ 
+ COPY~TS/cre/FKensai.cre~      ~override/FKensai.cre~
+-  SAY NAME1 ~Nakanishi Guard~
+-  SAY NAME2 ~Nakanishi Guard~
++  SAY NAME1 @215
++  SAY NAME2 @215
+ 
+ COPY~TS/cre/NKLeader.cre~     ~override/NKLeader.cre~
+-  SAY NAME1 ~Undead Samurai~
+-  SAY NAME2 ~Undead Samurai~
++  SAY NAME1 @216
++  SAY NAME2 @216
+       
+ COPY~TS/cre/NMonk.cre~        ~override/NMonk.cre~
+-  SAY NAME1 ~Nakanishi Acolyte~
+-  SAY NAME2 ~Nakanishi Acolyte~
++  SAY NAME1 @217
++  SAY NAME2 @217
+  
+ COPY~TS/cre/Ogi.CRE~          ~override/Ogi.CRE~
+-  SAY NAME1 ~Ogi Hashimoto~
+-  SAY NAME2 ~Ogi~
++  SAY NAME1 @218
++  SAY NAME2 @219
+  
+ COPY~TS/cre/Otako.CRE~        ~override/Otako.CRE~
+-  SAY NAME1 ~Otako Hashimoto~
+-  SAY NAME2 ~Otako~
++  SAY NAME1 @220
++  SAY NAME2 @221
+  
+ COPY~TS/cre/PAWN.cre~         ~override/PAWN.cre~
+-  SAY NAME1 ~Pawn~
+-  SAY NAME2 ~Pawn~
++  SAY NAME1 @222
++  SAY NAME2 @222
+  
+ COPY~TS/cre/PPARAN2.CRE~       ~override/PPARAN2.CRE~  
+ COPY~TS/cre/PPBODHI3.CRE~     ~override/PPBODHI3.CRE~    
+@@ -2301,20 +1655,20 @@
+ //  SAY NAME2 ~Purang Berserker~
+   
+ COPY~TS/cre/QUEEN.CRE~        ~override/QUEEN.CRE~
+-  SAY NAME1 ~Queen~
+-  SAY NAME2 ~Queen~
++  SAY NAME1 @223
++  SAY NAME2 @223
+  
+ COPY~TS/cre/ROOK.cre~         ~override/ROOK.cre~
+-  SAY NAME1 ~Rook~
+-  SAY NAME2 ~Rook~
++  SAY NAME1 @224
++  SAY NAME2 @224
+     
+ COPY~TS/cre/Sasaki.cre~       ~override/Sasaki.cre~
+-  SAY NAME1 ~Sasaki Hashimoto~
+-  SAY NAME2 ~Sasaki~
++  SAY NAME1 @225
++  SAY NAME2 @226
+ 
+ COPY~TS/cre/Sime06.cre~       ~override/Sime06.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2351,11 +1705,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+ 
+ COPY~TS/cre/Sime07.cre~       ~override/Sime07.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~ 
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2392,11 +1746,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sime08.cre~       ~override/Sime08.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2433,11 +1787,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sime09.cre~       ~override/Sime09.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2474,11 +1828,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sime10.cre~       ~override/Sime10.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2515,11 +1869,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+    
+ COPY~TS/cre/Sime109.cre~       ~override/Sime109.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2556,11 +1910,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sime110.cre~       ~override/Sime110.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2597,11 +1951,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sime121.cre~       ~override/Sime121.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2638,11 +1992,11 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/SimeDr.cre~       ~override/SimeDr.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+   SAY INITIAL_MEETING ~~
+   SAY LEADER ~~ 									[CSIME06]
+   SAY BATTLE_CRY1 ~~ 				 		[CSIME09]
+@@ -2679,9 +2033,12 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/SimeSl.cre~       ~override/SimeSl.cre~
++  SAY NAME1 @227
++  SAY NAME2 @227
++  SAY INITIAL_MEETING ~~
+   SAY NAME1 ~Sime~
+   SAY NAME2 ~Sime~
+   SAY INITIAL_MEETING ~~
+@@ -2720,31 +2077,31 @@
+   SAY INVENTORY_FULL ~~					[CSIME36]
+   SAY SPELL_DISRUPTED ~~ 				[CSIME37]
+   SAY EXISTANCE1 ~~						 	[CSIME03]
+-  SAY BIO ~This vivacious blonde talks and acts as if the world is one big fare and she does not intend to miss anything. Sime laughs easily, can dance a night away and she sings a song about a great battle of old with equal enthusiasm as a one about love. Through this bravado you can hear a gentler voice, the true voice of Sime Linvail. After a while you learn that she is a daughter of Athkatla’s Shadow Master. Sime Linvail visits Athkatla once in a while to meet with her father. These meetings however always end up in an argument over Aran’s dealings and Sime flees the city vowing never to come back.~
++  SAY BIO @263
+   
+ COPY~TS/cre/Sol.cre~          ~override/Sol.cre~
+-  SAY NAME1 ~Sol~
+-  SAY NAME2 ~Sol~
++  SAY NAME1 @264
++  SAY NAME2 @264
+  
+ COPY~TS/cre/SolaTS.cre~         ~override/SolaTS.cre~
+-  SAY NAME1 ~Sola~
+-  SAY NAME2 ~Sola~
++  SAY NAME1 @265
++  SAY NAME2 @265
+  
+ COPY~TS/cre/Solauf.cre~       ~override/Solauf.cre~
+-  SAY NAME1 ~Solauf~
+-  SAY NAME2 ~Solauf~
++  SAY NAME1 @266
++  SAY NAME2 @266
+   
+ COPY~TS/cre/StoneVF.cre~      ~override/StoneVF.cre~
+-  SAY NAME1 ~Fledgling Vampire~
+-  SAY NAME2 ~Fledgling Vampire~
++  SAY NAME1 @267
++  SAY NAME2 @267
+     
+ COPY~TS/cre/StoneVM.cre~      ~override/StoneVM.cre~
+-  SAY NAME1 ~Fledgling Vampire~
+-  SAY NAME2 ~Fledgling Vampire~
++  SAY NAME1 @267
++  SAY NAME2 @267
+     
+ COPY~TS/cre/Undken.cre~       ~override/Undken.cre~
+-  SAY NAME1 ~Undead Samurai~
+-  SAY NAME2 ~Undead Samurai~
++  SAY NAME1 @216
++  SAY NAME2 @216
+   
+ /*COPY_EXISTING ~VALYG8.CRE~       ~override~
+  READ_LONG  0x2a0  "known_spells_offset"
+@@ -3092,23 +2449,23 @@
+ COPY~TS/cre/Valyg14.cre~      ~override/Valyg14.cre~
+ 
+ COPY~TS/cre/VampSime.cre~     ~override/VampSime.cre~
+-  SAY NAME1 ~Sime~
+-  SAY NAME2 ~Sime~
++  SAY NAME1 @227
++  SAY NAME2 @227
+     
+ COPY~TS/cre/Vampval.cre~      ~override/Vampval.cre~    
+ COPY~TS/cre/VPAran.cre~       ~override/VPAran.cre~
+   
+ COPY~TS/cre/WBishop.cre~      ~override/WBishop.cre~
+-  SAY NAME1 ~Priest of Selune~
+-  SAY NAME2 ~Priest of Selune~
++  SAY NAME1 @268
++  SAY NAME2 @268
+     
+ COPY~TS/cre/Wolf.cre~         ~override/Wolf.cre~
+-  SAY NAME1 ~Veter~
+-  SAY NAME2 ~Veter~
++  SAY NAME1 @269
++  SAY NAME2 @269
+ 
+ //COPY~TS/cre/veter2.cre~         ~override/veter2.cre~
+-//  SAY NAME1 ~Veter~
+-//  SAY NAME2 ~Veter~
++//  SAY NAME1 @269
++//  SAY NAME2 @269
+  
+ COPY_EXISTING ~YOSHI7.CRE~       ~override~
+               ~YOSHI8.CRE~       ~override~
+@@ -3169,8 +2526,8 @@
+ BUT_ONLY_IF_IT_CHANGES
+   
+ COPY~TS/cre/YoshimoA.cre~     ~override/YoshimoA.cre~
+-  SAY NAME1 ~Hsiang~
+-  SAY NAME2 ~Hsiang~
++  SAY NAME1 @270
++  SAY NAME2 @270
+     
+ //COPY~TS/cre/Yoshmess.cre~     ~override/Yoshmess.cre~
+ //  SAY NAME1 ~Kuku~
+@@ -3185,7 +2542,7 @@
+ COMPILE ~TS/sailoff~
+ 
+ //Adding music
+-PRINT ~Adding TS music themes...~
++PRINT @271
+ 
+ COPY_EXISTING + ~SONGLIST.2da~ ~override\1.txt~
+ COPY_EXISTING + ~1.txt~ ~override~
+@@ -3268,28 +2625,7 @@
+ TT0308  value~
+ 
+ COPY ~TS/itm/YOSHKAT.ITM~          ~override/YOSHKAT.ITM~
+-  SAY DESC ~Yoshimo’s Katana +3
+-
+-This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+-
+-STATISTICS:
+-
+-Special Abilities:
+-   +1 bonus to Armor Class
+-   10% Magic Resistance
+-
+-Combat Abilities:
+-   Sets attacks to +1 per round
+-
+-THAC0: +3 bonus
+-Damage:  1D10  + 3
+-Damage type:  slashing
+-Weight:  5
+-Speed Factor: 3
+-Proficiency Type: Katana
+-Type:  1-handed
+-Usable By:
+-   Yoshimo~
++  SAY DESC @272
+ 
+ //**********************************************************************************
+ // From Baldurdash
+@@ -3400,8 +2736,8 @@
+ COPY ~TS/Boo/VORSQUI4.ITM~           ~override/VORSQUI4.ITM~
+ 
+ COPY ~TS/Boo/BOO.CRE~           ~override/BOO.CRE~         
+-  SAY NAME1 ~Boo~ 
+-  SAY NAME2 ~Boo~
++  SAY NAME1 @273 
++  SAY NAME2 @273
+   SAY 0xdc ~~ [CBooAtt1]
+   SAY 0xe0 ~~ [CBooAtt2]
+   SAY 0xe4 ~~ [CBooAtt3]
+@@ -3417,16 +2753,16 @@
+   SAY SPELL_DISRUPTED ~~ [CBooSpFa]
+ 
+ COPY ~TS/Boo/BOO.ITM~           ~override/BOO.ITM~         
+-  SAY NAME1 ~Boo~ 
+-  SAY NAME2 ~Boo~
++  SAY NAME1 @273 
++  SAY NAME2 @273
+ 
+ COPY ~TS/Boo/SPIN699.spl~		~override/SPIN699.spl~
+-  SAY NAME1 ~Healing Lick~
+-  SAY NAME2 ~Healing Lick~
++  SAY NAME1 @287
++  SAY NAME2 @287
+ 
+ COPY ~TS/Boo/SPIN204.spl~		~override/SPIN204.spl~
+-  SAY NAME1 ~Detect Evil~
+-  SAY NAME2 ~Detect Evil~
++  SAY NAME1 @288
++  SAY NAME2 @288
+ 
+ COPY ~TS/Boo/BooREST.spl~		~override/BooREST.spl~
+ 
+@@ -3477,7 +2813,7 @@
+   	SAY 0x54  ~Gives creature immunity to non-magical weapons, regeneration of 1 hit point per round, and a movement rate bonus.~
+ 
+ 	COPY ~TS/wererat/itm/ajwrat02.itm~ ~override~
+-  	SAY 0xc   ~Long Sword~
++  	SAY 0xc   @133
+   	SAY 0x54  ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.
+ 
+ This blade 'sweats' rancid beads of oily ichor and resists all attempts at cleaning.
+@@ -3660,18 +2996,18 @@
+    	//DO NOTHING//
+ END
+ 
+-BEGIN ~ANIMATIONS. Please don't install this component if you have already installed OR are going to install the NEVER ENDING JOURNEY 2.~
++BEGIN @289
+ 
+ COPY ~TS/anim/bam~ ~override~
+ COPY ~TS/anim/cre~ ~override~
+ COPY ~TS/anim/ids~ ~override~
+ COPY ~TS/anim/toda~ ~override~
+ 
+-BEGIN ~GRAPHICAL USER INTERFACE (GUI). This component adds new GUI to your original BG2. Please don't install this component if you have already installed OR are going to install the NEVER ENDING JOURNEY 2.~
++BEGIN @290
+ 
+ COPY ~TS/gui~ ~override~
+ 
+-BEGIN ~AREAS & SOUNDS. This component is required to play the mod.~
++BEGIN @291
+ 
+ COPY ~tisunpack.exe~ ~override\tisunpack.exe~
+ COPY ~oggdec.exe~ ~override\oggdec.exe~

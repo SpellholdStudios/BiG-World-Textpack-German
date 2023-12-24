@@ -1,0 +1,37 @@
+@0    = ~What you want?~
+@1    = ~I was wondering what you are doing.~
+@2    = ~Wyrm’s Tooth.
+
+We talked to a salamander that says he is hearing things down a certain hallway. When he goes to check it out, he finds nothing. This sounds a bit strange. Perhaps it bears checking out.~
+@3    = ~Nothing.  Farewell.~
+@4    = ~You again.  What you want this time?~
+@5    = ~You mentioned hearing something down the hall earlier.~
+@6    = ~Sometimes I hear noise down hall.  I go look but nothing there.  I not know what going on.  I worried.~
+@7    = ~This is an old building.  It could be settling and that is what you hear.~
+@8    = ~Would you like me to take a look?  Maybe I will find something.~
+@9    = ~Wyrm’s Tooth.
+
+We talked to a salamander that says he is hearing things down a certain hallway. When he goes to check it out he finds nothing. This sounds a bit strange so we offered to check it out ourselves. Perhaps we will find something that he missed.~
+@10   = ~Oh.  There is a woman hiding down there.  It is she that you hear moving around.~
+@11   = ~Wyrm’s Tooth.
+
+We talked to the salamander that was hearing things down the hall. We told him that Vera was hiding down there and that she was more than likely what he heard. He then killed her.~
+@12   = ~I have been down there.  I found nothing that should concern you.  You worry for nothing.~
+@13   = ~Wyrm’s Tooth.
+
+We talked to the salamander that was hearing things down the hall. We believe that it was Vera moving about that he was hearing. We told him that there was nothing down the hall that he should concern himself with. This satisfied him, so Vera should be safe.~
+@14   = ~I see.  Well, farewell for now.~
+@15   = ~Yes... Could be but I not know...~
+@16   = ~I would not worry about it.  Farewell.~
+@17   = ~Yes.  You look.  You come back tell me what you find.  I wait here.~
+@18   = ~Very well, farewell.~
+@19   = ~Woman hiding?  Escaped slave!  I kill!~
+@20   = ~She is already dead. You have nothing to worry about now.~
+@21   = ~You back.  You find what make noise?~
+@22   = ~I’m still looking.  I’ll come back when I’ve searched the area.~
+@23   = ~Fine... I ignore.  I not let it bother me.  I thank you.~
+@24   = ~You are welcome.  Farewell.~
+@25   = ~Yes... I hear sound.  I go look but nothing there.  I not know what going on.  I worried.~
+@26   = ~I have been down there. I found nothing that should concern you. You worry for nothing.~
+@27   = ~No need talk you now.  Go away.~
+@28   = ~Good... I worry no more. You go away.~

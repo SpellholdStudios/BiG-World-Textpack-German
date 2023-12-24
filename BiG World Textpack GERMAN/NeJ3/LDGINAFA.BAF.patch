@@ -1,0 +1,11 @@
+--- NeJ3\baf\LDGINAFA.BAF	Mon Nov 17 01:55:28 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDGINAFA.BAF	Wed Apr 10 10:33:54 2019
+@@ -20,7 +20,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("MAP_GROUP_HOSTILE10","MYAREA",1)
+-		DisplayStringHead(Myself,~Fleezum! Flozem! Help me!~)
++		DisplayStringHead(Myself,@0)
+ 		Enemy()
+ 		Continue()
+ END

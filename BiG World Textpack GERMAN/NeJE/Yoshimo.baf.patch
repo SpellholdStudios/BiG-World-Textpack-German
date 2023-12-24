@@ -1,0 +1,11 @@
+--- NeJE\TS\baf\Yoshimo.baf	Tue Dec 25 15:26:09 2018
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\Yoshimo.baf	Tue Apr 09 19:40:41 2019
+@@ -69,7 +69,7 @@
+   RESPONSE #100
+     SetGlobal("VP_Kachiko_Dies","GLOBAL",1)
+     EquipMostDamagingMelee()
+-    DisplayStringHead(Myself,~Kachiko, don’t give up, I will help you!~)  // ~Kachiko, don’t give up, I will help you!~
++    DisplayStringHead(Myself,@100)  // @100
+     MoveToObjectNoInterrupt(LastAttackerOf("Kachiko"))
+     AttackReevaluate(LastAttackerOf("Kachiko"),75)
+     Continue()

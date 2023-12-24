@@ -1,0 +1,209 @@
+@0    = ~... free... my... people...
+...Astrolabe... whirls... twirls...~ [LARR_01]
+@1    = ~We have finally found you!  We need your help to use the Heartstone Gem.~
+@2    = ~Lich!  We will send you to your final resting place ourselves!~
+@3    = ~Uh, all right, then... will do, Larrel.~
+@4    = ~Not quite the response I was looking for.  We shall return.~
+@5    = ~... free... my... people...
+...Astrolabe... whirls... twirls...~ [LARR_02]
+@6    = ~We will not tolerate your ramblings anymore!  Prepare to be sent to the abyss!~
+@7    = ~I see we will need to return at a later time.  Farewell.~
+@8    = ~Uhhhh... Greetings, adventurers... Pardon me while I gather my thoughts.  Who are you, and what has just come to pass?~ [LARR_10]
+@9    = ~We are adventurers who have come to the Severed Hand to seek your knowledge and power.  In doing so, we learned of the curse bestowed here and your sanity lost centuries ago.  We have restored you to some of your former self and beseech you for aid.~
+@10   = ~To further our journeys, we came to the Severed Hand to find that in order to continue, we had to restore you to some semblance of your former state.  Now we ask that you return the favor and divine what we need from the Heartstone.~
+@11   = ~This is the only answer you need:  We have restored you, and we have the power to destroy you as well.  We need you to unlock the power of the Heartstone.  We care nothing for this pathetic excuse of a hovel that you cursed by your own arrogance.~
+@12   = ~Indeed you have, noble adventurers.  It must have taken great courage and strength to make it as far as you did, let alone restore some balance to my thoughts.  I am eternally in your debt.  But surely you did not come to the Hand of the Seldarine on a whim?  Tell me what it is you seek.~ [LARR_12]
+@13   = ~I seek knowledge that only can be divined through the Heartstone.~
+@14   = ~I wish to know more of the events that came to pass here in the Hand.~
+@15   = ~Hmmm.  To the point, I see.  Very well.  At least you speak honestly.  Your deeds will be repaid.  What do you wish?~ [LARR_13]
+@16   = ~We seek to use the divination powers of the Heartstone.~
+@17   = ~First, tell me what happened to you and the Hand.~
+@18   = ~I was mistaken to think you adventurers were here for reasons other than personal gain.  I will not make that same mistake again.  Tell me what you want and be quick about it.   I will only tolerate so much from orc dung.~ [LARR_14]
+@19   = ~You stand corrected.  You will give us the power we need from the Heartstone.~
+@20   = ~You will relate to us the events that lead to the destruction of the Hand.~
+@21   = ~You are mistaken.  Orc dung would show more mercy than us.  Prepare to die once again, Larrel.~
+@22   = ~Very well.  As legend states, the Heartstone Gem is an ancient artifact from a time long forgotten.  Its most notable owners were the druids of Kuldahar before one within their circle stole the gem.  It was thought forever lost, until now...~ [LARR_15]
+@23   = ~The Heartstone Gem contains powerful scrying abilities that can divine the affairs of people throughout the Realms.  There are only a few within the land who know how to release its powers.  I am one of them.~ [LARR_16]
+@24   = ~With that said, what is it you seek to learn from the Heartstone Gem?~ [LARR_17]
+@25   = ~We seek to learn the source of the evil that troubles the North.~
+@26   = ~Trouble has reared its ugly head.  We seek its source so that we may crush it!~
+@27   = ~We‘ve been hired to look into some problems that have been plaguing the North.~
+@28   = ~Then you will have what you seek.  Hand me the Heartstone Gem.~ [LARR_18]
+@29   = ~Here you are.~
+@30   = ~Dragon‘s Eye.
+
+It turns out that Albion, the kind old priest of Eldath, is really an agent of some snake god.  When I questioned him about some of the things I saw in the sanctuary, he went crazy.  He yelled something about Sseth and his princess, Yxunomei, before he attacked me.~
+@31   = ~Dragon‘s Eye.
+
+We ventured down to the fourth level of the Dragon‘s Eye volcano.  We found a priest of Eldath, the goddess of peace, there.  He told us that he and his students are part of an Eldathyn retreat in Dragon‘s Eye.  He offered us healing and a place to rest.~
+@32   = ~Dragon’s Eye.
+
+We saved a priestess of Ilmater, Egenia, from a group of Talonite priests and trolls. She came up into Dragon’s Eye to join in the suffering of the abducted villagers. She told us that she would wait in Dragon’s Eye to aid us until we had destroyed the source of evil.~
+@33   = ~Ilmater Clergy in Kuldahar.
+
+We spoke with Sister Calliana, the acting head priest of the Temple of Ilmater in Kuldahar.  She‘s assumed the role of head priest of the temple ever since Mother Egenia vanished a few weeks ago.  Calliana also mentioned that another member of the Ilmater clergy, a man by the name of Brother Poquelin, passed through Kuldahar recently from all the way from Cormyr and was going to try and get help from the Monastery of the Weeping Lilac in Bryn Shader.  Calliana fears he may have been abducted as well.~
+@34   = ~Never Ending Journey: Spine Of The World.
+
+Somehow we were teleported from the strange dungeon to the snowy, lakefront community known as Easthaven. Weary and half-frozen from the road, we hastily made our way into the local tavern to find a hot meal and some friendly conversation. Scarcely had we seated ourselves at a table by the hearth when we were approached by a burly warrior who called himself Hrothgar. He seemed friendly enough, but something in his eyes warned us that he wasn‘t one to cross. He politely asked us to come see him at his home, a couple doors west of the tavern, to discuss business of some sort.~
+@35   = ~Never Ending Journey: Spine Of The World.
+
+So it was that the patchwork militia set off from Easthaven, bound for the troubled village of Kuldahar with the party of strangers in tow. On they traveled, across the windswept tundra of the Dale, through the foothills of the Spine of the World, and upwards on the steep and treacherous trails of the Kuldahar Pass. Eager to seek out the evil that threatened the Pass, they did not expect it to find them first.  High upon the cliffs of the Pass, a band of frost giants had prepared an ambush. Hurling boulders and dislodging massive outcroppings of rock and snow, the giants sparked an avalanche that thundered down the mountainside and crashed down upon the heads of the unsuspecting expedition. Those fortunate enough to survive the avalanche pulled themselves free of the mountain of snow and bodies that now barred the way back to Easthaven. Battered and disheartened by the loss of their comrades, the survivors had little choice but to continue on to Kuldahar... alone.~
+@36   = ~Search for the Heartstone Gem.
+
+We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.~
+@37   = ~Search for the Heartstone Gem.
+
+We returned to Kuldahar - only to find someone masquerading as Arundel. The shapechanger, whoever he was, thanked us for disposing of Yxunomei and allowing him "free reign" over Kuldahar and Easthaven. He vanished before we could learn more. I fear that with Arundel‘s murder, darker times are ahead for the people of Kuldahar and Easthaven.~
+@38   = ~Severed Hand.
+
+We discovered Arundel in the upstairs chamber of his cottage, struck down by a man that wore the Archdruid‘s own face and whose hands were as blood.  Arundel barely had the strength to tell us to seek out the ancient elven fortress of the Severed Hand, and that within the fortress is an elven mage named Larrel, the last person who can use the gem to find the source of evil plaguing Kuldahar.  Arundel told us nature would guide us to the Severed Hand.~
+@39   = ~Severed Hand.
+
+We met what was left of the Bladesinger, Lethias.  He told the tale of the great sacrifice he made in the destruction of Sehanine Tower.~
+@40   = ~Severed Hand.
+
+Lethias mentioned that in the final days of the Severed Hand, Larrel and his wizards were locked atop Labelas Tower.~
+@41   = ~Severed Hand.
+
+Custhantos made an interesting comment about an elven warrior who had visited him recently.  She took a book with magical artifact sketches and a book about unicorns.~
+@42   = ~To battle the soldiers of Kaylessa.
+
+We returned to Kaylessa and told her all her soldiers have been put to rest.~
+@43   = ~To lay the priests of the Severed Hand to rest.
+
+We returned to Denaini and told her that the priests have all been laid to rest.  She was very grateful that they now can move on to the afterlife.~
+@44   = ~To restore the pools of the elven shrine.
+
+We gave Denaini the holy water she requested so that the pools for the elven shrine can be restored.~
+@45   = ~A bottle of wine for Old Jed.
+
+We delivered a bottle of wine to Old Jed, one of the local Easthaven fishermen.~
+@46   = ~Blade of Aihonen.
+
+We told Jhonen why he was plagued with dreams, and we returned to him his ancestor‘s blade that Elisia wished to give him.  He was dumbfounded by the gift, and he seemed more than a little sad that she would not be returning to him.  Such sadnesses are the way of people from two worlds.~
+@47   = ~Blade of Aihonen.
+
+We returned and told Elisia we had delivered the blade to Jhonen.  She was pleased, and she rewarded us for our efforts.~
+@48   = ~Claim for the Evening Shade.
+
+We showed Aldwin Eidan‘s signet ring that we had found upstairs, and he confessed to having forged the claim to the Evening Shade... with enough pressure, he eventually agreed that he would go confess his crime to the elders of Kuldahar and face whatever punishment they see fit to give him.~
+@49   = ~Damien‘s fish.
+
+We were able to help Damien out, and we gave him some fish to take to his father so he wouldn‘t get in trouble.~
+@50   = ~Finding a missing caravan.
+
+We told Gaspar the Fishmonger about the lost caravan and showed him the contract from Ilmus Gallaway we‘d found in the orc caves.  Once he knew the caravan had been lost, Gaspar set about re-negotiating a contract and insuring that a new caravan of supplies reaches Easthaven.  He thanked us for our trouble, and he paid us a small sum of gold.~
+@51   = ~Finding a missing caravan.
+
+We found the ambushed caravan bound from Caer-Dinival to Easthaven.  We returned to Hrothgar to tell him of our discovery and of how we tracked the marauding orc raiders back to their lair.  The stout warrior seemed somewhat worried about the orc attack, but was relieved to know that the supplies were still recoverable.~
+@52   = ~Finding Sheemish, Conlan‘s son.
+
+We freed Conlan‘s son, Sheemish from the depths of Dragon‘s Eye and returned to check on him to make sure he got home all right. He gave us a key to a chest in Conlan‘s house that contains some kind of enchanted hammer.~
+@53   = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about the vendetta, but she told us our involvement in the matter was irrelevant.~
+@54   = ~Get rid of the wolf in Apsel‘s workshop.
+
+We succeeded in getting rid of the wolf in Apsel‘s workshop.  Apparently the beast had chewed its way inside to get at the fish bones the old man had stored inside.  Apsel was quite relieved and graciously rewarded us with some gold and carved scrimshaw dagger.~
+@55   = ~Mirek‘s family heirloom.
+
+We were able to retrieve Mirek of Kuldahar‘s family heirloom.~
+@56   = ~Remedy for Ghereg.
+
+We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~
+@57   = ~To restore the pools of the elven shrine.
+
+We came upon Denaini in Solonor's Tower of the Severed Hand.  She told us the sad tale of how the Severed Hand fell and Larrel's disastrous attempt at saving his people by casting a Mythal, a form of ancient elven magic.~
+@58   = ~Heartstone Gem.
+
+We gave the Heartstone Gem to Larrel, and he used its power to discover the location of the evil that plagues Kuldahar.  From what the Heartstone was able to divine, the threat lies deep within the dwarven fortress of Dorn‘s Deep.~
+@59   = ~You wish to learn what came to pass within the Hand of the Seldarine?  Very well.  There is much to tell.  Shall I start with the time of prosperity, the betrayal, or our darkest hour? ~ [LARR_19]
+@60   = ~I would hear of the time of prosperity.~
+@61   = ~I would hear of the betrayal.~
+@62   = ~I would hear of the time of darkness.~
+@63   = ~If the Astrolabe has been restored, why do you still remain?~
+@64   = ~I must depart for now.  We will speak further later on.~
+@65   = ~In light of the greater threat of the orcish and goblin hordes of the North, we elves allied ourselves with the dwarves.  The alliance was a desperate one, but it was either that or fall to the dark hordes.~ [LARR_20]
+@66   = ~Continue...~
+@67   = ~I‘d like to hear the other aspects of what came to be.~
+@68   = ~Forgive me, Larrel.  I must take my leave.  I may return.~
+@69   = ~As both races prospered from our mutual cooperation, we furthered our bonds by creating powerful artifacts and weapons.  Delicate dwarven craftsmanship combined with ancient elven magic yielded items of great power and unsurpassed beauty.~ [LARR_21]
+@70   = ~With the unity of our two races wielding the magical benefits of our labor, the hordes were easily kept in check.  Our cooperation continued, and we prospered in harmony for many decades... until the betrayal.~ [LARR_22]
+@71   = ~Tell us of the betrayal.~
+@72   = ~You will need to be patient as this is a bitter subject for me.  A great debate ensued with our dwarven allies regarding the magic items created by our union.~ [LARR_23]
+@73   = ~It seems the greed inherent in all dwarves could not be contained.  They wanted to begin selling our magic items to the other settlements in the North.~ [LARR_24]
+@74   = ~Preposterous, I told them!  To allow others access to these artifacts, all for the sake of profit?  I was appalled but not surprised.  Dwarves cannot resist their selfish nature for long.~ [LARR_25]
+@75   = ~My people and I were adamant that the humans were not to have any access to any magical artifacts.  After many months of debate, the dwarves conceded, and we thought the issue done.~ [LARR_26]
+@76   = ~Then, a day came that marked the fate of both races.  Our forces encountered what we thought another typical group of the orc and goblin hordes.  What should have been an easy battle turned out to be hard-fought victory - for they were using artifacts and weapons created by the alliance.~ [LARR_27]
+@77   = ~Furious, we questioned the dwarves about this.  No elf would ever give our greatest treasures to a hated enemy.  The dwarves, of course, denied our accusations.  In honor of our alliance through the decades, we extended our trust further and tried to come to some solution.~ [LARR_28]
+@78   = ~We were fools to believe we could co-exist with these rock eaters.  Any and all discussions just turned into open argument and further accusations.  Did the dwarves think we‘d be stupid enough to assume that the artifacts just magically appeared in the Horde‘s camps?~ [LARR_30]
+@79   = ~As to be expected, open conflict broke out.  The decades of friendship and prosperity ended that day.  The alliance was no more.  On that day, the elves of the Hand of the Seldarine were alone against the dwarves and the goblinoid hordes.~ [LARR_32]
+@80   = ~Centuries ago, the Hand of the Seldarine waged war with the dark hordes encroaching on the North.  This war waged for decades and towards the end, we found ourselves in a losing position.~ [LARR_33]
+@81   = ~The tide of war was against us.  Our forces were diminishing slowly but surely after every conflict.  We were isolated from the rest of the elves south of us.  With no support from our brothers and sisters and impending doom at our doorstep, I became desperate.~ [LARR_34]
+@82   = ~I concocted a plan to protect my people and buy us some time.   Ancient elven magic speaks of a spell used in days of old, named the ‘Mythal‘.  This Mythal embodies the land with a living and protective life force personifying all that is elven.~ [LARR_35]
+@83   = ~This living force can also be given abilities of a protective nature.  Powers that would have kept the dark hordes away from the Hand of the Seldarine and its surrounding lands.  A chance to buy my people time and to marshal reinforcements from our southern brothers and sisters.~ [LARR_36]
+@84   = ~Some say believing we had the power to bestow such magic was arrogance.  Others would say using the Mythal in such a way was blasphemous.  I stand by my decision.  I did what I had to do to save my people.  We began the preparations to lay a Mythal.~ [LARR_37]
+@85   = ~In the weeks that came to pass, we fortified what remained of our forces within the Hand.  My wizards and I locked ourselves within this tower and began the arduous process of laying a Mythal.    ~ [LARR_38]
+@86   = ~Within this time, the orcs and goblins sensed our weakened state and moved in for the kill.  The largest force we had ever seen besieged the Hand and the Mythal was not near completion.  We knew this was our last stand, and my people knew they *had* to buy time.~ [LARR_39]
+@87   = ~For a week, we held the horde back.  Entrenched in our home, my people fought and the horde paid dearly for every room of the Hand they took.  For every elf that fell, the horde paid tenfold.  For all the sacrifices my people made, the last line was breached in a week‘s time.~ [LARR_40]
+@88   = ~As the horde began ascending the towers and the last of the defenders fell, I realized my people‘s sacrifice was not made in vain.  We completed the last incantations for the Mythal.  The spell was cast and a shroud of pure light and energy engulfed the Hand.~ [LARR_41]
+@89   = ~As I watched what I thought was our salvation enter every crevice of the Hand, I became horrified.  Something had gone terribly wrong!  The force that was supposed to bring life to the land began to twist and corrupt it.  It was draining everything and everyone within the Hand... of its soul.~ [LARR_42]
+@90   = ~I watched as every living thing within the Hand of the Seldarine had its life drained to the brink of death, driving them mad.  Those who died in the battle began to rise as hideous undead.~ [LARR_43]
+@91   = ~It was at this point where I realized I wasn‘t the only one watching the rampant destruction of the Hand and all within.  Standing before me was Labelas Enoreth, the elven god of longevity and time.~ [LARR_44]
+@92   = ~He was angry with me.  Angry as he saw the most ancient of elven magic used with carelessness.  Angry as he watched the lives and the land of his people being unnaturally twisted.  Angry that my pride and arrogance lead to the breakdown of the union between the elves and the dwarves.~ [LARR_45]
+@93   = ~Severed Hand.
+
+Larrel told us the sad tale of their darkest hour.  In it, he detailed the losing conflict with the dark horde, the desperate plan to use the Mythal, the aftermath of its failed attempt, Labelas‘ anger, and the punishment bestowed upon him.~
+@94   = ~I was transformed into a Baelnorn.  My punishment was to watch over the ruins of the Hand of the Seldarine and its people.  Cursed forever - until the Astrolabe was restored by putting my people to proper rest.~ [LARR_46]
+@95   = ~You have returned.~ [LARR_47]
+@96   = ~Larrel, we found this diary belonging to your daughter.~
+@97   = ~Larrel, can you take us to Kuldahar?~
+@98   = ~Larrel, I have some questions about the astrolabe and of the research that you were doing before the Hand fell.~
+@99   = ~And we will return again.  Farewell.~
+@100  = ~As simple as that question is, I do not have an answer.  Perhaps there are other elves here that need my help to return to Arvandor.  Maybe there is something else I need to resolve in order to complete my punishment.~ [LARR_48]
+@101  = ~I hope you find peace, Larrel. Farewell.~
+@102  = ~My beloved daughter... I see you were thorough in your search of the Hand.  The last entries describe her resolve to find a way to reforge the union with those accursed dwarves.  I never saw her again...~ [LARR_49]
+@103  = ~You never saw her again?  What became of her?~
+@104  = ~I grieve for your loss, Larrel.  I will leave you be.~
+@105  = ~FOOLS!  Can you not discern it with your own mind?!  Those dwarves committed the worst atrocity knowing its impact on me!  They murdered my daughter!  For that I will NEVER forgive them.  For the punishment I suffered for my arrogance and pride, Labelas be damned if he thinks I will forgive them for what they did!  I would stay in this cursed form, never to see Arvandor, if it meant I could make the dwarves pay for their crime.  LEAVE NOW!  I WILL NOT SPEAK OF THIS ANYMORE!~ [LARR_50]
+@106  = ~Once again, I am humbled by the mistakes I made when I was alive.  I am a fool.  The dwarves did not murder my daughter.  She fought side by side with the dwarves, as did I in a time almost forgotten, until the end.  Evayne died as one of the greatest heroes of the Hand.  Once again, you have my eternal gratitude.  If you‘ll excuse me, I have much to contemplate.~ [LARR_51]
+@107  = ~Of course.  Farewell, Larrel.~
+@108  = ~It is good to see you again.~ [LARR_52]
+@109  = ~How goes your state of contemplation?~
+@110  = ~As it is to see you, Larrel.  Farewell.~
+@111  = ~For the first time in many centuries, I remember what it feels like to be at peace.  I thank you for giving that back to me.  I will remain here in the Hand to ensure that any elves left here will make it to the afterlife.  Perhaps then, Labelas will grant me passage to Arvandor.~ [LARR_53]
+@112  = ~It is good to hear. Larrel, could you now take us to Dorn‘s Deep?~
+@113  = ~It is good to see you are doing well. We are on our way back to Kuldahar and could use your assistance for the journey.~
+@114  = ~Farewell, Larrel.~
+@115  = ~Even if Labelas‘ curse had taken my eyesight, I would still recognize that hole.  What you have seen is Dorn‘s Deep, den of the betrayers.  In here is where the wretched dwarves hollowed out their home.~ [LARR_54]
+@116  = ~Be warned if your journey takes you there.  If any of the dwarves remain, expect no quarter, for they will give none.  Believe none of their lies, as they will all lead to treachery.~ [LARR_55]
+@117  = ~One other thing before we depart.  We came upon this diary belonging to your daughter.~
+@118  = ~Larrel, take us to Dorn‘s Deep.~
+@119  = ~I am sorry adventurer, but my power is sorely limited at present. If you wish to travel to Dorn‘s Deep, then you must find your own way, or return at a later time when I am fully restored.~
+@120  = ~Actually, we need to re-supply before we can continue our journey. Could you take us to Kuldahar instead?~
+@121  = ~Larrel, then I have some questions about the astrolabe and of the research that you were doing before the Hand fell.~
+@122  = ~Not right now. I have some unfinished business I‘d like to attend to. Farewell.~
+@123  = ~My research... it was not mine alone, for there were a number of us engaged in our studies of the skies and its stars. What is it you wish to know?~
+@124  = ~Did your research uncover the possibility of travel through time Larrel... say to the future?~
+@125  = ~Is it possible do you think, that the astrolabe can be used to travel to another time Larrel?~
+@126  = ~I can if that is your wish adventurer and... is it also your wish that you travel now?~
+@127  = ~What a wonderful notion adventurer! Of course, I have no idea! Speak with Geralith, it was he who built it and he would be the one to know.~
+@128  = ~I have spoken with Geralith and he said that I should speak with you.~
+@129  = ~Geralith told me that he built it in order to aid you in your research but he has no idea if it is capable of anything more.~
+@130  = ~Let me confer with Geralith, we will put our heads together and see what we come up with, but first tell me, why should I want to make such a machine? Neither the past nor the future is of interest to me anymore.~
+@131  = ~As fantastic as it may sound to you, but I was transported to this time, when I entered a portal which was situated 100 years from now in the future and now, I am looking for a means to return.~
+@132  = ~I am not of this time, where I am from is not important but I believe your astrolabe could be instrumental in getting me back to my time.~
+@133  = ~I have helped to bring order to what was chaos in this forsaken tower of yours and now I ask that you aid me in returning me to my own time, 100 years into the future.~
+@134  = ~Fascinating... fascinating I must say! There was a time when I would have been intrigued by your story but as I have said, I am no longer concerned with what has gone or what is yet to come. I will speak with Geralith and see what needs to be done if we are to get you home.~
+@135  = ~Adventurer... I have news. When first I spoke to Geralith of all that I had learnt with the aid of the astrolabe, he was certain that it could not be modified and used for the purpose you asked but he said he would look once more into the machine‘s workings. It was then he got very excited and...~ [mute]
+@136  = ~Search for the Heartstone Gem.
+
+We have agreed to search for a missing druidic artifact called the Heartstone Gem. Apparently, it was stolen from the druids of Kuldahar years ago by one of their own. Arundel believes that it might be located within a temple that lies in a canyon far to the east of Kuldahar. We are to travel to this temple and discover if the Heartstone is indeed there. If it is, we are to return it to Arundel so that he may use its power to divine the location of the true evil behind the disturbances in the pass.~
+@137  = ~Search for the Heartstone Gem.
+
+Our search for the Heartstone Gem continues. Arundel has managed to piece together the possible location of the Gem from the clues we discovered at the temple. We are to journey to the volcanic caverns known as Dragon‘s Eye and discover the identities of the mysterious thieves who sacked the temple and stole the Gem. Hopefully, the artifact is still in their possession.~
+@138  = ~Vale of Shadows.
+
+We killed Lysan, the Auril priestess, and returned to Kresselack. Unfortunately, all Kresselack could tell us was that neither he or nor anyone in the Vale of Shadows was responsible for the evil plaguing Kuldahar. It seems we will need to go back to Arundel and inform him of this. Perhaps he will have a clue as to what we should do next.~
+@139  = ~As you wish adventurer...~
+@140  = ~If you do decide to venture forth to that dwarven vestige of evil, adventurer, I have the power to take you there if you wish.~ [LARR_56]

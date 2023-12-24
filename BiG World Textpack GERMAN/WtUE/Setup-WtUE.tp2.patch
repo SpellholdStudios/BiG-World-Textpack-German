@@ -1,0 +1,14 @@
+--- Setup-WtUE.tp2	Fri Mar 18 17:50:59 2005
++++ C:\BWP Patchstudio\patched Text files\Setup-WtUE.tp2	Wed Sep 24 05:39:14 2008
+@@ -17,8 +17,9 @@
+ AUTHOR ~SConrad (seb@sconrad.net)~
+ 
+ // Languages.
+-LANGUAGE "English (British)"                 "English" ~WtUE/Translations/English/Setup.tra~
+-         "Spanish (Traducido por Clan DLAN)" "Spanish" ~WtUE/Translations/Spanish/Setup.tra~
++LANGUAGE ~English (British)~ ~English~ ~WtUE/Translations/English/Setup.tra~
++LANGUAGE ~Spanish (Traducido por Clan DLAN)~ ~Spanish~ ~WtUE/Translations/Spanish/Setup.tra~
++LANGUAGE ~German~ ~German~ ~WtUE/Translations/German/Setup.tra~
+ 
+ // ------------------------------------------------------------------------------------------------------------------------
+ // General

@@ -1,0 +1,10 @@
+--- TS\bgtdlg\KIOTSI.D	Mon Nov 15 16:33:20 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\KIOTSI.D	Thu May 05 10:44:55 2016
+@@ -1,6 +1,6 @@
+ BEGIN ~KIOTSI~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~I see it's my job to finish you off? Wonderful! I was looking forward to it!~
++  SAY @0
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END

@@ -1,0 +1,20 @@
+--- TS\baf\AltEarth.baf	Thu Dec 30 15:38:49 2004
++++ C:\BWP Patchstudio\patched files\TS\baf\AltEarth.baf	Mon Oct 03 15:10:42 2016
+@@ -5,7 +5,7 @@
+ 	Range(LastTrigger,9)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~This altar requires a key of some sort.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF
+@@ -27,7 +27,7 @@
+ 	Global("VP_EarthAltar","GLOBAL",1)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~There is nothing else to do with this altar.~)
++		DisplayString(Myself,@1)
+ END
+ 
+ IF

@@ -1,0 +1,18 @@
+--- TS\bgtdlg\LULU.D	Mon Nov 15 16:33:22 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\LULU.D	Thu May 05 10:44:56 2016
+@@ -1,13 +1,13 @@
+ BEGIN ~LULU~ 74285
+ 
+ IF ~Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 0
+-  SAY ~Yoshimo-san, I'm happy you've returned home.~
++  SAY @0
+   IF ~True()~ THEN EXIT
+ END
+ 
+ IF ~OR(2)
+ !InPartySlot(LastTalkedToBy,0)
+ !Name("Yoshimo",LastTalkedToBy)~ THEN BEGIN 1
+-  SAY ~Greetings to you. I am Lulu.  I am always pleased to meet one of my brother's associates.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END

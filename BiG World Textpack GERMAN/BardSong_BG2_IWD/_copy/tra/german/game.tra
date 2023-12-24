@@ -1,0 +1,147 @@
+@1  = ~Bard Song Switching Patch für BG2 V3.0~
+@6 = "Beherrscht"
+@7 = "Verwirrt"
+@8 = "Verlangsamt"
+@9 = "Bewusstlos" 
+@11 = ~Bard Song Switching Patch (Keine nachklingenden Lieder)~
+@12 = ~Bard Song Switching Patch für TdB (Keine nachklingenden Lieder)~ 
+@13 = ~Bard Song Switching Patch~
+@14 = ~Bard Song Switching Patch kompatibel mit Rogue Rebalancing~ 
+@17 = ~Ursprüngliche Kit-Beschreibungen restaurieren (bei Deinstallation)~
+@20 = ~Diese Komponente benötigt TdB.~
+@21 = ~Zur Ballade von den Drei Helden wechseln~ 
+@22 = ~Zur Sage von Curran Starkherz wechseln~
+@23 = ~Zum Lied von Kaudies wechseln~ 
+@24 = ~Zu Tymoras Melodie wechseln~
+@25 = ~Zur Sehnsucht der Sirene wechseln~
+@26 = ~Zum Schlachtensänger von Sith wechseln~ 
+@31 = ~Verbessertes Bardenlied
+
+Dies ist eine mächtige Unterstützung für den Barden und seine Gefährten.
+Das Lied gibt allen Verbündeten einen Bonus von +4 auf Angriff und Schaden, -4 auf die RK, +5% Magieresistenz und Immunität gegen Schrecken, Moralisches Versagen, Verwirrung und normale Waffen.
+Während des Gesangs erhält der Barde selbst einen Extrabonus von -6 auf die RK und +5% Magieresistenz.~
+@32 = ~Verbessertes Waffenkünstlerlied
+
+Dies ist eine mächtige Unterstützung für den Waffenkünstler und seine Gefährten.
+Das Lied gibt allen Verbündeten einen Bonus von +4 auf Angriff und Schaden, -4 auf die RK, +5% Magieresistenz und Immunität gegen Schrecken, Moralisches Versagen, Verwirrung und normale Waffen.
+Während des Gesangs erhält der Waffenkünstler selbst einen Extrabonus von -1 auf die RK und +1 auf Angriff und Schaden.~ 
+@33 = ~Verbessertes Harlekinlied
+
+Dieses Lied wirkt auf alle Feinde innerhalb von 30 Fuß Entfernung. Sie müssen ein Mal pro Runde Rettungswurf gegen Zauber bestehen, sonst werden sie verlangsamt (-4 auf Rettungswurf), verwirrt (-2 auf Rettungswurf), und Rettungswurf gegen Verwandlung, sonst werden sie bewusstlos. Außerdem versagen sie zu 10% beim Ausführen von Zaubern oder Spezialfähigkeiten.~
+@34 = ~Verbessertes Skaldenlied
+
+Dies ist eine mächtige Unterstützung für den Skalden und seine Gefährten.
+Das Lied gibt allen Verbündeten einen Bonus von +4 auf Angriff und Schaden, -4 auf die RK, +2 auf alle Rettungswürfe, +5% Magieresistenz und Immunität gegen Schrecken, Betäubung, Verwirrung und normale Waffen.
+Während des Gesangs erhält der Barde selbst einen Extrabonus von -6 auf die RK und +5% Magieresistenz.~
+@35 = ~Verbessertes Lied~
+@36 = ~Zum Verbesserten Lied wechseln~ 
+@37 = ~Diese Komponente benötigt TdB mit den Bardenkit- & HLA-Berichtigungen von Rogue Rebalancing~
+@40 = ~BARDE: Der Barde gehört auch zu den Schurken, unterscheidet sich aber dramatisch vom Dieb. Seine Stärke ist seine angenehme und charmante Persönlichkeit. Er schlägt sich mit seinem Charme und seinem Witz durch die Welt. Ein Barde ist ein talentierter Musiker und eine lebende Schatztruhe, randvoll gefüllt mit Legenden, abenteuerlichen Geschichten und Gerüchten. Der Barde schnappt von allem ein wenig auf und ist so in den meisten Dingen bewandert, ohne aber je etwas wirklich zu meistern. Es gibt zwar etliche Barden, die Halunken sind, aber normalerweise ist er Barde mit seinen Geschichten und Liedern überall ein gern gesehener Gast. Die Auswirkungen des Bardenlieds verändern sich mit der Stufe:
+
+1. Stufe: Die Ballade von den Drei Helden: +1 Bonus auf Treffer und -1 Bonus auf alle Rettungswürfe.
+1. Stufe: Die Sage von Curran Starkherz: Immunität gegen Furcht und Moralisches Versagen..
+5. Stufe: Das Lied von Kaudies: Immunität gegen alle Schall-Effekte wie Stille, Betäubung und Taubheit.
+10. Stufe: Tymoras Lied: +1 Bonus auf Glück, +3 auf alle Rettungswürfe, +10 auf Sagenkunde und alle Diebesfertigkeiten.
+15. Stufe: Die Sehnsucht der Sirene: Feinde innerhalb von 30 Fuß werden bezaubert, außer ihnen gelingt ein Rettungswurf gegen Zauber. Geistlose Wesen wie Golems oder Skelette bleiben davon unberührt.
+20. Stufe: Der Schlachtensänger von Sith: RK-Bonus -2, +10% Resistenz gegen physischen Schaden, pro Runde werden 3 LP regeneriert.~ 
+@41 = ~WAFFENKÜNSTLER: Der Waffenkünstler ist ein geschulter Kämpfer und erfahrener Abenteurer. Seine Fähigkeiten als Barde sorgen dafür, dass er noch einschüchternder und furchterregender wirkt. Wenn es eine angeberische Art gibt, eine Waffe zu führen und mit ihr umzugehen, dann kennt sie ein Waffenkünstler besser als jeder andere. Waffenkünstler stellen ihr Geschick und ihrer Körperbeherrschung häufig in atemberaubender Weise zur Schau, wenn sie verschiedenste Waffen mit tödliche Präzision um ihren Körper herumwirbeln. Ihre Klingen sind immer in perfektem Zustand und auf Hochglanz poliert, um während einer Schlacht oder einem Auftritt den größtmöglichen Effekt zu erzielen. Waffenkünstler trainieren regelmäßig den Kampf mit zwei Waffen und entwickeln so unter Umständen eine vollkommene Beidhändigkeit.
+
+Besondere Vorteile:
+- Bei "Kampfstil mit zwei Waffen" erhält die Hauptwaffe gar keinen Abzug, die Zweitwaffe nur -2 auf alle Trefferwürfe.
+- Kann für je 4 Stufen die Fähigkeiten "Angriffs- und Verteidigungswirbel" einmal täglich einsetzen
+- Angriffswirbel: Hat eine Wirkungsdauer von 24 Sekunden. Der Waffenkünstler erhält währenddessen +2 auf alle Trefferwürfe, +2 auf Schaden, einen zusätzlichen Angriff und verursacht mit jedem Treffer maximalen Schaden. Kann nicht in Verbindung mit Hast oder Verbesserter Hast verwendet werden.
+- Verteidigungswirbel: Hat eine Wirkungsdauer von 24 Sekunden. Der Waffenkünstler kann sich währenddessen nicht von der Stelle bewegen, erhält aber je Stufe einen Bonus von -1 auf die Rüstungklasse. Die maximal mögliche Rüstungsklasse beträgt -10.
+- Kann für je 10 Stufen die Fähigkeit "Waffenpräsentation" einmal täglich einsetzen.
+- Startet mit 3 Punkten in der Waffenfertigkeit "Kampfstil mit zwei Waffen".
+
+Besondere Nachteile:
+- Nur 50% des normalen Fertigkeitswertes auf Sagenkunde
+- Nur 50% des normalen Fertigkeitswertes auf Taschendiebstahl
+- Das Kampflied ist nicht so mächtig wie das anderer Barden.
+- Der Waffenkünstler kann weniger Lieder lernen als der normale Barde:
+1. Stufe: Die Ballade von den Drei Helden: +1 Bonus auf Treffer und -1 Bonus auf alle Rettungswürfe.
+5. Stufe: Die Sage von Curran Starkherz: Immunität gegen Furcht und Moralisches Versagen..
+10. Stufe: Das Lied von Kaudies: Immunität gegen alle Schall-Effekte wie Stille, Betäubung und Taubheit.
+15. Stufe: Tymoras Lied: +1 Bonus auf Glück, +3 auf alle Rettungswürfe, +10 auf Sagenkunde und alle Diebesfertigkeiten.~ 
+@42 = ~HARLEKIN: Dieser Barde ist darin zu bewandert, dumme Späße zu machen und andere zu veralbern und zu verspotten. Er setzt seine Fähigkeiten ein, um seine Gegner zu verwirren. Meist tollt er im Kampf wild umher und verwirrt so seine Feinde. Viele Gelehrte glauben, dass Harlekins ständig am Rande des Wahnsinns leben. Es ist bekannt, dass sie leben, um Aufmerksamkeit zu erlangen, und dass sie sich nur entspannt fühlen, wenn sie im Mittelpunkt der Ereignisse stehen. Ein Harlekin muss von chaotischer Gesinnung sein, denn kein Geist, der auf Recht und Ordnung eingestellt ist, könnte solch eine merkwürdige Persönlichkeit ertragen. Aufgrund ihres eigenwilligen Kampfstils tendieren Harlekine dazu große und unhandliche Waffen zu vermeiden.
+
+Besondere Vorteile:
+- Anders als ein typisches Bardenlied gewährt das eines Harlekins Verbündeten keine Boni, sondern wirkt auf jeden Gegner im Abstand von 30 Fuß.
+1. Stufe: Gegner innerhalb von 30 Fuß Abstand müssen 1x pro Runde Rettungswurf gegen Zauber bestehen oder werden verwirrt (+4 auf Rettungswurf).
+5. Stufe: Gegner innerhalb von 30 Fuß Abstand müssen 1x pro Runde Rettungswurf gegen Zauber bestehen oder werden bezaubert (+2 auf Rettungswurf).
+10. Stufe: Gegner innerhalb von 30 Fuß Abstand müssen 1x pro Runde Rettungswurf gegen Zauber bestehen oder werden verlangsamt (+2 auf Rettungswurf).
+15. Stufe: Gegner innerhalb von 30 Fuß Abstand müssen 1x pro Runde Rettungswurf gegen Zauber bestehen oder werden verlangsamt (-2 auf Rettungswurf) oder verwirrt.
+20. Stufe: Gegner innerhalb von 30 Fuß Abstand müssen 1x pro Runde Rettungswurf gegen Zauber bestehen oder werden verlangsamt (-2 auf Rettungswurf) oder verwirrt und gegen Verwandlung oder werden bewusstlos (+2 auf Rettungswurf).
+
+Glück des Narren:
+- Harlekins sind leichtsinnig, närrisch und neigen zu skurrilen Entscheidungen. Dennoch scheinen sie aber eine unheimliche Fähigkeit zu besitzen, die es ihnen erlaubt in beinahe jeder Situation zu überleben. Nur wenige Mensche begreifen, dass es tatsächlich das Glück der Narren war, dass die Leben vieler Harlekins gerettet hat. Dieses besondere Merkmal gewährt dem Harlekin einen Bonus +1 auf Glück und +5% auf seine Diebesfertigkeiten.
+
+Geist des Narren:
+- Harlekins sind gegen Angriffe, die Wahnsinn verursachen, immun (Verwirrung und Bezauberung).
+
+Besondere Nachteile:
+- Keine~
+@43 = ~SKALDE: Dieser nordische Barde ist neben seinen Fähigkeiten als Barde auch ein Krieger, der über große Stärke, erstaunliche Fähigkeiten im Kampf und ein starkes Ehrgefühl verfügt. Er singt inspirierende Oden, die von epischen Schlachten und großem Heldenmut künden. Er richtet sein Leben danach aus, die Dinge, von denen er singt, auch zu erleben. Skalden sind ehrenwerte und geachtet Kriegspoeten, die die Leistungen bei jedem Angriff und jeder Schlacht im Gedächtnis behalten und sie in poetischer Form niederschreiben. Zaubersprüche hingegen sind in der Gesellschaft der Skalden beinahe unbekannt und werden auf jeden Fall mit Argwohn betrachtet. Daher ist das Zaubern für Skalden etwas schwieriger, sie müssen sich mehr anstrengen und benötigen etwas länger.
+
+Besondere Vorteile:
+- Erhält einen Bonus von +1 auf Angriffs- und Schadenswürfe mit allen Waffen
+- Das Skaldenlied unterscheidet sich vom normalen Bardenlied. Seine Auswirkungen sind von der Stufe des Skalden abhängig:
+1. Stufe:  +2 Bonus auf Angriffs- und Schadenswürfe, -2 Bonus auf die Rüstungsklasse.
+5. Stufe:  +2 Bonus auf Angriffs- und Schadenswürfe, -2 Bonus auf die Rüstungsklasse, Immunität gegen Furcht und Moralisches Versagen.
+10. Stufe:  +3 Bonus auf Angriffs- und Schadenswürfe, -3 Bonus auf die Rüstungsklasse, Immunität gegen Furcht und Moralisches Versagen.
+15. Stufe:  +4 Bonus auf Angriffs- und Schadenswürfe, -4 Bonus auf die Rüstungsklasse, Immunität gegen Furcht und Moralisches Versagen.
+20. Stufe: +4 Bonus auf Angriffs- und Schadenswürfe, -4 Bonus auf die Rüstungsklasse, Immunität gegen Furcht, Moralisches Versagen, Betäubung und Verwirrung .
+
+Besondere Nachteile:
+- Nur 25% des normalen Fertigkeitswertes auf Taschendiebstahl~ 
+@50 = ~BARDE: Der Barde gehört auch zu den Schurken, unterscheidet sich aber dramatisch vom Dieb. Seine Stärke ist seine angenehme und charmante Persönlichkeit. Er schlägt sich mit seinem Charme und seinem Witz durch die Welt. Ein Barde ist ein talentierter Musiker und eine lebende Schatztruhe, randvoll gefüllt mit Legenden, abenteuerlichen Geschichten und Gerüchten. Der Barde schnappt von allem ein wenig auf und ist so in den meisten Dingen bewandert, ohne aber je etwas wirklich zu meistern. Es gibt zwar etliche Barden, die Halunken sind, aber normalerweise ist er Barde mit seinen Geschichten und Liedern überall ein gern gesehener Gast.~
+@51 = ~WAFFENKÜNSTLER: Der Waffenkünstler ist ein geschulter Kämpfer und erfahrener Abenteurer. Seine Fähigkeiten als Barde sorgen dafür, dass er noch einschüchternder und furchterregender wirkt. Wenn es eine angeberische Art gibt, eine Waffe zu führen und mit ihr umzugehen, dann kennt sie ein Waffenkünstler besser als jeder andere. Waffenkünstler stellen ihr Geschick und ihrer Körperbeherrschung häufig in atemberaubender Weise zur Schau, wenn sie verschiedenste Waffen mit tödliche Präzision um ihren Körper herumwirbeln. Ihre Klingen sind immer in perfektem Zustand und auf Hochglanz poliert, um während einer Schlacht oder einem Auftritt den größtmöglichen Effekt zu erzielen. Waffenkünstler trainieren regelmäßig den Kampf mit zwei Waffen und entwickeln so unter Umständen eine vollkommene Beidhändigkeit.
+
+Besondere Vorteile:
+- Kann für je 4 Stufen die Fähigkeiten "Angriffs- und Verteidigungswirbel" einmal täglich einsetzen
+- Angriffswirbel: Hat eine Wirkungsdauer von 24 Sekunden. Der Waffenkünstler erhält währenddessen +2 auf alle Trefferwürfe, +2 auf Schaden, einen zusätzlichen Angriff und verursacht mit jedem Treffer maximalen Schaden. Kann nicht in Verbindung mit Hast oder Verbesserter Hast verwendet werden.
+- Verteidigungswirbel: Hat eine Wirkungsdauer von 24 Sekunden. Der Waffenkünstler kann sich währenddessen nicht von der Stelle bewegen, erhält aber je Stufe einen Bonus von -1 auf die Rüstungklasse. Die maximal mögliche Rüstungsklasse beträgt -10.
+- Kann für je 10 Stufen die Fähigkeit "Waffenpräsentation" einmal täglich einsetzen
+- Kann 3 Punkte an die Waffenfertigkeit im "Kampfstil mit zwei Waffen" vergeben
+
+Besondere Nachteile:
+- Nur 50% des normalen Fertigkeitswertes auf Sagenkunde
+- Nur 50% des normalen Fertigkeitswertes auf Taschendiebstahl
+- Bardenlieder verbessern sich nicht mit steigender Stufe~
+@52 = ~HARLEKIN: Dieser Barde ist darin zu bewandert, dumme Späße zu machen und andere zu veralbern und zu verspotten. Er setzt seine Fähigkeiten ein, um seine Gegner zu verwirren. Meist tollt er im Kampf wild umher und verwirrt so seine Feinde. Viele Gelehrte glauben, dass Harlekins ständig am Rande des Wahnsinns leben. Es ist bekannt, dass sie leben, um Aufmerksamkeit zu erlangen, und dass sie sich nur entspannt fühlen, wenn sie im Mittelpunkt der Ereignisse stehen. Ein Harlekin muss von chaotischer Gesinnung sein, denn kein Geist, der auf Recht und Ordnung eingestellt ist, könnte solch eine merkwürdige Persönlichkeit ertragen. Aufgrund ihres eigenwilligen Kampfstils tendieren Harlekine dazu große und unhandliche Waffen zu vermeiden.
+
+Besondere Vorteile:
+- Anders als ein typisches Bardenlied gewährt das eines Harlekins Verbündeten keine Boni, sondern wirkt auf jeden Gegner im Abstand von 30 Fuß. Alle Gegner müssen je Runde einen Rettungswurf gegen Magie +4 bestehen oder werden verwirrt.
+
+Besondere Nachteile:
+- Keine~
+@53 = ~SKALDE: Dieser nordische Barde ist neben seinen Fähigkeiten als Barde auch ein Krieger, der über große Stärke, erstaunliche Fähigkeiten im Kampf und ein starkes Ehrgefühl verfügt. Er singt inspirierende Oden, die von epischen Schlachten und großem Heldenmut künden. Er richtet sein Leben danach aus, die Dinge, von denen er singt, auch zu erleben. Skalden sind ehrenwerte und geachtet Kriegspoeten, die die Leistungen bei jedem Angriff und jeder Schlacht im Gedächtnis behalten und sie in poetischer Form niederschreiben. Zaubersprüche hingegen sind in der Gesellschaft der Skalden beinahe unbekannt und werden auf jeden Fall mit Argwohn betrachtet. Daher ist das Zaubern für Skalden etwas schwieriger, sie müssen sich mehr anstrengen und benötigen etwas länger.
+
+Besondere Vorteile:
+- Erhält einen Bonus von +1 auf Angriffs- und Schadenswürfe mit allen Waffen
+- Das Skaldenlied unterscheidet sich vom normalen Bardenlied. Seine Auswirkungen sind von der Stufe des Skalden abhängig:
+1. Stufe:  +2 Bonus auf Angriffs- und Schadenswürfe, -2 Bonus auf die Rüstungsklasse.
+5. Stufe:  +2 Bonus auf Angriffs- und Schadenswürfe, -2 Bonus auf die Rüstungsklasse, Immunität gegen Furcht und Moralisches Versagen.
+10. Stufe:  +4 Bonus auf Angriffs- und Schadenswürfe, -4 Bonus auf die Rüstungsklasse, Immunität gegen Furcht und Moralisches Versagen.
+15. Stufe: +4 Bonus auf Angriffs- und Schadenswürfe, -4 Bonus auf die Rüstungsklasse, Immunität gegen Furcht, Moralisches Versagen, Betäubung und Verwirrung .
+
+Besondere Nachteile:
+- Nur 25% des normalen Fertigkeitswertes auf Taschendiebstahl~
+@59 = ~Nachklingendes Lied~
+@60 = ~Nachklingendes Lied
+
+Lässt alle Bardenlieder 2 Runden länger wirken~
+@61 = ~Die Ballade von den Drei Helden - nachklingend~
+@62 = ~Die Sage von Curran Starkherz - nachklingend~
+@63 = ~Das Lied von Kaudies - nachklingend~
+@64 = ~Tymoras Melodie - nachklingend~
+@65 = ~Die Sehnsucht der Sirene - nachklingend~
+@66 = ~Der Schlachtensänger von Sith - nachklingend~
+@67 = ~Verbessertes Lied - nachklingend~
+
+@71 = "Die Ballade der drei Helden, die den Effekt von +1 auf Treffer, +1 auf Schaden und +1 auf alle Rettungswürfe hat."
+@72 = "Die Geschichte von Curran Strongheart, die Immunität gegen Angst und Moralbruch verleiht."
+@73 = "Das Lied von Kaudies, das Immunität gegen alle Geräuscheffekte wie Stille, Taubheit und alle Machtwörter verleiht."
+@74 = "Tymoras Melodie, die den Effekt von +1 Glück, +3 auf alle Rettungswürfe, +10 auf Wissen und Diebesfähigkeiten hat."
+@75 = "Die Sehnsucht der Sirene, die Feinde in 9 m Entfernung in ihren Bann zieht, es sei denn, es gelingt einen Rettungswurf gegen einen Zauber. Wirkt sich NICHT auf hirnlose Feinde aus, z. B. Golems und Skelette."
+@76 = "Der Kriegsgesang der Sith, der den Effekt von Rüstung-2 hat, +10 % Widerstand gegen physischen Schaden und 3 Trefferpunkte pro Runde regeneriert."

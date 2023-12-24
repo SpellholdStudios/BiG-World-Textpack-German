@@ -1,0 +1,11 @@
+--- NeJ2\baf\TuAlert4.baf	Mon Jan 19 16:45:54 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\TuAlert4.baf	Wed Apr 10 10:31:34 2019
+@@ -5,7 +5,7 @@
+ 	!Dead("Bartlemy")
+ THEN
+ 	RESPONSE #100
+-		DisplayString("Bartlemy",~How dare you are to steal my stuff!~)
++		DisplayString("Bartlemy",@0)
+ 		ActionOverride("Bartlemy",Enemy())
+ 		ActionOverride("TuPung",Enemy())
+ END

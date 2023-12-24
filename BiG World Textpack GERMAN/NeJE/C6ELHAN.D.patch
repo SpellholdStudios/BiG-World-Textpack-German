@@ -1,0 +1,13 @@
+--- NeJE\dlg\C6ELHAN.D	Fri Mar 30 02:54:42 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\C6ELHAN.D	Tue Apr 09 19:35:35 2019
+@@ -1,6 +1,6 @@
+ EXTEND_BOTTOM C6ELHAN2 70
+-  IF ~PartyHasItem("misc7l")~ THEN REPLY ~Elhan! I've the half vampire body of Valygar here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
+-  IF ~PartyHasItem("miscbsim")~ THEN REPLY ~Elhan! I've the half vampire body of Sime here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
+-  IF ~PartyHasItem("miscbkel")~ THEN REPLY ~Elhan! I've the half vampire body of Keldorn here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
+-  IF ~PartyHasItem("miscblei")~ THEN REPLY ~Elhan! I've the half vampire body of Leina here because of you! You'll tell me now!~ EXTERN C6ELHAN 76
++  IF ~PartyHasItem("misc7l")~ THEN REPLY @0 EXTERN C6ELHAN 76
++  IF ~PartyHasItem("miscbsim")~ THEN REPLY @1 EXTERN C6ELHAN 76
++  IF ~PartyHasItem("miscbkel")~ THEN REPLY @2 EXTERN C6ELHAN 76
++  IF ~PartyHasItem("miscblei")~ THEN REPLY @3 EXTERN C6ELHAN 76
+ END

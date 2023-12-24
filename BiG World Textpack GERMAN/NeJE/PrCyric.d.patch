@@ -1,0 +1,29 @@
+--- NeJE\dlg\PrCyric.d	Fri Apr 22 15:40:43 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\PrCyric.d	Tue Apr 09 19:37:05 2019
+@@ -1,22 +1,22 @@
+ BEGIN ~PRCYRIC~
+ 
+ IF ~~ THEN BEGIN 0
+-	SAY ~We can not breach their defences, sir.~
++	SAY @0
+ 		IF ~~ THEN EXTERN ~ZORNNAG~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-	SAY ~As far as I know, it is the lord of the castle, count Firecam, senior officer of the Order of Radiant Heart.~
++	SAY @1
+ 		IF ~~ THEN EXTERN ~ZORNNAG~ 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-	SAY ~Kill him, sir... But that will only cause an uprising...~
++	SAY @2
+ 		IF ~~ THEN EXTERN ~ZORNNAG~ 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-	SAY ~Yes sir. Consider it done sir! ~
++	SAY @3
+ 		IF ~~ THEN DO ~ClearAllActions()
+ 		StartCutSceneMode()
+ 		StartCutScene("KRCut09")~ EXIT

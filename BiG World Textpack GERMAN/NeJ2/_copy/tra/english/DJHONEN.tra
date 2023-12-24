@@ -1,0 +1,83 @@
+@0    = ~Hmmmm... eh?  Oh!  Sorry, friend... I didn't see you standing there.  Name's Jhonen.  Something I can do for you?~
+@1    = ~Are you all right?  You seem preoccupied.~
+@2    = ~I'm surprised you saw me as deep into day-dreaming as you seem to be.  Your time might be better spent fishing in the lake than in your dreams.~
+@3    = ~Sorry for disturbing you.  I'll take my leave.~
+@4    = ~Hmmm... eh?  Oh, greetings to you again.  Forget something last time we spoke?~
+@5    = ~Jhonen, I think I found the reason for those dreams you're having.  ~
+@6    = ~Jhonen, I think I found the reason for those dreams you're having.  It was a sea spirit by the shore, and I drove her away.~
+@7    = ~Well, I was curious:  are you all right?  You seem preoccupied...  even more so than when we last talked.~
+@8    = ~You're one to speak of forgetfulness, considering how deep into day-dreams you seem to be.  Your time might be better spent fishing in the lake than in your dreams.~
+@9    = ~No, not at all.  Sorry for disturbing you.  Farewell.~
+@10   = ~No, no, I'm fine - just taking in the view of the lake for a bit, trying to shake these dreams out of my head... the lake's beautiful, isn't it?  ~
+@11   = ~Ah, it is indeed.  Many a song has been written about light upon a lake's mirror.  It's like looking into the sky, isn't it?~
+@12   = ~Dreams?  Usually those fade upon waking, friend.  Mayhap a day's worth of fishing will chase them away.~
+@13   = ~I must take my leave.  Farewell.~
+@14   = ~Well, perhaps so, but my luck's not been what it has been in the past.  I head farther out, but there's no fish to be found.  Even my dreams have been troubled by it.  ~
+@15   = ~What kind of dreams?~
+@16   = ~I must take my leave. Farewell.~
+@17   = ~Aye, you've hit on the head, you have!  Songs, you say?  Odd you should mention that; I've heard many a song in my dreams - mayhap it's part of a snippet I heard once before.  Would you know of it if I were to hum a few bars?~
+@18   = ~I may... my repertoire is somewhat limited, but go ahead.~
+@19   = ~As long as you don't mangle the tune too badly, I might.  Just be sure to stop when I tell you to.~
+@20   = ~It's kind of a hmmmnnn... srnnnn... srnnnn... ha-nnnnn... and then - it's... it's like -- damn, I can't quite get it!  And I hear it so clearly in my dreams, too; the tune's like crystal.~
+@21   = ~No, no, I think I recognize the general tone.  It's definitely not a human verse, though - the "srrnnn-srnnn" tempo there is more like ocean waves and currents - like sea elves, or sirens.  And you say you've been having strange dreams, too?  Hmmmm.  Tell me about them.~
+@22   = ~Ah, well, the dreams have been fishing in *me* of late, friend.  So much so I can barely catch a wink before they rouse me from it.  A frustration it is at times; sometimes, it seems like they're more real than the waking world.~
+@23   = ~Well, there's a woman... and don't give me that eye, it's not like you think... she walks upon the surface of the lake as if it were flagstones instead of waves.  She doesn't say anything, just sings - beautiful songs, but I can't understand a word.  ~
+@24   = ~Some races that dwell beneath the sea, including the elves, don't speak as we do.  Perhaps the woman is speaking to you.  And speaking through dreams would not be beyond their talents.~
+@25   = ~The woman in your dreams is a sea spirit, Jhonen.  Her kind speak through song, which is why you couldn't understand her.~
+@26   = ~Hmmm.  I think I may have met this woman by the shores of the lake.~
+@27   = ~Well, if dreams are your only worry, Jhonen, your life can't be too bad.  Dreams should be a comfort, not a curse.~
+@28   = ~If truth be told, friend, I... th... dammit, there's no sense to it!  These dreams are eating at me like a starving wolf!  I can barely hold a daily thought in my head before the memory of the dreams hounds its way back in there.  I... by the hells, I don't know how much more of this I can take.~
+@29   = ~Hmmm.  The woman by the shore didn't seem threatening, but... well, let me see what I can do.~
+@30   = ~Hmmm.  The woman by the shore didn't seem threatening, but... well, I was forced to drive her away.  She may have been this woman from your dreams - perhaps a sea spirit.  In any event, she's gone.~
+@31   = ~If I can find some way to help you, Jhonen, I will.  I don't know how I can, but I'll see what I can find out.~
+@32   = ~Blade of Aihonen.
+
+We met a weary fisherman named Jhonen - his sleep has been plagued by dreams of a woman who walks upon the waves and sings to him.  We told him we would see what we could do to help him, but how does one drive away dreams?~
+@33   = ~Eh?  You're not playing on a man's hopes, are you?  I'd be grateful for just *one* night of peace.~
+@34   = ~The woman in your dreams was a sea spirit, Jhonen.  I drove her away; she shouldn't be bothering you anymore.~
+@35   = ~I'll see what I can do.  If I think of anything, I will return.~
+@36   = ~A... sea spirit?  Eh... what does she *want,* then?  Why the *dreams?*~
+@37   = ~She's one of the spirits of the lake that seek to lure men to their deaths, Jhonen - the dreams are "bait," if you will.  If you would be cursed with these dreams no longer, you must give up your worldly possessions and leave this town at once.  You can give your possessions to me, if you wish.  I will see that they're, uh, disposed of.~
+@38   = ~Blade of Aihonen.
+
+We told that idiot Jhonen the "cause" of his dreams, and we convinced the fool to give up all his worldly possessions and leave the town.  It only came to some knucklehead trout, a knife and some evil satisfaction, but we'll take what amusement we can in this backwater frontier town.~
+@39   = ~Her name is Elisia.  Speaking through dreams is one of the talents of her race - she speaks to you because she loved one of your ancestors and has carried a promise for him for many, many years.~
+@40   = ~Blade of Aihonen.
+
+We told Jhonen why he was plagued with dreams, and we returned to him his ancestor's blade that Elisia wished to give him.  He was dumbfounded by the gift, and he seemed more than a little sad that she would not be returning to him.  Such sadnesses are the way of people from two worlds.~
+@41   = ~Uh, she wanted me to give you a gift, but I seem to have misplaced it.  If I find it, I shall return.~
+@42   = ~One of my *ancestors?*  Why come to me, then?~
+@43   = ~Your features remind her of him, and your heart is as strong, if not stronger.  She has come to love you, but she cannot let you see her in the flesh.  She wishes to give you something that belonged to your ancestor, if you would take it.~
+@44   = ~I was fearing it was such a thing - the song in my dreams was too beautiful to be anything else but trouble!  My father raised no fool, and he told me never to try and fight the spirits that lurk in the North.  I'll hate to leave this place, but it seems I have no choice.  At least I don't have much in the way of belongings... here, take these.  Farewell... and thanks, friend.  ~
+@45   = ~Ah, some fish and a fisherman's knife.  I'll be sure these are disposed of... properly.  Now, if I were you, I'd hurry and leave, without speaking to anyone about this.  Farewell, Jhonen.~
+@46   = ~Aye, I will.  Of course I will... sorry, it's... well, it's a bit much to be laid upon a fisherman all at once.  I... well, I'd be honored to accept anything she wishes me to have.~
+@47   = ~Here you are, then.  It's the blade your ancestor used against Icasaracht, the last of the white dragon matriarchs.  It lay within the dragon's heart for almost a century at the bottom of the waters.  Carry it well and know that Elisia loves you; your dreams shall trouble you no more.~
+@48   = ~By the Spine of the World... even shattered, this blade's a wonder.  But... no more dreams, you said?  I... well, I'll miss them, actually.  Her songs... beautiful.  Simply beautiful.~
+@49   = ~I'll tell her, Jhonen.  Farewell.   ~
+@50   = ~I'm on my way.  Nothing but the clothes on my back to take me to the next town.~
+@51   = ~Good.  Just be sure *not* to speak of what occurred - the dreams may come again if you do.~
+@52   = ~Thanks again, friend.  It's like the dream dust was wiped from eyes.  I can't thank you enough for all you've done.~
+@53   = ~It was no trouble, Jhonen.  Glad I could help.~
+@54   = ~A... sea spirit?  Really?!  Many thanks to you, then... my father always warned me to be wary of creatures of the sea.  But - please, take these for your efforts.  It's all I can offer, but...~
+@55   = ~Thank you, Jhonen.  Sleep well.~
+@56   = ~Blade of Aihonen.
+
+We told Jhonen about dispatching the sea spirit by the shore.  He should be able to sleep easier now.~
+@57   = ~Stand right where you are - I don't know if you're with those giants, but if you are, you won't take me without a fight.~
+@58   = ~Calm down, we're not with the giants.  We're the last remains of Hrothgar's expedition.~
+@59   = ~You!  Thank the Gods you've returned!  I don't know what's happened, but the giants came out of nowhere - and the ice - it just - rose from the earth - and the villagers - the giants herded them up, and - and --~
+@60   = ~Calm down.  Where were the villagers taken?  ~
+@61   = ~Calm down, Jhonen.  Where were the villagers taken?  ~
+@62   = ~I've freed the villagers.  You should seek safety as well.  There's nothing more you can do here.~
+@63   = ~They took them to a camp - they tore timbers out of the buildings and used them as a stockade in the southeast corner of town, on the island.  I don't know if they're okay --~
+@64   = ~I've freed them and spoken to Everard.  I'm looking for a way to get into the tower.  You should seek safety as well.  There's nothing more you can do here.~
+@65   = ~I'll see what I can do.  I think I may have to deal with that tower first.~
+@66   = ~One of the villagers in destroyed Easthaven, Jhonen, told me the rest of the villagers are being held in a stockade in the southeast section of town.  He said the high priest of the town, Everard, was among them and that Everard might know a way into the huge tower of ice.~
+@67   = ~You have to free the villagers!  Everard's among them, and he may know of a way into the tower - I saw the giants drag him into the tower, then return him to the camp - I don't even know if he was breathing...~
+@68   = ~I'll seek him out, then.  You should seek safety now; there's nothing more you can do here.~
+@69   = ~There is one thing I can do - that blade you brought me, so long ago?  It's... healed.  I simply fell asleep with it on the table beside me one night - and in the dream, it melted together again.  When I awoke; it was restored.  I want you to use it.  Use it to defend Easthaven from these monsters.~
+@70   = ~I will, Jhonen.  ~
+@71   = ~Thank you - please be careful.  That tower - there's something *evil* within it; I can feel the hate from here, it's like waves streaming off the tower.~
+@72   = ~Jhonen, whatever's in that tower has *never* met an evil like me.  It's the one that'll need to careful.~
+@73   = ~I'll watch myself.  Take care, Jhonen.~
+@74   = ~I'm going to head to the outskirts of town.  Please be careful - there are giants everywhere.~

@@ -1,0 +1,11 @@
+--- NeJ3\baf\WTIPTRAP.baf	Mon Mar 24 17:26:15 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\WTIPTRAP.baf	Wed Apr 10 10:34:16 2019
+@@ -9,7 +9,7 @@
+ 	Global("MAP_GROUP_HOSTILE1","MYAREA",0)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(LastTrigger,~The frost giants have noticed you!~)
++		DisplayString(LastTrigger,@0)
+ 		Wait(1)
+ 		SetGlobal("MAP_GROUP_HOSTILE1","MYAREA",1)
+ END

@@ -1,0 +1,64 @@
+--- Bdash\cromwell\rWSMITH.d	Sat Apr 16 22:30:36 2016
++++ C:\BWP Patchstudio\patched files\Bdash\cromwell\rWSMITH.d	Wed May 04 07:21:05 2016
+@@ -396,15 +396,15 @@
+ APPEND ~WSMITH01~
+ 
+ IF ~AreaCheck("AR1603")~ THEN BEGIN N1 // from:
+-  SAY ~A good <DAYNIGHTALL> to ye, me friend.  Good to see ye here in Brynnlaw.~
++  SAY @0
+   IF ~!Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY #59658 /* ~Who are you?~ */ GOTO 1
+   IF ~~ THEN REPLY #59659 /* ~What do you have for sale, here?~ */ GOTO 2
+-  IF ~Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY ~Cromwell? What are you doing here?~ GOTO N2
++  IF ~Global("VP_Know_Cromwell","GLOBAL",1)~ THEN REPLY @1 GOTO N2
+   IF ~~ THEN REPLY #59661 /* ~No thanks.  I'll be on my way.~ */ GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN N2
+-  SAY ~Visiting me human friend and apprentice. Be there something that ye need?~
++  SAY @2
+   IF ~Global("TalkedToCromwell","LOCALS",0)~ THEN REPLY #59803 /* ~What sorts of things do you forge here?~ */ GOTO 8
+   IF ~Global("TalkedToCromwell","LOCALS",0)~ THEN REPLY #59799 /* ~What do you have for sale, here?~ */ GOTO 2
+   IF ~Global("TalkedToCromwell","LOCALS",1)~ THEN REPLY #59800 /* ~What sorts of things would you need in order to make something?~ */ GOTO 11
+@@ -424,34 +424,34 @@
+ END
+ 
+ IF ~~ THEN BEGIN R2
+-  SAY ~It be rithtellium, aye? A very rare metal, indeed. Wonder where ye've got it? If ye ever get ahold of an enhanted mace or sword, a coating of rithtellium would improve it vastly.~
++  SAY @3
+   IF ~~ THEN REPLY #59768 /* ~No, I don't think so.  Anything else of use?~ */ GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN R3
+-  SAY ~Ye've rithtellium there, aye?  And an enhanted weapon, as well. I could apply a coating and improve it greatly.~
+-  IF ~PartyHasItem("blun33")~ THEN REPLY ~Please improve the mace. What's involved in that?~ DO ~SetGlobal("VP_Forge_RMace","GLOBAL",1)~ GOTO R4
+-  IF ~PartyHasItem("sw1h74")~ THEN REPLY ~Please improve the short sword. What's involved in that?~ DO ~SetGlobal("VP_Forge_RShortSw","GLOBAL",1)~ GOTO R5
+-  IF ~PartyHasItem("sw1h73")~ THEN REPLY ~Please improve the long sword. What's involved in that?~ DO ~SetGlobal("VP_Forge_RLongSw","GLOBAL",1)~ GOTO R6
++  SAY @4
++  IF ~PartyHasItem("blun33")~ THEN REPLY @5 DO ~SetGlobal("VP_Forge_RMace","GLOBAL",1)~ GOTO R4
++  IF ~PartyHasItem("sw1h74")~ THEN REPLY @6 DO ~SetGlobal("VP_Forge_RShortSw","GLOBAL",1)~ GOTO R5
++  IF ~PartyHasItem("sw1h73")~ THEN REPLY @7 DO ~SetGlobal("VP_Forge_RLongSw","GLOBAL",1)~ GOTO R6
+   IF ~~ THEN REPLY #59768 /* ~No, I don't think so.  Anything else of use?~ */ GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN R4
+-  SAY ~Only one thing, me friend. It will cost ye 25,000 gp for the work, no less.~
++  SAY @8
+   IF ~PartyGoldGT(24999)~ THEN REPLY #59775 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(25000)
+ DestroyGold(25000)~ GOTO R7
+   IF ~~ THEN REPLY #59768 /* ~No, I don't think so.  Anything else of use?~ */  DO ~SetGlobal("VP_Forge_RMace","GLOBAL",0)~ GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN R5
+-  SAY ~Only one thing, me friend. It will cost ye 25,000 gp for the work, no less.~
++  SAY @8
+   IF ~PartyGoldGT(24999)~ THEN REPLY #59775 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(25000)
+ DestroyGold(25000)~ GOTO R7
+   IF ~~ THEN REPLY #59768 /* ~No, I don't think so.  Anything else of use?~ */  DO ~SetGlobal("VP_Forge_RShortSw","GLOBAL",0)~ GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN R6
+-  SAY ~Only one thing, me friend. It will cost ye 25,000 gp for the work, no less.~
++  SAY @8
+   IF ~PartyGoldGT(24999)~ THEN REPLY #59775 /* ~That sounds fine.  Let's do it.~ */ DO ~TakePartyGold(25000)
+ DestroyGold(25000)~ GOTO R7
+   IF ~~ THEN REPLY #59768 /* ~No, I don't think so.  Anything else of use?~ */  DO ~SetGlobal("VP_Forge_RLongSw","GLOBAL",0)~ GOTO 52

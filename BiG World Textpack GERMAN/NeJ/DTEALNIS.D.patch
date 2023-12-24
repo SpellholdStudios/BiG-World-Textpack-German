@@ -1,0 +1,187 @@
+--- NeJ\Dfiles\DTEALNIS.D	Fri Aug 20 14:49:22 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DTEALNIS.D	Wed Apr 10 10:24:16 2019
+@@ -1,147 +1,90 @@
+ BEGIN ~DTEALNIS~ 8716
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Adventurers?  Heh, I never thought anyone of the living would've made it up to these parts of the Hand ever again. Nevertheless, let me present myself to you.  The name's Telanis... Telanis Songbender:  Singer EXTRAORDINARE, MASTER of the eight-string mandolin, LOVER of beautiful women, teller of GRAND tales, and best of all... MINSTREL to the Hand!  ~
+-  IF ~~ THEN REPLY ~Greetings, Telanis.  It's good to see someone that isn't hellbent on sending us to the abyss.  Why is this so?~ GOTO 1
+-  IF ~~ THEN REPLY ~Impressive reputation, Telanis.  So how much of it is true?~ GOTO 2
+-  IF ~~ THEN REPLY ~A singer, huh?  I'll be the judge of that.  Sing me a song, minstrel.~ GOTO 3
+-  IF ~~ THEN REPLY ~Perhaps I'll listen to a song of yours later.  Farewell.~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 2
++  IF ~~ THEN REPLY @3 GOTO 3
++  IF ~~ THEN REPLY @4 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Aye.  As odd as it may seem, a few of us retained some semblance of our former selves after Larrel cast his spell.  Everyone else has either gone mad or is intent on killing everything they see.~
+-  IF ~~ THEN REPLY ~How did all of this come about?~ GOTO 3
+-  IF ~~ THEN REPLY ~I must take my leave.  Farewell.~ EXIT
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 3
++  IF ~~ THEN REPLY @7 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Why, OF COURSE it's true.  All of it!  I could tell you tales of women SWOONING at my feet after reciting a few lyrics from my songs.  You see, it all has to do with this voice I was born with.  Some would say that a voice like mine could only be a gift from Corellon himself.  But I'm not one to boast.~
+-  IF ~~ THEN REPLY ~Entertain me then, bard.  Let's hear this voice that can rival Corellon himself.~ GOTO 3
+-  IF ~~ THEN REPLY ~Never in my life have I heard someone so full of himself.~ GOTO 12
+-  IF ~~ THEN REPLY ~I am taking my leave of you and your voice for now.  Farewell.~ EXIT
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 3
++  IF ~~ THEN REPLY @10 GOTO 12
++  IF ~~ THEN REPLY @11 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Let me entertain you with song and perhaps this will answer some of your questions.  Would you care for an old tale about Larrel?  Perhaps a sad tale about the union we had with our dwarven neighbors?~
+-  IF ~~ THEN REPLY ~I would hear the tale of Larrel.~ GOTO 4
+-  IF ~~ THEN REPLY ~Tell me of the elves and the dwarves.~ GOTO 8
+-  IF ~~ THEN REPLY ~Another time, minstrel.  Farewell.~ EXIT
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 4
++  IF ~~ THEN REPLY @14 GOTO 8
++  IF ~~ THEN REPLY @15 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~My tale of Larrel it is.
+-
+-In time of growth,
+-Did the elves deem so,
+-That a haven in the north be made
+-
+-They searched for one,
+-Strong of Mind,
+-Strong of Will,
+-To bear this burdensome task.~
++  SAY @16
+   IF ~~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Though the wizards were many
+-And diligence all had,
+-One of wisdom they found,
+-Larrel shined above all
+-
+-Ride did he,
+-Across frozen lands,
+-Ascending the peaks,
+-In the Spine of the World.~
++  SAY @17
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Beasts did he battle, 
+-And darkest of hordes,
+-Forthright in his quest,
+-Larrel conquered all
+-
+-Winters came,
+-Winters went,
+-Through darkest cold night,
+-The one pushed through.~
++  SAY @18
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~In midst of this tundra,
+-A place he did find,
+-Home for the elves,
+-Larrel did crown.~
+-  IF ~~ THEN REPLY ~Can you tell me the tale of the dwarves and the elves?~ GOTO 8
+-  IF ~~ THEN REPLY ~Many thanks, Telanis.  Farewell.~ EXIT
++  SAY @19
++  IF ~~ THEN REPLY @20 GOTO 8
++  IF ~~ THEN REPLY @21 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Ahhh.  The tale of the elves and the dwarves.  Tis a sad one...
+-
+-In time of strife
+-Against the dark horde
+-A friend we found
+-In the ones short and stout
+-
+-United as one
+-Our forces did fight
+-In battle we charged
+-And drove the dark back.~
++  SAY @22
+   IF ~~ THEN GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~We danced and we drank
+-With victory in hand
+-An old enemy vanquished
+-A new ally behind
+-
+-Agreement both made
+-To craft items of light
+-Weapons of Might
+-Artifacts of Power.~
++  SAY @23
+   IF ~~ THEN GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~For years upon years
+-Our bond remained strong
+-In times of prosperity
+-Even in adversity
+-
+-When the darkness returned
+-Its form we were blind
+-The dwarves had betrayed us
+-Weapons given to orc-kind.~
++  SAY @24
+   IF ~~ THEN GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Knife in back
+-Deception instead of friendship
+-That is what dwarves give
+-To those of elvenkind.~
+-  IF ~~ THEN REPLY ~Will you sing us the tale of Larrel now?~ GOTO 4
+-  IF ~~ THEN REPLY ~Many thanks, Telanis.  Farewell.~ EXIT
++  SAY @25
++  IF ~~ THEN REPLY @26 GOTO 4
++  IF ~~ THEN REPLY @21 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~How can you insult the GREAT Telanis like that?  Never let it be said that Telanis the MAGNIFICENT was an unforgiving elf.  Just apologize and we will call it even.~
+-  IF ~~ THEN REPLY ~Telanis, I humbly apologize and would hear more of your songs.~ GOTO 3
+-  IF ~~ THEN REPLY ~The only thing GREAT about you is your inability to hear.  You are an arrogant fool.~ GOTO 14
+-  IF ~~ THEN REPLY ~I think it would be best if I left.~ EXIT
++  SAY @27
++  IF ~~ THEN REPLY @28 GOTO 3
++  IF ~~ THEN REPLY @29 GOTO 14
++  IF ~~ THEN REPLY @30 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 13
+-  SAY ~I expected this.  You have returned to be entertained again by the GREAT Telanis.~
+-  IF ~~ THEN REPLY ~I would hear the song of Larrel.~ GOTO 4
+-  IF ~~ THEN REPLY ~Sing us the song of the elves and the dwarves.~ GOTO 8
+-  IF ~~ THEN REPLY ~Perhaps later, Telanis.  Farewell~ EXIT
++  SAY @31
++  IF ~~ THEN REPLY @32 GOTO 4
++  IF ~~ THEN REPLY @33 GOTO 8
++  IF ~~ THEN REPLY @34 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Begone then!  The GREAT Telanis need not bother with those who have no appreciation for song!~
++  SAY @35
+   IF ~~ THEN EXIT
+ END

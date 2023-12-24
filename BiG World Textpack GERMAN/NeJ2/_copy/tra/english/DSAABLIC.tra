@@ -1,0 +1,52 @@
+@0    = ~Proceed... no further, traveler, as... I  would... speak with you.~
+@1    = ~I didn’t realize your kind COULD speak.~
+@2    = ~Who are you?~
+@3    = ~I’m sorry, but I really must be on my way.~
+@4    = ~Greetings... again, traveler.~
+@5    = ~I have disposed of the orog chieftain and acquired his badge. ~
+@6    = ~I have disposed of the orog chieftain.~
+@7    = ~How is it that you are speaking to me?~
+@8    = ~I’m just passing by.~
+@9    = ~I... am not what... you see.  I... was a master... transmuter.  A red... wizard of Thay.  My knowledge... vast and... aruu...~
+@10   = ~You were a wizard?~
+@11   = ~How is it that you came to be in your current form?~
+@12   = ~I’m sorry, but I don’t have the patience for this.  Good day.~
+@13   = ~My name... is... was Saablic... Tan.   Of my... mistakes... one grew tired... used my precious... magics to make... that which... I am.   Having... much confusion as... days move on.  Must... mm... tell you I... am frightened.~
+@14   = ~Why are you frightened?~
+@15   = ~Orogs that... roam these passages... my passages... are my... creation.   They... have much contempt... for me.  I cannot... leave.  My form... my home... punishment for my... ambition.  I... derived pleasure... for altering against... their will.  I have... much regret.~
+@16   = ~How can the situation be rectified?~
+@17   = ~Why should anyone feel sorry for you?~
+@18   = ~I will leave you to your regrets.  ~
+@19   = ~What is done... is done.  I cannot... excuse my actions... or my... intents.  I am... not alone in... guilt and I... am consumed with... hatred for one.  Responsibility... rests not... on my soul... alone.  I am... but a pawn.~
+@20   = ~Tell me more of your situation.~
+@21   = ~I’ve heard enough and must be on my way.~
+@22   = ~I must... be brief as... I grow tired.  You can... help others... and help me.  Within... these caves... the orogs have... a leader.  Not only... that role... but another he... fills.~
+@23   = ~What is this other role?~
+@24   = ~He is one... of six.  His presence... and others... here to prevent... intrusion.  Placed... by the one... that would wrong... myself and many... many others.  Without... his existence... his minions will... scatter... and the evil... drow weaker.~
+@25   = ~You want me to dispose of this leader?~
+@26   = ~I believe I already disposed of this leader.~
+@27   = ~I’m afraid... there may be... no other way.  I remain... overcome... with guilt.  I... cannot excuse... my actions however... my relevance... in this world... flickers and a... far greater injustice... burns bright.~
+@28   = ~I will see what I can do.~
+@29   = ~I won’t do that.  Farewell.~
+@30   = ~I... am very... grateful and know... your actions extend... beyond my... plight.  Before you... leave... he will be... in possession of... a symbol.  A... badge.  You must obtain... this.  Return with... this and I... will know you... are true to... your word.  I will... attempt to provide... more insight then. ~
+@31   = ~I will return.~
+@32   = ~Upper Dorn’s Deep.
+
+We met an umber hulk who was actually a Red Wizard of Thay named Saablic Tan. Saablic alluded to a "great injustice" in the world, and spoke of his fear of retaliation from the orogs in the area he helped create. He has asked us to dispose of an orog chieftain in the area and return with a badge that the chieftain possesses. In exchange, he promised to provide us with more information.~
+@33   = ~I am... forever in debt... to you.  I... cannot speak much... longer.  I must... tell you that... each of the six... have such a... badge.   Should you... go in search of... him you will... need to obtain... each of them.  I... must... rest. ~
+@34   = ~Goodbye, Saablic.~
+@35   = ~Upper Dorn’s Deep.
+
+We returned with the badge for Saablic, and in turn he informed us that there were five "others" in possession of similar badges.  Apparently, we’ll need to obtain all of them, but for what reason, I don’t know.~
+@36   = ~Know this... traveler.  Without... my knowledge... your continued existence... within this world... will be limited.~
+@37   = ~Alright, I’m listening.~
+@38   = ~I’ll take my chances.~
+@39   = ~Thank you... again, traveler.  I must... rest.~
+@40   = ~Can I ask...~
+@41   = ~You’re welcome, Saablic.~
+@42   = ~If this... is to be... true, you will... have found... a badge.  Do you... have such... an item?~
+@43   = ~I’m afraid I do not.~
+@44   = ~It is very... important that you... obtain this item.  Please... revisit your journey... and bring the badge... as only then... will you begin... and I... have closure.~
+@45   = ~I will find it.~
+@46   = ~Thank you... again.~
+@47   = ~Farewell, Saablic.~

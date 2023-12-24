@@ -1,0 +1,113 @@
+--- NeJE\dlg\FINSOL.D	Sat Jun 09 04:47:20 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\FINSOL.D	Tue Apr 09 19:36:00 2019
+@@ -61,51 +61,34 @@
+ APPEND ~FINSOL01~
+ 
+ IF ~~ THEN BEGIN KR0
+-  SAY ~You are carrying a Bhaal's legacy too, paladin. Are you ready to let it go?~
++  SAY @0
+   		IF ~~ THEN EXTERN ~KELDO25J~ KREND_1
+ END	
+ 
+ IF ~~ THEN BEGIN KR1
+-  SAY ~(Words from Keldorn, words from Solar, words from anyone else, the necessity to make the decision - stay with Keldorn and be mortal or become a god - frightens you. Your groom is right: you should decide for yourself, no matter how hard it is.)~
++  SAY @1
+ =
+-~(A song you heard once in an elven tavern suddenly springs forth from the back of your mind:
+-
+-You are on the earth, so near to I,
+-Yet heart of yours coming back to the sky,
+-Above a place of sins, height, so high,
+-Or down, down near dear mine
+-
+-Asylum can anyone find in there,
+-Yet not for you lady death comes today,
+-I know how you walk - edge and fringe,
+-Angels don't die - they just sail away
+-
+-When we shall be gone, becoming ashes and dust,
+-And our souls flying in haven's distance,
+-But you are still here, stranger for their and for mine,
+-For you is it fine? For me is it fine?
+-
+-For you is it fine? For me is it fine.)~
++@2
+ =
+-~(Your soul has responded. And, despite of being strange, it helped you to make a decision.)~ 
+-	IF ~Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~(You have firmly looked into the Solar's golden eyes) But my child, Solar... Why do I need Bhaal's throne, if I have my child? He is most important to me now. I can't deprive him of his mother, or his father. I am staying, Solar. Take my legacy. I have dreamed the most of marrying Keldorn Firecam. I am carrying his child, I can't refuse him now? No, never. I love him and I will stay with him.~ GOTO KR2
++@3 
++	IF ~Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @4 GOTO KR2
+ 	IF ~GlobalLT("PPEvilChoices","GLOBAL",2)
+-Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~I... I... I must! I must take my father's throne and defeat the evil. Forgive me, my love, forgive me! But it is my duty. You have always taught me of a duty and I am acting now as a worthy student! I must sacrifice myself, Keldorn, my love... My child will be born in time, and you will see him, beloved. And I... I won't leave you forever.~ GOTO KR3_1
++Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @5 GOTO KR3_1
+ 	IF ~GlobalGT("PPEvilChoices","GLOBAL",1)
+ GlobalLT("PPEvilChoices","GLOBAL",4)
+-Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~I... I... I must! I must take my father's throne and defeat the evil. Forgive me, my love, forgive me! But it is my duty. You have always taught me of a duty and I am acting now as a worthy student! I must sacrifice myself, Keldorn, my love... My child will be born in time, and you will see him, beloved. And I... I won't leave you forever.~ GOTO KR3_2
++Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @5 GOTO KR3_2
+ 	IF ~GlobalGT("PPEvilChoices","GLOBAL",3)
+ GlobalLT("PPEvilChoices","GLOBAL",6)
+-Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~I... I... I must! I must take my father's throne and defeat the evil. Forgive me, my love, forgive me! But it is my duty. You have always taught me of a duty and I am acting now as a worthy student! I must sacrifice myself, Keldorn, my love... My child will be born in time, and you will see him, beloved. And I... I won't leave you forever.~ GOTO KR3_3
+-	IF ~!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~(You have firmly looked into the Solar's golden eyes) Don't you already know my answer, Solar? Let Kelemvor take what should be mine - he will make better use of it. I am nothing but a simple girl, daughter of a simple woman, so who am I to be a goddess? I am happy to be Countess Firecam. How can I wish for anything more? Deprive me from my legacy without any doubt, Solar.~ GOTO KR4
++Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @5 GOTO KR3_3
++	IF ~!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @6 GOTO KR4
+ 	IF ~GlobalLT("PPEvilChoices","GLOBAL",2)
+-!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~(With the tears in your eyes) I am coming, Solar. Forgive me, Keldorn, but, all the same, I am not worthy of you.~ GOTO KR5_1
++!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @7 GOTO KR5_1
+ 	IF ~GlobalGT("PPEvilChoices","GLOBAL",1)
+ GlobalLT("PPEvilChoices","GLOBAL",4)
+-!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~(With the tears in your eyes) I am coming, Solar. Forgive me, Keldorn, but, all the same, I am not worthy of you.~ GOTO KR5_2
++!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @7 GOTO KR5_2
+ 	IF ~GlobalGT("PPEvilChoices","GLOBAL",3)
+ GlobalLT("PPEvilChoices","GLOBAL",6)
+-!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY ~(With the tears in your eyes) I am coming, Solar. Forgive me, Keldorn, but, all the same, I am not worthy of you.~ GOTO KR5_3
++!Global("VP_Kr_She_Pregnant","GLOBAL",1)~ THEN REPLY @7 GOTO KR5_3
+ END
+ 
+ IF ~~ THEN BEGIN KR2
+@@ -151,11 +134,11 @@
+ //Epilogue 1 - Pregnant, stayed with Keldorn
+ //Global("VP_Kr_Epilogue","GLOBAL",1)
+ IF ~~ THEN BEGIN KR6
+-  SAY ~(Suddenly, in that moment, when Solar attempts to take your divine legacy, you hear the voice: "Don't you dare! You are going to be sorry about this!".)~
++  SAY @8
+ =
+-~(You feel a sharp pain that forces you to double over. You don't understand what's happening to you. It's as if someone is raking your entrails with steel claws and crying: "I won't give it up! It's mine! Don't you dare try to take it from me!")~
++@9
+ =
+-~I can't take your legacy, your daughter won't give it to me. Allow me to kill her or otherwise she will kill you.~
++@10
+ IF ~~ THEN DO ~SetGlobal("VP_ToB_Kr_Kelemvor","GLOBAL",1)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -163,7 +146,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN KR7
+-  SAY ~No, paladin. The child will be born in time, and you are going to be informed of it. Moreover, you will take part in his education. Maybe the child will become a new god and will help his mother.~
++  SAY @11
+ 		IF ~True()~ THEN EXTERN ~FINSOL01~ KR8
+ 		IF ~InParty("Imoen2")
+ !Dead("Imoen2")~ THEN EXTERN ~IMOEN25J~ KRst7
+@@ -175,19 +158,19 @@
+ 
+ //Epilogue 2 - Pregnant, ascended to the Throne
+ IF ~~ THEN BEGIN KR8
+-  SAY ~(Suddenly you hear the voice: "Good girl. I am glad my efforts were not in vain.")~
++  SAY @12
+   		IF ~~ THEN DO ~SetGlobal("VP_Kr_Epilogue","GLOBAL",2)~ EXTERN ~FINSOL01~ 33
+ END
+ 
+ //Epilogue 3 - Not pregnant, stayed with Keldorn
+ IF ~~ THEN BEGIN KR9
+-  SAY ~(Suddenly you hear the voice: "You idiot! All that has been achieved now is in vain! Oh...")~
++  SAY @13
+ 		IF ~~ THEN DO ~SetGlobal("VP_Kr_Epilogue","GLOBAL",3)~ EXTERN ~FINSOL01~ 33
+ END
+ 
+ //Epilogue 4 - Not pregnant, ascended to the Throne
+ IF ~~ THEN BEGIN KR10
+-  SAY ~(Suddenly you hear the voice: "I am proud of you! You did well! And Cyric will regret he crossed paths with you.")~
++  SAY @14
+ 		IF ~~ THEN DO ~SetGlobal("VP_Kr_Epilogue","GLOBAL",4)~ EXTERN ~FINSOL01~ 33
+ END
+ END

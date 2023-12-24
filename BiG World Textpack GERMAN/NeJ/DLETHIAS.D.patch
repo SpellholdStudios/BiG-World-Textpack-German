@@ -1,0 +1,136 @@
+--- NeJ\Dfiles\DLETHIAS.D	Thu Aug 19 00:58:44 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DLETHIAS.D	Wed Apr 10 10:24:10 2019
+@@ -1,102 +1,94 @@
+ BEGIN ~DLETHIAS~ 8511
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~I have defended the Hand of the Seldarine at all costs... and will continue to do so.  Cursed with unlife, my duty remains clear.  I stand guard against those who would defile what remains of the Seldarine's Hand.~
+-  IF ~~ THEN REPLY ~Then you have no quarrel with us.  Our intentions are not to cause more damage to the Hand.~ GOTO 1
+-  IF ~~ THEN REPLY ~We have no time to deal with the ramblings of another spirit.  Remove yourself from our path or face the consequences.~ GOTO 2
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I will be the judge of that.  Speak your intentions clearly.~
+-  IF ~~ THEN REPLY ~Evil plagues the land.  We seek the aid of Larrel to help us find the source.~ GOTO 3
+-  IF ~~ THEN REPLY ~We seek the great treasures of the Severed Hand.~ GOTO 15
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO 3
++  IF ~~ THEN REPLY @5 GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Make no mistake.   My combat skills are just as deadly as the day when the Hand fell.  For the glory of the Hand!~
++  SAY @6
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Perhaps you are not the miscreants I had thought you were.  If what you say is true, it is my duty to aid you if it will further the ways of the Seldarine.  I am Lethias Enaril, Bladesinger of the Seldarine.~
+-  IF ~~ THEN REPLY ~Lethias, you speak of your duty to the Hand.  I'd like to know what that means.~ GOTO 4
+-  IF ~~ THEN REPLY ~We need to find Larrel.  Can you help us?~ GOTO 14
+-  IF ~~ THEN REPLY ~I thank you, Lethias.  We will return when we need that aid.  Farewell.~ EXIT
++  SAY @7
++  IF ~~ THEN REPLY @8 GOTO 4
++  IF ~~ THEN REPLY @9 GOTO 14
++  IF ~~ THEN REPLY @10 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Some say bladesingers are the elite of elven warriors.  Trained from an early age in the ways of weapons, magic, and diplomacy, bladesingers carry out the elven way in words and action.~
++  SAY @11
+   IF ~~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~When life prospered in the Seldarine's Hand, it was my duty to defend the cause of the Seldarine.  When the time of our darkest hour approached, I swore to protect Larrel and the Hand until I had no more blood to be spilt.  To do any less would disgrace my kind.~
++  SAY @12
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~For many days I fought alongside my brothers and sisters.  Score after score of orcs and goblins fell as my blade sang through the air.  Although I saw nothing but the color of my enemy's blood, we were losing ground.  When we realized the fall of the Hand was inevitable, we were forced to take desperate action.~
++  SAY @13
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Sehanine Tower was our most prized tower.  Inside were the chambers where we crafted our finest weapons and artifacts.  We could not let our magics fall into the hands of the horde or the surrounding lands would suffer for centuries after the Hand fell.~
++  SAY @14
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~A desperate plan was created that would ensure this would never happen.  All the artifacts within Sehanine tower were set to release their magic so that the tower would destroy itself.  Before these energies were released, however, we planned to lead as many of the orcs and goblins as we could into Sehanine.    ~
++  SAY @15
+   IF ~~ THEN GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~The plan required one who was willing to lead the orcs and goblins into the tower.  One who would know the sacrifice had to be made. One willing to die.~
++  SAY @16
+   IF ~~ THEN GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I decided that it would be me.  I would make the sacrifice.  My duty was clear.~
++  SAY @17
+   IF ~~ THEN GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~When the time came, the horde pursued me as I climbed to the top.  As my enemies stormed the room at the pinnacle of the tower, I fought with blade and faith for the last time.  With the wall at my back and the room filled with orcs and goblins, I heard the first explosions from the base of the tower... and smiled.~
++  SAY @18
+   IF ~~ THEN GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~I died -- and I knew I had died, but... I awoke.  That was when I saw myself.  Not as an elven bladesinger, but as a twisted undead monster.  Something brought my body back into this form but had left my mind intact.~
++  SAY @19
+   IF ~~ THEN GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~So here I am, standing before what was once known as Sehanine Tower.  A monster perhaps, but one thing still remains the same.  My duty to myself and the Hand of the Seldarine.~
+-  IF ~~ THEN REPLY ~Lethias, I'd hear of what you know about how to find Larrel.~ JOURNAL ~Severed Hand.
+-
+-We met what was left of the Bladesinger, Lethias.  He told the tale of the great sacrifice he made in the destruction of Sehanine Tower.~ GOTO 14
+-  IF ~~ THEN REPLY ~May you someday know peace.  Farewell.~ JOURNAL ~Severed Hand.
+-
+-We met what was left of the Bladesinger, Lethias.  He told the tale of the great sacrifice he made in the destruction of Sehanine Tower.~ EXIT
++  SAY @20
++  IF ~~ THEN REPLY @21 JOURNAL @22 GOTO 14
++  IF ~~ THEN REPLY @23 JOURNAL @22 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Unfortunately, I have not seen Larrel in some time.  I know that during the fall of the Hand, he and his wizards locked themselves atop Labelas Tower.  They sought a way to save our people through magic -- but from looking around, something must have gone terribly wrong.  Seek a way into Labelas Tower.  Perhaps you will find an answer there.~
+-  IF ~~ THEN REPLY ~I would hear of yourself and your duties.~ JOURNAL ~Severed Hand.
+-
+-Lethias mentioned that in the final days of the Severed Hand, Larrel and his wizards were locked atop Labelas Tower.~ GOTO 4
+-  IF ~~ THEN REPLY ~Many thanks, Lethias.  I shall return.~ JOURNAL ~Severed Hand.
+-
+-Lethias mentioned that in the final days of the Severed Hand, Larrel and his wizards were locked atop Labelas Tower.~ EXIT
++  SAY @24
++  IF ~~ THEN REPLY @25 JOURNAL @26 GOTO 4
++  IF ~~ THEN REPLY @27 JOURNAL @26 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~My duty is clear.  I cannot allow you to steal what was once sacred to my people.  For the glory of the Hand!~
++  SAY @28
+   IF ~~ THEN DO ~Enemy ()~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 16
+-  SAY ~You have returned.  What do you seek?~
+-  IF ~~ THEN REPLY ~I wish to know of your duties as a bladesinger.~ GOTO 4
+-  IF ~~ THEN REPLY ~We still seek to find Larrel.  Can you help us?~ GOTO 14
+-  IF ~~ THEN REPLY ~Nothing but answers.  Farewell.~ EXIT
++  SAY @29
++  IF ~~ THEN REPLY @30 GOTO 4
++  IF ~~ THEN REPLY @31 GOTO 14
++  IF ~~ THEN REPLY @32 EXIT
+ END

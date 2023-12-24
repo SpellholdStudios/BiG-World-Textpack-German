@@ -1,0 +1,31 @@
+--- S#ElvanA\deutsch\ElvanP.tra	Fri Jan 03 02:06:26 2020
++++ C:\BWP Patchstudio\patched Text files\S#ElvanA\deutsch\ElvanP.tra	Tue Jun 03 14:05:58 2008
+@@ -1,20 +1,20 @@
+-@1 = ~Aha. Auf einmal bin ich dem Herrn nicht mehr gut genug~ ~So trennen sich nun unsere Wege. Möge Elistraee mit dir sein, <PLAYER1>.~
+-@3 = ~Elvanshalee ich weiss ja, das ihr Dunkelelfinnen nicht gerne von Männern bevormundet werdet, aber es muss sein.~
+-@4 = ~Was meinst du?! Nein bloss nicht, du wirst hier gebraucht.~
+-@5 = ~Lebe wohl Elvanshalee.~
++@1 = ~Aha. Auf einmal bin ich dem Herrn nicht mehr gut genug~ ~So trennen sich nun unsere Wege. Möge Eilistraee mit Euch sein, <PLAYER1>.~
++@3 = ~Elvanshalee, ich weiss ja, dass ihr Dunkelelfen nicht gerne von Männern bevormundet werdet, aber es muss sein.~
++@4 = ~Was meint Ihr?! Nein bloss nicht, Ihr werdet hier gebraucht.~
++@5 = ~Lebt wohl, Elvanshalee.~
+ @6 = ~Aha, nun bin ich also doch gut genug für Euch. Aber Ihr auch für mich?~ 
+ @7 = ~Schön Euch wieder zu sehen. Was habt Ihr so getrieben?~
+-@8 = ~Bitte Elvanshalee Ihr müsst zurück kommen. Es war ein sehr grosser Fehler von mir, Euch wegzuschicken.~
+-@9 = ~Wir haben hir und dort ein paar Abenteuer erlebt, aber nichts besonderes. Würdest du wieder mit uns reisen?~
++@8 = ~Bitte Elvanshalee, Ihr müsst zurückkommen. Es war ein sehr grosser Fehler von mir, Euch wegzuschicken.~
++@9 = ~Wir haben hier und dort ein paar Abenteuer erlebt, aber nichts Besonderes. Würdet Ihr wieder mit uns reisen?~
+ @10 = ~Ich glaube nicht, dass wir uns kennen und so wie Ihr mir erscheint, will ich Euch auch nicht näher kennenlernen.~
+ @11 = ~Ich wollte nur schauen, wie es Euch geht.~
+ @12 = ~(überlegt und betrachtet <PLAYER1> skeptisch) Ich weiss nicht recht.~
+ @13 = ~Soll ich auch noch auf die Knie fallen?~
+ @14 = ~(lächelt) Das wäre auf jeden Fall ein Anfang.~
+-@15 = ~(<PLAYER1> kniet sich hin) Elvanshalee ich bitte dich inständig, komm' zurück.~
++@15 = ~(<PLAYER1> kniet sich hin) Elvanshalee ich bitte Euch inständig: Kommt zurück. (flehend)~
+ @16 = ~(hilft <PLAYER1> auf) Gut ich komme mit.~
+ @17 = ~Danke. (<PLAYER1> wischt sich den Staub von der Hose)~
+-@18 = ~Ja gerne. Na kommt schon. (sie eillt los)~
++@18 = ~Ja gerne. Na kommt schon. (sie eilt los)~
+ @19 = ~Warte doch auf uns.~
+ 
+ 

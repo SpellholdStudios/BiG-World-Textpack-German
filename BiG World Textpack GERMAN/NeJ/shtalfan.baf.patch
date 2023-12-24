@@ -1,0 +1,31 @@
+--- NeJ\baf\shtalfan.baf	Fri Aug 20 16:55:20 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\shtalfan.baf	Wed Apr 10 10:29:49 2019
+@@ -19,22 +19,22 @@
+ 	ActionListEmpty()
+ THEN
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Another, Telanis!"~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"That's my favorite one."~)
++		DisplayStringHead(Myself,@1)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Fine work, minstrel."~)
++		DisplayStringHead(Myself,@2)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Sing us a song!"~)
++		DisplayStringHead(Myself,@3)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Long live Telanis and his tales!"~)
++		DisplayStringHead(Myself,@4)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"A fine voice, indeed."~)
++		DisplayStringHead(Myself,@5)
+ 		Wait(3)
+ 	RESPONSE #175
+ 		Wait(3)

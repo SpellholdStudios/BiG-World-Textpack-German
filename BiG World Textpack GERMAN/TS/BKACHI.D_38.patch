@@ -1,0 +1,570 @@
+--- TS\bgtnodlg\BKACHI.D	Sun Jan 13 00:43:28 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\BKACHI.D	Thu May 05 10:45:58 2016
+@@ -1,37 +1,37 @@
+ BEGIN ~BKACHI~
+ 
+ IF WEIGHT #1 ~Global("LoveTalk","LOCALS",1)~ THEN BEGIN 0
+-  SAY ~Ouch! Looks like you’ve spent some time for improving your fighting skills...~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("LoveTalk","LOCALS",2)~ EXTERN ~BYOSHIM~ TS84
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~You should have kept your eyes on the weapons Yoshimo Hashimoto, not on my... me. Then you would have fared better.~ [KACHIL01]
++  SAY @1
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS85
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Killing you was just a chore before, a vow to fulfill; I feel that it can become a pleasurable exploit in the very near future. Let us restart, Dragon tongue.~ [KACHIL11]
++  SAY @2
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS86
+ END
+ 
+ IF WEIGHT #2 ~Global("LoveTalk","LOCALS",3)~ THEN BEGIN 3
+-  SAY ~Naoko and you were friends... It is so strange. The brother I adored and thought I knew so well had such a secret!~ [KACHIL02]
++  SAY @3
+   IF ~~ THEN DO ~SetGlobal("LoveTalk","LOCALS",4)~ EXTERN ~BYOSHIM~ TS87
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~You should not have hid from me!~
++  SAY @4
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS88
+ END
+ 
+ IF WEIGHT #3 ~Global("LoveTalk","LOCALS",5)~ THEN BEGIN 5
+-  SAY ~I have been pondering on something for a while, Yoshimo. Naoko, he died very young, only 16... You were of the same age were you not? It must have been horrible for you... how did you survive all of that?~ [KACHIL03]
++  SAY @5
+   IF ~~ THEN DO ~SetGlobal("LoveTalk","LOCALS",6)~ EXTERN ~BYOSHIM~ TS89
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Yoshimo, I see that the memory still hurts you... You do not have to tell if you do not want to, I understand.~
++  SAY @6
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS90
+ END
+ 
+@@ -41,52 +41,52 @@
+ //END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~No, no. I am not appalled... It’s just that when you have spoken of Naoko I glimpsed the honorable noble you had been...~ [KACHIL13]
++  SAY @7
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS92
+ END
+ 
+ IF WEIGHT #4 ~Global("LoveTalk","LOCALS",7)~ THEN BEGIN 9
+-  SAY ~Yoshimo, I would like to continue our last conversation...~
++  SAY @8
+   IF ~~ THEN DO ~SetGlobal("LoveTalk","LOCALS",8)~ EXTERN ~BYOSHIM~ TS93
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~The world does not consist of Hashimoto and Nakanishi, Yoshimo. I see now how high the walls of my house were; how small was our existence and how petty was our honor! But I witnessed true honorable deeds in the wide world and I am sure you had also.~ [KACHIL04]
++  SAY @9
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS94
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~I saw it in a destitute rogue also...~ [KACHIL14]
++  SAY @10
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS95
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Yoshimo, I MUST know, I do not believe...~
++  SAY @11
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS96
+ END
+ 
+ IF WEIGHT #5 ~Global("LoveTalk","LOCALS",9)~ THEN BEGIN 13
+-  SAY ~Yoshimo, if you would...if you would please sit with me for a moment... I am really scared of what you’ve told me before...~
++  SAY @12
+   IF ~~ THEN DO ~SetGlobal("LoveTalk","LOCALS",10)~ EXTERN ~BYOSHIM~ TS97
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Thank you, Yoshimo. I was cold. Do you still keep an eye on me?~ [KACHIL05]
++  SAY @13
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS98
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~You... you were joking! All those talks about curses? And I almost believed you, Dragon Tongue!~ [KACHIL15]
++  SAY @14
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS99
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Was the poem written for you? My opinion is all that matters and I LOVE it!~ [KACHIB11]
++  SAY @15
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS102
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Stop it, stop it! You wasted three times more words already and said less than my Yoshimo! And why do I have a feeling that I have heard something similar before?~
++  SAY @16
+   IF ~Global("AnomenMatch","GLOBAL",1)
+ !Global("AnomenRomanceActive","GLOBAL",0)
+ !Global("AnomenRomanceActive","GLOBAL",3)~ THEN EXTERN ~BANOMEN~ TS591
+@@ -97,381 +97,381 @@
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~Tie it is, <CHARNAME>.~
++  SAY @17
+   IF ~~ THEN EXTERN ~BANOMEN~ TS593
+ END
+ 
+ IF ~Global("VP_BKachiko_1","LOCALS",2)~ THEN BEGIN 19
+-  SAY ~Anomen! Please, leave him to his contemplation! Anomen!~ [KACHIB01]
++  SAY @18
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_1","LOCALS",3)~ EXTERN ~BANOMEN~ TS587
+ END
+ 
+ IF ~Global("VP_BKachiko_2","LOCALS",2)~ THEN BEGIN 20
+-  SAY ~You look ever so grim, Valygar. What you need is a good woman in your life. Have you ever loved Valygar?~
++  SAY @19
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_2","LOCALS",3)~ EXTERN ~BVALYGA~ TS149
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~So it was an unhappy experience? Who was she?~
++  SAY @20
+   IF ~~ THEN EXTERN ~BVALYGA~ TS150
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~You cannot say that about all women, Valygar! I think the problem is yourself...~
++  SAY @21
+   IF ~~ THEN EXTERN ~BVALYGA~ TS151
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~I am sorry to hear that, Valygar. I think there is more to you than your family name and a hunting cabin... I hope you will be pleasantly surprised one day...~
++  SAY @22
+   IF ~~ THEN EXTERN ~BVALYGA~ TS152
+ END
+ 
+ IF ~Global("VP_BKachiko_3","LOCALS",2)~ THEN BEGIN 24
+-  SAY ~Minsc, what are you looking for? Be careful with those potion bottles! Do you need a potion of healing or something? Let me help you...~ [KACHIB04]
++  SAY @23
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_3","LOCALS",3)~ EXTERN ~BMINSC~ TS99
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Potion of Genius?~ [KACHIB14]
++  SAY @24
+   IF ~~ THEN EXTERN ~BMINSC~ TS100
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~Well, it’s sort of true...~
++  SAY @25
+   IF ~~ THEN EXTERN ~BMINSC~ TS101
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~Boo is one of a kind... I never knew hamsters could be that intelligent...~
++  SAY @26
+   IF ~~ THEN EXTERN ~BMINSC~ TS102
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~(*smiles*) I do not know Minsc... may be you needed a potion of healing?~
++  SAY @27
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BKachiko_4","LOCALS",2)~ THEN BEGIN 29
+-  SAY ~Nalia, your dress! I cannot take my eyes away from your dress! It’s simply wonderful! I feel like such a tasteless slob near you...~ [KACHIB05]
++  SAY @28
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_4","LOCALS",3)~ EXTERN ~BNALIA~ TS51
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~Nalia, I see no harm in wearing a beautiful dress...~
++  SAY @29
+   IF ~~ THEN EXTERN ~BNALIA~ TS53
+ END
+ 
+ IF ~Global("VP_BKachiko_5","LOCALS",2)~ THEN BEGIN 31
+-  SAY ~Viconia, you are making me uncomfortable, staring at me like that...~ [KACHIB06]
++  SAY @30
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_5","LOCALS",3)~ EXTERN ~BVICONI~ TS576
+ END
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~Subservient? What are you talking about?~
++  SAY @31
+   IF ~~ THEN EXTERN ~BVICONI~ TS577
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~You are talking about singsong girls, Viconia? Those are strange beings. They sing in brothels, yet dream of marriage. Some, however, gain true power through their lovers... The famous courtesan, Nita Chan Shi, was a concubine of Emperor Tsao Shou Chin, and she effectively ruled the Empire for 15 years. Those were prosperous and peaceful times.~ [KACHIB16]
++  SAY @32
+   IF ~~ THEN EXTERN ~BVICONI~ TS578
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~No, Viconia, I have no use for power. I come from Kozakura, and we are not interested in the games of the Emperors and their courtiers. We have our own traditions. Nakanishi was never one to restrict females of the house. My grandfather trained me, though I am a girl. My mother is the most respected woman in Kozakura and my father values her advice. I do not need a lover to enhance my status.~
++  SAY @33
+   IF ~~ THEN EXTERN ~BVICONI~ TS579
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~(*smiles*) I do not doubt it, Viconia.~ [KACHIB26]
++  SAY @34
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BKachiko_6","LOCALS",2)~ THEN BEGIN 36
+-  SAY ~So how is Haer’Dalis doing today?~ [KACHIB08]
++  SAY @35
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_6","LOCALS",3)~ EXTERN ~BHAERDA~ TS165
+ END
+ 
+ IF ~~ THEN BEGIN 37
+-  SAY ~(*laughs*) Did you just come up with this one, or is it from a play you were rehearsing?~ [KACHIB18]
++  SAY @36
+   IF ~~ THEN EXTERN ~BHAERDA~ TS166
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~I always thought that the purpose of any bard is to share his tale with as many people as possible, Haer’Dalis. I would not dare to steal your performance from the public...~ [KACHIB28]
++  SAY @37
+   IF ~~ THEN EXTERN ~BHAERDA~ TS168
+ END
+ 
+ IF ~Global("VP_BKachiko_7","LOCALS",2)~ THEN BEGIN 39
+-  SAY ~Let me help you, Keldorn... Here we go, I fixed that torn seam on your shirt...  It’s as good as new now. That was quite a battle, was it not?~ [KACHIB09]
++  SAY @38
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_7","LOCALS",3)~ EXTERN ~BKELDOR~ TS149
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~That sounds like a proper thing to do... What delays you?~
++  SAY @39
+   IF ~~ THEN EXTERN ~BKELDOR~ TS150
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~I am afraid there will never be less evil in the world, Keldorn. And if Torm minds you taking care of your family, there are other gods, more forgiving...~
++  SAY @40
+   IF ~~ THEN EXTERN ~BKELDOR~ TS151
+ END
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~In Kara-Tur, we believe that Eight Million Gods populate the Universe. If one frowns on you, another might smile. In his infinite wisdom, the Celestial Emperor has many Immortal helpers and you must talk to the right Immortal to bless your choices. In our land girls will pray in the Immortal Ai Ch’ing temple for rich husbands, then they will burn candles to Kwan Ying.~ [KACHIB19]
++  SAY @41
+   IF ~~ THEN EXTERN ~BKELDOR~ TS152
+ END
+ 
+ IF ~~ THEN BEGIN 43
+-  SAY ~So that these good husbands will be handsome as well!~ [KACHIB29]
++  SAY @42
+   IF ~~ THEN EXTERN ~BKELDOR~ TS153
+ END
+ 
+ IF ~~ THEN BEGIN 44
+-  SAY ~But at least you smiled!~
++  SAY @43
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BKachiko_8","LOCALS",2)~ THEN BEGIN 45
+-  SAY ~Aerie, are you crying?~ [KACHIB1A]
++  SAY @44
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_8","LOCALS",3)~ EXTERN ~BAERIE~ TS449
+ END
+ 
+ IF ~~ THEN BEGIN 46
+-  SAY ~You miss them, do you not? Do not be embarrassed; I can understand your sorrow. I cannot imagine that I would never see my family or my native land again.~ [KACHIB2A]
++  SAY @45
+   IF ~~ THEN EXTERN ~BAERIE~ TS450
+ END
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~I am afraid I would never know Aerie. But you do and I envy you.~
++  SAY @46
+   IF ~~ THEN EXTERN ~BAERIE~ TS451
+ END
+ 
+ IF ~~ THEN BEGIN 48
+-  SAY ~Aerie, I know how much grief there was in your life, but you went through it without loosing your faith in goodness. There is strength in you Aerie, and I respect it. If only you can start respecting yourself and trust in yourself! Please, stop tormenting and victimizing yourself...~
++  SAY @47
+   IF ~~ THEN EXTERN ~BAERIE~ TS452
+ END
+ 
+ IF ~Global("Start_Island","GLOBAL",0)
+ Global("VP_BKachiko_9","LOCALS",2)~ THEN BEGIN 49
+-  SAY ~Jaheira, it’s not necessary to scrutinize me like that. I had done nothing wrong.~ [KACHIB0J]
++  SAY @48
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_9","LOCALS",3)~ EXTERN ~BJAHEIR~ TS461
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~I believe, that I was wrong about Yoshimo... I am getting to know him better and better every day and I... Has it ever happened to you? When you think badly of a person, then you talk to him and suddenly you realize that he is wonderful?~ [KACHIB1J]
++  SAY @49
+   IF ~~ THEN EXTERN ~BJAHEIR~ TS462
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~Blush?  (*laughs*) No, no, Jaheira, why would I blush?~
++  SAY @50
+   IF ~~ THEN EXTERN ~BJAHEIR~ TS463
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~Jaheira!~
++  SAY @51
+   IF ~~ THEN EXTERN ~BJAHEIR~ TS464
+ END
+ 
+ IF ~~ THEN BEGIN 53
+-  SAY ~Jaheira!~
++  SAY @51
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS106
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~Nothing! It’s nothing!~
++  SAY @52
+   IF ~~ THEN EXTERN ~BJAHEIR~ TS465
+ END
+ 
+ IF ~Global("VP_BKachiko_10","LOCALS",2)~ THEN BEGIN 55
+-  SAY ~If you only knew how irritating your attitude is...~ [KACHIB0E]
++  SAY @53
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_10","LOCALS",3)~ EXTERN ~BEDWIN~ TS106
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~Or what?~
++  SAY @54
+   IF ~~ THEN EXTERN ~BEDWIN~ TS107
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~Try me Edwin! But I hope that you have another arrangement with the evil priest who resurrected you after your last untimely and violent death!~ [KACHIB1E]
++  SAY @55
+   IF ~InParty("Minsc")~ THEN EXTERN ~BMINSC~ TS103
+-  IF ~!InParty("Minsc")~ THEN REPLY ~Calm down, all of you! We have enough enemies without starting to fight among ourselves!~ EXIT
+-  IF ~!InParty("Minsc")~ THEN REPLY ~Edwin, to be honest, you are wearing on my nerves also. I think we’d better part ways.~ EXTERN ~BEDWIN~ TS108
+-  IF ~!InParty("Minsc")~ THEN REPLY ~Speaking about violent death, Edwin, I killed you once and I shall do so again!~ EXTERN ~BEDWIN~ TS109
++  IF ~!InParty("Minsc")~ THEN REPLY @56 EXIT
++  IF ~!InParty("Minsc")~ THEN REPLY @57 EXTERN ~BEDWIN~ TS108
++  IF ~!InParty("Minsc")~ THEN REPLY @58 EXTERN ~BEDWIN~ TS109
+ END
+ 
+ IF ~Global("VP_BKachiko_11","LOCALS",2)~ THEN BEGIN 58
+-  SAY ~Imoen, I have not had the chance before, but I must tell you that I am glad we got you out of this terrible Asylum.~ [KACHIB0I]
++  SAY @59
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_11","LOCALS",3)~ EXTERN ~BIMOEN2~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~I... know... My relatives invoked a strange state of ’undeath’ on me and I faced many torments before <CHARNAME> and Yoshimo came looking for me... But I am healing now. I wish you would start healing too.~
++  SAY @60
+   IF ~~ THEN EXTERN ~BIMOEN2~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 60
+-  SAY ~As you wish.~
++  SAY @61
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BKachiko_12","LOCALS",2)~ THEN BEGIN 61
+-  SAY ~I cannot help but wonder how this indomitable spirit could have come from such a sleepy place as Trademeet...~ [KACHIB1M]
++  SAY @62
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_12","LOCALS",3)~ EXTERN ~BMAZZY~ TS127
+ END
+ 
+ IF ~~ THEN BEGIN 62
+-  SAY ~Still, there had to be more than a fascination with a bard’s tale to make a halfing to leave comfort of her home, was there not?~
++  SAY @63
+   IF ~~ THEN EXTERN ~BMAZZY~ TS128
+ END
+ 
+ IF ~~ THEN BEGIN 63
+-  SAY ~Hmm, why do I find that feeling vaguely familiar...~
++  SAY @64
+   IF ~~ THEN EXTERN ~BMAZZY~ TS129
+ END
+ 
+ IF ~~ THEN BEGIN 64
+-  SAY ~Mazzy, you are truly a wonder! I am proud to name you among my friends. Mayhaps, when we complete our mission for <CHARNAME> we can journey together for a while?~
++  SAY @65
+   IF ~~ THEN EXTERN ~BMAZZY~ TS130
+ END
+ 
+ IF ~~ THEN BEGIN 65
+-  SAY ~(*gives Valygar a push with her elbow, then whispers*) Squire? That’s what she calls it? She is head over heels into you, ranger... I’d bet Yoshimo’s katana against...~
++  SAY @66
+   IF ~~ THEN EXTERN ~BVALYGA~ TS155
+ END
+ 
+ IF ~~ THEN BEGIN 66
+-  SAY ~(*Kachiko laughs uncontrollably. Valygar gets up and walks away. Mazzy stares at Kachiko in surprise.*)~
++  SAY @67
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BKachiko_13","LOCALS",2)
+ !Global("End_Island","GLOBAL",0)~ THEN BEGIN 67
+-  SAY ~Taking notes, Jan?~ [KACHIB15]
++  SAY @68
+   IF ~~ THEN DO ~SetGlobal("VP_BKachiko_13","LOCALS",3)~ EXTERN ~BJAN~ TS116
+ END
+ 
+ IF ~~ THEN BEGIN 68
+-  SAY ~Jan, we do not even know were the Island is! How are you going to bring the tourists there?~ [KACHIB25]
++  SAY @69
+   IF ~~ THEN EXTERN ~BJAN~ TS117
+ END
+ 
+ IF ~~ THEN BEGIN 69
+-  SAY ~How many Kara-Turian families have you seen in Athkatla?~
++  SAY @70
+   IF ~~ THEN EXTERN ~BJAN~ TS118
+ END
+ 
+ IF ~~ THEN BEGIN 70
+-  SAY ~Yes.~
++  SAY @71
+   IF ~~ THEN EXTERN ~BJAN~ TS119
+ END
+ 
+ IF ~~ THEN BEGIN 71
+-  SAY ~Yes you did. Sorry, Jan, I absolutely have to talk to <CHARNAME> right away.~
++  SAY @72
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_YoshimoExcuse","GLOBAL",6)~ THEN BEGIN 72
+-  SAY ~Yoshimo, I know it’s painful for you to talk about this but how did Irenicus manage to get his evil hold over you?~ [KACHIL07]
++  SAY @73
+   IF ~~ THEN DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",7)~ EXTERN ~BYOSHIM~ TS108
+ END
+ 
+ IF ~~ THEN BEGIN 73
+-  SAY ~What are you talking about? I asked you how did Irenicus get his evil hold over you?~
++  SAY @74
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS109
+ END
+ 
+ IF ~~ THEN BEGIN 74
+-  SAY ~How awful!~
++  SAY @75
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS110
+ END
+ 
+ IF ~~ THEN BEGIN 75
+-  SAY ~I do not know, Yoshimo. I love you so much and it hurts me to think that you had been seduced by the promises of evil...~ [KACHIL17]
++  SAY @76
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS111
+ END
+ 
+ IF ~~ THEN BEGIN 76
+-  SAY ~Yes, it was. I am a bad singer, but the song came to my mind and I could not chase it away. You know how it happens? The same tune playing in your head over and over again?~
++  SAY @77
+   IF ~~ THEN EXTERN ~BVALYGA~ TS402
+ END
+ 
+ IF ~~ THEN BEGIN 77
+-  SAY ~Love, naturally.~
++  SAY @78
+   IF ~~ THEN EXTERN ~BVALYGA~ TS403
+ END
+ 
+ IF ~~ THEN BEGIN 78
+-  SAY ~I do not think I am too young to love. And you are definitely not too old. You cannot be more than thirty, Valygar.~
++  SAY @79
+   IF ~~ THEN EXTERN ~BVALYGA~ TS404
+ END
+ 
+ IF ~~ THEN BEGIN 79
+-  SAY ~But why?~
++  SAY @80
+   IF ~~ THEN EXTERN ~BVALYGA~ TS405
+ END
+ 
+ IF ~~ THEN BEGIN 80
+-  SAY ~I am a mage myself, Valygar. Do not you exaggerate a bit? Searching for knowledge is not a bad thing.~
++  SAY @81
+   IF ~~ THEN EXTERN ~BVALYGA~ TS406
+ END
+ 
+ IF ~~ THEN BEGIN 81
+-  SAY ~No secrets, ranger. I am in love and I dare to hope that I am loved in return. I am happy, Valygar.~
++  SAY @82
+   IF ~~ THEN EXTERN ~BVALYGA~ TS408
+ END
+ 
+ IF ~~ THEN BEGIN 82
+-  SAY ~Valygar, I am not sure of what you except me to say. No advice is good to a loving heart. You are a daring man in battle, why do you not try the same approach in the gentler matters?~
++  SAY @83
+   IF ~~ THEN EXTERN ~BVALYGA~ TS409
+ END
+ 
+ IF ~~ THEN BEGIN 83
+-  SAY ~Then you know well what you are doing?~
++  SAY @84
+   IF ~~ THEN EXTERN ~BVALYGA~ TS410
+ END
+ 
+ IF ~~ THEN BEGIN 84
+-  SAY ~Yes?~
++  SAY @85
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS114
+ END
+ 
+ IF ~~ THEN BEGIN 85
+-  SAY ~But I am. May be I shall jump off the cliff?~
++  SAY @86
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS115
+ END
+ 
+ IF ~~ THEN BEGIN 86
+-  SAY ~(*laughs*) You are so nice, Yoshimo. May be we shall try it one day.~
++  SAY @87
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 87
+-  SAY ~The world is a small place for those who travel, Sime. I know people for whom their house is an entire world.~
++  SAY @88
+   IF ~~ THEN EXTERN ~BSIME~ 102
+ END
+ 
+ IF ~~ THEN BEGIN 88
+-  SAY ~The mind has no boundaries, Sime. A philosopher may never leave his straw mat but his mind will travel the highest mountains and the deepest gorges and see the things clearer than the one who has climbed to the top.~
++  SAY @89
+   IF ~~ THEN EXTERN ~BSIME~ 103
+ END
+ 
+ IF ~~ THEN BEGIN 89
+-  SAY ~I have four brothers and a sister.~
++  SAY @90
+   IF ~~ THEN EXTERN ~BSIME~ 105
+ END
+ 
+ IF ~~ THEN BEGIN 90
+-  SAY ~It is a joy to have relations, yes. Your father does not have any other children?~
++  SAY @91
+   IF ~~ THEN EXTERN ~BSIME~ 106
+ END
+ 
+ IF ~~ THEN BEGIN 91
+-  SAY ~You sound bitter, Sime.~
++  SAY @92
+   IF ~~ THEN EXTERN ~BSIME~ 107
+ END
+ 
+ IF ~~ THEN BEGIN 92
+-  SAY ~And you do not believe so?~
++  SAY @93
+   IF ~~ THEN EXTERN ~BSIME~ 108
+ END

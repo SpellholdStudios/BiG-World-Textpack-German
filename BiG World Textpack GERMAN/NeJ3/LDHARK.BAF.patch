@@ -1,0 +1,16 @@
+--- NeJ3\baf\LDHARK.BAF	Mon Nov 10 01:00:16 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDHARK.BAF	Wed Apr 10 10:33:55 2019
+@@ -2,11 +2,11 @@
+ 	Global("IDOL_DEAD","GLOBAL",0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~...gauntlet, vambrace, couter, rerebrace, pauldron...~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(5)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~...tasset, greave, poleyn, sabaton...~)
++		DisplayStringHead(Myself,@1)
+ 		Wait(5)
+ 		Continue()
+ END

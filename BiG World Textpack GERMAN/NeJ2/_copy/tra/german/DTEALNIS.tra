@@ -1,0 +1,93 @@
+@0  = ~Abenteurer? Heh, ich hätte nicht gedacht, dass sich je wieder irgendwelche Menschen in diesen Teil der Hand verirren. Wie dem auch sei, erlaubt mir, dass ich mich Euch vorstelle. Mein Name ist Telanis... Telanis Liedbeuger: AUSSERGEWÖHNLICHER Sänger, MEISTER der achtsaitigen Mandoline, LIEBHABER schöner Frauen, Erzähler GROSSARTIGER Geschichten und vor allem... MINNESÄNGER der Hand!~ 
+@1  = ~Seid gegrüßt, Telanis. Es ist schön, jemanden zu sehen, der uns nicht gleich in den Abgrund schicken will. Was ist der Grund?~
+@2  = ~Beeindruckender Ruf, Telanis. Und wieviel davon ist wahr?~ 
+@3  = ~Ein Sänger, was? Das werde ich beurteilen. Singt mir etwas vor.~
+@4  = ~Vielleicht höre ich mir später ein Lied von Euch an. Lebt wohl.~ 
+@5  = ~Ja. So seltsam es auch scheint, ein paar von uns behielten eine Ähnlichkeit mit ihrem früherem Selbst, nachdem Larrel den Zauber gewirkt hatte. Alle anderen wurden entweder wahnsinnig oder versuchen, alles umzubringen, was sie sehen.~
+@6  = ~Und wie kam es dazu?~
+@7  = ~Ich muss mich auf den Weg machen. Lebt wohl.~ 
+@8  = ~Aber NATÜRLICH ist das wahr. Jedes einzelne Wort! Ich könnte Euch erzählen, wie die Frauen mir zu Füßen IN VERZÜCKUNG GERATEN, wenn ich ein paar Verse aus meinen Liedern rezitiert habe. Wisst Ihr, das liegt nur an dieser Stimme, die mir in die Wiege gelegt wurde. Manche sagen, eine Stimme wie meine müsse wohl ein Geschenk von Corellon persönlich sein. Aber man will ja bescheiden bleiben.~
+@9  = ~Dann unterhalte mich, Barde. Lasst mich diese Stimme hören, die sich mit Corellon selbst messen kann.~ 
+@10 = ~Noch nie in meinem Leben habe ich jemanden getroffen, der so von sich überzeugt war.~
+@11 = ~Ich nehme jetzt Abschied von Euch und Eurer Stimme. Lebt wohl.~
+@12 = ~Lasst mich Euch mit einem Lied unterhalten, und vielleicht wird das Eure Fragen beantworten. Wie wär's mit einer alten Ballade über Larrel? Oder vielleicht eine traurige Geschichte über unser Bündnis mit unseren Zwergennachbarn?~ 
+@13 = ~Ich würde gerne die Ballade von Larrel hören.~
+@14 = ~Erzählt mir von den Elfen und den Zwergen.~ 
+@15 = ~Ein andermal, Minnesänger. Lebt wohl.~
+@16 = ~Meinen Ballade von Larrel geht so:
+
+In Zeiten des Wachstums,
+Da beschlossen die Elfen,
+Eine Heimat im Norden zu gründen.
+
+Und so suchten sie einen,
+Mit starkem Geist,
+Mit starkem Willen,
+Der diese Aufgabe meistern könnte.~
+@17 = ~Zwar der Zauberer waren viele
+Und voller Eifer ein jeder,
+Doch ward ein Weiser gefunden,
+Larrel ragte heraus.
+
+Und so ritt er dahin,
+Über eisige Lande,
+Und erklomm die Gipfel so hoch,
+Auf dem Grate der Welt.~
+@18 = ~Er bekämpfte wilde Tiere, 
+Und die dunkelste aller Horden,
+Stets ohne zu zögern,
+Blieb Larrel stets Sieger.
+
+Und Winter kamen,
+Und Winter gingen,
+Durch finst're kalte Nacht,
+Kämpfte einer sich durch.~ 
+@19 = ~In der Mitte der Tundra,
+Einen Ort er fand,
+Zum Heim für die Elfen
+ward dieser von Larrel auserkoren.~
+@20 = ~Könnt Ihr die Geschichte von den Elfen und den Zwergen erzählen?~ 
+@21 = ~Vielen Dank, Telanis. Lebt wohl.~ 
+@22 = ~Ahhh. Die Geschichte von den Elfen und den Zwergen. Das ist eine traurige Geschichte...
+
+In der Zeit des Kampfes
+Gegen die dunkel Horde
+Fanden wir einen Freund
+Im kleinen Zwergenvolk
+
+Als Eines vereint 
+So kämpften uns're Truppen
+Im Kampfe vereint,
+Schlugen wir die Dunklen zurück.~
+@23 = ~Wir tanzten und tranken
+Als den Sieg wir errungen
+Ein Feind war bezwungen
+Und ein neuer Freund da.
+
+Zusammen wir beschlossen
+Dinge aus Licht zu erschaffen
+Waffen der Macht
+Artefakte der Kraft~ 
+@24 = ~Und Jahre um Jahre
+Blieben wir so verbunden
+In Zeiten der Blüte
+Gar in Zeiten des Streits
+
+Doch als das Dunkle zurückkam,
+Da waren wir blind.
+Die Zwerge, sie gaben 
+Waffen den Orks~
+@25 = ~Das Messer im Rücken
+Betrug statt Freundschaft
+Das geben die Zwerge
+Dem Elfenvolk~
+@26 = ~Singt Ihr uns jetzt die Ballade von Larrel vor?~
+@27 = ~Wie könnt Ihr den GROSSEN Telanis so beleidigen? Aber es soll keiner behaupten, dass Telanis der GROSSARTIGE ein nachtragender Elf sei. Entschuldigt Euch, und wir vergessen die Sache.~
+@28 = ~Telanis, ich entschuldige mich untertänigst und würde gern mehr von Euren Liedern hören.~
+@29 = ~Das einzig AUSSERGEWÖHNLICHE an Euch ist Euer schlechtes Gehör. Ihr seid ein aufgeblasener Idiot.~
+@30 = ~Ich glaube, ich gehe jetzt besser.~
+@31 = ~Das habe ich erwartet. Ihr seid zurückgekommen, um wieder vom GROSSEN Telanis unterhalten zu werden.~
+@32 = ~Ich würde gerne die Ballade von Larrel hören.~
+@33 = ~Singt uns das Lied von den Elfen und den Zwergen.~
+@34 = ~Vielleicht später, Telanis. Lebt wohl.~
+@35 = ~Dann verschwindet! Der GROSSE Telanis gibt sich nicht mit Leuten ab, die seine Lieder nicht zu schätzen wissen!~

@@ -1,0 +1,12 @@
+--- setup-RItemPack.TP2	Sat Nov 16 10:03:20 2013
++++ C:\BWP Patchstudio\patched files\setup-RItemPack.TP2	Sat Nov 16 20:03:58 2013
+@@ -3,7 +3,9 @@
+ BACKUP ~RItemPack/backup~
+ AUTHOR ~Rastor <rastor@rpgdungeon.net>~
+ VERSION ~v2.0 BWP Fix>~
++AUTO_TRA ~RItemPack/%s~
+ LANGUAGE ~English~ ~english~ ~RItemPack/english/setup.tra~
++LANGUAGE ~German~ ~german~ ~RItemPack/german/setup.tra~
+ 
+ BEGIN @0
+ 

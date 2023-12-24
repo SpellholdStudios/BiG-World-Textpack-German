@@ -1,0 +1,74 @@
+--- NeJ\baf\d5hibap.baf	Sun Jan 30 18:22:10 2005
++++ C:\BWP Patchstudio\patched files\NeJ\baf\d5hibap.baf	Wed Apr 10 10:28:57 2019
+@@ -128,7 +128,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER1A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER1A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -140,7 +140,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER2A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER2A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -152,7 +152,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER3A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER3A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -164,7 +164,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER4A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER4A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -176,7 +176,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER5A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER5A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -188,7 +188,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER6A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER6A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -200,7 +200,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER7A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER7A")
+ 		Wait(2)
+ 		IncrementGlobal("BAPTISM_PHASE","LOCALS",1)
+@@ -212,7 +212,7 @@
+ THEN
+ 	RESPONSE #100
+ 		MoveToObject("CAPTIVEVILLAGER8A")
+-		DisplayStringHead(Myself,~In the name of Sseth and Yxunomei, I consecrate you for their dark blessing.~)
++		DisplayStringHead(Myself,@0)
+ 		CreateVisualEffectObject("SPDISPMA","CAPTIVEVILLAGER8A")
+ 		Wait(2)
+ 		SetGlobal("BAPTISM_PHASE","LOCALS",0)

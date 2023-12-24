@@ -1,0 +1,51 @@
+@4301 = ~Mal-Kalen~
+
+//CRE Sounds
+/* 4852 */
+@4302 = ~[MAL-KALEN 1] Befreit! Befreit! Zurückgekehrt in den Körper um das Leben zu beenden! Ich brauche Vergeltung!~ [MALKL01]
+@4303 = ~[MAL-KALEN 2] Der Körper befreit! Ich lebe erneut!~ [MALKL02]
+@4304 = ~[MAL-KALEN 3] ~ [MALKL03]
+@4305 = ~[MAL-KALEN 4] ~ [MALKL04]
+@4306 = ~[REVENANT 01] ~ [REVEN01]
+@4307 = ~[REVENANT 02] Ich muss... mich rächen...~ [REVEN02]
+@4308 = ~[REVENANT 05] ~ [REVEN05]
+@4309 = ~[REVENANT 06] ~ [REVEN06]
+
+//Dialog
+@4310 = ~Hilfe für mich... der Körper gefangen... nur ein Schatten... der Körper gefangen... Ich lebe erneut! Rache den Zerstörern!~ /* #2472 */
+@4311 = ~Arme Kreatur, wer seid Ihr im Leben gewesen?~ /* #2474 */ 
+@4312 = ~Findet Euer Geist keinen Frieden? Was bindet Euch an diesen Ort?~ /* #2476 */
+@4313 = ~Weicht, Ihr untoter Schrecken! Hinfort, falls Ihr nicht endgültig zu sterben wünscht!~ /* #2475 */ 
+@4314 = ~Mal-Kalen Ich... Student, Ich... Rache den Zerstörern... Gebt den Körper frei!~ /* #2473 */
+@4315 = ~Schule zerstört von Verrätern... Ulcaster fort... Zum Schutz sagten sie... muss rächen!~ /* #2477 */
+@4316 = ~Nun ist der Körper gefangen... Kein Entrinnen für Körper... Gebt den Körper frei damit ich lebe! Rache den Zerstörern!~ /* #2478 */
+@4317 = ~Ich flehe Euch an, stellt Euren Angriff ein! Ich bin nicht Euer Feind!~ /* #2481 */
+@4318 = ~Lasst mich in Frieden! Ich werde kein Teil Eures urtümlichen Zorns sein!~ /* #2482 */
+@4319 = ~Glaubt Ihr wirklich schon einmal tot gewesen zu sein? Wartet nur bis ich mit Euch fertig bin!~ /* #2483 */
+@4320 = ~Ihr seid nicht der Feind... Ihr seid der Körper... Gebt den Körper frei damit ich lebe! Rache den Zerstörern!~ /* #2479 */
+@4321 = ~Die Schlacht ist schon längst vergessen! Brecht Eure sinnlose Aufgabe ab!~ /* #2488 */
+@4322 = ~Ich befreie meinen Körper geradewegs von diesem Ort! Man sieht sich!~ /* #2489 */ 
+@4323 = ~Wartet! Ihr könnt den Körper von Samuel nehmen. Lasst mich einfach in Ruhe!~ 
+@4324 = ~Wartet! Ihr könnt den Körper von Evan nehmen. Lasst mich einfach in Ruhe!~ 
+@4325 = ~Wartet! Ihr könnt den Körper von Brage nehmen. Lasst mich einfach in Ruhe!~ 
+@4326 = ~Wartet! Ihr könnt den Körper von Nathan nehmen. Lasst mich einfach in Ruhe!~ 
+@4327 = ~Wartet! Ihr könnt den Körper von Chelak nehmen. Lasst mich einfach in Ruhe!~ 
+@4328 = ~Wartet! Ihr könnt den Körper dieser Frau nehmen. Lasst mich einfach in Ruhe!~ 
+@4329 = ~Wartet! Ihr könnt den Körper dieses Mannes nehmen. Lasst mich einfach in Ruhe!~ 
+@4330 = ~Es ist nicht länger her als zehn Tage... muss mich an den Zerstörern rächen! Gebt den Körper frei!~ /* #2480 */
+@4331 = ~Es war vor dreihundert Jahren! Die Zeit hat bereits Eure Beute genommen!~ /* #2487 */ 
+@4332 = ~"Gebt den Körper frei, gebt den Körper frei!" Ich werde Euch zurück in die Neun Höllen frei geben!~ /* #2490 */ 
+@4333 = ~Ich habe nich vergessen... nicht länger als zehn Tage... gebt den Körper frei!~ /* #2491 */
+@4334 = ~Dreihundert Jahre... das kann nicht sein... dreihundert... alle müssen tot sein...~ /* #2496 */
+@4335 = ~Alle tot... Ich bin verblieben... ihre Nachfahren müssen büßen... Rache den Zerstörern! Gebt den Körper frei!~ /* #2497 */
+@4336 = ~Kampf oder nicht... befreit den Körper... GEBT IHN FREI!!!~ /* #2498 */
+@4337 = ~Ich lebe erneut... Rache den Zerstörern!~ /* #2499 */
+@4338 =  ~Neiiin... Rache den Zerstörern... Rache...~ /* #2500 */
+
+
+// Journal Entries  
+@4350 = ~Mal-Kalen, der Geist von Ulcaster
+  Ich begegnete dem Geist von Mal-Kalen, einem einstigen Studenten der Schule von Ulcaster, der die Ruinen seit Jahrhunderten heimgesucht hat. Der Geist wollte einen Körper um ihn in Besitz zu nehmen und Rache für die Zerstörung der Schule nehmen. Ich habe seine Forderung nachdrücklich abgelehnt.~ 
+@4351 = ~Mal-Kalen, der Geist von Ulcaster
+  Ich begegnete dem Geist von Mal-Kalen, einem einstigen Studenten der Schule von Ulcaster, der die Ruinen seit Jahrhunderten heimgesucht hat. Der Geist wollte einen Körper um ihn in Besitz zu nehmen und Rache für die Zerstörung der Schule nehmen. Ich gab ihm das Verlangte und entkam mit unbeschadetem Körper.~ 
+

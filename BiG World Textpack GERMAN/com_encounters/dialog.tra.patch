@@ -1,0 +1,74 @@
+--- com_encounters\translations\german\dialog.tra	Wed Jan 13 15:46:08 2010
++++ C:\BWP Patchstudio\patched files\com_encounters\translations\german\dialog.tra	Sat Nov 10 14:52:13 2012
+@@ -75,9 +75,9 @@
+ 
+ @10000 = ~Chosen of Mystra's Encounters (benötigt Thron des Bhaal)~
+ @10001 = ~/****************************************~
+-@10002 = ~*CoM Encounters Mod Version 1.04 FULL	*~
++@10002 = ~*CoM Encounters Mod Version 1.07	*~
+ @10003 = ~*http://www.chosenofmystra.com	*~
+-@10004 = ~*  Copyright 2010 Dark Raven	        *~
++@10004 = ~*  Copyright 2012 Dark Raven	        *~
+ @10005 = ~*	FOR USE WITH ToB Version 26498  *~
+ @10006 = ~*	THIS FILE WILL INSTALL          *~
+ @10007 = ~*	CoM Encounters IN YOUR BG       *~
+@@ -399,7 +399,7 @@
+ 
+ Gewicht: 3
+ Initiativefaktor: 2
+-Fertigkeit: Grosses Schwert
++Fertigkeit: Krummsäbel
+ Typ: 1-händig
+ 
+ Nur verwendbar von:
+@@ -424,7 +424,7 @@
+ 
+ Gewicht: 10
+ 
+-Fertigkeit: Grosses Schwert
++Fertigkeit: Katana
+ 
+ Initiativefaktor: 3
+ 
+@@ -450,13 +450,12 @@
+ ETWO: +3 Bonus
+ Gewicht: 12
+ Initiativefaktor: 9
+-Fertigkeit: Grosses Schwert
++Fertigkeit: Zweihänder
+ Typ:  2-händig
+ 
+ 
+ Nicht verwendbar von:
+- Druid
+-en
++ Druiden
+  Klerikern
+ 
+  Magiern 
+@@ -480,7 +479,7 @@
+ 
+ Gewicht:  2
+ 
+-Fertigkeit: Grosses Schwert
++Fertigkeit: Katana
+ 
+ Initiativefaktor: 2
+ 
+@@ -682,7 +681,7 @@
+ ETWO: +4
+ Gewicht: 4
+ Initiativefaktor: 5
+-Waffenfertigkeit: Grosses Schwert
++Waffenfertigkeit: Langschwert
+ Typ: 1-händig
+ 
+ Nicht verwendbar von:
+@@ -712,7 +711,7 @@
+ 
+ Initiativefaktor: 8
+ 
+-Fertigkeit: Grosses Schwert
++Fertigkeit: Bastardschwert
+ 
+ Typ: 1-händig

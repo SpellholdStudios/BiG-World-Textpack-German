@@ -1,0 +1,61 @@
+@1    = ~Vielen Dank für Eure freundliche Einladung, aber ich muss leider ablehnen, weil ich selbst einige Dinge zu tun habe.~
+@2    = ~Ihr habt mich angegriffen? Dann auf Wiedersehen!~
+@3    = ~Bitte nicht hier kämpfen, das würde die anderen behindern.~ 
+@4    = ~Verdammt...~
+@65   = ~(Fertigkeiten Identifizierung...)~ 
+@66   = ~(Fertigkeiten Identifizierung beendet)~
+@1000 = ~Oh, hallo <LADYLORD>, wie kann ich Euch sonst noch helfen? (Er blickt Euch nur kurz an, dann lenkt er seine Aufmerksamkeit auf die Spielhölle.) Und ratet, wer gewinnen wird.~
+@1001 = ~Es ist mir peinlich, wie soll ich Euch nennen?~ 
+@1010 = ~Ihr kennt meinen Namen nicht? Ich wette, Ihr seid gerade erst hier angekommen. (Er betrachtet die Spielhölle und mit einem Lächeln der Verachtung, dann wendet er sich dann um und schaut Euch an.)
+Darf ich mich vorstellen, zunächst einmal, mein Name ist Gold, aber die Leute hier nennen mich im Allgemeinen Goldkönig. Ich kenne das Gesetz und gleichzeitig habe ich ausgezeichnete Sprachkenntnisse... Ihr wisst, was ich meine? Wenn Ihr auf irgendwelche Klagen stoßt, könnt Ihr zu mir kommen, damit ich helfe.~
+@1011 = ~Klingt so, als seid Ihr ein Meister der Sprache, könnt Ihr mich trainieren?~ 
+@1020 = ~(Er zeigt den Anflug eines Lächelns.) Euch trainieren? Ah... ich glaube, dass das möglich ist, aber Ihr müsst mir 1000 Gold als Belohnung zahlen, oder mir versprechen, mir in einer Angelegenheit zu helfen, dann werde ich Euch in den beiden Lebensfertigkeiten \[Täuschung\] und \[Verhandlung\] trainieren.~
+@1021 = ~Ich bezahle Euch 1000 Goldmünzen als Belohnung.~
+@1022 = ~\[Verhandlung\] - Dies ist unglaublich teuer, und ich möchte wirklich von Euch lernen, macht es billiger...~ 
+@1023 = ~Ihr wollt, dass ich Euch helfe?~
+@1024 = ~Gebt mir bitte etwas Zeit, darüber nachzudenken, bis ich mich entschließe, zu Euch zu kommen.~
+@1025 = ~Nun, ich gebe Euch einen Rabatt. Solange Ihr mit 600 Goldmünzen als Belohnung zu mir kommt, werde ich Euch lehren.~
+@1026 = ~Vielen Dank, hier ist das Gold, das Ihr wollt.~
+@1027 = ~Wenn das zu teuer ist, gebt mir bitte etwas Zeit, darüber nachzudenken, bis ich mich entschließe, zu Euch zu kommen.~
+@1028 = ~Wie? Wenn Ihr auch die beiden Lebensfertigkeiten \[Täuschung\] und \[Verhandlung\] lernen wollt, dann zahlt mir 1000 Gold als Belohnung, oder versprecht mir, mir in einer Angelegenheit zu helfen.~ 
+@1030 = ~(Er schaut Euch vom Kopf bis Fuß an, um zu prüfen, wie Ihr Euch kleidet.) Eurer Kleidung nach zu urteilen, seid Ihr ein Abenteurer.
+In der Tat, ich bin seit Jahren auf der Suche nach meiner Zwillingsschwester Emily, wenn Ihr bereit seid, mir zu helfen, lehre ich Euch die Lebensfertigkeiten.~ ~(Er schaut Euch vom Kopf bis Fuß an, um zu prüfen, wie Ihr Euch kleidet.) Eurer Kleidung nach zu urteilen, seid Ihr eine Abenteurerin.
+In der Tat, ich bin seit Jahren auf der Suche nach meiner Zwillingsschwester Emily, wenn Ihr bereit seid, mir zu helfen, lehre ich Euch die Lebensfertigkeiten.~
+@1031 = ~Auf unseren früheren Reisen sind wir ihr nie begegnet, aber wir versprechen, Euch zu helfen, sie zu finden. Welche Anhaltspunkte habt Ihr?~ 
+@1032 = ~Gebt mir bitte etwas Zeit, um darüber nachzudenken, bis ich mich entschließe, zu Euch zu kommen.~ 
+@1040 = ~(Er dachte einen Moment nach) Ich bin in alle Richtungen gereist, um Nachforschungen anzustellen, ich habe blind gesucht, ohne Anhaltspunkt. Bis ich kürzlich zufällig einen Hinweis bekam.
+(Spricht langsam) Nicht weit von hier, in der Stadt Nashkel, ließ ein Phantomdieb auf seiner Flucht vor den Wachen einen Ring fallen, ich war zu dieser Zeit zufällig anwesend und stellte fest, dass dies genau der Ring ist, den mein Großvater vor langer Zeit Emily gab.~
+@1041 = ~Ich weiß nicht, wie der Ring in die Hände des Phantomdiebs gelangte. Ihr solltet vielleicht zuerst den Ring besorgen, nach Hinweisen suchen und dann dem Dieb zur Last legen, er könnte den Aufenthaltsort von Emily kennen.~ 
+@1042 = ~In den Händen der Wachen? Wie können wir diesen Ring bekommen?~
+@1050 = ~Ich weiß nicht, wie ich den Ring von der Wache erlangen kann, ich versuchte, die ganze Geschichte erzählen, aber sie weigerten sich und der Phantomdieb scheint mit ihnen in Verbindung zu stehen. (Lächelt hilflos)
+Vielleicht könnt Ihr versuchen, direkten Kontakt zu den örtlichen Strafverfolgungsbehörden aufzunehmen und bei Eurem Ruf als Abenteurer wären sie vielleicht bereit, Euch den Ring zu geben.~
+@1051 = ~(Als er sieht, dass Ihr zögert, fährt er fort) Nun, ich kann Euch zunächst einen Rabatt geben, also 600 Goldmünzen, ich verspreche, Euch zu trainieren, und wenn Ihr Emily findet, werde ich Euch einige magische Gegenstände als Belohnung geben.~
+@1052 = ~Das hört sich gut an, vielen Dank, hier ist das Gold, das Ihr wollt.~
+@1053 = ~Gebt mir bitte etwas Zeit, um darüber nachzudenken, bis ich mich entschließe, zu Euch zu kommen.~
+@1060 = ~(Er nimmt die Goldmünzen an) Nun, Ihr könnt jederzeit zu mir kommen, ich werde Euch die entsprechenden Fertigkeiten trainieren.~
+@1061 = ~Also lasst uns die Ausbildung jetzt beginnen, und ich möchte die Fertigkeiten \[Täuschung\] trainieren.~
+@1062 = ~Also lasst uns die Ausbildung jetzt beginnen, ich möchte die Fertigkeiten \[Verhandlung\] trainieren.~
+@1063 = ~Okay, ich werde zu Euch kommen, wenn ich trainieren will.~
+@1070 = ~Oh, Ihr schon wieder, was kann ich für Euch tun?~
+@1071 = ~Ich bin bereit zu zahlen, um die Fertigkeiten \[Täuschung\] und \[Verhandlung\] zu erlernen.~
+@1072 = ~Nichts, auf Wiedersehen.~
+@1100 = ~Oh, Ihr seid es, was kann ich für Euch tun?~
+@1101 = ~Ich will die Fertigkeiten \[Täuschung\] trainieren.~
+@1102 = ~Ich will die Fertigkeiten \[Verhandlung\] trainieren.~
+@1103 = ~Nichts, nur "Hallo" sagen.~
+@1110 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Täuschung\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~
+@1111 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Täuschung\] trainieren.~
+@1112 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Täuschung\] trainieren.~
+@1113 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Täuschung\] trainieren.~
+@1114 = ~Ich will so viel Fertigkeiten \[Täuschung\] wie möglich trainieren.~
+@1115 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1120 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Verhandlung\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~
+@1121 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Verhandlung\] trainieren.~
+@1122 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Verhandlung\] trainieren.~
+@1123 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Verhandlung\] trainieren.~
+@1124 = ~Ich will so viel Fertigkeiten \[Verhandlung\] wie möglich trainieren.~
+@1125 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1150 = ~Ich kann Euch nichts weiter lehren und ich schlage vor, Ihr geht nach Baldurs Tor, vielleicht könnt Ihr dort andere Lehrer finden, die Euer "Training" fortsetzen.~
+@1151 = ~Danke, ich verstehe.~
+@2000 = ~\[Erfolg\] Ah... ~
+@2001 = ~\[Misserefolg\] An Eurer Kleidung sehe ich, dass es Euch nicht an Geld mangelt.~

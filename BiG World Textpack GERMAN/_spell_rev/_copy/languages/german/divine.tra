@@ -1,0 +1,3086 @@
+@10000=~Schriftrolle der Wiederherstellung~
+@10001=~Eine Schriftrolle der Wiederherstellung bringt das Zauberbuch eines Charakters auf den aktuellen Stand. Lest sie, falls sich im Zauberbuch eines Klerikers, Paladins, Druiden oder Waldläufers Sprüche befinden, die dort nicht sein sollten. Diese Zauber werden entfernt und die richtigen beim nächsten Stufenaufstieg hinzugefügt.~
+
+/*-------------------------level 1------------------------*/
+
+@1=~Segen~
+@2=~Segen
+
+Grad: 1
+Schule: Verzauberung
+Domäne: Alle
+Reichweite: Lang
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Wenn der Anwender einen Segen ausspricht, erhöht er die Moral der betroffenen Wesen um 1, wodurch sie auf ihre Rettungswürfe gegen Furchtzauber einen Bonus von -1 erhalten. Darüber hinaus wird diesen Wesen ein ETW0-Bonus von -1 sowie ein Schadens-Bonus von +1 gewährt. Der Anwender bestimmt, auf welche Entfernung der Zauber wirken soll.
+
+Sobald der Zauber vollständig ausgesprochen ist, wirkt er auf alle freundlichen Wesen innerhalb des Wirkungsbereichs. Alle Wesen, die den Wirkungsbereich des Zaubers verlassen, unterliegen immer noch seiner Wirkung. Wesen, die den Wirkungsbereich betreten, werden nicht nachträglich beeinflusst.~
+
+@3=~Befehl~
+@4=~Befehl
+
+Grad: 1
+Schule: Verzauberung
+Domäne: Charme, Kampf, Gesetz
+Reichweite: Lang
+Dauer: 1 Runde
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Mit Hilfe dieses Zaubers erteilt der Anwender einem Wesen den Befehl sich hinzulegen und nichts zu tun. Das Wesen schläft dadurch für 1 Runde ein und erwacht am Ende dieser Runde, ohne durch den Zauber Schaden genommen zu haben. Das Ziel erleidet für je 2 Stufen des Anwenders nach der ersten einen Malus von +1 auf seinen Rettungswurf - bis zu einem Maximum von +4 bei einem Anwender der 9. Stufe.~
+
+@5=~Leichte Wunden heilen~
+@6=~Leichte Wunden heilen
+
+Grad: 1
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Anwender einem Wesen seine Hände auflegt, heilt er bei diesem 1W8 erlittene Schadenspunkte sowie zusätzlich einen weiteren pro Stufe des Anwenders (bis zu einem Maximum von 1W8 +5). Untote sowie körperlose oder von anderen Ebenen stammende Wesen können durch den Zauber nicht geheilt werden.~
+
+@7=~Böses entdecken~
+@8=~Böses entdecken
+
+Grad: 1
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber enthüllt alle bösen Ausstrahlungen, die von Wesen in näherer Umgebung ausgehen, wodurch böse Wesen kurz rot aufleuchten. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.~
+
+@9=~Verstricken~
+@10=~Verstricken
+
+Grad: 1
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Speziell (gg. Odemwaffen)
+
+Pflanzen schlingen sich um alle Wesen, die sich im Wirkungsbereich aufhalten. Dabei versuchen Gräser und Büsche, ja selbst Bäume die Wesen festzuhalten. Wesen, denen ein Rettungswurf gegen Odemwaffen gelingt, werden nicht umschlungen, können sich aber dennoch nur mit halber Geschwindigkeit bewegen und müssen in jeder Runde, in der sie sich im Wirkungsbereich aufhalten, einen weitere Rettungswurf durchführen.
+
+Umschlungene Wesen erleiden einen Malus von +2 auf ihre ETW0 und ihre Rüstungsklasse. Sie können allerdings weiterhin angreifen, wenn sie sich dazu nicht auf ihren Gegner zubewegen müssen. Elementare und fliegende Wesen werden von diesem Zauber nicht betroffen, ebenso wie außergewöhnlich große oder starke Wesen, denen die Auswirkungen kaum oder gar nicht zu schaffen machen.~
+
+@11=~Zauberstein~
+@12=~Zauberstein
+
+Grad: 1
+Schule: Verzauberung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber kann der Anwender vorübergehend zehn Steinchen, die nicht größer sind als Schleuderkugeln, verzaubern. Bis zu drei dieser Steine können pro Runde auf einen Gegner geworfen worden. Der Anwender erhält dabei einen Bonus von -1 auf seine ETW0 und wenn es darum geht, welche Wesen sie verletzen können, werden die Steine als +1 Waffen betrachtet. Jeder Stein verursacht 1W4 +2 Schadenspunkt (1W4 +5 gegen Untote). Die Magie, die sich in den Steinchen befindet, verschwindet nach einer Stunde oder nachdem sie verwendet wurden.~
+
+@1030=~Dieser Stein wurde durch die Anwendung von Zauberstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Der Träger kann Wesen verletzen, die nur von magischen Waffen +1 oder besser verletzt werden können.
+
+Schaden: 1W4 +2 (Wucht) 
+Schadensbonus: +3 (gg. Untote)
+Angriffe/Runde: auf 3 gesetzt
+Gewicht: 0
+Initiativefaktor: 0
+Typ: 1-händig~
+
+@13=~Schutz vor Bösem~
+@14=~Schutz vor Bösem
+
+Grad: 1
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Zauber erzeugt eine magische Barriere im Abstand von 30 cm rund um den Empfänger. Die Barriere bewegt sich mit dem Empfänger und hat zwei wichtige Auswirkungen: Einerseits erleiden alle Angriffswürfe von bösen Wesen gegen den Empfänger einen Abzug von -2 und andererseits erhält der Empfänger einen Bonus von -2 auf Rettungswürfe, wenn diese durch einen derartigen Angriff verursacht werden.~
+
+@15=~Furcht bannen~
+@16=~Furcht bannen
+
+Grad: 2
+Schule: Bannzauber
+Domäne: Charme
+Reichweite: Lang
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Die Kampfmoral der betroffenen Wesen steigt auf den maximal möglichen Wert. Waren die Wesen zum Zeitpunkt des Wirkens von magischer Furcht betroffen, wird diese aufgehoben. Zusätzlich sind sie für die Wirkungsdauer dieses Zaubers immun gegen magische Furcht.
+
+Alle Wesen, die sich beim Aussprechen des Zaubers im Wirkungsbereich aufhalten, werden von den Auswirkungen betroffen und bleiben es auch, wenn sie anschließend diesen Bereich anschließend verlassen. Wesen, die den Bereich nach dem Wirken des Zaubers betreten, werden dagegen nicht betroffen.~
+
+@17=~Heiligtum~
+@18=~Heiligtum
+
+Grad: 1
+Schule: Bannzauber
+Domäne: Charme, Schutz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Anwender wird von allen Gegnern ignoriert, ganz so, als ob er unsichtbar wäre. Wenn er angreift oder offensive Zauber einsetzt, endet die Wirkung des Heiligtums sofort. Er kann sich jedoch frei bewegen und defensive, auf ihn zentrierte Zauber einsetzen. So könnte er beispielsweise im Kampf Wunden heilen oder sich selbst segnen, ohne gestört zu werden. Der Zauber endet auch dann sofort, wenn der Anwender einen Zauber auf feindselige Wesen anwendet.~
+
+@19=~Zauberkeule~
+@20=~Zauberkeule
+
+Grad: 1
+Schule: Veränderung
+Domäne: Kampf, Pflanzen
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Dieser Zauber erschafft einen magischen Knüppel namens Shillelagh, die bei einem Treffer 1W6 +1 Schadenspunkte verursacht. Außerdem wickeln sich bei einem erfolgreichen Treffer Ranken um das Ziel und halten es an Ort und Stelle fest, wenn ihm ein Rettungswurf gegen Odemwaffen misslingt. Shillelagh wird wie eine normale Keule geschwungen, doch für den Träger entstehen keine Nachteile dadurch, dass er im Umgang mit diesen Waffen nicht geschult ist.
+
+Bei einem Anwender der Stufe 1 wird die Keule als magische Waffe +1 behandelt und gewährt demnach auch einen ETW0-Bonus von -1 sowie einen Schadensbonus von +1. Für je 6 Stufen des Anwenders erhöht sich dieser Bonus um 1, bis zu einem Maximum von +3 auf Stufe 12. Shillelagh kann nur vom Anwender eingesetzt werden und bleibt in dessen Hand, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+
+@21=~Rüstung des Glaubens~
+@22=~Rüstung des Glaubens
+
+Grad: 1
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Die Rüstung des Glaubens schützt den Anwender sowohl vor Angriffen durch Nah- wie auch Fernkampfangriffen. Diese magische Rüstung besteht aus reiner magischer Energie und absorbiert 20% des Schadens, den der Anwender normalerweise erleiden würde. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@23=~Verderben~
+@24=~Verderben
+
+Grad: 1
+Schule: Veränderung
+Domäne: Charme
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Das Ziel dieses Zaubers überkommt ein Gefühl der Verdammnis. Wenn dem Ziel kein Rettungswurf gegen Zauber gelingt, erleidet es für die Wirkungsdauer einen Malus von +2 auf seine ETW0 und seine Rettungswurfe sowie einen Malus von -2 auf seine Schadenswürfe. Für je 2 weitere Stufen des Anwenders erhält das Ziel auf seinen Rettungswurf (gegen diesen Zauber) einen Malus von +1 (bis zu einem Maximum von +4 auf Stufe 9). Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@25=~Feenfeuer~
+@26=~Feenfeuer
+
+Grad: 1
+Schule: Hervorrufung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 1
+Bereich: 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Alle Wesen im Wirkungsbereich werden von einem bleichen Leuchten umhüllt, wodurch ihr Standort und ihre Bewegungen leicht erkennbar werden. Die so umrahmten Wesen können nicht vom Schutz profitieren, den Dunkelheit, Unsichtbarkeit oder ähnliche Effekte liefern, und erleiden einen Malus von +2 auf ihre Rüstungsklasse. 
+
+Das Licht ist zu schwach um besondere Auswirkungen auf Untote oder Wesen, die im Dunkeln Leben und somit gegenüber Licht besonders empfindlich sind, zu haben. Daher fügt Feenfeuer den umrahmten Wesen auch keinen direkten Schaden zu.~
+@26000=~Feenfeuer
+
+Grad: 1
+Schule: Hervorrufung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 1
+Bereich: 1,5 m Radius
+Rettungswurf: Nein
+
+Alle Wesen im Wirkungsbereich werden von einem bleichen Leuchten umhüllt, wodurch ihr Standort und ihre Bewegungen leicht erkennbar werden. Die so umrahmten Wesen erleiden einen Malus von +2 auf ihre Rüstungsklasse. 
+
+Das Licht ist zu schwach um besondere Auswirkungen auf Untote oder Wesen, die im Dunkeln Leben und somit gegenüber Licht besonders empfindlich sind, zu haben. Daher fügt Feenfeuer den umrahmten Wesen auch keinen direkten Schaden zu.~
+
+@27=~Felsenstärke~
+@28=~Felsenstärke
+
+Grad: 1
+Schule: Veränderung
+Domäne: Erde
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Anwender ruft die Macht der Erde herbei und erhält so einen Teil der Belastbarkeit und Stärke eines Steins. Durch diesen Zauber erhält der Anwender eine Grundstärke von 18 und anschließend wird seine Zusatzstärke um 50 Punkte erhöht. Das Wesen erhält alle entsprechenden Boni durch die hohe Stärke.
+
+Hat ein Wesen beispielsweise eine Stärke zwischen 18/50 und 18/00 wird diese auf 18/00, bei einer Stärke zwischen 18/01 und 18/50 auf 18/50 + dem ursprünglichen Prozentwert gesetzt. Bei einer Stärke von unter 18 erhält das Wesen immer 18/50. Hatte das Ziel jedoch bereits zuvor eine Stärke von 19 oder mehr, so wird diese für die Wirkungsdauer des Zaubers gesenkt.
+
+Für die Wirkungsdauer dieses Zaubers bewegt sich der Anwender langsamer und wird außerdem gegen alles immun, das ihn wegschieben würde - egal ob auf magischem oder natürlichem Weg. Darunter fallen z.B. Flügelschläge, Windstöße oder Telekinese.~
+
+@29=~Sengende Sonne~
+@30=~Sengende Sonne
+
+Grad: 1
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Zauber)
+
+Wenn dieser Zauber angewendet wird, fährt ein gleißender Strahl brennender Hitze vom Himmel hernieder und trifft ein vom Anwender ausgewähltes Opfer. Wenn ein Wesen von dem Strahl getroffen wird, erleidet es 1W6 Schadenspunkte plus 1 Punkt je Stufe des Anwenders - bis zu einem Maximum von 1W6 +20. Untote Wesen und Monster, die empfindlich gegen helles Licht sind, erhalten 1W6 Schadenspunkte plus 2 Punkte je Stufe des Anwenders - bis zu einem Maximum von 1W6 +40. Dem Opfer steht ein Rettungswurf gegen Zauber zu, mit dem der Schaden halbiert werden kann. Zusätzlich wird das Opfer, wenn ihm der Rettungswurf misslingt, 3 Runden lang geblendet.~
+
+
+/*-------------------level 2---------------------*/
+
+@31=~Stärkung~
+@32=~Stärkung
+
+Grad: 2
+Schule: Nekromantie
+Domäne: Kampf, Nekromantie
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Empfänger dieses Zaubers erhält 1W8 zusätzliche Trefferpunkte sowie einen weiteren je Stufe des Anwenders (bis zu einem Maximum von 1W8 +10). Außerdem erhält er einen Bonus von -1 auf seine ETWO und seine Rettungswürfe sowie einen Bonus von +1 auf seinen Schadenswurf. 
+
+Mit Hilfe von Stärkung kann der Empfänger vorübergehend mehr Trefferpunkte haben als seine maximalen Trefferpunkte vorsehen. Wenn der Empfänger Schaden erleidet, wird der Schaden zuerst von den zusätzlichen Trefferpunkten abgezogen. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@33=~Rindenhaut~
+@34=~Rindenhaut
+
+Grad: 2
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Die Haut des Empfängers wird zäh wie Rinde, wodurch sich seine Rüstungsklasse um 1 verbessert. Für je 3 Stufen des Anwenders verbessert sich die Rüstungsklasse um einen weiteren Punkt - bis zu einem Maximum von -4 auf Stufe 9. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@35=~Gesang~
+@36=~Gesang
+
+Grad: 2
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 9
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Mit Hilfe des Gesangs stärkt der Anwender die eigene Gruppe und schwächt seine Feinde. Alle, die ihm freundlich gesonnen sind, erhalten einen Bonus von -1 auf ihre ETW0 und ihre Rettungswürfe sowie einen Bonus von +1 auf ihre Schadenswürfe. Alle, die dem Anwender feindlich gesonnen sind, erleiden entsprechende Mali. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@37=~Person oder Tier bezaubern~
+@38=~Person oder Tier bezaubern
+
+Grad: 2
+Schule: Verzauberung
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 1 Phase
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Der Zauber betrifft alle Menschen, Halbmenschen oder humanoiden Wesen, die menschengroß oder kleiner sind. Das sind beispielsweise Heinzelmännchen, Dryaden, Zwerge, Elfen, Gnolle, Gnome, Goblins, Halbelfen, Halblinge, Halborks, Hobgoblins, Menschen, Kobolde, Echsenmenschen, Wassermänner, Orks, Feenkobolde, Feengeister und Troglodyten. Der Zauber könnte beispielsweise verwendet werden, um einen menschlichen Kämpfer der 10. Stufe zu bezaubern, ist aber gegen einen Oger völlig wirkungslos. Darüber hinaus werden nur normale oder riesenhafte Tiere betroffen - Wesen wie etwa Lindwürmer, Ankhegs oder Aaskriecher zählen nicht als Tiere.
+
+Wenn dem Ziel ein Rettungswurf gegen Zauber mit einem Malus von +1 misslingt, sieht es in dem Anwender einen guten, vertrauenswürdigen Freund, dessen Befehle zu befolgen sind und der beschützt werden muss. Der Anwender kann dem bezauberten Wesen Befehle erteilen, die von diesem so rasch wie möglich ausgeführt werden. Der Zauber endet, wenn der Anwender den Bezauberten verletzt bzw. ihn durch achtlose Taten zu verletzen droht oder wenn Magie bannen erfolgreich auf den Bezauberten gewirkt wird. Wenn mehrere Bezauberungen auf ein Wesen gewirkt werden, hat immer der zuletzt gewirkte Zauber Vorrang.~
+
+@39=~Fallen finden~
+@40=~Fallen finden
+
+Grad: 2
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: 3 Phasen
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Der Anwender kann alle auf normalem oder magischem Weg verborgenen, mechanischen oder magischen Fallen erkennen, als ob er ein Dieb wäre. Als Falle zählt jede Vorrichtung oder jeglicher Zauber, der folgende Kriterien erfüllt: Die Vorrichtung oder der Zauber kann zu einem plötzlichen oder unerwarteten Ergebnis führen, der Anwender könnte dieses Ergebnis als nicht erwünscht oder schädlich ansehen und derjenige, der die Vorrichtung erschaffen hat oder den Zauber gewirkt hat, hat diese schädigende Wirkung mit der Absicht hervorgerufen. Aus diesem Grund kann Fallen finden auch Glyphen und ähnliche Zauber aufspüren.~
+
+@41=~Flammenklinge~
+@42=~Flammenklinge
+
+Grad: 2
+Schule: Hervorrufung
+Domäne: Feuer
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Eine feurig heiße Klinge schießt aus der Waffenhand des Anwenders. Er schwingt diese Klinge wie einen Krummsäbel, doch für den Träger entstehen keine Nachteile dadurch, dass er im Umgang mit diesen Waffen nicht geschult ist. Die Klinge verursacht 1W8 Schadenspunkte durch Feuer und für je 2 Stufen wird ein zusätzlicher Schadenspunkt verursacht (bis zu einem Maximum von 1W8 +10).
+
+Da die Klinge ohne Substanz ist kommt zwar ein eventuell vorhandener Stärkebonus nicht zur Anwendung, jedoch werden Angriffe mit der Flammenklinge als Berührungs-Angriff gewertet und erhalten somit einen ETW0-Bonus von -4. Wenn es darum geht, welche Wesen sie verletzen kann, wird die Flammenklinge als +1 Waffen betrachtet. Darüber hinaus kann sie brennbar Materialen wie Pergament, Stroh, trockene Stöcken oder Kleidung in Brand stecken.~
+
+@43=~Gute Beeren~
+@44=~Gute Beeren
+
+Grad: 2
+Schule: Veränderung
+Domäne: Pflanzen
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber erschafft 5 magische Beeren, die der Anwender mit sich führen, anderen geben und jederzeit essen kann. Jede der Beeren heilt zunächst einen Schadenspunkt, wenn sie verzehrt wird. Für je 3 Stufen des Anwenders heilen die Beeren einen weiteren Schadenspunkt (bis zu einen Maximum von 7 auf Stufe 18). Die Beeren bleiben 24 Stunden erhalten oder bis sie verzehrt werden.~
+
+@1032=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen einen Trefferpunkt.~
+@1033=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 2 Trefferpunkte.~
+@1034=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 3 Trefferpunkte.~
+@1035=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 4 Trefferpunkte.~
+@1036=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 5 Trefferpunkte.~
+@1037=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 6 Trefferpunkte.~
+@1038=~Diese einfach aussehenden Beeren wurden durch den Zauber Gute Beeren erschaffen und heilen 7 Trefferpunkte.~
+
+@45=~Personen festhalten~
+@46=~Personen festhalten
+
+Grad: 2
+Schule: Verzauberung
+Domäne: Charme, Gesetz
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Der Zauber hält einen oder mehrere Menschen, Halbmenschen oder humanoide Wesen, die menschengroß oder kleiner sind, für 1 Phase an einer Stelle fest. Zu den betroffenen Wesen zählen beispielsweise Heinzelmännchen, Dryaden, Zwerge, Elfen, Gnolle, Gnome, Goblins, Halbelfen, Halblinge, Halborks, Hobgoblins, Menschen, Kobolde, Echsenmenschen, Wassermänner, Orks, Feenkobolde, Feengeister und Troglodyten. Der Zauber könnte beispielsweise verwendet werden, um einen menschlichen Kämpfer der 10. Stufe festzuhalten, ist aber gegen einen Oger völlig wirkungslos. Den Opfern steht ein Rettungswurf gegen Zauber mit +1 Malus zu, um den Auswirkungen zu entgehen. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. 
+
+Die festgehaltenen Wesen können sich weder bewegen noch sprechen, doch sie nehmen alle Ereignisse wahr, die um sie herum geschehen, auch wenn sie ihnen hilflos gegenüber stehen. Sie können nur Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Da die Zeit für die Ziele normal schnell verstreicht, kann sich der Zustand eines festgehaltenen Wesens aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
+
+@47=~Feind analysieren~
+@48=~Feind analysieren
+
+Grad: 2
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Lang
+Dauer: 2 Phasen
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Durch diesen Zauber leuchten die Augen des Anwenders durch magische Energie auf und er kann die Aura eines Wesens analysieren, um so dessen Stärken und Schwächen zu bestimmen. Während der Wirkungsdauer dieses Zaubers werden beim Ziel die Widerstände gegen alle Waffen um 10% gesenkt und Angriffe gegen das Ziel werden mit einem ETW0-Bonus von -2 durchgeführt. Es gibt bestimmte magische Gegenstände, die vor den Auswirkungen dieses Zaubers schützen. Ebenso hat er keine Auswirkungen auf Wesen, die keine Aura ausstrahlen - wie etwa Konstrukte. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.~
+
+@49=~Schutz vor Feuer und Kälte~
+@50=~Schutz vor Feuer und Kälte
+
+Grad: 2
+Schule: Veränderung
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 1 Phase + 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Körper des Zielwesens wird auf magischem Weg gegen die Auswirkungen von Hitze und Kälte widerstandsfähig. Dadurch wird widersteht das Wesen ungewöhnlicher Hitze oder Kälte, egal ob magischer oder normaler Natur, wesentlich besser. Der Schaden, den derartige Hitze oder Kälte anrichtet, wird um 50% reduziert. 
+
+Darunter fallen beispielsweise glühend heiße Kohlen, brennendes Öl, Flammenklingen, Feuerbälle, Meteorschwärme, der Odemangriff eines roten Drachen, Frostklingen, Eisstürme, Stäbe des Frostes, der Odemangriff eines weißen Drachen und so weiter. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@51=~Stille~
+@52=~Stille
+
+Grad: 2
+Schule: Veränderung
+Domäne: Wächter
+Reichweite: Lang
+Dauer: 2 Runden/Stufe
+Zeitaufwand: 5
+Bereich: 4,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Im Wirkungsbereich kehrt absolute Stille ein. Dadurch wird jedes Gespräch unterbrochen und das Zaubern unmöglich solange der betroffene Zauberwirker nicht Wortloses Zaubern spricht. Wesen, denen ein Rettungswurf gegen Zauber mit einem Malus von +1 misslingt, sind für die Wirkungsdauer des Zaubers von Stille betroffen.
+
+Alle Wesen, die sich beim Aussprechen des Zaubers im Wirkungsbereich aufhalten, werden von den Auswirkungen betroffen und bleiben es auch, wenn sie anschließend diesen Bereich anschließend verlassen. Wesen, die den Bereich nach dem Wirken des Zaubers betreten, werden dagegen nicht betroffen.~
+
+@53=~Gift verlangsamen~
+@54=~Gift verlangsamen
+
+Grad: 2
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Bei einem vergifteten Wesen werden die Auswirkungen des Giftes verlangsamt. Gifte, die nicht außergewöhnlich stark sind, werden sogar augenblicklich neutralisiert.~
+
+@55=~Geisterhammer~
+@56=~Geisterhammer
+
+Grad: 2
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Mittel
+Dauer: 2 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers ruft der Anwender seine Gottheit an, um einen magisches Kraftfeld zu erschaffen, das entfernt an einen Hammer erinnert. Der Anwender führt den Geisterhammer mit seiner normalen ETW0, so als wäre er im Umgang mit der Waffe geschult. Solange er sich auf den Hammer konzentriert, kann dieser dazu benutzt werden, um jeden Gegner im Umkreis von 6 m damit anzugreifen. Dennoch erleidet der Anwender keine Mali dafür, dass er eine Fernkampfwaffe im Nahkampf einsetzt.
+
+Auf der 1. Stufe entspricht der Hammer einer magischen Waffe mit einer +1 Verzauberung, die 1W8 +1 magischen Schaden verursacht. Für je 5 angefangene Stufen des Anwenders wird der Verzauberungsgrad des Hammers um 1 erhöht - bis zu einem Maximum von +5 bei einem Anwender der 20. Stufe. Demnach liegt der maximale ETW0-Bonus bei -5 und der maximale Schadensbonus bei +5. Aufgrund der ätherischen Zusammensetzung des Geisterhammers kommt ein eventuell vorhandener Stärkebonus nicht zur Anwendung. Jeder Angriff zählt als Nahkampf-Berührungsangriff und erhält damit einen ETW0-Bonus von -4.~
+
+@57=~Göttliche Macht entlehnen~
+@58=~Göttliche Macht entlehnen
+
+Grad: 2
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 2
+Bereich: Anwender
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers ruft der Anwender seinen Gott an, auf dass ihm dieser für kurze Zeit überirdische Macht verleiht. Wenn das geschieht, erbebt der Körper des Anwenders, er wird von einer schimmernden Aura umgeben und wird für kurze Zeit zu einem Gefäß für die Macht seines Gottes. Dadurch erhöhen sich seine Stärke, Geschicklichkeit und Konstitution für 1 Phase um einen Punkt für je 3 Stufen des Anwenders. Ein Wesen der 3. Stufe würde beispielsweise +1 auf diese Attribute erhalten, während ein Kleriker der 12. Stufe +4 auf die Attribute erhalten würde.
+
+Nach dem Ende der Wirkungsdauer ist der Anwender für 5 Runden erschöpft, wodurch er einen Malus von +2 auf seine ETWO, seine Rüstungsklasse und seinen Zeitaufwand beim Zaubern sowie einen Malus von -2 auf seinen Schadenswurf erleidet. Mehrfache Anwendungen dieses oder ähnlicher Zauber sind nicht kumulativ.~
+
+@59=~Mittelschwere Wunden heilen~
+@60=~Mittelschwere Wunden heilen
+
+Grad: 2
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Anwender einem Wesen seine Hände auflegt, heilt er bei diesem 2W8 erlittene Schadenspunkte sowie zusätzlich einen weiteren pro Stufe des Anwenders (bis zu einem Maximum von 2W8 +10). Untote sowie körperlose oder von anderen Ebenen stammende Wesen können durch den Zauber nicht geheilt werden.~
+
+@61=~Feuerfalle~
+@62=~Feuerfalle
+
+Grad: 2
+Schule: Bannzauber
+Domäne: Feuer
+Reichweite: Kurz
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 6 m Radius
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Diese mächtige Falle schädigt feindseligen oder unautorisierte Wesen, die versuchen einen Raum zu betreten, eine bestimmte Stelle zu passieren oder einen bestimmten Behälter zu öffnen. Die Falle kann beispielsweise auf einem Durchgang, einer schmalen Brücke oder einer Truhe angebracht werden. Jeder Gegner, der dem entsprechend geschützten Bereich zu nahe kommt, setzt die in der Falle gespeicherte magische Energie frei.
+
+Wenn er diesen Zauber ausspricht, webt der Anwender ein Geflecht aus schwach leuchtenden Linien, das ausgelöst wird, wenn sich ein Gegner auf weniger als 4,5 m nährt. Dann explodiert es und fügt allen Feinden in einen Bereich von 6 m Radius je Stufe des Anwenders 1W4 Schadenspunkte durch Feuer zu (bis zu einem Maximum von 10W4). Wenn den betroffenen Wesen ein Rettungswurf gegen Odemwaffen mit einem Malus von +1 gelingt, erleiden sie nur halben Schaden. Der Zauber fügt den eigenen Gruppenmitgliedern keinen Schaden zu.~
+
+
+/*-----------------------level 3-------------------------*/
+
+@71=~Tote beleben~
+@72=~Tote beleben
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Mittel
+Dauer: 8 Stunden
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers lässt der Anwender Skelette auferstehen, die ihm anschließend dienen. Die Art und die Anzahl der beschworenen Wesen hängen von der Stufe des Anwenders ab.
+
+Stufe 5: 2 Skelette
+Stufe 7: 3 Skelette
+Stufe 9: 4 Skelette
+Stufe 12: 2 Höhere Skelette
+Stufe 15: 1 Kriegerskelett
+
+Die untoten Wesen bleiben unter der Kontrolle des Anwenders bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.
+
+
+SKELETT (Stufe 2):
+
+Gesinnung: Chaotisch böse
+Stärke: 15
+Geschicklichkeit: 14
+Konstitution: -
+Intelligenz: -
+Weisheit: 10
+Charisma: 1
+
+Immun gegen Betäubung, Bezauberung, Festhalten, Gift, Schlaf, Todesmagie und Verwirrung.
+
+Trefferpunkte: 24
+Schaden: 1W6 +2 (Wucht, Streitkolben +1)
+ETW0: 18
+Angriffe/Runde: 1
+Rüstungsklasse: 6
+Rettungswürfe: 10/12/11/13/13
+
+Widerstand gg. Geschosswaffen: 40%
+Widerstand gg. Klingenwaffen: 20%
+Widerstand gg. Stichwaffen: 20%
+Kältewiderstand: 100%
+
+
+HÖHERES SKELETT (Stufe 5):
+
+Gesinnung: Chaotisch böse
+Stärke: 16
+Geschicklichkeit: 14
+Konstitution: -
+Intelligenz: -
+Weisheit: 10
+Charisma: 1
+
+Immun gegen Betäubung, Bezauberung, Festhalten, Gift, Schlaf, Todesmagie und Verwirrung.
+
+Trefferpunkte: 60
+Schaden: 2W6 +2 (Klinge, Zweihänder +1)
+ETW0: 16
+Angriffe/Runde: 1
+Rüstungsklasse: 4
+Rettungswürfe: 9/11/10/12/12
+
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%
+Kältewiderstand: 100%
+
+
+KRIEGERSKELETT (Stufe 9):
+
+Gesinnung: Neutral böse
+Stärke: 18/51
+Geschicklichkeit: 14
+Konstitution: -
+Intelligenz: 15
+Weisheit: 14
+Charisma: 12
+
+Immun gegen normale Waffen, Betäubung, Bezauberung, Festhalten, Gift, Schlaf, Todesmagie und Verwirrung.
+
+Trefferpunkte: 108
+Schaden: 2W6 +4 (Klinge, Zweihänder +1)
+ETW0: 11
+Angriffe/Runde: 2
+Rüstungsklasse: 2
+Rettungswürfe: 5/7/6/5/8
+
+Magiewiderstand: 90%
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%
+Kältewiderstand: 100%~
+
+@73=~Blitze herbeirufen~
+@74=~Blitze herbeirufen
+
+Grad: 3
+Schule: Veränderung
+Domäne: Wetter
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 110 m Radius
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Wenn der Zauber abgeschlossen wird und anschließend einmal pro Runde lässt der Anwender einen 9 m langen senkrechten Blitz auf einen Gegner herabfahren. Dieser Blitz schlägt zunächst beim Ziel des Zaubers ein und verursacht dabei 6W6 Schadenspunkte durch Elektrizität. Dieser Schaden kann durch einen erfolgreichen Rettungswurf gegen Odemwaffen mit einem Malus von +2 halbiert werden. 
+
+Die Blitze, die während der verbleibenden Wirkungsdauer des Sturms entstehen, treffen im Gegensatz zum ersten zufällige Gegner, der Anwender hat also keine Kontrolle mehr darüber, wer das Ziel wird. Er kann sich jedoch sicher sein, dass es nicht seine Verbündeten sind. Der Zauber hat eine Wirkungsdauer von 1 Runde für je 3 Stufen des Anwenders (bis zu einem Maximum von 5 Runden auf Stufe 15).~
+
+@75=~Magie bannen~
+@76=~Magie bannen
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Alle
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Dieser Zauber hebt magische Auswirkungen auf, die Personen im Wirkungsbereich betreffen. Darunter fallen Auswirkungen von Zaubern, Tränken und bestimmten magischen Gegenständen wie beispielsweise Zauberstäben. Der Zauber hat keinerlei Auswirkungen auf die magischen Gegenstände selbst oder auf einen Zauberschutz wie Zauber zurückwerfen oder Zauberabwehr. Während dieser Magier zerstören die Auswirkungen von Schmieren, Netz, Stinkender Wolke oder ähnlichen Zaubern auf einem Wesen aufhebt, entfernt es nicht den Zauber selbst. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Ob Magie bannen erfolgreich ist, hängt von der Stufe des Anwenders und der Stufe der gegnerischen Magie ab. Die Grundchance beträgt 50%. Für jede Stufe, die der Anwender höher ist als sein Gegenspieler, erhöht sich die Chance um 5%, wobei aber stets eine Chance von 1% bleibt, dass der Zauber scheitert. Hat der Anwender eine niedrigere Stufe, so reduziert sich die Chance um 10% je Stufe.
+
+Ist der Anwender also um zehn Stufen höher, so gelingt der Zauber zu 99%. Ist er aber um vier Stufen niedriger, gelingt er nur zu 10%. Logischerweise ist der Zauber praktisch wirkungslos, wenn der Anwender um fünf Stufen niedriger ist als sein Gegenspieler.~
+
+@77=~Glyphe der Abwehr~
+@78=~Glyphe der Abwehr
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Wächter
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 6 m Radius
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Eine Glyphe der Abwehr ist ein mächtiges, magisches Schriftzeichen, das feindselige oder unautorisierte Wesen daran hindert, einen Raum zu betreten, eine bestimmte Stelle zu passieren oder einen bestimmten Behälter zu öffnen. Die Glyphe kann beispielsweise auf einem Durchgang, einer schmalen Brücke oder einer Truhe angebracht werden. Jeder Gegner, der dem entsprechend geschützten Bereich zu nahe kommt, setzt die in der Falle gespeicherte magische Energie frei.
+
+Wenn er diesen Zauber ausspricht, webt der Anwender ein Geflecht aus schwach leuchtenden Linien, das ausgelöst wird, wenn sich ein Gegner auf weniger als 4,5 m nährt. Dann explodiert es und fügt allen Feinden in einen Bereich von 6 m Radius je Stufe des Anwenders 1W4 Schadenspunkte durch Elektrizität zu (bis zu einem Maximum von 10W4). Wenn den betroffenen Wesen ein Rettungswurf gegen Odemwaffen mit einem Malus von +2 gelingt, erleiden sie nur halben Schaden. Der Zauber fügt den eigenen Gruppenmitgliedern keinen Schaden zu.~
+
+@79=~Personen oder Tiere festhalten~
+@80=~Personen oder Tiere festhalten
+
+Grad: 3
+Schule: Verzauberung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Der Zauber betrifft alle Menschen, Halbmenschen oder humanoiden Wesen, die menschengroß oder kleiner sind. Das sind beispielsweise Heinzelmännchen, Dryaden, Zwerge, Elfen, Gnolle, Gnome, Goblins, Halbelfen, Halblinge, Halborks, Hobgoblins, Menschen, Kobolde, Echsenmenschen, Wassermänner, Orks, Feenkobolde, Feengeister und Troglodyten. Der Zauber könnte beispielsweise verwendet werden, um einen menschlichen Kämpfer der 10. Stufe zu bezaubern, ist aber gegen einen Oger völlig wirkungslos. Darüber hinaus werden nur normale oder riesenhafte Tiere betroffen - Wesen wie etwa Lindwürmer, Ankhegs oder Aaskriecher zählen nicht als Tiere.
+
+Den Opfern steht ein Rettungswurf gegen Zauber mit +2 Malus zu, um den Auswirkungen zu entgehen. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. 
+
+Die festgehaltenen Wesen können sich weder bewegen noch sprechen, doch sie nehmen alle Ereignisse wahr, die um sie herum geschehen, auch wenn sie ihnen hilflos gegenüber stehen. Sie können nur Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Da die Zeit für die Ziele normal schnell verstreicht, kann sich der Zustand eines festgehaltenen Wesens aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
+
+@81=~Schutz vor Feuer~
+@82=~Schutz vor Feuer
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor normalem und magischem Feuer. 100% des Schadens aus Angriffen wie einem feurigen Drachenodem werden absorbiert und Zauber wie Brennende Hände, Feuerball, Feuerfrüchte, Feuersturm, Flammenschlag oder Meteorschwarm haben keine Auswirkungen auf das geschützte Wesen. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@83=~Verzauberung aufheben~
+@84=~Verzauberung aufheben
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Alle
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers kann es dem Anwender gelingen, das Ziel von Verzauberungen oder Flüchen zu befreien. Dieser Zauber kann Verwirrung und Schwachsinn kurieren, das Ziel von magischem Schlaf befreien und die Auswirkungen eines Fluchs aufheben.
+
+Ein Fluch, der auf einem Gegenstand liegt, wie beispielsweise auf einem Schild oder einer Rüstung, wird nur vorübergehend aufgehoben, so dass es dem Opfer gelingt, sich von dem verfluchten Gegenstand zu befreien. Um bestimmte, mächtige Flüche zu brechen, braucht der Anwender eine entsprechende Stufe. Es gibt auch Flüche, die nicht von diesem Zauber sondern nur durch spezielle Rituale gebannt werden können.~
+
+@85=~Lähmung aufheben~
+@86=~Lähmung aufheben
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Nekromantie, Schutz
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Die Wesen im Wirkungsbereich werden von jeder Art der Lähmung oder ähnlicher Magie befreit. Beispiele dafür wären die Berührung eines Ghuls, die Auswirkungen eines Festhaltezaubers oder eines Wort der Macht: Betäubung.~
+
+@87=~Unsichtbarkeit aufheben~
+@88=~Unsichtbarkeit aufheben
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Abwehr
+Reichweite: Anwender
+Dauer: 5 Runden
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Sofort nach der Anwendung dieses Zaubers und einmal pro Runde für die nächsten 5 Runden werden alle verborgenen Feinde im Wirkungsbereich enttarnt. Unsichtbare Objekte, die in den Wirkungsbereich hineingetragen wurden, werden ebenfalls wieder sichtbar. Der Zauber enthüllt keine Illusionen und ermöglicht es dem Anwender auch nicht, durch feste Objekte zu blicken. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.~
+
+@89=~Magie fehlwirken~
+@90=~Magie fehlwirken
+
+Grad: 3
+Schule: Verzauberung
+Sphäre: Chaos
+Reichweite: Lang
+Dauer: 5 Runden
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Dieser Zauber führt dazu, dass Zauber, die das betroffenen Wesen ausspricht, andere Auswirkungen als geplant haben - ähnlich dem, was bei einer Unbändigen Woge passiert. Es besteht zwar die Möglichkeit, dass die Auswirkungen für den Betroffenen vorteilhaft sind, doch meist ist das Gegenteil der Fall. 
+
+Um den Auswirkungen von Magie fehlwirken zu entgehen, steht dem Opfer ein Rettungswurf gegen Zauber mit einem Malus von +2 zu. Scheitert dieser so misslingt der nächste Zauber und in jeder Runde nach der ersten muss ein weiterer Rettungswurf bestanden werden, um zu verhindern, dass ein weiterer Spruch scheitert. Die Auswirkungen von Magie fehlwirken halten 5 Runden an oder bis sie erfolgreich gebannt werden.~
+
+@91=~Ansteckung~
+@92=~Ansteckung
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: 8 Stunden
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Tod)
+
+Das Ziel dieses Zaubers wird mit einer schweren Krankheit infiziert und erleidet einen Schwächeanfall. Das Opfer erleidet die schmerzhaften Symptome wie Beulen, Läsionen, eiternde Pusteln, nässende Abszesse und ähnliches sofort. Stärke, Geschicklichkeit und Charisma werden um 2 Punkte reduziert und das Opfer wird verlangsamt. Wenn dem Ziel ein Rettungswurf gegen Tod mit einem Malus von +2 gelingt, entgeht es den Auswirkungen des Zaubers, ansonsten halten sie an, bis sie durch Krankheit heilen aufgehoben werden oder die Wirkungsdauer endet.~
+
+@93=~Vereinte Stärke~
+@94=~Vereinte Stärke
+
+Grad: 3
+Schule: Veränderung
+Domäne: Gesetz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 3
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Durch diesen Zauber erhält jedes Gruppenmitglied in einem Bereich von 9 m um den Anwender einen Stärkebonus von +2. Wenn dadurch eine Stärke von genau 18 resultiert, wird diese auf 18/75 eingestellt. Nach der Wirkungsdauer von 10 Runden, erhält jeder seine normale Stärke wieder zurück.~
+
+@95=~Heiliges Zerschmettern~
+@96=~Heiliges Zerschmettern
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 6 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Der Zauber öffnet eine energetische Verbindung zwischen allen Wesen im Wirkungsbereich und der Positiven Ebene. Aus diesem Grund werden nur böse Wesen durch den Zauber geschädigt. Sie erleiden 1W4 Schadenspunkte je Stufe des Anwenders (bis zu einem Maximum von 10W4). Bei einem erfolgreichen Rettungswurf gegen Zauber mit einem Malus von +2 wird der Schaden halbiert. Wesen, deren Rettungswurf scheitert, erleiden nicht nur den vollen Schaden, sondern werden auch für 1 Runde geblendet.~
+
+@97=~Unheiliges Verderben~
+@98=~Unheiliges Verderben
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 6 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Der Zauber öffnet eine energetische Verbindung zwischen allen Wesen im Wirkungsbereich und der Negativen Ebene. Aus diesem Grund werden nur gute Wesen durch den Zauber geschädigt. Sie erleiden 1W4 Schadenspunkte je Stufe des Anwenders bis zu einem Maximum von 10W4). Bei einem erfolgreichen Rettungswurf gegen Zauber mit einem Malus von +2 wird der Schaden halbiert. Wesen, deren Rettungswurf scheitert, erleiden nicht nur den vollen Schaden, sondern erleiden auch für 4 Runden einen Malus von +2 auf ihre ETW0 und ihre Rettungswürfe.~
+
+@99=~Krankheit heilen~
+@100=~Krankheit heilen
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers kann der Anwender durch einfaches Handauflegen beinahe alle Krankheiten heilen. Die Heilung ist permanent, aber das Ziel wird nicht gegen weitere Infektionen durch dieselbe Krankheit immun. Der Zauber heilt außerdem Blind- und Taubheit. Es gibt allerdings auch einige magische Krankheiten, die der Zauber nicht heilen kann.~
+
+@101=~Bereich der frischen Luft~
+@102=~Bereich der frischen Luft
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Abwehr, Luft
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Speziell
+Rettungswurf: Speziell (gg. Odemwaffen)
+
+Dieser Zauber erschafft einen gewaltigen Windstoß, der von Anwender ausgeht und alle Gegner beeinflusst, auf die er trifft. Alle im Umkreis von 2 m müssen einen Rettungswurf gegen Odemwaffen mit einem Malus von +2 bestehen oder werden durch den Windstoß umgeworfen und für 1 Runde ohnmächtig. Darüber hinaus zerstreut dieser Zauber alle Dämpfe, auch jene, die auf magischem Weg erzeugt wurden (wie beispielsweise eine Todeswolke).~
+
+@3101=~Der Priesterzauber des 3. Grades Bereich der frischen Luft entfernt alle wolkenartigen Flächenzauber wie etwa Stinkende Wolke.~
+
+@103=~Insekten herbeirufen~
+@104=~Insekten herbeirufen
+
+Grad: 3
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Der Zauber ruft einen Schwarm normaler Insekten herbei und veranlasst ihn, einen Feind des Anwenders anzugreifen. Der Schwarm sammelt sich an einem Punkt innerhalb des Wirkungsbereichs, der vom Anwender gewählt wird, und greift dann ein einzelnes Wesen nach Wahl des Anwenders an.
+
+Das Opfer erhält während der Wirkungsdauer einen Malus von +2 auf seine ETW0 und seine Rüstungsklasse. Darüber hinaus erleidet das Opfer durch die Bisse und Stiche der Insekten jede Runde 2W3 Schadenspunkte, seine Zauber scheitern zu 100% und es muss einen Rettungswurf gegen Tod bestehen oder rennt panisch davon.
+
+Wenn dem Opfer ein Rettungswurf gegen Odemwaffen mit einem Malus von +2 gelingt, kann es dem Großteil des Schwarms entgehen. Dadurch wird der erlittene Schaden halbiert und die Probleme beim Zaubern werden aufgehoben.~
+ 
+@105=~Untote abwehren~
+@106=~Untote abwehren
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 2 m Radius
+Rettungswurf: Nein
+
+Dieser Zauber erzeugt Wellen voller positiver Energie, die vom Anwender ausgehen. Jede dieser Wellen trifft Untote, die den Anwender angreifen wollen, und drängt sie für mehrere Sekunden von ihm weg. Während der Wirkungsdauer des Zaubers wird jede Runde eine dieser Energiewellen vom Anwender abgestrahlt. Alle Arten von Untoten sind von diesem Zauber betroffen - sie erhalten keinen Rettungswurf.~
+
+@107=~Mittelschwere Wunden verursachen~
+@108=~Mittelschwere Wunden verursachen
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dies ist die umgekehrte Version von Mittelschwere Wunden heilen. Statt das Ziel zu heilen verursacht der Anwender Schaden. Wenn es ihm gelingt, sein Opfer zu berühren, erleidet es 3W8 +15 Schadenspunkte. Dem Opfer steht kein Rettungswurf zu.
+
+Nachdem der Zauber gewirkt wurde, muss der Anwender das Opfer mit einem Angriff treffen. Er hat nur 3 Runden Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.~
+
+@109=~Mittelschwere Wunden heilen~
+@110=~Mittelschwere Wunden heilen
+
+Grad: 3
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Anwender einem Wesen seine Hände auflegt, heilt er bei diesem 3W8 erlittene Schadenspunkte sowie zusätzlich einen weiteren pro Stufe des Anwenders (bis zu einem Maximum von 3W8 +15). Untote sowie körperlose oder von anderen Ebenen stammende Wesen können durch den Zauber nicht geheilt werden.~
+
+@1109=~Sturmschild~
+@1110=~Sturmschild
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Wetter
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber umgibt den Anwender mit einer dunklen Hülle zerstörerischer Energie, die sich mit ihm mit bewegt. Der Sturmschild gewährt 50%igen Widerstand gegen Feuer, Kälte und Elektrizität und kann von nicht-magischen Geschossen nicht durchdrungen werden.~
+
+
+/*------------------level 4------------------*/
+
+@111=~Schwere Wunden heilen~
+@112=~Schwere Wunden heilen
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Anwender einem Wesen seine Hände auflegt, heilt er bei diesem 4W8 erlittene Schadenspunkte sowie zusätzlich einen weiteren pro Stufe des Anwenders (bis zu einem Maximum von 4W8 +20). Untote sowie körperlose oder von anderen Ebenen stammende Wesen können durch den Zauber nicht geheilt werden.~
+
+@113=~Tiere beschwören I~
+@114=~Tiere beschwören I
+
+Grad: 4
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender einige Tiere herbei, die ihm bedingungslos gehorchen. Die Art und die Anzahl der beschworenen Wesen hängen von der Stufe des Anwenders ab.
+
+Stufe 7: 2 Schreckenswölfe
+Stufe 9: 3 Schreckenswölfe
+Stufe 11: 4 Schreckenswölfe
+Stufe 13: 5 Schreckenswölfe
+
+Die beschworenen Tiere bleiben unter der Kontrolle des Anwenders bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.
+
+
+SCHRECKENSWOLF (Stufe 4):
+
+Gesinnung: Neutral
+Stärke: 17
+Geschicklichkeit: 15
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Rudeljäger
+ Der Schreckenswolf erhält einen ETW0-Bonus von -1 für jeden verbündeten Wolf im Umkreis von 2 m.
+
+Trefferpunkte: 44
+Schaden: 1W6 +2 (Stich, Biss +1)
+ETW0: 15
+Angriffe/Runde: 1
+Rüstungsklasse: 6
+Rettungswürfe: 13/15/14/16/16~
+
+@115=~Handlungsfreiheit~
+@116=~Handlungsfreiheit
+
+Grad: 4
+Schule: Bannzauber
+Domäne: Charme
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Jedes betroffene Wesen kann sich während der Wirkungsdauer dieses Zaubers normal bewegen und wird somit gegen alles immun, was seine Bewegung einschränken würde - egal ob magischen oder natürlichen Ursprungs. Das schließt unter anderem die Auswirkungen von Betäubung, Netz, Person festhalten, Schmieren, Verlangsamen und Verstricken mit ein. Die Auswirkungen halten für die Wirkungsdauer an oder bis sie erfolgreich gebannt werden.~
+
+@117=~Gift neutralisieren~
+@118=~Gift neutralisieren
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Die Anwendung auf ein vergiftetes Wesen bewirkt, dass alle natürlichen und magischen Gifte augenblicklich aus dem Körper des Zielwesens entfernt werden. Der Zauber neutralisiert dadurch jedes Gift und darüber hinaus wird das Ziel für die 1 Phase je Stufe des Anwenders immun gegen jegliche weitere Vergiftung. Somit haben Zauber wie Vergiften oder Todeswolke keine Auswirkungen.~
+
+@119=~Geistige Beherrschung~
+@120=~Geistige Beherrschung
+
+Grad: 4
+Schule: Verzauberung
+Domäne: Geist
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Zauber)
+
+Dem Opfer muss ein Rettungswurf gegen Zauber mit einem Malus von +3 gelingen, um zu verhindern, dass der Anwender in seine Gedanken eindringt. Der Zauber ähnelt dem Magierzauber des 5. Grades Beherrschung, es gibt jedoch ein paar kleinere Unterschiede. Zunächst einmal erhält der Anwender keinen Zugang zu den Gedanken, Erinnerungen und Sinneswahrnehmungen des Ziels. 
+
+Er kann dem Wesen während der Wirkungsdauer einfach nur Befehle erteilen. Um das zu tun muss der Anwender allerdings in Reichweite sein und das Wesen sehen. Die Kontrolle hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+
+@121=~Koordinierte Verteidigung~
+@122=~Koordinierte Verteidigung
+
+Grad: 4
+Schule: Verzauberung
+Domäne: Gesetz
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 3 m Radius
+Rettungswurf: Nein
+
+Die Wesen im Wirkungsbereich dieses Zaubers können ihre Angriffe und ihre Parademanöver auf magischem Weg aufeinander abstimmen und erhalten so einen Bonus auf ihre Verteidigung. Die Wesen kämpfen sozusagen wie eine Einheit. Der Zauber ist immer auf den Anwender zentriert, betrifft aber alle Wesen, die sich im Umkreis von 3 Metern um den Anwender befinden. Nachdem der Zauber gewirkt wurde, können sich die betroffenen Wesen auch weiter entfernen, ohne den Schutz zu verlieren.
+
+Während der Wirkungsdauer erhält jedes betroffene Wesen einen Rüstungsklassen-Bonus von -4. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@123=~Schutz vor Elektrizität~
+@124=~Schutz vor Elektrizität
+
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor allen normalen und magischen Angriffe, die auf Elektrizität basieren. 100% des Schadens aus Angriffen wie dem Odem bestimmter Drachenarten werden absorbiert und Zauber wie Schockgriff, Blitzstrahl, Glyphe der Abwehr, Blitze herbeirufen oder Kettenblitz haben keine Auswirkungen auf das geschützte Wesen. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@125=~Schutzkreis gegen Böses~
+@126=~Schutzkreis gegen Böses
+
+Grad: 4
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: 4.5 m Radius
+Rettungswurf: Nein
+
+Durch diesen Zauber erzeugt der Anwender im Umkreis von 4.5 Metern eine mächtige Schutzaura. Alle Verbündeten in diesem Bereich erhalten einen Bonus von -2 auf ihre Rüstungsklasse und ihre Rettungswürfe gegen böse Wesen, so als ob sie vom Zauber Schutz vor Bösem betroffen wären. Jedes Wesen, das den Wirkungsbereich der Aura verlässt, verliert diesen Schutz innerhalb von einer Runde.~
+
+@127=~Todesschutz~
+@128=~Todesschutz
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber macht das Ziel für die Wirkungsdauer immun gegen alle Arten von Todesmagie. Darunter fallen unter anderem die Zauber Auflösung, Todeszauber, Finger des Todes, Wort der Macht: Tod und Schrei der Todesfee. Die Auswirkungen halten für die Wirkungsdauer an oder bis sie erfolgreich gebannt werden.~
+
+@129=~Waldgeschöpfe rufen~
+@130=~Waldgeschöpfe rufen
+
+Grad: 4
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber ruft eine Nymphe herbei, die die Gruppe unterstützt. Die Nymphe kann als Druide der 7. Stufe verschiedene Priesterzauber einsetzen und setzt diese zum Vorteil der Gruppe ein. Sie steht so lange unter der Kontrolle des Anwenders bis sie getötet wird oder die Wirkungsdauer des Zaubers endet.
+
+
+NYMPHE (Stufe 7):
+
+Gesinnung: Chaotisch gut
+Stärke: 10
+Geschicklichkeit: 17
+Konstitution: 12
+Intelligenz: 16
+Weisheit: 17
+Charisma: 19
+
+Vorbereitete Zauber:
+1° Leichte Wunden heilen (x2), Verstricken (x2), Zauberkeule, Verderben
+2° Rindenhaut, Person oder Tier bezaubern (x2), Schutz vor Feuer und Kälte, Gift verlangsamen
+3° Blitze herbeirufen, Personen oder Tiere festhalten, Insekten herbeirufen
+4° Tiere beschwören I
+
+Trefferpunkte: 91
+Schaden: 1W4 (Wucht, Berührung +0)
+ETW0: 15
+Angriffe/Runde: 1
+Rüstungsklasse: 3
+Rettungswürfe: 7/10/7/10/7~
+
+@131=~Vergiften~
+@132=~Vergiften
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Kurz
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+Mit Hilfe dieses Zaubers kann der Anwender ein einzelnes Opfer vergiften. Die Auswirkungen und damit die Menge der Schadenspunkte pro Runde hängen von der Stufe des Anwenders ab:
+
+Stufe 7: 4W4 +1 pro 4 Sekunden
+Stufe 9: 5W5 +1 pro 3 Sekunden
+Stufe 12: 6W6 +1 pro 2 Sekunden
+Stufe 15: 8W8 +1 pro 1 Sekunden
+
+Das Ziel kann dem anfänglichen Schaden nur entgehen, wenn es gegen Gift völlig immun ist, aber wenn ihm ein Rettungswurf gegen Tod mit einem Malus von +3 gelingt, kann es jeden weiteren Schaden abwenden.~
+
+@133=~Göttliche Kraft~
+@134=~Göttliche Kraft
+
+Grad: 4
+Schule: Hervorrufung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 4
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber erfüllt den Anwender mit göttlicher Kraft, wodurch er die Fähigkeiten eines Kämpfers der gleichen Stufe erhält. Seine Stärke wird auf 18/00 gesetzt (auch dann, wenn sie eigentlich höher ist) und er erhält den ETW0 eines Kämpfers der gleichen Stufe sowie einen temporären Trefferpunkt je Stufe. 
+
+Darüber hinaus erhält der Anwender so viele Angriffen pro Runde wie ein Kämpfer gleicher Stufe, d.h. einen halben zusätzlichen Angriff auf Stufe 7 und einen weiteren halben auf Stufe 13. Diese Auswirkungen bleiben erhalten, bis der Zauber endet oder gebannt wird. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.
+
+Hinweis: Dieser Zauber gewährt mehrklassigen oder klassenkombinierten Kämpfer/Klerikern und Waldläufern/Klerikern keine weiteren Angriffe, da diese die zusätzlichen Angriffe durch ihr Stufen als Kämpfer bzw. Waldläufer. ohnehin erhalten~
+
+@135=~Schutz vor negativer Energie~
+@136=~Schutz vor negativer Energie
+
+Grad: 3
+Schule: Bannzauber
+Domäne: Nekromantie, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber bietet dem berührten Wesen teilweisen Schutz vor untoten Wesen, die mit der Negativen Ebene verbunden sind (z.B. Vampire). Der Zauber schützt auch vor Waffen und Zaubern, die Lebensenergie entziehen können. Er schafft eine Verbindung zur Positiven Ebene und sorgt so dafür, dass das geschützte Wesen von keiner Art des Entzugs von Lebensenergie während der Wirkungsdauer betroffen werden kann. 
+
+Während der Zauber aktiv ist, erleidet das geschützte Wesen von derartigen Angriffen nur normalen Schaden. Der Zauber kann nicht auf der Negativen Ebene gewirkt werden.~
+
+@137=~Schwere Wunden verursachen~
+@138=~Schwere Wunden verursachen
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dies ist die umgekehrte Version von Schwere Wunden heilen. Statt das Ziel zu heilen verursacht der Anwender Schaden. Wenn es ihm gelingt, sein Opfer zu berühren, erleidet es 4W8 +20 Schadenspunkte. Dem Opfer steht kein Rettungswurf zu.
+
+Nachdem der Zauber gewirkt wurde, muss der Anwender das Opfer mit einem Angriff treffen. Er hat nur 4 Runden Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.~
+
+@139=~Fernsicht~
+@140=~Fernsicht
+
+Grad: 4
+Schule: Erkenntniszauber
+Domäne: Wissen
+Reichweite: Anwender
+Dauer: 3 Runden + 1 Runde/Stufe
+Zeitaufwand: 4
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe von Fernsicht kann der Anwender einen noch nicht erforschten Teil der Karte einsehen. Klickt einfach auf jenen Teil der Karte, den Ihr einsehen wollt. Während der Wirkungsdauer kann der Anwender das gewählte Gebiet ausspionieren. Auch die Wesen, die sich in dem Gebiet aufhalten, werden sichtbar.~
+
+@141=~Mantel der Furcht~
+@142=~Mantel der Furcht
+
+Grad: 4
+Schule: Beschwörung
+Domäne: Charme
+Reichweite: Anwender
+Dauer: 1 Runde/2 Stufen
+Zeitaufwand: 1
+Bereich: 2 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Wer sich mit einem Mantel der Furcht umgibt, strahlt in einem Umkreis von 2 Metern eine Aura der Furcht aus. Alle Wesen, die in den Wirkungsbereich geraten, müssen einen Rettungswurf gegen Zauber mit einem Malus von +3 bestehen oder sie fliehen 1 Runde in Panik. Die Gruppenmitglieder sind gegen die Furcht immun, aber es kann durchaus sein, dass die Aura dennoch irritierend auf sie wirkt.~
+
+@143=~Geringere Genesung~
+@144=~Geringere Genesung
+
+Grad: 4
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber erhöht das energetische Niveau des Ziels und hebt so jeglichen Entzug von Lebensenergie auf, den das Ziel durch Untote, Zauber oder andere Einwirkungen erlitten hat. 
+
+Geringere Genesung ist für den Anwender äußerst anstrengend - er fühlt sich anschließend körperlich und geistig ausgelaugt. Dadurch erleidet er nach der Anwendung für 5 Runden einen Malus von +2 auf seine ETW0, seine Rüstungsklasse und seinen Zeitaufwand beim Zaubern sowie einen Schadens-Malus von -2.~
+
+@145=~Eissturm~
+@146=~Eissturm
+
+Grad: 4
+Schule: Hervorrufung
+Domäne: Wasser
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 4
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Wenn dieser Zauber gewirkt wird, geht in einem kreisförmigen Gebiet von 9 m Radius für 4 Runden ein magischer Eissturm nieder, dessen Hagelkörner bei jedem Wesen im Wirkungsbereich jede Runde 2W8 Schadenspunkte durch Kälte verursachen. Außerdem wird die Bewegungsrate der Opfer halbiert.~
+
+
+/*------------------level 5------------------*/
+
+@151=~Tiere beschwören II~
+@152=~Tiere beschwören II
+
+Grad: 5
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender einige Tiere herbei, die ihm bedingungslos gehorchen. Die Art und die Anzahl der beschworenen Wesen hängen von der Stufe des Anwenders ab.
+
+Stufe 9: 2 Schreckensleoparden
+Stufe 12: 3 Schreckensleoparden
+Stufe 15: 4 Schreckensleoparden
+
+Die beschworenen Tiere bleiben unter der Kontrolle des Anwenders bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.
+
+
+SCHRECKENSLEOPARD (Stufe 8):
+
+Gesinnung: Neutral
+Stärke: 19
+Geschicklichkeit: 15
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Beutesprung:
+ Der Schreckensleopard kann ein Ziel anvisieren, das mindestens 2 m entfernt ist. Während dieser Runde bewegt sich der Leopard mit doppelter Geschwindigkeit, erhält einen ETW0-Bonus von -2, einen Schadens-Bonus von +2 sowie einen Rüstungsklassen-Malus von +2.
+
+Trefferpunkte: 88
+Schaden: 1W8 +8 (Stich, Klauen & Biss +1)
+ETW0: 10
+Angriffe/Runde: 1
+Rüstungsklasse: 5
+Rettungswürfe: 10/12/11/12/13~
+
+@1040=~Schreckensleopard~
+
+@153=~Kritische Wunden heilen~
+@154=~Kritische Wunden heilen
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Anwender einem Wesen seine Hände auflegt, heilt er bei diesem 5W8 erlittene Schadenspunkte sowie zusätzlich einen weiteren pro Stufe des Anwenders (bis zu einem Maximum von 5W8 +25). Untote sowie körperlose oder von anderen Ebenen stammende Wesen können durch den Zauber nicht geheilt werden.~
+
+@155=~Flammenschlag~
+@156=~Flammenschlag
+
+Grad: 5
+Schule: Hervorrufung
+Domäne: Kampf, Feuer
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Eine vertikale Flammensäule schießt an der Stelle herab, auf die der Anwender zeigt. Das Zielwesen und alle im Umkreis von 1,5 m erleiden 1W6 Schadenspunkte durch Feuer je Stufe des Anwenders (bis zu einem Maximum von 15W6). Wenn den betroffenen Wesen ein Rettungswurf gegen Odemwaffen mit einem Malus von +4 gelingt, wird der Schaden halbiert. Der Zauber fügt den eigenen Gruppenmitgliedern keinen Schaden zu.~
+
+@157=~Tote erwecken~
+@158=~Tote erwecken
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: Sofort
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers kann der Anwender einem toten Kameraden das Leben zurückgeben. Wenn der Körper bei der Erweckung nicht vollständig ist, fehlen dem Wiedererweckten die entsprechenden Körperteile. Der Wiedererweckte hat nur einen Trefferpunkt und muss die restlichen ganz normal durch Rast oder Heilzauber zurückgewinnen.~
+
+@2157=~Ruf der Harfner~
+@2158=~Ruf der Harfner
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Kurz
+Dauer: Permanent
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber steht nur Harfnern zur Verfügung. Mit ihm kann einem toten Kameraden das Leben zurückgeben werden, damit dieser so weiter den Zwecken der Harfnern dienen kann. Ruf der Harfner ähnelt Tote erwecken: So erhält das Ziel nur einen Trefferpunkt zurück und muss die restlichen ganz normal durch Rast oder Heilzauber zurückgewinnen. 
+
+Es gibt jedoch zwei Unterschiede: Um den Verstorbenen erfolgreich auferstehen zu lassen, muss der Anwender einen kleinen Teil seiner Lebensenergie (10 Trefferpunkte) übertragen. Darüber hinaus erleidet die wiedererweckte Person für 1 Phase einen Malus von -5 auf all ihre Attribute, wodurch dieser Zauber im Kampf praktisch nutzlos wird.~
+
+@159=~Wahrer Blick~
+@160=~Wahrer Blick
+
+Grad: 5
+Schule: Erkenntniszauber
+Domäne: Alle
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Dieser Zauber wirkt auf ein Gebiet von 9 m Radius rund um den Anwender. Wenn der Zauber gewirkt wird, werden alle feindlichen Zauber der Schule Illusion/Hirngespinst gebannt. Das Bannen wird während der Wirkungsdauer des Zaubers einmal je Runde ausgeführt. Außerdem wirkt der Zauber nur auf die Feinde des Anwenders. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Folgende Zauber werden gebannt: Gespiegeltes Ebenbild, Unsichtbarkeit, Verschwimmen, Spiegelbild, Geisterrüstung, Kugel der Unsichtbarkeit, Geisterrüstung, Verbesserte Unsichtbarkeit, Phantomtor, Feenstaub, Ablenkung, Projiziertes Ebenbild und Massenunsichtbarkeit.~
+
+@161=~Steinhaut~
+@162=~Steinhaut
+
+Grad: 5
+Schule: Veränderung
+Domäne: Erde
+Reichweite: Anwender
+Dauer: 8 Stunden
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Wenn der Anwender diesen Zauber ausspricht, erhebt sich eine Hülle aus Gestein aus dem Erdreich, die ihn umgibt und vor Angriffen schützt. Die magische Umhüllung behindert den Anwender in keiner Weise und schützt ihn sowohl vor Nah- als auch vor Fernkampfangriffen. Die Steinhaut besteht aus einer Schicht für je 2 Stufen des Anwenders. Jede dieser Schichten schützt vor einem Angriff. Ein Anwender der 10. Stufe würde von den ersten fünf Angriffen keinen Schaden nehmen und erst ab dem sechsten wieder normalen Schaden erleiden. Diese Schutzwirkung hält an, bis die Wirkungsdauer endet, der Zauber erfolgreich gebannt wird oder die Schutzwirkung durch Angriffe aufgebraucht wurde. 
+
+Der Zauber schützt den Anwender nicht vor magischen Flächenangriffen (wie etwa einem Feuerball). Außerdem kann jede Waffe, die Elementarschaden verursacht, den Anwender weiterhin verletzen. Steinhaut schützt nicht gegen Elektrizität, Feuer, Kälte oder Säure - selbst wenn der physische Schaden abgehalten wird. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@163=~Meisterstärke~
+@164=~Meisterstärke
+
+Grad: 5
+Schule: Veränderung
+Domäne: Gesetz
+Reichweite: Mittel
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Anwender greift auf die Macht seines Gottes zu, um ein Ziel seiner Wahl davon profitieren zu lassen. Das Ziel erhält für je 3 Stufen des Anwenders einen Bonus von +1 auf seine Stärke, Geschicklichkeit und Konstitution - bis zu einem Maximum von +6 auf Stufe 18. Die Wirkung hält für jede Stufe des Anwenders 1 Runde lang an oder bis sie gebannt wird. Mehrfache Anwendungen dieses oder ähnlicher Zauber sind nicht kumulativ.~
+
+@165=~Chaotische Befehle~
+@166=~Chaotische Befehle
+
+Grad: 5
+Schule: Verzauberung
+Domäne: Chaos
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Ein Wesen, das durch diesen Zauber geschützt ist, ist gegen magische Befehle immun. Darunter fallen Bezauberung, Beherrschung, Befehl, Schlaf, Festhalten und Verwirrung und alle Zauber, die damit zu tun haben. Dieser Zauber schützt auch vor psionischen Angriffen wie etwa dem Psionischen Schlag eines Gedankenschinders, macht das Ziel aber nicht vollständig immun gegen Psionik. Der Schutz hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+
+@167=~Magieresistenz~
+@168=~Magieresistenz
+
+Grad: 5
+Schule: Veränderung
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 2 Runden/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Wenn der Zauber gewirkt wird, gewährt er dem Ziel auf seinen Magiewiderstand einen Bonus in Höhe von 2% je Stufe des Anwenders, mit einem Maximum von 40% auf der 20. Stufe. Der Schutz hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@169=~Schwere Wunden verursachen~
+@170=~Schwere Wunden verursachen
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dies ist die umgekehrte Version von Schwere Wunden heilen. Statt das Ziel zu heilen verursacht der Anwender Schaden. Wenn es ihm gelingt, sein Opfer zu berühren, erleidet es 5W8 +25 Schadenspunkte. Dem Opfer steht kein Rettungswurf zu.
+
+Nachdem der Zauber gewirkt wurde, muss der Anwender das Opfer mit einem Angriff treffen. Er hat nur 5 Runden Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.~
+
+@171=~Schneller Tod~
+@172=~Schneller Tod
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Zauber)
+
+Nachdem der Anwender diesen Zauber gewirkt hat, muss er sein Ziel berühren. Bei einem erfolgreichen Angriff erleidet das Opfer 5W4 +10 Schadenspunkte durch Magie und muss einen Rettungswurf gegen Zauber mit einem Malus von +4 bestehen. Falls der Rettungswurf scheitert, stirbt das Opfer sofort.
+
+Er hat nur 5 Runden Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.~
+
+@173=~Höherer Befehl~
+@174=~Höherer Befehl
+
+Grad: 5
+Schule: Verzauberung
+Domäne: Charme, Kampf, Gesetz
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1 Wesen + 6 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Wie auch beim Zauber Befehl des 1. Grades kann der Anwender mittels dieses Zaubers anderen Wesen den Befehl zum Schlafen erteilen. Bei dieser Version des Zaubers halten die Auswirkungen jedoch bis zu 10 Runden an und es werden alle Wesen in einem Umkreis von 6 m um das Ziel herum betroffen. 
+
+Den Wesen steht darüber hinaus nach dem Wirken des Zaubers und anschließend in jeder weiteren Runde ein Rettungswurf gegen Zauber mit einem Malus von +4 zu. Gelingt dieser, schaffen es die betroffenen Wesen aufzuwachen. Am Ende der Wirkungsdauer erwachen schließlich alle Wesen, die es bis dahin noch schlafen, völlig unverletzt.
+
+Jeder Versuch einem schlafenden Wesen zu schaden führt dazu, dass dieses aufwacht - man erhält jedoch auf den Angriff beträchtliche Zuschläge.~
+
+@175=~Gerechte Wut~
+@176=~Gerechte Wut
+
+Grad: 5
+Schule: Veränderung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+Mit Hilfe dieses mächtigen Kampfzaubers werden die körperlichen Fähigkeiten des Anwenders extrem verstärkt. Er wird mit positiver Energie aufgeladen und verwandelt sich sozusagen in eine zerstörerische Kampfmaschine. Er erhält einen Bonus von +4 auf seine Stärke, einen Bonus von -2 auf seine Rüstungsklasse sowie einen temporären Trefferpunkt je Stufe (bis zu einem Maximum von 20).
+
+Darüber hinaus richtet der Anwender bei jedem Schlag mit einer Nahkampfwaffe zusätzlich 1W6 magischen Schaden an. Die Auswirkungen halten an, bis die Wirkungsdauer endet oder der Zauber gebannt wird. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@177=~Massenheilung~
+@178=~Massenheilung
+
+Grad: 5
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 18 m Radius
+Rettungswurf: Nein
+
+Der Anwender stellt sich die Gesichter seiner Gruppenmitglieder vor und konzentriert sich auf die Einheit in der Gruppe. Sobald der Zauber gewirkt wurde, erhält jedes Gruppenmitglied in Sichtweite 2W8 Trefferpunkte sowie zusätzlich einen weiteren je Stufe des Anwenders zurück - bis zu einem Maximum von 2W8 +20.~
+
+@179=~Feenstaub~
+@180=~Feenstaub
+
+Grad: 5
+Schule: Illusion
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Dieser Zauber erzeugt eine Hand voll Feenstaub, die der Anwender in die Luft werfen kann. Jeder, der den Staub berührt, was in einem Umkreis von rund 9 Metern der Fall ist, wird unsichtbar. Alle Wesen, die sich beim Aussprechen des Zaubers im Wirkungsbereich aufhalten, werden von den Auswirkungen betroffen und bleiben es auch, wenn sie anschließend diesen Bereich anschließend verlassen. Wesen, die den Bereich nach dem Wirken des Zaubers betreten, werden dagegen nicht betroffen.
+
+Wenn eines der unsichtbaren Wesen einen Angriff startet, wird nur es selbst wieder sichtbar. Der Zauber endet, sobald er auf magische Weise gebannt wird, der Unsichtbare einen Angriff startet oder wenn 24 Stunden verstrichen sind.~
+
+@181=~Insektenplage~
+@182=~Insektenplage
+
+Grad: 5
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 9
+Bereich: 1 Wesen + 9 m Radius
+Rettungswurf: Speziell
+
+Durch diesen Zauber sammelt der Anwender eine Horde fliegender, kriechender und hüpfender Insekten. Dieser Schwarm greift zuerst das Ziel an, das vom Anwender gewählt wurde. Anschließend springt er auf die anderen Feinde des Anwenders im Wirkungsbereich über. Unsichtbarkeit schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Alle betroffenen Wesen erhalten während der Wirkungsdauer einen Malus von +2 auf ihre ETW0 und ihre Rüstungsklasse. Darüber hinaus erleiden die Opfer durch die Bisse und Stiche der Insekten jede Runde 2W3 Schadenspunkte, ihre Zauber scheitern zu 100% und sie müssen einen Rettungswurf gegen Tod bestehen oder rennen panisch davon.
+
+Wenn einem Opfer ein Rettungswurf gegen Odemwaffen mit einem Malus von +4 gelingt, kann es dem Großteil des Schwarms entgehen. Dadurch wird der erlittene Schaden halbiert und die Probleme beim Zaubern werden aufgehoben.~
+
+@185=~Andere verwandeln~
+@186=~Andere verwandeln
+
+Grad: 5
+Schule: Verzauberung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: Permanent
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Ja (gg. Verwandlung)
+
+Dieser Zauber ist sehr mächtig, der die Gestalt eines Wesens permanent verändern kann. Der Geist des Wesens wird von der Verwandlung nicht betroffen. Das Wesen erhält nur die körperlichen Attribute und Eigenschaften der neuen Gestalt, aber nicht dessen spezielle und magische Fähigkeiten. Gleichzeitig verliert es durch die körperliche Verwandlung aber auch die speziellen Fähigkeiten seiner alten Form. Diese besondere Version des Zaubers macht das Opfer zu einem Eichhörnchen, wenn ihm kein Rettungswurf gegen Verwandlung gelingt.
+
+Die Effektivität dieses Zaubers hängt von der Stufe des Ziels ab: Während schwache Wesen relativ leicht zu verwandeln sind, lassen sich mächtigere Wesen nur sehr schwer transformieren. Wesen mit weniger als 8 Trefferwürfeln erhalten auf ihren Rettungswurf einen Malus von +3, Wesen mit 8 bis 14 Trefferwürfeln werfen normal und Wesen mit 15 oder mehr Trefferwürfeln erhalten einen Bonus von -3.
+
+Die Verwandlung geschieht augenblicklich und ist permanent, sie kann jedoch durch Magie bannen aufgehoben werden. Die Kleidungsstücke und Ausrüstung des Opfers werden zum Teil der neuen Gestalt, nehmen jedoch ihre alte Form wieder an, sobald das verzauberte Wesen stirbt oder die Auswirkungen gebannt werden.~
+
+@187=~Schutz vor Säure~
+@188=~Schutz vor Säure
+
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor allen normalen und magischen Angriffe, die auf Säure basieren. 100% des Schadens aus Angriffen wie dem Odem bestimmter Drachenarten werden absorbiert und Zauber wie Melfs Säurepfeil oder Säurenebel haben keine Auswirkungen auf das geschützte Wesen. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+@189=~Schutz vor Kälte~
+@190=~Schutz vor Kälte
+
+Grad: 5
+Schule: Bannzauber
+Domäne: Elemente, Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor normaler und magischer Kälte. 100% des Schadens aus Angriffen wie einem eisigen Drachenodem werden absorbiert und Zauber wie Kalte Hand, Eissturm oder Kältekegel haben keine Auswirkungen auf das geschützte Wesen. Mehrere Anwendungen dieses Zaubers sind nicht kumulativ.~
+
+
+/*------------------level 6------------------*/
+
+@191=~Luftdiener~
+@192=~Luftdiener
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Herbeirufung
+Reichweite: Mittel
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Dieser Zauber ruft einen mächtigen Luftdiener herbei, der während der Wirkungsdauer alle Befehle des Anwenders ausführt. Der Luftdiener greift alle feindlichen Wesen an, wenn ihm der entsprechende Befehl erteilt wird, und bleibt unter der Kontrolle des Anwenders, bis die Wirkungsdauer endet oder er getötet wird.
+
+
+LUFTDIENER (Stufe 16):
+
+Gesinnung: Neutral
+Stärke: 21
+Geschicklichkeit: 19
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Natürliche Unsichtbarkeit
+ Der Luftdiener ist permanent wie durch Verbesserte Unsichtbarkeit unsichtbar.
+
+Immun gegen Betäubung, Festhalten, Gift und Schlaf.
+
+Trefferpunkte: 148
+Schaden: 2W6 +11 (Wucht, Fäuste +2)
+ETW0: 2
+Angriffe/Runde: 2
+Rüstungsklasse: -1
+Rettungswürfe: 4/6/5/4/7~
+
+@193=~Tiere beschwören III~
+@194=~Tiere beschwören III
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender einige Tiere herbei, die ihm bedingungslos gehorchen. Die Art und die Anzahl der beschworenen Wesen hängen von der Stufe des Anwenders ab.
+
+Stufe 11: 2 Schreckensbären
+Stufe 15: 3 Schreckensbären
+
+Die beschworenen Tiere bleiben unter der Kontrolle des Anwenders bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.
+
+
+SCHRECKENSBÄR (Stufe 10):
+
+Gesinnung: Neutral
+Stärke: 21
+Geschicklichkeit: 13
+Konstitution: 19
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Trefferpunkte: 130
+Schaden: 2W4 +11 (Wucht, Klauen & Biss +2)
+ETW0: 7
+Angriffe/Runde: 2
+Rüstungsklasse: 3
+Rettungswürfe: 8/10/9/9/11~
+
+@1041=~Schreckensbär~
+
+@195=~Klingenbarriere~
+@196=~Klingenbarriere
+
+Grad: 6
+Schule: Hervorrufung
+Domäne: Wächter, Erschaffung
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 6
+Bereich: 2 m Radius
+Rettungswurf: Ja (gg. Odemwaffen)
+
+Mit Hilfe dieses Zaubers erschafft der Anwender eine Mauer aus in der Luft tanzenden, rasiermesserscharfen Klingenwaffen. Diese umtanzen den Anwender in einem wirren Muster und bilden so eine gefährliche Barriere. Jeder, der dem Anwender näher als 2 Meter kommt und dem ein Rettungswurf gegen Odemwaffen mit einem Malus von +5 misslingt, erleidet alle 3 Sekunden 3W6 Schadenspunkte. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Zauber wie etwa Unsichtbarkeit oder Phantomtor funktionieren nicht in Kombination mit einer Klingenbarriere. Darüber hinaus können sich auch Kleriker/Diebe und Kleriker/Waldläufer während der Wirkungsdauer dieses Zaubers nicht im Schatten verstecken.~
+
+@197=~Tiere herbeirufen~
+@198=~Tiere herbeirufen
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers ruft der Anwender ein oder zwei riesige Gebirgsbären herbei. Die Bären unterstehen seiner Kontrolle und gehorchen während der Wirkungsdauer des Zaubers all seinen Befehlen.
+
+
+GEBIRGSBÄR (Stufe 9):
+
+Gesinnung: Neutral
+Stärke: 18/00
+Geschicklichkeit: 9
+Konstitution: 17
+Intelligenz: 16
+Weisheit: 9
+Charisma: 9
+
+Trefferpunkte: 70
+Schaden: 1W12 +6 (Wucht, Klauen & Biss +3)
+ETW0: 11
+Angriffe/Runde: 3
+Rüstungsklasse: 6
+Rettungswürfe: 8/10/9/10/11~
+
+@199=~Feuerelementar beschwören~
+@200=~Feuerelementar beschwören
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Feuer
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde/Stufe
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Bei der Beschwörung eines Feuerelementars öffnet der Magier ein spezielles Tor zur Elementarebene des Feuers und ein Feuerelementar wird in der Nähe des Anwenders herbeigerufen. Der Elementar hat normalerweise 12 Trefferwürfel und dient dem Willen seines Beschwörers bis die Wirkungsdauer des Zaubers endet, er zurück auf seine Heimatebene geschickt wird oder bis zu seinem Tod. Ab der 15. Stufe kann der Anwender jedoch einen mächtigeren Elementar (16 Trefferwürfel) herbeirufen. 
+
+Da die Kommunikation mit dem Elementar auf telepathischem Weg erfolgt, besteht keine Gefahr, dass ein Befehl missverstanden wird, und es ist auch nicht nötig, dass der Anwender die Sprache des Elementars beherrscht. Es ist allerdings ziemlich schwierig ein Tor zu den Inneren Ebenen aufrechtzuerhalten - deshalb besteht ein 15%ige Chance, dass das vom Anwender geöffnete Portal kollabiert bevor der Elementar die Materielle Ebene betreten kann.
+
+
+FEUERELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 16
+Geschicklichkeit: 17
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 126
+Schaden: 2W6 +4 (Klinge, Fäuste +3)
+Schadensbonus: +2W6 (Feuer)
+ETW0: 7
+Angriffe/Runde: 2
+Rüstungsklasse: 1
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. alle Waffen: 20%
+Feuerwiderstand: 100%
+
+
+HÖHERER FEUERELEMENTAR (Stufe 16):
+
+Gesinnung: Neutral
+Stärke: 18
+Geschicklichkeit: 19
+Konstitution: 18
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 168
+Schaden: 2W8 +5 (Klinge, Fäuste +3)
+Schadensbonus: +2W8 (Feuer)
+ETW0: 3
+Angriffe/Runde: 2
+Rüstungsklasse: 0
+Rettungswürfe: 4/6/5/4/7
+
+Widerstand gg. alle Waffen: 20%
+Feuerwiderstand: 100%~
+
+@201=~Feuerfrüchte~
+@202=~Feuerfrüchte
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Feuer
+Reichweite: Anwender
+Dauer: 4 Phasen
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Dieser Zauber erzeugt einige Feuerfrüchte, die im Gepäck des Anwenders auftauchen (eine Frucht für je 3 Stufen bis zu einem Maximum von 6 auf Stufe 18). Diese verschwinden nach 4 Phasen oder werden verbraucht, wenn sie geworfen werden. Wirft man eine Feuerfrucht auf einen Gegner, so entsteht ein Feuerball, der bei jedem Wesen in einem Umkreis von 3 m 4W6 Schadenspunkte durch Feuer verursacht. Ein erfolgreicher Rettungswurf gegen Odemwaffen mit einem Malus von +5 halbiert den Schaden.
+
+Die Früchte erscheinen in der Hand des Anwenders und werden als Wurfwaffen betrachtet, die ihm einen ETW0-Bonus von -4 gewähren und Wesen verletzen können, die nur von Waffen +6 oder besser verletzt werden können. In jeder Runde können zwei der Feuerfrüchte geworfen werden.~
+
+@1039=~Diese Früchte werden durch den Zauber Feuerfrüchte erschaffen. Wenn man sie wirft, explodieren sie in einem kleinen Feuerball und verursachen bei jedem Wesen in einem Umkreis von 3 m 4W6 Schadenspunkte durch Feuer verursacht. Ein erfolgreicher Rettungswurf gegen Odemwaffen mit einem Malus von +5 halbiert den Schaden.
+
+EIGENSCHAFTEN:
+
+Der Träger kann Wesen verletzen, die nur von magischen Waffen +6 oder besser verletzt werden können.
+
+Schaden: 4W6 (Feuer)
+ Bereich: 3 m Radius
+ (1/2 bei Rettungswurf gg. Odemwaffen)
+ETW0-Bonus: -4
+Angriffe/Runde: auf 2 gesetzt
+Gewicht: 0
+Initiativefaktor: 0
+Typ: 1-händig~
+
+@203=~Heilung~
+@204=~Heilung
+
+Grad: 6
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses mächtigen Zaubers kann der Anwender ein Wesen von allen Krankheiten und Verletzungen heilen. Der Zauber gibt dem Ziel alle Trefferpunkte zurück und kuriert sämtliche Krankheiten, neutralisiert alle Gifte und hebt Zustände wie Blind- und Taubheit auf. Auch Schwachsinn, egal ob Magie oder durch Kopfverletzungen ausgelöst, wird aufgehoben. Natürlich kann dem betroffenen Wesen später wieder Ähnliches zustoßen.~
+
+@205=~Leid~
+@206=~Leid
+
+Grad: 6
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: 1/2 (gg. Zauber)
+
+Dies ist die umgekehrte Version von Heilung. Statt das Ziel zu heilen verursacht der Anwender Schaden. Wenn es ihm gelingt, sein Opfer zu berühren, verursacht er bei diesem 150 Schadenspunkte durch Magie. Dieser Schaden wird bei einem erfolgreichen Rettungswurf gegen Zauber mit einem Malus von +5 halbiert.
+
+Nachdem der Zauber gewirkt wurde, muss der Anwender das Opfer mit einem Angriff treffen. Er hat nur 1 Phase Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.~
+
+@207=~Falscher Sonnenaufgang~
+@208=~Falscher Sonnenaufgang
+
+Grad: 6
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 9
+Bereich: 4,5 m Radius
+Rettungswurf: Speziell (gg. Odemwaffen)
+
+Dieser Zauber macht sich die Macht der Sonne zunutze und führt dazu, dass der Körper des Anwenders in einem Umkreis von 4,5 m grelles Licht in alle Richtungen ausstrahlt. In jeder Runde müssen alle Gegner im Wirkungsbereich einen Rettungswurf gegen Zauber mit einem Malus von +5 bestehen oder sie werden für 1 Runde geblendet. Untote Wesen erleiden in jeder Runde, in der sie dem Falschen Sonnenaufgang ausgesetzt sind, 2W6 Schadenspunkte.~
+
+@209=~Schmerzhafter Verfall~
+@210=~Schmerzhafter Verfall
+
+Grad: 6
+Schule: Veränderung, Nekromantie
+Domäne: Kampf, Nekromantie
+Reichweite: Mittel
+Dauer: Speziell
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+Dieser Zauber kann nur auf ein einzelnes lebendes Wesen angewandt werden. Der schmerzhafte Verfall sorgt dafür, dass das betroffene Wesen rapide dahinsiecht. Durch diese Krankheit erleidet das Opfer sofort einen permanenten Malus von -1 auf seine Stärke, Geschicklichkeit und Konstitution. 
+
+Wenn dem Wesen ein Rettungswurf gegen Tod mit einem Malus von +5 misslingt, erleidet es jede Sekunde 1 Schadenspunkt - solange bis der Zauber insgesamt 60 Schadenspunkte angerichtet hat. Darüber hinaus vergrößern sich die Attributs-Mali alle 5 Runden um -1 und das betroffene Wesen wird während der Wirkungsdauer des Zaubers verlangsamt. Die erlittenen Attributs-Mali können nur durch Krankheit heilen, Heilung oder Genesung wieder aufgehoben werden.~
+
+@211=~Wundersames Erinnerungsvermögen~
+@212=~Wundersames Erinnerungsvermögen
+
+Grad: 6
+Schule: Veränderung
+Domäne: Charme, Erschaffung
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 9
+Bereich: Anwender
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers erinnert sich der Anwender wieder an zwei Zauber des 5. oder eines niedrigeren Grades, die er an diesem Tag bereits eingesetzt hat. Falls der Anwender an diesem Tag noch keine solchen Zauber eingesetzt hat, verpufft das wundersame Erinnerungsvermögen wirkungslos.~
+
+@213=~Strahl des Ruhms~
+@214=~Strahl des Ruhms
+
+Grad: 6
+Schule: Hervorrufung
+Domäne: Kampf, Herbeirufung
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 6
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Strahl des Ruhms ist ein Ausbruch heiliger Energie, der in ein Wesen einschlägt und es verwundet. Der Schaden hängt davon ab, von welcher Ebene das betroffene Wesen stammt:
+
+Elementar: 4W4
+Humanoider: 6W6
+Untoter: 8W8
+Dämon: 10W10~
+
+@215=~Materiespiegel~
+@216=~Materiespiegel
+
+Grad: 6
+Schule: Veränderung
+Domäne: Zahlen
+Reichweite: Anwender
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: Nein
+
+Dieser Zauber erzeugt eine lokale Raumverwerfung. Diese hat die Form einer unsichtbaren Scheibe, die schützend vor dem Anwender schwebt. Jeder Angriff mit einer Schuss- oder Wurfwaffe führt dazu, dass sich die Bewegungsrichtung des Projektils ins Gegenteil umkehrt, sobald es auf der Raumverwerfung trifft. 
+
+Jeder, der auf den geschützten Anwender schießt, muss feststellen, dass er sich effektiv selbst beschießt. Durch den Materiespiegel werden die Geschwindigkeit, Reichweite und der Schaden der abgewehrten Projektile nicht beeinflusst. Der Anwender selbst kann seine Fernkampfwaffen ohne Probleme einsetzen.
+
+Dieser Zauber bietet keinen Schutz gegen magische Angriffe wie Feuerball, Blitzstrahl oder magische Geschosse, jedoch werden magisch erschaffene Geschosse wie Melfs Säurepfeil, Melfs magische Meteoriten oder Flammenpfeile reflektiert.~
+
+@217=~Sols sengende Kugel~
+@218=~Sols sengende Kugel
+
+Grad: 6
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Anwender
+Dauer: 3 Runden
+Zeitaufwand: 6
+Bereich: Speziell
+Rettungswurf: Speziell (gg. Odemwaffen)
+
+Wenn dieser Zauber eingesetzt wird, erschafft er einen leuchtenden Edelstein. Der Anwender muss diesen Edelstein möglichst rasch auf den Gegner werfen, weil er sich sehr schnell aufheizt und nicht lange gehalten werden kann. Der Stein kann nicht an einen anderen Charakter weitergereicht werden, der Anwender muss ihn selbst werfen.
+
+Nachdem der Zauber gewirkt wurde, muss der Anwender das Opfer mit einem Fernkampfangriff treffen. Er hat nur 3 Runden Zeit, um diesen Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Der Anwender erhält bei seinem Angriff einen ETW0-Bonus von -4, aber falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls.
+
+Wenn der Stein einen Gegner trifft, explodiert er in einem grellen, alles versengenden Blitz, der je Stufe des Anwenders 1W6 Schadenspunkte durch Feuer verursacht (bis zu einem Maximum von 20W6) und das Ziel 6 Runden lang blendet. Untote Wesen erleiden doppelten Schaden. Gelingt dem Opfer ein Rettungswurf gegen Odemwaffen mit einem Malus von +5, erleidet es nur halben Schaden und wird nicht geblendet.~
+
+@219=~Luftelementar beschwören~
+@220=~Luftelementar beschwören
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Luft
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde/Stufe
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Bei der Beschwörung eines Luftelementars öffnet der Magier ein spezielles Tor zur Elementarebene der Luft und ein Luftelementar wird in der Nähe des Anwenders herbeigerufen. Der Elementar hat normalerweise 12 Trefferwürfel und dient dem Willen seines Beschwörers bis die Wirkungsdauer des Zaubers endet, er zurück auf seine Heimatebene geschickt wird oder bis zu seinem Tod. Ab der 15. Stufe kann der Anwender jedoch einen mächtigeren Elementar (16 Trefferwürfel) herbeirufen. 
+
+Da die Kommunikation mit dem Elementar auf telepathischem Weg erfolgt, besteht keine Gefahr, dass ein Befehl missverstanden wird, und es ist auch nicht nötig, dass der Anwender die Sprache des Elementars beherrscht. Es ist allerdings ziemlich schwierig ein Tor zu den Inneren Ebenen aufrechtzuerhalten - deshalb besteht ein 15%ige Chance, dass das vom Anwender geöffnete Portal kollabiert bevor der Elementar die Materielle Ebene betreten kann.
+
+
+LUFTELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 16
+Geschicklichkeit: 19
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 126
+Schaden: 1W8 +4 (Stich, Fäuste +3)
+ETW0: 5
+Angriffe/Runde: 3
+Rüstungsklasse: 0
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 20%
+Widerstand gg. Stichwaffen: 20%
+Widerstand gg. Wuchtwaffen: 20%
+
+
+HÖHERER LUFTELEMENTAR (Stufe 16):
+
+Gesinnung: Neutral
+Stärke: 18
+Geschicklichkeit: 21
+Konstitution: 18
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 168
+Schaden: 1W8 +5 (Stich, Fäuste +3)
+ETW0: 1
+Angriffe/Runde: 3
+Rüstungsklasse: -1
+Rettungswürfe: 4/6/5/4/7
+
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 20%
+Widerstand gg. Stichwaffen: 20%
+Widerstand gg. Wuchtwaffen: 20%~
+
+@221=~Erdelementar beschwören~
+@222=~Erdelementar beschwören
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Erde
+Reichweite: Mittel
+Dauer: 1 Phase + 1 Runde/Stufe
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Bei der Beschwörung eines Erdelementars öffnet der Magier ein spezielles Tor zur Elementarebene der Erde und ein Erdelementar wird in der Nähe des Anwenders herbeigerufen. Der Elementar hat normalerweise 12 Trefferwürfel und dient dem Willen seines Beschwörers bis die Wirkungsdauer des Zaubers endet, er zurück auf seine Heimatebene geschickt wird oder bis zu seinem Tod. Ab der 15. Stufe kann der Anwender jedoch einen mächtigeren Elementar (16 Trefferwürfel) herbeirufen. 
+
+Da die Kommunikation mit dem Elementar auf telepathischem Weg erfolgt, besteht keine Gefahr, dass ein Befehl missverstanden wird, und es ist auch nicht nötig, dass der Anwender die Sprache des Elementars beherrscht. Es ist allerdings ziemlich schwierig ein Tor zu den Inneren Ebenen aufrechtzuerhalten - deshalb besteht ein 15%ige Chance, dass das vom Anwender geöffnete Portal kollabiert bevor der Elementar die Materielle Ebene betreten kann.
+
+
+ERDELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 21
+Geschicklichkeit: 8
+Konstitution: 19
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 146
+Schaden: 2W8 +12 (Wucht, Fäuste +3)
+ETW0: 4
+Angriffe/Runde: 2
+Rüstungsklasse: 3
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. Geschosswaffen: 40%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%
+
+
+HÖHERER ERDELEMENTAR (Stufe 16):
+
+Gesinnung: Neutral
+Stärke: 23
+Geschicklichkeit: 8
+Konstitution: 21
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 188
+Schaden: 2W8 +14 (Wucht, Fäuste +3)
+ETW0: 0
+Angriffe/Runde: 2
+Rüstungsklasse: 2
+Rettungswürfe: 4/6/5/4/7
+
+Widerstand gg. Geschosswaffen: 40%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%~
+
+@223=~Untote befehligen~
+@224=~Untote befehligen
+
+Grad: 6
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: 5 Phasen
+Zeitaufwand: 7
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Mit diesem Zauber unterwirft der Anwender mehrere untote Wesen im Wirkungsbereich seinem Willen. Er kommuniziert mittels telepathischer Verbindung und übt so eine absolute Kontrolle über die unterworfenen Untoten aus. Untote, die 5 oder mehr Stufen weniger als der Anwender besitzen, erhalten keinen Rettungswurf. Alle anderen Untoten können sich den Auswirkungen mit einem erfolgreichen Rettungswurf gegen Zauber mit einem Malus von +5 widersetzen. Die Untoten bleiben unter der Kontrolle des Anwenders, bis die Wirkungsdauer endet oder Magie bannen erfolgreich auf sie gewirkt wird.~
+
+@225=~Untote erschaffen~
+@226=~Untote erschaffen
+
+Grad: 6
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers lässt der Anwender einige untote Wesen auferstehen, die ihm anschließend dienen. Die Art und die Anzahl der beschworenen Wesen hängen von der Stufe des Anwenders ab.
+
+Stufe 11: 3 Düsterschrecken
+Stufe 15: 2 Mumien
+
+Die untoten Wesen bleiben unter der Kontrolle des Anwenders bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.
+
+
+DÜSTERSCHRECKEN (Stufe 4):
+
+Gesinnung: Chaotisch böse
+Stärke: 17
+Geschicklichkeit: 16
+Konstitution: -
+Intelligenz: 11
+Weisheit: 12
+Charisma: 10
+
+Gestank (permanent)
+ Bereich: 3 m Radius
+ Rettungswurf: Ja (gg. Tod)
+ Wesen im Wirkungsbereich muss ein Rettungswurf gelingen oder sie erleiden einen ETW0-Malus von +4 und ihre Zauber scheitern zu 20%.
+
+Bei jedem Treffer wird das Ziel für 5 Runden gelähmt (Rettungswurf gg. Tod).
+Immun gegen Betäubung, Bezauberung, Festhalten, Gift, Krankheit, Schlaf, Todesmagie und Verwirrung. 
+
+Trefferpunkte: 48
+Schaden: 1W8 +2 (Stich, Berührung +1)
+ETW0: 15
+Angriffe/Runde: 3
+Rüstungsklasse: 4
+Rettungswürfe: 9/11/10/12/12
+
+
+MUMIE (Stufe 7):
+
+Gesinnung: Rechtschaffen böse
+Stärke: 18/99
+Geschicklichkeit: 9
+Konstitution: -
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Verzweiflung (permanent)
+ Bereich: 15 m Radius
+ Rettungswurf: Ja (gg. Zauber)
+ Wesen im Wirkungsbereich muss ein Rettungswurf gelingen oder sie erstarren für 2 Runden vor Angst. Anschließend ist das Wesen für 8 Stunden gegen die Auswirkungen von Verzweiflung immun.
+
+Bei jedem Treffer wird das Ziel mit Mumienfäule infiziert (Rettungswurf gg. Tod). Dadurch erleidet das Opfer eine Phase lang alle 3 Sekunden einen Schadenspunkt. Am Ende der Phase erleidet es einen Malus von -2 auf seine Konstitution und sein Charisma.
+Immun gegen normale Waffen, Betäubung, Bezauberung, Festhalten, Gift, Krankheit, Schlaf, Todesmagie und Verwirrung.
+
+Trefferpunkte: 84
+Schaden: 1W12 +6 (Wucht, Berührung +1)
+ETW0: 10
+Angriffe/Runde: 1
+Rüstungsklasse: 3
+Rettungswürfe: 9/11/10/12/12
+
+Widerstand gg. alle Waffen: 50%
+Widerstand gg. Feuer: -25%
+Widerstand gg. Kälte: 100%~
+
+
+/*------------------level 7------------------*/
+
+@231=~Schild der Archonen~
+@232=~Schild der Archonen
+
+Grad: 7
+Schule: Bannzauber
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 3 Runden/Stufe
+Zeitaufwand: 9
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser mächtige Bannzauber sorgt dafür, dass auf das geschützte Wesen gewirkte Zauber absorbiert werden und somit unschädlich verpuffen. Der Zauber absorbiert einen Zaubergrad je zwei Stufen des Anwenders. Der Anwender ist nicht vor Magie bannen geschützt, der Zauber an sich wird jedoch von Magie bannen nicht betroffen.
+
+Das Schild der Archonen absorbiert auch Zauber von Schriftrollen und zauberähnliche Fähigkeiten. Flächendeckende Zauber, die nicht auf das geschützte Wesen zentriert werden (wie etwa Feuerball), und stationäre flächendeckende Zauber (wie etwa Todeswolke oder Stinkende Wolke) sind nicht betroffen. 
+
+Der Zauber wirkt so lange, bis der Schutz völlig aufgebraucht wurde, auch dann, wenn der letzte Zauber, der absorbiert wird, die verbleibende Schutzwirkung übersteigt. Wenn beispielsweise nur noch ein Grad an Zaubern absorbiert werden kann, so wird dennoch ein Zauber des 3. Grades absorbiert werden und das Schild der Archonen dadurch aufgebraucht.~
+
+@233=~Modernden Schlurfer beschwören~
+@234=~Modernden Schlurfer beschwören
+
+Grad: 6
+Schule: Beschwörung
+Domäne: Pflanzen
+Reichweite: Mittel
+Dauer: 8 Stunden
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Dieser Zauber ruft einen Modernden Schlurfer herbei, der den Anwender unterstützt. Der Schlurfer scheint auf den ersten Blick ein Haufen verrottender Vegetation zu sein. Er ist jedoch vielmehr eine intelligente Form pflanzlichen Lebens, das eine annähernd humanoide Form und ein Kontrollzentrum (ähnlich einem Gehirn) in seiner "Brust"-Region besitzt. Der Modernde Schlurfer bleibt unter der Kontrolle des Anwenders, bis er vernichtet wird oder die Wirkungsdauer endet.
+
+
+MODERNDER SCHLURFER (Stufe 16):
+
+Gesinnung: Neutral
+Stärke: 19
+Geschicklichkeit: 10
+Konstitution: 16
+Intelligenz: 7
+Weisheit: 10
+Charisma: 9
+
+Einschnüren
+ Ein verstricktes Wesen erhält in jeder Runde einen Rettungswurf gegen Odemwaffen um sich zu befreien. Scheitert dieser erleidet es 2W6 +10 Schadenspunkte und bleibt verstrickt.
+
+Bei jedem Treffer besteht eine 50%ige Chance das Ziel zu verstricken (Rettungswurf gg. Odemwaffen).
+Immun gegen Betäubung, Bezauberung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 146
+Schaden: 2W6 +10 (Wucht, Fäuste +3)
+ETW0: 2
+Angriffe/Runde: 2
+Rüstungsklasse: 0
+Rettungswürfe: 4/6/5/4/7
+
+Regeneration: 1 TP pro Runde
+Widerstand gg. Geschosswaffen: 50%
+Widerstand gg. Klingenwaffen: 50%
+Widerstand gg. Stichwaffen: 50%
+Widerstand gg. Wuchtwaffen: 100%
+Elektrizitätswiderstand: 125%
+Feuerwiderstand: 100%
+Kältewiderstand: 50%~
+
+@235=~Todesritter beschwören~
+@236=~Todesritter beschwören
+
+Grad: 7
+Schule: Nekromantie
+Domäne: Alle
+Reichweite: Mittel
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber teleportiert einen mächtigen Dämon herbei, der sofort in Raserei verfällt und jedes Wesen, das er sieht, angreift und tötet. Wesen, auf denen Schutz vor Bösem liegt, werden von dem Dämon nicht angegriffen. Dies ist ein äußerst gefährlicher Zauber, den man nur in Zeiten höchster Not einsetzen sollte.
+
+
+TODESRITTER (Stufe 14):
+
+Gesinnung: Rechtschaffen böse
+Stärke: 18/00
+Geschicklichkeit: 12
+Konstitution: -
+Intelligenz: 17
+Weisheit: 15
+Charisma: 16
+
+Aura der Furcht (permanent)
+ Bereich: 3 m Radius
+ Rettungswurf: Ja (gg. Zauber)
+ Wesen im Wirkungsbereich muss jede Runde ein Rettungswurf gelingen oder sie fliehen 1 Runde lang in Panik.
+
+Feuerball des Todesritters (1x)
+ Schaden: 20W6 (Feuer)
+ Rettungswurf: 1/2 (gg. Zauber)
+ 
+Symbols der Schwäche (1x)
+Symbol des Todes (1x)
+Wort der Macht: Betäubung (1x)
+Wort der Macht: Blindheit (1x)
+Wort der Macht: Tod (1x)
+
+Immun gegen normale Waffen, Betäubung, Bezauberung, Festhalten, Gift, Schlaf, Todesmagie und Verwirrung.
+
+Trefferpunkte: 168
+Schaden: 2W6 +12 (Klinge, Zweihänder +3)
+ETW0: -1
+Angriffe/Runde: 3
+Rüstungsklasse: -4
+Rettungswürfe: 4/4/4/8/4
+
+Magiewiderstand: 75%
+Elektrizitätswiderstand: 100%
+Kältewiderstand: 100%~
+
+@237=~Natürliche Schönheit~
+@238=~Natürliche Schönheit
+
+Grad: 7
+Schule: Illusion
+Domäne: Elemente
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 7
+Bereich: 9 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Der Anwender verwandelt sich für andere in DAS Schönheitsideal der jeweiligen Person. Für Männer ist dies normalerweise eine Nymphe oder Dryade, bei Frauen hängt die Erscheinung von ihrem Geschmack ab. Jeder Humanoid, der den so verwandelten Anwender sieht, muss einen Rettungswurf gegen Zauber mit einem Malus von +6 bestehen oder wird für 10 Runden bezaubert. Die Verwandlung selbst ist augenblicklich, hält nur wenige Sekunden an und ist für die Gruppenmitglieder des Anwenders ungefährlich.
+
+Der Zauber endet, wenn der Anwender den Bezauberten verletzt bzw. ihn durch achtlose Taten zu verletzen droht oder wenn Magie bannen erfolgreich auf den Bezauberten gewirkt wird. Wenn mehrere Bezauberungen auf ein Wesen gewirkt werden, hat immer der zuletzt gewirkte Zauber Vorrang.~
+
+@239=~Feuersturm~
+@240=~Feuersturm
+
+Grad: 7
+Schule: Hervorrufung
+Domäne: Kampf, Feuer
+Reichweite: Lang
+Dauer: 4 Runden
+Zeitaufwand: 9
+Bereich: 9 m Radius
+Rettungswurf: 1/2 (gg. Odemwaffen)
+
+Wird dieser Zauber gewirkt, bricht im Wirkungsbereich ein Inferno aus brüllenden Flammen los. Kurz darauf schlagen glühende Lavakugeln im Wirkungsbereich ein. Die betroffenen Wesen erleiden 2W8 Schadenspunkte sowie einen zusätzlichen je Stufe des Anwenders (bis zu einem Maximum von 2W8 +20). Der Feuersturm tobt vier Runden lang und jedes Wesen, das den Wirkungsbereich nicht verlässt, erleidet den Schaden in jeder Runde.
+
+Der Anwender und jeder in einem Umkreis von 3 m um ihn herum wird von den Auswirkungen dieses Zaubers nicht betroffen. Wesen, denen ein Rettungswurf gegen Odemwaffen mit einem Malus von +6 gelingt, erleiden nur halben Schaden.~
+
+@241=~Symbol der Schwäche~
+@242=~Symbol der Schwäche
+
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Mit Hilfe dieses mächtigen Zaubers kann der Anwender ein Symbol auf den Erdboden oder eine beliebige andere Oberfläche zeichnen. Das Symbol bleibt an diesem Ort, bis sich ein feindliches Wesen auf weniger als 4,5 m nähert. Dann entlädt sich seine magische Energie explosionsartig. 
+
+Jeder im Wirkungsbereich muss einen Rettungswurf gegen Zauber mit einem Malus von +6 bestehen oder erleidet eine Malus von -4 auf seine Stärke, Geschicklichkeit und Konstitution. Diese Auswirkungen halten an, bis Krankheit heilen erfolgreich auf das Wesen gewirkt wird.~
+
+@243=~Sonnenstrahl~
+@244=~Sonnenstrahl
+
+Grad: 7
+Schule: Hervorrufung
+Domäne: Sonne
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 5
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+Bei diesem Zauber fährt ein Sonnenstrahl auf den Anwender herab und ein Kugel sengenden Lichts explodiert in einem Bereich von 9 m Radius. Alle feindlichen Wesen im Wirkungsbereich erleiden 6W6 Schadenspunkte und werden für 1 Phase blind. 
+
+Untote im Wirkungsbereich erleiden 1W6 Schadenspunkte je Stufe des Anwenders (bis zu einem Maximum von 20W6). und müssen einen Rettungswurf gegen Tod bestehen, oder sie werden zerstört. Wenn den Betroffenen ein Rettungswurf gegen Zauber mit einem Malus von +6 gelingt, wird der Schaden halbiert und sie werden nicht geblendet. Zusätzlich führt der Strahl zur Zerstörung aller untoter Wesen, die Licht gegenüber besonders empfindlich sind (wie etwa Vampire, Schatten und Wraiths), wenn ihnen ein Rettungswurf gegen Tod misslingt.~
+
+@245=~Finger des Todes~
+@246=~Finger des Todes
+
+Grad: 7
+Schule: Nekromantie
+Domäne: Krieg
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+Der Finger des Todes bringt den Lebensfunken des Opfers zum Erlöschen. Nachdem die Formel ausgesprochen wurde, zeigt der Anwender auf sein Opfer und versucht, ihm die Seele aus dem Leib zu reißen. Dem Opfer steht ein Rettungswurf gegen Tod mit einem Malus von +6 zu, um das zu verhindern. Scheitert das Opfer, stirbt es, andernfalls erleidet es immer noch 2W8 Schadenspunkte sowie zusätzlich 1 Schadenspunkt je Stufe des Anwenders.~
+
+@247=~Heiliges Wort~
+@248=~Heiliges Wort
+
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Der Ausspruch eines heiligen Wortes führt zu einem unglaublich starken Ausbruch magischer Energie. Dazu schaffte der Anwender eine Verbindung zwischen seinem Gott und der materiellen Ebene, wodurch er zum Zentrum eines Ausbruchs heiliger Energie wird, der alles im Umkreis von 9 Metern betrifft. 
+
+Die heilige Energie wirkt sich nur auf böse Wesen und Charaktere mit böser Gesinnung aus. Die genauen Auswirkungen hängen von der Stufe des Opfers in Bezug auf die Stufe des Anwenders ab:
+
+Gleiche wie Anwender: Taubheit
+1 bis 4 weniger: Blindheit und Taubheit
+5 bis 9 weniger: Lähmung, Blindheit und Taubheit
+10 und mehr weniger: Tod, Lähmung, Blindheit und Taubheit
+
+Gegen diesen Zauber ist kein Rettungswurf zulässig. Außerdem kann er natürlich nicht von jemandem mit böser Gesinnung eingesetzt werden.~
+
+@249=~Regeneration~
+@250=~Regeneration
+
+Grad: 7
+Schule: Nekromantie
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase + 2 Runden/Stufe
+Zeitaufwand: 7
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses mächtigen Zaubers verleiht der Anwender einem Wesen die Fähigkeit zur Regeneration. Erlittene Verletzungen heilen und selbst verlorene Gliedmaßen bilden sich neu. Der Zauber regeneriert alle jede Sekunde einen Trefferpunkt und hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+
+@251=~Auferstehung~
+@252=~Auferstehung
+
+Grad: 7
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber ähnelt Tote erwecken des 5. Grades. Allerdings heilt Auferstehung den wiederbelebten Charakter zugleich auch vollständig, so dass er sich sofort wieder ins Abenteuer stürzen kann.~
+
+@253=~Genesung~
+@254=~Genesung
+
+Grad: 7
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber befreit das Ziel von den meisten temporären und permanenten negativen Effekten. So hebt er jeglichen Energieverlust auf, den das Ziel durch Untote, Zauber oder andere Einwirkungen erlitten hat. Darüber hinaus stellt Genesung die natürliche Form eines verwandelten oder versteinerten Wesens wieder her, hebt die Auswirkungen von Flüchen auf, kuriert das Ziel von unnatürlichen Geisteszuständen (wie etwa Verwirrung, Schwachsinn oder Berserker-Wut) und befreit von magischen hervorgerufenen Zuständen wie Furcht, Lähmung, Schlaf oder Betäubung. Dieser mächtige Zauber heilt darüber hinaus alle Trefferpunkte und kuriert Gift sowie Krankheiten. 
+
+Das Wirken dieses Zaubers ist für den Anwender äußerst anstrengend - er fühlt sich anschließend körperlich und geistig ausgelaugt. Dadurch erleidet er nach der Anwendung für 5 Runden einen Malus von +2 auf seine ETW0, seine Rüstungsklasse und seinen Zeitaufwand beim Zaubern sowie einen Schadens-Malus von -2.~
+
+@255=~Unheiliges Wort~
+@256=~Unheiliges Wort
+
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 9 m Radius
+Rettungswurf: Nein
+
+Der Ausspruch eines unheiligen Wortes führt zu einem unglaublich starken Ausbruch magischer Energie. Dazu schaffte der Anwender eine Verbindung zwischen seinem Gott und der materiellen Ebene, wodurch er zum Zentrum eines Ausbruchs heiliger Energie wird, der alles im Umkreis von 9 Metern betrifft. 
+
+Die unheilige Energie wirkt sich nur auf gut Wesen und Charaktere mit guter Gesinnung aus. Die genauen Auswirkungen hängen von der Stufe des Opfers in Bezug auf die Stufe des Anwenders ab:
+
+Gleiche wie Anwender: Taubheit
+1 bis 4 weniger: Blindheit und Taubheit
+5 bis 9 weniger: Lähmung, Blindheit und Taubheit
+10 und mehr weniger: Tod, Lähmung, Blindheit und Taubheit
+
+Gegen diesen Zauber ist kein Rettungswurf zulässig. Außerdem kann er natürlich nicht von jemandem mit guter Gesinnung eingesetzt werden.~
+
+@257=~Kriechender Tod~
+@258=~Kriechender Tod
+
+Grad: 7
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 9
+Bereich: 1 Wesen + 9 m Radius
+Rettungswurf: Speziell
+
+Durch diesen Zauber sammelt der Anwender eine Horde giftiger, beißender und stechender Spinnen, Insekten und Tausendfüßler. Dieser bewegliche Teppich schwärmt über ein großes Gebiet aus und umschließt dabei alle Wesen in einem Umkreis von 9 Metern. Unsichtbarkeit schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Alle betroffenen Wesen erhalten während der Wirkungsdauer einen Malus von +2 auf ihre ETW0 und ihre Rüstungsklasse. Darüber hinaus erleiden die Opfer durch die Bisse und Stiche der Insekten jede Runde 2W6 Schadenspunkte, ihre Zauber scheitern zu 100% und sie müssen einen Rettungswurf gegen Tod bestehen oder rennen panisch davon.
+
+Wenn einem Opfer ein Rettungswurf gegen Odemwaffen mit einem Malus von +6 gelingt, kann es dem Großteil des Schwarms entgehen. Dadurch wird der erlittene Schaden halbiert und die Probleme beim Zaubern werden aufgehoben.~
+
+@259=~Symbol der Betäubung~
+@260=~Symbol der Betäubung
+
+Grad: 7
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Zauber)
+
+Mit Hilfe dieses mächtigen Zaubers kann der Anwender ein Symbol auf den Erdboden oder eine beliebige andere Oberfläche zeichnen. Das Symbol bleibt an diesem Ort, bis sich ein feindliches Wesen auf weniger als 4,5 m nähert. Dann entlädt sich seine magische Energie explosionsartig. Jeder im Wirkungsbereich muss einen Rettungswurf gegen Zauber mit einem Malus von +6 bestehen, oder er wird für 4 Runden betäubt.~
+
+@261=~Erdbeben~
+@262=~Erdbeben
+
+Grad: 7
+Schule: Veränderung
+Domäne: Erde
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 9
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+Durch diesen Zauber wird der Boden in einem begrenzten Bereich von einem Erdbeben erschüttert. Während der Wirkungsdauer ereignet sich dabei jede Runde ein neuer Erdstoß, der alle Wesen im Wirkungsbereich betrifft. Erdelementare und fliegende Wesen werden von diesem Zauber nicht betroffen.
+
+Insgesamt bebt der Boden dreimal. Der erste Erdstoß verursacht 6W6 Schadenspunkte, die bei einem erfolgreichen Rettungswurf gegen Tod mit einem Malus von +6 halbiert werden können. Wesen, deren Rettungswurf scheitert, erleiden nicht nur vollen Schaden, sondern stürzen auch zu Boden und bleiben für 2 Runden bewusstlos.
+
+Der zweite Erdstoß ist weniger stark und verursacht 4W6 Schadenspunkte, die bei einem erfolgreichen Rettungswurf gegen Tod mit einem Malus von +4 wiederum halbiert werden können. Zusätzlich öffnen sich jedoch Erdspalten. Für jedes Wesen besteht eine 20%ige Chance in eine von diesen hineinzufallen und dadurch zu sterben. Dies kann durch einen erfolgreichen Rettungswurf gegen Odemwaffen mit einem Malus von +4 verhindert werden.
+
+Der dritte und letzte Erdstoß ist am schwächsten. Er verursacht 2W6 Schadenspunkte, die mit einem Rettungswurf gegen Tod mit einem Malus von +2 wie schon zuvor halbiert werden können. Darüber hinaus besteht auch weiterhin die Gefahr in eine der noch immer klaffenden Erdspalten zu geraten. Die Chance darin eingeklemmt zu werden beträgt allerdings nur noch 10% und der entsprechende Rettungswurf muss nur mit einem Malus von +2 durchgeführt werden.
+
+Wesen, die vom ersten Stoß zu Boden geworfen wurden, steht kein Rettungswurf zu, wenn es darum geht zu bestimmen, ob sie in eine Erdspalte hineinfallen oder von ihr eingeklemmt werden. Da der Zauber sowohl Feinde als auch Verbündete betrifft, sollte man das Zielgebiet vorsichtig auswählen. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.~
+
+@295=~Symbol des Todes~
+@296=~Symbol des Todes
+
+Grad: 1
+Schule: Beschwörung
+Domäne: Kampf
+Reichweite: Lang
+Dauer: Speziell
+Zeitaufwand: 9
+Bereich: 6 m Radius
+Rettungswurf: Ja (gg. Tod)
+
+Mit Hilfe dieses mächtigen Zaubers kann der Anwender ein Symbol auf den Erdboden oder eine beliebige andere Oberfläche zeichnen. Das Symbol bleibt an diesem Ort, bis sich ein feindliches Wesen auf weniger als 4,5 m nähert. Dann entlädt sich seine magische Energie explosionsartig. Jeder im Wirkungsbereich muss einen Rettungswurf gegen Tod mit einem Malus von +6 bestehen oder sterben. Wesen, die im Augenblick, wenn das Symbol ausgelöst wird, mehr als 60 Trefferpunkte haben, sind gegen seine Auswirkungen immun.~
+
+@297=~Chaossphäre~
+@298=~Chaossphäre
+
+Grad: 7
+Schule: Verzauberung
+Domäne: Chaos
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 7
+Bereich: 9 m Radius
+Rettungswurf: Speziell (gg. Zauber)
+
+Dieser Zauber erlaubt es dem Anwender eine Sphäre chaotischer Magie zu erschaffen. Jeder Gegner, der sich im Wirkungsbereich aufhält, muss jede Runde einen Rettungswurf gegen Zauber mit einem Malus von +6 bestehen. Gelingt dieser nicht, tritt bei dem entsprechenden Wesen einer der folgenden Effekte ein: Berserker-Rausch, Verwirrung, Lähmung, Bewusstlosigkeit oder Panik.~
+
+
+/*------------------level 8------------------*/
+@271=~Energieklingen~
+@272=~Energieklingen
+
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Erschaffung, Kampf
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber erzeugt so genannte Energieklingen. Sie haben die Form von Scheiben aus reiner Energie, die man werfen kann. Sie gewähren einen ETW0-Bonus von -10 und verursachen als Geschosswaffen 1W4 +5, sowie zusätzlich 1W10 Schadenspunkte durch Elektrizität. Wenn es darum geht, welche Wesen sie verletzen kann, wird die Klinge als +5 Waffe betrachtet. Der Zauber erzeugt 20 derartige Scheiben und ermöglicht dem Anwender, solange die Energiescheiben als Waffe trägt, neun Angriffe pro Runde durchzuführen.~
+
+@273=~Sturm der Vergeltung~
+@274=~Sturm der Vergeltung
+
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Krieg, Wetter
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 9
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+Der Zauber lässt die Erde erbeben und den Himmel zürnen. Alle feindlichen Wesen werden von giftigem Säureregen und Blitzschlägen getroffen. Der Sturm der Vergeltung tobt drei Runden lang.
+
+Die Opfer erleiden in jeder Runde je 2W6 Schadenspunkte durch Elektrizität und Säure. Ein erfolgreicher Rettungswurf gegen Odemwaffen mit einem Malus von +6 halbiert den Schaden. Darüber hinaus müssen die Opfer in jeder Runde einen Rettungswurf gegen Tod mit einem Malus von +6 bestehen oder sie werden vergiftet und erleiden so in der folgenden Runde pro Sekunde 2 Schadenspunkte.~
+
+@275=~Elementarschwarm~
+@276=~Elementarschwarm
+
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 2 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber zapft die Energien der Natur an, um 3 verschiedene Elementare mit je 12 Trefferwürfeln herbeizuzaubern. Dabei handelt es sich je um ein Elementar von der Erd-, Luft- und Feuerebene. Die Elementare dienen dem Anwender und bleiben 2 Phasen oder bis sie getötet werden. Die Elementare dienen dem Willen ihres Beschwörers bis die Wirkungsdauer des Zaubers endet, sie zurück auf ihre Heimatebenen geschickt werden oder bis zu ihrem Tod.
+
+
+ERDELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 21
+Geschicklichkeit: 8
+Konstitution: 19
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Festhalten, Gift, Schlaf und Betäubung.
+
+Trefferpunkte: 146
+Schaden: 2W8 +12 (Wucht, Fäuste +3)
+ETW0: 5
+Angriffe/Runde: 2
+Rüstungsklasse: 3
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. Geschosswaffen: 40%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%
+
+
+FEUERELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 16
+Geschicklichkeit: 17
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Festhalten, Gift, Schlaf und Betäubung.
+
+Trefferpunkte: 126
+Schaden: 2W6 +4 (Klinge, Fäuste +3)
+Schadensbonus: +2W6 (Feuer)
+ETW0: 7
+Angriffe/Runde: 2
+Rüstungsklasse: 1
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. alle Waffen: 20%
+Feuerwiderstand: 100%
+
+
+LUFTELEMENTAR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 16
+Geschicklichkeit: 19
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 11
+Charisma: 11
+
+Immun gegen normale Waffen, Festhalten, Gift, Schlaf und Betäubung.
+
+Trefferpunkte: 126
+Schaden: 1W8 +4 (Stich, Fäuste +3)
+ETW0: 5
+Angriffe/Runde: 3
+Rüstungsklasse: 0
+Rettungswürfe: 7/9/8/8/10
+
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 20%
+Widerstand gg. Stichwaffen: 20%
+Widerstand gg. Wuchtwaffen: 20%~
+
+@277=~Elementarprinz rufen~
+@278=~Elementarprinz rufen
+
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 1 Phase
+Zeitaufwand: 19 (= 2 Runden)
+Bereich: Speziell
+Rettungswurf: Nein
+
+Druiden, die eine stärkere Verbindung zu den Elementen haben als Kleriker, können diese mächtigere Version des Elementarschwarms einsetzen. Durch diesen Zauber wird auf jeden Fall einer der Elementarprinzen herbeigezaubert - ob es sich um den Elementarprinzen der Luft-, Erd- oder Feuerebene handelt, wird zufällig ermittelt. Der beschworene Elementarprinz bleibt 1 Phase lang auf der materiellen Ebene und dient in dieser Zeit dem Druiden.
+
+Die Elementarprinzen sind die Herrscher aller Elementare auf ihrer jeweiligen Ebene. Der Elementarprinz der Luft heißt Chan, der Elementarprinz der Erde Sunnis und der Elementarprinz des Feuers Zaaman Rul.
+
+
+CHAN, PRINZ DER LUFT (Stufe 20):
+
+Gesinnung: Neutral
+Stärke: 19
+Geschicklichkeit: 24
+Konstitution: 18
+Intelligenz: 17
+Weisheit: 16
+Charisma: 18
+
+Klingenbarriere
+ Schaden: 3W6 pro 3 Sekunden
+ Bereich: 1,5 m Radius
+ Rettungswurf: Ja (gg. Odemwaffen)
+
+Kann nur von magischen Waffen +2 oder besser verletzt werden.
+Immun gegen Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 180
+Schaden: 1W12 +11 (Stich, Fäuste +4)
+ETW0: -3
+Angriffe/Runde: 4
+Rüstungsklasse: -8
+Rettungswürfe: 3/5/4/4/6
+
+Regeneration: 2 TP pro Runde
+Magiewiderstand: 60%
+Widerstand gg. Geschosswaffen: 80%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%
+Widerstand gg. Wuchtwaffe: 40%
+Elektrizitätswiderstand: 100%
+
+
+SUNNIS, PRINZ DER ERDE (Stufe 20):
+
+Gesinnung: Neutral
+Stärke: 24
+Geschicklichkeit: 12
+Konstitution: 23
+Intelligenz: 17
+Weisheit: 16
+Charisma: 18
+
+Steinhaut (1 Schicht jede Runde)
+
+Kann nur von magischen Waffen +2 oder besser verletzt werden.
+Immun gegen Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 230
+Schaden: 2W12 +16 (Wucht, Fäuste +4)
+ETW0: -6
+Angriffe/Runde: 3
+Rüstungsklasse: -5
+Rettungswürfe: 3/5/4/4/6
+
+Magiewiderstand: 60%
+Widerstand gg. Geschosswaffen: 60%
+Widerstand gg. Klingenwaffen: 60%
+Widerstand gg. Stichwaffen: 60%
+Widerstand gg. Wuchtwaffe: 20%
+
+
+ZAAMAN RUL, PRINZ DES FEUERS (Stufe 20):
+
+Gesinnung: Neutral
+Stärke: 19
+Geschicklichkeit: 21
+Konstitution: 19
+Intelligenz: 17
+Weisheit: 16
+Charisma: 18
+
+Feuerschild
+ Schaden: 2W10 (Feuer)
+ Bereich: 1,5 m Radius
+
+Kann nur von magischen Waffen +2 oder besser verletzt werden.
+Immun gegen Betäubung, Festhalten, Gift, Schlaf und Verwandlung.
+
+Trefferpunkte: 200
+Schaden: 2W10 +11 (Klinge, Fäuste +4)
+Schadensbonus: +2W10 (Feuer)
+ETW0: -3
+Angriffe/Runde: 3
+Rüstungsklasse: -7
+Rettungswürfe: 3/5/4/4/6
+
+Regeneration: 2 TP pro Runde
+Magiewiderstand: 60%
+Widerstand gg. alle Waffen: 40%
+Feuerwiderstand: 125%~
+
+@279=~Klingenkugel~
+@280=~Klingenkugel
+
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Wächter, Erschaffung
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 9
+Bereich: 2 m Radius
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers erschafft der Anwender eine Mauer aus in der Luft tanzenden, rasiermesserscharfen Klingenwaffen. Diese umtanzen den Anwender in einem wirren Muster und bilden so eine undurchdringliche Barriere. Jeder, der dem Anwender näher als 2 Meter kommt und dem ein Rettungswurf gegen Odemwaffen mit einem Malus von +6 misslingt, erleidet alle 2 Sekunden 2W10 Schadenspunkte. Außerdem gewährt die Barriere dem Anwender auf seine Rüstungsklasse einen Bonus von -4. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Zauber wie etwa Unsichtbarkeit oder Phantomtor funktionieren nicht in Kombination mit einer Klingenkugel. Darüber hinaus können sich auch Kleriker/Diebe und Kleriker/Waldläufer während der Wirkungsdauer dieses Zaubers nicht im Schatten verstecken.~
+
+@281=~Deva beschwören~
+@282=~Deva beschwören
+
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber öffnet ein himmlisches Tor, durch das ein engelsgleicher Deva tritt. Der Deva kämpft an der Seite des Anwenders, bis die Wirkungsdauer des Zaubers endet oder bis der irdische Avatar des Devas vernichtet wird.
+
+
+DEVA (Stufe 14):
+
+Gesinnung: Chaotisch gut
+Stärke: 19
+Geschicklichkeit: 18
+Konstitution: 18
+Intelligenz: 18
+Weisheit: 18
+Charisma: 20
+
+Vorbereitete Zauber:
+1° Segen (x3), Furcht bannen (x3)
+2° Stärkung (x3), Fallen finden, Feind analysieren, Göttliche Macht entlehnen
+3° Krankheit heilen (x2), Heiliges Zerschmettern (x2), Verzauberung aufheben (x2)
+4° Schwere Wunden heilen (x2), Gift neutralisieren (x2), Schutzkreis gegen Böses
+5° Massenheilung, Tote erwecken, Wahrer Blick
+6° Klingenbarriere, Heilung
+7° Heiliges Wort
+
+Bei jedem Treffer besteht eine 50%ige Chance das Ziel für 2 Runden zu betäuben (Rettungswurf gg. Zauber). Wird ein Untoter getroffen wird dieser sofort zerstört (Rettungswurf gg. Tod).
+
+Kann nur von Waffen +2 oder besser verletzt werden.
+Immun gegen Einkerkerung, Gift, Irrgarten, Stufenabzug, Todesmagie und Versteinerung.
+
+Trefferpunkte: 162
+Schaden: 1W10 +10 (Wucht, Schwerer Streitflegel +3)
+ETW0: 0
+Angriffe/Runde: 2
+Rüstungsklasse: -5
+Rettungswürfe: 3/5/4/4/6
+
+Magiewiderstand: 70%
+Widerstand gg. alle Waffen: 10%
+Elektrizitätswiderstand: 100%
+Feuerwiderstand: 50%
+Kältewiderstand: 100%~
+
+@283=~Gefallenen Deva beschwören~
+@284=~Gefallenen Deva beschwören
+
+Grad: Auftragszauber
+Schule: Beschwörung
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber öffnet ein Tor in den Abyss, durch das ein dämonischer Deva tritt. Der Deva kämpft an der Seite des Anwenders, bis die Wirkungsdauer des Zaubers endet oder bis der irdische Avatar des Devas vernichtet wird.
+
+
+GEFALLENER DEVA (Stufe 14):
+
+Gesinnung: Chaotisch böse
+Stärke: 19
+Geschicklichkeit: 18
+Konstitution: 18
+Intelligenz: 18
+Weisheit: 18
+Charisma: 20
+
+Vorbereitete Zauber:
+1° Verderben (x3), Furcht bannen (x3)
+2° Personen festhalten (x3), Fallen finden, Feind analysieren, Stille
+3° Ansteckung (x2), Unheiliges Verderben (x2), Verzauberung aufheben (x2)
+4° Schwere Wunden verursachen (x2), Vergiften (x2), Mantel der Furcht
+5° Flammenschlag, Höherer Befehl, Wahrer Blick
+6° Klingenbarriere, Leid
+7° Unheiliges Wort
+
+Kann nur von Waffen +2 oder besser verletzt werden.
+Immun gegen Einkerkerung, Gift, Irrgarten, Stufenabzug, Todesmagie und Versteinerung.
+
+Trefferpunkte: 162
+Schaden: 1W8 +10 (Wucht, Langschwert +3)
+Schadensbonus:
+ +1W8 (Feuer)
+ +5 (Bluten in 5 Runden)
+ETW0: 0
+Angriffe/Runde: 2
+Rüstungsklasse: -5
+Rettungswürfe: 3/5/4/4/6
+
+Magiewiderstand: 70%
+Widerstand gg. alle Waffen: 10%
+Elektrizitätswiderstand: 100%
+Feuerwiderstand: 100%
+Säurewiderstand: 50%~
+
+@285=~Implosion~
+@286=~Implosion
+
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Zahlen
+Reichweite: Lang
+Dauer: 1 Runde
+Zeitaufwand: 7
+Bereich: 1 Wesen
+Rettungswurf: Speziell (gg. Tod)
+
+Dieser furchteinflößende Zauber erzeugt eine zerstörerische Resonanz im Körper des Ziels, wodurch dieser in sich selbst zusammenstürzt und zerquetscht wird. Das Opfer wird 1 Runde lang festgehalten und erleidet 20W8 Schadenspunkte durch Wucht. Gelingt dem Opfer ein Rettungswurf gegen Tod mit einem Malus von +6 erleidet es nur halben Schaden.~
+
+@287=~Massenerweckung~
+@288=~Massenerweckung
+
+Grad: Auftragszauber
+Schule: Nekromantie
+Domäne: Nekromantie
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 4
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber stellt eine mächtigere Version von Tote erwecken dar. Er kann bis zu 5 Gruppenmitglieder gleichzeitig von den Toten erwecken und heilt bei diesen außerdem 4W10 +20 Trefferpunkte. Die wiedererweckten Gruppenmitglieder können die fehlenden Trefferpunkte entweder auf natürlichem oder magischem Weg heilen.~
+
+@289=~Aura des Flammenden Todes~
+@290=~Aura des Flammenden Todes
+
+Grad: Auftragszauber
+Schule: Hervorrufung
+Domäne: Schutz, Feuer
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: 1,5 m Radius
+Rettungswurf: Nein
+
+Der Anwender wird durch eine extrem heiße Flammenaura umhüllt, die Feinden Schaden zufügt und den Anwender schützt. Zum einen erhält er 100% Feuerwiderstand und ist immun gegen normale, nicht-magische Waffen. 
+
+Zum anderen kann der Anwender alle Wesen in einem Umkreis von 1,5 Metern schädigen und seine Waffe entflammen: Jeder, der den Anwender im Wirkungsbereich mit einer Waffe oder einem Zauber angreift, erleidet 2W10 +2 Schadenspunkte durch Feuer und bei jedem Treffer mit einer Nahkampfwaffe fügt der Anwender zusätzlich zum normalen Schaden 1W10 Schadenspunkte durch Feuer zu.~
+
+@291=~Feuerelementarform~
+@292=~Feuerelementarform
+
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Feuer
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Anwender greift direkt auf die Macht des Elements Feuer zu, um sich in einen Höheren Feuerelementar von beachtlicher Stärke zu verwandeln. Der Anwender erhält sowohl den natürlichen Angriff als auch die Immunitäten und Fähigkeiten der Elementarform. Die Geistigen Attribute des Anwenders werden nicht angepasst, sehr wohl aber die körperlichen. Die gesamte Kleidung und Ausrüstung verschmilzt mit der neuen Form und behält ungesehen ihre Auswirkungen bei. Bei der Rückverwandlung des Anwenders verwandeln auch sie sich zurück.
+
+HÖHERER FEUERELEMENTAR (Stufe -):
+
+Gesinnung: -
+Stärke: 18
+Geschicklichkeit: 19
+Konstitution: 18
+Intelligenz: -
+Weisheit: -
+Charisma: -
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift und Schlaf.
+
+Trefferpunkte: -
+Schaden: 2W10 +5 (Klinge, Fäuste +4)
+Schadensbonus: +2W8 (Feuer)
+ETW0: 3
+Angriffe/Runde: 2
+Rüstungsklasse: 0
+Rettungswürfe: -/-/-/-/-
+
+Widerstand gg. alle Waffen: 20%
+Feuerwiderstand: 100%~
+
+@293=~Erdelementarform~
+@294=~Erdelementarform
+
+Grad: Auftragszauber
+Schule: Veränderung
+Domäne: Kampf, Erde
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Anwender greift direkt auf die Macht des Elements Erde zu, um sich in einen Höheren Erdelementar von beachtlicher Stärke zu verwandeln. Der Anwender erhält sowohl den natürlichen Angriff als auch die Immunitäten und Fähigkeiten der Elementarform. Die Geistigen Attribute des Anwenders werden nicht angepasst, sehr wohl aber die körperlichen. Die gesamte Kleidung und Ausrüstung verschmilzt mit der neuen Form und behält ungesehen ihre Auswirkungen bei. Bei der Rückverwandlung des Anwenders verwandeln auch sie sich zurück.
+
+HÖHERER ERDELEMENTAR (Stufe -):
+
+Gesinnung: -
+Stärke: 23
+Geschicklichkeit: 8
+Konstitution: 21
+Intelligenz: -
+Weisheit: -
+Charisma: -
+
+Immun gegen normale Waffen, Betäubung, Festhalten, Gift und Schlaf.
+
+Trefferpunkte: -
+Schaden: 2W10 +14 (Wucht, Fäuste +4)
+ETW0: 0
+Angriffe/Runde: 2
+Rüstungsklasse: 2
+Rettungswürfe: -/-/-/-/-
+
+Widerstand gg. Geschosswaffen: 40%
+Widerstand gg. Klingenwaffen: 40%
+Widerstand gg. Stichwaffen: 40%~
+
+/*----------------Temporarily Beast Master, and Stalker spells----------------*/
+
+@300=~Tiere beschwören I~
+@301=~Tiere beschwören I
+
+Grad: 1
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender drei Schreckenswölfe herbei. Diese sind stärkere Varianten ihrer normalen Verwandten. Die Tiere erscheinen innerhalb der Reichweite des Zaubers und unterstützen den Anwender, soweit es ihnen möglich ist, bis die Wirkungsdauer endet oder sie getötet werden.
+
+
+SCHRECKENSWOLF (Stufe 4):
+
+Gesinnung: Neutral
+Stärke: 17
+Geschicklichkeit: 15
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Trefferpunkte: 46
+Schaden: 1W6 +2 (Stich, Biss +1)
+ETW0: 15
+Angriffe/Runde: 1
+Rüstungsklasse: 6
+Rettungswürfe: 13/15/14/16/16~
+
+@302=~Tiere beschwören II~
+@303=~Tiere beschwören II
+
+Grad: 2
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender zwei Schreckensleoparden herbei. Diese sind stärkere Varianten ihrer normalen Verwandten. Die Tiere erscheinen innerhalb der Reichweite des Zaubers und unterstützen den Anwender, soweit es ihnen möglich ist, bis die Wirkungsdauer endet oder sie getötet werden.
+
+
+SCHRECKENSLEOPARD (Stufe 8):
+
+Gesinnung: Neutral
+Stärke: 19
+Geschicklichkeit: 15
+Konstitution: 17
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Trefferpunkte: 88
+Schaden: 1W8 +8 (Stich, Klauen & Biss +1)
+ETW0: 10
+Angriffe/Runde: 1
+Rüstungsklasse: 5
+Rettungswürfe: 10/12/11/12/13~
+
+@304=~Tiere beschwören III~
+@305=~Tiere beschwören III
+
+Grad: 3
+Schule: Beschwörung
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
+
+Durch diesen Zauber ruft der Anwender einen Schreckensbär herbei. Dieser ist eine stärkere Variante seiner normalen Verwandten. Das Tier erscheint innerhalb der Reichweite des Zaubers und unterstützt den Anwender, soweit es ihm möglich ist, bis die Wirkungsdauer endet oder es getötet wird.
+
+
+SCHRECKENSBÄR (Stufe 12):
+
+Gesinnung: Neutral
+Stärke: 21
+Geschicklichkeit: 13
+Konstitution: 19
+Intelligenz: 6
+Weisheit: 12
+Charisma: 10
+
+Trefferpunkte: 146
+Schaden: 2W4 +11 (Wucht, Klauen & Biss +1)
+ETW0: 5
+Angriffe/Runde: 2
+Rüstungsklasse: 3
+Rettungswürfe: 7/9/8/8/10~

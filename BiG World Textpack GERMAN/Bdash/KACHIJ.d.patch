@@ -1,0 +1,23 @@
+--- Bdash\ThirdP\dlg\KACHIJ.d	Sat Dec 19 23:37:10 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\KACHIJ.d	Wed May 04 07:21:19 2016
+@@ -1,16 +1,16 @@
+ BEGIN ~KACHIJ~
+ 
+ IF ~~ THEN BEGIN KeldR0
+-  SAY ~Wait a minute! The ship is ours to take anywhere, right? <CHARNAME>, can we go to Kara-Tur now?~
+-  IF ~~ THEN REPLY ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~ EXTERN ~PPSAEM~ KR7
++  SAY @0
++  IF ~~ THEN REPLY @1 EXTERN ~PPSAEM~ KR7
+ END
+ 
+ IF ~~ THEN BEGIN KeldR1
+-  SAY ~Or we will see Kara-Turian shores and prove that Yoshimo is innocent and restore peace between our families. I agree with you, <CHARNAME>, let the fate decide! Cast the spell captain Havarian!~
++  SAY @2
+   IF ~~ THEN EXTERN ~PPSAEM~ KR9
+ END
+ 
+ IF ~~ THEN BEGIN KeldR2
+-  SAY ~Good luck to you, <CHARNAME>. Farewell.~
++  SAY @3
+   IF ~~ THEN EXTERN ~PPSAEM~ KR10
+ END

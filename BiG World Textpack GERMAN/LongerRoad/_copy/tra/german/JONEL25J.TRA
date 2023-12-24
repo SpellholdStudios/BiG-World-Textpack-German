@@ -1,0 +1,83 @@
+@0 = ~Haltet mich nicht für einen Dummkopf, <CHARNAME>, ich habe die Mittel, um unserem Abkommen Geltung zu verschaffen. Und Ihr werdet es bedauern, wenn Ihr versucht, mich um meinen Gewinn zu betrügen.~
+@1 = ~Hört auf zu plappern, Kind. <CHARNAME>, Ihr solltet sie wirklich im Auge behalten. Eure "kleine Imoen" erschien mir immer als ein leicht erregbarer Typ.~
+@2 = ~<CHARNAME>, Euer flatternder Plagegeist riskiert Leib und Leben, wenn er mir noch weiter auf die Nerven geht. Wenn Ihr mich weiterhin fortsendet, um ihn einzufangen, werdet Ihr bald einen ausgestopfen Imp als Butler haben.~ [IRENIC92]
+@3 = ~Armseliger Dummkopf! Ein Magier, der sich sein Zauberbuch stehlen ließ, verdient nichts weiter als Geringschätzung.~
+@4 = ~Also heutzutage können die schönen und stolzen "Leute" sich nicht einmal um sich selbst kümmern? Ich wusste, dass die Rasse im Laufe der Jahrhunderte stetig zerfallen ist, aber das ist der Tiefpunkt, auf den ich sie sinken sehen habe.~
+@5 = ~Wäre ich an Eurer Stelle, <CHARNAME>, würde ich sicher beschließen, ihr Elend ein für allemal zu beenden. Es gibt eine Grenze, unter die zu fallen man sich nicht erlauben sollte.~
+@6 = ~Dieses erbärmliche Elend kennt keine Grenzen. Nun bin ich wirklich angewiedert, dass ich sie jemals als meine Verwandtschaft bezeichnete.~
+@7 = ~Und Ihr verdient es, weil Ihr erbärmliche Schwächlinge der verachtetsten Art geworden seid! Man sollte sich nie auf irgendjemanden außer sich selbst verlassen.~
+@8 = ~Wagt es nicht, die Angelegenheiten von besseren Leuten als Ihr es seid mit Eurer unflätigen Zunge zu besudeln, jämmerlicher Dummkopf! Die Elfen und ihre Wege und die Macht des Baums des Lebens sind nichts, das zu begreifen Ihr nicht einmal anstreben könnt.~
+@9 = ~Ah, die unübertroffene Gewandtheit der Zwerge - wie kann man das vergessen? <CHARNAME>, manchmal bin ich von Eurer Geduld überrascht. Sicher könnt Ihr diesen Packen aus rostigem Eisen und Haaren an seinen richtigen Platz stellen.~
+@10 = ~Nicht, dass ich es bemerkt hätte. Nein, <CHARNAME>, Ihr wart so beredt wie immer.~
+@11 = ~Ich wage zu sagen, es waren die "ganzen" Reiche, nicht nur eine schäbige Hälfte. Aber macht ruhig weiter, Mensch, es macht mir Spaß, Euren Adamsapfel zu beobachten, wie er diese höchst amüsanten hüpfenden Bewegungen macht.~ [IRENIC92]
+@12 = ~Genug! Ich werde nicht länger dem Schnattern von unfähigen Barden und ungezogenen Gotteskindern zuhören, die kaum ihren Windeln entwachsen sind. Barde, Ihr mögt vielleicht die Grundlagen Eures Handwerks erlernt haben, aber um Eure Spuren in der Geschichte der Reiche zu hinterlassen ist mehr nötig, als nur der totale Mangel an Scham und der unablässige Wunsch, berühmt zu sein. In der Tat sind harte Arbeit und *Talent* nötig, an dem es Euch trotz Eurer bekundeten Begeisterung ernstlich mangelt.~ [DPJON136]
+@13 = ~<CHARNAME>, ungeachtet des Zustandes unserer gegenwärtigen Verbindung möchte ich Euch gegenüber eine Warnung aussprechen. Es ist schließlich in meinem Interesse, Euch am Leben zu erhalten... zu diesem Zeitpunkt. Ich vermute, dass die gnädige Herrin Melissan ihre eigene Absichten hat und sie könnten anders sein als die, ein selbstloser Retter Eurer kriegführenden Brüder zu sein.~ [DPJON159]
+@14 = ~Ihr seid misstrauisch gegenüber Melissan, aber warum? Die Dame zeigte uns nichts als Güte. Lasst das, Irenicus. Es spielt sich alles in Euren verdrehten Gedanken ab.~
+@15 = ~Ich würde eher meinen Hals riskieren, indem ich ihren bizarren Anweisungen folge, als auf Eure Lügen zu hören!~
+@16 = ~Ich sah Eure Augen unter der Maske flackern, während sie sprach und war neugierig, was Ihr sagen würdet. Ich stimme zu, dass man ihr nicht trauen kann. Aber die Tatsache ist die, Irenicus, dass ich Euch noch weniger traue.~
+@17 = ~Warum, danke, dass Ihr hin und wieder aufrichtig seid, Irenicus. Eigentlich traue ich Melissan auch nicht. Leider haben wir keine andere Wahl als ihrem zweifelhaften Rat zu folgen und zu hoffen, dass es sich zum Besseren wendet.~
+@18 = ~<CHARNAME>, Ihr zeigt gleichermaßen Frechheit und Dummheit, ganz wie ich es von einem egozentrischen Narren wie Euch erwartete. Wie Ihr wollt! Ich werde Euch nicht weiter mit Ratschlägen behelligen, koste es was es wolle.~ ~<CHARNAME>, Ihr zeigt gleichermaßen Frechheit und Dummheit, ganz wie ich es von einer egozentrischen Närrin wie Euch erwartete. Wie Ihr wollt! Ich werde Euch nicht weiter mit Ratschlägen behelligen, koste es was es wolle.~
+@19 = ~Gotteskind, Ihr müsst heute etwas Falsches gegessen haben, weil ich keine vernünftige Rechtfertigung für Euren plötzlichen Anfall von gesunden Menschenverstand finden kann. Mir zu vertrauen würde Euch nichts weiter als meine Geringschätzung einbringen, aber Melissan zu vertrauen könnte sich als Euer letzter törichter Entschluss auf dieser Ebene erweisen.~
+@20 = ~Ich habe von der Feuerriesenbrut gehört, die von einer bhaalschen Hexe aufgezogen wurde, die ihn aber dann als Seelenspender entlassen hat. Yaga-Shura soll sich Gerüchten zufolge mit urzeitlicher Hexerei befassen, was nicht überraschend ist für jemanden mit seiner Herkunft - abstammend von elementaren Blut und aufgezogen von einem alten Weib. Solch ein primitiver Gebrauch des Gewebes widert mich zutiefst an, jedoch kann man ihn sich zum gefährlichen Feind machen. Seid Ihr sicher, dass Ihr ihn verärgern wollt?~
+@21 = ~Was habe ich für eine andere Wahl?~
+@22 = ~Ich werde mich früher oder später mit ihm befassen müssen.~
+@23 = ~Eine bewundernswerte Entschlossenheit Eurerseits. Aber ich vermute, einen Feuerriesen in der freien Wildbahn zu jagen könnte sich als besserer Sport erweisen als Feuerbällen in dieser heruntergekommenen Stadt auszuweichen.~ [IRENIC85] 
+@24 = ~Ich gebe zu, dass Euer erbärmlicher Trick, von Ebene zu Ebenen zu springen, Eindruck schinden kann... auf einen Anfänger in der Kunst. Jedoch, habt Ihr irgendeine Ahnung davon, wo Ihr uns dieses mal hingebracht habt, Gotteskind?~
+@25 = ~Ich habe keine Ahnung, Irenicus, obwohl ich annehme, dass es irgendwo in der Nähe von Saradush ist.~
+@26 = ~Ich fordern Euch heraus, diesen kleinen "Trick" selbst zu wiederholen, Irenicus! Und nebenbei bemerkt, ja, ich glaube, dass wir noch nah genug an den Stadtmauern von Saradush sind.~
+@27 = ~"Irgendwo in der Nähe", reicht nicht, Bhaalbrut. Lasst mich zur Abwechslung etwas intelligenteres versuchen.~
+@28 = ~Ah. Wir sind tatsächlich noch in Tethyr... und Saradush ist einen halben Tagesmarsch von unserem Standpunkt entfernt. Nun sagt mir, <CHARNAME>, seid Ihr immer noch entschlossen, Melissans verrückten Plan fortzusetzen? Werdet Ihr Euch auf die sinnlose Suche nach dem Geheimnis des Feuerriesen machen?~
+@29 = ~Was kann ich sonst im Moment tun?~
+@30 = ~<CHARNAME>, ich denke, dass Ihr eine Basis für Eure Einsätze in Tethyr braucht. Selbst wenn Ihr Recht habt und Euer Schicksal an die Belagerung von Saradush gebunden ist, wisst Ihr sehr gut, dass diese erbärmliche Stadt nicht fortbestehen wird, und was bitte werdet Ihr nach ihrem Fall tun?~
+@31 = ~Ich werde alles tun, was ich tun kann, um Saradush zu retten! Eure pessimistischen Reden haben keinen Einfluss auf mich!~
+@32 = ~Ich bin nicht sicher, Irenicus. Was schlagt Ihr vor?~
+@33 = ~Zuerst müsstet Ihr natürlich zu ihrer dummen Aufgabe bereit sein, das Schloss von einem unbekannten "Übel" zu reinigen, das vermutlich darin lauert. Bis jetzt glaube ich, dass Abenteuer dieser Art eine Spezialität von Euch sind. Ihr würdet den gegenwärtigen Bewohner im Nu vertreiben und die Festung für Eure Belange zunutze machen.~
+@34 = ~Ich denke, dass Ihr vergessen habt, eine "unwichtige" Tatsache zu erwähnen, Irenicus. Nämlich, dass die Wachende Festung ein Gefängnis unbekannten Grauens ist, das von keinem anderen als Helm selbst versiegelt wurde. Ich kenne den Ort sehr gut... aber selbst ich war außer Stande, die Aufgabe zu vollenden, sie von ihrem Makel zu reinigen, der in ihren Wänden spukt.~
+@35 = ~Ich denke, dass Ihr vergessen habt, eine "unwichtige" Tatsache zu erwähnen, Irenicus. Nämlich, dass die Wachende Festung keinem anderen als Demogorgon selbst, dem Prinz der Dämonen, als Gefängnis dient!~
+@36 = ~Ich denke, dass Ihr vergessen habt, eine "unwichtige" Tatsache zu erwähnen, Irenicus. Nämlich, dass die Wachende Festung keinem anderen als Demogorgon selbst, dem Prinz der Dämonen, als Gefängnis dient! Das heißt, bis ich ihn besiegte und ihn in den Abyss zurückschickte.~
+@37 = ~Das klingt ziemlich faszinierend. Vielleicht sollte ich diese Möglichkeit zu gegebener Zeit in Betracht ziehen.~
+@38 = ~Ich war einst dort... wagte es aus irgendeinem Grund aber nie, hineinzugehen.~
+@39 = ~Tatsächlich?! Ihr seid eine außerordentlich eindrucksvolle Plage, Gotteskind, und ich bin gezwungen, noch eine weitere Niederlage einzugestehen. Ich veralberte Euch nur, Bhaalbrut, in Hoffnung, dass Ihr nie von der Festung gehört hättet. Aber Ihr solltet mir mehr von Eurer Erfahrung mit dem Dämonenprinzen erzählen, weil ich neugierig bin, die Details zu hören. Offen gestanden bin ich höchst erleichtert, dass es "nur" Demogorgon war, den sie dort bewachen.~
+@40 = ~Eure Bosheit kennt keine Grenzen, Irenicus, aber ich bin froh, dass ich Euch wieder mal eine Lektion erteilen konnte. Ich bin sicher, dass Euer "Streich" dazu gedacht war, mich in die Falle zu locken!~
+@41 = ~Irgendwie glaubte ich den Teil mit dem "Scherz" nicht. Ihr wolltet mir eine Falle stellen, Irenicus, und ich bin froh, dass ich Euren boshaften Plan vereiteln konnte.~
+@42 = ~Glaubt, was Ihr wollt, Gotteskind, ich habe nicht vor, zu versuchen, Euch von meiner "Tugend" zu überzeugen. Wenn Ihr im Stande wäret, Demogorgon selbst zu besiegen, könnte Euch nichts aufhalten, den Thron Eures Vaters mit oder ohne meine Hilfe zu ergreifen. Ihr *seid* eine ernstzunehmende Macht, aber nicht einmal Ihr könnt mein Wesen ändern und mich davon abhalten, zu versuchen, Euer Band zu brechen. Und diese Tatsache ist vielleicht mein letzter Trost in meiner Notlage.~
+@43 = ~Ich bin erfreut, dass es auf dieser Ebene noch immer eine Herausforderung gibt, die Eurer Aufmerksamkeit würdig ist, Gotteskind. Ich schlage vor, dass Ihr der Wachenden Festung einen Besuch abstattet, bevor es zu spät ist.~
+@44 = ~Und da wir bei dem Thema sind, ich bin sicher, dass das, was auch immer darin auf uns lauert, unserer gebündelten Kraft nicht gewachsen wäre. Sobald Ihr Euch jedoch in der Festung niedergelassen habt, solltet Ihr daran denken, Euren Rivalen ausfindig zu machen und zu beseitigen, Bhaalbrut, bevor er dasselbe mit Euch macht.~
+@45 = ~Ich glaube, dass wir schließlich die Wachende Festung erreicht haben. Also, was sagt ihr, <CHARNAME>?~
+@46 = ~Tatsächlich ein eindrucksvolles Gebäude! Aber, Irenicus, Ihr müsst zugeben - dieser Ort ist nahezu eine Ruine.~
+@47 = ~Hmm, ich kann nicht sagen, dass die Festung von außen viel Eindruck macht. Tatsächlich sieht sie wie der faulende Zahn eines Dämons aus!~
+@48 = ~Definitiv nicht Kerzenburg. Seid Ihr nicht ganz klar im Kopf, Irenicus? Was ist so besonders an einem in eine Klippe gebauten verwitterten Turm, der sich über das Wasser abhebt?~
+@49 = ~L.d.V. sind merkwürdige Initialien. <CHARNAME>, würde es Euch etwas ausmachen, wenn ich einen näheren Blick auf diese... Übung in chromatischer Geometrie werfe?~ [DPJON157]
+@50 = ~Was für eine plumpe Entschuldigung für eine "Lösung" dieses Rätsels! Jetzt ist der Deva tot, und sein Geheimnis ist mit ihm gestorben. Ihr habt es vermasselt, Gotteskind, wirklich schwer vermasselt. Ich hoffe aufrichtig, dass Ihr nicht dasselbe mit meinem Gebot für die Seele einer Bhaalbrut machen werdet!~
+@51 = ~Eine fehlgeschlagene Aufgabe
+
+Beim Durchqueren der Wachenden Festung traf ich einen verletzten Deva namens Ybdiel, der mich bat, ihm zu helfen. Ich entschied mich dafür, das nervtötende Himmlische stattdessen zu töten und Irenicus beschuldigte mich, die Aufgabe vermasselt zu haben. Naja, man kann nicht jeden zufriedenstellen...~
+@52 = ~Was für eine plumpe Entschuldigung für eine "Lösung" dieses Rätsels! Jetzt ist der Deva tot, und sein Geheimnis ist mit ihm gestorben. Ihr habt es vermasselt, Gotteskind, wirklich schwer vermasselt. Ich hoffe aufrichtig, dass Ihr nicht dasselbe mit meinem Gebot für die Seele einer Bhaalbrut machen werdet!~
+@53 = ~Eine fehlgeschlagene Aufgabe
+
+Ich konnte keine Zeit erübrigen, dem Deva Ybdiel zu helfen. Der Deva starb, und Irenicus beschuldigte mich, die Aufgabe vermasselt zu haben. Naja, man kann nicht jeden zufriedenstellen...~
+@54 = ~Eine fehlgeschlagene Aufgabe
+
+Ich konnte die entsprechenden Gegenstände, um den Deva Ybdiel zu retten, nicht rechtzeitig ausfindig machen. Irenicus beschuldigte mich, die Aufgabe vermasselt zu haben. Naja, man kann nicht jeden zufriedenstellen...~
+@55 = ~Was für eine plumpe Entschuldigung für eine "Lösung" dieses Rätsels! Jetzt ist der Dämon tot und der Funken ist für uns unerreichbar. Ihr habt es vermasselt, Gotteskind, wirklich schwer vermasselt. Ich hoffe aufrichtig, dass Ihr nicht dasselbe mit meinem Gebot für die Seele einer Bhaalbrut machen werdet!~
+@56 = ~Eine fehlgeschlagene Aufgabe
+
+Ich entschied sich dafür, den Bebilith Abaia zu töten, der den Funken des Deva verschluckt hatte. Seltsamerweise verschwand der Deva ebenso, nachdem ich den Dämon beseitigt hatte, und Irenicus beschuldigte mich, die Aufgabe vermasselt zu haben. Naja, man kann nicht jeden zufriedenstellen...~
+@57 = ~Eine fehlgeschlagene Aufgabe
+
+Ich konnte den Bebilith Abaia, der den Funken des Deva verschluckt hatte, nicht beschützen, und nachdem er starb, verschwand der Deva ebenso. Irenicus beschuldigte mich, die Aufgabe vermasselt zu haben. Naja, man kann nicht jeden zufriedenstellen...~
+@58 = ~Was für eine plumpe Entschuldigung für eine "Lösung" dieses Rätsels! Jetzt sind sowohl der Deva als auch der Dämon tot, und der Funken ist zu uns unerreichbar. Ihr habt es vermasselt, Gotteskind, wirklich schwer vermasselt. Ich hoffe aufrichtig, dass Ihr nicht dasselbe mit meinem Gebot für die Seele einer Bhaalbrut machen werdet!~
+@59 = ~Nun <CHARNAME>, wie habt Ihr Euch entschieden? Werdet Ihr auf die Bitte Eures selbsternannten "Beschützers" hören und geradewegs in diese neue Falle laufen oder würdet Ihr lieber alternative Wege suchen?~ [DPJON103]
+@60 = ~Und was für andere Möglichkeiten habe ich?~
+@61 = ~Lasst es sein, Irenicus. Die letzte Person, deren Rat gefragt ist, wäret Ihr!~
+@62 = ~Wie auch immer Ihr entscheidet, ich werde Euren Anweisungen folgen, Gotteskind.~
+@63 = ~Wie auch immer Ihr entscheidet, ich werde Euren Anweisungen folgen, Gotteskind. Aber denkt daran, dass Ihr noch eine Alternative habt. Übrigens denke ich, dass sich sogar die Wachende Festung mit ihrem hypothetischen Ungeheuer als ein sicherer Ort als dieses "Amkethran" erweisen könnte.~
+@64 = ~Ihr jagt niemanden Angst ein, Ihr großer Fiesling! Doch bei diesem müsst Ihr vorsichtig sein... Ich fresse meinen eigenen Schwanz, wenn Euch seine Stimme nicht vertraut klingt.~
+@65 = ~Hoppla! Das hat mir Angst gemacht.~ [BOTSM01]
+@66 = ~Das einem alten Zauberer in Not zu sagen war sehr grausam, fremder Mann. Aber was sagt Ihr, <CHARNAME>, werdet Ihr mir nicht helfen?~
+@67 = ~Was Euer Begleiter sagte, <LADYLORD>, war brutal und unangebracht. Aber ich versichere Euch, dass die Leute Eure Güte nie vergessen werden!~
+@68 = ~Ihr könnt Melissans Anweisungen bis ganz an die Tore Eures Schicksals folgen, <CHARNAME>, oder Ihr könnt etwas versuchen, dass sie am wenigsten von Euch erwarten würden.~
+@69 = ~Keine ganze Tagesreise westlich von diesem Standpunkt entfernt liegt eine Festung, deren Verteidigungsqualitäten, glaube ich, sowohl jene des berüchtigten Schlosses Spulzeer als auch Eurer früheren Heimat, der Festungsbibliothek von Kerzenburg, überschreiten.~
+@70 = ~Der Ort wird Wachende Festung genannt und wird von einer Sekte halb verrückter Wahnsinniger bewacht, die sich selbst als "Ritterorden des Wachsamen" bezeichnen. Ich reiste vor langer Zeit einmal dorthin in einer Angelegenheit, die für Euch ohne Belang ist. Ihr könnt ihre Verteidigung leicht überwinden, wenn Ihr wollt, und die Festung selbst erobern.~
+@71 = ~Der Erste Eindruck kann täuschen, Gotteskind, und wenn Ihr näher hinseht, werdet Ihr bemerken, dass die Wände mit magischen Zeichen versehen sind und unzerstörbar durch irgendwelche materiellen Mittel. Diese Festung ist eine Falle, schlau dafür geschaffen, seine Gefangenen drinnen und unerwünschte Gäste draußen zu halten.~
+@72 = ~Seltsamerweise warten die Mitglieder der elenden Helmitensekte vor den Toren. <CHARNAME>, Ihr werdet weise handeln müssen, um Zugang zum Inneren zu erlangen.~

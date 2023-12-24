@@ -1,0 +1,10 @@
+--- NeJ3\baf\UDTRAPA.baf	Sat Dec 09 22:33:06 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\UDTRAPA.baf	Wed Apr 10 10:34:10 2019
+@@ -3,6 +3,6 @@
+ 	Entered([ANYTHING])
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~You hear a loud click.~)
++		DisplayString(Myself,@0)
+ 		ReallyForceSpell(LastTrigger,TRAP_LIGHTNING_BOLT)
+ END

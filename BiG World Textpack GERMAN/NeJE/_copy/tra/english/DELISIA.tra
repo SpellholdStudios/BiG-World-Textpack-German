@@ -1,0 +1,65 @@
+@0    = ~This woman has the skin like the surface of the lake, light green hair, and delicate features, like that of an elf.  At your approach, she begins to sing a soft, flowing song, like the sound of a great undersea current - but you have no idea *why* the song reminds you of that.  In a moment, the song... and the feeling... passes, and the woman looks at you hopefully.~
+@1    = ~That song -- are you the woman that Jhonen sees in his dreams?~
+@2    = ~Perhaps I can answer your song with another, my lady...~
+@3    = ~Blade of Aihonen.
+
+We encountered a strange blue-skinned woman upon the shores of Kuldahar - she spoke in song, and she seemed pained that we couldn't understand her.  There must be something drawing her to Easthaven, but we know not what.~
+@4    = ~I'm sorry, my lady.  We have not yet found the one you seek.~
+@5    = ~As one elf to another, I ask that you speak in the tongue of those that walk upon the land  - what has brought you from your home in the lake, sister?~
+@6    = ~Who in the hells are you?  What are you doing here?~
+@7    = ~Uh... I'm sorry, I don't understand you.~
+@8    = ~I'll be on my way.  Farewell.~
+@9    = ~The woman looks pained, but she does not respond.~
+@10   = ~Begone from here, spirit!  If you are seen on these shores again, plaguing the townsfolk, I'll see to it you're gutted like a fish!  Now go!~
+@11   = ~Won't talk, eh?  Then perhaps some steel would teach you to speak up when your betters address you.~
+@12   = ~Farewell, then.  You'd best conceal yourself if you don't want the other townsfolk to see you.~
+@13   = ~The woman looks startled, then suddenly vanishes, her body streaming away to water.~
+@14   = ~As you sing, the woman lends her voice to yours, creating an interweaving melody.  To your surprise, you find you *understand* her song - and what has brought her here.~
+@15   = ~You're looking for someone... one of the fishermen, correct?  You speak to him in dreams, but you are not allowed to approach him in the flesh.~
+@16   = ~She nods, relieved, then looks at you imploringly.~
+@17   = ~I'll see if I can go find the one you seek, lady.  I'll return when I find him.~
+@18   = ~::Jho-nyn?::~
+@19   = ~Yes, Jhonen - you *are* the woman from his dreams, aren't you?~
+@20   = ~::Yes - yes!::  ::Have your eyes fallen upon him?::  ::Do you know where it is he walks?::~
+@21   = ~Yes, I spoke to him recently.  He sees you in his dreams, but he doesn't know what you want of him.  What *do* you want?~
+@22   = ~::I am of the calling Elisia-of-the-Sky's-Mirror.::  ::My heart is Jho-nyn's, but he cannot see me in the flesh, or else I will become as the currents upon the shore.::  ::A gift do I have for him, from one of his blood long ago, who also held my heart, but not as Jho-nyn holds it now.::~
+@23   = ~Gift?  What do you mean?~
+@24   = ~::Many reflections of the moon have come and gone since the day in which the one of the blood of Jho-nyn fell beneath the waters of the lake.::  ::He fought the last of the great white serpents that swam upon the northern winds, the queen mother Icasaracht, who now lies without life on the bed of the lake.::  ::A promise was made, and I must honor it.::~
+@25   = ~What promise?~
+@26   = ~::The one from whom Jho-nyn comes asked I see his blade returned to those of his blood if the queen serpent Icasaracht drank his life.::  ::She did, but not before he dealt her a mortal blow.::  ::From the depths of the lake, I have brought the fire-shaped steel that ended her life.::  ::It is intended that it be belonging of Jho-nyn now.::  ~
+@27   = ~So you wish to return the sword of Jhonen's ancestor to him, but you cannot because the sight of you will make you stream away to water?~
+@28   = ~::It is one of the laws in the lands beneath the lake's mirror.::  ::Will you give this to Jho-nyn and tell him my heart?::  ::My songs are his, my heart is his.::~
+@29   = ~Forgive me, Elisia-of-the-Sky's-Mirror, but there are *many* tales of gifts that are more than they appear, perhaps even dangerous.~
+@30   = ~I will see to it this blade is returned to Jhonen, Elisia.~
+@31   = ~::Here, then, I entrust this to your keeping until your path crosses with that of Jho-nyn.::  ::Return when you have given it to him.::  ::I must know if it has found its way back to its home.::~
+@32   = ~I'll return when I've given it to Jhonen, Elisia.  Farewell.~
+@33   = ~Blade of Aihonen.
+
+We discovered that the blue-skinned woman by the lake is named Elisia, and she is responsible for the dreams plaguing Jhonen.  She promised one of his ancestors who lies dead beneath the lake that she would return his blade to Jhonen, but because of the laws of her community, she cannot allow Jhonen to see her.  We agreed to take the blade to Jhonen, then return and tell her when we've done what she asked.~
+@34   = ~::I mean no harm upon Jho-nyn.::~
+@35   = ~Ah, I did not ask about your intentions, I asked about the *gift* -- you've said nothing of what it may do.  As for no harm upon Jhonen, well, your dreams are already hurting him, whether you mean them to or not.~
+@36   = ~::The dreams were the only way I could speak to him::  ::The blade is for him.::  ::I only wish him to dwell in the waves beside me.::  ~
+@37   = ~But humans can't *live* beneath the waves, Elisia.  For your kind, you are obviously headstrong to appear upon the shores here where anyone may see you.  That speaks to me a desperate heart.  And a desperate heart does dangerous things.~
+@38   = ~::There is no truth I can offer in these broken words that will show you that I nor this gift mean Jho-nyn harm.::~
+@39   = ~Words may not suffice to show me your intentions, but a song might.  Teach me your song, Elisia, and I shall see to it the blade you hold is carried safely to its rightful owner.~
+@40   = ~Words will not suffice, Elisia - they may carry lies and truths equally well, depending on the skill of the speaker.  I require a physical token of your intentions.~
+@41   = ~She sings, and you *feel* the words rather than hear them.  Images of the lake, the currents, and Elisia's watch over the skeletons of all those that lie beneath the waves, dragon and human, fill your vision.  When her song ends, you feel yourself stunned for a moment.  She is trustworthy - and she carries nothing but love in her heart for Jhonen.~
+@42   = ~I will see to it this blade is returned to Jhonen, Elisia.  I think it will make a grand tale, indeed.~
+@43   = ~Pah!  That song is but a song, and it speaks nothing of your heart.  Were you not *listening* when I said I needed proof?  I require a physical token of your good intentions.~
+@44   = ~She looks pained, then nods.  You watch as she brings her palms together, then apart, gemstones falling from her hands like droplets of water.~
+@45   = ~These will be sufficient, I think.  I will see to it this blade is returned to Jhonen, Elisia.  I think it will make a grand tale, indeed.~
+@46   = ~::Have you found Jho-nyn?::~
+@47   = ~Yes, and I returned the blade to him.~
+@48   = ~Blade of Aihonen.
+
+We returned and told Elisia we had delivered the blade to Jhonen.  She was pleased, and she rewarded us for our efforts.~
+@49   = ~Er, yes, I have.  He was very happy to get that broken sword you dredged up, and tells you that you should reward me if you can for my efforts.  Oh, and he said, don't ever send him any more dreams or speak to him - he wants to be left alone, to, uh, enjoy the blade.~
+@50   = ~Blade of Aihonen.
+
+We returned and told that foolish sea spirit Elisia that we had "delivered" the blade to Jhonen.  She swallowed the lie like a fish swallows bait, and she even *rewarded* us for our efforts.  We can only pray that other creatures we meet in the North are as gullible.~
+@51   = ~Not yet, Elisia.  I'm still searching for him.  I'll return when I've found him.~
+@52   = ~::You have my gratitude.::  ::Please take this shaped piece of sand which I have taken from the bed of the lake.::  ::I have heard that those that walk upon land value such things.::~
+@53   = ~Thank you, Elisia.  Farewell.~
+@54   = ~Excellent, excellent... thank you.  Farewell.~
+@55   = ~::Do not worry for me gentle ranger.::  ::I am Elisia-of-the-Sky's-Mirror, and I was born to reflect the colour of the sky.::   ::My skin has nothing to do with the coldness of the air, nor would it become a rosy pink if you wrapped me in a hundred cloaks.::~
+@56   = ~::Thank you Minsc and thank your furry friend Boo for the offer of his coat and for saying Elisia is beautiful.::  ::It has been a long time since she has heard that she is beautiful.::  ::Now, if only Jhonen could see her and think her beautiful too.::~

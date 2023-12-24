@@ -1,0 +1,196 @@
+--- NeJE\dlg\Guthic.D	Sun Dec 04 01:57:01 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Guthic.D	Tue Apr 09 19:36:08 2019
+@@ -1,30 +1,30 @@
+ BEGIN ~GUTHIC~
+ 
+ IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN BIGuthic1D100
+-  SAY ~Finally you have arrived. By Krognan's bony blade, it took a long time to track you down.~
++  SAY @0
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D105
+-	SAY ~Hand Erevain over, or suffer the same fate as these pathetic townsfolk. We shall collect our bounty one way or another.~
+-		IF ~~ THEN REPLY ~Why do you have such an interest in Erevain?~ GOTO BIGuthic1D290
+-		IF ~~ THEN REPLY ~What is this bounty you speak of?~ GOTO BIGuthic1D280
+-		IF ~~ THEN REPLY ~Who placed the bounty?~ GOTO BIGuthic1D270
+-		IF ~~ THEN REPLY ~Why have you attacked this town?~ GOTO BIGuthic1D260
+-		IF ~~ THEN REPLY ~Who is Krognan?~ GOTO BIGuthic1D250
+-		IF ~~ THEN REPLY ~I'll make no deals with murderers.~ GOTO BIGuthic1D160
+-		IF ~NumInPartyGT(1)~ THEN REPLY ~You are no match for us. Touch one hair of his and you join your maker.~ GOTO BIGuthic1D160
+-		IF ~NumInPartyLT(2)~ THEN REPLY ~You are no match for me. Touch one hair of his and you join your maker.~ GOTO BIGuthic1D160
+-		IF ~NumInPartyGT(1)~ THEN REPLY ~We have no wish to fight. Leave us be.~ GOTO BIGuthic1D240
+-		IF ~NumInPartyLT(2)~ THEN REPLY ~I have no wish to fight. Leave me be.~ GOTO BIGuthic1D240
+-		IF ~NumInPartyGT(1)~ THEN REPLY ~Please don't hurt us. I beg you.~ GOTO BIGuthic1D230
+-		IF ~NumInPartyLT(2)~ THEN REPLY ~Please don't hurt me. I beg you~ GOTO BIGuthic1D230
+-		IF ~CheckStatGT(Player1, 8, CHR) ~ THEN REPLY ~Surely, there is a way for us to come to some other arrangement.~ GOTO BIGuthic1D150
+-		IF ~~ THEN REPLY ~...~ GOTO BIGuthic1D110
++	SAY @1
++		IF ~~ THEN REPLY @2 GOTO BIGuthic1D290
++		IF ~~ THEN REPLY @3 GOTO BIGuthic1D280
++		IF ~~ THEN REPLY @4 GOTO BIGuthic1D270
++		IF ~~ THEN REPLY @5 GOTO BIGuthic1D260
++		IF ~~ THEN REPLY @6 GOTO BIGuthic1D250
++		IF ~~ THEN REPLY @7 GOTO BIGuthic1D160
++		IF ~NumInPartyGT(1)~ THEN REPLY @8 GOTO BIGuthic1D160
++		IF ~NumInPartyLT(2)~ THEN REPLY @9 GOTO BIGuthic1D160
++		IF ~NumInPartyGT(1)~ THEN REPLY @10 GOTO BIGuthic1D240
++		IF ~NumInPartyLT(2)~ THEN REPLY @11 GOTO BIGuthic1D240
++		IF ~NumInPartyGT(1)~ THEN REPLY @12 GOTO BIGuthic1D230
++		IF ~NumInPartyLT(2)~ THEN REPLY @13 GOTO BIGuthic1D230
++		IF ~CheckStatGT(Player1, 8, CHR) ~ THEN REPLY @14 GOTO BIGuthic1D150
++		IF ~~ THEN REPLY @15 GOTO BIGuthic1D110
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D110
+-	SAY ~No words? Eliminate these fools!~
++	SAY @16
+ 		IF ~~ THEN DO ~SetGlobal("MAP_GROUP_HOSTILE21","MYAREA",1)
+ ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+@@ -35,24 +35,24 @@
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D150
+-	SAY ~An interesting proposal.~ 
++	SAY @17 
+ 		IF ~~ THEN GOTO BIGuthic1D155
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D155
+-	SAY ~If you pay the bounty plus a finder's fee, then Shargaas the Night Lord shall allow you to keep Erevain. 15,000 gold pieces. No less.~
+-		IF ~ PartyGoldGT(14999)~ THEN REPLY ~Very Well. Take the gold and leave Erevain alone.~ GOTO BIGuthic1D220
+-		IF ~ PartyGoldLT(15000)~ THEN REPLY ~(Lie) Very Well. Take the gold and leave Erevain alone.~ GOTO BIGuthic1D210
+-		IF ~~ THEN REPLY ~15,000 is too much. We cannot pay that.~ GOTO BIGuthic1D200
+-		IF ~~ THEN REPLY ~What is this bounty you speak of?~ GOTO BIGuthic1D180
+-		IF ~~ THEN REPLY ~Who placed the bounty?~ GOTO BIGuthic1D190
+-		IF ~~ THEN REPLY ~Who is Shargaas?~ GOTO BIGuthic1D170
+-		IF ~~ THEN REPLY ~Never mind, I'll make no deals with your kind. You shall not have Erevain.~ GOTO BIGuthic1D160
+-		IF ~~ THEN REPLY ~...~ GOTO BIGuthic1D110
++	SAY @18
++		IF ~ PartyGoldGT(14999)~ THEN REPLY @19 GOTO BIGuthic1D220
++		IF ~ PartyGoldLT(15000)~ THEN REPLY @20 GOTO BIGuthic1D210
++		IF ~~ THEN REPLY @21 GOTO BIGuthic1D200
++		IF ~~ THEN REPLY @3 GOTO BIGuthic1D180
++		IF ~~ THEN REPLY @4 GOTO BIGuthic1D190
++		IF ~~ THEN REPLY @22 GOTO BIGuthic1D170
++		IF ~~ THEN REPLY @23 GOTO BIGuthic1D160
++		IF ~~ THEN REPLY @15 GOTO BIGuthic1D110
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D160
+-	SAY ~Fool! Die for the glory of the Night Lord. The corpses of my slain enemies serve me in undeath.~
++	SAY @24
+ 		IF ~True()~ THEN DO ~SetGlobal("MAP_GROUP_HOSTILE21","MYAREA",1)
+ ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+@@ -71,32 +71,32 @@
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D170
+-	SAY ~I shall educate you cretin. Shargaas is the Night Lord. The mighty orc deity of Stealth, Thieves, Darkness, Night, and the Undead. From his sightless caverns he plots and all shall know of his will. So again. Let us finish our discussion.~
++	SAY @25
+ 		IF ~~ THEN GOTO BIGuthic1D155
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D180
+-	SAY ~We have been paid to retrieve Erevain, dead or alive for the bounty placed upon him. In Shargaas's name we shall complete this task. Let us finish our discussion.~
++	SAY @26
+ 		IF ~~ THEN GOTO BIGuthic1D155
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D190
+-	SAY ~The holder of the bounty for Erevain is confidential and shall not be revealed by us. Let us finish our discussion.~
++	SAY @27
+ 		IF ~~ THEN GOTO BIGuthic1D155
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D200
+-	SAY ~Then I shall say it again.~
++	SAY @28
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D210
+-	SAY ~You think you can deceive a follower of the god of thievery?~
++	SAY @29
+ 		IF ~~ THEN GOTO BIGuthic1D160
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D220
+-	SAY ~Excellent. A wise decision. Shargaas, the Night Lord, shall spare your lives for now.~
++	SAY @30
+ 		IF ~~ THEN DO ~ TakePartyGold(15000)
+ ActionOverride("Gauthig",EscapeArea())
+ ActionOverride("Gauthug",EscapeArea())
+@@ -107,44 +107,44 @@
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D230
+-	SAY ~Then meet our demands.~
++	SAY @31
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D240
+-	SAY ~If you desired peace, then you would give us our target.~
++	SAY @32
+ 		IF ~~ THEN GOTO BIGuthic1D160
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D250
+-	SAY ~I shall educate you imbecile. Krognan is a craftsman in the service of Shargaas the Night Lord. His bone weapons and armors are famous. I shall say it again. ~
++	SAY @33
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D260
+-	SAY ~To collect our bounty. We shall do many things. I shall say it again.~
++	SAY @34
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D270
+-	SAY ~We have been paid to retrieve Erevain, dead or alive, for the bounty placed upon him. In Shargaas's name we shall complete this task. I shall say it again.~
++	SAY @35
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D280
+-	SAY ~The holder of the bounty for Erevain is confidential and shall not be revealed by us. I shall say it again.~
++	SAY @36
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ IF ~~ THEN BEGIN BIGuthic1D290
+-	SAY ~We have no interest in Erevain ourselves. We care only for the bounty. I shall say it again.~
++	SAY @37
+ 		IF ~~ THEN GOTO BIGuthic1D105
+ END
+ 
+ APPEND ~IMOENJ~
+ 
+ IF ~~ THEN BEGIN Guthic
+- SAY ~You're not taking him you stinky puntlicker!~
++ SAY @38
+   IF ~True()~ THEN DO ~ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+ ActionOverride("Lodieg",Enemy())
+@@ -159,7 +159,7 @@
+ APPEND ~IMOEN2J~
+ 
+ IF ~~ THEN BEGIN Guthic
+- SAY ~You're not taking him you stinky puntlicker!~
++ SAY @38
+   IF ~True()~ THEN DO ~ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+ ActionOverride("Lodieg",Enemy())
+@@ -174,7 +174,7 @@
+ APPEND ~SHARTJ~
+ 
+ IF ~~ THEN BEGIN Guthic
+- SAY ~Why are we sticking our necks out for this pathetic one? Ughh.~
++ SAY @39
+   IF ~~ THEN DO ~ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+ ActionOverride("Lodieg",Enemy())

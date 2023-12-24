@@ -1,0 +1,11 @@
+--- NeJE\dlg\Wvelda.d	Sat Oct 28 17:07:26 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Wvelda.d	Tue Apr 09 19:37:51 2019
+@@ -1,7 +1,7 @@
+ BEGIN ~WVELDA~
+ 
+ IF ~Global("VP_Necro_Test","GLOBAL",5)~ THEN BEGIN 0
+-  SAY ~I tell you Wvelda, I heard sounds coming from inside the mausoleum. Quickly, you must unlock the door... (*Sounds of scuffing feet and someone fumbling with the lock is heard.*) What's the hell are you doing here!~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Necro_Test","GLOBAL",6)
+ CreateCreatureDoor("TuMageM",[248.536],9)
+ CreateCreatureDoor("TuMageM",[279.560],9)~ EXIT

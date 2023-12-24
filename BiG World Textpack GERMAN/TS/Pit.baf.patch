@@ -1,0 +1,11 @@
+--- TS\baf\Pit.baf	Thu Dec 30 16:04:35 2004
++++ C:\BWP Patchstudio\patched files\TS\baf\Pit.baf	Mon Oct 03 15:42:53 2016
+@@ -28,7 +28,7 @@
+ 	!PartyHasItem("PitRope")
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~You have no method for which to climb down into the pit.  Perhaps some sort of rope would help.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF

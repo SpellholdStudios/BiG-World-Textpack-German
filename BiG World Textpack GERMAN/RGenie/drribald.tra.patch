@@ -1,0 +1,9 @@
+--- RGenie\german\drribald.tra	Wed Oct 11 14:25:44 2006
++++ C:\BWP Patchstudio\patched files\RGenie\german\drribald.tra	Sun Nov 16 03:19:30 2008
+@@ -1,5 +1,5 @@
+ @0    = ~Verkauft Ihr auch noch irgendwelche Gegenstände, die sich nicht in Eurer Auslage befinden?~
+-@1    = ~Ich bin bekannt dafür, dass ich treuen Kunden einen bestimmten Service anbiete. Kauft weiter hier im Abenteurermarkt ein und ich werde Euch möglicherweise gestatten, ihn zu erwerben.~
++@1    = ~Ich bin bekannt dafür, dass ich treuen Kunden einen bestimmten Service anbiete. Kauft weiter hier im Abenteurers Allerlei ein und ich werde Euch möglicherweise gestatten, ihn zu erwerben.~
+ @2    = ~Hmm, Ihr habt Euch als recht regelmäßiger Kunde erwiesen und Ihr seht wie jemand aus, der eine schnelle Reise von überall her in den Reichen zu meinem anständigen Laden zu schätzen wüsste. Wärt Ihr daran interessiert, die Dienste meines Flaschengeistes zu erwerben? Es kostet Euch nur 500 Goldmünzen und dafür könnt Ihr jederzeit zum Abenteurermarkt und wieder zurück teleportiert werden.~
+ @3    = ~Wir sind im Geschäft.~
+ @4    = ~Es tut mir leid, ich habe dafür im Moment leider nicht genug Geld.~

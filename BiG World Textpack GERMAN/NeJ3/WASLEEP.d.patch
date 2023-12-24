@@ -1,0 +1,16 @@
+--- NeJ3\dlg\WASLEEP.d	Thu Feb 22 00:12:20 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\WASLEEP.d	Wed Apr 10 10:25:06 2019
+@@ -1,11 +1,11 @@
+ BEGIN ~WASLEEP~
+ 
+ IF ~RandomNum(2,1)~ THEN BEGIN 0
+-  SAY ~<CHARNAME>, I must ask you not to sully our grounds by camping within the keep. Winthrop will gladly give you a room at a very reasonable price.~
++  SAY @0
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~RandomNum(2,2)~ THEN BEGIN 1
+-  SAY ~Really <CHARNAME>, must you sleep out in the open? Please, go see Winthrop in the inn if you need a place to rest.~
++  SAY @1
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END

@@ -1,0 +1,75 @@
+--- NeJE\dlg\Gaelan.d	Thu Aug 30 02:00:44 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Gaelan.d	Tue Apr 09 19:36:02 2019
+@@ -45,12 +45,12 @@
+ Global("VP_Recognise_Melora","LOCALS",0)
+ InParty("Melora")
+ !Dead("Melora")~ THEN BEGIN NEJ0
+-  SAY ~Well I be jiggered... if it ain’t Melora Tenarien! I thought, on account of the rumpus ye’d caused round here, ye’d be a long ways away by now. Still, tis good ye still has yer head lass. Now, no need to be afeared... me friends ‘ave no interest in yer business... (*turning back to you*)...~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Recognise_Melora","LOCALS",1)~ GOTO NEJ2
+ END
+ 
+ IF ~~ THEN BEGIN NEJ1
+-  SAY ~Well I be jiggered... if it ain’t Melora Tenarien! I thought, on account of the rumpus ye’d caused round here, ye’d be a long ways away by now. Still, tis good ye still has yer head lass. Now, no need to be afeared... me friends ‘ave no interest in yer business... (*turning back to you*)...~
++  SAY @0
+   IF ~~ THEN GOTO 8
+ END
+ 
+@@ -61,7 +61,7 @@
+ END
+ 
+ IF WEIGHT #-1 ~Global("Attacked","LOCALS",1)~ THEN BEGIN N20
+-  SAY ~Ye're more of a fool than I be thinkin', me <LADYLORD>. Learn what happens to fools who double-cross the Shadow Thieves!~
++  SAY @1
+   IF ~~ THEN DO ~AddXPObject(Player1,45000)
+ AddXPObject(Player2,45000)
+ AddXPObject(Player3,45000)
+@@ -77,19 +77,19 @@
+ END
+ 
+ EXTEND_BOTTOM GAELAN 26 27 33
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'll better kill you now and then deal with your friends than to pay such an outrageous sum.~ GOTO N20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @2 GOTO N20
+ END
+ 
+ EXTEND_BOTTOM GAELAN 29
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~'The thing to be done lightly' is to kill you now and then deal with your friends. Prepare to die scum.~ GOTO N20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @3 GOTO N20
+ END
+ 
+ EXTEND_BOTTOM GAELAN 30
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~Oh, you misunderstand the situation. You will help me whether you want it or not. I'll kill you first and then deal with your friends.~ GOTO N20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @4 GOTO N20
+ END
+ 
+ EXTEND_BOTTOM GAELAN 32
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'm tired of this nonsense. I'll better kill you now and then deal with your friends directly.~ GOTO N20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @5 GOTO N20
+ END
+ 
+ REPLACE_STATE_TRIGGER GAELAN 42
+@@ -100,7 +100,7 @@
+ Global("BodiWork","GLOBAL",0)~
+ 
+ EXTEND_BOTTOM GAELAN 42 49 51
+-  IF ~~ THEN REPLY ~I have changed my mind. I'll better kill you now and then deal with your friends than to pay such an outrageous sum. Prepare to die scum.~ GOTO N20
++  IF ~~ THEN REPLY @6 GOTO N20
+ END
+ 
+ REPLACE_STATE_TRIGGER GAELAN 49
+@@ -130,13 +130,13 @@
+ END
+ 
+ EXTEND_BOTTOM GAELAN 86
+-  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY ~I'm not happy with the price and I don't trust anyone of you. I'll better kill you now and then deal with your friends. Prepare to die scum.~ GOTO N20
++  IF ~!Global("ShadowWork","GLOBAL",0)~ THEN REPLY @7 GOTO N20
+ END
+ 
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN LT2_new4
+-  SAY ~This man works for the Shadow Thieves. Were the life of your friend not at stake, I would not tolerate it for a moment.~
++  SAY @8
+   IF ~~ THEN EXIT
+ END
+ END

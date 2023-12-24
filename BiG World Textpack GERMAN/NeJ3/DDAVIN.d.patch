@@ -1,0 +1,550 @@
+--- NeJ3\dlg\DDAVIN.d	Thu Jan 01 23:58:47 2015
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DDAVIN.d	Wed Apr 10 10:24:28 2019
+@@ -2,405 +2,257 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ Global("7004_Slave_Run", "GLOBAL", 0)~ THEN BEGIN 0
+-  SAY ~So the giants have new lackeys.  What is it that you want of me?~
+-  IF ~~ THEN REPLY ~I do not serve the giants.~ GOTO 2
+-  IF ~~ THEN REPLY ~Nothing.  Farewell.~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @2 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)Global("7004_Slave_Run", "GLOBAL", 0)~ THEN BEGIN 1
+-  SAY ~So you return.  What do you want of me?~
+-  IF ~~ THEN REPLY ~I would ask you some questions.~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.~ GOTO 3
+-  IF ~Global("Free_Davin","GLOBAL", 1)~ THEN REPLY ~You asked me to free you from slavery.  I will make an effort to do so, although I foresee this as a difficult task.~ DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ GOTO 10
+-  IF ~Global("Free_Davin","GLOBAL", 2)~ THEN REPLY ~You asked me to free you from slavery.  I will make an effort to do so, although I foresee this as a difficult task.~ DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ GOTO 10
+-  IF ~Global("Free_Davin","GLOBAL", 3)~ THEN REPLY ~I have been working toward earning you your freedom.~ GOTO 19
+-  IF ~Global("Kill_Frost","GLOBAL", 1)~ THEN REPLY ~You asked me to kill the creature that the slaves are being sacrificed to.  I will do it.~ DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ GOTO 21
+-  IF ~Global("Kill_Frost","GLOBAL", 2)~ THEN REPLY ~You asked me to kill the creature that the slaves are being sacrificed to.  I will do it.~ DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ GOTO 21
+-  IF ~Global("Kill_Frost","GLOBAL", 3)~ THEN REPLY ~I have been working toward slaying the beast that the slaves are being sacrificed to.~ GOTO 22
+-  IF ~~ THEN REPLY ~Nothing.  Farewell.~ EXIT
++  SAY @3
++  IF ~~ THEN REPLY @4 UNSOLVED_JOURNAL @5 GOTO 3
++  IF ~Global("Free_Davin","GLOBAL", 1)~ THEN REPLY @6 DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ GOTO 10
++  IF ~Global("Free_Davin","GLOBAL", 2)~ THEN REPLY @6 DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ GOTO 10
++  IF ~Global("Free_Davin","GLOBAL", 3)~ THEN REPLY @7 GOTO 19
++  IF ~Global("Kill_Frost","GLOBAL", 1)~ THEN REPLY @8 DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ GOTO 21
++  IF ~Global("Kill_Frost","GLOBAL", 2)~ THEN REPLY @8 DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ GOTO 21
++  IF ~Global("Kill_Frost","GLOBAL", 3)~ THEN REPLY @9 GOTO 22
++  IF ~~ THEN REPLY @2 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I find that hard to believe... but let us suppose for the moment that it is true.  What is it that you want of me?~
+-  IF ~~ THEN REPLY ~I would ask you some questions.~ GOTO 3
+-  IF ~~ THEN REPLY ~Nothing.  Farewell.~ EXIT
++  SAY @10
++  IF ~~ THEN REPLY @4 GOTO 3
++  IF ~~ THEN REPLY @2 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Then ask them.~
+-  IF ~~ THEN REPLY ~Who are you?~ GOTO 4
+-  IF ~GlobalLT("Kill_Frost", "GLOBAL", 4)~ THEN REPLY ~What are you doing here?~ JOURNAL ~Wyrm’s Tooth.
+-
+-We have found a group of people in the caverns that are held by the frost giants as slaves.~ GOTO 5
+-  IF ~~ THEN REPLY ~Do you know anything about these caverns?~ GOTO 15
+-  IF ~~ THEN REPLY ~Is there anything you can tell me about the giants?~ GOTO 16
+-  IF ~~ THEN REPLY ~That skeleton over there.  I find it fascinating.  Do you know anything about it?~ GOTO 17
++  SAY @11
++  IF ~~ THEN REPLY @12 GOTO 4
++  IF ~GlobalLT("Kill_Frost", "GLOBAL", 4)~ THEN REPLY @13 JOURNAL @14 GOTO 5
++  IF ~~ THEN REPLY @15 GOTO 15
++  IF ~~ THEN REPLY @16 GOTO 16
++  IF ~~ THEN REPLY @17 GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~My name is Davin Berenson.  I am at your service.  Is there something else you would ask of me?~
+-  IF ~~ THEN REPLY ~Yes, I have more questions.~ GOTO 3
+-  IF ~~ THEN REPLY ~No, farewell.~ EXIT
++  SAY @18
++  IF ~~ THEN REPLY @19 GOTO 3
++  IF ~~ THEN REPLY @20 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I am a slave.  As a matter of fact, all the people that you see here are slaves.  However, we will not be slaves for much longer.~
+-  IF ~~ THEN REPLY ~Why do you say that?~ GOTO 6
++  SAY @21
++  IF ~~ THEN REPLY @22 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Every day the giants come here and take one of us away.  Whoever is taken is never seen again.  Our numbers are dwindling so it is only a matter of time before we are slaves no more.~
+-  IF ~~ THEN REPLY ~What happens to the ones who are taken away?~ JOURNAL ~Wyrm’s Tooth.
+-
+-We have discovered that the frost giants are sacrificing slaves to some creature that lives here in the caverns.~ GOTO 7
++  SAY @23
++  IF ~~ THEN REPLY @24 JOURNAL @25 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~They are sacrificed to some... creature that lives here in the caverns.  I know this because the giants gloat over our fate as they lead their chosen victim off.~
++  SAY @26
+   IF ~OR(2)
+ Global("Frostbite_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY ~The creature you speak of is dead.  There will be no more sacrifices.~ DO ~AddexperienceParty(10000)
++Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY @27 DO ~AddexperienceParty(10000)
+ SetGlobal("Kill_Frost", "GLOBAL", 4)
+-SetGlobal("Frostbite_Dead", "GLOBAL", 1)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.~ GOTO 8
+-  IF ~~ THEN REPLY ~That is a terrible fate that none should suffer.  I would end it if it were in my power.~ JOURNAL ~Wyrm’s Tooth.
+-
+-The slave, Davin Berenson, told us of some creature that the frost giants are sacrificing slaves to. This is a terrible fate that no one should have to suffer.~ GOTO 20
++SetGlobal("Frostbite_Dead", "GLOBAL", 1)~ JOURNAL @28 GOTO 8
++  IF ~~ THEN REPLY @29 JOURNAL @30 GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Oh? How do you know this to be true?~
+-  IF ~~ THEN REPLY ~I am the slayer of the creature. ~ GOTO 9
++  SAY @31
++  IF ~~ THEN REPLY @32 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~That is excellent news.  You have saved us from a horrible fate.  However, we are still in a desperate situation since the giants hold us captive here.  I would ask that you free us.~
+-  IF ~~ THEN REPLY ~Yes, I will make an effort to do so.  I foresee this as a difficult task, though.~ DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.~ GOTO 10
+-  IF ~~ THEN REPLY ~No, I have no desire to fight the frost giants.  Farewell for now.~ DO ~SetGlobal("Free_Davin","GLOBAL", 2)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We refused to help him at this time. None of us want to fight a cavern full of frost giants. Such a battle could be very costly.~ EXIT
+-  IF ~~ THEN REPLY ~I will consider it.  Farewell for now.~ DO ~SetGlobal("Free_Davin","GLOBAL", 1)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We told him we would take the matter under consideration. Fighting a cavern full of frost giants could be a very costly battle.~ EXIT
++  SAY @33
++  IF ~~ THEN REPLY @34 DO ~SetGlobal("Free_Davin","GLOBAL", 3)~ UNSOLVED_JOURNAL @5 GOTO 10
++  IF ~~ THEN REPLY @35 DO ~SetGlobal("Free_Davin","GLOBAL", 2)~ JOURNAL @36 EXIT
++  IF ~~ THEN REPLY @37 DO ~SetGlobal("Free_Davin","GLOBAL", 1)~ JOURNAL @38 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Yes... but I think I know how it may be accomplished...~
+-  IF ~~ THEN REPLY ~Oh?  Please tell me.~ GOTO 11
++  SAY @39
++  IF ~~ THEN REPLY @40 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~There are only two paths out of here.  One lies through the heart of the giants’ domain, and they know we cannot pass through without being seen.  The other is a small cave to the north of here.  The giants only place one guard upon us to prevent us from entering that cave and gaining our freedom.~
+-  IF ~~ THEN REPLY ~Do you know what lies within this cave?~ GOTO 12
++  SAY @41
++  IF ~~ THEN REPLY @42 GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Well... no.  Perhaps you should start your quest by scouting the cave and removing any... *hazards* there before removing the guard.~
++  SAY @43
+   IF ~OR(2)
+ Global("Kontik_Dead", "GLOBAL", 0)
+-Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 0)~ THEN REPLY ~Very well.  I shall do so.  Farewell.~ DO ~SetGlobal("Explore_Cave","GLOBAL", 3)~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. We have agreed to scout out the cave for any dangers and see if it indeed leads to an exit.~ EXIT
++Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 0)~ THEN REPLY @44 DO ~SetGlobal("Explore_Cave","GLOBAL", 3)~ UNSOLVED_JOURNAL @45 EXIT
+   IF ~OR(2)
+ Global("Kontik_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 1)~ THEN REPLY ~I have done so already.  You need fear nothing in the cave.~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. Davin asked us to scout out this cave for dangers and to see if it indeed leads to freedom. Fortunately, we have already done this.~ GOTO 13
++Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 1)~ THEN REPLY @46 UNSOLVED_JOURNAL @47 GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~That is good news indeed.  Then you need only eliminate the guard without alerting the giants. ~
++  SAY @48
+   IF ~OR(2)
+ Global("Gorg_Dead", "GLOBAL", 0)
+-Global("SPRITE_IS_DEADGORG", "GLOBAL", 0)~ THEN REPLY ~Very well.  I shall do so.  Farewell.~ DO ~SetGlobal("Kill_Gorg","GLOBAL", 3)~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We need to slay the frost giant that guards the slave pens, and we need to accomplish this without alerting the other giants. This may prove a difficult task, but it is necessary.~ EXIT
++Global("SPRITE_IS_DEADGORG", "GLOBAL", 0)~ THEN REPLY @44 DO ~SetGlobal("Kill_Gorg","GLOBAL", 3)~ UNSOLVED_JOURNAL @49 EXIT
+   IF ~OR(2)
+ Global("Gorg_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADGORG", "GLOBAL", 1)~ THEN REPLY ~I have done so already.  It seems there are no obstacles to your freedom.  Leave now, while you can.~ DO ~SetGlobal("Free_Davin","GLOBAL", 4)
++Global("SPRITE_IS_DEADGORG", "GLOBAL", 1)~ THEN REPLY @50 DO ~SetGlobal("Free_Davin","GLOBAL", 4)
+ SetGlobal("Gorg_Dead", "GLOBAL", 1)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have discovered that the frost giants are sacrificing slaves to some creature that lives here in the caverns.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have found a group of people in the caverns that are held by the frost giants as slaves.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-The slave, Davin Berenson, told us of some creature that the frost giants are sacrificing slaves to. This is a terrible fate that no one should have to suffer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We refused to help him at this time. None of us want to fight a cavern full of frost giants. Such a battle could be very costly.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We told him we would take the matter under consideration. Fighting a cavern full of frost giants could be a very costly battle.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. We have agreed to scout out the cave for any dangers and see if it indeed leads to an exit.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. Davin asked us to scout out this cave for dangers and to see if it indeed leads to freedom. Fortunately, we have already done this.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We need to slay the frost giant that guards the slave pens, and we need to accomplish this without alerting the other giants. This may prove a difficult task, but it is necessary.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that we cleared the cave north of the slave pens of any danger. We now need to slay the guard and then the slaves will be free.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that the slave pen guard is dead. We now need to go to the cave to the north of the pens and clear it of any dangers.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We have agreed to go and slay this beast, whatever it may be.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We agreed that we have no desire to fight some unknown beast.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. Although we agree that we have no desire to fight some unknown beast, we are still considering the matter.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Upper Dorn’s Deep.
+-
+-Bandoth informed us that there is a puzzle room to tackle before we’ll be able to descend further into the stronghold. Apparently it has three rings with multiple plates on each ring. From what we gather, each ring has one plate that disarms the other plates on that particular ring. It can only be assumed that the other plates contain traps of some sort.%)~
+-SOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-Davin asked us to slay the frost giant guard that watches over the slave pens, but we had already done it, so he was free to go.~ GOTO 14
++EraseJournalEntry(@5)
++EraseJournalEntry(@25)
++EraseJournalEntry(@14)
++EraseJournalEntry(@28)
++EraseJournalEntry(@5)
++EraseJournalEntry(@30)
++EraseJournalEntry(@36)
++EraseJournalEntry(@38)
++EraseJournalEntry(@45)
++EraseJournalEntry(@47)
++EraseJournalEntry(@49)
++EraseJournalEntry(@51)
++EraseJournalEntry(@52)
++EraseJournalEntry(@53)
++EraseJournalEntry(@54)
++EraseJournalEntry(@55)
++EraseJournalEntry(@28)
++EraseJournalEntry(@56)~
++SOLVED_JOURNAL @57 GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~You... I... my friend, that is excellent news!  I thank you from the bottom of my heart.  Forgive me for cutting our conversation short, but we will be leaving now.  Thank you for all that you have done for us.~
+-  IF ~~ THEN REPLY ~Farewell, Davin.~ DO ~AddexperienceParty(10000)
++  SAY @58
++  IF ~~ THEN REPLY @59 DO ~AddexperienceParty(10000)
+ SetGlobal("7004_Slave_Run","GLOBAL", 1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~I am sorry, but there is nothing I can tell you.  My experience in these caverns has been limited to this small area you see here.~
+-  IF ~~ THEN REPLY ~I see.  Let me ask you something else.~ GOTO 3
+-  IF ~~ THEN REPLY ~Farewell for now.~ EXIT
++  SAY @60
++  IF ~~ THEN REPLY @61 GOTO 3
++  IF ~~ THEN REPLY @62 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~The giants have shown themselves to be brutal, cruel, and stupid.  However, at times, they show cunning that astounds me considering their lack of intelligence.  I know nothing more of them.~
+-  IF ~~ THEN REPLY ~I see.  Let me ask you something else.~ GOTO 3
+-  IF ~~ THEN REPLY ~Farewell for now.~ EXIT
++  SAY @63
++  IF ~~ THEN REPLY @61 GOTO 3
++  IF ~~ THEN REPLY @62 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~That skeleton... I feel shivers travel up my spine every time I lay eyes upon it... but I have no idea what it is.  I suppose it could be the remains of a great wyrm.  Perhaps that is why this is known as Wyrm’s Tooth glacier.  Who is to say?~
+-  IF ~~ THEN REPLY ~Why does it frighten you so?~ GOTO 18
+-  IF ~~ THEN REPLY ~I see.  Let me ask you something else.~ GOTO 3
+-  IF ~~ THEN REPLY ~Farewell for now.~ EXIT
++  SAY @64
++  IF ~~ THEN REPLY @65 GOTO 18
++  IF ~~ THEN REPLY @61 GOTO 3
++  IF ~~ THEN REPLY @62 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~A man spends a lifetime hearing tales of such creatures and in that lifetime he will see nary a one.  Tales of the boogieman, ghosts, and dragons -- in time you begin to think they are nothing but tales spun to frighten small children... I never believed in dragons till I saw that skeleton.  Now I wonder just how many of those other tales may be true and what really lies out there in the world...~
+-  IF ~~ THEN REPLY ~I see.  Let me ask you something else.~ GOTO 3
+-  IF ~~ THEN REPLY ~Farewell for now.~ EXIT
++  SAY @66
++  IF ~~ THEN REPLY @61 GOTO 3
++  IF ~~ THEN REPLY @62 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~Yes, and we are all very grateful.  How goes the task?~
++  SAY @67
+   IF ~OR(2)
+ Global("Joril_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADJORIL", "GLOBAL", 1)~ THEN REPLY ~I have slain the giant leader, Joril.  You are free to leave by that path.~ DO ~SetGlobal("7004_Slave_Run","GLOBAL", 2)
++Global("SPRITE_IS_DEADJORIL", "GLOBAL", 1)~ THEN REPLY @68 DO ~SetGlobal("7004_Slave_Run","GLOBAL", 2)
+ SetGlobal("Joril_Dead", "GLOBAL", 1)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have discovered that the frost giants are sacrificing slaves to some creature that lives here in the caverns.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have found a group of people in the caverns that are held by the frost giants as slaves.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-The slave, Davin Berenson, told us of some creature that the frost giants are sacrificing slaves to. This is a terrible fate that no one should have to suffer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We refused to help him at this time. None of us want to fight a cavern full of frost giants. Such a battle could be very costly.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We told him we would take the matter under consideration. Fighting a cavern full of frost giants could be a very costly battle.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. We have agreed to scout out the cave for any dangers and see if it indeed leads to an exit.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. Davin asked us to scout out this cave for dangers and to see if it indeed leads to freedom. Fortunately, we have already done this.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We need to slay the frost giant that guards the slave pens, and we need to accomplish this without alerting the other giants. This may prove a difficult task, but it is necessary.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that we cleared the cave north of the slave pens of any danger. We now need to slay the guard and then the slaves will be free.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that the slave pen guard is dead. We now need to go to the cave to the north of the pens and clear it of any dangers.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We have agreed to go and slay this beast, whatever it may be.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We agreed that we have no desire to fight some unknown beast.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. Although we agree that we have no desire to fight some unknown beast, we are still considering the matter.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Upper Dorn’s Deep.
+-
+-Bandoth informed us that there is a puzzle room to tackle before we’ll be able to descend further into the stronghold. Apparently it has three rings with multiple plates on each ring. From what we gather, each ring has one plate that disarms the other plates on that particular ring. It can only be assumed that the other plates contain traps of some sort.%)~
+-SOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We told Davin of Joril Frostbeard’s death. With his death the path to freedom for the slaves has been opened.~ GOTO 24
++EraseJournalEntry(@5)
++EraseJournalEntry(@25)
++EraseJournalEntry(@14)
++EraseJournalEntry(@28)
++EraseJournalEntry(@5)
++EraseJournalEntry(@30)
++EraseJournalEntry(@36)
++EraseJournalEntry(@38)
++EraseJournalEntry(@45)
++EraseJournalEntry(@47)
++EraseJournalEntry(@49)
++EraseJournalEntry(@51)
++EraseJournalEntry(@52)
++EraseJournalEntry(@53)
++EraseJournalEntry(@54)
++EraseJournalEntry(@55)
++EraseJournalEntry(@28)
++EraseJournalEntry(@56)~
++SOLVED_JOURNAL @69 GOTO 24
+   IF ~Global("Gorg_Dead", "GLOBAL", 1)
+ OR(2)
+ Global("Kontik_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 1)~ THEN REPLY ~I have cleared the north cave of any *hazards* and slain the guard.  You are free to go now.~ DO ~SetGlobal("7004_Slave_Run","GLOBAL", 1)
++Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 1)~ THEN REPLY @70 DO ~SetGlobal("7004_Slave_Run","GLOBAL", 1)
+ SetGlobal("Gorg_Dead", "GLOBAL", 1)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have discovered that the frost giants are sacrificing slaves to some creature that lives here in the caverns.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We have found a group of people in the caverns that are held by the frost giants as slaves.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin. He asked me to free him and the other slaves from the frost giants. We have agreed to do so.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-The slave, Davin Berenson, told us of some creature that the frost giants are sacrificing slaves to. This is a terrible fate that no one should have to suffer.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We refused to help him at this time. None of us want to fight a cavern full of frost giants. Such a battle could be very costly.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He asked us to free him and the other slaves from the frost giants. We told him we would take the matter under consideration. Fighting a cavern full of frost giants could be a very costly battle.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. We have agreed to scout out the cave for any dangers and see if it indeed leads to an exit.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We agreed to help Davin and the other slaves gain their freedom. However, this could be a difficult task considering the number of giants we would have to fight here in the caverns. Davin said this might not be necessary since there is a cave to the north of the slave pens that may lead to freedom. Davin asked us to scout out this cave for dangers and to see if it indeed leads to freedom. Fortunately, we have already done this.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We need to slay the frost giant that guards the slave pens, and we need to accomplish this without alerting the other giants. This may prove a difficult task, but it is necessary.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that we cleared the cave north of the slave pens of any danger. We now need to slay the guard and then the slaves will be free.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We told Davin that the slave pen guard is dead. We now need to go to the cave to the north of the pens and clear it of any dangers.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We have agreed to go and slay this beast, whatever it may be.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We agreed that we have no desire to fight some unknown beast.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. Although we agree that we have no desire to fight some unknown beast, we are still considering the matter.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.%)
+-EraseJournalEntry(%Upper Dorn’s Deep.
+-
+-Bandoth informed us that there is a puzzle room to tackle before we’ll be able to descend further into the stronghold. Apparently it has three rings with multiple plates on each ring. From what we gather, each ring has one plate that disarms the other plates on that particular ring. It can only be assumed that the other plates contain traps of some sort.%)~
+-SOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We told Davin that we cleared the cave north of the slave pens of any danger. We also have slain the frost giant guarding the pens. This opened the path to freedom for the slaves.~ GOTO 14
++EraseJournalEntry(@5)
++EraseJournalEntry(@25)
++EraseJournalEntry(@14)
++EraseJournalEntry(@28)
++EraseJournalEntry(@5)
++EraseJournalEntry(@30)
++EraseJournalEntry(@36)
++EraseJournalEntry(@38)
++EraseJournalEntry(@45)
++EraseJournalEntry(@47)
++EraseJournalEntry(@49)
++EraseJournalEntry(@51)
++EraseJournalEntry(@52)
++EraseJournalEntry(@53)
++EraseJournalEntry(@54)
++EraseJournalEntry(@55)
++EraseJournalEntry(@28)
++EraseJournalEntry(@56)~
++SOLVED_JOURNAL @71 GOTO 14
+   IF ~OR(2)
+ Global("Kontik_Dead", "GLOBAL", 1)
+ Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 1)
+ OR(2)
+ Global("Gorg_Dead", "GLOBAL", 0)
+-Global("SPRITE_IS_DEADGORG", "GLOBAL", 0)~ THEN REPLY ~I have cleared the north cave of any *hazards* for you.  I will go and slay the guard now.  Farewell.~ DO ~SetGlobal("Kill_Gorg","GLOBAL", 3)
+-SetGlobal("Gorg_Dead", "GLOBAL", 1)~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We told Davin that we cleared the cave north of the slave pens of any danger. We now need to slay the guard and then the slaves will be free.~ EXIT
++Global("SPRITE_IS_DEADGORG", "GLOBAL", 0)~ THEN REPLY @72 DO ~SetGlobal("Kill_Gorg","GLOBAL", 3)
++SetGlobal("Gorg_Dead", "GLOBAL", 1)~ UNSOLVED_JOURNAL @51 EXIT
+   IF ~OR(2)
+ Global("Gorg_Dead", "GLOBAL", 1)
+ Global("SPRITE_IS_DEADGORG", "GLOBAL", 1)
+ OR(2)
+ Global("Kontik_Dead", "GLOBAL", 0)
+-Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 0)~ THEN REPLY ~I have slain the guard.  I will go and clear the north cave for you now.  Farewell.~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We told Davin that the slave pen guard is dead. We now need to go to the cave to the north of the pens and clear it of any dangers.~ EXIT
+-  IF ~~ THEN REPLY ~I am working on it.  I will return when I have completed the task.~ EXIT
++Global("SPRITE_IS_DEADKONTIK", "GLOBAL", 0)~ THEN REPLY @73 UNSOLVED_JOURNAL @52 EXIT
++  IF ~~ THEN REPLY @74 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~I pray that this is not some evil game of deception that you are playing with me... If what you say is true then by all means go and slay the beast.~
+-  IF ~~ THEN REPLY ~Yes, I will make an effort to do so.  Where can this creature be found?~ DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ UNSOLVED_JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We have agreed to go and slay this beast, whatever it may be.~ GOTO 23
+-  IF ~~ THEN REPLY ~No, I have no desire to fight some unknown beast.  Farewell for now.~ DO ~SetGlobal("Kill_Frost","GLOBAL", 2)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. We agreed that we have no desire to fight some unknown beast.~ EXIT
+-  IF ~~ THEN REPLY ~I will consider it.  Farewell for now.~ DO ~SetGlobal("Kill_Frost","GLOBAL", 1)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We met a slave named Davin Berenson. He told us that the frost giants are sacrificing the slaves to some creature here in the caverns. Although we agree that we have no desire to fight some unknown beast, we are still considering the matter.~ EXIT
++  SAY @75
++  IF ~~ THEN REPLY @76 DO ~SetGlobal("Kill_Frost","GLOBAL", 3)~ UNSOLVED_JOURNAL @53 GOTO 23
++  IF ~~ THEN REPLY @77 DO ~SetGlobal("Kill_Frost","GLOBAL", 2)~ JOURNAL @54 EXIT
++  IF ~~ THEN REPLY @37 DO ~SetGlobal("Kill_Frost","GLOBAL", 1)~ JOURNAL @55 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~A heroic task that I am certain you can accomplish.  Good luck to you and thank you.~
++  SAY @78
+   IF ~OR(2)
+ Global("Frostbite_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY ~I have already slain the beast.  You need no longer fear it.~ DO ~AddexperienceParty(12500)
++Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY @79 DO ~AddexperienceParty(12500)
+ SetGlobal("Kill_Frost", "GLOBAL", 4)
+ SetGlobal("Frostbite_Dead", "GLOBAL", 1)~ GOTO 9
+-  IF ~~ THEN REPLY ~Farewell for now.~ EXIT
++  IF ~~ THEN REPLY @62 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~Yes, and we are all very grateful.  How goes the task?~
++  SAY @67
+   IF ~OR(2)
+ Global("Frostbite_Dead", "GLOBAL", 1)
+-Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY ~I have slain the beast.  You need no longer fear it.~ DO ~AddexperienceParty(12500)
++Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 1)~ THEN REPLY @80 DO ~AddexperienceParty(12500)
+ SetGlobal("Kill_Frost", "GLOBAL", 4)
+-SetGlobal("Frostbite_Dead", "GLOBAL", 1)~ JOURNAL ~Wyrm’s Tooth.
+-
+-We informed Davin Berenson that we have slain the creature known as Frostbite. With the beast dead, the slaves need not fear being sacrificed any longer.~ GOTO 9
++SetGlobal("Frostbite_Dead", "GLOBAL", 1)~ JOURNAL @28 GOTO 9
+   IF ~OR(2)
+ Global("Frostbite_Dead", "GLOBAL", 0)
+-Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 0)~ THEN REPLY ~I have yet to complete the quest but I am working on it.  Farewell for now.~ EXIT
++Global("SPRITE_IS_DEADFROSTBITE", "GLOBAL", 0)~ THEN REPLY @81 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~I am not certain.  I have seen the giants lead their victim to the south upon leaving this cavern.  The beast must lie in that direction.~
+-  IF ~~ THEN REPLY ~I see.  I will begin my search there.  Farewell for now.~ EXIT
++  SAY @82
++  IF ~~ THEN REPLY @83 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~You... I... my friend, that is excellent news!  I thank you from the bottom of my heart.  Forgive me for cutting our conversation short, but we will be leaving now.  Thank you for all that you have done for us.~
+-  IF ~~ THEN REPLY ~Farewell, Davin.~ DO ~AddexperienceParty(12500)~ EXIT
++  SAY @58
++  IF ~~ THEN REPLY @59 DO ~AddexperienceParty(12500)~ EXIT
+ END

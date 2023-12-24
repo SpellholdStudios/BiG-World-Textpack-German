@@ -1,0 +1,11 @@
+--- NeJE\dlg\KELDOR.d	Mon Sep 24 01:28:58 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\KELDOR.d	Tue Apr 09 19:36:32 2019
+@@ -21,7 +21,7 @@
+ APPEND ~KELDOR~
+ 
+ IF ~~ THEN BEGIN KR4A
+-  SAY ~Sorry, friend, but I sense that you parley or consort with evil creatures. I cannot be a party to it. Now excuse me, but I have some other tasks to perform elsewhere.~
++  SAY @0
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 

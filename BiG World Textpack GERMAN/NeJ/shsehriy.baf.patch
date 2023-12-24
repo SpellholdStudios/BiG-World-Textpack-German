@@ -1,0 +1,15 @@
+--- NeJ\baf\shsehriy.baf	Fri Aug 20 16:20:56 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\shsehriy.baf	Wed Apr 10 10:29:49 2019
+@@ -17,10 +17,10 @@
+ THEN
+ 	RESPONSE #50
+ 		SetGlobal("MOVEMENT_DEST","LOCALS",0)
+-		DisplayStringHead(Myself,~"Hehehe."~)
++		DisplayStringHead(Myself,@0)
+ 	RESPONSE #50
+ 		SetGlobal("MOVEMENT_DEST","LOCALS",0)
+-		DisplayStringHead(Myself,~"Is my ball here?"~)
++		DisplayStringHead(Myself,@1)
+ END
+ 
+ IF

@@ -1,0 +1,11 @@
+--- NeJ3\baf\EETOWNC1.BAF	Sat Nov 15 23:51:35 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\EETOWNC1.BAF	Wed Apr 10 10:33:46 2019
+@@ -4,7 +4,7 @@
+ 	See("MOMMY")
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Mommy, I'm scared.~)
++		DisplayStringHead(Myself,@0)
+ 		SetGlobalTimer("CHILDREN_FLOAT_TIMER","MYAREA",1)
+ 		SetGlobal("CHILDREN_FLOAT","MYAREA",1)
+ 		Continue()

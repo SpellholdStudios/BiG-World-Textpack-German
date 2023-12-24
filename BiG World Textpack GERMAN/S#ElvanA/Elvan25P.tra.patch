@@ -1,0 +1,22 @@
+--- S#ElvanA\deutsch\Elvan25P.tra	Sat Jan 11 14:31:16 2020
++++ C:\BWP Patchstudio\patched Text files\S#ElvanA\deutsch\Elvan25P.tra	Tue Jun 03 14:08:58 2008
+@@ -1,11 +1,11 @@
+ @1 = ~Aha, sieht man es mal wieder, aber mit einer Drow kann man es ja machen.~
+-@2 = ~Wie? Was? Nein Elvanshalee wir mögen dich alle und wollen nicht, dass du gehst.~
+-@3 = ~Du hast soviel für unsere Gruppe getan und solltest dir nun eine Pause gönnen.~
+-@4 = ~Eine Pause? Ich glaube dir zwar nicht ganz, aber Erholung würde mir nicht schaden.~
+-@5 = ~Gönne dir doch bitte eine kleine Pause in meinem Einsprengsel und erhole dich gut.~
+-@6 = ~Ruh dich kurz aus, bitte.~
++@2 = ~Wie? Was? Nein Elvanshalee, wir mögen Euch alle und wollen nicht, dass Ihr geht.~
++@3 = ~Ihr habt soviel für unsere Gruppe getan und solltet Euch nun eine Pause gönnen.~
++@4 = ~Eine Pause? Ich glaube Euch zwar nicht ganz, aber Erholung würde mir nicht schaden.~
++@5 = ~Gönnt Euch doch bitte eine kleine Pause in meinem Einsprengsel und erholt Euch gut.~
++@6 = ~Ruht Euch kurz aus, bitte.~
+ @7 = ~Aber vergesst mich nicht. Nur weil ich eine Frau bin, bedeutet es nicht, dass ich alles mit mir machen lasse.~
+ @8 = ~Ich habe mich genug erholt!~
+-@9 = ~Deine Fähigkeiten werden wieder verlangt.~
+-@10 = ~Ein Gespräch mit dir ist mir fast zuwieder.~
+-@11 = ~Ich komme auf dich zurück, wenn wir deine Hilfe brauchen.~
++@9 = ~Eure Fähigkeiten werden wieder verlangt.~
++@10 = ~Ein Gespräch mit Euch ist mir fast zuwider.~
++@11 = ~Ich komme auf Euch zurück, wenn wir Eure Hilfe brauchen.~

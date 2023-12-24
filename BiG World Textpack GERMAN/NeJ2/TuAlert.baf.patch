@@ -1,0 +1,11 @@
+--- NeJ2\baf\TuAlert.baf	Mon Jan 19 16:45:50 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\TuAlert.baf	Wed Apr 10 10:31:32 2019
+@@ -5,7 +5,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_HalruaaHostile","GLOBAL",1)
+-		DisplayString(LastTrigger,~A magical ward has detected your theft! You see a guard is teleporting to this area!~)
++		DisplayString(LastTrigger,@0)
+ 		Wait(3)
+ 		CreateCreatureObjectDoor("TuAlert",LastTrigger,0,0,0)
+ END

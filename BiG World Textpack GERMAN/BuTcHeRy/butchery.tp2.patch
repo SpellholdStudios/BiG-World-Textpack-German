@@ -1,0 +1,15 @@
+--- butchery\butchery.tp2	Thu Oct 11 17:44:26 2018
++++ C:\BWP Patchstudio\patched files\butchery\butchery.tp2	Thu Dec 02 14:01:22 2021
+@@ -33,6 +33,12 @@
+ //         ~butchery/lang/french/d9CutTa.tra~	// DEPRECATED as of v 3.2
+          ~butchery/lang/french/d9firorc.tra~
+ 
++LANGUAGE ~German~
++         ~german~
++         ~BuTcHeRy/lang/german/Setup.tra~
++//         ~BuTcHeRy/lang/german/D9CutTa.tra~	// DEPRECATED as of v 3.2
++         ~BuTcHeRy/lang/german/D9firorc.tra~
++
+ 
+ ///////////////////////////////////////////////////////////////////
+ //          BUTCHERY IN FIRKRAAG'S LAIR (COMPONENT #10)          //

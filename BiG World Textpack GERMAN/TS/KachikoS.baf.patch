@@ -1,0 +1,11 @@
+--- TS\baf\KachikoS.baf	Sat Jan 26 20:28:43 2008
++++ C:\BWP Patchstudio\patched files\TS\baf\KachikoS.baf	Sun Nov 13 10:02:40 2016
+@@ -10,7 +10,7 @@
+ 		FadeToColor([20.0],0)
+ 		Wait(1)
+ 		MoveGlobal("TT0307","Kachiko",[1392.736])
+-		ActionOverride("Kachiko",SetName(~Kachiko~))
++		ActionOverride("Kachiko",SetName(@0))
+ 		EndCutSceneMode()
+ 		DestroySelf()
+ 		StartCutSceneMode()

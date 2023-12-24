@@ -1,0 +1,1051 @@
+--- NeJE\dlg\BVALYG2.D	Tue Sep 11 21:52:35 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BVALYG2.D	Tue Apr 09 19:35:30 2019
+@@ -1,138 +1,138 @@
+ APPEND ~BVALYG25~
+ 
+ IF WEIGHT #-31 ~Global("ExpLoveTalk","LOCALS",2)~ THEN BEGIN TS152
+-  SAY ~You remind me of a nightingale I heard singing last morn. It was high above the Toril, but yet not so high so that his song couldn’t reach the ground anymore... That’s how you are. You are above us mortals, but you are still among us.  Your power grows and my heart tells me that you are one of those who might walk among the gods one day. Would you fly high into the sky, given the choice?~
+-  IF ~~ THEN REPLY ~It’s meaningless to ponder about such things before the choice is offered, Valygar. I am a mortal woman for now, and as such I do not know what the future has in store for me. I care only of staying alive from dawn to dawn.~ GOTO TS153
+-  IF ~~ THEN REPLY ~I would, Valygar.~ GOTO TS154
+-  IF ~~ THEN REPLY ~Me, a goddess? No, I am not applying for a job like that. I’d die from overexertion trying to do things right. A group of five-six people I can manage, but an army of power-hungry priests, fanatical devotees and annoying avatars?  Nope, I want no part of it.~ GOTO TS155
+-  IF ~~ THEN REPLY ~I was born mortal and I will stay mortal. I wish to take all I can from life. Adventure, romance, may be family and quiet retirement one day.~ GOTO TS157
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO TS153
++  IF ~~ THEN REPLY @2 GOTO TS154
++  IF ~~ THEN REPLY @3 GOTO TS155
++  IF ~~ THEN REPLY @4 GOTO TS157
+ END
+ 
+ IF ~~ THEN BEGIN TS153
+-  SAY ~I understand... You are a very sensible person <CHARNAME>. I hope you will not fly too far away one day. ~
++  SAY @5
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",3)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS154
+-  SAY ~So you have decided already. I see. Very well, do what you need to do. But remember that from so far away you will be just a speck to those you loved and who loved you. Their voices will be lost in the constant stream of your devotee’s prayers.~
+-  IF ~~ THEN REPLY ~On second thought you may be right, Valygar. I should think more on that.~ GOTO TS155
+-  IF ~~ THEN REPLY ~And that’s the way I want it. ~ GOTO TS156
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO TS155
++  IF ~~ THEN REPLY @8 GOTO TS156
+ END
+ 
+ IF ~~ THEN BEGIN TS155
+-  SAY ~I hope you are serious. I can never tell it with you.~
++  SAY @9
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",3)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS156
+-  SAY ~Fine. Do what you want... it’s got nothing to do with me.~
++  SAY @10
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS157
+-  SAY ~Really? You want all those things? But that’s wonderful! Well, I mean, it’s great that you know so well what you want.~
++  SAY @11
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",3)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF WEIGHT #-30 ~Global("ExpLoveTalk","LOCALS",4)~ THEN BEGIN TS158
+-  SAY ~When I walk over the fallen leaves I often think that those are the past days of my life. Some are bright, some dark, some half-rotten... But it does not matter any more. The past is the past and future we know not. What we need to worry about is today. Do you agree, <CHARNAME>?~
+-  IF ~~ THEN REPLY ~Melancholy does not suit you, Valygar. But you are right: who gives a damn about the past? And what is the point to try to guess what is in store for us? Today is real. Let’s try to make it a great day.~ GOTO TS159
+-  IF ~~ THEN REPLY ~Both the past and the future are important. Today is the consequence of yesterday’s doings. Tomorrow is what we are looking forward to, when the things get rough.~ GOTO TS163
+-  IF ~~ THEN REPLY ~(*sigh*): The desires of my siblings are about to come true: I am going to die of boredom, talking to you. Is that what you want?~ GOTO TS164
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO TS159
++  IF ~~ THEN REPLY @14 GOTO TS163
++  IF ~~ THEN REPLY @15 GOTO TS164
+ END
+ 
+ IF ~~ THEN BEGIN TS159
+-  SAY ~I guess, I’ll try to be more cheerful to please you next time I speak to you. As of late I do not care much for anything in my past that was not connected to you. I do not care what is in store for tomorrow as long as I can be around you.~
+-  IF ~~ THEN REPLY ~I... I do not know what to say...~ GOTO TS160
+-  IF ~~ THEN REPLY ~Valygar, let’s not continue this conversation. Do not walk on the thin ice, for you might fall through it and drown.~ GOTO TS161
+-  IF ~~ THEN REPLY ~(*stay silent*)~ GOTO TS160
+-  IF ~~ THEN REPLY ~I feel the same way, Valygar.~ GOTO TS162
++  SAY @16
++  IF ~~ THEN REPLY @17 GOTO TS160
++  IF ~~ THEN REPLY @18 GOTO TS161
++  IF ~~ THEN REPLY @19 GOTO TS160
++  IF ~~ THEN REPLY @20 GOTO TS162
+ END
+ 
+ IF ~~ THEN BEGIN TS160
+-  SAY ~Say nothing then.~
++  SAY @21
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",5)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS161
+-  SAY ~I am not easily frightened, <CHARNAME>.~
++  SAY @22
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",5)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS162
+-  SAY ~You give me hope that one day there will be more to our lives than swords and spells... But... even now we need to go. ~
++  SAY @23
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",5)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",600)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS163
+-  SAY ~Maybe... I am nearing thirty and all that has passed cannot be washed away from my soul by soap or by ale. But as of late I do not care much for anything in my past that was not connected to you. I do not care what is in store for tomorrow as long as I can be around you.~
+-  IF ~~ THEN REPLY ~I... I do not know what to say...~ GOTO TS160
+-  IF ~~ THEN REPLY ~Valygar, let’s not continue this conversation. Do not walk on the thin ice, for you might fall through it and drown.~ GOTO TS161
+-  IF ~~ THEN REPLY ~(*stay silent*)~ GOTO TS160
+-  IF ~~ THEN REPLY ~I feel the same way Valygar.~ GOTO TS162
++  SAY @24
++  IF ~~ THEN REPLY @17 GOTO TS160
++  IF ~~ THEN REPLY @18 GOTO TS161
++  IF ~~ THEN REPLY @19 GOTO TS160
++  IF ~~ THEN REPLY @25 GOTO TS162
+ END
+ 
+ IF ~~ THEN BEGIN TS164
+-  SAY ~I-I’m sorry, <CHARNAME>... I didn’t mean to bother you. I’ll talk to somebody else, instead.~
++  SAY @26
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF WEIGHT #-29 ~Global("ExpLoveTalk","LOCALS",6)~ THEN BEGIN TS165
+-  SAY ~I was dreaming of the ocean, <CHARNAME>. And of my mother. All I have left of her is the name of the village in northern Zakhara that she came from.  She used to promise me that one day we’d take a ship and voyage to Zakhara... It never came to be.~
+-  IF ~~ THEN REPLY ~That’s so sad. May be one day you can travel there on your own and see your people.~ GOTO TS166
+-  IF ~~ THEN REPLY ~Where is Zakhara? What was your mother’s name? How did she end up in Faerun? Why...~ GOTO TS176
+-  IF ~~ THEN REPLY ~Well, you cannot do anything about it now, can you? You mother is, ah, dead, is she not?~ GOTO TS177
++  SAY @27
++  IF ~~ THEN REPLY @28 GOTO TS166
++  IF ~~ THEN REPLY @29 GOTO TS176
++  IF ~~ THEN REPLY @30 GOTO TS177
+ END
+ 
+ IF ~~ THEN BEGIN TS166
+-  SAY ~Maybe. You know, I dream sometimes about building a ship and sailing to Zakhara.~
+-  IF ~~ THEN REPLY ~Ranger on the high seas... Valygar, do hire professional help, if you go for it, won’t you? ~ GOTO TS167
+-  IF ~~ THEN REPLY ~That sounds so romantic...~ GOTO TS174
+-  IF ~~ THEN REPLY ~Yeah, sure. Whatever you say.~ GOTO TS175
++  SAY @31
++  IF ~~ THEN REPLY @32 GOTO TS167
++  IF ~~ THEN REPLY @33 GOTO TS174
++  IF ~~ THEN REPLY @34 GOTO TS175
+ END
+ 
+ IF ~~ THEN BEGIN TS167
+-  SAY ~Are you worried about me? I would hire help to build the ship, of course... But I also thought about help of another kind... Do you think that one day, when your quest is over, you might want to come along? I will steer the ship and you will sing to the winds and waves to make our passage a pleasure.~
+-  IF ~~ THEN REPLY ~Hmm, I must tell you that I have other obligations after my quest is done... Sorry Valygar, it seems that you will have to go on your own, but I wish you the very best of luck.~ GOTO TS168
+-  IF ~~ THEN REPLY ~No, I would not. I am sure you will find someone else to sit under the white sails of your ship, Valygar.~ GOTO TS168
+-  IF ~~ THEN REPLY ~I... I would. But only if your navigational skills are better then my singing... Otherwise we’d drown before lifting the anchor.~ GOTO TS169
+-  IF ~~ THEN REPLY ~I will come with you Valygar. But I am afraid that day may be far away...~ GOTO TS173
++  SAY @35
++  IF ~~ THEN REPLY @36 GOTO TS168
++  IF ~~ THEN REPLY @37 GOTO TS168
++  IF ~~ THEN REPLY @38 GOTO TS169
++  IF ~~ THEN REPLY @39 GOTO TS173
+ END
+ 
+ IF ~~ THEN BEGIN TS168
+-  SAY ~Oh... of course, <CHARNAME>. I didn’t mean to bother you.~
++  SAY @40
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS169
+-  SAY ~We can both learn... Or if we are hopeless, we can take a merchant ship... It might not be so beautiful, but...~
+-  IF ~~ THEN REPLY ~Do finish the sentence, Valygar. ~ GOTO TS170
++  SAY @41
++  IF ~~ THEN REPLY @42 GOTO TS170
+ END
+ 
+ IF ~~ THEN BEGIN TS170
+-  SAY ~...but we would still be together.~
+-  IF ~~ THEN REPLY ~I knew you would say that. I like that idea.~ GOTO TS171
+-  IF ~InParty("Anomen")~ THEN REPLY ~Well, some of our companions may join in the venture.~ GOTO TS172
+-  IF ~~ THEN REPLY ~Glad you pointed that out. On the second thought I changed my mind. I do not want to go anywhere alone with you.~ GOTO TS168
++  SAY @43
++  IF ~~ THEN REPLY @44 GOTO TS171
++  IF ~InParty("Anomen")~ THEN REPLY @45 GOTO TS172
++  IF ~~ THEN REPLY @46 GOTO TS168
+ END
+ 
+ IF ~~ THEN BEGIN TS171
+-  SAY ~You are kind to say so, my lady. Thank you.~
++  SAY @47
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",2)
+ SetGlobal("ExpLoveTalk","LOCALS",7)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)
+@@ -140,113 +140,108 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS172
+-  SAY ~As you wish. Let my cold silence be your companion, then.~
++  SAY @48
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS173
+-  SAY ~It does not matter how far away that day is. The plans are laid and I will do my best to help you through the terrible mess your heritage turned your life into. Just stay alive and I will wait as long as is required.~
+-  IF ~~ THEN REPLY ~You take care of yourself too, Valygar.~ GOTO TS171
++  SAY @49
++  IF ~~ THEN REPLY @50 GOTO TS171
+ END
+ 
+ IF ~~ THEN BEGIN TS174
+-  SAY ~(*coughs*) Do you think that one day, when your quests are over, you’d want to come along? I will steer the ship and you will sing to the winds and waves to make our passage a pleasure?~
+-  IF ~~ THEN REPLY ~Hmm, I must tell you that I have other obligations after my quests are done... Sorry Valygar, it seems that you would have to go on your own, but I wish you the very best of luck.~ GOTO TS168
+-  IF ~~ THEN REPLY ~No, I would not. I am sure you will find someone else to sit under the white sails of your ship, Valygar.~ GOTO TS168
+-  IF ~~ THEN REPLY ~I... I would. But only if your navigational skills are better then my singing... Otherwise we’d drown before lifting the anchor.~ GOTO TS169
+-  IF ~~ THEN REPLY ~I will come with you Valygar. But I am afraid that day may be far away...~ GOTO TS174
++  SAY @51
++  IF ~~ THEN REPLY @52 GOTO TS168
++  IF ~~ THEN REPLY @37 GOTO TS168
++  IF ~~ THEN REPLY @38 GOTO TS169
++  IF ~~ THEN REPLY @39 GOTO TS174
+ END
+ 
+ IF ~~ THEN BEGIN TS175
+-  SAY ~Oh, well that’s okay, then.~
++  SAY @53
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ SetGlobal("VP_LoveTalkDelay","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS176
+-  SAY ~I did not know that my past is so interesting to you. Abyssina is my mother’s name... as I told you before. As far as I know she was a war mage on a ship which stopped in Athkatla... and that’s how she met my father... Zakhara is a large land south from Faerun and that’s where my mother came from. You know, I dream sometimes about building a ship and sailing to Zakhara...~
+-  IF ~~ THEN REPLY ~Ranger on the high seas... Valygar, do hire professional help, if you go for it, won’t you? ~ GOTO TS167
+-  IF ~~ THEN REPLY ~That sounds so romantic...~ GOTO TS174
+-  IF ~~ THEN REPLY ~Yeah, sure. Whatever you say.~ GOTO TS175
++  SAY @54
++  IF ~~ THEN REPLY @32 GOTO TS167
++  IF ~~ THEN REPLY @33 GOTO TS174
++  IF ~~ THEN REPLY @34 GOTO TS175
+ END
+ 
+ IF ~~ THEN BEGIN TS177
+-  SAY ~You mean: I killed her? Not her, an undead monster she became... still, it’s always haunted me. I never really knew her. She was always too busy to talk to me when I was growing up. Then I stopped trying. But I dream sometimes about building a ship and sailing to Zakhara.~
+-  IF ~~ THEN REPLY ~Ranger on the high seas... Valygar, do hire professional help, if you go for it, will you? ~ GOTO TS167
+-  IF ~~ THEN REPLY ~That sounds so romantic.~ GOTO TS174
+-  IF ~~ THEN REPLY ~Yeah, sure. Whatever you say.~ GOTO TS175
++  SAY @55
++  IF ~~ THEN REPLY @56 GOTO TS167
++  IF ~~ THEN REPLY @57 GOTO TS174
++  IF ~~ THEN REPLY @34 GOTO TS175
+ END
+ 
+ IF WEIGHT #-28 ~Global("ExpLoveTalk","LOCALS",8)~ THEN BEGIN TS68
+-  SAY ~<CHARNAME>, your face shows your emotions so well. You are curious about something and hesitate to ask... Am I right?~
+-  IF ~~ THEN REPLY ~Nay, I was just updating the list of my Bhaalspawn half-brothers and sisters. I have to do it every night, lest I forgot somebody.~ GOTO TS69
+-  IF ~~ THEN REPLY ~Yes... you are right. I am curious and I have a question that I’m afraid to ask...~ GOTO TS71
+-  IF ~~ THEN REPLY ~Good thing you noticed! I’m dying to ask you something...~ GOTO TS71
++  SAY @58
++  IF ~~ THEN REPLY @59 GOTO TS69
++  IF ~~ THEN REPLY @60 GOTO TS71
++  IF ~~ THEN REPLY @61 GOTO TS71
+ END
+ 
+ IF ~~ THEN BEGIN TS69
+-  SAY ~I see... the grievances of being a child of a prolific Lord...~
+-  IF ~~ THEN REPLY ~Yep. Damn! I lost count again! Do not disturb me!~ GOTO TS70
+-  IF ~~ THEN REPLY ~Valygar, do you ever take a break? I am so sick of you!~ GOTO TS70
+-  IF ~~ THEN REPLY ~It can wait. May be you would not mind answering a personal question?~ GOTO TS71
++  SAY @62
++  IF ~~ THEN REPLY @63 GOTO TS70
++  IF ~~ THEN REPLY @64 GOTO TS70
++  IF ~~ THEN REPLY @65 GOTO TS71
+ END
+ 
+ IF ~~ THEN BEGIN TS70
+-  SAY ~Oh... of course, <CHARNAME>. I didn’t mean to bother you.~
++  SAY @40
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS71
+-  SAY ~I suppose so, what is it you would ask?~
+-  IF ~~ THEN REPLY ~Hmm... What is your mother’s family name?~ GOTO TS72
+-  IF ~~ THEN REPLY ~I was wondering if you have a girl somewhere waiting for you...~ GOTO TS74
+-  IF ~~ THEN REPLY ~Forget it. I wanted to ask you something far too personal... Merella, was she the one and only for you? I mean have you been in love since?~ GOTO TS74
++  SAY @66
++  IF ~~ THEN REPLY @67 GOTO TS72
++  IF ~~ THEN REPLY @68 GOTO TS74
++  IF ~~ THEN REPLY @69 GOTO TS74
+ END
+ 
+ IF ~~ THEN BEGIN TS72
+-  SAY ~Monroe. Is that all?~
+-  IF ~~ THEN REPLY ~Abyssina Monroe. Sounds good.~ GOTO TS73
+-  IF ~~ THEN REPLY ~No. On totally unrelated topic: Merella, was she the one and only for you? I mean have you been in love since?~ GOTO TS74
+-  IF ~~ THEN REPLY ~Actually I wanted to ask about your love life... but it’s not very tactful...~ GOTO TS74
++  SAY @70
++  IF ~~ THEN REPLY @71 GOTO TS73
++  IF ~~ THEN REPLY @72 GOTO TS74
++  IF ~~ THEN REPLY @73 GOTO TS74
+ END
+ 
+ IF ~~ THEN BEGIN TS73
+-  SAY ~(*though being confused, he stays silent*)~
++  SAY @74
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",9)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS74
+-  SAY ~Oh, I should have expected this after my tactless questions. Yes, I had a lover. No, I am not involved currently. Is that what you wanted to know?~
+-  IF ~~ THEN REPLY ~I am sorry. You look upset, I must have touched a nerve... This must have been a painful experience for you...~ GOTO TS75
+-  IF ~~ THEN REPLY ~Yes, that satisfies my curiosity completely... Unless you want to tell me more...~ GOTO TS75
+-  IF ~~ THEN REPLY ~Thank you. Good night.~ GOTO TS77
++  SAY @75
++  IF ~~ THEN REPLY @76 GOTO TS75
++  IF ~~ THEN REPLY @77 GOTO TS75
++  IF ~~ THEN REPLY @78 GOTO TS77
+ END
+ 
+ IF ~~ THEN BEGIN TS75
+-  SAY ~(*recites quietly*):
+-
+-A fool there was and he made his prayer
+-To a rag and a bone and a hank of hair 
+-(We called her the woman who did not care),
+-But the fool he called her his lady fair...~
+-  IF ~~ THEN REPLY ~"So some of him lived but the most of him died? "  You know, I do not believe that... and I hate this poem. It is so full of despair.~ GOTO TS76
+-  IF ~~ THEN REPLY ~Huh, poetry? You are full of surprises ranger.~ GOTO TS77
+-  IF ~~ THEN REPLY ~Oh, that’s too gloomy for me. Good night.~ GOTO TS77
++  SAY @79
++  IF ~~ THEN REPLY @80 GOTO TS76
++  IF ~~ THEN REPLY @81 GOTO TS77
++  IF ~~ THEN REPLY @82 GOTO TS77
+ END
+ 
+ IF ~~ THEN BEGIN TS76
+-  SAY ~I should have known better than trying to impress a child who was brought up in Candlekeep Library... There was a time when I hated this poem also... may be I shall hate it again, who knows?~
++  SAY @83
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",9)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS77
+-  SAY ~Good night to you, troublemaker.~
++  SAY @84
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",9)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)
+ RestParty()~ EXIT
+@@ -254,70 +249,70 @@
+ 
+ IF WEIGHT #-27 ~Global("ExpLoveTalk","LOCALS",10)
+ Global("ExpBvalygar3","LOCALS",0)~ THEN BEGIN TS16
+-  SAY ~Something has been troubling me... may I talk to you?~ [VALY2504]
+-  IF ~~ THEN REPLY ~Certainly, Valygar.  What’s on your mind?~ DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
++  SAY @85 
++  IF ~~ THEN REPLY @86 DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
+ SetGlobal("ExpLoveTalk","LOCALS",11)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)~ GOTO 18
+-  IF ~~ THEN REPLY ~If you must.  Try to make it quick, though.~ DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
++  IF ~~ THEN REPLY @87 DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
+ SetGlobal("ExpLoveTalk","LOCALS",11)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)~ GOTO 18
+-  IF ~~ THEN REPLY ~I’m not really in the mood to talk right now.~ DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
++  IF ~~ THEN REPLY @88 DO ~SetGlobal("ExpBvalygar3","LOCALS",1)
+ SetGlobal("ExpLoveTalk","LOCALS",11)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)~ GOTO 17
+ END
+ 
+ IF WEIGHT #-26 ~Global("ExpLoveTalk","LOCALS",10)
+ !Global("ExpBvalygar3","LOCALS",0)~ THEN BEGIN TS82A
+-  SAY ~Do you watch the stars often? You look dreamy. Which one attracted your attention?  The magnificent Correlian? The best place to see Correlian is from Evereska they say.  Or was it Auranamn, the swordsman of the sky?~
+-  IF ~~ THEN REPLY ~I do not know what you are talking about. I was just stretching my neck.~ GOTO TS83
+-  IF ~~ THEN REPLY ~Auranamn it was. He still guards the elves, and directs them to good, as he did when he sided with Correllon during the great battle with Gruumsh. His spirit will never die. May be he can protect me from my destiny?~ GOTO TS96
+-  IF ~~ THEN REPLY ~You are versed in star lore as well?~ GOTO TS97
+-  IF ~~ THEN REPLY ~Your voice is different when you talk of the stars. Do you love stargazing?~ GOTO TS97
++  SAY @89
++  IF ~~ THEN REPLY @90 GOTO TS83
++  IF ~~ THEN REPLY @91 GOTO TS96
++  IF ~~ THEN REPLY @92 GOTO TS97
++  IF ~~ THEN REPLY @93 GOTO TS97
+ END
+ 
+ IF WEIGHT #-25 ~Global("ExpLoveTalk","LOCALS",12)~ THEN BEGIN TS82B
+-  SAY ~Do you watch the stars often? You look dreamy. Which one attracted your attention?  The magnificent Correlian? The best place to see Correlian is from Evereska they say.  Or was it Auranamn, the swordsman of the sky?~
+-  IF ~~ THEN REPLY ~I do not know what you are talking about. I was just stretching my neck.~ GOTO TS83
+-  IF ~~ THEN REPLY ~Auranamn it was. He still guards the elves, and directs them to good, as he did when he sided with Correllon during the great battle with Gruumsh. His spirit will never die. May be he can protect me from my destiny?~ GOTO TS96
+-  IF ~~ THEN REPLY ~You are versed in star lore as well?~ GOTO TS97
+-  IF ~~ THEN REPLY ~Your voice is different when you talk of the stars. Do you love stargazing?~ GOTO TS97
++  SAY @89
++  IF ~~ THEN REPLY @90 GOTO TS83
++  IF ~~ THEN REPLY @91 GOTO TS96
++  IF ~~ THEN REPLY @92 GOTO TS97
++  IF ~~ THEN REPLY @93 GOTO TS97
+ END
+ 
+ IF ~~ THEN BEGIN TS83
+-  SAY ~In that case can I ease your pain? Here, let me massage your neck.~
+-  IF ~~ THEN REPLY ~Oh, it’s so pleasant. You are sweet. Now what were you talking about?~ GOTO TS84
+-  IF ~~ THEN REPLY ~Valygar, I wish you won’t offer yourself as a remedy to my every problem.~ GOTO TS90
+-  IF ~~ THEN REPLY ~Do not stop, it feels wonderful. Will you stay with me for a while tonight?~ GOTO TS91
++  SAY @94
++  IF ~~ THEN REPLY @95 GOTO TS84
++  IF ~~ THEN REPLY @96 GOTO TS90
++  IF ~~ THEN REPLY @97 GOTO TS91
+ END
+ 
+ IF ~~ THEN BEGIN TS84
+-  SAY ~I was talking of the stars, nightingale. The thirteen stars over there represent Correlian, a sacred constellation of elves.  And there is Auranamn, the swordsman.  It’s ironic that the hero has a terrible gem on the pommel of his sword, the Kingslayer - do you see this bright yellow star?~
+-  IF ~~ THEN REPLY ~The Kings Coin as humans call it? Valygar, is your arm on my shoulder?~ GOTO TS85
++  SAY @98
++  IF ~~ THEN REPLY @99 GOTO TS85
+ END
+ 
+ IF ~~ THEN BEGIN TS85
+-  SAY ~Does it inconvenience you? ~
+-  IF ~~ THEN REPLY ~Yes it does. It is a bit too... intimate for my liking. I think this talk is over.~ GOTO TS86
+-  IF ~~ THEN REPLY ~No, not at all. I just wanted to know if you knew.~ GOTO TS87
+-  IF ~~ THEN REPLY ~(*move closer and do not answer*)~ GOTO TS87
++  SAY @100
++  IF ~~ THEN REPLY @101 GOTO TS86
++  IF ~~ THEN REPLY @102 GOTO TS87
++  IF ~~ THEN REPLY @103 GOTO TS87
+ END
+ 
+ IF ~~ THEN BEGIN TS86
+-  SAY ~Of course, nightingale. I am sorry... I was impatient. I will go now and leave you in peace.~
++  SAY @104
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS87
+-  SAY ~You are like a star yourself, beautiful and mysterious.  And you are so close. I hear you breathing and I hear how your heart beats. I wish to be with you more than anything else. Will you be mine tonight, <CHARNAME>? Will you have me?~
+-  IF ~~ THEN REPLY ~Oh, will you already stop speaking and kiss me?~ GOTO TS88
+-  IF ~~ THEN REPLY ~Yes, Valygar. We both know that it is bound to happen, so why not tonight?~ GOTO TS88
+-  IF ~~ THEN REPLY ~No, not tonight. Maybe another time.~ GOTO TS89
+-  IF ~~ THEN REPLY ~Are you crazy? I am not that sort of a girl.~ GOTO TS89
++  SAY @105
++  IF ~~ THEN REPLY @106 GOTO TS88
++  IF ~~ THEN REPLY @107 GOTO TS88
++  IF ~~ THEN REPLY @108 GOTO TS89
++  IF ~~ THEN REPLY @109 GOTO TS89
+ END
+ 
+ IF ~~ THEN BEGIN TS88
+-  SAY ~Ohhhh.... Mmmmm......~
++  SAY @110
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",13)
+ RealSetGlobalTimer("VP_ValygarRomance","GLOBAL",1200)
+ ClearAllActions()
+@@ -326,80 +321,80 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS89
+-  SAY ~Of course, nightingale. I am sorry... I was impatient. Sleep well.~
++  SAY @111
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS90
+-  SAY ~I will not. I am sorry.~
++  SAY @112
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS91
+-  SAY ~I will sit with you for as long as you need me. I will watch over you when you fall asleep and I will guard you.~
+-  IF ~~ THEN REPLY ~Guarding was not exactly what I had in mind, Valygar.~ GOTO TS92
+-  IF ~~ THEN REPLY ~Well, I will feel very safe and very disappointed then.~ GOTO TS95
+-  IF ~~ THEN REPLY ~My personal ranger-protector. Thank you. I will go to sleep then. Good night, Valygar.~ GOTO TS89
++  SAY @113
++  IF ~~ THEN REPLY @114 GOTO TS92
++  IF ~~ THEN REPLY @115 GOTO TS95
++  IF ~~ THEN REPLY @116 GOTO TS89
+ END
+ 
+ IF ~~ THEN BEGIN TS92
+-  SAY ~I know. You are so close. I hear you breathing and I hear how your heart beats. I wish to be with you more than anything else. Will you be mine tonight, <CHARNAME>? Will you have me?~
+-  IF ~~ THEN REPLY ~Oh, will you already stop speaking and kiss me?~ GOTO TS88
+-  IF ~~ THEN REPLY ~Yes, Valygar. We both know that it is bound to happen, so why not tonight?~ GOTO TS88
+-  IF ~~ THEN REPLY ~No, not tonight. Maybe another time.~ GOTO TS93
+-  IF ~~ THEN REPLY ~Get lost.~ GOTO TS94
++  SAY @117
++  IF ~~ THEN REPLY @106 GOTO TS88
++  IF ~~ THEN REPLY @107 GOTO TS88
++  IF ~~ THEN REPLY @108 GOTO TS93
++  IF ~~ THEN REPLY @118 GOTO TS94
+ END
+ 
+ IF ~~ THEN BEGIN TS93
+-  SAY ~Of course, nightingale. I am sorry... I was impatient. Sleep well.~
++  SAY @111
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS94
+-  SAY ~Fine, fine. Do not make a habit of teasing men. You are playing with fire.~
++  SAY @119
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS95
+-  SAY ~Disappointed? May I ask you something? You are so close. I hear you breathing and I hear how your heart beats. I wish to be with you more than anything else. Will you be mine tonight, <CHARNAME>? Will you have me?~
+-  IF ~~ THEN REPLY ~Oh, will you already stop speaking and kiss me?~ GOTO TS88
+-  IF ~~ THEN REPLY ~Yes, Valygar. We both know that it is bound to happen, so why not tonight?~ GOTO TS88
+-  IF ~~ THEN REPLY ~No, not tonight. Maybe another time.~ GOTO TS89
+-  IF ~~ THEN REPLY ~Get lost.~ GOTO TS94
++  SAY @120
++  IF ~~ THEN REPLY @106 GOTO TS88
++  IF ~~ THEN REPLY @107 GOTO TS88
++  IF ~~ THEN REPLY @108 GOTO TS89
++  IF ~~ THEN REPLY @118 GOTO TS94
+ END
+ 
+ IF ~~ THEN BEGIN TS96
+-  SAY ~He is too far away, <CHARNAME>. But I am here and I will do my best to protect you. I will die for you, nightingale. If you are feeling unsure, I will sit with you for as long as you need me. I will watch over you when you fall asleep and I will guard you.~
+-  IF ~~ THEN REPLY ~Guarding was not exactly what I had in mind, Valygar.~ GOTO TS92
+-  IF ~~ THEN REPLY ~Well, I will feel very safe and very disappointed then.  ~ GOTO TS95
+-  IF ~~ THEN REPLY ~My personal ranger-protector. Thank you. I will go to sleep then. Good night, Valygar. ~ GOTO TS89
++  SAY @121
++  IF ~~ THEN REPLY @114 GOTO TS92
++  IF ~~ THEN REPLY @122 GOTO TS95
++  IF ~~ THEN REPLY @123 GOTO TS89
+ END
+ 
+ IF ~~ THEN BEGIN TS97
+-  SAY ~Stars are the best friends of a traveller. Eventually, you are bound to start looking beyond practicality with something as beautiful and mysterious as stars. I love stargazing and I am glad that you do too.~
+-  IF ~~ THEN REPLY ~Valygar, is your arm on my shoulder?~ GOTO TS85
++  SAY @124
++  IF ~~ THEN REPLY @125 GOTO TS85
+ END
+ 
+ IF WEIGHT #-24 ~Global("ExpLoveTalk","LOCALS",14)~ THEN BEGIN TS98
+-  SAY ~Here comes the dawn to steal my happiness. One more kiss, <CHARNAME>, while the night lasts. One more kiss to remember you by. If I only can slow the passage of hours, if I only can hold you in my arms a while longer!~
+-  IF ~~ THEN REPLY ~We cannot let passion run our daily life.  Here is your kiss, but in five minutes I expect you to be fully dressed, armour shining and ready for whatever battle is in store for us today.~ GOTO TS99
+-  IF ~~ THEN REPLY ~We cannot change the passage of hours, but I am not in a hurry to go slaughter someone. I am rather in a mood to stay where I am.~ GOTO TS100
+-  IF ~~ THEN REPLY ~There will be another night, Valygar. And I am looking forward to it.~ GOTO TS99
+-  IF ~~ THEN REPLY ~No, Valygar, no more kisses. It was a terrible mistake and I regret it now. What’s done is done, but I do not love you, ranger.~ GOTO TS101
++  SAY @126
++  IF ~~ THEN REPLY @127 GOTO TS99
++  IF ~~ THEN REPLY @128 GOTO TS100
++  IF ~~ THEN REPLY @129 GOTO TS99
++  IF ~~ THEN REPLY @130 GOTO TS101
+ END
+ 
+ IF ~~ THEN BEGIN TS99
+-  SAY ~Yes, of course.~
++  SAY @131
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",15)
+ RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS100
+-  SAY ~Ohhhh.... Mmmmm......~
++  SAY @110
+   IF ~~ THEN DO ~SetGlobal("ExpLoveTalk","LOCALS",15)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -407,7 +402,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS101
+-  SAY ~Fine, fine. Do not make a habit of teasing men. You are playing with fire.~
++  SAY @119
+   IF ~~ THEN DO ~SetGlobal("ValygarRomanceActive","GLOBAL",3)~ EXIT
+ END
+ 
+@@ -415,42 +410,42 @@
+ //////////////////////////////////////////////////////////////////////////////////////
+ 
+ IF ~Global("VP_BExpValygar3","LOCALS",2)~ THEN BEGIN TS111
+-  SAY ~Mazzy, remember how you asked me if I’d want to join your group after <CHARNAME>’s quest is over?~
++  SAY @132
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar3","LOCALS",3)~ EXTERN ~BMAZZY25~ TS68
+ END
+ 
+ IF ~~ THEN BEGIN TS112
+-  SAY ~I did think about it.~
++  SAY @133
+   IF ~~ THEN EXTERN ~BMAZZY25~ TS69
+ END
+ 
+ IF ~~ THEN BEGIN TS113
+-  SAY ~Yes. That’s settled then. I am sure you will find loyal companions to trail the roads of Faerûn with. You will lead them to heroic deeds. I shall hear a song in an inn about Lady Fentan and her exploits and say with pride, "I was once her squire."~
++  SAY @134
+   IF ~~ THEN EXTERN ~BMAZZY25~ TS70
+ END
+ 
+ IF ~~ THEN BEGIN TS114
+-  SAY ~Yes?~
++  SAY @135
+   IF ~~ THEN EXTERN ~BMAZZY25~ TS71
+ END
+ 
+ IF ~~ THEN BEGIN TS115
+-  SAY ~I do not know Mazzy... The plans <CHARNAME> and I have made are up in the air and who knows. Everything is uncertain, and we are not together in the way you suggested we are.~
++  SAY @136
+   IF ~~ THEN EXTERN ~BMAZZY25~ TS72
+ END
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~I love her Mazzy - that I know. But she has greater things to take care of than a man’s heart.~
++  SAY @137
+   IF ~~ THEN EXTERN ~BMAZZY25~ TS73
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~Yes, Mazzy.~
++  SAY @138
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar4","LOCALS",2)~ THEN BEGIN TS118
+-  SAY ~What is it, Sarevok?~
++  SAY @139
+   IF ~OR(3)
+ Class(Player1,MAGE)
+ Class(Player1,MAGE_ALL)
+@@ -461,353 +456,353 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~I believe so, yes. And I know what I talk about.~
++  SAY @140
+   IF ~~ THEN EXTERN ~BSAREV25~ TS147
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~Truly? She is my friend and I cherish her friendship.~
++  SAY @141
+   IF ~~ THEN EXTERN ~BSAREV25~ TS148
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~Intentions?~
++  SAY @142
+   IF ~~ THEN EXTERN ~BSAREV25~ TS149
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~Intent?~
++  SAY @143
+   IF ~~ THEN EXTERN ~BSAREV25~ TS150
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~You... are delusional, Sarevok.~
++  SAY @144
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar5","LOCALS",2)~ THEN BEGIN TS124
+-  SAY ~Aye, Sarevok?~
++  SAY @145
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar5","LOCALS",3)~ GOTO TS125
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~You are going to make a hole in my armor if you keep staring at me with that burning gaze... Spit it out, Anchev.~
++  SAY @146
+   IF ~~ THEN EXTERN ~BSAREV25~ TS151
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~Saverok, what is it all about?~
++  SAY @147
+   IF ~~ THEN EXTERN ~BSAREV25~ TS152
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~Don’t give me the big brother talk. You spent months plotting for her death. You killed her mentor, you pursued her all over the Sword Coast and you now dare to suggest that it is ME who wants to hurt her?~
++  SAY @148
+   IF ~~ THEN EXTERN ~BSAREV25~ TS153
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~Really?  You are blackmailing her constantly with your common origin, Anchev. One day she will realize that she need have nothing more to do with your filth. I hope that day will come soon.~
++  SAY @149
+   IF ~~ THEN EXTERN ~BSAREV25~ TS154
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~You could try, but I doubt you would succeed.~
++  SAY @150
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar6","LOCALS",2)~ THEN BEGIN TS130
+-  SAY ~Saverok, if you want to fight me, then fight me. I love your sister and I am going to seek her favor. Whether you like it or not.~
++  SAY @151
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar6","LOCALS",3)~ EXTERN ~BSAREV25~ TS155
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~I am not ashamed of anything connected with your sister, Anchev. Except for you.~
++  SAY @152
+   IF ~~ THEN EXTERN ~BSAREV25~ TS156
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Threats again?~
++  SAY @153
+   IF ~~ THEN EXTERN ~BSAREV25~ TS157
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~I am scared out of my wits, Anchev.~
++  SAY @154
+   IF ~~ THEN EXTERN ~BSAREV25~ TS158
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~I’ve got the general idea, Saverok. I think for <CHARNAME>’s sake we should try to avoid an open confrontation and arguments like that. She looks at us already. Will you smile?~
++  SAY @155
+   IF ~~ THEN EXTERN ~BSAREV25~ TS159
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~I am trying my best.~
++  SAY @156
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar7","LOCALS",2)~ THEN BEGIN TS136
+-  SAY ~I thought we had exhausted our conversations.~
++  SAY @157
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar7","LOCALS",3)~ EXTERN ~BSAREV25~ TS160
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~Well, go ahead... You will not stop anyway.~
++  SAY @158
+   IF ~~ THEN EXTERN ~BSAREV25~ TS161
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~I think I understand how you feel... I have no siblings, but I believe that I would be just as protective as you if I ever had one. Still, there never was a need to threaten me, Sarevok. I am hardly a frivolous type intent on breaking ladies’ hearts.~
++  SAY @159
+   IF ~~ THEN EXTERN ~BSAREV25~ TS164
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~I am not impressed.~
++  SAY @160
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar8","LOCALS",2)~ THEN BEGIN TS140
+-  SAY ~Is that true? You two are getting married?~
++  SAY @161
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar8","LOCALS",3)~ EXTERN ~BKACHI25~ 13
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~My congratulations! Of course I will.~
++  SAY @162
+   IF ~~ THEN EXTERN ~BKACHI25~ 14
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~Ahem... Aren’t you going to invite <CHARNAME>?~
++  SAY @163
+   IF ~~ THEN EXTERN ~BKACHI25~ 15
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~Kachiko?~
++  SAY @164
+   IF ~~ THEN EXTERN ~BKACHI25~ 16
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~The sweet matchmaker is at work again?~
++  SAY @165
+   IF ~~ THEN EXTERN ~BKACHI25~ 17
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~I am afraid your own happiness makes you see the world in rose, Kachiko. Look at  <CHARNAME>! She may join the pantheon soon. We are on a mission of meticulously killing her blood relatives. It’s just not the right time!~
++  SAY @166
+   IF ~~ THEN EXTERN ~BKACHI25~ 18
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~(*sighs*)~
++  SAY @167
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar9","LOCALS",2)~ THEN BEGIN TS147
+-  SAY ~And what makes you so merry, Kachiko?~
++  SAY @168
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar9","LOCALS",3)~ EXTERN ~BKACHI25~ 19
+ END
+ 
+ IF ~~ THEN BEGIN TS148
+-  SAY ~Kachiko, the Kara-Turians are supposed to be a reserved people. Besides, Yoshimo is going to cut my throat shortly.~
++  SAY @169
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS131
+ END
+ 
+ IF ~~ THEN BEGIN TS149
+-  SAY ~What this is all about, lovebirds?~
++  SAY @170
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS133
+ END
+ 
+ IF ~~ THEN BEGIN TS150
+-  SAY ~I did not think the City Crier’s had announced that yet.~
++  SAY @171
+   IF ~~ THEN EXTERN ~BKACHI25~ 22
+ END
+ 
+ IF ~~ THEN BEGIN TS151
+-  SAY ~If something goes wrong I know whom to blame, do not I? ~
++  SAY @172
+   IF ~~ THEN EXTERN ~BKACHI25~ 23
+ END
+ 
+ IF ~Global("VP_BExpValygar10","LOCALS",2)~ THEN BEGIN TS178
+-  SAY ~I told you not to bother <CHARNAME> with your foolishness, Anomen.~
++  SAY @173
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar10","LOCALS",3)~ EXTERN ~BANOME25~ TS134
+ END
+ 
+ IF ~~ THEN BEGIN TS179
+-  SAY ~Like the Nine Hells it is! I will not leave you alone with her.~
++  SAY @174
+   IF ~~ THEN EXTERN ~BANOME25~ TS135
+ END
+ 
+ IF ~~ THEN BEGIN TS180
+-  SAY ~(*sighs*) I am not jealous. I am worried that in your current state you are capable of hurting her.~
++  SAY @175
+   IF ~~ THEN EXTERN ~BANOME25~ TS136
+ END
+ 
+ IF ~~ THEN BEGIN TS181
+-  SAY ~(*laughs*) Of course milady. I erred. I shall not bother you and your lover any longer.~
++  SAY @176
+   IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS182
+-  SAY ~As Lady commands.~
++  SAY @177
+   IF ~~ THEN EXTERN ~BANOME25~ TS137
+ END
+ 
+ IF ~~ THEN BEGIN TS183
+-  SAY ~You heard what she said. It was quite clear.~
++  SAY @178
+   IF ~~ THEN GOTO TS185
+ END
+ 
+ IF ~~ THEN BEGIN TS184
+-  SAY ~Anomen...~
++  SAY @179
+   IF ~~ THEN EXTERN ~BANOME25~ TS139
+ END
+ 
+ IF ~~ THEN BEGIN TS185
+-  SAY ~Anomen... (*Anomen turns slowly away... tears drop onto his polished armour suit*)~
+-  IF ~~ THEN REPLY ~Anomen, stop crying... you are knight after all...~ DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXTERN ~BANOME25~ TS138
+-  IF ~~ THEN REPLY ~Anomen, shame on you... you are knight after all...~ DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXTERN ~BANOME25~ TS138
++  SAY @180
++  IF ~~ THEN REPLY @181 DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXTERN ~BANOME25~ TS138
++  IF ~~ THEN REPLY @182 DO ~SetGlobal("AnomenRomanceActive","GLOBAL",3)~ EXTERN ~BANOME25~ TS138
+ END
+ 
+ IF ~~ THEN BEGIN TS186
+-  SAY ~Well, I am afraid you will not have your answer.~
++  SAY @183
+   IF ~~ THEN EXTERN ~BANOME25~ TS140
+ END
+ 
+ IF ~~ THEN BEGIN TS187
+-  SAY ~You are not going after <CHARNAME>, you are not yourself. Anomen!~
++  SAY @184
+   IF ~~ THEN EXTERN ~BANOME25~ TS141
+ END
+ 
+ IF ~~ THEN BEGIN TS188
+-  SAY ~I am afraid you will have to choose sooner or later.~
++  SAY @185
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar11","LOCALS",2)~ THEN BEGIN TS189
+-  SAY ~Now, that’s the first time I’ve seen you smiling Aerie. What is the reason for your merriment?~
++  SAY @186
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar11","LOCALS",3)~ EXTERN ~BAERIE25~ TS166
+ END
+ 
+ IF ~~ THEN BEGIN TS190
+-  SAY ~And what’s ill about that?~
++  SAY @187
+   IF ~~ THEN EXTERN ~BAERIE25~ TS167
+ END
+ 
+ IF ~~ THEN BEGIN TS191
+-  SAY ~Ranger’s honour, I will not.~
++  SAY @188
+   IF ~~ THEN EXTERN ~BAERIE25~ TS168
+ END
+ 
+ IF ~~ THEN BEGIN TS192
+-  SAY ~And my tattered cloak swirls around me as if I am standing on the crossroad where the Twelve Winds meet... Do I look blurry, Aerie?~
++  SAY @189
+   IF ~~ THEN EXTERN ~BAERIE25~ TS169
+ END
+ 
+ IF ~~ THEN BEGIN TS193
+-  SAY ~One more avatar in this group will be one too many, Aerie. It’s <CHARNAME>’s job to be an avatar. Though it scares me when <CHARNAME> is forced to take on the unspeakable form of the Slayer. How can such a lovely person be disfigured so much? It is a heavy cruelty...~
++  SAY @190
+   IF ~~ THEN EXTERN ~BAERIE25~ TS170
+ END
+ 
+ IF ~~ THEN BEGIN TS194
+-  SAY ~Sorry, what did you just say?~
++  SAY @191
+   IF ~~ THEN EXTERN ~BAERIE25~ TS171
+ END
+ 
+ IF ~~ THEN BEGIN TS195
+-  SAY ~Alright, let’s catch up with the others then, shall we?~
++  SAY @192
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar12","LOCALS",2)~ THEN BEGIN TS196
+-  SAY ~Yes, Yoshimo, my family have had this katana for generations. Apparently my great grandfather, Garcia Corthala, was as much a warrior as a mage. He was a wanderer and he traveled far and wide, fighting his way through as often as teleporting away peacefully.~
++  SAY @193
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar12","LOCALS",3)~ EXTERN ~BYOSHIM~ TS134
+ END
+ 
+ IF ~~ THEN BEGIN TS197
+-  SAY ~Indeed.~
++  SAY @194
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS135
+ END
+ 
+ IF ~~ THEN BEGIN TS198
+-  SAY ~Might you know what the symbols etched on the blade mean?~
++  SAY @195
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS136
+ END
+ 
+ IF ~~ THEN BEGIN TS199
+-  SAY ~I thought it would refer to the enchantment somehow.~
++  SAY @196
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS137
+ END
+ 
+ IF ~~ THEN BEGIN TS200
+-  SAY ~I would not know. Garcia died before I was born and my father was too young at the time  to listen to his tales of battle, love and power. I regret now that I did not know my great grandfather.~
++  SAY @197
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar13","LOCALS",2)~ THEN BEGIN TS201
+-  SAY ~I like the Pocket Plane no more than you do, Nalia. I do not have troubles sleeping there as you do, but I loathe staying there.~
++  SAY @198
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar13","LOCALS",3)~ EXTERN ~BNALIA25~ TS59
+ END
+ 
+ IF ~~ THEN BEGIN TS202
+-  SAY ~Indeed it is. I wish <CHARNAME> did not have to face the unfortunate consequences of her heritage quite so often.~
++  SAY @199
+   IF ~~ THEN EXTERN ~BNALIA25~ TS60
+ END
+ 
+ IF ~~ THEN BEGIN TS203
+-  SAY ~Well, may be she would not have to.~
++  SAY @200
+   IF ~~ THEN EXTERN ~BNALIA25~ TS61
+ END
+ 
+ IF ~~ THEN BEGIN TS204
+-  SAY ~Nalia, what are you talking about? You want to re-decorate the Pocket Plane?~
++  SAY @201
+   IF ~~ THEN EXTERN ~BNALIA25~ TS62
+ END
+ 
+ IF ~Global("VP_BExpValygar1","LOCALS",2)
+ Global("VP_Banter_Switch","LOCALS",1)~ THEN BEGIN TS102
+-  SAY ~What's your opinion on marriage?~
+-  IF ~~ THEN REPLY ~Marriage? I...~ DO ~SetGlobal("VP_BExpValygar1","LOCALS",3)
++  SAY @202
++  IF ~~ THEN REPLY @203 DO ~SetGlobal("VP_BExpValygar1","LOCALS",3)
+ SetGlobal("VP_Banter_Switch","LOCALS",0)~ EXTERN ~BIMOEN25~ TS112
+ END
+ 
+ IF ~~ THEN BEGIN TS103
+-  SAY ~Ahem, I merely asked an abstract question...~
++  SAY @204
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS113
+ END
+ 
+ IF ~~ THEN BEGIN TS104
+-  SAY ~The biggest temple in Athkatla is the Temple of Talos, Imoen. And we are not getting married...~
++  SAY @205
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS114
+ END
+ 
+ IF ~~ THEN BEGIN TS105
+-  SAY ~Well, I think I've understood YOUR idea on marriages, Imoen...~
++  SAY @206
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BExpValygar2","LOCALS",2)
+ Global("VP_Banter_Switch","LOCALS",1)~ THEN BEGIN TS106
+-  SAY ~Our latest exploits made me doubt that a large family is such a good thing after all... Look, your so-called father manifests himself even after his death by transforming <CHARNAME> into some kind of a monster. Maniacal half-siblings of yours do their best to drag your lives into Nine Hells or exterminate you, along with the half of the Sword Coast population for a good measure...~
++  SAY @207
+   IF ~~ THEN DO ~SetGlobal("VP_BExpValygar2","LOCALS",3)
+ SetGlobal("VP_Banter_Switch","LOCALS",0)~ EXTERN ~BIMOEN25~ TS117
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~Blood mixes strangely in people... Thank you for your insights, Imoen, what you say is true. Your closeness with <CHARNAME> is enviable. The weariness of the battle made me succumb to my prejudices.~
++  SAY @208
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS119
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~True again. Many things that have happened because of  <CHARNAME>'s heritage do not make sense to me. I hate the dark power, which she has been bestowed. But I would not betray or desert her...~
++  SAY @209
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS120
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~I treasure her friendship.~
++  SAY @210
+   IF ~~ THEN EXTERN ~BIMOEN25~ TS121
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~No other reason Imoen.~
++  SAY @211
+   IF ~~ THEN EXIT
+ END
+ END

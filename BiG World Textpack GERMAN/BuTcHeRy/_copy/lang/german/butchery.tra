@@ -1,0 +1,56 @@
+// Creatures names
+// ---------------
+@101 = ~Ogre Berserker~	// = BG2 string #17561 and 17562
+@102 = ~Ogre Barbarian~
+//@26  = ~Tenardiar~	DEPRECATED
+@104 = ~Groumf~
+@105 = ~Bourrinos~
+/* DEPRECATED
+@10023  = ~Barbarian~
+@11100  = ~Adepte Barbare~
+@11200  = ~Prêtre de Silvanus~
+*/
+
+// Creatures soundsets
+// -------------------
+@201 = ~Schwächliche Insekten!~ [d9groua]
+@202 = ~Mit der Wut von Tempus!~ [d9grou8]
+@203 = ~By Hutgar's strength!~ [d9grou9]
+@204 = ~Ha Ha Ha !~ [d9groug]
+@205 = ~Was?!~ [d9grouf]
+@206 = ~Mehr Blut!~ [d9grou0]
+
+@211 = ~Ihr sterbt jetzt!~ [d9bara9]
+@212 = ~Prügelei!~ [d9baraa]
+@213 = ~Ja!~ [d9barag]
+@214 = ~Was?!~ [d9barah]
+
+// Creatures scripts
+// -----------------
+@301 = ~*Trinkt einen Absorptionstrank*~	// former @454
+@302 = ~*Trinkt einen Stärketrank*~			// former @456
+@303 = ~*Trinkt einen Geschicklichkeitstrank*~		// former @457
+@304 = ~*Trinkt Verteidigungstrank*~		// former @453
+//@455 = ~*Trinkt einen Trank der Steinform*~	// DEPRECATED
+//@452 = ~*gulp*~							// DEPRECATED
+
+// d9ar1203.baf
+// ------------
+@321 = ~Eine mächtige magische Barriere erscheint plötzlich, es ist unmöglich umzukehren.~	// former @480
+@322 = ~GrabGrub, der widerliche Orkführer ist nun tot und seine Horde wird bald aufhören zu kämpfen. Jedoch befürchtet Ihr, dass es ganz so einfach nicht enden kann und Ihr solltet Euch auf die letzte Herausforderung vorbereiten!~	// former @460
+@323 = ~Diesesmal seid Ihr Euch sicher, dass Tazok zu Sarevok in die Hölle gefahren ist und sein Gefolge Euch für eine lange Zeit nicht mehr stören wird.~	// former @461
+
+// d9cutta1.baf
+// ------------
+@331 = ~Ha ha ha! Diese Idioten sind voll in unsere Falle getappt!~	// former @470
+//@471 = ~Mit dem Zorne des Tempus!~	DEPRECATED
+@333 = ~Achtung!~	// former @472
+@334 = ~Verdammt, bist Du hässlich~	// former @473
+@335 = ~Ja, Herr!~	// former @474
+@336 = ~Mein Herr, die Magiebande sind nun vollendet, die Eindringlinge sind gefangen!~	// former @475
+@337 = ~Exzellent! Der Meister wird erfreut sein und ich werde meine Rache bekommen!~	// former @476
+/* DEPRECATED
+@477 = ~J'vais vous écraser 
+le nez !~
+@479 = ~Soignez ces deux imbéciles. Ils devront racheter leur incompétence auprès du maître.~
+*/

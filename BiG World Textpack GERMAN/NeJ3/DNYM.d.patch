@@ -1,0 +1,258 @@
+--- NeJ3\dlg\DNYM.d	Sat Sep 08 21:42:12 2018
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DNYM.d	Wed Apr 10 10:24:48 2019
+@@ -1,168 +1,168 @@
+ BEGIN ~DNYM~
+ 
+ IF WEIGHT #0 ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Mallan uss, dis malli usstan tal tanas talthalra.  Usstan zha Nym.~
+-  IF ~~ THEN REPLY ~Excuse me, but I don't understand what you're saying.~ GOTO 1
+-  IF ~Race(LastTalkedToBy,Elf)~ THEN REPLY ~Do not befoul this meeting with your corrupt dark elven speech.~ GOTO 2
+-  IF ~Race(LastTalkedToBy,Dwarf)~ THEN REPLY ~You must be able to see that I'm a dwarf, so I'm puzzled as to why you would *dare* speak your putrid drow language in my presence.~ GOTO 2
+-  IF ~~ THEN REPLY ~Quit the mumbo-jumbo, friend.  Speak Common.~ GOTO 1
+-  IF ~~ THEN REPLY ~Die, drow scum!~ DO ~Enemy()~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~Race(LastTalkedToBy,Elf)~ THEN REPLY @2 GOTO 2
++  IF ~Race(LastTalkedToBy,Dwarf)~ THEN REPLY @3 GOTO 2
++  IF ~~ THEN REPLY @4 GOTO 1
++  IF ~~ THEN REPLY @5 DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I apologize, honored customer.  I will speak in your Common tongue for our mutual convenience.  I am Nym.~
+-  IF ~~ THEN REPLY ~Customer?  Are you a merchant of some kind?~ GOTO 3
+-  IF ~~ THEN REPLY ~Great.  Show me your wares.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~How did a dark elf wind up in a village of deep gnomes?  Deep gnomes hate drow, don't they?~ GOTO 4
+-  IF ~~ THEN REPLY ~Well, Nym... die, drow scum!~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~I have to go.  Farewell, Nym.~ GOTO 9
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @8 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @9 GOTO 4
++  IF ~~ THEN REPLY @10 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @11 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~As you wish.  I will continue in the Common tongue of surface dwellers if that makes you feel more at ease.  I am Nym.  Now, shall we get down to business?~
+-  IF ~~ THEN REPLY ~Business?  Are you a merchant of some kind? ~ GOTO 3
+-  IF ~~ THEN REPLY ~Certainly.  Show me what you have to offer.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~How did a *drow* like *you* wind up in a community of deep gnomes?  Deep gnomes hate your kind, don't they?~ GOTO 4
+-  IF ~~ THEN REPLY ~No, I think not.  I think you'll be dying by my hand, drow.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~I must go now.  Farewell, Nym.~ GOTO 9
++  SAY @12
++  IF ~~ THEN REPLY @13 GOTO 3
++  IF ~~ THEN REPLY @14 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @15 GOTO 4
++  IF ~~ THEN REPLY @16 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @17 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~I am a merchant in these darkened caverns, yes.  Contrary to what some surface-dwellers may think, there is an entire world down here.  People have the same needs here that they would have anywhere.  I satisfy those needs.~
+-  IF ~~ THEN REPLY ~I'd like to see your goods.  Perhaps you have something that might interest me.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Being an Underdark merchant sounds like it could be a dangerous and short career.~ GOTO 5
+-  IF ~~ THEN REPLY ~You're about to satiate my yearly need to kill a manipulative dark elf bastard.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Farewell, Nym.~ GOTO 9
++  SAY @18
++  IF ~~ THEN REPLY @19 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @20 GOTO 5
++  IF ~~ THEN REPLY @21 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @22 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Dire need overcomes simple hatred in periods of duress.  I am a businessman.  Petty racial differences are irrelevant in my dealings.  The deep gnomes have gems.  I have goods.  It's an excellent relationship.  Most profitable.~
+-  IF ~~ THEN REPLY ~I'd like to see your goods.  Perhaps you have something that might interest me.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Being an Underdark merchant sounds like it could be a dangerous and short career.~ GOTO 5
+-  IF ~~ THEN REPLY ~Manipulative scum like you should be wiped from the face *and* the bowels of Faerun.  I'll be doing the world a favor when I kill you.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~Hmm.  Farewell, Nym.~ GOTO 9
++  SAY @23
++  IF ~~ THEN REPLY @19 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @20 GOTO 5
++  IF ~~ THEN REPLY @24 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @25 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~For many, it is.  However, I have been in this trade for over four hundred years.  I have seen my way into and out of places that no other dark elf has even seen.  You'd be surprised how powerful a single merchant can be.~
+-  IF ~~ THEN REPLY ~Interesting.  Show me your goods.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Really?  Where have you been?~ GOTO 6
+-  IF ~~ THEN REPLY ~You're the one that's going to be surprised when I'm standing over your dying corpse.  I'm about to do the world a favor.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~I have to be going, Nym.  Farewell. ~ GOTO 9
++  SAY @26
++  IF ~~ THEN REPLY @27 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @28 GOTO 6
++  IF ~~ THEN REPLY @29 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @30 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Ah, well... I have seen many things, been many places.  The gem mines of Thay aren't quite as frightening as some might lead you to believe.  The depths of the Moonsea *aren't* filled with undead.  Oh, and the treasury of Dorn's Deep wasn't very secure even when it was inhabited by the dwarves.  ~
+-  IF ~~ THEN REPLY ~Hmm.  Let me see your goods, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Wait.  What are you getting at?~ DO ~SetGlobal("Voice_Quest","GLOBAL",1)~ GOTO 7
+-  IF ~~ THEN REPLY ~I hate thieving drow scum.  Die!~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~Interesting.  Farewell, Nym.~ GOTO 9
++  SAY @31
++  IF ~~ THEN REPLY @32 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @33 DO ~SetGlobal("Voice_Quest","GLOBAL",1)~ GOTO 7
++  IF ~~ THEN REPLY @34 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @22 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~The darthiir and dwarven artifacts produced by the so-called "Time of Cooperation" were too valuable to resist.  Selling the artifacts to the goblinoid armies was the best business decision I ever made.~
+-  IF ~~ THEN REPLY ~Why's that?~ GOTO 8
+-  IF ~~ THEN REPLY ~All those cursed elves, these ruined dwarven citadels... Two ancient cultures exterminated because of you, Nym.  That's it.  You're going to pay for what you did.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~I have to go now, Nym.  Farewell.~ GOTO 9
++  SAY @35
++  IF ~~ THEN REPLY @36 GOTO 8
++  IF ~~ THEN REPLY @37 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @38 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~It had so many angles to play.  The stupid goblins went bankrupt just to buy artifacts that they couldn't use properly.  The dwarves who were threatening to attack some drow outposts were implicated, and the darthiir slit their own throats when they decided to wage war against the goblins *and* dwarves.  Silly elves.~
+-  IF ~~ THEN REPLY ~You know, I'm not particularly fond of what you did, but you may have something I need.  Let me see what you have.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Good job, Nym.  I would have made the same decision.  Now, if you would be so kind as to show me your wares...~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~You bastard.  You're responsible for thousands upon thousands of deaths.  You may have gone for hundreds of years without getting caught, but you're not getting away from me.~ DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  SAY @39
++  IF ~~ THEN REPLY @40 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @41 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @42 DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Aluve.~
++  SAY @44
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #4 ~NumTimesTalkedToGT(0)~ THEN BEGIN 10
+-  SAY ~I welcome you back, honored customer.~
+-  IF ~~ THEN REPLY ~Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Nym, isn't it dangerous being an Underdark merchant?~ GOTO 5
+-  IF ~~ THEN REPLY ~I was just stopping to greet you.  Farewell.~ GOTO 9
++  SAY @45
++  IF ~~ THEN REPLY @46 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @47 GOTO 5
++  IF ~~ THEN REPLY @48 GOTO 9
+ END
+ 
+ IF WEIGHT #3 ~NumTimesTalkedToGT(0)
+ PartyHasItem("BeetShld")
+ GlobalLT("Nym_Shield","GLOBAL",1)~ THEN BEGIN 11
+-  SAY ~I welcome you back, honored customer.  That's an excellent shield you have there.  Rhino beetles are incredibly durable creatures.  You know, for such an honored customer, I might be able to have this enchanted...~
+-  IF ~~ THEN REPLY ~How much would it cost to enchant the shield?~ GOTO 12
+-  IF ~~ THEN REPLY ~Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Nym, isn't it dangerous being an Underdark merchant?~ GOTO 5
+-  IF ~~ THEN REPLY ~I was just stopping to greet you.  Farewell.~ GOTO 9
++  SAY @49
++  IF ~~ THEN REPLY @50 GOTO 12
++  IF ~~ THEN REPLY @46 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @47 GOTO 5
++  IF ~~ THEN REPLY @48 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~For the small sum of fifty thousand of your gold pieces, it could easily be done.~
+-  IF ~PartyGoldGT(49999)~ THEN REPLY ~Sounds good, Nym.  Here's the money.~ DO ~TakePartyGold(50000)
++  SAY @51
++  IF ~PartyGoldGT(49999)~ THEN REPLY @52 DO ~TakePartyGold(50000)
+ TakePartyItem("BeetShld")
+ SetGlobal("Nym_Shield","GLOBAL",1)
+ SetGlobalTimer("Nym_Timer","GLOBAL",ONE_DAY)~ GOTO 13
+-  IF ~PartyGoldLT(50000)~ THEN REPLY ~Sounds good, Nym.  Here's the money.~ GOTO 17
+-  IF ~~ THEN REPLY ~That's outrageous!  Lower your prices or I'm not interested.~ GOTO 14
+-  IF ~~ THEN REPLY ~Maybe some other time.  Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~I was just stopping to greet you.  Farewell.~ GOTO 9
++  IF ~PartyGoldLT(50000)~ THEN REPLY @52 GOTO 17
++  IF ~~ THEN REPLY @53 GOTO 14
++  IF ~~ THEN REPLY @54 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @48 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~A most excellent choice, honored customer.  Come back in one day and your shield will be ready.~
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  SAY @55
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Hmm.  You are not only incredibly powerful, but also a tough bargainer.  I will give you an enchanted shield and this beautiful magical dagger for only fifty three thousand gold coins.~
+-  IF ~PartyGoldGT(52999)~ THEN REPLY ~Okay.  That seems reasonable.~ DO ~TakePartyGold(53000)
++  SAY @56
++  IF ~PartyGoldGT(52999)~ THEN REPLY @57 DO ~TakePartyGold(53000)
+ TakePartyItem("BeetShld")
+ GiveItemCreate("NymDagg",Protagonist,0,0,0)
+ SetGlobal("Nym_Shield","GLOBAL",1)
+ SetGlobalTimer("Nym_Timer","GLOBAL",ONE_DAY)~ GOTO 15
+-  IF ~PartyGoldLT(53000)~ THEN REPLY ~Okay.  That seems reasonable.~ GOTO 17
+-  IF ~~ THEN REPLY ~I don't want the dagger.  I just want the shield.  And I don't want to pay fifty three thousand gold for it.~ GOTO 16
+-  IF ~~ THEN REPLY ~Maybe some other time.  Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  IF ~PartyGoldLT(53000)~ THEN REPLY @57 GOTO 17
++  IF ~~ THEN REPLY @58 GOTO 16
++  IF ~~ THEN REPLY @54 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~Your impeccable taste and shrewd business sense indicate fine breeding and a keen mind.  Here is your dagger, honored customer.  The shield will be ready in one day.~
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  SAY @59
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Of course, of course.  It was insulting of me to imply otherwise.  What would this honored customer want with a trinket, a small jeweled dagger, a nothing?  To apologize for the insult, I will offer you a more powerful enchantment on the shield for a lower price.  Your charisma has swayed me down to the insane price of forty eight thousand gold coins.~
+-  IF ~PartyGoldGT(47999)~ THEN REPLY ~That sounds like a good offer.  Here's the money, Nym.~ DO ~TakePartyGold(48000)
++  SAY @60
++  IF ~PartyGoldGT(47999)~ THEN REPLY @61 DO ~TakePartyGold(48000)
+ TakePartyItem("BeetShld")
+ SetGlobal("Nym_Shield","GLOBAL",1)
+ SetGlobalTimer("Nym_Timer","GLOBAL",ONE_DAY)~ GOTO 13
+-  IF ~PartyGoldLT(48000)~ THEN REPLY ~That sounds like a good offer.  Here's the money, Nym.~ GOTO 17
+-  IF ~~ THEN REPLY ~Maybe some other time.  Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Forget it.  I'm not interested.  Farewell, Nym.~ GOTO 9
++  IF ~PartyGoldLT(48000)~ THEN REPLY @61 GOTO 17
++  IF ~~ THEN REPLY @54 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @62 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~Honored customer, it appears that you do not have the funds necessary for this purchase.  As a token of my appreciation to you, I will not give this opportunity to anyone else.  Should you return with the required funds in the future, the offer will remain open.~
+-  IF ~~ THEN REPLY ~Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  SAY @63
++  IF ~~ THEN REPLY @46 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF WEIGHT #1 ~NumTimesTalkedToGT(0)
+ Global("Nym_Shield","GLOBAL",1)
+ !GlobalTimerExpired("Nym_Timer","GLOBAL")~ THEN BEGIN 18
+-  SAY ~I apologize, honored customer.  Your shield is not yet done being enchanted.  Despite the fact that drow wizards can work incredibly fast, they must work for at least three days to create such a powerful item.~
+-  IF ~~ THEN REPLY ~Show me your wares, Nym.~ DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Farewell, Nym.~ GOTO 9
++  SAY @64
++  IF ~~ THEN REPLY @46 DO ~StartStore("LDD_Nym",Protagonist)~ EXIT
++  IF ~~ THEN REPLY @43 GOTO 9
+ END
+ 
+ IF WEIGHT #2 ~NumTimesTalkedToGT(0)
+ Global("Nym_Shield","GLOBAL",1)
+ GlobalTimerExpired("Nym_Timer","GLOBAL")~ THEN BEGIN 19
+-  SAY ~I welcome you back, honored customer.  Your shield is finished.  I hope that you are pleased with the results.~
+-  IF ~~ THEN REPLY ~Thanks.  Show me your wares, Nym.~ DO ~GiveItemCreate("NymShld",Protagonist,0,0,0)
++  SAY @65
++  IF ~~ THEN REPLY @66 DO ~GiveItemCreate("NymShld",Protagonist,0,0,0)
+ SetGlobal("Nym_Shield","GLOBAL",2)
+ StartStore("LDD_Nym",Protagonist)~ EXIT
+-  IF ~~ THEN REPLY ~Thanks.  Farewell, Nym.~ DO ~GiveItemCreate("NymShld",Protagonist,0,0,0)
++  IF ~~ THEN REPLY @67 DO ~GiveItemCreate("NymShld",Protagonist,0,0,0)
+ SetGlobal("Nym_Shield","GLOBAL",2)~ GOTO 9
+ END

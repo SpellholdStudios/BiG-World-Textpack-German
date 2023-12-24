@@ -1,0 +1,333 @@
+--- TS\bgtdlg\VALYGARJ.D	Sat Nov 28 00:09:02 2015
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\VALYGARJ.D	Thu May 05 10:45:19 2016
+@@ -2,14 +2,14 @@
+ 
+ IF WEIGHT #-1 ~Global("ValygarSeesOrb","GLOBAL",1)
+ !Global("LavokDead","GLOBAL",1)~ THEN BEGIN 25
+-  SAY ~Yes... this is it, this is the planar sphere here in the slums.  We should... climb the stairs and find some manner of entrance.  If I am right, my blood, my presence should open the sphere...~ [VALYGA70]
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("ValygarSeesOrb","GLOBAL",2)~ EXIT
+ END
+ 
+ IF WEIGHT #-2 ~Dead("lavok02")
+ Global("LavokDead","GLOBAL",1)
+ !Global("ValygarSeesOrb","GLOBAL",1)~ THEN BEGIN 107
+-  SAY ~He is dead.  Lavok the necromancer is finally dead.  I can scarce believe it.~ [VALYGA75]
++  SAY @1
+   IF ~~ THEN DO ~SetGlobal("LavokDead","GLOBAL",2)~ GOTO 108
+ END
+ END
+@@ -20,7 +20,7 @@
+ Global("Kiotsi_Dead","GLOBAL",1)
+ !Global("LavokDead","GLOBAL",1)
+ !Global("ValygarSeesOrb","GLOBAL",1)~ THEN BEGIN TS123
+-  SAY ~Something about this place reminds me of my family... Undead mages, twisted honor. I expect my mother to appear every minute dragging my zombied father along... Did I tell you I had to kill them both to stop my mother’s madness? Still gives me creeps. Let’s be done quickly and be out of here.~
++  SAY @2
+   IF ~~ THEN DO ~SetGlobal("Kiotsi_Dead","GLOBAL",2)~ EXIT
+ END
+ 
+@@ -33,7 +33,7 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~Stay away from her, vampire! You and your murderous bastard of a brother had taken too many lives as is. I will not allow you to harm <CHARNAME>...~
++  SAY @3
+   IF ~~ THEN EXTERN ~BODHIAMB~ TS21
+ END
+ 
+@@ -46,20 +46,20 @@
+ OR(2)
+ Global("ValygarRomanceActive","GLOBAL",1)
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN BEGIN TS128
+-  SAY ~Your eyes stop on Valygar. "It is a rare sight," you think suddenly, since the ranger spends the most of his  time scouting ahead of the party or guarding the flanks or watching the rear... or one of those endless things rangers do and which all by some reason or another require them to disappear from view. May be you should seize this opportunity to interact with him?~
+-  IF ~~ THEN REPLY ~You try to sneak up on Valygar from behind and cover his eyes with your palms...~ GOTO TS129
+-  IF ~~ THEN REPLY ~"Valygar, how are you faring?"~ GOTO TS130
+-  IF ~~ THEN REPLY ~"Do you not feel lonely sometimes, Valygar?"~ GOTO TS131
+-  IF ~~ THEN REPLY ~You come up to Valygar quietly and walk beside him in silence.~ GOTO TS132
+-  IF ~~ THEN REPLY ~You study Valygar’s face while he is preoccupied with his task.~ GOTO TS133
+-  IF ~~ THEN REPLY ~You blow Valygar a kiss.~ GOTO TS134
+-  IF ~~ THEN REPLY ~You throw a pinecone you were saving for the last three days for that particular purpose into him.~ GOTO TS135
+-  IF ~~ THEN REPLY ~You murmur under your breath: "Gods be good, he is quite a stallion that one".~ GOTO TS136
+-  IF ~~ THEN REPLY ~You do nothing.~ GOTO TS137
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO TS129
++  IF ~~ THEN REPLY @6 GOTO TS130
++  IF ~~ THEN REPLY @7 GOTO TS131
++  IF ~~ THEN REPLY @8 GOTO TS132
++  IF ~~ THEN REPLY @9 GOTO TS133
++  IF ~~ THEN REPLY @10 GOTO TS134
++  IF ~~ THEN REPLY @11 GOTO TS135
++  IF ~~ THEN REPLY @12 GOTO TS136
++  IF ~~ THEN REPLY @13 GOTO TS137
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~No, do not waste your words. Perhaps not all magic is evil, <CHARNAME>. But Irenicus is worse than anything Lavok ever was, I am sure of it. I would ask you to stay here in safety and wait until I return with the head of the mad mage... But I know, that I’d have to tie you up to keep you out of this battle. So I will not suggest it. I accept the same courtesy of you. We will fight for your soul, <CHARNAME> side by side. I am ready to die for your cause if need be. Besides, sending yet another wizard to Abyss is a pleasure, not labor for Valygar Corthala. Let us go.~
++  SAY @14
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~IsValidForPartyDialog("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -88,47 +88,47 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~You follow Valygar as stealthily as you can, and as you finally gain on him and raise your arms... Valygar whirls around suddenly, catches you by your waist and lifts you high into the air, laughing: "Nice try, <CHARNAME>!"~
++  SAY @15
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~Quite well, thank you, <CHARNAME>.~
++  SAY @16
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~I do. Care to keep me company for a while?~
++  SAY @17
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Slowly Valygar gets a hold of your hand. You both stop suddenly and he looks onto your upturned face... Gently his palm squeezes your fingers. "<CHARNAME>..." Valygar says quietly.~
++  SAY @18
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~You did not mean for this to happen, but your eyes meet... for a moment he looks at you and something in his gaze makes you blush and your heart race.~
++  SAY @19
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~Valygar presses his right palm to his heart and bows, smiling: "You are very kind, My Lady".~
++  SAY @20
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~"I’m going to get you!" Now, of course it is not the most mature thing to do, and it can damage your reputation as a party leader, but you find yourself running away giggling like mad, with Valygar at your heels...~
++  SAY @21
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~Valygar grins. There was no way in the Nine Hells that he could have heard you! Or was there?~
++  SAY @22
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~Valygar disappears into the shadows again... another time perhaps?~
++  SAY @23
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -141,60 +141,60 @@
+ OR(2)
+ Global("ValygarRomanceActive","GLOBAL",1)
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN BEGIN TS138
+-  SAY ~Before you can help it your mind wanders away from the problems of the day and you think about Valygar. You remember him sitting by your feet near a campfire or the way he seems never to loose your sight in battle, ready to rush to your side at any moment. Sometimes you even suspect that he might be in love with you. Though you did not mean to, you say his name out loud. Presently, he turns towards you: "<CHARNAME>?"~
+-  IF ~~ THEN REPLY ~"I was thinking about you..."~ GOTO TS139
+-  IF ~~ THEN REPLY ~"Ahem... it was nothing important, really... "~ GOTO TS140
+-  IF ~~ THEN REPLY ~"Do you have some water left in your water skin? I have run out..."~ GOTO TS141
+-  IF ~~ THEN REPLY ~You point in whatever direction: "Cowled wizard!"~ GOTO TS142
+-  IF ~~ THEN REPLY ~You take a hold of Valygar’s hands: "Valygar, you are a fine companion"~ GOTO TS143
+-  IF ~~ THEN REPLY ~"Hmm... here you are! I lost you for a moment..."~ GOTO TS144
+-  IF ~~ THEN REPLY ~"Do you like my name?"~ GOTO TS145
+-  IF ~~ THEN REPLY ~"Valygar, about this Corthala curse thing which makes you to ignore women... I think you are overreacting it."~ GOTO TS146
+-  IF ~~ THEN REPLY ~You do nothing.~ GOTO TS147
++  SAY @24
++  IF ~~ THEN REPLY @25 GOTO TS139
++  IF ~~ THEN REPLY @26 GOTO TS140
++  IF ~~ THEN REPLY @27 GOTO TS141
++  IF ~~ THEN REPLY @28 GOTO TS142
++  IF ~~ THEN REPLY @29 GOTO TS143
++  IF ~~ THEN REPLY @30 GOTO TS144
++  IF ~~ THEN REPLY @31 GOTO TS145
++  IF ~~ THEN REPLY @32 GOTO TS146
++  IF ~~ THEN REPLY @13 GOTO TS147
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~"And I was thinking about you, <CHARNAME>. How strange..."~
++  SAY @33
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~Valygar laughs and pats you on the shoulder: "Do you think I am a dragon or something? Common, what can I do for you?"~
++  SAY @34
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~"Of course". When you are finished drinking he leans towards you, and kisses a drop off your cheek: "No need to waste the sweet water, <CHARNAME>". ~
++  SAY @35
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~Catches you hand and kisses your palm: "You are such unskilled liar, <CHARNAME>!"~
++  SAY @36
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~"And you are a fine leader, <CHARNAME>."~
++  SAY @37
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~"No wonder you cannot see well, with all this hair falling into your eyes..." He brushes the loose strands of hair away from your face. "Now, that’s better."~
++  SAY @38
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~"<CHARNAME>? I love..." he hesitates for a moment and then finishes: "your name."~
++  SAY @39
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~Valygar looks at you sadly: "I don’t overreact, <CHARNAME>. I am a danger for any woman mad enough to care about me. And I do not ignore women, though I wish I could sometimes. The more I love someone, the more I wish to protect her... to stay away. You do understand, don’t you?"~
++  SAY @40
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS147
+-  SAY ~Valygar mutters under his breath: "Nine Hells, I am starting to imagine things already! Of course she did not call upon you, you old fool!"~
++  SAY @41
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -207,93 +207,93 @@
+ OR(2)
+ Global("ValygarRomanceActive","GLOBAL",1)
+ Global("ValygarRomanceActive","GLOBAL",2)~ THEN BEGIN TS148
+-  SAY ~Sometimes people mask their feelings so well or imagine non-existent obstacles... You picked up a daisy another day and you plucked away its petals: "He loves me, he loves me not..." until only one is left.  You wonder if daisies know anything about grim rangers.~
+-  IF ~~ THEN REPLY ~"Valygar, I have a daisy here and it is her expert opinion that you are in love with me."~ GOTO TS149
+-  IF ~~ THEN REPLY ~"Do you think that flowers can lie, Valygar?"~ GOTO TS150
+-  IF ~~ THEN REPLY ~"I am very flattered by your attention lately, Valygar. You have a gentle heart, I was surprised to discover."~ GOTO TS151
+-  IF ~~ THEN REPLY ~"I was wondering what do you think about me, Valygar? Someone was giving me ideas..."~ GOTO TS152
+-  IF ~~ THEN REPLY ~You stuff what was left of the daisy into Valygar’s palm.~ GOTO TS153
+-  IF ~~ THEN REPLY ~You come up to Valygar, and muss his hair: "Here, you looked way too stiff. Don’t you ever let your guard down? Or stop to smell flowers?"~ GOTO TS154
+-  IF ~~ THEN REPLY ~You show Valygar the daisy with a single petal left on it from a distance and mouth: "He loves me" voicelessly.~ GOTO TS155
+-  IF ~~ THEN REPLY ~You throw the daisy away.~ GOTO TS156
++  SAY @42
++  IF ~~ THEN REPLY @43 GOTO TS149
++  IF ~~ THEN REPLY @44 GOTO TS150
++  IF ~~ THEN REPLY @45 GOTO TS151
++  IF ~~ THEN REPLY @46 GOTO TS152
++  IF ~~ THEN REPLY @47 GOTO TS153
++  IF ~~ THEN REPLY @48 GOTO TS154
++  IF ~~ THEN REPLY @49 GOTO TS155
++  IF ~~ THEN REPLY @50 GOTO TS156
+ END
+ 
+ IF ~~ THEN BEGIN TS149
+-  SAY ~Valygar grumbles: "Expert opinion indeed...", but the shine of his eyes as he looks at you serves to confirm the daisy’s verdict.~
++  SAY @51
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS150
+-  SAY ~"I do not know, <CHARNAME>..." Valygar looks surprised by your question, but than notices the flower in your hand and smiles at you.~
++  SAY @52
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS151
+-  SAY ~Valygar takes your hand and sighs:  "I thought you can use a bit of gentleness m’lady. The destiny is too rough on you." ~
++  SAY @53
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS152
+-  SAY ~The ranger replies without a moment’s hesitation: "I think that you are wonderful, smart and beautiful..." It sounds almost like a prayer on his lips.~
++  SAY @54
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS153
+-  SAY ~Valygar looks at the ruined flower in surprise: "<CHARNAME>, you are such a child sometimes!"~
++  SAY @55
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS154
+-  SAY ~Valygar shakes his head in astonishment: "That’s what I get for taking the helmet off for a moment? Makes me wonder about what will happen should I remove gauntlets or boots or... I am sorry, <CHARNAME>, this is not fit for the ears of a lady."~
++  SAY @56
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS155
+-  SAY ~Valygar looks back at you and you can swear that you can hear his heart pounding.~
++  SAY @57
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS156
+-  SAY ~Valygar picks the flower up: "<CHARNAME>, you have dropped something... Oh... So does he love you or does he not? He better be good to you!"~
++  SAY @58
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN slayerat
+-  SAY ~You are shivering, my dear. I will stoke the fire, though I fear your chill is not a fault of the air.~
+-  IF ~~ THEN REPLY ~No, it isn't. Stand back, Valygar, I don't know if I can protect you from this.~ DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
+-  IF ~~ THEN REPLY ~You endanger yourself being here. Move, for your own good.~ DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
+-  IF ~~ THEN REPLY ~Get away from me, fool. You endanger your worthless life!~ DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
++  SAY @59
++  IF ~~ THEN REPLY @60 DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
++  IF ~~ THEN REPLY @61 DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
++  IF ~~ THEN REPLY @62 DO ~SetGlobal("EndangerLovedOne","GLOBAL",6)~ GOTO slayer1
+ END
+ 
+ IF ~~ THEN BEGIN slayer1
+-  SAY ~Your lips move, but no sound emerges. Are you sure you are well... <CHARNAME>? By the gods, <CHARNAME>!!~
++  SAY @63
+   IF ~~ THEN DO ~ActionOverride(Player1,ReallyForceSpell(Myself,SLAYER_CHANGE))~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN slayerba
+-  SAY ~(*You come to your senses and discover Valygar holding you tightly. He has several new wounds, and a terrible suspicion is creeping into your soul.*) <CHARNAME>! Gods be praised, you are yourself again!~
+-  IF ~~ THEN REPLY ~Yes. Valygar! What happened... what was that?~ GOTO slayer2
++  SAY @64
++  IF ~~ THEN REPLY @65 GOTO slayer2
+ END
+ 
+ IF ~~ THEN BEGIN slayer2
+-  SAY ~(*Sternly*) Slayer... Bhaal’s Avatar!~
+-  	IF ~~ THEN REPLY ~Oh... but why? I... I won’t endure such an abomination! Save me, save me!~ GOTO slayer3
+-  	IF ~~ THEN REPLY ~(*Twitching*) What an abomination... and yet what strength, you can’t begin to imagine the half of it!~ GOTO slayer3
++  SAY @66
++  	IF ~~ THEN REPLY @67 GOTO slayer3
++  	IF ~~ THEN REPLY @68 GOTO slayer3
+ END
+ 
+ IF ~~ THEN BEGIN slayer3
+-  SAY ~Calm down <CHARNAME>. Nothing bad has happened.~
+-  	IF ~~ THEN REPLY ~(*Pointing at the wound*) And what is that then? Did I... do that?~ GOTO slayer4
+-  	IF ~~ THEN REPLY ~You tried to hold me and I wounded you, is that not sot? I must be abhorrent to you.~ GOTO slayer5
++  SAY @69
++  	IF ~~ THEN REPLY @70 GOTO slayer4
++  	IF ~~ THEN REPLY @71 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer4
+-  SAY ~(*Reluctantly he answers you*) Yes.~
+-  	IF ~~ THEN REPLY ~Yea gods... I must be abhorrent to you.~ GOTO slayer5
++  SAY @72
++  	IF ~~ THEN REPLY @73 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer5
+-  SAY ~(*Tenderly*) There, there. Stop talking nonsense. Everything will be all right, calm down, my sweet girl, calm down.~
++  SAY @74
+ 		IF ~~ THEN EXIT
+ END
+ END

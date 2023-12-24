@@ -1,0 +1,35 @@
+@0  = ~Euch einen guten Tag. Ich bin Jiri, kann ich Euch irgendwie helfen?~ 
+@1  = ~Ich bin <GABBER>. Schön, Euch zu treffen, Jiri, könntet Ihr mir bitte sagen, wo ich irgendjemanden finden kann, der hier verantwortlich ist?~
+@2  = ~Die inneren Angelegenheiten von Halruaa
+
+Ich bin erfolgreich in die Akademie von Halruaa eingedrungen... es gab einen Moment, als die Wache beim Haupttor mich aufhielte... Ich war sicher, dass ich entdeckt worden war, sogar bevor ich den Fuß auf das Gelände der Akademie setzen konnte, aber der Zauberer wollte nur sicher sein, dass ich mir der Regeln von Halruaa bezüglich der Kleidung und der Bewaffnung bewusst war. Gott sei Dank bereitete Tilorn mich vor... Ein junger Gelehrter mit dem Namen Jiri führte mich zum Hauptgebäude... und was für ein eindrucksvolles Gebäude das ist... so reich und eindrucksvoll wie kein anderer Tempel, den ich auf meinem Reisen gesehen habe!~ 
+@3  = ~Hallo, Jiri, bin ich <GABBER>. Was sind das alles für Gebäude hier?~
+@4  = ~Die Hauptakademie ist der Ort, an dem Ihr sein müsst. Das ist das eindrucksvolle Gebäude vor uns.~ 
+@5  = ~Dann werde ich dort hingehen, danke, Jiri.~
+@6  = ~Diese kleineren Gebäude hier setzen sich zum Wohnbereich von Halruaa zusammen, und das eindrucksvolle Gebäude ist die Hauptakademie, wo Ihr übrigens als Neuankömmling sein müsst.~
+@7  = ~Euch Einen guten Tag, <GABBER>.~ 
+@8  = ~Nun, nochmal hallo, <GABBER>. Da Ihr jetzt Zeit hattet, Euch einzuleben, was denkt Ihr über unsere Akademie hier?~
+@9  = ~Es ist schön, Euch wieder zu sehen, Jiri. Ich bin sicher beeindruckt von dem, was ich bis jetzt gesehen habe. Sagt mir, Jiri, wer ist Brial, und wo könnte ich sie finden?~ 
+@10 = ~Jiri, Ihr hättet Euer Erscheinen zeitlich nicht besser bestimmen können. Ich suche nach Brial, habt Ihr irgendeine Ahnung, wo ich sie finden könnte?~
+@11 = ~Hallo Jiri. Es gibt sicher viel mehr hier in Halruaa zu sehen... viel mehr. Ich wurde gebeten, eine Tutorin namens Brial zu suchen, aber ich kann sie anscheinend nicht finden.~
+@12 = ~Brial... weil sie eine der Führungskräfte der Akademie und eine sehr vollkommene Magierin ist. Sie unterrichtet nicht so viel, wie sie sollte, tatsächlich verbringt sie in diesen Tagen immer mehr Zeit in der Gesellschaft der Elite von Halruaa. Was könntet Ihr vielleicht von ihr wollen?~ 
+@13 = ~Ich habe eine Nachricht für sie von RayVon.~
+@14 = ~Sie hat Informationen, die für mich lebenswichtig sind, ich muss sie schnell finden.~ 
+@15 = ~Sie sandte eine Nachricht, dass sie mich sehen wollte, aber der Bote vergaß, mir zu sagen, wo sie zu finden ist.~
+@16 = ~Also hat RayVon Euch jetzt Besorgungen für ihn machen lassen... Ich würde ihm aus dem Weg gehen, wenn Ihr könnt. Sobald er seinen *Laufburschen* für einige Zeit auswählt, wird er Euch fertigmachen, indem er Euch mit unbedeutenden Botengängen von einem Ende der Akademie zum anderem schickt.~
+@17 = ~Er entscheidet sich immer für einen neuen Studenten, weil sie Angst haben, nein zu ihm zu sagen. Er hatte mich in der Gegend herumgeschickt, bis ich mich ihm widersetzte, Ihr solltet dasselbe machen.~
+@18 = ~Um eine Nachricht zu Brial zu bringen, würdet Ihr klug handeln, sie einem anderen Tutor zu geben, um sie zu überbringen. Die Ältesten haben ihre Wohnungen im Hauptakademie-Gebäude, aber der Zutritt zu der Ebene, wo sie anzutreffen sind, ist allen Studenten streng verboten, jeder Student, der dort angetroffen wird, wird mit aller Strenge behandelt.~ 
+@19 = ~Danke Jiri. Ich werde daran denken, was Ihr gesagt habt.~
+@20 = ~Ich würde es vorziehen, ihr die Nachricht selbst zu geben, also bitte ich Euch, dass Ihr keinem davon erzählt, obwohl ich sicher bin, dass mir Zutritt gewährt wird, sobald ich sage, dass ich von RayVon komme.~ 
+@21 = ~Seid nur vorsichtig, <CHARNAME>, die Magier hier sind ziemlich angespannt und sehr verschlossen im Moment. Es ist nicht die Sache von uns Studenten, die Meister nach den Angelegenheiten zu befragen, aber bei dieser ganzen Spannung hier ist es egal, was Ihr für einen Grund angebt,, wenn Ihr in ihren Privatquartieren entdeckt werdet, es wird sicher falsch ausgelegt.~ 
+@22 = ~Nehmt meinen Rat an, gebt die Nachricht einem anderen Tutor, um sie zu überbringen. Jetzt muss ich Euch verlassen. Lebt wohl und genießt Eure Zeit an der Akademie... es ist ein großer Ort, um zu lernen, und hat viel zu bieten.~
+@23 = ~Ich kann mir weder denken, was Ihr mit Brial zu besprechen habt, noch will ich es wissen, <GABBER>. Was ich weiß, ist, dass sie nicht gewohnt ist, mit neuen Studenten zu sprechen, oder überhaupt mit Studenten, wenn es so weit kommt... nicht, seitdem sie ihren Platz als hochrangige Magierin auf der Seite der Verwaltung von Angelegenheiten der Akademie einnahm.~ 
+@24 = ~Wenn sie nicht in den Büros der Verwaltung ist, dann ist sie wahrscheinlich im Hauptgebäude der Akademie zu finden, wo die Ältesten ihre Wohnungen haben. Ich würde Euch jedoch empfehlen, diese Ebene nicht zu betreten, es ist streng verboten und harte Strafen werden über alle Studenten verhängt, die dort angetroffen werden.~
+@25 = ~Wenn Brial mit Euch etwas zu tun hat, dannasst sie zu Euch kommen... sie kennt die Vorschriften und sollte es besser wissen, als von Euch zu erwarten, dass Ihr riskiert, in den Unterkünften der Ältesten angetroffen zu werden.~
+@26 = ~Danke für die Warnung, aber ist es dringend, dass ich sie sehe, deshalb glaube ich, dass ich wohl das Risiko eingehen muss.~
+@27 = ~Ich werde daran denken, was Ihr gesagt habt, Jiri, aber wenn ich sie nicht finde, könnten die Folgen schrecklicher sein als jede Strafe, die ich erleiden könnte, wenn ich auf der privaten Ebene der Ältesten entdeckt werde.~
+@28 = ~In diesem Fall bin ich sicher, dass Ihr die Notwendigkeit schätzen werdet, es für Euch zu behalten, dass ich nach ihr suche, zumindest bis ich sie finde und sie sich für mich verbürgen kann.~
+@29 = ~Von Rechts wegen sollte ich diese Sache melden und Brial selbst bestätigen lassen, dass sie mit Euch sprechen mag. Jedoch sind die Dinge im Moment wie sie sind, ich vermute, dass sich mit der Zeit tatsächlich irgend jemanden findet, der sich entfernt dafür interessiert, Ihr werdet sie entweder selbst finden müssen oder Ihr werdet bei der Suche geschnappt werden.~
+@30 = ~Also werde ich vergessen, dass dieses Gespräch stattfand, aber passt bitte auf,<GABBER>, und wenn ich auf Brial treffen sollte, werde ich ihr sicher sagen, dass Ihr nach ihr sucht. Lebt wohl!~
+@31 = ~Ihr auch, <GABBER>, Ihr fühlt die Wahrnehmung... eine Luft der Geheimhaltung, etwas, das direkt unter unseren Nasen ist, während wir gleichzeitig wohlüberlegtes Handeln aus den Augen verlieren. Was auch immer es ist, ich habe keinen Zweifel daran, dass wir Studenten die Letzten sind, die erfahren, was vor sich geht, wenn überhaupt.~
+@32 = ~Zurück zu Eurer Frage... Brial? Ich kann mir nicht vorstellen, warum irgendjemand Euch zu Brial schicken sollte, sie kümmert sich nicht mehr selbst um die Angelegenheiten der Studenten, also entschuldigt mich, dass ich frage, aber wer hat Euch gesandt, um sie zu finden?~

@@ -1,0 +1,22 @@
+--- tashia\deutsch\tashiaj.tra	Wed May 07 22:38:00 2003
++++ C:\BWP Patchstudio\patched files\tashia\deutsch\tashiaj.tra	Fri Jul 15 12:17:50 2011
+@@ -113,6 +113,7 @@
+ @112  = ~Nein, eigentlich doch nicht.~
+ @113  = ~Hört sich interessant an. Schiess los.~
+ @114  = ~Hmm... Lass mich nachdenken...~
++@115  = ~Hier ist ein Klassiker...~
+ @116  = ~Was ist grösser als Gott und böser als der Teufel? Die Reichen brauchen es und die Armen haben es. Wenn du es isst, stirbst du. Was ist es?~
+ @117  = ~Wasser~
+ @118  = ~Nahrung~
+@@ -430,3 +431,11 @@
+ @430  = ~(Erzähl es später mal.)~
+ @431  = ~(Oh, ich habe es schon kapiert. Du willst, dass <HESHE> bei deiner Geschichte zuhört, aber nicht bei meiner? Schon gut. Hmph.)~
+ @432  = ~Humm. Gehen wir weiter, oder wie?~
++@433 = ~Wie war ich?~
++@434 = ~Ich bin beeindruckt, du hast sie alle richtig gelöst. Du hast doch bestimmt geschummelt, ich weiß nur nicht wie...~
++@435 = ~Großartig! Kein Wunder, dass wir so eine einfache Zeit haben bei all dem Irrsinn.~
++@436 = ~Ein paar waren falsch, aber nicht zu viele. Vielleicht solltest du nach einem Rätselwettbewerb ausschau halten. Solange deine Gegner nicht *wirklich* gut sind, solltest du einen Preis gewinnen können.~
++@437 = ~Sind rätseln ein Hobby von dir? Du bist definitiv besser als die meisten anderen.~
++@438 = ~Nun, obwohl du auf den Kopf gefallen bist, konntest du einige von ihnen beantworten.~
++@439 = ~Du weißt was die Alten sagen? 'Was du nicht kennst, kann dich nicht umbringen?' Damit wärst du praktisch unangreifbar.~
++@440 = ~Bist du sicher, dass du wach wars als ich dir die Rätsel erzählte? Restlos alle Antworten waren falsch.~

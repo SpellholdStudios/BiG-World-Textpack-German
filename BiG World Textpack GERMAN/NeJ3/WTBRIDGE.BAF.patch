@@ -1,0 +1,53 @@
+--- NeJ3\baf\WTBRIDGE.BAF	Sat Jan 27 22:32:26 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\WTBRIDGE.BAF	Wed Apr 10 10:34:15 2019
+@@ -7,13 +7,9 @@
+ 		TakePartyItem("BOOKENG") // Engineering Manual
+ 		OpenDoor("AR7005BRIDGE")
+ 		AddexperienceParty(33500)
+-		DisplayString(Myself,~The bridge is in poor shape but you manage to repair it using the engineering manual.~)
+-		EraseJournalEntry(%Wyrm’s Tooth.
+-
+-The scholar Soth gave us a book on dwarven engineering. With it we hope to repair the rope bridge that spans the southwest chasm.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We talked to a scholar named Soth who has been studying the books in the Wyrm’s Tooth library. He says that they are works dedicated to dwarven engineering.%) 
++		DisplayString(Myself,@0)
++		EraseJournalEntry(@1)
++EraseJournalEntry(@2) 
+ 		SetGlobal("BRIDGE_FIXED","MYAREA",1)
+ END
+ 
+@@ -26,13 +22,9 @@
+ 		TakePartyItem("BOOKENG") // Engineering Manual
+ 		OpenDoor("AR7005BRIDGE")
+ 		AddexperienceParty(33500)
+-		DisplayString(Myself,~The bridge is in poor shape but you manage to repair it using the engineering manual.~)
+-		EraseJournalEntry(%Wyrm’s Tooth.
+-
+-The scholar Soth gave us a book on dwarven engineering. With it we hope to repair the rope bridge that spans the southwest chasm.%)
+-EraseJournalEntry(%Wyrm’s Tooth.
+-
+-We talked to a scholar named Soth who has been studying the books in the Wyrm’s Tooth library. He says that they are works dedicated to dwarven engineering.%)  
++		DisplayString(Myself,@0)
++		EraseJournalEntry(@1)
++EraseJournalEntry(@2)  
+ 		SetGlobal("BRIDGE_FIXED","MYAREA",1)
+ END
+ 
+@@ -42,7 +34,7 @@
+ 	Entered([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~The bridge is in poor shape and may collapse. You cannot cross it.~)
++		DisplayString(Myself,@3)
+ 		SetGlobal("BRIDGE_BROKEN","GLOBAL",1)
+ END
+ 
+@@ -52,6 +44,6 @@
+ 	Opened([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~The bridge is in poor shape and may collapse. You cannot cross it.~)
++		DisplayString(Myself,@3)
+ 		SetGlobal("BRIDGE_BROKEN","GLOBAL",1)
+ END

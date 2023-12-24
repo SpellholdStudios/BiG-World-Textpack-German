@@ -1,0 +1,9 @@
+--- TS\bgtdlg\eSUDEMIN.D	Wed Dec 29 16:40:40 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\eSUDEMIN.D	Thu May 05 10:44:50 2016
+@@ -1,5 +1,5 @@
+ EXTEND_BOTTOM SUDEMIN 2
+   IF ~OR(2)
+ PartyHasItem("misc7L")
+-PartyHasItem("miscbsim")~ THEN REPLY ~I lost a loved on in a battle with his sister, Bodhi.  I seek a means of curing her.~ EXTERN SUDEMIN 3
++PartyHasItem("miscbsim")~ THEN REPLY @0 EXTERN SUDEMIN 3
+ END

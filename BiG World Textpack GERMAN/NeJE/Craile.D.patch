@@ -1,0 +1,13 @@
+--- NeJE\dlg\Craile.D	Thu Feb 26 22:34:05 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Craile.D	Tue Apr 09 19:35:38 2019
+@@ -1,8 +1,8 @@
+ BEGIN ~CRAILE~
+ 
+ IF ~True()~ THEN BEGIN 0
+-	SAY ~You... you... are part of... of this game! He... the... that druid sent you, I know he did! Too late!~
++	SAY @0
+ =
+-~My fr... friends are safe! They have it by now... the... the gem... they must have it... they have to have it!~
++@1
+ 	IF ~~ THEN EXIT
+ END

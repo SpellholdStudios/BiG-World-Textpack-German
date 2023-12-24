@@ -1,0 +1,1635 @@
+@1     = ~Diese Komponente benötigt die Cleric Remix Komponente~ 
+@2     = ~Diese Komponente benötigt das Nachtmantel der Shar Kit.~
+@3     = ~Das kann einen Moment dauern...~ 
+@4     = ~Diese Komponente benötigt das Schlachtenhüter des Tempus Kit.~
+@5     = ~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+/////               The old Cleric Remix               \\\\\
+/////                must be uninstalled               \\\\\
+/////          before Installing Divine Remix          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+~ 
+@6     = ~Dieser Schritt kann ein wenig dauern. Es werden die Zauberbücher alleer Zauberkundigen göttlicher Magie angepasst.~
+@7     = ~Diese Komponente benötigt die Kern-Komponenten~
+@8     = ~Diese Komponente benötigt die Druide Remix Komponente.~ 
+@9     = ~Dieser Kit wurde bereits mit Unfinished Business Installiereiert.~
+@10    = ~Cleric Remix Komponenten~ 
+@11    = ~Druide Remix Komponenten~
+@12    = ~Paladin Remix Komponenten~
+@13    = ~Waldläufer Remix Komponenten~ 
+@100   = ~Divine Remix Kern-Komponenten (Wird für allees benötigt)~
+@101   = ~Ihr könnt diesen Zauber nicht anwenden, bevor der aktuelle Zauber beendet ist.~ 
+@102   = ~Einhornlanze~
+@103   = ~Einhornlanze (Hervorrufung)
+Grad: 2
+Domäne: Tiere
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: 1/2
+
+Durch diesen Zauber wird eine silberfarbene, teilweise ätherale Lanze erzeugt, die dem Horn eines Einhorns ähnelt. Der Anwender wählt ein Ziel, und die Einhornlanze wird augenblicklich darauf abgefeuert und fügt ihm 3-18 Schadenspunkte (Spitze) zu. Durch einen Rettungswurf kann der Schaden halbiert werden. Obwohl sich die Einhornlanze nach dem Treffer auflöst, hinterlässt sie ein silbriges Leuchten um das Ziel, wodurch dieses leichter gesehen und getroffen werden kann, sodass es 3 Runden lang 2 Punkte Abzug auf seine Rüstungsklasse erhält.~
+@104   = ~Fluch~
+@105   = ~Fluch  (Beschwörung)
+Grad: 1
+Domäne: Alle
+Reichweite: Sichtweite des Anwenders
+Dauer: 6 Runden 
+Zeitaufwand: 1 Runde
+Bereich: 8 m Radius
+Rettungswurf: Nein
+
+Wenn der Anwender den Fluch ausspricht, senkt er die Moral feindlicher Wesen und zieht -1 von ihren Rettungs- und Angriffswürfen ab. Sobald der Zauber wirkt, werden alle Wesen innerhalb eines Würfels mit 15 m Kantenlänge um einen vom Anwender gewählten Punkt getroffen (Wesen, die den Bereich verlassen, nachdem sie getroffen wurden, spüren die Wirkung des Zaubers trotzdem. Der Fluch wirkt aber nicht auf Wesen, die den Bereich erst später betreten).~ 
+@106   = ~Sonnenfeuer~
+@107   = ~Sonnenfeuer (Hervorrufung)
+Grad: 1
+Domäne: Sonne
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: 1/2
+
+Wenn dieser Zauber angewendet wird, fährt ein gleißender Strahl brennender Hitze vom Himmel hernieder und trifft ein vom Anwender ausgewähltes Opfer. Dem Opfer steht ein Rettungswurf gegen Zauber zu, mit dem der Schaden halbiert werden kann. Wenn ein Wesen von dem Strahl getroffen wird, erleidet es 1-6 Schadenspunkte plus 1 Punkt pro Stufe des Anwenders. Untote Wesen und Monster, die empfindlich gegen helles Licht sind, erhalten 1-6 Schadenspunkte plus 2 Punkte pro Stufe des Anwenders. Zusätzlich zu diesem Schaden wird das Opfer 3 Runden lang durch den Zauber geblendet.~ 
+@108   = ~Bestienklaue~ 
+@109   = ~Bestienklaue (Veränderung)
+Grad: 2
+Domäne: Kampf, Nekromantie
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 5
+Bereich: Anwender
+Rettungswurf: Nein
+
+Durch diesen Zauber wird der Arm des Anwenders in die Klauen einer mächtigen Bestie verwandelt, was dem Anwender eine Stärke von 18/72 sowie die Fähigkeit verleiht, einem Gegner durch Kratzen 2-8 (+Stärkebonus) Punkte Klingenschaden zuzufügen. Der Anwender kann pro Runde zwei Angriffe mit den Bestienklauen durchführen, wobei er einen Bonus von 2 Punkten auf seinen Angriff erhält.~
+@110   = ~Mondklinge~ 
+@111   = ~Mondklinge (Hervorrufung)
+Grad: 3
+Domäne: Kampf, Sonne
+Reichweite: Anwender
+Dauer: 2 Phasen
+Zeitaufwand: 6
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber beschwört eine laut- und gewichtslose, schwertähnliche Waffe aus Mondlicht, die von der Hand des Anwenders aus 1,2 Meter misst. Was die Wesen angeht, die von der Mondklinge getroffen werden können, so zählt sie wie eine +4-Waffe, wobei der Bonus nicht für den ETW0 gilt. Außerdem wird wegen der Substanzlosigkeit der Mondklinge kein Bonus für die Stärke im Nahkampf angerechnet. Beim Treffer durch die Mondklinge wird dem Opfer Lebenskraft entzogen, und es erleidet 1-12+4 Punkte Schaden, wobei Untote, die besonders anfällig sind, zusätzliche 1-12 Punkte erleiden. Ein erfolgreicher Treffer bringt auch zeitweilig Zauber durcheinander, sodass jeder Zauber, den das Opfer in der nächsten Runde anwendet, fehlschlägt.~
+@112   = ~Feenfeuer~
+@113   = ~Feenfeuer (Hervorrufung)
+Grad: 1
+Domäne: Wetter
+Reichweite: Sichtweite des Anwenders
+Dauer: 4 Runden + 1 Runde/5 Stufen
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Feenfeuer umfasst das Zielwesen mit einem blassen Glühen, so dass seine Position und seine Bewegungen leicht erkennbar sind. 
+Das Ziel erleidet außerdem einen Abzug von -2 auf seine Rüstungsklasse.~
+@114   = ~Befehl (Verzauberung) 
+Grad: 1
+Domäne: Charme, Kampf, Gesetz 
+Reichweite: Mittel
+Dauer: 1 Runde 
+Zeitaufwand: 1 
+Bereich: 1 Wesen 
+Rettungswurf: Speziell
+
+Mit Hilfe dieses Zaubers erteilt der Anwender einem Wesen den Befehl zu "sterben". Das Wesen schläft für eine Runde ein und erwacht am Ende dieser Runde, ohne durch den Zauber Schaden genommen zu haben. Wesen mit sechs oder mehr Trefferwürfeln (bzw. Stufen) steht ein Rettungswurf gegen Zauber zu, um den Befehl abzuwenden.~
+@115   = ~Heilige Macht entlehnen (Hervorrufung) 
+Grad: 2
+Domäne: Herbeirufung
+Reichweite: 0 
+Dauer: 1 Phase
+Zeitaufwand: 2
+Bereich: Anwender 
+Rettungswurf: Nein 
+
+Mit diesem Zauber ruft der Priester seinen Gott an, ihm für kurze Zeit Kraft zu verleihen. Als Folge davon werden seine Stärke, Konstitution und Geschicklichkeit für je drei Erfahrungsstufen um jeweils 1 erhöht. Bei einem Priester der dritten Stufe würden dessen Fähigkeiten demnach um 1 erhöht, während die eines Priesters der zwölften Stufe um 4 erhöht würden.~
+@116   = ~Insekten herbeirufen  (Beschwörung)
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 7 Runden
+Zeitaufwand: 9
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Der Zauber ruft einen Schwarm normaler Insekten herbei und veranlasst ihn, einen Feind des Zaubernden anzugreifen. Der Schwarm sammelt sich an einem Punkt innerhalb des Wirkungsbereichs, der vom Zaubernden gewählt wird, und greift dann ein einzelnes Wesen nach Wahl des Priesters an. Wenn dem Opfer ein Rettungswurf -4 gegen Odemwaffen gelingt, entkommt es dem Schwarm. Anderenfalls erleidet es während der Wirkungsdauer des Zaubers alle zwei Sekunden einen Schadenspunkt. 
+Während das Opfer vom Schwarm attackiert wird, erleidet es -2 auf Trefferwürfe und seine Rüstungsklasse verschlechtert sich um +2. Da es sehr irritierend ist, ständig von Insekten gestochen und gebissen zu werden, scheitern bis zu 50% Zauber, die das Opfer zu wirken versucht.~
+@117   = ~Verwirrung (Verzauberung) 
+Grad: 7
+Domäne: Charme
+Reichweite: Sichtweite des Anwenders
+Dauer: 1 Runde/ 2 Stufen
+Zeitaufwand: 7
+Bereich: Würfel mit bis zu 18 m Kantenlänge
+Rettungswurf: Speziell
+
+Dieser Zauber führt bei einem oder mehreren Wesen im Wirkungsbereich zu Verwirrung. Sie werden unschlüssig und können nicht mehr effektiv agieren. Alle Wesen im Wirkungsbereich erhalten einen Rettungswurf -2 gegen Zauber, um den Auswirkungen des Zaubers zu entgehen. Die Wirkungsdauer beträgt 1 Runde pro 2 Stufen des Zaubernden und jene, die betroffen sind, geraten entweder in einem Berserkerrausch, stehen verwirrt an einem Ort oder wandern umher. Jene, die umherwandern, entfernen sich mit ihrer gebräuchlichsten Bewegungsart (Charaktere gehen, Fische schwimmen, Fledermäuse fliegen usw.) vom Zaubernden. Ein verwirrtes Wesen, das angegriffen wird, sieht in dem Angreifer einen Feind und handelt gemäß seinen Instinkten, um sich zu verteidigen.~
+@118   = ~Regeneration (Nekromantie) 
+Grad: 7
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: 1 Runde/ 2 Stufen
+Zeitaufwand: 7
+Bereich: Berührung
+Rettungswurf: Nein 
+
+Mit Hilfe dieses mächtigen Zaubers verleiht der Priester einem Wesen die Fähigkeit, sich zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmaßen bilden sich neu. Der Zauber regeneriert alle 10 Sekunden einen Trefferpunkt und hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird. Wird der Zauber beispielsweise von einem Priester der 14. Stufe gewirkt, so regeneriert das Ziel 7 Runden lang 18 Trefferpunkte je Runde.~
+@119   = ~Böses Entdecken (Erkenntniszauber) 
+Grad: 1
+Domäne: Wissen
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 2
+Bereich: Sichtweite des Anwenders
+Rettungswurf: Nein 
+
+Der Zauber enthüllt alle bösen Ausstrahlungen, die von Wesen in näherer Umgebung ausgehen. Es werden außerdem alle Wesen enthüllt, die gegen Magie resistent sind.~
+@120   = ~Vergiften (Nekromantie) 
+Grad: 4
+Domäne: Heilung
+Reichweite: 15 feet
+Dauer: 1 Phase
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: NeTors
+
+Mit Hilfe dieses Zaubers kann der Zaubernde sein Opfer vergiften, wenn diesem ein Rettungswurf gegen Gift misslingt. Die Auswirkungen hängen von der Stufe des Zaubernden ab:
+
+7. bis 9. Stufe: 2W8 Schadenspunkte + 2/Runde
+
+10. bis 12. Stufe: 3W8 Schadenspunkte + 3/Runde
+
+13. bis 14. Stufe: 4W8 Schadenspunkte + 4/Runde
+
+15. bis 16. Stufe: 6W8 Schadenspunkte + 5/Runde
+
+17+ Stufe: 8W6 Schadenspunkte + 6/Runde
+
+Wesen, deren Rettungswurf gelingt, werden nicht betroffen.~
+@121   = ~Verderben (Veränderung) 
+Grad: 1
+Domäne: Charme
+Reichweite: Sichtweite des Anwenders
+Dauer: 1 Phase 
+Zeitaufwand: 1 Runde 
+Bereich: 1 Wesen
+Rettungswurf: Nein 
+
+Das Ziel dieses Zaubers überkommt ein drohendes Gefühl der Verdammnis. Für die Wirkungsdauer erhält es -2 auf alle Würfe (auch auf ETW0 und Rettungswürfe). Es gibt keinen Rettungswurf gegen die Auswirkungen dieses Zaubers.~
+@122   = ~Heiligtum (Bannzauber) 
+Grad: 1
+Domäne: Charme, Schutz 
+Reichweite: 0 
+Dauer: 1 Phase
+Zeitaufwand: 4 
+Bereich: Anwender
+Rettungswurf: Nein 
+
+Der Anwender wird von allen Gegnern ignoriert, ganz so, als ob er unsichtbar wäre. Wenn er angreift oder offensive Zauber einsetzt, endet die Wirkung des Heiligtums sofort. Er kann sich jedoch frei bewegen und defensive Zauber einsetzen. So könnte er beispielsweise im Kampf Wunden heilen, ohne gestört zu werden. Der Zauber endet sofort, wenn der Anwender einen Zauber auf feindselige Wesen anwendet.~
+@123   = ~Stärkung (Nekromantie, Beschwörung)
+Grad: 2
+Domäne: Kampf, Nekromantie 
+Reichweite: Berührung 
+Dauer: 1 Runde + 1 Runde/Stufe 
+Zeitaufwand: 5 
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Empfänger dieses Zaubers erhält 1W8 Trefferpunkte und alle Boni eines Segens, also +1 auf Angriffs- und Rettungswürfe.
+
+Mit Hilfe von Stärkung kann der Empfänger vorübergehend mehr Trefferpunkte haben als seine maximalen Trefferpunkte vorsehen. Wenn der Empfänger Schaden erleidet, wird der Schaden zuerst von den zusätzlichen Trefferpunkten abgezogen. Die zusätzlichen Trefferpunkte, die über die maximalen Trefferpunkte des Empfängers hinausgehen, können nicht durch Heilzauber zurückerlangt werden. Die zusätzlichen Trefferpunkte gehen verloren, wenn die Wirkungsdauer endet.~
+@124   = ~Personen festhalten (Verzauberung) 
+Grad: 2
+Domäne: Charme, Gesetz 
+Reichweite: Sichtweite des Anwenders 
+Dauer: 1 Phase
+Zeitaufwand: 5 
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Neg. 
+
+Der Zauber hält einen oder mehrere Menschen, Halbmenschen oder humanoide Wesen, die menschengroß oder kleiner sind, für 1 Phase an einer Stelle fest. Zu den betroffenen Wesen zählen beispielsweise Heinzelmännchen, Dryaden, Zwerge, Elfen, Gnolle, Gnome, Goblins, Halbelfen, Halblinge, Halborks, Hobgoblins, Menschen, Kobolde, Echsenmenschen, Wassermänner, Orks, Feenkobolde, Feengeister und Troglodyten. Der Zauber könnte beispielsweise verwendet werden, um einen menschlichen Kämpfer der 10. Stufe festzuhalten, ist aber gegen einen Oger völlig wirkungslos. Den Opfern steht ein Rettungswurf gegen Zauber mit +1 Malus zu, um den Auswirkungen zu entgehen. Wesen, deren Rettungswurf gelingt, werden von den Auswirkungen überhaupt nicht betroffen. Untote Wesen können nicht festgehalten werden. 
+
+Die festgehaltenen Wesen können sich weder bewegen noch sprechen, doch sie nehmen alle Ereignisse wahr, die um sie herum geschehen, auch wenn sie ihnen hilflos gegenüber stehen. Sie können nur Fähigkeiten einsetzen, die es nicht erfordern, sich zu bewegen oder zu sprechen. Da die Zeit für die Ziele normal schnell verstreicht, kann sich der Zustand eines festgehaltenen Wesens aufgrund von Verletzungen, Krankheit oder Gift verschlechtern.~
+@125   = ~Krankheit heilen (Bannzauber)
+Grad: 3
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Permanent
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Mit Hilfe dieses Zaubers kann der Anwender durch einfaches Handauflegen beinahe alle Krankheiten heilen. Die Heilung ist permanent, aber das Ziel wird nicht gegen weitere Infektionen durch dieselbe Krankheit immun. Der Zauber heilt außerdem Blind- und Taubheit. Es gibt allerdings auch einige magische Krankheiten, die der Zauber nicht heilen kann.~
+@126   = ~Magie bannen (Bannzauber)
+Grad: 3
+Domäne: Alle
+Reichweite: Sichtweite des Anwenders
+Dauer: Speziell 
+Zeitaufwand: 6 
+Bereich: Würfel von  9 m Kantenlänge
+Rettungswurf: Speziell
+
+Dieser Zauber hebt magische Auswirkungen auf, die Personen im Wirkungsbereich betreffen. Darunter fallen Auswirkungen von Zaubern, Tränken und bestimmten magischen Gegenständen wie beispielsweise Zauberstäben. Der Zauber hat keinerlei Auswirkungen auf die magischen Gegenstände selbst oder auf einen Zauberschutz wie Zauber zurückwerfen oder Zauberabwehr. Während dieser Zauber nicht die Auswirkungen von Schmieren, Netz, Stinkender Wolke oder ähnlichen Zaubern auf einem Wesen aufhebt, zerstreut es nicht den Wirkungsbereich. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Ob Magie bannen erfolgreich ist, hängt von der Stufe des Anwenders und der Stufe der gegnerischen Magie ab. Die Grundchance beträgt 50%. Für jede Stufe, die der Anwender höher ist als sein Gegenspieler, erhöht sich die Chance um 5%, wobei aber stets eine Chance von 1% bleibt, dass der Zauber scheitert. Hat der Anwender eine niedrigere Stufe, so reduziert sich die Chance um 10% je Stufe.
+
+Ist der Anwender also um zehn Stufen höher, so gelingt der Zauber zu 99%. Ist er aber um vier Stufen niedriger, gelingt er nur zu 10%. Logischerweise ist der Zauber praktisch wirkungslos, wenn der Anwender um fünf Stufen niedriger ist als sein Gegenspieler.
+
+Hinweis: Dieser Zauber hebt zwar den individuellen Effekt von Zaubern wie Schmieren, Netz, Stinkende Wolke oder Ähnliches auf, aber nicht den Bereich in dem Zauber dieser art aktiv sind.~
+@127   = ~Heiliges Zerschmettern (Nekromantie)
+Grad: 3
+Domäne: Nekromantie
+Reichweite: Sichtlinie des Anwenders
+Dauer: Sofort
+Zeitaufwand: 3 
+Bereich: 6 m Radius
+Rettungswurf: Speziell 
+
+Der Zauber öffnet eine energetische Verbindung zwischen allen Wesen im Wirkungsbereich und der Positiven Ebene. Aus diesem Grund werden nur böse Wesen durch den Zauber geschädigt. Sie erleiden 1W4 Schadenspunkte je Stufe des Anwenders (bis zu einem Maximum von 10W4). Bei einem erfolgreichen Rettungswurf gegen Zauber mit einem Malus von +2 wird der Schaden halbiert. Wesen, deren Rettungswurf scheitert, erleiden nicht nur den vollen Schaden, sondern werden auch für 1 Runde geblendet.~
+@128   = ~Unsichtbarkeit aufheben (Erkenntniszauber) 
+Grad: 3
+Domäne: Wächter
+Reichweite: Sichtweite des Anwenders 
+Dauer: Sofort 
+Zeitaufwand: 8 
+Bereich: 9 m Radius
+Rettungswurf: Nein 
+
+Mit Hilfe dieses Zaubers wird die Unsichtbarkeit aller unsichtbaren Wesen innerhalb des Wirkungsbereichs aufgehoben. Dies schließt auch Wesen mit ein, auf die die Zauber Heiligtum, Verbesserte Unsichtbarkeit oder Phantomtor wirken.~
+@129   = ~Schutz vor Feuer (Bannzauber) 
+Grad: 3
+Domäne: Elemente (Feuer) 
+Reichweite: Berührung 
+Dauer: 3 Runden + 1 Runde/Stufe
+Zeitaufwand: 6 
+Bereich: 1 Wesen
+Rettungswurf: Nein 
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor normalem und magischem Feuer. 100% des Schadens aus Angriffen wie einem feurigen Drachenodem werden absorbiert und Zauber wie Brennende Hände, Feuerball, Feuerfrüchte, Feuersturm, Flammenschlag oder Meteorschwarm haben keine Auswirkungen auf das geschützte Wesen. Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+@130   = ~Fluch brechen (Bannzauber) 
+Grad: 3
+Domäne: Alle
+Reichweite: Berührung 
+Dauer: Permanent 
+Zeitaufwand: 6 
+Bereich: Speziell
+Rettungswurf: Speziell 
+
+Mit Hilfe dieses Zaubers wird der Priester in der Regel Flüche brechen können, die auf Gegenständen oder Personen lasten oder in Form einer Heimsuchung oder bösen Präsenz bestehen. Zu beachten ist, dass dieser Bannzauber nicht den Fluch von zum Beispiel einer verfluchten Waffe oder Rüstung brechen kann. Jedoch versetzt er die Person, die über einen verfluchten Gegenstand verfügt, für gewöhnlich in die Lage, sich von diesem zu trennen.
+
+Manche Flüche können mit Hilfe dieses Zaubers nicht oder nur dann, wenn der Anwender bestimmte Stufe erreicht hat, gebrochen werden.~
+@131   = ~Lähmung aufheben (Bannzauber) 
+Grad: 3
+Domäne: Nekromantie, Schutz 
+Reichweite: 9 Meter/Stufe
+Dauer: Permanent 
+Zeitaufwand: 6 
+Bereich: 9 m Radius
+Rettungswurf: Nein 
+
+Die Wesen im Wirkungsbereich werden von jeder Art Lähmung oder ähnlicher Magie befreit. Beispiele dafür wären die Berührung eines Ghuls oder die Auswirkungen eines Festhaltezaubers.~
+@132   = ~Unheiliges Verderben (Nekromantie) 
+Grad: 3
+Domäne: Nekromantie
+Reichweite: Sichtlinie des Anwenders
+Dauer: Sofort
+Zeitaufwand: 3 
+Bereich: 6 m Radius
+Rettungswurf: Speziell 
+
+Der Zauber öffnet eine energetische Verbindung zwischen allen Wesen im Wirkungsbereich und der Negativen Ebene. Aus diesem Grund werden nur gute Wesen durch den Zauber geschädigt. Sie erleiden 1W4 Schadenspunkte je Stufe des Anwenders. Bei einem erfolgreichen Rettungswurf gegen den Zauber wird der Schaden halbiert. Wesen, deren Rettungswurf scheitert, erleiden nicht nur den vollen Schaden, sondern erleiden auch für 4 Runden einen Malus von -2 auf alle Würfe.~
+@133   = ~Bereich der frischen Luft (Bannzauber) 
+Domäne: Elemente (Luft), Wächter
+Reichweite: Lang
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: Speziell
+Rettungswurf: Nein
+
+Bereich der frischen Luft zerstreut automatisch alle giftigen Dämpfe, auch jene, die auf magischem Weg erzeugt wurden, wie beispielsweise durch Todeswolke. Alle Wolken im Wirkungsbereich werden automatisch gebannt. Der Zauber bietet allerdings keinen Schutz gegen die giftigen Gase, die manche Drachen als Odemwaffe einsetzen, wie beispielsweise der Chlorgasodem eines Grünen Drachen.~
+@134   = ~Tiere beschwören I (Beschwörung) 
+Grad: 4
+Domäne: Tiere
+Reichweite: Mittel
+Dauer: 3 Phasen
+Zeitaufwand: 7 
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Mit Hilfe des Zaubers ruft der Anwender bis zu drei Tiere mit 4 oder weniger Trefferwürfeln herbei. Die erscheinenden Tiere werden zufällig ermittelt. Sie bleiben unter Kontrolle des Anwenders, bis sie getötet werden oder die Wirkungsdauer des Zaubers endet.~
+@135   = ~Todesschutz (Nekromantie) 
+Grad: 4
+Domäne: Nekromantie
+Reichweite: Sichtweite des Anwenders
+Dauer: 1 Phase/Stufe des Anwenders
+Zeitaufwand: 1 Runde 
+Bereich: 1 Wesen
+Rettungswurf: Nein 
+
+Dieser Zauber macht das Ziel für die Wirkungsdauer immun gegen alle Arten von Todesmagie. Darunter fallen unter anderem die Zauber Auflösung, Todeszauber, Finger des Todes, Wort der Macht: Tod und Schrei der Todesfee. Die Auswirkungen halten für die Wirkungsdauer an oder bis sie erfolgreich gebannt werden.~
+@136   = ~Fernsicht (Erkenntniszauber)
+Grad: 4
+Domäne: Wissen
+Reichweite: Special
+Dauer: 3 Runden + 1 Runde/Stufe
+Zeitaufwand: 4 
+Bereich: Speziell
+Rettungswurf: Nein 
+
+Mit Hilfe von Fernsicht kann der Anwender einen noch nicht erforschten Teil der Karte einsehen. Klickt einfach auf jenen Teil der Karte, den Ihr einsehen wollt. Während der Wirkungsdauer kann der Anwender das gewählte Gebiet ausspionieren. Auch die Wesen, die sich in dem Gebiet aufhalten, werden sichtbar.~
+@137   = ~Heilige Macht (Hervorrufung) 
+Grad: 4
+Domäne: Kampf
+Reichweite: Anwender
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 6
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber erfüllt den Priester mit Heiliger Macht. Er erhält so die Fähigkeiten eines Kämpfers der gleichen Stufe. Er erhält eine Stärke von 18/00 (auch dann, wenn seine Stärke höher ist), den ETW0 eines Kämpfers der gleichen Stufe und 1 temporären Trefferpunkt je Stufe. Die temporären Trefferpunkte bleiben erhalten, bis der Zauber endet oder gebannt wird. 
+Mehrfache Anwendungen des Zauber sind nicht kumulativ.~
+@138   = ~Schutz vor Bösem, 3 m Radius
+(Bannzauber) 
+Grad: 3
+Domäne: Schutz
+Reichweite: Berührung 
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 7
+Bereich: 3 m Radius
+Rettungswurf: Nein 
+
+Der Zauber erzeugt eine magische Barriere von 3 m Radius rund um den Empfänger. Alle Wesen innerhalb der Barriere sind individuell von dem Zauber "Schutz vor Bösem" betroffen. Die Barriere bewegt sich mit dem Empfänger und hat zwei wichtige Auswirkungen: einerseits erleiden alle Angriffswürfe von bösen Wesen gegen den Empfänger einen Abzug von -2 und andererseits erhält der Empfänger einen Bonus von -2 auf Rettungswürfe, wenn diese durch einen derartigen Angriff verursacht werden.~
+@139   = ~Schutz vor Blitzen (Bannzauber) 
+Grad: 4
+Domäne: Wetter
+Reichweite: Berührung 
+Dauer: 5 Runden/Stufe
+Zeitaufwand: 7 
+Bereich: 1 Wesen 
+Rettungswurf: Nein 
+
+Dieser Zauber gewährt dem berührten Wesen vollständigen Schutz vor allen normalen und magischen Angriffen, die auf Elektrizität basieren. 100% des Schadens aus Angriffen wie dem Odem bestimmter Drachenarten werden absorbiert und Zauber wie Schockgriff, Blitzstrahl, Glyphe der Abwehr, Blitze herbeirufen oder Kettenblitz haben keine Auswirkungen auf das geschützte Wesen.~
+@140   = ~Tiere beschwören II  (Beschwörung)
+Grad: 5
+Domäne: Tiere 
+Reichweite: Lang
+Dauer: 3 Phasen
+Zeitaufwand: 8 
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Mit Hilfe des Zaubers ruft der Priester zwei oder drei Tiere mit 8 oder weniger Trefferwürfeln herbei. Die beschworenen Tiere unterstützen den Priester nach Kräften und dienen ihm, bis sie getötet werden oder die Wirkungsdauer des Zaubers endet. Mit dem Zauber können nur normale Tiere oder riesenhafte Varianten normaler Tiere beschworen werden. Der Zauber kann keine fantastischen Tiere oder Monster herbeirufen (keine Schimären, Drachen, Gorgonen, Mantikore usw.)~
+@141   = ~Höherer Befehl (Verzauberung) 
+Grad: 5
+Domäne: Charme, Kampf, Gesetz
+Reichweite: Sichtweite des Anwenders 
+Dauer: 1 Runde/Stufe des Anwenders
+Zeitaufwand: 1
+Bereich: 1 Wesen + 6 m Radius
+Rettungswurf: Neg.
+
+Wie auch beim Zauber des 1. Grades "Befehl" kann der Priester mittels dieses Zaubers anderen Wesen den Befehl erteilen, zu schlafen. Bei dieser Version des Zaubers beträgt die Wirkungsdauer jedoch 1 Runde je Stufe des Zaubernden. Am Ende der Wirkungsdauer erwachen die Wesen völlig unverletzt. Der Wirkungsbereich hat eine ähnliche Größe wie der einer Stinkenden Wolke oder eines Feuerballs.~
+@142   = ~Insektenplage  (Beschwörung)
+Domäne: Tiere
+Grad: 5
+Reichweite: Lang
+Dauer: 6 Runden
+Zeitaufwand: 5
+Bereich: Feinde in Sichtweite
+Rettungswurf: Speziell
+
+Eine Horde von fliegenden, kriechenden und hüpfenden Insekten bildet einen Schwarm. Der Schwarm greift zuerst das Ziel an, das vom Priester gewählt wurde. Dann greift er zum nächst stehenden Verbündeten des Ziels über und so weiter, bis 6 Feinde betroffen sind. Versucht ein Wesen, das vom Schwarm angegriffen wird, einen Zauber zu wirken, so scheitert dieser. Alle Wesen, die sich im Bereich der Insektenplage aufhalten, erleiden alle zwei Sekunden einen Schadenspunkt durch Bisse und Stiche. Rüstung bietet keinen Schutz gegen diese Angriffe. Da der sich windende Insektenschwarm bei den Opfern Erstickungsängste auslöst, muss jedes Opfer in jeder Runde einen Rettungswurf gegen Odemwaffen bestehen. Wer scheitert, rennt für eine Runde lang davon.~
+@143   = ~Eisenhaut (Veränderung) 
+Domäne: Elemente (Erde)
+Grad: 5
+Reichweite: Anwender
+Dauer: 12 Stunden
+Zeitaufwand: 1 Runde
+Bereich: Anwender
+Rettungswurf: Nein 
+
+Wenn ein Druide diesen Zauber wirkt, erhebt sich eine Hülle aus Eisen aus dem Erdreich, die ihn umgibt und vor Angriffen schützt. Diese magische Umhüllung behindert den Druiden in keiner Weise und schützt ihn vor Nahkampfangriffen und vor Angriffen mit Fernkampfwaffen. Die Eisenhaut besteht je einer Schicht für 2 Stufen des Druiden. Jede dieser Schichten schützt den Druiden vor einem Angriff. Ein Druide der 10. Stufe nimmt von den ersten 5 Angriffen keinen Schaden und erleidet ab dem sechsten Angriff wieder normalen Schaden. Diese Schutzwirkung hält an, bis die Wirkungsdauer endet, Magie bannen erfolgreich gegen den Zauber eingesetzt wird oder die Schutzwirkung durch Angriffe aufgebraucht wurde. Der Zauber schützt den Druiden nicht vor energetischen magischen Angriffen wie etwa einem Feuerball, aber sehr wohl vor körperlichen magischen Angriffen wie beispielsweise magischen Pfeilen.~
+@144   = ~Feenstaub (Illusion/Hirngespinst)
+Domäne: Kampf
+Grad: 5
+Reichweite: Anwender
+Dauer: Speziell 
+Zeitaufwand: 1 Runde
+Bereich: 9 m Radius
+Rettungswurf: Nein 
+
+Dieser Zauber erzeugt eine Handvoll Feenstaub, die der Anwender in die Luft werfen kann. Jeder, der den Staub berührt, was in einem Umkreis von rund 9 Metern der Fall ist, wird unsichtbar. Alle Wesen, die sich beim Aussprechen des Zaubers im Wirkungsbereich aufhalten, werden von den Auswirkungen betroffen und bleiben es auch, wenn sie anschließend diesen Bereich verlassen. Wesen, die den Bereich nach dem Wirken des Zaubers betreten, werden dahingegen nicht betroffen.
+
+Wenn eines der unsichtbaren Wesen einen Angriff startet, wird nur es selbst wieder sichtbar. Der Zauber endet, sobald er auf magische Weise gebannt wird, der Unsichtbare einen Angriff startet oder wenn 24 Stunden verstrichen sind.~
+@145   = ~Untote abwehren (Bannzauber)
+Domäne: Nekromantie
+Grad: 5
+Reichweite: Anwender 
+Dauer: 1 Phase
+Zeitaufwand: 5 
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber erzeugt Wellen voller positiver Energie, die vom Anwender ausgehen. Jede dieser Wellen trifft Untote, die den Anwender angreifen wollen, und drängt sie für mehrere Sekunden von ihm weg. Während der Wirkungsdauer des Zaubers wird jede Runde eine dieser Energiewellen vom Anwender abgestrahlt. Alle Arten von Untoten sind von diesem Zauber betroffen - sie erhalten keinen Rettungswurf.~
+@146   = ~Schneller Tod (Nekromantie) 
+Grad: 5
+Domäne: Nekromantie
+Reichweite: Berührung 
+Dauer: Speziell
+Zeitaufwand: 1 
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Nachdem der Priester diesen Zauber gewirkt hat, muss er sein Ziel berühren. Ein Gegenstand erscheint im Inventar des Priesters, und der nächste Angriff wird automatisch mit diesem Gegenstand ausgeführt. Der Priester hat 18 Sekunden Zeit, um diesen Angriff auszuführen, bevor der Gegenstand verschwindet. Scheitert der Angriff, verschwindet der Gegenstand und der Zauber ist vergeudet. Bei einem erfolgreichen Angriff erleidet das Opfer 2W6 + 9 Schadenspunkte und muss einen Rettungswurf gegen Zauber bestehen. Falls der Rettungswurf scheitert, stirbt das Opfer. Der Zauber kann in der Zeitspanne zwischen dem Wirken und dem Ausführen des Angriffs gebannt werden.~
+@147   = ~Wahrer Blick (Erkenntniszauber) 
+Grad: 5
+Domäne: Alle
+Reichweite: Anwender
+Dauer: 1 Phase
+Zeitaufwand: 8
+Bereich: 21 m  Radius
+Rettungswurf: Nein 
+
+Dieser Zauber wirkt auf ein Gebiet von 21 m Radius rund um den Anwender. Wenn der Zauber gewirkt wird, werden alle feindlichen Zauber der Schule Illusion/Hirngespinst gebannt. Das Bannen wird während der Wirkungsdauer des Zaubers einmal je Runde ausgeführt. Außerdem wirkt der Zauber nur auf die Feinde des Anwenders. Magiewiderstand schützt nicht vor den Auswirkungen dieses Zaubers.
+
+Folgende Zauber werden gebannt: Gespiegeltes Ebenbild, Invisibility, Spiegelbild, Unauffindbarkeit, Verbesserte Unsichtbarkeit, Phantomtor, Ablenkung, Projeziertes Ebenbild und Abbild.~
+@148   = ~Tiere beschwören III  (Beschwörung)
+Grad: 6
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 4 Phasen
+Zeitaufwand: 9
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Mit Hilfe dieses Zaubers ruft der Priester zwei oder drei Tiere mit 12 oder weniger Trefferwürfeln herbei. Nur Tiere, die sich in Reichweite des Zaubernden befinden, reagieren auf den Zauber. Die beschworenen Tiere unterstützen den Priester nach Kräften und dienen ihm, bis sie getötet werden oder die Wirkungsdauer des Zaubers endet. Mit dem Zauber können nur normale Tiere oder riesenhafte Varianten normaler Tiere beschworen werden.~
+@149   = ~Feuerelemtar beschwören (Beschwörung) 
+Grad: 6
+Domäne: Elemente (Feuer)
+Reichweite: Sichtweite des Anwenders 
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Dieser Zauber öffnet ein Tor zur Feuerebene. Durch dieses Tor taucht ein Feuerelementar in der Nähe des Zaubernden auf. Dabei hat der Feuerelementar zu 60% 12 Trefferwürfel, zu 35% taucht ein Elementar mit 18 Trefferwürfeln auf und zu 5% ein Elementar mit 24 Trefferwürfeln. Der Priester kommuniziert auf telepathischem Weg mit dem Elementarwesen und muss daher seine Sprache nicht beherrschen. Außerdem besteht keine Gefahr für Missverständnisse. Im Gegensatz zu einem Magier muss der Beschwörer den Elementar nicht geistig unterwerfen; er dient ihm freiwillig. Der Elementar bleibt unter Kontrolle des Beschwörers bis er getötet wird oder bis die Wirkungsdauer des Zaubers endet.~
+@150   = ~Feuerfrüchte (Beschwörung)
+Grad: 6
+Domäne: Elemente (Feuer)
+Reichweite: Anwender
+Dauer: 3 Phasen
+Zeitaufwand: 1 Runde 
+Bereich: Speziell 
+Rettungswurf:  1/2
+
+Mit diesem Zauber werden 4 granatenähnliche Geschosse im Inventar des Anwenders erzeugt. Die Früchte bleiben 3 Runden nach Anwendung erhalten. Während dieser Zeit können die Früchte gegen eine Feind geschleudert werden und lösen einen Feuerball aus, der jedem Wesen im Wirkungsbereich 2-16 Schadenspunkte zufügt. Ein erfolgreicher Rettungswurf gegen den Zauber halbiert den Schaden.~
+@151   = ~Erdelementar beschwören (Beschwörung) 
+Grad: 7
+Domäne: Elemente (Erde) 
+Reichweite: Sichtweite des Anwenders 
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Dieser Zauber öffnet ein Tor zur Erdebene. Durch dieses Tor taucht ein Erdelementar in der Nähe des Anwenders auf. Dabei hat der Erdelemntar zu 60% 12 Trefferwürfel, zu 35% taucht ein Elementar mit 18 Trefferwürfeln auf und zu 5% ein Elementar mit 24 Trefferwürfeln. Der Beschwörer kommuniziert auf telepathischem Weg mit dem Elementarwesen und muss daher seine Sprache nicht beherrschen. Außerdem besteht keine Gefahr für Missverständnisse. Im Gegensatz zu einem Magier muss der Priester den Elementar nicht geistig unterwerfen; er dient ihm freiwillig. Der Elementar bleibt unter Kontrolle des Beschwörers bis er getötet wird oder bis die Wirkungsdauer des Zaubers endet.~
+@152   = ~Kriechender Tod (Beschwörung)
+Grad: 7
+Domäne: Tiere
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Speziell
+
+Durch diesen Zauber sammelt der Anwender eine Horde giftiger, beißender und stechender Spinnen, Insekten und Tausendfüßler. Dieser bewegliche Teppich schwärmt über ein großes Gebiet aus und umschließt dabei alle Wesen in einem Umkreis von 9 Metern. Alle betroffenen Wesen erleiden während der Wirkungsdauer 2 Schadenspunkte / Sekunde und alle Zauber misslingen. Jede Runde müssen betroffene, die sich innerhalb des Bereichs aufhalten, einen Rettungswurf gegen Zauber mit einem Malus von -2 bestehen, sonst rennen sie für eine Runde panisch davon.
+Verglichen mit Insektenplage richtet kriechender Tod über der 5. Stufe doppelten Schaden in der Hälfte der Zeit an.~
+@153   = ~Tor (Beschwörung) 
+Grad: 7
+Domäne: Alle
+Reichweite: Lang
+Dauer: 33 Runden
+Zeitaufwand: 5
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Mit Hilfe dieses Zaubers ruft der Anwender ein mächtiges Wesen von einer anderen Ebene herbei, und zwar ein Höllenschlundscheusal. Das Wesen greift seine Feinde an und, wenn der Anwender nicht sehr vorsichtig ist, auch ihn und seine Gefährten. Der Anwender muss zuerst Schutz vor Bösem auf sich (und seine Gefährten) wirken, oder der Höhere Dämon bemerkt sie und reißt den Zaubernden und seine Gefährten in Fetzen, um sich dann an ihren Überresten zu laben.~
+@154   = ~Rindenhaut (Veränderung) 
+Grad: 2
+Domäne: Pflanzen 
+Reichweite: Berührung 
+Dauer: 4 Runden + 1 Runde/Stufe 
+Zeitaufwand: 5 
+Bereich: 1 Wesen 
+Rettungswurf: Nein 
+
+Die Haut des Zieles wird zäh wie Rinde, wodurch es eine Rüstungsklasse von 6 erhält. Diese Rüstungsklasse verbessert sich je 4 Stufen des Priesters um -1. Bei einem Priester der 4. Stufe würde der Zauber Rüstungsklasse 5 gewähren, bei einem Priester der 8. Stufe Rüstungsklasse 4 usw. Außerdem erhält der Empfänger +1 auf alle Rettungswürfe, außer gegen magische Angriffe.
+Mehrfache Anwendungen dieses Zaubers sind nicht kumulativ.~
+@155   = ~Waldgeschöpfe rufen (Beschwörung) 
+Grad: 4
+Domäne: Tiere
+Reichweite: Sichtweite des Anwenders 
+Dauer: 3 Phasen
+Zeitaufwand: 7 
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Der Zauber ruft eine Nymphe herbei, die die Gruppe unterstützt. Die Nymphe kann verschiedene Priesterzauber einsetzen und setzt diese zum Vorteil der Gruppe ein. Sie steht so lange unter Kontrolle des Anwenders bis sie getötet wird oder die Wirkungsdauer des Zaubers endet.~
+@156   = ~Gestaltwandel Erdelementar
+Grad: Auftragszauber
+Domäne: Kampf, Elemente (Erde)
+Reichweite: Anwender
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Druide greift direkt auf die Macht des Elements Erde zu, um sich in einen mächtigen Erdelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide Rüstungsklasse -5 und ETW0 2. Er richtet mit einem Schlag 2W10 Schadenspunkte wie durch Wuchtwaffen an. Wenn er wieder seine normale Gestalt annimmt, erhält er 3W10 Trefferpunkte zurück, falls er zu diesem Zeitpunkt verwundet ist.~
+@157   = ~Gestaltwandel Feuerelementar
+Grad: Auftragszauber
+Domäne: Kampf, Elemente (Feuer)
+Reichweite: 0
+Dauer: 5 Phasen
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Der Druide greift direkt auf die Macht des Elements Feuer zu, um sich in einen mächtigen Feuerelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide Rüstungsklasse -5 und ETW0 2. Er richtet mit einem Schlag 1W10 Schadenspunkte im Nahkampf und 1W10 Schadenspunkte durch Feuer an. Wenn er wieder seine normale Gestalt annimmt, erhält er 3W10 Trefferpunkte zurück, falls er zu diesem Zeitpunkt verwundet ist.~
+@158   = ~Energieklingen (Alle)
+Grad: Auftragszauber
+Domäne: Erschaffung, Kampf
+Reichweite: Special
+Dauer: 4 Phasen
+Zeitaufwand: 3
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber erzeugt sogenannte Energieklingen. Sie haben die Form von Scheiben aus reiner Energie, die man werfen kann. Sie geben -10 auf ETW0 und verursachen 1W4+5 Schadenspunkte durch Fernkampf, sowie 1W10 Schadenspunkte durch Elektrizität. Der Zauber erzeugt eine derartige Scheibe aus Energie je Stufe des Zaubernden. Solange der Zaubernde die Energiescheiben als Waffe ausgerüstet hat, hat er 9 Angriffe je Runde.~
+@159   = ~Sturm der Vergeltung
+Grad: Auftragszauber
+Domäne: Krieg, Wetter
+Reichweite: Lang
+Dauer: 3 Runden
+Zeitaufwand: 8
+Bereich: 9 m Radius
+Rettungswurf: Speziell
+
+Der Zauber lässt die Erde erbeben und den Himmel zürnen. Alle Feinde des Zaubernden werden von Säureregen, Erdbeben und Blitzschlägen getroffen.
+
+Alle Feinde der 8. oder einer niedrigeren Stufe werden augenblicklich getötet. Die Überlebenden werden von giftigen Säureregen und Blitzschlägen getroffen. Der Sturm der Vergeltung tobt 3 Runden. Die Opfer erleiden in jeder Runde 1W6 Schadenspunkte durch Elektrizität, 1W6 Schadenspunkte durch Feuer und 1W6 Schadenspunkte durch Säure. Ein erfolgreicher Rettungswurf halbiert den Schaden. In der ersten Runde müssen die Opfer außerdem einen erfolgreichen Rettungswurf gegen Tod bestehen oder durch die Einwirkung des Gifts sterben.~
+@160   = ~Elementare herbeirufen
+Grad: Auftragszauber
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 10 Runden
+Zeitaufwand: 1 Runde
+Bereich: Speziell 
+Rettungswurf: Nein
+
+Der Zauber zapft die Energien der Natur an, um 2 Elementare mit je 16 Trefferwürfeln herbeizuzaubern. Ob es sich um Erd-, Luft- oder Feuerelementare handelt, entscheidet der Zufall. Die Elementare bleiben 10 Runden und dienen dem Zaubernden. Zu 10% ruft der Zauber statt den Elementaren einen Elementarprinz herbei. Diese Elementarprinzen sind die Herrscher aller Elementare auf ihrer jeweiligen Ebene. Der Elementarprinz der Luft heißt Chan. Der Elementarprinz der Erde heißt Sunnis und der Elementarprinz des Feuers Zaaman Rul.~
+@161   = ~Höhere Elementare herbeirufen
+Grad: Auftragszauber
+Domäne: Elemente, Herbeirufung
+Reichweite: Lang
+Dauer: 10 Runden
+Zeitaufwand: 1 Runde
+Bereich: Speziell
+Rettungswurf: Nein
+
+Druiden und manche Kleriker die eine stärkere Verbindung zu den Elementen haben, können diese mächtigere Version von Elementare herbeirufen einsetzen. Durch diesen Zauber wird auf jeden Fall einer der Elementarprinzen herbeigezaubert. Ob es sich um den Elementarprinzen von Luft, Erde oder Feuer handelt, wird zufällig ermittelt. Der Elementarprinz bleibt 10 Runden lang anwesend und dient in dieser Zeit dem Zaubernden.
+
+Voraussetzung: Elementare herbeirufen~
+@162   = ~Deva beschwören (Beschwörung)
+Grad: Auftragszauber
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 4 Runden + 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber öffnet ein himmlisches Tor, durch das eine engelsgleiche Deva tritt, die an der Seite des Zaubernden kämpft, bis die Wirkungsdauer des Zaubers endet oder bis der irdische Avatar der Deva vernichtet wird.~
+@163   = ~Gefallenen Deva beschwören (Beschwörung)
+Grad: Auftragszauber
+Domäne: Alle, Herbeirufung
+Reichweite: 40 yards
+Dauer: 4 Runden + 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Der Zauber öffnet ein Tor in den Abyss, durch das eine dämonische Deva tritt, die an der Seite des Zaubernden kämpft, bis die Wirkungsdauer des Zaubers endet oder bis der irdische Avatar der Deva vernichtet wird.~
+@164   = ~Implosion (Hervorrufung)
+Grad: Auftragszauber
+Domäne: Kampf, Zahlen
+Reichweite: Sichtweite des Anwenders
+Dauer: 2 Runden
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Der Zauber erzeugt eine Spalte unter dem Ziel, in die es stürzt. Kurz darauf schließt sich die Erdspalte in Form einer Implosion, wodurch das Opfer zerquetscht und verbrannt wird. Das Opfer wird 1 Runde lang festgehalten und erleidet 10W10 Schadenspunkte durch Feuer und 10W10 Schadenspunkte durch Wuchtwaffen. Gelingt dem Opfer ein Rettungswurf gegen Zauber, erleidet es halben Schaden.~
+@165   = ~Aura des Flammenden Todes (Hervorrufung, Veränderung)
+Grad: Auftragszauber
+Domäne: Elemente (Feuer), Schutz
+Reichweite: Anwender
+Dauer: 1 Runde/ 2 Stufen
+Zeitaufwand: 4 
+Bereich: Anwender
+Rettungswurf: Nein 
+
+Der Anwender wird durch eine extrem heiße Flammenaura umhüllt, die Feinden Schaden zufügt und ihn selbst schützt. Der Anwender erhält 90% Feuerresistenz und -4 auf Rüstungsklasse. Jeder Angreifer, der den Zaubernden aus einer Entfernung von maximal 1,50 m mit einer Waffe oder einem Zauber angreift, erleidet 2W10+2 Schadenspunkte durch Feuer. Die intensive Hitze schützt den Zaubernden vor Schaden durch alle normalen Waffen, egal ob es sich dabei um Nah- oder Fernkampfwaffen handelt.~
+@166   = ~Schild der Entropie~
+@167   = ~Schild der Entropie (Bannzauber)
+Grad: 6
+Domäne: Chaos
+Reichweite: Anwender
+Dauer: 8 Runden
+Zeitaufwand: 9
+Bereich: Anwender
+Rettungswurf: Nein
+
+Dieser Zauber umgibt den Anwender mit einem schützenden Energiestrudel, der viele Angriffe abwehrt oder ablenkt. Er verleiht dem Priester einen Bonus von +2 auf die Rüstungsklasse und 10 % Widerstandskraft gegen die meisten Angriffe, wie z. B. Elektrizität, Feuer und Kälte. Zudem erhält der Anwender +2 auf alle seine Rettungswürfe sowie Immunität gegen Angriffe mit normalen Geschosswaffen.~
+@168   = ~Chaotische Befehle (Verzauberung)
+Grad: 5
+Domäne: Chaos
+Reichweite: Sichtweite des Anwenders
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Ein Wesen, das durch diesen Zauber geschützt ist, ist gegen magische Befehle immun. Darunter fallen z.B. Befehl, Höherer Befehl, Bezauberung, Beherrschung and Schlaf. Der Schutz hält an, bis die Wirkungsdauer endet oder der Zauber gebannt wird.~
+@169   = ~Unantastbarkeit des Geistes~
+@170   = ~Unantastbarkeit des Geistes (Bannzauber)
+Grad: 7
+Domäne: Schutz, Geist
+Reichweite: Anwender
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
+
+Mit diesem Zauber wird der Geist des Anwenders gegen jegliche äußeren Einflüsse gestählt. Bezaubern, Befehl, Verwirrung, Beherrschung, Furcht, Schwacher Geist, Festhalten, Schlaf sowie alle psionischen Angriffe auf den Anwender scheitern, während dieser Zauber wirkt.
+Nur ungemein mächtige Wesen, Artefakte oder Relikte können diesen Schutz durchbrechen.~
+@171   = ~Unbeugsamer Geist~
+@172   = ~Unbeugsamer Geist (Verzauberung)
+Grad: 5
+Domäne: Schutz, Geist
+Reichweite: Berührung
+Dauer: 1 Phase + 1 Runde/Stufe
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Ein Wesen, das durch diesen Zauber geschützt ist, ist gegen alle Arten von magischen oder psionischen Befehlen immun. Darunter fallen beispielsweise Zauber wie Personen festhalten, Einflüsterung, Beherrschung und Verwirrung sowie die meisten telepathischen Angriffe.~
+@173   = ~Säure und Verätzungen widerstehen~
+@174   = ~Säure und Verätzungen widerstehen (Bannzauber)
+Grad: 2
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 1 Runde/Stufe
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber verleiht einem Wesen einen besseren Widerstand gegen Säure, Ätzmittel, und ätzende Substanzen aller Art, z.B. schwarzer Drachenatem, Melfs Säurepfeil, und die natürlichen Angriffe verschiedenartiger Schleime. Solcherlei Substanzen fügen dem geschützten Charakter nur die Hälfte des normalen Schadens zu.~
+@175   = ~Kraft des Steins~
+@176   = ~Kraft des Steins (Hervorrufung)
+Grad: 1
+Domäne: Elemente (Erde)
+Reichweite: Berührung
+Dauer: 3 Runden + 1 Runde/Stufe
+Zeitaufwand: 4
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber verleiht dem Empfänger übernatürliche Kraft durch Anhebung seiner Stärke auf 15+1W4, wobei +4 zu 18/50, nicht zu 19 wird. 
+Wenn die Stärke des Empfängers bereits 17 oder höher ist, könnte der Zauber sie senken.~
+@177   = ~Magie widerstehen
+Diese Fähigkeit erlaubt es dem Kleriker den Effekten schädlicher Magie standzuhalten. Für 4 Runden wird der Magiewiderstand des Klerikers auf 50% gesetzt. Das ist nicht kulmulativ zu anderen Formen des Magiewiderstands. Hat der Kleriker also bereits einen Magiewiderstand von 50% oder höher, ist diese Fähigkeit nutzlos.~
+@178   = ~Aufspüren
+Mit einem vertrauten Kenntniss seiner Umgebung und der Wesen, die ihr leben, kann ein Kleriker die Fähigkeit Aufspüren verwenden, um sich eine allgemeine Vorstellung davon zu machen, welche Wesen in der Nähe sind, und in welcher Richtung sie sind. Rote Pfeile am Rand des Bildschirms zeigen in die grobe Richtung der Wesen in der Nähe.~
+@179   = ~Blind- oder Taubheit heilen~
+@180   = ~Blind- oder Taubheit heilen (Bannzauber)
+Grad: 3
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Permanent
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Durch Berührung des betroffenen Wesens kann der Priester, der den Zauber einsetzt, permanent einige Formen von Blindheit oder Taubheit heilen.~
+@181   = ~Blind- oder Taubheit versursachen~
+@182   = ~Blind- oder Taubheit versursachen (Bannzauber)
+Grad: 3
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 10 Phasen
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Speziell
+
+Dieser Zauber gelingt nur, wenn das Opfer berührt wird (erfolgreicher Angriffswurf). Bei einem erfolgreichen Rettungswurf des Opfers wird die Wirkung aufgehoben. Misslingt der Rettungswurf, wird das Opfer entweder mit magischer Blind- oder Taubheit belegt (Jeweils eine Chance von 50%.)
+
+
+
+Mit Taubheit belegete Zauberwirker haben eine 50% Chance auf einen Fehlschlag beim Zaubern. Ein geblendetes Wesen erleidet -4 auf Angriffswürfe und +4 auf seine Rüstungsklasse.~
+@184   = ~Krankheit verursachen~
+@185   = "Krankheit verursachen (Bannzauber)
+Grad: 3
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: 1 Phase
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Neg.
+
+Dieser Zauber übeträgt bei Berührung eine von zwei Krankheiten (jeweils eine Chance von 50%). 
+Die erste Krankheit verursacht unangenehme und irritierende Hautausschläge und Wundstellen auf dem Körper. Stärke, Geschicklichkeit und Konstitution des Opfers sinken um einen 1 Punkt je Stufe des Anwenders und verlangsamen es. 
+Die zweite Krankheit verursacht innere Blutungen, wodurch das Opfer ab Stufe 3 des Anwenders 1 Trefferpunkt pro Runde erleidet, 2 Trefferpunkte pro Runde ab der 9. Stufe, 3 Trefferpunkte pro Runde ab der 15. Stufe und 4 Trefferpunkte pro Runde ab der 21. Stufe.~"
+@191   = ~Kriegsschrei
+Mit dem Kriegsschrei stößt der Kleriker einen kraftvollen und furchteinflößenden Ruf aus, der alle Feinde in einem Radius von 9 m mit Angst erfüllt, wenn ihnen nicht ein Rettungswurf gegen Zauber gelingt.~
+@194   = ~Gutes entdecken~
+@195   = ~Gutes entdecken (Erkenntniszauber)
+Grad: 1
+Domäne: Wissen
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 2
+Bereich: Sichtweite des Anwenders
+Rettungswurf: Nein
+
+Mit diesem Zauber können bei jedem beliebigen Wesen gute Ausstrahlungen wahrgenommen werden. Jedes gute Wesen, das sich in Reichweite des Zaubers befindet, leuchtet kurz grün auf.~
+@196   = ~Schutz vor Gutem~
+@197   = ~Schutz vor Gutem (Bannzauber)
+Grad: 1
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 3 Runden/Stufe
+Zeitaufwand: 1
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Der Zauber erzeugt eine magische Barriere rund um das geschützte Wesen, die es in einem Abstand von 30 cm umgibt. Die Barriere bewegt sich mit dem geschützten Wesen und hat zwei wichtige Auswirkungen: Einerseits erleiden alle Angriffe von guten oder vom Gutem verzauberten Wesen gegen das geschützte Wesen -2 und andererseits erhält das geschützte Wesen +2 auf Rettungswürfe, wenn diese durch einen derartigen Angriff verursacht werden.~
+@198   = ~Schutz vor Gutem, 3 m Radius~
+@199   = ~Schutz vor Gutem, 3 m Radius (Bannzauber)
+Grad: 3
+Domäne: Schutz
+Reichweite: Berührung
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 7
+Bereich: 3m Radius
+Rettungswurf: Nein
+
+Der Zauber erzeugt eine magische Barriere von 3 m Radius rund um den Empfänger. Alle Wesen innerhalb der Barriere sind individuell von dem Zauber "Schutz vor Gutem" betroffen. Die Barriere bewegt sich mit dem Empfänger und hat zwei wichtige Auswirkungen: einerseits erleiden alle Angriffswürfe von guten Wesen gegen den Empfänger einen Abzug von -2 und andererseits erhält der Empfänger einen Bonus von -2 auf Rettungswürfe, wenn diese durch einen derartigen Angriff verursacht werden.~
+@201   = ~Vor Gutem geschützt~
+@202   = ~Leichte Wunden verursachen~
+@203   = ~Leichte Wunden verursachen (Nekromantie)
+Grad: 5
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Permanent
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Das ist die umgekehrte Version von "Leichte Wunden heilen". Statt das Ziel zu heilen, verursacht der Priester Schaden. Wenn es dem Priester gelingt, sein Opfer zu berühren, erleidet es 8 Schadenspunkte. Nachdem der Zauber gewirkt wurde, muss der Priester das Opfer mit einem Angriff treffen. Er hat nur 2 Runden Zeit, um den Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls. Dem Opfer steht kein Rettungswurf zu.~
+@204   = ~Mittelschwere Wunden verursachen~
+@205   = ~Mittelschwere Wunden verursachen (Nekromantie)
+Grad: 5
+Domäne: Heilung
+Reichweite: Berührung
+Dauer: Permanent
+Zeitaufwand: 5
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Das ist die umgekehrte Version von "Mittelschwere Wunden heilen". Statt das Ziel zu heilen, verursacht der Priester Schaden. Wenn es dem Priester gelingt, sein Opfer zu berühren, erleidet es 14 Schadenspunkte. Nachdem der Zauber gewirkt wurde, muss der Priester das Opfer mit einem Angriff treffen. Er hat nur 2 Runden Zeit, um den Angriff auszuführen, bevor der Zauber seine Wirkung verliert. Falls er einen Angriff ausführt und sein Ziel verfehlt, scheitert der Zauber ebenfalls. Dem Opfer steht kein Rettungswurf zu.~
+@206   = ~Schutz vor Gesinnung~
+@207   = ~Todesstoß
+Die Fähigkeit Todesstoß ermöglicht dem Priester einen Schlag durch die Verteigung jeglichen niederen Wesens. Für die nächsten 2 Runden wird jedes Wesen der 10. oder einer niedrigeren Stufe sofort getötet, wenn es vom Priester getroffen wird.~
+@208   = ~Vor Gutem geschützt~
+@209   = ~Tierische Wut~
+@210   = ~Tierische Wut (Enchantment)
+Grad: 5
+Domäne: Kampf
+Reichweite: Berührung
+Dauer: 15 Runden
+Zeitaufwand: 8
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber verleiht einem Wesen die Stärke eines wütenden, wilden Tieres. Das Ziel gewinnt eine Stärke von 19, +20 auf die Trefferpunkte, +20 % auf die Beweglichkeit und +2 auf alle Rettungswürfe. Das Ziel verliert die Fähigkeit, Zauber anzuwenden, solange die Wirkung von "Tierwut" anhält. Das betroffene Wesen kann gewöhnlich unter Kontrolle gehalten werden, solange keine Feinde in Sicht sind. Dann jedoch geht das Wesen zum Nahkampf über und nimmt dabei alles zu Hilfe, was ihm in die Hände fällt. Es besteht eine Wahrscheinlichkeit von 5 % pro Runde, dass das Ziel zum Berserker wird und sowohl Feinde als auch Freunde angreift.~
+@211   = ~Blutrausch~
+@212   = ~Blutrausch (Veränderung)
+Grad: 4
+Domäne: Kampf
+Reichweite: Sichtweite des Anwenders
+Dauer: 20 Runden
+Zeitaufwand: 7
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber funktioniert nur bei Spielercharakteren oder verbündeten Wesen. Wenn er angewandt wird, wird das Ziel dieses Zaubers zum Berserker und greift das nächststehende Wesen an, bis es tot ist; danach geht er zum nächsten Ziel über. Unter dem Einfluss des Blutrausches ist das Ziel immun gegen Bezauberung, Schlaf, Furcht, Festhalten, Betäubung, Verwirrung, Gefühle, Symbolzauber und ähnliche Zauber. Außerdem gewinnt das Ziel +2 auf seine Trefferpunkte, +3 auf seine Schadenspunkte, +2 auf seine Stärke, 10 zusätzliche Trefferpunkte sowie einen Bonus auf seine Beweglichkeitsrate. Der Zauber hat allerdings auch einige Nachteile. Die Trefferpunkte des Ziels sind für die Wirkungsdauer des Zaubers verdeckt, und das Ziel kann keinen Nutzen aus Wirkungen ziehen, die Trefferpunkte heilen. Am Ende der Wirkungsdauer des Zaubers ermüdet das Ziel, und seine Stärke fällt 2 Phasen lang auf 3 zurück.
+
+Der Blutrausch kann nicht auf Wesen mit rechtschaffener Gesinnung angewandt werden oder von diesen gewirkt werden.~
+@213   = ~Blutrausch kann nicht auf Wesen mit rechtschaffender Gesinnung angewandt werden~
+@214   = ~Luftelementar beschwören  (Beschwörung)
+Domäne: Elemente (Luft)
+Grad: 7
+Reichweite: Sichtweite des Anwenders 
+Dauer: 1 Phase/Stufe
+Zeitaufwand: 1 Runde
+Bereich: Speziell 
+Rettungswurf: Nein 
+
+Dieser Zauber öffnet ein Tor zur Luftebene. Durch dieses Tor taucht ein Feuerelementar in der Nähe des Zaubernden auf. Dabei hat der Luftelementar zu 60% 12 Trefferwürfel, zu 35% taucht ein Elementar mit 18 Trefferwürfeln auf und zu 5% ein Elementar mit 24 Trefferwürfeln. Der Priester kommuniziert auf telepathischem Weg mit dem Elementarwesen und muss daher seine Sprache nicht beherrschen. Außerdem besteht keine Gefahr für Missverständnisse. Im Gegensatz zu einem Magier muss der Beschwörer den Elementar nicht geistig unterwerfen; er dient ihm freiwillig. Der Elementar bleibt unter Kontrolle des Beschwörers bis er getötet wird oder bis die Wirkungsdauer des Zaubers endet.~
+@215   = ~Entzug von Lebenskraft (Nekromantie)
+Grad: 7
+Domäne: Nekromantie
+Reichweite: Berührung
+Dauer: Permanent
+Zeitaufwand: 3
+Bereich: 1 Wesen
+Rettungswurf: Nein 
+
+Dieser Zauber öffnet einen Kanal zwischen der Ebene des Anwenders und der Ebene negativer Energie. Der Anwender handelt als Verbindung zwischen den beiden Ebenen und saugt die Lebenskraft aus seinem Opfer, um sie in die Ebene negativer Energie zu transferieren, dabei entzieht er ihm permanent 2 Erfahrungsstufen inklusive Trefferwürfel und Fertigkeiten.
+Die entzogenen Erfahrungsstufen können nur durch den Zauber Genesung eines Klerikers wieder hergestellt werden.~
+@5000  = ~Mod Kits entfernen~
+@5001  = ~Bioware & Mod Kits entfernen~
+@5002  = ~Kleriker Kits entfernen~
+@5003  = ~Druiden Kits entfernen~
+@5004  = ~Paladin Kits entfernen~
+@5005  = ~Waldläufer Kits entfernen~
+@10000 = ~Cleric Remix~
+@10001 = ~Ich wurde vom Tempel des Morgenfürsten beauftragt! Dies endet hier!~
+@10002 = ~Sturmfürst des Talos~
+@10003 = ~Wächter des Helm~
+@10004 = ~Morgenfürst des Lathander~
+@10101 = ~Krieger / Wächter des Helm~
+@10102 = ~Schriftrollen anfertigen
+Der Kleriker kann Nieder-und Mittelstufige Spruchrollen anfertigen. Die Schriftrollen, die angefertigt werden können, werden zufällig aus der folgenden Liste ausgewählt:
+ 1) Schwere Wunden heilen
+ 2) Handlungsfreiheit
+ 3) Gift neutralisieren
+ 4) Geistige Beherrschung
+ 5) Koordinierte Verteidigung
+ 6) Vereinte Kräfte
+ 7) Chaotische Befehle
+ 8) Kritische Wunden heilen
+ 9) Flammenschlag
+10) Tote erwecken~
+@10166 = ~Schutz vor Elektrizität~
+@10167 = ~Kurzspeer - "Talos Zorn"~
+@10168 = ~Der Kurzspeer ist die spirituelle Waffe der Sturmfürsten des Talos und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Kurzspeer ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden und kann einmal täglich angewandt werden. ~
+@10169 = ~Vernichtender Schlag~
+@10170 = ~Einmal täglich kann ein Sturmfürst den vernichtenden Zorn Talos im Kampf bündeln. Dieser Zauber gewährt dem Sturmfürst +2 auf Schaden und +2 auf Attacke für eine Runde/Stufe, bis zu 20 Runden.~
+@10171 = ~STURMFÜRST DES TALOS: Talos ist die zerstörende Kraft der Natur. Er ist der Gott der Stürme, Waldfeuer, Erdbeben, Tornados, und der allgemeinen Zerstörung. Seine Heimat ist die passend benannte Ebene des Infernos. Unter seinen Anhängern finden sich die Zerstörer, Plünderer und Banditen. Das Symbol von Talos sind drei Blitzstrahlen, jeder in einer eigenen Farbe, ausgehend von einer gemeinsamen Mitte.
+
+Talos der Zerstörer ist die dunkle Seite der Natur, die gewissenlose und zerstörende Kraft, die lauernd darauf wartet, jederzeit zuzuschlagen. Talos wird mehr gefürchtet als angebetet, was ein Grund für seine große Popularität sein mag. Die Kirche von Talos verehrt die wilde Zerstörung der Natur und Vertraut auf ihr eigenes Glück und die Gunst (oder Missgunst) des Gottes sie zu schützen. Dadurch sind ihre Anhänger oft fatalistisch - geradezu selbstzerstörerisch. Dennoch hegen Priester des Talos den Wunsch so viele Andere wie möglich mit sich in den Tod zu nehmen.
+
+Sturmfürsten des Talos können nur von chaotisch böser, chaotisch neutraler oder neutral böser Gesinnung sein.
+
+Besondere Fähigkeiten:
+- Spirituelle Waffe: Kurzspeer - "Talos Zorn" einmal täglich
+Der Kurzspeer ist die spirituelle Waffe der Sturmfürsten of Talos und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Kurzspeer ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 at 16-20, +4 at 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden und kann einmal täglich angewandt werden.
+-  Schutz vor Elektrizität von 1% pro Stufe
+-  Vernichtender Schlag einmal täglich
+Einmal täglich kann ein Sturmfürst den vernichtenden Zorn Talos im Kampf bündeln. Dieser Zauber gewährt dem Sturmfürst +2 auf Schaden und +2 auf Attacke für eine Runde/Stufe, bis zu 20 Runden.
+-  Ab Stufe 7 steht der Zauber Sturmschild einmal täglich zur Verfügung
+Dieser Zauber hält eine Runde pro Stufe des Anwenders. Es schützt den Anwender vor Blitzen, Feuer, Kälte und Geschosswaffen
+-  Ab Stufe 9 steht der Zauber Todeswolke einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Kugelblitz einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Erdbeben einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Tiere, Astral, Chaos, Kampf, Elemente, Heilung, Nekromantie, Herbeirufung, Krieg, Wetter
+-  Eingeschränkter Zugang zu den Domänen Erschaffung, Erkenntniszauber, Schutz, Zeit
+-  Kein Zugang zu den Domänen Charme, Wächter, Gesetz, Zahlen, Pflanzen, Sonne, Geist, Reisen, Wächter~
+@10172 = ~Massiver Angriff
+Ein Massiverer Angriff erlaubt dem Kleriker, so kräftige Hiebe zu schlagen, dass sie einen Gegner für 2 Runden betäuben, wenn ihm sein Rettungswurf gegen Tod mit einem Malus von -4 misslingt. Die Fähigkeit hält für 2 Runden an.~
+@10173 = ~Widerstehen
+Durch Anzapfen verborgener Reserven in gefährlichen Situationen kann ein Kleriker diese Fähigkeit nutzen, um einen Widerstand von 40% gegen alle Formen physischen Schadens zu erhalten. Die Fähigkeit hält eine Runde für alle 2 Stufen des Klerikers.~
+@10174 = ~Angriffswirbel
+Diese Fähigkeit erlaubt dem Kleriker, eine Folge von sehr schnellen Hieben zu führen. Die Zahl der Angriffe pro Runde erhöht sich auf 10, aber ETWO und Schadenspunkte erleiden einen Malus von -4. Der Angriffswirbel hält eine Runde an.~
+@10175 = ~Tod abwenden
+Mit einer übermenschlichen Anstrengung kann ein hochstufiger Kleriker beinahe den sicheren Tod abwenden. Die Wirkung hält für 5 Runden. Während dieses Zeitraums erhält der Kleriker +5 auf seinen Rettungswurf gegen Tod, seine Trefferpunkte werden um 20 erhöht und er wird immun gegen Todesmagie.~
+@10176 = ~Ausweichen
+Mächtige Kleriker können die schützende Hand Ihrer Gottheit in Anspruch nehmen und so den Hieben Ihrer Gegner mit Leichtigkeit ausweichen. Ausweichen gibt einen Bonus von +4 auf die Rüstungsklasse und +2 auf alle Rettungswürfe. Die Wirkung hält 3 Runden.~
+@10179 = ~MORGENFÜRST DES LATHANDER: Lathander, auch der Morgenfürst genannt, ist der Gott des Frühlings, der Morgendämmerung, der Geburt und der Erneuerung, ein Gott des Anfanges und verborgenen Potentials, eine Gottheit der Vitalität, Jugend, Erneuerung und Selbstvervollkommnung. Er ist der Herr der Kreativität. Seine Heimat ist die Ebene von Elysium. Er versteht sich gut mit Chauntea. Das Symbol von Lathander ist eine einfache Scheibe in rosigen, rosa Farbtönen. Diese Scheiben werden oft aus Rosenquartz oder ähnlichen Mineralien geschnitten.
+
+Lathander ist ein Gott der Anfänge, und sogar jene, die andere Götter verehren, schicken am Anfang einer Aufgabe oder Herausforderung ein Gebet zu ihm. Lathanders Name wird angerufen, um Bündnisse zu besiegeln und neue Wagnisse oder Geschäfte zu beginnen. Infolgedessen ist Lathander unter den Händlerklassen sehr populär und hat entsprechend davon profitiert.
+
+Morgenfürsten des Lathander können nur von neutral guter, rechtschaffen guter, chaotisch guter oder neutraler Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Streitkolben - "Umarmung der Morgenröte" einmal täglich
+Der Streitkolben ist die spirituelle Waffe der Morgenfürsten des Lathander und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Streitkolben ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Lathanders Segen einmal täglich
+Dieser Zauber hält für 6 Sekunden pro Stufe des Anwenders. Er verleiht dem Zaubernden +1 auf die Angriffswürfe, +1 auf Schaden, +1 auf alle Rettungswürfe und einen zusätzlichen Angriff pro Runde. Er schützt außerdem vor Stufenverlust.
+-  Ab Stufe 7 steht der Zauber Untote festhalten einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 3. Grades
+-  Ab Stufe 9 steht der Zauber Flammenschlag einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Heilung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Genesung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Charme, Erschaffung, Elemente, Heilung, Nekromantie (nur wiederherstellend), Pflanzen, Sonne, Geist, Wächter, Wetter
+-  Eingeschränkter Zugang zu den Domänen Kampf, Erkenntniszauber, Wächter, Zeit
+-  Kein Zugang zu den Domänen Tiere, Chaos, Gesetz, Zahlen, Schutz, Herbeirufung, Reisen, Krieg~
+@10180 = ~Streitkolben - "Umarmung der Morgenröte"~
+@10181 = ~Der Streitkolben ist die spirituelle Waffe der Morgenfürsten des Lathander und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Streitkolben ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@10182 = ~Nur den treuesten und würdigsten Diener des Sturmfürsten werden diese mächtigen, heiligen Symbole verliehen.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+   5% Magieresistenz wenn angelegt
+   +1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern guter oder rechtschaffener Gesinnung~
+@10183 = ~Nur den treuesten und würdigsten Diener des Morgenfürsten werden diese mächtigen, heiligen Symbole verliehen.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+   5% Magieresistenz wenn angelegt
+   +1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von böser Gesinnung~
+@10184 = ~WÄCHTER DES HELM: Der Gott der Wächter und Beschützer. Helm ist der Inbegriff des Wächters, des Wachenden und der Wache und wurde in den vergangen Jahren von denen verehrt, die aufmerksam gegenüber Üblem an ihren Türschwellen bleiben müssen. Helm ist immer wachsam und verkörpert die gesetzliche Neutralität. Helms Heim ist auf Uhrwerkebene des Nirwanas in einem Gebiet abseits von Mystra. Helms Symbol ist ein ein offenes Auge, aufgemalt auf einen Handschuh.
+
+Helms Lehre besagt, dass man immer aufmerksam, umsichtig und auf Feinde vorbereitet sein muss. Er wendet sich auch denjenigen zu, die abwarten und aufmerksam beobachten. Gute Planung wird am Ende immer besser sein als überstürzte Handlungen.
+
+Wächter des Helm können nur von rechtschaffen neutraler, rechtschaffen guter, neutraler oder rechtschaffen böser Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Bastardschwert - "Immer Wachsam" einmal täglich
+Das Bastardschwert ist die spirituelle Waffe der Wächter des Helm und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Bastardschwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Glyphe der Abwehr einmal täglich zur Verfügung, identisch mit dem gleichnamigen tKlerikerzauber des 3. Grades
+-  Ab Stufe 7 steht der Zauber Fernsicht einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Schutz vor normalen Waffen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Wahrer Blick einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 5. Grades
+-  Ab Stufe 14 steht der Zauber Schutzmantel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Kampf, Erkenntniszauber, Wächter, Schutz, Sonne, Wächter
+-  Eingeschränkter Zugang zu den Domänen Erschaffung, Elemente, Heilung, Krieg
+-  Kein Zugang zu den Domänen Tiere, Charme, Chaos, Gesetz, Nekromantie, Zahlen, Pflanzen, Herbeirufung, Geist, Wetter~
+@10185 = ~Bastardschwert - "Immer Wachsam"~
+@10186 = ~Das Bastardschwert ist die spirituelle Waffe der Wächter des Helm und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Bastardschwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@10187 = ~Nur den würdigsten und hingebungsvollsten Diener des Wächters werden diese mächtigen, heiligen Symbole verliehen.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+   5% Magieresistenz wenn angelegt
+   +1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern mit chaotischer Gesinnung~
+@10188 = ~Sturmfürst des Talos~
+@10189 = ~Wächter des Helm~
+@10190 = ~Morgenfürst des Lathander~
+@10192 = ~Lathanders Erneuerung~
+@10193 = ~Dieser Zauber wird nur den höchsten Rängen der Morgenfürsten des Lathander verliehen. Er heilt alle Mitglieder der Gruppe, entfernt negative Wirkungen wie Stufenverlust, Blindheit, Krankheit, Verwirrung, Schwachsinn und Taubheit. Die Mitglieder der Gruppe regenerieren außerdem 1 Trefferpunkt pro Sekunde für 20 Runden.~
+@10300 = ~Installiere Silberstern der Selûne Kleriker Kit~
+@10301 = ~Silberstern der Selûne~
+@10302 = ~SILBERSTERN DER SELÛNE: Selûne, unsere Silberne Dame, ist die Göttin des Mondes und der Sterne und derer, die damit navigieren. Ihr ewiger Feind ist Shar, Göttin der Dunkelheit, der Nacht, des Verlustes und der Vergesslichkeit. Selûne wird wegen ihrer Verbindung zu dem silbernen Mond, der Faerûn umkreist, oft die "Mondmaid" genannt. Sie ist die Göttin des Mondes und der Reisenden. Selunes Heimatebene sind "Die Tore des Mondes", ihr Haus eine leuchtende Halle des Silbers, genannt Argentil.
+
+Nicht-böse Lykanthropen verehren Selûne als Meisterin ihres Schicksals, wie Astrologen und Wahrsager. Selûnes Popularität wächst durch die Botschaft der weiblichen Ermächtigung auch unter Fischerinnen, Wäscherinnen, Näherinnen und Bediensteten. Sie wird auch von weiblichen Zauberwirkern, Nautikern und Seeleuten angebetet.
+
+Die Kleriker Selûnes, Silberstern der Selûne genannt, sind engagierte Fürsprecher der Freiheit und der Toleranz, wandeln auf dem Pfad der Wahrheit und sind absolute Feinde von Shar. Sie versuchen Harmonie zwischen Lycanthropen und Nicht-Wandlern zu bringen und sie schützen die Schwachen und Unterdrückten überall. Sie dulden keine Sklaverei und sie hassen die meisten Untoten. Sie verweilen nicht lange an einem Ort, oft packt sie die Wanderlust, wobei Missionen ein willkommener Grund zu einer Reise sind. Sie beschäftigen sich mit Mondenergie und Mondphänomenen und sind in begrenztem Umfang in der Lage, die Macht des Mondes zu nutzen, der sein reines, weißes Licht auf Toril strahlt, um die Wünsche der Göttin vorzurücken.
+
+Silbersterne der Selûne können nur von chaotisch guter, neutral guter oder chaotisch neutraler Gesinnung sein
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Streitkolben - "Hand des Mondes" einmal täglich
+Die Hand des Mondes ist die spirituelle Waffe der Silbersterne der Selûne und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Streitkolben ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Infravision
+-  Mondschild, einmal täglich
+Durch diesen Zauber erhält der Silberstern einen Widerstandbonus gegen gegen jegliche Art von Magie. Der gewährte Widerstandsbonus beträgt 2% pro Stufe des Klerikers bis zu einem Maximum von 40% auf Stufe 20. Der Bonus wird auch gesetzt, wenn der Priester schon Widerstand gegen Magie hat, so dass der Zauber den aktuellen Widerstandsbonus auch senken könnte. Der Bonus bleibt bestehen bis der Zauber endet oder gebannt wird.
+-  Ab Stufe 7 steht der Zauber Handlungsfreiheit einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Sonnenfeuer einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Luftelementar herbeirufen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Schutz vor Elementen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Tiere, Astral, Kampf, Erkenntniszauber, Wächter, Heilung, Nekromantie, Zahlen, Herbeirufung, Sonne, Reisen, Wetter
+-  Eingeschränkter Zugang zu den Domänen Charme, Elemente, Pflanzen, Wächter
+-  Kein Zugang zu den Domänen Chaos, Erschaffung, Gesetz, Schutz, Geist, Zeit, Krieg~
+@10303 = ~Streitkolben - "Hand des Mondes"~
+@10304 = ~Die Hand des Mondes ist die spirituelle Waffe der Silbersterne der Selûne und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Streitkolben ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@10305 = ~Silberstern der Selûne~
+@10307 = ~Mondschild~
+@10308 = ~Mondschild (Veränderung)
+Grad: 5
+Domäne: Schutz
+Reichweite: Anwender
+Dauer: 3 Runden + 1 Runde/Stufe
+Zeitaufwand: 1 Runde
+Bereich: Anwender
+Rettungswurf: Nein
+
+Durch diesen Zauber erhält der Silberstern einen Widerstandbonus gegen gegen jegliche Art von Magie. Der gewährte Widerstandsbonus beträgt 2% pro Stufe des Klerikers bis zu einem Maximum von 40% auf Stufe 20. Der Bonus wird auch gesetzt, wenn der Priester schon Widerstand gegen Magie hat, sodass der Zauber den aktuellen Widerstandsbonus auch senken könnte. Der Bonus bleibt bestehen bis der Zauber endet oder gebannt wird.~
+@10319 = ~Heiliges Symbol der Selûne~
+@10320 = ~Nur den würdigsten und ergebensten Dienern der Silbersterne der Selûne werden diese mächtigen, heiligen Symbole verliehen.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+   5% Magieresistenz wenn angelegt
+   +1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von rechtschaffener oder böser Gesinnung~
+@10600 = ~Installiere Nachtmantel der Shar Kleriker Kit~
+@10601 = ~Nachtmantel der Shar~
+@10602 = ~NACHTMANTEL DER SHAR: Shar ist die Göttin der Dunkelheit, der Nacht, des Verlustes und der Vergesslichkeit. Ihre Hauptaspekte werden von jenen verehrt, die in der Nacht agieren (wie Diebe), das Licht hassen (wie Goblinrassen und deren Verbündete) und Verbitterung oder Verlust empfinden. Ihr Symbol ist eine schwarze Scheibe mit einem tief purpurnen Rahmen.
+
+Shars Todfeind ist die Göttin Selûne und die beiden kämpfen eine Vielzahl von Kämpfen während ihres unsterblichen Daseins. Es ist ein kontinuierlicher Krieg zwischen den beiden Glaubensgrundsätzen und heilige Kriege gegen Selûne und ihren Anhängern sind weit verbreitet in Regionen, in denen Shar stark ist.
+
+Kleriker der Shar werden Nachtmäntel genannt. Sie existieren außerhalb einer standardisierten kirchlichen Hierachie. Shar hat keinen Haupttempel, sondern eine Vielzahl von Zellen und verschwiegenen Plätzen über die Reiche verstreut. Die Nachtmäntel der Shar dienen als Kontaktpersonen, Kuriere und Vollstrecker des Willens der Dunklen Dame.
+
+Nachtmäntel der Shar können nur von neutral böser, rechtschaffen böser, chaotisch böser oder absolut neutraler Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Chakram - "Scheibe der Nacht" einmal täglich
+Die Scheibe der Nacht ist die spirituelle Waffe der Nachtmäntel. Das Chakram wird geführt wie ein wiederkehrendes Wurfmesser und als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Chakram ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Immun gegen alle Formen von Blindheit.
+-  Ab Stufe 7 steht der Zauber Verwirrung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Schwachsinn einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Unsichtbarer Pirscher einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Wort der Macht: Betäubung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Charme, Kampf, Erkenntniszauber, Wächter, Nekromantie, Schutz und Geist
+-  Eingeschränkter Zugang zu den Domänen Erschaffung, Elemente and Heilung
+-  Kein Zugang zu den Domänen Tiere, Chaos, Gesetz, Zahlen, Pflanzen, Herbeirufung, Sonne, Krieg, Wächter and Wetter~
+@10603 = ~Nachtmantel der Shar~
+@10604 = ~Shars Fluch~
+@10605 = ~Shars Fluch (Verzauberung)
+Grad: Speziell
+Domäne: Charme
+Reichweite: Sichtweite des Anwenders
+Dauer: Permanent
+Zeitaufwand: 3
+Bereich: 1 Wesen + 1,5 m Radius
+Rettungswurf: Neg
+
+Shar verleiht diesen Zauber nur den Würdigsten unter ihren Klerikern, er raubt ihren Gegnern die Sinne und macht sie unfähig Handlungen auszuführen - ein passender Fluch von der Dame des Verlustes. Betroffene Gegner bleiben in diesem Zustand bis erfolgreich ein Magie bannen Zauber auf sie gewirkt wird. Dem Opfer steht ein Rettungswurf mit einem Malus von -4 zu um den Effekt zu verhindern.
+
+Wird diese Fähigkeit ausgewählt, steht sie einmal täglich zur Verfügung. Sie kann nur einmal gewählt werden.~
+@10608 = ~Chakram - "Scheibe der Nacht"~
+@10609 = ~Shars bevorzugte Waffe ist die Scheibe der Nacht, ein Chakram. Ähnlich einem Wurfmesser wird diese runde Metallwaffe geworfen, kehrt aber auf magischem Weg zu ihrem Besitzer zurück.
+
+Shar hat die gläubigsten unter Ihren Klerikern mit der Fähigkeit beschenkt, eine solche Waffe einmal täglich hervorzurufen. Die Macht der Waffe steigt mit der Macht des Klerikers und seiner Wichtigkeit in Shars Augen. Das Chakram ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+~
+@10615 = ~Heiliges Symbol der Shar~
+@10616 = ~Shar beschützt ihre mächtigsten Diener durch ein Heiliges Symbol, ein Ring von der Form eine schwarzen Scheibe mit purpurnem Rand. Wenn er angelegt wird, kann der Nachtmantel über einen Teil der Macht Shars verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nur verwendet werden von:
+Nachtmantel der Shar~
+@10617 = ~Schutz vor Blindheit~
+@10700 = ~Installiere Heiliger Stratege der Roten Ritterin Kleriker Kit~
+@10701 = ~Heiliger Stratege der Roten Ritterin~
+@10702 = ~HEILIGER STRATEGE DER ROTEN RITTERIN: Heiliger Stratege ist der Name, unter dem die Kleriker der Roten Ritterin bekannt sind, und es ist wahrlich ein angemessener Titel. Durch das Meistern militärischer Strategien und Taktiken zählen Körper und Geist dieser Kleriker zu den tödlichsten Waffen Faerûns. Entsprechend ist ihr Ruf, so dass ganze Armeen, die ihren Gegnern zahlenmässig drei zu eins überlegen sind, kapitulieren, wenn sie erfahren, dass der Kontrahent von einem Heilgen Strategen angeführt wird.
+
+Die Kleriker der Roten Ritterin werden in ihrer Gemeinschaft als die Rote Gemeinschaft bezeichnet. Viele Mitglieder dienen als hochrangige Befehlshaber in Armeen durch ganz Faerûn, oftmals als Führer spezieller Eliteeinheiten. Andere, die nicht direkt durch die Kirche eingesetzt werden, dienen als Ausbilder in Militärakademien oder als Quartiermeister, verantwortlich dafür, Truppen an der Front zu versorgen. Wenn sie nicht in die Schlacht ziehen, tragen Heilige Strategen wallende, in Rot gehaltene Roben mit weißen Akzenten.
+
+Heilige Strategen der Roten Ritterin können nur von rechtschaffen guter, rechtschaffen neutraler oder rechtschaffen böser Gesinnung sein.
+
+Besondere Fähigkeiten:
+- Spirituelle Waffe: Langschwert - "Schachmatt" einmal täglich
+"Schachmatt" ist die spirituelle Waffe der Heiligen Strategen und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Langschwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+- Die Zauber Infravision, Hellsehen, und Zauberauge stehen als göttliche Zauber zur Verfügung
+- Ab Stufe 13 stehen Heiligen Strategen zwei Nahkampfattacken pro Runde zu
+- Ab Stufe 7 steht der Zauber Hast einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 3. Grades
+- Ab Stufe 9 steht der Zauber Koordinierte Verteidigung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 4. Grades
+- Ab Stufe 11 steht der Zauber Massenheilung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 5. Grades
+- Ab Stufe 14 steht der Zauber Schutzmantel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+- Voller Zugang zu den Domänen Alle, Charme, Kampf, Erkenntniszauber, Wächter, Heilung, Gesetz, Schutz, Krieg
+- Eingeschränkter Zugang zu den Domänen Nekromantie, Herbeirufung, Geist, Reisen, Wächter
+- Kein Zugang zu den Domänen Tiere, Astral, Chaos, Erschaffung, Elemente, Zahlen, Pflanzen, Sonne, Zeit, Wetter~
+@10703 = ~Das Schachmatt~
+@10704 = ~Das Schachmatt ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@10710 = ~Heiliges Symbol der Roten Ritterin~
+@10711 = ~Die Rote Ritterin beschützt ihre mächtigsten Diener durch ein Heiliges Symbol, ein Ring von der Form einer roten Schachfigur. Wenn er angelegt wird, kann der Heilige Stratege über einen Teil der Macht der Roten Ritterin verfügen.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+   5% Magieresistenz wenn angelegt
+   +1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von chaotischer Gesinnung~
+@10714 = ~Heiliger Stratege der Roten Ritterin~
+@10900 = ~Installiere Schlachtenhüter des Tempus Kleriker Kit~
+@10901 = ~Schlachtenhüter des Tempus~
+@10902 = ~SCHLACHTENHÜTER DES TEMPUS: Tempus ist in den Reichen der Gott des Krieges, der Herr der Schlachten, der Schlaghammer. Er ist willkürlich in seiner Gunst, doch seine chaotische Natur begünstigt alle Seiten gleichermaßen. An einem Tag mag er auf Seiten einer Armee stehen und am nächsten gegen sie. So ist die Natur des Krieges, verkörpert von Tempus.
+
+Das Gewand der Priester des Tempus ist die Rüstung, schlachtenerprobt und verbeult. In zivilisierteren Gebieten wurde sie von einer stählernen Schädelhaube ersetzt, aber die Botschaft ist die selbe: dies sind Kriegerpriester. Ihr Platz ist in den Gräben bei den Truppen, um sie voran zu treiben. Priester des Tempus lassen sich auf beiden Seiten eines Konflikts finden, da sich nie vorhersagen läßt, wem der Kriegsgott seine Gunst schenken wird.
+
+Schlachtenwächter des Tempus können nur chaotisch neutraler, chaotisch guter, neutraler und chaotisch böser Gesinnung sein
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Streitaxt - "Tapferkeit" einmal täglich
+Die Streitaxt "Tapferkeit" ist die spirituelle Waffe der Schlachtenhüter und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Die Streitaxt ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Kann eine Spezialisierung (zwei Punkte) in jeder Nahkampfwaffe, die ein Kleriker nutzen kann, erreichen
+-  Kann einmal täglich zum Berserker werden
+-  Ab Stufe 7 steht der Zauber Heilige Macht einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Chaos einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Tensers Umwandlung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Chaossphäre einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+-  Kann keine Fernkampwaffen beherrschen
+
+Domänen:
+-  Voller Zugang zu den Domänen Tiere, Kampf, Chaos, Erkenntniszauber, Elemente, Nekromantie, Schutz und Krieg
+-  Eingeschränkter Zugang zu den Domänen Alle, Wächter, Heilung, Herbeirufung, Sonne, Wächter and Wetter
+-  Kein Zugang zu den Domänen Charme, Erschaffung, Gesetz, Zahlen, Pflanzen and Geist~
+@10903 = ~Streitaxt - "Tapferkeit"~
+@10904 = ~In die ewige Schlacht schreitend ist Tempus bevorzugte Waffe seine Streitaxt "Tapferkeit". Er beschenkt die gläubigsten unter seinen Klerikern mit der Fähigkeit, eine solche von seiner Macht durchtränkten Waffe einmal täglich hervorzurufen. Die Streitaxt ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@10910 = ~Heiliges Symbol des Tempus~
+@10911 = ~Tempus beschützt seine mächtigsten Diener durch ein Heiliges Symbol, ein Ring in der Form eines flammenden Silberschwerts auf einem roten Schild. Wenn er angelegt wird, kann der Schlachtenhüter über einen Teil der Macht Tempus verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von rechtschaffener Gesinnung~
+@10912 = ~Tempus Schild~
+@10913 = ~Tempus Schild (Bannzauber)
+Grad: Speziell
+Reichweite: 0
+Dauer: 4 Runden
+Zeitaufwand: 1
+Bereich: Anwender
+Domäne: Kampf
+Rettungswurf: Nein
+
+Tempus in der Not um Unterstützung anrufend, wird der Schlachtenwächter vor den meisten körperlichen Schäden bewahrt. Der Zauber gewährt Schutz vor allen Waffen, außer denen, auf denen ein Zauber von +5 oder höher liegt. Der Zauber ist enorm mächtig, trotz der kurzen Wirkungsdauer. Die Zauberdauer ist ebenfalls sehr kurz, was den Spruch ausgesprochen nützlich in der Hitze der Schlacht macht, wo einige Sekunden den Unterschied zwischen Leben und Tod ausmachen können. Der Spruch dauert an, bis seine Wirkung endet, oder er gebannt wird.~
+@10914 = ~Schlachtenhüter des Tempus~
+@11200 = ~Installiere Leidträger des Ilmater Kleriker Kit~
+@11201 = ~Leidträger des Ilmater~
+@11202 = ~LEIDTRÄGER DES ILMATER: Ilmater ist der Weinende Gott, der Gott der Standhaftigkeit, des Leidens, des Märtyrertums und der Beharrlichkeit. Er ist es, der jenen, die in Leid und Unterdrückung große Not tragen, Unterstützung und Trost bietet. Er ist der willige Leidensgefährte, jener, der des anderen Platz einnimmt, um seine Bürde und sein Leid zu tragen. Er ist der Gott der Unterdrückten und der ungerecht Behandelten. In früheren Tagen war Ilmaters Symbol eine blutgetränkte Folterbank, heutzutage findet aber ein Paar weißer Handschuhe, gebunden mit einer roten Kordel Verwendung. Letzeres Symbol steigerte Ilmaters Popularität in der Allgemeinheit. Ilmater verweilt in Bytopia.
+
+Ilmaters Anhänger werden oft als vorsätzlich Leidende wahrgenommen, aber in Wirklichkeit bieten sie ein hohes Maß an "reiner klerikaler" Natur der Heilung für diejenigen, die verletzt wurden. Sie stellen andere über sich selbst, teilen gerne, und heben die spirituelle Natur des Lebens über den Leib. Ilmaters Priester sind meist dort, wo man sie braucht, was zumeist dort ist, wo die schlimmsten Bedingungen herrschen, um den Armen und Unterdrückten beizustehen. Sie kleiden sich in schlichtem Grau, mit grauen Schädelkappen (blutrot in höhreren Rängen).
+
+Leidträger des Ilmater können nur von rechtschaffen guter, neutral guter, oder rechtschaffen neutraler Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Faust - "Hand Ilmaters" einmal täglich
+Die "Hand Ilmaters" ist die spirituelle Waffe der Leidträger. Die Hand Ilmaters verursacht 1W6 Grundschaden und wird geführt, als wäre der Anwender Großmeister. Die Hand Ilmaters entspricht einer normalen Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 25 und höher. Die Hand Ilmaters besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Kann Hände auflegen einmal täglich
+-  Ab Stufe 7 steht der Zauber Gift neutralisieren einmal täglich zur Verfügung, identisch mit dem gleichnamigen vierten Klerikerzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Ilmater Standfestigkeit einmal täglich zur Verfügung.
+Der Leidträger ruft Ilmater an um die Last der Prüfungen, die vor ihm liegen, auf sich nehmen zu können .Für 1 Runde pro Stufe des Leidträgers, erhält der Kleriker +2 auf Rettungswürfe, Immunität gegen Panik und Krankheit, verdoppelt seine Trefferpunkte und wird im Angesicht jeglicher Anstürme und Gefahren standfest sein.
+-  Ab Stufe 11 steht der Zauber Heilung einmal täglich zur Verfügung, identisch mit dem gleichnamigen sechsten Klerikerzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Regeneration einmal täglich zur Verfügung, identisch mit dem gleichnamigen siebten Klerikerzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Charme, Erschaffung, Wächter, Heilung, Gesetz, Nekromantie, Schutz und Reisen
+-  Eingeschränkter Zugang zu den Domänen Kampf, Elemente, Herbeirufung, Sonne, Wächter und Wetter
+-  Kein Zugang zu den Domänen Tiere, Astral, Chaos, Erkenntniszauber, Zahlen, Pflanzen, Geist, Zeit und Krieg~
+@11203 = ~Die Hand Ilmaters~
+@11204 = ~Die "Hand Ilmaters" ist die spirituelle Waffe der Leidträger. Die Hand Ilmaters verursacht 1W6 Grundschaden und wird geführt, als wäre der Anwender Großmeister. Die Hand Ilmaters entspricht einer normalen Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 25 und höher. Die Hand Ilmaters besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@11205 = ~Imaters Standfestigkeit~
+@11206 = ~Imaters Standfestigkeit
+Domäne: Nekromantie, Schutz
+Reichweite: Berührung
+Dauer: 1 Runde + 1 Runde/Stufe
+Zeitaufwand: 7
+Bereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauber verdoppelt die Trefferpunkte des Empfängers. Jeglicher erlittene Schaden wird zuerst von diesen Phantomtrefferpunkten abgezogen bis sic aufgebraucht sind, danach von den wirklichen Trefferpunkten des betroffenen Wesens.
+
+Alle rettungswürfe erhalten einen Bonus von +2. Zusätzlich kann ein Wesen, welches durch Imaters Standfestigkeit geschütz ist weder umgeworfen, niedergetrampelt, niedergeritten, noch umgestoßen werden; alle geschützen Wesen sind standfest gegen alle Anstürme.~
+@11207 = ~Heiliges Symbol des Ilmater~
+@11208 = ~Ilmater beschützt seine mächtigsten Diener durch ein Heiliges Symbol, einen Ring von der Form weißer Hände, die mit einer roten Kordel gebunden sind. Wenn er angelegt wird, kann der Leidträger über einen Teil der Macht Ilmaters verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von chaotischer oder böser Gesinnung~
+@11209 = ~Leidträger des Ilmater~
+@11500 = ~Installiere Feuerläufer des Kossuth Kleriker Kit~
+@11501 = ~Flegel - "Flammenranke"~
+@11502 = ~Stachelkette - "Flammenranke"~
+@11503 = ~Feuerläufer des Kossuth~
+@11504 = ~FEUERLÄUFER DES KOSSUTH: Kossuth, Gebieter des Feuers, der Tyrann unter Feuer, ist ein Elementarherrscher der Feuerebene. Er kümmert sich im Allgemeinen nicht um seine Getreuen, gewährt seinen Priestern aber weiterhin ihre Macht, da ihre Anbetung seine Kräfte auf seiner Heimatebene erhöhen. Um eine kontinuierliche Anbetung zu erhalten, hat er begrenztes Interesse an den Problemen seiner sterblichen Anhänger und zeigt seine Präsenz gelegentlich durch eine Manifestation, jedoch nie durch einen Avatar.
+
+Kossuths Kirche ist vielfältig und chaotisch, da er kein Interesse an ihrer Struktur zeigt. Das Ergebnis ist eine Sammlung von Kulten, in denen jede Fraktion ihren eigenen ethischen und moralischen Vorstellungen und Lehren folgt. Kossuths Symbol unterscheidet sich stark von Fraktion zu Fraktion und beinhaltet im Allgemeinen eine Darstellung von Feuer. Man geht davon aus, dass Kossuth durch eine Zusammenführung seiner Anhänger in irgend einer Art und Weise zu einer sehr mächtigen Kraft in den Reichen würde, ein Umstand, den die anderen Götter nicht wirklich gerne sehen würden. Von den vier Gebietern der Elemente sind die Kulte Kossuths die Bekanntesten und am meisten Gefürchteten, sehr mächtig in Thay und den Ländern des Ostens.
+
+Feuerläufer des Kossuth können von jeglicher Gesinnung sein, die meisten sind jedoch böse und schwelgen in der zerstörerischen Macht des Feuers. Sie können jeder Rasse angehören. Sie kleiden sich in was immer ihre Fraktion für angemessen erachtet ihren Gott zu representieren. In der Regel sind das lange rote Umhänge in Rot- Gelb und Orangetönen.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Flegel - "Flammenranke" einmal täglich
+Der Flegel ist die spirituelle Waffe der Feuerläufer des Kossuth und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Flegel ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  2% Widerstand gegen Feuer pro Stufe.
+-  Ab Stufe 7 steht der Zauber Roter Feuerschild einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Sonnenfeuer einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Feuerelemtar beschwören einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Spätzündender Feuerball einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Kampf, Elemente fire, Heilung, Herbeirufung und Sonne
+-  Eingeschränkter Zugang zu den Domänen Erkenntniszauber, Elemente (Luft), Elemente (Erde), Schutz und Krieg
+-  Kein Zugang zu den Domänen Tiere, Astral, Charme, Chaos, Erschaffung, Elemente water, Wächter, Gesetz, Nekromantie, Zahlen, Pflanzen, Zeit, Geist, Reisen, Wächter und Wetter~
+@11505 = ~Kossuths reinigende Berührung~
+@11506 = ~Kossuths reinigende Berührung (Hervorrufung)
+Grad: Auftragszauber
+Domäne: Elemente (Feuer)
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich:  Speziell
+Rettungswurf: 1/2
+
+Durch die Anrufung der flammenden Berührung seiner Gottheit bündelt der Feuerläufer etwas von Kossuths sengender Energie. Beide Seiten der majestätischen Macht des Feuers, seine Zerstörung und seine Fähigkeit zu Reinigen treten deutlich hervor. Zunächst verursacht dieser Zauber bei allen Gegnern in 9m Radius 15W6 Feuerschaden (Rettungswurf gegen Zauber für halben Schaden). Zudem wird der Körper des Anwenders durch heilige Flammen gereinigt, die Auswirkungen entsprechen denen des Zaubers Heilung.
+
+Wird diese Fähigkeit ausgewählt, steht sie einmal täglich zur Verfügung. Sie kann nur einmal gewählt werden.~
+@11507 = ~Heiliges Symbol des Kossuth~
+@11508 = ~Kossuth beschützt seine mächtigsten Diener durch ein Heiliges Symbol, einen Ring von der Form einer alles verzehrenden Flamme. Wenn er angelegt wird, kann der Leidträger über einen Teil der Macht Ilmaters verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nur verwendet werde von:
+Klerikern~
+@11509 = ~Feuerläufer des Kossuth~
+@11800 = ~Installiere Authlim des Iyachtu Xvim Kleriker Kit~
+@11801 = ~Authlim des Iyachtu Xvim~
+@11802 = ~AUTHILIM DES IYACHTU XVIM: Man sagt, Iyachtu Xvim ist das Ergebnis einer Vereinigung zwischen dem Schwarzen Herrn, Bane und einer höheren oder wahren Tanar'ri, dementsprechend fließt Banes Blut in seinen Adern. Eine andere Geschichte behauptet, er sei die Brut des Schwarzen Herrn und ein gefallener Paladin. Auch Gottessohn oder Sohn Banes genannt, hat Xvim als Instrument Banes in den Reichen gedient, um den Willen seines Vaters durchzusetzen. Seine Erscheinung ist entweder ein hagerer, nackter Mann, bewaffnet mit einem großen Krummsäbel oder als schwarze Wolke mit glühenden grünen Augen.
+
+Xvim war während der Zeit der Sorgen in der Feste Zhentil für zehn Jahre eingekerkert. Er konnte sich selbst befreien, als die Feste Zhentil während des Cyrinishad Fiaskos fiel. Zu eben jender Zeit gelang es ihm auch, die Portfolios von Tyrannei und Hass von Cyric zu stehlen. Heute ist er der Gott der Angst, des Hasses, der Arglist und der Tyrannei. Er strebt danach, den Platz seines Vaters, Bane, einzunehmen, was ihn zu einem Erzfeinf Cyrics macht. Seine Verehrung ist am stärksten im Osten, speziell in Thay, seine Priesterschaft breitet sich aber schnell über die Reiche aus. Seine Priester bevorzugen schwarze Roben mit dunkelgrünen Einsätzen. Auch tragen sie schwarze, eiserne Handschuhe mit auf dem Handrücken aufgemalten, glühend grünen Augen. Diese Handschuhe sind auch das Heilige Symbol Xvims.
+
+Authlims des Xvim können jeder Rasse angehören. Sie können nur von rechtschaffen böser, rechtschaffen neutraler or neutral böser Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Krummsäbel - "Säbel der Seelen" einmal täglich.
+Der Krummsäbel ist die spirituelle Waffe der Authlim des Iyachtu Xvim und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Er ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 25 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Immun gegen Angst.
+-  Ab Stufe 7 steht der Zauber Größeres Unbehagen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Resistenz senken einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Todeszauber einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Schutzmantel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+-  Der Authlim kann heilende Sprüche nur auf sich selbst anwenden. Xvim und seine Authlim verachten Schwäche und helfen Bedürftigen nicht.
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Kampf, Erkenntniszauber, Wächter, Heilung, Nekromantie, Herbeirufung and Krieg
+-  Eingeschränkter Zugang zu den Domänen Charme, Erschaffung, Elemente und Gesetz
+-  Kein Zugang zu den Domänen Tiere, Chaos, Zahlen, Pflanzen, Schutz, Wächter und Wetter~
+@11803 = ~Heiliges Symbol des Iyachtu Xvim~
+@11804 = ~Iyachtu Xvim beschützt seine mächtigsten Diener durch ein Heiliges Symbol in Form schwarzer Handschuhe mit aufgemalten grünen Augen. Wenn sie angelegt werden, kann der Authilim über einen Teil der Macht Iyachtu Xvims verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+Klerikern von chaotischer oder guter Gesinnung~
+@11805 = ~"Säbel der Seelen"~
+@11806 = ~Der Säbel der Seelen ist die spirituelle Waffe der Authlim des Iyachtu Xvim und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Er ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 25 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@11807 = ~Xvim's Herbeirufung~
+@11808 = ~Xvim's Herbeirufung (Beschwörung)
+Grad: Auftragszauber
+Domäne: Alle, Herbeirufung
+Reichweite: Lang
+Dauer: 24 Runden
+Zeitaufwand: 5
+Bereich: Speziell
+Rettungswurf: Nein
+
+Dieser Zauber beschwört bis zu vier mächtige rechtschaffen böse ältere Betrachter, die an der Seite des Anwenders kämpfen.~
+@11809 = ~Authlim des Iyachtu Xvim~
+@12100 = ~Installiere Wissenshüter des Oghma Kleriker Kit~
+@12101 = ~Wissenshüter des Oghma~
+@12102 = ~WISSENSHÜTER DES OGHMA: Oghma ist der Gott des Wissens und des Erfindens, der Bündler allen bekannten Wissens und der Patron der Barden. Er ist der mächtigste Gott des Wissens in den Reichen (der Zweite nach Mystra, wenn man magische Fähigkeiten als Wissen betrachtet). Deneir und Milil agieren beide als Fürsprecher Oghmas und überbringen neue Informationen sowohl zu ihm als auch zu jenen, die in Oghmas Gunst stehen.
+
+Oghmas Anhänger glauben an die Überlegenheit des Wissens, speziell in seiner Reinform, der Idee. Eine Idee hat kein Gewicht, kann aber Berge versetzen. Sie hat keine Höhe, aber sie kann eine Nation dominieren. Sie hat kein Gewicht, aber sie kann ganze Reiche zerstören. Wissen ist das höchste Werkzeug der Menschheit, mächtiger als alles, was sterbliche Hände erschaffen können. Bevor irgend etwas existieren kann, muss die Idee existieren.
+
+Wissenshüters des Oghma können von jeglicher Rasse und Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Langschwert - "Tödlicher Stoß" einmal täglich
+Das Langschwert ist die spirituelle Waffe der Wissenshüters des Oghma und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Schwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Erhält eine Basis von 10 Sagenkunde/Stufe.
+-  Ab Stufe 7 steht der Zauber Geheimes Wort einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Orakel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Wort der Macht: Stille einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Rubinroter Strahl der Aufhebung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Kampf, Charme, Erkenntniszauber, Elemente, Wächter, Heilung, Schutz, Herbeirufung, Geist and Reisen
+-  Eingeschränkter Zugang zu den Domänen Tieres, Erschaffung, Nekromantie, Sonne and Wächter
+-  Kein Zugang zu den Domänen Chaos, Gesetz, Zahlen, Pflanzen, Zeit, Krieg and Wetter~
+@12103 = ~Langschwert - "Tödlicher Stoß"~
+@12104 = ~Oghmas Weisheit~
+@12105 = ~Heiliges Symbol des Oghma~
+@12106 = ~Oghma belohnt seine mächtigsten Diener durch ein Heiliges Symbol, einen Ring in Form einer Pergamentrolle. Wenn erangelegt wird, kann der Wissenshüter über einen Teil der Macht Oghmas verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nur verwendet werden von:
+ Klerikern~
+@12107 = ~Wissenshüter des Oghma~
+@12400 = ~Installiere Herzbehüter der Sune Kleriker Kit~
+@12401 = ~Herzbehüter der Sune~
+@12402 = ~HERZBEHÜTER DER SUNE: Man sagt, Sune Feuerhaar sei die Schönste aller Mächte. Sie wird im Allgemeinen als die schönste Frau der Reiche dargestellt, mit wallendem, glänzendem roten Haar und unglaublichem Charme. Der Galube an Sune ist populär in Ballungszentren und beim Adel. Die Dame Feuerhaar wird oft von denen verehrt, die eine Neigung zu Literatur oder Kunst haben, oder in Liebe entbrennen, oder Seelenverwandte suchen.
+
+Man sagt, Sune selbst sei wohlwollend und manchmal seltsam wechselhaft zwische tiefer Leidenschaft und oberflächlichen Flirts. In den Mythen und Legenden der Reiche stand sie mit vielen Mächten Faerûns in romantischer Verbinung, obwohl sie nie Liebe zeigte für die wütenden Götter, Talona oder Tempus, da ihr Wirken zur Zerstörung vieler wunderschöner Dinge führt, sowohl lebende als auch leblose. Gegenwärtig gibt es Gerüchte, sie habe sich durch Torms noble Taten bei Tantras während der Zeit der sorgen in ihn verliebt.
+
+Sunes Priester, als Herzbehüter der Sune bekannt, sind Ästheten und Hedonisten, die aktiv Freude und Schönheit in allen Dingen suchen und die Erschaffung schöner Dinge pflegen. Typischerweise findet man sie in großen Städten in der Gesellschaft der kulturellen Elite. Die meisten sind aktive Mäzäne der Künste und alle spielen die Rolle des Kupplers durch alle Gesellschaftsschichten. Viele sind als Künstler, Feinhandwerker oder Lehrer angestellt, einige wenige jedoch bereisen die Welt, um für Schönheit und Liebe zu werben.
+
+Herzbehüter der Sune können nur von neutral guter, chaotisch guter oder chaotisch neutraler Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Flegel - "Flegel des Anstoßes" einmal täglich
+Der Flegel des Anstoßes ist die spirituelle Waffe der Herzbehüters der Sune und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Flegel des Anstoßes ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  +1 Charisma
+-  Ab Stufe 7 steht der Zauber Gefühl einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 9 steht der Zauber Flammenschlag einmal täglich zur Verfügung, identisch mit dem gleichnamigen Klerikerzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Ablenkung einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Schutzmantel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Charme, Erschaffung, Erkenntniszauber, Wächter, Heilung, Schutz, Sonne, Geist, Zeit
+-  Eingeschränkter Zugang zu den Domänen Kampf, Elemente, Nekromantie, Herbeirufung
+-  Kein Zugang zu den Domänen Tiere, Chaos, Gesetz, Zahlen, Pflanzen, Reisen, Krieg, Wächter, Wetter~
+@12403 = ~Flegel - "Flegel des Anstoßes"~
+@12404 = ~Der Flegel des Anstoßes ist die spirituelle Waffe der Herzbehüters der Sune und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Der Flegel des Anstoßes ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@12405 = ~Heiliges Symbol der Sune~
+@12406 = ~Sune beschützt ihre mächtigsten Diener durch ein Heiliges Symbol, ein goldenes Amulett in der Form einer schönen menschlichen Maid. Wenn es angelegt wird, kann der Herzbehüter über einen Teil der Macht Sunes verfügen.
+
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+ Nicht - Klerikern~
+@12407 = ~Herzbehüter der Sune~
+@12700 = ~Installiere Feywarde des Corellon Kleriker Kit~
+@12701 = ~Feywarde des Corellon~
+@12702 = ~Feywarde des Corellon~
+@12703 = ~FEYWARDE DES CORELLON: Von Corellon Larethian, dem Führer des elfischen Pantheons, sagt man, er habe die ganze eflische Rasse hervorgebracht, obwohl manchmal auch Sehanine oder Angharradh damit in Verbindung gebracht werden. Die elfische Überlieferung besagt, das Schöne Volk entspränge einigen Tropfen von Colerrlons Blut, welches er in epischen Schlachten mit Gruumsh vergoss, vermischt mit Sehanines (oder Angharradhs) Tränen. Der Schöpfer der Elfen verkörpert die höchsten Ideale der Elfen und ist der Schutzpatron der meisten ästhetischen Bestrebungen, einschließlich Kunst, Magie, Musik, Poesie und Kriegsführung. Er wird von allen unter dem Schönen Volk verehrt, abgesehen von den Drow und jenen, die sich Lolth, Ghaunadaur, Vhaeraun und anderen dunklen Mächten zuwenden. Besonders populär ist Corellon bei elfischen und halbelfischen Magiern, Musikern und Poeten.
+
+Die zeremoniellen Gewänder der Prister Corellons bestehen aus azurblauen, mit silbernen Viertelmonden bestickten Roben aus Spinnenseide. Silberne Stirnreifen, in denen das Symbol des Beschützers eingraviert ist, werden getragen. Das heilige Symbol des Glaubens, das Heiliges Symbol des Glaubens, ist ein Anhänger aus Silber oder Mithril, der an einer schlanken Kette um den Hals getragen wird. Wenn Corellons Priester auf Abenteuer ausziehen, bevorzugen sie im Allgemeinen Ausrüstung, die bewusst der ihres göttlichen Patrons nachempfunden ist.
+
+Feywarden des Corellon müssen Elfen oder Halbelfen sein und können nur von chaotisch guter, neutral guter oder chaotisch neutraler Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Langschwert - "Sahandrian" einmal täglich
+Sahandrian ist die spirituelle Waffe der Feywarden des Corellon und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Sahandrian ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Kann bis zu 2 Punkten in Waffenumgangstalente und Maximum in Kampfstile investieren
+-  +1 auf Rettungswürfe gegen Tod
+-  Ab Stufe 7 steht der Zauber Verzauberte Waffe einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 4. Grades
+-  Ab Stufe 9 steht der Zauber Immunität gegen Zauber einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Schutz vor magischen Waffen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Regenbogenstrahlen einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Charme, Kampf, Erschaffung, Erkenntniszauber, Wächter, Heilung, Nekromantie, Schutz, Sonne, Krieg und Wächter
+-  Eingeschränkter Zugang zu den Domänen Tiere, Chaos, Herbeirufung, Pflanzen und Geist
+-  Kein Zugang zu den Domänen Elemente, Gesetz, Zahlen, Zeit, Reisen oder Wetter~
+@12704 = ~Langschwert - "Sahandrian"~
+@12705 = ~Sahandrian ist die spirituelle Waffe der Feywarden des Corellon und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Sahandrian ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 auf den Stufen 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@12706 = ~Verbesserter Eifer (Alle)
+Grad: 10
+Reichweite: Anwender
+Dauer: 2 Runden
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Speziell
+
+Verbesserter Eifer beseitigt im Wesentlichen die Notwendigkeit, zwischen dem Anwenden von Zaubern zu pausieren. Wenn der Anwender von diesem Zauber betroffen ist, kann er direkt einen neuen Zauber ausführen, wenn der Zeitaufwand des Vorhergehenden verstrichen ist. Der Effekt hält 2 Runden.
+
+Diese Fähigkeit kann bis zu 3 mal gewählt werden.~
+@12707 = ~Heiliges Symbol des Corellon~
+@12708 = ~Corellon beschützt ihre mächtigsten Diener durch ein Heiliges Symbol, einen Ring in der Form der Monsichel. Wenn er angelegt ist, kann der Feywarder über einen Teil der Macht Corellons verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nicht verwendet werden von:
+ Nicht - Klerikern~
+@13000 = ~Explosion des Grauens~
+@13001 = ~Installiere Zwietrachtsäer des Cyric Kleriker Kit~
+@13002 = ~Zwietrachtsäer des Cyric~
+@13003 = ~Zwietrachtsäer des Cyric~
+@13004 = ~ZWIETRACHTSÄER DES CYRIC: Cyric ist größenwahnsinniger Gott mit gewaltiger Anhängerschaft. Als einer der drei höheren Mächte des Bösen auf Faerûn ist er ziemlich eigensüchtig und genießt es, Wesen aller Neigungen in die Irre zu führen, sodass sie Handlungen vornehmen, die ihr Leben ruinieren oder so, dass sie schwerwiegende Fehler machen. Er trinkt die Tränen desillusionierter Träumer und unglücklich Verliebter. Er geht keine Allianz mit einer anderen Gottheit ein, solange er noch das Gefühlt hat, er könne sie betrügen oder übervorteilen.
+
+Cyrics Kirche verbreitet überall Unfrieden und Mord, um das Volk zum Glauben an und zur Furcht vor der Schwarzen Sonne zu bringen. Er unterstützt grausame Herrscher und frönt Intrigen auf eine Art und Weise, dass die Welt nicht von Kriegen überrannt wird (womit sie unter Tempus Machteinfluss geriete). Seine Kirche ist oft von internen Fehden befallen, diese Konflikte nahmen in den letzten Jahren jedoch ab, da Cyric mehr Selbstkontrolle errungen und die Kirchen der Gottheiten, deren Portfolios er übernommen hat, konsoldiert hat.
+
+Zwietrachtsäer tragen schwarz und purpur farbene Roben. An den Handgelenken werden silberen Bänder, das Symbol ihrer sklavischen Bindung an Cyric, getragen. Zwietrachtsäer des Cyric können von chaotisch neutraler oder jeglicher bösen Gesinnung sein.
+
+Besondere Fähigkeiten:
+-  Spirituelle Waffe: Langschwert - "Messers Schneide" einmal täglich
+Messers Schneide ist die spirituelle Waffe der Zwietrachtsäers des Cyric und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Langschwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.
+-  Waffe vergiften alle 6 Stufen einmal täglich. Attacken, die in der nächsten Runde mit der vergifteten Waffe geführt werden, injezieren das Gift in das Ziel und verursachen für 24 Sekunden 1 Schadenspunkt pro Sekunde (3 Schadenspunkte in den ersten 6 Sekunden). Ein Rettungswurf gegen Vergiften limitiert den Gesamtschaden auf 12 SP.
+-  Ab Stufe 7 steht der Zauber Explosion des Grauens einmal täglich zur Verfügung
+Feuert einen Strahl negativer Energie ab, der 4W8 +1/Stufe (max +20) Schadenspunkte verursacht and das Ziel für eine Runde verwirrt (Rettungswurf gegen Zauber -2 hebt Verwirrung auf)
+-  Ab Stufe 9 steht der Zauber Chaos einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 5. Grades
+-  Ab Stufe 11 steht der Zauber Tödlicher Nebel einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 6. Grades
+-  Ab Stufe 14 steht der Zauber Chaossphäre einmal täglich zur Verfügung, identisch mit dem gleichnamigen Magierzauber des 7. Grades
+
+Domänen:
+-  Voller Zugang zu den Domänen Alle, Astral, Charme, Kampf, Wächter, Heilung, Nekromantie, Herbeirufung, Sonne, Zeit, Krieg, Wetter
+-  Eingeschränkter Zugang zu den Domänen Erkenntniszauber, Elemente, Zahlen, Schutz
+-  Kein Zugang zu den Domänen Tiere, Erschaffung, Chaos, Gesetz, Pflanzen, Geist, Reisen, Wächter~
+@13005 = ~Heiliges Symbol des Cyric~
+@13006 = ~Cyric verleiht seinen mächtigsten Dienern ein Heiliges Symbol, silberne Armschützer, in die sein Symbol eingelassen ist: ein Totenschädel vor einer schwarzen Sonne. Sowohl als Symbol der offensichtlichen Macht des Priesters repräsentieren diese Armschützer auch seine sklavische Abhängigkeit vom Prinzen der Lügen. Wenn sie angelegt werden, kann der Zwietrachtsäer über einen Teil der Macht Cyrics verfügen.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zusätzlichen Zauber des 6. und des 7. Grades.
+5% Magieresistenz wenn angelegt
++1 Stärke wenn angelegt
+
+Kann nur verwendet werden von
+ Klerikern~
+@13007 = ~Langschwert - "Messers Schneide"~
+@13008 = ~Messers Schneide ist die spirituelle Waffe der Zwietrachtsäers des Cyric und wird geführt, als hätte der Anwender die Großmeisterschaft in dieser Waffe. Das Langschwert ist eine normale Waffe auf den Stufen 1-5, +1 auf den Stufen 6-10, +2 at 11-15, +3 auf den Stufen 16-20, +4 auf den Stufen 21-25 und +5 auf den Stufen 26 und höher. Die spirituelle Waffe besteht für eine Runde pro Stufe des Anwenders, bis zu 20 Runden.~
+@20000 = ~Druide Remix~
+@20001 = ~DRUIDE: Der Druide dient der Sache der Natur und Neutralität; die Wildnis ist seine Gemeinschaft. Er nutzt seine speziellen Fähigkeiten, um sie zu schützen und das Gleichgewicht in der Welt zu wahren.
+
+-  Druiden haben Zugang ab der ersten Stufe zu Priesterzaubern der Domänen Alle, Elemente, Heilung, Pflanzen, Sonne und Wetter
+-  Ab Stufe 7 Gestaltwandel in Braunbären-, Schwarzbären- oder Wolfsgestalt
+-  Ab Stufe 15 Immunität gegen Vergiften
+-  Ab Stufe 18 10% Widerstand gegen Elementarschäden. Dieser Bonus wird auf den Stufen 21 und 24 um weitere 10% erhöht~
+@20002 = ~KRIEGER/ DRUIDE:  Der Charakter kann die Fähigkeiten eines Kriegers und die eines Druiden nutzen, wobei Waffen und Rüstung den Auflagen des Druidenethos unterliegen.~
+@20003 = ~Die leichten, aber haltbaren Schuppen eines blauen Drachen bieten exzellenten Schutz gegen Waffen und alle Formen von Elektrizität.
+
+EIGENSCHAFTEN:
+   +90% Widerstand gegen alle Attacken durch Blitze oder Elektrizität.
+
+Rüstungsklasse: -1
+Gewicht: 20
+Benötigt: 15 Stärke
+Kann nicht verwendet werden von:
+ Barden
+ Magiern
+ Dieben~
+@20301 = ~Installiere Sumpfmeister Druiden Kit~
+@20302 = ~Sumpfmeister~
+@20303 = ~Sumpfmeister~
+@20304 = ~SUMPFMEISTER: Aus allen Ritzen und Fugen eines Verlieses sickert eine einfarbige, faulige Substanz, von der sich Abenteurer wünschen, sie wäre nicht da. Grade wenn sie den gelben Modder umgangen haben, tropft grüner Schleim von der Decke. Oft entstehen solche Greuel auf natürliche Weise, aber gelegentlich werden sie durch vorsätzliche Hand platziert  - die eines Sumpfmeisters.
+
+Der Sumpfmeister ist keine Klasse für solide Personen. Sie beinhaltet eine eins-zu-eins Beziehung zu Dingen, die keine Beziehung zu irgend etwas haben. Im Gegensatz zu den verwandten Wesen der meisten Druiden haben die des Sumpfmeisters nichts zu sagen. Niemand hat bisher einen "Mit Schlamm sprechen"-Zauber entwickelt, wenn doch, hat der Schlamm nicht geantwortet. Da Sumpfmeister alles andere als Vertrauenswürdigkeit ausstrahlen, haben die meisten von ihnen nur wenige Freunde und sogar noch weniger Gäste. Dementsprechend neigen sie dazu, viel mit sich selbst zu sprechen und vor sich hin zu kichern.
+
+Es gibt jedoch Risiken, den Weg einens Sumpfmeister einzuschlagen. Mit wachsender Macht übernehmen sie viele Charakeristika ihrer bevorzugten Wesen, obwohl sie sich zunehmemd eine fremdartige Denkweise aneignen und es immer schwiedriger wird, in Beziehung mit anderen zu stehen. Das scheinen sie jedoch nicht so sehr als einen Nachteil zu betrachten.
+
+Vorteile:
+-  Angriff mit Lähmender Berührung einmal täglich alle 5 Stufen.
+Dieser Zauber wirkt auf die selbe Art und Weise wie Ghulgriff, der Magierzauber des 2. Grades
+-  Ab Stufe 5 gewährt der fremdartige Stoffwechsel des Sumpfmeisters Immunität gegen Gift
+-  Ab Stufe 7 Gestaltwandel Gelber Schleim. Diese Fähigkeit kann 3 mal täglich verwendet werden
+-  Ab Stufe 9 Immunität gegen Säure
+-  Ab Stufe 11 gewährt der fremdartige Stoffwechsel des Sumpfmeisters Immunität gegen Krankheiten
+-  Ab Stufe 15 Immunität gegen Blindheit, Schlaf, Lähmung, Betäubung und kritische Treffer, da sie eins werden mit dem Sumpf und keine wahrnehmbare interne Anatomie mehr aufzeigen
+
+Nachteile:
+-  Kein Zugang zu den Domänen Tiere oder Pflanzen
+-  Keine anderen druidischen Standard-Fähigkeiten (wie Gestaltwandel in Wölfe oder Bären, oder elementare Widerstände in höheren Stufen)
+-  Malus von -1 Charisma auf den Stufen 1, 5, 7, 9, 11 und 15, da er sich immer mehr von einer humanoiden Denkweise absondert und seine Eigenschaften sich immer weiter verzerren~
+@20305 = ~Lähmende Berührung~
+@20306 = ~Gestaltwandel: Gelber Schleim~
+@40300 = ~Installiere Falkenauge Waldläufer Kit~
+@40301 = ~Falkenauge~
+@40302 = ~Falkenauge~
+@40303 = ~FALKENAUGE: Ein Falkenauge ist der Inbegriff elfischer Bogenkunst. Wenn es gilt, einen schwierigen Schuss zu machen,wird er ihn meistern. Ob das Ziel nur durch starken Wind erreichbar oder verborgen ist, ein Falkenauge vertraut seiner Fähigkeit den Schuss zu meistern.
+
+Vorteile:
+-  +1 ETWO und Schaden mit jeglicher Fernkampfwaffe alle drei Stufen, ab Stufe 18 alle fünf Stufen
+-  Kann Großmeisterschaft (vier Punkte) in Bögen erlangen
+-  Kann die Fähigkeit "Gezielter Schuss" einmal täglich für alle vier Stufen (beginnend mit der 4. Stufe) einsetzen. Wenn ein Falkenauge diese Fähigkeit einsetzt, erhält jeder abgefeuerte Schuss in den nächsten 20 Sekunden einen Bonus von +1 für alle vier Stufen auf ETWO und Schaden
+-  Kann die Fähigkeit "Schneller Schuss" einmal täglich für alle acht Stufen (beginnend mit der 8. Stufe) einsetzen. Wenn ein Falkenauge diese Fähigkeit einsetzt, erhält er 5 Runden lang eine extra Attacke pro Runde
+-  "Unsichbares entdecken" einmal täglich alle sechs Stufen (beginnend mit der 6. Stufe)
+
+Nachteile:
+-  Erhält nicht die Fähigkeit "Tiere Bezaubern"
+-  -1 Schaden mit jeglicher Nahkampfwaffe
+-  Kann nur eingeschränkten Umgang (ein Punkt) mit Langschwertern, Kurzschwertern und Dolchen erlernen
+-  Kann nicht den Umgang mit jeglicher anderen Nahkampfwaffe erlernen
+-  Kann keine Metallrüstungen tragen~
+@40304 = ~Schneller Schuss~
+@40600 = ~Installiere Verwildeter Waldläufer Kit~
+@40601 = ~Verwildeter~
+@40602 = ~Verwildeter~
+@40603 = ~VERWILDETER: Was passiert mit Kindern, die durch die Wildnis wandern und niemals wiedergefunden werden? Oder schlimmer, die dort ausgesetzt werden? Viele unterliegen den Gefahren der Wildnis, aber einige wenige Glückliche werden von Tieren aufgenommen, aufgezogen als Teil eines Löwenwurfs oder eines Wolfsrudels. Abgeschnitten von der Zivilisation, übernehmen sie allmählich die Charakteristika der Wesen, die sie aufgenommen haben und entwickeln eine Art Einheit mit dem Geist der Wildnis. Durch diesen Prozess werden sie Wilde, Wesen, die animalische Wildheit kombinieren mit dem Intellekt der Menschen.
+
+Wilde können nicht von rechtschaffen guter Gesinnung
+
+Vorteile:
+-  +10% auf Verstohlenheit
+-  +1 zur Rüstungsklasse für alle 5 Stufen (beginnend mit der 1. Stufe)
+-  Kann die Fähigkeit "Animalische Wut" einmal täglich für alle 10 Stufen einsetzen. Die Wut hält 60 Sekunden an und gewährt einen Bonus von +2 auf Attacke, Schaden und Rüstungsklasse, sowie Immunität gegen Charme, Festhalten und Angst, Irrgarten, Gefängnis, Betäubung und Schlaf. Außerdem erhält er 15 temporäre Trefferpunkte
+-  Kann die Fähigkeit "Ruf der Wildnis" einmal täglich einsetzen. Diese einzigartige Fähigkeit ruft einen Tierbegleiter herbei, der den Anwender für 3 Runden + 1 Runde/Stufe im Kampf unterstützt. Auf höheren Stufen werden mächtigere Tiere herbeigerufen.
+
+Nachteile:
+-  Ermüdet durch Animalische Wut. Während der Ermüdung erhält er einen Malus von -2 auf Attacke, -2 auf Schaden und einen +2 Malus auf Rüstungsklasse
+-  Kann nur den Umgang (1 Punkt) mit Bastardschwertern, Langschwertern, Kurzschwertern, Zweihändigen Schwertern, Katanas, Krummsäbeln, Hellebarden, Flegeln und Armbrüsten
+-  Kann keine Rüstung tragen und keine großen Schilde führen
+-  Maximales Charisma ist 2 Punkte niedriger als der Standardwert für seine Rasse~
+@40604 = ~Animalische Wut~
+@40605 = ~Ruf der Wildnis~
+@40606 = ~Wilder Hund~
+@40607 = ~Wolf~
+@40608 = ~Schreckenswolf~
+@40609 = ~Rudelführer~
+@40900 = ~Installiere Waldwanderer Waldläufer Kit~
+@40901 = ~Waldwanderer~
+@40902 = ~Waldwanderer~
+@40903 = ~WALDWANDERER: Überall dort, wo ein korruptes oder unterdrückendes Regime die Macht inne hat, gibt es bestimmt einen Waldwanderer. Waldwanderer erheben sich gegen solcherlei Regime, leben am Rand der Gesellschaft, meist mit einem Fuß neben dem Gestz. Sie sind nur im technischen Sinne Kriminelle, da sie sich an einen persönlichen Kodex halten, der sie dazu zwingt, gegen gierige Aristokraten und ungerechte Herrscher Krieg zu führen. Während die jeweiligen Machthaber den Waldwanderer als gesetzlosen Unruhestifter betrachten, sieht das gemeine Volk in ihm einen Helden, vielleicht die letzte Hoffnung gegen eine tyrannische Regierung.
+
+Waldwanderer können nicht von rechtschaffen guter Gesinnung sein.
+
+Vorteile:
+-  +5% auf Verstohlenheit
+-  Kann die Meiterschaft (drei Punkte) im Umgang mit Langbögen, Kampfstäben, Langschwertern und Dolchen erlernen
+-  Kann die Fähigkeit "Inspirieren" einmal täglich für alle sechs Stufen (beginnend mit der 1. Stufe) anwenden. Diese einzigartige Fähigkeit erhöht die Moral- und Attackewürfe der Gefährten des Waldwanderers für 3 Runden.
+
+Nachteile:
+-  Können keine Metallrüstungen tragen
+-  Können nur den Umgang (ein Punkt) mit Äxten, Zweihändigen Schwertern, Kriegshämmern und Armbrüsten erlernen~
+@40904 = ~Inspirieren~
+@40905 = ~Inspiriert~
+@41200 = ~Installiere Rechtfertiger Waldläufer Kit~
+@41201 = ~Rechtfertiger~
+@41202 = ~Rechtfertiger~
+@41203 = ~RECHTFERTIGER: Manche Expeditionen sind so herausfordernd und manche Feinde so gefährlich, dass man einen gut ausgebildeten Spezialisten braucht, dessen Kampffertigkeiten weit über denen eines typischen Waldläufers liegen. Hier kommt der Rechtfertiger ins Spiel, ein Meiser der Taktik, dessen militärischer Instinkt, kämpferische Vielseitigkeit und Nerven aus Stahl ihn in den ersten Rang der Elitekrieger versetzt.
+
+Für einen entschlossenen Rechtfertiger ist keine Aufgabe zu schwierig, kein Gegner zu stark. Ihre Kenntnisse der Waffen ermöglicht ihnen einen Vorteil im Kampf, während die wenigere Zeit, die sie dem Training in Magie widmeen, sie in dieser Disziplin eher Mängel aufzeigen lässt.
+
+Rechtfertiger müssen rechtschaffen gut sein.
+
+Vorteile:
+-  +10% auf Verstohlenheit
+-  +1 auf Attacke und +1 Geschwindigkeit für alle 10 Stufen
+
+Nachteile:
+-  Erhält nicht die Fähigkeit "Tiere Bezaubern"
+-  Zauberfähigkeiten limitiert auf:
+"Leichte Wunden heilen" und "Rüstung des Glaubens" einmal täglich ab Stufe 8
+"Glück" und "Furcht bannen" einmal täglich ab Stufe 10
+"Heilige Macht entlehnen" einmal täglich ab Stufe 12~
+@41500 = ~Installiere Wildnisläufer Waldläufer Kit~
+@41501 = ~Wildnisläufer~
+@41502 = ~Wildnisläufer~
+@41503 = ~WILDNISLÄUFER: Es gibt solche Waldläufer und dann gibt es solche Waldläufer. Elfen sind auf einzigartige Weise mit den Rhythmen des Waldes verbunden, manche mehr, manche weniger. Nur jene, die sich dazu entschieden haben, Waldläufer zu werden, können die Wahl treffen, fast vollständig zu einem Teil des Waldes zu werden, die Enge der elfischen Gesellschaft abzustreifen um den Bedürfnissen der Wälder zu dienen. Man nennt sie Wildnisläufer.
+
+Vorteile:
+-  +10% Widerstand gegen nicht-magische Hitze oder Kälte
+-  Kann die Meisterschaft (drei Punkte) in Langbögen und Kampfstäben erreichen
+-  Kann die Fertigkeit "Verbessertes Tiere Bezaubern" einmal täglich für alle zwei Stufen (beginnend ab der 1. Stufe) einsetzen. Diese einzigartige Fähigkeit ersetzt "Tiere Bezaubern", hält doppelt so lang und betrifft alle Tiere in der näheren Umgebung
+-  Kann Fallen stellen (beginnend bei 20%, verbessert um 5% pro Stufe)
+
+Nachteile:
+-  Kann keine stärkere Rüstung als verstärktes Leder tragen
+-  Kann nur den Umgang (ein Punkt) mit Flegeln, Morgensternen und Krieghämmern erlernen
+-  Maximales Charisma ist 2 Punkte niedriger als der Standardwert für seine Rasse~
+@41504 = ~Verbessertes Tiere Bezaubern~
+@60000 = ~Installiere Schlachtenhüter des Tempus Kit für Branwen~
+@60500 = ~Setze Jaheiras Gesinnung auf neutral gut~
+@61000 = ~Installiere Nachtmantel der Shar Kit für Viconia~
+@61001 = ~Bringt mir Viconia, den Drow-Nachtmantel der Shar.~

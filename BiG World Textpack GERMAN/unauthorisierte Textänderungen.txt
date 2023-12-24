@@ -1,0 +1,9 @@
+Unauthorisierte Textänderungen
+
+
+
+Einige Mods enthalten veränderte Textdateien, die ohne Zustimmung der ursprünglichen Übersetzer die originale Übersetzung ersetzen. Dies widerspricht sowohl der BWP-Ethik als auch dem Copyright.
+
+Eine einfache Verbesserung von Rechtschreib- und Grammatikfehlern auf diese Weise kann geduldet werden, nicht aber eine Änderung des Textinhaltes, selbst wenn die Überarbeitung noch so gelungen sein mag. Dies wäre nicht nur respektlos gegenüber den ursprünglichen Übersetzern und würde deren Arbeit herabwürdigen, sondern ist auch nicht rechtens.
+
+Mit dem Textpack werden daher die originalen Übersetzungen wieder eingesetzt.

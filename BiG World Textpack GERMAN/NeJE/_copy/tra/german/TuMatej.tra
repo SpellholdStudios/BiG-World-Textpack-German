@@ -1,0 +1,22 @@
+@0  = ~Ihr scheint Euch verirrt zu haben. Kann ich Euch behilflich sein und Euch den Weg weisen?~ 
+@1  = ~Ich bin erst kürzlich angekommen und versuche noch, mich zurechtzufinden. Ich bin <CHARNAME>.~
+@2  = ~Halruaas innere Angelegenheitenon
+
+Beim Betreten des Inneren dieses eindrucksvollen Gebäudes wurde ich von Matej, einem anderen jungen Gelehrten, begrüßt... er schien überrascht, dass Halruaa neue Studenten aufnahm. So gut, wie er mir nützliche Information über den Grundriss des Gebäudes gab, deutete er an, dass es einen Mangel an leitenden Magiern in der ganzen Akademie gab. Ist das ein Hinweis darauf, dass Halruaa bereits aufbricht oder es vorhat... bin ich zu spät angekommen, wie Tilorn vor mir?~ 
+@3  = ~Ein großartiges Gebäude das! Es ist so leicht, sich zu verlaufen, wenn man sich einlebt. Ich bin übrigens <CHARNAME>, und Ihr seid?~
+@4  = ~Euch einen guten Tag. Ich bin <CHARNAME>. Als Neuling erkunde ich die Akademie, und ich finde sie äußerst eindrucksvoll!~ 
+@5  = ~Ich bin Matej, seid willkommen, <CHARNAME>. Ich habe nicht mitbekommen, dass Halruaa im Moment neue Studenten aufnimmt, aber es gibt viel, das ich nicht weiß. Nun, wohin möchtet Ihr hinkommen? ~
+@6  = ~Seid gegrüßt, Matej. Da niemand da war, um mich bei meiner Ankunft zu begrüßen, dachte ich, dass ich mich selbst umzusehe, um jemanden zu finden, der mir den Weg weist.~
+@7  = ~Seid gegrüßt, Matej. Ich würde sicher eine Wegweisung von hier schätzen. Vielleicht könntet Ihr mir eine kurze Beschreibung der Akademie geben?~ 
+@8  = ~Vielleicht könnt Ihr mir sagen, wo ich die Person finden kann, bei der ich meine Ankunft bekanntgeben muss, Matej?~
+@9  = ~Also, Matej, wo finde ich wen auch immer, der hier verantwortlich ist?~ 
+@10 = ~Unglücklicherweise sind fast alle prominenten Magier von Halruaa im Moment in anderen Angelegenheiten unterwegs. Zumindest denke ich, dass sie es sind, ich habe einige von ihnen eine Weile lange nicht gesehen und Ihr könnt gewöhnlich nicht weit gehen, ohne einem von ihnen in die Arme zu laufen, wenn sie herumstolzieren und irgendetwas tun.~
+@11 = ~Das scheint sogar noch geheimnisvoller zu sein, als es selbst für diesen Ort üblich ist. Nicht, dass sie uns Studenten überhaupt sehr viel erzählen. Es sind sich natürlich einige der Tutoren nicht zu schade dafür, vielleicht solltet Ihr einen von ihnen ausfindig  machen.~
+@12 = ~Vielleicht werde ich das tun. Könntet Ihr mir vielleicht eine kurze Beschreibung der Akademie geben, Matej? Es spart Zeit, wenn ich nicht mich dauernd verlaufe.~ 
+@13 = ~Danke, das werde ich tun, Matej. Lebt wohl!~
+@14 = ~Wie Ihr sehen könnt, ist dies das Hauptgebäude. Die Akademie selbst besteht aus mehreren Stockwerken, aber es ist nach einer Weile nicht allzu schwierig, Euren Weg ringsherum zu finden.Ihr könnt jedoch jetzt nur das Erdgeschoss erreichen... Es sind gewöhnlich noch einige ältere Lehrer hier, um sicherzustellen, dass Ihr Euch nicht verlauft, aber nicht heute, wie Ihr sehen könnt.~ 
+@15 = ~Die viel kleineren Gebäude, an denen Ihr auf Eurem Weg hierher vorbeikamt, sind der Wohnbereich von Halruaa. Ihr solltet wahrscheinlich auch wissen, dass es während des Tages ziemlich heiß wird, deshalb sind die Abende am besten zu Außenaktivitäten geeignrt.~
+@16 = ~Danke, Matej. Ihr wart äußerst hilfreich. Lebt wohl!~
+@17 = ~Danke, Matej. Ich werde Euch jetzt verlassen, ich sollte im Stande sein, von hier aus weiterzufinden. ~
+@18 = ~Gern geschehen, <CHARNAME>.~
+@19 = ~Lebt wohl, <CHARNAME>. Vielleicht werden wir wieder aufeinander stoßen.~ 

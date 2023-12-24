@@ -1,0 +1,11 @@
+--- NeJ2\baf\TuMageM.baf	Sat Oct 28 17:08:32 2017
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\TuMageM.baf	Wed Apr 10 10:31:43 2019
+@@ -3,7 +3,7 @@
+ 	Allegiance(Myself,NEUTRAL)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~What's the hell are you doing here!~)
++		DisplayStringHead(Myself,@0)
+ 		Enemy()
+ END
+ 

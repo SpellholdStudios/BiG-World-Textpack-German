@@ -1,0 +1,38 @@
+--- NeJE\dlg\HPRELATE.d	Sat Jan 30 23:44:01 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\HPRELATE.d	Tue Apr 09 19:36:12 2019
+@@ -2,29 +2,29 @@
+ 
+ IF WEIGHT #-99 ~Global("VP_Kr_ViccyWarTalk","GLOBAL",3)
+ Global("VP_Kr_TheWar","GLOBAL",4)~ THEN BEGIN GotoWar0
+-  SAY ~Keldorn, <CHARNAME>? Your group is re... what, what is this? You have a drow in your group?~
++  SAY @0
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_ViccyWarTalk","GLOBAL",4)~ EXTERN ~KELDORJ~ Prelate_st0
+ END
+ 
+ IF ~~ THEN BEGIN GotoWar1
+-  SAY ~That is Drizzt DoUrden! This... this is...~
++  SAY @1
+   	IF ~~ THEN EXTERN ~VICONIJ~ Prelate_st0
+ END  
+   
+ IF ~~ THEN BEGIN GotoWar2
+-  SAY ~...and I suppose <CHARNAME> answers for her. (Casting a glance at Keldorn) You have changed greatly, Keldorn.~
++  SAY @2
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_TheWar","GLOBAL",5)
+ ClearAllActions()
+ StartCutSceneMode()
+-StartCutScene("KRCut06")~ JOURNAL ~Thus, I was mobilized, along with the rest of my party. I wish I knew why I am being drawn into this damned war and what awaits me?~ EXIT
++StartCutScene("KRCut06")~ JOURNAL @3 EXIT
+ END
+ 
+ IF WEIGHT #-98 ~Global("VP_Kr_ViccyWarTalk","GLOBAL",4)
+ Global("VP_Kr_TheWar","GLOBAL",4)~ THEN BEGIN GotoWar3
+-  SAY ~Keldorn, <CHARNAME>, I see your group is ready. Go then and serve the cause. You will join the forces of general Craumerdaun in Eshpurta. May Torm bless you!~
++  SAY @4
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_TheWar","GLOBAL",5)
+ ClearAllActions()
+ StartCutSceneMode()
+-StartCutScene("KRCut06")~ JOURNAL ~Thus, I was mobilized, along with the rest of my party. I wish I knew why I am being drawn into this damned war and what awaits me?~ EXIT
++StartCutScene("KRCut06")~ JOURNAL @3 EXIT
+ END 
+ END

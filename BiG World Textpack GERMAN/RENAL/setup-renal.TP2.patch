@@ -1,0 +1,12 @@
+--- setup-renal.TP2	Thu Jun 23 21:58:50 2011
++++ C:\BWP Patchstudio\patched files\setup-renal.TP2	Fri Mar 09 13:05:13 2012
+@@ -13,6 +13,9 @@
+ 
+ LANGUAGE ~Russian (by Silent)~ ~russian~
+ 		 ~renal/tra/russian/setup.tra~
++
++LANGUAGE ~German~ ~german~
++		 ~renal/tra/german/setup.tra~
+ 		 
+ BEGIN @0
+ 

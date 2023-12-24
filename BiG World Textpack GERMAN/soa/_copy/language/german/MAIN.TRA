@@ -1,0 +1,1099 @@
+@0   = ~Kettenhemd~ 
+@1   = ~Mecorimas Kettenhemd~
+@2   = ~Ein Kettenhemd besteht aus ineinandergreifenden Metallringen. Es wird immer über einer Schicht aus gepolstertem Stoff oder weichem Leder getragen, um ein schmerzhaftes Scheuern zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~ 
+@3   = ~Dieses Kettenhemd wurde von der Sonnenelfe Mecorima Sylerim gefertigt. Mecorima war eine Sonnenelfe, deren Ambitionen sich durch die ganze Elfengesellschaft zogen. Als begabte Diplomatin, benötigte Mecorima zusätzlichen Schutz vor verfeindeten Fraktionen. Aus diesem Grund schuf sie dieses Kettenhemd, das sie sowohl vor hinterhältigen Angriffen schützte, als ihr auch die Möglichkeit gab sich vor Adligen zu verbeugen. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+RW-Bonus: -5 gegen Tod
+Charisma: +2
+Gewicht: 20
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+- Druiden
+- Magiern
+- Dieben
+- Mönchen~
+@4   = ~Plattenpanzer~ 
+@5   = ~Kalindras Rüstung~
+@6   = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie eine Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@7   = ~Diese Rüstung fühlt sich lebendig an, wenn Ihr sie anlegt. Das Material aus dem sie gefertigt ist, ist leicht und umhüllt Euch wie geschmeidiges Leder. Der einzige Hinweis auf ihre Vergangenheit ist ein eingeätzter Name. Kalindra.  
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+RW-Bonus: -1
+Gewicht: 30
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~ 
+@8   = ~Streitkolben~
+@9   = ~Streitkolben +1~ 
+@10  = ~Der Streitkolben ist die direkte Weiterentwicklung eines einfachen Knüppels. Er ist im Grunde nichts anderes als ein hölzerner Stiel mit einem Stein- oder Eisenkopf an einem Ende. Dies Köpfe können ganz unterschiedlich sein: Manche sind mit Stacheln versehen, andere mit Klingen oder pyramidenförmigen Spitzen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 8
+Initiativefaktor: 7
+Mindeststärke: 10
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@11  = ~Streitkolben +1: 
+"Streitkolben der Angstlosen"
+
+Viele Anhänger Chaunteas tragen einen solchen Streitkolben. Die meisten werden neuen Klerikern überreicht, aber einige magisch verbesserte Streitkolben werden an talentierte Kleriker übergeben. Dies ist eine solche Waffe.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt 30%iger Widerstand gegen Furcht.
+
+Schaden:  1W6 +3 (Wucht)
+ETW0-Bonus: -1
+Gewicht: 7
+Initiativefaktor: 5
+Mindeststärke: 9
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@12  = ~Hammer~ 
+@13  = ~Hammer +2~
+@14  = ~Diese Art schwerer Hammer wird vor allem bei der Konstruktion von Gebäuden und Schiffen verwendet. Als Arbeitsgerät ist dieser Hammer in ganz Faerun im Einsatz, vor allem bei den Schiffsbauern in Tiefwasser. Sein Gewicht ermöglicht einen kräftigen Schwung, der den Hammer im Kampf zu einer tödlichen Waffe macht. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+ 
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~ 
+@15  = ~Kriegshammer +2:
+"Tholins Ogerschmetterer"
+
+Dieser schwere Hammer ist auch als "Der Hammer der Mächtigen" bekannt und hat in zahllosen Schlachten und Kriegen gewütet. Ursprünglich im Besitz der Häuptlinge des Stammes vom Elch, wurde der Hammer geschaffen, um der ständigen Zunahme von Ogern und Orks am Dessarinfluss zu begegnen. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht)
+Schadenbonus: +3 gg. Riesen  
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 5
+Mindeststärke: 10
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@16  = ~Morgenstern~
+@17  = ~Morgenstern +2~
+@18  = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht)
+Gewicht: 12
+Initiativefaktor: 7
+Mindeststärke: 11
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~ 
+@19  = ~Morgenstern +2:
+"Ishandars Geschenk"
+
+Golain verbrachte die meiste Zeit seiner Jugend damit zusammen mit seinem Vater das Sturmhorngebirge in Cormyr zu erkunden. Sein Vater lehrte ihn das Kämpfen und das Land zu schätzen. Die Liebe zum Abenteuer und zur Geographie führten dazu, dass er zum Königlichen Erkunder der Familie Obarskyr wurde. Während einer langen Expedition zur Vermessung der Donnergipfel entdeckte er eine kleine Höhle und erkundete sie. Nach einem kleinen Scharmützel mit einigen Orks fand er eine Truhe voller Gold und diesen Morgenstern. Der Morgenstern begleitete Golain für einige Zeit bis er sein Leben im Kampf gegen ein paar Oger im Sturmhorngebirge verlor.  
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +2 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 10
+Initiativefaktor: 6
+Mindeststärke: 10
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@20  = ~Buch~ 
+@21  = ~Zauberbuch eines roten Magiers~ 
+@22  = ~Das Zauberbuch eines Magiers. Die meisten Bücher dieser Art dienen zur Aufbewahrung von Spruchrollen oder sind magisch verbessert.~
+@23  = ~Buch der Flammen
+
+Einst im Besitz eines roten Erzmagiers aus Thay, wurde das Buch von einem entlaufenen Sklaven gestohlen und in die Talländer geschmuggelt. Das Buch ist in menschliche Haut gebunden und das Ergebnis zahlloser Experimente an Sklaven und besitzt daher eine böse Aura und kann daher auch nur von bösen Wesen benutzt werden. 
+
+EIGENSCHAFTEN:
+
+Wenn es geöffnet wird, schießt ein Flammenstrahl auf das Ziel
+
+Schaden: 1W6
+Reichweite: 0 
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: Der Anwender
+Rettungswurf: Nein
+
+Kann nur verwendet werden von:
+ 
+- Magiern~ 
+@24  = ~Komposit-Langbogen~
+@25  = ~Komposit-Langbogen +2~
+@26  = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an. Dieser Bogen ist eine Weiterentwicklung des einfachen Langbogens.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -1
+Schadensbonus: +2
+Gewicht: 10
+Initiativefaktor: 7
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@27  = ~Komposit-Langbogen +2:
+"Der Fluch der Medusa"
+
+Im Jahr der zerbrochenen Klinge (1260TZ) wurde Laeroth geboren. Schon in jungen Jahren meisterte er das Bogenschießen und war der treffsicherste Schütze in seinem Elfendorf. Geschichten erzählten von einer Medusa, die sich in einer Höhle der nahen Bergen versteckte. Laeroth sah es als eine Mutprobe an, den Kopf einer solchen Bestie abzuschlagen. Nach einem Gespräch mit den Ältesten des Dorfes, wurde dieser Bogen geschaffen, um die  Bestie zu bekämpfen. Aus besonderen Holz geschaffen, sollte der Bogen seinen Träger vor den versteinernden Blicken der Medusen und Basilisken schützen. Eine lange Reise folgte, bis er das Lager der Medusa erreichte. In der Höhle benutzte Laeroth einen Glühstein um tiefer in das Dunkel hinabzusteigen. Vorbei an den zahllosen Steinskulpturen derer, die zuvor die Medusa bezwingen wollten, fand Laeroth letztendlich seine Jagdbeute, die ihn mit ihrem Blick traf. Im ersten Augenblick wie betäubt, neutralisierte der Bogen die Versteinerung und der eigentliche Kampf begann. Die Medusa schoß zuerst und traf Laeroth in dem Augenblick mit einem vergifteten Pfeil in die Schulter, als er seinen eigenen Pfeil losschoß, der die Medusa in den Kopf traf. Das Ungeheuer krümmte sich vor Schmerz und starb in Todeszuckungen, während Laeroth ein Gegengift trank. Mit ruhiger Hand schlug er der Kreatur den Kopf ab. Nach seiner Rückkehr in sein Dorf, wurde der Kopf für den Kampf gegen die Orks an einem sicheren Ort verwahrt. Laeroth reiste noch einige Jahre umher, bevor er den Bogen für eine große Summe Gold verkaufte.        
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Versteinerung
+
+ETW0: -2
+Schadensbonus: +3
+Gewicht: 9
+Initiativefaktor: 6
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@28  = ~Mantel~
+@29  = ~Reisemantel~
+@30  = ~Form und Stoff eines Mantels können beliebig sein. Die herkömmlichste Form besteht aus einem kreisrunden Stück Stoff, in das in der Mitte ein Loch für den Kopf eingearbeitet wurde. Der Umhang wird mit einer Kette, Brosche, Kordel oder Nadel zusammengehalten.~
+@31  = ~Der Reisemantel ist ein leichtes Kleidungsstück, das vor Umwelteinflüssen schützt. Zudem gibt er einen Bonus auf die Rüstungsklasse.
+ 
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Kältewiderstand: +30%
+Elektizitätswiderstand: +30%
+Feuerwiderstand: +30%
+Gewicht:  3
+
+Kann nicht verwendet werden von:~
+@32  = ~Magierrobe~
+@33  = ~Weiße Robe der Spinne~
+@34  = ~Seit den Tagen von Nesseril haben Magier gelernt, alltägliche Objekte, die sie umgeben, mit den verschiedensten magischen Eigenschaften zu versehen. Einer der beliebtesten Gegenstände für die Anwendung von Zaubern ist die gemeine Robe. Sie ist leicht, erschwinglich und behält ihre Verzauberung gut bei, wodurch sie zur idealen Ausrüstung für einen Magier wird. Aufgrund ihres magischen Erbes dürfen jedoch nur Magier diese Roben tragen.~
+@35  = ~Diese weiße Robe ist über die ganze Oberfläche mit zahllosen Spinnenmustern bestickt. Der Träger ist gegen sämtliche Effekte immun, die die Beweglichkeit einschränken, wie 'Netz' oder 'Verlangsamung'. Zudem macht es Betäubungs- und Haltesprüche unschädlich. Die Robe ermöglicht es den Magier einen Festhaltezauber auf ein Ziel zu werfen, jedoch ist die Dauer auf eine Runde beschränkt.
+
+Eigenschaften:
+
+Der Träger kann "Personen festhalten" wirken.
+Dauer: 1 Runde
+
+Auf dem Träger liegt "Handlungsfreiheit".
+
+Rüstungsklasse: 6
+Gewicht: 6
+
+Kann nur verwendet werden von:
+
+- Magiern (ein-/mehrklassig, Klassenkombination)~
+@36  = ~Dolch~
+@37  = ~Dolch +1~
+@38  = ~Der typische Dolch hat eine spitz zulaufende, meist zweischneidige Klinge und unterscheidet sich dadurch von einem Messer, das nur eine Schneidkante hat und etwas kürzer ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 1
+Initiativefaktor: 2 
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nicht verwendet werden von:
+
+- Klerikern~
+@39  = ~Dolch +1:
+"Dolch des Widerstandes"
+
+Diese Art Dolch wurde zuerst in Myth Drannor gefertigt. Solche Dolche sind sehr begehrt bei Schurken, Dieben und Banditen.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Furcht und Bezauberung
+
+Schaden: 1W4 +2 (Stich)
+ETW0-Bonus: -1
+RW-Bonus: -2 gegen Zauber
+Gewicht: 1
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3
+
+Kann nur verwendet werden von:
+ 
+- Dieben
+- Barden~
+@40  = ~Trommel~
+@41  = ~Koboldtrommel~
+@42  = ~Das wahrscheinlich älteste aller Instrumente. Es gibt die Trommel in vielen verschiedene Formen bei vielen verschiedenen Völkern, deren aller Gemeinsamkeit das Wecken von Emotionen und die Vorgabe eines Tanztaktes ist. Gleichsam den Menschen und Zwergen, erfreuen sich Halborks, Echsenmenschen, Kobolde, Trolle, Oger und die geistloseren Riesenvölker einfacher Trommelmusik.~
+@43  = ~Die kleine Trommel oder auch Schnarrtrommel genannt, ist vor allem bei Kobolden und Zwergen beliebt. Unter einem Arm geklemmt oder vor dem Körper befestigt, kann der Spieler leicht einen regelmäßigen Rhythmus schlagen. Richtig gespielt, kann dieses Instrument bei den Hörern den Eindruck erwecken, dass eine kleine Armee marschiert.
+
+EIGENSCHAFTEN:
+
+Wenn die Trommel gespielt wird, muss das Ziel einen Rettungswurf mit -2 bestehen oder es wird von Furcht ergriffen
+Reichweite: 40
+Dauer: 2 Runden
+Gewicht: 5
+
+Kann nicht verwendet werden von:~
+@44  = ~Ogertrommel~
+@45  = ~Diese Art der Trommel wird Conga genannt und wird aufgrund ihrer tiefen Töne eher von den großen Rassen der Reiche, wie Oger und Riesen, bevorzugt. Wird die Trommel richtig geschlagen, entsteht der Eindruck einer Armee auf dem Vormarsch und kann den Wesen in Hörweite Angst einjagen.
+
+EIGENSCHAFTEN:
+
+Wenn die Trommel gespielt wird, muss dem Ziel ein Rettungswurf mit -2 gelingen oder es wird von Furcht ergriffen.
+Reichweite: 60
+Dauer: 2 Runden
+Gewicht: 8
+
+Kann nicht verwendet werden von:~
+@46  = ~Perle~
+@47  = ~Sirenenperle~
+@48  = ~Perlen bestehen aus mehreren Schichten Aragonit, die sich in Austern und anderen Mollusken rings um ein Sandkorn oder andere Fremdkörper bilden. Perlen haben einen prächtigen seidenen Schimmer. Die meisten Perlen in den Reichen sind weiß, es gibt aber auch seltenere Arten, z.B. regenbogenfarbene oder schwarze Perlen.~
+@49  = ~Diese gewöhnlich erscheinende Perle strahlt einen schwachen Hauch von Magie aus. In jedem Blickwinkel glänzt die Perle und ist daher mindestens 1000 Goldstücke wert. Wenn sie fest mit den Händen umklammert oder an die Brust gedrückt wird, kann der Besitzer die Macht der Perle freisetzen.
+    
+EIGENSCHAFTEN:
+
+Die Perle ermöglicht es dem Besitzer, den Spruch "Schreckenszauber" auf ein Ziel zu wirken. Dazu muss die Perle vom Besitzer gehalten werden. Leider besitzt die Perle nur eine begrenzte Anzahl an Ladungen.
+
+Reichweite: 20
+Dauer: 4 Runden
+Bereich: 1 Wesen
+Rettungswurf: Nein
+Gewicht: 1
+
+Kann nur verwendet werden von:
+
+- Druiden~
+@50  = ~Hellebarde~
+@51  = ~Hellebarde +1~
+@52  = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Stich)
+Gewicht: 15
+Initiativefaktor: 9
+Mindeststärke: 13
+Fertigkeit: Hellebarde
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@53  = ~Wie andere Waffen dieses Types, besteht diese Hellebarde aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen 1,80 m langen Stab aufgesetzt ist. Zudem ist sie mit einigen kleinen Zaubern belegt, die sie effektiver im Kampf macht. Die scharfe Klinge zum Beispiel, schneidet durch das Fleisch wie durch Butter, während der scharfe Dorn durch die kleinste Lücke in der Rüstung dringt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +2 (Stich)
+ETW0-Bonus: -1
+Gewicht: 14
+Mindeststärke: 13
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@54  = ~Kriegshammer~
+@55  = ~Eishammer +2~
+@56  = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@57  = ~Eishammer +2:
+"Mydans Frost"
+
+Einige dieser Hämmer wurden von Frostriesen geschaffen um örtliche Dörfer zu verwüsten. Verärgert über das Eindringen der Menschen in ihr Territorium, ermutigte die Frostmaid Auril die Riesen, diese Waffen von großer Zerstörungskraft zu fertigen. Mydan, einer der Anführer der Riesen, schuf diesen Hammer um seiner Göttin zu huldigen. Zur Belohnung verbesserte Auril diesen Hammer mit der Macht des Eises.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Wucht) 
+Schadensbonus +1W3 durch Kälte
+ETW0-Bonus:: -2
+Kältewiderstand: +30%
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+
+- Dieben
+- Druiden
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@58  = ~Helm~
+@59  = ~Cormyrischer Helm~
+@60  = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+
+- Barden
+- Dieben
+- Hexenmeistern
+- Magiern
+- Mönchen~
+@61  = ~Dieser Helm ist durch Generationen von purpurroten Drachenrittern weitergegeben worden. Der Helm ist mit magischen Eigenschaften ausgestattet worden, um gegen bestimmte Zauber zu schützen.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Verwirrung, Striktes Denken und Furchtangriffe.
+
+Schützt vor kritischen Treffern.
+Gewicht: 2
+
+Nicht verwendbar von:
+- Magiern
+- Barden
+- Dieben~
+@62  = ~Kalindras Helm~
+@63  = ~Dieser Helm schimmert, wenn man ihn hält und das Metall fühlt sich bei Berührung seltsam an. Der einzige Beweis seines Ursprungs ist der Name, den Kalindra einätzte.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält einen +5 Bonus auf Rettungswürfe gegen Versteinerung.
+
+Schützt vor kritischen Treffern.
+Gewicht: 2
+
+Nicht verwendbar von:
+- Magiern
+- Barden
+- Dieben~
+@64  = ~Horn~
+@65  = ~Horn der Hervorrufung~
+@66  = ~Hörner stammen meist von Kühen, Bullen oder anderen exotischen Tieren. Tierhörner kommen in allen Formen und Größen vor, und die meisten bestehen aus einer mit einer breiteren, kreisförmigeren Öffnung verbundenen engen Spitze durch eine Höhlung, oft gebogenen Stiel.
+Das Horn wird durch Blasen ins kleine Ende gespielt, um einen Ton zu erzeugen. Hörner dieses Typs sind unter all den Rassen von Faerun sehr beliebt.~
+@67  = ~Wenn in dieses Horn gestoßen wird, entsteht ein tiefes brüllendes Geräusch, das aus einer anderen Ebene einen kleineren Dämon dazu auffordert, den Bläser des Horns zu helfen. Die Kreatur kann nur für 2 Runden in dieser Ebene bleiben, kann aber wieder gerufen werden, wenn das Horn geblasen wird. Wenn der Dämon anwesend alles ist, sind die Fähigkeiten Zaubersprüche zu sprechen eingeschränkt. Das Horn kann einen Dämon herbeirufen, jedoch ist die Anzahl der Ladungen begrenzt, daher sollte man es weise verwenden.
+
+EIGENSCHAFTEN:
+
+Beschwört einen niederen Dämon, der dem Träger des Horns zur Seite steht.
+
+Dauer: 2 Runden
+Gewicht: 3
+
+Nur verwendbar von:
+- Barden~
+@68  = ~Laute~
+@69  = ~Elfische Laute~
+@70  = ~Die Laute hat einen birnenförmigen Resonanzkörper mit einem mehr oder weniger gekrümmten Hals von dem aus die Saiten gespannt sind. Lauten variieren in der Länge zwischen 30 und 36 Zoll und der Resonanzkörper nimmt etwa zwei Drittel des Instruments ein. Entweder klimpert der Musiker auf den Saiten, oder er zupft sie um Musik zu machen.~
+@71  = ~Cassandras Laute
+"Der Mut des Löwen"
+
+Cassandra begann die Laute zu spielen, als sie 5 Jahre alt war. Im Alter von 14 Jahren war sie bereits eine Meisterin. Ihr Vater, Tarun Coriades, ein begabter elfischer Lautenspieler, schuf zu ihrem 16. Geburtstag eine besondere Laute. Hergestellt aus mystischen Hölzern vom Rande des Sees der Träume, wurde die Laute geschaffen, um Selbstvertrauen und Mut zu stärken. Cassandra bereiste viele Länder und spielte das Instrument in vielen Städten. Als sie sich auf einer Schiffsreise in ihre Heimat befand, erlitt sie Schiffbruch und die Laute ging über Bord. Cassandra überlebte und sucht bis zum heutigen Tage immer noch nach ihrer Laute.
+   
+EIGENSCHAFTEN:
+
+Wenn die Laute gespielt wird, stärkt sie den Mut und das Selbstvertrauen des Anwenders.
+
+Der Anwender wird immun gegen "Furcht".
+
+Trefferpunkte-Bonus: +5
+ETWO: +1 Bonus 
+Stärke-Bonus: +1
+Dauer: 5 Runden
+
+Gewicht: 7
+
+Nur verwendbar von:
+- Barden~
+@72  = ~Mundharmonika~
+@73  = ~Die Mundharmonika ist ein Musikinstrument mit Durchschlagzungen aus Metall in Luftkanälen. Diese Instrument ist unter Halblingen und Gnomen sehr beliebt.~
+@74  = ~Mundharmonika
+"Tarmaniels Wärme"
+
+Diese Mundharmonika wurde von Tarmaniel erschaffen, einem menschlichen Barden, der in Sembia sehr bekannt war. Tarmaniel liebte das Reisen und tauschte sich gerne mit anderen Barden aus. Diese Harmonika hat einen ganz besonderen Klang und erwärmt die Herzen ihrer Zuhörer. Leider hatte Tarmaniel auch ein Schwäche für das Glücksspiel und verlor diese Harmonika bei einem Kartenspiel irgendwo in Baldurs Tor.
+
+EIGENSCHAFTEN:
+
+Die Gruppe erhält einen RK-Bonus: +1.
+
+Charisma-Bonus: +1 (Anwender)
+Dauer: 3 Runden 
+Reichweite: 20
+
+Gewicht: 1
+
+Nur verwendbar von:
+- Barden~
+@75  = ~Spiegel~
+@76  = ~Spiegel der Illusionen~
+@77  = ~Ein einfach aussehender Spiegel~
+@78  = ~Ein beliebtes Werkzeug unter den Dieben und Schattenmeistern, das zur Grundausrüstung des Diebeswerkzeuges gehört. Dieser Spiegel wurde verzaubert und ermöglicht es seinem Besitzer für 4 Runden zu verschwimmen. Wie bei vielen anderen magischen Gegenständen auch, kann der Spiegel nur begrenzt eingestzt werden.~
+@79  = ~Kristallkugel~
+@80  = ~Kugel der Stürme~
+@81  = ~Viele Kristallkugeln werden von Zauberern und Druiden verwendet, um in andere Teile der Welt zu sehen und von einigen wird behauptet, dass man in ihnen die Zukunft sehen kann. Von einigen dieser Kugeln wird behauptet, dass sie die Elemente beherrschen können, jedoch sind diese äusserst selten.~
+@82  = ~In dieser Kristallkugel glüht eine blaue Flamme und Rauchschwaden beginnen aufzuziehen, als Ihr sie betrachtet. Elektrische Ladungen bewegen sich in ihrem Inneren. Ein Zauberwort entfesselt die Energie der Kugel und als Resultat fährt ein Blitz vom Himmel. Wer von dem Blitz getroffen wird, muss einen Rettungswurf -3 ablegen oder erleidet 2W6 Schaden.
+
+EIGENSCHAFTEN:
+
+Die Kristallkugel kann "Blitzschlag" wirken.
+
+Schaden: 2W6
+Reichweite: 30
+Rettungswurf: Ja (gg. Zauberstäbe -3)
+
+Gewicht: 3
+
+Nur verwendbar von:
+- Driuden
+- Magiern
+- Barden~
+@83  = ~Ring~
+@84  = ~Ring der Unsichtbarkeit~
+@85  = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck verwendet wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Sie sind heißbegehrt, insbesondere von Menschen deren Beruf das Abenteuer ist.~
+@86  = ~Ring der Unsichtbarkeit
+"Diebesflucht"
+
+Dieser Ring gehörte einst einem Kapitän namens Josan Paris aus Calimhafen. Seine Aufgabe war es, die Meere von den Piraten zu säubern. Der Ring wurde auf einem Piratenschiff erbeutet und Josan behielt ihn als Andenken. Als er dessen Fähigkeiten entdeckte, wechselte er die Seiten und wurde zu einem der Piraten, die er zuvor gejagt hatte.
+
+EIGENSCHAFTEN:
+
+Speziell: Wenn der Ring aktiviert wird, wird sein Träger für 2 Runden unsichtbar.
+
+Nicht verwendbar von:~
+@87  = ~Mittlerer Schild~
+@88  = ~Blauer Drachenschild~
+@89  = ~Ein mittelgroßer Schild wird ähnlich wie ein kleiner Schild verwendet. Da der mittelgroße Schild allerdings recht schwer ist, ist die Schildhand des Trägers durch den Schild blockiert und kann nicht für andere Zwecke eingesetzt werden. Mittelgroße Schilde werden normalerweise aus Metall gefertigt und haben einen Durchmesser von 90 cm bis 120 cm. Die Form ist dabei ziemlich beliebig. So gibt es runde und eckige mittelgroße Schilde, aber auch solche in Form von gespreizten Drachenflügeln. Ein klassischer Schild, wie er im Mittelalter verwendet wurde, ist dreieckig, wobei eine Spitze nach unten weist.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~
+@90  = ~Die Herkunft dieses seltsamen Schildes ist unbekannt, aber die verblasste Darstellung eines blauen Drachens, welche sich auf der Außenseite befindet, deutet darauf hin, dass es möglicherweise aus dem alten Imperium von Mulhorand nahe den Drachenschwert Bergen stammt. Auf dem Schild ist keine Signatur eines Waffenschmiedes zu erkennen und es weist auch keine Abnutzungsspuren auf. Vielleicht ist es magischer Herkunft.
+  
+EIGENSCHAFTEN:
+
+Feuerwiderstand: +30%
+RK-Bonus: -2
+Gewicht: 7
+Mindeststärke: 12
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~
+@91  = ~Kleiner Schild~
+@92  = ~Sturmschild des Talos~
+@93  = ~Ein kleiner Schild ist in der Regel rund. Man fährt mit dem Unterarm durch den Halteriemen und greift ihn zusätzlich mit der Schildhand. Verglichen mit dem normalen Schild ist er so leicht, dass man noch einen weiteren Gegenstand tragen kann. Allerdings kann mit der Schildhand keine Waffe mehr geführt werden.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+(kein Schutz vor Geschosswaffen)
+Gewicht: 3
+Mindeststärke: 4
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern 
+- Dieben~
+@94  = ~Loran Emarin, ein elfischer Barde, der den Harfnern angehörte, hörte die Geschichte eines goldfarbenen Schildes, das Schutz gegen die Elemente bieten sollte. Beeindruckt durch diese Geschichte machte sich der Barde auf die Suche nach diesem Schild. Nach einer mehrjährigen Suche ohne Erfolg, wollte er schon aufgeben. Dann, während einer kalten Nacht in einer Taverne in Niewinter, hörte der Elf zufällig das Gespräch zwischen zwei Priestern des Oghma mit. Der Schild schien im Besitz einer Gruppe von Elitekämpfern zu sein, treuen Gefolgsleuten des Sturmherren Talos. Möglicherweise wurde der Schild an die Priesterschaft verkauft. Sein weiteres Schicksal liegt im Dunkeln.
+ 
+EIGENSCHAFTEN:
+
+Im Schild steckt ein kleine elektrische Ladung, die gegen das Ziel geschleudert werden kann. Jedoch besteht eine 10%ige Chance, dass man selbst davon betroffen wird.
+
+RK-Bonus: -2
+Elektrizitätswiderstand: +30%
+Feuerwiderstand: +30%
+Kältewiderstand: +30%
+Gewicht: 5
+Mindeststärke: 4
+
+Nicht verwendbar von:
+- Barden
+- Druiden
+- Magiern
+- Dieben~
+@95  = ~Edelstein~
+@96  = ~Stein von Askavar~
+@97  = ~Ein kleiner, blauer Stein von der Grösse einer kleinen Faust. Der Stein von Askavar ist ein uraltes elfisches Artefakt, das verloren ging als das Elfenreich Askavar zerfiel. Es scheint große Macht in sich zu bergen, doch Ihr wisst nicht, wie man sie entfesseln könnte.~
+@98  = ~Zweihändiges Schwert~
+@99  = ~Zweihänder +1~
+@100 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert,  bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich mußte auch der Griff verlängert werden, und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 15
+Mindeststärke: 14
+Initiativefaktor: 10
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern 
+- Dieben~
+@101 = ~Zweihänder +1:
+"Der Leuchtende Saphir"
+
+Etwas nördlich von Tiefwasser liegt das Dorf Amphail, die Heimat des zwergischen Meisterschmiedes Kathian Hammerhand. Zusammen mit seinem Schwesterschwert "Das Smaragdgrüne Auge" wurden diese Klinge von dem Schmied erschaffen, um den Harfnern gegen die Spione der Zentarim zu helfen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält die Fähigkeit "Böses entdecken".
+
+ETWO-Bonus: -1
+Schaden: 1W10 +1 (Klinge)
+Schadensbonus: +1W3 (Kälte) 
+Gewicht: 10
+Mindeststärke: 14
+Initiativefaktor: 8
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern 
+- Dieben~
+@102 = ~Bastardschwert~
+@103 = ~Barbarenbreitschwert~
+@104 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Klinge)
+Gewicht: 10
+Initiativefaktor: 8
+Mindeststärke: 11
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@105 = ~Geschmiedet für die weiten Tundren des Nordens, ist dieses Barbarenbreitschwert für die Kälte geschaffen. Die Wärme des Metalls erzeugt eine Resistenz gegen das eisige Klima.
+
+EIGENSCHAFTEN:
+
+ETWO-Bonus: -1
+Schaden: 2W4 +1 (Klinge)
+Schadensbonus: +1W3 (Feuer)
+Kältewiderstand: +30%
+Gewicht: 8
+Initiativefaktor: 6
+Mindeststärke: 11
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@106 = ~Säbel~
+@107 = ~Säbel der roten Faust~
+@108 = ~Eine Waffe der Tuigan und Nars. Säbel sind lange und schwere Schwerter, die im berittenen Kampf oft benutzt werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 6
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: grosses Schwert
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@109 = ~Dieser Säbel gehörte einst Hauptmann Ergern Conwell, einem Kavallerieoffizier der Flammenden Faust. Er bekam diesen Säbel als Auszeichnung für Tapferkeit im Gefecht. Doch seine Fechtkünste wurden nur noch von dem Drang übertroffen, sich mit schönen Frauen einzulassen. Deswegen konnte ihn nicht einmal seine Fechtkunst vor dem hinterhältigen Angriff eines eifersüchtigen Liebhabers mit einer vergifteten Klinge retten.
+
+EIGENSCHAFTEN:
+
+30%ige Chance das Ziel für eine Runde zu betäuben.
+
+ETWO-Bonus: -1
+Schaden: 1W8 +1 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Krummsäbel/Wakizashi/Ninjato
+Typ: 1-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@110 = ~Zweihänder +1:
+"Das Smaragdgrüne Auge"
+
+Etwas nördlich von Tiefwasser liegt das Dorf Amphail, die Heimat des zwergischen Meisterschmiedes Kathian Hammerhand. Zusammen mit ihrem Schwesterschwert "Der Leuchtende Saphir" wurden diese Klinge von dem Schmied erschaffen, um den Harfnern gegen die Spione der Zentarim zu helfen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält die Fähigkeit "Böses entdecken".
+
+ETWO-Bonus: -1
+Schaden: 1W10 +1 (Klinge)
+Schadensbonus: +1W3 (Feuer) 
+Gewicht: 10
+Initiativefaktor: 8
+Mindeststärke: 14
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Nicht verwendbar von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@111 = ~Talisman~
+@112 = ~Talisman der Handlungsfreiheit~
+@113 = ~Talismane dieses Typs bringen ihrem Besitzer oft Schutz oder Glück.~
+@114 = ~Talisman der Handlungsfreiheit:
+"Der Stern von Eloen"
+
+Die Geschichte dieses Talismans ist unbekannt, jedoch wurde der Name einer Elfin eingraviert. Dieser hier weist den Namen "Eloen" auf. Sehr wahrscheinlich das Geschenk an die Tochter eines Elfen.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen alle natürlichen und magischen Effekte, die die Bewegungsfreiheit betreffen. Die Auswirkungen des Tragens von Siebenmeilenstiefeln werden ebenfalls unterbunden.
+
+Nicht verwendbar von:~
+@115 = ~Talisman des Schutzes vor Gift~
+@116 = ~Talisman des Schutzes vor Gift:
+"Der Stern von Merris"
+
+Die Geschichte dieses Talismans ist unbekannt, jedoch wurde der Name einer Elfin eingraviert. Dieser hier weist den Namen "Merris" auf. Sehr wahrscheinlich ein Geschenk an die Tochter eines Elfen.
+
+EIGENSCHAFTEN:
+
+Speziell: Der Träger ist gegen alle Gifte und Krankheiten immun.
+
+Nicht verwendbar von:~
+@117 = ~Talisman des Schutzes +1~
+@118 = ~Talisman des Schutzes +1:
+"Der Stern von Riona"
+
+Die Geschichte dieses Talismans ist unbekannt, jedoch wurde der Name einer Elfin eingraviert. Dieser hier weist den Namen "Riona" auf. Sehr wahrscheinlich ein Geschenk an die Tochter eines Elfen.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+RW-Bonus: -1
+
+Nicht verwendbar von:~
+@119 = ~Talisman der Feuerresistenz~
+@120 = ~Talisman des Feuerwiderstandes:
+"Der Stern von Ishara"
+
+Die Geschichte dieses Talismans ist unbekannt, jedoch wurde der Name einer Elfin eingraviert. Dieser hier weist den Namen "Ishara" auf. Sehr wahrscheinlich ein Geschenk an die Tochter eines Elfen.
+
+EIGENSCHAFTEN:
+
+Feuerresistenz: +30%
+
+Nicht verwendbar von:~
+@121 = ~Talisman der Kälteresistenz~
+@122 = ~Talisman des Kältewiderstandes:
+'Der Stern von Ilithyia'
+Die Geschichte dieses Talismans ist unbekannt, jedoch wurde der Name einer Elfin eingraviert. Dieser hier weist den Namen "Ilithyia" auf. Sehr wahrscheinlich ein Geschenk an die Tochter eines Elfen.
+
+EIGENSCHAFTEN:
+
+Kälteresistenz: +30%
+
+Nicht verwendbar von:~
+@123 = ~Brief~
+@124 = ~Aranor
+
+Endlich haben wir den Standort des verlorenen Elfensteins gefunden. Wir konnten uns durch einen verschütteten Eingang graben, der zu einer unterirdischen Kammer führte. Leider haben meine Späher Hobgoblins in diesem Gebiet ausgemacht, daher musste ich den Eingang mit einem Schutzzauber versiegeln. Der Stein ist definitiv in der Kammer. Sein blaues Glühen ist unverwechselbar. Noch ist der Eingang unentdeckt, aber ich bin mir nicht sicher, wie lange die Schutzzauber halten werden. Zusammen mit diesem Brief übersende ich Euch die fünf Talismane, die Khelben uns gegeben hatte.
+
+Ich würde Euch raten, im Moment nicht in den Scharfzahnwald zu reisen, da er aus unbekannten Gründen voller Räuber und Hobgoblins ist.
+
+Während der nächsten Woche werde ich nach Nashkell reisen. Dort findet ein Jahrmarkt statt, auf dem Ihr mich finden könnt.
+
+Euer Freund...
+
+Cearwin~
+@125 = ~Notiz~
+@126 = ~Junges Mädchen - Wohnhaus in Beregost nahe Feldeposts Gasthaus.
+
+Bettler - Straße von Beregost
+
+Alter Zauberer - Glockenblumenwald
+
+Hexenmeister - Höhle auf einer Insel nördlich von Nashkell~
+@127 = ~Verzauberte Schriftrolle~
+@128 = ~Lizzys verfluchte Schriftrolle~
+@129 = ~Eine verzauberte Schriftrolle ist ein beschriebenes Pergament mit magischen Runen. Jede dieser Schriftrollen ist einzigartig und kann von jedem Charakter gelesen werden. Wenn die Runen laut abgelesen werden, wirkt sich der Zauber auf das gewählte Ziel aus. Solche verzauberten Schriftrollen können eine grosse Vielfalt an positiven und negativen Wirkungen haben, daher sollte man vorsichtig sein, wenn man eine solche Schriftrolle aus verdächtigen Quellen bekommen hat.~
+@130 = ~Diese Schriftrolle ist verflucht. Es wäre sehr unvorsichtig, sie zu lesen, da die Folgen fatal sein könnten.~
+@131 = ~Rubin~
+@132 = ~Drachenherzrubin~
+@133 = ~Als Rubin bezeichnet man die rote Varietät des Minerals Korund. Die rote Verfärbung ist auf eine geringe Beimengung von Chrom zurückzuführen. Nur die roten Korunde heißen Rubine, wobei der Rotton zwischen Blassrot bis Dunkelrot variieren kann. Rosafarbene werden allerdings ebenso wie blaue und alle anderen Farbvarietäten unter der Bezeichnung Saphir zusammengefasst.~
+@134 = ~Dieser Rubin sieht wie jeder andere Rubin aus, aber wenn Ihr ihn genauer betrachtet, kann man das Antlitz eines Drachen in seinem Inneren erkennen.~
+@135 = ~Aranor
+
+Ich habe gute und schlechte Neuigkeiten. Endlich haben wir den Standort des verlorenen Elfensteins gefunden. Wir konnten uns durch einen verschütteten Eingang graben, der zu einer unterirdischen Kammer führte. Leider haben meine Späher Hobgoblins in diesem Gebiet ausgemacht, daher musste ich den Eingang mit einem Schutzzauber versiegeln. Der Stein ist definitiv in der Kammer. Sein blaues Glühen ist unverwechselbar. Noch ist der Eingang unentdeckt, aber ich bin mir nicht sicher, wie lange die Schutzzauber halten werden. Zusammen mit einem Brief übersendete ich Euch die fünf Talismane, die Khelben uns gegeben hatte, aber unser Bote wurde auf der Strasse nach Beregost von Anhängern des Bane getötet und die Talismane gingen verloren. Ich hoffe, dass nun dieser Bote zu Euch durchkommt. In der zwischenzeit werde ich versuchen die Talismane auszumachen.
+
+Ich würde Euch raten, im Moment nicht in den Scharfzahnwald zu reisen, da er aus irgendeinem Grund voll von Räubern und Hobgoblins ist.
+
+Nächste Woche werde ich mich nach Nashkell begeben. Dort findet gerade ein Jahrmarkt statt, wo man mich bei Bedarf finden kann.
+
+Euer Freund...
+
+Cearwin~
+@136 = ~Schriftrolle~
+@137 = ~Ruf des Herolds~
+@138 = ~Ruf des Herolds
+
+Grad: 1
+Schule: Bezauberung
+Reichweite: 40
+Dauer: 1 Runde
+Zeitaufwand: 0
+Wirkungsbereich: 25
+Rettungswurf: Nein
+
+Mit diesem Spruch kann die zaubernde Person, einen sehr durchdringenden Aufruf erzeugen, der so eindringlich und authoritär ist, dasss er kaum zu ignorieren ist. Jeder, der davon betoffen wird muss einen RW mit -2 gegen Zauber ablegen, oder ist für eine Runde betäubt. Dieser Spruch kann nur von Barden verwendet werden.~
+@139 = ~Eisdolch~
+@140 = ~Eisdolch
+
+Grad: 1
+Schule: Hervorrufung
+Reichweite: 20 + 5 pro Stufe des Anwenders 
+Dauer: Speziell 
+Zeitaufwand: 2
+Wirkungsbereich: Speziell 
+Rettungswurf: Nein
+
+Mit diesem Spruch kann ein magischer Dolch erzeugt werden, der zu seinem Ziel fliegt. Der Dolch verursacht beim Ziel 1W4 Kälteschaden pro Stufe des Zaubernden (maximum 5W4).~
+@141 = ~Magieschild~
+@142 = ~Magieschild
+
+Grad: 3
+Schule: Veränderung
+Reichweite: 1
+Dauer: 1 Runde 
+Zeitaufwand: 3
+Wirkungsbereich: Ziel 
+Rettungswurf: Nein
+
+Dieser Spruch ermöglicht eine 30%ige Resistenz gegen alle Formen magischen Schadens. Der Effekt dauert nur ein Runde an. Alle Rettungswürfe werden automatisch gemacht.~
+@143 = ~Massenteleportation~
+@144 = ~Massenteleportation
+
+Grad: 7
+Schule: Veränderung
+Range: Sichtweite
+Dauer: Sofort 
+Zeitaufwand: 1
+Wirkungsbereich: Speziell
+Rettungswurf: Nein 
+
+Dieser Spruch teleportiert die ganze Gruppe an jeden gewünschten Ort innerhalb der Sichtweite der zaubernden Person. Der Spruch kann auch weit weg vom Rest der Gruppe generiert werden und ist dennoch effektiv. Wird der Spruch angewandt, öffnet sich ein Dimensionstor vor jedem Gruppenmitglied, das sofort durchschritten wird.~
+@145 = ~Nybors sanfte Ermahnung~
+@146 = ~Nybors sanfte Ermahnung
+
+Grad: 3
+Schule: Bezauberung
+Reichweite: 25 Meter + 5 Meter pro 2 Stufen
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 8
+Wirkungsbereich: Gegner
+Rettungswurf: Speziell 
+
+Diese verbesserte Version von Nybors sanfter Erinnerung verursacht immense Schmerzen beim Ziel. Das Ziel muss einen Rettungswurf gegen Zaubersprüche ablegen, oder ist für 2 Runden benommen und erhält einen Malus von -2 auf seine Angriffe, Rettungswürfe und Rüstungsklasse, so lange der Spruch dauert. Jedoch bekommt das Ziel auch eine +2 zur Stärke.~
+@147 = ~Nybors zornige Züchtigung~
+@148 = ~Nybors zornige Züchtigung
+
+Grad: 8
+Schule: Bezauberung
+Reichweite: 25 Meter + 5 Meter pro 2 Stufen
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 8
+Wirkungsbereich: Gegner
+Rettungswurf: Speziell 
+
+Nybors zornige Züchtigung ist eine wesentlich stärkere Version von Nybors strengem Verweis. Er verursacht starke Schmerzen und gewaltige, quälende Krämpfe. Das Ziel muss einen Rettungswurf gegen Tod ablegen, versagt dieser tritt der Tod ein. Hat man den ersten Rettungswurf bestanden, muss man einen weiteren Rettungswurf gegen Zauber erfolgreich ablegen um weiteres zu vermeiden. Versagt dieser, ist das Ziele für 4 Runden benommen und bekommen einen Malus von -4 auf Angriffe, Rettungswürfe und Rüstungsklasse für die Wirkungsdauer des Spruches. Im Gegenzug erhält das Ziel einen Bonus zur Stärke von +2.~
+@149 = ~Nybors sanfte Erinnerung~
+@150 = ~Nybors sanfte Erinnerung
+
+Grad: 1
+Schule: Bezauberung
+Reichweite: 25
+Dauer: 2 Runden
+Zeitaufwand: 8
+Wirkungsbereich: Ziel
+Rettungswurf: Speziell
+
+In das Ziel fährt ein scharfer, quälender Schmerz, der das Ziel für 1 Runde benommen macht. Das Ziel erhält einen Malus von -1 auf seine Angriffe, Rettungswürfe und RK während der Spruch andauert. Jedoch bekommt das Ziel auch eine +2 zur Stärke.~
+@151 = ~Nybors strenger Verweis~
+@152 = ~Nybors strenger Verweis
+
+Grad: 7
+Schule: Bezauberung
+Reichweite: 25 Meter + 5 Meter pro 2 Stufen
+Dauer: 1 Runde pro Stufe
+Zeitaufwand: 8
+Wirkungsbereich: Ziel
+Rettungswurf: Speziell 
+
+Nybors strenger Verweis ist eine wesentlich stärkere Version von Nybors sanfter Ermahnung und Nybors sanfter Erinnerung. Er verursacht starke Schmerzen und gewaltige, quälende Krämpfe. Das Ziel muss einen Rettungswurf gegen Tod ablegen, versagt dieser tritt der Tod ein. Hat man den ersten Rettungswurf bestanden, muss man einen weiteren Rettungswurf gegen Zauber erfolgreich ablegen um weiteres zu vermeiden. Versagt dieser, ist das Ziel für 2 Runden benommen und bekommen einen Malus von -2 auf Angriffe, Rettungswürfe und Rüstungsklasse für die Wirkungsdauer des Spruches. Im Gegenzug erhält das Ziel einen Bonus zur Stärke von +2.~
+@153 = ~Skelettrüstung~
+@154 = ~Skelettrüstung
+
+Grad: 2
+Schule: Nekromantie
+Reichweite: 0
+Dauer: 20 Runden 
+Wirkungsbereich: Anwender
+Rettungswurf: Nein
+
+Die zaubernde Person nutzt die Macht der Untoten, um ein magisches Kraftfeld zu generieren, welches einen RK-Bonus von -4 gewährt. Dieser Bonus ist kummulattiv mit der Geschicklichkeit und beispielsweise Kämpfer/Magier Charaktere erhalten den Schildbonus auch noch wenn sie eines besitzen. Der Spruch schränkt die Bewegungsfreiheit nicht ein und hindert auch nicht am Zaubern. Der Spruch dauert so lange, bis er entweder gebannt wird, oder die Dauer des Spruches zu Ende ist.~
+@155 = ~Terror~
+@156 = ~Terror
+
+Grad: 6
+Schule: Nekromantie
+Reichweite: 30 Meter
+Dauer: 3 Runden + 1 Runde pro Stufe
+Zeitaufwand: 4 
+Wrkungsbereich: 30 Meter Würfel
+Rettungswurf: Speziell
+
+Dieser Spruch verursacht Furcht und Panik bei den Gegnern. Alle Gegner innerhalb des Wirkungsbereiches, die auf Stufe 4 oder darunter liegen, haben keinen Rettungswurf und fliehen sofort. Gegner mit Stufe 5 oder höher, haben einen RW von -4 gegen diesen Effekt.~
+@157 = ~Verbessertes Heiligtum~
+@158 = ~Verbessertes Heiligtum
+
+Grad: 2
+Schule: Beschwörung
+Reichweite: Berührung 
+Dauer: 10 Runden
+Zeitaufwand: 4 
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Spruch wirkt genauso wie der Spruch Heiligtum des ersten Grades, ist aber nicht nur auf die zaubernde Person beschränkt. Ebenso regeneriert er während der Spruchdauer 8 Trefferpunkte.~
+@159 = ~Genialität~
+@160 = ~Genialität
+
+Grad: 3
+Schule: Beschwörung
+Reichweite: 0 
+Dauer: 3 Runden 
+Zeitaufwand: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Nein
+
+Dieser Zauberspruch steigert die Genialität des Charakters. Die Intelligenz, Weisheit und Geschicklichkeit werden pro 3 Stufen um 1 Punkt erhöht. Bei einem Stufe 3 Magier erhöhen sich die Werte um 1, bei einem Stufe 12 Magier erhöhen sich die Werte dann folglich um 4.~
+@161 = ~Khelbens defensive Verbindung~
+@162 = ~Khelbens defensive Verbindung
+
+Grad: 5
+Schule: Beschwörung
+Reichweite: Anwender
+Dauer: 10 Runden
+Zeitaufwand: 2
+Wirkungsbereich: 15 Meter Radius
+Rettungswurf: Nein
+
+Khelbens defensive Verbindung ist in der Wirkungsweise prinzipiell wie der Spruch des vierten Grades defensive Harmonie, aber jede betroffene Kreatur erhält einen -4 Bonus zu ihrer Rüstungsklasse. Die Wirkung dauert 10 Runden an, wenn der Spruch nicht vorher gebannt wird.~
+@163 = ~Andrath~
+@164 = ~Aranor~
+@165 = ~Carneth~
+@166 = ~Cearwin~
+@167 = ~Cileen~
+@168 = ~Hanwen~
+@169 = ~Harfner-Späher~
+@170 = ~Ithkim~
+@171 = ~Jonell~
+@172 = ~Lelthorn~
+@173 = ~Lizzy~
+@174 = ~Peleria~
+@175 = ~Pirn~
+@176 = ~Rebecca~
+@177 = ~Rondan~
+@178 = ~Sally~
+@179 = ~Shaerlee~
+@180 = ~Steingolem~
+@181 = ~Talmur~
+@182 = ~Teldorns Agent~
+@183 = ~Teldorns Bogenschütze~
+@184 = ~Priester des Bane~
+@185 = ~Teldorns Kämpfer~
+@186 = ~Teldorns Bote~
+@187 = ~Kalindra~
+@188 = ~Kalindra,
+
+es ist so, wie wir befürchtet hatten. Teldorn hat seine Söldnerbande nach Süden ausgesandt und nähert sich der Schwertküste. Sie verließen Voonlar vor nur fünf Tagen und, wenn Euch diese Nachricht erreicht werden sie sich in Dystras altem Wachturm sammeln. Zweifelsohne werden dort noch weitere Kräfte zu ihnen stoßen, ehe sie weitere Befehle erhalten. Die Entdeckung des Elfensteins und die Truppenbewegungen dieser Söldner geschehen nicht zufällig. Teldorn sucht sicherlich selbst nachd dem Stein. Mit diesem könnte er selbst die Rechtschaffensten unter den Menschen der Schwertküste in böse Mordmaschinen verwandeln. Wir können nicht zulassen, dass dies geschieht. Diese kleine Armee muss aufgehalten werden, bevor sie den Scharfzahnwald erreicht. Ich übertrage Euch diese Aufgabe, meine Freundin. Versammelt alle dazu nötigen Kräfte, aber beeilt Euch, denn es ist keine Zeit zu verlieren.
+
+Kathian~
+@193 = ~Massenheilung~
+@194 = ~Massenheilung
+
+Grad: 5 
+Schule: Nekromantie
+Reichweite: Sichtweite
+Dauer: Permanent 
+Zeitaufwand: 5 
+Wirkungsbereich: 20 Meter Radius
+Rettungswurf: Nein
+
+Wird dieser Spruch angewendet, muss sich der Priester die Gesichter der Gruppenmitglieder vorstellen und sich auf sie konzentrieren. Nach Beendigung dieses Vorganges werden alle Mitglieder der Gruppe mit 1W8 +1 Trefferpunkten pro Stufe des Zaubernden geheilt. Dabei ist es unerheblich, wo sich die Gruppenmitglieder gerade befinden.~
+@195 = ~Mordenkainens Schwert~
+@230 = ~Glockenblumenwald~

@@ -1,0 +1,14 @@
+@0    = ~I need to sail to Athkatla and back. May I book a passage on your ship?~
+@1    = ~Of course, <CHARNAME>. It will be my pleasure to deliver you safely to the City of Coin. The cost is 20,000 gp for the round trip, and my ship will be yours. ~
+@2    = ~Sure, here your gold is then.~
+@3    = ~Sorry, Captain, I cannot make it at the moment.~
+@4    = ~Thank you <CHARNAME>. The journey shall be swift, for I have a good ship and a fine crew, veterans both, and well seasoned. You may scarcely notice the passing of the voyage... Rig up, crew!~
+@5    = ~I'll wait for you here.~
+@6    = ~We have arrived safely. I leave you to your mission, whatever it may be. It has been a pleasure sailing in your company, but now, I take my leave. I'll wait for you in the Sea Bounty for sailing back to Brynnlaw.~
+@7    = ~Hello, <CHARNAME>. It's nice to see you again. Would you like to sail back to Brynnlaw?~
+@8    = ~Sure.~
+@9    = ~Please wait a little bit longer.~
+@10   = ~Then please follow me to the docks. My boat is ready to bring us to the ship. We are fully staffed and ready to sail. Never a fear nor worry should cross your thoughts this eve, m'<PRO_LADYLORD>. I have traveled this sea a good many times, and I foresee no troubles.~
+@11   = ~No worries. I'll wait for you here.~
+@12   = ~We have arrived safely and in good time, I might add. Congratulatory remarks for all the crew, and to our respectfull cruise passengers for their delightful company.~
+@13   = ~I would be happy to sail with you <CHARNAME>, should you ever need my ship again.~

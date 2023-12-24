@@ -1,0 +1,33 @@
+--- allison\german\r#allis.TRA	Sat Aug 18 15:10:00 2007
++++ C:\BWP Patchstudio\patched files\allison\german\r#allis.TRA	Sat Oct 06 07:40:10 2012
+@@ -1,4 +1,4 @@
+-@0    = ~(Schluchzt.) Oje! Ihr könnt doch sicherlich auch den Schaden sehen, der diesem Wald zugefügt wurde! Wie konnten wir nur zulassen, dass eine böse Anführerin die Macht übernimmt?!~
++@0    = ~(Schluchzt.) Oje! Ihr könnt doch sicherlich auch den Schaden sehen, der diesem Wald zugefügt wurde! Wie konnten wir nur zulassen, dass eine böse Anführerin die Macht übernimmt?!~ [R#ALMA01]
+ @1    = ~Wovon redet Ihr?~
+ @2    = ~Warum weint Ihr?~
+ @3    = ~Wer ist diese neue Anführerin von der Ihr sprecht?~
+@@ -65,7 +65,7 @@
+ @64   = ~Nun, ich mag zwar kein Druide sein, aber ich nehme an, Ihr könntet sie herausfordern und aufhalten.~
+ @65   = ~Ich denke, dann gibt es nichts, was ich tun kann. Auf wiedersehen.~
+ @66	= ~Ich habe Euch für einen guten Mann gehalten, <CHARNAME>. Es scheint, als ob ich mich geirrt habe.~ ~Ich habe Euch für eine gute Frau gehalten, <CHARNAME>. Es scheint, als ob ich mich geirrt habe.~
+-@67   = ~(Schluchzt) Könnt Ihr helfen? Der Wald erleidet Schmerzen und schreit nach jemandem, der ihn rettet.~
++@67   = ~(Schluchzt) Könnt Ihr helfen? Der Wald erleidet Schmerzen und schreit nach jemandem, der ihn rettet.~ [R#ALMA02]
+ @68   = ~Und ich vermute, Ihr seid der Wald?~
+ @69   = ~Beruhigt Euch. Vielleicht kann ich helfen, aber Ihr müsst mir zuerst sagen, was los ist.~
+ @70   = ~WAASSLLOOOOOOS!~
+@@ -105,13 +105,13 @@
+ @104  = ~(Vollkommen in Tränen aufgelöst, bricht sie auf dem Boden zusammen)~
+ @105  = ~Warum müsst Ihr nur so grausam sein?~
+ @106  = ~Weil ich nun einmal grausam bin.~
+-@107  = ~(Sie weint immer noch genauso stark, wie das letzte mal, als Ihr sie gesehen habt) Ihr seid zurück! Habt Ihr Euch seit unserer letzten Begegnung umentschieden?~
++@107  = ~(Sie weint immer noch genauso stark, wie das letzte mal, als Ihr sie gesehen habt) Ihr seid zurück! Habt Ihr Euch seit unserer letzten Begegnung umentschieden?~ [R#ALMA03]
+ @108  = ~Ja, habe ich. Werdet Ihr euch mir anschließen und helfen, die Probleme beim Hain zu beheben?~
+ @109  = ~Nein, ich wollte nur Euer schönes Gesicht sehen. Und wie es vor Qualen zerrissen wird. Macht es dann mal wieder gut.~
+ @110  = ~Nein, ich wollte nur mal schauen, wie es Euch geht. Lebt wohl.~
+ @111  = ~Ich werde Euch begleiten und dem Leiden des Hains ein Ende bereiten.~
+ @112  = ~(Sie schließt zu Euch auf und umarmt Euch liebevoll)~
+-@113  = ~Ihr wisst gar nicht, wie dankbar ich Euch dafür bin, dass Ihr Faldorns Verhöhnung ein Ende gesetzt habt!~
++@113  = ~Ihr wisst gar nicht, wie dankbar ich Euch dafür bin, dass Ihr Faldorns Verhöhnung ein Ende gesetzt habt!~ [R#ALMA04]
+ @114  = ~Schon klar. Zurück mit Euch. Ich mag es nicht, angefasst zu werden.~
+ @115  = ~Wer zum Teufel seid ihr?~
+ @116  = ~(Streichelt sie, während sie euch umarmt)~

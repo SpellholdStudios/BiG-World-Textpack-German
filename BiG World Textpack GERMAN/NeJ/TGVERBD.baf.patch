@@ -1,0 +1,11 @@
+--- NeJ\baf\TGVERBD.baf	Tue Dec 02 00:04:08 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TGVERBD.baf	Wed Apr 10 10:29:53 2019
+@@ -30,7 +30,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Red_Toe_Escape","LOCALS",1)
+-		DisplayStringHead(Myself,~Move out of the way!~) // Move out of the way!  
++		DisplayStringHead(Myself,@0) // Move out of the way!  
+ 		Continue()
+ END
+ 

@@ -1,0 +1,27 @@
+@2    = ~Tötet mich nicht... Hilfe!~ 
+@3    = ~Seid vorsichtig.~
+@4    = ~Ach so!~ 
+@10   = ~Die Anmeldung für die Ausbildung der Schauspieler im Gasthaus zu den fünf Krügen hat begonnen!
+Falls Ihr ein guter Schauspieler werden wollt, dann kommt und meldet Euch an.~
+@100  = ~Training der Lebensfertigkeiten
+
+Auf der zweiten Etage im Gasthaus zu den Fünf Krügen kann man \[Schauspielkunst\] durch qualifizierte Schauspieler-Lehrer lernen.~ 
+@1000 = ~Hallo! Was kann ich für Euch tun?~
+@1001 = ~Ich hörte, hier sind die Kurse für die Ausbildung in der Schauspielkunst?~
+@1002 = ~Nichts, auf Wiedersehen.~ 
+@1010 = ~Ja, ja! Solange Ihr mir 1000 Gold zahlt, könnt Ihr immer kommen, damit ich Euch die Fertigkeiten der \[Schauspielkunst\] lehre.
+Stellt Euch vor, nur 1000 Münzen, und Ihr könnt ein echter Profi-Schauspieler werden.~ ~Ja, ja! Solange Ihr mir 1000 Gold zahlt, könnt Ihr immer kommen, damit ich Euch die Fertigkeiten der \[Schauspielkunst\] lehre.
+Stellt Euch vor, nur 1000 Münzen, und Ihr könnt eine echte Profi-Schauspielerin werden.~
+@1011 = ~Hier ist das Gold, das Ihr wollt.~ 
+@1012 = ~Lasst mich darüber nachdenken, auf Wiedersehen.~
+@1020 = ~(Nachdem er die Münzen gezählt und angenommen hat) Ah, ja. Nun, wollen wir jetzt mit dem Training beginnen?~
+@1021 = ~Ja.~ 
+@1022 = ~Keine Eile, sobald ich bereit bin, ich werde ich zu Euch kommen.~
+@1030 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Schauspielkunst\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~ 
+@1031 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Schauspielkunst\] trainieren.~
+@1032 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~
+@1033 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~
+@1034 = ~Ich will so viel Fertigkeiten \[Schauspielkunst\] wie möglich trainieren.~ 
+@1035 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1040 = ~Hallo, Ihr da. Schön Euch zu treffen, wollen wir mit dem Training beginnen?~ 
+@1041 = ~Ich möchte meine \[Schauspielkunst\] trainieren.~ 

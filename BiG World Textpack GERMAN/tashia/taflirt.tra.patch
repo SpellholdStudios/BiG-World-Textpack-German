@@ -1,0 +1,38 @@
+--- tashia\deutsch\taflirt.tra	Wed Oct 16 19:41:00 2002
++++ C:\BWP Patchstudio\patched files\tashia\deutsch\taflirt.tra	Fri Jul 15 08:24:02 2011
+@@ -37,3 +37,35 @@
+ @36   = ~Ehrlich gesagt, dass hört sich zu gut an, um wahr zu sein.~
+ @37   = ~Vielleicht ziehen wir eines Tages in den Norden, dann kannst du es mit deinen eigenen Augen sehen, hmm?~
+ @38   = ~Ja, das würde ich gerne.~
++@39 = ~(Tashia dreht sich weg bevor du sie küssen kannst.) Wir kennen uns nicht gut genug, <CHARNAME>. Vielleicht später einmal?~
++@40 = ~(Tashia legt zwei Finger auf deine Lippen und drückt dich weg bevor du sie küssen kannst. Sie schüttelt mit einem Stirnrunzeln den Kopf.)~
++@41 = ~(Tashia ergreift deinen Hintern und drückt ihn leicht) Ich hoffe ich bekomme heute Nacht mehr als nur ein Lächeln von dir.~
++@42 = ~(Tashia scheint beschäftigt, sie ist in Gedanken versunken und ihr Gesicht ist dabei verzerrt. Als sie dein Lächeln bemerkt, entspannen sich ihre Züge und sie lächelt freundlich zurück.) Wenn du lächelst, fühle ich mich gleich besser.~
++@43 = ~(Tashia rückt näher an dich heran. Der leichte Druck ihrer Hand zeichnet Spuren in deinen Oberschenkel.) Du kannst nein sagen, aber dein Lächeln sagt ja.~
++@44 = ~(Tashias Blick trifft kurz den deinen und auf ihrem Gesicht zeichnet sich ein verträumtes Lächeln ab. Sie schwankt leicht und ergreift deine Schulter als sie schwächelnd in die Knie geht.)~
++@45 = ~(Tashia kommt auf dich zu. Sie berührt deine Nasenspitze bevor sie ihre Hand auf deine Wange legt.) Es freut micht, dass du dein Lächeln nicht verloren hast. Es ist genau da, unter deiner Nase. Du hast nur vergessen, dass es dort ist.~
++@46 = ~(Tashia bemerkt deinen Wink und antwortet mit einem schwachen Lächeln.) Was das Auge verschmäht, wird auch das Herz nicht erobern.~
++@47 = ~(Tashia beantwortet deinen Wink mit einem Lächeln, verschränkt die Arme unter dem Bauch und athmet tief durch.)~
++@48 = ~(Du wartest bis Tashia dich anschaut, dann zwinkerst du ihr absichtlich zu. Tashia nimmt die Hand vor den Mund und hustet leicht. An ihre Mundwinkeln erkennst du jedoch ein lächeln.)~
++@49 = ~(Tashia bewegt ihre langen, temperamentvolle Wimpern, schaut dir dabei direkt in die Augen und kostet einen Schluck der Leidenschaft die du für sie empfindest.)~
++@50 = ~(Tashia bemerkt deinen Blick und mit einem leichten, schelmischen Lächeln dreht sie sich um und beugt sich vorn über, so dass du eine gute Sicht auf ihr Hinterteil hast.)~
++@51 = ~(Tashia befreit sich aus deinem Griff und wischt deine Hand an deiner Kleidung ab.) Ehh, nicht so... Deine Hände sind zu verschwitzt.~
++@52 = ~(Deine Hand sucht die von Tashia. Du fängst sie mitten im Schwung und fährst mit deinen Fingern zwischen die ihren. Tashia schaut auf die umschlossenen Hände nieder und lächelt.) Damit will mir der Händchenhalter wohl etwas sagen.~
++@53 = ~(Tashia seufzt glücklich, als du ihre Hand ergreifst, leht sich an dich und lässt ihren Kopf auf deiner Schulter ruhen.) Ich wünschte wir hätten einen schönen Sommertag, mit einem Picknick und einem schattigen Baum ... nur für uns.~
++@54 = ~(Tashias Hand drück fest die Deine, während ihre freie Hand sich in Kreisen über den Kreutz bewegt. Ihre Berührung fühlt sich an, wie das zarte Kitzeln eines Schmetterlings auf der Haut.) Vielleicht kann ich dich später für eine Massage begeistern.~
++@55 = ~(Tashia leht sich an dich, ihr Atem kitzelt die Haare in deinem Ohr, während ihre freie Hand auf deinen Schenkel schlägt. Mit einer schelmischen Stimme flüstert sie...) Die Liebe ist wie die Masern, umso später es kommt, um so schlimmer wird es.~
++@56 = ~(Tashias Finger berühren begierig die Stelle auf ihrer Wange, an der du deine Lippen gegen ihr Fleisch gepresst hast.) Es ist leicht über Liebe zu reden, aber Liebe zu beweisen ist unwiderstehlich.~
++@57 = ~(Tashia tupft auf den feuchten Fleck an ihrer Wange. Es ist ein mildes Lächeln auf ihrem Gesicht, während sie den Speichel weg wischt.) Etwas mehr Lippe das nächste Mal, mein Lieber... und weniger Zunge.~
++@58 = ~(Tashia dreht sich unerwartet und deine Lippen treffen auf ihre Nase. Sie zuckt zurück und fängt an zu kichern, während ihre Hand zärtlich die Deinige drückt.)~
++@59 = ~(Deine Lippen finden Tashia. Sie liebkosen die weiche Haut ihrer Wange, als ihr angenehmer Duft dich ganz und gar einnimmt. Sie drückt sich leicht gegen deinen Kuss und ein leises Geräusch ertönt in ihrem Hals.) Hmm... Ich hoffe das ist ein Vorgeschmack auf die Dinge die da kommen mögen.~
++@60 = ~(Tashia schließt ihre Augen, als sie deine Lippen auf ihrer Wange fühlt. Dann rückt sie zu dir und du fühlst wie zarte Lippen gegen deine Wange drücken.)~
++@61 = ~(Du legst deine Arme um Tashia, und sie schnurrt als du realisierst, dass deine Umarmung sich zu einer Rast an ihrer Brust gewandelt hat. Du fühlst ein leichtes Kratzen, als ihr Knöchel an der Innenseite deines Beines reibt.)~
++@62 = ~(Tashia drückt sich so an dich, dass du fühlst, wie das Herz in ihrer Brust höher schlägt.) Nach Arilistan hätte ich nie gedacht, dass ich solch ein Gück empfinden könnte.~
++@63 = ~(Tashia kichert, als sie sich unter deine Arme duckt. Sie packt dich von hinten und legt ihren Kopf auf deine Schulter. Ihr langes Haar kitzelt deine Nase.)~
++@64 = ~(Tashia legt ihr Gesicht auf deine Brust und du erfühlst etwas Feuchtigkeit. Als sie sich zurück zieht, sind Tränen in ihren Augen.) Ich bin so froh, dass du so geduldig warst auf mich zu warten. Zu warten, bis ich begriffen habe, wie sehr ich dich liebe.~
++@65 = ~(Tashia legt sich in dich hinnein, ihr Gesäß drückt sich an deine Leiste. Ihre Augen schließen sich, als sie sich mit ihren Händen noch mehr an dich drückt.) Wir werden geformt und gestaltet durch das, was wir lieben.~
++@66 = ~(Tashia leht sich nach vorne, ihr Körper schmiegt sich an dich als ihre Zunge deinen Mund erforscht. Plötzlich, findest du dich auf dem Rücken wieder und Tashia schnappt nach Luft. Sie ist etwas außer Atem.) Das war... Wahnsinn...~
++@67 = ~(Deine Arme umschließen Tashia und ziehen sie beharrlich zu deinen wartenden Lippen. Die Stärke deines Kusses scheint sie zu überraschen, doch bald kehren ihre Lippen zur ursprünglichen Leidenschaft zurück.) Dein Kuss ist nicht so laut wie Donner, aber sein Echo dauert viel länger.~
++@68 = ~(Während deines Kusses mit Tashia fühlst du, wie deine Lippen fast hartnäckig getrennt werden und ihre Zunge den Rand deines Mundes berührt. Als du deine Lippen öffnest, erkennst du eine leichte Röte in Tashias Gesicht, aber auch einen Ausdruck der Freude.)~
++@69 = ~(Tashia scheint etwas sagen zu wollen als sich deine Lippen den Ihren nähern. Da ist ein leichtes brummen wie ein Hauch von Nichts. Als es vorbei ist schmiegt sich Tashia in deine Arme.) Ein Kuss ist ein reizender Trick der Natur das Sprechen zu stoppen, wenn Worte überflüssig werden.~
++@70 = ~(Ein tiefes Stöhnen ertönt aus Tashias Rachen. Als sie sich umschaut, ob es irgend jemand bemekt hat, erröten ihre Wangen.) Lass uns das für später aufheben, mein Liebster.~

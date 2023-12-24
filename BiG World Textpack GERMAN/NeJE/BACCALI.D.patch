@@ -1,0 +1,490 @@
+--- NeJE\dlg\BACCALI.D	Fri Dec 30 23:18:08 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BACCALI.D	Tue Apr 09 19:34:49 2019
+@@ -1,353 +1,353 @@
+ BEGIN ~BACCALI~
+ 
+ IF ~Global("VP_BPC","LOCALS",2)~ THEN BEGIN 0
+-  SAY ~I cannot help but feel that my presence somehow unnerves you <CHARNAME>. Have I given you cause to mistrust me?~
+-  IF ~Global("My_Grand_Daughter","GLOBAL",1)~ THEN REPLY ~No Accalia it is not you. You put me in mind of another young woman, Branwen also a priest of Tempus. She travelled with me for a while, but only for a short time, she proved more of a liability than a help.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 1
+-  IF ~Global("My_Grand_Daughter","GLOBAL",1)~ THEN REPLY ~No Accalia, of course not. It is that your resemblance to another travelling companion of mine, also a priest of Tempus, is so striking that I have to remind myself that it is Accalia and not Branwen... as was this young woman’s name... that walks beside me now.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 4
+-  IF ~Global("My_Grand_Daughter","GLOBAL",0)~ THEN REPLY ~No Accalia it is not you. You put me in mind of another young woman, Branwen also a priest of Tempus. She travelled with me for a while, but only for a short time, she proved more of a liability than a help.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
+-  IF ~Global("My_Grand_Daughter","GLOBAL",0)~ THEN REPLY ~No Accalia, of course not. It is that your resemblance to another travelling companion of mine, also a priest of Tempus, is so striking that I have to remind myself that it is Accalia and not Branwen... as was this young woman’s name... that walks beside me now.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
+-  IF ~~ THEN REPLY ~Of course not Accalia, we all feel a little strange when first we join with new companions. What you are feeling is undoubtably apprehension as to how we perceive one another.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 55 
+-  IF ~~ THEN REPLY ~Believe me Accalia, if your presence unnerved me, then you would not be here.~ DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 57
++  SAY @0
++  IF ~Global("My_Grand_Daughter","GLOBAL",1)~ THEN REPLY @1 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 1
++  IF ~Global("My_Grand_Daughter","GLOBAL",1)~ THEN REPLY @2 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 4
++  IF ~Global("My_Grand_Daughter","GLOBAL",0)~ THEN REPLY @1 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
++  IF ~Global("My_Grand_Daughter","GLOBAL",0)~ THEN REPLY @2 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 54
++  IF ~~ THEN REPLY @3 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 55 
++  IF ~~ THEN REPLY @4 DO ~SetGlobal("VP_BPC","LOCALS",3)~ GOTO 57
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~A liability you say? I find that difficult to believe. As a true priest of Tempus her training would have prepared and readied her for whatever field she served.~
+-  IF ~~ THEN REPLY ~Well, she was not much use to me. She was obliged to use her healing powers on herself most of the time, I lost count of the number of times she damn near died on me.~ GOTO 2 
+-  IF ~~ THEN REPLY ~I have no idea what you priests of Tempus are trained for, but her training was definitely lacking.~ GOTO 2
+-  IF ~~ THEN REPLY ~Maybe so, but I found it necessary to let her go for fear of her losing her life or at the least getting one of the group killed through her incompetence.~ GOTO 2
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 2 
++  IF ~~ THEN REPLY @7 GOTO 2
++  IF ~~ THEN REPLY @8 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Perhaps you were too hard on her <CHARNAME>? Did you really allow her enough time in your group for her to prove herself?~
+-  IF ~~ THEN REPLY ~I gave her about as much time as I will give to anyone that wishes to travel with me, and that includes yourself Accalia.~ GOTO 3
+-  IF ~~ THEN REPLY ~How much time should I have given her Accalia? Maybe enough time so that I would have ended up burying yet another companion, would that have been enough time do you think? No,  I have learnt to judge a persons capabilities pretty quick when they join me, it saves a lot of grief later.~ GOTO 3
+-  IF ~~ THEN REPLY ~I am hard on all who wish to join with me Accalia. I have to be, I need people who can look after themselves. I cannot be in five or six different places at once looking out for everyone or my life becomes at risk, and that is something I value greatly.~ GOTO 3
++  SAY @9
++  IF ~~ THEN REPLY @10 GOTO 3
++  IF ~~ THEN REPLY @11 GOTO 3
++  IF ~~ THEN REPLY @12 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~You will not have to concern yourself with my welfare <CHARNAME>. I am more than capable of looking out for myself as you will come to realise if I remain in this group for any real length of time.~
+-  IF ~~ THEN REPLY ~I do hope so Accalia because your life will often depend on your own capabilities.~ EXIT
++  SAY @13
++  IF ~~ THEN REPLY @14 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Branwen, was that the young woman you spoke of in the temple? I did not pay much attention to your words, as they made no sense to me at the time, but now that I understand a little more I wish you to tell me of this... Branwen?~
+-  IF ~~ THEN REPLY ~That was another place another time Accalia and she was not with me long enough to learn much of her.~ GOTO 5
+-  IF ~~ THEN REPLY ~I do not have the time for reminiscences Accalia, we have enough to do with the here and now.~ GOTO 5
+-  IF ~~ THEN REPLY ~I have already said how like you she was, in mannerism, looks even your voice but I do remember her saying she left her home in the northern isles to become a priest which could give rise to her sounding much like yourself.~ GOTO 6
++  SAY @15
++  IF ~~ THEN REPLY @16 GOTO 5
++  IF ~~ THEN REPLY @17 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I would still be interested in hearing of this priest of Tempus <CHARNAME>, perhaps when we are not in so much of a hurry, but for this day, I will not delay you with idle chatter.~
++  SAY @19
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~The northern isles you say, if things are then as they are now then such a vocation is frowned upon for a woman, she must have struggled hard to enter the priesthood. So it was on her journeys in your part of the world that she became part of your group <CHARNAME>, yes?~
+-  IF ~~ THEN REPLY ~In a way Accalia. When I came upon Branwen she had unfortunately been petrified and was being  exhibited at a local fair near the town of Nashkel. The minute I learned of her circumstances I returned her to flesh and blood.~ GOTO 7
+-  IF ~~ THEN REPLY ~When I came upon Branwen, she was being exhibited at a fair near the town of Nashkel. She had somehow gotten herself petrified and was now a fair ground attraction. I needed another travelling companion and it was in my head that if I restored her she would be grateful enough to follow me without complaint.~ GOTO 7
++  SAY @20
++  IF ~~ THEN REPLY @21 GOTO 7
++  IF ~~ THEN REPLY @22 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~That is monestrous! So cruel, to be put on display for all to poke and peer at, the poor child! Did she say how she came to be in such a pitiful state?~
+-  IF ~~ THEN REPLY ~She did indeed. She told me of how she had joined a group, who unbeknown to her, were involved with banditry along the Sword Coast. When she discovered their plot to attack an unarmed caravan she balked and in the ensuing fight the group’s mage turned her to stone.~ GOTO 8
+-  IF ~~ THEN REPLY ~She agreed to travel with me and as that was my reason for restoring her, I did not ask her. I had no interest in knowing how she had let herself become as she was.~ GOTO 8
++  SAY @23
++  IF ~~ THEN REPLY @24 GOTO 8
++  IF ~~ THEN REPLY @25 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~What an appalling ordeal for the young woman and yet she served you as a priest of Tempus, her faith had not wavered at all throughout this time?~
+-  IF ~~ THEN REPLY ~Not once. It was her belief that Tempus approved of her actions and that the outcome was a test of her faith.~ GOTO 9
+-  IF ~~ THEN REPLY ~Not once. I am not sure that I would have retained my faith in a god that allowed a priest of his to succumb to such a cruel fate.~ GOTO 10
++  SAY @26
++  IF ~~ THEN REPLY @27 GOTO 9
++  IF ~~ THEN REPLY @28 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~The gods have their own agendas <CHARNAME> and we are here to do their will for reasons known only to themselves and it does not pay for us mortals to look too closely at those reasons. Maybe Branwen had passed a test of faith set by Tempus and it was his will that she be released. You were perhaps chosen to do his will and release her. Branwen was an honourable woman and a credit to Tempus.~
+-  IF ~~ THEN REPLY ~That she was and she earned my respect on many an occasion in battle, her faith in Tempus was unshakable.~ GOTO 11
+-  IF ~~ THEN REPLY ~She most certainly was, Accalia. I believe her ordeal strengthened her resolve and she went on to become a valuable asset to the group.~ GOTO 11
+-  IF ~~ THEN REPLY ~Not only was she honourable and brave, Accalia, she also became a woman I was proud to call friend.~ GOTO 11
+-  IF ~~ THEN REPLY ~I could not fault her loyalty to me nor her loyalty to her god Accalia. She became a trusted and reliable ally to us all.~ GOTO 11
++  SAY @29
++  IF ~~ THEN REPLY @30 GOTO 11
++  IF ~~ THEN REPLY @31 GOTO 11
++  IF ~~ THEN REPLY @32 GOTO 11
++  IF ~~ THEN REPLY @33 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~The gods are sometime known to be cruel in their demands on their servants <CHARNAME>. It would seem to me Tempus, for reasons known only to himself, decided to test the strength of Branwen’s faith. You were then chosen to do his will and release her when he decreed it was time. If her faith remained as strong as you say then Tempus would have been well pleased with her. She was an honourable woman and a credit to Tempus.~
+-  IF ~~ THEN REPLY ~That she was and she earned my respect on many an occasion in battle, her faith in Tempus was unshakable.~ GOTO 11
+-  IF ~~ THEN REPLY ~She most certainly was, Accalia. I believe her ordeal strengthened her resolve and she went on to become a valuable asset to the group.~ GOTO 11
+-  IF ~~ THEN REPLY ~Not only was she honourable and brave, Accalia, she also became a woman I was proud to call friend.~ GOTO 11
+-  IF ~~ THEN REPLY ~I could not fault her loyalty to me nor her loyalty to her god Accalia. She became a trusted and reliable ally to us all.~ GOTO 11
++  SAY @34
++  IF ~~ THEN REPLY @30 GOTO 11
++  IF ~~ THEN REPLY @31 GOTO 11
++  IF ~~ THEN REPLY @32 GOTO 11
++  IF ~~ THEN REPLY @33 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Then let it be Tempus’ will that I serve as honourably as she.~
++  SAY @35
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BDar","LOCALS",2)~ THEN BEGIN 12
+-  SAY ~Dar, I hope you do not mind my asking, but faith as strong as yours is seldom seen in those with your parentage. Tell me, who taught you so well?~
++  SAY @36
+   IF ~~ THEN DO ~SetGlobal("VP_BDar","LOCALS",3)~ EXTERN ~BDAR~ 26
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~The priests may have taught you Dar, but only you could have made you what you are. As you say, you could not live among the tribes of the half-orc because you feel their way is barbaric, your instincts are different and I believe your way was set from the day of your birth.~ 
++  SAY @37 
+   IF ~~ THEN EXTERN ~BDAR~ 27
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~That is not so Dar. Not all who are taught what is good and what is evil keep to the honourable path, that is a decision one has to make for oneself. The hard part is finding the courage to live by that decision when all around despise you and would rejoice in your death.~
++  SAY @38
+   IF ~~ THEN EXTERN ~BDAR~ 28
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~You do your god proud Dar, and I am sure it has not gone unnoticed.~
++  SAY @39
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BHrothgar","LOCALS",2)~ THEN BEGIN 16
+-  SAY ~It is good to be given the chance to fight evil again. Thank you Hrothgar, for suggesting to <CHARNAME> that I should join your expedition.~
++  SAY @40
+   IF ~~ THEN DO ~SetGlobal("VP_BHrothgar","LOCALS",3)~ EXTERN ~BHROTH~ 44
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~I am not discontent with my duties with Everard, please do not think that Hrothgar. It is just... my faith in Tempus has driven me to believe that my way is the way of the battle priest.~
++  SAY @41
+   IF ~~ THEN EXTERN ~BHROTH~ 45
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~I did not know that it showed so plainly in my face. Tempus knows the way of my heart but he also knows that I serve him in whatever task he chooses for me, no matter where I might feel my true path lies.~
++  SAY @42
+   IF ~~ THEN EXTERN ~BHROTH~ 46
+ END 
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~I thank you for the compliment Hrothgar, be assured that I will not let you down.~
++  SAY @43
+   IF ~~ THEN EXTERN ~BHROTH~ 47
+ END
+ 
+ IF ~Global("VP_BHrothgar","LOCALS",5)~ THEN BEGIN 20
+-  SAY ~Do you not feel the tension among the group since you teleported us here Hrothgar? I fear that the suspicion and mistrust that I see in their eyes may endanger, not only the mission but also our lives.~
++  SAY @44
+   IF ~~ THEN DO ~SetGlobal("VP_BHrothgar","LOCALS",6)~ EXTERN ~BHROTH~ 72
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~I will admit that I was more than a little afraid when you revealed you ability to perform such a feat, but my faith in Tempus tells me that he would not permit me to aid you if he had not looked into your heart. I fear the others here do not have my faith and this is why they can not see you for the man you really are.~
++  SAY @45
+   IF ~~ THEN EXTERN ~BHROTH~ 73
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~I... I do not know Hrothgar. I have never been without my faith, even when my parents were against my becoming an initiate in the temple of Tempus, I knew it was the right thing for me and my faith has held strong ever since. I... I can not answer your question.~
++  SAY @46
+   IF ~~ THEN EXTERN ~BHROTH~ 74
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~I am sure you are right but does it not concern you that they are more than likely to take the next portal that they come across and leave you to battle this evil alone? No... that isn’t entirely true, you will have me at your side when we eventually confront our enemy but I fear we will be no match for it without the aid of <CHARNAME> and this group.~
++  SAY @47
+   IF ~~ THEN EXTERN ~BHROTH~ 75
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~You are a brave man Hrothgar, you would continue this battle, alone if necessary in order to save the innocent people of your town, even though you know you would not prevail. If <CHARNAME> should desert us, know that I consider it an honour to stand, and fall if Tempus wills it, by your side.~
++  SAY @48
+   IF ~~ THEN EXTERN ~BHROTH~ 76
+ END
+ 
+ IF ~Global("VP_BPC","LOCALS",4)
+ Global("VP_Astrolabe_Talks","GLOBAL",1)~ THEN BEGIN 25 //1
+-  SAY ~Tell me <CHARNAME>, if another portal was to appear in front of us now, would you take it?~
+-  IF ~~ THEN REPLY ~I do not know Accalia... there would be much to consider.~ DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 26 //-->2
+-  IF ~~ THEN REPLY ~What I would and would not do is nothing to do with you Accalia.~ DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 29 //-->5
+-  IF ~~ THEN REPLY ~To be honest Accalia... yes, I probably would.~ DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 37 //-->11
++  SAY @49
++  IF ~~ THEN REPLY @50 DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 26 //-->2
++  IF ~~ THEN REPLY @51 DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 29 //-->5
++  IF ~~ THEN REPLY @52 DO ~SetGlobal("VP_BPC","LOCALS",5)~ GOTO 37 //-->11
+ END
+ 
+ IF ~~ THEN BEGIN 26 //2
+-  SAY ~Much to consider you say and what would be your main consideration may I ask?~ 
+-  IF ~~ THEN REPLY ~My friends of course, they deserve consideration in all things that affect them.~ GOTO 27 //-->3
+-  IF ~~ THEN REPLY ~I would have to consider my promise to see this through with Hrothgar.~ GOTO 33 //-->7
+-  IF ~~ THEN REPLY ~Firstly, getting home and finding the insane bastard who tortured me relentlessly, but then... there is the matter of my promise to Hrothgar.~ GOTO 34 //-->8
++  SAY @53 
++  IF ~~ THEN REPLY @54 GOTO 27 //-->3
++  IF ~~ THEN REPLY @55 GOTO 33 //-->7
++  IF ~~ THEN REPLY @56 GOTO 34 //-->8
+ END
+ 
+ IF ~~ THEN BEGIN 27 //3
+-  SAY ~Your friends you say and what if their decisions where the opposite to that of your own?~
+-  IF ~~ THEN REPLY ~Then we would have to decide whether to go our separate ways or remain together as a group.~ GOTO 28 //-->4
+-  IF ~~ THEN REPLY ~I couldn’t order them to do something they didn’t want to so I guess the group would split up.~ GOTO 28 //-->4
+-  IF ~~ THEN REPLY ~Then I would give them an ultimatum... they follow or they leave.~ GOTO 28 //-->4
++  SAY @57
++  IF ~~ THEN REPLY @58 GOTO 28 //-->4
++  IF ~~ THEN REPLY @59 GOTO 28 //-->4
++  IF ~~ THEN REPLY @60 GOTO 28 //-->4
+ END
+ 
+ IF ~~ THEN BEGIN 28 //4
+-  SAY ~What of yourself and your reasons to stay should the others decided to leave? After all, you have known and trusted these people far longer than you have known Hrothgar or myself.~
+-  IF ~~ THEN REPLY ~I do not like being interrogated Accalia, if that is what you are doing with your questions, and besides, my decisions are no concern of yours... let us keep it that way.~ GOTO 29 //-->5 
+-  IF ~~ THEN REPLY ~I have given Hrothgar my word to aid him and once given I would not choose to go back on it lightly, but I will do what I think right, as when the choice arises.~ GOTO 31 //-->6 
++  SAY @61
++  IF ~~ THEN REPLY @62 GOTO 29 //-->5 
++  IF ~~ THEN REPLY @63 GOTO 31 //-->6 
+ END
+ 
+ IF ~~ THEN BEGIN 29 //5
+-  SAY ~You are right, your concerns are your own. I merely wish to ascertain where your loyalty would lie if a portal were to appear this minute.~
++  SAY @64
+ 	IF ~~ THEN GOTO 30
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~Hrothgar can not complete his mission alone and it would be good to know whether his choice of allies are behind him to the end and not only until an alternative road presents itself. I can see I will have to wait for such an event to get my answers.~
++  SAY @65
+ 	IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 31 //6
+-  SAY ~Not the reassuring answer that I was hoping for but at least it is good to know that you will at least consider honouring your word to aid Hrothgar in any decision you make.~
++  SAY @66
+ 	IF ~~ THEN GOTO 32
+ END  
+   
+ IF ~~ THEN BEGIN 32
+-  SAY ~He is a good man <CHARNAME> and he will battle this enemy alone if necessary to save the innocent, but I am sure that you are already aware of this. I have no more questions, may Tempus guide your heart in these evil times.~
++  SAY @67
+ 	IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 33 //7
+-  SAY ~An honourable answer, but what of your promise to your friends... to guide them safely home? If they were adamant in their decision to go home, how would you uphold both your promise to them and to Hrothgar?~
+-  IF ~~ THEN REPLY ~Then we would have to decide whether to go our separate ways or remain together as a group.~ GOTO 28 //-->4
+-  IF ~~ THEN REPLY ~I couldn’t order them to do something they didn’t want to so I guess the group would split up.~ GOTO 28 //-->4
+-  IF ~~ THEN REPLY ~Then I would give them an ultimatum... they follow or they leave.~ GOTO 28 //-->4
++  SAY @68
++  IF ~~ THEN REPLY @58 GOTO 28 //-->4
++  IF ~~ THEN REPLY @59 GOTO 28 //-->4
++  IF ~~ THEN REPLY @60 GOTO 28 //-->4
+ END
+ 
+ IF ~~ THEN BEGIN 34 //8
+-  SAY ~You would let revenge guide you? You have the opportunity to do some good here and yet you let your heart fester with cold and bloody thoughts of vengeance! Do you seriously think that will take away the pain that you have suffered?~
+-  IF ~~ THEN REPLY ~No I don’t expect it to do that, but it will make me feel a whole lot better... just seeing the bastard get a dose of what he dished out will be enough!~ GOTO 35 //-->9
+-  IF ~~ THEN REPLY ~I am not foolish enough to think that, but nor I am foolish enough to let anyone think they can abuse me and get away with it. What sort of a message does that give out to the next person who decides to try his luck?~ GOTO 35 //-->9
+-  IF ~~ THEN REPLY ~It is no more than he deserves, if he lives after I am done with him, then let him carry the scars as a reminder of the scars he has etched on my soul.~ GOTO 35 //-->9
++  SAY @69
++  IF ~~ THEN REPLY @70 GOTO 35 //-->9
++  IF ~~ THEN REPLY @71 GOTO 35 //-->9
++  IF ~~ THEN REPLY @72 GOTO 35 //-->9
+ END
+ 
+ IF ~~ THEN BEGIN 35 //9
+-  SAY ~I don’t think I have ever heard such cold, heartless words in all my time in the service of Tempus! Would you not consider putting such thoughts from your heart, and using your passion to avenge the wrong done to you, to aid Hrothgar’s  mission instead, to help prevent a wrong being done to this land?~
+-  IF ~~ THEN REPLY ~I can not change what is in my heart, nor would I choose to. Each day that I spend in this time only heightens my resolve that someone must and will pay for what has been done to me and my friends.~ GOTO 36 //-->10
+-  IF ~~ THEN REPLY ~I agreed to aid Hrothgar because he assured me that I would find my way back to Irenicus through doing so. I have wasted more time than I expected on this fool mission, you can be assured that the next chance I get... I am out of here.~ GOTO 36 //-->10
+-  IF ~~ THEN REPLY ~I have already delayed my return home far longer than I intended. The outcome of this mission has to be the same whether I aid Hrothgar or not, so I see no reason for me to prolong my stay here should the opportunity to leave present itself.~ GOTO 36 //-->10
++  SAY @73
++  IF ~~ THEN REPLY @74 GOTO 36 //-->10
++  IF ~~ THEN REPLY @75 GOTO 36 //-->10
++  IF ~~ THEN REPLY @76 GOTO 36 //-->10
+ END
+ 
+ IF ~~ THEN BEGIN 36 //10
+-  SAY ~If that is the path that you are set on <CHARNAME>, then I will say many prayers to Tempus on your behalf and ask that he heals your heart, so that it does not suffer the bitterness that so often fills the space that revenge leaves. I pray that it will be enough.~
++  SAY @77
+ 	IF ~~ THEN EXIT
+ END  
+ 
+ IF ~~ THEN BEGIN 37 //11
+-  SAY ~What of your word to Hrothgar, does honour in giving one’s word not mean anything in the future?~
+-  IF ~~ THEN REPLY ~My word was given before Hrothgar whisked us all off to this place so abruptly, and then refused to give an explanation as to how.~ GOTO 38 //-->12
+-  IF ~~ THEN REPLY ~I would like to trust Hrothgar further but as he has been reluctant to confide in me, I feel I can no longer travel with a man when I am not even sure anymore that his cause is just.~ GOTO 39 //-->13
+-  IF ~~ THEN REPLY ~How many chances to return home would you have me pass up Accalia, knowing that each one may be the last?~ GOTO 41 //-->14
++  SAY @78
++  IF ~~ THEN REPLY @79 GOTO 38 //-->12
++  IF ~~ THEN REPLY @80 GOTO 39 //-->13
++  IF ~~ THEN REPLY @81 GOTO 41 //-->14
+ END
+ 
+ IF ~~ THEN BEGIN 38 //12
+-  SAY ~I don’t see that your abrupt arrival has not caused you any injury. Has Hrothgar not striven in his attempts to keep us all alive, yourself included, whilst we battle the numerous foes that we have encountered so far in our search for Larrel? Do you see those as the actions of a man who wishes you harm?~
+-  IF ~~ THEN REPLY ~I admire your faith in the man and I hear your words Accalia, but my decision is not based solely on my feelings toward Hrothgar. You have to remember that this is not my time, I have my own life to consider and I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I do not belong here Accalia. Regardless of what I promised or did not promise and no matter how good I feel my intentions are, I have come to believe that I should return to my home before my presence jeopardises the future further.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I hear and see the wisdom in your words Accalia, and perhaps another time I would give some thought to them. As it is, they make very little difference to what I know to be right ... I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I have answered your question Accalia and there is no more to be said. Now I would be grateful if you let the matter drop.~ GOTO 45 //-->16
++  SAY @82
++  IF ~~ THEN REPLY @83 GOTO 43 //-->15
++  IF ~~ THEN REPLY @84 GOTO 43 //-->15
++  IF ~~ THEN REPLY @85 GOTO 43 //-->15
++  IF ~~ THEN REPLY @86 GOTO 45 //-->16
+ END
+ 
+ IF ~~ THEN BEGIN 39 //13
+-  SAY ~You have your own secrets do you not <CHARNAME>? I do not see you rushing to confide in Hrothgar nor do I see him pressing you for answers in exchange for loyalty.~
++  SAY @87
+ 	IF ~~ THEN GOTO 40
+ END   
+   
+ IF ~~ THEN BEGIN 40
+-  SAY ~As for his cause being just, you heard the words of Arundel yourself, how he spoke of the thing that took his place and used us to further its own means in this battle. How can you even suspect Hrothgar of malice towards you and your friends when he has fought beside you through so much?~
+-  IF ~~ THEN REPLY ~I admire your faith in the man and I hear your words Accalia, but my decision is not based solely on my feelings toward Hrothgar. You have to remember that this is not my time, I have my own life to consider and I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I do not belong here Accalia. Regardless of what I promised or did not promise and no matter how good I feel my intentions are, I have come to believe that I should return to my home before my presence jeopardises the future further.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I hear and see the wisdom in your words Accalia, and perhaps another time I would give some thought to them. As it is, they make very little difference to what I know to be right ... I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I have answered your question Accalia and there is no more to be said. Now I would be grateful if you let the matter drop.~ GOTO 45 //-->16
++  SAY @88
++  IF ~~ THEN REPLY @83 GOTO 43 //-->15
++  IF ~~ THEN REPLY @84 GOTO 43 //-->15
++  IF ~~ THEN REPLY @85 GOTO 43 //-->15
++  IF ~~ THEN REPLY @86 GOTO 45 //-->16
+ END 
+ 
+ IF ~~ THEN BEGIN 41 //14
+-  SAY ~How many times does Hrothgar need to reassure you that your future is not in this time, that you will find your way home... if one portal closes another will surely be found? Can you not find it to look into your heart and let it guide you to seeing that Hrothgar knows that what he speaks is truth?~
++  SAY @89
+ 	IF ~~ THEN GOTO 42
+ END  
+   
+ IF ~~ THEN BEGIN 42
+-  SAY ~I have looked into the man’s eyes, and whereas there are times when I see shadows over them, for the most they are the eyes of a wise and honest man. Please, will you not keep faith in your promise to aid him?~ 
+-  IF ~~ THEN REPLY ~I admire your faith in the man and I hear your words Accalia, but my decision is not based solely on my feelings toward Hrothgar. You have to remember that this is not my time, I have my own life to consider and I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I do not belong here Accalia. Regardless of what I promised or did not promise and no matter how good I feel my intentions are, I have come to believe that I should return to my home before my presence jeopardises the future further.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I hear and see the wisdom in your words Accalia, and perhaps another time I would give some thought to them. As it is, they make very little difference to what I know to be right ... I do not belong here.~ GOTO 43 //-->15
+-  IF ~~ THEN REPLY ~I have answered your question Accalia and there is no more to be said. Now I would be grateful if you let the matter drop.~ GOTO 45 //-->16
++  SAY @90 
++  IF ~~ THEN REPLY @83 GOTO 43 //-->15
++  IF ~~ THEN REPLY @84 GOTO 43 //-->15
++  IF ~~ THEN REPLY @85 GOTO 43 //-->15
++  IF ~~ THEN REPLY @86 GOTO 45 //-->16
+ END
+ 	
+ IF ~~ THEN BEGIN 43 //15
+-  SAY ~Perhaps you don’t belong here, but either by design or by accident you are here and I ask that you please think on why this should be? Without your aid Hrothgar can not prevail against this evil, you <CHARNAME> are all that stands between triumph or failure.~
++  SAY @91
+ 	IF ~~ THEN GOTO 44
+ END 
+ 
+ IF ~~ THEN BEGIN 44
+-  SAY ~If by the time we have found and spoken to Larrel you still believe you do not belong then I will be the first to wish you luck when you find your portal home. I ask that Tempus guide you as you consider my words.~
++  SAY @92
+ 	IF ~~ THEN EXIT
+ END  
+ 
+ IF ~~ THEN BEGIN 45 //16
+-  SAY ~As you wish <CHARNAME>. I have said what I felt needed to be said. I ask only that you think on my words and look into your heart before you make any decisions when you next find your portal. I ask that Tempus guide you as you consider my words.~
++  SAY @93
+ 	IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_BHrothgar","LOCALS",7)
+ Global("VP_Astrolabe_Talks","GLOBAL",2)~ THEN BEGIN 46
+-  SAY ~The wizards here had a machine that they were using to research time and space... an astrolabe. Do you know of such machines Hrothgar?~
++  SAY @94
+   IF ~~ THEN DO ~SetGlobal("VP_BHrothgar","LOCALS",8)~ EXTERN ~BHROTH~ 77
+ END
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~And why should I be surprised? I have come to know that you are more than you profess to be... there is wisdom in your face when I look into it and yet you do not have the age that brings such great wisdom. No... there is more to you, much more, but it is not my place to pry where I have no need to be. About this astrolabe...~
++  SAY @95
+   IF ~~ THEN EXTERN ~BHROTH~ 78
+ END
+ 
+ IF ~~ THEN BEGIN 48
+-  SAY ~Guessing or picking out of my mind I wonder? The later wouldn’t surprise me but then, nor does it bother me. I imagine that is also the question that is on <CHARNAME>’s mind.~
++  SAY @96
+   IF ~~ THEN EXTERN ~BHROTH~ 79
+ END
+ 
+ IF ~~ THEN BEGIN 49
+-  SAY ~Why do you have to be so infuriatingly sympathetic to <PRO_HISHER> plight Hrothgar? It is looking more and more like this group has no intentions of seeing this through with us and you accept it without so much as an attempt to persuade them differently.~
++  SAY @97
+   IF ~~ THEN EXTERN ~BHROTH~ 80
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~And if the promise is not upheld then what?~
++  SAY @98
+   IF ~~ THEN EXTERN ~BHROTH~ 81
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~A decision that you will have to abide by... right?~
++  SAY @99
+   IF ~~ THEN EXTERN ~BHROTH~ 82
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~You know me well enough to know that if you ask me to leave a thing then I will. You would not have told me so much knowing that you could say no more if you didn’t.~
++  SAY @100
+ 	IF ~~ THEN GOTO 53
+ END
+ 
+ IF ~~ THEN BEGIN 53
+-  SAY ~Your words may send a shiver of ice down my spine but I do not believe it is through fear, but more through a sense of awe and wonder at who you really are Hrothgar of Easthaven! I am curious that is true, but I trust you enough not to need answers to satisfy my curiosity.~
++  SAY @101
+   IF ~~ THEN EXTERN ~BHROTH~ 83
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~I would like to hear more of this Branwen, this priest of Tempus whom I put you in mind of so much.~
+-  IF ~~ THEN REPLY ~That was another place another time Accalia and she was not with me long enough to learn much of her.~ GOTO 5
+-  IF ~~ THEN REPLY ~I do not have the time for reminiscences Accalia, we have enough to do with the here and now.~ GOTO 5
+-  IF ~~ THEN REPLY ~I have already said how like you she was, in mannerism, looks even your voice but I do remember her saying she left her home in the northern isles to become a priest which could give rise to her sounding much like yourself.~ GOTO 6
++  SAY @102
++  IF ~~ THEN REPLY @16 GOTO 5
++  IF ~~ THEN REPLY @17 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 55
+-  SAY ~Doubtless you are right...I am after all, here on Hrothgar’s recommendation. Even so, as long as we are as one in our intentions to find and destroy this evil that has arisen, then you have my fealty until Tempus wills otherwise.~
+-  IF ~~ THEN REPLY ~That’s true, but then I don’t know Hrothgar either. I do however, believe in what he is doing and as you say, our goals are the same so I am sure we are going to get along just fine.~ GOTO 56
+-  IF ~~ THEN REPLY ~Hrothgar suggested that I take you along, but I take pride in knowing who will serve the best interests of my group and that is why you are here... not because Hrothgar recommended you.~ GOTO 56
+-  IF ~~ THEN REPLY ~Thank you Accalia. I believe we are going to need all our strengths when we finally confront this evil. It is good to have so steadfast and loyal a friend at my side.~ GOTO 56
++  SAY @103
++  IF ~~ THEN REPLY @104 GOTO 56
++  IF ~~ THEN REPLY @105 GOTO 56
++  IF ~~ THEN REPLY @106 GOTO 56
+ END
+  
+ IF ~~ THEN BEGIN 56
+-  SAY ~Then we will think no more of apprehensions... instead we will be content in the knowledge that we stand together in our resolution to root out this evil and bring peace back to this land. May Tempus bring us victory.~
++  SAY @107
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~Then maybe it is my own apprehension that I am sensing. I have waited a long time for Tempus to see his servant fit to fight in his name, and I worry that I shall not live up to all he expects of me.~
+-  IF ~~ THEN REPLY ~I have no time for such doubts Accalia, if you do not feel up to the task ahead then I suggest you leave now and make room for when we meet one who is.~ GOTO 58
+-  IF ~~ THEN REPLY ~Hrothgar would not have suggested you join with us if he had doubts of your suitability for the task. Either you get yourself together or leave before your insecurities cost one here their life.~ GOTO 58
+-  IF ~~ THEN REPLY ~None of us know what we are capable of until we are tested Accalia. If Tempus has indeed put you on this road then you should not doubt his trust in you.~ GOTO 58
++  SAY @108
++  IF ~~ THEN REPLY @109 GOTO 58
++  IF ~~ THEN REPLY @110 GOTO 58
++  IF ~~ THEN REPLY @111 GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~You are right <CHARNAME>. No more apprehensions, Tempus has set my path and has given me the chance to prove myself worthy to fight in his name.~
++  SAY @112
+   IF ~~ THEN GOTO 59
+ END
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~I will not let him down, and if it is his will that I survive this test and live to honour his name in battles of the future... or that I should fail and fall... his will be done.~
++  SAY @113
+   IF ~~ THEN EXIT
+ END    

@@ -1,0 +1,58 @@
+@0 = ~Freunde, bin ich Aldair und Ihr seid gekommen, um Weisheit zu suchen. Ich bin der Lehrer der Weisheit, und ich werde alle lehren, die mein Wort beherzigen.~
+@1 = ~Ja, mein Freund, ich suche Weisheit, was könnt Ihr mir sagen?~
+@2 = ~Ich suche Weisheit, aber ich brauche Euch nicht, um sie zu lehren, Aldair. Ich will nur das Buch, aus dem Ihr sie unterrichtet.~
+@3 = ~(*Nicht noch ein verrückter Druide, was ist los mit diesen Naturburschen! Zu viel frische Luft scheint das Gehirn zu  erweichen*) Aldair, ich habe Freunde, die von Weisheit hören wollen und darum gebeten haben, dass ich Ihnen das Buch bringe, damit sie es lesen können.~
+@4 = ~Ich kann Euch alles beibringen, was Ihr lernen wollt, aber zuerst müsst Ihr mir sagen, was Ihr lernen möchtet. Nur wenn ich weiß, was Ihr nicht wisst, kann ich anfangen, Euch zu unterrichten.~
+@5 = ~Ich möchte mich selbst schulen, Aldair. Wollt Ihr mir nicht das Buch geben, damit ich diese großen Worte lernen kann?~
+@6 = ~(*Dies wird nicht funktionieren, mögen die Götter vor verrückten Druiden schützen!*) Gebt mir das Buch, Aldair, und ich werde Euch Eurem Geschwafel überlassen.~
+@7 = ~Wenn Eure Freunde meine Worte hören wollen, dann müssen sie zu mir kommen, damit ich zu ihnen sprechen kann, sie können sie nicht hören, indem sie das Buch lesen. Bringt sie mir und ich werde sie lehren.~
+@8 = ~Leider ist das nicht möglich, ich muss ihnen Eure Weisheit bringen. Ich bin sicher, sie werden es Euch zurückgeben, sobald sie gelernt haben.~
+@9 = ~Dann lasst mich die Worte lesen, Aldair, auf diese Art kann ich sie selbst unterrichten.~
+@10 = ~Nein, Ihr könnt das große Buch nicht lesen! Es ist allen verboten, die nicht die Art und Weise kennen, wie man lesen muss, was geschrieben ist.~
+@11 = ~Wenn Ihr hören wollt, was die Weisheit sagt, dann kann ich sie Euch nur vorlesen, denn die Weisheit nicht ganz vollständig.~
+@12 = ~Alle, denen nicht erlaubt ist, auf seine Worte zu schauen oder den Weg der Weisheit nicht kennen, werden in den Wahnsinn getrieben, weil sie nicht verstehen.~
+@13 = ~Mir wurde gesagt, es zu nehmen und sicher aufzubewahren, es ist die einzige Möglichkeit, das Gleichgewicht zu bewahren.~
+@14 = ~Ich kenne schon die Weisheit, Aldair. Mir ist es erlaubt, die Worte zu lesen.~
+@15 = ~(*Das erklärt viel*) Ja, ja, ich weiß das alles. Ich würde nicht darum bitten, es zu lesen, wenn ich denken würde, dass es mich in den Wahnsinn treibt, nicht wahr?~
+@16 = ~Gebt mir das Buch, und ich werde Euch beweisen, dass ich seine Worte lesen und mein Verstand behalten kann.~
+@17 = ~Wenn Ihr das Buch lesen wollt, dann müsst Ihr mir beweisen, dass Ihr die Wahrheit sagt, dass Ihr den Weg der Weisheit kennt.~
+@18= ~Es ist zu gefährlich für mich, Euch zu erlauben, die Worte zu lesen, falls Ihr lügt.~
+@19 = ~Ihr werdet mir drei Fragen beantworten. Wenn Ihr wirklich das Wissen besitzt und Ihr alle drei Fragen richtig beantwortet, soll Euch das Wort zu lesen gestattet sein. Seid Ihr bereit?~
+@20 = ~Stellt Eure Fragen.~
+@21 = ~Ich nehme an, es wird nicht schaden, Euch bei Laune zu halten, fragt nur.~
+@22 = ~(*Noch eine weiterer Druide mit einer Vorliebe für Spiele*) Bin ich, aber unabhängig vom Ergebnis dieses kleinen Spiels will ich dieses Buch haben.~
+@23 = ~Dann ist dies meine erste Frage, hört aufmerksam zu:
+
+   Wenn Ihr mich brecht,
+   Höre ich nicht auf zu funktionieren.
+   Wenn Ihr mich berührt,
+   Könnte ich verführt werden.
+   Wenn Ihr mich verliert,
+   Wird nichts geschehen.
+   Was bin ich?~
+@24 = ~Hoffnung.~
+@25 = ~Meine Seele.~
+@26 = ~Mein Herz.~
+@27 = ~Atem.~
+@28 = ~Geist.~
+@29 = ~Ihr lügt mich an! Wenn Ihr das Wissen hättet, dann hättet Ihr gewusst, wovon ich spreche! Ich will nicht weiter mit Euch reden.~
+@30 = ~Eine kluge Antwort, nun zur nächsten. Hört noch einmal aufmerksam zu und antwortet mir dann.~
+@31 = ~Ein Zauberer hat vier Lehrlinge namens Ardel, Brynn, Caryl und Demetri. Eines Tages beim Spielen mit dem Zauberstab des Zauberers zerbrach ihn einer von ihnen.~
+@32 = ~Ardel sagt, Brynn zerbrach ihn. Brynn sagt, Caryl zerbrach ihn. Caryl und Demetri sagen, dass sie nicht wissen, wer ihn zerbrach.~
+@33 = ~Vorausgesetzt, dass nur der Schuldige Lehrling lügt, wer zerbrach den Zauberstab?~
+@34 = ~Ardel.~
+@35 = ~Brynn.~
+@36 = ~Caryl.~
+@37 = ~Demetri.~
+@38 = ~(*Er sieht verstört aus*) Wieder eine kluge Antwort, jetzt meine letzte Frage. Hört noch heinmal aufmerksam zu und antwortet mir dann.~
+@39 = ~Ich habe einen Stapel Karten, aber einige davon fehlen. Wenn ich sie zu gleichen Teilen zwischen neun Menschen aufteile, habe ich zwei Karten übrig.~
+@40 = ~Wenn ich sie zwischen vier Menschen aufteile, habe ich drei Karten übrig. Wenn ich sie zwischen sieben Menschen aufteile, habe ich fünf Karten übrig.~
+@41 = ~Da es zweiundfünfzig Karten in meinem Stapel waren, als er vollständig war, wie viele fehlen in meinem Stapel?~
+@42 = ~Eine.~
+@43 = ~Zwei.~
+@44 = ~Drei.~
+@45 = ~Vier.~
+@46 = ~Fünf.~
+@47 = ~Sechs.~
+@48 = ~Nein, ich werde die Weisheit nicht aus meiner Hand geben! Mir wurde gesagt, dass Ihr sie benutzen würdet, um das Gleichgewicht zu stören aber unter allen Umständen muss das Gleichgewicht bewahrt bleiben!~
+@49 = ~Ich muss auf das hören, was mir gesagt wird und Euch vernichten, bevor Ihr es vollendet und Wahnsinn über die Welt bringt.~

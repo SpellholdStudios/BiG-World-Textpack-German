@@ -1,0 +1,56 @@
+@0    = ~Well met, stranger.  The name's Gaspar, Gaspar the fishmonger.  What can I do for you this fine day?~
+@1    = ~Gaspar, eh?  Have you ever heard of someone named Ilmus Gallaway?~
+@2    = ~Fishmonger?  This doesn't look much like a fish shop.~
+@3    = ~Just stopping by.  Farewell.~
+@4    = ~That's because it isn't, my friend.  This is my home.  I may be a fishmonger, but that doesn't mean I hawk fish like some street vendor.  I deal in large quantities of dried knucklehead and scrimshaw, the bulk of which I keep stored in my warehouse down on the shore.~
+@5    = ~Dried what?~
+@6    = ~What exactly is scrimshaw?~
+@7    = ~Interesting.  Have you ever heard of someone named Ilmus Gallaway?~
+@8    = ~I see.  Well, I must be on my way.  Farewell.~
+@9    = ~Knucklehead trout.  It's a rare fish found only in the lakes of the Ten-Towns.  Their bones are used to produce valuable scrimshaw.~
+@10   = ~You must make a decent amount of coin selling these fish.~
+@11   = ~Scrimshaw's simply a fancy name for carved bone.  Since knucklehead trout are so rare, scrimshaw carvings made from their bones are particularly valuable.  Scrimshaw from Easthaven is prized by fine artists and craftsmen throughout the realms.~
+@12   = ~It's an honest living.  I make most of my profit from trade, though.  As a matter of fact, I've an important transaction in the works as we speak.~
+@13   = ~What sort of transaction?~
+@14   = ~Well, best of luck to you.  Farewell.~
+@15   = ~The town's food stores are running dangerously low.  My warehouse foreman, Churin, tells me that there may not be enough food to last through the coming winter.  I've arranged a trade with ol' Gallaway up in Caer-Dinival that will keep our stomachs full well into next year.  The caravan's due to arrive any day now.~
+@16   = ~Gallaway, you say?  Ilmus Gallaway of Caer-Dinival?~
+@17   = ~Interesting.  Hrothgar told us the caravan is overdue.  He asked us to go search for it and to see it safely to Easthaven.~
+@18   = ~Finding a missing caravan.
+
+We met with Gaspar the Fishmonger in Easthaven.  He told us of a trade he'd arranged with a merchant in Caer-Dinival.  The caravan hasn't arrived yet, but it should be arriving any day now.  I wonder if it's the caravan that Hrothgar asked us to find.~
+@19   = ~Bad news, Gaspar.  The caravan from Caer-Dinival never made it.  We found the abandoned wagons outside of town.~
+@20   = ~Finding a missing caravan.
+
+We met with Gaspar the Fishmonger in Easthaven.  He told us of a trade he'd arranged with a merchant in Caer-Dinival.  The caravan hasn't arrived yet, but it should be arriving any day now.  It sounds like the town really needs the supplies the caravan is bringing.~
+@21   = ~Why yes.  You know him?~
+@22   = ~We found this contract on the body of an ogre in a cave outside of town.  I'm afraid the caravan from Caer-Dinival never made it.~
+@23   = ~Finding a missing caravan.
+
+Once we heard that Gaspar the Fishmonger was waiting for a caravan from Caer-Dinival, we told him about the caravan we'd found outside of town.  There was no proof it was the caravan he'd been waiting for, however.  If we come across any proof it was the caravan Gaspar was waiting for, it might be worthwhile to bring it to Gaspar.~
+@24   = ~Finding a missing caravan.
+
+We told Gaspar the Fishmonger about the lost caravan and showed him the contract from Ilmus Gallaway we'd found in the orc caves.  Once he knew the caravan had been lost, Gaspar set about re-negotiating a contract and insuring that a new caravan of supplies reaches Easthaven.  He thanked us for our trouble, and he paid us a small sum of gold.~
+@25   = ~No, never heard of him.  Farewell.~
+@26   = ~This is terrible news.  I must send word to Ilmus up at Caer-Dinival at once.  A new contract will have to be negotiated immediately so another caravan can be sent before the snows hit.  Thank you for bringing this to my attention.  Here is something for your troubles.~
+@27   = ~Thank you.  Farewell.~
+@28   = ~Well then, by all means, go to it.  Though, I'm sure there's nothing to worry about.  Caravans always run late this time of year.~
+@29   = ~I hope you're right.  Farewell.~
+@30   = ~What?  Are you certain it was the caravan from Caer-Dinival?~
+@31   = ~We found this contract on the body of an ogre in a cave near the abandoned wagons.~
+@32   = ~It's hard to say for sure.  There was no sign of the caravan members, and the wagons were empty.~
+@33   = ~Then it is possible that the wagons you found belonged to another caravan.  Damn!  I hate being kept in the dark like this.  I can't negotiate a new contract until I know for certain what happened to Gallaway's caravan.~
+@34   = ~Sorry.  I wish we could be of more help.  Farewell.~
+@35   = ~Tough luck.  See you around, fishmonger.~
+@36   = ~Well met again.  What brings you to my home this time?~
+@37   = ~Your home?  I thought this was a fishmonger's shop.~
+@38   = ~If it isn't the "heroes" that steal fish from little boys.  My son, Damien, told me all about you.  What business do you have coming into my home?~
+@39   = ~Ah, hello again, my friends.  I wanted to thank you for looking out for my boy, Damien.  He told me all about you and the monsters.  ~
+@40   = ~It was nothing, really.~
+@41   = ~You're lucky we happened to be nearby.  You really ought to keep that little brat on a shorter leash.~
+@42   = ~Whatever.  Farewell.~
+@43   = ~You are too modest.  Now, what brings you to my home today?~
+@44   = ~Sorry to disappoint you, but this is in fact my home.  I may be a fishmonger, but that doesn't mean I hawk fish like some street vendor.  I deal in large quantities of dried knucklehead and scrimshaw, the bulk of which I keep stored in my warehouse down on the shore.~
+@45   = ~Yes... well, I keep telling him not to fish the far shores, but you know how impetuous boys can be.  In any case... what brings you to my home today?~
+@46   = ~I can't tell you how glad I am to see you again.  I thought for sure we would end up as food for those one-eyed brutes sooner or later.  Watch yourself... there may still be more of them about town.~
+@47   = ~We'll keep an eye out for them.  Farewell.~

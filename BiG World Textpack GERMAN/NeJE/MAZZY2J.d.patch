@@ -1,0 +1,47 @@
+--- NeJE\dlg\MAZZY2J.d	Sat Jan 30 23:41:34 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\MAZZY2J.d	Tue Apr 09 19:36:50 2019
+@@ -1,37 +1,37 @@
+ APPEND ~MAZZY25J~
+ 
+ IF ~~ THEN BEGIN KRst0
+-  SAY ~(Irresolutely) Sir Keldorn, will you allow me to speak with you?~
++  SAY @0
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz0 
+ END
+ 
+ IF ~~ THEN BEGIN KRst1
+-  SAY ~(More resolutely) Keldorn, I wish to speak with a paladin, whom I admire. You always were a good example for me.~
++  SAY @1
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz1 
+ END  
+   
+ IF ~~ THEN BEGIN KRst2
+-  SAY ~(Even more resolutely) Keldorn! You and <CHARNAME> are not married yet, are you?~
++  SAY @2
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz2 
+ END    
+   
+ IF ~~ THEN BEGIN KRst3
+-  SAY ~But this night you were...~
++  SAY @3
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz3 
+ END     
+   
+ IF ~~ THEN BEGIN KRst4
+-  SAY ~(Confused) I... I do not have the right, but my thoughts were that you shouldn't as a paladin...~
++  SAY @4
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz4
+ END     
+   
+ IF ~~ THEN BEGIN KRst5
+-  SAY ~(Perplexed) Yes...~
++  SAY @5
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz5
+ END   
+   
+ IF ~~ THEN BEGIN KRst6
+-  SAY ~Had to? Oh, Arvoreen! I do understand. Forgive me, Keldorn, for being uncertain about you. You remain a fine example of a paladin, both wise and compassionate. Please forgive my doubts.~
++  SAY @6
+   	IF ~~ THEN EXTERN ~KELDO25J~ LT12_Mz6
+ END    
+ END

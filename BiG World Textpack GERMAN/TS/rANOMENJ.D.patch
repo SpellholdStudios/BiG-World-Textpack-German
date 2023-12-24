@@ -1,0 +1,11 @@
+--- TS\bgtdlg\rANOMENJ.D	Thu Jan 06 16:53:02 2005
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rANOMENJ.D	Thu May 05 10:45:00 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN 262
+-  SAY ~I can think of only one creature that would dare put the pirate up to this.  It is the vampire we fought against... Bodhi.  Obviously she seeks some manner of revenge on us.~
++  SAY @0
+   IF ~!InParty("Sime")
+ See("ppsime")~ THEN EXTERN ~PPSIME~ 7
+   IF ~InParty("Sime")~ THEN EXTERN ~SIMEJ~ 20

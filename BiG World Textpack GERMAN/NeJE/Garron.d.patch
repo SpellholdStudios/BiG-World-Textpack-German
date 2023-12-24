@@ -1,0 +1,102 @@
+--- NeJE\dlg\Garron.d	Mon Jan 19 15:54:56 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Garron.d	Tue Apr 09 19:36:03 2019
+@@ -1,70 +1,70 @@
+ BEGIN ~GARRON~
+ 
+ IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~What! This is not your student quarters, you have no business being here. Now begone and be grateful I am not reporting you for this intrusion.~
+-  IF ~~ THEN REPLY ~You’ll not be reporting anyone Garron, not ever unless you are a good little mage and hand over that letter you are holding.~ GOTO 1
+-  IF ~~ THEN REPLY ~Look, I am going to find out what is in that letter one way or another so you may as well hand it over peaceably Garron.~ GOTO 1
+-  IF ~~ THEN REPLY ~I have no wish to hurt you Garron, so give me the letter and I will leave.~ GOTO 1
+-  IF ~~ THEN REPLY ~I have had to spend a lot of time tracking down these mage friends of yours and I am not in the best of moods, if you get my meaning. Now give me that letter and I guarantee my mood will lighten.~ GOTO 2
+-  IF ~~ THEN REPLY ~I know of you and your friends plans for the leveller Garron. Now be sensible, just tell me where these friends of yours are and no one need get hurt here.~ GOTO 3
+-  IF ~~ THEN REPLY ~The letter please Garron, it is the leveller I want not the operator. Although I am not against taking out the operator to get at the artifact, in fact I would consider it a bonus.~ GOTO 3
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 1
++  IF ~~ THEN REPLY @4 GOTO 2
++  IF ~~ THEN REPLY @5 GOTO 3
++  IF ~~ THEN REPLY @6 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~You threaten me... a tutor? I will have your names now, your own tutors will hear of this outrage and deal with you themselves! Starting with you (*pointing to you*), you appear to be spokesperson for this little rabble, what is your name?~ // Then CH.7-10.
+-  IF ~~ THEN REPLY ~My name is not important Garron as you will have no chance to use it.~ GOTO  5 // After finding Garron’s letter: Hrothgar1.
+-  IF ~~ THEN REPLY ~You had your chance to hand over that letter, now I will take it!~ GOTO  5 // After finding Garron’s letter: Hrothgar1.
+-  IF ~~ THEN REPLY ~I’ll not ask you again Garron, the letter please?~ GOTO 6
+-  IF ~~ THEN REPLY ~(*You feign fear at his words*)... Please no... don’t run and tell my tutor.... Bah! Do you really think your threats frighten me Garron? Now, give... me... the... letter!~ GOTO 6
++  SAY @7 // Then CH.7-10.
++  IF ~~ THEN REPLY @8 GOTO  5 // After finding Garron’s letter: Hrothgar1.
++  IF ~~ THEN REPLY @9 GOTO  5 // After finding Garron’s letter: Hrothgar1.
++  IF ~~ THEN REPLY @10 GOTO 6
++  IF ~~ THEN REPLY @11 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~My friends will not take kindly to students meddling in their affairs, if you are students that is and your words are giving me cause to doubt that very much. I will know your names and the names of your tutors?~ // Then. CH.7-10.
+-  IF ~~ THEN REPLY ~My name is not important Garron as you will have no chance to use it.~ GOTO  5 // After finding Garron’s letter: Hrothgar1.
+-  IF ~~ THEN REPLY ~You had your chance to hand over that letter, now I will take it!~ GOTO  5 // After finding Garron’s letter: Hrothgar1.
+-  IF ~~ THEN REPLY ~I’ll not ask you again Garron, the letter please?~ GOTO 6
+-  IF ~~ THEN REPLY ~(*You feign fear at his words*)... Please no... don’t run and tell my tutor.... Bah! Do you really think your threats frighten me Garron? Now, give... me... the... letter!~ GOTO 6
++  SAY @12 // Then. CH.7-10.
++  IF ~~ THEN REPLY @8 GOTO  5 // After finding Garron’s letter: Hrothgar1.
++  IF ~~ THEN REPLY @9 GOTO  5 // After finding Garron’s letter: Hrothgar1.
++  IF ~~ THEN REPLY @10 GOTO 6
++  IF ~~ THEN REPLY @11 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~So you have been snooping where students have no business to be, and you have learnt of the leveller.~
++  SAY @13
+   IF ~~ THEN GOTO 4
+ END
+  
+ IF ~~ THEN BEGIN 4
+-  SAY ~Let me assure you there is no need for your threats, the leveller is to be deployed against Halruaa’s enemy and not Halruaa itself. So you may rest easy that my friends and myself, have the academy’s best interests at heart.~ // Then CH.11-14.
+-  IF ~~ THEN REPLY ~Halruaa is not my concern, Ulcaster is, and now that you know this, I am afraid I have to make sure no one else hears of it.~ GOTO 6 // (*Attack Garron*). After finding Garron’s letter: Hrothgar1.
+-  IF ~~ THEN REPLY ~I will not rest easy until I know that Ulcaster is safe from that infernal leveller device you mages have constructed.~ GOTO 7
+-  IF ~~ THEN REPLY ~Ha, you think I worry for Halruaa Garron! I am here to make a stand for Ulcaster and I see no better way than stopping you and your friends assault with what sounds to me like an artifact capable of mass destruction!~ GOTO 7
+-  IF ~~ THEN REPLY ~You are stupider that I thought Garron! I know of your intentions to deploy some secret device against Ulcaster and I am here for the letter that will lead me to your friends. I intend to end this assault before it begins.~ GOTO 9
++  SAY @14 // Then CH.11-14.
++  IF ~~ THEN REPLY @15 GOTO 6 // (*Attack Garron*). After finding Garron’s letter: Hrothgar1.
++  IF ~~ THEN REPLY @16 GOTO 7
++  IF ~~ THEN REPLY @17 GOTO 7
++  IF ~~ THEN REPLY @18 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~That's a mug's game.~
++  SAY @19
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You are not students of this academy, you would not be so openly defiant to your superior if you were. I can only deduce that you are supporters of Ulcaster. You have taken a dangerous step in coming here and now you will pay for your arrogance! Thinking you could outwit us... now you will feel the power of real magic.~ // Garron turns hostile. After finding Garron’s letter: Hrothgar1.
++  SAY @20 // Garron turns hostile. After finding Garron’s letter: Hrothgar1.
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 	
+ IF ~~ THEN BEGIN 7
+-  SAY ~(*Scoffs*) And do you really think this pathetic little group of yours is going to stop us? If it has not escaped your notice this is an academy full of powerful wizards, you have no chance of leaving with anything you may have discovered.~
++  SAY @21
+   IF ~~ THEN GOTO 8
+ END
+   
+ IF ~~ THEN BEGIN 8
+-  SAY ~I warn you, I am no novice myself, so prepare to feel the power of real magic before you all die.~ // Garron turns hostile. After finding Garron’s letter:Hrothgar1.
++  SAY @22 // Garron turns hostile. After finding Garron’s letter:Hrothgar1.
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~(*Scoffs*) No, you are the stupid one. Thinking you can infiltrate an academy full of very powerful wizards and leave with your lives intact.~
++  SAY @23
+   IF ~~ THEN GOTO 10
+ END  
+    
+ IF ~~ THEN BEGIN 10
+-  SAY ~Your own words have condemned you as spies for Ulcaster and therefore enemies of Halruaa. Prepare yourselves to see the power of real magic before you all die.~ // Garron turns hostile. After finding Garron’s letter:  Hrothgar1.
++  SAY @24 // Garron turns hostile. After finding Garron’s letter:  Hrothgar1.
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END  

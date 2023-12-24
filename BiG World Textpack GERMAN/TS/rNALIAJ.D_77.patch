@@ -1,0 +1,11 @@
+--- TS\bgtnodlg\rNALIAJ.D	Wed Dec 29 12:56:31 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\rNALIAJ.D	Thu May 05 10:46:46 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~NALIAJ~
+ 
+ IF ~~ THEN BEGIN 272
+-  SAY ~Delightful company?  This ship is filthy, falling apart, and your crew has been nothing less than boorish.  Ick... I've never felt so in need of a good bath!~
++  SAY @0
+   IF ~!IfValidForPartyDialogue("Jan")
+ !IfValidForPartyDialogue("Yoshimo")
+ !IfValidForPartyDialogue("Korgan")

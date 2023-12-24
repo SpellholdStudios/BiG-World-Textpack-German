@@ -1,0 +1,11 @@
+--- NeJ2\baf\Rune13.baf	Mon Jan 19 16:45:02 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\Rune13.baf	Wed Apr 10 10:31:15 2019
+@@ -12,7 +12,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("VP_Rune13","MYAREA",1)
+ 		RealSetGlobalTimer("VP_Rune13_Close","MYAREA",180)
+-		DisplayString(Myself,~When you step on this rune, it begins to glow.~)
++		DisplayString(Myself,@0)
+ 		OpenDoor("DOOR23")
+ END
+ 

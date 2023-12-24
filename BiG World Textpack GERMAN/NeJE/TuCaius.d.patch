@@ -1,0 +1,133 @@
+--- NeJE\dlg\TuCaius.d	Fri Mar 17 17:39:26 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuCaius.d	Tue Apr 09 19:37:27 2019
+@@ -1,87 +1,73 @@
+ BEGIN ~TuCaius~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~You there, what business do you have here, and more importantly what is your name?~
++  SAY @0
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~I am new here and still finding my way around. I have obviously taken a wrong turning.~ GOTO 2
++Dead("Hrothgar")~ THEN REPLY @1 GOTO 2
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~Forgive my intrusion. I have been here but a short while and I am having difficulties finding my way about. I will leave now.~ GOTO 2
++Dead("Hrothgar")~ THEN REPLY @2 GOTO 2
+   IF ~OR(2)
+ !InParty("Hrothgar")
+-Dead("Hrothgar")~ THEN REPLY ~I am new and did not mean to disturb you. My mistake.~ GOTO 2
++Dead("Hrothgar")~ THEN REPLY @3 GOTO 2
+   IF ~InParty("Hrothgar")
+ !Dead("Hrothgar")~ THEN EXTERN ~HROTHJ~ 74
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Do I need to repeat my questions?~
+-  IF ~~ THEN REPLY ~I am new here and still finding my way around. I have obviously taken a wrong turning.~ GOTO 2
+-  IF ~~ THEN REPLY ~Forgive my intrusion. I have been here but a short while and I am having difficulties finding my way about. I will leave now.~ GOTO 2
+-  IF ~~ THEN REPLY ~I am new and did not mean to disturb you. My mistake.~ GOTO 2
++  SAY @4
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @2 GOTO 2
++  IF ~~ THEN REPLY @3 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Never mind the excuses, I asked you for your name! You do have a name do you not?~
+-  IF ~~ THEN REPLY ~I am <CHARNAME>, and as I said, I have taken a wrong turn.~ GOTO 3
+-  IF ~~ THEN REPLY ~Yes, I do have a name, it is <CHARNAME>.~ GOTO 3
+-  IF ~~ THEN REPLY ~My name is <CHARNAME>, and as I said, I will be leaving now.~ GOTO 3
+-  IF ~~ THEN REPLY ~I am <CHARNAME>, I apologise for disturbing you.~ GOTO 3
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 3
++  IF ~~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @8 GOTO 3
++  IF ~~ THEN REPLY @9 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~<CHARNAME>, no that is not one of the names that I have been told to expect. A new arrival you say, then it is no wonder that I did not recognise you. Mind you having to put faces to so many renown names, it is a wonder that I remember anyone at the moment. I am Caius, welcome.~			
+-  IF ~~ THEN REPLY ~Is it your place to greet all new comers to Halruaa, Caius?~ JOURNAL ~Halruaa's Internal Affairs.
+-
+-From what I have learnt from Matej and Caius, it would seem that the mages here are indeed plotting, but what I can not yet be sure... the disappearance of most of the academy’s senior mages, the arrival of high profile visitors being directed to secret meetings and then Caius’s hurried attempts to cover his words when he realised that he had said more than he should have. Could Tilorn be right in his belief that Ulcaster’s downfall was instigated by the mages here and if so, can I find the means to prevent an event that has in effect, already occurred? More importantly should I even be trying?~ GOTO 4
+-  IF ~~ THEN REPLY ~That sounds as though Halruaa is attracting a lot of distinguished visitors, Caius. I am guessing more so than normal?~ JOURNAL ~Halruaa's Internal Affairs.
+-
+-From what I have learnt from Matej and Caius, it would seem that the mages here are indeed plotting, but what I can not yet be sure... the disappearance of most of the academy’s senior mages, the arrival of high profile visitors being directed to secret meetings and then Caius’s hurried attempts to cover his words when he realised that he had said more than he should have. Could Tilorn be right in his belief that Ulcaster’s downfall was instigated by the mages here and if so, can I find the means to prevent an event that has in effect, already occurred? More importantly should I even be trying?~ GOTO 5
+-  IF ~~ THEN REPLY ~Surely an Academy such as Halruaa is used to high profile visitors?~ JOURNAL ~Halruaa's Internal Affairs.
+-
+-From what I have learnt from Matej and Caius, it would seem that the mages here are indeed plotting, but what I can not yet be sure... the disappearance of most of the academy’s senior mages, the arrival of high profile visitors being directed to secret meetings and then Caius’s hurried attempts to cover his words when he realised that he had said more than he should have. Could Tilorn be right in his belief that Ulcaster’s downfall was instigated by the mages here and if so, can I find the means to prevent an event that has in effect, already occurred? More importantly should I even be trying?~ GOTO 6
++  SAY @10			
++  IF ~~ THEN REPLY @11 JOURNAL @12 GOTO 4
++  IF ~~ THEN REPLY @13 JOURNAL @12 GOTO 5
++  IF ~~ THEN REPLY @14 JOURNAL @12 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~No it is not. These guests that are assembling are too important to be met by just anyone!~ 
+-  IF ~~ THEN REPLY ~A meeting of mages, eh? Now that smells of a conspiracy... I am jesting of course, Caius!~ GOTO 7	
+-  IF ~~ THEN REPLY ~Mages are always trying to keep their activities secret. Is that not so, Caius?~ GOTO 7
+-  IF ~~ THEN REPLY ~Where better to hold a secret meeting of mages than in an academy of magic?~ GOTO 7
++  SAY @15 
++  IF ~~ THEN REPLY @16 GOTO 7	
++  IF ~~ THEN REPLY @17 GOTO 7
++  IF ~~ THEN REPLY @18 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~A few more than normal yes, that is why I have been assigned to help direct them to the proper place.~
+-  IF ~~ THEN REPLY ~A meeting of mages, eh? Now that smells of a conspiracy... I am jesting of course, Caius!~ GOTO 7	
+-  IF ~~ THEN REPLY ~Mages are always trying to keep their activities secret. Is that not so, Caius?~ GOTO 7
+-  IF ~~ THEN REPLY ~Where better to hold a secret meeting of mages than in an academy of magic?~ GOTO 7
++  SAY @19
++  IF ~~ THEN REPLY @16 GOTO 7	
++  IF ~~ THEN REPLY @17 GOTO 7
++  IF ~~ THEN REPLY @18 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Halruaa is indeed frequented by many high profile guests, though never quite so many at one time.~
+-  IF ~~ THEN REPLY ~A meeting of mages, eh? Now that smells of a conspiracy... I am jesting of course, Caius!~ GOTO 7	
+-  IF ~~ THEN REPLY ~Mages are always trying to keep their activities secret. Is that not so, Caius?~ GOTO 7
+-  IF ~~ THEN REPLY ~Where better to hold a secret meeting of mages than in an academy of magic?~ GOTO 7
++  SAY @20
++  IF ~~ THEN REPLY @16 GOTO 7	
++  IF ~~ THEN REPLY @17 GOTO 7
++  IF ~~ THEN REPLY @18 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~(*Eyes you with some suspicion*)... Such meetings are common of course, and I never hinted at any secrecy. That was your assumption.~
+-  IF ~~ THEN REPLY ~I was speaking generally when I said mages like to keep their dealings secret.~ UNSOLVED_JOURNAL ~The Second Key Quest.
+-
+-Caius... a mage with the sound of authority in his voice, let slip that he had been given the job of ushering some very high profile guests to a meeting that was about to take place... more guests than  normal for even Halruaa. He then became suspicious of my questions and tried to cover what he had said by saying such meetings were commonplace... that this was in fact one of many that had taken place over the last few weeks. He then suggested I seek out someone by the name of RayVon who could be found on one of the upper floors.~ GOTO 8
+-  IF ~~ THEN REPLY ~You mentioned this assembly first, and it sounded pretty much like a secret meeting to me.~ UNSOLVED_JOURNAL ~The Second Key Quest.
+-
+-Caius... a mage with the sound of authority in his voice, let slip that he had been given the job of ushering some very high profile guests to a meeting that was about to take place... more guests than  normal for even Halruaa. He then became suspicious of my questions and tried to cover what he had said by saying such meetings were commonplace... that this was in fact one of many that had taken place over the last few weeks. He then suggested I seek out someone by the name of RayVon who could be found on one of the upper floors.~ GOTO 8
+-  IF ~~ THEN REPLY ~I did not assume anything, it was you that spoke of it first.~ UNSOLVED_JOURNAL ~The Second Key Quest.
+-
+-Caius... a mage with the sound of authority in his voice, let slip that he had been given the job of ushering some very high profile guests to a meeting that was about to take place... more guests than  normal for even Halruaa. He then became suspicious of my questions and tried to cover what he had said by saying such meetings were commonplace... that this was in fact one of many that had taken place over the last few weeks. He then suggested I seek out someone by the name of RayVon who could be found on one of the upper floors.~ GOTO 8
+-  IF ~~ THEN REPLY ~Hey, I am new here, remember. I am interested in learning what takes place at the Academy.~ UNSOLVED_JOURNAL ~The Second Key Quest.
+-
+-Caius... a mage with the sound of authority in his voice, let slip that he had been given the job of ushering some very high profile guests to a meeting that was about to take place... more guests than  normal for even Halruaa. He then became suspicious of my questions and tried to cover what he had said by saying such meetings were commonplace... that this was in fact one of many that had taken place over the last few weeks. He then suggested I seek out someone by the name of RayVon who could be found on one of the upper floors.~ GOTO 8
++  SAY @21
++  IF ~~ THEN REPLY @22 UNSOLVED_JOURNAL @23 GOTO 8
++  IF ~~ THEN REPLY @24 UNSOLVED_JOURNAL @23 GOTO 8
++  IF ~~ THEN REPLY @25 UNSOLVED_JOURNAL @23 GOTO 8
++  IF ~~ THEN REPLY @26 UNSOLVED_JOURNAL @23 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Yes, well, there is nothing special about this meeting, in fact it is one of many that has taken place over the last few weeks. Now, as you are new to the Academy, I suggest you make yourself known to Ray Von, he can usually be found on one of the upper floors of this building. For now, you are dismissed.~
++  SAY @27
+   IF ~OR(2)
+ !InParty("Hrothgar")
+ Dead("Hrothgar")~ THEN DO ~SetGlobal("VP_Know_Caius","GLOBAL",1)
+@@ -92,6 +78,6 @@
+ END
+ 
+ IF ~Global("VP_Know_Caius","GLOBAL",2)~ THEN BEGIN 9
+-  SAY ~Should we not send a message to Archelan?~
++  SAY @28
+   IF ~~ THEN EXTERN ~TUMAGE5~ 0
+ END

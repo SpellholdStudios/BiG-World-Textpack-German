@@ -1,0 +1,10 @@
+--- NeJE\dlg\TuAyana.d	Mon Jan 19 15:56:04 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuAyana.d	Tue Apr 09 19:37:26 2019
+@@ -1,6 +1,6 @@
+  BEGIN ~TUAYANA~ 1
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~What more needs to be done, Ray Von? I am getting tired of all this secrecy, it has an unsettling effect on the school. I just want it over with and then we can get back to some sort of normality!~
++  SAY @0
+   IF ~~ THEN EXTERN ~RAYVON~ 0
+ END

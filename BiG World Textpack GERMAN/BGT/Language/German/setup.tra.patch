@@ -1,0 +1,11 @@
+--- BGT\Language\German\setup.tra	Sat Dec 05 08:15:42 2009
++++ C:\BWP Patchstudio\patched files\BGT\Language\German\setup.tra	Tue Dec 15 18:41:57 2009
+@@ -522,7 +522,7 @@
+ @900050 = ~Spiele~
+ @900051 = ~Schatten von Amn<TM>~
+ @900052 = ~ Baldur's Gate<TM> und die Legenden der Schwertküste<TM> oder spiele ~
+-@900053 = ~ mit den neuen Erweiterungen:~
++@900053 = ~ mit:~
+ //End Shadows of Amn description button text
+ 
+ ////////////////////////////////////////////////////////////////////

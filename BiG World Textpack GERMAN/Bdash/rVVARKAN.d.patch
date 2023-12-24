@@ -1,0 +1,29 @@
+--- Bdash\ThirdP\dlg\rVVARKAN.d	Fri Aug 28 18:36:21 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rVVARKAN.d	Wed May 04 07:21:22 2016
+@@ -2,7 +2,7 @@
+ 
+ IF ~Global("VP_Guild_Attacked","GLOBAL",0)
+ Global("PlayerAttackedAran","GLOBAL",0)~ THEN BEGIN 0
+-  SAY ~At them, lads! We'll not let these worthless scags take away our night!~
++  SAY @0
+   IF ~Global("WorkingForBodhi","GLOBAL",1)~ THEN GOTO 1
+   IF ~Global("WorkingForBodhi","GLOBAL",0)
+ Global("WorkingForAran","GLOBAL",0)~ THEN GOTO 2
+@@ -10,7 +10,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~There! More of that damnable Bodhi's goons! The fight is falling out of our favor! Fall back, fall back to the guild and we will prepare for another day!~
++  SAY @1
+   IF ~~ THEN DO ~SetGlobal("AranFleeVamp","GLOBAL",1)
+ ActionOverride("VVRYOKOI",EscapeArea())
+ ActionOverride("VVCAT",EscapeArea())
+@@ -20,7 +20,7 @@
+ IF ~OR(2)
+ Global("VP_Guild_Attacked","GLOBAL",1)
+ Global("PlayerAttackedAran","GLOBAL",1)~ THEN BEGIN 4
+-  SAY ~You damnable fool! I would rid these creatures from our streets for the safety of us all! You've tipped the balance, so deal with the monsters yourselves! Retreat!~
++  SAY @2
+   IF ~~ THEN DO ~SetGlobal("AranFleeVamp","GLOBAL",1)
+ ActionOverride("VVRYOKOI",EscapeArea())
+ ActionOverride("VVCAT",EscapeArea())

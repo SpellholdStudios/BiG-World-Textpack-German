@@ -1,0 +1,57 @@
+--- NeJE\dlg\TuConj.d	Mon Jan 19 15:56:08 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuConj.d	Tue Apr 09 19:37:27 2019
+@@ -6,41 +6,41 @@
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Hello, <GABBER>. I thought I would begin this introduction with a brief description of conjuration and summoning magic. Now, I know most of the new students know these facts already but it will do you no harm to listen.~
++  SAY @0
+   IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Conjuration and summoning, although two different types of magic, they both involve bringing in matter from another place. Conjuration spells produce different forms of non-living matter, whereas Summoning spells entice or compel creatures to come to the caster. It also allows the mage to channel forces from other planes. Since both require the same casting techniques, conjuration and summoning are considered two parts of the same school and are taught as such.~
+-  IF ~~ THEN REPLY ~Hello Ghiala, nice to meet you. Your introduction has been very informative.~ EXTERN ~TUMORD~ 8
+-  IF ~~ THEN REPLY ~Hello Ghiala, you drew the short straw did you?~ EXTERN ~TUMORD~ 8
+-  IF ~~ THEN REPLY ~(*Not looking at Ghiala*) Are you sure she won't be offended?~ EXTERN ~TUMORD~ 9
++  SAY @1
++  IF ~~ THEN REPLY @2 EXTERN ~TUMORD~ 8
++  IF ~~ THEN REPLY @3 EXTERN ~TUMORD~ 8
++  IF ~~ THEN REPLY @4 EXTERN ~TUMORD~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Hello, <GABBER>. I thought I would begin this introduction with a brief description of conjuration and summoning magic. Now, I know most of the new students know these facts already but it will do you no harm to listen.~
++  SAY @0
+   IF ~~ THEN GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Conjuration and summoning, although two different types of magic, they both involve bringing in matter from another place. Conjuration spells produce different forms of non-living matter, whereas Summoning spells entice or compel creatures to come to the caster. It also allows the mage to channel forces from other planes. Since both require the same casting techniques, conjuration and summoning are considered two parts of the same school and are taught as such.~
+-  IF ~~ THEN REPLY ~Hello Ghiala, nice to meet you. Your introduction has been very informative.~ EXTERN ~TUMORD~ 13
+-  IF ~~ THEN REPLY ~Hello Ghiala, you drew the short straw did you?~ EXTERN ~TUMORD~ 13
+-  IF ~~ THEN REPLY ~(*Not looking at Ghiala*) Are you sure she won't be offended?~ EXTERN ~TUMORD~ 14
++  SAY @1
++  IF ~~ THEN REPLY @2 EXTERN ~TUMORD~ 13
++  IF ~~ THEN REPLY @3 EXTERN ~TUMORD~ 13
++  IF ~~ THEN REPLY @4 EXTERN ~TUMORD~ 14
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I think I will have to start charging a fee Mordecai. I seem to be at a loss for words quite frequently of late... (*smiling*)... then again, maybe I will get my pay back when it is my turn to set the tests.~
++  SAY @5
+   IF ~~ THEN EXTERN ~TUMORD~ 29
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Farewell, Mordecai.~
++  SAY @6
+   IF ~~ THEN DO ~SetGlobal("VP_Ghiala_Escapes","GLOBAL",1)
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Well Mordecai, as long as the students you keep testing to silence me keep failing, my students get the benefit of uninterrupted lectures. (*Smiles at Mordecai*) Which is more than can be said for yours when I get to set the tests.~
++  SAY @7
+     IF ~~ THEN EXTERN ~TUMORD~ 36
+ END 

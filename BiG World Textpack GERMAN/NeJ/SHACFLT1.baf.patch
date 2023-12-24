@@ -1,0 +1,19 @@
+--- NeJ\baf\SHACFLT1.baf	Sun Jan 07 00:20:48 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHACFLT1.baf	Wed Apr 10 10:29:39 2019
+@@ -3,13 +3,13 @@
+ 	CombatCounter(0)
+ THEN
+ 	RESPONSE #90
+-		DisplayStringHead(Myself,~"We follow their teachings."~)
++		DisplayStringHead(Myself,@0)
+ 		Continue()
+ 	RESPONSE #90
+-		DisplayStringHead(Myself,~"We give them praise."~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #90
+-		DisplayStringHead(Myself,~"We give thanks."~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ 	RESPONSE #40
+ 		Continue()

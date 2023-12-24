@@ -1,0 +1,433 @@
+@0   = ~Wenn Ihr Hilfe benötigt, dann komme ich gerne mit Euch. Wenn nicht, bleibe ich in der Nähe des Schiffes und behalte unseren zwielichtigen Kapitän im Auge...~ 
+@1   = ~Grossartig, dann bleibt bei dem Schiff, ich traue diesem Saemon nicht ganz. Es würde ihm ähnlich sehen, das Geld zu nehmen, ohne dafür zur Zauberfeste segeln zu müssen. Bleibt hier, wo Ihr seid und benachrichtigt mich, falls Havarian etwas Krummes macht.~
+@2   = ~Sicher, immer erfreut eine helfende Hand zu haben.~ 
+@3   = ~Sicher, fahrt ruhig ohne mich fort, wenn Ihr so abgeneigt seid. Ich werde hier bei dem Schiff bleiben und wenn Ihr mich braucht, könnt Ihr auf meine Hilfe zählen.~
+@4   = ~Gehen wir.~ 
+@5   = ~Besonders herzliche Glückwünsche an Euch, Kapitän. Es war ziemlich gerissen, wie Ihr diese anderen Schiffe abgelenkt habt, die wir in der Ferne sahen. Waren Eure Signale in der Nacht eine Art Warnung?~
+@6   = ~Noch einmal gratuliere ich Euch. Es hatte den Anschein, als ob Euer Signal den anderen mitteilte, dass sie Ärger bekommen hätten, wenn sie es gewagt hätten, uns anzugreifen.~
+@7   = ~<CHARNAME>, Ihr hattet mich doch einmal nach meinen Verbindungen zu den Schattendieben gefragt...~ [SIMEPC06] 
+@8   = ~Ja, ich bin schon ganz neugierig...~
+@9   = ~Sime, jetzt ist wirklich nicht der passende Moment, um über dieses Thema zu sprechen. Lasst uns später darüber reden.~ 
+@10  = ~Aran Linvail ist mein... Vater, <CHARNAME>.~ [SIMEPC07]
+@11  = ~Was?~
+@12  = ~Euer Vater? Das ist ja ein Ding!~ 
+@13  = ~Ich habe es schon vermutet, meine Liebe. Ihr seht ihm ähnlich. Aber fahrt bitte fort.~
+@14  = ~Ja... An meine Mutter kann ich mich leider nicht erinnern. Aran spricht nicht oft über sie. Ihre Beziehung war ziemlich schwierig. Als Aran noch jung war, erfuhr er bei einem rauschenden Fest, wie er einen mysteriösen Tempel der Selune ausrauben könnte. Ein hohes Mitglied der Schattendiebe versprach ihm Zugang zur Gilde, wenn er ihm die Halskette der Selune bringen würde. Sie war ein mächtiges und unbezahlbares Relikt... Aran nahm die Herausforderung sehr ernst und die Beraubung des Tempels wurde zu seiner Leidenschaft. Nach Monaten intensiver Planung, schaffte er es, in den Tempel einzudringen...~ [SIMEPC08] 
+@15  = ~Ein brilianter Karrierezug...~
+@16  = ~Toll, Aran war ein ziemlich toller Hecht!~
+@17  = ~Sime, ich möchte diese Geschichte nicht hören. Es macht mich krank ,daran zu denken, dass jemand einen Tempel der Selune beraubt.~
+@18  = ~Mag sein... Doch die Informationen, die er bekam, waren unvollständig. Anstatt in der Haupthalle des Tempels zu landen, brach er in eines der Privatgemächer der Kleriker ein. Er stolperte von dem Fenster genau vor die Füsse meiner Mutter. Aran sah so verwirrt und dämlich drein, dass sie lachen musste und Mitleid mit dem Möchtegern-Dieb hatte. Und er... war von ihrer Schönheit so verzaubert, dass er, anstatt wegzurennen, die Nacht bei Ihr blieb.~ 
+@19  = ~Ähm, Sime, warum erzählt Ihr mir das? Und ganz nebenbei... Wie kam Aran dann in die Gilde und wurde Schattenmeister?~
+@20  = ~Sime, bitte erspart mir diesen romantischen Unsinn.~ 
+@21  = ~Wenn das wahr ist, wie konnte dann Aran der Schattenmeister werden?~ 
+@22  = ~Ehrlich gesagt - Ich weiss es nicht... Er muss noch etwas anderes getan haben... oder er hat die Halskette gefälscht. Mein Vater ist ziemlich einfallsreich.~
+@23  = ~Es ist ziemlich traurig. Sie konnten sich nicht sehr oft sehen, weil er in der Stadt bei der Gilde bleiben musste und meine Mutter dort fehl am Platz gewesen wäre... Daher trafen sie sich heimlich, um so oft wie möglich zusammen zu sein. Vor einem solchen Treffen, kurz nachdem ich geboren wurde, töteten Banditen meine Mutter...~ 
+@24  = ~Das tut mir Leid, das hören zu müssen, Sime.~
+@25  = ~Ja, ich wünschte, ich hätte wenigstens eine kleine Erinnerung an sie... Aber leider habe ich gar keine... Trotzdem war Aran ein wundervoller Vater. Er tat alles für mich, als ich ein Kind war. Doch seinen Lebensstil habe ich nie akzeptiert. Ich bin zur Hälfte eine Elfin, daher wird das Ende seiner Tage bald kommen... Ich versuche, so viel Zeit wie möglich mit ihm zu verbringen... Deswegen war ich auch bei ihm, als Ihr in die Gilde kamt... Die Probleme meiner Eltern... müssen langweilig für Euch sein. Verzeiht, dass ich Euch dies alles erzählt habe.~
+@26  = ~Sime, ich weiss, wie schwierig es ist, alles immer richtig machen zu wollen. Ihr könnt mit mir sprechen, wann immer Ihr wollt.~
+@27  = ~Nein, das war sehr unterhaltsam!~
+@28  = ~Ich fürchte, ja, Sime. Es war furchtbar langweilig und ich musste kämpfen, um nicht einzuschlafen. Ich hoffe, Ihr habt dieses Thema jetzt abgeschlossen.~
+@29  = ~Ich hätte keinen besseren Trost erwartet, <CHARNAME>. Ich werde weiterhin für Euch einstehen, wenn Ihr dies auch für mich tut. Zusammen können wir... Zusamm...~
+@30  = ~Glaubt Ihr das? Ich bin froh, dass ich für Euch unterhaltsam war...~
+@31  = ~Wenn Ihr wünscht.~
+@32  = ~Verstanden! Kein romantischer Unsinn in <CHARNAME>s Nähe!~
+@33  = ~Ich bin erfreut, das zu hören! Ich dachte auch, dass es eine der schamlosesten Vorstellungen meines Vaters war. Andererseits führte das zu meiner Geburt, so dass ich annehme, dass ich nicht viel zu klagen habe.~
+@34  = ~Die Nacht ist so wundervoll... Aber es sind Nächte wie diese, an denen ich meine Mutter am meisten vermisse...~
+@35  = ~Ihr habt mir nie erzählt, was aus eurer Mutter geworden ist. Wo ist sie?~
+@36  = ~Sime, könntet Ihr Eure Trauer wohl für Euch behalten? Ich versuche gerade, mich auszuruhen.~
+@37  = ~Es ist ziemlich traurig. Meine Eltern konnten sich nicht sehr oft sehen, weil er in der Stadt bei der Gilde bleiben musste. Und meine Mutter dort fehl am Platze gewesen wäre... Daher trafen sie sich heimlich. Kurz danach wurde ich geboren. Banditen töteten meine Mutter, als sie gerade zu solch einem Treffpunkt unterwegs war...~
+@38  = ~Ich weine ja schon fast. Könntet Ihr mir den Rest ein anders Mal erzählen?~
+@39  = ~Ich habe schon verstanden. Verzeiht, ich habe Euch für jemanden gehalten, der ein Herz hat.~
+@40  = ~Ich wünschte, ich hätte wenigstens eine kleine Erinnerung an sie. Aber leider ist das nicht so. Trotzdem war Aran ein wundervoller Vater. Er tat alles für mich, als ich ein Kind war. Aber wie meine Mutter konnte ich seine Lebensweise nicht akzeptieren. Irgendwann einmal werden seine Tage gezählt sein. Ich versuche, so viel Zeit wie möglich mit ihm zu verbringen. Deswegen war ich auch bei ihm, als Ihr in die Gilde kamt. Die Probleme meiner Eltern... müssen Euch ziemlich langweilen.~
+@41  = ~Danke, <CHARNAME>... und Ihr habt immer meine Aufmerksamkeit.~
+@42  = ~Oh! Ihr mögt die Geschichten und Lieder der unglücklichen Liebe? Ich habe vielleicht eine oder zwei für Euch.~
+@43  = ~Ich tat es. Vielen Dank dafür, den Schmerz zu nehmen und zuzuhören.~
+@44  = ~Was? Ich kann Euch kaum erkennen. Doch jetzt erkenne ich, dass Bodhi jeden Unglücklichen, der ihr in die Finger kommt, in ihre Dienste zieht. Böse Meuchelmöder wart ihr zu Lebzeiten und böse Biester seid Ihr nun als Untote. Ich weiss nicht, ob ich Euch verspotten oder bemitleiden soll.~ [SIMESO01]
+@45  = ~Ich habe die letzten Zeilen nicht so wie Ihr vergessen. Sie lauten: 
+
+Und später wird ein Solarier, die Tore halb offen,
+zum Leben freudig erwecken die Erze,
+Die toten Flammen und die getrübten Spiegel. 
+
+Keine Erlösung soll Euch zuteil werden und Euer Geist wird nie Ruhe finden, nachdem wir Euch zerstört haben. Ihr sagt, Ihr seid mächtig? Das werden wir ja sehen! Zum Ruhme des Lebens und des Lichts werde ich Euch niederstrecken!~ [SIMESO02]
+@46  = ~Es sieht so aus, als würde ich Euch nur Unglück bringen, <CHARNAME>. Dies ist nicht das erste Mal, dass ich von denen angegriffen wurde, die meinem Vater schaden wollten. Da der Gildenkrieg immer grausamer wird, könnte es dann nicht von Vorteil sein, dass Ihr besser nichts mit Linvails Tochter zu tun hättet?~
+@47  = ~Das war nicht das erste Mal? Sime, das hättet Ihr mir vorher sagen sollen! Ich habe schon mehr als genug Feinde! Ich glaube, Ihr habt Recht. Trennen wir uns.~
+@48  = ~Unsinn, Sime! Je mehr, desto besser! Lasst sie doch alle kommen, dann bekommen sie ihre Strafe von mir.~
+@49  = ~Ich habe eher Lust, Euch zu beschützen... Wenn es Euch nicht stört, dass...~
+@50  = ~Das liegt ganz allein an Euch. Wenn Ihr wollt, dann bleibt. Wenn nicht, dann geht Eure eigenen Wege.~
+@51  = ~Bleibt bei uns, Sime. Ihr seid eine fähige Mitstreiterin und ich fürchte mich nicht vor einer zusätzlichen Herausforderung. Zudem bin ich bereits Bodhi's Erzfeind.~
+@52  = ~So sei es.~
+@53  = ~Ich bin mir nicht sicher, ob mir Eure Einstellung gefällt, aber wenn Ihr es wünscht, dass ich an Eurer Seite bleibe, dann werde ich es tun.~
+@54  = ~Das stört mich überhaupt nicht... Ich fühle mich geschmeichelt.~
+@55  = ~Ich werde dann gehen. Ich möchte nicht für Euren Tod, oder den Tod Eurer Gefährten, verantwortlich gemacht werden. Solltet Ihr mich brauchen, dann findet Ihr mich vielleicht bei meinem Vater.~
+@56  = ~Dann werden wir unsere Feinde gemeinsam bekämpfen!~
+@57  = ~Ich traue diesem Piraten nicht, <CHARNAME>. Sein Benehmen ist das eines Narren, aber sein Verhalten auf dieser verdammten Insel und während der Seereise lässt auf verräterische Gedanken schließen.~
+@58  = ~Er hat uns wie versprochen abgeliefert. Es gibt wichtigere Dinge, um die man sich Sorgen machen sollte.~
+@59  = ~Tötet ihn, wenn Ihr wollt. Mir ist das ziemlich egal.~
+@60  = ~Mir war er liebenswürdig genug. Kommt, Ihr werdet Euch besser fühlen, wenn wir das Schiff verlassen haben.~
+@61  = ~Einverstanden. Seid vorsichtig, dieser Ort ist auch ohne meine Verdachtsmomente gegen Saemon gefährlich genug.~
+@62  = ~Wir brauchen sein Schiff für unsere Rückkehr. Nein, seid einfach wachsam. Er ist wahrscheinlich das kleinste aller Probleme hier.~
+@63  = ~Ich wusste, dass er ein Verräter ist. Unsere Drohungen waren scharf genug, um uns eine sichere Seereise zu ermöglichen. Aber es muss noch jemanden geben, den er noch mehr fürchtet.~
+@64  = ~Das war sicher Bodhis Werk. Ich glaube nicht, dass diese Kreaturen Saemon aus freien Stücken folgen würden. Seine Schwäche würde sie abstossen.~
+@65  = ~Leider ist er vor einem Kampf geflohen. Das werde ich ihm mit Sicherheit heimzahlen, wenn ich ihn wieder sehe.~
+@66  = ~Wir sollten ihn bis zu seinem Versteck verfolgen! Für das alles hat er den Tod verdient!~
+@67  = ~Vergesst ihn. Ich fürchte mich weder vor ihm, noch vor anderen Dingen, die da kommen mögen.~
+@68  = ~Aber im Moment gibt es Wichtigeres, um das man sich Sorgen machen sollte. Ich muss dafür sorgen, dass Ihr irgendwie Einlass in das Heim bekommt.~
+@69  = ~Geht in die Taverne. Sprecht mit einem Mann namens Sanik. Wenn es einen Weg in das Heim gibt, dann weiss er ihn bestimmt.~
+@70  = ~Beeilt Euch, <CHARNAME>. Unsere Feinde wissen, dass wir hier sind.~
+@71  = ~Zugang zum Heim
+
+Nachdem die Vampire besiegt und Saemon geflohen war, sagte mir Sime, dass Bodhi möglicherweise hinter dem Verrat von Saemon steckt. Ich muss mich beeilen, um in das Heim zu kommen. Sime schickte mich zur ansässigen Taverne, um mit einem Mann namens Sanik zu sprechen. Währenddessen wollte sie sich umsehen und uns dann am Pass zur Zauberfeste erwarten.~
+@72  = ~Irenicus hat den Baum des Lebens mutwillig beschädigt. Deswegen wurde er ein Feind von jedem, der elfisches Blut in sich trägt. Ich werde ihn mit Euch bekämpfen.~
+@73  = ~Nennt mir einen guten Grund, warum ein Waldläufer wie ich eine Schlacht mit einem bösen Magier verpassen sollte, der die ganze Welt in Gefahr gebracht hat? Ihr schweigt? Gut. Ich bin zum Kampf bereit.~
+@74  = ~Ihr habt Recht! Wir haben keine Zeit für Plaudereien. Gebt mir ein Zeichen und ich werde angreifen.~
+@75  = ~Was? Vater!~ [SIME15_2]
+@76  = ~<CHARNAME>, auf der anderen Seite wäre es vielleicht besser, wenn Ihr mit ihm alleine redet. Mein Vater ist ein wenig altmodisch und... Nun, ich fürchte, wenn ich zuhören würde, dann würde ich wieder mit ihm streiten. Ich werde bei den anderen der Gruppe warten.~
+@77  = ~<CHARNAME>, Ihr habt vielleicht Recht. Vielleicht ist es wirklich besser, wenn Ihr mit ihm allein redet. Mein Vater ist ein wenig altmodisch und... Nun, ich fürchte, wenn ich zuhören würde, dann würde ich wieder mit ihm streiten. Ich werde bei den anderen der Gruppe warten.~
+@78  = ~Vater! Ihr solltet nicht so laut werden, wenn Ihr wollt, dass Eure Worte nicht von anderen gehört werden! Und wagt es nicht, ihm zu drohen! Vater!~
+@79  = ~Wiedersehen, Vater.~
+@80  = ~<CHARNAME>, ich frage mich, was Ihr ihm gesagt habt, das ihn beruhigt hat.~
+@81  = ~Ich sagte ihm, dass ich Euch heiraten werde. Aran gab mir den Ring Eurer Mutter. Nehmt Ihr ihn von mir an?~
+@82  = ~Nur was er hören wollte, Sime. Er hat sich nur Sorgen gemacht, dass ich Euch verletzen könnte. Aran gab mir den Ring Eurer Mutter. Nehmt Ihr ihn von mir an?~
+@83  = ~Irgendwelchen Unsinn. Aran gab mir den Ring Eurer Mutter. Nehmt Ihr ihn von mir an?~
+@84  = ~Ihr habt was? Seid Ihr verrückt? Was sollen wir tun, wenn mein vater es ernst meint und bevor wir es wissen, den grössten Tempel in Athkatla für die Hochzeit bucht?~
+@85  = ~(*Ihr lächelt entwaffnend*)... Wir werden... durchbrennen?~
+@86  = ~Hingehen und heiraten, was sonst?~
+@87  = ~Das wird er nicht. Und wenn er es doch tun sollte, dann werden wir eine Möglichkeit finden, das Ganze zu umgehen. Es sei denn, Ihr wollt mich tatsächlich heiraten.~
+@88  = ~Oh, Sime! Ihr und Euer Vater seid beide... zu emotional.~
+@89  = ~Ihr und Euer seltsamer Sinn für Humor! In Ordnung, ich schätze, wir werden uns darüber Sorgen machen, wenn die Zeit gekommen ist. Und Ihr habt den Ring angenommen! Mein Vater wollte dies schon lange tun. Es gefällt mir zwar nicht, aber ich schätze, ich werde ihn annehmen, um Euch nicht in Schwierigkeiten zu bringen.~
+@90  = ~Bei Mielikki! Mein Vater wollte dies schon lange tun. Es gefällt mir zwar nicht, aber ich schätze, ich werde ihn annehmen, um Euch nicht in Schwierigkeiten zu bringen.~
+@91  = ~Ich habe Euch mit meinem Vater verglichen, <CHARNAME>. Und ich bin zu dem Schluss gekommen, das ihr Euch sehr ähnlich seid. Ich bin sicher, dass Ihr Euch in eurer Jugend sehr ähnlich wart.~
+@92  = ~Wohin wird uns dieses unheilvolle Gespräch wohl führen?~
+@93  = ~Ist es, weil ich die Leitung der Gilde übernahm?~
+@94  = ~Und was? Erleben nicht alle Mädchen schlimme Enttäuschungen mit denen, die sie an ihre Väter erinnern?~
+@95  = ~Was ich eigentlich sagen wollte, ist folgendes. Ich glaube, dass es besser wäre, unsere Beziehung nicht fortzuführen.~
+@96  = ~Ach so? Warum bei den Neun Höllen glaubt Ihr das?~
+@97  = ~Ich denke, ich habe eine bessere Erklärung wie diese verdient. Fühlt Ihr Euch dabei, als ob Ihr einen Akt von Inzest begehen würdet? Oder habt Ihr andere komplexe, psychologische Gründe, es abzulehnen, mit mir zu schlafen?~
+@98  = ~Frauen. Es geht nicht mit ihnen und es geht nicht ohne sie!~
+@99  = ~Sime, tut es nicht! Wenn Ihr wollt, dann werde ich es ablehnen, Gildenmeister zu werden. Ich würde alles tun, um Euch zu behalten.~
+@100 = ~Macht was Ihr wollt. Wir sind Geschichte.~
+@101 = ~Ich liebe meinen Vater trotz meiner guten Einstellungen und mein ganzes Leben wollte ich ihn in etwas ändern, das er nicht ist. Ich wünsche mir nicht, dass sich das mit Euch wiederholt. Ihr werdet Euren Weg gehen, <CHARNAME>, und ich werde den Meinen gehen. Es gibt nichts mehr zu besprechen.~
+@102 = ~Nein, ich will nicht, dass Ihr dies tut. <CHARNAME>, Ich liebe meinen Vater trotz meiner guten Einstellungen und mein ganzes Leben wollte ich ihn in etwas ändern, das er nicht ist. Ich wünsche mir nicht, dass sich das mit Euch wiederholt. Ihr solltet Eurem Weg folgen, <CHARNAME>. Und ich werde meinen folgen. Es gibt nichts mehr zu besprechen.~
+@103 = ~Dann gibt es nichts mehr zu diskutieren.~
+@104 = ~Das bestätigt nur meine Sorge. <CHARNAME>, ich glaube, dass es das beste wäre, wenn wir unsere Beziehung nicht fortsetzen.~
+@105 = ~Ich schätze, ja. Ich habe mich vielleicht geirrt, aber jetzt erkenne ich, dass ich Euch anziehend fand, weil ich Euch mit meinem Vater verglichen habe. Aber genau deswegen glaube ich, dass es das Vernünftigste für uns beide wäre, die Beziehung nicht fortzuführen.~
+@106 = ~<CHARNAME>, es scheint es mir, dass Ihr an die langen Märsche und Beruhigungen zwischen wilden Kämpfen gewöhnt seid. Was tatet Ihr, um den Zeitablauf zu beschleunigen? Ich erinnere mich, dass wir zu singen pflegten, als die Gefahr nahe oder fern war, als ich in Darriels Gesellschaft war.~
+@107 = ~Singen? Nun, es gab ein gutes Lied, das ich damals in der guten alten Zeit als Wache von Kerzenburg zu singen pflegte. Wollt Ihr es hören?~
+@108 = ~(*Ihr schaut einen Augenblick lang weg*)... Sime, wir pflegten dieses Lied vorher zu singen, während unsere Gesellschaft marschierte. Es half, die Zeit verstreichen zu lassen und die Gedanken auf angenehmere Sachen zu lenken. Erlaubt Ihr mir, es Euch vorzusingen?~
+@109 = ~Ich war schon immer ein Einzelgänger, mein Freund, und hatte noch keine Abenteuer in einer Gesellschaft erlebt. Aber wenn es derb wurde, gab es ein Lied, das ich gerne sang. Würdet Ihr es gerne hören?~
+@110 = ~Wenn Ihr es häufig zu singen pflegtet, dann ist es vielleicht an der Zeit, die Tradition zu erneuern. Beginnt mit einem Lied, Sime.~
+@111 = ~Sime, Ihr seid immer noch eine Waldläuferin. Ihr solltet eigentlich begriffen haben, wie wichtig es ist, sich leise zu verhalten. Ich kenne eine Sache, die sehr sehr leise getan werden kann und Eure Gedanken von der Erschöpfung der Reise ablenken kann.... (*Ihr küsst Sime*)~
+@112 = ~Ja, nichts würde mich mehr erfreuen, <CHARNAME>. Vielleicht hilft es Euch auch, etwas mehr zu entspannen... (*Sanftes Lächeln*) ...indem wir unsere Herzen erleichtern und unsere Gedanken beruhigen.~
+@113 = ~Über die Nebelberge weit,
+Zu Höhlen tief aus alter Zeit,
+Da ziehn wir hin, da lockt Gewinn
+An Gold und Silber und Geschmeid.~
+@114 = ~Der alte Danilo Twill, ja, Freunde, der schwamm in Geld –
+Der hatte mehr Silber und Gold als irgendwer sonst auf der Welt.
+War ein glückloser Spieler, starb arm, und doch - 
+Dort, wo er reich wurd’, warten größ’re Schätze noch.~
+@115 = ~Die Straße gleitet fort und fort,
+Weg von der Tür, wo sie begann,
+Weit überland, von Ort zu Ort,
+Wer anders folge, der es kann.~
+@116 = ~Es ist ziemlich schön, aber es scheint mir, als ob dieses Lied Traurigkeit in Euch geweckt hätte. Doch das war auf keinen Fall meine Absicht.~
+@117 = ~Ich habe es immer mit meinen Freunden gesungen, doch jetzt drehen sich meine Gedanken um die Gefallenen. Vergebt mir diesen Moment der Schwäche, Sime.~
+@118 = ~Eine süsse Melancholie ergriff mein Herz, als ich mich an die friedlichen Zeiten und die Vergangenheit erinnerte. Aber das ist jetzt vorbei. Hat Euch das Lied gefallen, meine Dame?~
+@119 = ~(*Simes Hand ergreifend*)... Ich entschuldige mich dafür, das ich Euch Grund zu Zweifeln gab. Es ist nur, dass... dieses gute Lied eine sehr emotionale Sache ist. Selbst für einen stoischen Krieger. Es ist eine der wenigen Möglichkeiten, in denen Eure Seele wirklich frei von den Pflichten sein kann, die Euch auferlegt wurden. Auch wenn dies nur für einen kurzen Moment ist, kann es eine willkommene Abwechslung sein.~
+@120 = ~Nein, nein, ich war gar nicht traurig. Ich habe mich nur konzentriert, um den Ton richtig zu treffen!~
+@121 = ~Ich wünsche Euch aufrichtig zu danken, solch einen bedeutenden Teil von Euch selbst mit mir zu teilen... (*Sime gibt Euch einen tiefen Kuss*).~
+@122 = ~Ich liebe das Lied und ich liebe den Sänger.~
+@123 = ~(*Lacht*)... Ihr legt immer Euer ganzes Herz in das was Ihr tut, <CHARNAME>!~
+@124 = ~Dann hört Euch dieses an:
+ 
+Daheim verblaßt, die Welt rückt nah,
+Mit vielen Pfaden liegt sie da
+Und lockt durch Schatten, Trug und Nacht,
+Bis endlich Stern um Stern erwacht.~
+@125 = ~Ich kenne dieses Lied. Ich habe es oft mit meinen Freunden gesungen. Doch jetzt sind meine Gedanken bei der Erinnerung an die Gefallenen. Vergebt mir diesen Moment der Melancholie, Sime.~
+@126 = ~Oh, Sime! Das Lied erinnerte mich an die friedlichen Zeiten, als ich noch davon träumte, ein Abenteurer zu sein! Ich danke Euch!~
+@127 = ~Das ist ein wunderschönes Lied, Sime! Aber ich glaube, wir sollten uns jetzt für eine Weile ruhig verhalten. Ich kenne eine Sache, die sehr sehr leise getan werden kann und Eure Gedanken von der Erschöpfung der Reise ablenken kann.... (*Ihr küsst Sime*)~
+@128 = ~Nun, so wie es aussieht haben wir keinen Mangel an Abenteuern und wenig wertvolle Zeit für die Liebe. Ich möchte Euch daran erinnern, was Leidenschaft ist... (*Sime küsst Euch leidenschaftlich*)~
+@129 = ~Dann habt Ihr die leidenschaftliche Nacht, die wir miteinander geteilt haben, nicht vergessen? Ich bin erfeut, dass ich das in Eurem Kuss gespürt habe.~
+@130 = ~Ihr wollt mich trotzden bei Euch haben? Ich bin... überrascht.~
+@131 = ~Sime, wo sind wir?~
+@132 = ~Wir sind im Land der Träume, dem Kaimeldor. Ihr seid einer von uns, habt Ihr nie etwas davon gehört? Es ist ein uralter Elfenzauber, der es einer Person erlaubt, die Träume eines anderen mitzuerleben. Kaimeldor offenbart sich jedem einzelnen unterschiedlich. Ein Jäger wird sich in einem grossen Wald wiederfinden, ein alter Mann wird sich in einem gemütlichen Gasthaus bei einem kalten Bier wiederfinden...~
+@133 = ~Ich wurde von einem Menschen aufgezogen, Sime. Von solch einem Zauber habe ich noch nie etwas gehört. Träume ich denn? In diesem Falle überrascht es mich nicht, Euch auch hier zu finden.~
+@134 = ~Ich bin nicht sehr versiert in elfischen Riten, Sime. Von diesem Zauber habe ich noch nie etwas gehört, aber er gefällt mir. Warum überrascht es Euch, dass Ihr in Kaimeldor an meiner Seite seid?~
+@135 = ~Ich muss wirklich ziemlich betrunken gewesen sein, als ich von diesen Ort träumte. Überall Blumen und dämliche Schmetterlinge! Gebt mir Schlachten und Blut, keine dämlichen Gänseblümchen! Doch muss ich gestehen, dass ich manchmal von Euch träume. Wenn Kaimeldor das ist, was Ihr meintet, dann überrascht es mich nicht, dass Ihr hier seid. Wie alles andere dazu kam, ist mir ein Rätsel.~
+@136 = ~Das ist kein Traum <CHARNAME>, wir sind beide wach und wandeln durch Kaimeldor. Aber um mich zu Euch an diesen Ort zu holen, muss zwischen uns eine Art Verbindung bestehen... ein Bund...~
+@137 = ~Ein Bund, Sime? Meint Ihr den Elfenbund? Es ist nicht... unmöglich, oder? Mela en coiamin? {Liebe des Lebens?}~
+@138 = ~Ist das etwas Neues für Euch, Sime? Beginnt Ihr endlich zu verstehen, dass wir füreinander bestimmt sind? Amin mela lle. Usst ssin dosst. Noldoli mellethe ulter. Zander thaerine zolt. Ich liebe Euch.~
+@139 = ~Sime, das ist alles zu merkwürdig. Lasst uns einfach diese kleine Offenbarung geniessen, ohne nach dem Wie und Warum zu fragen.~
+@140 = ~Ich glaube nicht, dass es möglich ist... Vielleicht sind wir deswegen heute hier. Ihr nanntet mich die Liebe Eures Lebens, <CHARNAME>. Ich schätze... Ich glaube, Ihr seid auch für mich die EINE. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@141 = ~(*Lacht*)... Wenn dies die einzigen Worte dieser Sprache sind, die Ihr sagen könnt, dann habt Ihr die richtigen gelernt. Aber waurm benutzen wir diese alte Sprache? Wir gleichen uns und ich glaube, Ihr habt Recht - wir sind füreinander bestimmt. Ich kann die Stimme meines Herzens ganz klar hören. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@142 = ~Ich glaube, in dieser Offenbarung liegt eine Bedeutung, <CHARNAME>. Ich glaube, dass ich heute mit Euch hier bin, damit ich sehen kann, dass wir füreinander bestimmt sind. Ich kann die Stimme meines Herzens ganz klar hören. Amin mela lle, <CHARNAME>. Ich liebe Euch. ~
+@143 = ~Vielleicht habt Ihr ein sanfteres Herz, als Ihr vermutet hattet. Nur allein von mir zu träumen, reicht noch lange nicht aus, um mich zu diesem Ort in Eurem Land zu rufen.~
+@144 = ~Wir sind im Land der Träume, dem Kaimeldor. Es ist ein uralter Elfenzauber, der es jemandem erlaubt, die Träume eines anderen mitzuerleben. Kaimeldor offenbart sich jedem einzelnen unterschiedlich. Ein Jäger wird sich in einem grossen Wald wiederfinden, ein alter Mann wird sich in einem gemütlichen Gasthaus bei einem kalten Bier wiederfinden...~
+@145 = ~Ich habe noch nie von solch einem Zauber gehört. Träume ich denn? In diesem Falle sollte es Euch nicht überaschen, dass Ihr hier seid.~
+@146 = ~Ich bin nicht sehr erfahren in elfischen Riten, Sime. Von diesem Zauber habe ich noch nie etwas gehört, aber er gefällt mir. Warum überrascht es Euch, dass Ihr in Kaimeldor an meiner Seite seid?~
+@147 = ~Das ist kein Traum, <CHARNAME>, wir sind beide wach und wandeln durch Kaimeldor. Aber um mich zu Euch an diesen Ort zu holen, muss zwischen uns eine Art Verbindung bestehen... ein Bund... Es muss die Stärke Eures göttlichen Blutes sein... oder... etwas, das wir jetzt noch nicht wissen.~
+@148 = ~Ein Elfenbund? Göttliches Blut? Ich weiss nicht viel darüber, aber was ich weiss, ist, dass ich Euch liebe, Sime. Ist das nicht Grund genug für Euch, an meiner Seite zu sein?~
+@149 = ~Ist das etwas Neues für Euch, Sime? Ich bin kein gewöhnlicher Sterblicher, Elf oder nicht. Wir sind für einander bestimmt - versteht Ihr es nicht? Ich liebe Euch.~
+@150 = ~Sime, das ist alles zu merkwürdig. Lasst uns einfach diese kleine Offenbarung geniessen, ohne nach dem Wie und Warum zu fragen.~
+@151 = ~Ich glaube nicht, dass es unmöglich ist... Vielleicht sind wir deswegen heute hier. Ich schätze... Ich schätze, ich liebe Euch. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@152 = ~Ich glaube, es liegt eine Bedeutung in dieser Offenbarung, <CHARNAME>. Ich glaube, dass ich heute mit Euch hierher gekommen bin, um zu erkennen, dass wir füreinander bestimmt sind. Ich kann die Stimme meines Herzens ganz klar hören. Amin mela lle, <CHARNAME>. Amin mela lle.~
+@153 = ~Vielleicht habt Ihr ein sanfteres Herz, als Ihr vermutet hattet. Nur allein von mir zu träumen, reicht noch lange nicht aus, um mich an diesen Ort in Eurem Land zu rufen. Ihr hättet vielleicht meinen Schatten oder meine Stimme hören können... Aber für Sime Linvail, die an Eurer Seite in Fleisch und Blut durch Kaimeldor wandelt, bedeutet das, dass wir eine gewisse Verbindung zueinander haben... ein Bund... ein Elfenbund... Es muss die Stärke Eures göttlichen Blutes sein... oder... etwas Unbekanntes, das mich zu Euch rief.~
+@154 = ~Geht es Euch gut gut? Ich bin sehr besorgt um Euch, wie Ihr wisst. Ich möchte Euch nicht an diesem bösen Ort verlieren.~
+@155 = ~Sime, ich würde an Eurer Stelle umkehren. Ich denke, dass es wieder passiert!~
+@156 = ~Get zurück, Sime, wenn Ihr Euer Leben schätzt.~
+@157 = ~Lasst mich alleine! Ihr gefährde Euch, wenn Ihr einfach nur da steht!~
+@158 = ~Ihr hättet mich umgebracht, wenn ich Euch gelassen hätte. Ihr hättet mich verlassen, um an diesem Ort zu verrotten.~
+@159 = ~Ich fürchte, das wird nicht das letzte Mal sein, dass dies passiert. Ich kann es nicht kontrollieren.~
+@160 = ~Ich habe versucht, Euch zu warnen, aber ich konnte nicht sprechen. Es tut mir leid. Ich sollte gehen.~
+@161 = ~Es war nicht meine Schuld. Jammert, wenn Ihr wollt, aber ich bin derjenige, der hier wirklich in Schwierigkeiten ist.~ ~Es war nicht meine Schuld. Jammert, wenn Ihr wollt, aber ich bin diejenige, die hier wirklich in Schwierigkeiten ist.~
+@162 = ~Ich bin nicht sicher, ob Ihr versuchen solltet, es zu kontrollieren. Ihr müsst Euch davon distanzieren, nicht es umarmen. Wir sind es schuldig, trotz der Gefahr.~
+@163 = ~Nein, Ihr solltet während dessen nicht allein sein. Wir werden durchkommen, da bin ich sicher. Wir müssen einfach weitermachen, egal was kommt.~
+@164 = ~Ihr seid nicht der einzige, der davon betroffen ist! Es ist so schwer, Euch zu sehen...~
+@165 = ~<CHARNAME>, bitte, lasst uns einfach in Bewegung bleiben. Wir werden durchkommen, dessen bin ich mir sicher. Wirklich.~
+@166 = ~Was war das? Dieses Monster, dieses Biest! Wart das wirklich Ihr, mein süsser Liebling? Gibt es denn keinen guten Geist in dieser Welt, der Euch beschützt?~ [SIME21_1]
+@167 = ~Der Schatten ist verschwunden und ich bete, dass dies nie wieder geschehen wird. ~
+@168 = ~Vergesst es! Seht Euch nur an: Ihr seid blass und zittert wie ein Blatt im Wind. Ich bin kein unschuldiges Opfer, Ihr Idiot! Die Macht erwächst in mir. Ich weiss zwar noch nicht, wie ich sie kontrollieren kann, aber ich werde bald dazu in der Lage sein.~
+@169 = ~Sime, die Götter sind nicht sehr hilfreich, hofft nicht auf sie. Helft mir lieber, Irenicus niederzuwerfen und meine Seele aus seinem Körper zu reissen. Dann werde ich wieder ganz der Alte sein.~
+@170 = ~Mich beschützen? Mich vor wem oder was beschützen? Vor mir selbst? Ich bin eine Bhaalbrut und ich nahm die Form des Avatars meines Vaters an. Das ist doch nur natürlich, oder etwa nicht? (*Ihr lacht bitterlich.*)~
+@171 = ~<CHARNAME>... Es verletzt mich, Euer Missgeschick zu sehen. Aber am meisten schmerzt es mich, ansehen zu müssen, wie das Licht in Euren Augen sich in den unstillbaren Hunger eines Killers verwandelt. Niemand sollte solche Qualen mitmachen müssen, ganz besonders nicht Ihr. Ich erwarte schon voller Sehnsucht den Tag, an dem dieser Magier für seine Taten bezahlen wird.~
+@172 = ~Dieser Tag wird bald kommen, das schwöre ich. Und wenn er gekommen ist, dann werde ich froh sein, solch einen tapfere Gefährtin an meiner Seite zu haben.~
+@173 = ~Irenicus hat viele Verbrechen begangen. Er hat viele gefoltert und getötet. Ich werde ihn für all das bezahlen lassen, wenn wir ihm letztendlich gegenüber stehen.~
+@174 = ~Sime, ich sehe, dass Ihr etwas durcheinander seid. Aber bitte, beruhigt Euch.~
+@175 = ~Beim ersten und letzten Tag von Toril, bei den Qualen der Hölle und dem Triumph des Lichtes über die Dunkelheit, bei der Vielzahl der Welten, beim Atem in meiner Brust, bei meinem Glück und bei meiner Qual, bei meiner Liebe für Euch, schwöre ich, dass ich nicht von Eurer Seite weichen werde, bis wir gewonnen haben.~
+@176 = ~Ich bin ruhig, <CHARNAME>, sogar tödlich ruhig. Und so werde ich auch an jenem Tag sein, wenn wir Irenicus gegenüber treten.~
+@177 = ~Dann hat das Böse bereits Besitz von Euch ergriffen... Bekämpft es, wenn Ihr könnt, ich bitte Euch! Es schmerzt mich, ansehen zu müssen, wie das Licht in Euren Augen sich in den unstillbaren Hunger eines Killers verwandelt. Bekämpft es, <CHARNAME>.~
+@178 = ~Genau deswegen bin ich hier, <CHARNAME>. Beim ersten und letzten Tag von Toril, bei den Qualen der Hölle und dem Triumph des Lichtes über die Dunkelheit, bei der Vielzahl der Welten, beim Atem in meiner Brust, bei meinem Glück und bei meiner Qual, bei meiner Liebe für Euch, schwöre ich, dass ich nicht von Eurer Seite weichen werde, bis wir gewonnen haben.~
+@179 = ~Kommt her, lasst mich Euch für einen Moment halten. Ich weiss, dass es zwar nur eine Illusion ist, aber es gibt mir das Gefühl, Euch vor allem Bösen in der welt beschützen zu können.~
+@180 = ~Es freut mich, dass IHR Euch besser fühlt.~
+@181 = ~Jetzt, da Ihr es gerade erwähnt habt, habe ich das Gefühl, dass ich beschützt werden muss... Es ist so seltsam. Ihr seid nur eine Frau...~
+@182 = ~(*flüstert*) Seid Ihr verrückt? Was werden die anderen denken?~
+@183 = ~Es gibt keinen Grund, schnippisch zu mir zu sein. Wenn  es Euch unangenehm ist, mich zu lieben, dann hättet Ihr dies früher sagen sollen.~
+@184 = ~Eine Frau. Ja! Aber ich bin Eure Frau und ich werde es nicht zulassen, dass ein toter Gott oder ein verrückter Magier Euch mir wegnimmt. Lasst sie nur alle kommen, ich werde ihnen einen gewaltigen Kampf liefern... (*Lacht und streichelt über Euer Haar*)... Wir werden das zusammen durchstehen, <CHARNAME>. Macht Euch keine Sorgen.~
+@185 = ~Interessiert es Euch wirklich?~
+@186 = ~Nein, lasst sie sprechen!~
+@187 = ~Ja! (*Ihr befreit Euch aus ihren Armen*)~
+@188 = ~Imoen, was ist los?~
+@189 = ~Das ist schon besser. Beim ersten und letzten Tag von Toril, bei den Qualen der Hölle und dem Triumph des Lichtes über die Dunkelheit, bei der Vielzahl der Welten, beim Atem in meiner Brust, bei meinem Glück und bei meiner Qual, bei meiner Liebe für Euch, schwöre ich, dass ich nicht von Eurer Seite weichen werde, bis wir gewonnen haben.~
+@190 = ~Ich verstehe... Ich werde Euch nicht weiter mit meiner unerwünschten Aufmerksamkeit belästigen, das schwöre ich.~
+@191 = ~Imoen, ein gewisses Mass an Zurückhaltung wäre jetzt angebracht.~
+@192 = ~Imoen, lasst uns eine Vereinbarung treffen: Ich werde Eurer Geschichte heute Nacht lauschen und werden <CHARNAME> darin auslassen.~
+@193 = ~Imoen, ich glaube Euch. Aber lasst uns eine Abmachung treffen: Ich werde Eurer Geschichte heute Nacht lauschen und wir werden <CHARNAME> dabei auslassen. Er scheint aus irgend einem Grund grünlich zu werden. Ihr wisst, wie Männer sind... ~
+@194 = ~Nein, <CHARNAME>! Bitte tut das nicht. Ihr versteht nicht, worauf Ihr Euch da einlasst! Renal, er wird KEIN Schattendieb werden! <CHARNAME>, bitte sagt ihm, dass Ihr nicht akzeptieren werdet!~
+@195 = ~Ihr habt mich in der Tat befreit, mein guter <PRO_SIRMAAM>!~
+@196 = ~Ja, das habe ich. Bin ich jetzt Held genug für Euch?~
+@197 = ~Meine edle Dame. Eure Gunst erfüllt mich mit Kraft und Mut. Der Sieg gehört uns beiden.~
+@198 = ~Ich... Ich denke so. Oh, Sime, müsst Ihr immer solch lächerliche Prüfungen erfinden? Wisst Ihr denn nicht, dass ich Euch liebe?~
+@199 = ~Ich habe nie daran gezweifelt, dass Ihr ein Held seid. Aber jetzt kann ich jedem erzählen, dass der <PRO_MANWOMAN> den ich liebe, mich aus den Klauen eines bösen Drachen befreit hat. Das war es ziemlich heldenhaft!~
+@200 = ~Solche Ritterlichkeit! Ich bedauere nur, dass ich bei dem Kampf nicht anwesend war! Das nächste Mal...~
+@201 = ~Kein nächstes Mal, meine edle Dame. Der Handel war eine Rettung für eine Hochzeit. Ich kann Euch doch nicht zweimal heiraten, oder?~
+@202 = ~Nächstes Mal führen wir eine Menge Reiter an, um einen bösen Lord zu bekämpfen... oder ein Kampf in einem Turnier... es können nicht immer Drachen sein. Das wird schnell ziemlich langweilig, meine Dame.~
+@203 = ~Ja, Liebling. (Keldorn sagte, dass es normalerweise funktioniert...)~
+@204 = ~Oh... Ich verstehe. Nun, dann sollten wir etwas anderes ausprobieren. Wie wäre es mit einem Turnier?~
+@205 = ~Ihr habt nicht ganz Unrecht. Lasst es beim nächsten mal einen schlechten Lord sein. Aber unsere Zeit ist jetzt...~
+@206 = ~Hmm, klingt gut. Aber wie war das für eine Sache mit Keldorn, von der Ihr gemurmelt habt? Egal, wir müssen jetzt gehen.~
+@207 = ~Ich habe nie daran gezweifelt, dass Ihr mich liebt. Aber jetzt kann ich jedem erzählen, dass der <PRO_MANWOMAN>, den ich liebe, mich aus den Klauen eines bösen Drachen befreit hat. Das war eine Reise wert!~
+@208 = ~Haltet Euch von <PRO_HIMHER> fern, Vampir! Ihr und Euer mörderischer Bastard eines Bruders habt schon zu viele Leben auf dem Gewissen. Ich werde Euch nicht erlauben, <CHARNAME> etwas anzutun...~
+@209 = ~Irenicus hat den Baum des Lebens absichtlich beschädigt. Deshalb wurde er zum Feind von jedem, der elfisches Blut in sich hat. Wie viele Gründe soll ich Euch noch nennen? Ich bin zum Kampf bereit, <CHARNAME>, und dieser Kampf ist ebenso meiner, wie er Eurer ist.~
+@210 = ~Nein. Verschwenden wir kein Worte mehr. Ich bin bereit zum Kampf, <CHARNAME>. Und dieser Kampf ist ebenso meiner, wie er Eurer ist.~
+@211 = ~Ich nehme bereitwillig teil. Ihr habt Recht, wir haben keine Zeit für Plaudereien. Gebt mir ein Zeichen, wann ich angreifen soll.~
+@212 = ~Saemon sieht sehr nervös aus. Findet heraus, was ihn beschäftigt.~
+@213 = ~Ich habe oft zu mir gesagt wenn es ziemlich hart wurde - es könnte noch schlimmer sein, es könnten ja die Neun Höllen sein... Aber jetzt fürchte ich, SIND wir in den Neun Höllen. (*schaudert*)~
+@214 = ~(*Ihr bemerkt, dass Sime sich Euch mit einem Lächeln auf ihren Lippen nähert. Ihr beide seid Euch in letzter Zeit ziemlich nahe gekommen, über eine einfache Kameradschaft hinausgehend.*)~
+@215 = ~(*Sime steht nahe bei Euch und stützt ihren Körper zur Entspannung leicht   gegen Euren. Ihr legt einen Arm fest um ihre Schulter und küsst sanft die Seite ihres Kopfs.*)~
+@216 = ~(*Sime zieht Euren Körper an ihren heran und umarmt Euch fest. Sie schmiegt sich Euch völlig an, als ob Eure Körper in vollkommener Harmonie zusammengewachsen wären, wie die Stücke eines Puzzles... Sobald Ihr miteinander in Berührung kommt, beruhigt sich ihre Atmung zu einem gleichmäßigen, zufriedenen Rhythmus. Es wärmt Euer Herz, zu wissen, dass Ihr sie auf solche Weise besänftigen könnt.*)~
+@217 = ~(*Sime bedenkt Euch mit einem flüchtigen Kuss auf Eure Wange und lächelt dabei freundlich.*)~
+@218 = ~(*Ihr bemerkt, dass Sime Euch in den letzten paar Minuten aufmerksam beobachtet hat. Als Ihr Euch zu ihr dreht, um eine Erklärung zu fordern, lächelt sie einfach mysteriös und zwinkert Euch zu.*)~
+@219 = ~<CHARNAME>, ich wollte Euch nur danken, dass Ihr mir erlaubt, die Welt mit Euch zu sehen. Ihr seid mir ein guter Freund gewesen. (*Sime lächelnt und verschränkt ihre Hände mit Euren*)...~ ~<CHARNAME>, ich wollte Euch nur danken, dass Ihr mir erlaubt, die Welt mit Euch zu sehen. Ihr seid mir eine gute Freundin gewesen. (*Sime lächelnt und verschränkt ihre Hände mit Euren*)...~
+@220 = ~(*Sime kichert und beißt Euch spielerisch in die Nasenspitze*)...~
+@221 = ~(*Sime untersucht schnell die Riemen Eures Reisegepäcks. Sie bemerkt, dass ein Riemen auf Eurem Arm lose ist und zurrt ihn für Euch fest.*)~
+@222 = ~(*Als die Gruppe leise den Trampelpfad hinabgeht, entscheidet sich Sime dafür, die Stille zu unterbrechen und Euch in den Rücken zu stoßen.*)~
+@223 = ~(*Sime dreht ihren hellen Blick aufwärts in Eure Augen und gibt Euch, während sie sich an Euch lehnt, einen leidenschaftlichen Kuss auf die Lippen.*)~
+@224 = ~(*Sie küsst Euch fest auf die Wangen, bevor sie sich von Euch befreit. Ihr könnt nicht anders als Euch jetzt leerer zu fühlen, nachdem sie ncht mehr in Euren Armen ist.*)~
+@225 = ~(*Ihr hofft auf mehr, aber stattdessen wendet sie Euch den Rücken zu und ermöglicht Euch eine herrliche Ansicht ihrer anmutigen Gestalt.*)~
+@226 = ~(*Sie beginnt, leise eine zufällige Melodie zu summen, wendet sich ab und gibt vor, sich mit der Reinigung ihrer Waffen zu beschäftigen, während sie Euch weiterhin aus den Augenwinkeln beobachtet.*)~
+@227 = ~(*Sie starrt in Eure Augen mit einem Blick, in dem sich Wunder und Zuneigung vermischen, und streicht mit ihrer freien Hand Eure Wange und Kinnpartie entlang und jagt Euch einen leichten Schauder den Rücken hinab.*)~
+@228 = ~(*Bevor Ihr fragen könnt, was der Anlass war, hat sie sich bereits hinter Euch gestellt und ihre Arme um Euren Hals geschlungen, zufrieden atmend.*)~
+@229 = ~(*Sie lächelt und streichelt mit ihrer Hand zärtlich Euren Arm hinab und über Euren Handrücken.*) Ihr müsst daran denken, Eure Reiseausrüstung in Ordnung zu halten, obwohl ich nicht dagegen bin, dann und wann behilflich zu sein.~
+@230 = ~(*Ihr taumelt mit einem verzweifelten Aufschrei vorwärts, auf Grund der Tatsache, dass der harte Boden Euch ganz plötzlich trifft. Sowohl Ihr als auch Sime schlagt mit schallendem Klatschen auf dem Schmutz auf, aber zumindest Sime hat ein bequemes Kissen für ihren Aufprall.*)~
+@231 = ~(*Sime kichert in Euer Ohr und flüstert eine halbherzige Entschuldigung, bevor sie Eure Schläfe küsst. Der Schmerz des Sturzes verschwindet aus Eurem Gedächtnis, als Ihr unter ihr wegrollt und in ihre lächelnden, schönen Gesichtszüge starrt.*)~
+@232 = ~Verzeiht Ihr mir, <CHARNAME>? (*Sime trägt ihren höchst unschuldigen Blick und zieht mit einem Finger Eure Stirn und Eure Nase hinab und hält an Euren Lippen inne.*)~
+@233 = ~(*Sie neigt sich dann nach unten und küsst Euch sehr süß auf die Lippen, was Euer Herz wild schlagen und Euren Magen verkrampfen lässt*)... Ich wusste, dass Ihr das tun würdet!~
+@234 = ~(*Sie lässt Euch dann aufstehen und Euch Eure Ausrüstung und das letzte bisschen Eurer Würde sammeln, bevor sie Euch eng umarmt und ihren Platz in der Reihe wieder einnimmt.*)~
+@235 = ~(*Ihr stolpert mit einem überraschten Schrei vorwärts und alarmiert die anderen Gruppenmitglieder, die zuerst denken, dass Ihr von einem bösartigen Tier angegriffen wurdet. Als sie bemerken, dass es nur eine kichernde Sime ist, können sie nur ihre Augen rollen.*)~
+@236 = ~(*Ihr schafft es, das vereinte Gewicht von Sime zusammen mit ihrer sowie auch Eurer eigenen Ausrüstung abzustützen.*)~
+@237 = ~(*Sime schämt sich nicht und kichert wie verrückt, als Ihr sie weiter Euren Rücken hochzieht, aber Ihr entscheidet Euch dafür, den Spieß gegen sie umzudrehen, indem Ihr nach hinten greift und ihre Taille packt, und mit einem mächtigen Schwung steht sie Euch bald gegenüber und hängt von Euren Hüften herab.*)~
+@238 = ~(*Ihr drückt einen langen und tiefen Kuss auf ihre rosigen Lippen, sowohl aus reinem Verlangen als auch um das unaufhörliche Lachen zu ersticken, das sie ausstösst. Nach Ihrer widerwilligen Trennung gleitet sie von Euren Armen herab und umarmt Euch fest, bevor sie die Schrittgeschwindigkeit vom Rest der Gruppe wieder aufnimmt.*)~
+@239 = ~(*Euer Blick wandert hinüber zu Sime. Ihre süße Gesinnung täuscht über die Menge von grimmigen Schattendieben hinweg, mit denen Ihr sie herumlungern saht, und Ihr seid begierig, mehr über sie zu erfahren.*)~
+@240 = ~(*Ihr bewundert Simes aussergewöhnliche Schönheit und unvergleichliche Anmut. Ihr seid Euch darüber im Klaren, dass Ihr nie zuvor auf all Euren Reisen auf solch eine schöne und exotische Frau gestoßen seid.*)~
+@241 = ~(*Ihr greift nach Simes Hand, nachdem Ihr Eure beschwerlichen Handschuhe entfernt habt. Eure Hand brennt vor Verlangen nach ihrer Berührung, und ihre weiche Haut ist das Einzige, um Euren Durst nach ihr zu löschen.*)~
+@242 = ~(*Ihr neigt Euch Sime entgegen, um Euer Verlangen zu befriedigen, ihren Mund an Eurem zu spüren. Simes Mund ist süß und ihre Lippen rosarot und Ihr werdet fast wild vor freudiger Erwartung.*)~
+@243 = ~(*Ihr überhäuft Simes Gesicht und Hals mit weichen, nassen Küssen.*)~
+@244 = ~Ich bin froh, dass Aran Euch erlaubte, Euch mir anzuschließen, Sime. Ich genieße wirklich Eure Anwesenheit hier neben mir.~
+@245 = ~(*Ihr zieht Sime für eine enge, vertraute Umarmung an Euch heran. Der Kontakt ihres Körpers gegen Euren entzündet eine innere Wärme tief in Eurem Herzen, und Ihr fragt Euch, wie Ihr jemals einen Tag vergehen lassen könntet, ohne sie zu halten.*)~
+@246 = ~(*Ihr werft alle Sorge und Bescheidenheit beiseite und streichelt Simes Oberkörper und seine Kurven. Ihr weiblicher, dennoch kräftiger Körperbau bettelt wahrlich darum, berührt zu werden, und Ihr könnt Euch nicht länger zurückhalten.*)~
+@247 = ~(*Ihr vergrabt Eure Hände in Simes goldenen Locken und zwirnt ihre Haare zwischen Euren Fingern.*)~
+@248 = ~(*Ihr umschließt Simes Gesicht mit Euren Handflächen. Ihr lasst Eure Zunge leicht zwischen ihre vollen Lippen gleiten, die sich begierig für Euch öffnen, und massiert ihre Zunge mit Eurer eigenen.*)~
+@249 = ~(*Ihr überreichet Sime einen Zweig mit Beeren, den Ihr zuvor am frühen Morgen entlang des Weges fandet. Nach vorsichtiger Prüfung ihres Geschmacks und ihrer Gefahrlosigkeit zittert Ihr vor Aufregung, als Sime die Beeren von Euch nimmt.*)~
+@250 = ~(*Die Sonne, die in Simes honigfarbenem Haar glitzert, regt Euch an, Euch vor ihr zu erniedrigen, und Ihr sagt ein paar Zeilen der Liebe und Anbetung zu ihr auf.*)
+
+Dame meines Lebens, sanfte Jungfrau meiner Träume und Ammenmärchen,
+Segnet diesen armen Mann durch Eure Berührung,
+Das Gefühl Eurer federleichten Hand auf meiner Haut
+und Eurem süßen Atem gegen mein Gesicht
+Ist Seligkeit, verherrlicht diesen Mann durch 
+Eure Worte des Lobs und der Liebe.
+Ich gehöre Euch, meine Sime
+Jetzt, und für alle Zeiten.~ ~(*Die Sonne, die in Simes honigfarbenem Haar glitzert, regt Euch an, Euch vor ihr zu erniedrigen, und Ihr sagt ein paar Zeilen der Liebe und Anbetung zu ihr auf.*)
+
+Dame meines Lebens, sanfte Jungfrau meiner Träume und Ammenmärchen,
+Segnet diese arme Frau durch Eure Berührung,
+Das Gefühl Eurer federleichten Hand auf meiner Haut
+und Eurem süßen Atem gegen mein Gesicht
+Ist Seligkeit, verherrlicht diese Frau durch 
+Eure Worte des Lobs und der Liebe.
+Ich gehöre Euch, meine Sime
+Jetzt, und für alle Zeiten.~
+@251 = ~(*Die Sonne, die in Simes honigfarbenem Haar glitzert, regt Euch an, Euch vor ihr zu erniedrigen, und Ihr sagt ein paar Zeilen der Liebe und Anbetung zu ihr auf.*)
+
+Sime, Eure Schönheit in diesem Licht
+Und eigentlich jedem Licht,
+Ist unerreicht, selbst von den äußerst 
+Bezaubernden Baumnymphen, oder den
+prachtvollssten Solaren,
+Sogar die himmlischsten
+Göttinnen werden blass, wenn sie
+Mit Euch verglichen werden, liebste Sime,
+Sagt bitte nichts, aber wisset
+Dass genau diese Worte
+Überall in meinen Gedanken widerhallen
+Wie ein stürmischer unterirdischer Wasserfall
+In einer leuchtenden Diamanthöhle.~
+@252 = ~(*Die Sonne, die in Simes honigfarbenem Haar glitzert, regt Euch an, Euch vor ihr zu erniedrigen, und Ihr sagt ein paar Zeilen der Liebe und Anbetung zu ihr auf.*)
+
+Äh... Dämonen sind rot,
+Xvarts sind blau,
+Die Abyss ist wirklich heiß,
+... und so seid Ihr!~
+@253 = ~(*Ihr bemerkt, dass Sime seit kurzem ein bisschen gereizt zu sein scheint. Ihr kommt auf ihre Seite und legt einen Arm um ihre schmalen Schultern und zieht sie eng an Euch heran. Sime blickt zu Euch mit Dankbarkeit auf, und Ihr küsst sie sanft auf die Seite ihres Kopfs, um sie zu trösten.*) Ist alles gut, mein leuchtender Stern?~
+@254 = ~(*Die Gruppe macht eine kurze Unterbrechung, um die Lebenskraft durch Essen und Ruhe wiederherzustellen. Ein kleines Lagerfeuer wird entfacht, und die geschwärzten Schatten werden schnell vom Licht verdrängt. Sime starrt gedankenverloren in die Flammen.*)~
+@255 = ~(*Eure Augen verweilen bei den Charakterzügen und dem Körper der Halbelfin. Ihr bemerkt die Art, auf die ihr Haar wie ein von Sonne geküsster Stoff hinter ihr herweht, wie ihre Augen glitzern, wann auch immer ein Lachen ihren Lippen entkommt, und wie die Probleme und Sorgen, die Ihr mit ihr erleidet, nie ein Lächeln von ihrem schönen Gesicht wegzuwischen scheinen.*)~
+@256 = ~(*Ihre Augen treffen plötzlich Eure und lassen Euren Magen flattern. Sie neigt ihren Kopf beiseite und fängt an, Euch dumme Gesichter zu schneiden und kichert, als Ihr spürt, wie Euer Hals und Eure Ohren aus Schamröte heiß werden.*)~
+@257 = ~Ich dachte, dass ich Euch von der Liebe singen hörte, <CHARNAME>. Das war ganz nett, aber Eure Stimme müsste die Töne halten können.~
+@258 = ~(*Sime kichert Euch an, und Ihr könnt Euch nur vorstellen, wie rot Eure Ohren und Euer Hals geworden sein müssen.*~
+@259 = ~(*Sime geht zurzeit Euch voraus, was es Euch erleichtert, sie zu bewundern, ohne bemerkt zu werden. Das leichte Wiegen ihrer Hüften und ihrer anmutigen Schritte sind nur einige der sehr vielen Dinge an ihr, die Ihr bemerkt.*)~
+@260 = ~(*Ihr bemerkt plötzlich, wie Ihr Euch nach ihrer Berührung sehnt und nach dem Gefühl von ihr in Euren Armen brennt. Sime wirbelt plötzlich herum und drückt ihren Mund gegen Euren und lässt erfahren ihre Zunge in Euren Mund gleiten. Als der Moment vorbei ist, lacht sie herzlich über Euren überraschten Gesichtsausdruck.*)~
+@261 = ~(*Ihre glänzenden Augen fesseln Euch, als Ihr in sie starrt. Sie haben jedes ihr eigenes inneres Glühen so hell wie tausend Sonnen.*)~
+@262 = ~(*Euer Blick wandert zu der leichten Krümmung ihrer Nase zu ihren vollen aber feinen Lippen. Als Ihr wieder zuück in ihre Augen schaut, starrt sie Euch selbst direkt an und lässt Euch überrascht blinzeln.*)~
+@263 = ~(*Sime kichert*) Es scheint, dass ich diesen Wettkapf im Starren gewann, <CHARNAME>!~
+@264 = ~(*Ihr streckt langsam Eure rechte Hand zu ihrer linken aus, aber zieht sie nervös zurück. Einen Moment später versucht Ihr, wieder ihre Hand zu greifen, aber Ihr seid zu nervös, um es durchzuführen, und Ihr zieht sie wieder zurück.*)~
+@265 = ~(*Endlich bringt Ihr genug Mut auf, ein drittes Mal nach ihr zu greifen, aber Sime schnappt sich Eure Hand. Überrascht blickt Ihr in ihr Gesicht und seht sie lächeln.*)~
+@266 = ~Ihr solltet versuchen, mehr Geschicklichkeit zu lernen, <CHARNAME>. (*Sagt sie und wirft Euch ein Blinzeln zu.*)~
+@267 = ~(*Ihr nehmt ihre freie Hand in Eure eigene und genießt ihre Berührung.*)~
+@268 = ~(*Sime schaut Euch verwirrt an und befreit sich höflich aus Eurem Griff*) Es tut mir Leid, <CHARNAME>, das war süß, aber das ist kein guter Zeitpunkt.~
+@269 = ~(*Nachdem Ihr Eure Finger mit ihren verschränkt habt, zittert Simes Hand ein bisschen bei dem plötzlichen Kontakt, aber sie zieht sie nicht weg. Ihr beide geht eine Zeit lang so weiter, bis sie sich entschlossen umdreht und den Griff löst, um ihre Waffen und Rüstung zu untersuchen.*)~
+@270 = ~(*Sime reagiert zuerst nicht auf die plötzliche Berührung Eurer Lippen auf ihren, als ob sie sich nicht ganz sicher ist, was gerade geschah. Sie gewinnt schnell ihre Gelassenheit zurück, wirft ihren Kopf nach hinten und schaut Euch mit finsterem Gesichtsausdruck an.*)~
+@271 = ~Schaut, <CHARNAME>, Ihr seid bis jetzt zu mir sehr freundlich gewesen, aber ich denke nicht, dass ich bereit bin, unsere... Beziehung... jetzt so weit zu entwickeln.~
+@272 = ~(*Simes Lippen schließen sich für einem kurzen Moment mit Euren. Ihr seid fast überwältigt von der Süße des Augenblicks, aber Sime reißt sich bald los, bevor sich das noch weiter entwickelt.*)~
+@273 = ~Ah, <CHARNAME>, was genau habt Ihr in letzter Zeit getrunken?~
+@274 = ~(*Zu Eurer Überraschung erwidert Sime Euren Kuss. Es ist nicht der sinnliche Kuss von Geliebten, aber es ist auch mehr als das förmlichee Küsschen von Freunden. Ihr beide trennt Euch schnell, und Ihr spürt Euer Herz in Eurer Brust hämmern. Ihr schaut zu Sime, nur um festzustellen, dass sie sich abgewendet hat und vor Euch davonläuft.*)~
+@275 = ~(*Ihr beginnt hungrig, Sime auf ihre Stirn zu küssen, und bewegt Euch dann nach unten zu ihren Augenlidern und ihrer Nasenspitze. Sie wendet sich nicht ab oder setzt sich gegen Eure Aufmerksamkeit zur Wehr, bis Ihr ihren Hals und die obere Brust erreicht.*)~
+@276 = ~(*Sie schiebt Euch leicht aber betimmt weg, eine deutliche Botschaft in ihren Augen ermahnt Euch, Eure Hände bei Euch zu behalten.*)~
+@277 = ~(*Ihr küsst Sime auf beide Wangen und dann ihre Nase. Ihr kommt nicht viel weiter als dorthin, weil sie sich zurückzieht und versucht, einen Kichern zu unterdrücken.*)~
+@278 = ~Es tut mir Leid, <CHARNAME>, aber bin ich dort kitzlig!~
+@279 = ~(*Sime drückt ihre Hand auf die Rückseite Eures Kopfes und zieht Euch näher heran und ermutigt Euren Angriff. Ihr beendet Eure liebevollen Küsse an der Basis ihres Halses auf und zieht Euch zurück, sie anstrahlend. Sime belohnt Euch mit einem langen und tiefen Kuss auf Eure Lippen.*)~
+@280 = ~Danke, <CHARNAME>. Ich genieße es ebenso, bei Euch zu sein, aber denkt daran, ich bin auch aus meinen eigenen Gründen hier, nicht nur, um Euch Vergnügen zu bereiten.~
+@281 = ~Und ich bin ebenso froh. Ich bevorzuge Eure Gesellschaft viel mehr als eine Gilde von Taschendieben.~
+@282 = ~Warum Euch danken, <CHARNAME>. Ich tue mein Bestes, um Euch zu helfen, und es freut mich, zu hören, dass ich es gut mache.~
+@283 = ~(*Sime lehnt ihren Körper sanft gegen Euren. Ihr leichter Atem liebkost die Haut Eures Halses, als Ihr sie eng haltet, und lässt ein Prickeln Euren Rücken entlanglaufen.*)~
+@284 = ~(*Ihr scheint den richtigen Moment erwischt zu haben, um Sime Geborgenheit zu geben, weil sie sich an Euch verzweifelt festhält.*)~
+@285 = ~(*Sime ballt ihre Hände zu Fäusten, während sie Eure Kleidung fest ergreift und leise etwas an Eure Schulter wispert*) Mielikki segne Euch.~
+@286 = ~(*Sime reibt ihre Nase an Eurem Hals, während Ihr einander haltet. Ihr werdet plötzlich von einer Welle der Wärme und Sorge überwältigt, und von der Art, wie Sime Euch hält, als ob sie sich überzeut, ob Ihr echt seid, könnt Ihr sagen, dass sie das selbe erfährt.*)~
+@287 = ~(*Sime wird einen Augenblick lang durch die Aufmerksamkeit abgelenkt, aber sie ergreift schnell Eure wandernden Hände an den Handgelenken und stößt Euch zurück.*)~
+@288 = ~Berührt... berührt mich nicht auf diese Art, <CHARNAME>.~
+@289 = ~(*Sime schlägt verärgert Eure Hände von ihrem Körper weg.*) Ich bin kein Gegenstand, <CHARNAME>. Betrachtet mich nicht als etwas, das so misshandelt werden kann.~
+@290 = ~(*Ihr streckt Euch nach Sime aus, aber sie wendet sich unerwartet ab, weshalb Eure Hände gegen ihren Rücken stoßen. Sie dreht ihren Kopf herum und starrt Euch misstrauisch an, aber dann wird ihr Gesichtsausdruck schlell weicher.*)~
+@291 = ~(*Sime neigt sich rückwärts an Euch und drückt ihren Rücken gegen Euren Magen, während Ihr Eure Arme um sie schlingt.*) Ihr hättet nur einfach zu fragen brauchen, wenn Ihr eine Umarmung wollt, <CHARNAME>.~
+@292 = ~(*Auch wenn es nicht genau das ist, was Ihr im Sinn hattet, ist die Umarmung ganz vertraulich.*)~
+@293 = ~(*Sime geniesst Eure Berührung und schließt ihre Augen und lächelt, als Ihr ihre Haare streichelt und mit ihnen spielt.*)~
+@294 = ~(*Sime lächelt schelmisch, dann wirft sie ihren Kopf herum und lässt ihre Haare in Euer Gesicht fliegen. Sime lacht süß, als die losen Strähnen einen Augenblick lang Eure Augen blenden, und als Ihr prustet, um die Haarteile loszuwerden, die in Euren Mund flogen.*)~
+@295 = ~Es tut mir Leid, <CHARNAME>, das war zu verführerisch! Und wisst Ihr, dass ich es liebe, Euch scharf zu machen. (*Sime küsst Euch als Entschuldigung einmal, dann ein zweites mal auf die Lippen.*)~
+@296 = ~(*Sime streckt langsam die Hand aus und fährt ebenfalls ihre Finger durch Euer Haar. Ihr weiches Streichen besänftigt Euch und Ihr fühlt Euch zufrieden. Sie sieht aus, als ob sie etwas sagen will, aber Angst davor zu haben scheint, den Moment zu verderben. Statt dessen neigt sie sich nach vorne und bewegt sich an der Seite Eures Halses auf und ab und hinterlässt dort weiche, feuchte Küsse.*)~
+@297 = ~(*Simes Atem beschleunigt sich in Eurem Mund und sie drückt sich mit wilder und glühender Leidenschaft an Euch. Eure Zungen kämpfen miteinander in einem spielerischen Wettkampf um die Überlegenheit im Mund des anderen.*)~
+@298 = ~(*Ihr trennt Euch langsam und atemlos und Simes Augen sprechen eine unermessliche Menge von Vertrauen und Hingabe an Euch aus.*)~
+@299 = ~(*Simes Reaktion ist anfangs langsam, aber die Leidenschaft zwischen Euch beiden bildet sich wunderbar schnell.*)~
+@300 = ~Ihr macht mich so glücklich, <CHARNAME>... (*gelingt es Sime, zwischen keuschen Küssen zu sagen. Ihr vergewissert Euch, dass Euer antwortender Kuss von der ganzen Anbetung zeugt, die Ihr ebenso für sie hegt.*)~
+@301 = ~(*Sime bewegt ihren Kopf zurück und verweigert Euch für einen Moment die Süße ihres Mundes und versucht, mit Euch zu sprechen, als Ihr plötzlich Euren Mund auf ihren presst, und ihre Worte fließen in Euren Mund als zusammenhangloser Strom von Geräuschen.*)~
+@302 = ~(*Ihre Zunge rollt sich in einem wilden und schönen Tanz innerhalb Eures Mundes um Eure herum*)...~
+@303 = ~(*Als Ihr schließlich die Umarmung löst, grinst sie breit, während sie Atem holt.*)... Ich wollte gerade sagen, dass es eine Weile her ist, dass Ihr mich das letzte Mal geküsst habt, <CHARNAME>. Seid Ihr sicher, dass nicht eines Eurer Geschenke als Bhaalspross Gedankenübertragung ist?~
+@304 = ~(*Sime macht Euch genussvoll scharf. Sie reißt vorsichtig eine Beere vom Zweig ab und rollt sie zwischen ihren Fingern. Sie bringt sie zu ihrer Nase und riecht langsam daran. Dann führt sie die Beere über ihre vollen Lippen, lässt ihre Zunge aus ihrem Mund gleiten und die Süße der Frucht kosten.*)~
+@305 = ~(*Ihr denkt, Ihr hört ein mitleidsvolles Wimmern, und erst dann begreift Ihr, dass es von Euch kommt. Sime beendet ihr Spiel, indem sie langsam die Frucht in ihren schönen Mund schiebt, und kaut sie ehrfürchtig, bevor sie diese hinunterschluckt.*)~
+@306 = ~(*Sie kichert, während sie Euch anschaut, dann spuckt sie den Kern aus, so dass er von Eurer schwitzenden Stirn abprallt*)... Mmm, köstlich, <CHARNAME>...~
+@307 = ~(*Ihr ächzt vor Verzweiflung und übergebt ihr den Rest des Zweigs.*)~
+@308 = ~(*Ihr denkt, Ihr seht eine Träne aus einem von Simes Augen quellen, aber sie blinzelt sie weg.*)~
+@309 = ~Das war... wunderbar, <CHARNAME>, aber wisset, dass ich keine bin, die Sklaverei verzeiht. (*Sie kichert*)~
+@310 = ~(*Danke... danke, <CHARNAME>. Das war viel besser als die einzeiligen Gedichte, die einige der Schattendiebe mir bieten würden... Ich wusste nicht, dass Ihr so viel für mich empfindet.*)~
+@311 = ~(*Sie sieht aus, als ob sie etwas sagen will, um Euch zu frotzeln, sich dann aber eines besseren besinnt. Dies ist ein seltener Moment, dass Sime wirklich keine kluge Erwiderung zu geben hat... Ihr müsst sie tatsächlich tief berührt haben.*)~
+@312 = ~Ähm... danke, <CHARNAME>. Sagt mir bitte, dass Ihr nicht den ganzen Tag damit verbracht habt, daran zu denken.~
+@313 = ~(*Sime lächelt Euch an und schmiegt sich näher an Euch.*)... Alles ist jetzt gut, meine wandelnde Kopfstütze. (*Sie bringt ihren Anspruch zur Geltung, indem sie ihren Kopf gegen Eure Schulter ausruht, sanft vor sich hinsummend.*)~
+@314 = ~Hmm? Oh... natürlich, mir geht es gut. Ich dachte, dass ich untot roch... Ich werde immer distanziert, wenn die Luft nach dem Gestank einer Mumie oder eines Vampirs riecht. Ich habe ihnen noch nie Zuneigung entgegen gebracht...~
+@315 = ~(*Simes verstörter Blick kehrt in ihrem Gesichtsausdruck zurück, aber Ihr entscheidet Euch dafür, ihre Privatsphäre zu respektieren und sie nicht weiter zu bedrängen.*)~
+@316 = ~(*Ihr beginnt, ein wohlbekanntes Lied über Heldentum und Liebe zu singen, um zu sehen, ob der Rest der Gruppe einstimmen wird.*)~
+@317 = ~(*Niemand sonst stimmt in Euren Gesang ein, aber die Stimmung scheint sich wegen ihm zu erhellen. Sime starrt jedoch weiterhin in die Flammen.*)~
+@318 = ~(*Unerschrocken erhebt Ihr die Lautstärke Eurer Stimme und ändert den Namen der schönen Dame im Lied zu "Sime". Sicherlich habt Ihr dann ihre Aufmerksamkeit erweckt, und sie schüttelt fest entschlossen ihren Kopf. Zu sehen, wie Ihr bei Eurem Gesang schwankt, bringt ein müdes aber echtes Lächeln in ihr Gesicht, gleichsam eine Belohnung für Eure Bemühungen.*)~
+@319 = ~(*Ihr werft spielerisch einen Kieselstein in ihre Richtung.*)~
+@320 = ~(*Simes Kopf schnellt nach oben, als der Kieselstein harmlos von ihr abprallt. Ihr versucht ein Lachen zu unterdrücken, aber vergeblich. Zuerst starrt sie Euch vor Schmerz und Verrat an, aber dann entscheidet sie sich anscheinend zu Ihrem Besten, dass sie zu ernst und mittelmäßig ist.*)~
+@321 = ~(*Sime rächt sich schnell, indem sie einen Schwall kleiner Steine und Kiesel zu Euch zurückwirft, was Euch vor Überraschung krümmen und winden lässt. Es entwickelt sich dann ein ausgewachsener Wettkampf im Werfen und Ihr greift bald nach Essen, Verpackungen und gelegentlich sogar vereinzelte Kissen.*)~
+@322 = ~(*Am Ende Eures Spieles liegt Ihr und Sime kichernd nebeneinander und lacht auf Kosten des anderen. Sime stützt sich auf ihrem Ellbogen ab und beugt sich über Euch. Sie neigt sich dann nach unten und küsst Euch weich und lässt ihre Zunge an Eure gleiten.*)...~
+@323 = ~Ich fühle mich jetzt besser, <CHARNAME>, Danke.~
+@324 = ~(*Ihr tut nichts.*)~
+@325 = ~(*Sime blickt von Zeit zu Zeit flüchtig zu Euch, ihren Blick vom Feuer zu Eurem Gesicht wechselnd. Nach einem Moment weiteren Nachdenkens wendet sie sich ab, lässt sich in ihren Schlafsack nieder und ist bald eingeschlafen.*)~
+@326 = ~Der Schmerz machte mir nichts, er war süss. Ich liebe Euch, <CHARNAME>, hört nicht auf diesen schrecklichen Geist.~
+@327 = ~Darriel? Ich verstehe nicht...~
+@328 = ~Ich habe Euch nicht getötet, Darriel. Das tat Eure eigene Rücksichtslosigkeit.~
+@329 = ~Ich habe mich Euch hingegeben, ich bewunderte Euch, ich sah zu Euch auf...~
+@330 = ~Aber Darriel, wir hätten nie Liebende sein können. Ihr wisst das! Ihr wart mein Mentor, mein Freund...~
+@331 = ~Nein! Das kann nicht wahr sein... Darriel hätte nicht wegen mir sein Leben wegwerfen sollen...~
+@332 = ~Darriel, was immer Ihr getan habt, habt Ihr Euch selbst zuzuschreiben! Hört auf, zu versuchen, die Schuld auf Sime zu schieben! Sie hat nichts Unrechtes getan!~
+@333 = ~Gorion, was soll das? Sime hat nichts getan, um eine solche Folter zu verdienen... Ihr seid unfair.~
+@334 = ~Das sind alles Lügen und Wahnsinn. Genug.~
+@335 = ~Sime, Liebling, das ist nicht Darriel... Er ist nur ein schrecklicher Schatten! Sime, glaubt mir, er ist nicht real!~
+@336 = ~Das war es dann? Ich kann nicht glauben, dass ich Zeuge werde, wie ein Sterblicher ein Gott wird.~
+@337 = ~Ich werde Euch nicht halten, <CHARNAME>. Ich liebe Euch, aber Euer Schicksal... Es liegt jenseits der Worte, die ich dafür zur Verfügung habe. Ihr wart für diese Grösse bestimmt, Ihr wurdet hineingeboren. Was ist im Vergleich dazu schon eine Frau, die den Wunsch hat, Euch jede Nacht nahe zu sein?~
+@338 = ~Ich fühle mich ziemlich komisch, da ich jetzt weiss, dass ich das Schlafgemach mit einem Spross des Fürsten des Mordes geteilt habe. Oh, bei den Neun Höllen! Was getan ist, ist getan. Hoffentlich strebt mein Vater nicht danach, die Stelle von Mask einzunehmen. Denn er ist die einzige Person, die ich auf dieser Existenzebene noch liebe.~
+@339 = ~Was? Ihr wollt ein Sterblicher bleiben? <CHARNAME>, <CHARNAME>, ich weiss nicht, ich würde Euch am liebsten für diese unglaubliche Dummheit zurechtweisen, doch mein Herz singt. Und ich glaube, ich weine. Ich muss dämlich aussehen.~
+@340 = ~Ihr habt nie wundervoller ausgesehen, Sime. Ich liebe Euch und werde Euch nicht verlassen. Nicht für eine Krone, nicht für die Göttlichkeit, nicht einmal für eine andere Frau.~
+@341 = ~Nun zuerst wollte ich etwas in diesem Stil sagen: "Es ist nicht so, als würden wir uns trennen, meinen geliebte Sime. Es ist nur, dass wir nicht zusammen sein werden." Aber dann dachte ich, dass dies Blödsinn ist. Deshalb dachte ich auch nicht, dass: "Oh, bei den Neun Höllen!" nicht die passenden Worte sind, die man von einer Person erwarten würde, die zur Göttlichkeit aufsteigt. Und ich konnte mich auch nicht für etwas anderes entscheiden und daher entschloss ich, zu bleiben und... Oh, bei den Neun Höllen! Ich liebe Euch, das ist alles, was zählt.~
+@342 = ~Habt Ihr wirklich geglaubt, dass ich dieses schreckliche Möbelstück gegen unsere Liebe eintauschen würde? Nie im Leben!~
+@343 = ~Sime, wenn ich einen Brunnen gewollt hätte, dann hätte ich Euch ernsthaft für diese Aufgabe in Erwägung gezogen. Wischt Euch Eure Tränen weg und freut Euch!~
+@344 = ~Verglichen mit mir seid Ihr ziemlich intelligent, Sime. Ich bin kein Gott, nicht einmal mehr ein Halbgott. Ich bin ein Mann und ich bin verliebt. Das ist alles was ich weiss.~
+@345 = ~Verglichen mit mir, seid Ihr ziemlich intelligent, Sime. Ich bin keine Göttin, nicht einmal mehr eine Halbgöttin. Ich bin eine Frau und ich bin verliebt. Das ist alles was ich weiss.~
+@346 = ~Ihr habt vor, aufzusteigen, oder? Ihr habt Euch als eine Person von Güte und Weisheit erwiesen. Solch eine Person kann es schaffen, das dunkle Reich des Fürsten des Mordes zu erleuchten.~
+@347 = ~Ich weiss, dass Ihr die Macht und das Blut eines Gottes habt, aber das Reich des Fürsten des Mordes ist sehr dunkel. Ich... Ich hoffe, Ihr werdet es nicht noch dunkler machen.~
+@348 = ~Für einen Moment habe ich mich gesorgt, dass ich Euch verlieren könnte. Aber dann blieben Eure Augen bei mir stehen. Die Art, wie Ihr mich angesehen habt, liess tausende Schmetterlinge mein Herz bevölkern. Ich liebe Euch, <CHARNAME>.~
+@349 = ~"Oh, bei den Neun Höllen" wird seinen zweck erfüllen. Ich habe Euch schon viel zu oft nach passenden Worten gefragt. Jetzt brauche ich keine mehr, ich will Eure Liebe und Eure Küsse.~
+@350 = ~Ich... Ich wollte mich immer schon in eine Person verlieben, die den Thron des Bhaal ein "Möbelstück" nennt. Jetzt ist dieser Traum wahr geworden.~
+@351 = ~Ich versuche es ja, <CHARNAME>, aber diese dummen Tränen wollen nicht aufhören. Aber ich freue mich und schreie vor Glück. Ich liebe Euch so sehr!~
+@352 = ~Und alles, was ich weiss, ist, dass ich Euch liebe. Wenn es uns dumm machen sollte, dann ist mir dies auch egal.~
+@353 = ~Was ist das, wo bin ich? Es gibt Kälte und keine Spur von Leben. Was ist das für ein schrecklicher Ort?~
+@354 = ~Dies ist die Ebene von Kelemvor, Sime.~
+@355 = ~Dies ist ein schlechter Ort für Priesterinnen von Mielikki, Sime. Hier... Hier sind nur Tote.~
+@356 = ~Jäger wurden zu Opfern.~
+@357 = ~So sieht diese Welt aus! Na sicher. Ich hätte es erraten sollen. Ihr habt den Ring an einen Finger gesteckt, seid in Rage geraten und habt uns alle mit Leichtigkeit getötet. Aber warum?~
+@358 = ~Ich weiß es nicht. Warum sollte ich Euch töten? Wir sind Kameraden in Waffen. Aber der Ring... hat mich verrückt gemacht. Ich war nicht ich selbst, Sime.~
+@359 = ~Ich war nicht ich selbst, Sime. Das war Bhaal, der meine Haut trug und Euch tötete.~
+@360 = ~(Schaudert) Schlechter Witz.~
+@361 = ~Tut mir Leid, Sime. In der Tat, schlechter Witz, ich stimme zu. Ich... ich weiß nicht, was ich sagen soll, Sime. Der Ring von Cyric ist dafür verantwortlich.~
+@362 = ~Tut mir Leid, Sime. Lasst uns von hier wegkommen, zu Licht und Leben.~
+@363 = ~(Überraschend) Ihr dachtet, dass der Ring von Cyric Euch erlauben würde, den Fluch von Keldorn zu entfernen? Der Fluch, der vom Priester des gleichen Cyric auferlegt wurde?~
+@364 = ~Ja, das war dumm. Aber Kelemvor hat den Ring schon genommen, damit wir hier rauskommen können. Er lässt uns gehen.~
+@365 = ~Ja, ja! Lasst uns schnell an die Sonne und frische Luft gehen.~
+@366 = ~Ich werde sicherstellen, dass, wenn wir auf See überrascht werden, der Tod nicht von einer Überraschungsquelle kommen wird. Mache ich mich klar verständlich?~
+@367 = ~Meine Gilde wird Euch bezahlen, Saemon... falls wir diesen Zauberspruch überleben sollten...~
+@368 = ~Haltet Eure Zunge im Zaum, Saemon. Wir haben Euch schon genug bezahlt!~
+@369 = ~Nun gut, nehmt dieses Geld und versucht, Euer Bestes zu geben.~
+@370 = ~Ich kenne die Straße nach Ulcaster, <CHARNAME>, sie war einst voller Banditen, bis Ihr das Gebiet von ihrer Pest befreit habt. Ich hoffe, dass die Reise zurück nicht zu viele unangenehme Erinnerungen für Euch bereithält.~
+@371 = ~Es scheint, dass alle, die mit Euch reisen, <CHARNAME>, dazu bestimmt sind, durch Mysterium und Intrige berührt zu werden. Diese Reise, die wir mit Euch in die Vergangenheit unternehmen, ist sicher eine von vielen Intrigen, denen diese Gruppe ausgesetzt sein wird.~
+@372 = ~Möge Mielikki in mein Herz blicken und wissen, dass ich das nur tue, um bei der Suche nach einem unglücklichen Mädchen zu helfen.~
+@373 = ~Taffic, es tut mir Leid, dass ich keine Zauber kenne, die das Elend heilt, das ich in dem Gesicht des Biestes sehe, zu dem Ihr geworden seid.~

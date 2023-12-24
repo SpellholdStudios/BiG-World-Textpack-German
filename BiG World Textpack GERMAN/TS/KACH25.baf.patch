@@ -1,0 +1,11 @@
+--- TS\baf\KACH25.baf	Wed Jun 12 22:06:06 2013
++++ C:\BWP Patchstudio\patched files\TS\baf\KACH25.baf	Mon Oct 03 15:30:12 2016
+@@ -11,7 +11,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("VP_Yoshimo_Dies","GLOBAL",1)
+ 		EquipMostDamagingMelee()
+-		DisplayStringHead(Myself,~Yoshimo! Nooooo!!!~)
++		DisplayStringHead(Myself,@0)
+ 		MoveToObjectNoInterrupt(LastAttackerOf("Yoshimo"))
+ 		AttackReevaluate(LastAttackerOf("Yoshimo"),75)
+ 		Continue()

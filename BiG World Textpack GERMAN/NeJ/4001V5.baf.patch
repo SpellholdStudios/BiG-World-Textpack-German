@@ -1,0 +1,19 @@
+--- NeJ\baf\4001V5.baf	Tue Dec 02 00:20:26 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V5.baf	Wed Apr 10 10:28:33 2019
+@@ -8,13 +8,13 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #33
+-		DisplayStringHead(Myself,~Oh, shut up, Earl!~) // "Oh, shut up, Earl!"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #34
+-		DisplayStringHead(Myself,~Can't you be quiet?~) // "Can't you be quiet?"
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ 	RESPONSE #33
+-		DisplayStringHead(Myself,~Oh, shut up, Earl!~) // "Oh, shut up, Earl!"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ END
+ 

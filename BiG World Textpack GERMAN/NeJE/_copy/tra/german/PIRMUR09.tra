@@ -1,0 +1,14 @@
+@0 = ~Ich muss nach Athkatla und zurück segeln. Kann ich eine Passage auf Eurem Schiff buchen?~
+@1 = ~Natürlich, <CHARNAME>. Es ist mir ein Vergnügen, Euchsicher in die Stadt der Münzen zu bringen. Die Kosten für die Hin- und Rückfahrt betragen 20.000 Goldstücke, und mein Schiff gehört Euch.~
+@2 = ~Klar, hier ist dann Euer Gold.~
+@3 = ~Tut mir Leid, Kapitän, ich kann es im Moment nicht schaffen.~
+@4 = ~Danke, <CHARNAME>. Die Reise wird schnell sein, denn ich habe ein gutes Schiff und eine gute Besatzung, alles Veteranen und sehr erfahren. Ihr werdet vielleicht kaum bemerken, dass die Reise vorüber ist.~
+@5 = ~Ich werde hier auf Euch warten.~
+@6 = ~Wir sind gut angekommen. Ich überlasse Euch Eurer Mission, was auch immer es sein mag. Es war ein Vergnügen, in Eurer Gesellschaft zu segeln, aber jetzt verabschiede ich mich. Ich werde im Seeschatz auf Euch warten, um zurück nach Brynnlaw zu segeln.~
+@7 = ~Hallo, <CHARNAME>. Es ist schön, Euch wiederzusehen. Möchtet Ihr nach Brynnlaw zurücksegeln?~
+@8 = ~Sicher.~
+@9 = ~Bitte wartet etwas länger.~
+@10 = ~Dann folgt mir bitte zu den Docks. Mein Boot ist bereit, uns zum Schiff zu bringen. Wir sind voll besetzt und bereit zu segeln. Weder Angst nochund keine Sorge sollte Euch heute Abend in den Sinn kommen, <PRO_LADYLORD>. Ich bin dieses Meer schon oft bereist und sehe keine Probleme auf uns zukommen.~
+@11 = ~Keine Sorge. Ich werde hier auf Euchch warten.~
+@12 = ~Wir sind sicher und rechtzeitig angekommen, könnte ich hinzufügen. Glückwunsch an die gesamte Besatzung und an unsere respektvollen Kreuzfahrtpassagiere für ihre entzückende Gesellschaft.~
+@13 = ~Ich würde gerne mit Euch segeln, <CHARNAME>, falls Ihr mein Schiff jemals wieder braucht.~

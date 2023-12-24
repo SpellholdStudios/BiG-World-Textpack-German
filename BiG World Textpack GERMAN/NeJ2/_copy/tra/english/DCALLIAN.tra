@@ -1,0 +1,44 @@
+@0    = ~Greetings, friend.  You are welcome in the House of the Bleeding Rose.  May the healing hands of Ilmater lift your burdens and set your tortured soul at ease.  ~
+@1    = ~Sister Calliana, I presume?  I was told you could provide the services of a healer.~
+@2    = ~Greetings.  I seek the services of a healer.~
+@3    = ~Uh... never mind.  Farewell.~
+@4    = ~You have been informed correctly.  As acting head of this temple, it is my privilege to bestow whatever aid I can upon those in need -- no small task I might add, what with all the troubles that plague this town of late.~
+@5    = ~Acting head of this temple?  Who is normally in charge?~
+@6    = ~Ilmater Clergy in Kuldahar.
+
+We spoke with Sister Calliana, the acting head priest of the Temple of Ilmater in Kuldahar.  She's assumed the role of head priest of the temple ever since Mother Egenia vanished a few weeks ago.  Calliana also mentioned that another member of the Ilmater clergy, a man by the name of Brother Poquelin, passed through Kuldahar recently from all the way from Cormyr and was going to try and get help from the Monastery of the Weeping Lilac in Bryn Shader.  Calliana fears he may have been abducted as well.~
+@7    = ~Tell me Sister, what manner of trouble plagues Kuldahar?~
+@8    = ~Very well.  What aid can you offer?~
+@9    = ~Then step forward and offer your pain to the One who Endures All.  I am Revered Sister Calliana.  As acting head of this temple, it is my privilege to bestow whatever aid I can upon those in need -- no small task I might add, what with all the troubles that plague this town of late.~
+@10   = ~Up until a few weeks ago, Revered Mother Egenia presided over this house.  Alas, she, like so many others in town, has gone missing and is presumed dead.  Being the next highest-ranking member of the clergy, I have assumed the duties of the head of this temple until either she or Revered Brother Poquelin returns.~
+@11   = ~You mean to tell me your head priest was abducted?~
+@12   = ~Revered Brother Poquelin?  Who is he?~
+@13   = ~Fascinating.  Now about that healing... what aid can you offer?~
+@14   = ~Interesting.  Well, I best be off now.  Farewell.~
+@15   = ~Evil has cast its shadow upon this land; even the weather seems to have been affected by its presence.  The source of this evil is unknown to me, but its touch can be felt everywhere.  Several townspeople have mysteriously disappeared, including our former head priest, Revered Mother Egenia.  Being the next highest-ranking member of the clergy, I have assumed the duties of the head of this temple until either she or Revered Brother Poquelin returns.~
+@16   = ~Perhaps.  We're not quite sure.  She grew tired of standing by while the people around us were being snatched up in the night.  So she decided to hold a midnight vigil on the outskirts of town in hopes that she too might share in the suffering of those taken.  That was the last we saw of her.  Her fate remains a mystery.~
+@17   = ~You mentioned a Revered Brother Poquelin?  Who is he?~
+@18   = ~Revered Brother Poquelin is a visiting senior priest of Ilmater.  He passed through Kuldahar several days ago on a pilgrimage to the Monastery of the Weeping Lilac in Bryn Shander.  He traveled quite a ways, all the way from... from Cormyr, I believe is what he said.  He must be from those distant regions, for he bore a holy symbol of Ilmater that was unfamiliar to me.  In any case, he promised to return with aid once he reached Bryn Shander.  I hope he is all right.~
+@19   = ~You have returned, friend.  How may the faithful of Ilmater serve you?~
+@20   = ~Greetings, Sister Calliana.  I am in need of healing.~
+@21   = ~You have returned, friend.  There still has been no word from either Revered Mother Egenia or Revered Brother Poquelin.  Until they return, I am at your service.~
+@22   = ~Just checking.  Farewell.~
+@23   = ~You are the ones who restored Revered Mother Egenia to us.  For that, we thank you.  How may the faithful of Ilmater serve you?~
+@24   = ~Before, you mentioned a Revered Brother Poquelin.  Who is he?~
+@25   = ~Evil has cast its shadow upon this land; even the weather seems to have been affected by its presence.  The source of this evil is unknown to me, but its touch can be felt everywhere.  Although you have restored Revered Mother Egenia to us, several townspeople are still missing, including Revered Brother Poquelin.~
+@26   = ~Welcome to the house of the Bleeding Rose, traveler.  There is... something familiar about you.  It is as though I have seen you in a dream.   Perhaps Ilmater foretold your arrival.~
+@27   = ~I believe I have something for you.  A cursed paladin in Dorn's Deep recently asked me to bring his mortal remains to a temple of the Trinity for proper burial.  I helped end his curse, but he wanted to insure that he would find rest on consecrated ground.~
+@28   = ~Ilmater Clergy in Kuldahar.
+
+We returned to Kuldahar and spoke to Sister Calliana.  We told her of the Voice of Durdel Anatha and successfully returned his mortal remains to consecrated ground.~
+@29   = ~Sorry to disturb you.  Farewell.~
+@30   = ~I welcome you back to the house of the Bleeding Rose, traveler.  In my sleep, I have had visions of you in dreadful places.  I am glad to see that you are intact.~
+@31   = ~Yes... yes.  I can sense the truth of your words.  I had heard the tales of a phantom Tormish paladin, but I thought they were only stories.  If the legends are correct, you have done our church a great service.  Torm, Tyr, and Ilmater are brothers in righteousness.  We will inter this holy warrior's remains with pride.~
+@32   = ~Please accept a gift on behalf of the church of Ilmater.  You have suffered long and hard in your quest to vanquish the evil that threatens us.  If you are pure of heart, this will aid you in your struggles to come.~
+@33   = ~I am glad that I could be of service.~
+@34   = ~It was nothing, really.~
+@35   = ~Sure.~
+@36   = ~Certainly.~
+@37   = ~Good.~
+@38   = ~I understand.~
+@39   = ~My work here is finished.~

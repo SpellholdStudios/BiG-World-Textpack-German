@@ -1,0 +1,1137 @@
+@1   = ~Auroras ausgesuchte Abeteurergaloschen~ 
+@2   = ~Aurora~
+@3   = ~Umhang in grün~ 
+@4   = ~Dieser waldgrüne Umhang besitzt anscheinend keine magischen Kräfte. Betrachtet ihr ihn näher, fällt eine kunstvoll gestickte goldene Sonne mit dem Buchstaben "A" davor auf Brusthöhe auf.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 3~
+@5   = ~verzierter Ring~ 
+@6   = ~Diesem Goldring ist ein ungewöhnlich großer Smaragd eingefasst. Auf der Innenseite des Ringes ist der Satz " Für den Sonnenschein meines Lebens" graviert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Charisma +1, wenn er getragen wird
+Gewicht: 0~
+@7   = ~einzelner Ohrring~
+@8   = ~Dieser große, goldene Ohrring ist sonnenförmig und trägt im Zentrum einen Smaragd. Der zweite Ring, gab es ihn je, fehlt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern, wenn er getragen wird.
+Gewicht: 0~ 
+@9   = ~grüne Mokassins~
+@10  = ~Diese blassgrünen, viel getragenen Mokassins beeindrucken Euch noch immer mit ihrer Eleganz. Beiden ist eine goldene Sonne eingestickt. Anfänglich wohl eine sentimentale Marotte der Erstbesitzerin, sind sie einem Drachen entgegen geschleudert worden, einen Fluss hinunter gerauscht und von Wer-Weiß-Von-Wem-Nicht-Alles über die Jahre ausgelatscht worden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 2~ 
+@11  = ~Ohrring~
+@12  = ~Juwelenbesetztes Langschwert +3~
+@13  = ~Diese zweischneidige Klinge ist 90 cm lang und verjüngt sich zu einer stichhaltigen Spitze. Gebrauchstüchtig wirkend ist sie meistelich geschmiedet worden, ohne viel Zierrat, abgesehen von dem großen Smaragd im Schwertknauf.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +3 Bonus
+Schaden: 1W8+3(Klingenwaffen)
+Gewicht: 2
+Initiativfaktor: 2
+Typ: Langschwert
+einhändig
+erfordert: 6 Stärke
+Kann nicht verwendet werden von:
+- Priestern
+- Druiden
+- Magiern~ 
+@14  = ~Aurora errang dieses Schwert, als sie ein kleines Küstendorf gegen Piraten verteidigte. Sie weigerte sich ihm einen Namen zu geben, weil sie der Meinung ist, dass Schwertnamen ihren Trägern und Trägerinnen nur einen frühen Tod und Vergessenheit bescheren. Es ist verzaubert, aber wichtiger noch ist der Smaragd in seinem Knauf.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +3 Bonus
+Schaden: 1W8+3(Klingenwaffen)
+Gewicht: 2
+Initiativfaktor: 2
+Waffenfertigkeit: Langschwert
+Waffentyp: Einhändig
+erfordert: 6 Stärke
+Kann nicht benutzt werden von:
+- Priestern
+- Druiden
+- Magiern~
+@15  = ~verziertes Kollier~ 
+@16  = ~Dies ist ein famoses Goldkollier mit einem sonnenförmigen Anhänger. Ein fantastischer Smaragd sitzt in Mitten des Anhängers und der Buchstabe "A" ist auf seiner Rückseite eingeätzt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1~
+@17  = ~Stehvermögenstiefel~
+@18  = ~Niemand warnt Abenteurerneulinge vor den langen Fußmärschen, die vor ihnen liegen werden. Das passende Schuhmodel macht den Unterschied. Genau in diese Kerbe schlagen unsere Stehvermögenstiefel, die dafür geschaffen wurden, dass ihr die letzte Schlacht des Tages so angehen könnt, als sei es euer Frühwerk.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Konstitution +1, wenn sie getragen werden.
+Gewicht: 4~
+@19  = ~Stiefel der erschlagenden Elaganz~ 
+@20  = ~Diese Stiefeletten wurden von einem Barden in Auftrag gegeben, der sich nach seinen Auftritten höhere Einnahmen wünschte. Diese Sohlen traten so manchen Flecken Erde und führten mannig Füße, aber alle, die in ihnen steckten, gaben zu Protokoll: Es sind todschicke Spanische Stiefel.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Charisma +2 und Geschicklichkeit -2, wenn sie getragen werden.
+Gewicht: 3~
+@21  = ~Der Schleppende Schuh~ 
+@22  = ~Diese Stiefel sind vor Zeiten Werk eines Mönchs gewesen, der aus dem Zentrum zu geraten drohte, weil seine Reisegefährten nicht mit ihm Schritthalten konnten. Sie in der Kunst des Flinken Fußes zu unterweisen, schlug fehl, so dass er sich darauf besann ihrem Schrittmaß zu folgen. Bis ihm die Entwicklung dieser Schuhe gelang, wodurch beide Seiten, ohne sich verbiegen zu müssen, wieder zu ihren Rechten kamen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie getragen werden, wird der Bewegungsfaktor um zwei vermindert.
+Gewicht: 4~ 
+@23  = ~Des Tapferen sein Schuh~
+@24  = ~Selbst den abgebrühtesten Abenteurer packt manchmal das kalte Grausen. Es sei denn, seine Füße weilen in diesen Schäften. Aurora gibt ihre Quelle nicht preis, verspricht der Trägerin oder dem Träger aber Schutz vor allen Arten der Furcht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schutz vor Furcht, wenn sie getragen werden.
+Gewicht: 4~ 
+@25  = ~Gefechtsgaloschen~
+@26  = ~In einer Schlacht geht nichts über das Überraschungsmoment und die Stiefel teilen genau dies der tragenden Person zu. Sie sind für Kämpfernaturen verzaubert worden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verbessern den ETW0 um zwei.
+Gewicht: 4~
+@27  = ~Der Schuh des Zurücklehnens~
+@28  = ~Wie jedem Abenteurer bekannt ist, gibt es Tage, da wünscht man sich etwas Entspannung. Aurora ist es gelungen für derartige Pausen zu garantieren. Sobald man in diese Schuhe schlüpft, bleibt der Tag ereignislos. Niemand kümmert den Träger oder die Trägerin. Allerdings kann man sich in diesen Schuhen auch wiederum um niemanden scheren, denn wenn dies möglich wäre, wäre der Tag ja nicht ereignisfrei. Wäre doch so, oder ?
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Niemand greift die Person, mit diesen Schuhen ausgerüstet, an. Gehen, Sprechen und Verstecken bleiben die einzigen Handlungsoptionen.
+Gewicht: 4~
+@29  = ~Die Wandervögel~
+@30  = ~Lange, beschwerliche Reiserouten können auszehrend sein. Schlimmer wird es, wenn die Gruppenkräfte ungleich verteilt sind. Diese Schuhe sollen laut Aurora dem Reisenden auch noch den letzten Meter machen lassen, bevor eine Rast nötig wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wer in diesen Schuhen steckt, ermüdet nicht mehr.
+Gewicht: 3~
+@31  = ~Blendbotten~
+@32  = ~In diesen Puschen könnt ihr buchstäblich eure Kontrahenten aus den selbigen hauen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Trägerin oder Träger kann einmal am Tag den Druidenzauber Natürliche Schönheit anwenden.
+Gewicht: 3
+
+~
+@33  = ~Ballerinas~
+@34  = ~Durchtanz' die Nacht! In diesen bequemen und schicken Schuhen ist euch Blasenfreiheit garantiert, und was auch nicht zu verachten ist, dem Tanzpartner oder der Mittänzerin steigt ihr nicht mehr auf die Füße. Worauf wartet ihr also noch ? Macht die Nacht zum Tag, oder wenn ihr vampirischer Natur seid, den Tag zur Nacht!
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Geschicklichkeit +2.
+Gewicht: 2~
+@35  = ~Das Spinnenbeinmodell~
+@36  = ~Mit diesem Modell genügt ein Wimpernschlag, um sich von einem Widersacher zum Nächsten zu versetzen. Alles, was man tun muss, ist eine Entscheidung zu fällen, wen man als nächstes angreifen will. Wer sich aber so schnell bewegt, büßt bei seinen Hieben an Wirksamkeit ein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Die Bewegungsrate beträgt 25, aber der verursachte Schaden wird um 25% gesenkt, wenn die Stiefel getragen werden.
+Gewicht: 4~
+@37  = ~Des Schamlosen sein Schuh~
+@38  = ~Es ist ein offenes Geheimnis, dass sich Abenteurer, aus guten Gründen, wie wir alle wissen, hier und da mit Diebesgesindel, Halsabschneidern, Lügenpack und aller Arten weiteren Abschaums abgeben. Tritt so ein Grund ein, dann sind Integrität und Aufrichtigkeit der falsche Ausweis in diesen Kanälen. Abhilfe böte die Schandtat für Zwischendurch, jedoch geht nicht jede Gesinnung damit konform, zumal man derartige Gesellschaft einfacher und unblutiger mit Hilfe dieser Schuhe beeindrucken kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie getragen werden sinkt der Ruf um zwei.
+Gewicht: 2~
+@39  = ~Des Untadeligen Auftritt~
+@40  = ~Wem soll man das erzählen: der heiliger als Helm Paladin, die tugendhaft, biedere Priesterin, eine Edelfrau der Rechtschaffenheit und anderes Volk mit Heiligenschein wollen auch abgefertigt sein. Seinen Ruf der rabiaten Rücksichtslosigkeit, sonst eigenrühmlich, geriert mit diesem Gesocks zum spürbaren Nachteil. Ließe man sich im lokalen Tempel nicht lumpen, um bei diesem Pöbel zu punkten, so vermag ein Auftritt in diesen Stiefel der eigenen Sache billiger und einfacher dienlich zu sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ruf +2.
+Gewicht: 3~
+@41  = ~Mal in eine andere Rolle Wechseltritt~
+@42  = ~Wer sich in sein Gegenüber hineinzusetzen vermag, ist Gedanklich einen Schritt voraus. Auf einem langen Schulungsweg in Theorie und Praxis wird man zu einem gefürchteten Feind. Um die Sache zu beschleunigen, schlüpft man einfach in diese Schuhe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Kehrt die Gesinnung um, wenn die Schuhe getragen werden.
+Gewicht: 2~
+@43  = ~Käsefuß~
+@44  = ~Da war dieser Fußgeruch. Einschneidend und durchdringend. Nach Jahren harscher Vorwürfe und den Anweisungen, sich anderswo hinzusetzen, und zwar deutlich woanders hin, entschied er sich hieraus seinen Nutzen zu ziehen. Er ist immer noch der Käsefuß, aber jetzt verwendet niemand mehr diesen Namen in Häme.
+
+EIGENSCHAFTEN:
+
+Kann getragen, einmal am Tag Stinkende Wolke hervorrufen.
+Gewicht: 4~
+@45  = ~Schuhe für den Hausgebrauch~
+@46  = ~Das Jammern über den Schweißgeruch von Auroras Mutter, wenn Aurora und ihre Begleiter wieder das Elternhaus verließen, veranlasste unsere Abenteurerin einen ganzen Satz dieser Schuhe für sich und ihre Gruppe zu bestellen. Im Gegensatz zu üblichen Schuhen verleiht ein Zauber diesen Fußwerk einen Wohlgeruch nach einem langen "Tragwerk", so dass man die Füße sofort unter einen Tisch schieben kann, gerade auch unter einen mütterlichen, ohne lange Fußbäder vorher eingelegt haben zu müssen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ruft einmal am Tag Bereich der frischen Luft hervor, wenn sie getragen werden.
+Gewicht: 4~
+@47  = ~Mehr Grips im Stiefel~
+@48  = ~Ein Zaubere, der mit Aurora reiste, haderte in einem fort, dass ihm Ringfinger fehlen würden oder seine Ketten nur noch Knäule im Gepäck wären, wodurch er auf die gewünschten Extrazauber verzichten müsse. Flugs bestellte Aurora ihm dieses Paar.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Zwei zusätzliche Zauber des ersten Grades und ein weiterer Zauber des zweiten.
+Gewicht: 4
+Nutzbar:
+Zauberkundige
+Barden~
+@49  = ~Leopardenmusterstiefel~
+@50  = ~Die Trägerin dieses Paares kann sich heute über eines freuen, egal was für Widrigkeiten und Zwist am Wegesrand harren, sie trägt die schärfsten Stiefel.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 3~
+@51  = ~Siebenmeilenstiefel mit Stil~
+@52  = ~Die original "Pranken des Geparden" gehörten einst einem Meuchelmörder, der es genoss, seine Opfer zu jagen. Er bewegte sich so schnell, dass selbst zu Pferd seine Opfer keine Gelegenheit hatten, ihm zu entkommen. Das war ohne Frage beeindruckend, doch war dieser Meuchler modisch nicht auf der Höhe, so dass Aurora Schuhe im attraktiven Gepardenlook mit ähnlichen Eigenschaften anfertigen ließ. Sie erhöhen die Bewegungsrate der tragenden Person und sehen obendrein einfach klasse aus.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Angelegt verdoppeln sie das Bewegungstempo.
+Gewicht: 3~
+@53  = ~Des Mallen Marvs Mokassins~
+@54  = ~Der liebste Spruch der Mallen Marvs war: "Paranoid biste nur, wenn dir keiner im Nacken sitzt." Er war der felsenfesten Überzeugung von Unmengen Feinden umgeben zu sein. Mit der Idee für seine Mokassins wollte er allen zuvorkommen. Sie helfen der tragenden Person erst zuzuschlagen und dann die Fragen zu stellen. Bedauerlicherweise klebt an diesem Paar Schuhe auch etwas von Marvs wohlbekannter Nervosität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Die Reaktion wird auf Null gesetzt. 40% Chance, dass der Träger oder die Trägerin für 6 Runden in Panik verfällt.
+Gewicht: 2~
+@55  = ~grünes Alltagsmodell~
+@56  = ~Dies sind bequeme und robuste Stiefel für alle Gelegenheiten des Alltags. Sie sind in Auroras Lieblingsfarbe gefärbt und sollen eine höher Stichfestigkeit für die tragende Person garantieren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn die Schuhe getragen werden, verbessert sich die Rüstungsklasse gegen Stichwaffen um zwei.
+Gewicht: 4~
+@57  = ~Handlotion~
+@58  = ~Aurora schwört auf dieses Balsam, das sie während ihrer Abenteuerreisen immer benutzte. Es hält die Hände geschmeidig und vermeidet das Unwohlsein rauer und rissiger Haut, mit den damit verbundenen Greifbeeinträchtigungen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Angewendet, wird die Geschicklichkeit um  eins, sechs Phasen lang, erhöht.
+Gewicht: 1~
+@59  = ~Rosarote Leisetreter~
+@60  = ~Dieses von Aurora auf Imoens Wunsch extravagant gefärbte Modell, dient all jenen, die sich leise und im Verborgenen bewegen wollen oder müssen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schleichen: +20%
+Im Schatten verstecken: +15%
+Gewicht: 4~
+@61  = ~Vitalisierungsgel~
+@62  = ~Dieses Gel besänftigt schmerzende Scheuerstellen oder überstrapazierte Muskeln.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erschöpfung wird auf Null gesetzt.
+Gewicht: 1~
+@63  = ~An den Ohren getragene Schmuckstücke sind in vielen Kulturen gang und gäbe. Einige seltene Stücke sind mit den verschiedensten magischen Eigenschaften verzaubert worden. Derartige Ohrringe sind hoch begehrt und nicht zufällig von jenen aus der Abenteurerzunft.~
+@64  = ~Schuhe~
+@65  = ~Schuster stellen für gewöhnlich Schuhe oder Mokassins, wie diese, in Handarbeit her. Serienmodelle werden über Standartleisten gezogen, während für den wirkliche guten Schuh einen an die Trägerin oder den Träger angepasster Leisten benutzt wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 2~
+@66  = ~Thekenhopper~
+@67  = ~Müde Helden ersehnen sich gelegentlich ein solides, angenehm wirkendes Schlückchen, samt weicher Matratze und Federn,  um hernach angenehm allen Ballast fahren lassen zu können. Diese Gelegenheit eröffnet sich der tragenden Person, indem sie einfach drei mal die Hacken der Stiefel aneinander schlägt, so dass die gesamte Gruppe, die Möglichkeit hat, sich in einen Gasthof der Wahl teleportieren zu lassen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Teleportiert die Gruppe, drei mal am Tag, in ein Wirtshaus der Wahl.
+Gewicht: 4~
+@68  = ~grüne Schnürstiefel~
+@69  = ~Diese Stiefel gab Aurora, kurz nachdem sie ihr erstes "Abenteurerinnenschuhpaar" verloren hatte, in Auftrag. - sobald sie es sich, fraglos, leisten konnte. Sich in ein derart schickes Pärchen allmorgendlich einzuschnüren, adelt einfach jeden Tag, - komme, was da wolle -, zumal ein Verteidigungsbonus mit gebunden wird. Die vielen Komplimente ihrer Kunden veranlassten Aurora dieses Model in Serie zu geben, so dass man sie hier und da zu Gesicht bekommen kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Bonus auf die Rüstungsklasse und Rettungswürfe von je eins.
+Gewicht: 4~
+@70  = ~Jacke~
+@71  = ~Dies ist eine einfache, leichtgewichtige Leinenjacke mit feinen Seidenärmeln. Dieses Kleidungsstück, das gut zu jeder Profession passt, scheint für alle Gelegenheiten geeignet zu sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 3~
+@72  = ~grüne Robe~
+@73  = ~Um sich für die geleisteten Dienste als Führer und Beschützer erkenntlich zu zeigen und als einen Beweis der Freundschaft, verzauberte ein Magier grüne Roben für die Mitglieder seiner Eliteschutztruppe. Diese Umhänge gewähren magischen, als auch allgemeinen Schutz, sowie ein mehr an Geschicklichkeit. Und was auf gar keinen Fall unerwähnt bleiben darf: Sie unterstreichen die Augenfarbe der tragenden Person.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Getragen, wird der Rüstungsklassengrundwert auf 4 gesetzt.
+Magieresistenz +15%
+Geschicklichkeit +1
+Gewicht: 3~
+@74  = ~gelbes Alltagsmodell~
+@75  = ~Dies sind bequeme und robuste Stiefel für den Alltag. Sie sind gelb gefärbt und Aurora ließ sie zum Schutz gegen stumpfe Waffen verzaubern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn die Schuhe getragen werden, verbessert sich die Rüstungsklasse gegen stumpfe Waffen um zwei.
+Gewicht: 4~
+@76  = ~blaues Alltagsmodell~
+@77  = ~Dies sind bequeme und robuste Alltagsstiefel. Sie sind blau gefärbt und Aurora ließ sie zum Schutz gegen Hiebwaffen verzaubern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn die Schuhe getragen werden, verbessert sich die Rüstungsklasse gegen Hiebwaffen um zwei.
+Gewicht: 4~
+@78  = ~Schuhbox aus Birnenholz~
+@79  = ~Diese leichte aber stabile Box ist aus schön gemaserten Hartholz gefertigt und von Eisenbändern gefasst. Sie ist handlich und macht einen praktischen Eindruck auf euch.~
+@80  = ~Aurora entwarf diese Box, um ihren zahlreichen Schuhmodellen eine Heimat zu geben. Handlich und robust, gefertigt aus lackierten Birnenholz und mit Eisenbändern umschlungen. Ein befreundeter Zauberer legte Aurora der Box im geöffneten Zustand einen Zugang zu den Ebenen an, so dass sie dort eine erklägliche Anzahl ihrer zahlreichen Fußbekleidungen unterzubringen vermag, ohne das Gewicht der Box selbst zu verändern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Bietet 40 Paaren Schuhe platz.
+Gewicht: 2~
+@81  = ~Säurerapier +2~
+@82  = ~Dieser verzierte Korbschläger ist aus einer wenig gebräuchlichen Legierung von Adamantid und Bronze, die härter als Stahl ist, geschmiedet. Dem oxidierte Griff wurden Schnörkel eingeätzt und mit Gold und Silber wieder verfüllt, zusätzlich wurde ein Wappen aufgeprägt, das wir nicht zuordnen können.  Die Klinge vermag Dinge, die von ihr getroffen werden, zu verätzen,  sie selbst gibt sich säurefest. Niemand kennt ihren Ursprung, obwohl sie Gegenstand vieler Geschichten und Legenden ist. Bei Volk wie Piraten, Schatzjäger und hinterlistige Schurken ist die Klinge von je her heiß begehrt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2
+Schaden: 1W6+1 (Stichwaffe), +2 Säureschaden
+Gewicht: 3
+Initiativfaktor: 2
+Waffenfertigkeit: Kurzschwert
+Waffentyp: Einhändig
+Mindeststärke 5
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@83  = ~Entermesser +2, Die Nackte Angst~
+@84  = ~Der berüchtigte Dhavrag der Schwarze, die Geißel der Schwertküste, war einst Besitzer dieser furchteinflößend, gekrümmten Stahlklinge. Ohne Unterlass seinen Säbel führend, plünderte der Piratenfürst viele Küstendörfer zwischen Amn bis hinunter nach Tiefwasser, häufig in rasender Wut. Bedauerlich in seinem Sinne (und glücklich für den Rest der Welt), verlor er ihn in einem Kartenspiel, wo er in der sich anschließenden Kneipenkeilerei entwendet wurde, wobei Sieger und Besiegte dank des hohen Alkoholspiegels davon nichts bemerkt hatten. So Berüchtigt ist das Entermesser, dass eine Berührung genügen kann, um das Opfer in Panik zu versetzen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2
+Schaden: 1W6+2 (Klingenwaffe), 10%ige Möglichkeit, das Opfer in Panik zu versetzen und 10%ige Möglichkeit, dass der Träger in einen Berserkerrausch gerät.
+Erhöht die Geschicklichkeit um eins, wenn der Säbel getragen wird.
+Gewicht: 3
+Initiativfaktor: 3
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Waffentyp: Einhändig
+Mindeststärke 8
+Kann nicht verwendet werden von:
+-Klerikern
+-Magiern~
+@85  = ~Haselnußbrauner Ionenstein~
+@86  = ~Vom Grad der Welt bis zu den Wüsten des Südens bereiste einst der Säbelrassler Aloysius D'Abetot alle Länder, um sich alles, was nicht Niet und Nagelfest war, zusammenzuraffen. Auf seinen Raubzügen verließ er sich auf seinen planaren Glücksstein, um nicht den Kopf zu verlieren. Nach einem äußerst ausgedehnten Fischzug schlief er in einem Biergarten, von einer Schankmaid betreut, seinen Stein fest mit der Faust umschlossen (wie er dachte), ein. So kam es, wie es kommen musste, nach seinem Nickerchen, hatte der Stein Füße bekommen, wie er, wieder erwacht, feststellte, zusammen mit der Bedienung. Andererseits sind Aloysius Ausschweifungen schon lange vergessen und der Stein umschwirrt glücksgebend eine neue Persönlichkeit. Eigentümlicherweise sieht er eher wie eine Eichel aus.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern. Glück +1, wenn er getragen wird.
+Gewicht: 1~
+@87  = ~Siebenmeilenstiefel : "Die Pranken des Geparden"
+Diese verzauberten Stiefel waren früher Das Eigentum eines schrecklichen Mörders, der es genoss, seine Opfer zu jagen. Er bewegte sich mit einer solchen Geschwindigkeit, dass seine Gegner auch zu Pferd keine Chance hatten, ihm zu entkommen. Mit der Zeit wurde der Mörder immer berühmter, und obwohl sein Name unbekannt blieb, waren die letzten von seinen Opfern vernommenen Worte überall gefürchtet: "Verstecken könnt Ihr Euch, entkommen könnt Ihr nicht!"
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verdoppelt die Bewegungsrate, wenn sie getragen werden.
+Gewicht: 4~
+@88  = ~Stiefel der Vermeidung: "Sinne der Katze"
+Der Zauber dieser Stiefel war speziell dafür bestimmt, anfliegende Geschosse zu erkennen und ihrem Träger dabei zu helfen, diesen auszuweichen. Sie waren ursprünglich von dem Lehrer einer Schule für Bogenschützen in Auftrag gegeben worden, der keine "Unfälle" durch unerfahrene Schüler mehr erleben wollte.
+
+EIGENSCHAFTEN:
+
+Verbessert die Rüstungsklasse gegen Geschosswaffen um fünf, wenn sie getragen werden.
+Gewicht: 4~
+@89  = ~Stiefel der Bodenhaftung: "Talos Geschenk"
+Vor unzähligen Jahren wurde die Festung der Sternspitzenhalbinsel der Zerstörungswut von Talos ausgesetzt, als ein Sturmbote von hohem Ansehen dort ermordet wurde. Talos kündigte die Zerstörung der Stadt durch Erdbeben, ihre Isolierung durch Flutwellen und den Tod ihrer Bewohner durch Stürme an. Ein Paar dieser Stiefel wurde ausgehändigt, damit nur ein einziger Mann überleben würde, um die Geschichte dieses Grauens weiterzuerzählen. Später fanden Reisende, die in den Ruinen ihr Glück suchten, einen alten Mann, der den Verstand verloren hatte. Durch seine Stiefel gelang die Geschichte von einer Stadt, die dem Zorn eines Gottes zum Opfer gefallen war, in viele weit entfernte Länder.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Magieresistenz gegen Elektrizität wird auf 50% gesetzt, wenn sie getragen werden.
+Gewicht: 4~
+@90  = ~Rageschäfte~
+@91  = ~Rageschäfte: "Wut aus Ruathym"
+Valthjof of Ruathym war ein erfahrener Schamane der Tundrabarbaren. Seine Fähigkeiten waren derart enorm, dass er die Seelen von wilden Tieren, die er herbeigerufen hatte, in tote Materie überführen konnte. So verzauberte er einen Satz Stiefel für die Mannschaft des Langschiffes "Eisschlange". Die fiel über die Mondschein-Inseln im Süden her und setzte ihren Raubzug von dort aus fort. Ihr Blutdurst schien schier unstillbar, verknüpft mit der Berserkerwut, die in den Stiefel gebannt war, bis jedes Mannschaftsmitglied irgendwo in den entferntesten Ecken der Reiche niedergestreckt worden war.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeit: ein zusätzlicher Angriff pro Runde für 20 Sekunden.
+Nachteile: Rüstungsklasse verschlechtert sich um acht; Rettungswürfe +6; Diebes- und Magiefähigkeiten werden ausgesetzt.
+Gewicht: 3~
+@92  = ~Stiefel der Lichtgeschwindigkeit: "Fersengeld des Feiglings"
+Diese überarbeiteten Geschwindigkeitsstiefel waren dazu gedacht, die Bewegungsrate der tragenden Person, gegenüber den Originalen, noch weiter zu steigern. Werden sie geschnürt, ergibt sich der Effekt der normalen "Pranken des Geparden" plus dem eines Hastzaubers. Bedauerlicherweise verliert man derart beschleunigt die Fähigkeit zu zaubern oder anzugreifen. Ihr Spottname macht ihren Verwendungszweck deutlich: flüchten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Trägt man die Stiefel, wird die Bewegungsrate auf Maximum gesetzt.
+Nachteil: Angreifen und Zaubern sind nicht möglich.
+Gewicht: 3~
+@93  = ~Es war einmal ein Zauberer, der die Seelen steinerner Wächter in diese Stiefel bannte. Als er sein drittes Paar vollenden wollte, so erzählt man sich, wurde es dunkel, und eine befreundete Steinwächterin rächte sich stellvertretend für ihre Gefährten an dem Magier, dessen Namen niemand mehr erinnert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie getragen werden, wird man gegen hinterhältige Angriffe immun.
+Ruft zwei mal Steinhaut( zweischichtig) am Tag hervor.
+Gewicht: 1~
+@94  = ~Auroras ausgesuchte Abeteurergaloschen werden fuer Tutu installiert.~
+@95  = ~Auroras ausgesuchte Abeteurergaloschen werden fuer Baldurs Tor Trilogie installiert.~
+@96  = ~Auroras ausgesuchte Abeteurergaloschen werden fuer Baldurs Tor Schatten von Amn installiert.~
+@97  = ~Diese Modifikation ist mit Ihrem Spiel nicht lauffaehig. Bitte pruefen Sie, ob alles vollstaendig installiert wurde, und alles am rechten Platz ist.~
+@98  = ~Kriegsbotten~
+@99  = ~Diese Stiefel schützen gehärtete Metallplatten und sind in einem speziellen Verfahren mit Topasstaub emailliert worden. Sie sind aus "des Tapferen sein Schuh" und den "Gefechtsgaloschen" hergestellt worden. Dadurch gewähren sie Schutz gegen alle Formen der Furcht. Darüber hinaus hält die tragende Person in Schlachten noch eine extra Schippe, gegenüber den Gegnern, in "Händen".
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn die Schuhe getragen werden, ist man vor Furcht gefeit. ETW0 verbessert sich um zwei.
+Gewicht: 4~
+@100 = ~Für Euch sollte mein Schwert noch scharf genug sein!~ [AGAU001]
+@101 = ~Hier ist ständig was los!~ [AGAU002]
+@102 = ~In diesen Tretern? Könnt Ihr einpacken!~ [AGAU003]
+@103 = ~Ich habe meine Bodenhaftung nicht verloren!~ [AGAU004]
+@104 = ~Sakra!~ [AGAU005]
+@105 = ~Uff!~ [AGAU007]
+@106 = ~Schleicht Euch, solange Ihr noch Greten zum Krabbeln habt!~ [AGAU008]
+@107 = ~Das war knorke.~ [AGAU009]
+@108 = ~Lausig! Ich werde langsam nachlässig.~ [AGAU006]
+@109 = ~Sir Sarles und das Kunstwerk für den Tempel
+
+Unger Dunkelhügel hat mir mitgeteilt, dass seine letzte Lieferung Illithium von einem Zwerg namens Neb gestohlen wurde. Unger ist es unmöglich, sich sein Illithium wieder zu beschaffen, da in Athkatla wohl keiner dem Wort eines Duergar Glauben schenken würde. Falls ich an echtes Illithium herankommen will, muss ich diesen Gauner wohl persönlich zur Strecke bringen. Unger hat mir gesagt, dass sich Neb ein Haus im Brückenviertel gekauft hat, das als "Verfallenes Haus" auf der Karte markiert ist. Der Name dieses Gauners kommt mir seltsam vertraut vor. ~
+@110 = ~Sir Sarles und das Kunstwerk für den Tempel
+
+Ich konnte den Künstler Sir Sarles überzeugen, für den Tempel zu arbeiten, obwohl dies wahrhaft keine leichte Aufgabe war. Er hat darauf bestanden, nur mit reinem Illithium zu arbeiten, das ich von einem mörderischen Gnom namens Neb beschaffen musste. Jetzt ist die Aufgabe glücklicherweise vollbracht.~
+@111 = ~Bitte verlasst mein Haus, ja? Ich bin ein ehrbarer Bürger. Nur ein Gnom, der sich so durchschlägt.~
+@112 = ~Typisch für diese Stadt. Ich bin nur ein armer Geschäftsmann, aber ich werde schon für ein beschattetes Gesicht eingesperrt. Dieser Bastard, der mich ausgeraubt hat, sieht wie ein Gnom aus, und schon wird er mit offenen Armen empfangen.~
+@113 = ~Das ist der Kopf von Neb. Er war wohl einer der widerwärtigsten Kerle, die sich je in den Reichen herumgetrieben haben.~
+@114 = ~Ich habe den Kopf des Gnomes Neb, dem Kindsmörder. Für diesen Dienst erwarte ich allerdings eine Belohnung.~
+@115 = ~Ich habe den Kopf des Gnomes Neb, dem Kindsmörder. Für seinen Tod erwarte ich allerdings eine Belohnung.~
+@116 = ~Ich habe den Kopf eines Verbrechers hier, einem Gnom namens Neb. Seid Ihr die Ansprechperson?~
+@117 = ~<CHARNAME>! Das... das ist dieser Gnom, dieser Kindermörder aus Baldurs Tor! Ich erinnere mich! Im Namen des großen Gleichgewichts müssen wir den Gerichten seinen Kopf bringen!~
+@118 = ~Boo erinnert sich! Baldurs Tor! Neb, der Kindermörder! Stirb, Gnom, stirb! RAAAAGGGHHHH!!!~
+@119 = ~Ich erkenne Euch! Baldurs Tor! Neb, der Kindermörder! Stirb, Gnom, stirb! RAAAAGGGHHHH!!!~
+@120 = ~Karaea Harfurthock~
+@121 = ~Und ich dachte, Ihr würdet nie fragen!~ [AGKA001]
+@122 = ~Ich bin müde. Und ich sollte dringenst meine ... Schuhe wechseln.~ [AGKA002]
+@123 = ~Seid bereit! Gleich zwiebelt's!~ [AGKA003]
+@124 = ~Durchbrechen! Breche durch!~ [AGKA004]
+@125 = ~Unghhh!~ [AGKA005]
+@126 = ~Wirklich?!~ [AGKA006]
+@127 = ~Unghh ... Wenn's mich verreisst, red' ich kein Wort mehr mit Euch!~ [AGKA007]
+@128 = ~Ich komme gleich!~ [AGKA008]
+@129 = ~Ja?~ [AGKA009]
+@130 = ~*kichernd* Da hab' ich mich selbst überrascht!~ [AGKA010]
+@131 = ~Ups! Das wollt ich wirklich nicht!~ [AGKA011]
+@132 = ~Uh! Jetzt kann ich noch mal von vorne beginnen!~ [AGKA012]
+@133 = ~Karaeas Marmeladen und Schuhe~
+@134 = ~Tomthal Harfurthock~
+@135 = ~Grummel.~ [AGTO001]
+@136 = ~Ich hack' Euch in Stücke!~ [AGTO002]
+@137 = ~Sterbt, Ihr geiler Gockel!~ [AGTO003]
+@138 = ~Ich ziehe Euch Euer bräges Hirn durch die Nase!~ [AGTO004]
+@139 = ~Uff.~ [AGTO005]
+@140 = ~Ach ...~ [AGTO006]
+@141 = ~Watt, Swienkrom.~ [AGTO007]
+@142 = ~Nun?~ [AGTO008]
+@143 = ~Und?~ [AGTO009]
+@144 = ~Heh heh heh. Nimm das!~ [AGTO010]
+@145 = ~Bah!~ [AGTO011]
+@146 = ~Verflucht!~ [AGTO012]
+@147 = ~Vergifteter Wurfdolch~
+@148 = ~Toboggan~
+@150 = ~Gnomenschlappen~
+@151 = ~Diese Stiefeletten sind aus dauerhaftesten Leder gefertigt. Der Zehenteil ist etwas nach oben gebogen und die Sohlen sorgen für einen sicheren Tritt, egal ob man sich über oder unter der Erde befindet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wenn sie getragen werden, ist man immun gegen Schmieren, Netz- und Festhaltezauber.
+Gewicht: 2~
+@152 = ~Rubin~
+@153 = ~Der Rubin ist eine blassrote bis dunkelrote Varietät des Minerals Korund, dessen Härte gleich hinter Diamant liegt. Je tiefer der Rotton, desto wertvoller ist er, womit sich die lohnenderen Formen leicht bestimmen lassen. Die wertvollsten Steine werden tief im Erdreich geschürft. Dem Aberglaube in der Region um den See des Sternenregens zu folge, gelten Rubine gemeinhin als Glücksbringer. Für magische Experimente werden sie gerne zu Pulver verarbeitet, und so unter anderem zu Tinten angerührt. Sie werden mit dem Kampf gegen Untote in Verbindung gebracht und den Gegenständen, die mit Rubinen geschmückt, dafür eingesetzt werden.~
+@154 = ~Trapiche-Rubin~
+@155 = ~Dieser hervorragende Rubin ist ein Stein von unermesslichem Wert. Der sternenförmige Leuchteffekt dreht sich mit dem rotierenden Stein in immer neue Positionen. Dabei werden blutrote Strahlen in alle Richtungen gesandt. Ein Kleinod von dieser Seltenheit und Schönheit könnte einen soliden Preis erzielen.~
+@156 = ~Pickel~
+@157 = ~Dies ist eine waffengängige Version des Werkzeugpickels. Er besteht aus einem schweren panzerbrechenden Widerhaken auf einem Holzstil. Damit lassen sich schwerere Rüstungen, selbst Plattenpanzer, in einer Auseinandersetzung durchbohren.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Durchbohren)
+Gewicht: 6
+Initiativefaktor: 7
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Erfordert: 8 Stärke
+Kann nicht verwendet werden von:
+- Druiden
+- Priestern
+- Zauberkundigen
+- Dieben~
+@158 = ~Svirfneblin Spitzhacke~
+@159 = ~Die Tiefengnome sind aus guten Gründen Stolz auf diese Waffen: Damit lassen sich kostbare Edelsteine dem Erdreich abringen. Darüber hinaus eignen sie sich trefflich, um schwere Rüstungen, selbst Plattenpanzer, zu durchstoßen. Der Waffenkopf der Svirfneblinspitzhacke ist aus einer festen und leichten Legierung unbekannter Zusammensetzung gefertigt. Dieses Metall behält selbst nach intensiver Schürfarbeit oder Schlachten seine scharfe Spitze bei.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +1 (Durchbohren)
+ETW0: +1
+Gewicht: 5
+Initiativefaktor: 6
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Erfordert: 7 Stärke
+Kan nicht verwendet werden von:
+- Druiden
+- Priestern
+- Zauberkundigen
+- Dieben~
+@160 = ~Svirfneblin Knüttel~
+@161 = ~Diese ungewöhnliche Waffe ist eine Mischung aus Keule, Streitkolben und einem Hauch Morgenstern. Ihr kugeliger Kopf ist mit Knubben in unterschiedlichen Größen beschlagen, mit denen die Tiefengnome  Feinarbeiten an den geschürften Mineralien und Steinen vornehmen. Waffenkopf und Schaft sind aus einem Stück einer Metalllegierung gezogen und es fehlen die Schlagblätter eines Streitkolbens. Dadurch wirkt sie mehr wie eine Keule als eine der verwandten Waffen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Stumpfewaffen)
+ETW0: +1
+Gewicht: 3
+Initiativefaktor: 3
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Erfordert 5 Stärke
+Kann nicht verwendet werden von:
+- Zauberkundigen~
+@162 = ~Diese Flasche enthält ein Gebräu von unbekannter Herkunft. Man erzählt sich von einem Abenteurer aus Scornubel, der mutig an einem fremden Gesöff nippte, das sich als hausgemachter Pilzlikör aus dem Scharfzahnwald entpuppte. Für zehn Jahre ward er nicht mehr gesehen, als er in einer Fischerhütte auf der Insel Schneereich mit totaler Amnesie wieder auftauchte. Wir können nur hoffen, dass es sich hierbei nicht um ein derartiges Getränk handelt, aber wir wären auf der sicheren Seite, wenn es vor dem ersten Zug identifiziert wäre.~
+@163 = ~Gogondy~
+@164 = ~Diese gezogene Eisenflasche ist mit einem Steinpropfen verschlossen und unbekannte Schriftzeichen der Svirfneblin zieren sie. In ihr befindet sich ein unbekannter, tiefroter Trank, dessen Bouquet zu Kopfe steigt. Die Tiefengnome schätzen seine mystischen Kräfte, welche den Horizont anderer Völker weit übersteigen.
+
+EIGENSCHAFTEN:
+
+unbekannt
+Gewicht: 1~
+@165 = ~Diese gezogene Eisenflasche ist mit einem Granatpropfen verschlossen und mit unbekannte Schriftzeichen der Svirfneblin verziert. In ihr befindet sich ein unbekannter, tiefroter und scharf riechender Trank. Die Tiefengnome schätzen ihn für die Kraft Visionen zu verleihen. Dieser spezielle Verschnitt ist verwässert worden, damit auch andere Völker von den Visionen profitieren können, die in dem Getränk stecken. Die Visionen sind auf die jeweilige trinkende Person abgestimmt.
+
+EIGENSCHAFTEN:
+
+unbekannt
+Gewicht: 1~
+@166 = ~Erdbeerwein~
+@167 = ~Dies ist ein Spitzenjahrgang, der vor zehn Jahren, im Jahr des Wurmes (1356), aus Früchten, die von Kulturpflanzen am Ufer des Sees Esmel stammen, gekeltert worden ist. Sehr herb für einen Beerenwein, ist sein Abgang spritzig mit Spuren von Nelke und Orangenschalen. Sein Aroma assoziiert man mit frischen Erdbeeren, getrocknetem Eichenholz und einem Gefühl von Frühlingsregen. Geschmackvoll und mit mittlerem Körper, gibt er einem die seltene Gelegenheit in tiefster Wildnis zu entspannen. Er wird zu Calimshanfasan wärmstens empfohlen.
+
+EIGENSCHAFTEN:
+
+Trunkenheit +20% für drei Phasen
+Immun gegen Furcht für drei Phasen
+Charisma +1 oder -1 (50% Chance für das eine oder das andere)
+Gewicht: 1~
+@168 = ~Beeren~
+@169 = ~Die unterschiedlichsten Beerenformen und solche, die man für Beeren hält, wachsen auf Toril, als da wären die überall wuchernden Brombeeren bis hin zu den sehr selten anzutreffenden Solikbeeren. Manch Beere ist giftig, darum sollte man sie vor dem Verzehr genau bestimmt haben.~
+@170 = ~Stachelbeeren~
+@171 = ~Stachelbeeren sind autochthone Gewächse in West-Faerûn und kommen von Tiefwasser über Chult bis in den tiefsten Osten vor. Sie sind roh verzehrt gemeinhin herb, bitter und sauer im Geschmack, werden aber dank ihrer Inhaltsstoffe gern gegessen. Viele Faerûner essen sie vom Strauch weg oder verarbeiten sie in Kuchen, Torten oder Marmeladen.
+
+EIGENSCHAFTEN:
+
+50% Chance, dass 5 Trefferpunkte geheilt werden.
+25% Chance,dass die Erschöpfung um 50% zurückgeht.
+25% Chance,dass für eine Phase ein Trefferpunkt pro Runde geheilt wird.
+Gewicht: 0~
+@172 = ~Kuchen~
+@173 = ~Kuchen sind stattliche Backwaren, die gemeinhin mit Früchten belegt oder gefüllt werden. Darüber hinnaus gibt es noch eine Vielzahl an Variationen, die mit z.B. Butterkrem, Gewürzen oder noch exotischeren Zutaten hergestellt werden. Dieser hier sieht appetitlich aus und riecht auch so.~
+@174 = ~Stachelbeertorte~
+@175 = ~Karaeas Lieblingskuchen rührt von einem Rezept her, das sie kurz nach ihrer Ankunft an der Oberfläche lernte. Davon ausgehend, veränderte sie die Machart derart, dass man ohne Frage von ihrem eigenen Rezept sprechen kann. Diese Torte mundet schon mit dem ersten Bissen.
+
+EIGENSCHAFTEN:
+
+Erschöpfung wird auf 0 gesetzt.
+Regeneriert einen Trefferpunkt pro Runde für fünf Phasen.
+Rettungswurfbonus von 5 für fünf Phasen.
+Gewicht: 1~
+@176 = ~Marmeladenbrot~
+@177 = ~Diese frische Brotscheibe ist mit reichlich Butter und einem gehörigen Klacks Marmelade versehen. Es ist eine einfache, erfrischende Gaumenfreude.
+
+EIGENSCHAFTEN:
+
+Erschöpfung wird um 50% reduziert.
+Gewicht: 1~
+@178 = ~Marmelade~
+@179 = ~Dies ist ein Glas Marmelade. - In allen möglichen Geschmacksrichtungen, solange man nicht kostet!~
+@180 = ~Apfelmus~
+@181 = ~Knackige, säuerliche Äpfel, die im Spätherbst geerntet wurden, und mit Karaeas geheimer Würzmischung (eine, die fraglos mehr als eine Spur von Muskat enthält) zu einem sublimen Mus eingekocht worden sind. Öffnet der Reisende das Glas, erfreuen einen sofort Gedanken an Daheim, Kaminfeuer und Familie.
+
+EIGENSCHAFTEN:
+
+Heilt Krankheiten.
+Halbiert den Trunkenheitszustand um die Hälfte.
+Gewicht: 1~
+@182 = ~Brombeermarmelade~
+@183 = ~Brombeeren wachsen im nördlichen Faerûn fast überall wild, wodurch sich der anspruchsvolle Marmeladenmacher auf die süßesten Früchte konzentrieren kann. Nur die dunkelsten, reifsten Sammelsteinfrüchte sind für diesen außergewöhnlichen Aufstrich - die vollkommene Marmelade - verwendet worden.
+
+EIGENSCHAFTEN:
+
+Heilt Vergiftungen.
+Gewicht: 1~
+@184 = ~Heidelbeermarmelade~
+@185 = ~Dieser Strauch ist von den Entdeckern Mazticas eingeführt worden. Die Heidelbeeren verbreiteten sich danach schnell an der nördlichen Schwertküste. Marmeladenmacherinnen und Macher nahmen die Früchte sofort in ihr Repertoir auf. Ein außergewöhnliche süße Ernte, direkt vom Feld, war Basis dieses  köstlichen Brotaufstrichs. Süß, mit einem Hauch erquickender Säure, enrgetisiert er euch sobald ihr auch nur davon kostet.
+
+EIGENSCHAFTEN:
+
+Konstitution +1 für zwei Phasen.
+Heilt Schwachsinn.
+Gewicht: 1~
+@186 = ~Gutebeerenmus~
+@187 = ~Eine patente Mischung aus Zauberenergie und Kochkunst führt direkt zu diesem schmackhaften Mus. Ein Löffel und ihr fühlt euch besser als zuvor.
+
+EIGENSCHAFTEN:
+
+Heilt 18 Trefferpunkte.
+Gewicht: 1~
+@188 = ~Preiselbeermarmelade~
+@189 = ~Preiselbeeren wachsen in kühleren Klimata, wie z.B. auf den Mondscheininseln und im Eiswindtal. Die roten Beeren sind recht sauer, ergeben mit Zucker eingekocht jedoch hervorragende Marmeladen, Säfte und Sirupe. Leute aus diesen kühlen Regionen loben die Früchte für ihre gesunden Inhaltsstoffe.
+
+Karaea begann erst vor Kurzem, anhand von Rezepten anderer, mit diesen Früchten zu experimentieren. Als Resultat erwartet euch ein schwer zu widerstehender Brotaufstrich, der euer Herz erwärmt. (Sofern ihr überhaupt eins besitzt.)
+
+EIGENSCHAFTEN:
+
+Die Kälteresistenz wird für zwei Phasen um 65 Prozentpunkte gesteigert.
+Es besteht eine 5%ige Chance, dass man für zwei Runden seine Kontenance verliert und zum Berserker wird.
+Gewicht: 1~
+@190 = ~Maulbeerkonfitüre~
+@191 = ~Eigentlich vermutet man den Ursprung des Maulbeerbaumes im sonnigen Süden, jedoch ist sein Verbreitungsgebiet derart angewachsen, dass seine genaue Herkunft heute nicht mehr bestimmt werden kann. Diese süße, dunkle Konfitüre lässt euch das Wasser im Mund zusammenlaufen.
+
+Unglücklicherweise sind die reifen Früchte zwar eine gesunde Nascherei, verursachen bisweilen die unreifen Halluzinationen. Es schlummert ein Risiko für euch in dieser Konfitüre.
+
+EIGENSCHAFTEN:
+
+Die Feuerresistenz wird für zwei Phasen um 65 Prozentpunkte gesteigert.
+Es besteht eine 5%ige Chance, dass man für zwei Runden dem Schrecken anheimfällt.
+Gewicht: 1~
+@192 = ~Himbeermarmelade~
+@193 = ~Dieser Scheinstrauch stammt ursprünglich aus dem fernöstlichen Koryo und dem Ama-Becken. Schrittweise dehnte sich die Himbeere nach Westen aus und wurde eine der beliebteren Früchte auf Faerûn. Die Marmelade ist aus den besten rubinroten Sammelsteinfrüchten, geerntet auf der Höhe ihrer Süße. Erinnerungen an heiße Sommertage gehen mit dem Aufstrich einher. Positiv wirkt er auf die Durchsicht der Esserinnen und Esser.
+
+EIGENSCHAFTEN:
+
+Gewährt Infravision für zwei Phasen.
+Heilt Blindheit.
+Gewicht: 1~
+@194 = ~Erdbeerkonfitüre~
+@195 = ~Seit diese wohlschmeckende Frucht aus Maztica eingeführt worden war, gehört sie zu den beliebtesten. Volk jeglicher Couleur verwenden sie Aufgrund ihrer Klasse in Konfitüren, Kuchen, Torten und selbst für das Keltern. Dieser Brotaufstrich, gekocht aus den reifsten und rotesten Sammelnussfrüchten, schmeckt selbst dem abgestumpftesten Gaumen.
+
+EIGENSCHAFTEN:
+
+Die Säureresistenz wird für zwei Phasen um 50 Prozentpunkte gesteigert.
+Gewicht: 1~
+@196 = ~Bocksdornbeerenmarmelade~
+@197 = ~Die Bocksdornbeere ist in Shou Lung beliebt, wo sie als Zutat für Milchreis bzw. Grundlage für Biere oder Tees dient. Die hellroten Früchte sind mittlerweile auch in den westlichen Regionen Faerûns angekommen. Der Bocksdorn wächst dort wild in lichten Bereichen und kann, abgesehen von seiner Bedornung, leicht von Reisenden oder Einkochexpertinnen abgeerntet werden.
+
+EIGENSCHAFTEN:
+
+Es besteht eine 75%ige Chance, dass Geringere Genesung auf einen gewirkt wird.
+Es besteht eine 10%ige Chance, dass die Erschöpfung um 25% Punkte zunimmt.
+Gewicht: 1~
+@198 = ~Rapier~
+@199 = ~Das Rapier hat eine zweischneidige, spitze Klinge und einen Schutzkorb am Griff. Es ist als leichte Stoßwaffe konzipiert. Mit dem Begriff Rapier versucht man Schmuckwaffen oder Waffen der Zivilbevölkerung von den schwereren und tödlicheren Schwertern von Soldaten und Söldnern zu scheiden. Rapiere sind bei Adligen und teilweise bei Duellanten und Fechtsportlerinnen und -sportlern beliebt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6+1 (Stichwaffe)
+Gewicht: 4
+Initiativfaktor: 4
+Waffenfertigkeit: Kurzschwert
+Waffentyp: Einhändig
+Mindeststärke 5
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@200 = ~Entermesser~
+@201 = ~Dieses Entermesser hat eine einschneidig gebogene, breite Klinge, die mit einem Griffkorb verbunden ist. Die Klinge ist kurz aber schwer. Dieser Waffentyp wird von Piraten geschätzt und lässt sich leicht in Hafenstädten auftreiben. Im Inland hingegen findet man das Entermesser selten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Klingenwaffe)
+Gewicht: 4
+Initiativfaktor: 5
+Waffenfertigkeit: Scimitar/Wakizashi/Ninja-To
+Waffentyp: Einhändig
+Mindeststärke 8
+Kann nicht verwendet werden von:
+- Klerikern
+- Magiern~
+@202 = ~gewichtiger Sack~
+@203 = ~Dieses seltsam anmutende Ledersäckchen ist mit etwas Schwerem befüllt, möglicherweise mit Bleikügelchen. Es ist am Hals zugeknotet und bildet damit einen sich anschließende Halteschlaufe. Aufgrund der Größe und seiner Form eignet es sich eher als Waffe, denn als Behältniss für Kostbarkeiten.~
+@204 = ~Totschläger~
+@205 = ~Diese Waffe ist unter vielen Namen bekannt - der gebräuchtlichste ist Totschläger, aber hier und da finden sich auch "Scheitelzieher", "Entsafter" oder selbst "Lebensretter", benutzt von denjenigen, die mit seiner Handhabung vertraut sind. Diese kleine, leicht zu verbergende Waffe besteht aus einem Bleigewicht, das in Leder gewickelt ist, und einer dehnbaren, federverstärkten Lederschlaufe am jüngeren Ende. Richtig geführt, verursacht der Totschläger geringen Schaden, und betäubt die Opfer anstatt sie zu töten. Demzufolge wird der Knüttel gerne als "humanisierende Annäherungsweise" an die unglücklichen Opfer von Raubüberfällen, seitens der Ganoven betrachtet, wenn sie zwar Wertsachen entwenden, aber nicht gleich zum Mörder werden wollten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W3-1 (Fäuste), 25% Chance das Opfer bewusstlos zu schlagen.
+ETW0: +2
+Gewicht: 5
+Initiativfaktor: 5
+Waffenfertigkeit: Keule
+Waffentyp: Einhändig
+Mindestgeschicklichkeit: 10~
+@206 = ~Dietrich~
+@207 = ~Dietriche sind wichtiges Diebeswerkzeug. Sie werden aus geeigneten Metallen als kleine, schmale Stifte mit verschiedenen Einkerbungen und Biegungen angefertigt, um in Abwesenheit des Besitzerschlüssels Schlösser öffnen zu können.~
+@208 = ~bronzener Dietrich~
+@209 = ~Dies ist ein kleiner, schlanker und an einem Ende abgeflachter einfacher Bronzehaken. Er ist ein unverzichtbares Werkzeug für den gewandten Dieb, der gerne mal ein Schloss öffnet, ohne den dazu passenden Schlüssel parat zu haben. Mit ihm lassen sich einfach konstruierte Schlösser gut öffnen, aber er  versagt wohl möglich schon bei Verschlüssen mittlerer Qualität, es sei denn, der "Schlosser" oder die "Schlosserin" ist äußerst versiert in dieser Kunst.
+
+EIGENSCHAFTEN:
+
+Plus zehn Prozentpunkte in Schlösseröffnen, wenn er getragen wird.
+Mindestgeschicklichkeit: 10
+Benutzbar von:
+- Dieben~
+@210 = ~eine Maske~
+@211 = ~Masken bedecken für gewöhnlich die Augen oder manchmal auch das ganze Gesicht. Damit ist eigentlich der Versuch gemeint, die Identität der tragenden Person vor allzu neugierigen Blicken zu verbergen. Andere Masken werden zum Schutz oder für rituelle Zwecke getragen, und haben dann zu bestimmten Feiertagen oder in priesterlichen Zeremonien eine Rolle inne.~
+@212 = ~Schattenmaske~
+@213 = ~Ohne Frage, ist der beste Weg sich vor Verfolgung zu schützen, sich ungesehen zu machen. Diese bestickte Maske vermag einen Dweomer über des Diebes aktuellen Aufenthaltsort zu legen. Mit diesem Zauber gebietet man gewöhnlichen Person nicht ein zweites Mal auf die Trägerin oder den Träger zu schauen, ein Vorteil von beträchtlichen Wert für alle diebischen Berufe. Er wirkt allerdings nur begrenzt, bis Passanten die Täuschung wieder durchschauen und hat die Eigenschaft sich über kurz oder lang ganz zu verflüchtigen.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern. Im Schatten verstecken wird um 50% Punkte erhöht.
+Gewicht: 1
+Benutzbar von:
+- Dieben
+
+~
+@214 = ~Armreif~
+@215 = ~Ein Armreif ist ein Schmuckstück, das um das Handgelenk getragen wird. Typischerweise werden sie aus Metallblechen oder -ketten geformt; andere werden aus Perlenketten oder anderen Edelsteinen gebildet. Gelegentlich werden Armbänder mit Schutzzaubern belegt.~
+@216 = ~Weisheitreif~
+@217 = ~Dieses silberne Perlkettenarmband vermutet man, wurde von den Meerelfen Tiefrunter Sashelas, Fürst der Unterwasserwelt, geweiht. Der Trägerin oder dem Träger gewährt es einen Weisheitsbonus von eins. Darüber hinaus vermag man drei mal am Tag Krankheiten zu heilen.
+
+EIGENSCHAFTEN:
+
+Weisheit +1, wenn angelegt. Heilt Krankheiten drei mal pro Tag.
+Gewicht: 1~
+@218 = ~Bastardschwert +2, Eisigklinge~
+@219 = ~Diese exakt ausgearbeitete, fast ein Meter fünfzig lange Klinge lässt einen frösteln, wenn man sie berührt. Seltsame Runen, die entlang der Hohlkehle in die Klinge eingearbeitet worden sind und an der Parierstange beginnen, erzählen eine unbekannte Geschichte in der Sprache des Nordens. Die Runengeschichte verleiht der tragenden Person Eigenschaften aus dem Herkunftsgebiet dieser Waffe. Das Anderthalbhand Heft ist stramm, aufsteigend mit einem Lederstreifen umwickelt und am Ende mit einem Eisenknauf in Form eines Medaillons ausbalanciert.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4+2 (Klingenwaffe); 10%ige Chance eines weiteren Kälteschadenspunktes.
+ETW0: +2
+Rüstungsbonus: +1
+Wenn die Waffe geführt wird, erhöht sich die Kälteresistenz um zehn Prozentpunkte.
+Gewicht: 7
+Initiativfaktor: 6
+Waffenfertigkeit: Bastardschwert
+Waffentyp: Einhändig
+Mindeststärke: 11
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@220 = ~Brosche~
+@221 = ~Broschen sind zierende Bijouterie und für das Tragen an Gewändern in der Nähe des Halses entworfen worden. Die meisten Fibeln werden aus Metallen gefertigt, häufig aus Silber oder Gold, manchmal aber auch aus Bronze oder anderen Materialien. Sie sind häufig mit Edelsteinen verziert oder mit einer Emailleschicht überzogen. Es soll sogar Leute gegeben haben, die beide Veredlungsarten kombiniert trugen. Sie mögen allein der Zierde dienen oder eine bestimmte Funktion übernehmen, wie z.B. als Mantelschließe. Einige Broschen sind sogar für besondere Zwecke verzaubert worden.~
+@222 = ~Tempusfibel~
+@223 = ~Diese kunstvolle Fibel ist als geflochtene Nadel, die ein furchteinflößeder Kopf ziert, gearbeitet. Daran ist ein kaltgedrehter Wendel befestigt, dessen Enden zwei weitere Gesichter schmücken. Das gesamte Stück ist aus Bronze gefertigt und mit Gold überzogen. Seine Ausformung legt den Gebrauch als Mantel- oder Kleidverschluss nahe. Die Spitze der Fibel erinnert vage an ein Flammenschwert oder -dolch. Ihre Machart stellt ein Glaubensbekenntnis in Tempus dar. Einigen seiner elite Schlachtenwächtern sagt man nach, derartige Fibeln zu tragen, so dass sich der Fürst der Schlachten nicht lumpen lässt, indem er seinen treusten Anhängern ein wenig geistig unter die Arme greift.
+
+EIGENSCHAFTEN:
+
+Wenn sie getragen wird, erhält die Priesterperson einen zusätzlichen Zauber des zweiten Grades.
+Erfordert mindestens 14 Weisheit.
+Kann nur verwendet werden von:
+- Priestern mit neutraler oder chaotischer Gesinnung ~
+@224 = ~Schlachtenbeil +2, Rüstungskneifer~
+@225 = ~Dieses Beil aus dem hohen Norden ist geringfügig schwerer als ein Gürtel- oder Handbeil. Dem altertümlichen Blatt ist ein verschnörkeltes Muster eingraviert. Der Klingenbart wurde auf der Unterseite verlängert, um ihn, für seine Hackaufträge, die nötige Durchschlagskraft zu verleihen. Mit diesem Fortsatz lässt sich prima an Gegnerschilden zerren. Die Kämpferinnen und Kämpfer aus dem Norden schmücken ihre Waffen mit Runen, die sie als Halterinnen oder Halter ausweisen. Weil diese Nordleute von der magischen Kraft ihrer Runen überzeugt sind, erhalten ihre Waffen in Schlachten eine höhere Wirksamkeit.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+2 (Klingenwaffe); 5%ige Chance Schild oder Gliedmaßen des Feindes zu behaken.(Rüstungsklasse +1 über fünf Runde für das Opfer)
+ETW0: +2
+Rüstungsbonus: +1
+Gewicht: 5
+Initiativfaktor: 5
+Waffenfertigkeit: Axt
+Waffentyp: Einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
+@226 = ~Nordhelm~
+@227 = ~Ein verschnörkeltes, eingeprägtes Muster über Glocke und Nasenschutz ziert dieses handwerkliche Meisterstück von einem Helm. Die klappbaren Wagenschutzplatten sind mit traditionellen Wolfsmustern verschönert worden. Dieses außergewöhnliche Stück spielt in den Zeremonien der Nordländer eine herausragende Rolle.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern, wenn er getragen wird und steigert die Kälteresistenz um 25 Prozentpunkte.
+Rüstungsbonus: 0
+Gewicht: 2
+Kann nicht verwendet werden von:
+- Magiern
+- Dieben~
+@228 = ~Stab der Insektenplage +2~
+@229 = ~Dieser außergewöhnlich knorrige Stab ist aus zwei verschiedenen Hölzern gefertigt worden, die offensichtlich neben und ineinander gewachsen waren. Auf dem Großteil seiner Länge sind sorgfältig ausgearbeitete Schnitzereien von fliegenden, stechenden und beißenden Insekten, wie z.B. Bienen, Goldaugenbremsen, Pferdefliegen, Wespen und dergleichen, zu bestaunen. Kleriker- und Druidencharaktäre, die den Stab führen, sind in der Lage einen Insektenschwarm mit den abgebildeten Kreaturen herbeizurufen, indem sie eine Ladung des Stabes verbrauchen.
+
+EIGENSCHAFTEN:
+
+Fähigkeiten (eine Ladung):
+ Insektenplage: Ein Trefferpunkt Schaden alle 2 Sekunden für 6 Runden.
+ Besonderheit: Zauberpatzer; Furcht
+ Reichweite: Sicht
+
+Schaden: 1W6+2 (Wuchtwaffe)
+ETW0: +2
+Gewicht: 3
+Initiativfaktor: 2
+Typ: zweihändig
+Erfordert: 5 Stärke
+Verwendbar von:
+- Klerikern
+- Druiden~
+@230 = ~Immunitätsreif~
+@231 = ~Dieser Ring garantiert Immunität gegen Zauber, Angriffe und Enthüllungen aller Art für dauerhaft unsichtbare Geschöpfe.~
+@232 = ~Feiner Wundertrank~
+@233 = ~Von allen Geschichten über bemerkenswerte Magiekräfte aus Halruaa, die an unsere Ohren drangen, sind die Erzählungen über die Feinen Wundertränke, die herausragendsten. Das erste Feine Wundertrank Gebräu könnte durchaus in Netheril selbst angemischt worden sein. Unabhängig von ihren Ursprüngen steckt in diesen Flüssigkeiten Unberechenbarkeit, was sie zu einem unattraktiven Wagnis werden lässt. Das Rezept ihrer Herstellung ist wahrscheinlich verloren gegangen und vergessen worden. Hier und da tauchen verschütt gegangene Flaschen dieser unvorhersehbaren Flüssigkeiten auf.
+
+Der Feine Wundertrank ist eine durchsichtige, aquamarinfarbene Flüssigkeit, die unaufhörlich glitzert und wirbelt. Schmecken soll sie wie Chiliwein. Die möglichen Auswirkungen dieser Tränke rangiert von sofortigem Tod bis hin zu permanenten Attributssteigerungen.
+
+Speziell: zufälliger permanenter Effekt
+Gewicht: 1~
+@234 = ~Schuhkiste in Mahagoni~
+@235 = ~Karaea entwarf diese Box, um ihren zahlreichen Schuhmodelle verstauen zu können. Handlich und robust, gefertigt aus lackiertem Mahagoniholz und mit Eisenbändern umschlungen. Ein befreundeter Zauberer legte ihr, im geöffneten Zustand der Box, einen Zugang zu den Ebenen an, so dass dort eine solide Anzahl Schuhe gelagert werden können, ohne dass sich das Gewicht der Box verändert.
+
+EIGENSCHAFTEN:
+
+Bietet 40 Paaren Schuhe platz.
+Gewicht: 2~
+@236 = ~Elfenbeinschuhbehälter~
+@237 = ~Dieser Behälter ist für den Einsatz als Schuhstauraum entworfen worden. Handlich und robust, gefertigt aus lackierten Elfenbein und mit Eisenbändern gestützt. Ein Zauberer legte, im geöffneten Zustand der Kiste, einen Zugang zu den Ebenen an, so dass eine beachtliche Anzahl Schuhe ausgelagert werden können, ohne dass sich das Gewicht der Box verändert.
+
+EIGENSCHAFTEN:
+
+Bietet 40 Paaren Schuhe platz.
+Gewicht: 2~
+@238 = ~Wuchtwaffen-Jahrmarktstand~
+@239 = ~Schwarze Lilys Laden~
+@240 = ~Geschäft der Stille~
+@241 = ~Feinen Tach auch!~ [T-SVA01A]
+@242 = ~Ja.~ [T-SVA01B]
+@243 = ~Ich muss dringend mit Euch reden.~ [T-SVA01C]
+@244 = ~Ho ha ha ha!~ [T-SVA01D]
+@245 = ~Mach den Abschaum fertig! Zieh Ihnen das Fell über die Ohren!~ [T-SVA02A]
+@246 = ~Verdammte Scheiße!~ [T-SVA02B]
+@247 = ~Meine Künste werden Euch austilgen!~ [T-SVA02C]
+@248 = ~Sterbt!~ [T-SVA02D]
+@249 = ~Servus!~ [T-SVA03A]
+@250 = ~Goblinpuschen~
+@251 = ~Vor über einhundert Jahren bezauberte die Goblinschamanin Kemunshalzeka einen furchteinflößenden Vampirwolf, damit er ihr diene. In einem knallharten Gefecht mit Waldelfen wurde der Wolf von einem Hagel verzauberter Pfeile getötet. Kemunshalzeka besiegte die Elfen mit ihrer mächtigen Magie und zog dem Wolf nach der Schlacht das Fell über die Ohren, um daraus diese Schuhe zu nähen. Freilich konnte all das nicht den Untoten Geist des Wolfes vernichten. Genau genommen, kann die tragende Person den Wolf herbeirufen, wenn es ihr nützlich erscheint. Solte der Wolf im Kampfe fallen, kann er nach einem darauf folgenden Sonnenuntergang wieder auferstehen. Darüber hinnaus schützen die Schuhe vor den meisten Wolfattacken, außgenommen der von Werwölfen.
+
+EIGENSCHAFTEN:
+
+Immunität gegenüber Wolfangriffen, wenn sie getragen werden.
+Ruft einmal am Tag einen Vapirwolf herbei.
+Gewicht 2~
+@252 = ~Hife! Hife!~ [T-SVA03B]
+@253 = ~Ich bin verletzt! Heilt mich!~ [T-SVA07]
+@254 = ~Ihr seid in größtmöglicher Gefahr, wenn Ihr mir auf den Keks geht. Wartet nur!~ [T-SVA08]
+@255 = ~Goblin Bogenschütze~
+@256 = ~Goblin Personenschützer~
+@257 = ~Goblin Elitebogenschütze~
+@258 = ~Goblin Boss~
+@259 = ~Goblin Schamane~
+@260 = ~gnomischer Sklave~
+@261 = ~Svirfneblin Ring~
+@262 = ~Zahnkettenohringe~
+@263 = ~Die Ketten dieser Ohrringe wirken wie aus einem schwarzen, ausserweltlichen Metall geformt. Daran sind lange, schmale Zähne einer unbekannten Kreatur befestigt. Nach eingehender Untersuchung entdeckt ihr, dass diese dünnen Metallohrringe in Wahrheit ein Paar handwerklich bemerkenswerte Dietriche sind. Sollte es soweit kommen, kann die tragende Person sie zum Öffnen von verschlossenen Schlössern nutzen.
+
+EIGENSCHAFTEN:
+
+Plus fünf Prozentpunkte in Schlösseröffnen und Schutz vor kritischen Treffern, wenn sie getragen werden.
+Mindestgeschicklichkeit: 10
+Benutzbar von:
+- Dieben~
+@264 = ~Satz Eisendietriche~
+@265 = ~Dies ist ein Satz Qualitätsdietriche in verschiedensten Ausformungen mit denen man eine Vielzahl von Schlössern, seien es einfache oder komplizierte Schließmechanismen, beikommen kann. Eines der Werkzeuge ist darüber hinaus beim Aufspüren und Entschärfen von Fallen behilflich. Allerdings sind sie nicht so wertvoll für die ambitionierten Schlossknacker, wie die heiß begehrten Mithril- oder Adamantiddietriche, wenn sie auch ihren Nutzwert haben.
+
+EIGENSCHAFTEN:
+
+Plus fünfzehn Prozentpunkte in Schlösseröffnen und fünf Prozentpunkten in Fallen finden/entschärfen.
+Mindestgeschicklichkeit: 10
+Benutzbar von:
+- Dieben~
+@266 = ~Knochenhaufen~
+@267 = ~Diese Menge abgenagter Knochen ist alles, was von irgendeinem armen und glücklosen Abenteurer übrig geblieben ist. Es gibt ein paar Anhaltspunkte um wen es sich gehandelt haben könnte, da das Skelett Menschengroß ist. Zweifelsfrei fand diese Abenteurerperson ein gewaltsames Ende, schaut man sich die Einschnitte und Brüche der Knochen an. Wahrscheinlich ist dies vor vielen Jahren geschehen, vielleicht sogar vor Jahrhunderten, sollte die Farbe und der Zustand des Gerippes Rückschlüsse zulassen.
+
+EIGENSCHAFTEN:
+
+GEWICHT: 15~
+@268 = ~ramponiertes Schreiben~
+@269 = ~Dies ist ein altes, zerrissenes Stück Pergament, bedeckt vom Knochenmehl und den Blutspritzern eines längst verwesten Körpers. Ungeachtet des Zustandes ist eine Passage des Textes gerade noch zu entziffern.
+
+"...mag von Interesse für die Ältesten sein ... trug sich an einem Orte zu, der eine Kaverne zu sein deucht ... allerhand Finessen der durchdachten Art enthüllten sie ... verborgen hinter Felsvorsprüngen ... hoffe ich, dass das Geschmeiß, das ich letzte Nacht von meiner Fährte gebracht, nicht an diesen schleimigen Orte hausen möge ... vielleicht findet sich das sagenhafte Schild von Gwalhaudh hier ... werde es sobald ergründen ..."~
+@270 = ~Ritterschild +1~
+@271 = ~Fraglos ein solide gealterter oder durch häufigen Gebrauch zerschundener Schild, wie seine Oberfläche erzählt, ohne dass man seine Schutzfunktion infrage stellen würde. Der Schild scheint aus Bronze gemacht, dennoch stabiler als aus vergleichsweise Eisen zu sein. Vielmehr zeigt er keine Patina, die sonst typisch für Gegenstände aus Bronze sind. Er muss aus einer Legierung geschmiedet worden sein, die in Vergessenheit geraten ist. Er ist eins der typischen Dreispitzschilde der Ritter klassischer Schule, zweigeteilt und mit einem aus dunklerer Legierung sich abzeichnenden Kreuz versehen, dazu ist noch ein vierteiliges Wappen mit Kastellen und gekrönten Löwen herausgetrieben worden. Es war einst fraglos der Schild eines angesehenen Ritters, vielleicht sogar das eines Fürsten oder gar Königs. Es würde nicht wundern, wenn er sogar dem legendären Gwalhaudh der Reine gehört hätte, dessen Schild vor vielen Jahren verschwunden ist. Dieser Schild hält vermutlich bösartige Kreaturen in Schach, weil sie ihn weder nahe kommen oder gar berühren mögen.
+
+Eigenschaften:
+
+Rüstungsklassenbonus: 2
+Schutz vor Bösen liegt auf der tragenden Person.
+Gewicht: 6
+Erfordert: 12 Stärke
+Kann nicht verwendet werden von:
+- Barden
+- Druiden
+- Magiern
+- Dieben
+- Charakteren mit böser Gesinnung~
+@272 = ~Symbol der Wölfischen Stärken~
+@273 = ~Dieses Symbol verleiht dem Wolf seine angeborenen Eigenschaften, wie die allmähliche Regeneration beispielsweise.~
+@274 = ~Drowstiefel~
+@275 = ~Kurz nach dem Abstieg begannen die Drow mit der Herstellung dieser Stiefelgattung in den Werkstätten des Unterreichs. Die Tüftler der Dunkelelfen begannen mit Kopien der Modelle der Oberweltelfen und verbesserten sie mit den Materialien, die die neue Umgebung ihnen bot. Im Gegensatz zu anderen Ausrüstungsgegenständen der Drow kommen diese Stiefel ohne Adamantit aus und zerfallen somit nicht bei Sonnenschein. Da sie aus verzauberter Spinnenseide hergestellt werden, betreffen einen Netzzauber nicht. Darüber hinaus bergen die Schuhe die Möglichkeit eine Myrlochar, oder auch "Seelenspinne" genanntes Wesen, herbei zu rufen, egal wo man sich gerade befindet. Diese aus den Ebenen stammenden schaurigen Diener Loths können ihren Opfern dauerhaft Lebenspunkte für sich selbst absaugen.
+
+Eigenschaften:
+
+Leise bewegen steigt um 15 Prozentpunkte und man erhält Immunität gegenüber Netzzaubern, wenn sie getragen werden.
+Einmal am Tag kann eine Mylochar herbeigerufen werden.
+Gewicht: 3~
+@276 = ~Die Dämonisierten~
+@277 = ~Vor sechstausend Jahren lebte ein stolzer Sonnenelfenclan in der Gegend, die heute unter Cormanthor bekannt ist. Von Machtstreben befeuert, handelten sie mit Dämonen und vermischten sich mit ihnen, um ihre Familie zu stärken. Irgendwann kamen andere Elfengeschlechter ihnen auf den Trichter und vernichteten die dämonischen Nachkommen des Hauses Dlardrageth. Die Überlebenden mischten sich mit anderen Dämonen zu den Fey'ri Tieflingen oder ähnlichen Abscheulichkeiten. Nur wenige aus der Ursprungslinie entronnen der Vernichtung und verschwanden von der Bildfläche in den Wäldern des Nordens. Diese Elfen mit Anlagen mächtiger Dämonen wurden als die Dämonenelfen bekannt. Ihre Stiefel sind mit wahrlich höllischen Kräften versehen, die einen Abruf aus den Unteren Ebenen erlauben, manchmal mit unangenehmen Folgen für die aufrufende Person.
+
+EIGENSCHAFTEN:
+
+Magieresistenz plus zehn Prozentpunkte und Bewegungsrate plus vier, wenn sie getragen werden.
+Besonderheit: Ruft einen Cambion oder ein Alu-Scheusal einmal am Tag hervor (in 25% der Fälle feindlich gesinnt)
+                       Stufenverlust für acht Phasen (halbe-halbe)
+Gewicht: 3
+Kann nicht verwendet werden von:
+- rechtschaffenen Charakteren~
+@278 = ~Tigerauge~
+@279 = ~Das Tigerauge ist ein dunkelbrauner Achat mit zahllosen goldbraunen Bändern, welche dem Stein ihren Namen geben. Man schreibt ihm geisterabwehrende Kräfte zu. Da es dafür nur wenige Anhaltspunkte gibt, wird der Achat meist gemahlen und sowohl für die Trankherstellung als auch für das Anfertigen von magischen Zeichen verwendet.~
+@280 = ~Schneeflockenobsidian~
+@281 = ~In vulkanischer Umgebung findet sich diese Form des Obsidians in den Reichen. Er ist schwarz mit grauen, blumenartigen Mustern versehen, die, sobald der Stein geschnitten und poliert wurde, als schneeflockige Muster zu Tage treten. Er ist spröde und nicht allzu hart, dennoch lassen sich mit ihm Holzschnitzereien anfertigen. Reichsweit wird er entweder als Trommelstein, in polierter Manier, gehandelt oder ungeschliffen, in seiner natürlichen Form, als "Schüttgut" verkauft.~
+@282 = ~Amethyst~
+@283 = ~Dieses Mineral bildet tief violette Kristalle aus, die in einer Druse gefunden werden können, aber genauso in großen Flözen an der Oberfläche, die 30 und mehr Meter breit sein können. Weil die meisten Exemplare kleinere Fehler oder Spuren anderer Mineralien, die sie verfärben, aufweisen, gelangen einige Wenige reine Funde, geschnitten und poliert, als Qualitätsschmucksteine auf den Markt. Amethysten sagt man eine schützende Wirkung vor Trunkenheit nach und werden darum gerne als Zierde auf Krügen und Kelchen eingesetzt, vorzugsweise auf denen von Adligen. Dieser Schutzglaube ist mehr Wunsch als Wirklichkeit.~
+@284 = ~Topas~
+@285 = ~Topas ist ein goldener, lichtdurchlässiger Edelstein, der in Granitlagerstätten durchaus als großer Kristall gefunden werden kann. Gewöhnlich gelb oder braun leuchtend, setzt man ihn großer Hitze aus, verändert er seine Farbe zu  rosa. Topas ist sehr hart und ist als Schmuckstein angenehm zu tragen. Er wird Gegenständen hinzugefügt, die Schutz vor magischen Attacken gewähren sollen.~
+@286 = ~Bernstein~
+@287 = ~Bernstein ist goldfarbenes fossiles Harz, das gerne einen Rundschliff. in manchen Regionen auch als Cabochon bezeichnet, erhält. Er ist von geringer Härte und nicht sauber spaltbar und wird häufig als Schutzstein gegen Krankheiten und Nöte getragen. Einige Steine enthalten weitere fossile Überbleibsel, wie Pflanzenteile oder Insekten. Diese werden in den Reichen ganz besonders geschätzt. Bernsteinketten dienen den Barbarenstämmen des Nordens als Zahlungsmittel, während die sogenannten zivilen Völker die einzelnen Steine nach ihren Schmuckwerten beurteilen.~
+@288 = ~Feueropal~
+@289 = ~Dieser orange-rote Opal ist nur selten mit grünen oder goldenen Farbflecken verunreinigt. Der lichtdurchlässige Stein erhält häufig einen Facettenschliff, wie er auch gerne bei Saphiren und Rubinen vorgenommen wird. Man findet derartige Steine in der Nähe von heißen Quellen oder Geysiren und schmückt mit den veredelten oft Anhänger und Ringe.~
+@290 = ~gebänderter Opal~
+@291 = ~Der gebänderte Opal ist eine besondere Form der Edelopale, dem marmorierte oder wellige Streifen eine Vielfarbigkeit verleihen. Hoch begehrt in uralten Elfenhäusern, findet man ihn aktuell nur noch selten. Dieser matte und glatte Edelstein wird manchmal in Schutzgegenständen oder für Vorhersehungen benutzt.~
+@292 = ~Dies ist ein gewöhnlicher, mittelgroßer Handspiegel.~
+@293 = ~Dies ist ein mittelgroßer Handspiegel mit feinem Metallrahmen. Seine Spiegelfähigkeit ist außergewöhnlich klar, so dass der Glashintergrund möglicherweise aus Silber ist. Wenn man sich gemeinhin in Auseinandersetzungen damit nicht zu schützen vermag, können alle, die diesen Spiegel bei einem Zusammentreffen mit einem Basilisken oder ähnlichen Kreaturen tragen, darauf bauen, ihren Blickangriffen nicht gänzlich ungeschützt ausgesetzt zu sein.
+
+EIGENSCHAFTEN:
+
+25%ige Chance einem Blickangriff zurückzuwerfen.
+Gewicht: 1~
+@294 = ~Diese robuste, lackierte Schachtel ist mit Bronzeblech verstärkt. Klein aber fein, staut sie ein Dutzend kleinerer Dinge.
+
+EIGENSCHAFTEN:
+
+Stauraum: 12 Teile
+Gewicht: 5~
+@295 = ~Liebenswerte Spurtstiefel~
+@296 = ~Dieser Schuhverschnitt setzt sich aus den Siebenmeilenstiefel mit Stil und dem Modell, das als Blendbotten berüchtigt ist, welche eine umwerfende Wirkung entfalten können, zusammen. Die original "Pranken des Geparden" gehörten einst einem Meuchelmörder, der es genoss, seine Opfer zu jagen. Er bewegte sich so schnell, dass selbst zu Pferd seine Opfer keine Gelegenheit hatten, ihm zu entkommen. Das war ohne Frage beeindruckend, doch war dieser Meuchler modisch nicht auf der Höhe, Nicht nur das Gepardenfellmuster machen dieses Paar gefälliger, auch die Rotfärbung und der Feueropalbesatzt tragen ihren Teil dazu bei, und verschärfen alles. Die tragende Person wird also nicht nur beschleunigt, sondern trägt auch modisch voll auf.
+
+EIGENSCHAFTEN:
+
+Verdoppelt die Bewegungsrate, wenn sie getragen werden.
+Kann einmal am Tag den Druidenzauber Natürliche Schönheit hervorrufen.
+Gewicht: 3~
+@297 = ~Käselatschen des Gnomen~
+@298 = ~Diese Stiefeletten sind aus den robusten Gnomenpuschen und den berüchtigten Käsefuß gemacht. Das letztere Paar erhielt seinen Namen vom ehemaligen Eigentümer, der, nach Jahren harscher Vorwürfe und den Anweisungen, sich anderswo hinzusetzen, irgendwo anders hin, sich entschied hieraus seinen Nutzen zu ziehen. Das neue Modell wurde vollständig gereinigt und mit Bernstein ausgeschmückt. Sie tragen immer noch das Wort Käse im Namen, aber rein aus Respekt vor ihren Fähigkeiten. Der Zehenteil ist etwas nach oben gebogen und die Sohlen sorgen für einen sicheren Tritt, egal ob man sich über oder unter der Erde befindet.
+
+
+EIGENSCHAFTEN:
+
+Gewähren getragen Handlungsfreiheit und können einmal am Tag Stinkende Wolke hervorrufen.
+Gewicht: 2~
+@299 = ~Tripelprotektionstreter~
+@300 = ~Der Name dieser Schuhe geht auf ihre Dreifarbigkeit und Schutzwirkung zurück, auch wenn sie insgesamt aus vier Paaren zusammengeschustert worden sind. Als da wären, die drei Alltagsmodelle in grün, gelb, blau und die Stiefel der Vermeidung, bekannt auch unter die "Sinne der Katze". Der Zauber dieser Stiefel war speziell dafür bestimmt, anfliegende Geschosse zu erkennen und ihrem Träger dabei zu helfen, diesen auszuweichen. Sie waren ursprünglich von dem Lehrer einer Schule für Bogenschützen in Auftrag gegeben worden, der keine "Unfälle" durch unerfahrene Schüler mehr erleben wollte. Zusätzlich schützen sie aber auch im geringeren Maße gegen andere Waffenattacken. Die Stiefel sind mit vielfarbigen gebänderten Opalen geschmückt. Gerüchten zu Folge werden diese Schuhe von Harlekinen geliebt.
+
+EIGENSCHAFTEN:
+Im getragenen Zustand verbessert sich die Rüstungsklasse um zwei und gegen Geschosswaffen um fünf.
+Gewicht: 4
+~
+@301 = ~Drowstiefel der Nachtschatten~
+@302 = ~Kurz nach dem Abstieg begannen die Drow mit der Herstellung dieser Stiefelgattung in den Werkstätten des Unterreichs. Die Tüftler der Dunkelelfen begannen mit Kopien der Modelle der Oberweltelfen und verbessern sie mit den Materialien, die die neue Umgebung ihnen bot. Im Gegensatz zu anderen Ausrüstungsgegenständen der Drow kommen diese Stiefel ohne Adamantit aus und zerfallen somit nicht bei Sonnenschein. Da sie aus verzauberter Spinnenseide hergestellt werden, betreffen einen Netzzauber nicht. Darüber hinaus bergen die Schuhe die Möglichkeit eine Myrlochar, oder auch "Seelenspinne" genanntes Wesen, herbei zu rufen, egal wo man sich gerade befindet. Diese aus den Ebenen stammenden schaurigen Diener Loths können ihren Opfern dauerhaft Lebenspunkte für sich selbst absaugen. Diese Schuhe sind mit denen der Elfennation verschmolzen worden, um auch die Eigenschaften ihres Vorbildes zu erben. Dunkelviolette Amethystsplitter zieren die Schäfte und sorgen für eine noch leichtfüßigere Gangart.
+
+Eigenschaften:
+
+Leise bewegen steigt um 30 und im Schatten verstecken um 15 Prozentpunkte, zusätzlich erhält man Immunität gegenüber Netzzaubern, wenn sie getragen werden. Die Bewegungsrate wird verdoppelt.
+Einmal am Tag kann eine Mylochar herbeigerufen werden.
+Gewicht: 3~
+@303 = ~Dämonisches Edelschuhwerk~
+@304 = ~Vor sechstausend Jahren lebte ein stolzer Sonnenelfenclan in der Gegend, die heute unter Cormanthor bekannt ist. Von Machtstreben befeuert, handelten sie mit Dämonen und vermischten sich mit ihnen, um ihre Familie zu stärken. Irgendwann kamen andere Elfengeschlechter ihnen auf den Trichter und vernichteten die dämonischen Nachkommen des Hauses Dlardrageth. Die Überlebenden mischten sich mit anderen Dämonen zu den Fey'ri Tieflingen oder ähnlichen Abscheulichkeiten. Nur wenige aus der Ursprungslinie entronnen der Vernichtung und verschwanden von der Bildfläche in den Wäldern des Nordens. Diese Elfen mit Anlagen mächtiger Dämonen wurden als die Dämonenelfen bekannt. Ihre Stiefel sind mit wahrlich höllischen Kräften versehen, die einen Abruf aus den Unteren Ebenen erlauben. Dieses besondere Paar ist mit den Siebenmeilenstiefel und einem Trapiche-Rubin von unvergleichlicher Schönheit aufgearbeitet worden, wodurch sie zu selbst einem Dämonenprinzen würdigen Fußbesatz geworden sind.
+
+EIGENSCHAFTEN:
+
+Magieresistenz plus fünfzehn Prozentpunkte und Bewegungsrate verdoppelt, wenn sie getragen werden.
+Besonderheit: Ruft einen Cambion oder ein Alu-Scheusal einmal am Tag hervor.
+Gewicht: 3
+Kann nicht verwendet werden von:
+- rechtschaffenen Charakteren~
+@305 = ~Spiegelschild +1~
+@306 = ~Der Schild scheint aus Bronze gemacht, dennoch stabiler als aus vergleichsweise Eisen zu sein. Vielmehr zeigt er keine Patina, die sonst typisch für Gegenstände aus Bronze ist. Er muss aus einer Legierung geschmiedet worden sein, die in Vergessenheit geraten, und  jetzt mit einem reflektierenden  Überzug eines silbernen Metalls und Diamanten versehen worden ist. Er ist eins der typischen Dreispitzschilde der Ritter klassischer Schule, zweigeteilt und mit einem aus duklerer Legierung sich abzeichnenden Kreuz ausgeschmückt, dazu ist noch ein vierteiliges Wappen mit Kastellen und gekrönten Löwen herausgetrieben worden. Es war einst fraglos der Schild eines angesehenen Ritters, vielleicht sogar das eines Fürsten oder gar Königs. Es würde nicht wundern, wenn er sogar dem legendären Gwalhaudh der Reine gehört hätte, dessen Schild vor vielen Jahren verschwunden ist. Dieser Schild hält bösartige Kreaturen in Schach, weil sie ihn weder nahe kommen oder gar berühren mögen, genauso wie es Blickangriffen von Basilisken abzuwehren vermag.
+
+Eigenschaften:
+
+Rüstungsklassenbonus: 2
+Schutz vor Bösen liegt auf der tragenden Person. Wehrt Blickangriffe ab.
+Gewicht: 6
+Erfordert: 12 Stärke
+Kann nicht verwendet werden von:
+- Barden
+- Druiden
+- Magiern
+- Dieben
+- Charakteren mit böser Gesinnung~
+@307 = ~Kleine Portraets für Nicht-Spieler-Charaktere~
+@308 = ~Fuer Haendler (Aurora & Co) und weniger wichtige Nicht-Spieler-Charaktere~
+@309 = ~Nur fuer Haendler (s.o.)~
+@310 = ~Dieser Bestandteil erfordert den Kernbestandteil der Modifikation.~
+@311 = ~Verkuerzen der BG2 Intros.~
+@312 = ~Dieser Bestandteil erfordert BG2 oder BGT.~
+@313 = ~Anpassen des Wiederverkaufwertes der eigenen Gueter.~
+@314 = ~Anpassen der Verkaufspreise bei den Haendlern.~
+@315 = ~Anpassen der Werte von Edelsteinen und Schmuck.~
+@316 = ~Anpassen der Goldmengen, die von Kreaturen mit sich gefuehrt werden.~
+@317 = ~Auf 10% gesenkt.~
+@318 = ~Auf 25% gesenkt.~
+@319 = ~Auf 50% gesenkt.~
+@320 = ~Auf 50% gesenkt (empfohlen).~
+@321 = ~Auf 67% gesenkt.~
+@322 = ~Auf 67% gesenkt (empfohlen).~
+@323 = ~Auf 75% gesenkt.~
+@324 = ~Auf 90% gesenkt.~
+@325 = ~Auf 110% angehoben.~
+@326 = ~Auf 125% angehoben.~
+@327 = ~Auf 150% angehoben.~
+@328 = ~Auf 150% angehoben (empfohlen).~
+@329 = ~Auf 200% angehoben.~
+@330 = ~Auf 300% angehoben.~
+@331 = ~Auf 500% angehoben.~
+@332 = ~Im Schein von Wachstumslampen gedeihen in diesem Kellergewölbe viele verschiedene Beerensträucher.~
+@333 = ~Im Schein von Wachstumslampen gedeihen in diesem Keller viele verschiedene Beerensträucher.~
+@334 = ~Hier hängt eins der vielen Seile, versehen mit dutzenden Gnomenschädeln, von der Höhlendecke herab.~
+@335 = ~Verkuerzen der Verliesfilmszene.~
+@336 = ~Verkuerzen der Verliesfilmszene und der in Waukeens Promenade.~
+@337 = ~Verkuerzen der Auseinandersetzung zwischen Gorion und Sarevok.~
+@338 = ~Myrlochar~
+@339 = ~Biss der Myrlochar~
+@340 = ~Einen guten Tag wünsche ich Euch.~ [AGAU013]
+@341 = ~Hallo.~ [AGAU050]
+@342 = ~Ich habe für alle etwas im Sortiment.~ [AGAU053]
+@343 = ~Dieser Bestandteil benötigt Tutu oder BGT.~
+@344 = ~Erschöpfung vermindert.~
+@345 = ~Diese gnomische Spitzhacke ist von schweren Gebrauchsspuren gezeichnet und darum von geringen Nutzen.~
+@346 = ~seltsame Apparatur~
+@347 = ~Dies ist eine seltsame metallische Apparatur mit zahlreichen ineinandergreifenden Teilen. Sein Verwendungszweck bleibt rätselhaft.~
+@348 = ~Antiker Zeitgeber~
+@349 = ~Aurora und ihre gnomischen Geschäftspartner sind im Laufe ihre Handelstätigkeiten an so manch ungewöhnliche Stücke geraten und dieses hier ist eines der ungewöhnlichsten: Ein verwittertes, altertümliches Messinggehäuse, in dem miteinander verbundene Zahnräder und Zeiger ihren Dienst tun. Sie ist von einem kesselflickenden Gnom, der behauptete sich vom Planeten Krynn abgesetzt zu haben, als Tauschmittel für ein Paar Schuhe, das er unbedingt haben musste, was wiederum nur diejenigen verstehen können, die ihrerseits einmal ein Schuhpaar unbedingt besitzen wollten, überreicht worden. Obgleich Aurora, Karaea und Tomthal dem Stück mit größter Zurückhaltung begegnen, ist es zumindest noch nicht explodiert. Auch wenn die Mechanik üppig wirkt, läuft das Gerät nicht sehr genau. Der einzige Vorteil gegenüber einer Sonnenuhr ist, dass sie auch ohne Licht funktioniert.
+
+Eigenschaften:
+
+Zeigt die ungefähre Zeit an.
+Gewicht: 1~
+@350 = ~Thekentreter~
+@351 = ~Gedankenfeuer (Mindfire)~
+@352 = ~Lykanhtropie~
+@353 = ~Gestaltwandlungsfähigkeit erlangt~
+@354 = ~Stärke wurde um eins dauerhaft reduziert.~
+@355 = ~Intelligenz wurde um eins dauerhaft reduziert.~
+@356 = ~Weisheit wurde um eins dauerhaft reduziert.~
+@357 = ~Geschicklichkeit wurde um eins dauerhaft reduziert.~
+@358 = ~Konstitution wurde um eins dauerhaft reduziert.~
+@359 = ~Charisma wurde um eins dauerhaft reduziert.~
+@360 = ~Angeborene Fähigkeit erlangt.~
+@361 = ~Bedeutung gewonnen: +3 spezielle Fähigkeiten~
+@362 = ~Gnoll Hauptmann~
+@363 = ~Hobgoblin Hauptmann~
+@364 = ~Hobgoblin Zauberer~
+@365 = ~Die zufaellige Verteilung der Gegenstaende kann etwas dauern...~
+@366 = ~ist fehlerhaft~
+@367 = ~unterschreitet minimal erlaubte Laenge~
+@368 = ~Header ist falsch gesetzt.~
+@369 = ~Erweiterte Strukturen zeigen auf den Header.~
+@373 = ~Auroras ausgesuchte Abenteurergaloschen wird den Klassischen Abenteuern hinzugefuegt.~
+@374 = ~Diese Komponente ist für die Klassischen Abenteuer ohne Bedeutung.~
+@375 = ~Vermindert auf 17%.~
+@376 = ~Veraendert die Goldertraege der erledigten Aufgaben.~
+@377 = ~Zeilen sind in ihren rndtreas.2da und rndmagic.2da Tabellen vorhanden. Sie benoetigen 6 oder weniger Zeilen in einem der beiden Files, damit diese Komponente vollstaendig funktionieren kann.~
+@378 = ~Nachvollziehbare Zufallsschaetze.~
+@379 = ~Entfernt Dubletten unter den Zufallsschaetzen.~
+@380 = ~Nur intelligente Wesen fuehren zufaellige Schriftrollen mit sich.~
+@381 = ~Sowohl im ersten als auch im zweiten Teil gehen keine Wertgegenstaender der Gegner verloren.~
+@382 = ~Kann eine Weile in Anspruch nehmen...~
+@383 = ~Sowohl im ersten als auch im zweiten Teil gehen 25% der Wertgegenstaende der Gegner verloren.~
+@384 = ~Sowohl im ersten als auch im zweiten Teil gehen 50% der Wertgegenstaende der Gegner verloren.~
+@385 = ~Sowohl im ersten als auch im zweiten Teil gehen 75% der Wertgegenstaende der Gegner verloren.~
+@386 = ~Alle Zufallsschaetze werden geloescht.~
+@387 = ~Den PuB-Regeln nachempfundenen Behelmten Alben und Schlachtenschrecken.~
+@388 = ~Keine betreffenden Kreaturen gefunden.~
+@389 = ~Habt Ihr auch den Leuten in dieser Gegend einen großen Dienst erwiesen, so kann er dennoch Eure Gewalttaten hier in den Mauern nicht wett machen. Nehmt gerade das Gold, das ich bei mir trage, und verschwindet aus meinem Blickfeld! Seid froh, dass Euch die Wachen nicht als Belohnung in Ketten legen!~
+@390 = ~Ich bin beeindruckt! Ihr seid worttreu und fraglos tödlich in der Ausführung. Ich werde Euch den Lohn reichen, nach dem es Euch dürstet: das Doppelte des ursprünglich vereinbarten. Ich möchte mit Euch in Verbindung bleiben, besonders, wenn der Eisenthron wirklich so spielt, wie Ihr vermeldet.~
+@391 = ~Eintausend Goldstücke und sie gehört Euch!~
+@392 = ~Sollt Ihr haben, aber nur für 2000.~
+@393 = ~Das Dreifache.~
+@394 = ~Eintausend Goldstücke.~
+@395 = ~Warum nicht die Hälfte~
+@396 = ~Warum nicht zehn mal so viel von dem~
+@397 = ~[Zz]wanzigtausend~
+@398 = ~[Ff]ünfzehntausend~
+@399 = ~[Zz]ehntausend~
+@400 = ~[Nn]euntausend~
+@401 = ~[Aa]chttausend~
+@402 = ~[Ss]iebentausend~
+@403 = ~[Ss]echstausend[- ]fünfhundert~
+@404 = ~[Ss]echstausend~
+@405 = ~und bis zu fünf~
+@406 = ~und bis zu fünftausend~
+@407 = ~Fünf gleich, fünf~
+@408 = ~Die Hälfte jetzt, die andere~
+@409 = ~[Ff]ünftausend~
+@410 = ~[Vv]iertausend~
+@411 = ~[Dd]reitausend~
+@412 = ~[Zw]eitausendfünfhundet~
+@413 = ~[Zz]weitausend~
+@414 = ~[Ff]ünfzehnhundert~
+@415 = ~[Zz]wölfhundert~
+@416 = ~[Ee]in tausend\|[Ee]intausend\|[Dd]ie tausend~
+@417 = ~[Nn]eunhundert~
+@418 = ~[Aa]chthundert~
+@419 = ~[Ss]iebenhundert~
+@420 = ~[Ss]echshundert~
+@421 = ~[Ff]ünfhundert~
+@422 = ~[Vv]ierhundert~
+@423 = ~[Dd]reihundert~
+@424 = ~[Zz]weihundert~
+@425 = ~Kopieren und veraendern~
+@426 = ~Ignorieren sie alle "INSTALLED WITH WARNINGS; installiert mit Warnungen" Anzeigen, da sie mit dieser Komponente einhergehen.~
+@427 = ~Zeile~
+@428 = ~von~
+@429 = ~Neue Edelsteine hinzugefuegt.~
+@430 = ~Zufallsschriftrollen ersetzt.~
+@431 = ~BG1UB Eintraege neu verknuepft.~
+@432 = ~Die Raetselschriftrolle ausgetauscht.~
+@433 = ~stengere Koboldkommandos~
+@434 = ~Nur Reparaturen~
+@435 = ~Flügel~
+@436 = ~Alu-Scheusal~
+@437 = ~So ist das nun mal, gemacht und getan!~ [T-SVA09]
+@438 = ~Nein ...~ [T-SVA10]
+@439 = ~Hallo da.~ [T-SVN01A]
+@440 = ~Ja.~ [T-SVN01B]
+@441 = ~Kommt und sprecht ein wenig.~ [T-SVN01C]
+@442 = ~Oh ho ho ho!~ [T-SVN01D]
+@443 = ~Schnappt Sie!~ [T-SVN02A]
+@444 = ~Ich mache Euch eine Kopf kürzer!~ [T-SVN02B]
+@445 = ~Nimm das!~ [T-SVN02C]
+@446 = ~Zertreten werde ich das Böse!~ [T-SVN02D]
+@447 = ~Lebt wohl.~ [T-SVN03A]
+@448 = ~Bitte helft mir!~ [T-SVN03B]
+@449 = ~Ich bin verletzt!~ [T-SVN07]
+@450 = ~Ihr legt es auf eine gehörige Tracht Prügel an, das tut Ihr!~ [T-SVN08]
+@451 = ~Nun schaut Euch das an!~ [T-SVN09]
+@452 = ~Nein ...~ [T-SVN10]
+@453 = ~Großer Worg~
+@454 = ~BGMain.exe ist schon veraendert worden, folgt also der naechste Schritt ...~
+@455 = ~BGMain.exe ist ungueltig - versehen sie ToB.exe mit dem Patch v26498!~
+@456 = ~BGMain.exe wird veraendert, um neue Animationen zu ermoeglichen ...~
+@457 = ~Die Filmsequenzen im Irenicusverlies, auf der Promenade und in der Zauberfeste werden verkuerzt.~
+@458 = ~Ersetze _LOW Kreaturen-Animationen (kann eine Weile in Anspruch nehmen)...~
+@459 = ~Der Wert ihrer ANSI-Zeichentabelle ist ~
+@460 = ~Aktualisiere die Animationen, damit sie mit ihrer Zeichentabelle harmonieren ...~
+@461 = ~Repariere die Kreaturenbezuege in den Gebieten~
+@462 = ~ Kreaturenbezuege in den Gebieten werden korrigiert (kann etwas dauern) ...~
+@463 = ~Yuan-Ti~
+@464 = ~Yuan-Ti-Magier~

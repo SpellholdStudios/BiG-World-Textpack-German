@@ -1,0 +1,587 @@
+--- NeJE\dlg\BYOSHIM.D	Sat Dec 01 18:02:32 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BYOSHIM.D	Tue Apr 09 19:35:34 2019
+@@ -24,399 +24,393 @@
+ APPEND ~BYOSHIM~
+ 
+ IF ~~ THEN BEGIN NEJ1
+-  SAY ~Dar, my fine barbarian friend, tell me of the place you left behind.~
++  SAY @0
+   IF ~~ THEN EXTERN ~BDAR~ 102
+ END
+ 
+ IF ~~ THEN BEGIN NEJ2
+-  SAY ~All that there is to know. I hear tales of barbarian tribes,snow and harsh cold conditions making it a place where only the strong can make any sort of life.~
++  SAY @1
+   IF ~~ THEN EXTERN ~BDAR~ 103
+ END
+ 
+ IF ~~ THEN BEGIN NEJ3
+-  SAY ~You have to ask why people live in such places, when there are more hospitable climes to choose from.~
++  SAY @2
+   IF ~~ THEN EXTERN ~BDAR~ 104
+ END
+ 
+ IF ~~ THEN BEGIN NEJ4
+-  SAY ~That may be true my friend, but now that you have experienced an easier life, does it not make you wonder why those people remain under such conditions.~
++  SAY @3
+   IF ~~ THEN EXTERN ~BDAR~ 105
+ END
+ 
+ IF ~~ THEN BEGIN NEJ5
+-  SAY ~Then it is sad, that they would have lived and died not knowing the things you know Dar.~
++  SAY @4
+   IF ~~ THEN EXTERN ~BDAR~ 107
+ END
+ 
+ IF ~~ THEN BEGIN NEJ6
+-  SAY ~Then who is to be pitied? Those condemned to a harsh life but are content or those who live in comfort and yet never seem content? Can you answer this for me Dar?~
++  SAY @5
+   IF ~~ THEN EXTERN ~BDAR~ 108
+ END
+ 
+ IF ~~ THEN BEGIN NEJ7
+-  SAY ~And a wise answer it is my friend.~
++  SAY @6
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ8
+-  SAY ~What I had learnt cherry blossom? I could only stand in amazement at what you had learnt! I am sure you didn’t learn that on Kara Tur!~
++  SAY @7
+   IF ~~ THEN EXTERN ~BKACHI~ NEJ1
+ END
+ 
+ IF ~~ THEN BEGIN NEJ9
+-  SAY ~(*Bows to Kachiko*) Will the lovely Kachiko put away her swords for one night and take the hand of Yoshimo in them instead?~
++  SAY @8
+   IF ~~ THEN EXTERN ~BKACHI~ NEJ2
+ END  
+   
+ IF ~~ THEN BEGIN NEJ10
+-  SAY ~Then you are in for a pleasant surprise my cherry blossom for I have learnt many things in my absence. The pleasure that comes from  dancing with a beautiful girl for one... what does this beautiful girl say?~
++  SAY @9
+   IF ~~ THEN EXTERN ~BKACHI~ NEJ3
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~Yoshimo has not seen any such thing.~
++	SAY @10
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere18
+ 	IF ~InParty("Kachiko")
+ !Dead("Kachiko")~ THEN EXTERN ~BKACHI~ LeiSpher1
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~Big, small can she not make up her mind?~
++	SAY @11
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere19
+ 	IF ~InParty("Kachiko")
+ !Dead("Kachiko")~ THEN EXTERN ~BKACHI~ LeiSpher2
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher3
+-	SAY ~A sack... would that suffice as an answer my friend?~
++	SAY @12
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere20
+ 	IF ~InParty("Kachiko")
+ !Dead("Kachiko")~ THEN EXTERN ~BKACHI~ LeiSpher3
+ END 
+ 
+ IF ~~ THEN BEGIN TS84
+-  SAY ~Ouch! A moment to catch my breath, fierce warrior!~
++  SAY @13
+   IF ~~ THEN EXTERN ~BKACHI~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS85
+-  SAY ~I have a rule to watch anyone who tried to kill me once. A very sensible rule, my cherry blossom. But I must admit it had been a chore before, not a pleasure.~
++  SAY @14
+   IF ~~ THEN EXTERN ~BKACHI~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS86
+-  SAY ~I was just trying to be entertaining, cherry blossom... Ouch! In gratitude for the informative fencing lesson... I have learnt that Kachiko does not like cherries, for example. Ouch! Ouch! Oh, I think <CHARNAME> is saying the break is over... Unfortunately, we have to stop the training for now...~
++  SAY @15
+   IF ~~ THEN DO ~RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS87
+-  SAY ~I must say that sneaking away from you was becoming increasingly difficult. You were as a spirited young girl so fond of her older brother and you followed him as a shadow. I was very nearly crossed with you once, Kachiko.~
++  SAY @16
+   IF ~~ THEN EXTERN ~BKACHI~ 4
+ END
+ 
+ IF ~~ THEN BEGIN TS88
+-  SAY ~There was no other way. Naoko and I were very young and you know first-hand how hostile our families are towards each other. If our friendship were discovered, it would have terrible consequences, well at least terrible for boys of our age.~
++  SAY @17
+   IF ~~ THEN DO ~RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS89
+-  SAY ~I fled our village and got on the ship sailing for far away Faerun. The rest is history.~
++  SAY @18
+   IF ~~ THEN EXTERN ~BKACHI~ 6
+ END
+ 
+ IF ~~ THEN BEGIN TS90
+-  SAY ~It is not a bedtime story, Kachiko. The world is a cold place for a boy running from home because he was accused of murdering his best friend. Later, in Faerun, I was shunned, beaten and taunted for looking and speaking differently...~
++  SAY @19
+   IF ~~ THEN GOTO TS91
+ END
+ 
+ IF ~~ THEN BEGIN TS91
+-  SAY ~Well, on the bright side, being young and exotic can earn you few coins from bored rich ladies... Curse my long tongue! Kachiko, I am sorry...~
++  SAY @20
+   IF ~~ THEN EXTERN ~BKACHI~ 8
+ END
+ 
+ IF ~~ THEN BEGIN TS92
+-  SAY ~Not the destitute rogue I had become? When I look in those shiny eyes of yours I wish to tell you that I braved the fortune and became a pure-hearted paladin or a noble ranger... But I did not, Cherry Blossom. I am Yoshimo Hashimoto, a bounty hunter.~
++  SAY @21
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS93
+-  SAY ~Cherry Blossom, our last conversation keeps nagging me. The way you said "honorable noble"... I remember craving honor. Until I stared in Naoko’s dead face and realized that one of my own "honor-bound" kin must have killed him. I do not believe in honor any more.~
++  SAY @22
+   IF ~~ THEN EXTERN ~BKACHI~ 10
+ END
+ 
+ IF ~~ THEN BEGIN TS94
+-  SAY ~Indeed. I saw purest honor in a fiery maiden who put her sword away and agreed to listen to one whom she hated and had judged to be guilty...~
++  SAY @23
+   IF ~~ THEN EXTERN ~BKACHI~ 11
+ END
+ 
+ IF ~~ THEN BEGIN TS95
+-  SAY ~No, Kachiko. You are mistaken. I had done something terrible, which robbed me of honor forever. In a moment of weakness, I allowed a creature of pure evil to despoil my soul. I never thought I’d become a traitor, yet I am. Please, do not ask anymore, Kachiko, for I do not wish to cast a shade on your innocent heart.~
++  SAY @24
+   IF ~~ THEN EXTERN ~BKACHI~ 12
+ END
+ 
+ IF ~~ THEN BEGIN TS96
+-  SAY ~No, Kachiko, what’s done cannot be undone. I will not allow you to be touched by my curse and my taint. That much I can do.~
++  SAY @25
+   IF ~~ THEN DO ~SetGlobalTimer("VP_KachikoRomance","GLOBAL",ONE_DAY)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS97
+-  SAY ~Here, take my cloak. The nights are so much colder here than in Kara-Tur. It took me long to get used to it too...~
++  SAY @26
+   IF ~~ THEN EXTERN ~BKACHI~ 14
+ END
+ 
+ IF ~~ THEN BEGIN TS98
+-  SAY ~Of course! You know my (whispers dramatically) darkest secret...~
++  SAY @27
+   IF ~~ THEN EXTERN ~BKACHI~ 15
+ END
+ 
+ IF ~~ THEN BEGIN TS99
+-  SAY ~Yes, Kachiko, I was only joking. Now sleep well, dear child (tucks the cloak around her).  I was only joking...~
++  SAY @28
+   IF ~~ THEN DO ~RestParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS100
+-  SAY ~Look at Kachiko, Anomen! She is poetry herself; I just copy her to the paper:
+-
+-Like cherry blossom,
+-beautiful Kachiko
+-is among us...
+-
+-~
++  SAY @29
+   IF ~~ THEN EXTERN ~BANOMEN~ TS588
+ END
+ 
+ IF ~~ THEN BEGIN TS101
+-  SAY ~Eh, it’s finished actually...~
++  SAY @30
+   IF ~~ THEN EXTERN ~BANOMEN~ TS589
+ END
+ 
+ IF ~~ THEN BEGIN TS102
+-  SAY ~My cherry blossom...~
++  SAY @31
+   IF ~~ THEN EXTERN ~BANOMEN~ TS590
+ END
+ 
+ IF ~~ THEN BEGIN TS103
+-  SAY ~Women...~
++  SAY @32
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS104
+-  SAY ~Cherry Blossom, Lady Nalia?~
++  SAY @33
+   IF ~~ THEN EXTERN ~BNALIA~ TS52
+ END
+ 
+ IF ~~ THEN BEGIN TS105
+-  SAY ~How about witnessing a blade by your neck, poet?~
++  SAY @34
+   IF ~~ THEN EXTERN ~BHAERDA~ TS167
+ END
+ 
+ IF ~~ THEN BEGIN TS106
+-  SAY ~What are you two arguing about?~
++  SAY @35
+   IF ~~ THEN EXTERN ~BKACHI~ 54
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~That does it! I will not allow you to speak like that to Kachiko!~
++  SAY @36
+   IF ~~ THEN EXTERN ~BKACHI~ 57
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~I was drunk.~
++  SAY @37
+   IF ~~ THEN EXTERN ~BKACHI~ 73
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~And that was my answer. I was drunk. I was disgusted with myself. Once a city guard gave me a job to trace a man who was a suspected rapist. I found him easily and brought to the Magistrate. The man was immediately sentenced and thrown into the prison. Later I heard that he hanged himself in jail and that his only fault was that he found the favor of a general’s daughter, but did not have the approval of the general.~
++  SAY @38
+   IF ~~ THEN EXTERN ~BKACHI~ 74
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~I never bothered to check the city guard’s story and I felt like a fool. I did not listen to the poor man’s words; I just trusted the authorities. I did my job and I got paid. An innocent man died. So I got drunk. Then Irenicus showed up with his malicious tongue. He understood my mood quickly and before I knew it I was hanging to his every word and he convinced me that the world is one big snake pit... Do you want me to continue?~
++  SAY @39
+   IF ~~ THEN EXTERN ~BKACHI~ 75
+ END
+ 
+ IF ~~ THEN BEGIN TS111
+-  SAY ~I was weak, Kachiko. But everything that has happened since gave me new strength and new faith... you, Kachiko. And I swear to you, no lie will fool me again.~
++  SAY @40
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS112
+-  SAY ~Are you courting Kachiko, Valygar? Do not try anything stupid.~
++  SAY @41
+   IF ~~ THEN EXTERN ~BVALYGA~ TS411
+ END
+ 
+ IF ~~ THEN BEGIN TS113
+-  SAY ~Kachiko?~
++  SAY @42
+   IF ~~ THEN EXTERN ~BKACHI~ 84
+ END
+ 
+ IF ~~ THEN BEGIN TS114
+-  SAY ~Valygar is saying your heart is beyond reach. I shall warn you that some men in these parts of the world are not honorable. Please, be careful in choosing.~
++  SAY @43
+   IF ~~ THEN EXTERN ~BKACHI~ 85
+ END
+ 
+ IF ~~ THEN BEGIN TS115
+-  SAY ~No! You are not doing anything that dangerous! Unless it is a very small cliff and I stand underneath it to supervise your jump and to catch you.~
++  SAY @44
+   IF ~~ THEN EXTERN ~BKACHI~ 86
+ END
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~Do not be a bore, Valygar, tell us all a tale. You must know hundreds from your time spent wandering the land.~
++  SAY @45
+   IF ~~ THEN EXTERN ~BVALYGA~ TS517
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~That is a great disappointment ranger, next time I will insist.~
++  SAY @46
+   IF ~~ THEN EXTERN ~BVALYGA~ TS518
+ END
+ 
+ IF ~~ THEN BEGIN TS118
+-  SAY ~Now Valygar, you have had time to decide upon a tale to tell us. There must surely be many bizarre yarns in your family’s chronicles.~
++  SAY @47
+   IF ~~ THEN EXTERN ~BVALYGA~ TS520
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~Surely you cannot mean that you would frighten us all to death?~
++  SAY @48
+   IF ~~ THEN EXTERN ~BVALYGA~ TS521
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~I apologise my friend. We all need a good night’s sleep.~
++  SAY @49
+   IF ~~ THEN EXTERN ~BVALYGA~ TS522
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~Yet I have no doubts that you’d press on for as long as needed. I wonder at the spirit which is so strong in such a delicate body.~
++  SAY @50
+   IF ~~ THEN EXTERN ~BKACHI25~ 1
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~Fiery maiden, your anger is in vain for I love you all the more for it. I love that you are different from what I was taught to treasure in a woman: the ideal wife shall be obedient, defenseless and rely on her husband to survive. More nonsense invented by old fools and repeated by young fools from generation to generation.~
++  SAY @51
+   IF ~~ THEN EXTERN ~BKACHI25~ 2
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~Kachiko, ever since your family kidnapped you, I have been thinking of a way to prevent an incident like this happening in the future...~
++  SAY @52
+   IF ~~ THEN EXTERN ~BKACHI25~ 4
+ END
+ 
+ IF ~~ THEN BEGIN TS124
+-  SAY ~And I came to the conclusion, that I need to stay by your side day and night to guard you.~
++  SAY @53
+   IF ~~ THEN EXTERN ~BKACHI25~ 5
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~Cherry blossom let me try it in another way then. (Yoshimo goes to his knees): Kachiko, the moment I saw you I wished for us to be together. You are the first woman I love and I feel inseparable from. Would you accept my plea and allow me to stay by your side tonight, Kachiko?~
++  SAY @54
+   IF ~~ THEN EXTERN ~BKACHI25~ 6
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~I just put on my most serious mask, my cherry blossom...~
++  SAY @55
+   IF ~~ THEN EXTERN ~BKACHI25~ 7
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~Yes, cherry blossom.~
++  SAY @56
+   IF ~~ THEN EXTERN ~BKACHI25~ 9
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~I saw it for sale at the local market and I acquired it. Are you interested in more details about my... hmm... purchase or do you want to join me in returning the freedom to this wondrous being?~
++  SAY @57
+   IF ~~ THEN EXTERN ~BKACHI25~ 10
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~As the wisest of our ancestors did.~
++  SAY @58
+   IF ~~ THEN EXTERN ~BKACHI25~ 11
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~And may they smile at Kachiko and grant her happiness...~
++  SAY @59
+   IF ~~ THEN EXTERN ~BKACHI25~ 12
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~I’ll spare you this time, ranger. Cherry Blossom, you embarrass Valygar.~
++  SAY @60
+   IF ~~ THEN EXTERN ~BKACHI25~ 20
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Yes you do. After all, it is a private matter.~
++  SAY @61
+   IF ~~ THEN EXTERN ~BKACHI25~ 21
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~(*sighs*) You and <CHARNAME> of course.~
++  SAY @62
+   IF ~~ THEN EXTERN ~BVALYG25~ TS150
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~Did he come one day as far as my land?~
++  SAY @63
+   IF ~~ THEN EXTERN ~BVALYG25~ TS197
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~That is a rare and magnificent weapon, Valygar.~
++  SAY @64
+   IF ~~ THEN EXTERN ~BVALYG25~ TS198
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~Yes, Valygar. They read... To a warrior pure... You look surprised, Valygar.~
++  SAY @65
+   IF ~~ THEN EXTERN ~BVALYG25~ TS199
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~But it referred to its owner. A gift from a lady or a comrade at arms mayhap?~
++  SAY @66
+   IF ~~ THEN EXTERN ~BVALYG25~ TS200
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~Mayhap I admire the sight in front of me. Exquisite is your beauty, Sime, and perfect is your grace.~
++  SAY @67
+   IF ~~ THEN EXTERN ~BSIME~ 63
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~(*bows*) You know more than you are willing to tell as well, Lady Sime.~
++  SAY @68
+   IF ~~ THEN EXTERN ~BSIME~ 64
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~Then tell me, my direct and honest Sime, what interest Linvail has in <CHARNAME>?~
++  SAY @69
+   IF ~~ THEN EXTERN ~BSIME~ 65
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~Linvail wanted you, his most trusted ally, to follow <CHARNAME>.~
++  SAY @70
+   IF ~~ THEN EXTERN ~BSIME~ 66
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~And yet you are the only one who would mourn his death, Sime. That’s an ally.~
++  SAY @71
+   IF ~~ THEN EXTERN ~BSIME~ 67
+ END
+ 
+ IF ~~ THEN BEGIN TS143
+-  SAY ~Somehow the words of milady sound like a scold. Did you mean it to be a compliment?~
++  SAY @72
+   IF ~~ THEN EXTERN ~BSIME~ 69
+ END
+ 
+ IF ~~ THEN BEGIN TS144
+-  SAY ~You have no love for thieves, I take it? Why so? You must have seen deserving ones among Aran’s cohorts.~
++  SAY @73
+   IF ~~ THEN EXTERN ~BSIME~ 70
+ END
+ 
+ IF ~~ THEN BEGIN TS145
+-  SAY ~Think what you may, Sime, but sometimes stealing means survival. Poor people had loved a thief or two more than they loved their lords. Noble lords turn thieves sometimes.~
++  SAY @74
+   IF ~~ THEN EXTERN ~BSIME~ 71
+ END
+ 
+ IF ~~ THEN BEGIN TS146
+-  SAY ~Each tale has a grain of truth.~
++  SAY @75
+   IF ~~ THEN EXTERN ~BSIME~ 72
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~You have an idea for what?~
++  SAY @76
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -436,7 +430,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @77 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -456,7 +450,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @78 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -476,7 +470,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @79 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheat
+ 	IF ~InParty("Melora")
+@@ -520,7 +514,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~Yoshimo does not understand your cryptic words... who is being had?~
++  SAY @80
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -540,7 +534,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @77 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -560,7 +554,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @78 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -580,7 +574,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @79 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ 	IF ~InParty("Melora")
+@@ -624,7 +618,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~(*Sternly*) Yoshimo has the greatest respect for Leina, he will be watching that you do not upset her <CHARNAME>!~
++  SAY @81
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -644,7 +638,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @77 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -664,7 +658,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @78 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Kachiko")
+ !IsValidForPartyDialogue("Minsc")
+ !IsValidForPartyDialogue("Edwin")
+@@ -684,7 +678,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @79 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea4
+ 	IF ~InParty("Melora")
+@@ -728,7 +722,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~Ah, a harmless jest I see... nothing more.~
++  SAY @82
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1

@@ -1,0 +1,13 @@
+--- DSotSC\language\english\setup.tra	Wed Jan 18 20:24:25 2023
++++ C:\BWP Patchstudio\patched files\DSotSC\language\english\setup.tra	Sat Oct 14 17:31:31 2023
+@@ -1,3 +1,10 @@
++@3001 = ~Dark Side of the Sword Coast (DSotSC)~
++@3002 = ~DSotSC Wizard spells~
++@3003 = ~DSotSC Priest spells~
++@3004 = ~More common encounters in vanilla areas~
++@3005 = ~Distribute DSotSC items also in vanilla content~
++
++
+ ////////
+ //Spells
+ ////////

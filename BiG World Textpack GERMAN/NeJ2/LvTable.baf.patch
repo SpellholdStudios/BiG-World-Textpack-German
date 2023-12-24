@@ -1,0 +1,13 @@
+--- NeJ2\baf\LvTable.baf	Mon Jan 19 16:44:38 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\LvTable.baf	Wed Apr 10 10:31:06 2019
+@@ -9,8 +9,8 @@
+ 		See("Lavallin")
+ THEN
+ 	RESPONSE #100
+-		DisplayString("Lavallin",~How dare you are to steal my stuff!~)
+-		DisplayString(LastTrigger,~A magical ward has detected your theft! You see a guard is teleporting to this area!~)
++		DisplayString("Lavallin",@0)
++		DisplayString(LastTrigger,@1)
+ 		Wait(3)
+ 		CreateCreatureObjectDoor("TuAlert",LastTrigger,0,0,0) // Wizard Guard
+ 		SetGlobal("VP_HalruaaHostile","GLOBAL",1)

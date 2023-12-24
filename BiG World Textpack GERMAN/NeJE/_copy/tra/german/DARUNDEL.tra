@@ -1,0 +1,258 @@
+@0   = ~Willkommen. Ich erwarte Euch schon eine ganze Weile.~ [ARUN_01] 
+@1   = ~Uns erwarten? Wie kann das sein? Wir sind erst vor kurzem hier eingetroffen.~
+@2   = ~Ihr habt mich erwartet? Wie kann das sein? Ich bin doch erst vor kurzem hier eingetroffen.~ 
+@3   = ~Wer seid Ihr, alter Mann?~
+@4   = ~Ihr müsst Arundel sein.~ 
+@5   = ~Uns erwartet? Ach so. Ihr seid derjenige, der den Boten nach Osthafen geschickt hat. Ihr müsst der Erzdruide von Kuldahar sein.~
+@6   = ~Ja, nun... schlechte Nachrichten verbreiten sich in diesen Bergen schnell. Ich weiß von Eurer Reise von Osthafen. Ich weiß, warum Ihr hier seid, denn ich selbst war es, der nach Euch geschickt hat.~ [ARUN_02]
+@7   = ~Ihr habt nach uns geschickt? Ich verstehe nicht.~ 
+@8   = ~Ihr habt nach mir geschickt? Ich verstehe nicht.~
+@9   = ~Ihr? Ihr habt den Boten geschickt? Dann seid Ihr der Erzdruide, von dem er gesprochen hat?~ 
+@10  = ~Ich verstehe. Ihr müsst der Erzdruide sein, von dem er gesprochen hat.~
+@11  = ~Ich bin Arundel, einigen als Erzdruide von Kuldahar bekannt. Ich möchte Euch jedoch bitten, auf Formalitäten zu verzichten und mich ganz einfach Arundel zu nennen. Titel schmeicheln meist nur der eigenen Eitelkeit und sind nur von wenig Nutzen in diesem kleinen Bergdorf.~ [ARUN_03]
+@12  = ~Ihr seid der Erzdruide, ja? Dann nehme ich an, dass Ihr mir sagen könnt, was hier vor sich geht?~ 
+@13  = ~Gut. Sagt mir, Arundel, wisst Ihr irgendetwas über die Berichte von den mysteriösen Ereignissen in den Bergen hier?~
+@14  = ~Ja, ich war es, der Hallaster nach Osthafen geschickt hat, um Hilfe zu holen. Sein Tod lastet schwer auf meinem Gewissen, denn er war nicht nur mein Schüler, sondern auch ein Freund und Vertrauter. Ich werde ihn vermissen. Genauso wie Hrothgar und die anderen Mitglieder Eurer Gruppe.~ [ARUN_04] 
+@15  = ~Ihr wisst von der Lawine?~
+@16  = ~Ihr kanntet Hrothgar?~
+@17  = ~Ja, ich habe davon gehört. Ich weiß auch, dass es kein Unfall war. Irgendjemand oder irgendetwas wollte nicht, dass Ihr Kuldahar lebend erreicht.~ [ARUN_05]
+@18  = ~Was ist hier los, alter Mann?~ 
+@19  = ~Sagt mir, Arundel, was quält dieses Dorf?~
+@20  = ~Dieser jemand oder dieses etwas ist der Grund, weshalb Ihr um Hilfe gebeten habt, nehme ich an?~ 
+@21  = ~Lasst es mich so sagen, ich habe von ihm *gehört*. Berichte über seine Taten haben sogar unsere kleine, isolierte Stadt erreicht. Ich weiß auch, dass sein tragischer Tod kein Unfall war. Irgendjemand oder irgendetwas wollte nicht, dass Ihr Kuldahar lebend erreicht.~ [ARUN_06] 
+@22  = ~Hrothgar ist am Leben. Unsere Wege haben sich nur getrennt.~
+@23  = ~In diesen Bergen sind böse Mächte am Werk, Mächte, die danach streben, das empfindliche Gleichgewicht zu zerstören, um dessen Aufrechterhaltung wir Druiden seit Jahrhunderten bemüht sind.~ [ARUN_07] 
+@24  = ~Böse Mächte? Könntet Ihr das etwas präzisieren?~
+@25  = ~Hört mal, warum hört Ihr nicht mit Eurem langatmigen und unzusammenhängenden Gefasel über die Philosophie der Natur auf und erzählt mir einfach, wer hinter all diesem Unfug steckt?~
+@26  = ~Ich wünschte, ich könnte das. Das Gesicht des Bösen bleibt im Verborgenen, aber seine Gegenwart ist nicht zu leugnen. Überall finden sich Anzeichen seiner zerstörerischen Wirkung auf das Gleichgewicht... das unnatürliche Wetter, die neue Serie von Entführungen, die zahlreichen Berichte über Monster auf dem Pass... ~ [ARUN_08]
+@27  = ~Das alles weist auf etwas Furchtbares hin. Auch die Tiere spüren, dass etwas nicht stimmt.~ [ARUN_09]
+@28  = ~Könnt Ihr mir mehr über diese seltsamen Ereignisse sagen?~
+@29  = ~Ihr spracht vorhin von Gleichgewicht. Was für eine Art Gleichgewicht meint Ihr?~
+@30  = ~Ich kann Euch auch nur das sagen, was ich weiß. Von welchem dieser seltsamen Ereignisse soll ich erzählen?~ [ARUN_12]
+@31  = ~Erzählt mir von dem unnatürlichen Wetter.~
+@32  = ~Erzählt mir von der jüngsten Häufung von Entführungen.~
+@33  = ~Erzählt mir von den Monstern, die gesichtet wurden.~
+@34  = ~Nicht weiter wichtig. Und was sollen wir deswegen unternehmen?~
+@35  = ~Nicht weiter wichtig. Und was soll ich deswegen unternehmen?~
+@36  = ~Nicht weiter wichtig. Sagt noch einmal... Was ist zu tun?~
+@37  = ~Nicht weiter wichtig. Ich werde tun, was ich kann. Lebt wohl.~
+@38  = ~Nicht weiter wichtig. Wir werden tun, was wir können. Lebt wohl.~
+@39  = ~Das Wetter in diesen Bergen war schon immer rau, aber noch nie so wie jetzt. Schreckliche Stürme suchen das Tal ohne Vorwarnung heim, und sie dauern oft mehrere Tage, ehe sie sich so schnell wieder legen, wie sie gekommen sind.~ [ARUN_13]
+@40  = ~Es ist noch nicht die halbe Zeit bis zum Laubfall vergangen, und trotzdem ist der Pass zum Süden völlig eingeschneit. So ein Wetter ist höchst unnatürlich. Die Natur wiederholt sich normalerweise in Zyklen, die vorhersehbar sind, wenn man weiß, worauf man achten muss.~ [ARUN_14]
+@41  = ~Ich verstehe. Und was sollen wir deswegen unternehmen?~
+@42  = ~Ich verstehe. Und was soll ich deswegen unternehmen?~
+@43  = ~Sagt mir noch einmal... Was ist zu tun?~
+@44  = ~Ich werde tun, was ich kann. Lebt wohl.~
+@45  = ~Wir werden tun, was wir können. Lebt wohl.~
+@46  = ~Oh, ja. Das ist eine schreckliche Geschichte. Zuerst berichteten Reisende von Gefährten, die während der Nacht von ihren Schlafmatten geschnappt wurden, als sie an dem schmalen Pfad lagerten, der sich über den Pass schlängelt.~ [ARUN_15]
+@47  = ~Zuerst haben wir diesen Geschichten nicht viel Beachtung geschenkt, denn so etwas passiert in diesen Bergen immer wieder. ~ [ARUN_16]
+@48  = ~Dann verschwand jedoch eines Nachts Conlans Sohn, Sheemish. Am nächsten Morgen hat die ganze Stadt nach dem Jungen gesucht, aber ohne Erfolg. Er war ganz einfach weg. Spurlos verschwunden.~ [ARUN_17]
+@49  = ~Das ist wirklich seltsam.~
+@50  = ~Ein paar Geistergeschichten aus der Taverne und ein kleiner Junge, der sich in den Bergen verlaufen hat? Meint Ihr nicht, dass Ihr etwas überreagiert?~
+@51  = ~Der Junge war nur der Anfang. Ein paar Nächte später verschwand eine weitere Person. Maegan Potts, die Hebamme der Stadt. Ihr Mann Kaleel wurde vor Kummer fast wahnsinnig. Ohne ein Wort ergriff er sein Schwert und marschierte ihr nach in die Dunkelheit. Seither haben wir nichts mehr von ihm gehört. ~ [ARUN_18]
+@52  = ~Und jetzt werden diese Entführungen immer häufiger. Eidan, der alte Wirt vom Gasthof "Zum Abendschatten", ist erst vor drei Tagen verschwunden.~ [ARUN_19]
+@53  = ~Ihr habt sicher schon gemerkt, dass sich hier ziemlich viele Goblins herumtreiben. Das ist für diese späte Jahreszeit äußerst ungewöhnlich in den Bergen. Es ist fast, als würde sie etwas aus ihren Höhlen treiben, ähnlich Aasgeiern, die dem Geruch von totem Fleisch folgen. ~ [ARUN_20]
+@54  = ~Als ob die Goblins nicht reichen würden, wurden auch einige Riesen gesichtet, die in Gruppen bis zu zehn den Pass überquert haben.~ [ARUN_21]
+@55  = ~So viele Riesen, in so großer Anzahl zusammen, kann nur bedeuten, dass sie organisiert sind und eine gemeinsame Absicht verfolgen. Ich habe ihr Treiben genau beobachtet. Ihre Spuren verlaufen nach einem bestimmten Muster, gerade so, als wären sie auf Patrouille. ~ [ARUN_22]
+@56  = ~Und noch etwas... während ich die Riesen ausgekundschaftet habe, habe ich noch andere Spuren entdeckt, Spuren, die ich noch nie zuvor gesehen habe. Von was für einem Wesen sie stammen, weiß ich nicht.~ [ARUN_23]
+@57  = ~*Das* Gleichgewicht. Es ist, was die Druiden von Kuldahar heilig halten und seit Generationen mühevoll bewahren. Es ist überall. Wir *sind* es. ~ [ARUN_24]
+@58  = ~Gleichgewicht ist die Harmonie, die entsteht, wenn Mensch und Natur lernen, miteinander zu leben, sich nicht mehr bekämpfen, sondern sich als zwei Teile eines Ganzen ergänzen.~ [ARUN_25]
+@59  = ~Ich verstehe. Ein solches Gleichgewicht ist ein Ideal, nach dem zu streben sich lohnt .~
+@60  = ~Ihr nehmt diese Sache mit der Natur wirklich ernst, nicht wahr?~
+@61  = ~Was könnt Ihr mir über die Druiden von Kuldahar sagen?~
+@62  = ~Gleichgewicht ist der Glaube, auf dem diese Stadt begründet ist... der Grund für ihre Existenz. Seit Anbeginn haben die Druiden von Silvanus, dem Eichenvater, dieses Heiligtum bewacht. Seit Hunderten von Jahren streben wir danach, das ideale Gleichgewicht zwischen Mensch und Natur zu erreichen. ~ [ARUN_26]
+@63  = ~Als schließlich Siedler zu diesem Pass kamen, war es der Erzdruide Tolben, mein Vorgänger, der den Grundstein für die Beziehung legte, die zur Entstehung dieser Gemeinde führte.~ [ARUN_27]
+@64  = ~Heiligtum? Von was für einem Heiligtum redet Ihr?~
+@65  = ~Erzdruide Tolben? Die Statue in der Dorfmitte... Die stellt ihn dar, ja?~
+@66  = ~Wer ist dieser Tolben?~
+@67  = ~Die Große Eiche. Der gewaltige Baum, der über uns wächst... um uns. Er ist ein Heiligtum des Silvanus, denn er hat ihren Samen gepflanzt, damals als Faerûn entstand. Sie ist ein Zeugnis der Urkräfte der Natur, ein Monument ihrer Fähigkeit, trotz widriger Umstände zu wachsen und zu gedeihen.~ [ARUN_28]
+@68  = ~Dank Tolben sind die Große Eiche, die wir Druiden Kuldahar nannten, und die Stadt, die unter dem gleichen Namen bekannt geworden ist, zusammen zu einem Denkmal von noch größerer Bedeutung geworden... zu einem Denkmal des Gleichgewichts.~ [ARUN_29]
+@69  = ~Tolben war die treibende Kraft hinter der Transformation des Heiligtums von einem heiligen Hain zu einer blühenden Gemeinde, in der Mensch und Natur als eins existieren. Zuerst hielt man die Siedler von diesem Ort fern. Die alten Druiden betrachteten Außenseiter als eine Bedrohung der Heiligkeit des Baumes und seiner wohltätigen Aura.~ [ARUN_30]
+@70  = ~Sie pflanzten Dornensträucher, um Eindringlinge fern zu halten, und verwendeten ihre Kräfte, um die Männer und Frauen zu vertreiben, die an diesem Ort ihre Häuser errichten wollten, weil er den Göttern so nahe war.~ [ARUN_31]
+@71  = ~Erst als der Erzdruide Tolben sein Amt übernahm, wurde alles anders. Anders als seine Vorgänger glaubte er, dass die Besiedelung des Tals nicht nur unvermeidlich, sondern sogar der Wille Silvanus' war. ~ [ARUN_32]
+@72  = ~Er glaubte auch, dass es ein Fehler gewesen war, die Siedler fern zu halten und dass der Eichenvater von Anfang an die Menschen an dem Wunder der Großen Eiche hatte teilhaben lassen wollen.~ [ARUN_33]
+@73  = ~Als Tolben Erzdruide wurde, entwarf er einen Plan, um die Vorsehung dieser heiligen Stätte zu erfüllen, indem er eine Einigung zwischen dem Heiligtum der Großen Eiche und den Siedlern herbeiführte.~ [ARUN_34]
+@74  = ~Diese Einigung, glaubte der Erzdruide Tolben, würde die Harmonie herbeiführen, nach der wir seit Generationen gestrebt hatten, die Harmonie zwischen Mensch und Natur. Kuldahar ist das lebende Denkmal seiner Vision.  ~ [ARUN_35]
+@75  = ~Der Baum und die Stadt bilden eine natürliche Symbiose, von der es unmöglich ist zu sagen, wo das eine aufhört und das andere beginnt. Aber jetzt ist dieses Gleichgewicht gefährdet.~ [ARUN_36]
+@76  = ~Ich befürchte, dass unser ganzes Lebenswerk zerstört wird, wenn wir nicht bald die Ursache dieser Ereignisse aufdecken.~ [ARUN_37]
+@77  = ~Das Böse, das über diese Berge gekommen ist, hat die Stadt wie eine Krankheit infiziert. Die Menschen hier leiden, und auch der Baum leidet an der Krankheit, die das Gleichgewicht stört und es mit ihrer bloßen Anwesenheit verdirbt. ~ [ARUN_38]
+@78  = ~Der Wärmekreis, der von der Großen Eiche ausstrahlt, ist schon kleiner geworden.~ [ARUN_39]
+@79  = ~Die weiter entfernt liegenden Gehöfte mussten wegen des Kräfteverlusts des Heiligtums bereits aufgegeben werden. Ich fürchte, dass die Leben spendende Wärme völlig verschwinden wird, wenn wir nicht bald etwas unternehmen.~ [ARUN_40]
+@80  = ~Die Große Eiche und die Stadt zu ihren Füßen werden dann sterben. Das darf nicht geschehen. Wir brauchen Eure Hilfe.~ [ARUN_41]
+@81  = ~Was? Euch helfen? Wohl kaum, Alter. Mich interessiert nur, wie ich lebend aus diesen schrecklichen Bergen herauskomme. Verstanden?~
+@82  = ~Ich würde Euch gerne helfen, aber ich kann wirklich nichts tun, was Euch helfen würde.~
+@83  = ~Also gut, wir werden zusammen dieses Böse beseitigen, das dieses Dorf bedroht. Was müssen wir tun?~
+@84  = ~Tal der Schatten
+
+Wir sprachen endlich mit Arundel, dem Erzdruiden von Kuldahar. Der alte Mann erklärte uns, weshalb er Hilfe aus Osthafen angefordert hat. In den nahen Bergen scheinen böse Wesen ihr Unheil zu treiben. Arundel glaubt, dass sie auch für das Wetter am Pass und den Wärmering verantwortlich sind, der sich um Kuldahars Große Eiche gelegt hat und sie langsam schrumpfen lasse. Er glaubt, dass das Böse auch hinter den zahlreichen Monstern, die gesichtet wurden, und den mysteriösen Entführungen aus der Stadt steckt. widerwillig haben wir uns bereit erklärt, ein unweit gelegenes Tal zu inspizieren. Dort kursieren nämlich Gerüchte über Untote, die irgendwelche alten Gruften in diesem "Tal der Schatten" unsicher machen. Wir sollen in das Tal reisen und herausfinden, ob es einen Zusammenhang zwischen den Untoten und den Ereignissen in Kuldahar gibt. Dann sollen wir zu Arundel zurückkehren und ihm alles berichten, was wir herausgefunden haben.~
+@85  = ~Ich verstehe, aber die Umstände lassen Euch kaum eine andere Wahl *außer* Euch damit zu befassen. Ich brauche Euch nicht daran zu erinnern, dass die Lawine, die Eure Expedition ausgelöscht hat, die, die zu überleben Ihr das Glück hattet, den Weg zurück in die Zehnstädte blockiert hat. Wie ich schon zuvor erwähnte, ist der Pass nach Süden völlig verschneit.~ [ARUN_42]
+@86  = ~Es gibt keinen anderen Weg aus diesem Tal. Euer Schicksal und das Schicksal von Kuldahar sind miteinander verflochten. Ihr *müsst* die Ursache für die Störungen entdecken und das Gleichgewicht  wieder herstellen... oder wir werden alle zusammen untergehen.~ [ARUN_43]
+@87  = ~Ich verstehe Euer Anliegen. Na dann, wo sollen wir anfangen?~
+@88  = ~Wenn meine eigene Haut zu retten bedeutet, Euch zu helfen, dann werde ich das tun. Aber macht Euch eines klar, ich würde keine zwei Kupferstücke für Euch, Eure Stadt oder Euer kostbares Gleichgewicht geben. Ich lege es darauf an, am Leben zu bleiben... auf die eine oder andere Weise.~
+@89  = ~Tal der Schatten
+
+Wir sprachen endlich mit diesem exzentrischen Baumliebhaber, der sich selbst als Erzdruide von Kuldahar bezeichnet. Der alte Druide erklärte uns, weshalb er Hilfe aus Osthafen angefordert hat. In den nahen Bergen scheinen böse Wesen ihr Unheil zu treiben. Arundel glaubt, dass sie auch für das Wetter am Pass und den Wärmering verantwortlich sind, der sich um Kuldahars Große Eiche gelegt hat und sie langsam schrumpfen lasse. Er glaubt, dass das Böse auch hinter den zahlreichen Monstern, die gesichtet wurden, und den mysteriösen Entführungen aus der Stadt steckt. Wir haben uns bereit erklärt, ein unweit gelegenes Tal zu inspizieren, um dieser Angelegenheit auf den Grund zu gehen. Dort kursieren nämlich Gerüchte über Untote, die irgendwelche alten Gruften in diesem "Tal der Schatten" unsicher machen. Wir sollen in das Tal reisen und herausfinden, ob es einen Zusammenhang zwischen den Untoten und den Ereignissen in Kuldahar gibt. Dann sollen wir zu Arundel zurückkehren und ihm alles berichten, was wir herausgefunden haben.~
+@90  = ~Ich schlage vor, Ihr beginnt Eure Nachforschungen im Tal der Schatten. Das ist nicht weit von hier. Der Boden dieses kleinen Tals ist von jeher in Dunkelheit gehüllt, als würde selbst das Sonnenlicht diesen Ort meiden. ~ [ARUN_44]
+@91  = ~In den engen Felswänden dieses Tals befinden sich zahlreiche uralte versteckte Krypten. Es gibt Gerüchte, dass die Toten wieder aufgewacht und aus ihren staubigen Gräbern gestiegen seien, um wieder unter den Lebenden zu weilen.~ [ARUN_45]
+@92  = ~Wenn diese Gerüchte wahr sind, dann vermute ich, dass das, was den Schlaf der Toten gestört hat, auch für die anderen Ereignisse verantwortlich ist. ~ [ARUN_46]
+@93  = ~Geht ins Tal der Schatten. Ich werde für Euch einen Durchgang in den Osten von Kuldahar öffnen. Bringt so viel wie möglich über die Ereignisse dort in Erfahrung. Kommt dann hierher zurück, und wir überlegen, wie wir vorgehen werden. Viel Glück und lebt wohl.~ [ARUN_47]
+@94  = ~Bitte... Ihr müsst Euch beeilen. Die Zeit arbeitet gegen uns. Wir müssen die Ursache des Bösen entdecken, bevor das Gleichgewicht unwiderruflich gestört ist.~ [ARUN_48]
+@95  = ~Ich verstehe. Könntet Ihr mir mehr über die merkwürdigen Ereignisse auf dem Pass erzählen, bevor ich gehe?~
+@96  = ~Ich verstehe. Könntet Ihr mir mehr über die Druiden von Kuldahar erzählen, bevor ich gehe?~
+@97  = ~Ich denke, Ihr solltet das wissen... Auf dem Pass außerhalb des Dorfes ist mir ein Oger begegnet. Dieser Oger, der sich Ghereg nennt, hat sich bei mir über starke Schmerzen in seinem Kopf beklagt. Könntet Ihr ihm irgendwie helfen?~
+@98  = ~Ah, Ihr seid wieder da. Was bringt Ihr für Neuigkeiten? Rührt das Böse, das wir suchen, aus dem Tal der Schatten?~ [ARUN_49]
+@99  = ~Ich fürchte, ich habe noch nichts Brauchbares herausgefunden. Ich komme zurück, wenn ich mehr weiß.~
+@100 = ~Tief in einer der Gruften im Tal habe ich mit einem Geist namens Kresselack gesprochen. Dieser Geist behauptet, etwas über das Böse zu wissen, das wir suchen.~
+@101 = ~Ich habe entdeckt, dass die Untoten im Tal der Schatten nichts mit den mysteriösen Ereignissen auf dem Pass zu tun haben.~
+@102 = ~Interessant. Es ist unmöglich festzustellen, was ihm fehlt, ohne ihn selbst untersucht zu haben, aber ich kenne ein Heilmittel aus Kräutern, das ihm helfen könnte. Wenn Ihr wollt, verrate ich Euch das Rezept, damit Ihr ihm helfen könnt, sich selbst zu helfen.~ [ARUN_50]
+@103 = ~Ich werde nicht der Mittelsmann für Druiden und jammernde Oger sein. Vergesst es. Soll er doch verrotten, mir ist es egal. Lebt wohl.~
+@104 = ~Sehr gut. Wie lautet das Rezept?~
+@105 = ~Er soll eine Hand voll Frostbeeren sammeln, die überall in diesen Bergen wachsen. Den Saft der Beeren muss er in einen Kessel mit kochendem Tundragras pressen. Anschließend muss er die ganze Mischung austrinken, damit die Schmerzen verschwinden.~ [ARUN_51]
+@106 = ~Ich werde es ihm sagen. Er wird Euch sicher dankbar sein. Lebt wohl.~
+@107 = ~Ja, ich bin Arundel, einigen als Erzdruide von Kuldahar bekannt. Trotzdem bitte ich Euch, die Formalitäten beiseite zu lassen und mich ganz einfach Arundel zu nennen. Titel dienen meistens nur der eigenen Eitelkeit und sind in dieser kleinen Berggemeinde nicht wirklich nützlich.~ [ARUN_52]
+@108 = ~Interessant. Was hat Euch der Geist alles erzählt?~ [ARUN_53]
+@109 = ~Noch nichts. Er hat angeboten, mir zu erzählen, was er weiß, wenn ich ihm dafür einen Dienst erweise. Er will, dass ich eine Priesterin der Auril töte, die seine Gruft bedroht.~
+@110 = ~Aha. Und was plant Ihr zu tun?~ [ARUN_54]
+@111 = ~Nichts. Ich werde nicht den Laufburschen spielen für irgendeinen selbstgefälligen Geist, dem man jede Antwort einzeln aus der Nase ziehen muss. Ich lass mich doch nicht zum Narren halten!~
+@112 = ~Ich habe den Handel abgelehnt. Ich kann Mord gegen Belohnung nicht rechtfertigen.~
+@113 = ~Ich habe ihm gesagt, dass ich es nicht tun werde. Diese Priesterin ist *sein* Problem. Sie interessiert mich nicht.~
+@114 = ~Ich bin nicht sicher. Ich habe dem Geist gesagt, dass ich mir sein Angebot überlege.~
+@115 = ~Ich will diese Priesterin finden und versuchen, ihr mit Vernunft beizukommen. Sollte sie sich einsichtig zeigen, besteht vielleicht kein Anlass für Gewaltanwendung.~
+@116 = ~Ich werde tun, worum er bittet.~
+@117 = ~Ich will diese Frostschlampe finden und ihr die Kehle durchschneiden.~
+@118 = ~Ich verstehe Euch. Normalerweise halten solche rachsüchtigen Geister ihr Wort nicht. Aber in diesem Fall haben wir wohl keine Wahl. Denkt bitte noch mal über das Angebot des Geists nach, Euch zu sagen, was er weiß. Im Moment ist jede Information für uns äußerst wertvoll.~ [ARUN_55]
+@119 = ~Also gut. Ich werde zur Gruft zurückgehen und noch einmal mit diesem Geist reden.~
+@120 = ~Ich bin immer noch nicht überzeugt. Ich werde weiter darüber nachdenken.~
+@121 = ~Ich verstehe Euch. Aber vielleicht hat es mehr mit der Priesterin auf sich, als Ihr ahnt. Manchmal muss man das kleinere Übel wählen, um schließlich Gutes zu erreichen. Das ist nur einer der Wege, um das Gleichgewicht aufrecht zu erhalten.~ [ARUN_56]
+@122 = ~Ich bitte Euch, das Angebot des Geistes nochmals zu überdenken, damit wir erfahren, was er weiß. Im Moment ist jede Information wertvoll.~ [ARUN_57]
+@123 = ~Ich verstehe Euch. Aber vielleicht hat es mit dieser Priesterin mehr auf sich, als Ihr denkt. Wenn sie tatsächlich eine Dienerin der Frostmaid ist, dann könnte sie etwas mit dem unnatürlichen Wetter auf dem Pass zu tun haben. ~ [ARUN_58]
+@124 = ~Ich bitte Euch, das Angebot des Geistes nochmals zu überdenken, damit wir erfahren, was er weiß. Im Moment ist jede Information wertvoll.~ [ARUN_59]
+@125 = ~Wenn Ihr glaubt, dass das richtig ist. Manchmal muss man das kleinere Übel wählen, um schließlich Gutes zu erreichen. Das ist nur einer der Wege, um das Gleichgewicht aufrecht zu erhalten.~ [ARUN_60]
+@126 = ~Erspart mir Euer Getue. Ich habe zu tun.~
+@127 = ~Was auch immer. Ich gehe jetzt.~
+@128 = ~Dann muss die wahre Ursache woanders liegen. Ich habe das Gefühl, dass dieses Übel sich sorgfältig verborgen hält. Wenn wir es endlich entdecken... ist es vielleicht schon zu spät.~ [ARUN_62]
+@129 = ~Was sollen wir also tun?~
+@130 = ~Vielleicht lässt sich das, was nicht gefunden werden will, mit magischen Mitteln finden. Aber dafür brauche ich Eure Hilfe.~ [ARUN_63]
+@131 = ~Wir sind gern bereit, zu helfen, soweit wir können.~
+@132 = ~Haben wir denn eine andere Wahl?~
+@133 = ~Natürlich habt ihr das. Ich kann Euch nur den Weg zeigen. Ich würde mir nicht anmaßen, ihn für Euch zu wählen. Ihr könnt mir entweder helfen, womit Ihr Euch selbst helfen würdet, oder ihr könnt Euer Schicksal von Kräften bestimmen lassen, die Ihr nicht versteht.~ [ARUN_64]
+@134 = ~Tolle Wahl! Na dann helfen wir Euch.~
+@135 = ~Gut. Folgendes ist zu tun: Ihr müsst ein altes Druidenartefakt finden, das als Herzsteinjuwel bekannt ist. Das ist ein mächtiger Stein zur Ortung des Verstecks dieses Übels. ~ [ARUN_65]
+@136 = ~Vor langer Zeit befand sich das Herzsteinjuwel hier in diesem Heiligtum. Die Druiden von Kuldahar nutzten seine Kräfte, um das Gleichgewicht zu verstehen und Einblick in die Angelegenheiten der Menschen in den Reichen zu erhalten.~ [ARUN_66]
+@137 = ~Dann hat eines Tages ein Eingeweihter des Heiligtums das Herzsteinjuwel gestohlen und ist aus Kuldahar geflohen. Die demütigen Lehren seines Mentors, des Erzdruiden, hatten den jungen Druiden ungeduldig werden und nach eigener Macht hungern lassen. Er verschwand mit dem Artefakt in die Berge und wurde nicht mehr gesehen.~ [ARUN_67]
+@138 = ~Ein paar Jahre nach dem Diebstahl gab es Gerüchte über eine seltsame Sekte, die einen Tempel in den Bergen errichtet hatte. Es ist gut möglich, dass dieser diebische Druide etwas mit der Entstehung dieser Sekte zu tun hat. Wenn dem so ist, dann kann man das Herzsteinjuwel vielleicht in diesem Tempel finden.~ [ARUN_68]
+@139 = ~Der Tempel soll in einem Tal sehr weit östlich von Kuldahar liegen. Seitdem der nördliche Pass durch die Lawine blockiert worden ist und wir den Westpass versiegelt haben, um das Eindringen von Ungeheuern zu verhindern, werde ich Euch direkt zu dieser Felsschlucht teleportieren, wo Ihr Euren Weg zum Tempel finden müsst. Reist zum Tempel und findet heraus, ob sich das Herzsteinjuwel wirklich dort befindet. Wenn ja, dann bringt es nach Kuldahar zurück, und ich werde mit seinen Kräften die Antworten finden, die wir suchen.~ [ARUN_69]
+@140 = ~Also gut. Wir werden tun, was Ihr sagt.~
+@141 = ~Die Suche nach dem Herzsteinjuwel
+
+Wir erklärten uns bereit, ein verschwundenes druidisches Artefakt, das Herzsteinjuwel, zu suchen. Offenbar hatte es ein Druide selbst vor Jahren aus Kuldahar entwendet. Arundel glaubt, es könnte sich in einem Tempel in einer Schlucht im Osten von Kuldahar befinden. Wir sollten uns zu diesem Tempel aufmachen und herausfinden, ob das Herzsteinjuwel tatsächlich dort aufbewahrt wird. Falls ja, sollten wir ihn Arundel bringen, damit er dessen Kräfte nutzen kann, um der Quelle des Bösen auf die Spur zu kommen, das so viel Unheil über den Pass bringt.~
+@142 = ~Reist zum Tempel und findet heraus, ob sich das Herzsteinjuwel wirklich dort befindet. Wenn ja, dann bringt es nach Kuldahar zurück, und ich werde mit seinen Kräften die Antworten auf unsere Fragen finden.~ [ARUN_70]
+@143 = ~Danke. Lebt wohl.~
+@144 = ~Ah, Ihr seid wieder da. Was bringt Ihr für Neuigkeiten? Habt Ihr das Herzsteinjuwel gefunden?~ [ARUN_71]
+@145 = ~Wir haben herausgefunden, dass das Herzsteinjuwel wirklich im Tempel war. Leider scheint uns jemand zuvorgekommen zu sein und das Juwel gestohlen zu haben.~
+@146 = ~Das sind ja schreckliche Neuigkeiten. Gibt es irgendwelche Hinweise auf die mysteriösen Diebe, wer sie sind und wohin sie das Herzsteinjuwel gebracht haben?~ [ARUN_72]
+@147 = ~Ich habe den Leichnam eines talonitischen Priesters unter den ermordeten Kultanhängern und Verbeeg-Wachen gefunden. Er trug dieses Fläschchen mit dieser merkwürdigen Flüssigkeit.~
+@148 = ~Viele der Altardiener und Verbeeg-Wachen des Tempels waren bereits tot, als wir ankamen. Es gab Anzeichen dafür, dass einige von ihnen vergiftet wurden - sie wiesen Bisse wie von Schlangen auf.~
+@149 = ~Hmm. Die Flüssigkeit scheint eine Art reines Schlangengift zu sein. Bestimmt hat dieser talonitische Priester es als Gift bei sich getragen. Gut, dass Ihr es mitgebracht habt. Vielleicht ist das genau der Hinweis, den wir gesucht haben.~ [ARUN_73]
+@150 = ~Was meint Ihr?~
+@151 = ~Nun ja, ist so ein Gift erst einmal extrahiert, verliert es seine Wirkung sehr schnell... normalerweise innerhalb von wenigen Tagen. Also muss der talonitische Priester das Gift von irgendwo aus diesen Bergen haben. Es gibt nur einen Ort in diesen kalten, windigen Bergen, an dem giftige Reptilien leben können.~ [ARUN_74]
+@152 = ~Und welcher wäre das?~
+@153 = ~Drachenauge ist ein riesiges Netzwerk von Höhlen, die tief in die Eingeweide eines erloschenen Vulkans führen. Der Eingang ist kaum eine Tagereise von hier entfernt. Ich schlage vor, dass Ihr die Suche nach dem vermissten Herzsteinjuwel dort fortsetzt.~ [ARUN_75]
+@154 = ~Also gut. Dann auf nach Drachenauge.~
+@155 = ~Seid vorsichtig, in den Höhlen von Drachenauge lauern viele Gefahren. Geht vorsichtig vor, und gebt auf die Kreaturen acht, die in seiner Tiefe hausen.~ [ARUN_76]
+@156 = ~Die Suche nach dem Herzsteinjuwel
+
+Unsere Suche nach dem Herzsteinjuwel dauert an. Arundel ist es gelungen, aufgrund der Anhaltspunkte, die wir im Tempel gesammelt haben, den möglichen Aufbewahrungsort des Juwels herauszufinden. Wir sollen uns nun zu den als Drachenauge bekannten vulkanischen Höhlen aufmachen und die Identität der mysteriösen Diebe ermitteln, die den Tempel geplündert und das Juwel gestohlen hatten. Wenn wir Glück haben, befindet sich das Artefakt noch in ihrem Besitz.~
+@157 = ~Schlangenbisse, sagt ihr? Hmm. Habt ihr irgendwelche Schlangen oder andere Wesen gesehen, die solche Spuren verursachen könnten?~ [ARUN_77]
+@158 = ~Nein. Nur die Leichen ihrer Opfer.~
+@159 = ~Dann muss die Kreatur von außerhalb des Tempels gekommen sein. Interessant. Das ist vielleicht genau der Hinweis, den wir brauchen.~ [ARUN_78]
+@160 = ~Es gibt nur einen Ort, an dem giftige Reptilien in diesen kalten, windigen Bergen leben können. ~ [ARUN_79]
+@161 = ~Ihr müsst zu den Höhlen von Drachenauge reisen. Ich werde Euch dorthin teleportieren. Findet das Herzsteinjuwel und versucht, so viel wie möglich über die Identität der Diebe herauszufinden, die den Tempel geplündert haben. Wenn ihr das Juwel habt, kommt zurück, und ich werde mit seinen Kräften die Ursache des Bösen auf dem Pass aufspüren.~ [ARUN_81]
+@162 = ~(*Verwundet, sterbend*) Endlich... Ich hatte gefürchtet, ich würde nicht durchhalten...  Meine Lebenskraft ist fast am Ende, und bald werde ich ins Gleichgewicht zurückkehren.~ [ARUN_82]
+@163 = ~Arundel... was ist geschehen? ~
+@164 = ~Ein Mann, und doch kein Mann... er trug meine Haut wie einen Mantel, mein Gesicht wie eine  Maske... tauchte hier mitten in der Nacht auf und griff mich an... ~ [ARUN_83]
+@165 = ~Selbst die Natur schien vor ihm zurückzuweichen - ich konnte ihn nicht mal mit der Stärke der Großen Eiche aufhalten. Er berührte mich kurz... seine Hände waren wie Blut, und plötzlich spürte ich... wie mein Leben begann, mich zu verlassen. ~ [ARUN_84]
+@166 = ~Arundel, haltet durch - vielleicht können wir Euch noch immer hel-~
+@167 = ~(*mit stärker werdener, gleichmäßigerer Stimme*) Nein, nur die Hoffnung, dass Ihr zurückkommen würdet, hat mich am Leben erhalten... Ihr... müsst das Herzsteinjuwel zur... Elfenfestung der Abgetrennten Hand bringen. ~ [ARUN_85]
+@168 = ~Zur Abgetrennten Hand? Aber warum?~
+@169 = ~Die Abgetrennte Hand ist das Gefängnis von Larrel, einem der letzten Erzmagier der Elfen... Er ist der Einzige, der das Herzsteinjuwel noch beschwören kann... wenn er noch lebt...~ [ARUN_86]
+@170 = ~Aber die Abgetrennte Hand... Ich habe noch nie davon gehört. Wo kann ich sie finden?~
+@171 = ~Suche nach dem Herzsteinjuwel
+
+Wir sind in das innerste Heiligtum des Tempels des vergessenen Gottes vorgedrungen, nur um festzustellen, dass uns jemand zuvor gekommen war. Der Sockel, auf dem das Artefakt vermutlich gestanden hatte, war leer. In der ganzen Kammer lagen Leichen, was vermuten lässt, dass die Altardiener und ihre Verbeeg-Wächter das Juwel mit aller Macht verteidigt haben. Unter den Leichen war auch die eines jungen Mannes, der in das Gewand eines Priesters von Talona gehüllt war. Es ist schwer zu sagen, welche Rolle er in dem Kampf und dem darauf folgenden Diebstahl spielte. Vielleicht sollten wir zu Arundel zurückkehren und sehen, ob er das alles versteht.~
+@172 = ~Die Abgetrennte Hand
+
+Wir haben Arundel in einem Raum im oberen Stockwerk seines Hauses entdeckt, niedergestreckt von einem Mann, der Arundels eigenes Gesicht trug und dessen Hände wie Blut waren. Arundel hatte kaum noch die Kraft, uns zu sagen, dass wir die alte Elfenfestung der Abgetrennten Hand suchen sollten und dass sich in der Festung ein Elfenmagier namens Larrel aufhalte, die letzte Person, die das Juwel benutzen kann, um die Quelle des Bösen zu finden, das Kuldahar heimsucht. Arundel sagte uns, die Natur würde uns zur Abgetrennten Hand leiten.~
+@173 = ~Sie ist im Süden - die Natur wird Euch leiten... (*ein wenig ruhiger, ein wenig schwächer*)  Dazu wird meine Macht noch reichen. Aber nun... lebt wohl. (*Ein letzer Ausbruch von Kraft, genug, um seine Stimme gleichmäßig zu halten, aber nicht befehlend*) Nehmt diesen Schlüssel. Ihr werdet ihn bald brauchen. Dient dem Gleichgewicht. Schützt Kuldahar vor diesem Bösen.~ [ARUN_87]
+@174 = ~Ich diene *niemandem,* alter Mann, und Kuldahar kann meinetwegen niederbrennen - aber nicht, solange ich hier festsitze.~
+@175 = ~Lebt wohl, Arundel. Wir werden Euch rächen.~
+@176 = ~Silvanus sei Dank - Ihr seid zurück! In Kuldahar bahnt sich Schlimmes an. Orks schleichen durch die Stadt und bringen die Leute um!~ [FAB_01]
+@177 = ~Ich muss Euch fragen... habt Ihr die Quelle des Bösen in Drachenauge gefunden?~ [FAB_02]
+@178 = ~Vielleicht. Eine merkwürdige "Frau" namens Yxunomei hat eine Armee von Trollen, Echsenmenschen, Yuan-ti und Untoten zusammengestellt. Ich habe sie und viele ihrer Gefolgsleute besiegt.~
+@179 = ~Ausgezeichnet. Danke, dass Ihr meinen Erzfeind vernichtet habt. Ich hätte es selbst nicht besser machen können.~ [FAB_03]
+@180 = ~W... was? Was meint Ihr damit?~
+@181 = ~Ich spüre Eure Aura des Bösen. Ihr seid nicht Arundel. Wer seid Ihr?~
+@182 = ~"Erzfeind?" Wovon redet Ihr?~
+@183 = ~Ihr wart ahnungslose Marionetten im großen Plan der Dinge. Ihr habt diese Stadt vor ihrer unmittelbaren Zerstörung bewahrt, aber es war alles umsonst.~ [FAB_04]
+@184 = ~In ein paar Monaten wird Kuldahar zu einem Eisblock gefroren sein, daran könnt Ihr nichts ändern.~ [FAB_05]
+@185 = ~Wer seid Ihr?~
+@186 = ~Wer ich bin? Ich bin nur ein einfacher Priester, der die Lehre des Leidens unter den Massen verbreitet.~ [FAB_06]
+@187 = ~Bald werden alle die Litanei unseres Glaubens kennen.~ [FAB_07]
+@188 = ~Ich bin mir sicher, dass Yxunomei es Euch erklärt hat. Sie und ich waren seit Jahrhunderten verfeindet. Dank Euch hat die Fehde nun ein Ende. Jetzt könnt Ihr zurück in Eure Zukunft reisen.~ [FAB_08]
+@189 = ~W-Was? Ich glaube Euch nicht! Ihr seid nicht Arundel! Wie habt Ihr es geschafft, mich aus meiner Zeit zu befördern?~
+@190 = ~Arundel haucht über uns sein Leben aus. Jetzt kann ich ohne Angst beginnen, meine Truppen in dieser Welt aufzubauen... Es gibt ein Portal in seinem Zimmer, das Ihr verwenden könnt, um in Eure Welt zurückzukommen. Die anderen Dinge sind nicht so wichtig für Euch. Ihr dürft hier nicht bleiben, selbst wenn Ihr Euch an mir rächen wollt. Ihr müsst das Problem Eurer Abstammung so bald wie möglich lösen... Übrigens solltet Ihr nicht verärgert sein. Ihr habt die großen bösen Kräfte hier zerstört. Lebt wohl, <CHARNAME>.~ [FAB_09]
+@191 = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir erkundigten uns nach ihren Ergebenen. Sie sagte, es seien die Yuan-Ti, die ihr "Königreich" erben würden, wenn ihre eigene Mission zu Ende sei.~
+@192 = ~Drachenauge
+
+Wir trafen heute ein untotes Wesen, das als "Mund und Augen" eines Nekromanten diente. Es griff uns an, nachdem es uns angesprochen hatte.~
+@193 = ~Drachenauge
+
+Wir haben Egenia, eine Priesterin Ilmaters, vor einer Gruppe talonitischer Priester und Trolle gerettet. Sie war nach Drachenauge gekommen, um das Leid der verschleppten Dorfbewohner zu teilen. Sie sagte, dass sie in Drachenauge bleiben würde, um uns zu helfen, bis wir die Quelle des Bösen vernichtet haben.~
+@194 = ~Findet die verschwundenen Leute von Kuldahar.
+
+Nachdem wir den Echsenkönig getötet hatten, fanden wir ein kleines Mädchen vor einer Rampe, die auf eine tiefere Ebene von Drachenauge führt. Sie bedankte sich bei uns, dass wir die Echsenmenschen getötet hatten und sagte, sie wolle jetzt nach Hause gehen.~
+@195 = ~Drachenauge
+
+Wir sind dem "Echsenkönig" von Drachenauge begegnet. Er meinte, dass ihm die oberen Höhlen des Vulkans gehören. Außerdem sagte er, dass er dorthin von einer gewissen Yxunomei gebracht worden sei. Anscheinend tun die Echsenmenschen alles, was Yxunomei befiehlt, um ihr Volk zu ernähren. Sie verschleppen die Dorfbewohner, um sie zu fressen und für Yxunomei.~
+@196 = ~Suche nach der Priesterin Aurils.
+
+Wir haben die Priesterin Aurils gefunden, von der Kresselack gesprochen hatte, eine Frau namens Lysan. Sobald sie sich zu erkennen gegeben hatte, griffen wir sie an.~
+@197 = ~Tal der Schatten.
+
+Wir haben mit Kresselacks Geist gesprochen: Er behauptete, er sei nicht an der Misere in Kuldahar schuld, wisse aber, wer es sei... Da wir die Auril-Priesterin, deren Tod er wünschte, bereits beseitigt hatten, war er bereit, uns alles zu sagen, was er wusste. Doch leider wusste Kresselack nur, dass weder er noch jemand anderes im Tal der Schatten für das Unheil konnte, das Kuldahar heimgesucht hat. Es sieht ganz so aus, als müssten wir zurück zu Arundel, um ihm dies mitzuteilen. Vielleicht hat er ja eine Ahnung, was wir als Nächstes tun sollten.~
+@198 = ~Kuldahar Pass.
+
+Wir haben einen kleinen Jungen gefunden, der sich in einem Schrank in einer Mühle bei Kuldahar vesteckt hatte. Er sagte uns, sein Vater und seine Schwester seien von Goblins ermordet worden. Wahrscheinlich waren es ihre Leichen, über die wir im ersten Stock gestolpert sind.~
+@199 = ~Kuldahar Pass.
+
+Wir haben am Kuldaharpass einen Goblin-Marschall getroffen, der vor Schmerzen fast verrückt wurde. Er sagte, sein Kopf täte ihm weh, jemand würde ihm etwas zuflüstern. Er wusste sich keinen Reim auf das Ganze zu machen, hatte aber das instinktive Bedürfnis, auf die Stimme in seinem Kopf zu "antworten".~
+@200 = ~Kuldahar Pass
+
+Wir haben am Kuldaharpass einen Goblin-Marschall getroffen, der vor Schmerzen fast verrückt wurde. Er fragte uns, was wir dort suchten. Wir sagten ihm natürlich, wir hätten den Eindruck, dass er und seine Vetter die Mühle plünderten. Er wurde zornig und verteidigte sich: Sie hätten nichts zu essen und seien zum Pass "gerufen" worden.~
+@201 = ~Kuldahar Pass
+
+Wir haben am Kuldaharpass einen Goblin-Marschall getroffen, der vor Schmerzen fast verrückt wurde. Er wollte von uns wissen, was er dort sollte. Auf unsere Frage, wie er das meinte, sagte er uns klipp und klar, er hätte keine Ahnung, weshalb er und seine Leute zum Pass "gerufen" worden wären.~
+@202 = ~Kuldahar Pass.
+
+Wir haben einen seltsamen Einsiedler im Tal, am Anfang des Kuldaharpasses getroffen. Er behauptete, gesehen zu haben, wie der Rest der Expedition aus Osthafen von der Lawine, die uns auch beinah erwischt hätte, getötet wurde. Er erklärte uns widerwillig, dass Kuldahar im Osten des Tals läge, direkt nach einer alten Mühle.~
+@203 = ~Störungen in Kuldahar.
+
+Everard, der Hauptpriester von Tempus in Osthafen, hat bestätigt, dass ein Bote aus dem Ort Kuldahar im Norden zum Tempel des Tempus kam und kurz nach seiner Ankunft gestorben ist. Vor seinem Tod sagte der Bote etwas von mysteriösen Geschehnissen in Kuldahar und bat die Leute von Osthafen um Hilfe. Offenbar organisiert Hrothgar jetzt eine Expedition nach Kuldahar, um der Sache nachzugehen.~
+@204 = ~Suche nach Sheemish, Conlans Sohn.
+
+Wir haben mit Conlan gesprochen, dem Schmied von Kuldahar, dessen Sohn mitten in der Nacht spurlos verschwunden war. Conlan meinte auch etwas von Arundel, dem Dorfältesten. Vielleicht sollten wir diesem mal einen Besuch abstatten.~
+@205 = ~Die Suche nach dem Herzsteinjuwel
+
+Wir kehrten nach Kuldahar zurück - und was mussten wir vorfinden? Einen Mann, der vorgab, Arundel zu sein. Der Gestaltenwandler, wer auch immer er sein mochte, dankte uns dafür, dass wir Yxunomei beseitigt und ihm die "uneingeschränkte Herrschaft" über Kuldahar und Osthafen ermöglicht hatten. Er verschwand, bevor wir mehr erfahren konnten. Ich fürchte, dass mit Arundels Ermordung den Menschen von Kuldahar und Osthafen düstere Zeiten bevorstehen.~
+@206 = ~Ich sehe Hrothgar unter Euch. Das ist ein gutes Zeichen. Wie geht es Euch, mein Freund?~ ~Ich sehe Hrothgar unter Euch. Das ist ein gutes Zeichen. Wie geht es Euch, meine Freundin?~
+@207 = ~Ihr habt mich bereits dreimal beleidigt. Ihr habt keinen Respekt vor Leuten, nicht einmal vor Leuten, die viel älter und klüger sind als Ihr. Ich sterbe, und Ihr beleidigt mich noch. Aber ich habe nicht das Recht, weder Eure Worte noch Eure Taten zu verurteilen. Euer Gott wird Euch verurteilen.~
+@208 = ~Ich weiß, und es tut mir wirklich Leid. Ich war es, der Hallaster nach Osthafen geschickt hat, um Hilfe zu holen. Sein Tod lastet schwer auf meinem Gewissen, denn er war nicht nur mein Schüler, sondern auch ein Freund und Vertrauter. Ich werde ihn vermissen.~
+@209 = ~Ihr habt eine Druidin in Eurer Gruppe. Ich bin sicher, dass sie mit Euch über das Gleichgewicht gesprochen hat.~
+@210 = ~Das ist gut zu wissen. Er ist ein Mann der Legenden.~
+@211 = ~Es ist im Süden - die Natur wird Euch leiten... (*ein wenig ruhiger, ein wenig schwächer*) Dazu wird meine Macht noch reichen. Aber nun... lebt wohl. (*Ein letzer Ausbruch von Kraft, genug, um seine Stimme gleichmäßig zu halten, aber nicht befehlend*) Hrothgar, mein Freund, ich weiß, dass Ihr nach dem Schlüssel sucht... Tilorn war hier... Nehmt ihn. Dient dem Gleichgewicht. Schützt Kuldahar vor diesem Bösen.~ [ARUN_87]
+@212 = ~Tut, was Ihr müsst...~
+@213 = ~Manchmal ist es nicht leicht, andere das Gleichgewicht zu lehren. Viele sehen sehen das Böse als eine Kraft, die auszurotten ist, sie können nicht verstehen, dass keiner völlig über den anderen triumphieren wird. Das Gleichgewicht wird aufrechterhalten, und die Zyklen werden weitergehen. ~
+@214 = ~Das ist wahr, aber es ist auch wahr, dass gelegentlich der Konflikt zwischen dem Guten und dem Bösen droht, das Gleichgewicht zu überwältigen. Ich fühle, dass dies ist eine jener Zeiten ist.~
+@215 = ~Wie ich es mache. Diese Berggemeinde ist stärker belastet denn je. Mit mir als Erzdruide oder nicht, werden wir die Hilfe dieser Expedition brauchen.~

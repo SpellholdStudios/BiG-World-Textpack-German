@@ -1,0 +1,23 @@
+--- NeJ3\dlg\MCOOK.d	Sat Feb 17 20:19:08 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\MCOOK.d	Wed Apr 10 10:24:59 2019
+@@ -2,17 +2,17 @@
+ 
+ IF WEIGHT #1 ~True()
+ ~ THEN BEGIN 0
+-  SAY ~Is there a reason why yer in my kitchen?  Cause Martha here don't like people messin' with her kitchen; ain't that right Martha?~
++  SAY @0
+   IF ~~ THEN EXTERN ~FECOOK~ 0
+ END
+ 
+ IF WEIGHT #0 ~StateCheck(Myself,STATE_CHARMED)
+ ~ THEN BEGIN 1
+-  SAY ~I like to cook, but other than that, I don't know much.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I wouldn't trust you as far as I can spit!~
++  SAY @2
+   IF ~~ THEN EXIT
+ END

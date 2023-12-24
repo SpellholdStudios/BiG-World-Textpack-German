@@ -1,0 +1,20 @@
+@0    = ~Hallo, <CHARNAME>. Ich habe... Dinge über Euch gehört und bin sehr beeindruckt. Ich habe mich gefragt, ob Ihr wohl eine weitere Gefährtin gebrauchen könntet? Es wäre mir eine Ehre, wenn ich mit Euch reisen dürfte.~ [SIMEPC02]
+@1    = ~Nun, vielleicht... Aber ich rede nicht gerne mit einer Fremden...~
+
+@2    = ~Keine Chance... Ich will nur mit Aran sprechen und ich bin in Eile. Hinfort mit Euch!~
+
+@3    = ~Verzeihung, aber ich habe in Moment genug Gefährten. Aber ich werde Euch in Erinnerung behalten...~
+@4    = ~Vielleicht, aber wer seid Ihr und was kann man mit Euch anfangen?~
+@5    = ~Mein Name ist Sime (*sie senkt ihre Kapuze*)... und wie Ihr sehen könnt, bin ich eine Halbelfin. Ich war einst die Schülerin eines weisen Waldläufers, Darriel von Tanglewood, doch jetzt bin ich selbst eine Waldläuferin... Mein Glaube an Mielikki ist stark und ich predige ihre Lehren. Daher könnt Ihr mich auch eine Priesterin nennen. Sonst gibt es nicht viel zu erzählen...~ [SIMEPC03]
+
+@6    = ~Leider habe ich im Moment genug Gefährten. Aber ich behalte Euch in meiner Erinnerung.~
+@7    = ~Ihr klingt wie eine fähige Kameradin, Sime. Ich freue mich, Euch in meiner Gruppe begrüssen zu dürfen. Ich bin sicher, dass wir später mehr Zeit zum Reden haben werden, aber jetzt sollten wir uns beeilen! Kommt.~
+
+@8    = ~Eine Waldläuferin? Eine Priesterin von Mielikki? Was macht Ihr im Hauptquartier der Schattendiebe, hier mitten in der Stadt?~
+@9    = ~Sicher, macht nur ohne mich weiter, wenn Ihr so beschäftigt seid. Ich werde noch einige Zeit hier bleiben. Ihr könnt jederzweit auf meine Hilfe zählen, wenn Ihr mich brauchen solltet.~ [SIMEPC04]
+
+@10   = ~Ich kann Euch versichern, dass es nichts mit meinen Fähigkeiten zu tun hat. Es gibt da... einige sehr persönliche Gründe für mich, hier zu sein. Doch jetzt möchte ich noch nicht darüber sprechen. Aber es ist nichts... Unehrenhaftes daran. Wollt Ihr, dass ich mich Euch anschliesse?~ [SIMEPC05]
+@11   = ~Wenn Ihr mir nicht traut, warum sollte ich dann Euch trauen? Nein, ich werde auch ohne Euch auskommen.~
+@12   = ~Ihr klingt wie eine fähige Kameradin, Sime. Und ich respektiere Eure Privatsphäre. Vielleicht werdet Ihr mir Eure Geschichte ja eines Tages erzählen. Jetzt sollten wir uns aber besser beeilen! Kommt mit, Sime.~
+
+@13   = ~Gehen wir.~

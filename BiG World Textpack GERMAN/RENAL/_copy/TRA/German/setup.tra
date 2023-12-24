@@ -1,0 +1,282 @@
+@0  = ~Sir Renal~ 
+@1  = ~Ring~
+@2  = ~Ring der Weisheit~ 
+@3  = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck verwendet wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Sie sind heißbegehrt, insbesondere von Menschen deren Beruf das Abenteuer ist.~
+@4  = ~Von unbekannter Herkunft bietet dieser Ring seinem Träger die Gabe der Weisheit. Angeblich kann der Ring sogar dem weisesten Mann noch einen Vorteil verschaffen.
+
+EIGENSCHAFTEN:
+
+Weisheit: +1~ 
+@5  = ~Ring~
+@6  = ~Ring der Höheren Heiligkeit~
+@7  = ~Ring der Heiligkeit: "Ehre der Sune"
+
+Ringe dieser Art wurden häufig an getreue Kleriker der Sune vergeben, die sich besonders durch Rechtschaffenheit und Güte ausgezeichnet haben. Dieses Exemplar wurde auf magische Weise verbessert und seine Macht erhöht.
+
+EIGENSCHAFTEN:
+
+Der Kleriker kann sich zwei zusätzliche Zauber der Stufen 1, 2, 3 und 4 einprägen.
+
+Kann nur verwendet werden von:
+- Klerikern
+- Druiden~ 
+@8  = ~Helm~
+@9  = ~Geweihter Helm~ 
+@10 = ~Diese Art von dekorativem Helm besteht aus verstärktem Leder oder Metall und bedeckt Kopf und Gesicht. Augenschlitze und Atemlöcher gehören zur Standardausstattung. Solche Helme werden normalerweise von den Soldaten Amns verwendet.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+- Magiern
+- Barden
+- Dieben
+- Mönchen~
+@11 = ~Dieses legendäre Artefakt stammt von einer höheren Ebene und ist bei Paladinen und Klerikern begehrt. Angeblich können nur Paladine und Kleriker reinen Herzens diesen Helm tragen.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: +1
+Weisheit: +1
+Magiewiderstand: +5%
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nur verwendet werden von:
+- Paladinen
+- Klerikern guter Gesinnung~
+@12 = ~Feldharnisch~ 
+@13 = ~Geweihter Feldharnisch~
+@14 = ~Ein Feldharnisch ist die beste Rüstung, die ein Krieger, sowohl in Bezug auf Aussehen als auch auf Schutz, erwerben kann. Die perfekt ineinandergreifenden Panzerplatten sind so gewinkelt, dass sie Pfeile und Schläge ablenken, und die ganze Rüstung ist mit kunstvollen Gravuren und detaillierten Prägungen liebevoll verziert. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 70
+Mindeststärke 15
+
+Kann nicht verwendet werden von:
+- Barden
+- Druiden
+- Magiern
+- Dieben
+- Mönchen~ 
+@15 = ~Dieses legendäre Artefakt stammt von einer höheren Ebene und ist bei Paladinen und Klerikern begehrt. Angeblich können nur Paladine und Kleriker reinen Herzens diese Rüstung anlegen.
+
+EIGENSCHAFTEN:
+
+Göttliche Macht (1x täglich)
+
+Rüstungsklasse: 0
+Charisma: +2
+Gewicht: 35
+
+Kann nur verwendet werden von:
+- Paladinen
+- Klerikern guter Gesinnung~
+@16 = ~Kettenhemd~
+@17 = ~Schutz vor Bösem, Kettenhemd +1~
+@18 = ~Ein Kettenhemd besteht aus ineinandergreifenden Metallringen. Es wird immer über einem Hemd aus gepolstertem Stoff oder weichem Leder getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+- Druiden 
+- Magiern 
+- Dieben
+- Mönchen~ 
+@19 = ~Fürst Nerior soll ein äußerst paranoider Mann gewesen sein, der von seltsamen Albträumen über Dämonen geplagt wurden. Seine Verzweiflung war so groß, dass er diesen Panzer anfertigen ließ und ihn im Schlaf trug. Viele Leute hielten ihn für verrückt, aber die Wahrheit ist auch, dass er nachdem er die Rüstung von einem Kleriker hatte anfertigen lassen, ruhig schlafen konnte.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt "Schutz vor Bösem"
+
+Rüstungsklasse: 4
+Gewicht: 10
+
+Kann nicht verwendet werden von:
+- Druiden 
+- Magiern 
+- Dieben
+- Mönchen~
+@20 = ~Streitkolben~ 
+@21 = ~Streitkolben des Himmelsfeuers~ 
+@22 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6+1 (Wucht)
+Gewicht: 8
+Initiativefaktor: 7
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+- Druiden
+- Magiern
+- Dieben
+- Mönchen~
+@23 = ~Dieser Streitkolben wurde von den Göttern selbst an einen Barbarenschamanen im fernen Land des Eiswindtals übergeben. Dank der Mächte des Feuers, die dieser Streitkolben freisetzt, war er in der Lage, sein Volk aus der Hand einiger Riesen zu befreien.
+
+EIGENSCHAFTEN:
+
+Flammenschlag (1x täglich)
+
+Schaden: 1W6+2 (Wucht)
+Schadensbonus: +4 (Feuer)
+Gewicht: 8
+Initiativefaktor: 6
+Waffenfertigkeit: Streitkolben
+Waffentyp: einhändig
+Mindeststärke: 10
+
+Kann nicht verwendet werden von:
+- Druiden
+- Magiern
+- Dieben
+- Mönchen~ 
+@24 = ~Bastardschwert~
+@25 = ~Gerechtigkeit, Bastardschwert +1~
+@26 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m. 
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Klinge)
+Gewicht: 10
+Initiativefaktor: 8
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+- Druiden
+- Kleriker
+- Magiern
+- Dieben
+- Mönchen~
+@27 = ~Das Schwert Sir Derons
+Sir Deron war ein tapferer Ritter, der gegen die Mächte der Finsternis kämpfte, wo immer er ihnen begegnete. Niemals schreckte er vor seinen Gegnern zurück, vielleicht war es diese Tapferkeit, die ihm zum Verhängnis wurde, als er von einem furchtbaren Drachen zerrissen wurde.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Furcht.
+
+Schaden: 2W4 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 9
+Initiativefaktor: 7
+Waffenfertigkeit: Bastardschwert
+Waffentyp: einhändig
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+- Druiden
+- Kleriker
+- Magiern
+- Dieben
+- Mönchen~
+@28 = ~Zweihänder~
+@29 = ~Sir Errants Tugend~
+@30 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich mußte auch der Griff verlängert werden, und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 15
+Initiativefaktor: 10
+Waffenfertigkeit: Zweihänder
+Waffentyp: beidhändig
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern 
+- Dieben
+- Mönchen~
+@31 = ~Das legendäre Schwert Sir Errants ist eines der mächtigsten Schwerter der Reiche. Es galt für Jahrhunderte als verschollen und wurde erst kürzlich von einem Mitglied des Ordens des Strahlenden Herzens wiederentdeckt und in Gewahrsam genommen. Es wurde seitdem für einen neuen Träger und Verteidiger von Recht und Ordnung aufbewahrt.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Furcht.
+
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -2 (-4 gegen Drachen und Dämonen)
+Feuerwiderstand: +30%
+Säurewiderstand: +30%
+Gewicht: 10
+Initiativefaktor: 6
+Waffenfertigkeit: Zweihänder
+Waffentyp: beidhändig
+Mindeststärke: 14
+
+Kann nurt verwendet werden von:
+- Paladinen~
+@32 = ~Plattenpanzer~
+@33 = ~Blauer Berg, Falscher Drachenschuppenpanzer +3~
+@34 = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50
+Mindeststärke: 12
+Kann nicht verwendet werden von:
+- Barden 
+- Druiden
+- Magiern
+- Dieben
+- Mönchen~
+@35 = ~Auf den ersten Blick scheint diese Rüstung genau die richtige Größe für einen Zwerg zu haben und scheint aus den Schuppen eines Blauen Drachens gefertigt zu sein. Tatsächlich aber ist die Rüstung ein Ausdruck höchster Schmiedekunst, denn den Metallplatten wurde durch eine besondere Glasur das Aussehen von Drachenschuppen verliehen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Elektrizitätswiderstand: +15%
+Gewicht: 50
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+- Barden 
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@36 = ~Mittlerer Schild~
+@37 = ~Magierbann, Mittlerer Schild +2~
+@38 = ~Ein mittelgroßer Schild wird ähnlich wie ein kleiner Schild verwendet. Da der mittelgroße Schild allerdings recht schwer ist, ist die Schildhand des Trägers durch den Schild blockiert und kann nicht für andere Zwecke eingesetzt werden. Mittelgroße Schilde werden normalerweise aus Metall gefertigt und haben einen Durchmesser von 90 cm bis 120 cm. Die Form ist dabei ziemlich beliebig. So gibt es runde und eckige mittelgroße Schilde, aber auch solche in Form von gespreizten Drachenflügeln. Ein klassischer Schild, wie er im Mittelalter verwendet wurde, ist dreieckig, wobei eine Spitze nach unten weist.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@39 = ~Dieser machtvolle Schild wurde für Magierkiller hergestellt, um ihnen einen Schutz gegen feindliche Zauber zu verschaffen. Es besteht aus einem seltsamen Material, das die hohe Magieresistenz ermöglicht.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3
+Magiewiderstand: +25%
+Gewicht: 5
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@40 = ~Sir Renal~

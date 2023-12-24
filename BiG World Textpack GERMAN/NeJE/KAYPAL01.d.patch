@@ -1,0 +1,111 @@
+--- NeJE\dlg\KAYPAL01.d	Thu Mar 29 19:02:51 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\KAYPAL01.d	Tue Apr 09 19:36:30 2019
+@@ -17,7 +17,7 @@
+ END
+ 
+ EXTEND_BOTTOM KAYPAL02 28
+-  IF ~~ THEN REPLY ~Your Cup, Sir Anarg. I can not give it to you, but I ask you to listen to me. I beg you, please.~ EXTERN ~KAYPAL01~ A8 
++  IF ~~ THEN REPLY @0 EXTERN ~KAYPAL01~ A8 
+ END
+ 
+ ALTER_TRANS KAYPAL01 // file name
+@@ -28,13 +28,13 @@
+ END
+ 
+ EXTEND_BOTTOM KAYPAL01 3
+-  IF ~~ THEN REPLY ~Your Cup, Sir Anarg. I can not give it to you, but I ask you to listen to me. I beg you, please.~ EXTERN ~KAYPAL01~ A8 
++  IF ~~ THEN REPLY @0 EXTERN ~KAYPAL01~ A8 
+ END
+ 
+ APPEND ~KAYPAL01~
+ 
+ IF ~~ THEN BEGIN A1
+-  SAY ~Did not Ryan Trawl send you to kill me and my comrades?~
++  SAY @1
+   IF ~OR(2)
+ !InParty("Keldorn")
+ Dead("Keldorn")~ THEN GOTO A2
+@@ -43,24 +43,24 @@
+ END
+ 
+ IF ~~ THEN BEGIN A2
+-  SAY ~Well, of course! Does he ever speak directly? How did he put it? Something like "stop our activities"? I'm right?~
+-  IF ~~ THEN REPLY ~Yes, Sir Anarg, exactly.~ GOTO A3
++  SAY @2
++  IF ~~ THEN REPLY @3 GOTO A3
+ END
+ 
+ IF ~~ THEN BEGIN A3
+-  SAY ~And how were you going to... stop me, dear <PRO_LADYLORD>? Having twisted the Cup in front of me? You lied to Ryan Trawl too, I suppose?~
+-  IF ~~ THEN REPLY ~I was hoping to convince you to do that without bloodshed and leave Athkatla.~ GOTO A4
+-  IF ~~ THEN REPLY ~I understand how important this Cup to you, but is it worth the life of your comrades?~ GOTO A4
+-  IF ~~ THEN REPLY ~I told him that otherwise I could not complete the task.~ GOTO A4
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO A4
++  IF ~~ THEN REPLY @6 GOTO A4
++  IF ~~ THEN REPLY @7 GOTO A4
+ END
+ 
+ IF ~~ THEN BEGIN A4
+-  SAY ~Enlighten me, what is your task? What exactly bothers Ryan Trawl?~
+-  IF ~~ THEN REPLY ~The fact that you act on behalf of the Order, and your actions discredit the Order.~ GOTO A5
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO A5
+ END
+ 
+ IF ~~ THEN BEGIN A5
+-  SAY ~Ha! Discredit! As if the reputation of the Order can be dropped even lower!~
++  SAY @10
+   IF ~OR(2)
+ !InParty("Keldorn")
+ Dead("Keldorn")~ THEN GOTO A7
+@@ -69,12 +69,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN A6
+-  SAY ~What is it, Sir Keldorn? You do not mind that a crowd of armed men in shining armor sends a foreign <PRO_GIRLBOY> to do their dirty work for them? The main thing is to preserve the reputation of the Order! At any cost! Where are your principles, Sir Keldorn? Why did not you advise her to answer Sir Ryan as he deserved?~
++  SAY @11
+   IF ~~ THEN EXTERN ~KELDORJ~ FP3
+ END
+ 
+ IF ~~ THEN BEGIN A7
+-  SAY ~Okay, okay, I say nothing more. Here's what, my dear <PRO_LADYLORD>. Return the Cup to Sir Ryan and tell him that you have completed the task, and I promise you that we will leave Athkatla. It is a troubled time now, it seems a conflict with Riatavin is unavoidable... I hope that the war will not come soon though... Take care, my <PRO_LADYLORD>, and farewell!~
++  SAY @12
+   IF ~~ THEN DO ~AddexperienceParty(25000)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -82,27 +82,27 @@
+ END
+ 
+ IF ~~ THEN BEGIN A8
+-  SAY ~Draw your swords and do your best.~
+-	IF ~~ THEN REPLY ~Stop it! That's not true! Sirs, forgive me for lying to you, but I needed to see Sir Anarg. You did not give me other chance.~ GOTO A1
+-	IF ~~ THEN REPLY ~Why do you think that I came to kill you, Sir Anarg? I'm not going to do that.~ GOTO A1
+-	IF ~~ THEN REPLY ~Sir Anarg, can we talk before drawing our swords?~ GOTO A1
++  SAY @13
++	IF ~~ THEN REPLY @14 GOTO A1
++	IF ~~ THEN REPLY @15 GOTO A1
++	IF ~~ THEN REPLY @16 GOTO A1
+ END  
+ END
+ 
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN FP1
+-  SAY ~Sir Anarg, you know our Sir Ryan, he wouldn't send us for that.~
++  SAY @17
+   IF ~~ THEN EXTERN ~KAYPAL01~ A2
+ END
+ 
+ IF ~~ THEN BEGIN FP2
+-  SAY ~Sir Anarg...~
++  SAY @18
+   IF ~~ THEN EXTERN ~KAYPAL01~ A6
+ END
+ 
+ IF ~~ THEN BEGIN FP3
+-  SAY ~Sir Anarg...~
++  SAY @18
+   IF ~~ THEN EXTERN ~KAYPAL01~ A7
+ END
+ END

@@ -1,0 +1,14 @@
+--- Bdash\BG1\rMARL.D	Wed Apr 06 12:58:29 2005
++++ C:\BWP Patchstudio\patched files\Bdash\BG1\rMARL.D	Wed May 04 07:21:25 2016
+@@ -1,9 +1,9 @@
+ REPLACE ~MARL~
+ 
+ IF ~~ THEN BEGIN 13 // from: 12.0
+-  SAY ~'Twould be fitting, I suppose.  To Kennair Nethalin!  Rest ye well!  I... I would be alone awhile.~ /* #2389 */
++  SAY @0 /* #2389 */
+   IF ~~ THEN DO ~ChangeClass(Myself,INNOCENT)
+-AddExperienceParty(900)~ JOURNAL ~A man named Marl tried to pick a fight with me at the Feldepost Inn, but I was able to calm him down.  Marl lost a son named Kennair Nethalin.~ /* #11821 */ EXTERN ~DUNKIN~ 4
++AddExperienceParty(900)~ JOURNAL @1 /* #11821 */ EXTERN ~DUNKIN~ 4
+ END
+ 
+ END

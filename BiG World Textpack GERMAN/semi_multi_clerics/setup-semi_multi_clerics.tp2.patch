@@ -1,0 +1,13 @@
+--- semi_multi_clerics\setup-semi_multi_clerics.tp2	Sat Jul 23 11:12:18 2022
++++ C:\BWP Patchstudio\patched files\semi_multi_clerics\setup-semi_multi_clerics.tp2	Sun Aug 20 08:32:36 2023
+@@ -41,6 +41,10 @@
+ 	 ~russian~
+ 	 ~semi_multi_clerics/languages/russian/setup.tra~
+ 
++LANGUAGE ~German (By Lumorus)~
++	 ~german~
++	 ~semi_multi_clerics/languages/german/setup.tra~
++
+ BEGIN @0
+ 
+ AT_INTERACTIVE_EXIT "VIEW semi_multi_clerics/readme.html"

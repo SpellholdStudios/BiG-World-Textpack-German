@@ -1,0 +1,14 @@
+--- Divine_Remix\Setup-Divine_Remix.tp2	Sun Jul 29 13:28:44 2012
++++ C:\BWP Patchstudio\patched files\Divine_Remix\Setup-Divine_Remix.tp2	Thu Jan 10 17:06:22 2013
+@@ -41,6 +41,11 @@
+   ~french~
+   ~Divine_Remix/english/setup.tra~
+   ~Divine_Remix/french/setup.tra~
++LANGUAGE
++  ~German (by Manduran)~
++  ~german~
++  ~Divine_Remix/english/setup.tra~
++  ~Divine_Remix/german/setup.tra~
+ 
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

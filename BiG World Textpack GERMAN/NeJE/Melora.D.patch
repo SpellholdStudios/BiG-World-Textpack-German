@@ -1,0 +1,108 @@
+--- NeJE\dlg\Melora.D	Sun Apr 12 21:41:32 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Melora.D	Tue Apr 09 19:36:51 2019
+@@ -2,76 +2,68 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 0
+-  SAY ~Hey look were you are going! This road would be more than big enough for the both of us if you were not taking up so much of it for yourself!~
+-  IF ~~ THEN REPLY ~Steady there little one, you almost ran me down! Oh! I see that it is a Hafling that tries to run me down.~ GOTO 1
+-  IF ~~ THEN REPLY ~Watch your step little one! Well, well, what do we have here? A Hafling lass no less.~ GOTO 1
+-  IF ~~ THEN REPLY ~Not so fast little one, you very nearly had us both in the mud!~ GOTO 1
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 1
++  IF ~~ THEN REPLY @3 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~(*breathlessly*) Ran you down? You should be the one looking where you are going! You almost trod on me! Not so much of the "little one" if you would be so kind.~
+-  IF ~~ THEN REPLY ~I was looking where I was going, you are the one whose head was almost twisted back to front on her neck.~ GOTO 2
+-  IF ~~ THEN REPLY ~A little less attitude here "little one". You ran headlong into me!~ GOTO 2
+-  IF ~~ THEN REPLY ~I was looking where I was going. You were the one so intense on your flight that your eyes were elsewhere.~ GOTO 2
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO 2
++  IF ~~ THEN REPLY @6 GOTO 2
++  IF ~~ THEN REPLY @7 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~That may well be the case, but if you had your head on the right way you would have seen me and stepped aside.~
+-  IF ~~ THEN REPLY ~Okay. Maybe neither of us was looking where we were going. I apologise if I offended you by the term "little one". I did not recognise you as a Hafling at first. Are you going to tell me why you were running? Looked to me as if you had a demon from the Nine Hells on your tail.~ GOTO 3
+-  IF ~~ THEN REPLY ~Me, step aside for you? Now that is funny! You were the one with the back to front head. What are you so het up over anyway? Got a demon on your tail?~ GOTO 3
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 3
++  IF ~~ THEN REPLY @10 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Worse. A bounty hunter, this place seems to be teeming with them, but I seem to have escaped his notice for now.~
+-  IF ~~ THEN REPLY ~(*grin*) Oh yes indeed, far worse than any demon.~ GOTO 4
+-  IF ~~ THEN REPLY ~Interesting, a bounty hunter, eh. Tell me, what is the price for so small a head?~ GOTO 4
+-  IF ~~ THEN REPLY ~A bounty hunter you say. A formidable foe indeed! Perhaps I should be running with you and not into you.~ GOTO 4
++  SAY @11
++  IF ~~ THEN REPLY @12 GOTO 4
++  IF ~~ THEN REPLY @13 GOTO 4
++  IF ~~ THEN REPLY @14 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Do not mock me! It is not your head that they are after and I really would like to keep mine for a bit longer.~
+-  IF ~~ THEN REPLY ~Sorry litt... oops, slip of the tongue. By what name should I call you? I am <CHARNAME>.~ GOTO 5
+-  IF ~~ THEN REPLY ~I am sorry. I had not meant to mock you. I am <CHARNAME>, please tell me what is your name?~ GOTO 5
+-  IF ~~ THEN REPLY ~Do not be so tetchy, I am not about to hand you in. Yet! Who are you to attract the attention of bounty hunters? I am known as <CHARNAME>, if you are interested.~ GOTO 5
++  SAY @15
++  IF ~~ THEN REPLY @16 GOTO 5
++  IF ~~ THEN REPLY @17 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I am Melora. Tell me, <CHARNAME>, are you intending to leave this place anytime soon?~
++  SAY @19
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~I would ask that you allow me join you for a short way, I think I need to be away from here for a while.~
++  SAY @20
+   IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~I am not without my uses though. I am adept with many weapons or I can fade into the shadows if stealth is what you need.~
++  SAY @21
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I also have the means to get you into places otherwise barred to you and I can even replenish your purse should you find it depleted. All done very discretely of course.~
+-  IF ~~ THEN REPLY ~I am not planning on leaving this exact moment, Melora, but if you are not in too much of a hurry join with me now. I can assure you that I have no plans to cross paths with bounty hunters or demons any time soon.~ JOURNAL ~Meeting Melora.
+-
+-As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... Still, if I am to find Imoen and Irenicus I am going to need all the allies I can find. This halfling seems spirited enough and if she knows the area then all the better... I hope I don't live to regret this but I have taken her into the group.~ GOTO 9
+-  IF ~~ THEN REPLY ~I am in fact about to take my leave of this place, Melora, and your skills are most welcome. Come, I can assure you that you will be safe from both demons and bounty hunters.~ JOURNAL ~Meeting Melora.
+-
+-As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... Still, if I am to find Imoen and Irenicus I am going to need all the allies I can find. This halfling seems spirited enough and if she knows the area then all the better... I hope I don't live to regret this but I have taken her into the group.~ GOTO 9
+-  IF ~~ THEN REPLY ~Sounds to me like you are more trouble than you are worth. I do not need to be continually looking over my shoulder for bounty hunters. Best you be on your way if you value that head of yours so much!~ JOURNAL ~Meeting Melora.
+-
+-As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... I have enough to contend with at the moment without the added worry of having to look over my shoulder for bounty hunters so I let her go on her way. If I change my mind she says for me to look for her in the shadows... here's me thinking that she was in a hurry to leave?~ GOTO 10
+-  IF ~~ THEN REPLY ~I am sorry, Melora, I have no need of your skills at present but I may pass this way again and have need of you then. I will look for you then. Goodbye and may good fortune follow you, Melora.~ JOURNAL ~Meeting Melora.
+-
+-As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... I have enough to contend with at the moment without the added worry of having to look over my shoulder for bounty hunters so I let her go on her way. If I change my mind she says for me to look for her in the shadows... here's me thinking that she was in a hurry to leave?~ GOTO 10
++  SAY @22
++  IF ~~ THEN REPLY @23 JOURNAL @24 GOTO 9
++  IF ~~ THEN REPLY @25 JOURNAL @24 GOTO 9
++  IF ~~ THEN REPLY @26 JOURNAL @27 GOTO 10
++  IF ~~ THEN REPLY @28 JOURNAL @27 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Then, <CHARNAME>, my skills are at your disposal. Providing you do not abuse them I will aid you in any way that I can.~
++  SAY @29
+   IF ~~ THEN DO ~JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I will be here or there, <CHARNAME>, if you find yourself ever in need of my skills. Look for me in the shadows. Goodbye and may only good fortune follow you always too, <CHARNAME>.~
++  SAY @30
+   IF ~~ THEN DO ~EscapeAreaMove("AR0021",311,654,12)~ EXIT
+ END

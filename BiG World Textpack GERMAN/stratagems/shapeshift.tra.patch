@@ -1,0 +1,60 @@
+--- stratagems\lang\german\shapeshift.tra	Tue Jan 22 03:47:47 2019
++++ C:\BWP Patchstudio\patched files\stratagems\lang\german\shapeshift.tra	Thu Nov 10 09:25:40 2022
+@@ -1,14 +1,13 @@
+-
+-@13120 = ~Zeichen des Niederen Werwolfes~
++@13120 = ~Zeichen des Niederen Werwolfes~ 
+ @13121 = ~Zeichen des Werwolfes~
+-@13122 = ~Zeichen des Größeren Werwolfes~
++@13122 = ~Zeichen des Größeren Werwolfes~ 
+ @13123 = ~Zeichen der zum Bären gewandelten Gestalt~
+-@13124 = ~Zeichen der zum Wolf gewandelten Gestalt~
++@13124 = ~Zeichen der zum Wolf gewandelten Gestalt~ 
+ @13125 = ~Zeichen der zum Drachen gewandelten Gestalt~
+ @13126 = ~Zeichen der zum Salamander gewandelten Gestalt~
+-@13127 = ~Zeichen der zur Spinne gewandelten Gestalt~
++@13127 = ~Zeichen der zur Spinne gewandelten Gestalt~ 
+ @13128 = ~Zeichen des Feuerelementars~
+-@13129 = ~Zeichen des Erdelementars~
++@13129 = ~Zeichen des Erdelementars~ 
+ @13140 = ~Dieses Zeichen ermöglicht es dem Gestaltwandler Druiden, der es erschuf, sich auf Wunsch in einen kleineren Werwolf zu Verwandeln. In dieser Gestalt ist der Druide außer Stande, zu sprechen oder Zauber zu wirken, aber er gewinnt die ungeheure Kraft und Geschwindigkeit des Werwolfs. Anders als ein wahrer Werwolf wird der Druide jedoch weiterhin von nichtmagischen Waffen angegriffen.
+ 
+ EIGENSCHAFTEN:
+@@ -54,7 +53,7 @@
+ Beschleunigt
+ Regneration: 6 Trefferpunkte pro Runde
+ 
+-Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~
++Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~ 
+ @13143 = ~Dieses Zeichen ermöglicht dem Gestaltwandler Druiden, der es schuf, sich auf Wunsch in einen Braunbären zu verwandeln. Während er diese Form einnimmt, ist der Druide außer Stande, zu sprechen oder Zauber zu wirken.
+ 
+ EIGENSCHAFTEN:
+@@ -79,7 +78,7 @@
+ Schaden: 1W8
+ Vergrößerte Bewegungsrate
+ 
+-Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~
++Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~ 
+ @13145 = ~Dieses Zeichen ermöglicht es dem Rächer Druiden, der es schuf, sich auf Wunsch in einen kleineren Drachen zu verwandeln. Während er diese Form einnimmt, ist der Druide außer Stande, zu sprechen oder Zauber zu wirken.
+ 
+ EIGENSCHAFTEN:
+@@ -135,7 +134,7 @@
+ Immunitätgegen Feuer
+ Feuerschild
+ 
+-Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~
++Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~ 
+ @13149 = ~Dieses Zeichen ermöglicht dem Druiden, der es schuf, sich auf Wunsch in einen Riesen-Erdelementar zu verwandeln. Während er diese Form einnimmt, ist der Druide außer Stande, zu sprechen oder Zauber zu wirken.
+ 
+ EIGENSCHAFTEN:
+@@ -152,7 +151,8 @@
+ Kann nur von seinem Erschaffer verwendet werden (rüstet ihn wie mit einer Waffe aus, um es zu verwenden)~
+ @13150 = ~Gestaltwandel: Feuerelementar
+ 
+-Der Druide greift direkt auf die Macht des Elements Feuer zu, um sich in einen mächtigen Feuerelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide RK -5 und ETW0 2. Er richtet mit einem Schlag 1W10 Schadenspunkte im Nahkampf und 1W10 Schadenspunkte durch Feuer an. Der Elementar hat eine Stärke von 22, eine Geschicklichkeit von 25, ist zu 100 % immun gegen Feuer und verursacht bei jedem Angreifer Feuerschaden.~
++Der Druide greift direkt auf die Macht des Elements Feuer zu, um sich in einen mächtigen Feuerelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide RK -5 und ETW0 2. Er richtet mit einem Schlag 1W10 Schadenspunkte im Nahkampf und 1W10 Schadenspunkte durch Feuer an. Der Elementar hat eine Stärke von 22, eine Geschicklichkeit von 25, ist zu 100 % immun gegen Feuer und verursacht bei jedem Angreifer Feuerschaden.~ 
+ @13151 = ~Gestaltwandel: Erdelementar
+ 
+-Der Druide greift direkt auf die Macht des Elements Erde zu, um sich in einen mächtigen Erdelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide RK -5 und ETW0 2. Er richtet mit einem Schlag 2W10 Schadenspunkte durch Wucht an. Der Elementar hat eine Stärke von 25, eine  Geschicklichkeit von 10, ist zu 50 % immun gegen alle Nahkampf- und Fernkampfangriffe.~
++Der Druide greift direkt auf die Macht des Elements Erde zu, um sich in einen mächtigen Erdelementar mit 24 TW und immenser Stärke zu verwandeln. In der Elementargestalt hat der Druide RK -5 und ETW0 2. Er richtet mit einem Schlag 2W10 Schadenspunkte durch Wucht an. Der Elementar hat eine Stärke von 25, eine  Geschicklichkeit von 10, ist zu 50 % immun gegen alle Nahkampf- und Fernkampfangriffe.~ 
++@13152 = ~Abhärtung hat keine Auswirkung, wenn Ihr die Erdelementarform angenommen habt.~

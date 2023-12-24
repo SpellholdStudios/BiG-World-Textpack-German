@@ -1,0 +1,18 @@
+--- valen\german\setup.tra	Mon Apr 04 20:31:48 2005
++++ C:\BWP Patchstudio\patched files\valen\german\setup.tra	Fri Nov 28 20:43:44 2008
+@@ -27,7 +27,7 @@
+ Wie die aller Vampire sind Valens Klauen eine Leitung zur Negativen Ebene. Ihre eiskalte Berührung zählt als +4 Waffe, verursacht 1W6+4 Schadenspunkte und entzieht dem Opfer 4 Stufen.~
+ @11 = ~Valens Klauen
+ Wie die aller Vampire sind Valens Klauen eine Leitung zur Negativen Ebene. Ihre eiskalte Berührung zählt als +5 Waffe, verursacht 1W6+5 Schadenspunkte und entzieht dem Opfer 5 Stufen.~
+-@15 = ~Als VALEN nach ihrer Vergangenheit gefragt wird, schenkt sie euch ein seltsam verschmitztes Lächeln. Sie berichtet sorgfältig davon, daß sie eine Raubmörderin war, bevor sie ihre Herrin Bodhi getroffen hat. Unter Bodhis Herrschaft lernte sie das Handwerk eines Diebes, als sie zur Vampirin gemacht wurde verschmolzen ihre Fähigkeiten des Kämpfens und Stehlens. Bodhi hat Valen damit beauftragt euch zu folgen, und das machte sie bisher... aber da ist etwas an ihr, das ihre Gemeinschaft und wechselnde Loyalität mit euch in Frage stellt.~
++@15 = ~Als VALEN nach ihrer Vergangenheit gefragt wird, schenkt sie euch ein seltsam verschmitztes Lächeln. Sie berichtet sorgfältig davon, dass sie eine Raubmörderin war, bevor sie ihre Herrin Bodhi getroffen hat. Unter Bodhis Herrschaft lernte sie das Handwerk eines Diebes, als sie zur Vampirin gemacht wurde verschmolzen ihre Fähigkeiten des Kämpfens und Stehlens. Bodhi hat Valen damit beauftragt euch zu folgen, und das machte sie bisher... aber da ist etwas an ihr, das ihre Gemeinschaft und wechselnde Loyalität mit euch in Frage stellt.~
+ 
+ @16 = ~Cynara~
+ 
+@@ -51,4 +51,4 @@
+ 
+ ** ACHTUNG ** 
+ 
+-~ 
+\ No newline at end of file
++~

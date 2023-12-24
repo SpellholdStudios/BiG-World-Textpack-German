@@ -1,0 +1,68 @@
+--- NeJ\Dfiles\DHIGHRIT.D	Fri Apr 02 03:12:06 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DHIGHRIT.D	Wed Apr 10 10:24:04 2019
+@@ -2,46 +2,46 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 0
+-  SAY ~Welcome to our gathering, my friend.  Would you care for a bite to eat?  We were just beginning our dinnertime prayer...~
+-  IF ~~ THEN REPLY ~Sure!  There's nothing I like more than a quick bite of Kuldahar villager.~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  SAY @0
++  IF ~~ THEN REPLY @1 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ ~ GOTO 1
+-  IF ~~ THEN REPLY ~You monsters!  How dare you commit this heinous act?~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  IF ~~ THEN REPLY @2 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ ~ GOTO 2
+-  IF ~~ THEN REPLY ~Eat up, I don't care.  However, if you could take some time before eating to hand over the Heartstone Gem, I'd appreciate it.~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  IF ~~ THEN REPLY @3 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ ~ GOTO 3
+-  IF ~~ THEN REPLY ~No thanks.  I was just leaving, really.~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  IF ~~ THEN REPLY @4 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ ~ GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Blessed Sseth, face of Sch'theraqpasstt, thank you for blessing us with the arrival of bountiful sacks of meat, warm and full of precious wine.~
+-  IF ~~ THEN REPLY ~Heh.  I was just... uh... you know... kidding about the... thing and the uh... stuff...~ GOTO 5
+-  IF ~~ THEN REPLY ~Enough of your words, vile monster!  I will listen to your mockery no more.~ GOTO 5
+-  IF ~~ THEN REPLY ~I think it's time for me to go.~ GOTO 4
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO 5
++  IF ~~ THEN REPLY @7 GOTO 5
++  IF ~~ THEN REPLY @8 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~We *dare* because we do not *fear.*  Our god is strong and powerful, his handmaiden is as swift and terrible as lightning.  The power of our clan has been waning for thousands of years.  Our moon is waxing now, and it is as red as the blood of your weak and feeble kin, my friend.~
+-  IF ~~ THEN REPLY ~That certainly *sounds* impressive... but do you have the guts to back it up?~ GOTO 5
+-  IF ~~ THEN REPLY ~I've listened to enough of your madness.  I won't let you harm another innocent.~ GOTO 5
+-  IF ~~ THEN REPLY ~Please don't devour me.  Just let me leave.~ GOTO 4
++  SAY @9
++  IF ~~ THEN REPLY @10 GOTO 5
++  IF ~~ THEN REPLY @11 GOTO 5
++  IF ~~ THEN REPLY @12 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~My friend, even if I were in possession of that item, I would not give it to you.  It is a tool of our leader, Yxunomei.  Revel in the glory of your death!  The ritual of your kind's destruction marks the setting of your sun and the rising of Sseth's black star.~
+-  IF ~~ THEN REPLY ~Everyone has to have a dream, I suppose.  Too bad you're about to wake up with my fist in your scaly face.~ GOTO 5
+-  IF ~~ THEN REPLY ~You will do no such thing.  I will not let you continue with this insanity any longer.~ GOTO 5
+-  IF ~~ THEN REPLY ~Look... I don't care about your plans.  Just let me continue on my way.~ GOTO 4
++  SAY @13
++  IF ~~ THEN REPLY @14 GOTO 5
++  IF ~~ THEN REPLY @15 GOTO 5
++  IF ~~ THEN REPLY @16 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Oh no, my friend!  Not until you have felt the warm, tight embrace of our lord Sseth!  Come closer... closer...~
++  SAY @17
+   IF ~~ THEN DO ~Enemy()
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Do you require a demonstration of our power, my friends?  I will grant you one right now, and it will be as bold and terrifying as any dark dream you have ever slept through.  For the terrible majesty of Sseth!~
++  SAY @18
+   IF ~~ THEN DO ~Enemy()
+ ~ EXIT
+ END

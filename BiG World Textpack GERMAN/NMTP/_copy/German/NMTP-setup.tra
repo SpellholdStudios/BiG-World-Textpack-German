@@ -1,0 +1,963 @@
+@1     = ~Münzeinheiten~ 
+@2     = ~Hauptteil für NM-Relationship v2.8~
+@6     = ~Hauptteil Lebenskompetenzen V2.1~ 
+@7     = ~Gerichtsbarkeit der Schwertküste~
+@8     = ~Schauspielkünste~ 
+@9     = ~Kochen~
+@98    = ~Diese Komponente wird übersprungen, weil die Voraussetzungen nicht erfüllt sind.~
+@99    = ~Diese Komponente wird übersprungen, weil eine andere Mod eine ähnliche Komponente installiert hat.~ 
+@100   = ~Ein kleiner Beutel mit Goldmünzen~
+@101   = ~Dieser Beutel enthält 50 Goldmünzen, Ihr denkt darüber nach, wozu Ihr sie ausgeben sollt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~ 
+@102   = ~Eine Tasche mit Goldmünzen~
+@103   = ~Diese Tasche ist mit 500 Goldmünzen gefüllt, für jeden ist das kein kleines Vermögen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 10~
+@104   = ~Sack voller Goldmünzen~ 
+@105   = ~Dieser Sack ist mit 5000 Münzen gefüllt, dies ist ein königlicher Reichtum, die meisten Menschen können ihn überhaupt nicht bewegen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 100~
+@106   = ~Ihr verteilt die Taschen um.~ 
+@107   = ~Ihr nehmt 50 Münzen heraus.~
+@108   = ~Ihr nehmt 500 Münzen heraus.~
+@109   = ~Ihr nehmt 5000 Münzen heraus.~
+@110   = ~Sortieren von Münzen.~ 
+@111   = ~Ihr habt eine Menge Gold erbeutet, vielleicht solltet Ihr es jetzt ordentlich auf die Taschen aufteilen?~
+@200   = ~Zeugenaussagen~ 
+@201   = ~Dieses Dokument beschreibt <CHARNAME>s Diebstahl, dies haben noch weitere Zeugen durch Unterschrift beglaubigt, daher scheint dies für die Feststellung von Schuld oder Unschuld entscheidend zu sein.~ 
+@210   = ~Zeuge~
+@220   = ~Örtliche Strafverfolgungsbehörden der Flammenden Faust~ 
+@300   = ~Örtliches Gefängniss von Amn~
+@301   = ~Örtliches Gefängnis der Flammenden Faust~
+@400   = ~Kautionen-Verzeichnis des örtlichen Gefängnises von Amn~
+@410   = ~Schauspielkunst~
+@411   = ~Straßenkünstler~
+@420   = ~Küchenvorratslager~
+@421   = ~Vorratslager des alten Tom~
+@1000  = ~Silberner Ring~
+@1001  = ~Weiße Schlange-Ring~
+@1002  = ~Dieser Ring aus poliertem Silber ist sehr dünn und von einer weißen Schlange umschlungen. Er kann nur am kleinen Finger getragen werden.~
+@1003  = ~Weiße Schlange-Ring: "Ophiuchus"
+
+Die wahre Geschichte des Rings ist nirgendwo zu ergründen. Der Legende nach wurde die Lieblingsschlange zu Ehren seines toten Freundes verzaubert: einer weißen Schlange namens Ophiuchus (Schlangenträger). Nach dem Tod des namenlosen Meisters wurde der silberne Ring von Grabräubern auf dem Schwarzmarkt verkauft und auf dem Festland von Faerûn weitergereicht. Der Ring ermöglicht dem Träger Immunität gegen Gifte und verbessert die Zauberkraft des Trägers.
+
+EIGENSCHAFTEN:
+
+Zauber: +2
+Immunität gegen Gift
+
+Besondere Fähigkeiten:
+Dieser Gegenstand kann an jede beliebige Person verschenkt werden, der Gegenstand wird ans Ziel gebunden und stellt versteckte Eigenschaften wieder her. Wenn das Ziel weiblich ist, verbessert sich die Beziehung um 2 Punkte.~
+@1004  = ~Weiße Schlange-Ring: "Ophiuchus"
+
+Die wahre Geschichte des Rings ist nirgendwo zu ergründen. Der Legende nach wurde die Lieblingsschlange zu Ehren seines toten Freundes verzaubert: einer weißen Schlange namens Ophiuchus (Schlangenträger). Nach dem Tod des namenlosen Meisters wurde der silberne Ring von Grabräubern auf dem Schwarzmarkt verkauft und auf dem Festland von Faerûn weitergereicht. Der Ring ermöglicht dem Träger Immunität gegen Gifte und verbessert die Zauberkraft des Trägers.
+Der Ring hat eine wenig bekannte Wirkung: Er kann sich in eine dünne weiße Schlange verwandeln und hat seine eigene Bedeutung Weisheit.
+
+EIGENSCHAFTEN:
+
+Zauber: +2
+Immunität gegen Gift
+
+Besondere Fähigkeiten:
+Täglich kann sich der Ring jederzeit in eine weiße Schlange namens "Ophiuchus" für insgesamt 1 Minute verwandeln. Die weiße Schlange verfügt über insgesamt 10 Energie-Punkte, bei jeder Verwandlung verringert sich die Energie um 1 Punkt pro Runde; wenn die Energiepunkte verbraucht sind, verwandelt sich die weiße Schlange automatisch in den Ring zurück.~
+@1005  = ~Dieser Gegenstand ist ein Geschenk an andere.~
+@1006  = ~Ruft Ophiuchus herbei~
+@1007  = ~Weiße Schlange-Ring: "Ophiuchus"
+
+Die wahre Geschichte des Rings ist nirgendwo zu ergründen. Der Legende nach wurde die Lieblingsschlange zu Ehren seines toten Freundes verzaubert: einer weißen Schlange namens Ophiuchus (Schlangenträger). Nach dem Tod des namenlosen Meisters wurde der silberne Ring von Grabräubern auf dem Schwarzmarkt verkauft und auf dem Festland von Faerûn weitergereicht. Der Ring ermöglicht dem Träger Immunität gegen Gifte und verbessert die Zauberkraft des Trägers.
+Da der Ring schwer beschädigt wurde, verlor er etwas von dieser Fähigkeit.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Gift~
+@1008  = ~Verwandlung in einen Hauptschlüssel~
+@1009  = ~Rückverwandlung in den Weiße Schlange Ring~
+@1010  = ~Ophiuchus~
+@1011  = ~Weiße Schlange-Ring: "Ophiuchus"
+
+Die wahre Geschichte des Rings ist nirgendwo zu ergründen. Der Legende nach wurde die Lieblingsschlange zu Ehren seines toten Freundes verzaubert: einer weißen Schlange namens Ophiuchus (Schlangenträger). Nach dem Tod des namenlosen Meisters wurde der silberne Ring von Grabräubern auf dem Schwarzmarkt verkauft und auf dem Festland von Faerûn weitergereicht. Der Ring ermöglicht dem Träger Immunität gegen Gift und verbessert die Zauberkraft des Trägers.
+Der Ring hat eine wenig bekannte Wirkung: Er kann sich in eine dünne weiße Schlange verwandeln und hat seine eigene Bedeutung Weisheit.
+Ihr ändert den Weiße Schlange-Ring jetzt in diese spezielle Form, in diesem Zustand kann er dem Träger helfen, ein Schloß zu öffnen.
+
+EIGENSCHAFTEN:
+
+Charm: +2
+Immunität gegen Gift
+Schlösser öffnen: Verbesserung des Zugangs um +50%
+
+Besondere Fähigkeiten:
+Täglich kann sich der Ring jederzeit in eine weiße Schlange namens "Ophiuchus" für insgesamt 1 Minute verwandeln. Der Weiße Schlange-Ring verfügt über insgesamt 10 Energie-Punkte, während der Dauer der Veränderung verringert sich die Energie um 1 Punkt pro Runde; wenn die Energiepunkte verbraucht sind, verwandelt sich die weiße Schlange automatisch in den Ring zurück.~
+@1100  = ~Juwelenbeutel~
+@1101  = ~Diebischer Juwelenbeutel~
+@1102  = ~Dies ist nur ein kleiner wunderschöner Geldbeutel wie der eines Adligen, er scheint sehr gut geeignet zu sein für die Aufbewahrung von Schmuck und Goldmünzen.~
+@1103  = ~Diebischer Juwelenbeutel: "Geldbeutel eines anderen"
+
+Einige Leute sagen, dass ein Magier, der der unter der Belästigung von Kender erlitt, ihn konstruierte und seinen Freunden zum "Geschenk" machte; Es wird auch gesagt, dass die Tasche selbst ein durch Magie geschaffenes Gefängnis ist, und der habgierige Behälter immer auf der Suche nach dem nächsten Ziel in der Menschenmenge ist und noch absurdere Gerüchte als diese.
+Unabhängig von der Quelle erschien dieser Juwelenbeutel vor ein paar Monaten im Blickfeld von Baldurs Tor. Inmitten der Menge würde eine elegante Hand nur die Brieftasche hochheben, auf der Suche nach einer Dame oder einem Herrn in einem einem prächtigen Gewand, und fragen "Habt Ihr diesen Geldbeutel verloren?" Die sanfte Stimme würde gieriges Verlangen wecken. Sobald sie dieses Geschenk des Himmels akzeptieren, werden sie bald entdecken, dass dieser Beutel unbemerkt auf den Boden fiel und den Schmuck und die Goldmünzen aus ihren Taschen wegnahm. Dann wird nach einer Weile eine Hand ihn abholen und entleeren, auf der Suche nach dem nächsten Besitzer.
+Dieses Ereignis brachte Baldurs Tor in Aufruhr und daher misstrauisch gegenüber Fremden, aber immer noch fallen viele "Besitzer" darauf herein, bis eines Tages, bevor der Geldbeutel auf dem Boden landet, eine andere Hand aus der Menschenmenge sie schnell auffängt... und der ganze vorübergehende Vorfall als abgeschlossen betrachtet wird.
+
+Besondere Fähigkeiten:
+Dieser Gegenstand kann an jeden neutralen NPCs weitergegeben werden. Der Spieler erhält 5 Fähigkeitspunkte um die Stärken und Werte des Ziels mit der \[Täuschen\] Fähigkeit zu ermitteln. Nach erfolgreicher Identifizierung der Fähigkeiten des Spielers nimmt das Ziel die Gegenstände an und der Wert der Beziehung verbessert sich um 2 Punkte. Nach 1 Runde erhält der Spieler alle Halsketten, Ringe, Edelsteine, Gold und Juwelenbeutel.
+
+Kann nicht verwendet werden von:
+Paladinen~
+@1104  = ~Dieser Gegenstand ist ein Geschenk an andere.~
+@1105  = ~Irgendjemand~
+@1200  = ~Diadem~
+@1201  = ~Rakshasa-Diadem~
+@1202  = ~In diesem feinen Diadem funkelt ein Amethyst in ganzer Pracht.~
+@1203  = ~Rakshasa-Diadem: "Auge der Verführung"
+
+Dieses schöne Diadem, das die Magie des Bösen verbirgt, ist ein Schmuck, den die Rakshasa-Dämonen gerne tragen. Es erhöht den Charme und die Überzeugungskraft des Trägers und ermöglicht dem Träger, andere leichter durch Lügen zu verwirren.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+
+Besondere Fähigkeiten:
+
+Charm: +1
+Team \[Täuschung\] Ermittelter Wert der Fertigkeiten: +2
+Team \[Verhandlung\] Ermittelter Wert der Fertigkeiten: +1
+
+Kann nicht verwendet werden von:
+Paladinen~
+@1300  = ~Vollständige Anleitung zur Meisterlichen Schauspielkunst~
+@1301  = ~Der wesentliche Inhalt des Buches ist Eurer Meinung nach weit entfernt von seinem prachtvollem Titel, es kann im besten Fall nur als allgemeiner Einstieg in die Schauspielkunst angesehen werden, darunter sind auch einige grundlegende Vorführungen, ein Geschicklichkeitstraining sowie einige sogenannte speziellen Fähigkeiten und es erklärt gleichzeitig, wie man damit Geld verdient. Dieses kleine, aber vollständige Buch ist nur für die mit der Schauspielkunst befassten Personen sehr hilfreich.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+ 
+Fähigkeiten: Erste \[Schauspielkunst\] Fähigkeiten.
+Besonderheiten: Das Buch verschwindet nach Gebrauch.
+
+Kann nur verwendet werden von:
+Barden
+Dieben
+Mönchen~
+@1302  = ~Ausgewählte Lieder der Schwertküste~
+@1303  = ~Dieses Bücherpaket enthält eine Sammlung von an der Schwertküste allgemein verbreiteten Liedern.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+
+Fähigkeiten: Verwendet \[Schauspielkunst\] Fähigkeiten, um Geld zu verdienen.
+\[Schauspielkunst\] Ermittelter Wert der Fertigkeiten: 0
+Besonderheiten: 3 Stunden täglich können die Spieler auf das Spiel setzen, um 1 mal mit der Schauspielkunst Geld zu verdienen.
+
+Kann nur verwendet werden von:
+Barden
+Dieben
+Mönchen~
+@1304  = ~Nashkel Karneval Sammelband~
+@1305  = ~Dieses Buch enthält eine Sammlung der im Laufe der Jahre im Nashkel Karneval inszenierten Theaterstücke und Partituren. Anhänger des Nashkel Karnevals kaufen es vielleicht als Souvenir.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+ 
+Fähigkeiten: Verwendet \[Schauspielkunst\] Fähigkeiten, um Geld zu verdienen.
+\[Schauspielkunst\] Ermittelter Wert der Fertigkeiten: 0,2,4
+Besonderheiten: 3 Stunden täglich können die Spieler auf das Spiel setzen, um 1 mal mit der Schauspielkunst Geld zu verdienen.
+
+Kann nur verwendet werden von:
+Barden
+Dieben
+Mönchen~
+@1306  = ~Großherzogliche Bühnenstücke~
+@1307  = ~Dieses Buch ist eine Sammlung von preisgekrönten, im Laufe der Jahre in Baldurs Tor aufgeführten großherzoglichen Bühnenstücken, die alle Arten von einfachen Stücken enthält.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+ 
+Fähigkeiten: Verwendet \[Schauspielkunst\] Fähigkeiten, um Geld zu verdienen.
+\[Schauspielkunst\] Ermittelter Wert der Fertigkeiten: 4,6,8
+Besonderheiten: 3 Stunden täglich können die Spieler auf das Spiel setzen, um 1 mal mit der Schauspielkunst Geld zu verdienen.
+
+Kann nur verwendet werden von:
+Barden
+Dieben
+Mönchen~
+@1308  = ~Liederbuch der Kupferkrone~
+@1309  = ~Die Bindung dieses Buches ist von schlechter Qualität, es enthält eine Sammlung von Improvisationen von einigen der Barden aus der Kupferkrone. Ihr werdet schnell feststellen, dass er eine überraschend große Anzahl von alten Liedern enthält, gemischt mit dem verbleibenden Rest.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+ 
+Fähigkeiten: Verwendet \[Schauspielkunst\] Fähigkeiten, um Geld zu verdienen.
+\[Schauspielkunst\] Ermittelter Wert der Fertigkeiten: 0,2,8
+Besonderheiten: 3 Stunden täglich können die Spieler auf das Spiel setzen, um 1 mal Geld mit der Vorstellung zu verdienen.
+
+Kann nur verwendet werden von:
+Barden
+Dieben
+Mönchen~
+@1310  = ~Harfe~
+@1311  = ~Verfeinerte Harfe~
+@1312  = ~Die Harfe der Barden ist ein häufig verwendetes Saiteninstrument. Diese kleine Harfe wird von fahrenden Barden verwendet.~
+@1313  = ~Dies ist eine Harfe von vorzüglicher Handwerkskunst, die silbernen Saiten sind in einen Rahmen aus vergoldetem Holz eingebettet. Mit so schönen, perfekten Produkten scheinen selbst Anfänger eine wunderbare Melodie spielen zu können.
+
+EIGENSCHAFTEN:
+
+Gewicht: 3
+
+EIGENSCHAFTEN:
+
+\[Schauspielkunst\] Ermittelter Wert der Fertigkeiten: +2
+
+Kann nur verwendet werden von:
+Barden~
+@1314  = ~Küchengeräte~
+@1315  = ~Verfeinerte Küchengeräte~
+@1316  = ~Die Küche ist das zweite Leben eines Kochs, gute Küchengeräte sind eine große Hilfe für beste Kochergebnisse.~
+@1317  = ~Diese Küchengeräte sind aus außergewöhnlichem Eisen hergestellt. Sehr gute Wärmeleitfähigkeit, ausgewogenes Gefühl, selbst der Anfänger kann zuversichtlich sein, wenn er es zum Kochen verwendet.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5
+
+EIGENSCHAFTEN:
+
+\[Kochen\] Ermittelter Wert der Fertigkeiten: +2~
+@1400  = ~Bisamrattenfleisch~
+@1401  = ~Um eine tote Ratte zuzubereiten, entfernt Ihr einfach den essbaren Teil.
+
+EIGENSCHAFTEN:
+
+Gemeinsame Bestandteile
+Gewicht: 1
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1402  = ~Bärenfleisch~
+@1403  = ~Bärenfleisch ist eine seltene Zutat, es enthält eine Menge an Rohprotein und Rohfett und kann eine sinnvolle Ergänzung für starke Knochen und Muskeln sein.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1404  = ~ Bärentatzen~
+@1405  = ~ Bärentatzen sind qualitativ hochwertigen Zutaten, die Milz und Magen stärken, Kälte abwehren und die Lebensenergie stärken.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1406  = ~Hundefleisch~
+@1407  = ~Hundefleisch hat einen vollen Geschmack, ist wohlriechend, das nahrhafte Hundefleisch stärkt den Körper, verbessert die Verdauung und fördert die Durchblutung.
+
+EIGENSCHAFTEN:
+
+Gemeinsame Bestandteile
+Gewicht: 2
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1408  = ~Wolfsfleisch~
+@1409  = ~Wolfsfleisch hat einen leicht salzigen Geschmack, das nahrhafte Wolfsfleisch ist ein Stärkungsmittel bei langer Krankheit.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1410  = ~Tigerknochen~
+@1411  = ~Tigerknochen sind eine der seltenen und wertvollen tierischen Zutaten, verlängern das Leben, stärken den Blutkreislauf, kräftigen Sehnen und Knochen und haben weitere gesundheitliche Auswirkungen.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1412  = ~Pantherknochen~
+@1413  = ~Die Suppe aus Knochen von Leoparden und anderen Arten von Großkatzen kann Krankheiten lindern sowie Muskeln und Knochen stärken.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1414  = ~Rehfleisch~
+@1415  = ~Rehfleisch ist qualitativ hochwertiges Wildbret, zartes, mageres Fleisch mit leckerem Geschmack und wenig Bindegewebe, aus dem eine Vielzahl von Gerichten zubereitet werden kann.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1416  = ~Hirschgeweih~
+@1417  = ~Hirschgeweih ist eine der seltenen und wertvollen tierischen Zutaten, die als nahrhaftes Stärkungsmittel gegen Schwäche verwendet werden und bei Nervenschwäche wirken.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1418  = ~Kaninchen~
+@1419  = ~Kaninchenfleisch ist zart, köstlich, nahrhaft, mit hohem Proteingehalt und kann leicht verdaut werden.
+
+EIGENSCHAFTEN:
+
+Gemeinsame Bestandteile
+Gewicht: 1
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1420  = ~Rindfleisch~
+@1421  = ~Rindfleisch ist heutzutage für die Bewohner der Schwertküste das wichtigste Lebensmittel, es ist wegen seinem hohen Gehalt an Eiweiß, wenig Fett und viel Geschmack sehr beliebt.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1422  = ~Wyvernfleisch~
+@1423  = ~Nur wenige Menschen genießen Wyvernfleisch. Weil es Giftstoffe enthält, erfordert es eine besondere Zubereitung.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1424  = ~Spinnen~
+@1425  = ~Wenige Menschen essen Spinnen, aber bei richtiger Zubereitung schmecken sie wie köstliche Krabben.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 10
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1426  = ~Drachenfleisch~
+@1427  = ~Drachenfleisch ist eine bei Feinschmeckern begehrte Zutat, aber wie wir alle wissen, ist Drachen zu töten im Grunde eine unmögliche Aufgabe, weswegen sich das köstliche Drachenfleisch zu einer mysteriösen Legende entwickelt hat.
+
+EIGENSCHAFTEN:
+
+Erweiterte Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1428  = ~Karpfen~
+@1429  = ~Karpfen ist nicht nur reich an Eiweiß, sondern auch von guter Qualität und sehr lecker, es ist der häufigste Süßwasserfisch auf dem Tisch.
+
+EIGENSCHAFTEN:
+
+Gemeinsame Bestandteile
+Gewicht: 1
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1430  = ~Thunfisch~
+@1431  = ~Thunfischfleisch enthält wenig Fett, wenig Kalorien und besitzt hochwertiges Eiweiß und andere Nährstoffe und ist der Lieblings-Fisch der Feinschmecker.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 1
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1432  = ~Schlange~
+@1433  = ~Schlangenfleisch schmeckt zart und lecker, lindert Krankheiten, aktiviert die Durchblutung und beseitigt Blutstau, entgiftet und entfaltet eine reinigende Wirkung.
+
+EIGENSCHAFTEN:
+
+Sekundäre Zutaten
+Gewicht: 5
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1434  = ~Huhn~
+@1435  = ~Hühner sind eine in Gruppen lebende flugunwillige Vogelart, nicht nur ihr frisches Fleisch, sondern auch die Eier schmecken sehr lecker. Eier sind für die Bevölkerung der Schwerteküste täglich ein nahrhaftes Frühstück.
+
+EIGENSCHAFTEN:
+
+Gemeinsame Bestandteile
+Gewicht: 2
+
+Fähigkeiten: Verwendet die \[Kochen\] Fähigkeiten.~
+@1440  = ~Geröstetes Rattenfleisch~
+@1441  = ~Köstliches frisch geröstetes Rattenfleisch.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 4 Punkte
+Erschöpfung: 10% Erholung~
+@1442  = ~Gegrilltes Bärenfleisch~
+@1443  = ~Ein zartes und saftiges Bärensteak wird direkt über Holzkohle gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden~
+@1444  = ~Bärensteak in Honig~
+@1445  = ~Das Bärenfleisch wird in dicke Stücke geteilt und dann mit Honig mariniert, anschließend auf kleiner Flamme gekocht, gewaschen und erneut gegrillt, bis die Happen knusprig sind und einen festen Biss haben.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +2 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1446  = ~Geschmorte Bärentatze~
+@1447  = ~Mit einer besonderen Methode werden Bärentatzen kurze Zeit zubereitet und dann langsam im Schmortopf zu einem köstlichen Gericht weitergekocht.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +2 Verbesserung für 6 Stunden
+Kältewiderstand: +20% für 6 Stunden
+Glück: 2 Verbesserung für 6 Stunden~
+@1448  = ~Geröstetes Hundefleisch~
+@1449  = ~Köstliches gegrilltes Hundefleisch ist ein nahrhaftes Lebensmittel im Winter.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Rettungswurf (gegen Tod): +1 Verbesserung für 6 Stunden
+Kältewiderstand: +5% für 6 Stunden~
+@1450  = ~Gebratenes Hundefleisch~
+@1451  = ~In heißes Öl werden Pfefferkörner, Sternanis, weißer Kardamom, Pfeffer und andere Gewürze gestreut, das Hundefleisch mit süßer Sauce gebunden und mit Salz und Pfeffer in der Pfanne gebraten und wird so von vielen Leuten gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 6
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 8
+Erschöpfung: 20% Erholung
+Rettungswurf (gegen Tod): +2 Verbesserung, kontinuierliche 8-Stunden-
+Kältewiderstand: +10% für 8 Stunden
+Glück: +1 Verbesserung für 8 Stunden~
+@1452  = ~Geschmortes Wolfsfleisch~
+@1453  = ~Die einfachen Wolfsgerichte haben einen starken Eigengeschmack.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden~
+@1454  = ~Gegrilltes Wolfssteak~
+@1455  = ~Bei geringer Hitze wird das mit Butter und Gewürzen panierte Wolfsteak sorgfältig gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +2 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1456  = ~Tigerknochen-Suppe~
+@1457  = ~Eine Vielzahl von Kräutern mit frischen Tigerknochen ist das Geheimnis der Suppe und wird so von vielen Leuten gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 6
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Durst löschen: Wiederherstellung 4 Punkte
+Erschöpfung: 30% Erholung
+Wiederherstellen der Moral
+Verbesserung der Konstitution um 1 Punkt für 6 Stunden
+Rettungswurf (gegen Tod): +2 Verbesserung für 6 Stunden
+Rettungswurf (gegen Verwandlung): +2 Verbesserung für 6 Stunden
+Rettungswurf (gegen Odemwaffen): +2 Verbesserung für 6 Stunden
+Glück: +2 Verbesserung für 6 Stunden~
+@1458  = ~Leopardensuppe~
+@1459  = ~Leopardenknochen werden mit frischer Brühe gekocht und so von vielen Leuten gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 6
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Durst löschen: Wiederherstellung 4 Punkte
+Erschöpfung: 20% Erholung
+Wiederherstellen der Moral
+Verbesserung der Beweglichkeit um 1 Punkt für 6 Stunden
+Rettungswurf (gegen Tod): +1 Verbesserung für 6 Stunden
+Rettungswurf (gegen Verwandlung): +1 Verbesserung für 6 Stunden
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1460  = ~Gegrilltes Reh~
+@1461  = ~Gewürztes Rehfleisch, einfach gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Rettungswurf (gegen Verwandlung): +1 Verbesserung für 6 Stunden~
+@1462  = ~Wildgericht mit Gewürznelken~
+@1463  = ~Ein mit Gewürz umgewickeltes Rehfleisch wird mit ein wenig Brühe in der Schüssel gedünstet, dann herausgenommen und mit Sauce abgeschmeckt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Rettungswurf (gegen Verwandlung): +2 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1464  = ~Achtender Hirschgeweih-Suppe~
+@1465  = ~Geschnetzeltes Hirschhorn durch Zugabe von anderen Kräutern und Brühe langsam köcheln lassen, so wird es von vielen Leuten gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 6
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Durst löschen: Wiederherstellung 4 Punkte
+Erschöpfung: 30% Erholung
+Weisheit stieg um 1 Punkt, für 6 Stunden
+Wiederherstellen der Moral
+Behandlung von Krankheiten
+Rettungswurf (gegen Verwandlung): +2 Verbesserung für 6 Stunden
+Glück: +2 Verbesserung für 6 Stunden~
+@1466  = ~Gebratenes Kaninchen~
+@1467  = ~Nicht ganz durchgebratenes gesalzenes und in acht Stücke zerlegtes Kaninchenfleisch.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung~
+@1468  = ~Gebratenes Kaninchen~
+@1469  = ~Kaninchenfleisch in dünne Scheiben schneiden und in heißes Öl legen, bis es duftet, Gewürze hinzufügen und mit Hühnerbrühe zum Kochen bringen, anschließend auf kleiner Flamme kochen, gleichmäßig mit Sesam bestreuen und gar kochen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1470  = ~Rinderbraten~
+@1471  = ~Die mit Gewürzen umhüllten Stücke Rindfleisch werden langsam auf einem Spieß gegrillt und zusammen mit Käse gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung~
+@1472  = ~Steak Royal~
+@1473  = ~Das nach strengen Zubereitungsschritten gegrillte Rindfleisch ist eine weit verbreitete Delikatesse auf dem Tisch.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Glück: +2 Verbesserung für 6 Stunden~
+@1474  = ~Wyvern-Steak~
+@1475  = ~Durch kontinuierliche Destillation nach einem speziellen Verfahren werden die Giftstoffe des Wyvern-Fleisches entfernt und sein saftiger Geschmack und seine Eigenschaften erhalten.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Wiederherstellen der Moral
+Gift verlangsamen
+Rettungswurf (gegen Tod): +1 Verbesserung für 6 Stunden
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1476  = ~Gegrillte Spinnen~
+@1477  = ~Entfernt vorsichtig die Giftdrüse und Haare der Spinne und grillt sie auf kleiner Flamme, um ihren delikaten Geschmack zu erhalten.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 4
+Erschöpfung: 20% Erholung
+Gift verlangsamen
+Rettungswurf (gegen Tod): +1 Verbesserung für 4 Stunden
+Glück: +1 Verbesserung für 4 Stunden~
+@1478  = ~Gegrilltes Drachen-Fleisch~
+@1479  = ~Drachen-Fleisch ist ein legendäres Nahrungsmittel, das auch dann geschmacklos ist, wenn es mit Gewürzen gegrillt wird.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Wiederherstellen der Moral
+Rettungswurf: +1 Verbesserung für 6 Stunden~
+@1480  = ~Das geheime Drachen-Fleisch~
+@1481  = ~Mit einer sorgfältigen und kreativen Küche und einer geschickten Hand behält es angesichts der legendären Zutaten seine Eigenschaften.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 40% Erholung
+Stärke: +1 für 6 Stunden
+Wiederherstellen der Moral
+Rettungswurf: +2 Verbesserung für 6 Stunden
+Glück: +2 Verbesserung für 6 Stunden~
+@1482  = ~Gegrillter Fisch~
+@1483  = ~Nach dem Entfernen der inneren Organe wird er direkt mit Salz bestreut und gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung~
+@1484  = ~Süß-sauerer Karpfen~
+@1485  = ~Eine gute süß-saure Sauce wird einfach über den in heißen Öl gebratenen Fisch gegossen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1486  = ~Getrocknete und gesalzene Fische~
+@1487  = ~Ausgenommener und in der Sonne getrockneter Fisch.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung~
+@1488  = ~Süßholz-Käse-Fisch~
+@1489  = ~Den Fischmagen mit Käse und Schinken füllen, dann fest mit Süßholz umwickeln und im Römertopf (Tontopf mit Deckel) bei schwacher Hitze garen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1490  = ~Gegrillte Schlange~
+@1491  = ~Die in Stücke geschnittene Schlange wird mit Gewürzen umwickelt und auf Holzkohle gegrillt, bis sie gar ist.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 4
+Erschöpfung: 10% Erholung
+Rettungswurf (gegen Tod): +1 Verbesserung für 4 Stunden~
+@1492  = ~Schlange mit Salz und Pfeffer~
+@1493  = ~Die in Stücke geschnittene Schlange wird mit Salz und Pfeffer bestreut und in der trockenen Pfanne gerührt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Rettungswurf (gegen Tod): +2 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1494  = ~Brathähnchen~
+@1495  = ~Die Haut des Huhns wird mit Sojasauce und Gewürzen bestrichen und auf Holzkohle gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung~
+@1496  = ~Knusprig gebratenes Huhn~
+@1497  = ~Mit Butter und Käse auf kleinem Feuer gekocht erhält man eine milde Bratensoße.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1500  = ~Verfeinertes geröstetes Rattenfleisch~
+@1501  = ~Ein Stück köstlich duftendes geröstetes Rattenfleisch.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 4
+Erschöpfung: 10% Erholung
+Glück: +1 Verbesserung für 4 Stunden~
+@1502  = ~Verfeinertes gebratenes Bärenfleisch~
+@1503  = ~Das saftige Bärenfleisch wird auf Holzkohle gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1504  = ~Verfeinertes geröstetes Hundefleisch~
+@1505  = ~Köstliches, knusprig geröstetes Hundefleisch ist ein nahrhaftes Lebensmittel im Winter.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Rettungswurf (gegen Tod): +1 Verbesserung für 6 Stunden
+Kältewiderstand: +5% für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1506  = ~Verfeinertes geschmortes Wolfsfleisch~
+@1507  = ~Einfache Wolfsfleisch-Gerichte sind Lebensmittel mit unverfälschtem Geschmack.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1508  = ~Verfeinerter Rehbraten~
+@1509  = ~Der Rehbraten wird mit Gewürzen bestreut und einfach nur gegrillt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Rettungswurf (gegen Verwandlung): +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1510  = ~Verfeinertes gebratenes Kaninchen~
+@1511  = ~Das Kaninchen wird mit Salz bestreut und halb durchgebraten.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1512  = ~Verfeinerter Rinderbraten~
+@1513  = ~Das Stück Rindfleisch wird mit Gewürzen umhüllt und am Spieß gegrillt, wenn es gar ist, mit Käse bestrichen gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 20% Erholung
+Glück: +1 Verbesserung für 6 Stunden~
+@1514  = ~Verfeinertes geröstetes Drachenfleisch~
+@1515  = ~Drachenfleisch ist ein legendäres Nahrungsmittel, das auch dann geschmacklos ist, wenn es mit Gewürzen gegrillt wird.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 30% Erholung
+Wiederherstellen der Moral
+Rettungswurf: +1 Verbesserung für 6 Stunden
+Glück: +1 Verbesserung für 6 Stunden~
+@1520  = ~Kleiner Tollkirschen-Kuchen~
+@1521  = ~Gemäß der "Rezepte und Grübeleien des Dradeel von Tethir" habt Ihr einen kleinen Kuchen aus Tollkirschen gemacht... Ihr seid Euch nicht sicher, ob Ihr das essen sollt.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +2
+Schaden: 0 (+2 gegen Lykanthropen)
+Schadensart: Fernkampfwaffen (Durchbohren)
+Besonderheiten: Wenn das Ziel getroffen ist, muss ihm ein Rettungswurf gegen Tod bei -4 gelingen oder es erleidet pro Runde 6 Punkte Giftschaden für 1 Runde.
+Gewicht: 1
+Schusswaffe: Schlinge
+
+Besondere Fähigkeiten:
+
+Fähigkeit eins:
+Tollkirschen direkt mit einem Törtchen verschluckt
+Hunger stillen: Wiederherstellung 1 Punkt
+Erschöpfung: 10% Erholung
+Rüstungsklasse: +2 Verbesserung gegen Lykanthropen, für 1 Stunde
+Glück: +1 Verbesserung für 1 Stunde
+
+Fähigkeit zwei:
+Kuchen mit Tollkirschen genießen
+Sobald Ihr den Kuchen im Mund kaut, kann man Euch nicht zwingen, die Nahrung auszuspucken. Das Ziel erleidet 6D10 Giftschaden und -4 Schaden zurch Spucken, bei Rettungswurf gegen Odemwaffen halber Schaden.~
+@1522  = ~Dradeel von Tethirs Gemüseüberraschung~
+@1523  = ~Gemäß der "Rezepte und Grübeleien des Dradeel von Tethir" habt Ihr eine Gemüsesuppe gemacht. Die Kombination aus 300 Jahren Kocherfahrung ist lecker und nahrhaft. Anscheinend ist dieses Gericht mit Magie durchtränkt, denn jedes Gericht bewirkt eine arkane Teleportation.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Durst löschen: Wiederherstellung 4 Punkte
+Erschöpfung: 10% Erholung
+Teleportieren
+Glück: +1 Verbesserung für 6 Stunden~
+@1524  = ~Leckere und einfache Nudeln~
+@1525  = ~Gemäß der "Rezepte und Grübeleien des Dradeel von Tethir" habt Ihr Nudeln gemacht, die in der Tat sehr einfach zuzubereiten sind. Anscheinend ist dieses Gericht mit Magie durchtränkt, sodass die Leute, die diese Nudeln essen, sich vorübergehend in einen leistungsfähigen Eisengolem verwandeln können... Es scheint, dass Dradeel von Tethir ausprobierte, was für verrückte Sachen er machen könnte.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 6 Punkte
+Erschöpfung: 10% Erholung
+Transform in Eisengolem, die Wirkung dauert 1 Runde~
+@1526  = ~Wildschwein-Topf auf Ork-Art~
+@1527  = ~Gemäß der "Ork Rezepte" habt Ihr einen Wildschwein-Topf zubereitet, deutlich spürt Ihr seinen seltsamen Geruch und Geschmack. Es wird so von vielen Leuten gegessen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 6
+
+Besondere Fähigkeiten:
+Hunger stillen: Wiederherstellung 8
+Erschöpfung: 10% Erholung
+Wiederherstellen der Moral
+Rettungswurf (gegen Odemwaffen): +2 Verbesserung für 6 Stunden~
+@2000  = ~Die Fähigkeit der Schauspielkunst erlernen~
+@2001  = ~Schauspielkunst~
+@2002  = ~Täuschung~
+@2003  = ~Verhandlung~
+@2004  = ~Fälschung~
+@2005  = ~Bedrohung~
+@2006  = ~Schauspielkunst~
+@2007  = ~Sinneswandel~
+@2008  = ~Kochen~
+@2009  = ~In einen Eisengolem verwandeln ~
+@3000  = ~Herr Gold~
+@3001  = ~Herr Tinte~
+@3002  = ~Einäugiger Kauz~
+@3010  = ~Straßenkünstler~
+@3011  = ~Valthonis~
+@3012  = ~Schauspiel-Lehrer~
+@3020  = ~Küchenchef~
+@3021  = ~Alter Tom~
+@10020 = ~Wenn Ihr rechtliche Probleme habt, könnt Ihr zum Jahrmarkt gehen und Herrn Gold suchen, er ist darauf spezialisiert, solche Probleme zu lösen.~
+@10021 = ~Training der Lebensfähigkeiten 
+
+Ihr habt in einer Kneipe von jemandem namens Gold gehört, der andere geschickt überreden kann.~
+@80000 = ~Euer Leben ist verwirkt!~
+@80001 = ~Ich habe lange auf diesen Moment gewartet, fahrt zur Hölle!~
+@80002 = ~Ich werde meine Freunde nicht allein kämpfen lassen!~
+@80003 = ~Viel Glück für Euch, meine Freunde, vergesst nicht, mich um Hilfe zu bitten, wenn Ihr sie braucht.~
+@80004 = ~Löst Eure Probleme selber, es ist nicht meine Sache...~
+@80005 = ~Hilfe!~
+@80006 = ~Ihr wagt es, mich anzugreifen?~
+@80007 = ~Welcher Seite soll ich helfen?! Verdammt...~
+@80008 = ~Ich wünschte wirklich, dass all dies nicht geschehen wäre...~
+@80009 = ~(Die Beziehung zu Eurem Gruppenmitglied ist zu gering, Euer Begleiter verlässt die Gruppe.)~
+@80100 = ~Freunde, ich brauche Eure Hilfe.~
+@80101 = ~Ich bin sehr froh, an Eurer Seite zu kämpfen.~
+@80102 = ~Es tut mir Leid, ich habe andere Dinge zu tun, ich kann Euch nicht helfen.~
+@80103 = ~Passt auf, Ihr verletzt mich!~
+@80104 = ~Seid vorsichtig, wohin Ihr schlagt!~
+@80105 = ~Das wird Narben hinterlassen!~
+@80120 = ~Hey, Ihr trefft mich.~
+@90000 = ~(Völlig feindlich)~
+@90001 = ~(Gelegentlich feindlich)~
+@90002 = ~(Gespanntes Verhältnis)~
+@90003 = ~(Unfreundlich neutral)~
+@90004 = ~(Absolut neutral)~
+@90005 = ~(Freundlich neutral)~
+@90006 = ~(Nahe Freundschaft)~
+@90007 = ~(Besondere Freundschaft)~
+@90008 = ~(Busenfreundschaft)~
+@90100 = ~Ich bin froh, Euch helfen zu können.~
+@90150 = ~(Die Kreatur ist unglücklich.)~
+@90200 = ~(Ihr könnt die Freundschaft auf diese Weise nicht weiter verbessern.)~
+@90300 = ~(Die Kreatur ist sehr froh, Euer Geschenk zu erhalten.)~
+@90400 = ~(Ihr habt nichts, was die Kreatur wollte.)~
+@90500 = ~(Sie reibt sich liebevoll an Euren Beinen.)~
+@90600 = ~(Die Kreatur ignoriert Euch.)~
+@90700 = ~(Die Kreatur entzieht Euch einige Erfahrung.)~
+@90800 = ~(Es ist nichts passiert.)~
+@91000 = ~(Die Kreatur akzeptiert Euer Gold.)~
+@91100 = ~(Sie frisst glücklich und wedelt freundlich mit dem Schwanz.)~
+@91200 = ~(Es ist noch nicht Fütterungszeit.)~

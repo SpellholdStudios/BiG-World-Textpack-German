@@ -1,0 +1,124 @@
+--- NeJ\Dfiles\DGERTH.D	Thu Jul 22 21:32:52 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DGERTH.D	Wed Apr 10 10:24:02 2019
+@@ -3,81 +3,81 @@
+ IF ~GlobalGT("Kuldahar_Attack", "GLOBAL", 0)
+ GlobalLT("Kuldahar_Attack", "GLOBAL", 3)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+-  SAY ~It seems this season of evils grows worse. Now the attackers that have taken our women and children attack us openly, without fear. It has been generations since such evils befell Kuldahar... and I fear worse times are to come.  ~ 
+-  IF ~Global("Arundel_Belhifet", "GLOBAL", 0)~ THEN REPLY ~Do not fear, Gerth, I *will* get to the bottom of these attacks. In the meantime, I'm in need of supplies.~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~GlobalGT("Arundel_Belhifet", "GLOBAL", 0)~ THEN REPLY ~The evil which stole the townspeople and the evil which drives these new attackers are not the same. I'm looking for what lurks behind this new threat, but I'm in need of supplies first.~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~The troubles of Kuldahar are of no interest to me, Gerth; I'm here to purchase supplies.~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~I must take my leave, Gerth. Farewell.~  EXIT
++  SAY @0 
++  IF ~Global("Arundel_Belhifet", "GLOBAL", 0)~ THEN REPLY @1  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~GlobalGT("Arundel_Belhifet", "GLOBAL", 0)~ THEN REPLY @2  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @3  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @4  EXIT
+ END
+ 
+ IF ~Global("Kuldahar_Murder", "GLOBAL", 1)
+ Global("Gerth_Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 1 // from:
+-  SAY ~I was wondering when you would come here... this shop is *closed,* traveler, especially to those with hands stained in blood. Leave... and leave town while you still can walk.~ 
+-  IF ~~ THEN REPLY ~I think you would be wise to show me your wares, or it is you that will be next villager to vanish from Kuldahar.~  GOTO 2
+-  IF ~CheckStatGT(Player1, 12, CHR)~ THEN REPLY ~I see that I am accused and convicted before I even have a chance to speak on my behalf... Gerth, I am innocent. I only seek supplies, and I have harmed no one.~  DO ~SetGlobal("Gerth_Kuldahar_Murder", "GLOBAL", 1)~ GOTO 4
+-  IF ~~ THEN REPLY ~Very well... but perhaps I shall visit your store again when you slumber, shopkeeper. No lock or man lords over my movements.~  EXIT
++  SAY @5 
++  IF ~~ THEN REPLY @6  GOTO 2
++  IF ~CheckStatGT(Player1, 12, CHR)~ THEN REPLY @7  DO ~SetGlobal("Gerth_Kuldahar_Murder", "GLOBAL", 1)~ GOTO 4
++  IF ~~ THEN REPLY @8  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 1.0
+-  SAY ~Now you have the stones to threaten *me,* do you? Ha! You're a black-hearted one. Show you my store? Nay, I think not. I care little for my own safety... ones such as you have a special place on the executioner's axe, and it is only time that keeps you from it.~ 
+-  IF ~~ THEN REPLY ~You may not care for yourself, but there are others in town that may be harmed if you do not deal with me. Do you understand?  ~  DO ~SetGlobal("Gerth_Kuldahar_Murder", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~Very well... but perhaps I shall visit you again before that time comes, shopkeeper.~  EXIT
++  SAY @9 
++  IF ~~ THEN REPLY @10  DO ~SetGlobal("Gerth_Kuldahar_Murder", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @11  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 2.0
+-  SAY ~What in winter's name are you talking ab... y-you wouldn't *dare.* Nay, you would, wouldn't you?! Damn you - I'll deal with you, but if anyone else in town is harmed by you...~ 
+-  IF ~~ THEN REPLY ~Now, now - *enough* with the threats. We are businessmen, and such talk has no place at the bartering table. Let us see what your little shop has to offer.~  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  SAY @12 
++  IF ~~ THEN REPLY @13  DO ~StartStore("KUGERTH", Player1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 1.1
+-  SAY ~You speak with conviction. Mayhap you're innocent of the crime... but you'd best watch yourself, for there's still those that have already formed their opinions about you, and no words of yours will sway them.~ 
+-  IF ~~ THEN REPLY ~Then I am fortunate to have found so... trusting... a soul in you, Gerth. Come, let me see what your shop has to offer.~  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  SAY @14 
++  IF ~~ THEN REPLY @15  DO ~StartStore("KUGERTH", Player1)~ EXIT
+ END
+ 
+ IF ~Global("Kuldahar_Murder", "GLOBAL", 1)
+ Global("Gerth_Kuldahar_Murder", "GLOBAL", 1)~ THEN BEGIN 5 // from:
+-  SAY ~Oh... it is you. What do you want?~ 
+-  IF ~~ THEN REPLY ~I want to see what you have for sale.  ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Nothing this day. Farewell.~  EXIT
++  SAY @16 
++  IF ~~ THEN REPLY @17  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @18  EXIT
+ END
+ 
+ IF ~NumTimesTalkedTo(0)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 6 // from:
+-  SAY ~Ah, where so the wind blows, travelers seek shelter... and supplies, mayhap? Good day and cheer to you, sir; my name is Gerth - I tell by the cut of your cloth and your bearing that you are a visitor, fresh to Kuldahar; is there something you wish to purchase?~ 
+-  IF ~~ THEN REPLY ~What is this place?~  GOTO 8
+-  IF ~~ THEN REPLY ~Perhaps... may I see what you have for sale? ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Nothing this day, thanks. Farewell.~  EXIT
++  SAY @19 
++  IF ~~ THEN REPLY @20  GOTO 8
++  IF ~~ THEN REPLY @21  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @22  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 7 // from:
+-  SAY ~Ah, good day and cheer to you again! How may Gerth help you this fine Kuldahar day?~ 
+-  IF ~~ THEN REPLY ~What is this place?~  GOTO 8
+-  IF ~~ THEN REPLY ~May I see what you have for sale? ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Nothing this day, thanks.~  EXIT
++  SAY @23 
++  IF ~~ THEN REPLY @20  GOTO 8
++  IF ~~ THEN REPLY @24  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @25  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 7.0 6.0
+-  SAY ~This is my shop, friend -- I supply caravans in the shade of this great oak. This shop was my father's, and my father's before him, and it dates almost three generations back, if you can believe it - like many of the places in Kuldahar and the surrounding lands, there is much history to be found if one digs deep enough.~ 
+-  IF ~~ THEN REPLY ~Are you a historian?~  GOTO 9
+-  IF ~~ THEN REPLY ~I see. May I see what you have for sale? ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~I must take my leave. Farewell.~  EXIT
++  SAY @26 
++  IF ~~ THEN REPLY @27  GOTO 9
++  IF ~~ THEN REPLY @28  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @29  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.0
+-  SAY ~Nay, I wouldn't go so far as to say that: I dabble in time's passage, perhaps, but it is not a full-time occupation, merely a hobby. I do enjoy learning more of the past and examining trinkets from around the area; I have quite a collection, a little museum of sorts. Some call it junk, but...~ 
+-  IF ~~ THEN REPLY ~What sorts of things do you collect?~  GOTO 10
+-  IF ~~ THEN REPLY ~I see. May I see what you have for sale? ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~I must take my leave. Farewell.~  EXIT
++  SAY @30 
++  IF ~~ THEN REPLY @31  GOTO 10
++  IF ~~ THEN REPLY @28  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @29  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 9.0
+-  SAY ~Keys, notes, books on the region - if you happen to come across any on your travels, I'll pay a fair sum for them to take them off your hands.~ 
+-  IF ~~ THEN REPLY ~If I come across keys, books, or documents that I may need later, can I purchase them back?~  GOTO 11
++  SAY @32 
++  IF ~~ THEN REPLY @33  GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 10.0
+-  SAY ~Of course! I purchase such things only for my own interest and to preserve the history and culture of the region... they do not end up on a rattling caravan to some Calimshan market, that's for certain.~ 
+-  IF ~~ THEN REPLY ~Very well. May I see what you have for sale? ~  DO ~StartStore("KUGERTH", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~I must take my leave. Farewell.~  EXIT
++  SAY @34 
++  IF ~~ THEN REPLY @35  DO ~StartStore("KUGERTH", Player1)~ EXIT
++  IF ~~ THEN REPLY @29  EXIT
+ END

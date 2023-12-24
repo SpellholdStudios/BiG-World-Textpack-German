@@ -1,0 +1,29 @@
+--- TS\bgtnodlg\aBNALIA2.D	Wed Nov 17 12:29:18 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\aBNALIA2.D	Thu May 05 10:45:32 2016
+@@ -1,22 +1,22 @@
+ APPEND ~BNALIA25~
+ 
+ IF ~~ THEN BEGIN TS59
+-  SAY ~Is not it ironic that the safest place for us is the Nine Hells itself?~
++  SAY @0
+   IF ~~ THEN EXTERN ~BVALYG25~ TS202
+ END
+ 
+ IF ~~ THEN BEGIN TS60
+-  SAY ~And I thought it was bad enough to inherit the grim Castle as my Keep! I shudder when I think that <CHARNAME> might have to live in this place permanently if she... you know... ascends.~
++  SAY @1
+   IF ~~ THEN EXTERN ~BVALYG25~ TS203
+ END
+ 
+ IF ~~ THEN BEGIN TS61
+-  SAY ~Well, it might be redone, I guess. Couple of bright color spots, may be a painting or two to decorate those gray walls? Large Shou Lung vases on the floor would do nicely to chase the shadows from the corners. Also she might want to trim Cespenar a bit...~
++  SAY @2
+   IF ~~ THEN EXTERN ~BVALYG25~ TS204
+ END
+ 
+ IF ~~ THEN BEGIN TS62
+-  SAY ~It does sound odd, but I will find the place a bit friendlier and less frightening if something like that was done. I know, it is still the Nine Hells part and its grim nature will not change.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END
+ END

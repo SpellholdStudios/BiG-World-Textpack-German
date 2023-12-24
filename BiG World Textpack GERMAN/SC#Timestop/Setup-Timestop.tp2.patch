@@ -1,0 +1,12 @@
+--- Setup-Timestop.tp2	Thu Jul 01 15:49:30 2004
++++ C:\BWP Patchstudio\patched Text files\Setup-Timestop.tp2	Tue Sep 23 06:18:39 2008
+@@ -5,6 +5,9 @@
+ LANGUAGE ~English~
+          ~English~
+          ~SC#Timestop/English/setup.tra~
++LANGUAGE ~German~
++         ~German~
++         ~SC#Timestop/German/setup.tra~
+ 
+ BEGIN @1 // ~Timestop tweak v.1~
+ 

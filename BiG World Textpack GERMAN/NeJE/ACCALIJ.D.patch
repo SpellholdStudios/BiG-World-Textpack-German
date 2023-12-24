@@ -1,0 +1,480 @@
+--- NeJE\dlg\ACCALIJ.D	Sat Jan 07 18:46:27 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\ACCALIJ.D	Tue Apr 09 19:34:41 2019
+@@ -1,177 +1,177 @@
+ BEGIN ~ACCALIJ~
+ 
+ IF ~~ THEN BEGIN 1
+- SAY ~I will say then goodbye my friends and wish you safe journey.~
+- IF ~~ THEN REPLY ~Your choice to help the people of Kuldahar is a noble act Accalia, I will not try to sway your mind. It has been an honour to have had you amongst us and I thank you for the help that you have given. Farewell Accalia, and may your god watch over you.~ GOTO 58
+- IF ~~ THEN REPLY ~You are foolish to believe that you can take on evil such as this. You will surely die in your attempt, but if that is your wish then I leave you to your fate. Hopefully, Tempus will watch over you in this task that you have set yourself. Goodbye Accalia.~ GOTO 58
+- IF ~~ THEN REPLY ~As you wish Accalia. You show great courage in facing the evil here and I wish you luck in your endeavours to help these people. Farewell my friend.~ GOTO 58
+- IF ~~ THEN REPLY ~Farewell, Accalia, and may Tempus watch over you in this task that you have set yourself.~ GOTO 58
++ SAY @0
++ IF ~~ THEN REPLY @1 GOTO 58
++ IF ~~ THEN REPLY @2 GOTO 58
++ IF ~~ THEN REPLY @3 GOTO 58
++ IF ~~ THEN REPLY @4 GOTO 58
+ END
+ 
+ IF ~~ THEN BEGIN 2
+- SAY ~As for you <CHARNAME>, to give your word and then to go back on it is not the action of an honourable person. Without your aid the enemy has won... well so be it but know that Hrothgar will not stand alone.~
++ SAY @5
+  IF ~~ THEN GOTO 45
+ END
+ 
+ IF ~~ THEN BEGIN 5
+- SAY ~Hello Imoen, and please, my name is Accalia.~
++ SAY @6
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ86
+ END
+ 
+ IF ~~ THEN BEGIN 6
+- SAY ~Washing my hose... what does it look like I am doing?~
++ SAY @7
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ87
+ END
+ 
+ IF ~~ THEN BEGIN 7
+- SAY ~If you must know Imoen, it is an account of all that transpires on this expedition of ours.~
++ SAY @8
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ88
+ END
+ 
+ IF ~~ THEN BEGIN 8
+- SAY ~Imoen, I do not find writing a journal boring, nor will I find it boring, when in the future, I look back and read about the friends I have made today. You are all in here... (*patting her book*)... for me to remember.~
++ SAY @9
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ89
+ END
+ 
+ IF ~~ THEN BEGIN 9
+- SAY ~No, you may not! A journal is a private and personal thing.~ 
++ SAY @10 
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ90
+ END
+ 
+ IF ~~ THEN BEGIN 10
+- SAY ~Imoen, this is a journal, not some bard’s romantic tale! I write of our day to day struggles, of our battles with enemies we encounter on our road, and how we grow together in camaraderie.~
++ SAY @11
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ91
+ END
+ 
+ IF ~~ THEN BEGIN 11
+- SAY ~Imoen... stop... please. You can be assured that I have some very colourful words of my own when it comes to my writing about you. Now, please leave me in peace to finish today’s account.~
++ SAY @12
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ94
+ END
+ 
+ IF ~~ THEN BEGIN 12
+- SAY ~Hello Imoen, and please, my name is Accalia.~
++ SAY @6
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX16
+ END
+ 
+ IF ~~ THEN BEGIN 13
+- SAY ~Washing my hose... what does it look like I am doing?~
++ SAY @7
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX17
+ END
+ 
+ IF ~~ THEN BEGIN 14
+- SAY ~If you must know Imoen, it is an account of all that transpires on this expedition of ours.~
++ SAY @8
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX18
+ END
+ 
+ IF ~~ THEN BEGIN 15
+- SAY ~Imoen, I do not find writing a journal boring, nor will I find it boring, when in the future, I look back and read about the friends I have made today. You are all in here... (*patting her book*)... for me to remember.~
++ SAY @9
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX19
+ END
+ 
+ IF ~~ THEN BEGIN 16
+- SAY ~No, you may not! A journal is a private and personal thing.~ 
++ SAY @10 
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX20
+ END
+ 
+ IF ~~ THEN BEGIN 17
+- SAY ~Imoen, this is a journal, not some bard’s romantic tale! I write of our day to day struggles, of our battles with enemies we encounter on our road, and how we grow together in camaraderie.~
++ SAY @11
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX21
+ END
+ 
+ IF ~~ THEN BEGIN 18
+- SAY ~Imoen... stop... please. You can be assured that I have some very colourful words of my own when it comes to my writing about you. Now, please leave me in peace to finish today’s account.~
++ SAY @12
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX24
+ END
+ 
+ IF ~~ THEN BEGIN 19
+- SAY ~Imoen, you seen my journal anywhere?~
++ SAY @13
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ133
+ END
+ 
+ IF ~~ THEN BEGIN 20
+- SAY ~Strange, I don’t remember dropping it or leaving it anywhere. I’ll have to ask the others if they’ve seen it.~ 
++ SAY @14 
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ134
+ END
+ 
+ IF ~~ THEN BEGIN 21
+- SAY ~Mmm, I may just do that. Before I do that, I thought you might like this clasp Imoen. See how beautifully it compliments your hair... don’t you think?~
++ SAY @15
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ135
+ END
+ 
+ IF ~~ THEN BEGIN 22
+- SAY ~(*Smiles knowingly*) Now where did that fall from? Some magpie passing overhead or was that a gust of wind I felt?~
++ SAY @16
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ136
+ END
+ 
+ IF ~~ THEN BEGIN 23
+- SAY ~Yes, I do believe it is mine. Thank you for finding it for me. I will have to try and not be so careless in the future and tighten my back pack better. Wouldn’t you agree Imoen?~ 
++ SAY @17 
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ137
+ END
+ 
+ IF ~~ THEN BEGIN 24
+- SAY ~So am I. Before I go a little bit of advice for you Imoen, *eaves droppers never hear any good of themselves* and I should imagine it’s true of those who read other peoples journals, except *she never reads any good of herself.*~
++ SAY @18
+  IF ~~ THEN EXTERN ~IMOENJ~ NEJ138
+ END
+ 
+ IF ~~ THEN BEGIN 25
+- SAY ~Imoen, you seen my journal anywhere?~
++ SAY @13
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX49
+ END
+ 
+ IF ~~ THEN BEGIN 26
+- SAY ~Strange, I don’t remember dropping it or leaving it anywhere. I’ll have to ask the others if they’ve seen it.~ 
++ SAY @14 
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX50
+ END
+ 
+ IF ~~ THEN BEGIN 27
+- SAY ~Mmm, I may just do that. Before I do that, I thought you might like this clasp Imoen. See how beautifully it compliments your hair... don’t you think?~
++ SAY @15
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX51
+ END
+ 
+ IF ~~ THEN BEGIN 28
+- SAY ~(*Smiles knowingly*) Now where did that fall from? Some magpie passing overhead or was that a gust of wind I felt?~
++ SAY @16
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX52
+ END
+ 
+ IF ~~ THEN BEGIN 29
+- SAY ~Yes, I do believe it is mine. Thank you for finding it for me. I will have to try and not be so careless in the future and tighten my back pack better. Wouldn’t you agree Imoen?~ 
++ SAY @17 
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX53
+ END
+ 
+ IF ~~ THEN BEGIN 30
+- SAY ~So am I. Before I go a little bit of advice for you Imoen, *eaves droppers never hear any good of themselves* and I should imagine it’s true of those who read other peoples journals, except *she never reads any good of herself.*~
++ SAY @18
+  IF ~~ THEN EXTERN ~IMOEN2J~ VP_FIX54
+ END
+ 
+ IF ~~ THEN BEGIN 31
+- SAY ~Thank Tempus we are safe but it saddens me so few of us made it through.~
++ SAY @19
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 113
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 26
+ END
+ 
+ IF ~~ THEN BEGIN 32
+- SAY ~My faith in Tempus is such that he would not have put this path before me if it were not the right one to follow.~
+- IF ~~ THEN REPLY ~I don’t see any other means of completing our mission.~ EXTERN ~HROTHJ~ 117
+- IF ~~ THEN REPLY ~Why am I not surprised that the price for the success of this mission is the death of another?~ EXTERN ~HROTHJ~ 117
+- IF ~~ THEN REPLY ~If this priestess is all that stands between the survival of Kuldahar, then her life is already forfeit.~ EXTERN ~HROTHJ~ 117
++ SAY @20
++ IF ~~ THEN REPLY @21 EXTERN ~HROTHJ~ 117
++ IF ~~ THEN REPLY @22 EXTERN ~HROTHJ~ 117
++ IF ~~ THEN REPLY @23 EXTERN ~HROTHJ~ 117
+  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ NEJ586 
+ END
+ 
+ IF ~~ THEN BEGIN 33
+- SAY ~(*Smiling*) I think you were supposed to.~
++ SAY @24
+  IF ~~ THEN DO ~ActionOverride("AcolyteD",Enemy())~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 34
+- SAY ~I agree with you Dar, this is certainly a cunning foe that we are matched against, but my faith in both Tempus and in the wisdom of Arundel tells me that the battle will be won, we will be victorious.~
+- IF ~~ THEN REPLY ~When we have all quite finished, I think it is obvious the gem is not here and we should not waste time debating the issue but do as Hrothgar says and make our back to Kuldahar without delay.~ EXIT
+- IF ~~ THEN REPLY ~As you say Hrothgar, we should leave for Kuldahar with all haste. I have some questions of my own to say to this druid friend of yours.~ EXIT
++ SAY @25
++ IF ~~ THEN REPLY @26 EXIT
++ IF ~~ THEN REPLY @27 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 35
+- SAY ~If the evil that threatens Kuldahar is to be found here then I ask only that Tempus grants me enough life and breath to destroy it. His will be done.~
++ SAY @28
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ147
+@@ -192,7 +192,7 @@
+ ////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ IF ~~ THEN BEGIN 36
+- SAY ~You have no need to ask where my duty lies Hrothgar, regardless of what everyone else here decides, you can rely on my support. Tempus has set me on the path to battle this evil and his will shall be done, whatever the cost to myself.~  
++ SAY @29  
+  IF ~~ THEN DO ~SetGlobal("VP_Who_Is_Hrothgar","GLOBAL",2)~ EXTERN ~HROTHJ~ 162
+ END
+ 
+@@ -205,12 +205,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN 38
+- SAY ~Hrothgar is an honourable man. I do not believe him capable of evil, Tempus would not have me accompany him in this great battle if it were so.~
++ SAY @31
+ 	IF ~~ THEN GOTO 39
+ END 
+  
+ IF ~~ THEN BEGIN 39
+- SAY ~I am sure his reasons for his silence are well founded, please, think before you make any rash judgements. If he meant to do you harm, then you would not have been delivered here safely.~ 
++ SAY @32 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 196
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ172
+  IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ VP_FIX88
+@@ -220,7 +220,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 40
+- SAY ~As a battle priest of Tempus I can understand Kaylessa’s anguish over the fate that has befallen her soldiers. To be denied the honour of death in battle and be forced to live that final torment for ever is cruel and a fate no honourable being deserves. In Tempus’s name let us climb the tower and bring honour to those unfortunate souls.~
++ SAY @33
+  IF ~True()~ THEN DO ~SetGlobal("VP_Astrolabe_Talks","GLOBAL",2)
+ RealSetGlobalTimer("VP_Accalia_Hrothgar","GLOBAL",10)~ EXIT
+  IF ~InParty("Sharteel")
+@@ -229,29 +229,29 @@
+ END
+ 
+ IF ~~ THEN BEGIN 41
+- SAY ~Of course Hrothgar. My fervour to do that which is right in the eyes of Tempus often gives rise to my use of hasty words, but never to hasty actions. I understand well the need for caution, even when we feel we know our enemy, we should never underestimate how the instinct to survive, can often turn a battle around just when we feel the foe is down.~
++ SAY @34
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 208
+  IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ316
+ END
+ 
+ IF ~~ THEN BEGIN 42
+- SAY ~All this talk of returning home Hrothgar, is now not the time to remind <CHARNAME> of <PRO_HISHER> pledge to aid our cause?~
++ SAY @35
+  IF ~~ THEN EXTERN ~HROTHJ~ 219
+ END
+ 
+ IF ~~ THEN BEGIN 43
+- SAY ~You speak as though you know that a choice is to be given... what did you learn from your inspection of the astrolabe?~
++ SAY @36
+  IF ~~ THEN EXTERN ~HROTHJ~ 220
+ END
+ 
+ IF ~~ THEN BEGIN 44
+- SAY ~I cannot go any further with you <CHARNAME>, these people need my aid in ridding them of this evil, I cannot abandon them now. Once that is done I must find a way to return to Everard in Easthaven, as is the will of Tempus.~
++ SAY @37
+  IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 45
+- SAY ~Those he trusted and relied upon may desert him and run cowardly to the safety of their own time, but Accalia the battle priest of Tempus will stand beside him and Tempus will either guide us to victory or take our souls unto his keeping should we fall. Please, be gone and let Larrel send us on our way.~ 
++ SAY @38 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 226
+  IF ~InParty("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ319
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ178
+@@ -259,22 +259,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN 46
+- SAY ~I will hear no more! Because of your refusal to help, the blood of the innocent will surely stain your hands as though you had slaughtered them yourself. Whereas if it is Tempus’s will that I fall fighting for the innocent, my conscience and my god will grant me peace, will yours <CHARNAME>?~
++ SAY @39
+  IF ~~ THEN EXTERN ~HROTHJ~ 226 //-->H8
+ END
+ 
+ IF ~~ THEN BEGIN 47
+- SAY ~I can not believe what I am hearing here! Not too long ago, we were both concerned that <CHARNAME> would abandon us to our fate and now you are proposing to do so yourself. What are you thinking Hrothgar, what of Kuldahar, what of Easthaven and its innocent people?~
++ SAY @40
+  IF ~~ THEN GOTO 48
+ END
+ 
+ IF ~~ THEN BEGIN 48
+- SAY ~ I thought you an honourable man and when you spoke of fighting side by side to the end in the defence against evil, I felt proud and privileged to die for such a cause. How could I have been so wrong about you?~
++ SAY @41
+  IF ~~ THEN EXTERN ~HROTHJ~ 231
+ END
+ 
+ IF ~~ THEN BEGIN 49
+- SAY ~Yes... I believe I can... I am sorry if my words sounded harsh. Of course, I know you must have good reason to take this path. However, I can not travel with you Hrothgar, there is much for me to do here. Perhaps we will meet again when you return.~
++ SAY @42
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 233
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 49
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ180
+@@ -284,26 +284,26 @@
+ END
+ 
+ IF ~~ THEN BEGIN 50
+- SAY ~I will say then goodbye my friends and wish you safe journey.~
+- IF ~~ THEN REPLY ~Your choice to help the people of Kuldahar is a noble act Accalia, I will not try to sway your mind. It has been an honour to have had you amongst us and I thank you for the help that you have given. Farewell Accalia, and may your god watch over you.~ GOTO 51
+- IF ~~ THEN REPLY ~You are foolish to believe that you can take on evil such as this. You will surely die in your attempt, but if that is your wish then I leave you to your fate. Hopefully, Tempus will watch over you in this task that you have set yourself. Goodbye Accalia.~ GOTO 51
+- IF ~~ THEN REPLY ~As you wish Accalia. You show great courage in facing the evil here and I wish you luck in your endeavours to help these people. Farewell my friend.~ GOTO 51
+- IF ~~ THEN REPLY ~Farewell, Accalia, and may Tempus watch over you in this task that you have set yourself.~ GOTO 51
++ SAY @0
++ IF ~~ THEN REPLY @1 GOTO 51
++ IF ~~ THEN REPLY @2 GOTO 51
++ IF ~~ THEN REPLY @3 GOTO 51
++ IF ~~ THEN REPLY @4 GOTO 51
+ END
+ 
+ IF ~~ THEN BEGIN 51
+- SAY ~Farewell my friend, may Tempus watch over you.~
++ SAY @43
+  IF ~!InParty("Dar")~ THEN EXTERN ~HROTHJ~ 234
+- IF ~InParty("Dar")~ THEN REPLY ~What of you Dar?~ EXTERN ~DARJ~ 0
++ IF ~InParty("Dar")~ THEN REPLY @44 EXTERN ~DARJ~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 52
+- SAY ~Nor shall I. As for you <CHARNAME>, to give your word and then to go back on it is not the action of an honourable person. Without your aid the enemy has won... well so be it but know that Hrothgar will not stand alone.~
++ SAY @45
+  IF ~~ THEN GOTO 53
+ END
+ 
+ IF ~~ THEN BEGIN 53
+- SAY ~Those he trusted and relied upon may desert him and run cowardly to the safety of their own time, but Accalia the battle priest of Tempus will stand beside him and Tempus will either guide us to victory or take our souls unto his keeping should we fall. Please, be gone and let us be on our way.~ 
++ SAY @46 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 251
+  IF ~InParty("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ323
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ183
+@@ -311,22 +311,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN 54
+- SAY ~I will hear no more! Because of your refusal to help, the blood of the innocent will surely stain your hands as though you had slaughtered them yourself. Whereas if it is Tempus’s will that I fall fighting for the innocent, my conscience and my god will grant me peace, will yours <CHARNAME>?~
++ SAY @39
+  IF ~~ THEN EXTERN ~HROTHJ~ 251
+ END
+ 
+ IF ~~ THEN BEGIN 55
+- SAY ~I can not believe what I am hearing here! Not too long ago, we were both concerned that <CHARNAME> would abandon us to our fate and now you are proposing to do so yourself. What are you thinking Hrothgar, what of Kuldahar, what of Easthaven and its innocent people?~
++ SAY @40
+  IF ~~ THEN GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 56
+- SAY ~ I thought you an honourable man and when you spoke of fighting side by side to the end in the defence against evil, I felt proud and privileged to die for such a cause. How could I have been so wrong about you?~
++ SAY @41
+  IF ~~ THEN EXTERN ~HROTHJ~ 256
+ END
+ 
+ IF ~~ THEN BEGIN 57
+- SAY ~Yes... I believe I can... I am sorry if my words sounded harsh. Of course, I know you must have good reason to take this path. However, I can not travel with you Hrothgar, there is much for me to do here. These people need my aid in ridding them of this evil, I cannot abandon them now. Once that is done I must find a way to return to Everard in Easthaven, as is the will of Tempus. Perhaps we will meet again when you return.~
++ SAY @47
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 258
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 59
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ185
+@@ -336,25 +336,25 @@
+ END
+ 
+ IF ~~ THEN BEGIN 58
+- SAY ~Farewell my friends, may Tempus watch over you.~
++ SAY @48
+  IF ~!InParty("Dar")~ EXTERN ~HROTHJ~ 259
+- IF ~InParty("Dar")~ THEN REPLY ~What of you Dar?~ EXTERN ~DARJ~ 0
++ IF ~InParty("Dar")~ THEN REPLY @44 EXTERN ~DARJ~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 59
+- SAY ~Tempus protect us from the depravity of these creatures... using the innocent to feed themselves and as payment to some monstrous queen.~
++ SAY @49
+  IF ~~ THEN EXTERN ~HROTHJ~ 273
+ END
+ 
+ IF ~~ THEN BEGIN 60
+- SAY ~Prudence is always good counsel when preparing to confront the enemy, but any delay would not be prudent... it will only serve to benefit our enemy.~ 
++ SAY @50 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 274
+  IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ292
+ END
+ 
+ IF ~~ THEN BEGIN 61
+- SAY ~Let us pray to Tempus that our opponent does not change his ways.~
++ SAY @51
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Minsc")
+ !Dead("Minsc")
+@@ -370,22 +370,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN 62
+- SAY ~Certainly a demon, but what would such an ancient and powerful demon be doing in our world?~
++ SAY @52
+  IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~It never did tell us what it planned on doing with the Heartstone Gem.~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ GOTO 63
++Dead("Jaheira")~ THEN REPLY @53 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ GOTO 63
+  IF ~InParty("Jaheira")
+-!Dead("Jaheira")~ THEN REPLY ~It never did tell us what it planned on doing with the Heartstone Gem.~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~JAHEIRAJ~ NEJ630
++!Dead("Jaheira")~ THEN REPLY @53 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~JAHEIRAJ~ NEJ630
+  IF ~OR(2)
+ !InParty("Imoen")
+ Dead("Imoen")
+ OR(2)
+ !InParty("Imoen2")
+-Dead("Imoen2")~ THEN REPLY ~If it was one measure of this little problem, then the “Ancient Enemy” must be just as old and just as powerful.~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~HROTHJ~ 150
++Dead("Imoen2")~ THEN REPLY @54 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~HROTHJ~ 150
+  IF ~InParty("Imoen")
+-!Dead("Imoen")~ THEN REPLY ~If it was one measure of this little problem, then the “Ancient Enemy” must be just as old and just as powerful.~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOENJ~ NEJ153
++!Dead("Imoen")~ THEN REPLY @54 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOENJ~ NEJ153
+  IF ~InParty("Imoen2")
+-!Dead("Imoen2")~ THEN REPLY ~If it was one measure of this little problem, then the “Ancient Enemy” must be just as old and just as powerful.~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOEN2J~ VP_FIX69
++!Dead("Imoen2")~ THEN REPLY @54 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOEN2J~ VP_FIX69
+  IF ~OR(2)
+ !InParty("Imoen")
+ Dead("Imoen")
+@@ -394,7 +394,7 @@
+ Dead("Imoen2")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Yea gods, what are we letting ourselves in for this time?~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~HROTHJ~ 150
++Dead("Jaheira")~ THEN REPLY @55 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~HROTHJ~ 150
+  IF ~OR(2)
+ !InParty("Imoen")
+ Dead("Imoen")
+@@ -402,24 +402,24 @@
+ !InParty("Imoen2")
+ Dead("Imoen2")
+ InParty("Jaheira")
+-!Dead("Jaheira")~ THEN REPLY ~Yea gods, what are we letting ourselves in for this time?~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~JAHEIRAJ~ NEJ595
++!Dead("Jaheira")~ THEN REPLY @55 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~JAHEIRAJ~ NEJ595
+  IF ~InParty("Imoen")
+-!Dead("Imoen")~ THEN REPLY ~Yea gods, what are we letting ourselves in for this time?~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOENJ~ NEJ153
++!Dead("Imoen")~ THEN REPLY @55 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOENJ~ NEJ153
+  IF ~InParty("Imoen2")
+-!Dead("Imoen2")~ THEN REPLY ~Yea gods, what are we letting ourselves in for this time?~ DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOEN2J~ VP_FIX69
++!Dead("Imoen2")~ THEN REPLY @55 DO ~SetGlobal("VP_YxunomeiDead","GLOBAL",2)~ EXTERN ~IMOEN2J~ VP_FIX69
+ END
+ 
+ IF ~~ THEN BEGIN 63
+- SAY ~By the will of Tempus, that foul creature has fallen and we have taken the Gem from her. Now what are we to do with it?~
++ SAY @56
+  IF ~~ THEN EXTERN ~HROTHJ~ 149
+ END
+ 
+ IF ~~ THEN BEGIN 64
+- SAY ~Indeed, it seems this demon and its *Ancient Enemy* have always been engaged in this battle. From what I was able to follow the creature’s answers, I don’t like the prospects of either one of them emerging as the winner.~
++ SAY @57
+  IF ~~ THEN EXTERN ~HROTHJ~ 150
+ END
+ 
+ IF ~~ THEN BEGIN 65
+- SAY ~Tempus is the only ally we’ll find in this place!~
++ SAY @58
+  IF ~~ THEN EXTERN ~HROTHJ~ 283
+ END

@@ -1,0 +1,11 @@
+--- NeJE\dlg\TuMageL1.d	Mon Jan 19 15:56:24 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\TuMageL1.d	Tue Apr 09 19:37:34 2019
+@@ -1,7 +1,7 @@
+ BEGIN ~TUMAGEL1~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~What the... you are not Vrielle nor are you RayVon! Bradniar... quick... Ulcaster spies...~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("VP_Leveller_Quest","GLOBAL",10)
+ SetGlobal("VP_HalruaaAlarm","MYAREA",1)
+ Shout(99)

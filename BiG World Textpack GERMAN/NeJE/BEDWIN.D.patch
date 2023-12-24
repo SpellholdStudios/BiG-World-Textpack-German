@@ -1,0 +1,391 @@
+--- NeJE\dlg\BEDWIN.D	Thu Apr 19 23:01:27 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BEDWIN.D	Tue Apr 09 19:34:56 2019
+@@ -1,28 +1,28 @@
+ APPEND ~BEDWIN~
+ 
+ IF ~~ THEN BEGIN NEJ106
+-  SAY ~What is a bit of mud on the hem of a robe? A small price to pay for the honour of protecting such an exquisite flower. (*Besides, I am not about to let any of these imbeciles pluck the petals from this elven beauty.*)~
++  SAY @0
+   IF ~~ THEN EXTERN ~BLEINA~ 217
+ END
+ 
+ IF ~~ THEN BEGIN NEJ107
+-  SAY ~But if you are to inspire us with your fiery renditions, then it is for me to watch that no stray arrows or spells should find their way towards you before the fire is fully aflame.~
++  SAY @1
+   IF ~~ THEN EXTERN ~BLEINA~ 218
+ END 
+   
+ IF ~~ THEN BEGIN NEJ108
+-  SAY ~Ah, but it is necessary for my piece of mind, so you will not dissuade me from remaining close beside you my elven flower... (*and for the gratitude she will feel she owes me if I do manage to save the arrogant elf’s life.*)~
++  SAY @2
+   IF ~~ THEN EXTERN ~BLEINA~ 219
+ END
+ 
+ IF ~~ THEN BEGIN NEJ109
+-  SAY ~(*To himself*) Yet more displays of the buffoonery of these imbeciles. Still, female are always impressed by a man who looks good on the dance floor. Maybe this one will be impressed enough...~
++  SAY @3
+ 	IF ~Gender(Player1,FEMALE)~ THEN EXTERN ~BLEINA~ PCF2Leina28a
+ 	IF ~Gender(Player1,MALE)~ THEN EXTERN ~BLEINA~ PCM4Leina28a
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher1
+-	SAY ~It is about time you got rid of the nitwit bard. [I shudder to think of her casting spells.]~
++	SAY @4
+ 	IF ~OR(2)
+ !InParty("Viconia")
+ Dead("Viconia")~ THEN EXTERN ~BLEINA~ Sphere13a
+@@ -31,7 +31,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher2
+-	SAY ~[Oh how did I every join this group there isn’t half a brain here even if you combine them all.]~
++	SAY @5
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere18
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher1
+@@ -40,7 +40,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher3
+-	SAY ~[Now this imbecile wants something small like a peanut.]~
++	SAY @6
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere19
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher2
+@@ -49,7 +49,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiSpher4
+-	SAY ~A coffin. [Just where you should be... inside it and six foot under.]~
++	SAY @7
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ Sphere20
+ 	IF ~InParty("Yoshimo")
+ !Dead("Yoshimo")~ THEN EXTERN ~BYOSHIM~ LeiSpher3
+@@ -58,155 +58,155 @@
+ END
+ 
+ IF ~~ THEN BEGIN melora1
+-	SAY ~You flatter yourself my dear. My eyes would have to be lowered to be looking at you, and Edwin Odesseiron never lowers his eyes to anyone. (*And certainly not to a female of any shape or form.*)~
++	SAY @8
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin2
+ END
+ 
+ IF ~~ THEN BEGIN melora2
+-	SAY ~The fear of losing your head to a bounty hunter has made you paranoid hafling... either that or you have delusions above your station.~
++	SAY @9
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin3
+ END
+ 
+ IF ~~ THEN BEGIN melora3
+-	SAY ~How certain are you that it wasn’t your mother who ensorceled your father?~
++	SAY @10
+ =
+-~I can’t see any self respecting man, mage or otherwise taking a half woman to his bed when there are so many full bodied, willing females to be had.~ 
++@11 
+ =
+-~Your father was more likely to be the one under a spell. (*That is supposing he wasn’t deformed and this is the result of such a union.*)~ 
++@12 
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin4
+ END
+ 
+ IF ~~ THEN BEGIN melora4
+-	SAY ~You’re a feisty one, for all your size! Get that from your mother, do you? That would I suppose explain the attraction your father felt for her.~ 
++	SAY @13 
+ =
+-~(*After all, nothing beats having a spirited woman beneath one to heighten the moment.*)~
++@14
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin5
+ END
+ 
+ IF ~~ THEN BEGIN melora5
+-	SAY ~This... this 'female' as she calls herself, accused me of...~
++	SAY @15
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin7
+ END
+ 
+ IF ~~ THEN BEGIN melora6
+-	SAY ~For now. (*But later is another time my little harridan.*)~
++	SAY @16
+ 		IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN melora7
+-	SAY ~I assure you that this wizard has not the slightest intention of rubbing a de-evolved amoeba up any way!~
++	SAY @17
+ 	  IF ~~ THEN EXTERN ~BMELORA~ edwin10
+ END
+ 
+ IF ~~ THEN BEGIN TS106
+-  SAY ~I do not expect a group of unruly imbeciles to even start to understand my grandeur and finesse. I wish no stupid statements like that in the future from you, wench.~
++  SAY @18
+   IF ~~ THEN EXTERN ~BKACHI~ 56
+ END
+ 
+ IF ~~ THEN BEGIN TS107
+-  SAY ~Or I'll destroy you, or yours precious samurai, or both of you (*yawns*).~
++  SAY @19
+   IF ~~ THEN EXTERN ~BYOSHIM~ TS107
+ END
+ 
+ IF ~~ THEN BEGIN TS108
+-  SAY ~Fortunately to me, and unfortunately to you, we won't meet again (*finally, I get rid of these fools*).~
++  SAY @20
+   IF ~~ THEN DO ~LeaveParty()
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS109
+-  SAY ~You will suffer yet...~
++  SAY @21
+   IF ~~ THEN DO ~LeaveParty()
+ Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN TS110
+-  SAY ~Yes, pretty face, I had noticed you and that should put a smile on any maiden's face. (This one is smarter than she looks. She appreciates me and shows appropriate reverence.)~
++  SAY @22
+   IF ~~ THEN EXTERN ~BSIME~ 139
+ END
+ 
+ IF ~~ THEN BEGIN TS111
+-  SAY ~I am coming to the conclusion that mutual attraction is growing between the most attractive and intelligent person in this pathetic troupe and his devoted maid. (Should I have included some compliment for the wench? No, that would be giving her too much. She is gasping in anticipation already.)~
++  SAY @23
+   IF ~~ THEN EXTERN ~BSIME~ 140
+ END
+ 
+ IF ~~ THEN BEGIN TS112
+-  SAY ~Sime, you had better sit down, least your happiness takes you off your feet. (Amazing imbecile. Comes of roaming the wilds in the company of beasts, no doubt. I should be more direct with the likes of her. But she can be educated, I hope.)~
++  SAY @24
+   IF ~~ THEN EXTERN ~BSIME~ 141
+ END
+ 
+ IF ~~ THEN BEGIN TS113
+-  SAY ~Sime, I had devised that you, poor soul, are deeply taken by my superior charms. While it is clear that you are inferior to me I am willing to condescend and bring the relationship to consummation tonight.~
++  SAY @25
+   IF ~~ THEN EXTERN ~BSIME~ 142
+ END
+ 
+ IF ~~ THEN BEGIN TS114
+-  SAY ~Fool woman, my look and style are perfect. How dare you to suggest an imbalance? (And I thought she had a grain of sense!)~
++  SAY @26
+   IF ~~ THEN EXTERN ~BSIME~ 144
+ END
+ 
+ IF ~~ THEN BEGIN TS115
+-  SAY ~You do not suggest seriously that I might have pay attention to anything tree-hugging rabble have to say?~
++  SAY @27
+   IF ~~ THEN EXTERN ~BSIME~ 145
+ END
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~I do not see how it is relevant to the kiss you were ordered to give me, but indeed I have an intelligent concept of the world's balance (do I even dare to hope that someone can understand a scheme so perfectly devised?)~
++  SAY @28
+   IF ~~ THEN EXTERN ~BSIME~ 146
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~I can see that you are not as hopelessly foolish as I originally thought (I would have to use my charm, the wench is stubborn) but you should not be afraid of my greatness. I am a red-blooded male as well as an intellectual pinnacle of mankind.~
++  SAY @29
+   IF ~~ THEN EXTERN ~BSIME~ 147
+ END
+ 
+ IF ~~ THEN BEGIN TS118
+-  SAY ~Elves? An outdated and almost extinct nation. The only true power lies with humans.~
++  SAY @30
+   IF ~~ THEN EXTERN ~BSIME~ 148
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~You had the most annoying outburst of base emotions when I have spoken to you last time. (Must I explain everything to those imbeciles?) I am interested to know if you saw the truth of my words and are ready to apologize for your unspeakable behavior?~
++  SAY @31
+   IF ~~ THEN EXTERN ~BSIME~ 150
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~I fail to understand how you can fight off your attraction to me for so long. It must be very painful to be away from my gorgeous body and not to be a receptacle of my nearly divine wisdom.~
++  SAY @32
+   IF ~~ THEN EXTERN ~BSIME~ 151
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~I have suspected that you with your narrow mind were interested in some stupid joke. (I have a long memory and I shall have revenge.)~
++  SAY @33
+   IF ~~ THEN EXTERN ~BSIME~ 152
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~(Is it not amazing how their attitude can change.) I am coming, wench.~
++  SAY @34
+   IF ~~ THEN EXTERN ~BSIME~ 154
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~Here I am, in all my glorious beauty... What is it? Why are you dressed? And armored? And you hold your mace? Sime, my love...~
++  SAY @35
+   IF ~~ THEN EXTERN ~BSIME~ 155
+ END
+ 
+ IF ~~ THEN BEGIN TS124
+-  SAY ~Only for the love of you my queen, my dear elven queen... You would not hurt your humble slave, will you? I am naked and defenseless before you... (*tries to cast a fireball*)~
++  SAY @36
+   IF ~~ THEN EXTERN ~BSIME~ 156
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~But my sweet charming elven beauty... (How many more humiliation the wench wants me to go through?)~
++  SAY @37
+   IF ~~ THEN EXTERN ~BSIME~ 157
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~I... shall... leave Sime alone!~
++  SAY @38
+   IF ~~ THEN EXTERN ~BSIME~ 158
+ END
+ 
+ IF ~~ THEN BEGIN LeiTheat
+-  SAY ~Some of your ideas are not that good. (An idea... this simian actually thinks it has a brain!)~
++  SAY @39
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -223,7 +223,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @40 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -240,7 +240,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @41 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -257,7 +257,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @42 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiTheat
+ 	IF ~InParty("Melora")
+@@ -295,7 +295,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea3
+-  SAY ~Will you be more specific and not beat around the bush! (If any having is to be done, it will certainly not be by this rabble!)~
++  SAY @43
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -312,7 +312,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @40 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -329,7 +329,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @41 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -346,7 +346,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @42 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea3
+ 	IF ~InParty("Melora")
+@@ -384,7 +384,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea4
+-  SAY ~(*His voice barely audible*) Ha, if anyone is getting the girl it certainly won’t be any of this rabble!~
++  SAY @44
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -401,7 +401,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Oh enough with your horse play! Leina always wants a hot bath let’s get the jump on her first this time. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @40 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -418,7 +418,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Sssssh. Now listen Leina always wants a bath after a battle and she hasn’t said anything yet so let’s do it first.~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @41 GOTO LeiThea1
+  IF ~!IsValidForPartyDialogue("Aerie")
+ !IsValidForPartyDialogue("Anomen")
+ !IsValidForPartyDialogue("Cernd")
+@@ -435,7 +435,7 @@
+ !IsValidForPartyDialogue("Hrothgar")
+ !IsValidForPartyDialogue("Dar")
+ !IsValidForPartyDialogue("Melora")
+-!IsValidForPartyDialogue("Taffic")~ THEN REPLY ~Hey now, listen Leina is always the first to want a bath after a stinkin’ battle so let’s ask her first for a fluffy towel. What say you?~ GOTO LeiThea1
++!IsValidForPartyDialogue("Taffic")~ THEN REPLY @42 GOTO LeiThea1
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea4
+ 	IF ~InParty("Melora")
+@@ -473,7 +473,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea1
+-  SAY ~I don’t believe it. How did I become party to such infantile behaviour?~
++  SAY @45
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ151
+ 	IF ~InParty("Taffic")
+ !Dead("Taffic")~ THEN EXTERN ~BTAFFIC~ LeiThea1
+@@ -512,7 +512,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN LeiThea2
+-  SAY ~Bah, you empty-headed girl. Edwin needs no such praise, you insolent woman. Sing of me and I’ll scorch the tongue out of your mouth.~
++  SAY @46
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ TheaQ161
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiThea2
+@@ -527,19 +527,19 @@
+ END
+ 
+ IF ~~ THEN BEGIN RadianQ
+-  SAY ~Look at the kettle calling the pot black, neither of you have a brain cell between you!~
++  SAY @47
+  IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ19A
+  IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ RadianQ  
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadia
+-  SAY ~(Hmm... I wonder if the time is right to suggest we save water by sharing a tub. Always nice to have someone on hand to wash those hard to reach places.)~
++  SAY @48
+ 	IF ~~ THEN EXTERN ~BLEINA~ LeiRadE1
+ END
+ 
+ IF ~~ THEN BEGIN LeiRadi2
+-  SAY ~(Elf... She calls herself ELF! Nerve of the girl she is but a half breed and nothing more! Still, I'm not one to hold that against a pretty face when it comes to warming my bed.)~
++  SAY @49
+ 	IF ~True()~ THEN EXTERN ~BLEINA~ RadiQ21B  
+ 	IF ~InParty("Viconia")
+ !Dead("Viconia")~ THEN EXTERN ~BVICONI~ LeiRadia

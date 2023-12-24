@@ -1,0 +1,19 @@
+@0  = ~Gut, ich sehe, dass Du endlich wach bist, <CHARNAME>. Komm und treff unseren bemerkenswerten Gast. <CHARNAME>, das ist Hrothgar.~ 
+@1  = ~(*Ihr schaut auf den Mann und wisst instinktiv, dass hier ein Mann von ungemeiner Wichtigkeit ist. Ein Gefühl der Vertrautheit überkommt Euch eine Sekunde lang, verfliegt aber sofort.*)
+
+Ich bin erfreut, Euch zu treffen, mein Herr, aber haben wir uns nicht vorher schon mal gesehen? Für einen Moment dachte ich, dass ich Euch kennen würde. ~
+@2  = ~Hrothgar, jetzt, da Ihr die Bekanntschaft von <CHARNAME> gemacht habt, sollten wir nicht daran denken, die nächstliegendsten Aufgaben in Angriff zu nehmen?~ 
+@3  = ~<CHARNAME>, wir müssen uns für eine Reise vorbereiten. Geht, sammelt Eure Habseligkeiten und stattet Euch für die Straße aus.~
+@4  = ~Das ist wirklich sehr zermürbend, ich weiß, aber Du musst mir vertrauen. Es ist ausgesprochen wichtig, dass Du Deine Besitztümer einpackst, so dass wir Kerzenburg sofort verlassen können. Beeil Dich, wir haben keine Zeit zu vergeuden. Die Burg ist gut bewacht, doch nicht uneinnehmbar.~ 
+@5  = ~Ich bin bereit, wir können jetzt sofort gehen.~
+@6  = ~Bitte, Vater, sag mir, wohin wir gehen.~
+@7  = ~Was kann uns hier schon passieren? Dieser Ort ist eine Festung und über alle Maßen bewacht.~ 
+@8  = ~Was soll ich mit auf diese Reise nehmen? Gib mir doch wenigstens einen kleinen Hinweis, was ich brauchen werde...~
+@9  = ~Gorion, soll ich wissen, wohin wir in so großer Eile gehen? Was ist das für ein Artefakt, das Ihr sucht, oder mehr noch, wer sind Hrothgars Brüder? Warum...~ 
+@10 = ~Nun wohl, das kann ich nicht, denn ich habe mich noch nicht endgültig entschieden. Gewiss ist nur, dass wir weitaus sicherer sein werden, wenn wir unterwegs sind. Die Wälder mögen uns etwas Schutz bieten, oder vielleicht würde die Stadt Baldurs Tor uns die Gelegenheit geben, inmitten der Menschenmassen unterzutauchen. Ich weiß nicht, wo wir letztendlich unterkommen werden, doch habe ich ein paar Freunde hier und da. Hmm, ich muss noch ein bisschen nachdenken...~
+@11 = ~Was kann uns hier schon passieren? Dieser Ort ist eine Festung und über alle Maßen bewacht.~
+@12 = ~Was soll ich mit auf diese Reise nehmen? Gib mir doch wenigstens einen kleinen Hinweis, was ich brauchen werde...~ 
+@13 = ~Kerzenburg ist in der Tat ein stattliches Hindernis, doch sie ist nicht uneinnehmbar. Gleichgültig wie dicht das Netz ist, wenigstens eine Mücke findet immer ihren Weg. Nein, mein Kind, wir müssen so schnell wie möglich gehen, zu unserer eigenen Sicherheit und zu der unserer Freunde.~
+@14 = ~Mein liebes Kind, Du solltest selbst wissen, welche Ausrüstung Du Dir zulegen musst. Ich habe Dir gegeben, was ich entbehren kann, also mach Dich auf den Weg zum Wirtshaus und sprich mit Winthrop. Orientiere Dich dabei an Deinen Fähigkeiten und kaufe die Grundausstattung, die Du brauchst, doch gebe Dein Geld weise aus. Seine Preise sind fair, aber Du hast möglicherweise nicht genügend Gold, um all das zu kaufen, was Du gerne hättest. Ich warte draußen auf Dich.~ 
+@15 = ~ (*Unterbricht Euch, bevor Ihr Eure nächste Frage stellen könnt.*) Es ist keine Zeit für Fragen, <CHARNAME>, sie werden warten müssen. Du musst Dich selbst auf unsere Reise vorbereiten.~
+@16 = ~Aber...~

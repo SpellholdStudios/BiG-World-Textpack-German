@@ -1,0 +1,47 @@
+--- TS\bgtdlg\aIMOEN2J.D	Mon Dec 27 11:13:43 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aIMOEN2J.D	Thu May 05 10:44:11 2016
+@@ -1,34 +1,34 @@
+ APPEND ~IMOEN2J~
+ 
+ IF ~~ THEN BEGIN TS40
+-  SAY ~Awww... So sweet. Nope, of course he does not! And it is cool to see big <PRO_BROTHERSISTER> is blushing.~
+-  IF ~~ THEN REPLY ~Imoen! Have the decency to look away!~ GOTO TS41
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO TS41
+ END
+ 
+ IF ~~ THEN BEGIN TS41
+-  SAY ~(*Giggles*) What! And miss all the hot stuff? No way in Nine Hells! I have spent too long watching a crack on my ceiling as entertainment!~
++  SAY @2
+   IF ~~ THEN EXTERN ~SIMEJ~ 80
+ END
+ 
+ IF ~~ THEN BEGIN TS42
+-  SAY ~And who's to say I am a maiden? Hey, I am almost as old as <CHARNAME> is, and I did not have Gorion on my back, so once I...~
+-  IF ~~ THEN REPLY ~(*Close your ears with your palms*)... LA-LA-LA! I am not listening! LA-LA-LA!~ GOTO TS43
+-  IF ~~ THEN REPLY ~Go on, Imoen, I am extremely interested to know which old stuffy mage or dusty librarian you graced with your favors.~ GOTO TS44
+-  IF ~~ THEN REPLY ~IMOEN!~ GOTO TS45
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO TS43
++  IF ~~ THEN REPLY @5 GOTO TS44
++  IF ~~ THEN REPLY @6 GOTO TS45
+ END
+ 
+ IF ~~ THEN BEGIN TS43
+-  SAY ~(*Laughs and makes faces*)~
++  SAY @7
+   IF ~~ THEN EXTERN ~SIMEJ~ 81
+ END
+ 
+ IF ~~ THEN BEGIN TS44
+-  SAY ~(*Pouts*) 'Twas no stuffy mage! 'Twas that awesome looking traveller who came through Candlekeep on that stormy night... It was a pitch-black. The thunder was shuttering the skies, the moon was showing her face from behind the clouds specifically to make the world even scarier, and the wind was blowing with the force unknown before.~
++  SAY @8
+   IF ~~ THEN EXTERN ~SIMEJ~ 82
+ END
+ 
+ IF ~~ THEN BEGIN TS45
+-  SAY ~(*Pouts*) Imoen! I know I am Imoen. You NEVER give me a chance to tell ANYTHING! ~
++  SAY @9
+   IF ~~ THEN EXTERN ~SIMEJ~ 83
+ END
+ END

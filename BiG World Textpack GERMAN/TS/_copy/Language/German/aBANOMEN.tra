@@ -1,0 +1,90 @@
+@0    = ~Ähm, Yoshimo, ich habe... zufällig... mitbekommen, dass Ihr etwas niederschreibt. Anscheinend handelt es sich um Poesie. Gibt es Poesie in Kara-Tur?~
+@1    = ~Das ist ein guter Anfang... war es das, was Ihr in der letzten Nacht geschrieben habt? Bleibt am Ball, Yoshimo, und irgendwann werdet Ihr es fertig haben.~
+@2    = ~Oh, verwendet Ihr vielleicht den Stil der Zwerge? Ein neuer Schreibstil? Kurze Poesie für kurze Leute?~
+
+@3    = ~Kachiko, die Poesie ist eine Taube, die zartes Verlangen zur Dame des Herzens auf ihren Schwingen trägt... Kein kindischer Einzeiler... Wenn ich Euch ein richtiges Gedicht antragen darf:
+
+Ich lieb' ein Mädchen, frühlingsjung ist sie, 
+hat Haare, die gold'ner als Weizen noch leuchten, 
+hat Augen, die schöner als Blumen noch blühen, 
+und Lippen, die rot und süss wie die Sünde glühen.~
+@4    = ~Der Richter ist nicht objektiv! Mein Stern, kommt, was denkt Ihr?~
+
+@5    = ~Meintet Ihr das Gedicht, das Ihr über Kachiko geschrieben habt? Nun, ich bin ebenso ihrer Meinung, es ist nicht gerade ein Meisterwerk...~
+@6    = ~Die ganzen Nächte, die ich für Euch geschrieben habe... alles umsonst...~
+
+@7    = ~Wenn man es noch einmal bedenken würde, wie wäre es dann mit einem Unentschieden, Kachiko?~
+@8    = ~Ein Unentschieden? EIN UNENTSCHIEDEN?~
+@9    = ~Valygar, wenn sie Hilfe von jemandem bräuchte, dann würde sie es sagen.~
+@10   = ~Wahrlich Valygar, ich weiss nur wenig von der Liebe. Abgesehen von den Geschichten, die erzählt werden. Ich würde einen älteren Kameraden des Ordens zu Rate ziehen, aber ich dachte, dass Ihr vielleicht zuhören wolltet. Ausserdem ist das Mädchen, das ich mag, etwas ganz Besonderes... Es ist <CHARNAME>! Und wegen ihrer Herkunft bin ich mir nicht sicher, ob der Orden wohlwollend auf unsere Beziehung sehen wird...~
+
+@11   = ~Seht Ihr nun mein Problem? Von all den schönen Frauen liebe ich die eine, die vom Orden nie als meine Braut akzeptiert werden würde...~
+@12   = ~Warum seid Ihr so durcheinander, Valygar? Ich wollte lediglich...~
+
+@13   = ~Habt Ihr nie ein nettes Mädchen getroffen?~
+
+@14   = ~Ich glaube, dass ich mehr Glück wie Ihr habe. <CHARNAME> ist eine Frau seltener Tugend...~
+
+@15   = ~Ihr solltet es versuchen. Es sieht so aus, als hättet Ihr einen besonderen Wert in den Augen von <CHARNAME>.~
+@16   = ~Ist das wahr <CHARNAME>? Würdet Ihr das für mich tun?~
+@17   = ~Ja, das würde ich. Und jetzt beruhigt Euch wieder, Ihr handelt irrational.~
+@18   = ~Ich habe keine Lust, darauf zu antworten. Denkt was Ihr wollt, Anomen, es macht mir nichts aus.~
+
+@19   = ~Nein. Ich würde Euch zurücklassen, um in der Gruft zu verrotten. ~
+@20   = ~Ich... Ich war... Verzeiht mir, meine Lady.~
+
+@21   = ~Ihr solltet Euch bei Valygar entschuldigen, nicht bei mir...~
+
+@22   = ~Entschuldigung akzeptiert. Und jetzt beruhigen wir uns alle wieder und wenden uns den wichtigen Dingen zu.~
+
+@23   = ~Oh, das? Nun Valygar, ich muss sagen, dass ich missmutig gewesen bin und Dinge gesagt habe, die ich besser nicht gesagt hätte...~
+
+@24   = ~Oh, ich sehe schon... Nun, dann enthebe ich Euch von der Notwendigkeit, in meiner Gesellschaft zu sein. So lebt denn wohl.~
+@25   = ~Irgendwie glaube ich das nicht. Es kratzt sie nicht, wenn ich mich in einen Stein oder eine Steckrübe verwandeln würde... oder in einen Vampir.~
+
+@26   = ~In der Tat würde mir das dienen. Sieht so aus, als würde <CHARNAME> die starken und ruhigen Typen bevorzugen.~
+@27   = ~Ich habe einen ernsten Verdacht, Waldläufer. Ich glaube, Ihr versucht...~
+@28   = ~Was!~
+@29   = ~Lacht nur! Es ist mein Herz, das blutet!~
+@30   = ~Ich will NICHTS von Euch!~
+@31   = ~Ich bin mit Euch noch nicht fertig! Ihr könnt nicht einfach gehen!~
+@32   = ~Ich habe Euch zusammen gesehen... Versucht nicht, es abzuleugnen! Ihr habt ihre Hand gehalten. Derjenige, der mir immer erzählt hat, wie desinteressiert er an Damen ist! Ich war so blind. Ich liess Euch <CHARNAME> mir wegnehmen...~
+@33   = ~In der Tat Zeit verbringen... Nach Zakhara reisen - das wird Euch die Zeit verteiben.~
+
+@34   = ~Das hätte ich schon längst tun sollen, anstatt ihr zu vertrauen, anstatt Euch zu vertrauen. Es ist meine eignene Schuld, dass die, die ich liebe und Ihr, den ich meinen Freund nannte, mein Leben zerstört habt. Ich war zu sorglos. Jetzt sehen mich alle mit Bedauern an und sagen tröstende Worte. Aber mein Herz ist des Geiers Fraß. Nichts verletzt mehr als Verrat.~
+@35   = ~Wie könnt Ihr es wagen!~
+@36   = ~Oh, jetzt ist es meine eigene Schuld, oder?~
+@37   = ~Ich sehe schon... Vielleicht hat sie noch mehr zu sagen?~
+@38   = ~Droht Ihr mir vielleicht?~
+
+@39   = ~Es macht mir nichts aus, was Ihr sagtet. Meine Unterhaltung mit ihr ist privater Natur.~
+
+@40   = ~Eifersüchtig? Ihr seid doch eifersüchtig! Sie liebt mich, nicht Euch!~
+@41   = ~Was! Ich liebe sie mehr als mein eigenes Leben, warum sollte ich Ihr weh tun wollen? Ihr liegt ziemlich falsch, Waldläufer! Ich brauche sie nur zu fragen. <CHARNAME>, ich bitte Euch, mir zu sagen, was los ist... Mögt Ihr Valygar lieber wie mich?~
+@42   = ~Genug jetzt. Valygar, Ihr scheint die fixe Idee zu haben, dass Ihr derjenige seid, der mich beschützt, wenn mir jemand etwas antun sollte. Lasst mich Euch daran erinnern, dass ich sehr gut selbst auf mich aufpassen kann. Selbst von Anomen, der Liebe meines Lebens, möchte ich nicht beschützt werden... (*Ihr werft Anomen ein süsses Lächeln zu*)~
+
+@43   = ~Ich denke, ich habe eine Lösung für dieses Problem: Ich entscheide mich für keinen von Euch. Aber ich zähle Euch beide zu meinen Freunden. Und nun lasst uns fortfahren und diese sinnlose Diskussion vergessen.~
+
+@44   = ~Ähm... Anomen. Ich weiss nicht, wie Ihr darauf kommt, daß ich Euch mögen könnte... Wenn ich Euch eine falsche Hoffnung gemacht haben sollte, dann tut mir dies Leid. Ich würde es begrüssen, wenn Ihr Euch nicht mehr in meine Beziehung zu Valygar einmischen würdet.~
+@45   = ~(*Ihr grinst... und wartet ab, was als nächstes passiert*)~
+
+@46   = ~(*Ihr schreit hilflos*) Narren! Ich... Ich liebe Euch beide. Bitte stellt mich nicht vor die Wahl...~
+
+@47   = ~Ich glaube, ich habe mich wohl verhört!~
+@48   = ~Ich will nichts mehr hören! Ich will jetzt alleine sein.~
+@49   = ~Lasst mich mit ihr reden! Oder ich schwöre, ich werde Euch töten!~
+@50   = ~Ihr wagt es...~
+@51   = ~Nein, meine Lady, nicht im Geringsten.~
+
+@52   = ~Das solltet Ihr, meine Lady! Das solltet Ihr.~
+@53   = ~Es ist sehr schmerzlich, solch harte Worte von einer Dame zu hören.~
+@54   = ~Aber sicher war Eure Mutter von hohem Stand...~
+@55   = ~Vielleicht seid Ihr eine verzauberte Prinzessin und wisst es gar nicht, meine Lady?~
+
+@56   = ~Meine Lady, Ihr seid eine aufmerksame Freundin. Ich bin besorgt wegen meiner Gefühle über unsere Gesellschaft.~
+
+@57   = ~Genau das Gegenteil, meine liebe Sime, genau das Gegenteil...~
+
+@58   = ~Unserer Gruppe fehlt Disziplin und Ordnung. Doch ich mag es. Was würde wohl der Prälat des Ordens sagen, wenn er erfahren würde, dass ich nicht beharrlich genug meinen Pflichten nachgehe? Wann werden wir heldenhafte Taten vollbringen, die eines Paladins des Ordens würdig sind?~
+
+@59   = ~Ihr sprecht wahre Worte, meine Lady. Ich schätze, ich vernichte das Böse im Namen des Ordens und es erfreut mich. Ob wir nun Dienstbotengänge machen oder nicht, wir tun Gutes. Aber der Mangel an Disziplin und Aufmerksamkeit passt nicht gut zu mir!~

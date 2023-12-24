@@ -1,0 +1,9 @@
+--- NeJ\baf\TELEKUL2.BAF	Wed Oct 04 18:59:45 2017
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TELEKUL2.BAF	Wed Apr 10 10:29:52 2019
+@@ -85,5 +85,5 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_TeleportDialog","GLOBAL",0)
+-		ActionOverride(Player1,DisplayStringHead(Myself,~The portal is temporarily disabled. Please look for another portal.~))
++		ActionOverride(Player1,DisplayStringHead(Myself,@0))
+ END

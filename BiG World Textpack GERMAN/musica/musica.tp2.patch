@@ -1,0 +1,13 @@
+--- musica.tp2	Sun Nov 08 00:40:14 2009
++++ C:\BWP Patchstudio\patched files\musica.tp2	Tue Dec 06 22:31:03 2011
+@@ -13,6 +13,10 @@
+          ~english~
+          ~musica/english/setup.tra~
+ 
++LANGUAGE ~German~
++         ~german~
++         ~musica/german/setup.tra~
++
+ BEGIN @0
+ 
+ COPY ~musica/ITEM/ESLIAMU0.ITM~ ~override\ESLIAMU0.ITM~

@@ -1,0 +1,11 @@
+--- NeJ\Erev\script\EREVAINS.baf	Fri Dec 02 17:54:02 2016
++++ C:\BWP Patchstudio\patched files\NeJ\Erev\script\EREVAINS.baf	Wed Sep 11 10:42:14 2019
+@@ -9,7 +9,7 @@
+ 		FadeToColor([20.0],0)
+ 		Wait(1)
+ 		MoveGlobal("TT4001","Erevain",[1880.2300])
+-		ActionOverride("Erevain",SetName(~Erevain~))
++		ActionOverride("Erevain",SetName(@0))
+ 		EndCutSceneMode()
+ 		DestroySelf()
+ 		StartCutSceneMode()

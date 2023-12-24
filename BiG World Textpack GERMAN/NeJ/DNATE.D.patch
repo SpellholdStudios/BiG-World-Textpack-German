@@ -1,0 +1,103 @@
+--- NeJ\Dfiles\DNATE.D	Tue Dec 02 17:45:06 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DNATE.D	Wed Apr 10 10:24:12 2019
+@@ -1,72 +1,72 @@
+ BEGIN ~DNATE~ 83416 // non-zero flags may indicate non-pausing dialogue
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~I knew you'd make it through.  I just knew it!  ~ 
+-  IF ~~ THEN REPLY ~Who are you, and how did you know we were coming?~  GOTO 1
+-  IF ~~ THEN REPLY ~Well, hooray for you.  Now get out my way, kid.~  EXIT
+-  IF ~~ THEN REPLY ~Thanks for the vote of confidence.  Farewell.~  EXIT
++  SAY @0 
++  IF ~~ THEN REPLY @1  GOTO 1
++  IF ~~ THEN REPLY @2  EXIT
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 0.0
+-  SAY ~I'm Nate.  Arundel said that help was on its way.  I've been out here every day, keeping a lookout for you.  Where is the rest of your army?  Are you just the scouts or something?~ 
+-  IF ~~ THEN REPLY ~Sorry to disappoint you, but we are alone.~  GOTO 2
+-  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY ~Who is Arundel?~  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~I think you have the wrong idea... we're just passing through.  Farewell.~  EXIT
++  SAY @4 
++  IF ~~ THEN REPLY @5  GOTO 2
++  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY @6  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @7  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 1.0
+-  SAY ~Alone?  I thought for sure that the Ten-Towns would send an army to help us.  Wait 'til Arundel finds out it's just you.~ 
+-  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY ~Who is Arundel?~  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~Who says we are here to *help* you?  Maybe we are here to murder little boys who talk too much.~  GOTO 5
+-  IF ~~ THEN REPLY ~Thanks for the vote of confidence.  Farewell.~  EXIT
++  SAY @8 
++  IF ~Global("Know_Arundel", "GLOBAL", 0)~ THEN REPLY @6  DO ~SetGlobal("Know_Arundel", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @9  GOTO 5
++  IF ~~ THEN REPLY @3  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 2.0 1.1
+-  SAY ~Arundel's my friend.  He's the oldest and smartest man in the whole world.  He can talk to animals, you know.  You should probably go see him... he'll be wanting to talk to you too.~ 
+-  IF ~~ THEN REPLY ~Very well.  Where can we find this Arundel?~  GOTO 4
+-  IF ~~ THEN REPLY ~Thanks for the tip.  Farewell.~  EXIT
++  SAY @10 
++  IF ~~ THEN REPLY @11  GOTO 4
++  IF ~~ THEN REPLY @12  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.0
+-  SAY ~He lives across this bridge, on the other side of the brook.  Just look for the house with the three big rocks out front.~ 
+-  IF ~~ THEN REPLY ~Thanks, Nate.  Farewell.~  EXIT
++  SAY @13 
++  IF ~~ THEN REPLY @14  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 2.1
+-  SAY ~Eeeeek!  Momma!  Momma!  They're gonna kill me!~ 
++  SAY @15 
+   IF ~~ THEN DO ~Enemy()
+ RunAwayFromNoInterrupt(LastTalkedToBy(Myself),15)~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Know_Arundel", "GLOBAL", 0)~ THEN BEGIN 6 // from:
+-  SAY ~If you haven't already, you should go see Arundel.  I'm sure he'll want to know that you have arrived.  I'm gonna stay here and keep a lookout.  Maybe they'll send us an army after all.~ 
+-  IF ~~ THEN REPLY ~You do that, Nate.  Farewell.~  EXIT
++  SAY @16 
++  IF ~~ THEN REPLY @17  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalGT("Know_Arundel", "GLOBAL", 0)
+ !Global("Kuldahar_Attack", "GLOBAL", 1)
+ !Global("Kuldahar_Attack", "GLOBAL", 2)~ THEN BEGIN 7 // from:
+-  SAY ~Hello again.  Arundel says you're gonna help save the town.  I hope he's right.  I hope you don't get squashed by a giant or something.~ 
+-  IF ~~ THEN REPLY ~We'll try not to let that happen.  Farewell, Nate.~  EXIT
++  SAY @18 
++  IF ~~ THEN REPLY @19  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalGT("Know_Arundel", "GLOBAL", 0)
+ GlobalGT("Kuldahar_Attack", "GLOBAL", 0)
+ GlobalLT("Kuldahar_Attack", "GLOBAL", 3)~ THEN BEGIN 8 // from:
+-  SAY ~Oh, it's you.  Where have you been?  Did you see the monsters?  They came out of the mountains and started attacking the town.  I saw them from my lookout post...  a bunch of big, scary looking orcs led by a man in grey.~ 
+-  IF ~~ THEN REPLY ~Tell me about the man in grey.  Who was he?~  GOTO 9
++  SAY @20 
++  IF ~~ THEN REPLY @21  GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.0
+-  SAY ~I don't know... I've never seen him around here before.  I watched him go into Arundel's house while the monsters attacked the town.  I hope Arundel's all right.~ 
+-  IF ~~ THEN REPLY ~Well done, Nate.  Keep up the good work.  Farewell.~  EXIT
++  SAY @22 
++  IF ~~ THEN REPLY @23  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Severed_Hand_Reveal", "GLOBAL", 1)~ THEN BEGIN 10 // from:
+-  SAY ~You're back.  I'm glad you're still alive.  Now that Arundel is gone, you're our only hope.  Please don't die until you've saved the town, ok?~ 
+-  IF ~~ THEN REPLY ~We'll do our best.  Farewell, Nate.~  EXIT
++  SAY @24 
++  IF ~~ THEN REPLY @25  EXIT
+ END

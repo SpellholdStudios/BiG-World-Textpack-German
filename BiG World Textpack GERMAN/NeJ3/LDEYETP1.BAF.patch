@@ -1,0 +1,20 @@
+--- NeJ3\baf\LDEYETP1.BAF	Sun Apr 27 04:52:30 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDEYETP1.BAF	Wed Apr 10 10:33:49 2019
+@@ -3,7 +3,7 @@
+ 	!StateCheck(LastTrigger,STATE_STONE_DEATH)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~I mourn many fellows of the Harp, but they died fighting for balance and truth.  Galvarey did not, and this matter cheapens their loss.  I will not be party to it.~)
++		DisplayString(Myself,@0)
+ 		DisplayString(Myself,14381) // Trap Sprung
+ 		ReallyForceSpell(LastTrigger,FORCE_STONE_TRAP)
+ 		Wait(2)
+@@ -14,7 +14,7 @@
+ 	!StateCheck(LastTrigger,STATE_STONE_DEATH)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~I mourn many fellows of the Harp, but they died fighting for balance and truth.  Galvarey did not, and this matter cheapens their loss.  I will not be party to it.~)
++		DisplayString(Myself,@0)
+ 		DisplayString(Myself,14381) // Trap Sprung
+ 		ReallyForceSpell(LastTrigger,FORCE_STONE_TRAP)
+ 		Wait(2)

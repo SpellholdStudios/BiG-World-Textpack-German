@@ -1,0 +1,11 @@
+--- NeJ3\baf\TT8007.BAF	Mon Aug 21 19:20:29 2017
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\TT8007.BAF	Wed Apr 10 10:34:05 2019
+@@ -48,7 +48,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("MARKETH_BADGE","GLOBAL",1)
+ 		AddexperienceParty(32500)
+-		DisplayStringHead(Player1,~You have retrieved Marketh's badge.~)
++		DisplayStringHead(Player1,@0)
+ 		Continue()
+ END
+ 

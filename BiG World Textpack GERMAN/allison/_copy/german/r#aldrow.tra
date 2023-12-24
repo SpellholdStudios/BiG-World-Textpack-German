@@ -1,0 +1,43 @@
+// Allison's drow soundset
+
+/* MORALE */              @0  = ~Ich weigere mich, in den Händen dieses Dummkopfs zu sterben!~ []
+/* HAPPY */
+/* UNHAPPY_ANNOYED */     @2  = ~Warum vergeude ich meine Zeit mit Dummköpfen?~ []
+/* UNHAPPY_SERIOUS */
+/* UNHAPPY_BREAKING */
+/* LEADER */              @5  = ~Frauen sind wirklich das überlegene Geschlecht.~ []
+/* TIRED */               @6  = ~Wir sollten anhalten, um uns auszuruhen, *jetzt*.~ []
+/* BORED */               @7  = ~Warum stehen wir herum? Ich fordere, dass wir etwas tun!~ []
+/* BATTLE_CRY1 */
+/* BATTLE_CRY2 */
+/* BATTLE_CRY3 */
+/* BATTLE_CRY4 */
+/* BATTLE_CRY5 */
+/* DAMAGE */              @13  = ~Autsch!~ []
+/* DYING */
+/* HURT */                @15  = ~Mein schöner Körper ist mit Blut bedeckt!~ []
+/* AREA_FOREST */         @16  = ~All dieses Grün ist... es ist *abstoßend*!~ []
+/* AREA_CITY */           @17  = ~Ah, the city. Filled with people to enslave.~ []
+/* AREA_DUNGEON */        @18  = ~Es gibt mehr mehr, was wir in einem Kerker tun können als Schätze zu suchen...~ [] // This line should be flirtatious
+/* AREA_DAY */            @19  = ~Das Licht! Es BRENNT!~ []
+/* AREA_NIGHT */          @20  = ~Es ist leichter, sich unseren Feinden in der Dunkelheit anzuschleichen.~ []
+/* SELECT_COMMON1 */      @21  = ~Was wollt *Ihr*?~ []
+/* SELECT_COMMON2 */      @22  = ~Müsst Ihr mich bedrängen?~ []
+/* SELECT_COMMON3 */      @23  = ~Ich bin hier.~ []
+/* SELECT_COMMON4 */      @24  = ~Was nun?~ []
+/* SELECT_COMMON5 */
+/* SELECT_COMMON6 */
+/* SELECT_ACTION1 */      @27  = ~Ich soll Euren Anordnungen folgen.~ []
+/* SELECT_ACTION2 */
+/* SELECT_ACTION3 */
+/* SELECT_ACTION4 */
+/* SELECT_ACTION5 */
+/* SELECT_ACTION6 */
+/* SELECT_ACTION7 */
+/* SELECT_RARE1 */        @34  = ~Nehmt Eure Augen von meinem Hintern!~ []
+/* SELECT_RARE2 */        @35  = ~Euch gefällt, was Ihr seht, hmm?~ [] // This line should be very flirtatious
+/* CRITICAL_HIT */        @36  = ~Sterbt! Haha!~ []
+/* CRITICAL_MISS */
+/* TARGET_IMMUNE */
+/* INVENTORY_FULL */      @39  = ~Ich werde das *nicht* tragen!~ []
+/* SPELL_DISRUPTED */

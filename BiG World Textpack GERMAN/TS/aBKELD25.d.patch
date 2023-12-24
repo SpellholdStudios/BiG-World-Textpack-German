@@ -1,0 +1,35 @@
+--- TS\bgtdlg\aBKELD25.d	Sun Sep 20 04:11:06 2009
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aBKELD25.d	Thu May 05 10:43:45 2016
+@@ -1,27 +1,27 @@
+ APPEND ~BKELDO25~
+ 
+ IF ~~ THEN BEGIN TS171
+-  SAY ~And my heart aches with every step. But I gather yours do too.~
++  SAY @0
+   IF ~~ THEN EXTERN ~BSIME~ TSTOB9
+ END 
+ 
+ IF ~~ THEN BEGIN TS172
+-  SAY ~Mayhap, is that the reason why you are always on the road, Sime?~
++  SAY @1
+   IF ~~ THEN EXTERN ~BSIME~ TSTOB10
+ END
+ 
+ IF ~~ THEN BEGIN TS173
+-  SAY ~Will you also tire from the company of the same people?~ 
++  SAY @2 
+   IF ~~ THEN EXTERN ~BSIME~ TSTOB11
+ END
+ 
+ IF ~~ THEN BEGIN TS174
+-  SAY ~Is not that why you are rumored not to part with some of them after the nightfall?~
++  SAY @3
+   IF ~~ THEN EXTERN ~BSIME~ TSTOB12
+ END
+ 
+ IF ~~ THEN BEGIN TS175
+-  SAY ~What! I never!~
++  SAY @4
+   IF ~~ THEN EXTERN ~BSIME~ TSTOB13
+ END
+ END

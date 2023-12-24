@@ -1,0 +1,11 @@
+--- NeJ2\baf\VPCutIP3.baf	Mon Jan 19 16:47:38 2015
++++ C:\BWP Patchstudio\patched files\NeJ2\baf\VPCutIP3.baf	Wed Apr 10 10:32:16 2019
+@@ -5,7 +5,7 @@
+ 		CutSceneId(Player3)
+ 		SmallWait(7)
+ 		DestroyItem("shadbfak")
+-		DisplayStringHead(Player3,~The scroll has been warded and disintegrated with a considerable force irreversibly decreasing your dexterity.~)
++		DisplayStringHead(Player3,@0)
+ 		PlaySound("EFF_P19")
+ 		Wait(2)
+ 		FadeToColor([30.0],0)

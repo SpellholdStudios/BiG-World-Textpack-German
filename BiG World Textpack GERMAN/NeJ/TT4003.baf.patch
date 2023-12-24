@@ -1,0 +1,10 @@
+--- NeJ\baf\TT4003.baf	Tue Dec 25 13:11:42 2018
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TT4003.baf	Wed Apr 10 10:30:20 2019
+@@ -6,6 +6,6 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("Presio_Journal","GLOBAL",1)
+-		DisplayStringHead(Player1,~The farewell necromancer’s sending.~)
++		DisplayStringHead(Player1,@0)
+ 		Kill(Player1)
+ END

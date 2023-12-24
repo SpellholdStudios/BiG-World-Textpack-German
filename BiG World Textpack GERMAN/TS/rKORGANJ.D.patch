@@ -1,0 +1,38 @@
+--- TS\bgtdlg\rKORGANJ.D	Thu Jan 06 17:12:22 2005
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rKORGANJ.D	Thu May 05 10:45:02 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~KORGANJ~
+ 
+ IF ~~ THEN BEGIN 117
+-  SAY ~Bah!  Well I have no intention of being pleasant!  I've heaved up enough of me guts on this trip to leave me emptier than a halfling's head!  Never will ye get me aboard a ship again!~
++  SAY @0
+   IF ~!IfValidForPartyDialogue("Viconia")
+ Global("ThiefGroup","GLOBAL",2)~ THEN EXTERN ~PPBODHI3~ 12
+   IF ~!IfValidForPartyDialogue("Viconia")
+@@ -19,7 +19,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 118
+-  SAY ~Hmph.  I would respond to yer comment with me axe if the mere thought of movin' didn't make me stomach roil.  Begone, and count yerself lucky this time!~
++  SAY @1
+   IF ~Global("ThiefGroup","GLOBAL",2)~ THEN EXTERN ~PPBODHI3~ 12
+   IF ~Global("ThiefGroup","GLOBAL",1)
+ !InParty("Sime")
+@@ -32,7 +32,7 @@
+ APPEND ~KORGANJ~
+ 
+ IF ~~ THEN BEGIN TS222
+-  SAY ~Re yer gonna stop greasing the floor with yer mumbo-jumbo, stupid woman?~
++  SAY @2
+   IF ~!InParty("Aerie")~ THEN EXTERN ~NAJOKI~ 7
+   IF ~InParty("Aerie")
+ See("Aerie")~ THEN EXTERN ~AERIEJ~ TS219
+@@ -40,7 +40,7 @@
+ 
+ IF ~Global("SPRITE_IS_DEADKiotsi","GLOBAL",1)
+ Global("Kiotsi_Dead","GLOBAL",0)~ THEN BEGIN TS223
+-  SAY ~Bah! The fool aren't worth a fight. Bastard.~
++  SAY @3
+   IF ~~ THEN DO ~SetGlobal("Kiotsi_Dead","GLOBAL",1)~ EXIT
+ END
+ END

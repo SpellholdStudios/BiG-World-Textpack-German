@@ -1,0 +1,18 @@
+--- Oversight\german\Oversight.tra	Sun Mar 27 14:09:40 2005
++++ C:\BWP Patchstudio\patched Text files\Oversight\german\Oversight.tra	Tue Apr 01 12:58:50 2008
+@@ -103,4 +103,12 @@
+ 
+ Besondere Fähigkeiten: Der Träger kann sich einen zusätzlichen Zauber des 6. und 7. Grades einprägen. Der Träger erhält 5% Magieresistenz und +1 auf Stärke.
+ Kann nur von neutralen und rechtschaffenen Klerikern verwendet werden.~
+-@37 =~Oder vielleicht haltet Ihr Euch eher zu Lathander. Wenn das so ist, solltet Ihr zu seinem Tempel eilen. Es spielt keine Rolle, für wen von uns Ihr diesen Auftrag ausführt, wenn es nur schnell geschieht.~
+\ No newline at end of file
++@37 =~Oder vielleicht haltet Ihr Euch eher zu Lathander. Wenn das so ist, solltet Ihr zu seinem Tempel eilen. Es spielt keine Rolle, für wen von uns Ihr diesen Auftrag ausführt, wenn es nur schnell geschieht.~
++@38 = ~Härtere Sendai (ToB wird benötigt)~
++@39 = ~Geänderte Einstellungen~
++@40 = ~Klassen Tweaks/Fixes~
++@41 = ~Geänderte Zauber~
++@42 = ~Verbesserter Zusammenhang~
++@43 = ~Kleriker Klassencharakter~
++@44 = ~Fähigkeiten hoher Stufen er Mönche~
++@45 = ~Heiliger Erlöser~
+\ No newline at end of file

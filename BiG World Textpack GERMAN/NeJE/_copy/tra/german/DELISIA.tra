@@ -1,0 +1,65 @@
+@0  = ~Diese Frau hat eine Haut wie die Oberfläche des Sees, hell-grünes Haar und feine Gesichtszüge wie die einer Elfe. Wenn Ihr Euch ihr nähert, beginnt sie eine sanfte, fließende Melodie zu singen, die wie eine starke Unterwasserströmung klingt - aber Ihr wisst nicht, *warum* der Gesang Euch daran erinnert. Nach einem Augenblick endet der Gesang... und das Gefühl verschwindet. Die Frau blickt Euch hoffnungsvoll an.~ 
+@1  = ~Dieser Gesang - seid Ihr etwa die Frau, die Jhonen in seinen Träumen sieht?~
+@2  = ~Vielleicht kann ich Euren Gesang mit einem ebensolchen erwidern, Mylady...~ 
+@3  = ~Aihonens Klinge
+
+An den Ufern Kuldahars sind wir einer seltsamen blauhäutigen Frau begegnet - sie sprach in Liedern und schien betrübt darüber zu sein, dass wir sie nicht verstehen konnten. Irgendetwas muss sie bewogen haben, nach Osthafen zu kommen, aber wir wissen nicht, was.~
+@4  = ~Es tut mir Leid, Mylady, aber wir haben den, den Ihr sucht, noch nicht gefunden.~ 
+@5  = ~Von Elfe zu Elfe bitte ich Euch, die Sprache derer zu sprechen, die an Land wandeln. Was hat Euch aus Eurer Heimat im See hierher gebracht, Schwester?~
+@6  = ~Wer bei den Höllen seid Ihr? Was tut Ihr hier?~
+@7  = ~Oh... tut mir Leid, aber ich verstehe Euch nicht.~ 
+@8  = ~Ich gehe. Lebt wohl.~
+@9  = ~Die Frau sieht Euch schmerzlich an, aber sie antwortet nicht.~ 
+@10 = ~Hinfort mit Euch, Geist! Wenn Ihr noch einmal an diesen Ufern auftaucht und die Bewohner der Stadt plagt, werde ich dafür sorgen, dass man Euch ausnimmt wie einen Fisch! Hinfort!~
+@11 = ~Ihr wollt nicht sprechen, was? Vielleicht wird Euch die Sprache der Klinge lehren, zu antworten, wenn ein Höhergestellter zu Euch spricht.~
+@12 = ~Lebt wohl. Ihr solltet Euch lieber verbergen, wenn Ihr nicht wollt, dass die anderen Bewohner der Stadt Euch sehen.~ 
+@13 = ~Die Frau sieht erschrocken aus. Dann verschwindet sie plötzlich - ihr Körper löst sich in Wasser auf.~
+@14 = ~Als Ihr zu singen anfangt, gesellt sich die Stimme der Frau zu Eurer und formt so eine verwobene Melodie. Zu Eurem Erstaunen bemerkt Ihr, dass Ihr ihren Gesang *versteht* - und auch, was sie hierher geführt hat.~ 
+@15 = ~Ihr sucht jemanden... einen der Fischer, hab ich Recht? Ihr sprecht zu ihm in Träumen, doch Ihr dürft Euch ihm nicht in Fleisch und Blut zeigen.~
+@16 = ~Sie nickt erleichtert und sieht Euch dann flehend an.~
+@17 = ~Ich werde sehen, ob ich den Fischer finde, den Ihr sucht, Mylady. Ich komme wieder, wenn ich ihn gefunden habe.~
+@18 = ~::Jho-nyn?::~ 
+@19 = ~Ja, Jhonen - *Ihr* seid die Frau aus seinen Träumen, nicht wahr?~
+@20 = ~::Ja - ja!:: ::Haben Eure Augen ihn erblickt?:: ::Wisst Ihr, wo er wandelt?::~ 
+@21 = ~Ja, ich habe vor kurzem mit ihm geprochen. Er sieht Euch in seinen Träumen, doch er weiß nicht, was Ihr von ihm wollt. Was *wollt* Ihr von ihm?~ 
+@22 = ~::Ich werde Elisia-vom-Himmelsspiegel genannt.:: ::Mein Herz gehört Jho-nyn, doch er darf mich nicht in Fleisch und Blut sehen, sonst werde ich zu einer Welle am Ufer.:: ::Ich habe ein Geschenk für ihn. Einer von seinem Blute gab es mir vor langer Zeit; auch er hielt mein Herz gefangen, doch nicht so, wie Jho-nyn es jetzt gefangen hält.::~
+@23 = ~Geschenk? Was meint Ihr?~ 
+@24 = ~::Vor vielen Spiegelungen des Mondes geschah es, dass der vom Geschlecht Jho-nyns in die Tiefen des Sees fiel.:: ::Er kämpfte gegen die letzte der großen weißen Schlangen, die auf den nördlichen Winden schwamm, die Königin Icasaracht, die nun leblos auf dem Grunde des Sees liegt.:: ::Ich gab ein Versprechen, das ich halten muss.::~
+@25 = ~Was für ein Versprechen?~
+@26 = ~::Der, von dem Jho-nym abstammt, bat mich, die Klinge denen von seinem Blute zurückzugeben, falls die Königinschlange Icasaracht sein Leben trinken sollte.:: ::Das tat sie, doch nicht bevor er ihr den Todesstoß versetzen konnte.:: ::Aus den Tiefen des Sees habe ich die feuergeschmiedete Klinge heraufgeholt, die Icasaracht das Leben nahm.:: ::Sie ist dazu bestimmt, nun Jho-nyn zu gehören.::~
+@27 = ~Ihr wollt also Jhonen das Schwert seines Vorfahren zurückgeben, doch Ihr könnt es nicht, weil Ihr Euch in Wasser auflöst, sobald er Euch erblickt?~
+@28 = ~::Es ist eines der Gesetze der Länder unter dem Spiegel des Sees.:: ::Wollt Ihr Jho-nyn dieses geben und ihm meine Liebe überbringen?:: ::Mein Gesang gehört ihm, mein Herz gehört ihm.::~
+@29 = ~Vergebt mir, Elisia-vom-Himmelsspiegel, aber es gibt *viele* Geschichten über Geschenke, hinter denen mehr steckt, als man vermutet, die vielleicht sogar gefährlich sind.~
+@30 = ~Ich werde dafür sorgen, dass Jhonen diese Klinge erhält, Elisia.~
+@31 = ~::Hier, dann gebe ich Euch dies in Gewahrsam, bis Euer Weg den Jho-nyns kreuzt.:: ::Kommt wieder, wenn Ihr ihm die Klinge gegeben habt.:: ::Ich muss wissen, ob sie zu ihrem rechtmäßigen Besitzer zurückgekehrt ist.::~
+@32 = ~Ich werde wiederkommen, sobald ich sie Jhonen gegeben habe, Elisia. Lebt wohl.~
+@33 = ~Aihonens Klinge
+
+Wir haben herausgefunden, dass die blauhäutige Frau am See Elisia heißt und dass sie die Ursache für Jhonens Alpträume ist. Sie schwor einem seiner Vorfahren, der tot auf dem Grund des Sees liegt, dass sie dessen Klinge Jhonen übergeben würde. Die Gesetze ihrer Gemeinde erlauben ihr jedoch nicht, Jhonen zu treffen. Wir kamen überein, Jhonen die Klinge zu bringen und ihr anschließend mitzuteilen, ob unsere Mission erfolgreich war.~
+@34 = ~::Ich will Jho-nyn nichts Böses.::~
+@35 = ~Ah, ich habe Euch nicht nach Euren Absichten, sondern nach dem *Geschenk* gefragt... Bisher habt Ihr nichts darüber gesagt, was es bewirken kann. Und dazu, dass Ihr Jhonen nichts Böses wollt - Eure Träume plagen ihn bereits, ob Ihr es wollt oder nicht.~
+@36 = ~::Die Träume waren die einzige Möglichkeit, mit ihm zu sprechen.:: ::Diese Klinge ist für ihn.:: ::Ich wünschte nur, dass er an meiner Seite in den Wellen lebte.::~
+@37 = ~Aber Menschen *können* nicht unter Wasser leben, Elisia. Für Eure Art seid Ihr offensichtlich wild entschlossen, hier an Land zu kommen, wo jeder Euch sehen kann. Das zeugt meiner Ansicht nach von einem verzweifelten Herzen. Und ein verzweifeltes Herz tut gefährliche Dinge.~
+@38 = ~::Ich kann in diesen unzureichenden Worten keine Wahrheit ausdrücken, die Euch zeigt, dass weder ich noch dieses Geschenk Jho-nyn schaden werden.::~
+@39 = ~Vielleicht reichen Worte nicht aus, Eure Absichten zu erklären, aber Euer Gesang könnte es. Bringt mir Euren Gesang bei, Elisia, dann werde ich dafür sorgen, dass der rechtmäßige Besitzer der Klinge sie wieder zurück erhält.~
+@40 = ~Worte reichen nicht aus, Elisia - sie können ebenso gut Lügen enthalten wie Wahrheiten, je nach der Redefertigkeit des Sprechers. Ich brauche einen handfesten Beweis Eurer Absichten.~
+@41 = ~Sie singt, und Ihr *fühlt* die Worte mehr als dass Ihr sie hört. Vor Eurem inneren Auge entstehen Bilder vom See, von der Strömung und von Elisias Wache über die Skelette all derer, die unter den Wellen liegen, Drachen und Menschen. Als sie aufhört zu singen, fühlt Ihr Euch überwältigt. Sie ist vertrauenswürdig, und sie hat nichts als Liebe in ihrem Herzen für Jhonen.~
+@42 = ~Ich werde dafür sorgen, dass Jhonen die Klinge erhält, Elisia. Ich denke, dies wird eine großartige Geschichte hergeben.~
+@43 = ~Ach was! Dieser Gesang ist nichts als Gesang. Er sagt nichts über Euer Herz. Habt Ihr nicht *gehört*, dass ich sagte, ich bräuchte Beweise? Ich brauche ein handfestes Zeichen Eurer guten Absichten.~
+@44 = ~Sie sieht Euch voller Schmerz an und nickt. Ihr beobachtet, wie sie ihre Handflächen zusammen und wieder auseinander führt, und Edelsteine fallen wie Wassertropfen aus ihren Händen .~
+@45 = ~Die werden reichen, denke ich. Ich werde dafür sorgen, dass Jhonen die Klinge erhält, Elisia. Ich denke, dies wird eine großartige Geschichte hergeben.~
+@46 = ~::Habt Ihr Jho-nyn gefunden?::~
+@47 = ~Ja, und ich habe ihm die Klinge gegeben.~
+@48 = ~Aihonens Klinge
+
+Wir sind zu Elisia zurückgekehrt und haben ihr gesagt, dass wir Jhonen die Klinge gebracht haben. Sie war sehr froh darüber und belohnte uns für unsere Mühe.~
+@49 = ~Äh, ja, das habe ich. Er hat sich sehr über das zerbrochene Schwert gefreut, dass Ihr ausgegraben habt, und lässt Euch sagen, dass Ihr mich für meine Mühe entlohnen sollt, wenn Ihr könnt. Oh, und er sagte, Ihr sollt ihm keine Träume mehr schicken oder mit ihm sprechen - er will seine Ruhe haben, um, äh, sich an der Klinge zu erfreuen.~
+@50 = ~Aihonens Klinge
+
+Wir sind zurückgekehrt und haben diesem bescheuerten Meeresgeist Elisia gesagt, dass wir Jhonen die Klinge gebracht hätten. Sie hat die Lüge geschluckt und uns sogar für unsere Mühe *belohnt*. Wir können nur hoffen, dass all die anderen Wesen, denen wir im Norden begegnen, genauso doof sind.~
+@51 = ~Noch nicht, Elisia. Ich suche noch nach ihm. Ich werde wiederkommen, sobald ich ihn gefunden habe.~
+@52 = ~::Mein Dank ist Euch gewiss.:: ::Bitte nehmt dieses geformte Stück Sand, das ich auf dem Grunde des Sees fand.:: ::Ich habe gehört, dass für diejenigen, die auf dem Lande leben, solche Dinge von großem Wert sind.::~
+@53 = ~Danke, Elisia. Lebt wohl.~
+@54 = ~Großartig! Danke. Auf Wiedersehen.~
+@55 = ~::Macht Euch um mich keine Sorgen, sanftmütiger Waldläufer.:: :: Ich bin Elisia-vom-Himmelsspiegel, und ich wurde geboren, um die Farbe des Himmels widerzuspiegeln.:: ::Meine Haut hat weder etwas mit der Kälte der Luft zu tun, noch würde sie ein rosiges Rosa bekommen, wenn Ihr mich in hundert Umhänge einwickeln würdet.::~
+@56 = ~::Danke, Minsk und Dank an Euren pelzigen Freund Boo dafür, dass Ihr Euren Mantel anbietet und sagt, dass Elisia schön ist.:: :: Es ist lange Zeit her, dass sie gehört hat, dass sie schön ist.:: :: Wenn jetzt nur Jhonen sie sehen könnte und auch denken würde, dass sie schön ist.::~

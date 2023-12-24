@@ -1,0 +1,156 @@
+--- NeJE\dlg\EREVAINJ.D	Fri Jan 06 00:25:01 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\EREVAINJ.D	Tue Apr 09 19:35:56 2019
+@@ -1,9 +1,9 @@
+ BEGIN ~EREVAINJ~
+ 
+ IF ~~ THEN BEGIN 0
+- SAY ~Oh Sehanine! Why did I agree to travel this way! If I didn't despise the cold enough to have these frost giants kill most us!~
++ SAY @0
+ =
+-~(Sigh) If we barely made it then surely future travelers would surely perish, I suppose we must defend the innocent and find the source of these attacks.~
++@1
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 113
+  IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ 26
+@@ -18,7 +18,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 1
+- SAY ~This stone fabric truly resembles a Dragon. What a grand sight! However, such ostentatious displays are likely used to mask how weak the defenses are on the inside. Carry on <CHARNAME>, but I do think that I could handle this locale on my own just fine.~
++ SAY @2
+  IF ~True()~ THEN EXIT
+  IF ~InParty("Imoen")
+ !Dead("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ147
+@@ -37,7 +37,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 2
+- SAY ~I admit a strong pull to visit the Severed Hand and to visit a famous locale of my people. However, adventure in <CHARNAME>'s time would be an unprecedented opportunity. Whatever you choose, <CHARNAME>, I shall follow you.~  
++ SAY @3  
+  IF ~True()~ THEN DO ~SetGlobal("VP_Who_Is_Hrothgar","GLOBAL",2)~ EXTERN ~HROTHJ~ 162
+  IF ~InParty("Accalia")~ THEN EXTERN ~ACCALIJ~ 36
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 36
+@@ -48,7 +48,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 3
+- SAY ~As I said, wherever you go <CHARNAME>, I shall go as well. It has been awhile since adventuring has caught my heart racing so! It shall be quite enlightening to see the world of your time period.~  
++ SAY @4  
+  IF ~Global("VP_End_IWD","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ NEJ63
+  IF ~!Global("VP_End_IWD","GLOBAL",2)~ THEN EXTERN ~HROTHJ~ 403
+  IF ~InParty("Dar")~ THEN EXTERN ~PLAYER1~ NEJ64
+@@ -62,13 +62,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN 4
+- SAY ~That sounds most gruesome actually.~
++ SAY @5
+  IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ IWDEREV2
+  IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ IWDEREV2
+ END
+ 
+ IF ~~ THEN BEGIN 5
+- SAY ~Rightly so! Getting away from this Icy Anvil will be most welcome!~  
++ SAY @6  
+  IF ~Global("VP_End_IWD","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ NEJ63
+  IF ~!Global("VP_End_IWD","GLOBAL",2)~ THEN EXTERN ~HROTHJ~ 403
+  IF ~InParty("Dar")~ THEN EXTERN ~PLAYER1~ NEJ64
+@@ -80,7 +80,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 6
+- SAY ~What strange magic got us here Hrothgar? Such power is common amongst the most powerful of mages. Of which you do not appear to be.~ 
++ SAY @7 
+  IF ~True()~ THEN EXTERN ~HROTHJ~ 196
+  IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 43
+  IF ~InParty("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ314
+@@ -91,51 +91,51 @@
+ END
+ 
+ IF ~Global("VP_SevHand_Comment","LOCALS",1)~ THEN BEGIN 7
+- SAY ~It pains me to see such desecration of an elven fortress. How I wish I could view this place in its prime! It would have been a wonder. Now here it lays. No longer the Hand of the Seldarine, but merely the Severed Hand.~
++ SAY @8
+ =
+-~A once beautiful powerful stronghold blessed by the elven gods themselves and now just an infested ruin. How I wish that I could transform this place brighter than what it was before and say Hail Beauty, Vanimle Aaye, my heart sings to thee, Cormamin lindua ele lle.~
++@9
+  IF ~~ THEN DO ~SetGlobal("VP_SevHand_Comment","LOCALS",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+- SAY ~We are not going to coerce this dead spirit <CHARNAME>! They have nothing to give us. We are going to help them though!~
++ SAY @10
+  IF ~~ THEN EXTERN ~DDENAINI~ 14
+ END
+ 
+ IF ~~ THEN BEGIN 9
+- SAY ~It angers my soul to see such a monument to the Tel-Quessir desecrated like this. One day my people's numbers will increase again and we will abandon the Retreat. We will reclaim and restore these abandoned locales and make them ours again.~
++ SAY @11
+ =
+-~This is Hanali Celanil, goddess of love and beauty. That is Labelas Enoreth, god of time and longevity. The rest are more difficult for me to decipher. Damn the beasts responsible for this.~
++@12
+  IF ~~ THEN DO ~SetGlobal("VP_Denaini_Erevain","LOCALS",1)~ EXIT
+ END 
+ 
+ IF ~~ THEN BEGIN 10
+- SAY ~We have truly done a great deed here <CHARNAME>. Now, the souls of these elves may yet rest and join with the Seldarine. You have my respect. Never again must a thing like this be permitted to happen.~
++ SAY @13
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11
+- SAY ~Greetings again Pomab. You seem to be just as out of place this time as when I first met you.~
++ SAY @14
+  IF ~~ THEN EXTERN ~DPOMAB~ 18 
+ END 
+  
+ IF ~~ THEN BEGIN 12
+- SAY ~I do love to travel it's true. Your homeland, Calimshan, is one region I've never visited. The dunes, the hot sand, what a sight it must be.~
++ SAY @15
+  IF ~~ THEN EXTERN ~DPOMAB~ 19 
+ END 
+  
+ IF ~~ THEN BEGIN 13
+- SAY ~Perhaps one day I'll find my way down there and you will have moved on and be able to give me a tour.~
++ SAY @16
+  IF ~~ THEN EXTERN ~DPOMAB~ 20 
+ END
+ 
+ IF ~~ THEN BEGIN 14
+- SAY ~Boorish fool. Your head hurts because nothing is there! Dolle naa lost!~
++ SAY @17
+  IF ~~ THEN EXTERN ~DOGRE~ 9 
+ END
+ 
+ IF ~~ THEN BEGIN 15
+- SAY ~Another mindless biir. I should end your misery.~
++ SAY @18
+  IF ~OR(3)
+ !InParty("Dar")
+ Dead("Dar")
+@@ -146,22 +146,22 @@
+ END
+ 
+ IF ~~ THEN BEGIN 16
+- SAY ~By the Nine Hells I can't! Goblins are almost as vile and treacherous as orcs!~
++ SAY @19
+  IF ~~ THEN EXTERN ~DGOBLINC~ 11
+ END
+ 
+ IF ~~ THEN BEGIN 17
+- SAY ~It is good to see you again Arundel. I wish this visit was under more fortuitous circumstances.~
++ SAY @20
+  IF ~~ THEN EXTERN ~DARUNDEL~ EREVARU1
+ END
+ 
+ IF ~~ THEN BEGIN 18
+- SAY ~It is a great union and vision indeed... for humans. Elves have long accomplished such harmony.~
++ SAY @21
+  IF ~~ THEN EXTERN ~DARUNDEL~ 35
+ END
+ 
+ IF ~~ THEN BEGIN 19
+- SAY ~Let's eliminate them quickly <CHARNAME>!~
++ SAY @22
+   IF ~True()~ THEN DO ~ActionOverride("Gauthig",Enemy())
+ ActionOverride("Gauthug",Enemy())
+ ActionOverride("Lodieg",Enemy())

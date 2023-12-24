@@ -1,0 +1,153 @@
+--- TS\bgtnodlg\rPPSAEM.d	Sun Dec 20 00:40:38 2015
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\rPPSAEM.d	Thu May 05 10:46:46 2016
+@@ -2,7 +2,7 @@
+ 
+ IF WEIGHT #5 ~Global("ThiefGroup","GLOBAL",1)
+ Global("AsylumPlot","GLOBAL",1)~ THEN BEGIN 53
+-  SAY ~We have arrived, and in good time, I might add. Congratulatory remarks for all the crew, and to our visitors for their delightful company.~ [PPSAEM02]
++  SAY @0
+   IF ~!IfValidForPartyDialogue("Nalia")
+ !IfValidForPartyDialogue("Jan")
+ !IfValidForPartyDialogue("Yoshimo")
+@@ -11,57 +11,27 @@
+ OR(2)
+ 	See("ppsime")
+ 	Global("Sime_Meet","GLOBAL",0)
+-Global("ThiefGroup","GLOBAL",1)~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~PPSIME~ 1
++Global("ThiefGroup","GLOBAL",1)~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~PPSIME~ 1
+   IF ~!IfValidForPartyDialogue("Nalia")
+ !IfValidForPartyDialogue("Jan")
+ !IfValidForPartyDialogue("Yoshimo")
+ !IfValidForPartyDialogue("Korgan")
+ InParty("Sime")
+-Global("ThiefGroup","GLOBAL",1)~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~SIMEJ~ 14
+-  IF ~IfValidForPartyDialogue("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~NALIAJ~ 272
++Global("ThiefGroup","GLOBAL",1)~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~SIMEJ~ 14
++  IF ~IfValidForPartyDialogue("Nalia")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~NALIAJ~ 272
+   IF ~!IfValidForPartyDialogue("Nalia")
+-IfValidForPartyDialogue("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~JANJ~ 150
++IfValidForPartyDialogue("Jan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~JANJ~ 150
+   IF ~!IfValidForPartyDialogue("Nalia")
+ !IfValidForPartyDialogue("Jan")
+-IfValidForPartyDialogue("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~YOSHJ~ 92
++IfValidForPartyDialogue("Yoshimo")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~YOSHJ~ 92
+   IF ~!IfValidForPartyDialogue("Nalia")
+ !IfValidForPartyDialogue("Jan")
+ !IfValidForPartyDialogue("Yoshimo")
+-IfValidForPartyDialogue("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL ~Chapter 4
+-
+-I have completed the tasks that Aran Linvail set out for me, including destroying the rival guild that Bodhi had set up and forcing the vampire herself to flight, and now the Shadowmaster has enlightened me about several things.
+-
+-The Shadow Thieves were the ones who attacked Irenicus in the dungeon that I awoke in.  They had heard about my kidnapping, but not thought much of it... but then Bodhi’s guild appeared and many of the Shadow Thieves began to disappear.  They managed to track down Irenicus’ dungeon and linked it to Bodhi... and I was witness to their subsequent disastrous assault.
+-Aran feels partly responsible for Imoen’s kidnapping, and told me that she and Irenicus were taken to the same place: an island asylum for mages called Spellhold.  The gold I supplied was used to book passage to the isle, and it is there that I will find the answers I seek.  Aran warns me, though, that the asylum is a veritable fortress meant to contain insane wizards and other ’deviants’... and even gaining entry will be a feat unto itself.  Regardless, passage with a privateer named Saemon Havarian has been booked and I am on my way...~ FLAGS 128 EXTERN ~KORGANJ~ 117
++IfValidForPartyDialogue("Korgan")~ THEN DO ~SetGlobal("AsylumPlot","GLOBAL",2)~ JOURNAL @1 FLAGS 128 EXTERN ~KORGANJ~ 117
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~Yes, well, I thought they might be pirates, so I merely displayed a series of lights that mirrored their own. I wished to appear as though I was one of their own.~
++  SAY @2
+   IF ~!InParty("Sime")
+   OR(2)
+ See("ppsime")
+@@ -70,7 +40,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~Regardless, we have arrived. I leave you to your mission, whatever it may be. It has been a pleasure sailing in your company, but now, I take my leave.~
++  SAY @3
+   IF ~!InParty("Sime")
+ See("ppsime")~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41e")~ EXIT
+@@ -87,52 +57,52 @@
+ IF WEIGHT #7 ~Global("Start_Island","GLOBAL",1)
+ Global("Saemon_Mistake","GLOBAL",0)
+ Global("ThiefGroup","GLOBAL",2)~ THEN BEGIN TS3
+-  SAY ~Ahem... dear <SIRMAAM> we had arrived it seems... ~
+-  IF ~~ THEN REPLY ~Where? ~ DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO TS4
++  SAY @4
++  IF ~~ THEN REPLY @5 DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO TS4
+ END
+ 
+ IF ~~ THEN BEGIN TS4
+-  SAY ~Uhm, that’s not Brinnlaw, I am positive... Maybe it is some part of Kara-Tur. You have couple locals among your ranks they would know better than I.~
++  SAY @6
+   IF ~~ THEN EXTERN ~YOSHJ~ TS168
+ END
+ 
+ IF ~~ THEN BEGIN TS5
+-  SAY ~We’d have to wait for the night to fall, to be able to tell our position from the stars. Meanwhile, the crew will inspect the ship and repair what we can... The journey ahead of us might be long and harsh.~
+-  IF ~~ THEN REPLY ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are. What about you, my trusty advisor?~ DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPBODHI3~ TS23
++  SAY @7
++  IF ~~ THEN REPLY @8 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPBODHI3~ TS23
+ END
+ 
+ IF WEIGHT #8 ~GlobalLT("Kachiko_Saved","GLOBAL",2)
+ GlobalGT("Island_War","GLOBAL",0)~ THEN BEGIN TS6
+-  SAY ~We need to cut more timber to repair the ship. Please, come back later.~
++  SAY @9
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #9 ~Global("Start_Island","GLOBAL",1)
+ Global("Saemon_Mistake","GLOBAL",0)
+ Global("ThiefGroup","GLOBAL",1)~ THEN BEGIN TS13
+-  SAY ~Ahem... dear <SIRMAAM> we had arrived it seems... ~
+-  IF ~~ THEN REPLY ~Where? ~ DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO TS27
++  SAY @4
++  IF ~~ THEN REPLY @5 DO ~SetGlobal("Saemon_Mistake","GLOBAL",1)~ GOTO TS27
+ END
+ 
+ IF ~~ THEN BEGIN TS27
+-  SAY ~Uhm, that’s not Brinnlaw, I am positive... Maybe it is some part of Kara-Tur. You have couple locals among your ranks they would know better than I.~
++  SAY @6
+   IF ~~ THEN EXTERN ~YOSHJ~ TS236
+ END
+ 
+ IF ~~ THEN BEGIN TS28
+-  SAY ~We’d have to wait for the night to fall, to be able to tell our position from the stars. Meanwhile, the crew will inspect the ship and repair what we can... The journey ahead of us might be long and harsh.~
+-  IF ~!InParty("Sime")~ THEN REPLY ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are. What about you, my trusty advisor?~ DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPSIME~ TS0
+-  IF ~InParty("Sime")~ THEN REPLY ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are. What about you, my trusty advisor?~ DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~SIMEJ~ 4
++  SAY @7
++  IF ~!InParty("Sime")~ THEN REPLY @8 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPSIME~ TS0
++  IF ~InParty("Sime")~ THEN REPLY @8 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~SIMEJ~ 4
+ END
+ 
+ IF WEIGHT #9 ~!Global("ThiefGroup","GLOBAL",0)
+ Global("End_Island","GLOBAL",2)~ THEN BEGIN TS29
+-  SAY ~The good news is that the ship is ready to sail. The bad news is that we are far to the south from Athkatla, and I am not sure if we will see Amn’s shores again... I have no knowledge of these waters and I am reluctant to start out without more information... What is your command, my <PRO_LADYLORD>?~
+-  IF ~~ THEN REPLY ~Well, I’d trade you my good news! I got a map, showing a magical portal, which can teleport our ship back to our lands, and a wardstone, which makes possible to restore our time-space continuum.~ DO ~SetGlobal("End_Island","GLOBAL",3)~ GOTO TS30
++  SAY @10
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("End_Island","GLOBAL",3)~ GOTO TS30
+ END
+ 
+ IF ~~ THEN BEGIN TS30
+-  SAY ~Magical portal? Time wardstone? Sounds just as good as the Fog of Fate spell... Let me see the sea charts you get... Hmm, looks like it was made with skill. I have a feeling it’s genuine... I suggest that we go to Athkatla and then sail to Brinnlaw in a more traditional way, because the area miles around Brinnlaw is heavily warded against magical travels... Rig up, crew!~
++  SAY @12
+   IF ~InParty("Sime")~ THEN DO ~StartCutSceneMode()
+ StartCutScene("Cut41dYS")~ EXIT
+   IF ~Global("ThiefGroup","GLOBAL",1)

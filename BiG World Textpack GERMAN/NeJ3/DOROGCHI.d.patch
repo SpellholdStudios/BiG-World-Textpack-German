@@ -1,0 +1,59 @@
+--- NeJ3\dlg\DOROGCHI.d	Sat Dec 09 03:41:58 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DOROGCHI.d	Wed Apr 10 10:24:49 2019
+@@ -1,39 +1,39 @@
+ BEGIN ~DOROGCHI~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~Who are you?  What you do here?~
+-  IF ~Global("Saablic_Quest","GLOBAL",1)~ THEN REPLY ~I am looking for the orog chieftain.~ GOTO 1
+-  IF ~~ THEN REPLY ~Just passing through.~ GOTO 6
++  SAY @0
++  IF ~Global("Saablic_Quest","GLOBAL",1)~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~You have found him.  What do you want?~
+-  IF ~~ THEN REPLY ~I have come to obtain your badge.~ GOTO 2
+-  IF ~~ THEN REPLY ~I suggest you defend yourself.~ DO ~Enemy()~ EXIT
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO 2
++  IF ~~ THEN REPLY @5 DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~You will get nothing, and you will die.~
+-  IF ~~ THEN REPLY ~I beg to differ.~ DO ~Enemy()~ EXIT
++  SAY @6
++  IF ~~ THEN REPLY @7 DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~The wizard?!  Where IS he?!~
+-  IF ~~ THEN REPLY ~In these caves, just north of here.~ GOTO 4
+-  IF ~~ THEN REPLY ~Sorry, I can't tell you that.~ GOTO 5
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 4
++  IF ~~ THEN REPLY @10 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~You!  You stay here while we kill him.~
+-  IF ~~ THEN REPLY ~Okay.~ DO ~SetGlobal("Attack_Saablic","GLOBAL",1)~ EXIT
++  SAY @11
++  IF ~~ THEN REPLY @12 DO ~SetGlobal("Attack_Saablic","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Then you will die now.~
+-  IF ~~ THEN REPLY ~I don't think so.~ DO ~Enemy()~ EXIT
++  SAY @13
++  IF ~~ THEN REPLY @14 DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~Nobody passes through.  You die.~
+-  IF ~~ THEN REPLY ~We'll see about that.~ DO ~Enemy()~ EXIT
++  SAY @15
++  IF ~~ THEN REPLY @16 DO ~Enemy()~ EXIT
+ END

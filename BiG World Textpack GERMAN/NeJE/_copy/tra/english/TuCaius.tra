@@ -1,0 +1,33 @@
+@0    = ~You there, what business do you have here, and more importantly what is your name?~
+@1    = ~I am new here and still finding my way around. I have obviously taken a wrong turning.~
+@2    = ~Forgive my intrusion. I have been here but a short while and I am having difficulties finding my way about. I will leave now.~
+@3    = ~I am new and did not mean to disturb you. My mistake.~
+@4    = ~Do I need to repeat my questions?~
+@5    = ~Never mind the excuses, I asked you for your name! You do have a name do you not?~
+@6    = ~I am <CHARNAME>, and as I said, I have taken a wrong turn.~
+@7    = ~Yes, I do have a name, it is <CHARNAME>.~
+@8    = ~My name is <CHARNAME>, and as I said, I will be leaving now.~
+@9    = ~I am <CHARNAME>, I apologise for disturbing you.~
+@10   = ~<CHARNAME>, no that is not one of the names that I have been told to expect. A new arrival you say, then it is no wonder that I did not recognise you. Mind you having to put faces to so many renown names, it is a wonder that I remember anyone at the moment. I am Caius, welcome.~
+@11   = ~Is it your place to greet all new comers to Halruaa, Caius?~
+@12   = ~Halruaa's Internal Affairs.
+
+From what I have learnt from Matej and Caius, it would seem that the mages here are indeed plotting, but what I can not yet be sure... the disappearance of most of the academy’s senior mages, the arrival of high profile visitors being directed to secret meetings and then Caius’s hurried attempts to cover his words when he realised that he had said more than he should have. Could Tilorn be right in his belief that Ulcaster’s downfall was instigated by the mages here and if so, can I find the means to prevent an event that has in effect, already occurred? More importantly should I even be trying?~
+@13   = ~That sounds as though Halruaa is attracting a lot of distinguished visitors, Caius. I am guessing more so than normal?~
+@14   = ~Surely an Academy such as Halruaa is used to high profile visitors?~
+@15   = ~No it is not. These guests that are assembling are too important to be met by just anyone!~
+@16   = ~A meeting of mages, eh? Now that smells of a conspiracy... I am jesting of course, Caius!~
+@17   = ~Mages are always trying to keep their activities secret. Is that not so, Caius?~
+@18   = ~Where better to hold a secret meeting of mages than in an academy of magic?~
+@19   = ~A few more than normal yes, that is why I have been assigned to help direct them to the proper place.~
+@20   = ~Halruaa is indeed frequented by many high profile guests, though never quite so many at one time.~
+@21   = ~(*Eyes you with some suspicion*)... Such meetings are common of course, and I never hinted at any secrecy. That was your assumption.~
+@22   = ~I was speaking generally when I said mages like to keep their dealings secret.~
+@23   = ~The Second Key Quest.
+
+Caius... a mage with the sound of authority in his voice, let slip that he had been given the job of ushering some very high profile guests to a meeting that was about to take place... more guests than  normal for even Halruaa. He then became suspicious of my questions and tried to cover what he had said by saying such meetings were commonplace... that this was in fact one of many that had taken place over the last few weeks. He then suggested I seek out someone by the name of RayVon who could be found on one of the upper floors.~
+@24   = ~You mentioned this assembly first, and it sounded pretty much like a secret meeting to me.~
+@25   = ~I did not assume anything, it was you that spoke of it first.~
+@26   = ~Hey, I am new here, remember. I am interested in learning what takes place at the Academy.~
+@27   = ~Yes, well, there is nothing special about this meeting, in fact it is one of many that has taken place over the last few weeks. Now, as you are new to the Academy, I suggest you make yourself known to Ray Von, he can usually be found on one of the upper floors of this building. For now, you are dismissed.~
+@28   = ~Should we not send a message to Archelan?~

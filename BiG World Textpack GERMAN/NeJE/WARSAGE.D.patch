@@ -1,0 +1,18 @@
+--- NeJE\dlg\WARSAGE.D	Fri Mar 30 03:20:12 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\WARSAGE.D	Tue Apr 09 19:37:49 2019
+@@ -5,7 +5,7 @@
+ Global("ValygarVampire","GLOBAL",2)
+ Global("VP_SimeVampire","GLOBAL",2)
+ Global("VP_KeldornVampire","GLOBAL",2)
+-Global("VP_LeinaVampire","GLOBAL",2)~ THEN REPLY ~A loved one was taken by a vampire. What can I expect when I find them?~ EXTERN WARSAGE 6
++Global("VP_LeinaVampire","GLOBAL",2)~ THEN REPLY @0 EXTERN WARSAGE 6
+ END
+ 
+ EXTEND_BOTTOM WARSAGE 0
+@@ -14,5 +14,5 @@
+ PartyHasItem("misc7l")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~Someone I care about has fallen to a vampire. Is there any way to save them?~ EXTERN WARSAGE 5
++PartyHasItem("miscblei")~ THEN REPLY @1 EXTERN WARSAGE 5
+ END

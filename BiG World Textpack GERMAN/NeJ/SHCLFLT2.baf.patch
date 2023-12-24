@@ -1,0 +1,28 @@
+--- NeJ\baf\SHCLFLT2.baf	Sun Jan 07 00:24:14 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHCLFLT2.baf	Wed Apr 10 10:29:40 2019
+@@ -2,7 +2,7 @@
+ 	See([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"You will not make it past here, invaders!"~)
++		DisplayStringHead(Myself,@0)
+ 		Shout(89)
+ 		Continue()
+ END
+@@ -35,13 +35,13 @@
+ 	CombatCounter(0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"The teachings show us the way."~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"Offer praise."~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~"Let us pray."~)
++		DisplayStringHead(Myself,@3)
+ 		Continue()
+ END
+ 

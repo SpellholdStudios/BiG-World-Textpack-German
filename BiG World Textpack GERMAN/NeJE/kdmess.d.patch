@@ -1,0 +1,29 @@
+--- NeJE\dlg\kdmess.d	Sun Aug 20 02:15:02 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\kdmess.d	Tue Apr 09 19:36:31 2019
+@@ -1,7 +1,7 @@
+ BEGIN ~KDMESS~
+ 
+ IF ~Global("VP_Kr_CyricPlot","GLOBAL",3)~ THEN BEGIN 0
+-	SAY ~I was nearby... I saw everything, m'lady. A spell... a spell was cast upon him. Please, you must take care of lord Keldorn and we will take care of the defences.~
++	SAY @0
+ 		IF ~!IfValidForPartyDialogue("Jaheira")
+ !IfValidForPartyDialogue("Viconia")
+ !IfValidForPartyDialogue("Aerie")
+@@ -51,7 +51,7 @@
+ 		Class(Player1,CLERIC_MAGE)
+ 		Class(Player1,FIGHTER_CLERIC)
+ 		Class(Player1,FIGHTER_MAGE_CLERIC)
+-		Class(Player1,DRUID_ALL)~ THEN REPLY ~I believe Keldorn has been struck by Cyric's curse and he will most certainly die if any attempt is made to remove it. Only the gods themselves in their mercy can revoke the curse.~ DO ~SetGlobal("VP_Kr_CyricPlot","GLOBAL",4)
++		Class(Player1,DRUID_ALL)~ THEN REPLY @1 DO ~SetGlobal("VP_Kr_CyricPlot","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("KRCut10")~ EXIT
+@@ -60,7 +60,7 @@
+ APPEND ~SIMEJ~
+ 
+ IF ~~ THEN BEGIN Kr_Curse
+-  SAY ~I believe Keldorn has been struck by Cyric's curse and he will most certainly die if any attempt is made to remove it. Only the gods themselves in their mercy can revoke the curse.~
++  SAY @1
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_CyricPlot","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()

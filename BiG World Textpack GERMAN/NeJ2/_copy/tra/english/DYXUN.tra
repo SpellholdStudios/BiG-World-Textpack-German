@@ -1,0 +1,119 @@
+@0    = ~So.  It has come to this, has it?  I did not expect a group of natives to interfere with my vendetta.  Why have you come here, killing my minions?~ [YXUN_01]
+@1    = ~Minions?  You mean the snake people?~
+@2    = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about her minions.  She told us that they were yuan-ti, and that they would inherit her "kingdom" when she concluded her business and left.~
+@3    = ~Search for the Heartstone Gem.
+
+We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.~
+@4    = ~What vendetta do you speak of?~
+@5    = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about the vendetta, but she told us our involvement in the matter was irrelevant.~
+@6    = ~Do you know of the Heartstone Gem?~
+@7    = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about the Heartstone Gem.  She told us that she needed it for a war she was waging.~
+@8    = ~I came here to kill your children because they were swiping people from Kuldahar.~
+@9    = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We told her that we came to Dragon‘s Eye because her servants were abducting people from Kuldahar.  She then said something cryptic about using the villagers in a recipe for an old friend and curdling the milk of her enemy‘s labor.~
+@10   = ~I came here because I know you‘re the one responsible for everything going on in the pass.  The abductions.  The strange weather.  The undead in the vale.  The avalanche.  You‘re behind it all.~
+@11   = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We confronted her about all of the evil happening in the pass.  She told us that we didn‘t know what we were talking about.  We asked her about the Heartstone Gem, and she told us that we couldn‘t have it.  She needed it for her own goals.~
+@12   = ~I came here to rip the Heartstone Gem from your cold, dead, hands.~
+@13   = ~Finding the Heartstone Gem.
+  
+We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We had no desire to mince words with her, so we told her we were going to rip the Heartstone Gem from her cold, dead, scaly hands.  She promptly attacked us.~
+@14   = ~They are not "snake people," you ignorant pig.  They are yuan-ti, faithful servants and worthy heirs to the kingdom I shall leave behind once my business is finished.~ [YXUN_02]
+@15   = ~Business?  What business is that?~
+@16   = ~Why are you bothering to build up a kingdom if you're only going to leave it behind?~
+@17   = ~My vendetta is none of your concern.  Your involvement in this matter is irrelevant in the grand scheme of things, a mote of dust floating for a moment in a sea of time.~ [YXUN_03]
+@18   = ~But... I can help you.~
+@19   = ~You're underestimating my lifespan by a great deal.  My people can live for hundreds of years.~
+@20   = ~You're right, oh mighty one.  But... aren't we all really just motes of dust floating in a sea of time?~
+@21   = ~Why did you steal the Heartstone Gem?~
+@22   = ~My interest in the Heartstone Gem is personal.  I have been waging a war for quite some time.  ~ [YXUN_04]
+@23   = ~This world is simply another battlefield.  The gem is one of several instruments I use to fight my battles.~ [YXUN_05]
+@24   = ~So... what is this battle all about, anyway?~
+@25   = ~Is that why you need the Heartstone Gem?~
+@26   = ~Who, or what, are you?~
+@27   = ~I have no use for your silly notions of nobility.  The beings from Kuldahar were necessary ingredients in my recipe for victory.~ [YXUN_06]
+@28   = ~I am cooking a special dish for an old friend.  It's served with a saucer called "death," curdling the milk of my enemy's labor.~ [YXUN_07]
+@29   = ~Uh... what are you talking about?  You are really strange.~
+@30   = ~Who is this "old friend?"  It sounds like you have a grudge with him.~
+@31   = ~You do not know what you are talking about.  Your attempts to comprehend the events unfolding around you are comical at best.~ [YXUN_08]
+@32   = ~Whatever.  Just hand over the Heartstone Gem and I'll be on my way.~
+@33   = ~Then why do you need the Heartstone Gem?~
+@34   = ~The natives of this world have such simple motivations.  Very well.  I will indulge you.~ [YXUN_09]
+@35   = ~Kingdoms need kings.  I have no desire to fill that role here.  My job is simply to seek out my old enemy and sow maleficent seeds in the soil of this dying world.~ [YXUN_10]
+@36   = ~"Maleficent seeds?"  What do you mean?~
+@37   = ~Why do you say that our world is dying?~
+@38   = ~Who are you to do these things?~
+@39   = ~Who is your old enemy?~
+@40   = ~I do not believe so.  The forces at work here are factories of truth so foreign to your understanding that if you attempted to observe the machine in its entirety, it would burn your fragile mind into vapor.~ [YXUN_11]
+@41   = ~Is that your fancy way of saying, "You can't handle the truth?"~
+@42   = ~I don't know about that.  I'm pretty evil.~
+@43   = ~Oh, my.  Hundreds of years.  You must feel very proud to be able to leap out of the primordial ooze of godly creation, gasp for a moment in the air, and lie on the shore in the belief that you won't die like all the other fish.~ [YXUN_12]
+@44   = ~All the while, elephants of stone stomp on these celestial shores and *you,* in your blindness, take no note.~ [YXUN_13]
+@45   = ~I'll take that to mean that you're more than a few hundred years old.~
+@46   = ~Sure, sure.  So, uh... what about the Heartstone Gem?~
+@47   = ~No.  You are one of many fireflies dancing for a moment in the night, feeling at your brightest that you can illuminate the universe at will.  *I* am a star.  ~ [YXUN_14]
+@48   = ~I came into existence when your world took form.  I am as persistent as time.  Where I move, infernal tides crush foreign shores and nations of thought are drowned in blood.~ [YXUN_15]
+@49   = ~Whoa.~
+@50   = ~My oh my, don't we feel important?~
+@51   = ~Why does someone as powerful as you need the Heartstone Gem?~
+@52   = ~It is a war of principles.  It is a campaign waged on behalf of fundamental truths, oceans of belief wearing away at basalt pillars of understanding that have held up the simple religions and philosophies of worlds like this for millennia.~ [YXUN_16]
+@53   = ~So, you're trying to tell me that all of the things I believe in are going to come tumbling down someday because of this secret war that you're fighting?~
+@54   = ~And the Heartstone Gem, how does it fit into all of this?~
+@55   = ~Of what principles are you speaking?~
+@56   = ~The Gem is an item with incredible powers of divination.  Only those with special relationships with the natural or supernatural may use it.~ [YXUN_17]
+@57   = ~It gives sight beyond sight, even penetrating physical and magical barriers in its revelations.  I am not using it to cover up my affairs.  I am using it for personal reasons.~ [YXUN_18]
+@58   = ~Sorry.  We need that gem.  Hand it over.~
+@59   = ~There's a problem.  The gem could help us provide warmth for Kuldahar and prevent the cold from killing everyone in the town.  The people of that town need the gem more than you do.~
+@60   = ~I am Yxunomei.  I am a soldier.~ [YXUN_19]
+@61   = ~Okay.  So, why does a soldier need the Heartstone Gem?~
+@62   = ~You certainly don't look like a soldier.~
+@63   = ~Do soldiers typically kill women and children where you are from?~
+@64   = ~If I felt I were doing something wrong, I would apologize.  Your mind cannot understand the heart of the matters I speak of.  ~ [YXUN_20]
+@65   = ~Every once in a while, people in your world gain glimpses into mine.  They hear voices on the wind, carrying songs mumbled by bloody tongues in the sweet language of pain.  You call them madmen.  You should recognize them as prophets.~ [YXUN_21]
+@66   = ~Yeah, yeah, yeah.  Madmen.  I got it.  So, do you think my mind would explode if you told me what you're doing with the Heartstone Gem?~
+@67   = ~And what are these prophets hearing that makes them go mad?  It sounds like you're waging some kind of war.~
+@68   = ~You cannot have it.  It is mine.  When I am finished with it, my faithful servants will have it.~ [YXUN_22]
+@69   = ~If they fail in their plans, simply take it from them.  I have little patience when it comes to... incompetence.~ [YXUN_23]
+@70   = ~You're really starting to annoy me.  Hand over the gem or there'll be trouble.~
+@71   = ~I like your attitude, but I'm afraid I'm going to have to insist that you give me the gem.~
+@72   = ~Well, okay.  I tried.  Farewell.~
+@73   = ~I am a soldier by day, a farmer by night.  The harvest of dead souls provides nutrition for my nation's war.~ [YXUN_24]
+@74   = ~Long after I am gone, I will cradle black wheat in my homeland, grinding it down in the mill of conquest.~ [YXUN_25]
+@75   = ~What does this have to do with the Heartstone Gem?~
+@76   = ~I say that your world is dying because it is living.  All things that live must die.  I can see the patterns of life and death in every mouse and rock I come across in this realm.~ [YXUN_26]
+@77   = ~The lifeblood of your world is being eaten by those who would rather spin energy into entropy than channel it.  It is only a matter of time.~ [YXUN_27]
+@78   = ~Great.  I didn't think I'd have to start stockpiling resources this early in life.~
+@79   = ~Sure it is.  Nice try, crazy lady.  Why did you steal the Heartstone Gem?~
+@80   = ~If I must put it in crude terms, then, yes, you are correct.~ [YXUN_28]
+@81   = ~So how does the Heartstone Gem fit into all of this?~
+@82   = ~Your loose grasp on morality is a good example of your total inability to understand the nature of the universe around you.~ [YXUN_29]
+@83   = ~Fine.  You think I'm an idiot.  That's great.  Now, about the Heartstone Gem.  How does it fit into all of this?~
+@84   = ~Well, maybe if you didn't explain it like you were reciting bad poetry, I would have an easier time understanding you.~
+@85   = ~Quite.~ [YXUN_30]
+@86   = ~Okay.  So, about the Heartstone Gem...~
+@87   = ~Indeed.~ [YXUN_31]
+@88   = ~Yes.~ [YXUN_32]
+@89   = ~One minute you're spouting verse and the next minute you're dead quiet.  Would you mind elaborating on that a bit?~
+@90   = ~Okay.  If you don't want to talk about it, we don't have to.  I wouldn't mind knowing what you're doing with the Heartstone Gem, though.~
+@91   = ~Freedom and order.  On the surface, one of your kind believes that these two principles can co-exist without conflict.  ~ [YXUN_33]
+@92   = ~When one scratches the surface, your skin bleeds philosophy.  When one gnaws down to the bone, one finds me.~ [YXUN_34]
+@93   = ~Okay.  What does this have to do with the Heartstone Gem?~
+@94   = ~People on this world are hesitant to attack beings in this form.  It causes some sort of emotional pain to do so.  That's why I have chosen it.~ [YXUN_35]
+@95   = ~The concepts of male and female, child and adult, are not only absent from my home, but completely irrelevant in warfare.  ~ [YXUN_36]
+@96   = ~I care not about physical shells.  Souls are the meat of my existence.  They are the light that filters down to my eyes under a sea of entropy.~ [YXUN_37]
+@97   = ~Neat.~
+@98   = ~Indeed.~ [YXUN_38]
+@99   = ~You have just destroyed a good portion of my army and are now demanding that I hand over more resources to you.  I believe I will be doing the taking now.  Pray that your souls are prepared.~ [YXUN_39]
+@100  = ~You are not leaving.  I am going to take some small satisfaction in making you *pay* for your damage to my plans.  ~ [YXUN_40]
+@101  = ~Pray that your souls are prepared.  If they are not, you will serve my inferiors presently.~ [YXUN_41]
+@102  = ~I do not believe you need to be worrying about your long-term plans right now.  You have more pressing concerns at this moment.~ [YXUN_42]
+@103  = ~Sure... like the Heartstone Gem.  Would you mind telling me what you're doing with it?~
+@104  = ~Who are you to be telling me my business?~

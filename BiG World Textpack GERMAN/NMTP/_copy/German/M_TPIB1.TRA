@@ -1,0 +1,10 @@
+@65   = ~(Ermittlung der Fertigkeiten...)~ 
+@66   = ~(Ermittlung der Fertigkeiten beendet.)~
+@100  = ~(Ihr könnt ihn nicht mehr täuschen.)~ 
+@101  = ~Hey... meine Geldbörse ist weg?~
+@1000 = ~Was soll ich tun, <LADYLORD>?~ 
+@1001 = ~\[Täuschung\] - Was... das ist aus Eurer Brieftasche? (Übergibt im Spass den Edelsteinbeutel)~
+@1002 = ~Sagtet Ihr nicht, Ihr nahmt meine Geldbörse, wo ist sie... wo habt Ihr *meine* Brieftasche versteckt?~
+@1003 = ~Nichts, entschuldigt, ich habe die falsche Person.~ 
+@2000 = ~\[Erfolg\] Vielen Dank! Das sind die Dinge, die ich verlor... (übernimmt verschmitzt den Edelsteinbeutel)~
+@2020 = ~\[Misserefolg\] Nein, das sind nicht meine Sachen, <LADYLORD>. Ich schlage vor, Ihr gebt sie der Wache.~ 

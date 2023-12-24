@@ -1,0 +1,51 @@
+--- NeJ3\dlg\DGNTGRD.d	Mon Dec 18 00:02:26 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DGNTGRD.d	Wed Apr 10 10:24:39 2019
+@@ -1,32 +1,32 @@
+ BEGIN ~DGNTGRD~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~You want something?~
+-  IF ~~ THEN REPLY ~I'm here to see your leader.~ GOTO 2
+-  IF ~~ THEN REPLY ~I would like to ask you some questions.~ GOTO 4
+-  IF ~~ THEN REPLY ~No, farewell.~ EXIT
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @2 GOTO 4
++  IF ~~ THEN REPLY @3 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 1
+-  SAY ~Why are you bothering me again?  Go away!~
+-  IF ~~ THEN REPLY ~I'm here to see your leader.~ GOTO 2
+-  IF ~~ THEN REPLY ~I would like to ask you some questions.~ GOTO 4
+-  IF ~~ THEN REPLY ~Very well, farewell.~ EXIT
++  SAY @4
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @2 GOTO 4
++  IF ~~ THEN REPLY @5 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~So keep looking for him.  You're no concern of mine unless you cause trouble.  Now get moving before I accidentally step on you.~
+-  IF ~~ THEN REPLY ~Step on me and you will find a thorn in your foot that could prove fatal.~ GOTO 3
+-  IF ~~ THEN REPLY ~Very well, farewell.~ EXIT
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @5 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Hmm.  I think I'll put that to the test.  Die, scum!~
+-  IF ~~ THEN REPLY ~So be it!~ DO ~Enemy()~ EXIT
++  SAY @8
++  IF ~~ THEN REPLY @9 DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Oh?  Well, I would like you to go away...  Hmm.  It doesn't look like either one of us is getting what they want.~
+-  IF ~~ THEN REPLY ~I'm here to see your leader.~ GOTO 2
+-  IF ~~ THEN REPLY ~I see.  Farewell.~ EXIT
++  SAY @10
++  IF ~~ THEN REPLY @1 GOTO 2
++  IF ~~ THEN REPLY @11 EXIT
+ END

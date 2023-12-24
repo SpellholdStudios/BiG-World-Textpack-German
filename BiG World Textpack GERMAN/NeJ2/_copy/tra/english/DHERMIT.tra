@@ -1,0 +1,31 @@
+@0    = ~Merciful Gods!  You're lucky to be alive.  Are you all right?  Anything broken?~
+@1    = ~We seem to be in one piece.  Who are you?~
+@2    = ~No we are not *all right!*  Half the damn mountain just fell on top of our expedition!~
+@3    = ~We're fine, thank you.  We'd best be on our way.  Farewell.~
+@4    = ~I'm just an aging soul who prefers the solitude of these mountains to the hustle and bustle of town life.  I tell you, I've lived in this pass for years, and I've never seen *anything* like what just happened.~
+@5    = ~You witnessed the avalanche?~
+@6    = ~I know.  I saw the whole thing.  I was dozing off in my cave over yonder when I felt the ground begin to shake and heard a rumble something fierce.  I stumbled outside just in time to see the avalanche come crashing down.  ~
+@7    = ~Yep.  I saw the whole thing.  I was sleeping in my cave over yonder when I felt the ground begin to shake and heard a rumble something fierce.  I stumbled outside just in time to see the avalanche come crashing down.~
+@8    = ~It's a good thing you ran forward instead of back into the pass like the others.  Poor bastards.  One thing's for sure... I'm not digging their bodies out from under there.  They'll have to wait 'til the snows melt to receive a proper burial.~
+@9    = ~We're touched by your concern for our fallen comrades.  Do you, by chance, know the way to Kuldahar?  ~
+@10   = ~Well, we'd best be off.  Farewell.  ~
+@11   = ~Where you headed?  It's obvious you can't go back the way you came.~
+@12   = ~Our expedition was bound for Kuldahar.  Can you tell us which direction the town lays?~
+@13   = ~Our destination is none of your business.  Farewell.~
+@14   = ~Kuldahar?  Why would you want to go to that miserable little berg?  Nothing there but a big tree and a bunch of shacks and lean-tos.  It's an eyesore, if you ask me.  ~
+@15   = ~There has been word that some sort of trouble has befallen the town.  We've come to lend whatever aid we can.~
+@16   = ~Look, all we asked for was directions.  Now, can you help us or not?~
+@17   = ~On second thought, we'll find our own way.  Farewell.~
+@18   = ~Humph.  A fool's errand.  You'd be better off worrying about yourselves and leaving them *townsfolk* to deal with their own problems.~
+@19   = ~We appreciate the advice.  Now, do you know the way or not?~
+@20   = ~I suppose it wouldn't hurt to point you in the right direction.  Follow this trail east through the valley.  Kuldahar lies just beyond the old mill.  ~
+@21   = ~But you'd do well to keep your guard up.  There are goblins everywhere between here and town.  Filthy little buggers... ever since them townsfolk abandoned their farmsteads, they've been crawling all over the valley like they own the place.~
+@22   = ~Thanks for your help.  Farewell.~
+@23   = ~Kuldahar Pass.
+
+We met a strange hermit in the valley at the mouth of Kuldahar Pass.  He claimed to have witnessed the avalanche that wiped out the rest of the expedition from Easthaven and nearly killed us as well.  He told us, somewhat reluctantly, that the town of Kuldahar lay to the east of the valley, just beyond an old mill.~
+@24   = ~Have it your way.  But you'd do well to keep your guard up.  There are goblins everywhere between here and town.  Filthy little buggers... ever since them townsfolk abandoned their farmsteads, they've been crawling all over the valley like they own the place.~
+@25   = ~Forget something?~
+@26   = ~Sorry, the avalanche must have really shaken us up.  Which way to Kuldahar?~
+@27   = ~Never mind.  Farewell.~
+@28   = ~No problem... I'd be glad to help.  Follow this trail east through the valley.  Kuldahar lies just beyond the old mill.~

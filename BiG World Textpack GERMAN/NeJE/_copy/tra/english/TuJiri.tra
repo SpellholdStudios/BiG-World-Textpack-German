@@ -1,0 +1,35 @@
+@0    = ~Good day to you. I am Jiri, can I assist you in any way?~
+@1    = ~I am <GABBER>. Well met, Jiri, could you please tell me where I would find whoever is in charge here?~
+@2    = ~Halruaa‘s Internal Affairs.
+
+I have successfully infiltrated the academy of Halruaa... there was a moment when the guards on the main gate stopped me... I was sure I had been discovered before even set foot onto academy grounds, but the wizard only wanted to be sure I was aware of Halruaa’s rules concerning dress and weaponry. Thank goodness Tilorn prepared me... A young scholar by the name of Jiri directed me to the main building... and what an impressive building it is...  as rich and as imposing as any temple that I have seen in my travels!~
+@3    = ~Hello, Jiri, I am <GABBER>. What are all these buildings here?~
+@4    = ~The main Academy is the place you that you need to be. That is the impressive building in front of us.~
+@5    = ~Then that is where I am heading, thank you, Jiri.~
+@6    = ~These smaller buildings here are what makes up the living quarters of Halruaa and that impressive building is the main Academy, which incidently, is where you need to be as a new arrival.~
+@7    = ~Good day to you, <GABBER>.~
+@8    = ~Well hello again <GABBER>. Now that you have had time to settle in, what do you think of our academy here?~
+@9    = ~It’s good to see you again Jiri. I am certainly impressed by what I have seen so far. Tell me Jiri, who is Brial and where might I find her?~
+@10   = ~Jiri, you couldn’t have timed your appearance better. I am looking for Brial, have you any idea where I might find her?~
+@11   = ~Hello Jiri. There is certainly a lot more than meets the eye here at Halruaa... a lot more. I have been asked to seek out a tutor by the name of Brial but I can’t seem to find her?~
+@12   = ~Brial... why she’s one of the senior staff of the academy and a very accomplished mage. She doesn’t tutor as much as she used to, in fact she’s spending more and more time in the company of Halruaa’s elite these days. What could you possibly want with her?~
+@13   = ~I have a message for her from RayVon.~
+@14   = ~She has some information that is vital to me, I need to find her quickly.~
+@15   = ~She sent a message that she wanted to see me but the messenger forgot to tell me where to find her.~
+@16   = ~So RayVon has you running errands for him now... I would stay out of his way if you can. Once he picks his *gopher* for the term, he’ll run you ragged going from one end of the academy to the other on insignificant errands.~
+@17   = ~He always picks on a new student because they are afraid to say no to him. He had me running in circles until I stood up to him, you should do the same.~
+@18   = ~As for taking a message to Brial, you would be wise to give it to another tutor to pass on. The seniors have their apartments in the main academy building but entrance to the floor where they are located, is strictly forbidden to all students, any student found there is dealt with very severely.~
+@19   = ~Thank you Jiri. I’ll think on what you have said.~
+@20   = ~I would prefer to give her the message myself so please, I’ll ask that you tell no one, although I am sure access will be granted me once I say that I come from RayVon.~
+@21   = ~Just be careful <CHARNAME>, the mages here are pretty up tight and are being very tight lipped at the moment. It is not for us students to question the affairs of the masters but with all this tension about, if you are discovered in their private quarters, whatever you say your reason is, it will surely be misconstrued.~
+@22   = ~Take my advice, give the message to another tutor to pass on. Now, I must take my leave of you. Farewell and enjoy your time at the academy... it is a great place to learn and has much to offer.~
+@23   = ~I can’t think why you should be wanting to speak with Brial, nor do I wish to know <GABBER>. What I do know is that she is not accustomed to speaking with new students, or any students if it comes to that... not since she took her place as a senior mage on the admin side of academy affairs.~
+@24   = ~If she isn’t in the admin offices, then she is probably to be found in the academy main building, where the seniors have their apartments. I would however advise you not to enter that floor, it is strictly forbidden and severe punishments are handed out to any student found there.~
+@25   = ~If Brial has business with you then let her come to you... she knows the regulations and should know better than to expect you to risk being found in the senior quarters.~
+@26   = ~Thanks for the warning but it is urgent that I see her, so I guess I am going to have to take the risk.~
+@27   = ~I’ll bear in mind what you have said Jiri, but if I don’t find her, the consequences could be more dire than any punishment that I might suffer for being discovered on the senior’s private floor.~
+@28   = ~In that case, I am sure you will appreciate the need to keep it to yourself that I am looking for her, at least until I find her and she can vouch for me.~
+@29   = ~By rights I should report this matter and let Brial herself verify that she wishes to speak with you. However, things being as they are at the moment, I suspect that by the time I actually find any one who is remotely interested, you’ll have either found her yourself or you’ll have been caught looking.~
+@30   = ~So I’ll forget this conversation happened, but please take care <GABBER> and if I should run into Brial, I’ll be sure to tell her that you are looking for her. Farewell.~
+@31   = ~You too <GABBER>, you feel the sense... an air of secrecy, of something being right under our noses, whilst at the same time being deliberately kept just out of our sight. Whatever it is, I’ve no doubt we students will be the last to know what, if anything, is going on.~
+@32   = ~Back to your question... Brial? I can’t imagine why anyone should be sending you to Brial, she no longer bothers herself with student affairs, so  you’ll excuse me for asking, but who has sent you to find her?~

@@ -1,0 +1,9 @@
+--- NeJE\dlg\SUDEMIN.D	Fri Mar 30 03:19:33 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\SUDEMIN.D	Tue Apr 09 19:37:19 2019
+@@ -3,5 +3,5 @@
+ PartyHasItem("misc7L")
+ PartyHasItem("miscbsim")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~I lost a loved on in a battle with his sister, Bodhi.  I seek a means of curing her.~ EXTERN SUDEMIN 3
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN SUDEMIN 3
+ END

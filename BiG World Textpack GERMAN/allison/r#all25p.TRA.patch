@@ -1,0 +1,15 @@
+--- allison\german\r#all25p.TRA	Mon Aug 13 07:15:00 2007
++++ C:\BWP Patchstudio\patched files\allison\german\r#all25p.TRA	Fri Oct 05 22:56:10 2012
+@@ -1,8 +1,8 @@
+-@0    = ~Ich habe nicht den Wunsch Eure Gesellschaft zu verlassen, aber wenn Ihr glaubt, dass das das Beste ist, dann werde ich Eure Entscheidung nicht in Frage stellen.~
++@0    = ~Ich habe nicht den Wunsch Eure Gesellschaft zu verlassen, aber wenn Ihr glaubt, dass das das Beste ist, dann werde ich Eure Entscheidung nicht in Frage stellen.~ [R#ALLP06]
+ @1    = ~Das tue ich. Lebt wohl, Allison.~
+ @2    = ~Entschuldigt. Ich wünsche nicht, dass Ihr uns verlasst.~
+-@3    = ~Ich werde hier warten, falls Ihr Eure Meinung ändert.~
+-@4    = ~Ich bin froh das zu hören, <CHARNAME>.~
+-@5    = ~Ihr seid zurück! Bedeutet das, dass Ihr mich wieder an Eurer Seite haben möchtet? (Sie schaut Euch hoffnungsvoll an)~
++@3    = ~Ich werde hier warten, falls Ihr Eure Meinung ändert.~ [R#ALLP07]
++@4    = ~Ich bin froh das zu hören, <CHARNAME>.~ [R#ALLP08]
++@5    = ~Ihr seid zurück! Bedeutet das, dass Ihr mich wieder an Eurer Seite haben möchtet? (Sie schaut Euch hoffnungsvoll an)~ [R#ALLP09]
+ @6    = ~Das tut es. Bitte schließt Euch wieder der Gruppe an.~
+ @7    = ~Nein, entschuldigt. Ich dachte, Ihr seid jemand anderes.~

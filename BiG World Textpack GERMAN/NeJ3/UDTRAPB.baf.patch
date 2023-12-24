@@ -1,0 +1,11 @@
+--- NeJ3\baf\UDTRAPB.baf	Sat Dec 09 22:34:30 2006
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\UDTRAPB.baf	Wed Apr 10 10:34:11 2019
+@@ -3,7 +3,7 @@
+ 	Entered([ANYTHING])
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~You hear a loud click.~)
++		DisplayString(Myself,@0)
+ 		ReallyForceSpell(LastTrigger,TRAP_LIGHTNING_BOLT)
+ 		SetGlobal("AR6010_TRAP_STATE","GLOBAL",0)
+ END

@@ -1,0 +1,159 @@
+@0   = ~Ich grüße Euch. Ich bin Kerish, Anführer der Salamander... Und wer seid Ihr?~ 
+@1   = ~Ich bin ein einfacher Reisender.~ ~Ich bin eine einfache Reisende.~
+@2   = ~Ein Abenteurer.~ ~Eine Abenteurerin.~ 
+@3   = ~Ich? Ich bin ein Forschungsreisender, der hier zufällig gelandet ist.~ ~Ich? Ich bin eine Forschungsreisende, die hier zufällig gelandet ist.~
+@4   = ~Ihr seid zurückgekommen. Was kann ich für Euch tun?~ 
+@5   = ~Ich habe einige Fragen an Euch.~
+@6   = ~Ich will den Schlüssel für den Ausgang zur Oberfläche.~
+@7   = ~Ich sagte, ich würde über Eure Bitte nachdenken, den Anführer der Sklaven zu töten. Ich habe beschlossen es zu tun.~ 
+@8   = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, hat uns gebeten, den Anführer der Sklavenrevolte zu finden und ihn umzubringen. Wir haben eingewilligt.~
+@9   = ~Ich habe meine Meinung geändert, was das Töten des Sklavenanführers betrifft. Ich werde es für Euch tun.~ 
+@10  = ~Ihr habt mich gebeten, für Euch den Anführer der Sklaven zu töten.~
+@11  = ~Ihr habt mich zuvor gebeten, die Sklaven zu Euch zurückzubringen oder zu töten. Ich habe mich entschlossen es zu tun.~
+@12  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, hat uns gebeten, die entflohenen Sklaven zu ihm zurück zu bringen oder sie zu töten. Wir haben eingewilligt.~ 
+@13  = ~Ich habe meine Meinung bezüglich Eures Auftrags, die Sklaven zu töten oder zurückzubringen geändert. Ich tue es.~
+@14  = ~Ihr habt mich gebeten, die Sklaven zu Euch zurückzubringen oder zu töten.~ 
+@15  = ~Im Moment nichts. Lebt wohl!~
+@16  = ~Ein Reisender...? Vergebt mir, aber ich bezweifle, dass Ihr ein Reisender seid. Kein einfacher Vagabund könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht ein Spion? Der mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~ ~Eine Reisende...? Vergebt mir, aber ich bezweifle, dass Ihr eine Reisende seid. Kein einfacher Vagabund könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht eine Spionin? Die mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~
+@17  = ~Ich *bin* ein Reisender. Aber wenn Ihr lieber etwas anderes glaubt...~ ~Ich *bin* eine Reisende. Aber wenn Ihr lieber etwas anderes glaubt...~
+@18  = ~Was glaubt Ihr, für wen ich arbeite, Kerish?~ 
+@19  = ~Ich möchte nur die Erlaubnis, mich ein wenig umzusehen.~
+@20  = ~Ein Abenteurer...? Vergebt mir, aber ich bezweifle, dass Ihr ein Abenteurer seid. Kein Glücksritter könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht ein Spion? Der mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~ ~Eine Abenteurerin...? Vergebt mir, aber ich bezweifle, dass Ihr eine Glücksritterin seid. Kein Glücksritter könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht eine Spionon? Die mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~ 
+@21  = ~Ich *bin* ein Abenteurer. Aber wenn Ihr lieber etwas anderes glaubt...~ ~Ich *bin* eine Abenteurerin. Aber wenn Ihr lieber etwas anderes glaubt...~ 
+@22  = ~Ein Forschungsreisender...? Vergebt mir, aber ich bezweifle, dass Ihr ein Forschungsreisender seid. Kein Forscher könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht ein Spion? Der mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~ ~Eine Forschungsreisende...? Vergebt mir, aber ich bezweifle, dass Ihr eine Forschungsreisende seid. Kein Forscher könnte unbeschadet hierher gelangen... Nein, Ihr seid mehr als Ihr scheint. Vielleicht eine Spionin? Die mich ausspionieren will? Ja... er ist bekannt dafür, dass er Leute Eurer Rasse anheuert. Warum hat er Euch geschickt?~
+@23  = ~Ich *bin* ein Forscher. Aber wenn Ihr lieber etwas anderes glaubt...~ ~Ich *bin* eine Forscherin. Aber wenn Ihr lieber etwas anderes glaubt...~ 
+@24  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, glaubt, dass wir für einen gewissen Marketh arbeiten. Wir haben beschlossen, ihn in diesem Glauben zu lassen. Das könnte sich als nützlich erweisen.~
+@25  = ~Also gut... Spielt ruhig Euer trügerisches Spiel, aber wisst: Ich kenne Euren Meister. Ich werde bald eine Antwort bekommen. Wenn nicht von Euch, dann von ihm. Also sagt schon, was sucht Ihr hier?~
+@26  = ~Ich würde Euch gerne etwas fragen.~
+@27  = ~Dann fragt.~
+@28  = ~Wer seid Ihr noch mal?~
+@29  = ~Was tut Ihr hier?~
+@30  = ~Ich suche den Verantwortlichen hier.~
+@31  = ~Wyrmzahn
+
+Wir haben erfahren, dass Joril Frostbart der Leutnant des Wyrmzahngletschers ist. Anscheinend hat er diesen Posten übernommen, nachdem er seinen Vater Kreg ermordet hatte.~
+@32  = ~Warum liegen dort überall Leichen verstreut?~
+@33  = ~Wyrmzahn
+
+Offensichtlich hat es bei den Frostsalamandern einen Sklavenaufstand gegeben. Ein paar wenige konnten wohl entkommen, doch die meisten sind auf der Flucht umgekommen.~
+@34  = ~Ich muss jetzt aufbrechen. Lebt wohl!~
+@35  = ~Ich bin Kerish, der Anführer der Salamander... wie Ihr sehr wohl wisst.~
+@36  = ~Ich habe noch ein paar Fragen an Euch.~
+@37  = ~Ich muss gehen. Lebt wohl! Bis bald!~
+@38  = ~Was wollt Ihr damit sagen? Ich erwarte meine Befehle, wie angewiesen, sonst nichts... Warum fragt Ihr? Hat jemand Euch etwas anderes erzählt? Werde ich irgendwie verdächtigt?~
+@39  = ~Ihr wirkt nervös. Warum?~
+@40  = ~Nein, ich habe noch ein paar Fragen an Euch.~
+@41  = ~Natürlich bin ich nervös. Ich weiß, in wessen Diensten Ihr steht und habe daher allen Grund dazu. Wollt Ihr jetzt weiter Eure Fragen stellen?~
+@42  = ~Ja, ich habe noch mehr Fragen..~
+@43  = ~Ah... Ich verstehe... Nun, Kreg Frostbart ist tot. Sein Sohn, Joril, herrscht jetzt... Aber ich habe dem Sohn nicht geholfen, seinen Vater umzubringen, das versichere ich Euch...~
+@44  = ~Warum sollte es mich interessieren, ob Ihr Joril bei dem Mord geholfen habt?~
+@45  = ~Wyrmzahn
+
+Wir haben herausgefunden, dass der *Meister* seine Leutnants persönlich auswählt. Joril hat einen Streit vom Zaun gebrochen, weil er seinen Vater für diese Position umgebracht hat. Vielleicht können wir sein Wissen irgendwie gegen ihn verwenden.~
+@46  = ~Also gut. Wo kann ich Joril finden?~
+@47  = ~In den Eishöhlen im Südwesten natürlich. Der Narr sitzt ganz frech auf dem Thron seines Vaters. Geht ihn dort suchen..~
+@48  = ~Ihr leugnet also, dass Ihr Joril bei dem Mord an seinem Vater geholfen habt. Warum sollte mich das interessieren?~
+@49  = ~Ich habe noch einige Fragen an Euch.~
+@50  = ~Die Sklaven... sie haben rebelliert. Wir mussten die meisten umbringen, aber ein paar sind auf die untere Ebene entkommen.~
+@51  = ~Wie haben sie es geschafft, Euch zu entkommen?~
+@52  = ~Wyrmzahn
+
+Es sieht so aus, als wären die Frostsalamander hitzeempfindlich. Vielleicht können wir diese Schwäche gegen sie ausnutzen.~
+@53  = ~Der Raum unten wurde plötzlich unerträglich heiß. Wir mussten hierher zurück fliehen oder wir wären alle gestorben. In dem darauf folgenden Durcheinander rannten die Sklaven zur Treppe. Ein paar haben es geschafft... aber ihre "Freiheit" wird nicht lange währen. Sie sind dort unten gefangen.~
+@54  = ~Gefangen? Wie das?~
+@55  = ~Wyrmzahn
+
+Die Sklaven, die den Frostsalamandern entkommen konnten, sind in einen Raum unter dem Museum geflüchtet. Kerish nimmt an, dass sie dort unten ohne Vorräte gefangen sind und dass es keine Möglichkeit gibt, dort herauszukommen. Sollte dies der Fall sein, werden sie bestimmt dort umkommen.~
+@56  = ~Der Ausgang zur Oberfläche ist versperrt, also können sie nirgends hin. Außerdem haben sie weder Vorräte noch die Möglichkeit, sich welche zu beschaffen, weil ich den Gletscher von Trollen patrouillieren lasse... Irgendwann werden sie verhungern oder zu uns zurückkehren. Wir brauchen nur zu warten... Hmm. Da fällt mir ein, dass ich bei dieser Sache Eure Hilfe in Anspruch nehmen könnte.~
+@57  = ~Was glaubt Ihr, was ich für Euch tun kann?~
+@58  = ~Diese Trolle, die Ihr erwähntet, haben mich auf dem Weg hierher angegriffen.~
+@59  = ~Die Sklaven sind für mich völlig unwichtig. Sie werden zu uns zurückkommen oder sterben. Aber... der Anführer dieser Revolte hat mich in den Augen meiner Leute schlecht dastehen lassen. Dafür soll er bezahlen. Geht zu diesen Sklaven und gewinnt ihr Vertrauen. Dann findet heraus, wer ihr Anführer ist, und bringt ihn um.~
+@60  = ~Also gut, ich werde es tun. Klingt aufregend.~
+@61  = ~Nein, ich mache Eure Drecksarbeit nicht.~
+@62  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, hat uns gebeten, den Anführer des Sklavenaufstands zu suchen und zu töten. Wir sagten, dass wir diese Drecksarbeit nicht für ihn erledigen würden.~
+@63  = ~Ich werde darüber nachdenken.~
+@64  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, wollte, dass wir die geflohenen Sklaven entweder zurückbringen oder sie töten. Wir haben gesagt, dass wir darüber nachdenken würden.~
+@65  = ~Dann stehe ich in Eurer Schuld. Und jetzt geht. Führt diese Tat aus und kommt dann wieder her.~
+@66  = ~Also gut, aber ich habe noch ein paar Fragen an Euch.~
+@67  = ~Dann sage ich Lebewohl.~
+@68  = ~Also gut, denkt ruhig eine Weile darüber nach. Kommt zu mir, wenn Ihr es Euch anders überlegt habt.~
+@69  = ~Also gut, Ihr seid mein Gast. Schaut Euch ruhig um. Ihr werdet nichts Außergewöhnliches finden.~
+@70  = ~Dann sage ich, lebt wohl! Bis Bald!~
+@71  = ~Ich habe den Schlüssel, von dem Ihr sprecht, aber ich gebe ihn nur ungern her. Es gibt Umstände unter denen...~
+@72  = ~Ja, ich weiß von den Sklaven. Ich werde darauf achten, dass sie nicht entkommen.~
+@73  = ~Wyrmzahn
+
+Wir haben Kerish, den Anführer der Frostsalamander, gefragt, ob wir den Schlüssel für den Ausgang an die Oberfläche haben können. Er hat gesagt, dass er ihn uns geben wird.~
+@74  = ~Mir ist das Sklavenproblem bekannt. Ich werde die Sache schon schaukeln, vertraut mir.~
+@75  = ~Sehr gut. Ja, tut das. Wenn diese Sklaven entkommen, dann ziehe ich Euch persönlich zur Verantwortung. Hier ist der Schlüssel.~
+@76  = ~Danke. Ich muss jetzt gehen. Lebt wohl!~
+@77  = ~Sehr gut. Lebt wohl!~
+@78  = ~Ja. Habt Ihr die Aufgabe ausgeführt?~
+@79  = ~Ja. Es war eine Frau namens Vera. Sie ist tot.~
+@80  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, wollte, dass wir die geflohenen Sklaven entweder zurückbringen oder sie töten. Wir haben ihm gesagt, dass wir nichtsdergleichen machen werden.~
+@81  = ~Wyrmzahn
+
+Kerish, der Anführer der Frostsalamander, wollte, dass wir die geflohenen Sklaven entweder zurückbringen oder sie töten. Wir haben ihm gesagt, dass wir darüber nachdenken werden.~
+@82  = ~Wyrmzahn
+
+Wir teilten Gareth mit, dass die Frostsalamander uns gebeten hätten, ihn und die anderen Sklaven zurückzubringen. Er sagte, er würde lieber sterben, als in die Sklaverei zurückzukehren, und griff uns an.~
+@83  = ~Wyrmszahn
+
+Wir haben einen Mann namens Gareth getroffen, der behauptet, ein entflohener Sklave einer Gruppe von Frostsalamandern zu sein.~
+@84  = ~Wyrmszahn
+
+Laut Gareth sind Frostsalamander hitzeempfindlich. Vielleicht könnten wir dieses Wissen gegen sie einsetzen.~
+@85  = ~Wyrmszahn
+
+Wir haben erfahren, dass der Sklavenanführer eine Frau namens Vera ist.~
+@86  = ~Wyrmszahn
+
+Gareth hat uns gebeten, einen Schlüssel zu holen. Der Schlüssel öffnet die Tür zum Durchgang, der zur Oberfläche führt. Er glaubt, er sei im Besitz der Salamander. Wir haben zugestimmt, dies zu tun.~
+@87  = ~Wyrmszahn
+
+Gareth hat uns gebeten, einen Schlüssel zu holen, der die Tür zum Durchgang öffnet, der zur Oberfläche führt. Er glaubt, dass der Schlüssel im Besitz der Salamander ist. Wir sagten ihm, dass wir nicht gewillt wären, in einem Bau voller Frostsalamander für diesen Schlüssel zu kämpfen.~
+@88  = ~Wyrmszahn
+
+Gareth hat uns gebeten, einen Schlüssel zu holen, der die Tür zum Durchgang öffnet, der zur Oberfläche führt. Er glaubt, dass der Schlüssel im Besitz der Salamander ist. Wir sagten ihm, dass wir darüber nachdenken würden.~
+@89  = ~Wyrmzahn
+
+Wir haben Kerish berichtet, das die Sklavenanführerin Vera tot ist. Er war der Ansicht, dass seine Ehre nun wiederhergestellt wäre, und bekundete uns seine Dankbarkeit.~
+@90  = ~Ich habe mit den Sklaven gesprochen, wie Ihr es verlangt habt. Sie sagen, ihre Anführerin ist bei dem Fluchtversuch gestorben.~
+@91  = ~Wyrmzahn
+
+Wir haben Kerish erzählt, dass die Sklaven ihren Anführer für tot halten. Er schien darüber erfreut zu sein.~
+@92  = ~Noch nicht. Ich wollte Euch nur sagen, dass ich noch daran arbeite. Lebt wohl, bis bald.~
+@93  = ~Das habt Ihr gut gemacht. Indem Ihr auf meinen Befehl gehandelt habt, habt Ihr meine Ehre in den Augen meines Volkes wieder hergestellt. Ich bin Euch zu Dank verpflichtet.~
+@94  = ~Es war mir ein Vergnügen. Kann ich sonst noch etwas für Euch tun?~
+@95  = ~Hmm. Sehr gut... Die Sklaven haben ihre Freiheit lange genug genossen. Bringt sie zu mir oder bringt sie um. Es ist mir gleichgültig.~
+@96  = ~Ich werde zu den Sklaven gehen und ihnen sagen, dass Ihr wollt, dass sie zurückkommen. Lebt wohl!~
+@97  = ~Ich werde nichts dergleichen tun. Lebt wohl!~
+@98  = ~Ich werde darüber nachdenken. Lebt wohl!~
+@99  = ~Ich würde auf Marketh tippen. Würdet Ihr mir das bestätigen?~
+@100 = ~Nein, eigentlich nicht. Glaubt, was Ihr wollt...~
+@101 = ~Hmpf. Es ist ja wohl bekannt, dass der *Meister* seine Leutnants selbst aussucht. Jorils Taten könnten ... als Verrat betrachtet werden. Ich will, dass Ihr und Euer Meister wisst, dass ich damit nichts zu tun habe...~
+@102 = ~Schon verstanden. Wo finde ich Joril?~
+@103 = ~Na schön, lasst mich Euch etwas Anderes fragen.~
+@104 = ~Ja... Wie ich sehe, habt Ihr keine Sklaven dabei. Habt Ihr sie alle umgebracht?~
+@105 = ~Ja. Sie wollten lieber sterben als hierher zurückkehren.~
+@106 = ~Wyrmzahn
+
+Wir haben Kerish erzählt, dass die Sklaven tot seien. Er hat uns daraufhin seine Dankbarkeit bekundet.~
+@107 = ~Hmm. Ja. Die Sklaven haben ihre Freiheit lange genug genossen. Bringt sie zu mir oder bringt sie alle um. Es ist mir gleichgültig.~
+@108 = ~Das habt Ihr gut gemacht. Ich bin Euch zu Dank verpflichtet.~
+@109 = ~Es war mir ein Vergnügen. Lebt wohl!~
+@110 = ~Entschuldigt. Sie sind keine besonders intelligenten oder aufmerksamen Wesen. Es kann sein, dass sie Euch für einen entflohenen Sklaven gehalten haben.~
+@111 = ~Ach so... Ihr sagtet, Ihr bräuchtet meine Hilfe. Was glaubt Ihr, was ich für Euch tun kann?~
+@112 = ~Ich werde jetzt gehen. Lebt wohl!~

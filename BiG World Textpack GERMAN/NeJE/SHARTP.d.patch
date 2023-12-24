@@ -1,0 +1,44 @@
+--- NeJE\sharteel\dlg\SHARTP.d	Fri Apr 24 17:18:45 2015
++++ C:\BWP Patchstudio\patched files\NeJE\sharteel\dlg\SHARTP.d	Tue Apr 09 19:38:02 2019
+@@ -5,7 +5,7 @@
+ OR(2)
+ Global("ENDOFBG1","GLOBAL",2)
+ Global("VP_In_BG1","GLOBAL",0)~ THEN BEGIN NEJ0
+-  SAY ~Damn it, you lose one well-fought duel to an oafish lout of a man and you get attached. I almost hate to say it but you've earned my respect.~
++  SAY @0
+   IF ~OR(4)
+ Global("VP_In_IWD_Part1","GLOBAL",1)
+ Global("VP_InHalruaa","GLOBAL",1)
+@@ -24,7 +24,7 @@
+ OR(2)
+ Global("ENDOFBG1","GLOBAL",2)
+ Global("VP_In_BG1","GLOBAL",0)~ THEN BEGIN NEJ1
+-  SAY ~Ah, I'm finally released from this infernal duty! I swear by every god in a million pantheons that I will NEVER lose a duel to another overly masculine thug in my life.~
++  SAY @1
+   IF ~OR(4)
+ Global("VP_In_IWD_Part1","GLOBAL",1)
+ Global("VP_InHalruaa","GLOBAL",1)
+@@ -42,18 +42,18 @@
+ OR(2)
+ Global("ENDOFBG1","GLOBAL",2)
+ Global("VP_In_BG1","GLOBAL",0)~ THEN BEGIN NEJ2
+-  SAY ~You have returned. That is fortunate, as I do not feel I have truly paid my debt to you just yet.~
+-  IF ~~ THEN REPLY ~A debt you have, but I do not wish to collect at this time.  Prehaps later.~ GOTO NEJ4
+-  IF ~~ THEN REPLY ~I do have need of you, but not because of your debt.  You skill is invaluable to me.~ GOTO NEJ3
++  SAY @2
++  IF ~~ THEN REPLY @3 GOTO NEJ4
++  IF ~~ THEN REPLY @4 GOTO NEJ3
+ END
+ 
+ IF ~~ THEN BEGIN NEJ3
+-  SAY ~Make no mistake; I follow you only because of your prowess in battle. When that falters, so does my loyalty.~
++  SAY @5
+   IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",0)
+ JoinParty()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ4
+-  SAY ~Do not try my patience!  I will wait for a time, but I have no tolerance of ungrateful winners.~
++  SAY @6
+   IF ~~ THEN EXIT
+ END

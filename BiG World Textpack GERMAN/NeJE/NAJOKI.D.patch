@@ -1,0 +1,91 @@
+--- NeJE\dlg\NAJOKI.D	Sun Aug 20 02:25:38 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\NAJOKI.D	Tue Apr 09 19:36:55 2019
+@@ -2,43 +2,43 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ GlobalLT("Kachiko_Saved","GLOBAL",2)~ THEN BEGIN 0
+-  SAY ~So I meet Yoshimo Hashimoto...~
++  SAY @0
+   IF ~~ THEN EXTERN ~YOSHJ~ TS189
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Wise and noble...but a woman. Since years uncounted Nakanishi respected their women, allowed them to have a say in every matter, and valued their opinion. Not anymore, Yoshimo. Masaki has driven my husband into madness and he preaches traditional values. Kachiko was sworn to him long ago... for her return was foreseen. So he has every right in the eyes of my husband to do with Kachiko what he wishes...~
++  SAY @1
+   IF ~~ THEN EXTERN ~YOSHJ~ TS190
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~No I do not. I need you to answer one question, Yoshimo. Just one, but it has to be an answer you know to be the absolute truth. Look to very bottom of your soul Yoshimo and tell me if the love of my daughter Kachiko is stronger in you than your hatred of Masaki?~
++  SAY @2
+   IF ~~ THEN EXTERN ~YOSHJ~ TS191
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Good. That's good. Masaki and his followers are hiding in the dungeon on the northern part of this Island. They are preparing for a ceremony, which will transfer the curse to Kachiko and make her one of us... Do not ask what I mean, for we have no time for long tales. Just know that you'd lose Kachiko forever if they would succeed. Part of the ceremony is to keep a person dead for a day. But if you resurrect the person before the time is over, curse would not take effect. Here is the scroll. They will guard Kachiko closely and it is not likely that you will get to her without battle... Do what you must, but get to Kachiko and resurrect her... It's good you have your friends with you; I do not think a single man would be able to accomplish this...~
++  SAY @3
+   IF ~~ THEN EXTERN ~YOSHJ~ TS192
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Your father is an intelligent man, Yoshimo. Trust me, I meditated on this solution also... But I do not believe that it is a true solution. I believe it is a part of the curse itself... It gives a new edge to our hatred every day, for we hope endlessly that it is TODAY that we will kill each and every person from another family and thus WE will be saved. Hatred and death will not break the curse...~
+-  IF ~~ THEN REPLY ~What will?~ GOTO 5
++  SAY @4
++  IF ~~ THEN REPLY @5 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Love and devotion. Perhaps, it sounds banal, but unfortunately humankind hasn't still realized that.~
+-  IF ~~ THEN REPLY ~What?~ GOTO 6
+-  IF ~~ THEN REPLY ~There is certain logic in your words Najoki. We will save your daughter and then we will see what happens. But I do not like the site of a fighting man blushing like a schoolgirl. So we better go.~ DO ~GiveItemCreate("SCRL63",Player1,0,0,0)~ EXIT
+-  IF ~~ THEN REPLY ~I am not sure... Najoki, would you give me any practical help, like giving us directions back to civilization if I go save your daughter?~ GOTO 7
++  SAY @6
++  IF ~~ THEN REPLY @7 GOTO 6
++  IF ~~ THEN REPLY @8 DO ~GiveItemCreate("SCRL63",Player1,0,0,0)~ EXIT
++  IF ~~ THEN REPLY @9 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You do not know what love is? Love is strong and it can defeat both hatred and fate. I have a hope that if Hashimoto pledges his heart to Nakanishi, despite everything, the curse will be broken...~
++  SAY @10
+   IF ~!InParty("Aerie")
+ !InParty("Korgan")
+ !InParty("Keldorn")
+-!InParty("Viconia")~ THEN REPLY ~Could you be more specific?~ GOTO 7
++!InParty("Viconia")~ THEN REPLY @11 GOTO 7
+   IF ~InParty("Aerie")~ THEN EXTERN ~AERIEJ~ TS219
+   IF ~!InParty("Aerie")
+ InParty("Korgan")~ THEN EXTERN ~KORGANJ~ TS222
+@@ -52,26 +52,26 @@
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~If you will help Yoshimo to save my daughter I will give you a map... The wizard who cursed us gave it to me as a cruel joke. The map shows the Shiny Gate, the magical portal, which would teleport you wherever you wish to go... We spent years trying to build a seaworthy ship... but none would float. The wizard gave us yet another false hope and another torture for our souls... I will give you the map if you save my daughter.~
+-  IF ~~ THEN REPLY ~That's a suitable reward. Deal, we will help Yoshimo.~ DO ~GiveItemCreate("SCRL63",Player1,0,0,0)~ EXIT
+-  IF ~~ THEN REPLY ~Why give... Do not tire yourself so, Najoki. I will take it from you myself!~ DO ~SetGlobal("TT_Evil_Path","GLOBAL",2)
++  SAY @12
++  IF ~~ THEN REPLY @13 DO ~GiveItemCreate("SCRL63",Player1,0,0,0)~ EXIT
++  IF ~~ THEN REPLY @14 DO ~SetGlobal("TT_Evil_Path","GLOBAL",2)
+ Enemy()~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ GlobalLT("Kachiko_Saved","GLOBAL",2)~ THEN BEGIN 8
+-  SAY ~Please hurry... my daughter's life hangs in the balance.~
++  SAY @15
+   IF ~PartyHasItem("SCRL63")~ THEN EXIT
+   IF ~!PartyHasItem("SCRL63")~ THEN DO ~GiveItemCreate("SCRL63",Player1,0,0,0)~ EXIT
+ END
+ 
+ IF ~Global("Kachiko_Saved","GLOBAL",2)~ THEN BEGIN 9
+-  SAY ~Let fate smile at you, brave stranger, for you have freed the doomed from their eternal torture.~
++  SAY @16
+   IF ~~ THEN EXTERN ~AINO~ 9
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Kachiko and Yoshimo, each of you is now the only surviving member of your family. We paid dearly for our hatred, but now it's no more. Love defeated death. Both Nakanishi and Hashimoto shall continue in your children. Bless you my daughter and fare thee well... Yoshimo, take a good care of her.~
++  SAY @17
+   IF ~~ THEN DO ~GiveItem("SeaChart",Player1)
+ StartCutScene("TTcutFin")
+ ~ EXIT

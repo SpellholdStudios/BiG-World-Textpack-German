@@ -1,0 +1,50 @@
+@0    = ~I assume you have brought me more topazes to cut.  Well, set them down and leave me to my work.~
+@1    = ~Uh... sorry, I don't know what you're talking about.~
+@2    = ~Hello again. What are you still doing around here?~
+@3    = ~Marketh's dead. I killed him.~
+@4    = ~Nothing much. Farewell, Norl.~
+@5    = ~Hmm... I suppose even Marketh's goons aren't bored enough to come in here and harass me. My name is Norl. I am a gem-cutter. Marketh keeps me here so I can cut gemstones for his master and craft jewelry for his concubine.~
+@6    = ~What's wrong with your legs?~
+@7    = ~Who's Marketh?~
+@8    = ~Lower Dorn's Deep.
+
+In Durdel Anatha, we met a gem-cutter named Norl, who hates Marketh. Marketh forces Norl to create jewelry for his concubine.~
+@9    = ~Who's his master?~
+@10   = ~Marketh hobbled me because I tried to escape. I suppose I should be happy. At least he didn't cut out my tongue. Someday that bastard will get what's coming to him.~
+@11   = ~Who's Marketh's master?~
+@12   = ~He already did. I killed him.~
+@13   = ~Marketh is the human who lives in Old Dorn's Palace. He's set himself up as the Lord Chamberlain. He lives there with his concubine, Ginafae, and his two bodyguards. A gang of his thugs, led by a halfling named Seth, guards the entrance to the palace. Marketh likes to make himself seem very worldly and important. He's nothing but a common thug.~
+@14   = ~Who does Marketh work for? What's he doing down here?~
+@15   = ~Marketh serves a priest of a human god called Ilmater.  I don't know anything about the religion, but it seems to me like it must be a church of cruel punishment and slavery. He's always telling us that we have to suffer for Ilmater, and that we have to be slaves to his will and the will of the church.~
+@16   = ~What is this priest's name? What does he look like?~
+@17   = ~His name is Poquelin. Revered Brother Poquelin. He looks like a madman. He wears white robes with red stains on the bottom, like he walks through blood. The stains are on his sleeves, too. His wrists are always in bandages. He's got a red cap that he wears and his eyes... they're like ice.~
+@18   = ~Hmm. Where can I find this man?~
+@19   = ~I don't know. I'm not sure I want to know, either. Every once in a while, when Marketh comes here, I have the urge to jump up and hit him. I thought about doing the same thing when Poquelin came here. As soon as I did, he grabbed my face and looked right into my eyes. It was like he knew.~
+@20   = ~Please help me to find Marketh and get rid of him.~
+@21   = ~Certainly. I would leap at the chance. Just tell me what I need to do.~
+@22   = ~Marketh seems to have a ring that he uses to teleport all over Dorn's Deep. If you could make a copy of that ring, we might be able to switch it and trap him.~
+@23   = ~Lower Dorn's Deep.
+
+A gem-cutter named Norl told us he would help me get rid of Marketh if we could get hold of Marketh's ring. Of course, if we could do that, making a copy of the ring would be unnecessary.~
+@24   = ~Hmm. That is a problem. I'll try to figure something out. Farewell.~
+@25   = ~I know that ring well, but not that well. If I could get hold of the ring itself, I could do it. Otherwise, I don't believe I'd be able to make an accurate copy.~
+@26   = ~Well, I do have a drawing of him that I got from two sculptors. It shows his ring in great detail. Would that do the trick?~
+@27   = ~Lower Dorn's Deep.
+
+We gave Norl a sketch of Marketh that we got from two sculptors in the palace. He said that he could use the sketch to make the ring.~
+@28   = ~Yes... yes... that will do nicely. This ring will be my greatest piece yet...~
+@29   = ~Sure. Here you go. I'll come back in a while to pick the ring up.~
+@30   = ~Ah. You again?~
+@31   = ~I've got a drawing of Marketh from two sculptors. It shows the ring that Marketh uses to teleport all over Dorn's Deep. If you could make a copy of that ring, we might be able to switch it and trap him.~
+@32   = ~Lower Dorn's Deep.
+
+A gem-cutter named Norl told us he would help me get rid of Marketh if we could get hold of Marketh's ring. We gave Norl a sketch of Marketh that we got from two sculptors in the palace. He said that he could use the sketch to make the ring.~
+@33   = ~Never mind, Norl. Farewell.~
+@34   = ~I'm sorry, but the ring's not ready yet. Come back later and I'll have what you need.~
+@35   = ~Ah! The ring is finished, gracious allies. Here it is, a silver band with a big fat emerald for Marketh's big fat head. It won't be easy to switch them, I'd imagine, but Callarduran will be with you.~
+@36   = ~Thanks, Norl. Farewell.~
+@37   = ~Lower Dorn's Deep.
+
+Norl finished the copy of Marketh's teleportation ring and gave it to us. Before we left, he told me Callarduran would be with us.~
+@38   = ~Let me know when you give Marketh the punishment he has coming to him. I can't wait to see his reign of terror come to an end.~
+@39   = ~Justice has finally been served. Thank you for your help. I will remember you for the rest of my days.~

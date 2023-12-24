@@ -1,0 +1,20 @@
+--- NeJ3\baf\LDEYETP2.BAF	Sun Apr 27 04:55:20 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDEYETP2.BAF	Wed Apr 10 10:33:50 2019
+@@ -3,7 +3,7 @@
+ 	!StateCheck(LastTrigger,STATE_STONE_DEATH)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~I'm watching you.  Always watching... watching... ha ha ha ha ha!~)
++		DisplayString(Myself,@0)
+ 		DisplayString(Myself,14381) // Trap Sprung
+ 		ReallyForceSpell(LastTrigger,FORCE_STONE_TRAP)
+ 		Wait(2)
+@@ -14,7 +14,7 @@
+ 	!StateCheck(LastTrigger,STATE_STONE_DEATH)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~I'm watching you.  Always watching... watching... ha ha ha ha ha!~)
++		DisplayString(Myself,@0)
+ 		DisplayString(Myself,14381) // Trap Sprung
+ 		ReallyForceSpell(LastTrigger,FORCE_STONE_TRAP)
+ 		Wait(2)

@@ -1,0 +1,11 @@
+--- TS\bgtdlg\aAERIEJ.d	Wed Dec 29 12:46:07 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aAERIEJ.d	Thu May 05 10:43:39 2016
+@@ -1,7 +1,7 @@
+ APPEND ~AERIEJ~
+ 
+ IF ~~ THEN BEGIN TS219
+-  SAY ~How... how romantic...~
++  SAY @0
+   IF ~~ THEN EXTERN ~NAJOKI~ 7
+ END
+ END

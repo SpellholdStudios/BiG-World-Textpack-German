@@ -1,0 +1,44 @@
+@0  = ~Seid gegrüßt, mein Freund. Willkommen im Haus der Blutenden Rose. Mögen die heilenden Hände Ilmaters Euch von Eurer Qual befreien und Eure gepeinigte Seele heilen.~ ~Seid gegrüßt, meine Freundin. Willkommen im Haus der Blutenden Rose. Mögen die heilenden Hände Ilmaters Euch von Eurer Qual befreien und Eure gepeinigte Seele heilen.~ 
+@1  = ~Schwester Calliana, wie ich annehme? Man hat mir gesagt, Ihr versteht Euch auf die Kunst des Heilens.~
+@2  = ~Seid gegrüßt. Ich brauche die Dienste eines Heilers.~ 
+@3  = ~Öh... schon gut. Lebt wohl.~
+@4  = ~Man hat Euch richtig informiert. Als stellvertretende Vorsteherin des Tempels wird mir die Ehre zuteil, denen, die Hilfe brauchen, jede Art von Beistand zu leisten - keine leichte Aufgabe, bei all dem Unheil, das diese Stadt in letzter Zeit heimsucht.~ 
+@5  = ~Stellvertretende Vorsteherin des Tempels? Wer hat denn normalerweise dieses Amt inne?~
+@6  = ~Ilmater-Tempel in Kuldahar
+
+Wir haben mit Schwester Calliana gesprochen, der neuen Oberpriesterin des Ilmater-Tempels in Kuldahar. Sie hatte die Funktion der Oberpriesterin übernommen, nachdem Mutter Egenia vor ein paar Wochen verschwunden war. Calliana erzählte außerdem, ein anderer Ilmater-Geistlicher, ein Mann namens Bruder Poquelin, sei kürzlich aus dem entfernten Cormyr nach Kuldahar gekommen und wollte im Kloster des Weinenden Flieders in Bryn Shander Hilfe ersuchen. Calliana fürchtet, er könnte ebenfalls verschleppt worden sein.~
+@7  = ~Sagt, Schwester, welche Art von Übel hat Kuldahar befallen?~ 
+@8  = ~Aha. Welche Art von Hilfe könnt Ihr anbieten?~
+@9  = ~So tretet vor und bringet Eure Schmerzen dem Einen dar, der alles erträgt. Ich bin die Ehrwürdige Schwester Calliana. Als stellvertretender Vorsteherin des Tempels wird mir die Ehre zuteil, denen, die Hilfe brauchen, jede Art von Beistand zu leisten - keine leichte Aufgabe, bei all dem Unheil, das diese Stadt in letzter Zeit heimsucht.~ 
+@10 = ~Bis vor einigen Wochen hatte die Ehrwürdige Mutter Egenia den Vorsitz über dieses Haus. Zu unserem Jammer verschwand sie wie so viele andere in der Stadt, und man nimmt an, dass sie tot ist. Als nächstes, ranghöchstes Mitglied des Klosters habe ich die Aufgaben der Tempelvorsteherin übernommen, bis sie oder der Ehrwürdige Bruder Poquelin zurückkehren.~
+@11 = ~Wollt Ihr damit sagen, Eure Ehrwürdige Mutter wurde entführt?~
+@12 = ~Der Ehrwürdige Bruder Poquelin? Wer ist das?~ 
+@13 = ~Faszinierend. Um auf die Heilung zurückzukommen: Welche Art von Hilfe könnt Ihr anbieten?~
+@14 = ~Interessant. Also, ich muss jetzt weiter. Lebt wohl.~ 
+@15 = ~Das Böse hat seine Schatten über dieses Land geworfen; selbst das Wetter scheint durch seine Gegenwart verändert. Der Ursprung des Unheils ist mir nicht bekannt, aber seine Auswirkungen sind überall zu spüren. Mehrere Einwohner der Stadt sind auf mysteriöse Weise spurlos verschwunden, einschließlich unserer ehemaligen Tempelvorsteherin, der Ehrwürdigen Mutter Egenia. Als nächstes ranghöchstes Mitglied des Klosters habe ich die Aufgaben der Tempelvorsteherin übernommen, bis sie oder der Ehrwürdige Bruder Poquelin zurückkehren.~
+@16 = ~Vielleicht. Wir sind nicht ganz sicher. Sie war es leid, tatenlos zuzusehen, wie die Menschen um uns herum des Nachts entführt wurden. Deshalb beschloss sie, eine Mitternachtswache vor den Toren der Stadt zu halten, in der Hoffnung, dass auch sie an den Leiden der Entführten teilhaben möge. Das war das Letzte, was wir von ihr gesehen haben. Ihr Schicksal bleibt ein Rätsel.~
+@17 = ~Ihr spracht vom Ehrwürdigen Bruder Poquelin. Wer ist das?~
+@18 = ~Der Ehrwürdige Bruder Poquelin ist ein ranghoher Priester Ilmaters, der bei uns zu Gast war. Er kam vor einigen Tagen durch Kuldahar auf seiner Pilgerreise zum Kloster des Weinenden Flieders in Bryn Shander. Er ist von weither gereist, den ganzen Weg von... von Cormyr, hat er glaube ich gesagt. Er muss aus einer entlegenen Gegend stammen, denn er trug ein heiliges Zeichen Ilmaters, das ich noch nie gesehen hatte. Jedenfalls versprach er uns, mit Hilfe wiederzukommen, sobald er Bryn Shander erreicht hat. Ich hoffe, es ist ihm nichts zugestoßen.~ 
+@19 = ~Ihr seid zurück, mein Freund. Wie können die Diener Ilmaters Euch behilflich sein?~ ~Ihr seid zurück, meine Freundin. Wie können die Diener Ilmaters Euch behilflich sein?~
+@20 = ~Seid gegrüßt, Schwester Calliana. Ich benötige Heilung.~ 
+@21 = ~Ihr seid zurück, mein Freund. Es gibt noch immer keine Nachricht von der Ehrwürdigen Mutter Egenia oder dem Ehrwürdigen Bruder Poquelin. Bis zu ihrer Rückkehr stehe ich Euch zu Diensten.~ ~Ihr seid zurück, meine Freundin. Es gibt noch immer keine Nachricht von der Ehrwürdigen Mutter Egenia oder dem Ehrwürdigen Bruder Poquelin. Bis zu ihrer Rückkehr stehe ich Euch zu Diensten.~ 
+@22 = ~Ich hab nur so gefragt. Lebt wohl.~
+@23 = ~Ihr seid diejenigen, die uns die Ehrwürdige Mutter Egenia zurückgebracht haben. Dafür danken wir Euch. Was können die Anhänger Ilmaters für Euch tun?~ 
+@24 = ~Ihr erwähntet vorhin einen gewissen Ehrenwerten Bruder Poquelin. Wer ist das?~
+@25 = ~Das Böse hat seine Schatten über dieses Land geworfen; selbst das Wetter scheint durch seine Gegenwart verändert. Die Quelle des Bösen ist mir nicht bekannt, doch seine Wirkung ist überall zu spüren. Ihr habt uns zwar die Ehrwürdige Mutter Egenia zurückgebracht, doch viele Bewohner der Stadt werden immer noch vermisst, darunter auch der Ehrwürdige Bruder Poquelin.~
+@26 = ~Willkommen im Haus der Blutenden Rose, Reisender. Ihr kommt mir irgendwie bekannt vor. Mir ist, als hätte ich Euch schon im Traum gesehen. Vielleicht hat uns Ilmater Eure Ankunft vorhergesagt.~ ~Willkommen im Haus der Blutenden Rose, Reisende. Ihr kommt mir irgendwie bekannt vor. Mir ist, als hätte ich Euch schon im Traum gesehen. Vielleicht hat uns Ilmater Eure Ankunft vorhergesagt.~
+@27 = ~Ich glaube, ich habe etwas für Euch. Ein verfluchter Paladin bat mich vor kurzem in Dorntief, seine sterblichen Überreste zu einem Tempel der Dreieinigkeit zu bringen, damit sie ein ordentliches Begräbnis bekämen. Ich half, seinen Fluch zu beenden, doch er wollte sichergehen, dass er auf heiligem Boden zur letzten Ruhe gebettet würde.~
+@28 = ~Ilmater-Tempel in Kuldahar
+
+Wir sind nach Kuldahar zurückgekehrt und haben mit Schwester Calliana gesprochen. Wir erzählten ihr von der Stimme von Durdel Anatha und übergaben seine sterblichen Überreste wieder der geweihten Erde.~
+@29 = ~Entschuldigt, dass ich Euch gestört habe. Lebt wohl.~
+@30 = ~Schön, Euch wieder im Haus der Blutenden Rose begrüßen zu können, Reisender. Im Schlaf hatte ich Visionen von Euch an schrecklichen Orten. Ich bin froh, Euch unversehrt zu sehen.~ ~Schön, Euch wieder im Haus der Blutenden Rose begrüßen zu können, Reisende. Im Schlaf hatte ich Visionen von Euch an schrecklichen Orten. Ich bin froh, Euch unversehrt zu sehen.~
+@31 = ~Ja... ja. Ich spüre die Wahrheit Eurer Worte. Mir sind schon Geschichten von einem Phantompaladin des Torm zu Ohren gekommen, aber ich dachte, das wäre nur Gerede. Wenn diese Legenden wahr sind, habt Ihr unserer Kirche einen großen Dienst erwiesen. Torm, Tyr, und Ilmater sind Brüder im Sinne der Gerechtigkeit. Wir werden die sterblichen Überreste dieses heiligen Kriegers in Ehre begraben.~
+@32 = ~Bitte nehmt ein Geschenk der Kirche Ilmaters an. Ihr habt lang und schwer gelitten auf Eurem Kreuzzug gegen das Böse, das uns bedroht. Wenn Ihr reinen Herzens seid, wird Euch dies bei den Prüfungen helfen, die Ihr noch bestehen müsst.~
+@33 = ~Es war mir eine Freude, helfen zu können.~
+@34 = ~Es war wirklich nicht der Rede wert.~
+@35 = ~Sicher.~
+@36 = ~Natürlich.~
+@37 = ~Ist gut.~
+@38 = ~Ich verstehe.~
+@39 = ~Meine Arbeit hier ist beendet.~

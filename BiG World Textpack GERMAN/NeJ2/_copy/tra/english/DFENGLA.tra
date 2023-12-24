@@ -1,0 +1,42 @@
+@0    = ~The deep gnome girl stares at you blankly.  She looks unhappy.  She is carrying a small bag full of apples and two bottles of wine.  She wears a large key around her neck.~
+@1    = ~Hello, little girl.  How are you?  What's your name?~
+@2    = ~Lower Dorn's Deep.
+
+We met a strange deep gnome girl today named Fengla.  She had her name branded into the skin on her arm and her tongue was cut out.~
+@3    = ~You see Fengla.  As you approach, she stops and stares at you, her face placid and dour.~
+@4    = ~Hey honey, could I borrow the key to the watchtower for a little while?~
+@5    = ~Hello again, Fengla.  Farewell.~
+@6    = ~She points to her right forearm.  Branded into her skin is the name "FENGLA."~
+@7    = ~What's wrong? Can't you speak?~
+@8    = ~Fengla opens her mouth.  She has no tongue.  It appears to have been cut out.~
+@9    = ~Who did that to you?~
+@10   = ~Lower Dorn's Deep.
+
+Someone in a small palace in the northeastern section of Durdel Anatha cut Fengla's tongue out. She showed us a symbol of a pickaxe on her wrist. Perhaps that is the sign of her assailant.~
+@11   = ~Ouch.~
+@12   = ~Now that's a fine cut - I imagine the heat of the blade kept the wound from becoming too messy.~
+@13   = ~She points to the upper reaches of the palace in the northeastern portion of the cavern.  She then points to the brand of a pickaxe on her wrist.~
+@14   = ~Where are you taking that food? ~
+@15   = ~Lower Dorn's Deep.
+
+Fengla told us that she takes food to a watchtower in the southeastern area of Durdel Anatha.  The watchtower appears to be heavily fortified and is surrounded by cattle pens filled with deep gnome slaves.~
+@16   = ~She nods.~
+@17   = ~Where are you taking that food?~
+@18   = ~Fengla points to a tower in the southeast portion of the cavern.  It is surrounded by a moat of lava which is, in turn, surrounded by Underdark cattle pens filled with deep gnome slaves.~
+@19   = ~Hmm.  Thanks, Fengla.  Farewell.~
+@20   = ~Fengla smiles and holds out the key.~
+@21   = ~Thanks, Fengla.~
+@22   = ~Lower Dorn's Deep.
+
+We met a slave girl in Lower Dorn's Deep.  She was taking food to a watchtower in the southern portion of Durdel Anatha.  We asked her for the key to the watchtower, and she handed it over.~
+@23   = ~Eh... no thanks, Fengla.  On second though, I guess I don't need the key right now.  Farewell.~
+@24   = ~When Fengla sees you, she snarls, then reaches into her bag and hurls an apple at you.~
+@25   = ~A small, silent gnome girl wanders up to you and shakes your hand vigorously.  She smiles up at you for a second and then departs.~
+@26   = ~Farewell... little girl.~
+@27   = ~Lower Dorn's Deep.
+
+We killed a group of archers in a watchtower who were keeping the deep gnome slaves in line.  Right after we finished, a small girl entered the tower, shook my hand, and then mysteriously departed.  Strange.~
+@28   = ~Fengla wanders up to you and shakes your hand vigorously.  She smiles up at you for a second, then departs.~
+@29   = ~Lower Dorn's Deep.
+
+We killed a group of archers in a watchtower who were keeping the deep gnome slaves in line.  Right after we finished, Fengla entered the tower, shook my hand, and then quickly departed.~

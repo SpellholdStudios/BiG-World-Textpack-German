@@ -1,0 +1,20 @@
+--- NeJ3\baf\LDFLOZ1.BAF	Mon Nov 17 01:54:28 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDFLOZ1.BAF	Wed Apr 10 10:33:53 2019
+@@ -33,7 +33,7 @@
+ 	Global("SPRITE_IS_DEADFleezum","GLOBAL",1)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~You killed my brother! You'll pay for that!~)
++		DisplayStringHead(Myself,@0)
+ 		Enemy()
+ 		Continue()
+ END
+@@ -87,7 +87,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("MAP_GROUP_HOSTILE10","MYAREA",1)
+-		DisplayStringHead(Myself,~Fleezum! Your assistance, please!~)
++		DisplayStringHead(Myself,@1)
+ 		Enemy()
+ 		Continue()
+ END

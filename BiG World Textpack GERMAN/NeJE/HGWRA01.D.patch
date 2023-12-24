@@ -1,0 +1,17 @@
+--- NeJE\dlg\HGWRA01.D	Sat Nov 24 04:41:16 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\HGWRA01.D	Tue Apr 09 19:36:10 2019
+@@ -29,12 +29,12 @@
+ APPEND ~HGWRA01~
+ 
+ IF ~~ THEN BEGIN TS29
+-  SAY ~What of the inevitable pain you must give to the one you love? This Linvail maid?~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("LovedOne","GLOBAL",6)~ EXTERN ~SIMEJ~ TSTOB0
+ END
+ 
+ IF ~~ THEN BEGIN KR0
+-  SAY ~What of the inevitable pain you must give to the one you love? This desperate paladin?~
++  SAY @1
+   IF ~~ THEN DO ~SetGlobal("VP_Kr_LovedOne","GLOBAL",1)~ EXTERN ~KELDO25J~ LoveOne0
+ END
+ END

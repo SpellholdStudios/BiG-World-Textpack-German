@@ -1,0 +1,19 @@
+--- NeJ3\baf\LDPERD.BAF	Sun Nov 09 20:56:36 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\LDPERD.BAF	Wed Apr 10 10:33:58 2019
+@@ -2,13 +2,13 @@
+ 	Global("SPRITE_IS_DEADIDOL","GLOBAL",0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Come! Come to the hallowed temple of suffering!~)
++		DisplayStringHead(Myself,@0)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~The sins of the flesh must be purged!  Purged on an altar of fire!~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~With your blood and bones, we will build an empire of living pain!~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ END
+ 

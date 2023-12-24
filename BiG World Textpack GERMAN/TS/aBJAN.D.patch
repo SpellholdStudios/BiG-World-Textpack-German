@@ -1,0 +1,167 @@
+--- TS\bgtdlg\aBJAN.D	Wed Nov 17 11:57:09 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aBJAN.D	Thu May 05 10:43:44 2016
+@@ -1,137 +1,137 @@
+ APPEND ~BJAN~
+ 
+ IF ~~ THEN BEGIN TS116
+-  SAY ~I must not forget any detail of what happened on the Island. I have come up with the most potentially profitable business. We are going to make a tourist attraction out of your story, Kachiko. Charge to enter in the crypt, see you there dead... Then Yoshimo comes and gives you that big romantic kiss and you come back to life. And then the families run in bashing each other on the head and crying for the death of both of you. My cousin Willy he'd write good play about that and...~
++  SAY @0
+   IF ~~ THEN EXTERN ~BKACHI~ 68
+ END
+ 
+ IF ~~ THEN BEGIN TS117
+-  SAY ~You do not need the Island, girl! That the whole point! We are going to dig some cave near Athkatla and say that it all happened there...~
++  SAY @1
+   IF ~~ THEN EXTERN ~BKACHI~ 69
+ END
+ 
+ IF ~~ THEN BEGIN TS118
+-  SAY ~None of course! But we do not need Kara-Turians. Locals like local stories. We'd give you some pretty names like Julia and Romano and your families would be say rival clans... Or may be Harpers and Shadow Thieves? Cousin Willy, he is good at that. Speaking of about cousin Willy, have I ever told you how he wrote his first play? Actually it's funny, because he did not write it... Did I tell you about that?~
++  SAY @2
+   IF ~~ THEN EXTERN ~BKACHI~ 70
+ END
+ 
+ IF ~~ THEN BEGIN TS119
+-  SAY ~I do not recall...~
++  SAY @3
+   IF ~~ THEN EXTERN ~BKACHI~ 71
+ END
+ 
+ IF ~~ THEN BEGIN TS120
+-  SAY ~I think I have some ointment for that scar you've got. Made from distilled turnips and orc urine - works a treat. Jansen's honour! We'd have you looking lovely in no time at all.~
++  SAY @4
+   IF ~~ THEN EXTERN ~BVALYGA~ TS492
+ END
+ 
+ IF ~~ THEN BEGIN TS121
+-  SAY ~What scar? Why the one on your face oozing that brown mucus. Did I ever tell you the story about cousin Gustav and his incredible mucus-hurling machine? It could throw a ten-pound lump almost...~
++  SAY @5
+   IF ~~ THEN EXTERN ~BVALYGA~ TS493
+ END
+ 
+ IF ~~ THEN BEGIN TS122
+-  SAY ~Oh mud, of course! Well the offer of the ointment is still open in case you should develop a real scar...~
++  SAY @6
+   IF ~~ THEN EXTERN ~BVALYGA~ TS494
+ END
+ 
+ IF ~~ THEN BEGIN TS123
+-  SAY ~Strange that you should mention turnip pie... That remind me about my Aunt Marta...~
++  SAY @7
+   IF ~~ THEN EXTERN ~BVALYGA~ TS496
+ END
+ 
+ IF ~~ THEN BEGIN TS124
+-  SAY ~Ma Jansen was never good with pies, you see. We always had to ask my aunt Marta (twice-removed aunt, mind you) to bake turnip pie for the Midwinter feast, as ma's pie usually ended up smelling of fish for some reason. Aunt Marta said once that it was because ma always puts fish in her turnip pie...~
++  SAY @8
+   IF ~~ THEN EXTERN ~BVALYGA~ TS497
+ END
+ 
+ IF ~~ THEN BEGIN TS125
+-  SAY ~Ma got very cross because apparently that is her secret ingredient. They parted on the worst of terms and we never had Aunt Marta's turnip pie ever again.~
++  SAY @9
+   IF ~~ THEN EXTERN ~BVALYGA~ TS498
+ END
+ 
+ IF ~~ THEN BEGIN TS126
+-  SAY ~But ma's baked turnip, braised turnip, fried turnip, turnip a-la-Rasheman, turnip stuffed with turnip and carrots are all pretty good...~
++  SAY @10
+   IF ~~ THEN EXTERN ~BVALYGA~ TS499
+ END
+ 
+ IF ~~ THEN BEGIN TS127
+-  SAY ~See, Valygar, it reminded me the day when Uncle Podger... Oh, well. (*sighs*) It doesn't actually remind me of Uncle Podger at all. I loved... I love Lissa.~
++  SAY @11
+   IF ~~ THEN EXTERN ~BVALYGA~ TS501
+ END
+ 
+ IF ~~ THEN BEGIN TS128
+-  SAY ~She loves him... Why, Valygar, why?~
++  SAY @12
+   IF ~~ THEN EXTERN ~BVALYGA~ TS502
+ END
+ 
+ IF ~~ THEN BEGIN TS129
+-  SAY ~Yes, I guess so... That reminds me of my cousin Jen-Fer Jansen, who had fallen for this really tall and handsome ranger. But she was really short. She was a gnome, see? Of course he ignored her. So she went to the local witch and got a secret potion.~
++  SAY @13
+   IF ~~ THEN EXTERN ~BVALYGA~ TS503
+ END
+ 
+ IF ~~ THEN BEGIN TS130
+-  SAY ~A secret potion to make him shorter.~
++  SAY @14
+   IF ~~ THEN EXTERN ~BVALYGA~ TS504
+ END
+ 
+ IF ~~ THEN BEGIN TS131
+-  SAY ~Anyway, in the end she gave the potion to a big yellow dog to try if it worked. The dog had puppies and Jen-Fer made a fortune selling them as ladies' lap-doggies. It became all the rage. She and the witch now have a kennel and ship the puppies as far as Shou Lung.~
++  SAY @15
+   IF ~~ THEN EXTERN ~BVALYGA~ TS505
+ END
+ 
+ IF ~~ THEN BEGIN TS132
+-  SAY ~Aye, Jen-Fer is. I wish my monkey smuggling business was as successful, but there is no market for monkeys lately, alas...~
++  SAY @16
+   IF ~~ THEN EXTERN ~BVALYGA~ TS506
+ END
+ 
+ IF ~~ THEN BEGIN TS133
+-  SAY ~Now that reminds me my second cousin Amalia...~
++  SAY @17
+   IF ~~ THEN EXTERN ~BSIME~ 51
+ END
+ 
+ IF ~~ THEN BEGIN TS134
+-  SAY ~Cousin Amalia? She did not have hair at all and wore a wig. But that did not hinder Amalia. She was a true femme fatale, just like you. You see, she was dreaming to give herself to a true artist, a man of inspiration and vision. "I shall fall in love because I fall in love" she was saying often. "And I can only fall in love with a great artist!" She wedded an old man.~
++  SAY @18
+   IF ~~ THEN EXTERN ~BSIME~ 52
+ END
+ 
+ IF ~~ THEN BEGIN TS135
+-  SAY ~No, a turnip merchant. One of the most prominent in the trade, I must say. He had the biggest shop in the whole of Waterdeep and was exporting turnips as far as Rasheman. They eat plenty of turnip there.~
++  SAY @19
+   IF ~~ THEN EXTERN ~BSIME~ 53
+ END
+ 
+ IF ~~ THEN BEGIN TS136
+-  SAY ~You see, she adored obstacles. The old rich man was the great obstacle on her way to true love. She was crying and acting all weird and saying that one day she is to find her true love and she will follow her calling for arts but until then she has too many obstacles. So when her husband died...~
++  SAY @20
+   IF ~~ THEN EXTERN ~BSIME~ 54
+ END
+ 
+ IF ~~ THEN BEGIN TS137
+-  SAY ~No, she actually met another obstacle, poor soul.~
++  SAY @21
+   IF ~~ THEN EXTERN ~BSIME~ 55
+ END
+ 
+ IF ~~ THEN BEGIN TS138
+-  SAY ~Indeed. Which reminds me...~
++  SAY @22
+   IF ~~ THEN EXTERN ~BSIME~ 56
+ END
+ 
+ IF ~~ THEN BEGIN TS139
+-  SAY ~I was indeed. That's a craft we, the Jansens, possessed for many generations. This turnip I called Lissa. That pinkish shade on its sides reminds me of Lissa's cheeks. Just as plump too. Lissa was my fianc?e if you wish to know.~
++  SAY @23
+   IF ~~ THEN EXTERN ~BSIME~ 58
+ END
+ 
+ IF ~~ THEN BEGIN TS140
+-  SAY ~Oh, poetry. That reminds me of the time Cousin Willy was writing that play of his. He said that the biggest problem is to get a captivating title. Uncle Lero said however that Cousin Willy's play would be just the same no matter what title he uses. So Cousin Willy called it "A Play Without a Name". Which apparently was a captivating title. Or so the critics said.~
++  SAY @24
+   IF ~~ THEN EXTERN ~BSIME~ 59
+ END
+ 
+ IF ~~ THEN BEGIN TS141
+-  SAY ~Not exactly, the problem was that the general opinion was that the play failed to deliver what the captivating title promised. People were so mad that Cousin Willy switched the name to "A Lovestory of Teomund and Allastria Which Happened During the Times of Troubles in the Great and Prosperous City of Baldur's Gate Governed by the Most Respectable Dukes...~
++  SAY @25
+   IF ~~ THEN EXTERN ~BSIME~ 60
+ END
+ 
+ IF ~~ THEN BEGIN TS142
+-  SAY ~Neither did the spectators. Imagine, they have to add twenty extra pages to the program, which in turn led to the shortage of paper and bread in Neverwinter and huge riots. Unfortunately because of these riots the playhouse was closed and Cousin Willy's play was prohibited.~
++  SAY @26
+   IF ~~ THEN EXTERN ~BSIME~ 61
+ END
+ END

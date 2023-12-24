@@ -1,0 +1,1818 @@
+--- DSotSC\language\german\setup.tra	Wed Jan 18 20:24:25 2023
++++ C:\BWP Patchstudio\patched files\DSotSC\language\german\setup.tra	Sat Oct 14 18:15:36 2023
+@@ -1,3 +1,10 @@
++@3001 = ~Dunkle Seite der Schwertküste (DSotSC)~
++@3002 = ~DSotSC Magierzauber~
++@3003 = ~DSotSC Priesterzauber~
++@3004 = ~Häufigere Begegnungen in üblichen Gebieten~
++@3005 = ~DSotSC-Gegenstände auch in üblichen Inhalt verteilen~
++
++
+ ////////
+ //Spells
+ ////////
+@@ -25,7 +32,7 @@
+ Wirkungsbereich: 1 Wesen
+ Rettungswurf: Speziell
+ 
+-Der Anwender beschwört magisches Feuer und formt daraus ein kleines Projektil, welches auf das Ziel zufliegt und 1W3 Schadenspunkte durch Feuer verursacht. Gelingt ein Rettungswurf gegen Zauber gegen -2 nicht, so erleidet das Zielwesen weitere 1W3 Schadenspunkte.~
++Der Anwender beschwört magisches Feuer und formt daraus ein kleines Projektil, welches auf das Ziel zufliegt und 1W6 Schadenspunkte durch Feuer verursacht. Gelingt kein Rettungswurf gegen Zauber, so erleidet das Zielwesen weitere 1W6 Schadenspunkte.~
+ @7 = ~Rüstung schmelzen~
+ @8 = ~Rüstung schmelzen (Hervorrufung)
+ 
+@@ -36,7 +43,7 @@
+ Wirkungsbereich: 1 Wesen
+ Rettungswurf: 1/2
+ 
+-Mit diesem Spruch kann der Anwender die Verteidigung seines Gegners senken. Das Ziel verliert 8 Punkte von seiner Rüstungsklasse, 4 bei erfolgreichem Rettungswurf gegen Zauber.~
++Nach dem Wirken dieses Zaubers kann der Priester bestimmte physische Materialien verändern. Rüstungen und Metallgegenstände beginnen zu schmelzen. Jede vom Zauber betroffene Kreatur erhleidet einen Verlust von 4 Punkten in der Rüstungsklasse. Ein erfolgreicher Rettungswurf gegen Zauber mindert den Schaden um die Hälfte.~
+ @9 = ~Mittelschwere Wunden heilen~
+ @10 = ~Mittelschwere Wunden heilen (Nekromantie)
+ 
+@@ -130,12 +137,12 @@
+ 
+ Grad: 5
+ Reichweite: 0
+-Wirkungsdauer: 2 Phasen
+-Zeitaufwand: 7
++Wirkungsdauer: 1 Phasen
++Zeitaufwand: 5
+ Wirkungsbereich: 1,5 m Radius
+ Rettungswurf: Nein
+ 
+-Dieser Zauber ruft die Macht der Göttin Selune herbei, die den Priester vor körperlichem oder magischem Schaden schützt. Der Anwender ist von einem schimmernden Feld umgeben, welches seine Rüstungsklasse um 4 Punkte verbessert. Außerdem schützt es ihn vor sämtlichen Zaubern des 1. bis 4. Grades. Ähnlich wie beim Spruch "Kugel der Unverwundbarkeit" kann sich der Magier frei bewegen.~
++Dieser Zauber ruft die Macht der Göttin Selune herbei, die den Priester vor körperlichem oder magischem Schaden schützt. Der Anwender ist von einem schimmernden Feld umgeben, welches seine Rüstungsklasse um 4 Punkte verbessert. Außerdem schützt es ihn vor sämtlichen Zaubern des 1. bis 3. Grades. Ähnlich wie beim Spruch "Kugel der Unverwundbarkeit" kann sich der Magier frei bewegen. Der Zauber ist anfällig gegen Magie bannen, Magie durchdringen und ähnliche Zauber.~
+ @29 = ~Untote rufen~
+ @30 = ~Untote rufen (Nekromantie)
+ 
+@@ -185,16 +192,16 @@
+ 
+ Grad: 7
+ Reichweite: Gruppe
+-Wirkungsdauer: 10 Phasen
+-Zeitaufwand: 7
++Wirkungsdauer: 1 Phase
++Zeitaufwand: 1
+ Wirkungsbereich: 10 m Radius
+ Rettungswurf: Nein
+ 
+-Der Beschwörer bittet bei seinem Gott um Hilfe für seine Kameraden. Während die Schutzaura wirkt, erhalten alle Gruppenmitglieder eine Basis-Rüstungsklasse von 1.~
++Der Beschwörer bittet bei seinem Gott um Hilfe für seine Kameraden. Während die Schutzaura wirkt, erhalten alle Gruppenmitglieder eine Basis-Rüstungsklasse von 0.~
+ @45 = ~Dunkles Ritual~
+ @46 = ~Dunkles Ritual (Veränderung)
+ 
+-Grad: 9
++Grad: 7
+ Reichweite: Berührung
+ Wirkungsdauer: 15 Runden
+ Zeitaufwand: 7
+@@ -205,14 +212,14 @@
+ @47 = ~Sirenen beschwören~
+ @48 = ~Sirenen beschwören (Herbeirufung/Beschwörung)
+ 
+-Grad: 9
++Grad: 7
+ Reichweite: Sichtweite
+ Wirkungsdauer: 2 Phasen
+ Zeitaufwand: 9
+ Wirkungsbereich: Speziell
+ Rettungswurf: Nein
+ 
+-Nachdem dieser Zauber ausgesprochen wurde erscheinen 4 Sirenen aus der himmlischen Sphäre, um dem Anwender zu dienen. Sie werden alle Gegner, die sich in Sichtweite befinden, angreifen und versuchen zu töten.~
++Nachdem dieser Zauber ausgesprochen wurde erscheinen 4 Sirenen aus der himmlischen Sphäre, um den Druiden mit ihrer äußerst aggressiven Haltung zu dienen.~
+ @49 = ~Donnerbolzen~
+ @50 = ~Donnerbolzen (Hervorrufung)
+ 
+@@ -223,13 +230,13 @@
+ Wirkungsbereich: Speziell
+ Rettungswurf: 1/2
+ 
+-In manchen Kreisen von Erzmagiern gilt der normale Blitz als ein schwacher Zauber, der nur von schwachen Magiern verwendet wird. Also wurde der Donnerbolzen entwickelt, der wie ein Blitz funktioniert, aber viel stärker ist und auch viel mehr Schaden anrichten kann, sogar beim Anwender. Der Donnerbolzen prallt von jedem Hindernis ab, bis seine Energie aufgebraucht ist. Es gibt nur wenige Lebewesen, die der Kraft dieses Zaubers widerstehen können. Jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
++Dieser Zauberspruch ähnelt dem Blitzbolzen der Zauberstufe 3, aber jedes getroffene Wesen erleidet 12W4 elektrischen Schaden, die Hälfte bei einem erfolgreichen Rettungswurf.~
+ @52 = ~Luftorb~
+ @53 = ~Luftorb (Veränderung)
+ 
+ Grad: 1
+ Reichweite: 13 m
+-Wirkungsdauer: 4 Runden
++Wirkungsdauer: 2 Runden
+ Zeitaufwand: 2
+ Wirkungsbereich: Speziell
+ Rettungswurf: Gegen Zauber
+@@ -240,9 +247,9 @@
+ 
+ Grad: 2
+ Reichweite: Berührung
+-Wirkungsdauer: 10 Runden
++Wirkungsdauer: augenblicklich
+ Zeitaufwand: 1
+-Wirkungsbereich: Anwender
++Wirkungsbereich: 1 Wesen
+ Rettungswurf: Nein
+ 
+ Dieser Zauber ist ein wenig effektiver als der Schockgriff des 1. Grades. Wenn der Anwender eine erfolgreiche Nahkampfattacke ausführt, wird das Opfer für 1 Runde betäubt und erleidet zusätzlich 2W6 Schadenspunkte.~
+@@ -250,20 +257,20 @@
+ @57 = ~Eisbolzen (Hervorrufung)
+ 
+ Grad: 2
+-Reichweite: 10 m
++Reichweite: 5 m
+ Wirkungsdauer: Sofort
+ Zeitaufwand: 2
+ Wirkungsbereich: 1 Wesen
+ Rettungswurf: Nein
+ 
+ Nach dem Ausspruch dieses Zaubers stößt eine Eiskugel aus den Händen des Magiers hervor und fliegt auf das Ziel zu. Dieser Eisbolzen verursacht 2W10 Schadenspunkte und erlaubt keine Rettungswürfe. Allerdings kann der Schaden durch Resistenz gegen Kälte oder Magie vermindert werden.~
+-@58 = ~Kleine Kugel der Dunkelheit~
+-@59 = ~Kleine Kugel der Dunkelheit (Veränderung)
++@58 = ~Kugel der Dunkelheit~
++@59 = ~Kugel der Dunkelheit (Veränderung)
+ 
+ Grad: 2
+-Reichweite: 10 m
+-Wirkungsdauer: 1 Runde
+-Zeitaufwand: 2s
++Reichweite: 2 m je Stufe
++Wirkungsdauer: 1 Runde + 3 Runden pro Stufe
++Zeitaufwand: 2 Sekunden
+ Wirkungsbereich: 5 m Radius
+ Rettungswurf: Nein
+ 
+@@ -289,18 +296,18 @@
+ Wirkungsbereich: 1 Wesen
+ Rettungswurf: Nein
+ 
+-Mit diesem Zauberspruch kann der Anwender die Stärke einer Armee in einer Person vereinen. Stärke, Konstitution und Geschicklichkeit des Empfängers werden um jeweils 2 Punkte erhöht.~
++Mit diesem Zauberspruch kann der Anwender die Stärke einer Armee in einer Person vereinen. Stärke, Konstitution und Geschicklichkeit des Empfängers werden um jeweils 2 Punkte erhöht und erlaubt dem Ziel, heldenhafte Ausmaße anzunehmen.~
+ @65 = ~Ettins Heilung~
+ @66 = ~Ettins Heilung (Nekromantie)
+ 
+ Grad: 4
+ Reichweite: Anwender
+-Wirkungsdauer: 10 Runden
++Wirkungsdauer: 16 Runden
+ Zeitaufwand: 5
+ Wirkungsbereich: Speziell
+ Rettungswurf: Nein
+ 
+-Ettin, ein Mönch aus der Zeit der Antiker, war ein erfahrener Kräuterkenner. Er fand viele neue Wege in der Heilung des humanoiden Körpers. Ettins Heilung erlaubt es dem Anwender 1 Trefferpunkt pro Runde zu regenerieren.~
++Ettin, ein Mönch, der in der Nähe der Stadt Fernberg lebte, war ein erfahrener Kräuterkenner. Er fand viele neue Wege in der Heilung des humanoiden Körpers. Ettins Heilung erlaubt es dem Anwender bis zu 16 Trefferpunkt pro Runde zu regenerieren.~
+ @69 = ~Melfs explosive Meteoriten~
+ @70 = ~Melfs explosive Meteoriten (Hervorrufung)
+ 
+@@ -317,12 +324,12 @@
+ 
+ Grad: 6
+ Reichweite: Anwender
+-Wirkungsdauer: 2 Runden
++Wirkungsdauer: 5 Runden
+ Zeitaufwand: 2
+ Wirkungsbereich: Anwender
+ Rettungswurf: Nein
+ 
+-Nach dem Ausspruch dieses Zaubers wird der Anwender von einer schimmernden Barriere umgeben. Diese Barriere ist für jegliche Magie und Zaubersprüche undurchdringlich, wodurch der Anwender vor allen Zaubern geschützt ist. Zusätzlich verhindert die Barriere das Aussprechen von Zaubern im Inneren und bannt alle magischen Auswirkungen, die auf dem Anwender liegen. Odemwaffen, Blick- oder Sprachattacken und ähnliche Spezialangriffe können die Barriere ebenfalls nicht durchdringen. Die Barriere kann auch durch "Magie bannen" nicht entfernt werden.~
++Nach dem Ausspruch dieses Zaubers wird der Anwender von einer schimmernden Barriere umgeben. Diese Barriere ist für jegliche Magie und Zaubersprüche undurchdringlich, wodurch der Anwender vor allen Zaubern geschützt ist. Zusätzlich verhindert die Barriere das Aussprechen von Zaubern im Inneren und bannt alle magischen Auswirkungen, die auf dem Anwender liegen. Odemwaffen, Blick- oder Sprachattacken und ähnliche Spezialangriffe können die Barriere ebenfalls nicht durchdringen. Die Barriere kann auch durch "Magie bannen" nicht entfernt werden, aber die Hülle kann von Zaubersprüchen wie Zauberschlag durchdrungen werden.~
+ @79 = ~Massenbezauberung~
+ @80 = ~Massenbezauberung (Verzauberung/Bezauberung)
+ 
+@@ -338,8 +345,8 @@
+ @84 = ~Vestcakes schwebender Fluch (Hervorrufung)
+ 
+ Grad: 7
+-Reichweite: 50 m
+-Wirkungsdauer: 30s
++Wirkungsbereich: 10 m Radius
++Wirkungsdauer: 1 Runde pro Stufe
+ Zeitaufwand: 5
+ 
+ Dieser mächtige Fluch lässt eine Wolke aus kochendem Gas entstehen, die sich auf dem Schlachtfeld ausbreitet. In ihrem Innern kann man kleine Blitze hin und her springen sehen. Die Wolke ist so stark mit Elektrizität geladen, dass jedes Wesen von den Blitzen getroffen wird und sehr hohen Schaden erleidet.~
+@@ -347,14 +354,14 @@
+ @86 = ~Höllenfeuer (Hervorrufung)
+ 
+ Grad: 8
+-Reichweite: 16 m
++Reichweite: 25 m
+ Wirkungsdauer: Sofort
+-Zeitaufwand: 3
++Zeitaufwand: 5
+ Wirkungsbereich: 10 m Radius
+ Rettungswurf: 1/2
+ 
+ Dieser Zauberspruch ist das Werk eines verrückt gewordenen Erzmagiers, auch bekannt als Erz-Astronomer, der während der Zeit von Nesseril lebte. Dieser verrückte Magier war süchtig nach Feuer und erschuf diesen Zauber, um seine Sucht zu befriedigen. Er starb durch ihn kurz nach seiner Fertigstellung.
+-Fast alle modernen Feuersprüche sind in diesem "Cocktail" enthalten, wodurch er fähig ist, so ziemlich jedes Wesen zu Asche zu verbrennen. Wie auch immer, es ist ein unberechenbarer Zauberspruch, somit ist es sicherer ihn aus großer Entfernung auszusprechen.~
++Fast alle modernen Feuersprüche sind in diesem "Cocktail" enthalten, wodurch er fähig ist, so ziemlich jedes Wesen zu Asche zu verbrennen. Wie auch immer, es ist ein unberechenbarer Zauberspruch, somit ist es sicherer ihn aus großer Entfernung auszusprechen. Jeder, der im Bereich der Explosion gefangen wird, erleidet 6W6 Feuerschaden und weitere 2W6, wenn ein Rettungswurf fehlschlägt.~
+ @91 = ~Donnerbolzen (Hervorrufung)
+ 
+ Grad: 8
+@@ -375,7 +382,7 @@
+ Wirkungsbereich: 1 Wesen
+ Rettungswurf: Nein
+ 
+-Den Gerüchten nach nutzte der Magierkönig Varashar diesen Zauber, um sein Leben während seiner 120-jährigen Herrschaft mehrfach zu verlängern. Das Opfer des Zaubers erleidet 5W4 Schadenspunkte, während der Anwender zusätzliche 25% seiner Trefferpunkte erhält. Solche Trefferpunkte, die über das Maximum des Anwenders hinausgehen, gehen nach 4 Runden verloren.~
++Den Gerüchten nach nutzte der Magierkönig Varashar diesen Zauber, um sein Leben während seiner 120-jährigen Herrschaft mehrfach zu verlängern. Ähnlich wie bei Larlochs Entzug von Lebenskraft entzieht der Zauberer einem Ziel die Lebenskraft und fügt sie zu seiner eigenen hinzu. Das Zielwesen erleidet 5-20 Schaden, während der Magier 25% mehr Trefferpunkte erhält. Wenn der Magier mit diesem Zauber seine maximale Trefferpunktzahl überschreitet, verliert er sie nach 4 Runden.~
+ 
+ ////////////////////
+ //Crowns, helm, etc.
+@@ -399,8 +406,8 @@
+ 
+ Besonderheit:
+  Schützt vor kritischen Treffern
+- Ein zusätzlicher Zauber des 1. bis 3. Grades
+- Kann Tiere bezaubern
++ Ein zusätzlicher Zauber des 1. bis 2. Grades
++ Kann 1 mal täglich Tiere bezaubern
+ Reichweite: 12 m
+ Wirkungsdauer: 10 Phasen
+ Wirkungsbereich: 1 Tier
+@@ -419,11 +426,7 @@
+ Rüstungsklasse-Bonus: -1
+ Rettungswurf-Bonus: +1
+ Besonderheit:
+- Widersteht verschiedenen geistigen Angriffen
+- Elektrizitätsresistenz: +20%
+- Kälteresistenz: +20%
+- Feuerresistenz: +20%
+- Säureresistenz: +20%
++ Widersteht Bezauberung und Panik
+  Schützt vor kritischen Treffern
+ Gewicht: 2
+ 
+@@ -462,26 +465,22 @@
+ 
+ Rettungswurf-Bonus: +1
+ Besonderheit:
+- Widersteht verschiedenen geistigen Angriffen
+- Elektrizitätsresistenz: +20%
+- Kälteresistenz: +20%
+- Feuerresistenz: +20%
+- Säureresistenz: +20%
++ Widersteht Bezauberung
++ Elementare Widerstände 10 %
+  Schützt vor kritischen Treffern
+ Gewicht: 2
+ 
+ Kann nur verwendet werden von:
+  Druiden~
+ @1015 = ~Ferthgils Helm~
+-@1017 = ~Dies ist der Helm von Ferthgil Trolltöter, dem Sohn von Breachin Trolltöter. Der Helm wurde Ferthgil vom Steinherd Clan nach dem Tod seines Vaters übergeben. Gulmoth Steinherd, Ferthgils Mentor, legte den Segen von Clanngedin auf den Helm. Damit wollte er Ferthgil beim Bündeln seiner Gedanken helfen, besonders im Kampf sollte ihm dies von großem Nutzen sein.
++@1017 = ~Dieser Helm wurde speziell für Ferthgil Trolltöter geschmiedet, dem Sohn von Breachin Trolltöter. Der Helm wurde Ferthgil vom Steinherd Clan nach dem Tod seines Vaters übergeben und passte ihm perfekt. Gulmoth Steinherd, Ferthgils Mentor, legte den Segen von Clanngedin auf den Helm. Damit wollte er Ferthgil beim Bündeln seiner Gefühle helfen, besonders im Kampf.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Besonderheit:
+  Schützt vor kritischen Treffern
+  Schützt vor allen Formen von Verzauberung, Panik und Festhalten
+- Magieresistenz: 50 %
+-Gewicht: 2
++Gewicht: 4
+ 
+ Kann nur verwendet werden von:
+  Ferthgil Trolltöter~
+@@ -493,8 +492,8 @@
+ Rüstungsklasse-Bonus: -1
+ Besonderheit:
+  Schützt vor kritischen Treffern
+- Kälteresistenz: +20%
+- Feuerresistenz: +20%
++ Kälteresistenz: +10%
++ Feuerresistenz: +10%
+ Gewicht: 2
+ 
+ Kann nicht verwendet werden von:
+@@ -504,7 +503,9 @@
+  Mönchen
+  Kensai~
+ @1024 = ~Skeezer Lumpkins Zwergen-Kriegshelm~
+-@1025 = ~Skeezer bekam diesen Helm von seinem guten Freund Gothmog Steinherd geschenkt. Die beiden wurden Freunde, nachdem Skeezer eines Nachts Gothmogs Leben rettete. Gothmog geriet in einen Hinterhalt der Duergar, die sich in jener mondlosen Nacht auf Beutesuche gemacht hatten. Als Skeezer dies sah, schlug er mit seinem Stab auf den Boden, wodurch sich der Himmel plötzlich erhellte. Die Duergar, die sich in der Dunkelheit sicherer fühlen, ergriffen daraufhin die Flucht. Seitdem sind Gothmog und Skeezer die besten Freunde.
++@1025 = ~Skeezer bekam diesen Helm von seinem guten Freund Gothmog Steinherd, einem Zwergen-Skalden aus dem Steinherd-Sippe, geschenkt. Die beiden wurden Freunde, nachdem der Gnom eines Nachts Gothmogs Leben rettete. Gothmog geriet in einen Hinterhalt der Duergar, die sich in jener mondlosen Nacht auf Beutesuche gemacht hatten. Als Skeezer dies sah, schlug er mit seinem Stab auf den Boden, wodurch sich der Himmel plötzlich erhellte. Die Duergar, die sich in der Dunkelheit sicherer fühlen, ergriffen daraufhin die Flucht. Seitdem sind Gothmog und Skeezer die besten Freunde. Gothmog interessierte sich sogar für die magischen Fähigkeiten seines gnomischen Freundes und probierte heimlich ein paar kleine Zaubersprüche aus, als er den Helm fertigte. Er wusste natürlich, dass sein Clan solche Aktivitäten missbilligen würde.
++
++Obwohl Skeezer behauptet, dass der Helm mit allen Mächten von Clangeddin selbst gesegnet ist, beeindrucken die ausladenden Hörner, die von seinen Seiten abstehen, weit mehr, besonders wenn eines fast Euren Arm durchbohrt. Zum Glück scheint er ihn nur aufzusetzen, wenn die Schlacht bevorsteht.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+@@ -524,7 +525,7 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Besonderheit:
+- Widersteht verschiedenen geistigen Angriffen
++ Widersteht verschiedenen geistigen Angriffen (außer Festhalten)
+  Schützt vor kritischen Treffern
+ Gewicht: 2
+ 
+@@ -555,7 +556,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 3
++Rüstungsklasse: 5
+ Rettungswurf-Bonus: +1
+ Gewicht: 4
+ 
+@@ -568,44 +569,44 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 0
+-Rettungswurf-Bonus: +3
+-Resistenz gegen Elektrizität
++Rüstungsklasse: 3 (0 gegen Geschosse)
++Rettungswurf-Bonus: +1
++Resistenz gegen Elektrizität 25 %
+ Gewicht: 4
+ 
+ Kann nur verwendet werden von:
+  Druiden~
+ @1036 = ~Ferthgils zwergischer Mithril-Plattenpanzer~
+-@1038 = ~Dieser Plattenpanzer wurde von Ferthgil Trolltöter aus soliden Mithril-Platten gefertigt. Sein Lehrer war Otho Getreuhammer, Führer des Getreuhammer Clans und Vater von Tearlac Getreuhammer, Ferthgils bestem Freund. Ferthgil konnte seine Fähigkeiten als Schmied unter Beweis stellen, aber trotzdem zieht er das Kämpfen der Schmiedekunst vor. Diese Rüstung ist vergleichbar mit einem magischen Plattenpanzer und gibt 5 Bonuspunkte auf die Rüstungsklasse. Allerdings wurde keine Magie bei ihrer Fertigung angewendet.
++@1038 = ~Dieser Plattenpanzer wurde von Ferthgil Trolltöter aus soliden Mithril-Platten gefertigt. Sein Lehrer war Otho Getreuhammer, Führer des Getreuhammer Clans und Vater von Tearlac Getreuhammer, Ferthgils bestem Freund. Ferthgil konnte seine Fähigkeiten als Schmied unter Beweis stellen, aber trotzdem zieht er das Kämpfen der Schmiedekunst vor. Diese Rüstung ist vergleichbar mit einem magischen Plattenpanzer und gibt 2 Bonuspunkte auf die Rüstungsklasse. Allerdings wurde keine Magie bei ihrer Fertigung angewendet.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: -2
++Rüstungsklasse: 1 (-2 gegen Aufschlitzen)
+ Gewicht: 30
+ Mindeststärke: 14
+ 
+ Kann nur verwendet werden von:
+- Zwergen
+- Gnomen~
++ Ferthgil Trollslayer~
+ @1039 = ~Conchobhairs gesegneter Plattenpanzer~
+ @1040 = ~Dieser Plattenpanzer wurde gesegnet, damit er extra Schutz beim Kampf gegen riesige Gegner und Monster bietet. Conchobhair findet diese Rüstung ideal für seinen Beruf als Drachenjäger, da sie ihm guten Schutz bietet und seine Bewegungsfreiheit nicht unnötig einschränkt.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: -2
+-Gewicht: 50
++Rüstungsklasse: 2 (-1 gegen Aufschlitzen)
++Gewicht: 18
++Mindeststärke 11
+ 
+ Kann nur verwendet werden von:
+-Paladinen~
++ Conchobhair~
+ @1041 = ~Kristallpanzer~
+ @1042 = ~Dieser Plattenpanzer wurde aus magischen Kristallen hergestellt, welche in einer längst vergessenen Zwergenmine gefördert wurden. Die Kristalle haben eine natürliche Resistenz gegen Feuer und Kälte.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 1
++Rüstungsklasse: 2
+ Besonderheit:
+- Kälteresistenz: +20%
+- Feuerresistenz: +20%
++ Kälteresistenz: +15%
++ Feuerresistenz: +15%
+ Gewicht: 20
+ Mindeststärke: 11
+ 
+@@ -622,11 +623,11 @@
+  Gestaltwandler~
+ 
+ @1047 = ~Thorfinns Lederharnisch~
+-@1048 = ~Dies ist der persönliche Lederharnisch von Thorfinn Hauskluniff. Die besondere Machart der Rüstung aus ineinander greifenden Lederplatten macht sie viel leichter als eine normale Lederrüstung.
++@1048 = ~Dies ist der persönliche Lederharnisch von Thorfinn Hauskluniff. Obwohl er keine magischen Fähigkeiten besitzt, ist er ein gut konstruiertes Stück, das aufgrund seines Schnitts und Designs fast wie traditionelles Leder wirkt. Ein knurrender Wolf auf der Brust erinnert an seine wildere Herkunft.
+ 
+ EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 6
++Rüstungsklasse: 6 (8 gegen Durchbohren und Geschosse)
+ Gewicht: 3
+ 
+ Kann nur verwendet werden von:
+@@ -637,9 +638,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 0
+-Rettungswurf-Bonus: +2
+-Resistenzbonus: +25%
++Rüstungsklasse: 2
++Rettungswurf-Bonus: +1
++Resistenzbonus: +20%
+ Gewicht: 20
+ Mindeststärke: 8
+ 
+@@ -652,7 +653,9 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Rüstungsklasse: 3
++Besondewrheit: Stärkung
+ Gewicht: 10
++Mindeststärke 7
+ 
+ Kann nicht verwendet werden von:
+  Druiden
+@@ -669,7 +672,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: -1
++Rüstungsklasse: 0
+ Schützt vor Gift
+ Gewicht: 18
+ Mindeststärke: 11
+@@ -677,47 +680,53 @@
+ Kann nur verwendet werden von:
+  Paladinen~
+ @1059 = ~Jet'layas Kettenhemd~
+-@1060 = ~Das persönliche Kettenhemd von Jet'laya. Ihr Zwillingsbruder Rennar schmiedete es für sie. Aufgrund der ungewöhnlichen Farbe könnte man meinen, es handle sich um ein Kettenhemd der Elfen.
++@1060 = ~Das persönliche Kettenhemd von Jet'laya. Dieses extrem leichte Kettenhemd besteht aus sehr feinen Mithrilgliedern und wurde von ihrem Zwillingsbruder Rennar für sie geschmiedet.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 4
++Rüstungsklasse: 5 (3 gegen Aufschlitzen, 7 gegen Zertrümmern)
++Besonderheit: Das Wirken von  Zaubern ist nicht behindert
+ Gewicht: 15
+ 
+ Kann nur verwendet werden von:
+  Jet'laya~
+ @1061 = ~Schienenpanzer +4 - Korims Haut~
+-@1062 = ~Dieser Schienenpanzer wurde in den Feuern von Nesseril durch die Hand von Korim gefertigt. Der Panzer hat eine einzigartige grüne Farbe und ist sehr leicht. Korim war sehr erfahren in den Künsten der Magie und der Natur. Nach einem wilden Kampf, in dem er schwer verwundet wurde, beschloss er, dass er eine Rüstung mit besserem Schutz braucht. Außerdem wollte er nicht auf seine speziellen Talente verzichten. Mit einem mächtigen Erkenntniszauber fand er ein starkes und leichtes Metall, dass seine Fähigkeiten nicht einschränken würde.
++@1062 = ~Diese seltsam grün getönte und stark verzauberte Rüstung ist ungewöhnlich leicht und geschmeidig für einen Schienenpanzer. Sie wurde vom Netherese-Zauberer und Waldläufer Korim konstruiert und bot ihm einen weitaus größeren Schutz als Roben. Gleichzeitig konnte er seine vielfältigen Zauberfähigkeiten voll ausnutzen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 0
++Rüstungsklasse: 4 (3 gegen Durchbohren und Geschosse, 2 gegen Zertrümmern)
+ Besonderheit:
+- Regeneration: 1 Trefferpunkt alle 2 Runden
+- Hindert nicht beim Zaubern
++ Behindert nicht beim Zaubern
+ Gewicht: 7
+ 
+-Kann nur verwendet werden von:
+-Mönchen
+-Kensai~
+-@1063 = ~CúChoinneachs Lederrüstung +4~
++Kann nicht verwendet werden von:
++ Druiden
++ Magiern
++ Mönchen
++ Bogenschützen
++ Pirschern
++ Kensai
++ Tiermeistern
++ Gestaltwandlern~
++@1063 = ~CúChoinneachs Beschlagenes Lederwams +2~
+ @1064 = ~Diese Rüstung hat CúChoinneach während seiner Tage als Waldläufer selbst hergestellt.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 3
++Rüstungsklasse: 5 (3 gegen Aufschlitzen, 4 gegen Durchbohren und Geschosse)
+ Im Schatten verstecken: +15%
+ Gewicht: 8
+ 
+ Kann nur verwendet werden von:
+  CúChoinneach~
+ @1065 = ~Keirias Bardenrüstung +1~
+-@1066 = ~Keiria war stets darauf bedacht, die Verbindung zu ihren elfischen Verwandten aufrecht zu erhalten. So konnte sie in den Besitz einiger magischer Gegenstände der Elfen kommen. Diese elfische Lederrüstung gewährt einen Bonus auf die Rüstungsklasse und schränkt das Zauberwirken nicht ein.
++@1066 = ~Keiria war stets darauf bedacht, die Verbindung zu ihren elfischen Verwandten aufrecht zu erhalten. So konnte sie in den Besitz einiger magischer Gegenstände der Elfen kommen. Darunter befindet sich auch diese Lederrüstung mit Nieten, die von magischen Zaubersprüchen durchdrungen ist und dem Träger mehr Freiheit beim Wirken von Zaubersprüchen bietet.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 6
+-Gewicht: 15
++Rüstungsklasse: 7 (5 gegen Aufschlitzen, 6 gegen Durchbohren und Geschosse)
++Gewicht: 10
+ 
+ Kann nur verwendet werden von:
+  Keiria Silbersaite~
+@@ -741,17 +750,20 @@
+ Gewicht: 8
+ Mindeststärke: 6
+ 
++Besonderheit: Fallen finden / Schlösser öffnen +10%
++
+ Kann nur verwendet werden von:
+  Dieben~
+ @1072 = ~Skeezer Lumpkins Zauberrobe~
+ @1073 = ~Seit den Tagen von Nesseril haben Magier gelernt, alltägliche Objekte, die sie umgeben, mit den verschiedensten magischen Eigenschaften zu versehen. Einer der beliebtesten Gegenstände für die Anwendung von Zaubern ist die gemeine Robe. Sie ist leicht, erschwinglich und behält ihre Verzauberung gut bei, wodurch sie zur idealen Ausrüstung für einen Magier wird. Aufgrund ihres magischen Erbes dürfen jedoch nur Magier diese Roben tragen.~
+-@1074 = ~Diese mächtige Zauberrobe bietet Schutz vor allen Formen körperlichen Angriffs, während sie gleichzeitig den Magiewiderstand sowie die Rettungswürfe des Trägers erhöht.
++@1074 = ~Bunt, hell und... bunt... Skeezers Gewand könnte mit Recht als rote Farbenorgie bezeichnet werden, besonders wenn es mit den vielen Schmuckstücken geschmückt ist, die er sehr schätzt. Der Gnom behauptet, er habe bei der Herstellung eine neue Art von Stoff erfunden, der vor dem verdorrenden Atem der Drachen, den heimtückischen Tentakeln der Gedankenschinder und den magischen Explosionen der Betrachter schützt. Nach allem, was man weiß, würde die Robe kaum den Dolch eines lahmen Kobolds aufhalten. Angesichts der Fähigkeiten von Skeezer als Magier bestehen jedoch keine Zweifel daran, dass sie zumindest magischen Schutz bietet.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 5
+-Rettungswurf-Bonus: +1
+-Magieresistenz: +5%
++Rüstungsklasse: 7
++Besonderheit:
++ Rettungswurf-Bonus: +1
++ Magieresistenz: +5%
+ Gewicht: 6
+ 
+ Kann nur verwendet werden von:
+@@ -769,31 +781,32 @@
+  Magiern
+  Barden~
+ @1077 = ~Robe der Hexenmeister~
+-@1078 = ~Diese mächtige Robe bietet ihrem Träger nicht nur Schutz vor körperlichen Angriffen, sondern erhöht auch seine magische Widerstandsfähigkeit und gibt einen Bonus auf seine Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit böser Gesinnung getragen werden.
++@1078 = ~Es wird gemunkelt, dass diese mächtige Robe eine dunkle Geschichte hat. Angeblich von dem Erzmagier Halaster erschaffen, um junge Magier zu quälen, hat sie auf ihren Reisen durch die Reiche Chaos gesät und Mord und Verrat hinterlassen. Trotz starker Schutzzauber ist sie selten lange bei einem einzigen Besitzer geblieben, und es wird geflüstert, dass die Robe selbst nichts weniger als die Zerstörung eines jeden begehrt, der danach strebt, sie zu beanspruchen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -2
+-Rettungswurf-Bonus: +3
+-Magieresistenz: 25%
++Rüstungsklasse-Bonus: +1
++Rettungswurf-Bonus: +1
++Magieresistenz: 10%
+ Gewicht: 6
+ 
+ Kann nur verwendet werden von:
+- bösen Magiern~
++ Magiern (ein-, zwei- oder mehrklassig)
++ böse gesinnten Charakteren~
+ @1079 = ~Robe von Dh'arlo'me~
+ @1080 = ~Diese mächtige Zauberrobe bietet Schutz vor allen Formen des physischen Angriffs, während sie außerdem die magische Resistenz erhöht. Die Robe kann nur durch den Zauber "Fluch brechen" wieder entfernt werden.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 3
++Rüstungsklasse: 4
++Magieresistenz: +10%
+ Besonderheit:
+- Immunität gegen Zauber des 1., 2. und 3. Grades
+- Intelligenz: auf 19 gesetzt
+- Weisheit: auf 19 gesetzt
+- Magieresistenz: +50%
+- +4 auf Zauber des 1. bis 3. Grad
+- Träger kann schneller zaubern
++ Immunität gegen Zauber des 1. und 2. Grades
+  Immunität gegen alle nicht-magischen Waffen
++ Intelligenz und Weisheit +1
++ Träger kann schneller zaubern 
++ ein zusätzlicher Zauber des 3. und 4. Grades (arkan und göttlich)
++
+ Gewicht: 6
+ 
+ Kann von allen verwendet werden.~
+@@ -802,16 +815,16 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -1
+-Rettungswurf-Bonus: +2
++Rüstungsklasse-Bonus: +1
++Rettungswurf-Bonus: +1
+ Gewicht: 3
+ 
+ Kann nur verwendet werden von:
+- Magiern~
++ Magiern (ein-, zwei- oder mehrklassig)~
+ @1083 = ~Drow Zauberumhang~
+-@1084 = ~Hochstufige Drow tragen oft einen Zauberumhang, welcher eine 75%-ige Chance bietet, unentdeckt im Schatten zu verbleiben. Der Umhang wird aus einem speziellen, mit Adamantit verwebten Material gemacht, bietet Resistenz gegen Feuer und +6 auf Rettungswürfe gegen Feuer. Diese Umhänge können nur von Elfen getragen werden.
++@1084 = ~Mächtige Drow-Magier tragen oft feine Mäntel, die sich in ihre Umgebung einfügen, was es ziemlich schwierig macht, sich ihnen im Kampf zu stellen. Das Material, aus dem diese Mäntel hergestellt werden, ist nicht leicht zu zerschneiden und ist feuerfest.
+ 
+-Da das Adamantit sehr empfindlich auf Sonnenlicht reagiert, setzt bei Tageslicht unwiderruflich der Zerfall ein. Der Umhang verrottet innerhalb von 2 bis 12 Tagen und wird somit nutzlos.
++Wie die meisten Drow-Gegenstände ist dieser aus einer Legierung aus Adamantit, die sich außerhalb des Unterreichs schnell in Staub verwandelt.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+@@ -819,14 +832,14 @@
+ Besonderheit:
+  Intelligenz-Bonus: +2
+  Rettungswurf gegen Odemwaffen: +6
+- Kann sich einen Extrazauber pro Grad bis zum 9. Grad einprägen
+- Feueresistenz: +75%
++ Kann sich einen Extrazauber des 6. und 7. Grades einprägen
++ Feueresistenz: +50%
+  Unauffindbarkeit
+ 
+ Gewicht: 1
+ 
+ Kann nur verwendet werden von:
+- Magiern~
++ bösen Magiern (ein-, zwei- oder mehrklassig)~
+ @1085 = ~Robe des Abyss~
+ @1086 = ~Ein wirklich niederträchtiges Artefakt, das dem Abyss entstammt. Die Robe bietet Schutz vor körperlichen Angriffen und erhöht gleichzeitig die magische Resistenz des Trägers sowie seine Rettungswürfe. Aufgrund ihrer Herkunft kann sie nur von Magiern mit böser Gesinnung getragen werden.
+ 
+@@ -849,9 +862,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -2
+-Rettungswurf-Bonus: +3
+-Magieresistenz: 25%
++Rüstungsklasse-Bonus: +1
++Rettungswurf-Bonus: +1
++Magieresistenz: 10%
+ Gewicht: 6
+ 
+ Kann nur verwendet werden von:
+@@ -888,27 +901,26 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -2
+ Besonderheit:
+- List wird erhöht
++ Leise Bewegen
+  Unauffindbarkeit
+ Gewicht: 3
+ 
+ Kann nur verwendet werden von:
+  Waldläufern~
+-@1103 = ~Schutzumhang +3~
+-@1104 = ~Mystras Robe
++@1103 = ~Mystras Robe~
++@1104 = ~Schutzumhang +3 Mystras Robe
+ 
+ Von diesen Roben wird behauptet, dass sie nur an wenige auserwählte Priester der Mystra vergeben werden. Da manche dieser Priester sehr früh gestorben sind, konnten einige Roben außerhalb dieser religiösen Organisation einen Besitzer finden. Der Träger erhält Boni auf körperliche und magische Angriffe sowie Schutz vor Untoten.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -3
+-Rettungswurf-Bonus: +2
+-Schützt vor Untoten
++Rüstungsklasse-Bonus: +2
++Rettungswurf-Bonus: +12
++Schutz vor Lebenskraftentzug
+ Gewicht: 3
+-Kann nicht verwendet werden von:
+- Magierkiller~
++Kann nur verwendet werden von:
++ Magiern (ein-, zwei- oder mehrklassig)~
+ 
+ /////////////////////////////
+ // Bracers, Gauntlets, Gloves
+@@ -919,7 +931,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 2
++Rüstungsklasse: 4
+ Gewicht: 2
+ 
+ Können nicht verwendet werden von:
+@@ -946,11 +958,10 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 0
+ Besonderheit:
+- Erhöht Angriffswert
+- Erhöht Rettungswürfe
+- Magiewiderstand: +25%
++ Angriff pro Runde +1
++ Alle Rettungswürfe +1
++
+ Gewicht: 2
+ 
+ Können nur verwendet werden von:
+@@ -960,10 +971,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse: 2
++Rüstungsklasse: +3 gegen Geschosse
+ Besonderheit:
+- Erhöht Angriffswert
+- Resistenz gegen Versteinerung
++ ERettungswürfe gegen Versteinerung +3
+ Gewicht: 2
+ 
+ Können nur verwendet werden von:
+@@ -974,11 +984,11 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -2
+-Erhöht Zaubergeschwindigkeit
++Rüstungsklasse auf 7 gesetzt
++Erhöht Zaubergeschwindigkeit um 1
+ Gewicht: 2
+ 
+-Kann nicht verwendet werden von:
++Kann nur verwendet werden von:
+  Barden
+  Magiern~
+ @1119 = ~Handschuhe des Treuen Kriegers~
+@@ -986,12 +996,12 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-ETW0-Bonus: -3
+-Schadensbonus: +3
++ETW0-Bonus: +2
++Schadensbonus: +2
+ Gewicht: 1
+ 
+ Kann nur verwendet werden von:
+- Klerikern~
++ Klerikern (ein-, zwei- oder  mehrklassig)~
+ 
+ ////////
+ // Rings
+@@ -1002,13 +1012,16 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Zusätzlich zwei Zauber 1. Grades, einen 2. Grades und einen 3. Grades.
++Zusätzlich ein Zauber 1. Grades und einen 2. Grades
+ 
+ Kann nur verwendet werden von:
+  Magiern
+ Barden~
+-@1129 = ~Priesterring von Ghaunadaur~
+-@1131 = ~Dieser Ring kann nur von Priestern der Stufe 5 oder höher verwendet werden. Er gewährt seinem Träger Immunität gegen Gift.
++@1129 = ~Ring von Ghaunadaur~
++@1131 = ~Ghaunadaur ist eine höchst unvberechenbare Gottheit und belohnt seine treuen Anhänger oft mit Segen und Geschenken, einschließlich solcher Ringe. Andererseits belohnt er diese Eiferer genauso oft mit Folter und Tod.
++
++Ausgestattete Fähigkeiten:
++ Immunität gegen Gift und Säure.
+ 
+ Kann nur verwendet werden von:
+  Klerikern
+@@ -1016,20 +1029,20 @@
+  Paladinen
+  Waldläufern~
+ @1133 = ~Mopaps Glücksrunen-Schlüsselstein~
+-@1135 = ~Es gehen Gerüchte von einem zirpenden Eichhörnchen um, das einen Glücksrunen-Schlüsselstein besitzen soll. Wie auch immer, niemand konnte diese Gerüchte bis jetzt bestätigen.
++@1135 = ~Es gehen Gerüchte von einem zirpenden Eichhörnchen um, das einen Glücksrunen-Schlüsselstein bewachen soll. Wie auch immer, niemand konnte diese Gerüchte bis jetzt bestätigen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Glücks-Bonus: +1
+ 
+ Kann nicht verwendet werden von:
+- Magierkiller~
++ Magierkillern~
+ @1136 = ~Mystischer Ring~
+ @1137 = ~Der genaue Herkunftsort dieses Ringes ist unbekannt. Es wird jedoch geglaubt, dass er einem alten Magier gehörte, der in einem kleinen Dorf lebte und dort als der "Weise Mann" auftrat, bis er gestorben ist.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Zusätzlich ein Zauber 2. Grades, einen 3. Grades und einen 4. Grades.
++Zusätzlich ein Zauber 3. Grades und 4. Grades.
+ 
+ Kann nur verwendet werden von:
+  Magiern
+@@ -1048,42 +1061,46 @@
+ 
+ Kann nur verwendet werden von:
+  Barden~
+-@1142 = ~Bardenring~
+-@1143 = ~Dieser Ring gehörte einst dem berühmten Barden Morridin. Der Magierkönig Varashar ließ ihn für Morridin anfertigen, nachdem dieser einen sieben Jahre dauernden Wettstreit für Heldensänger gewann.
++@1142 = ~Keirias Bardenring~
++@1143 = ~Dieser Ring gehörte einst dem berühmten Barden Morridin. Der Magierkönig Varashar, ein Nachkomme der Netherese-Magier, ließ ihn für Morridin anfertigen, nachdem dieser einen sieben Jahre dauernden Wettstreit um den versiertesten Barden in Sachen Magie und Musik. Als Morridin schließlich seine Konkurrenten mit seiner eigenen Variante eines einfachen Schelmenstreichs besiegte, verlieh ihm Varashar den Titel Hofbard und diesen Ring.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Zusätzlich ein Zauber 1. Grades, einen 3. Grades und einen 5. Grades.
++Ein zusätzlicher Barden-Zauber des 1. bis 3. Grades.
+ 
+ Kann nur verwendet werden von:
+- Barden~
++ Keiria Silverstring~
+ @1144 = ~Siegelring der Sukien~
+ @1145 = ~Durch die Magie der Hohepriester des Sukien-Tempels aufgewertet, werden solche Ringe von allen getragen, die den Tempel vor dem Bösen beschützen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -1
+-Rettungswurf-Bonus: +2
+-Schutz vor Versteinerung
++Rüstungsklasse-Bonus: +1
++Rettungswurf-Bonus: +1
++Schutz vor Versteinerung einmal täglich
+ 
+ Kann nur verwendet werden von:
+  Paladinen~
+-@1146 = ~Ring des Feuerschildes~
++@1146 = ~Ring des Feuerschildes: Charviraks Leuchten~
+ @1147 = ~Charviraks Leuchten
+ 
+-Seit Anbeginn der Zeit haben Magier die Elemente in ihrer Umgebung zum Angriff und zur Verteidigung verwendet. Dieser Ring ist das Handwerk des großen Zauberers Charvirak von Cormyr. Es wird behauptet, dass er die Essenz eines Feuergolems in dem Ring eingeschlossen hat.
++Während der Invasion der Schwarzen Horde, in der sogar die südlichen Nationen überrannt wurden, versuchte der Druide Charvirak verzweifelt, den Wald von Tethir vor den Bränden zu schützen, die von wütenden Orks und Goblins verursacht wurden. Er hielt die Essenz eines Efreeti in diesem Ring fest und wanderte damit direkt durch die Flammen der brennenden Bäume, um sie zu löschen, bevor sie dauerhaften Schaden anrichten konnten.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -4
++Rüstungsklasse-Bonus: +1
+ Besonderheit:
+- Schutz gegen nicht magische Waffen
+- Immunität gegen Feuer
++ Feuerwidwrstand 30%
+ 
+ Kann nur verwendet werden von:
+  Druiden~
+ @1148 = ~Jet'layas Ring~
+-@1149 = ~Dieser hübsche Ring gehörte einst Jet'layas Mutter.~
++@1149 = ~Dieser Ring gehörte einst Jet'layas Mutter. Er ist elfischen Ursprungs und enthält eine starke Verzauberung, die Jet'laya davor schützt, unter den Einfluss von Zaubersprüchen und -effekten zu geraten.
++
++SPEZIFISCHE EIGENSCHAFTEN:
++
++Besonderheiten:
++Immunität gegen Bezauberung und Schreckenszauber~
+ 
+ ////////////////////////////
+ // Misc, books, scrolls, etc
+@@ -1096,7 +1113,7 @@
+ Rieltar~
+ @1152 = ~Mein Freund Otho,
+ 
+-hier sind die tapferen Abenteurer, von denen ich Euch erzählt habe. Ich würde es Euch hoch anrechnen, wenn Ihr ihnen einen Streitkolben von höchster Qualität aus dem besten Eisen schmieden könntet. Sie haben eine große Tat für mich vollbracht und sich selbst als würdig erwiesen. Die Waffe wird in naher Zukunft eine wichtige Rolle für sie spielen.
++dies sind die tapferen Abenteurer, von denen ich Euch erzählt habe. Ich würde es Euch hoch anrechnen, wenn Ihr ihnen einen Streitkolben von höchster Qualität aus dem besten Eisen schmieden könntet. Sie haben eine große Tat für mich vollbracht und sich selbst als würdig erwiesen. Die Waffe wird in naher Zukunft eine wichtige Rolle für sie spielen.
+ 
+ Euer Freund,
+ Lennan~
+@@ -1108,7 +1125,7 @@
+ Clairis~
+ @1154 = ~Meine Freunde,
+ 
+-Eure Taten waren von Tapferkeit und Ehre erfüllt. Es ist allein Euch zu verdanken, dass wir Lord Daerthmac aufhalten konnten. Ich bedauere es sehr, dass so viele ihr Leben lassen mussten. Ich hätte Euch nie in einen Kampf verwickeln sollen, der nur der meinige war. Ich muss Euch nun verlassen, denn das ist meine Art zu leben. Sollte ich jemals wieder mit einer Gruppe Abenteurer reisen, dann hoffe ich, dass diese genauso mutig und ehrbar ist wie Ihr.
++Eure Taten waren von Tapferkeit und Ehre erfüllt. Mit Eurer Hilfe konnten wir Lord Daerthmac aufhalten. Aber ich muss jetzt gehen, denn meine Mission ist noch nicht beendet. Andere Übel bedrohen immer noch die Schwertküste und darüber hinaus, und ich befürchte, dass wir nicht von dem letzten Vampir oder seiner Art gehört haben. Wenn ich jedoch jemals wieder mit einer Gruppe Abenteuer erleben würde, würde ich hoffen, dass sie so mutig und ehrenwert sind wie Ihr.
+ 
+ Lebt wohl,
+ CúChoinneach agus Madadh n'Sgàil~
+@@ -1145,7 +1162,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Besonderheit: Löst Furcht bei Feinden aus, wenn ihnen ein Rettungswurf gegen Zauberstäbe misslingt.
++Besonderheit: Löst Furcht bei Feinden aus, wenn ihnen ein Rettungswurf gegen Zauber misslingt (+2).
+ Reichweite: 33 m
+ Wirkungsdauer: 20 Runden
+ Wirkungsbereich: 6 m Radius
+@@ -1161,8 +1178,8 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Besonderheit: "Schreckenszauber"
+-Reichweite: 33 m
++Besonderheit: "Schreckenszauber" (10 Runden)
++Reichweite: 10 m
+ Wirkungsbereich: 1 Wesen
+ 
+ Kann nur verwendet werden von:
+@@ -1174,7 +1191,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Verdoppelt Eure Erfahrungspunkte!
++Der Charakter erhält 10.000 Erfahrungspunkte
++Besonderheit: Das Buch wird durch Gebrauch beim Lesen zerstört.
++Verwendung: Verwahrt es in Eurer Gürteltasche 
+ 
+ Kann nur verwendet werden von:
+  Magiern~
+@@ -1214,7 +1233,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Besonderheit: "Schutz vor Säure"
++Besonderheit: 25% Schutz vor Säure
+ 
+ Kann nur verwendet werden von:
+  Neutralen Wesen~
+@@ -1228,10 +1247,17 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-"Schutz vor Feuer"
++Besonderheit: 25% Schutz vor Feuer
+ 
+ Kann nur verwendet werden von:
+  bösen Wesen~
++@1260 = ~Ihr seid in der Tat ein sehr glücklicher Abenteurer. Diese Blaustein-Halskette erhöht Eure Geschicklichkeit und gibt Euch einen ETW0-Bonus von +1! Lasst sie einfach nicht in die falschen Hände gelangen...
++
++Besonderheit:
++  +3 Geschicklichkeitsbonus und +3 TETW0 beim Tragen
++
++Kann nicht verwendbet werden von:
++ Magierkillern~setup
+ @1261 = ~Amulett des Glaubens~
+ @1262 = ~Es gibt eine Menge vergleichbare Gegenstände in den Reichen. Die meisten haben eher einen symbolischen als praktischen Nutzen, im Allgemeinen um den Glauben des Trägers zu verdeutlichen.
+ 
+@@ -1245,11 +1271,11 @@
+  Magierkiller~
+ @1263 = ~Jules antike Perlenkette~
+ @1264 = ~Amulett des Lehrlings~
+-@1265 = ~Diese Amulette sind oft Geschenke für Lehrlinge, die ihre Ausbildung als Magier beendet haben oder noch beenden werden.
++@1265 = ~Ähnliche Gaben werden oft an Lehrlinge vergeben, die ihre Ausbildung bei einem Magier beendet haben oder kurz davor stehen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Zusätzlich ein Zauber 1. Grades, zwei 2. Grades und zwei 3. Grades.
++Zusätzlich ein Zauber 3. Grades.
+ Gewicht: 1
+ 
+ Kann nur verwendet werden von:
+@@ -1271,17 +1297,17 @@
+ /////////////////////////////////////
+ 
+ @1271 = ~Pfeile der Drachentötung~
+-@1273 = ~Dieser Pfeil ist verdreht und schwarz. Man sieht ihm fast an, dass er das Böse ausstrahlt, so als wäre er von einer höheren Macht besessen. Er wurde hergestellt um ein bestimmtes Wesen, und nur dieses eine Wesen, zu töten. Der unglückliche Auserwählte ist in diesem Fall der Drache. Der Pfeil tötet jeden kleinen Drachen oder kleinen Lindwurm sofort und verursacht extra Schaden bei einem großen Drachen oder großen Lindwurm.
++@1273 = ~Dieser Pfeil ist verdreht und schwarz. Man sieht ihm fast an, dass er das Böse ausstrahlt, so als wäre er von einer höheren Macht besessen. Er wurde hergestellt um ein bestimmtes Wesen, und nur dieses eine Wesen, zu töten. Der unglückliche Auserwählte ist in diesem Fall der Drache. Der Pfeil tötet jeden Lindwurm sofort und verursacht extra Schaden bei Drachen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Tötet kleine Drachen und Lindwürmer sofort. Es besteht eine 10%-ige Chance, dass alle Drachen sofort sterben.
++Tötet Lindwürmer sofort. Es besteht eine 10%-ige Chance, dass alle Drachen sofort sterben.
+ 
+ Schaden: 1W6
+ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+-Besonderheit: Tötet kleine Drachen und Wyvern bei Kontakt
++Besonderheit: Tötet kleine Drachen und Wyvern bei Kontakt (außer wenn ein Rettungswurf gelingt)
+ Schadensbonus: +3 gegen Drachen
+-ETW0-Bonus: -3 gegen Drachen
++ETW0-Bonus: +-3 gegen Drachen
+ Gewicht: 0
+ Schusswaffe: Bogen~
+ @1278 = ~Pfeil des Angriffs~
+@@ -1298,10 +1324,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 +1
++Schaden: 1W8
++Besonderheit: Magie bannen (Rettungswurf gegen Zauber +2)
+ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+-ETW0-Bonus: -1
+-Bannt Magie des Ziels
+ Gewicht: 0
+ Schusswaffe: Armbrust~
+ @1285 = ~Kugel der Detonation~
+@@ -1323,7 +1348,7 @@
+ Schaden: 1W4 +2
+ Schadensart: mit Hiebwaffe zertrümmern (Fernkampf)
+ Schadensbonus: 2W3 gegen Untote
+-ETW0-Bonus: -1
++ETW0-Bonus: -+1
+ Gewicht: 0
+ Schusswaffe: Schleuder~
+ 
+@@ -1332,7 +1357,7 @@
+ ////////
+ 
+ @1292 = ~Stiefel des Waldes~
+-@1294 = ~Die Stiefel des Waldes waren eines der vielen Geschenke, die an die Hüter des Waldes vergeben wurden. Sie versehen den Träger mit zusätzlichen Fähigkeiten wie höhere Geschwindigkeit, List und Handlungsfreiheit.
++@1294 = ~Die Stiefel des Waldes waren eines der vielen Geschenke, die an die Hüter des Waldes vergeben wurden. Sie versehen den Träger mit zusätzlichen Fähigkeiten wie höhere Geschwindigkeit, Leise bewegen und im Schatten verstecken und zu vermeiden, gefangen genommen zu werden (Netz, Schmieren, Verstricken)
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+@@ -1347,7 +1372,7 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -5 gegen stumpfe Waffen
++Rüstungsklasse-Bonus: +3 gegen stumpfe Waffen
+ Gewicht: 18
+ 
+ Können nicht verwendet werden von:
+@@ -1361,26 +1386,26 @@
+ // Shields
+ //////////
+ 
+-@1302 = ~CúChoinneachs Schild +3 "Der Mond"~
++@1302 = ~CúChoinneachs Schild +1 "Der Mond"~
+ @1304 = ~CúChoinneach fertigte diesen Schild, nachdem er den Krummsäbel "Mairial" von Sehanine Mondbogen erhalten hatte. Der Schild besteht aus dem härtesten Holz und ist mit Mithril verziert.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -4
++Rüstungsklasse-Bonus: +2
+ (kein Schutz vor Geschosswaffen)
+ Gewicht: 3
+ 
+ Kann nur verwendet werden von:
+  CúChoinneach~
+-@1305 = ~Jet'layas Schild~
++@1305 = ~Jet'layas Kleiner Schild +2~
+ @1306 = ~Dies ist der persönliche Schild von Jet'laya. Das Holz, aus dem der Schild besteht, wurde in einem heiligen Wald geschlagen, und das Metall zur Verstärkung wurde in heiligem Wasser geschmiedet. Die bloße Präsenz dieses Schildes lässt alle Untoten, außer die stärksten, vor Angst die Flucht ergreifen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -3
++Rüstungsklasse-Bonus: +1
+ (kein Schutz vor Geschosswaffen)
+ ETW0-Bonus -2 gegen Untote
+-Gewicht: 3
++Gewicht: 4
+ 
+ Kann nur verwendet werden von:
+  Jet'laya~
+@@ -1390,7 +1415,9 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Rüstungsklasse-Bonus: -3
+-Besonderheit: Erhöhte Kälteresistenz und Feuerresistenz
++Besonderheit:
++ Erhöhte Kälteresistenz +30%
++ Verminderte Feuerresistenz -25%
+ Gewicht: 3
+ Mindeststärke: 4
+ 
+@@ -1406,8 +1433,8 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Rüstungsklasse-Bonus: -3
+-Erhöhte Trefferpunkte
++Rüstungsklasse-Bonus: 3
++Trefferpunkte +10%
+ Magieresistenz: +5%
+ Gewicht: 6
+ 
+@@ -1418,8 +1445,8 @@
+  Dieben
+  Mönchen
+  Kensai~
+-@1315 = ~Kelubs Langschild gegen Geschosse~
+-@1317 = ~Langschild +2, +7 gegen Geschosswaffen: "Die Wand"
++@1315 = ~Langschild +2 "Die Wand"~
++@1317 = ~"Die Wand"
+ 
+ In den ersten Tagen der Schlacht von Selidor wurde Kelubs Armee von einem Meer an Pfeilen, die den Himmel verdunkelten, geschlagen. Kelub gab bei seinem bestem Schmied einen Schild in Auftrag, welcher seine Armee besser vor derart heftigen Angriffen schützen sollte. Der Schmied arbeitete fieberhaft daran und produzierte dutzende dieser Schilde. Sie wirkten großartig gegen die Pfeile, als jedoch seine Truppen auf die Gegner trafen, waren sie viel zu erschöpft, um zu kämpfen.
+ 
+@@ -1447,11 +1474,10 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 2W5 +2
++Schaden: 2W10 +2
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
+-Rüstungsklasse-Bonus: -1
++ETW0-Bonus: +2
+ Geschicklichkeits-Bonus: +1
+ Gewicht: 8
+ Geschwindigkeitsfaktor: 2
+@@ -1469,11 +1495,11 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 2W5 +3
++Schaden: 1W10 +3
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -3
+-Besonderheit: Wahrscheinlichkeit von 40% für den Träger, rasend zu werden.
++ETW0-Bonus: +3
++Besonderheit: Wahrscheinlichkeit von 33% für den Träger, rasend zu werden.
+ Gewicht: 10
+ Geschwindigkeitsfaktor: 3
+ Mindeststärke: 10
+@@ -1485,19 +1511,18 @@
+  Klerikern
+  Magiern
+  Tiermeistern~
+-@1330 = ~Krummsäbel +3, "Yarrows Tränen"~
++@1330 = ~Krummsäbel +1, "Yarrows Tränen"~
+ @1332 = ~Kurz nachdem der Tempel von Erreth-Akbe zerstört worden war, kehrte der Erzdruide Yarrow zurück und sah die Ruinen, die einst seine Heimat waren. Der mächtige Druide flehte die Götter für Rache an - dann weinte er, und seine Tränen fielen auf sein Schwert. Die Tränen übertrugen die Macht seines Kummers und seinen Wunsch nach Rache auf den Krummsäbel, der dadurch eine mächtige Waffe wurde.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 +3
++Schaden: 1W8 +1
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+ ETW0-Bonus: -3
+-Rüstungsklasse-Bonus: -2
+ Besonderheit:
+- Betäubt das Ziel bis zum Rettungswurf gegen Zauber
+- "Personen oder Säugetiere bezaubern" 3 mal pro Tag
++ 20% das Ziel betäuben bis zum Rettungswurf gegen Zauber
++ "Personen oder Säugetiere bezaubern" 1 mal pro Tag (Rettungswurf bei +2)
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 2
+ Mindeststärke: 8
+@@ -1507,31 +1532,28 @@
+ Kann nur verwendet werden von:
+  Druiden~
+ @1334 = ~Conchobhairs Drachentöter~
+-@1336 = ~Conchobhairs Schwert wurde durch starke Verzauberungen und Segen in seinen Eigenschaften soweit verbessert, dass es für die Zerstörung der in den Reichen gefürchteten Drachen wie geschaffen ist.
+-
+-Es wird nicht empfohlen, dieses Schwert jemand anderem zu geben oder ohne Conchobhairs Zustimmung zu verwenden. Ihr wurdet gewarnt!
++@1336 = ~Diese mächtige Klinge ist von starken Verzauberungen durchdrungen und wird durch einen Tarnzauber geschützt, der alle Versuche verhindert, ihre wahre Natur zu erkennen. Ihr Ursprung und ihre Geschichte sind daher weitgehend unbekannt, obwohl das Gerücht geht, dass das Schwert seinen Träger auswählt und jeden anderen daran hindert, es zu benutzen. Diejenigen, die versucht haben, die Waffe gewaltsam zu kontrollieren, haben festgestellt, dass ihr Wille geschwächt ist, oder schlimmeres...
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W10 +4
++Schaden: 1W10 +1, +3 gegen Drachen
++ETW0: +1, +3 gegen Drachen
+ 
+-Schadensart: mit Klingenwaffe aufschlitzen
+-Schadensbonus: +3 gegen Drachen
+-Rüstungsklasse-Bonus: -1
+-Rettungswurf gegen Odemwaffen: +2
+ Besonderheit:
+- Es besteht eine geringe Chance, einen Drachen sofort zu töten.
+- Gewährt Schutzaura
+- Feuerresistenz: +50%
+- Säureresistenz: +50%
++ Feuerresistenz: +20%
++ Säureresistenz: +20%
++ +1 Bonus bei Rettungswürfen gegen Odemwaffen
++
++Schadensart: mit Klingenwaffe aufschlitzen
+ Gewicht: 15
+-Geschwindigkeitsfaktor: 6
+-Fertigkeit: Großes Schwert
++Geschwindigkeitsfaktor: 8
++Fertigkeit: Zweihänder-Schwert
+ Waffentyp: beidhändig
++Mindeststärke: 14
+ 
+ Kann nur verwendet werden von:
+  Conchobhair~
+-@1337 = ~Krummsäbel +2~
++@1337 = ~Krummsäbel +2: Der gezackte Blitz~
+ @1338 = ~Der gezackte Blitz
+ 
+ Die Mithril-Klinge dieses Säbels ist gezackt, wodurch sie an einen leicht gebogenen Blitz erinnert. Der Säbel wurde vor langer Zeit in Calimshan von einem religiösen Kult angefertigt, der einen Donnergott anbetete. Benutzt wurde der Säbel von heiligen Kriegern, die spezielle Missionen zu erfüllen hatten.
+@@ -1539,13 +1561,13 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 +2
++Schaden: 1W8 +1
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
++ETW0-Bonus: +1
+ 
+ Besonderheit:
+- Elektrizitätsresistenz: +40%
++ Elektrizitätsresistenz: +30%
+  Verursacht 1W4 Blitzschaden
+ Gewicht: 4
+ Geschwindigkeitsfaktor: n/a
+@@ -1563,20 +1585,18 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W10 +2
++Schaden: 1W10 +1
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
++ETW0-Bonus: +1
+ 
+ Besonderheit:
+- Schadensbonus gegen Untote
+- ETW0-Bonus gegen Untote
+- Anwender kann "Verstricken" bewirken
+- Immunität gegen Gift
++ Anwender kann einmal am Tag "Verstricken" bewirken
++
+ Gewicht: 9
+ Geschwindigkeitsfaktor: 6
+ Mindeststärke: 14
+-Fertigkeit: Großes Schwert
++Fertigkeit: Zweihänder-Schwert
+ Waffentyp: beidhändig
+ 
+ Kann nur verwendet werden von:
+@@ -1603,17 +1623,16 @@
+  Paladinen
+  Magiern
+  Tiermeistern~
+-@1344 = ~Die Form dieses Säbel ähnelt dem Reißzahn eines Drachen. Er scheint den Weg zum Gegner von ganz alleine zu finden, und seine Magie verleiht dem Träger eine höhere Angriffsrate.
++@1344 = ~Die Form dieses Säbels ähnelt dem Reißzahn eines Drachen. Er scheint den Weg zum Gegner von ganz alleine zu finden, und seine Magie ermöglicht dem Träger schnellere Angriffe.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 3D3 +2
++Schaden: 3W3 +2
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
+-Erhöhte Angriffsrate
++ETW0-Bonus: +2
+ Gewicht: 3
+-Geschwindigkeitsfaktor: 3
++Geschwindigkeitsfaktor: 2
+ Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+ Waffentyp: einhändig
+ Mindeststärke: 10
+@@ -1625,16 +1644,16 @@
+  Paladinen
+  Magiern
+  Tiermeistern~
+-@1345 = ~Entersäbel +2 "Die Fackel"~
+-@1346 = ~Dieser rostige Entersäbel fühlt sich kalt an. Die Inschrift auf seinem Griff lautet einfach nur "Fackel". Seine Aussehen hat so manchen Abenteurer fälschlich glauben lassen, der Säbel sei alt und unbrauchbar. Diejenigen, die etwas neugieriger waren und ihn trotzdem mitnahmen, wurden angenehm überrascht. Ihr erkennt, dass der Säbel nichts taugt, solange er nicht geschwungen wird - dann jedoch macht er seinem Namen alle Ehre.
++@1345 = ~Entersäbel +1 "Die Fackel"~
++@1346 = ~Geschmiedet aus Schichten roten Metalls, die so aufeinandergelegt sind, dass sie faltig wirken, fühlt sich dieser Entersäbel ungewöhnlich kalt an. Runenschnitzereien in der Nähe des Griffs, die an die Stammessprachen der nördlichen Ausläufer von Vaasa erinnern, geben der Klinge ihren Namen. Sein Aussehen und sein scheinbarer Mangel an Verzauberung haben viele Abenteurer veranlasst, ihn als nutzlos zu halten. Diejenigen, die neugieriger sind und ihn sicher mit sich herumtragen, sind immer angenehm überrascht. Sobald sich "Die Fackel" im Kampf in Bewegung befindet und auf sein Ziel zuschwingt, wird sein Name klar, wenn er sich mit einer brennenden Flamme entzündet.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 3W3 +2
+-
++Schaden: 3W3 +1, +2W3 Feuerschaden
++ETW0-Bonus: +1
+ Schadensart: mit Klingenwaffe aufschlitzen
+ Schadensbonus: 2W3 (Feuer)
+-ETW0-Bonus: -2
++
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+@@ -1648,18 +1667,15 @@
+  Paladinen
+  Magiern
+  Tiermeistern~
+-@1347 = ~Entersäbel +3 "Geisterklinge"~
++@1347 = ~Entersäbel +2 "Geisterklinge"~
+ @1348 = ~Sobald ein Kämpfer dieses Schwert schwingt kann man schwache Bilder sehen, die der Klinge folgen. Diese geisterhaften Bilder können dem Gegner anscheinend nachträglich noch Schaden zufügen. Das Schwert gehörte ursprünglich einem seltsamen und faulen Kerl namens Bordger, der laut Gerüchten vor seinem Diebesleben ein magisches Training absolvierte. Wenn man sich die Verzauberung seines Schwertes ansieht, dann wäre es wohl besser für ihn gewesen, wenn er bei der Zauberkunst geblieben wäre.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 3W3 +3
+-
++Schaden: 3W3 +2, +2W3 Schaden durch aufschlitzen
++ETW0-Bonus: +2
+ Schadensart: mit Klingenwaffe aufschlitzen
+ Schadensbonus: 2W3
+-
+-Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -3
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+@@ -1673,16 +1689,14 @@
+  Paladinen
+  Magiern
+  Tiermeistern~
+-@1349 = ~Entersäbel +2 "Funkenschlag"~
++@1349 = ~Entersäbel +1 "Funkenschlag"~
+ @1350 = ~Seinen Namen erhielt dieser Säbel aufgrund der elektrischen Energie, die beim Schlagen als Funken zu sehen ist. Der Herkunftsort des Säbels ist unbekannt, aber Geschichten über ein seltsames Land finden sich in den Erzählungen, die den Säbel begleiten. Der erste Besitzer war ein Pirat, der im Hafen überfallen und getötet wurde. Sein Name bleibt wie das Schwert ein großes Mysterium.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 3W3 +3
+-
++Schaden: 3W3 +1, +2W3 Elektrizitätsschaden
++ETW0-Bonus: +1
+ Schadensart: mit Klingenwaffe aufschlitzen
+-Schadensbonus: 2W3 (elektrisch)
+-ETW0-Bonus: -2
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+@@ -1703,10 +1717,11 @@
+ Schaden: 1W8 +1
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -5
+-Geschicklichkeits-Bonus: +2
+-Rüstungsklasse-Bonus: -3
+-Angriffe/Runde: +1
++ETW0-Bonus: +5
++Besonderheit:
++ Geschicklichkeits-Bonus: +1
++ Rüstungsklasse-Bonus: +1
++
+ Gewicht: 4
+ Geschwindigkeitsfaktor: 2
+ Mindeststärke: 6
+@@ -1720,11 +1735,11 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 2W4 +2
++Schaden: 2W4 +1
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
+-Stärkung wirkt auf den Träger
++ETW0-Bonus: +1
++Besonderheit: Segen wirkt auf den Träger
+ Gewicht: 12
+ Geschwindigkeitsfaktor: 5
+ Mindeststärke: 12
+@@ -1733,18 +1748,18 @@
+ 
+ Kann nur verwendet werden von:
+  Paladinen~
+-@1363 = ~Mairial "Der Todesjäger"~
++@1363 = ~Mairial +2 "Der Todesjäger"~
+ @1364 = ~Dies ist der persönliche Krummsäbel von CúChoinneach. Er wurde es purem Mithril gefertigt, welches der Sage nach aus dem Licht des Vollmondes entstanden ist. Das Schwert war ein Geschenk von Sehanine Mondbogen, der Elfengöttin der Mystik, Träume, Reisen, Sterne, des Mondes, des Himmels und des Todes. Sie erschien ihm in einem Traum, nachdem seine Angebetete, Fia'nna, von einer Armee Untoter unter der Führung eines Vampirs umgebracht wurde. Sehanine erzählte ihm, dass er der Auserwählte sei, der die Untoten jagen und zur Strecke bringen sollte. Als er erwachte lag dieser Krummsäbel neben ihm auf dem Bett, darauf Sehanines Symbol, der Halbmond. Sie gab ihm dieses Schwert als Erinnerung an ihre Unterstützung. Die Macht des Schwertes ist unbekannt, selbst CúChoinneach kennt sie nicht genau.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 +4
++Schaden: 1W8 +2
+ 
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -4
++ETW0-Bonus: +2
+ 
+-Besonderheit: Vorteile gegen Untote, die genauen Fähigkeiten sind unbekannt.
+-Gewicht: 4
++Besonderheit: Schutz vor Negativer Ebene
++Gewicht: 3
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+ Waffentyp: einhändig
+@@ -1774,10 +1789,11 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +3
++Schaden: 1W6 +2
+ 
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
++ETW0-Bonus: +1
++Besonderheit: vampirischer Effekt
+ Gewicht: 7
+ Geschwindigkeitsfaktor: 3
+ Mindeststärke: 13
+@@ -1798,12 +1814,10 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 2W4 +4
+-
++Schaden: 2W4 +2
++ETW0-Bonus: +2
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -4
+-Rettungswurf-Bonus: +1
+-Schaden: +4
++Rettungswurf-Bonus: +4
+ Gewicht: 12
+ Geschwindigkeitsfaktor: 7
+ Mindeststärke: 13
+@@ -1813,15 +1827,14 @@
+ Kann nur verwendet werden von:
+  Paladinen
+  Klerikern (rechtschaffen gut)~
+-@1376 = ~Ferthgils Streitaxt +3~
++@1376 = ~Ferthgil Trolltöters Streitaxt +3~
+ @1378 = ~Diese Streitaxt war der Besitz von Ferthgils Vater, Breachin Trolltöter. Es ist alles, was Ferthgil von seinem Vater geblieben ist, nachdem dieser im Wolkengipfel-Gebirge von Verbeegs getötet wurde. Ferthgil zieht diese Waffe allen anderen Waffen vor.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 +3 (+3 gegen Riesen, +2 gegen alle Monster)
+-
++Schaden: 1W8 +3 gegen Riesen, +2 gegen alle Monster
++ETW0-Bonus: +3 gegen Riesen, +2 gegen alle Monster
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -3 (-3 gegen Riesen, -2 gegen alle Monster)
+ Gewicht: 5
+ Geschwindigkeitsfaktor: 5
+ Fertigkeit: Axt
+@@ -1856,10 +1869,8 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Schaden: 2W4 +2
+-
++ETW0-Bonus: +1
+ Schadensart: mit Klingenwaffe aufschlitzen
+-ETW0-Bonus: -2
+-Angriff pro Runde: +1
+ Gewicht: 5
+ Geschwindigkeitsfaktor: 2
+ Fertigkeit: Axt
+@@ -1904,9 +1915,7 @@
+ Schadensbonus: 1W6
+ (Hälfte bei Rettungswurf gegen Tod)
+ ETW0-Bonus: -2
+-Geschicklichkeits-Bonus: +1
+-Rüstungsklasse-Bonus: -1
+-Erhöhte Angriffsrate
++Rüstungsklasse-Bonus: +1
+ Gewicht: 20
+ Geschwindigkeitsfaktor: 10
+ Fertigkeit: Axt
+@@ -1937,16 +1946,17 @@
+  Dieben
+  Mönchen
+  Tiermeistern~
+-@1393 = ~Zwergen-Wurfaxt +2~
+-@1395 = ~Diese Wurfaxt ist nicht nur fein ausbalanciert, sie wurde auch mit beträchtlicher Magie versehen. Das Ergebnis ist eine Wurfaxt, die nicht nur sehr genau ist, sondern auch viel mehr Schaden anrichtet als eine nicht-magische Waffe ähnlichen Typs. Nach dem Wurf kehrt sie zum Werfer zurück.
++@1393 = ~Zwergen-Wurfaxt +1 "Feuerprobe"~
++@1395 = ~Diese Wurfaxt ist nicht nur fein ausbalanciert, sie wurde auch mit beträchtlicher Magie versehen. Das Ergebnis ist eine Wurfaxt, die nicht nur sehr genau ist, sondern auch viel mehr Schaden anrichtet als eine nicht-magische Waffe ähnlichen Typs.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +1 (Klinge/Stich)
+-Schadensbonus: 2W6 (Feuer)
++ETW0-Bonus: +1
++Schaden: 1W6 +1 (Fernkampf), 1W8 +1 (Nahkampf)
++Schadensart (Nahkampf): aufschlitzen
++Schadensart (Fernkampf): durchbohren
+ Besonderheit: Kehrt in die Hand des Werfers zurück
+-ETW0-Bonus: -2
+-Angriffe/Runde: +1
++1W3 Feuerschaden
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 6
+ Fertigkeit: Axt
+@@ -1963,12 +1973,12 @@
+ Besonderheit: Schützt vor Magie des 1. Grades und kann Heilungstränke erschaffen.
+ 
+ Schaden: 2W2 +2
+-
++ETW0-: +1
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
+-Erzeugt Tränke der Heilung und Gegengifte
+-Schützt vor Zaubersprüchen des 1. Grades
+-Rüstungsklasse-Bonus: -2
++Besonderheit:
++ Erzeugt Tränke der Heilung und Gegengifte (5 Ladungen)
++ Schützt vor Zaubersprüchen des 1. Grades
++
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 6
+ Fertigkeit: Kampfstab
+@@ -2010,19 +2020,15 @@
+ 
+ Kann nur verwendet werden von:
+  bösen Magiern~
+-@1403 = ~Chitiruhkha - Druidenstab +4~
++@1403 = ~Chitiruhkha - Druidenstab +2~
+ @1404 = ~Dieser Stab gehörte den Chanah'Rea und wurde durch einen Blitz erschaffen, der in den Baum der Macht einschlug. Chitiruhkha birgt somit die Macht der Blitze in sich.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W8 + 3
+-
++Schaden: 1W8 +2, zusätzlich 2W6 Elektrizitätsschaden (Die Hälfte, wenn ein Rettungswurf gelingt)
++ETW0-Bonus: +2
++Besonderheit: bewirkt "Blitze schleudern" (10 Ladungen, 4W6 Schaden, Hälfte bei Rettungswurf)
+ Schadensart: mit Hiebwaffe zertrümmern
+-Schadensbonus: 3W4 +1 (elektrisch)
+-ETW0-Bonus: -4
+-Rüstungsklasse-Bonus: -2
+-"Blitze schleudern" 3 mal pro Tag
+-Schaden: 6W6 (elektrisch)
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 2
+ Fertigkeit: Kampfstab
+@@ -2030,16 +2036,15 @@
+ 
+ Kann nur verwendet werden von:
+  Druiden~
+-@1407 = ~Kampfstab +2 "Estaroils Knochenbrecher"~
++@1407 = ~Kampfstab +1 "Estaroils Knochenbrecher"~
+ @1408 = ~Während die meisten Magier von kleiner und dünner Statur sind, war Estaroil klein und dünn im Vergleich zu einem Magier. Seine Meisterin, die Erzmagierin Heleth Otrad, befürchtete das Versagen ihres Schützlings im Kampf, und so erschuf sie diesen Stab. Heleth bezauberte ihn so, dass man damit auf einen Schlag Knochen zerbrechen konnte, wodurch der zerbrechliche Estaroil eine Chance bekam. Estaroil wuchs zu einem stattlichen und mächtigen Magier heran, weshalb er schließlich das Geschenk seiner Meisterin nicht mehr benötigte und wegwarf.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +2
+-
++Schaden: 1W6 +1
++ETW0-Bonus: +1
++Ziel wird verlangsamt 20 % außer bei Rettungswurf gegen Zauber bei -4
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
+-Ziel wird verlangsamt Rettungswurf gegen Zauber
+ Gewicht: 4
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Kampfstab
+@@ -2052,15 +2057,13 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 2W3 +2
+-
+-Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
+-
++Schaden: 2W3 +1
++ETW0-Bonus: +1
+ Besonderheit:
+- Trefferpunkte: +15 (Max)
++ Trefferpunkte: +10 (Max)
+  Sagenkunde-Bonus: +20
+- +3 Priestersprüche 1. Grades
++ +2 Priestersprüche 1. Grades
++Schadensart: mit Hiebwaffe zertrümmern
+ Gewicht: 2
+ Geschwindigkeitsfaktor: 2
+ Fertigkeit: Kampfstab
+@@ -2068,29 +2071,29 @@
+ 
+ Kann nur verwendet werden von:
+  Druiden~
+-@1411 = ~Skeezers Stab der Unberechenbarkeit~
++@1411 = ~Skeezer Lumpkins Stab der Unberechenbarkeit +1~
+ @1412 = ~Skeezer erschuf diesen Stab als Unterstützung für seine Reisen. Während der Herstellung wurde er gestört und verlor die Kontrolle über die Verzauberung, die er gerade aussprechen wollte. Das hatte zur Folge, dass der Stab sehr unterschiedlich auf alles reagiert, was man mit ihm machen möchte.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +3
+-
++Schaden: 1W6 +2
++ETW0-Bonus: +1
++Besonderheit: unbekannt
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
+ Gewicht: 4
+-Geschwindigkeitsfaktor: 1
++Geschwindigkeitsfaktor: 3
+ Fertigkeit: Kampfstab
+ Waffentyp: beidhändig
+ 
+ Kann nur verwendet werden von:
+- zauberkundigen Gnomen~
++ Skeezer Lumpkin VI~
+ @1414 = ~Tearlacs Kriegshammer "Gigantenfäller"~
+ @1416 = ~Dieser Kriegshammer ist die persönliche Waffe von Tearlac Getreuhammer, dem Sohn von Otho Getreuhammer. Er fertigte den Hammer nach mehreren Jahren Ausbildung bei seinem Vater. Einige behaupten, dass Otho einer der besten Schmiede sei, ja vielleicht sogar der beste Schmied der Schwertküste. Dieser Kriegshammer beweist, dass Tearlac viel von seinem Vater gelernt hat. Er hat den Hammer außerdem mit dekorativen Runen versehen, die stolz seine Herkunft beschreiben. Der Hammer besteht aus einer Mithril-Legierung mit Rondellen, die den Griff schützen und verstärken. Der Schaft besteht aus sehr starkem Eichenholz und ist etwa 50 cm lang.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W4 +2 (+3 gegen riesige Humanoide)
+-ETW0-Bonus: -1(-3 gegen riesige Humanoide)
++Schaden: 1W4 +2, +4 gegen riesige Humanoide
++ETW0-Bonus: +1, +3 gegen riesige Humanoide
+ 
+ Schadensart: mit Hiebwaffe zertrümmern
+ Gewicht: 8
+@@ -2109,11 +2112,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +2
+-
++Schaden: 1W6 +1, +1W6 Feuerschaden
++ETW0: +1
+ Schadensart: mit Stichwaffe durchbohren
+-Schadensbonus: 1W6 (Feuer)
+-ETW0-Bonus: -2
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 3
+ Fertigkeit: Speer
+@@ -2171,10 +2172,8 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +2 (+2 gegen Untote)
+-
+-ETW0-Bonus: -1 Bonus (-2 gegen Untote)
+-
++Schaden: 1W6 +2, +4 gegen Untote
++ETW0: +1
+ Schadensart: mit Hiebwaffe zertrümmern
+ Gewicht: 8
+ Geschwindigkeitsfaktor: 6
+@@ -2193,11 +2192,10 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +2 (+2 gegen Untote)
+-
++Schaden: 1W6 +2, +4 gegen Untote
++ETW0: +1
++Besonderheit: Zerstört die meisten Untoten sofort
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -2
+-Zerstört die meisten Untoten sofort
+ Gewicht: 8
+ Geschwindigkeitsfaktor: 6
+ Fertigkeit: Streitkolben
+@@ -2210,7 +2208,7 @@
+  Dieben
+  Mönchen
+  Tiermeistern~
+-@1436 = ~Dolch +3: "Schlangenzunge"~
++@1436 = ~Dolch +2: "Schlangenzunge"~
+ @1438 = ~Schlangenzunge
+ 
+ Dieser Dolch wurde von einem verrückten, zauberkundigen Dieb erschaffen, der ihn aber nur kurze Zeit benutzte. Die genauen Umstände seines Todes sind unbekannt, jedenfalls tauchte der Dolch kurze Zeit später in den Händen eines bekannten Meuchelmörders wieder auf.
+@@ -2218,13 +2216,13 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W4 +3 (+8 bei Gift, Hälfte bei Rettungswurf)
+-
+-Schadensart: mit Stichwaffe durchbohren (Handgemenge oder Fernkampf)
+-
+-ETW0-Bonus: -3
+-Chance sich zu schneiden: 5%
+-(4 Schadenspunkte, kein Rettungswurf)
++Schaden (Nahkampf): 1W4 +2 (+6 bei Gift, Hälfte bei Rettungswurf)
++Schaden (Fernkampf): 1W4 +2 (+6 bei Gift, Hälfte bei Rettungswurf)
++ETW0-Bonus: +2
++Besonderheit:
++ Chance sich zu schneiden: 5% (6 Schadenspunkte, kein Rettungswurf)
++ Kehrt nach dem Werfen zurück
++Schadensart: mit Stichwaffe durchbohren
+ Gewicht: 2
+ Geschwindigkeitsfaktor: 0
+ Fertigkeit: Dolch
+@@ -2235,19 +2233,19 @@
+  Klerikern
+  Tiermeistern~
+ @1439 = ~Drow Adamantit-Dolch +3~
+-@1440 = ~Die meisten Drow tragen Dolche, die aus einer Adamantit-Legierung gefertigt wurden. Diese Dolche gewähren Schadensboni von +1 bis +3 ohne magisch zu sein. Dieser Dolch ist mit einem wirksamen Schlafgift beschichtet.
++@1440 = ~Die meisten Drow tragen Dolche, die aus Adamantit-Legierung geschmiedet und mit Verzauberungen verstärkt wurden. Einige sind sogar mit einer der verschiedenen Arten von Drow-Giften überzogen, sodass sie gut auf den Umgang mit Attentätern vorbereitet sind, eine ständige Gefahr in der Drow-Gesellschaft. Natürlich werden die Dolche genauso häufig auch von den Attentätern selbst benutzt...
+ 
+-Da das Adamantit sehr empfindlich auf Sonnenlicht reagiert, setzt bei Tageslicht unwiderruflich der Zerfall ein. Der Dolch verrottet innerhalb von 2 bis 12 Tagen und wird somit nutzlos.
++Dieser Gegenstand wird, wie die meisten Drow-Gegenstände, aus Adamantin hergestellt, einer Legierung aus Adamantit, die sich beim Entfernen aus dem Unterreich schnell in Staub verwandelt.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Schaden: 1W4 +3
+ 
+ Schadensart: mit Stichwaffe durchbohren
+-ETW0-Bonus: -3
++ETW0-Bonus: +3
+ Besonderheit:
+- Das Opfer wird für 30 Sek. bewusstlos
+- Gift: 30 Schadenspunkte in 15 Sekunden bis ein erfolgreicher Rettungswurf -4 gelingt
++ Das Opfer wird für 10 Sekunden lang bewusstlos (Rettungswurf ohne Nachteil)
++ Gift: 10 Schadenspunkte in 10 Sekunden bis ein erfolgreicher Rettungswurf -4 gelingt
+ Gewicht: 1
+ Geschwindigkeitsfaktor: 2
+ Fertigkeit: Dolch
+@@ -2257,18 +2255,17 @@
+ Kann nur verwendet werden von:
+  Nicht-Klerikern
+  Böser Gesinnung~
+-@1441 = ~D'Raavhen's Zahn~
++@1441 = ~D'Raavhen's Zahn +2~
+ @1442 = ~Vampirdolch von Lorik D'Raavhen
+ 
+ Der bloße Anblick dieser dunklen Klinge jagt Euch einen kalten Schauer über den Rücken. In seinem Innern pulsiert das pure Böse. Seine schwarze Klinge wurde aus dem geheimnisvollen Material des Abyss gefertigt und verleiht der Waffe sowie dem Träger ein finsteres Aussehen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W4 +4
+-
+-Schadensart: mit Stichwaffe durchbohren
+-ETW0-Bonus: -4
++Schaden: 1W4 +2
++ETW0-Bonus: +2
+ Speziell: vampirisch
++Schadensart: mit Stichwaffe durchbohren
+ Gewicht: 1
+ Geschwindigkeitsfaktor: 0
+ Fertigkeit: Dolch
+@@ -2279,7 +2276,7 @@
+  Nicht-Klerikern
+  Böser Gesinnung~
+ @1446 = ~Keirias Schnellschussarmbrust~
+-@1448 = ~Diese leichte Armbrust hat nicht mehr Eigenschaften als eine normale Schnellschussarmbrust. Der einzige Unterschied liegt in der Farbe, da Keiria immer modisch auftreten will, selbst auf dem Schlachtfeld.
++@1448 = ~Diese leichte Armbrust hat keine zusätzlichen Verzauberungen, die sie von anderen ihrer Art unterscheidet. Der einzige Unterschied liegt in der Farbe, da Keiria immer modisch auftreten will, selbst auf dem Schlachtfeld.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+@@ -2287,8 +2284,8 @@
+ 
+ Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+ 
+-ETW0-Bonus: -1
+-Schadensbonus: +1
++ETW0-Bonus: +1
++Schaden: +1
+ Besonderheit: ein zusätzlicher Angriff pro Runde
+ Gewicht: 5
+ Geschwindigkeitsfaktor: 3
+@@ -2312,14 +2309,14 @@
+ 
+ Kann nur verwendet werden von:
+  guten Elfen~
+-@1456 = ~Langbogen der Kraft +3 "Vibration des Todes"~
++@1456 = ~Langbogen der Kraft +1 "Vibration des Todes"~
+ @1458 = ~Der Langbogen der Kraft ist eine Handarbeit der Waldelfen für Corbus Denox, den Prinzen der Schneebarbaren. Der Bogen spendet und erhöht Stärke, Schaden und Genauigkeit. Das leise Brummen nach dem Schuss führte zu seinem Namen.
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-ETW0-Bonus: -3
+-Schadensbonus: +3
+-Stärke-Bonus: +1
++ETW0: +2
++Schaden: +2
++Stärke: +1
+ Gewicht: 2
+ Geschwindigkeitsfaktor: 5
+ Fertigkeit: Langbogen
+@@ -2341,7 +2338,7 @@
+ 
+ ETW0-Bonus: -2
+ Schadenbonus: +3
+-Erschafft Pfeile des Angriffs
++Erschafft Pfeile des Angriffs (1 Pfeil pro Tag)
+ Gewicht: 2
+ Geschwindigkeitsfaktor: 5
+ Fertigkeit: Langbogen
+@@ -2355,10 +2352,9 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Das Ziel wird betäubt
+-Chance das Ziel zu vergiften: 30%
++Das Ziel wird 2 Runden lang betäubt (Rettungswurf bei -4)
++Besonderheit: 30% Chance das Ziel zu vergiften: (30 Schaden in 15 Sekunden
+ Reichweite: 33 m
+-Wirkungsdauer: 10 Runden
+ Wirkungsbereich: 1 Wesen
+ 
+ Kann nicht verwendet werden von:
+@@ -2381,10 +2377,9 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ "Kettenblitz"
+-Schaden: 6W6 +6 (elektrisch)
+-Reichweite: 33 m
+-Wirkungsbereich: 10 m Radius
+-Rettungswurf: 1/2
++Schaden: 6W6 +6 (Hälfte bei Rettungswurf)
++Reichweite: 13 m
++Wirkungsbereich: 20 m 
+ 
+ Kann nur verwendet werden von:
+  Barden
+@@ -2395,13 +2390,14 @@
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+ Schaden: 1W8 +1
+-
++ETW0: +1
+ Schadensart: mit Hiebwaffe zertrümmern
+-Giftschaden: 2 pro Runde, bis zu 30 Schaden
+-ETW0-Bonus: -1
++Giftschaden: 1 Punkt pro Runde, bis zu 5 Schaden (außer bei Rettungswurf)
++Besonderheit: Kehrt in die Hand des Werfers zurück
++
+ Gewicht: 4
+ Geschwindigkeitsfaktor: 1
+-Fertigkeit: Stumpfe Waffe
++Fertigkeit: Keule
+ Waffentyp: einhändig
+ Mindeststärke: 3
+ 
+@@ -2427,12 +2423,13 @@
+ 
+ SPEZIFISCHE EIGENSCHAFTEN:
+ 
+-Schaden: 1W6 +3
+-
++Schaden: 1W6 + 2
++ETW0: +2
++Besonderheit:
++Nach dem Ausrüsten verschwimmt die Kontur des Waffencharakters und gibt einen Bonus von +1 Rüstungsklasse und einen Bonus von +1 bei allen Rettungswürfen.
+ Schadensart: mit Hiebwaffe zertrümmern
+-ETW0-Bonus: -3
+-Rettungswurf-Bonus: +1
+-"Verschwimmen"
++
++Schadensart: zertrümmern
+ Gewicht: 3
+ Geschwindigkeitsfaktor: 2
+ Fertigkeit: Keule
+@@ -2490,7 +2487,7 @@
+ Tearlac und Ferthgil wurden feste Freunde, und Ferthgil begann mit der Zeit zu merken, dass er irgendwo hingehörte. Obwohl es nicht offiziell war, wurde er als Mitglied des Getreuhammer Clans angesehen.
+ Auf den ersten Blick sieht Ferthgil wie ein normaler, insbesondere mürrischer Zwerg aus, aber durch sein Training bei Gulmoth hat er gelernt, wie er seine Wut gegen die Feinde von Clanggedin bündeln kann. Ferthgil wird so zu einem mächtigen Kämpfer, und seine Kampfschreie sind dafür bekannt, dass sie die Ohren von Clangeddin selbst in seiner Burg in Arcadia erreichen.~
+ @2134 = ~Fey'doch~
+-@2135 = ~Walddrache~
++@2135 = ~Salandiaxarxes~
+ 
+ @2138 = ~Verbrennt und sterbt, kümmerliche Dummköpfe!~ [BAZDR303]
+ 
+@@ -2572,3 +2569,45 @@
+ @21050 = ~Wenn er nach seiner Vergangenheit gefragt wird, erklärt THORFINN HAUSKLUNIFF, dass er keine leichte Kindheit hatte. Er wurde auf der Insel Ruathym geboren und sogleich von Auriel-Priestern im Namen ihres Gottes geopfert, indem sie das Baby auf einem Floß auf dem Meer ohne Spuren aussetzten. Das Wetter war ruhig, und so trieb das Floß aufgrund starker Strömungen gen Süden zur Westseite der Mondschein-Inseln. Das Floß trieb mehrere Tage dahin, bis es die Gestade der Insel Moray erreichte. Es wurde an einen felsigen Strand gespült, wo Thorfinn schließlich von nordländischen Fischern gefunden und aufgenommen wurde.
+ Thorfinn wuchs in den folgenden Jahren bei den Fischern auf. Er arbeitete als Bootsmann und lernte alles über das Meer. Es dauerte nicht lange, bis er sich für die Kriegsmarine zu interessieren begann. Mit sechzehn Jahren gestattete ihm seine Familie, sich der Marine anzuschließen. Bis zu seinem zwanzigsten Lebensjahr verbesserte er seine Seefahrerqualitäten und begann, den Schwertkampf zu trainieren. Er wurde auch im Kampf mit der Axt unterrichtet, doch seine Stärke erlaubte es ihm, große Schwerter mit Leichtigkeit zu schwingen, eine Fähigkeit, die bei den plündernden Piraten und Dieben auf den Mondseen nicht umsonst war. Der Zweihänder wurde zu seiner Lieblingswaffe.
+ Weitere fünf Jahre später beschloss er, die Marine zu verlassen und auf eigene Faust zu reisen. Er verdingte sich als Söldner im Dienste von Händlern, die die Handelswege bereisten und Schutz benötigten. Letztendlich führten ihn seine Reisen nach Baldurs Tor an der Schwertküste.~
++
++
++/////////////////////////
++//new strings added in v3
++/////////////////////////
++
++@30001 = ~Versteck von Salandiaxarxes~
++@30002 = ~Schlüsselstein~
++@30003 = ~Mit diesem Schlüsselstein erhaltet Ihr Zutritt zum Hort des Drachen.~
++
++@30004 = ~Dieses Becken ist schön warm. Wenn Ihr es nicht eilig hättet, wäre es ein entspannendes warmes Bad.~
++@30005 = ~Eine unsichtbare Wand der Macht hält Euch davon ab, die Höhle zu betreten. Ihr müsst einen Weg finden, ihn zu entzaubern, bevor Ihr eintreten könnt.~
++@30006 = ~Eingang~
++@30007 = ~Drachenhort~
++
++@30008 = ~Feenfeuer~
++@30009 = ~Feenfeuer
++(Veränderung)
++
++Stufe 1
++Bereich: Wetter
++Reichweite: 80 m
++Dauer: 4 Runden + 1 Runde/Level
++Zeitaufwand: 4
++Wirkungsbereich: 15' Radius
++Rettungswurf: Keiner
++
++Mit diesem Zauber kann der Zauberer eine oder mehrere Kreaturen mit einem blass leuchtenden Licht umreißen. Umrissene Objekte sind 80 m weit sichtbar. Umrissene Kreaturen sind leichter zu treffen; Somit erhalten Gegner einen Bonus von +2 auf Angriffswürfe. Das Feenfeuer schadet der Kreatur nicht.~
++
++@30010 = ~Krankheit verursachen~
++@30011 = ~Krankheit verursachen
++(Nekromantie)
++
++Stufe 3
++Bereich: Heilung
++Reichweite: Berühren
++Dauer: 8 Stunden
++Zeitaufwand: 1 Runde
++Wirkungsbereich: 1 Kreatur
++Rettungswurf: keiner
++
++Dieser Zauber befällt eine Kreatur, die der Priester berührt, mit einer Krankheit, die dem Ziel 5–20 Stärkepunkte entzieht. Ein Rettungswurf gegen einen Zauber macht die Effekte zunichte. Dieser Zauber hat keine Auswirkungen auf Untote, Konstrukte oder Kreaturen von anderen Ebenen.~

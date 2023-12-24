@@ -1,0 +1,11 @@
+--- NeJ\baf\TELE0603.baf	Wed Dec 24 18:01:12 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TELE0603.baf	Wed Apr 10 10:29:51 2019
+@@ -38,7 +38,7 @@
+ 	Global("StartIWD","GLOBAL",0)
+ THEN
+ 	RESPONSE #100
+-		DisplayString(Myself,~You approach the portal but feel you cannot advance further. Some invisible force prevents you from making another step toward the portal.~)
++		DisplayString(Myself,@0)
+ END
+ 
+ IF

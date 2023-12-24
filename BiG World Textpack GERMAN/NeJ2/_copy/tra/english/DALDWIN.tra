@@ -1,0 +1,95 @@
+@0    = ~You - you're the one responsible for all those giant-kin that ran through Kuldahar, aren't you? Way to stir things up... 'hero.'~
+@1    = ~I had nothing to do with these attackers - but I *will* get to the bottom of it. In the meantime, I'm in need of a room.~
+@2    = ~Those attackers in the town were *not* from Dragon's Eye. They're part of another problem - which I fear I will have to deal with presently. In the meantime, I'm in need of a room.~
+@3    = ~You Aldwin?~
+@4    = ~Who are you?~
+@5    = ~This your inn?~
+@6    = ~I found a ring in one of the upper rooms you might be interested in.~
+@7    = ~I must take my leave. Farewell.~
+@8    = ~You looking for a room, or do you just want to let the chill in? I got no rooms for stragglers - show some coin, or I'll show you the door.~
+@9    = ~I'm looking for a room, yes. Are any free?~
+@10   = ~I'll be on my way. Farewell.~
+@11   = ~Oh... it's you again. What do you want this time?~
+@12   = ~I'm looking for a room. Are any free?~
+@13   = ~I need to rest in one of your *free* rooms, "friend."~
+@14   = ~Nothing this day, thanks. Farewell.~
+@15   = ~Yeah, we got a little space left - but I don't want to hear any haggling over the prices, you hear? This is the only inn in town, so don't even be thinking you'll find a better deal anywhere else.~
+@16   = ~Very well, then. Let's see what rooms you have.~
+@17   = ~I think I'll be on my way. Farewell.~
+@18   = ~Yeah, of course we got space for such fine upstanding travelers such as yourself. Rest up - you got a big day of being quiet tomorrow, "friend." I hope that's not a *problem* for you.~
+@19   = ~You keep making sure the rooms are free, and we won't have ANY problems, Aldwin.~
+@20   = ~Not at all... but I'm not tired at the moment. I'll return.~
+@21   = ~Yeah, of course we got space for such fine upstanding travelers such as yourself. By the way, I talked it over with the other folks in town like you asked, and they're willing to let the whole Eidan thing slide -- as long as I take a percentage out of my profits to help the town. Damn warm-blooded vampires.~
+@22   = ~Good. I'd like to rest, then.  ~
+@23   = ~The road to a clean conscience can be a long one, Aldwin. I'll return to check on you later.~
+@24   = ~I'm Aldwin, and maybe having your head way up there don't make you hear so good -- do you want a *room* or not? My inn's the only inn in town, so don't even be thinking you'll find a better deal anywhere else.~
+@25   = ~My head may be up here, half-man, but my fist'll be happy to swing down and pay you a visit if need be.~
+@26   = ~So this is your inn?~
+@27   = ~So this is your inn? Well, I found a ring in one of the upper rooms that casts some doubt on that.~
+@28   = ~I'm Aldwin, and maybe the winter winds have frozen your ears -- do you want a *room* or not? My inn's the only inn in town, so don't even be thinking you'll find a better deal anywhere else.~
+@29   = ~I'd watch your tongue, innkeeper. I'm not in the mood to quarrel with you.~
+@30   = ~That so? Well, then, I got not time to sit here and bandy threats with you - either state your business or get out of my inn... and take your stink from the road with you.~
+@31   = ~I'll be on my way, then. Farewell.~
+@32   = ~Yeah... why? Somebody in town saying different?~
+@33   = ~Well, I found this ring upstairs. It seems to put the ownership of the Evening Shade in question.~
+@34   = ~Amelia, the barmaid at the Root Cellar mentioned you. She said you bought this inn from a man named Eidan. Before he vanished, that is.~
+@35   = ~No, just curious. Do you have any rooms free?~
+@36   = ~Never mind. I think I'll be on my way. Farewell.~
+@37   = ~Yeah... maybe. Do I *know* you?~
+@38   = ~No, I just heard Aldwin was the name of the innkeeper in Kuldahar. Do you have any rooms free?~
+@39   = ~Amelia? That dried-up serving wench with the voice like a harpy? Yeah, I know her - and she's right. I *did* buy this place from Eidan, and I'm beginning to see why the ol' dodger wanted to sell this inn and 'vanish' right quick.~
+@40   = ~Why?~
+@41   = ~Well, he stuck me with this hole and not much business to be had. Winter's choked off all the passes, so that means no caravans and no business. I hope ol' Eidan got buried in a snowdrift or used as a chew bone by an ogre. Hmmph. Anyway, the claim's mine, so I got to make do.~
+@42   = ~Well, that's what I wanted to talk about. I found this ring upstairs that casts some doubt on your claims.~
+@43   = ~Eidan wrote the claim to you?~
+@44   = ~I see. Well, maybe you can help me out - I need a room for the night.~
+@45   = ~Yeah, written in pen and ink, legally binding, every *i* dotted, every *t* crossed for any fool to see. So?~
+@46   = ~Well, that may be, but I found this ring upstairs that casts some doubt on your claims.~
+@47   = ~Well, Eidan had palsy - but you knew that, right? So if this claim was written to you - of course, assuming that Eidan knew how to write, which he didn't - then the script would hardly be as perfectly written as you say.~
+@48   = ~Just asking. Look, maybe you can help me out - I need a room for the night.~
+@49   = ~Yeah, well, ol' Eidan must have had someone write it FOR him, then, because everything looks in order to me. It's not unheard of to have others write claims for you. All I know is the claim's *mine.* Now do you want a room or not? If not, then *get out.*~
+@50   = ~I may leave in a bit - just one other thing: I found Eidan's ring upstairs.~
+@51   = ~Never mind, then. I want a room. Are there any free?~
+@52   = ~Claim for the Evening Shade.
+
+We traded words with Aldwin, the innkeeper at the Evening Shade in Kuldahar, and he seemed quite defensive on the subject of his claim to the inn. There may have been something to Amelia's suspicions of foul play. If we could only find some proof of it...~
+@53   = ~Eh? What? ~
+@54   = ~This ring has an inscription on the inside that looks like the *real* claim to this inn. Why would you be the owner when this claim says different?~
+@55   = ~Oh, so now you've stooped to forcing your way into locked containers in people's houses, have you? Before you accuse ME of doing anything wrong, maybe you should look to YOURSELF. You're a PALADIN, right? What's a holier-than-thou soldier doing forcing locks, eh?~
+@56   = ~Oh, so you knew it was locked upstairs? ~
+@57   = ~I can't condone the action, but there may be a larger crime that must be investigated. The fact you knew about this ring makes me even more certain that you are guilty of something - you knew this ring was upstairs all along?~
+@58   = ~Oh, so now you've stooped to forcing your way into locked containers in people's houses, have you? Before you accuse ME of doing anything wrong, maybe you should look to YOURSELF. What are you doing breaking and entering? ~
+@59   = ~Uh... no, no, I didn't know it was locked upstairs. Look, I don't have to explain anyth--~
+@60   = ~You're right. I will take Eidan's ring to the elders of the town and let them decide how to deal with this. Perhaps they could call on Eidan's shade with the ring and speak to him about this. Justice must be served.~
+@61   = ~Look, you sniveling little dog, I'm tired of hearing your lies and your blustering - I could kill you where you stand, and claim this inn as mine and never feel a *shred* of remorse. Now tell me the truth, or I'll set you outside until you freeze, then carve you like an ice block.~
+@62   = ~Look... hold on, hold on... here's what happened. First off, I never laid a *hand* on Eidan.~
+@63   = ~So Eidan *is* dead.~
+@64   = ~Well... yeah. But it's not my fault... I come into the inn one night after barely making my way through Kuldahar Pass, see, and there he is, lying on the floor of the inn, cold as a stone. Now, I'd been through the pass before, even talked with the old fool a bit, and I knew he didn't have any family.~
+@65   = ~What did you do with the body?~
+@66   = ~There'd been rumors of people missing, so I buried the body outside of town, and then, well, I dug up some pen and ink and set up the claim. Granted, I stripped him of his belongings - and I should have thrown away that damn ring - but look, I'm not doing any harm. He didn't HAVE any family. And this town NEEDS an inn.~
+@67   = ~So why did you do it? You probably won't be able to sell this place, you know. The storm season closes off the caravan routes too often to turn any profit.~
+@68   = ~I know, it's just that... I don't know, I'm SICK of traveling, and I suddenly got the urge to settle. Blame the halfling in me, I suppose. At least I didn't try to plant myself in some glorified mole burrow and smoke a stinkweed pipe until I die of boredom.~
+@69   = ~While it's good you didn't hurt Eidan, you *shouldn't* have hid the body and falsified the claim. There were people here that probably knew him and cared for him, and they would have liked to have paid their respects. Besides, as Eidan's ring states, the inn belongs to *Kuldahar,* not you. What you did was wrong.~
+@70   = ~Look... Aldwin... I'm just looking for a *cheap* place for the night, or any other night I need to rest. You're just looking for me to keep silent. Sounds to me like we can help each other.~
+@71   = ~Claim for the Evening Shade.
+
+One of the serving wenches mentioned that some halfling named Aldwin may have inherited the Evening Shade inn under mysterious circumstances -- possibly forging a claim of ownership. Hmmm. Maybe there's some advantage in investigating this halfling and seeing what we can exploit from the situation.~
+@72   = ~Claim for the Evening Shade.
+
+Amelia, a barmaid at the Kuldahar tavern mentioned that Aldwin, a halfling, had taken over the ownership of the Evening Shade Inn when its previous owner vanished. Aldwin presented a claim that seemed to indicate that Eidan knew he was going away - but according to Amelia, Eidan didn't know how to write, and even if he did, he was stricken with the palsy. We should look into this; Aldwin may know what happened to the missing people.~
+@73   = ~Claim for the Evening Shade.
+
+We showed Aldwin Eidan's signet ring that we had found upstairs, and he confessed to having forged the claim to the Evening Shade... but it didn't seem there was any advantage to us in exposing his deception, so we worked out an arrangement where our band could stay at the Evening Shade for free in exchange for our silence.~
+@74   = ~Yeah... yeah, we can. I've got lots of empty rooms. I don't see why an *extremely* quiet guest such as yourself should have to pay for them. I mean, you keep to yourself and don't say much, no gold needs to change hands in either direction... right?~
+@75   = ~Very well. Show me to my room.~
+@76   = ~Yes... I'll be back when I need to rest, then. Farewell.~
+@77   = ~Yeah, well, before you start getting any more preachy on me, seems that *you* need to stop your habit of breaking and entering. That stinks of a thief, and by my reckoning, that puts us at about the same level.~
+@78   = ~Fair enough. Nonetheless, I want you to speak to the town elders and let them know what you've done. If you don't, *I* will speak to them, and it will be worse for you in the long run.~
+@79   = ~I... hmmm. Look, maybe we... I mean, what's to keep me from --~
+@80   = ~Getting out of town? Well, you won't get far. An avalanche has sealed off the pass, and plus, there are raiders scouring the mountains. Just confess to the elders.~
+@81   = ~Claim for the Evening Shade.
+
+We showed Aldwin Eidan's signet ring that we had found upstairs, and he confessed to having forged the claim to the Evening Shade... with enough pressure, he eventually agreed that he would go confess his crime to the elders of Kuldahar and face whatever punishment they see fit to give him.~
+@82   = ~All right, all right, dammit! I'll go talk to them - now stop bothering me.~
+@83   = ~Good. Now I'm looking for a room. Can you help me?~
+@84   = ~Very well. I'll be back to check on you, Aldwin. Farewell.~

@@ -1,0 +1,36 @@
+--- NeJ\baf\SHOFLT2.baf	Sun Jan 07 00:16:34 2007
++++ C:\BWP Patchstudio\patched files\NeJ\baf\SHOFLT2.baf	Wed Apr 10 10:29:48 2019
+@@ -2,7 +2,7 @@
+ 	See([PC])
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~We are under attack!~)
++		DisplayStringHead(Myself,@0)
+ 		Shout(89)
+ 		Continue()
+ END
+@@ -35,19 +35,19 @@
+ 	CombatCounter(0)
+ THEN
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~The attack will commence here.~)
++		DisplayStringHead(Myself,@1)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~Our forces will lie in wait here.~)
++		DisplayStringHead(Myself,@2)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~They will charge from this point.~)
++		DisplayStringHead(Myself,@3)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~They will come from the rear here.~)
++		DisplayStringHead(Myself,@4)
+ 		Continue()
+ 	RESPONSE #100
+-		DisplayStringHead(Myself,~The archers will support from this point.~)
++		DisplayStringHead(Myself,@5)
+ 		Continue()
+ END
+ 

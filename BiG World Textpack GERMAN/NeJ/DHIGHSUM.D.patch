@@ -1,0 +1,28 @@
+--- NeJ\Dfiles\DHIGHSUM.D	Tue Nov 11 23:33:22 2003
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DHIGHSUM.D	Wed Apr 10 10:24:05 2019
+@@ -2,20 +2,20 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 0
+-  SAY ~Infidels!  How dare you profane our summoning chamber!  This holy place is reserved for those of *high class* and solemn bearing.  You will suffer greatly for your vile, corrupting intrusion into our domain!~
+-  IF ~~ THEN REPLY ~No, it is *you* who will suffer, monster!~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  SAY @0
++  IF ~~ THEN REPLY @1 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ Enemy()
+ ~ EXIT
+-  IF ~~ THEN REPLY ~You know what?  You're not scaring me.~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  IF ~~ THEN REPLY @2 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ Enemy()
+ ~ EXIT
+-  IF ~~ THEN REPLY ~Sorry about the intrusion.  I'll just close the door on my way out...~ DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
++  IF ~~ THEN REPLY @3 DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ Enemy()
+ ~ GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I don't think so.  Your cowardice sickens me.  Your pathetic gods granted you the blessing of a backbone.  It is clear to me now that you unholy wretches have degenerated to the point where you don't even have that.  No scales, no tail, no backbone, no purpose... truly a wretched form of "life."  I will put you out of your misery.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("Yuanti_Inferno","GLOBAL",1)
+ Enemy()
+ ~ EXIT

@@ -1,0 +1,74 @@
+--- NeJE\dlg\PIRMUR09.D	Mon Sep 24 06:27:59 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\PIRMUR09.D	Tue Apr 09 19:37:01 2019
+@@ -1,18 +1,18 @@
+ EXTEND_BOTTOM PIRMUR09 15
+-  IF ~~ THEN REPLY ~I need to sail to Athkatla and back. May I book a passage on your ship?~ GOTO N1
++  IF ~~ THEN REPLY @0 GOTO N1
+ END
+ 
+ APPEND ~PIRMUR09~
+ 
+ IF ~~ THEN BEGIN N1
+-  SAY ~Of course, <CHARNAME>. It will be my pleasure to deliver you safely to the City of Coin. The cost is 20,000 gp for the round trip, and my ship will be yours. ~ 
+-	IF ~PartyGoldGT(19999)~ THEN REPLY ~Sure, here your gold is then.~ GOTO N2
++  SAY @1 
++	IF ~PartyGoldGT(19999)~ THEN REPLY @2 GOTO N2
+   	IF ~PartyGoldLT(20000)~ THEN REPLY #20988 /* ~Very well, I'll be back with the money.~ */ GOTO N3
+-  	IF ~~ THEN REPLY ~Sorry, Captain, I cannot make it at the moment.~ GOTO N3
++  	IF ~~ THEN REPLY @3 GOTO N3
+ END
+ 
+ IF ~~ THEN BEGIN N2 // from: 68.0 68.1 73.2
+-  SAY ~Thank you <CHARNAME>. The journey shall be swift, for I have a good ship and a fine crew, veterans both, and well seasoned. You may scarcely notice the passing of the voyage... Rig up, crew!~
++  SAY @4
+   IF ~~ THEN DO ~TakePartyGold(20000)
+ DestroyGold(20000)
+ ClearAllActions()
+@@ -21,38 +21,38 @@
+ END
+ 
+ IF ~~ THEN BEGIN N3
+-  SAY ~I'll wait for you here.~
++  SAY @5
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #-1 ~Global("VP_Sail_Athkatla","GLOBAL",1)~ THEN BEGIN N4
+-  SAY ~We have arrived safely. I leave you to your mission, whatever it may be. It has been a pleasure sailing in your company, but now, I take my leave. I'll wait for you in the Sea Bounty for sailing back to Brynnlaw.~
++  SAY @6
+   IF ~~ THEN DO ~SetGlobal("VP_Sail_Athkatla","GLOBAL",2)
+ EscapeAreaMove("AR0313",784,313,7)~ EXIT
+ END
+ 
+ IF WEIGHT #-2 ~Global("VP_Sail_Athkatla","GLOBAL",2)~ THEN BEGIN N5
+-  SAY ~Hello, <CHARNAME>. It's nice to see you again. Would you like to sail back to Brynnlaw?~
+-	IF ~~ THEN REPLY ~Sure.~ GOTO N6
+-  	IF ~~ THEN REPLY ~Please wait a little bit longer.~GOTO N7
++  SAY @7
++	IF ~~ THEN REPLY @8 GOTO N6
++  	IF ~~ THEN REPLY @9GOTO N7
+ END
+ 
+ IF ~~ THEN BEGIN N6
+-  SAY ~Then please follow me to the docks. My boat is ready to bring us to the ship. We are fully staffed and ready to sail. Never a fear nor worry should cross your thoughts this eve, m'<PRO_LADYLORD>. I have traveled this sea a good many times, and I foresee no troubles.~
++  SAY @10
+   IF ~~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPCutBr")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN N7
+-  SAY ~No worries. I'll wait for you here.~
++  SAY @11
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #-3 ~Global("VP_Sail_Athkatla","GLOBAL",3)~ THEN BEGIN N8
+-  SAY ~We have arrived safely and in good time, I might add. Congratulatory remarks for all the crew, and to our respectfull cruise passengers for their delightful company.~
++  SAY @12
+ =
+-~I would be happy to sail with you <CHARNAME>, should you ever need my ship again.~
++@13
+   IF ~~ THEN DO ~SetGlobal("VP_Sail_Athkatla","GLOBAL",0)~ EXIT
+ END
+ END

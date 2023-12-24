@@ -1,0 +1,29 @@
+--- TS\bgtdlg\DYNA.D	Sun Sep 20 03:16:24 2009
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\DYNA.D	Thu May 05 10:44:46 2016
+@@ -1,20 +1,20 @@
+ BEGIN ~DYNA~
+ 
+ IF ~Global("VP_Dyna_Appears","GLOBAL",2)~ THEN BEGIN 0
+-  SAY ~What is transpiring? Where am I? Oh, <CHARNAME> is that you? I... remember now. Minsc, my loyal bodyguard, saved my life by allowing me to hide inside Boo’s body. But the spell went away. It all became mixed up... Oh, I have no right to live. Minsc will serve you better than me. Please, give me the hamster.~
+-  IF ~~ THEN REPLY ~I want both of you to live! Is there a way?~ GOTO 1
+-  IF ~~ THEN REPLY ~I am sorry, Dynaheir. Take Boo.~ GOTO 2
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 2
+ //  IF ~~ THEN REPLY ~Stay with me and be my favourite witch again! Minsc had fulfilled his destiny in sacrificing his life for yours.~ GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I am sorry, <CHARNAME> if there was one, I would be the first one to be walking it. Minsc, my loyal friend!~
+-  IF ~~ THEN REPLY ~I am sorry, Dynaheir. Take Boo.~ GOTO 2
++  SAY @3
++  IF ~~ THEN REPLY @2 GOTO 2
+ //  IF ~~ THEN REPLY ~Stay with me and be my favourite witch again! Minsc had fulfilled his destiny in sacrificing his life for yours.~ GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~Good luck, <CHARNAME>.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("VP_Dyna_Appears","GLOBAL",3)
+ ClearAllActions()
+ StartCutSceneMode()

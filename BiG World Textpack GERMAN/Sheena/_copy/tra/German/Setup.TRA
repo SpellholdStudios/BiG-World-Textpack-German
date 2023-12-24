@@ -1,0 +1,43 @@
+@0    = ~Installiere die Geschichte eines Halbdrachens~
+@1    = ~Sheena~
+@2    = ~Als Ihr sie nach ihrer Vergangenheit befragt, erwähnt Sheena ihren Steifvater als ihren einzig wahren Vater.~
+@3    = ~Gestaltwandlung in ihre natürliche Form~
+@4    = ~Gestaltwandlung zum Menschen~
+@5    = ~Halbdrachen Odem~
+@6    = ~Sheenas Rächer~
+@7    = ~Dieses extrem grosse zweihändige Schwert wurde von Sheenas Stiefvater geschmiedet, der ein berühmter Waffenschmied auf Faerûn ist. Sheena merkte an, dass das Schwert aus den Tentakeln eines Illithiden und dem Herzen eines Feuerriesen geschmiedet wurde, doch wie ihr Stiefvater solch seltene und wertvolle Artefakte auftreiben konnte, bleibt wohl im Dunklen. 
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer erhält der Gegner 2 zusätzliche Punkte Feuerschaden.
+
+Jeder Treffer senkt die Feuerresistenz des Gegners um 5 Punkte, es sei denn, ein RW gegen Odemwaffen mit -6 ist erfolgreich.
+
+Es besteht eine 10%ige Chance, das Ziel für 1,5 Runden zu betäuben. Kein Rettungswurf.
+
+ETW0: +3 Bonus
+Schaden: 1W12 +3 (Hieb)
+Gewicht: 10
+Initiativefaktor: 2
+Fertigkeit: Zweihänder
+Typ: 2-händig
+Mindeststärke: 16
+
+Kann nicht verwendetnwerden von:
+ Zwergen
+ Menschen
+ Elfen
+ Gnomen
+ Halbelfen
+ Halborks~
+@8    = ~Sheenas Rüstung~
+@9    = ~Dies ist Sheenas Rüstung. Hergestellt aus extrem starkem Leder würde sie sicherlich einen ausgezeichneten Schutz bieten, wenn Sheena aufhören würde, den Teil zu entfernen, der ihre Brust bedeckt. Aber diese Anpassung hat definitiv die Rüstungsmobilität verbessert, weil sie Sheena nicht dabei behindert, Zauber zu wirken.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeite:
+– Wirken von Zaubern ist möglich
+
+Rüstungsklasse: 2
+Mindeststärke: 6
+Gewicht: 10~

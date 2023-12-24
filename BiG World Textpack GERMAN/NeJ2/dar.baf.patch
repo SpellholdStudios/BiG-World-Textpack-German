@@ -1,0 +1,20 @@
+--- NeJ2\Dar\baf\dar.baf	Fri Aug 25 02:11:28 2017
++++ C:\BWP Patchstudio\patched files\NeJ2\Dar\baf\dar.baf	Wed Apr 10 10:33:06 2019
+@@ -17,7 +17,7 @@
+ THEN
+ 	RESPONSE #100
+ 		EquipMostDamagingMelee()
+-		DisplayStringHead(Myself,~Damn you beasts! You think to make Dar your next meal! I'll make sure you don't all get a taste of my flesh this day!~)
++		DisplayStringHead(Myself,@0)
+ 		AttackReevaluate(LastAttackerOf(Myself),75)
+ 		Continue()
+ END
+@@ -30,7 +30,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Create_Dar","GLOBAL",3)
+-		DisplayStringHead(Myself,~Ha! Then again perhaps none of you will! Are you going to aid me friends or does it amuse you to stand and watch these beasts feast on Half Orc flesh?~)
++		DisplayStringHead(Myself,@1)
+ 		AttackReevaluate(LastAttackerOf(Myself),75)
+ 		Continue()
+ END

@@ -1,0 +1,64 @@
+@0  = ~Willkommen, Fremder. Was kann ich für Euch tun?~ ~Willkommen, Fremde. Was kann ich für Euch tun?~ 
+@1  = ~Seid gegrüßt. Mein Name ist <CHARNAME>. Und wer seid Ihr?~
+@2  = ~Ich würde gerne einige Waffen kaufen. Könntet Ihr mir wohl sagen, wo ich welche bekomme, mein Herr?~ 
+@3  = ~Nichts. Ich komme nur zufällig vorbei.~
+@4  = ~Seid gegrüßt. Mein Name ist <CHARNAME>. Ihr müsst Conlan sein, der Schmied dieses Ortes.~ 
+@5  = ~Man sagte mir, Ihr seid der Mann, an den ich mich wenden muss, wenn ich Waffen kaufen will.~
+@6  = ~Mein Name ist Conlan. Ich bin der Schmied hier in der Gegend. Wenn Ihr scharfe Klingen braucht oder schwere Streitkolben, bin ich der Mann, an den Ihr Euch wenden müsst. Nutzt die Gelegenheit, solange ich noch hier bin.~
+@7  = ~"Solange Ihr noch hier seid?" Geht Ihr denn fort?~ 
+@8  = ~Also dann... was habt Ihr zu verkaufen?~
+@9  = ~Ach, nichts. Lebt wohl.~ 
+@10 = ~Ja, ich nehm's an. Bei all den üblen Tricks, die hier in der Gegend gespielt werden, denke ich, werde ich nicht mehr sehr lange hier sein.~
+@11 = ~Ich verstehe. Ihr plant also, die Stadt zu verlassen.~
+@12 = ~Ihr verlasst Kuldahar? Das wundert mich nicht... diese Stadt ist WIRKLICH ziemlich langweilig. Könnte ich Euch begleiten?~ 
+@13 = ~Ach! Ich wünschte, das wäre möglich. Der südliche Pass ist seit langem eingeschneit; das kommt von diesem verdammten Wetter, das wir seit einiger Zeit haben. Jetzt hab ich gehört, dass sogar die nördliche Route nach Zehnstädte von einer Lawine abgeschnitten wurde. Ich sage Euch, keiner von uns wird diesen Winter überstehen. Es ist um uns alle geschehen.~
+@14 = ~Ich habe nicht die Absicht, hier zu sterben. Warum wollt Ihr Euch unbedingt Euer eigenes Grab schaufeln?~ 
+@15 = ~Ich werde erst gehen, wenn ich mich davon überzeugt habe, dass Kuldahar aus diesen Gemäuern keine Gefahr droht.~
+@16 = ~Ein erfreulicher Gedanke. Darf ich sehen, was Ihr zu verkaufen habt?~
+@17 = ~Nun, es war... nett mit Euch zu reden. Lebt wohl.~
+@18 = ~Hmpf. Es gibt nicht viel, wofür es sich für mich noch zu leben lohnt. Meine Frau Mary starb vor einigen Jahren an Fieber. Und jetzt... jetzt ist mein Sohn verschwunden, mitten in der Nacht aus seinem Bett entführt - genau unter meiner Nase! Er war nur ein Junge! ~ 
+@19 = ~Das tut mir Leid, Conlan. Habt Ihr eine Ahnung, wer oder was ihn entführt hat?~
+@20 = ~Das ist schlimm. Würdet Ihr mir zeigen, was für Waffen Ihr zu verkaufen habt?~ 
+@21 = ~Hmm. Der kleine Balg ist wahrscheinlich einfach nur abgehauen. Hätte ich auch getan, wenn ich einen so deprimierenden Langweiler zum Vater hätte.~ 
+@22 = ~Ja ja, gebt einem Mann, der am Boden liegt, ruhig noch einen Tritt. Hoffentlich fühlt Ihr Euch jetzt besser. Wenn's Euch nichts ausmacht, ich habe zu arbeiten. Geht und quält jemand anderen.~
+@23 = ~Glaubt Ihr, ich würde hier stehen und auf Metall rumhämmern, wenn ich das wüsste? Er ist einfach verschwunden, sag ich Euch, ohne eine Spur. Selbst der alte Arundel konnte nichts entdecken, und er hat eine Nase für solche Dinge. Ich nehme an, was immer ihn entführt hat, wird zurückkommen, um mich als nächstes zu holen. Ich kann nicht einmal sagen, dass mir das ungelegen käme.~ 
+@24 = ~Wer ist dieser Arundel?~
+@25 = ~Die Suche nach Sheemish, Conlans Sohn
+
+Wir haben mit Conlan gesprochen, dem Schmied von Kuldahar, dessen Sohn mitten in der Nacht spurlos verschwunden war. Conlan erwähnte auch etwas von Arundel, dem Dorfältesten. Vielleicht sollten wir diesem mal einen Besuch abstatten.~
+@26 = ~Ich habe mit Arundel gesprochen. Er glaubt, der Ursprung des Bösen könnte im Tal der Schatten liegen.~
+@27 = ~Die Suche nach Sheemish, Conlans Sohn
+
+Wir haben mit Conlan gesprochen, dem Schmied von Kuldahar, dessen Sohn mitten in der Nacht spurlos verschwunden war.~
+@28 = ~Das tut mir wirklich Leid für Euch, Conlan. Vielleicht könntet Ihr mir zeigen, was für Schwerter Ihr habt, damit ich mich rüsten kann gegen solche Banditen wie jene, die Euren Sohn entführt haben.~
+@29 = ~Ich würde mich liebend gern den ganzen Tag über Euren verschwundenen Sohn unterhalten, aber ich bin eigentlich hier, um Waffen zu kaufen. Was habt Ihr für welche?~
+@30 = ~Interessant. Lebt wohl, Conlan.~
+@31 = ~Arundel ist sowas wie der Stadtälteste von Kuldahar. Wenn wir sowas wie einen Anführer hätten, wäre er es. Er ist ein stiller Mann... verbringt oft ganze Tage allein draußen auf den Pässen zwischen den Tieren - er weiß gut mit Tieren umzugehen, wisst Ihr. Ich habe ihn einmal mit einem Adler reden sehen. Er saß auf seiner Schulter, und die beiden haben geschwätzt wie zwei alte Freunde.~
+@32 = ~Vielleicht sollte ich ihn aufsuchen. Wo kann ich ihn finden?~
+@33 = ~Interessant. Sagt, würde es Euch wohl etwas ausmachen, mir Eure Waffen zu zeigen?~
+@34 = ~Na Klasse, ein selbstmordgefährdeter Schmied und ein verrückter Stadtältester, der mit Vögeln redet. Diese Stadt wird ja immer besser. Lebt wohl.~
+@35 = ~Er hat ein Haus am Südende der Stadt, bei den vorzeitlichen stehenden Steinen. Ihr könnt es nicht verfehlen. Es ist das größte Gebäude in der Stadt. Man sagt, es ist auch das älteste.~
+@36 = ~Könnte ich, bevor ich gehe, noch sehen, was Ihr zu verkaufen habt?~
+@37 = ~Vielen Dank, Conlan. Lebt wohl.~
+@38 = ~Das Tal der Schatten, wie? Das überrascht mich gar nicht. Der Ort stinkt förmlich nach Unheil. Die meisten Bewohner der Stadt meiden ihn wie die Pest. Die, die diese Richtung einschlagen, werden nicht mehr gesehen. ~
+@39 = ~Hmm. Darf ich sehen, was Ihr zu verkaufen habt?~
+@40 = ~Hmm. Ich erwarte nicht, dass jemand wie Ihr das versteht. Ihr seid nicht von hier, Fremder. Ihr habt keine Ahnung, was wir durchgemacht haben. Ich sage Euch, in diesen Bergen geht das Böse um, und keiner von uns ist sicher. Nicht einmal Arundel kann uns mehr beschützen.~ ~Hmm. Ich erwarte nicht, dass jemand wie Ihr das versteht. Ihr seid nicht von hier, Fremde. Ihr habt keine Ahnung, was wir durchgemacht haben. Ich sage Euch, in diesen Bergen geht das Böse um, und keiner von uns ist sicher. Nicht einmal Arundel kann uns mehr beschützen.~
+@41 = ~Ich habe mit Arundel gesprochen. Er glaubt, der Ursprung des Bösen könnte im Tal der Schatten liegen.~
+@42 = ~Ja, ich bin Conlan. Wenn Ihr scharfe Klingen braucht oder schwere Streitkolben, bin ich der Mann, an den Ihr Euch wenden müsst. Nutzt die Gelegenheit, solange ich noch hier bin.~
+@43 = ~Wieder da? Wenn Ihr Waffen braucht, solltet Ihr die Gelegenheit nutzen, solange ich noch hier bin.~
+@44 = ~Schön, Euch wieder zu sehen. Es freut mich, dass Ihr noch lebt. Was kann ich heute für Euch tun?~
+@45 = ~Ich würde gern ein paar Waffen kaufen.~
+@46 = ~Nichts. Ich wollte nur sehen, ob Ihr noch da seid. Lebt wohl.~
+@47 = ~Ihr! Macht, dass Ihr aus meinem Laden kommt! Ich mache keine Geschäfte mit einer Bande mordender Schakale wie Euch!~
+@48 = ~Wartet. Ich kann alles erklären.~
+@49 = ~Ganz wie Ihr wollt. Lebt wohl.~
+@50 = ~Ich will Eure abgeschmackten Lügen nicht hören! Macht jetzt, dass ihr rauskommt... oder, bei allen Göttern, ich werde Euch die Schädel einschlagen und mit Euren stinkenden Leichen meine Schmiede befeuern.~
+@51 = ~Ihr seid ein toter Mann, Schmied.~
+@52 = ~Ich danke Euch, dass Ihr meinen Jungen für mich gefunden habt. Ich hatte die Hoffnung schon beinahe aufgegeben. Ich bin ja fast vom Stuhl gefallen, als er zur Tür hereingehüpft kam und Geschichten von Helden und Monstern plapperte - und er selbst hat kaum einen Kratzer davongetragen! Er ist jetzt hinten und ruht sich aus. Geht nur rein und sagt ihm Guten Tag, wenn Ihr mögt.~
+@53 = ~Das werden wir. Doch zuerst würden wir gern etwas kaufen.~
+@54 = ~Suche nach Sheemish, Conlans Sohn.
+
+Wir haben Conlans Sohn Sheemish aus den Tiefen von Drachenauge befreit. Wir sollten wohl nach Kuldahar zurückkehren, um zu sehen, ob er gut nach Hause gekommen ist.~
+@55 = ~Das werden wir. Lebt wohl.~
+@56 = ~Ihr! Macht, dass Ihr aus meinem Laden kommt! Ich mache keine Geschäfte mehr mit Euch!~
+@57 = ~Mein Sohn ist einfach verschwunden, sag ich Euch, ohne eine Spur. Selbst der alte Arundel konnte nichts entdecken, und er hat eine Nase für solche Dinge. Ich nehme an, was immer ihn entführt hat, wird zurückkommen, um mich als nächstes zu holen. Ich kann nicht einmal sagen, dass mir das ungelegen käme.~

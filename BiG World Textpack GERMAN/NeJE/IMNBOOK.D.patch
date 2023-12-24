@@ -1,0 +1,9 @@
+--- NeJE\dlg\IMNBOOK.D	Fri Mar 30 03:09:37 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\IMNBOOK.D	Tue Apr 09 19:36:21 2019
+@@ -5,5 +5,5 @@
+ PartyHasItem("MISC7L")
+ PartyHasItem("MISCBSIM")
+ PartyHasItem("miscbkel")
+-PartyHasItem("miscblei")~ THEN REPLY ~I'm looking for information about a tome that details the curing of Vampirism.~ EXTERN IMNBOOK1 4
++PartyHasItem("miscblei")~ THEN REPLY @0 EXTERN IMNBOOK1 4
+ END

@@ -1,0 +1,11 @@
+--- Bdash\BG1\rORDULI.D	Wed Apr 06 13:07:02 2005
++++ C:\BWP Patchstudio\patched files\Bdash\BG1\rORDULI.D	Wed May 04 07:21:26 2016
+@@ -4,7 +4,7 @@
+ PartyHasItem("AMUL13")
+ PartyHasItem("RING12")
+ ~ THEN BEGIN 4 // from:
+-  SAY ~Ah, the bloodstone amulet of Arkion and Nemphre's onyx ring. I hope no blood was shed to get these for that may yet rest heavy on your conscience. Fools are to be suffered in this world, not slaughtered. Be what may, at least they may find some peace. As for these trinkets, you might as well sell them somewhere as they are of little use to anyone.  For your troubles I will give you this cloak.  It may be of some use to you in the future.~ /* #15040 */
++  SAY @0 /* #15040 */
+   IF ~~ THEN DO ~GiveItemCreate("CLCK06",LastTalkedToBy,0,0,0)
+ SetGlobal("HelpOrdulinian","GLOBAL",1)
+ AddexperienceParty(3500)

@@ -1,0 +1,220 @@
+--- NeJE\dlg\Balor.D	Sat Feb 28 23:01:50 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Balor.D	Tue Apr 09 19:34:50 2019
+@@ -2,98 +2,98 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ !Global("VP_EvilAct","GLOBAL",2)~ THEN BEGIN 0
+-	SAY ~(*As you enter the cave, you sense the presence of another mind within your own, you sense its words, rather than hear them.*)~
++	SAY @0
+ =
+-~At last, my patience with Shendru was beginning to wear thin, what with his beasts keeping all from my reach, but you were worth waiting for, your souls are young and fearless.~
++@1
+ =
+-~Although... I sense one among you who...~
++@2
+ 	IF ~~ THEN EXTERN ~HROTHJ~ CK11
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-	SAY ~(*As the demon turns its thoughts to Hrothgar, you find that you can still sense its words within your own mind.*)~
++	SAY @3
+ =
+-~What have we here? You interrupt me when my thoughts were directed at another?~
++@4
+ =
+-~Ah, a prime who does not exhibit any sign of the fear that I usually encounter in creatures of this plane. Why is you do not fear me as do your companions?~
++@5
+ =
+-~Come closer and answer me.~
++@6
+ 	IF ~~ THEN EXTERN ~HROTHJ~ CK12
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-	SAY ~Brave words, and yet I suspect they are spoken in order to distract me. You hide something, as does your companion.~
++	SAY @7
+ =
+-~(*Turning to you, the full force of its thoughts enter your mind*) You also try to keep your mind hidden.~
+-  IF ~~ THEN REPLY ~Enough! I feel you in my head demon so you know what it is I have come for. Time is short, give me the light gem and I will leave you in peace.~ GOTO 4
+-  IF ~~ THEN REPLY ~Get out of my head demon! I am here for the light gem and I am prepared to use force if necessary to acquire it!~ GOTO 4
+-  IF ~~ THEN REPLY ~I think I may have made a mistake in coming here. Guess I will just turn around and head back the way I came. Bye.~ GOTO 11	
+-  IF ~~ THEN REPLY ~I am not sure how it is that I understand you demon but I have no quarrel with you. Please, I want only the gem that you guard.~ GOTO 12	
++@8
++  IF ~~ THEN REPLY @9 GOTO 4
++  IF ~~ THEN REPLY @10 GOTO 4
++  IF ~~ THEN REPLY @11 GOTO 11	
++  IF ~~ THEN REPLY @12 GOTO 12	
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-	SAY ~(*Its next thoughts seem to be mocking you.*)~
++	SAY @13
+ =
+-~I am in your head prime as is the way I communicate with all inferior beings, the only way that I will communicate with such as you.~ 
++@14 
+ =
+-~You intrigue me, as does this one, (*indicating Hrothgar*), how is it that he was able to break through when my mind was directed at you alone, something it appears that you are also able to do?~
++@15
+ =
+-~I would study his mind further but he is preventing me, he is hiding something. He is different, you are different, and I do not like things that are hidden.~
+-  IF ~~ THEN REPLY ~Forgive my impatience but that is a mystery that will have to remain hidden, I have no time for in depth explanations. The gem, please?~ GOTO 5
+-  IF ~~ THEN REPLY ~Sorry, but I am not about to let you poke about in my mind. Now if you do not mind, the gem?~ GOTO 5
+-  IF ~~ THEN REPLY ~(*Turning to Hrothgar*) Remind me to ask you about that, Hrothgar. (*Turning back to the demon*) I came here hoping to take the gem peaceably, now what does it take for you to give it to me so’s I can leave peaceably?~ GOTO 5
++@16
++  IF ~~ THEN REPLY @17 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 5
++  IF ~~ THEN REPLY @19 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-	SAY ~(*The next impression to reach your mind is one of mirth. The demon appears to be laughing at you*) Ha, the gem yes.~
++	SAY @20
+ =
+-~Has it not occurred to you to question why Shendru made sure that you knew of it? Why, if it is the only way to beat his game, would he even mention it?~
+-	IF ~~ THEN REPLY ~Judging by the battle we had to get here, only to discover that a balor guards the gem, I would say it is for his amusement.~ GOTO 6
+-  IF ~~ THEN REPLY ~He is sadistic enough to take pleasure in raising our hopes and then take even more pleasure in seeing those hopes dashed.~ GOTO 6
+-  IF ~~ THEN REPLY ~I have no idea, but I doubt it has anything to do with his sense of fair play. Do you?~ GOTO 6
++@21
++	IF ~~ THEN REPLY @22 GOTO 6
++  IF ~~ THEN REPLY @23 GOTO 6
++  IF ~~ THEN REPLY @24 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-	SAY ~(*You sense ripples of what you presume to be demon laughter pass over your mind*) Oh no, dear me no.~
++	SAY @25
+ =
+-~Shendru’s agenda is much simpler. He wants the gem for himself because it is the only way of keeping his beasts at bay.~
++@26
+ =
+-~He knows that I guard it and he knows the price for my leaving this plane, he cannot afford to pay it and still continue what he calls his game.~
++@27
+ =
+-~Instead, he sends the likes of you to me knowing that he cannot lose whether you make it this far or not. Do I need to go on?~
+-  IF ~~ THEN REPLY ~Please do.~ GOTO 7	
+-  IF ~~ THEN REPLY ~How can he not lose if I pay your price and take the gem?~ GOTO 7
+-  IF ~~ THEN REPLY ~Look, I am running short of time here. Tell me what your price is and maybe we can come to some arrangement that will get us all out of here.~ GOTO 7
++@28
++  IF ~~ THEN REPLY @29 GOTO 7	
++  IF ~~ THEN REPLY @30 GOTO 7
++  IF ~~ THEN REPLY @31 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-	SAY ~(*Once again you feel the strange ripples as they form in your head*) Let me make this easier for you to understand and tell you my price.~ 
++	SAY @32 
+ =
+-~I am here through a misunderstanding on my own plane, what you would call a wager, one which I was unfortunate to lose. Now, in order to return to my own plane I need to collect some souls to take with me, to pay off this wager.~ 
++@33 
+ =
+-~Shendru knows that if I take the souls of anyone that reaches here, the gem will be his for the taking. If however, his beasts prevent anyone getting this far, then I remain here for a while longer, waiting.~ 
++@34 
+ =
+-~You cannot leave here with your lives in tact and the gem. So, maybe the druid is not as insane as one would first presume. What say you, now you know my price?~ 
+-	IF ~~ THEN REPLY ~Such arrogance! Shendru obviously has not considered the possibility of me killing you, taking the gem and keeping my soul!~ GOTO 8
+-  IF ~~ THEN REPLY ~Then Shendru has underestimated me demon! I am taking the gem and my soul when I leave here.~ GOTO 8
++@35 
++	IF ~~ THEN REPLY @36 GOTO 8
++  IF ~~ THEN REPLY @37 GOTO 8
+   IF ~InParty("Melora")
+-!Dead("Melora")~ THEN REPLY ~If it is souls that you want, I know where there are some ripe ones for the taking and not too far from where we stand. They will be no match for one such as you, what do you say, their souls for the gem and I take care of the Druid on my way out?~ EXTERN ~MELORAJ~ MQ5A
++!Dead("Melora")~ THEN REPLY @38 EXTERN ~MELORAJ~ MQ5A
+   IF ~OR(2)
+ !InParty("Melora")
+-Dead("Melora")~ THEN REPLY ~If it is souls that you want, I know where there are some ripe ones for the taking and not too far from where we stand. They will be no match for one such as you, what do you say, their souls for the gem and I take care of the Druid on my way out?~ GOTO 10 
++Dead("Melora")~ THEN REPLY @38 GOTO 10 
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-	SAY ~(*Once again you sense the ripples of mirth from the demon, but this time you sense... a sigh of resignation... you can think of no other way to describe it.*)~
++	SAY @39
+ =
+-~Ah, it is as I expected. Your kind are foolish, proud but foolish. Your souls are already mine and I eagerly await the chance to know what it is that I am sensing around two of you in particular.~
++@40
+ 	IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-	SAY ~(*Your mind seems to flare with searing pain as you suddenly sense the hatred and anger of the demon rising in your thoughts.*)~
++	SAY @41
+ =
+-~Look around you and think fondly of this world you called home for you will not see it again! There will be no bargaining!~
++@42
+ 	IF ~InParty("Melora")
+ !Dead("Melora")~ THEN DO ~SetGlobal("VP_TafficQuest","GLOBAL",2)
+ ActionOverride("Melora",ChangeAIScript("",DEFAULT))
+@@ -107,17 +107,17 @@
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-	SAY ~(*You sense the demon is interested and at the same time amused by your answer*) The souls of those in the cave, yes, I sense them in your thoughts.~ 
++	SAY @43 
+ =
+-~Your will to survive is stronger than I anticipated, you do not worry about repercussions for your actions.~ 
++@44 
+ =
+-~You would certainly be a worthy opponent and might even best me should we do battle prime, but why put it to the test when it is not necessary?~
++@45
+ =
+-~I will exchange the gem for those souls but only when they are mine.~ 
++@46 
+ =
+-~Come, I will follow you, I do not trust you at my back.~
++@47
+   IF ~InParty("Taffic")
+-!Dead("Taffic")~ THEN REPLY ~If it is souls that you want, I know where there are some ripe ones for the taking and not too far from where we stand. They will be no match for one such as you, what do you say, their souls for the gem and I take care of the Druid on my way out?~ EXTERN ~TAFFICJ~ balor1
++!Dead("Taffic")~ THEN REPLY @38 EXTERN ~TAFFICJ~ balor1
+   IF ~InParty("Melora")
+ !Dead("Melora")
+ OR(2)
+@@ -138,34 +138,34 @@
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-	SAY ~(*Its next thoughts seem to be mocking you*) Oh, I think not prime!~ 
++	SAY @48 
+ =
+-~I have waited a long time for my release from this plane, I am not about to let you walk away and take valuable souls with you.~ 
++@49 
+ =
+-~There is more here, you and this one (*indicating Hrothgar*), you are both... different, hiding something and I do not like things that are hidden.~
+-  IF ~~ THEN REPLY ~I... I have no idea what you mean. I came looking for a light gem, I was told it would help me leave this place.~ GOTO 5	
+-  IF ~~ THEN REPLY ~Maybe we can aid each other. We are both looking for our freedom, the gem will secure mine, tell me, what will secure yours?~ GOTO 5	
+-  IF ~~ THEN REPLY ~I did not mean to disturb you. I see now that this search for the light gem was another ploy on the druid’s part to amuse himself further at my expense. I will leave you in peace.~ GOTO 5
++@50
++  IF ~~ THEN REPLY @51 GOTO 5	
++  IF ~~ THEN REPLY @52 GOTO 5	
++  IF ~~ THEN REPLY @53 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-	SAY ~(*Its next thoughts seem to be mocking you*) You understand me because I wish it!~
++	SAY @54
+ =
+-~I will not lower myself by speaking the tongue of inferior beings, I prefer you to use your own thoughts to translate my words.~
++@55
+ =
+-~I am  intrigued by you, how is it that this one (*indicating Hrothgar*) was able to break through when my mind was directed at you alone, something it appears that you are also able to do.~
++@56
+ =
+-~I would study his mind further but he is preventing me, he is hiding something. He is different, you are different, and I do not like things that are hidden.~
+-  IF ~~ THEN REPLY ~Forgive my impatience but that is a mystery that will have to remain hidden, I have no time for in depth explanations. The gem, please?~ GOTO 5
+-  IF ~~ THEN REPLY ~Sorry, but I am not about to let you poke about in my mind. Now if you do not mind, the gem?~ GOTO 5	
+-  IF ~~ THEN REPLY ~(*Turning to Hrothgar*) Remind me to ask you about that, Hrothgar. (*Turning back to the demon*) I came here hoping to take the gem peaceably, now what does it take for you to give it to me so’s I can leave peaceably?~ GOTO 5
++@16
++  IF ~~ THEN REPLY @17 GOTO 5
++  IF ~~ THEN REPLY @18 GOTO 5	
++  IF ~~ THEN REPLY @19 GOTO 5
+ END
+ 
+ IF ~Global("VP_EvilAct","GLOBAL",2)~ THEN BEGIN 13
+-	SAY ~(*Your senses are suddenly alert to a change in the demons manner towards you, its thoughts suddenly become menacing.*)~
++	SAY @57
+ =
+-~As you said, they were easy prey, their hearts held so much fear, whilst you on the other hand... what is it about you?~
++@58
+ =
+-~I cannot help but feel that it will be a missed opportunity if I do not add your soul and those of your companions to my collection.~
++@59
+ 	IF ~~ THEN DO ~Enemy()~ EXIT
+ END

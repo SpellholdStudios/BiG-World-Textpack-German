@@ -1,0 +1,22 @@
+--- TS\bgtnodlg\SOL.D	Wed Dec 29 16:11:35 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\SOL.D	Thu May 05 10:46:58 2016
+@@ -1,17 +1,11 @@
+ BEGIN ~SOL~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~Oh, beautiful daughter of Aran Linvail! Never you spared a tender word for me in life. I praise my order to deliver you to the Mistress. I was promised that in undeath you shall be mine, Sime Linvail.~
++  SAY @0
+   IF ~~ THEN EXTERN ~SOLA~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~ 
+-
+-One evening made of pink and mystical blue,
+-We will exchange a single flash from afar,
+-Like a long sob, charged with adieux; 
+-
+-This evening is tonight, my dear Sime... Accept the death from me and we shall live forever, powerful and passionate.~
++  SAY @1
+   IF ~~ THEN EXTERN ~SIMEJ~ 29
+ END

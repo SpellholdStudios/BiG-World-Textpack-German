@@ -1,0 +1,53 @@
+--- Bdash\ThirdP\dlg\rYOSHJ.d	Fri Nov 06 21:40:59 2015
++++ C:\BWP Patchstudio\patched files\Bdash\ThirdP\dlg\rYOSHJ.d	Wed May 04 07:21:22 2016
+@@ -6,7 +6,7 @@
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)
+ Global("YoshimoMentionsRenal","LOCALS",0)~ THEN BEGIN 129
+-  SAY ~Ahhh... perhaps this is a good time to tell you of something, <CHARNAME>, seeing as you are leading us into the Docks and everything.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("YoshimoMentionsRenal","LOCALS",1)~ GOTO 130
+ END
+ 
+@@ -21,7 +21,7 @@
+ !StateCheck(Player1,STATE_SLEEPING)
+ Global("YoshimoReminder","LOCALS",0)
+ ~ THEN BEGIN 138
+-  SAY ~Hmmmm. If we are going to pay the Bloodscalp a visit, <CHARNAME>, perhaps we should not wait so long. Perhaps, soon, we might pay the guildmaster a visit, yes?~
++  SAY @1
+   IF ~~ THEN DO ~SetGlobal("YoshimoReminder","LOCALS",1)
+ SetGlobalTimer("YoshimoRemindsRenal","GLOBAL",TWO_DAYS)
+ ~ EXIT
+@@ -37,7 +37,7 @@
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)
+ Global("YoshimoReminder","LOCALS",1)~ THEN BEGIN 139
+-  SAY ~You do not intend to see Renal Bloodscalp anytime soon, do you?  Ahhh, no matter. If you change your mind, however, I have little doubt the man would still wish to see us.~
++  SAY @2
+   IF ~~ THEN DO ~SetGlobal("YoshimoReminder","LOCALS",2)~ EXIT
+ END
+ END
+@@ -49,12 +49,12 @@
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)
+ Global("YoshimoMentionsRenal","LOCALS",0)~ THEN BEGIN KR100
+-  SAY ~Ahhh... perhaps this is a good time to tell you of something, <CHARNAME>, seeing as you are leading us into the Docks and everything.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("YoshimoMentionsRenal","LOCALS",1)~ GOTO KR101
+ END
+ 
+ IF ~~ THEN BEGIN KR101
+-  SAY ~This is Shadow Thief territory... They will shoot you on the first sight for what you have done to them.~
++  SAY @3
+   IF ~~ THEN DO ~SetGlobal("YoshimoMentionsRenal","LOCALS",1)~ EXIT
+ END
+ 
+@@ -67,7 +67,7 @@
+ See(Player1)
+ !StateCheck(Player1,STATE_SLEEPING)
+ GlobalLT("YoshimoReminder","LOCALS",2)~ THEN BEGIN KR102
+-  SAY ~Hmmmm. I would suggest we stay away from the Docks district. We are now the perfect target of all the Shadow Thieves and their supporters around.~
++  SAY @4
+   IF ~~ THEN DO ~SetGlobal("YoshimoReminder","LOCALS",2)~ EXIT
+ END
+ END

@@ -1,0 +1,11 @@
+--- TS\bgtdlg\rARAN.D	Sat Aug 29 16:34:59 2015
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\rARAN.D	Thu May 05 10:45:01 2016
+@@ -1,7 +1,7 @@
+ REPLACE ~ARAN~
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~Excellent. The ship awaits. Good luck to you... I hope we all find what we are looking for.~ [ARAN21]
++  SAY @0
+   IF ~!InParty("Sime")~ THEN DO ~EraseJournalEntry(47783)
+ EraseJournalEntry(47805)
+ EraseJournalEntry(47806)

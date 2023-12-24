@@ -1,0 +1,11 @@
+--- RGenie\german\DRINVGW.tra	Wed Oct 11 14:17:06 2006
++++ C:\BWP Patchstudio\patched files\RGenie\german\DRINVGW.tra	Sun Nov 16 03:19:30 2008
+@@ -10,7 +10,7 @@
+ @9    = ~Ich würde gerne sehen, was Ihr auf Lager habt.~
+ @10   = ~Wenn ich noch einmal darüber nachdenke, dann gibt es eigentlich nichts, dass ich will.~
+ @11   = ~In Ordnung. Ihr seid ein guter Kunde und ein erfolgreicher Abenteurer. Wollt Ihr lieber meine geheime Auswahl begutachten?  Für nur 50 Goldstücke zeige ich sie Euch.~
+-@12   = ~Sicher, zeigt mir Eure "spezielle" Auswahl.~
++@12   = ~Sicher, zeigt mir Eure *spezielle* Auswahl.~
+ @13   = ~Es tut mir leid, ich bin nur an Eurer normalen Auswahl interessiert.~
+ @14   = ~Wie Ihr wollt, aber wenn Ihr jemals etwas braucht, dann bin ich nur einen Flötenpfiff weit entfernt.~
+ @15   = ~Ich danke Euch für das Geschäft, aber denkt daran, dass wenn Ihr jemals etwas braucht, dann bin ich nur einen Flötenpfiff weit entfernt.~

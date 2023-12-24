@@ -1,0 +1,19 @@
+--- NeJ3\baf\EEOLDJED.BAF	Tue Dec 02 00:30:05 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\EEOLDJED.BAF	Wed Apr 10 10:33:45 2019
+@@ -44,7 +44,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("JED_FLOAT","LOCALS",1)
+-		DisplayStringHead(Myself,~Arrrr cap'n ish a man who wears women's clothes... *burp*~)
++		DisplayStringHead(Myself,@0)
+ 		RealSetGlobalTimer("JED_FLOAT_TIMER","LOCALS",2)
+ END
+ 
+@@ -55,6 +55,6 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("JED_FLOAT","LOCALS",0)
+-		DisplayStringHead(Myself,~Avast there, maties! *hic* Come join Ol' Jed in a drink and few shee chanties.~)
++		DisplayStringHead(Myself,@1)
+ 		RealSetGlobalTimer("JED_FLOAT_TIMER","LOCALS",10)
+ END

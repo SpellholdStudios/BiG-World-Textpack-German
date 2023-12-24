@@ -1,0 +1,33 @@
+--- NeJE\dlg\NANNY.D	Tue Dec 28 17:00:44 2004
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\NANNY.D	Tue Apr 09 19:36:56 2019
+@@ -3,19 +3,19 @@
+ IF ~NumberOfTimesTalkedTo(0)
+ See("Yoshimo")
+ ~ THEN BEGIN 0
+-  SAY ~Yoshimo-san, I am glad to see you're healthy and in a good state.~
++  SAY @0
+   IF ~~ THEN DO ~SetGlobal("Yoshimo_Meet","LOCALS",1)
+ ~ EXTERN ~YOSHJ~ TS183
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~Thank you, Yoshimo-san. You know I have been worried about you, and now I feel much better when you are at home with your family. No need to tell you where is your room, I am sure. Your friends may rest there as well.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~!NumberOfTimesTalkedTo(0)
+ ~ THEN BEGIN 2
+-  SAY ~I hope everything is alright. Have a nice day.~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -24,6 +24,6 @@
+ !InPartySlot(LastTalkedToBy,0)
+ !Name("Yoshimo",LastTalkedToBy)
+ ~ THEN BEGIN 3
+-  SAY ~Greetings to you. Have a nice day.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END

@@ -1,0 +1,149 @@
+--- NeJE\dlg\Shendru.D	Sun Mar 01 00:17:27 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Shendru.D	Tue Apr 09 19:37:13 2019
+@@ -3,27 +3,27 @@
+ IF ~!PartyHasItem("lightgem")
+ !Global("VP_Melora_Quest","GLOBAL",9)
+ !Global("VP_EvilAct","GLOBAL",2)~ THEN BEGIN 0
+-	SAY ~Ah, I was right! New faces to join in my little game. Welcome, welcome to my realm. I am Shendru, overlord of all that you see.~
++	SAY @0
+ =
+-~Tell me, do you like games? Oh, I do hope you do. Please say that you do as I am sure you are going to be so much better at it than this miserable looking bunch here?~
++@1
+ =
+-~They did not play for long before retreating to this cave to lick their wounds.~
++@2
+ =
+-~You, however look as though you are going to offer more of a challenge for my pets. Oh yes, you will do nicely, very nicely for my next subject study! Are you interested?~
++@3
+ =
+-~Ooops... silly me, of course you are, there is after all no other way for you to leave here.~
+-	IF ~~ THEN REPLY ~I have heard about this game of yours druid. Now I propose that you listen to one of my own devising. The rules are, you have to open the exits from here, call off your pets, give us ALL time to leave and you win. The prize being, you get to keep your life. If you disobey the rules then I get to take your life. Simple game really.~ GOTO 2	
+-	IF ~~ THEN REPLY ~You are insane druid and I do not bargain with madmen! Open the exits and keep your pets of my back whilst I leave. That way I will allow you to continue to live in your madness.~ GOTO 2
+-	IF ~~ THEN REPLY ~No, I am not interested in your game, but I am interested to know why you think I will not end it and this madness, along with your life now?~ GOTO 2
+-	IF ~~ THEN REPLY ~I have no quarrel with you druid and believe me, you do not want to quarrel with me. I suggest you call off your beasts and release us now, ALL of us!~ GOTO 2
++@4
++	IF ~~ THEN REPLY @5 GOTO 2	
++	IF ~~ THEN REPLY @6 GOTO 2
++	IF ~~ THEN REPLY @7 GOTO 2
++	IF ~~ THEN REPLY @8 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-	SAY ~Oh dear! This will never do! You threaten the lord in whose realm you trespass?~
++	SAY @9
+ =
+-~Now that is most ungrateful of you, especially as you have been very rude in not letting me explain the rules of my game. No matter, you can find your own way out now.~
++@10
+ =
+-~Know this, the exits are open, but only until first light. Good luck and may the best man or beast win.~
++@11
+  IF ~~ THEN DO ~SetGlobal("VP_Melora_Quest","GLOBAL",6)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -34,73 +34,73 @@
+ OR(2)
+ 	Global("VP_Melora_Quest","GLOBAL",9)
+ 	Global("VP_EvilAct","GLOBAL",2)~ THEN BEGIN 3
+-	SAY ~As I thought, worthy contestants indeed. See you have even secured the biggest prize, my gem. Come, give it to me before you leave for you have certainly won your freedom today.~
++	SAY @12
+ =
+-~The gem will be of no further use to you. The balor has kept it out of my hands long enough, I cannot wait to hold it once more. Look how it glows, is it not beautiful?~ 
++@13 
+ =
+-~It is almost a shame to have to hide it away but my pets do not like it. I think it hurts their eyes, come let me have it.~
++@14
+ 	  IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ shendru
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Stand aside Shendru! I have made it this far and no insane druid is going to prevent my leaving.~ GOTO 4
++Dead("Jaheira")~ THEN REPLY @15 GOTO 4
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I have no quarrel with you druid. What you do here is none of my concern. My quarrel is with another, but, if you do not let me pass, I will not hesitate in killing you in order to get to him.~ GOTO 4	
++Dead("Jaheira")~ THEN REPLY @16 GOTO 4	
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I was hoping you would show up druid, it is time to bring this game of yours to a close!~ GOTO 6	
++Dead("Jaheira")~ THEN REPLY @17 GOTO 6	
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Game over Shendru. You who profess to be druid, protector of all natures creatures,  have defiled this land long enough. By striking you down so shall balance be restored.~ GOTO 6
++Dead("Jaheira")~ THEN REPLY @18 GOTO 6
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~The demon told me of your interest in the light gem druid. There is no way I am going to hand it over to you, your reign of madness and cruelty ends here.~ GOTO 6
++Dead("Jaheira")~ THEN REPLY @19 GOTO 6
+ 	IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~One way or another I am leaving here. If you persist in blocking my way, then it will be over your body!~ GOTO 6 	
++Dead("Jaheira")~ THEN REPLY @20 GOTO 6 	
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-	SAY ~No, you will not leave with my gem. You will bring others to slaughter my pets before I have time to tell them of my studies, they will not understand the game.~
++	SAY @21
+ =
+-~If you take it then the game is spoilt, give it to me and it can continue. You have won your freedom, see the way out is open and waiting for you.~
+- IF ~~ THEN REPLY ~Do you think me a fool? The minute I relinquish the gem you will close the exits and set your beasts on us. No, I keep the gem and the madness stops here.~ GOTO 5
+- IF ~~ THEN REPLY ~Enough! You are sick druid, your pets are no more than mindless beasts and this game of yours is nothing more than a way for you to indulge your sadistic pleasures.~ GOTO 5	
+- IF ~~ THEN REPLY ~No more druid, the game is mine! As I release you from your insanity, so shall the blight be gone from this place.~ GOTO 5		
++@22
++ IF ~~ THEN REPLY @23 GOTO 5
++ IF ~~ THEN REPLY @24 GOTO 5	
++ IF ~~ THEN REPLY @25 GOTO 5		
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-	SAY ~I... I have not devised this ending to the game? You have cheated, there is no other way this could have happened, this was not an optional outcome!~
++	SAY @26
+ =
+-~You have spoilt everything, now I am going to have to make a new game, new rules and everything. Damn you!~
++@27
+ 	IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-	SAY ~Please, I abhor violence... when it is directed at me that is. Violence is however an interesting subject to study in other creatures.~ 
++	SAY @28 
+ =
+-~You cannot begin to imagine the power these pets of mine wield or what they could become given time and training. Do you not find them magnificent beings, the ultimate fighting machine?~ 
++@29 
+ =
+-~All I have to do is find a way to coax them out during the day to hunt. That is to be my next step in their development.~
+- IF ~~ THEN REPLY ~Listen to yourself! These pets of yours are no more than wild beasts, completely and utterly mindless. If there is no way to make you see this and it is up to me to end this insanity, then so be it.~ GOTO 5	
+- IF ~~ THEN REPLY ~No more druid! In this game there can only be one victor. You started ahead but now I take the lead and it becomes my game. Winner takes all!~ GOTO 5		
+- IF ~~ THEN REPLY ~There is no way you can justify your cruelty by calling it research Shendru. As I release you from your madness, so shall your body feed the earth and the new life she will bear.~ GOTO 5
++@30
++ IF ~~ THEN REPLY @31 GOTO 5	
++ IF ~~ THEN REPLY @32 GOTO 5		
++ IF ~~ THEN REPLY @33 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-	SAY ~No, you will not leave with my gem. You will bring others to slaughter my pets before I have time to tell them of my studies, they will not understand the game.~
+-	IF ~~ THEN REPLY ~Stand aside Shendru! I have made it this far and no insane druid is going to prevent my leaving.~ GOTO 8
+-	IF ~~ THEN REPLY ~I have no quarrel with you druid. What you do here is none of my concern. My quarrel is with another, but, if you do not let me pass, I will not hesitate in killing you in order to get to him.~ GOTO 8	
+-	IF ~~ THEN REPLY ~I was hoping you would show up druid, it is time to bring this game of yours to a close!~ GOTO 6	
+-	IF ~~ THEN REPLY ~Game over Shendru. You who profess to be druid, protector of all natures creatures,  have defiled this land long enough. By striking you down so shall balance be restored.~ GOTO 6
+-	IF ~~ THEN REPLY ~The demon told me of your interest in the light gem druid. There is no way I am going to hand it over to you, your reign of madness and cruelty ends here.~ GOTO 6
+-	IF ~~ THEN REPLY ~One way or another I am leaving here. If you persist in blocking my way, then it will be over your body!~ GOTO 6 	
++	SAY @21
++	IF ~~ THEN REPLY @15 GOTO 8
++	IF ~~ THEN REPLY @16 GOTO 8	
++	IF ~~ THEN REPLY @17 GOTO 6	
++	IF ~~ THEN REPLY @18 GOTO 6
++	IF ~~ THEN REPLY @19 GOTO 6
++	IF ~~ THEN REPLY @20 GOTO 6 	
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-	SAY ~If you take the gem then the game is spoilt, give it to me and it can continue. You have won your freedom, see the way out is open and waiting for you.~
+- IF ~~ THEN REPLY ~Do you think me a fool? The minute I relinquish the gem you will close the exits and set your beasts on us. No, I keep the gem and the madness stops here.~ GOTO 5
+- IF ~~ THEN REPLY ~Enough! You are sick druid, your pets are no more than mindless beasts and this game of yours is nothing more than a way for you to indulge your sadistic pleasures.~ GOTO 5	
+- IF ~~ THEN REPLY ~No more druid, the game is mine! As I release you from your insanity, so shall the blight be gone from this place.~ GOTO 5		
++	SAY @34
++ IF ~~ THEN REPLY @23 GOTO 5
++ IF ~~ THEN REPLY @24 GOTO 5	
++ IF ~~ THEN REPLY @25 GOTO 5		
+ END 

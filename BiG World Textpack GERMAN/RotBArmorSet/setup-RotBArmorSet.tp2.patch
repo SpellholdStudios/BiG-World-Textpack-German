@@ -1,0 +1,154 @@
+--- setup-RotBArmorSet.tp2	Sun Nov 17 10:25:53 2013
++++ C:\BWP Patchstudio\patched files\setup-RotBArmorSet.tp2	Sun Nov 17 12:38:32 2013
+@@ -4,116 +4,55 @@
+ 
+ VERSION ~v1.0 BWP Fix~
+ 
+-BEGIN ~Realm of the Bhaalspawn Armor Set~
++LANGUAGE ~English~
++         ~English~
++         ~RotBArmorSet\English\Setup.tra~
++LANGUAGE ~Deutsch~
++         ~German~
++         ~RotBArmorSet\German\Setup.tra~
++
++BEGIN @0
+ 
+ COPY ~RotBArmorSet\Store\rbarmor.sto~ ~override\rbarmor.sto~
+-SAY NAME2 ~Jyssev's Heirlooms~
++SAY NAME2 @1
+ 
+ COPY ~RotBArmorSet\Items\rbplat01.itm~ ~override\rbplat01.itm~
+-SAY NAME2 ~Jyssev Plate +5~
+-SAY UNIDENTIFIED_DESC ~James Issiac Jyssev, one of the wealthy nobles of Waterdeep, had this armor forged for him when he was in the service of the army. The armor was used in many battles before it was put in display in one of James's estates. James's wife bore a son, Issiac, and when Issiac grew older, the armor was passed down to him, when he, like his father, joined the army. The Jyssev plate had been handed down for many years until it got to William Jyssev, who is now a traveling merchant.
+-
+-STATISTICS:
+-
+-Bonuses: Free action, protection from stunning, charm, disease, and confusion.
+-Armor Class: -3
+-Missile Damage: 50% resistant
+-Weight: 50
+-Requires: 16 strength
+-Usable By:
+-  Warriors
+-  Clerics
+-  Good Characters~
++SAY NAME2@2
++SAY UNIDENTIFIED_DESC @3
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbplat02.itm~ ~override\rbplat02.itm~
+-SAY NAME2 ~Blessed of the Triad~ 
+-SAY UNIDENTIFIED_DESC ~This armor is the first of a set of armors that were created by three syblings. This plate, Blessed, was made by Godric Gladivir, a powerful mage who believed in the god known as Torm. It was said that if a person ever wore this plate, then they would be blessed and protected from many things.
+-
+-STATISTICS:
+-
+-Bonuses: Blessed, protected from level drain, confusion, blindedness, and protected from poison
+-Armor Class: -3
+-Weight: 10
+-Usable By:
+-  All Good~
++SAY NAME2 @4 
++SAY UNIDENTIFIED_DESC @5
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbplat03.itm~ ~override\rbplat03.itm~
+-SAY NAME2 ~Enchanted of the Triad~
+-SAY UNIDENTIFIED_DESC ~This armor is the second of a set of armors that were created by three syblings. This plate, Enchanted, was made by Natale Natal, whose last name is not Gladivir, because she married a wealthy Nobleman named Nevil Natal. Natale was the youngest of her two brothers and was a powerful sorceress who believed in Mystra, before she became good because of Midnight.
+-
+-STATISTICS:
+-
+-Bonuses: Protected from stunning, silence, slow, horror and the wearer is under the effect of chant.
+-Armor Class: -3
+-Weight: 20
+-Usable By:
+-  All Neutral~
++SAY NAME2 @6
++SAY UNIDENTIFIED_DESC @7
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbplat04.itm~ ~override\rbplat04.itm~
+-SAY NAME2 ~Cursed of the Triad~
+-SAY UNIDENTIFIED_DESC ~This armor is the third and last of a set of armors that were created by three syblings. This plate, Cursed, was forged by Vladric Gladivir. Vlad, was the most disturbed of the three and turned out to be a very evil man. Vlad believed in the trickster ways of Besheba, goddess of trickery. Vlad, the oldest, eventually murdered his brother only to have his sister murder him.
+-
+-STATISTICS:
+-
+-Bonuses: Protected from instant death, hold, regeneration, disease, and wearer may reflect level 1 spells
+-Armor Class: -3
+-Weight: 30
+-Usable By:
+-  All Evil~
++SAY NAME2 @8
++SAY UNIDENTIFIED_DESC @9
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbleat01.itm~ ~override\rbleat01.itm~
+-SAY NAME2 ~Goblin's Banded Armor~
+-SAY UNIDENTIFIED_DESC ~Forged of the skin of an orc, this armor provides surprisingly good protection. Even though the stitching is way off and there are holes in parts of the leather, it provides better protection than platemail. It is quite odvious that a goblin shaman cast powerful protections on it which enable it to provide protection from slashing attacks and allow spellcasting, but it may come with penalties to charisma.
+-
+-STATISTICS:
+-
+-Bonuses: 25% protection from slashing, 50% poison resistance.
+-Penalties: -2 Charisma
+-Armor Class: 0
+-Weight: 5
+-Usable By:
+-  Thieves
+-  Bards~
++SAY NAME2 @10
++SAY UNIDENTIFIED_DESC @11
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbclck01.itm~ ~override\rbclck01.itm~
+-SAY NAME2 ~Monk's Agility~
+-SAY UNIDENTIFIED_DESC ~Monks have long believed in not using armor. They have become more agile and quick so they can dodge blows instead of being weighed down by heavy armor. Though some monks created a robe that could make them even more agile and not even affecting their weight. This is a robe made only for monks, it will allow the monk to becom very swift and agile but weighs nothing.
+-
+-STATISTICS:
+-
+-Bonuses: Dexterity set to 25
+-Usable By:
+-  Monks~
++SAY NAME2 @12
++SAY UNIDENTIFIED_DESC @13
+ 
+ COPY ~RotBArmorSet\Items\rbclck02.itm~ ~override\rbclck02.itm~
+-SAY NAME2 ~Screaming Cloak~
+-SAY UNIDENTIFIED_DESC ~Stitched from the hair of the banshee and the skin of a Nabussu. The dark lich that created this vile robe was very sadistic and cruel. He used it when intruders entered his lair. When they entered, he would emit a horrable cry of darkness that would make the victims deaf and with a small chance, kill them.
+-
+-STATISTICS:
+-
+-Bonuses: Vocalize
+-Special Abilities: Wail of the Banshee once per day
+-Armor Class: +3 bonus
+-Usable By:
+-  Evil Mages~
++SAY NAME2 @14
++SAY UNIDENTIFIED_DESC @15
+ 
+ 
+ COPY ~RotBArmorSet\Items\rbchan01.itm~ ~override\rbchan01.itm~
+-SAY NAME2 ~Yuan-Ti Scales~
+-SAY UNIDENTIFIED_DESC ~Yaun-Ti's are rather large snake like humanoids. Not much is known about them except that they usually travel in small groups and can prove to be quite intelligent, some even taking up some of sorcerery. Yaun-Ti's can and have been proven fatal. So it is natural that this armor gives quite good protection.
+-
+-STATISTICS:
+-
+-Bonuses: Protection from poison
+-Armor Class: -1
+-Weight: 10
+-Unusable By:
+-  Mage~
++SAY NAME2 @16
++SAY UNIDENTIFIED_DESC @17
+ 
+ 
+ COMPILE ~RotBArmorSet\Dialogue\rbarmor.d~
+@@ -125,5 +64,5 @@
+ EXTEND_TOP ~ar0700.bcs~ ~override\rbarmor.bcs~
+ 
+ COPY ~RotBArmorSet\Creatures\rbarmor.cre~ ~override~
+-SAY NAME1 ~William Jyssev~
+-SAY NAME2 ~William Jyssev~
+\ No newline at end of file
++SAY NAME1 @18
++SAY NAME2 @18
+\ No newline at end of file

@@ -1,0 +1,112 @@
+@0    = ~Selunes Rüstkammer v2~
+@1    = ~Helm der Weisheit~
+@2    = ~Helm der Weisheit "Menschenverstand"
+Dieser Helm wurde von gesegneten Schmieden angefertigt, um jungen Klerikern und erfahrenen Rittern während des religiösen und spirituellen Trainings zu helfen.
+
+EIGENSCHAFTEN:
+
+Bonus von +1 auf Weisheit.
+
+Gewicht: 4
+Kann verwendet werden von:
+ Klerikern (einzel- oder mehrklassig)
+ Paladinen~
+@3    = ~Ionenstein der Wachsamkeit~
+@4    = ~Ionenstein der Aufmerksamkeit "Auge des Einbrechers"
+Von den Schattendieben nach Amn geschmuggelt, werden diese speziellen Ionensteine gerne von alleine arbeitenden Einbrechern und Dieben verwendet. Wenn der Stein auf dem Kopf getragen wird, verbessert er die Sinne und ermöglicht das Erkennen von Illusionen und Fallen während des Einbruchs.
+
+EIGENSCHAFTEN:
+
+Illusionen entdecken: +15%
+Fallen finden: +20%
+
+Gewicht: 2
+Kann verwendet werden von:
+ Dieben (einzel- und mehrklassig)~
+@5    = ~Gehärteter Flügelpanzer~
+@6    = ~Lederner Flügelpanzer
+Dieser feine Lederpanzer besteht aus einem besonders komfortalen Leder und ist mit Zeichnungen von Blättern aus einem speziellen magischen Wachs bedeckt. Wenngleich er auch sehr eng am Körper liegt, liefert er doch einen exzellenten Schutz vor Angriffen. Nur Waldläufer und Druiden würden solch einen Panzer tragen.
+
+EIGENSCHAFTEN:
+
+Geschwindigkeit beim Zaubern: +1
+
+Rüstungsklasse: 5
+Gewicht: 5
+Mindeststärke: 6
+Kann verwendet werden von:
+ Waldläufern
+ Druiden~
+@7    = ~Ätherbrand Armschützer~
+@8    = ~Ätherbrand Armschützer
+Ätherbrand-Gegenstände wurden in den alten Zeiten allgemein verwendet und sind jetzt eine Seltenheit. Das ist, weil Ätherbrand Gegenstände mögliche gefährliche Nebenwirkungen haben, wenn sie angelegt sind, die den Eigentümer  zweimal darüber nachdenken lassen, ob die Vorteile die Nachteile wert sind. Dieser Satz von Armschützern lässt den Benutzer sich eine größere Anahl von Zaubern einzuprägen, aber verlangsamt sie im Prozess.
+
+EIGENSCHAFTEN:
+
+Bonus-Zauberersprüche: Erste Stufe (einer), Zweite Stufe (einer), Dritte Stufe (einer)
+Nachteil: Langsame Wirkung
+Gewicht: 2
+Kann verwendet werden von:
+ Magiern~
+@9    = ~Rastloser Geist~
+@10    = ~Plattenpanzer +1
+Diese Rüstung war einst im Besitz eines rastlosen Geisterkriegers. Anscheinend als Überbleibsel seiner ethärischen Präsenz schützt die Rüstung teilweise vor magischem Schaden.
+
+EIGENSCHAFTEN:
+
+Magieresistenz: +15%
+
+Rüstungsklasse: 0
+Gewicht: 45
+Mindeststärke: 16
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Mönchen~
+@11   = ~Lockere Robe~
+@12   = ~Lockere Robe
+Diese Art der leichten Roben bieten nur unwesentlich mehr Schutz als normale Kleidung, dafür aber eine weit größere Handlungsfreiheit als Rüstungen gleich welcher Art. Vor allem Mönche und Barden greifen gerne auf diese Roben zurück, so wie Magier aus Magierroben.
+
+EIGENSCHAFTEN:
+
+Bonus von +1 auf Geschicklichkeit
+
+Rüstungsklasse: 9
+Gewicht: 4
+Kann verwendet werden von:
+ Barden
+ Mönchen~
+@13   = ~Federleichter Schild~
+@14   = ~Mittelgroßer Schild +2
+Dieser Schild verströmt eine Aura luftelementarer Magie, welche ihn leicht wie eine Feder macht. Dadurch kann selbst jemand, der eigentlich körperlich nicht in der Lage wäre, einen mittleren Schild zu führen, ihn verwenden.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: +3
+Gewicht: 1
+Mindeststärke: 8
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Mönchen~
+@15   = ~Schild der Tapferkeit~
+@16   = ~Kleiner Schild +2
+Dieser eigentlich recht einfache  Schild verfügt über mächtige Magie, die seinen Träger körperlich stärkt und resistenter gegen Gifte, Krankheiten und Verletzungen macht.
+
+EIGENSCHAFTEN:
+
+Bonus von +1 auf Konstitution
+
+RK-Bonus: +3
+Gewicht: 3
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Mönchen~

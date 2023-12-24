@@ -1,0 +1,750 @@
+--- TDD\Language\German\tp2.tra	Sun Sep 26 18:09:36 2010
++++ C:\BWP Patchstudio\patched files\TDD\Language\German\tp2.tra	Tue Oct 29 18:48:04 2013
+@@ -2,15 +2,15 @@
+ @20001 = ~Registriere GUI... ~
+ 
+ @20003 = ~ Baldurs Gate<TM> und die Legenden der Schwertküste<TM> oder spielt ~
+-@20004 = ~ "Gefolterte Seelen"~
+-@20005 = ~ %separator % "Der Dunkelste Tag"~
+-@20006 = ~ mit der (den) neuen Erweiterung(en):~
+-@20007 = ~ %separator % "Schatten Über Soubar"~
+-@20008 = ~ %separator % "Endlose Reise"~
+-@20009 = ~ %separator % "Großes Bild"~
+-@20010 = ~ %separator % "Überprüfe die Körper"~
+-@200101 = ~ %separator % "Gebiet des Terrors"~
+-@20011 = ~Spielt%BGT%Schatten von Amn <TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~ 
++@20004 = ~"Gefolterte Seelen"~
++@20005 = ~%separator%"Der Dunkelste Tag"~
++@20006 = ~ mit der (den) neuen Erweiterung(en): ~
++@20007 = ~%separator%"Schatten Über Soubar"~
++@20008 = ~%separator%"Endlose Reise"~
++@20009 = ~%separator%"Großes Bild"~
++@20010 = ~%separator%"Prüfe die Körper"~
++@200101 = ~%separator%"Gebiet des Terrors"~
++@20011 = ~Spielt%bgt%Schatten von Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~ 
+ @20012 = ~Aktualisierung der Weltkarte...~
+ @20013 = ~Schlangenwald~
+ @20014 = ~Trollberge~
+@@ -200,7 +200,7 @@
+ @20195 = ~Lady Gast~
+ @20196 = ~Barbazu~
+ @20197 = ~Amnizu Zauberer~
+-@20198 = ~Schreckgespenst~
++@20198 = ~Grottenschrat~
+ @20199 = ~Adliger Efreeti~
+ @20200 = ~Efreeti~
+ @20201 = ~Adliger Dschinn~
+@@ -6049,7 +6049,7 @@
+ @21467 = ~TDD Klassen Charaktere~
+ @21468 = ~Ihr müsst das TDD v105 WeiDU Hauptpaket installiert haben~
+ @214680 = ~Ihr dürft "Rot Kit Pack" nicht installiert haben, um TDD-Kits erfolgreich aktivieren zu können~
+-@21469 = ~magierjäger~
++@21469 = ~Magierjäger~
+ @214690 = ~Magierjäger~
+ @21470 = ~MAGIERJÄGER:
+ Ein Magierjäger ist ein Kämpfer ähnlich einem Zaubermörder und wurde darauf trainiert, Magier zu bekämpfen. Er ist gegen Todesmagie und Zerfall geschützt. Ihm gelingt ein Rettungswurf gegen Magie mit +1, und erwirbt mit steigender Erfahrung immer besseren
+@@ -6086,7 +6086,7 @@
+ 
+ Kann verwendet werden von:
+  Magierjägern~
+-@21474 = ~klingensänger~
++@21474 = ~Klingensänger~
+ @214740 = ~Klingensänger~
+ @21475 = ~KLINGENSÄNGER:
+   Der Klingensänger ist ein angesehener Elfenkrieger, der sich von Jugend an auf die Führung einer besonderen Art einhändiger Klingenwaffe spezialisiert hat und und seine ganze Bemühung darauf ausrichtet, sie zu erlernen und zu meistern, dies allerdings auf Kosten anderer üblichen Fähigkeiten eines Kriegers. Diese einzigartige Konzentration auf eine einzelne Waffe erlaubt dem Klingensänger, Angriffe abzuwehren, und das macht den Klingensänger in Verbindung mit seiner berühmten Fähigkeit, mehrere Magierzauber geringer Stufe zu wirken, und mit seiner vergrößerten Reaktionsgeschwindigkeit, zu einem Feind, mit dem im Kampf gerechnet werden muss. Außerdem verfügt er über ein kleines Repertoire an Zaubersprüchen, die er während des Kampfes benutzen kann. Obwohl seine Geschwindigkeit beim Zaubern etwas geringer ist als die anderer Magier, wird dies im kampf durch den Vorteil, seine Angriffe mit Magie zu unterstützen, und durch seine größere Schnelligkeit wieder ausgeglichen. Der Klingensänger kann zudem versuchen, seinen Feind zu entwaffnen.
+@@ -6108,7 +6108,7 @@
+ @21476 = ~Abwehr~
+ @21477 = ~Entwaffnung~
+ @21478 = ~Entwaffnungsschlag~
+-@21479 = ~eisbewohner~
++@21479 = ~Eisbewohner~
+ @214790 = ~Eisbewohner~
+ @21480 = ~EISBEWOHNER:
+   Die Frost-Bewohner sind Mitglieder eines barbarischen Stamms, die in den eisigen Höhen der Zehn Städte leben. Unter solchen feindlichen Bedingungen aufzuwachsen hat ihnen die Fähigkeit gegeben, Temperaturen unter Null zu widerstehen und ihre Lungenkapazität erhöht. Jedoch sind sie unsozial, und nicht außerordentlich intelligent. Sie sind auch weniger geeignet, neue Fähigkeiten zu erlernen - während sie im Umgang mit einigen Waffen erfahren sind, sind sie ungeschickt im Umgang mit solchen, die für sie während ihrer Erziehung nicht verfügbar waren.
+@@ -6129,7 +6129,7 @@
+ - keine Erfahrung mit Schwertern, Hellebarden, Katanas und Krummsäbeln
+ - Charisma höchstens 5
+ - sind beschränkt auf Menschen, Zwerge und Halborks~
+-@21481 = ~vampirjäger~
++@21481 = ~Vampirjäger~
+ @214810 = ~Vampirjäger~
+ @21482 = ~VAMPIRJÄGER:
+   Der Vampirjäger wurde von Geburt an dazu erzogen, die Dämonen der Nacht zu jagen und zu töten. Er wird durch einen unersättlichen Hass auf die Untoten getrieben, und sein Abscheu vor dieser Scheußlichkeit des Lebens gibt ihm außergewöhnlichen Kampfbonus gegen Vampire und ihre Verwandtschaft. Der lange Umgang mit Vampiren hat den Stufenentzug durch ihre Angriffe auf ihn wirkungslos gemacht. Die Art dieses Berufs erfordert außergewöhnliche Ausdauer; alle Vampirtöter erhalten einen Bonus zu ihrer körperlichen Verfassung infolge ihres hervorragenden Durchhaltevermögens. 
+@@ -6158,7 +6158,7 @@
+   
+ Kann verwendet werden von:
+   Vampirjäger~
+-@21485 = ~meisterschütze~
++@21485 = ~Meisterschütze~
+ @214850 = ~Meisterschütze~
+ @21486 = ~MEISTERSCHÜTZE:
+   Der Meisterschütze ist ein wahrer Meister mit Pfeil und Bogen, da er seit seiner Jugend den Großteil seiner Anstrengungen dieser Tätigkeit gewidmet hat. Er ist hervorragend bei der Fertigung seiner eigenen speziellen Pfeile, die verschiedene Effekte wie Blindheit, Vergiftung, Lähmung oder sogar sofortigen Tod des Ziels bewirken. Außerdem nehmen seine bereits beträchtlichen Fähigkeiten mit der Zeit drastisch zu, und auf der Höhe seiner Erfahrung kann er mächtige Verzauberungen mit verheerender Wirkung in einen gewöhnlichen Bogen weben. Eine der berühmteren Fähigkeiten des Meisterschützen ist es, mit tödlicher Kraft auf kürzeste Entfernung zu treffen - im Gegensatz zu den meisten Fernkämpfern, für die nahe Feinde eher ein Hindernis sind, kommt das dem Meisterschützen entgegen, und er verursacht viel Schaden auf kurze Entfernung. Falls das Opfer danach noch leben sollte, muss der Scharfschütze jedoch zu einer Nahkampfwaffe greifen, um es endgültig zu töten. Das Leben des Meisterschützen verlangt von seinem Körper große Kraft und Beweglichkeit. In Verbindung mit seiner göttlichen Beherrschung des Bogens macht ihn das auf dem Schlachtfeld beinahe unüberwindlich.
+@@ -6183,7 +6183,7 @@
+ @21490 = ~Dieser Pfeil trifft das Herz des Zieles und wird es sofort töten, falls der Rettungswurf gegen Tod mißlingt.~
+ @21491 = ~Dieser Pfeil vergiftet das Ziel mit einem schnell wirkenden Gift für drei Runden.~
+ @21492 = ~Dieser Schuß trifft das Ziel und bedeckt es mit einer Substanz aus Muskat, der den ETW0 um 6 zu verringert und das Ziel ohne Rettungswurf erblinden lässt.~
+-@21493 = ~lohnschwert~
++@21493 = ~Lohnschwert~
+ @214930 = ~Lohnschwert~
+ @21494 = ~Lohnschwert:
+   Lohnschwert ist die Bezeichnung für einen Söldner, der seine Dienstleistungen dem höchsten Bieter vermietet. Dieser Lebensstil bringt unvermeidlich häufig Gewalt und körperliche Anstrengungen mit sich. Infolgedessen überrragt sein Körperbau den des durchschnittlichen Menschen. Seine enorme Kraft erinnert an die Stärke von Wolkenriesen und lässt ihn außergewöhnliche Taten der Tapferkeit im Kampf vollbringen.   Unglücklicherweise leidet seine Beweglichkeit unter seiner gewaltigen Körpergröße, und seine Behändigkeit und Flinkheit werden bestraft. Wegen seiner überragenden körperlichen Kraft konzentriert sich der Lohnschwert ausschließlich auf den Gebrauch von zweihändigen Waffen. Seine enorme Größe gewährt dem Lohnschwert einen natürlichen Rüstungsklassbonus, der mit steigender Erfahrung zunimmt. Außerdem erlaubt er ihm, Schäden durch Wuchtwaffen und Klingenwaffen zu einem gewissen Grad zu widerstehen. Nur Menschen und Halborksrks besitzen die notwendige Stärke und Konstitution, um Lohnschwert zu werden.
+@@ -6198,7 +6198,7 @@
+ - darf Fertigkeitspunkte nur auf zweihändigen Waffenstil aufwenden
+ - erhält -3 auf maximale Geschicklichkeit
+ - muss Mensch oder Halbork sein~
+-@21495 = ~grunzer~
++@21495 = ~Grunzer~
+ @214950 = ~Grunzer~
+ @21496 = ~GRUNZER:
+   Ein Grunzer ist ein Halbork mit einer stärkeren Ausprägung der orkischen Seite als bei den meisten anderen, die sein Erbe teilen. Er ist wahrscheinlich einer der dümmsten und abstoßendsten Humanoiden, den man treffen kann, und spricht kaum die Umgangssprache; wenn er wirklich spricht, ist es gewöhnlich in der Art von kaum verständlichem Gebrabbel, das einen Zuhörer eher behindert, als zum Verständnis beiträgt. Das führt dazu, dass andere Humanoiden ihn als ein den Tieren gleichwertiges, halbwegs empfindungsfähiges Wesen abweist, eine Unterstellung, die zu bereuen einige nicht erleben.
+@@ -6217,7 +6217,7 @@
+ - Muss von der Chaotischen Anordnung sein
+ - darf maximal 2 Fertigkeitspunkte auf alle Waffen aufwenden
+ - muss ein Halbork sein~
+-@21497 = ~grubenkämpfer~
++@21497 = ~Grubenkämpfer~
+ @214970 = ~Grubenkämpfer~
+ @21498 = ~GRUBENKÄMPFER:
+   Dieser gestählte Gladiator hat seine Kampffähigkeiten und Ausdauer in den brutalen Grubenkämpfen in den zwielichtigeren teilen Faerûns erworben. Jahrelange, grausame Kämpfe und schonungsloses Training haben ihre Ausdauer und Konstitution merklich erhöht. Ständiger Gewalt ausgesetzt zu sein, hat die Körper dieser verbitterten Männer bis zu einem Punkt verbessert, bei dem sie sich bedeutend schneller als normale Menschen von ihren Wunden erholen. Die Gladiatorenarenen haben den Grubenkämpfer nicht nur die Notwendigkeit von Kraft und Ausdauer, sondern auch von Geschwindigkeit und Beweglichkeit gelehrt. Infolge dessen kann ein Grubenkämpfer sich schneller bewegen und schneller zuschlagen als ein gewöhnlicher Abenteurer. Nur die besten Kämpfer überleben ihre ersten paar Kämpfe. Diese außergewöhnlichen Männer entwickeln mit der Zeit die Fähigkeit, ihren Gegnern durch reine Wilenskeraft ernsthafte Wunden zuzufügen.
+@@ -6236,7 +6236,7 @@
+ - kann keine Fernkampfwaffen verwenden
+ - kann nicht mehr als 3 Fertigkeitspunkte auf eine Waffe verwenden
+ - darf keine rechtschaffend gute Gesinnung haben~
+-@21499 = ~duergar krieger~
++@21499 = ~Duergar Krieger~
+ @214990 = ~Duergar Krieger~
+ @21500 = ~DUERGAR KRIEGER:
+   Die Duergar sind eine böse Zwergenrasse, ihr Wesen erfüllt von Chaos und Gewalt. dies und ein bei weitem größerer Charismaabzug als bei normalen Zwergen macht Duergar (kaum überraschend) zu schlechten Gesprächspartnern. ("Tötet sie alle!" sind die einzigen Worte, die man normalerweise von ihnen hört.) Daher sind die Duergar der Mehrzahl der anderen Rassen verhasst. Hin und wieder wird einmal ein einzelner Duergar auf der Oberfläche gesehen, aber wie die Drow werden sie schnell getötet oder wieder in ihre Festungen im Unterreich zurückgetrieben, von wo aus sie sich ständig mit anderen Zwergen, Drow und den übrigen Bewohnern des Unterreichs bekriegen.
+@@ -6253,7 +6253,7 @@
+ - muss ein Zwerg sein
+ - muss böser Gesinnung sein~
+ @21501 = ~Angriffsturm~
+-@21502 = ~wächter~
++@21502 = ~Wächter~
+ @215020 = ~Wächter~
+ @21503 = ~WÄCHTER:
+   Der Wächter ist ein Krieger, der angeheuert wurde, um Gegenstände oder Gebäude zu bewachen; in seltenen Fällen stellt ihn ein reicher Adliger auch als persönliche Leibwache an, und diese Aufgabe erfüllt er hervorragend. Ein Wächter ist mit vielen Waffen ein geübter Kämpfer, obwohl er keine Zweihänder und als Fernkampfwaffe nur die Armbrust verwenden kann. Das wird jedoch durch seine Fähigkeiten im Umgang mit Schwert und Schild mehr als wettgemacht, und er beherrscht es hervorragend, physische Angriffe abzuwehren, besonders die von Schusswaffen.
+@@ -6269,7 +6269,7 @@
+ - erhält -2 auf Intelligenz
+ - darf nicht chaotischer Gesinnung sein
+ -muss ein Mensch oder Zwerg sein~
+-@21504 = ~verwüster~
++@21504 = ~Verwüster~
+ @215040 = ~Verwüster~
+ @21505 = ~VERWÜSTER:
+   Der mit Recht so genannte Verwüster ist der Jäger und Verteidiger der gnomischen Dörfer. Dieser schreckenerregende Krieger wurde von Geburt an dazu erzogen, Heim und Leben der anderen Gnome zu beschützen. Das ständige Training und die schwierigen Bedingungen verschaffen ihm eine außergewöhnliche Ausdauer, die man sonst nicht bei Gnomen findet. Viele unachtsame Reisende wurden schon von einer Gruppe gnomischer Verwüster überrascht, die kämpferische Fähigkeiten weit über denen normaler Gnome zeigten. Die erfahrensten Verwüster verfügen über die Fähigkeit, zum Berserker zu werden, so dass sie große Schwierigkeiten überwinden und gewaltigen Schaden bei denen anrichten können, die dumm genug sind, sich ihnen in den Weg zu stellen.
+@@ -6285,7 +6285,7 @@
+ - erhält -1 auf Intelligenz
+ - kann keine Fernkampfwaffen verwenden
+ - hat nur die Fertigkeit mit stumpfen Waffen~
+-@215050 = ~drow-krieger~
++@215050 = ~Drow-Krieger~
+ @215051 = ~Drow-Krieger~
+ @21506 = ~DROW-KRIEGER:
+   Die Drow-Krieger werden vom elitären Adel der Dunkelelfen verachtet, die anderen Rassen erzittern jedoch vor diesen gefürcheteten Kämpfern. In der Schlacht in einer Adamantitrüstung gepanzert, schwingt der Drow Krieger schreckliche zweihändige Waffen, die einen erwachsenen Mann in zwei leicht zerspalten können. Ihr unbarmherziges Training erlaubt es ihnen, die Fertigkeiten eines normalen Kriegers mit diesen Waffen um ein Vielfaches zu übertreffen. Diese furchteinflößenden Krieger verfügen über eine natürliche Magieresistenz, die mit steigender Erfahrung zunimmt. Da sie in vorderster Front der Drow Truppen ständig magischen Attacken ausgesetzt sind, entwickeln sie Immunität gegen Zauber auch schneller als andere Drow. Durch die Gunst der Göttin Lloth erhalten ihre Streiter die Fähigkeit, unheiliges Feuer auf ihre Feinde zu schleudern und gefährlichen Situationen durch im Schatten Verstecken zu entkommen.
+@@ -6306,7 +6306,7 @@
+ - benötigt mindestens eine Stärke von 16 und Intelligenz von 10
+ - Als Drow erhält er +2 auf ETW0 und Rüstungsklasse bei im Sonnenlicht im Freien.
+ - Als Drow ist er häufigen Überfällen von Feinden seiner Rasse ausgesetzt~
+-@21507 = ~drow schlachtenwüter~
++@21507 = ~Drow Shlachtenwüter~
+ @215070 = ~Drow Schlachtenwüter~
+ @21508 = ~DROW SCHLACHTENWÜTER:
+   Dies sind die wilden, furchtlosen Krieger der Drowarmeen. Mit einer barbarischen Kampfeslust ziehen sie in die Schlacht, und selbst in aussichtsloser Lage ist noch keiner von ihnen geflohen. Sie sind reine Kampfmaschinen, die sich auf ihre große Schnelligkeit verlassen und deshalb keine Rüstung oder andere Kleidung tragen, die sie in ihrer Bewegungsfreiheit behindern könnte. Außerdem verschmähen sie schwere zweihändige Waffen, und ihre Rohheit beschränkt beträchtlich die Stufe der geistigen Entwicklung, die zu erreichen sie imstande sind.
+@@ -6328,7 +6328,7 @@
+ - darf sich nur auf Armbrust als Fernkampfwaffe spezialisieren
+ - Als Drow erhält er +2 auf ETW0 und Rüstungsklasse im Sonnenlicht
+ - Als Drow ist er häufigen Überfällen von Feinden seiner Rasse ausgesetzt~
+-@21509 = ~trolltöter~
++@21509 = ~Trolltöter~
+ @215090 = ~Trolltöter~
+ @21510 = ~TROLLTÖTER:
+   Die Feindschaft zwischen Zwergen und Trollen ist legendär und geht auf den Beginn der Zeit zurück, als die Rassen Faerûns geschaffen wurden. Der Trolltöter ist ein furchteinflößender Krieger, getrieben von unstillbarem Hass auf alle Trolle, die er als Perversion der Natur und Abscheulichkeit des Lebens ansieht. Daher widmet er sein ganzes Leben der Ausrottung dieser fürchterlichen Geschöpfe, und habt unzählige Stunden der Ausbildung gewidmet, um seine Fähigkeiten zu vollkommen.
+@@ -6357,7 +6357,7 @@
+ 
+ Kann nur verwendet werden von:
+  Trolltötern~
+-@21512 = ~waldgnom:~
++@21512 = ~Waldgnom:~
+ @215120 = ~Waldgnom:~
+ @21513 = ~WALDGNOM:
+   Der Waldgnom ist nicht der wirkungsvollste Kämpfer, aber er besitzt durch das Leben im Wald mehrere Fähigkeiten, die seine Nachteile im Kampf wieder wettmachen können. Der Waldgnom hat in seiner Zeit in der Natur viel gelernt, und hat eine Bindung zu den Tieren des Waldes. Er kann sich im Schatten verstecken und sich an seine Feinde anschleichen und ist ungewöhnlich widerstandsfähig gegenüber Zaubern. Seine kleine Gestalt verschafft ihm im Kampf gegen größere Gegner einen Vorteil, da er seine Geschwindigkeit beträchtlich erhöhen kann, was ihn auch für größere, schwerfälligere Wesen zu einem äußerst schwierigen Gegner macht.
+@@ -6376,7 +6376,7 @@
+ - kann nur 4 Fertigkeitspunkte auf alle Waffen aufwenden
+ - muss ein Gnom sein~
+ @21514 = ~Reizen~
+-@21515 = ~breschengnom~
++@21515 = ~Breschengnom~
+ @215150 = ~Breschengnom~
+ @21516 = ~BRESCHENGNOM:
+   Breschengnome kämpfen in jeder gnomischen Armee an vorderster Front. Berühmt für ihren wütenden Kampfstil, sind diese Gnome zweifellos die am meisten gefürchteten Vertreter ihrer Rasse. Mit äußerst schwerer Rüstung gepanzert, um sich vor gegnerischen Angriffen zu schützen, ist der Breschengnom imstande, außerordentlich viel Schaden und Strafe auszuhalten. Für den Kampf mit Schwert und einem Schild erzogen, zeichnet sich der Breschengnom in diesem Kampfstil aus. Trotz der großen Behinderung durch ihre Panzerung sind sie hervorragend geeignet, jede Art von magischer oder körperlicher Verteidigung zu durchbrechen. Ihre unheimlichen Fähigkeiten werden durch eine Reihe von Zaubern gegen Magiekundige ergänzt. Breschengnome können selbst den hartnäckigsten Widerstand brechen, und ihre Stärke ist sogar im eigenen Volk legendär.
+@@ -6392,7 +6392,7 @@
+ - kann keine Schwerter benutzen
+ - darf von keiner neutraler Gesinnung sein
+ - muss ein Gnom sein~
+-@21517 = ~halbling bogenschütze~
++@21517 = ~Halbling Bogenschütze~
+ @215170 = ~Halbling Bogenschütze~
+ @21518 = ~HALBLING BOGENSCHÜTZE:
+   Der Halbling Bogenschütze ist ein allseitig begabter Kämpfer, hat aber besondere Fähigkeiten im Umgang mit Bögen entwickelt. Sein Nahkampf ist so gut wie der jedes anderen Kämpfers, und trotz des durch seine Rasse bedingten Nachteils hat er eine erhöhte Geschicklichkeit, zusätzlich zu seinem Rassenbonus. Mit einer Fernkampfwaffe kann er mit steigender Erfahrung mehr Schaden verursachen und eine höhere Genauigkeit erreichen, ist jedoch bei weitem nicht so spezialisiert wie ein reiner Waldläufer-Bogenschütze. Wegen der benötigten Wendigkeit, um den Bogen zu benutzen, tragen Halfling Bogenschützen niemals schwere Rüstungen, und ihre Ausbildung mit Handgemenge-Waffen war nicht ebenso umfassend wie die anderer Kämpfer.
+@@ -6406,7 +6406,7 @@
+ - kan höchstens 3 Fertigkeitspunkte auf Stichwaffen verteilen
+ - benötigt 14 Geschicklichkeit
+ - muss ein Halbling sein~
+-@21519 = ~taktiker~
++@21519 = ~Taktiker~
+ @215190 = ~Taktiker~
+ @21520 = ~TAKTIKER:
+   Der Taktiker ist ein Kämpfer, der anstatt körperlicher Kraft die Macht der Voraussicht und des Wahrsagens nutzt. Er habt gelernt, Zugang zu Erkenntniszaubern durch das Erinnerungsvermögen zu erreichen, aber solche geistige Ausbildung hält ihn davon ab, seine Fähigkeiten mit Waffen zu vervollkommnen.  Taktiker werden häufig von Adligen und Armeeführern vor dem Kampf verwendet, um ihnen zu helfen, ihre Strategien zu planen; als solcher werden sie überall in den Bereichen besonders unter militärischen Führern außerordentlich respektiert, obwohl ihre Kampffähigkeiten nicht so gut sind wie diejenigen anderer Kämpfer.
+@@ -6420,7 +6420,7 @@
+ - darf nur 3 Fertigkeitspunkte pro Waffentyp aufwenden
+ - Benötigt Intelligenz 12
+ - muss ein Gnom oder Halbling sein~
+-@21521 = ~klingenmeister~
++@21521 = ~Klingenmeister~
+ @215210 = ~Klingenmeister~
+ @21522 = ~KLINGENMEISTER:
+   Obwohl der Klingenmeister keine höhere Stellung hat als ein normaler Kämpfer, hat er sich in seiner Ausbildung auf eine bestimmte Waffenart spezieliaisert. Er ist ein Experte im Kampf mit zwei Waffen und hat unvergleichlich schnelle Reaktionen. Er hat gelernt, diesen Vorteil zu nutzen, um in den Zustand des blinden Kämpfens zu gelangen, in dem er seinen Hörsinn gebraucht, um seinen Feind anzugreifen, statt ihn zu sehen.Das macht ihn zunehmend anfälliger gegenüber Angriffen, macht ihn aber auch zu einem viel tödlicheren Gegner in Handgemenge. Die Spezialisierung des Klingenmeisters beschränkt die Waffen, die zu verwenden er imstande ist, und sein Anspruch auf Schnelligkeit verlangt, dass er nie schwere Rüstungen tragen wird.
+@@ -6435,7 +6435,7 @@
+ - kann nur die folgenden Waffen verwenden: Dolch, Speer, Kampfstab, Bastardschwert, Langschwert, Zweihänder und Langbogen
+ - kann keine schwerere Rüstung als ein Beschlagenes Lederwams tragen
+ - muss ein Mensch, Halbling oder Halbelf sein~
+-@21523 = ~tanzender krieger~
++@21523 = ~Tanzender Krieger~
+ @215230 = ~Tanzender Krieger~
+ @21524 = ~TANZENDER KRIEGER:
+   Dieser Krieger der Pakari ist gut geübt im Kampf mit und ohne Waffen. Er nutzt Sprünge, Finten, Ausweichen und andere geschickte Taktiken zum größtmöglichen Vorteil. Für einen Zuschauer scheint es, als kämpfe er zur Musik, so wie er sich fließend zu einem unhörbaren Rhythmus bewegt. Er ist eine wahre Bedrohung, wenn er sein Handwerk auf hoher Stufe gemeistert hat. Weil Rüstung oder schwere Waffen die flüssige Bewegung des Rhythmus-Kriegers hindern würden, vermeidet er deren Verwendung; die für ihre Bewegungen erforderlichen körperlichen Fähigkeiten sind auch ungewöhnlich hoch.
+@@ -6454,7 +6454,7 @@
+ - muss von rechtschaffener Gesinnung sein
+ - muss ein Elf, Halbelf oder Halbleng sein
+ - würfelt seine Trefferpunkte nur mit 1W8 anstatt 1W10~
+-@21525 = ~rechtsstreiter~
++@21525 = ~Rechtsstreiter~
+ @215250 = ~Rechtsstreiter~
+ @21526 = ~RECHTSSTREITER:
+   Der Rechtsstreiter hat seine Zeit dazu genutzt, untote Wesen aufzuspüren und ihre Schwächen zu erkunden, was ihm bei seinem ununterbrochenen Streben hilft, das Land von diesem bösen Feind zu befreien. Untote sind Abscheulichkeiten der Natur, und infolgedessen wird der Rechtsstreiter in beinahe jeder guten Gemeinschaftals als Held bejubelt; sein Haß auf Untote ist unvergleichlich, und sein Können liegt in Ihrer Vernichtung. Ein Rechtsstreiter kann aufgrund seines umfangreichen Wissens über ihre Schwachstellen eine Waffe herstellen, die gegen Untote äußerst effektiv ist; das demonstriert seine riesengroße Kenntnis über die Schwachstellen von untoten Geschöpfen.
+@@ -6481,7 +6481,7 @@
+ 
+ Kann nur verwendet werden von:
+   Rechtsstreiter~
+-@21529 = ~heiliger krieger~
++@21529 = ~Heiliger Krieger~
+ @215290 = ~Heiliger Krieger~
+ @21530 = ~HEILIGER KRIEGER:
+   Ein Heiliger Krieger gehört einer Gruppe von Gläubigen an, die überzeugte Anhänger ihres Gottes sind, jedoch die Aufgaben übernehmen, die körperlichen Einsatz erfordern. Ein Heiliger Krieger hat wenig Gelegenheit, seine magischen Fähigkeiten zu entwickeln, verfügt jedoch über niedere Zauber zur Unterstützung, die ihm von den hochrangigeren und erfahreneren Klerikern seiner Gottheit gelehrt wurden. Er ist im Umgang mit Waffen genauso geübt wie normaler Krieger, hat sich aber entschieden, nur die Waffen zu verwenden, die für die Priesterschaft in Betracht kommen; dies schließt alle stumpfen Waffen ein, aber schließt Klingenwaffen aus. muss jedoch von rechtschaffener Gesinnung sein; er kann jedem Gott dienen, wird diesem Gott aber immer gerecht.
+@@ -6499,7 +6499,7 @@
+ - darf keine schwerere Rüstung als einen Schienenpanzer tragen
+ - muss ein Halbork sein~
+ @21531 = ~Schwere Wunden heilen~
+-@21532 = ~erinyes tiefling~
++@21532 = ~Erinyes Tiefling~
+ @215320 = ~Erinyes Tiefling~
+ @21533 = ~ERINYES TIEFLING:
+   Diese Rasse von halbelfischen Tieflingen sind die einzigen bekannten Vertreter ihrer Art, die für friedliches Benehmen bekannt sind, aber es gibt noch Ausnahmen. Bekannt für ihr göttliches Aussehen, haben sie eine blasse weiße Haut, die leicht von innen heraus glüht, und spitze Ohren. Letzteres fällt Außenstehenden meistens zuerst auf, dann aber ist man von ihrer Schönheit überwältigt. Als eine kleine Rasse von Tiefling besitzen sie nicht all die Kraft, für die Tieflinge bekannt sind, dennoch sind sie für Ihre kleine
+@@ -6534,7 +6534,7 @@
+ @21545 = ~Ihr habt eure Geschicklichkeit verbessert, aber Eure Konstitution und Charisma verringert~
+ @21546 = ~Ihr habt eure Geschicklichkeit verbessert, aber Eure Weisheit und Intelligenz verringert~
+ @21547 = ~Ihr habt eure Geschicklichkeit verbessert, aber Eure Stärke und Charisma verringert~
+-@21548 = ~amazone~
++@21548 = ~Amazone~
+ @215480 = ~Amazone~
+ @21549 = ~AMAZONE:
+   Amazonen sind weibliche Krieger in einer männerdominierten Welt. Ihre Gesellschaft könnte von einer Gottheit geschaffen worden sein, die Frauen mag; oder sie waren Frauen, die gegen die Männerherrschaft rebellierten und entschieden, über sich selbst zu herrschen. Möglicherweise sind sie auch matriarchalische Gesellschaften, die schon lange vor dem Beginn der Geschichtsschreibung existierten.
+@@ -6555,7 +6555,7 @@
+ - kann keine schwerere Rüstung als einen Schienenpanzer tragen
+ - muss ein Halbelf sein~
+ @21550 = ~Erstschlag~
+-@21551 = ~sänger~
++@21551 = ~Sänger~
+ @215510 = ~Sänger~
+ @21552 = ~SÄNGER:
+   Der Sänger ist eine der ungewöhnlichsten Bardenklassen, der aus einem der vielen Barbarenstämme im Norden Faerûns stammt. Er ist er eine merkwürdige Mischung aus Barbar und Barde, schafft es aber, beide Klassen so zu verbinden, dass er auch im Kampf ein ernstzunehmender Gegner ist. Der Sänger besitzt viele wertvolle Fähigkeiten, besonders die, sich in Rage zu versetzen und sich schneller zu bewegen als andere Wesen und ein sehr wirksamer Kämpfer ist. Jedoch ist die eindrucksvollste seiner Fähigkeiten diejenige, den Mitgleidern seiner Gruppe Immunität gegen Furcht zuzuerkennen, indem er sein Kampflied spielt. Da dem Sänger barbarisches Blut durch die Adern fließt, ist er außerdem viel zäher und widerstandsfähiger als andere Barden.
+@@ -6571,7 +6571,7 @@
+ - kann keine Fernkampfwaffen verwenden
+ - kann nur bestimmte Waffen verwenden, in deren Umgang er erzogen wurde
+ - benötigt eine Mindeststärke von 15~
+-@21553 = ~chronist~
++@21553 = ~Chronist~
+ @215530 = ~Chronist~
+ @21554 = ~CHRONIST:
+   Ein Chronist ist ein Barde mit einer Vorliebe für Abenteuer und Kampf. Er ist in der Lage, seinen Begleitern im Kampf mit seinem berühmten Kriegsgesang zu helfen; es wirdgesagt, dass diejenigen, die unter dem Einfluss des Gesangs des Chronisten stehen, in mächtige Kampfmaschinen verwandelt werden, die bedeutenden Kampfbonus erringen. Der Chronist ist selbst auch ein nützlicher Kämpfer, nachdem der Lebensstil, den er gewählt hat, zu viel größeren Fertigkeiten im Kampf geführt hat als der anderer Barden. Jedoch ist der Chronist wegen dieses kampforientierten Lebensstils viel weniger zum Taschendiebstahl fähig als ein gewöhnlicher Barde.
+@@ -6589,7 +6589,7 @@
+ - hat -1 auf maximale Geschicklichkeit
+ - kann keine Fernkampfwaffen verwenden
+ - muss von chaotischer Gesinnung sein~
+-@21555 = ~minnesänger~
++@21555 = ~Minnesänger~
+ @215550 = ~Minnesänger~
+ @21556 = ~MINNESÄNGER:
+   Von allen Barden wird der Minnesänger sicherlich am meisten respektiert. Man findet ihn häufig in Schlössern und den Hallen großer Fürsten, wo er die Reichen und Mächtigen mit seinen Gesängen unterhält. Daher ist das Lied des Minnesängers oft dazu da, betrunkene Personen, die ein ungesundes Interesse an ihm entwickeln, zu bezaubern, obwohl es nicht besondere Vorteile im Kampf wie die Lieder anderer Barden bringt. Ein Minnesänger verläßt sich in den meisten Situationen auf seinen gesunden Menschenverstand und sein Charisma, um zu überleben, und ist daher intelligenter und auch charismatischer als andere Wesen einschließlich anderer Barden.
+@@ -6606,7 +6606,7 @@
+ - erhält -1 auf maximale Stärke
+ - benötigt Stärke 16 und Charisma 17~
+ @21557 = ~Charm des Minnesängers~
+-@21558 = ~troubadour~
++@21558 = ~Troubadour~
+ @215580 = ~Troubadour~
+ @21559 = ~TROUBADOUR:
+   Der Troubadour ist ein Barde, der seine Anstrengungen auf das Meistern einer einhändigen Waffe seiner Wahl konzentriert hat, und infolgedessen ist er im Umgang mit diesem Waffentyp Respekt einflößend. Außerdem ist der Troubadour nicht nur ein Experte mit seiner einhändigen Waffe, sondern er ist auch ein Experte darin, zwei dieser Waffen gleichzeitig zu führen. Der Troubadour hat auch ein spezielles Bardenlied verfasst, das die Aggressivität seiner Gefährten steigert und ihre Zahl von Angriffen pro Runde anhebt. Jedoch hat der Troubadour mehrere entscheidende Nachteile, der wichtigste ist die Tatsache, dass das Konzentrieren auf Waffenfertigkeiten verhindert hat, seine Fähigkeit zum Taschendiebstahl vollständig zu entwickeln, die deshalb stark eingeschränkt ist. Ein weiterer Nachteil ist, dass, obwohl der Troubadour andere Waffen verwenden kann, er überhaupt keine Ausbildung mit Fernkampfwaffen hat, und sie deshalb nur ohne jegliche Fertigkeiten verwenden kann.
+@@ -6620,7 +6620,7 @@
+ - kann keine Fertigkeitspunkte auf Fernkampfwaffen aufwenden
+ - erhält nur 1/4 der Fähigkeit Taschendiebstahl
+ - darf nicht von rechtschaffender oder böser Gesinnung sein~
+-@21560 = ~bukanier~
++@21560 = ~Bukanier~
+ @215600 = ~Bukanier~
+ @21561 = ~BUKANIER:
+   Bukaniere sind in den Reichen auch als Schlachtbarden bekannt. Sie übertreffen alle anderen Spitzbuben im Führen eines Schwertes und Kampftechniken, und die Tapferkeit eines Bukaniers in der Schlacht ist beispiellos. Aufgrund ihrer lässigen Einstellung und charismatischen Natur sind sie auf eine gute Gesinnung festgelegt. Sie sind sehr beliebt in der Öffentlichkeit, und durch ihr reiches Repertoire an derben Geschichten und lustigen Anekdoten sind sie für jede Gruppe eine willkommene Ergänzung. Jedoch sollte der oberflächliche Anschein nicht dazu führen, den Bukanier zu unterschätzen; es sind dennoch tödliche Krieger. Erfahren mit Fernkampfwaffen, besonders dem Kurzbogen, können sie ihre Feinde auch von weitem verletzen.
+@@ -6636,7 +6636,7 @@
+ - kann keine stumpfen oder zweihändigen Waffen verwenden
+ - hat nur 1/4 der normalen Fähigkeiten des Taschendiebstahls
+ - muss rechtschaffender Gesinnung sein~
+-@21562 = ~musiker~
++@21562 = ~Musiker~
+ @215620 = ~Musiker~
+ @21563 = ~MUSIKER:
+   In der Kunst des Spielens von Instrumenten wird der Musiker von niemandem in den Reichen übertroffen. Seine Fähigkeit, andere mit seinem unglaublichen Geschick zu manipulieren, grenzt an Magie. Mit der Macht seiner Stimme und seiner Harfe kann er die feinen Ströme der Emotionen, die dem Verhalten aller Lebewesen zugrunde liegen, lenken und steuern. Mit steigender Erfahrung kann er auf Fähigkeiten zurückgreifen, die nicht nur seine Gruppe unterstützen, sondern auch schweres Unheil über die Feinde bringen. Die endlosen Stunden des Übens, die nötig sind, um seine musikalischen Fähigkeiten aufrechtzuerhalten, führen unvermeidlich dazu, dass er das Training mit der Waffe vernachlässigt. Während er deshalb einigermaßen mit dem Schwert umgehen kann, zieht er es vor, den Ausgang einer Schlacht mit seiner Musik zu beeinflussen. Aus Angst, die grobe Waffe könnte seine feinen Hände ruinieren, wird der Musiker auch nie irgendeinen Bogen benutzen.
+@@ -6658,7 +6658,7 @@
+ @21564 = ~Akkord der Taubheit~
+ @21565 = ~Akkord der Störung~
+ @21566 = ~Akkord der Bezauberung~
+-@21567 = ~schamane~
++@21567 = ~Schamane~
+ @215670 = ~Schamane~
+ @21568 = ~SCHAMANE:
+   Der Schamane ist ein Druide, der durch lange Jahre geduldigen Studiums und Forschung eine mystische Verbindung mit dem Land und mit der spirituellen Macht der jenseitigen Welten aufgebaut hat. Er kann die Geister des Landes und die Macht von Schatten im Kampf um Hilfe anrufen. Seine spirituelle Verbindung zur Natur und ihren Elementen erlaubt es ihm, in Zeiten der Not Elementare zu beschwören. Die erfahrensten Schamanen sind in der Lage, die Geister früherer Druiden (die als Schatten wiedergeboren wurden) zu rufen, um das natürliche Gleichgewicht des Universums aufrecht zu erhalten. Jedoch ist der Schamane trotz seiner angeborenen Fähigkeiten nicht von Natur aus ein Benutzer der Magie. Seine Kraft wurde durch Jahre der geistigen Meditation und strengen Aufnahmerituale ausgelaugt. Der Schamane trägt keine Rüstung, weil sie den natürlichen Rhythmus der komplizierten Tänze stören würde, die für die Beschwörungsrituale nötig sind.
+@@ -6677,7 +6677,7 @@
+ - kann maximal 13 Stärke haben
+ - benötigt mindestens Weisheit 17 und Charisma 16~
+ @21569 = ~Luftelementar beschwören~
+-@21570 = ~schattenmeister~
++@21570 = ~Schattenmeister~
+ @215700 = ~Schattenmeister~
+ @21571 = ~SCHATTENMEISTER:
+ Einen komplizierten Tanz von Licht und Schatten webend, ist der Schattenmeister der geheimnisvollste und zurückgezogenste aller Druiden. Er kümmert sich um die Bedürfnisse der Natur und der Neutralität in den Schatten der Wälder und entwickelt mit steigender Erfahrung furchterregende und rätselhafte Fähigkeiten, die ihm erlauben, Schatten zu manipulieren und zu beschwören, um sich zu verteidigen oder das natürliche Gleichgewicht zu schützen. Der Schattenmaster ist im Stande, die Schatten der Wälder rufen, um ihm im Kampf beizustehen, und hat er den Rang eines Großen Druiden, gehorcht ihm der schreckliche Höhere Schatten. Ebenso kann sich der Schattenmeister in einen Mantel von Dunkelheit hüllen, der wie eine Rüstung wirkt und die Schläge selbst der härtesten Gegner ablenkt und auffängt. In gefährlichen Situationen kann der Schattenmeister seine geheimnisvollen Kräfte nutzen und durch ein Phantomtor entkommen.
+@@ -6696,7 +6696,7 @@
+ @21572 = ~Schatten erschaffen~
+ @21573 = ~Schattenrüstung~
+ @21574 = ~Rüstung~
+-@21575 = ~luftdruide~
++@21575 = ~Luftdruide~
+ @215750 = ~Luftdruide~
+ @21576 = ~LUFTDRUIDE:
+   Luftdruiden hatten in der Vergangenheit die Fähigkeit zu fliegen. Solch ein Begabung gab ihnen Fähigkeiten, Gegenden zu sehen und Orte zu besuchen, zu denen nur wenige Rassen jemals fähig sein  werden. Durch ihren Aufenthalt in solch lebensfeindlichen Regionen und Höhen, in denen das Wetter äußerst gefährlich sein kann, haben sie eine gewisse Widerstandsfähigkeit gegen Elektrizität erlangt, da sie häufig die Opfer von Blitz-Schlägen sind. Luftdruiden haben viel von der Kraft behalten, die sie ausübten, als sie zum Flug fähig waren, und sind noch außerstande, Rüstungen zu tragen, die sie im Vergleich mit der Freiheit des Himmels als zu einschränkend empfinden.
+@@ -6711,7 +6711,7 @@
+ - kann keine Rüstung tragen
+ - kann Fertigkeitspunkte nur auf folgende Waffen aufwenden: Schleuder, Stab, Keule, Messer, Speer~
+ @21577 = ~Elementares Verwandeln~
+-@21578 = ~wasserdruide~
++@21578 = ~Wasserdruide~
+ @215780 = ~Wasserdruide~
+ @21579 = ~WASSERDRUIDE:
+   Wie der Name schon andeutet, hat der Wasserdruide einen Großteil seines Lebens unter Wasser verbracht, wo seine Heimat ist. Wasserdruiden sind äußerst ungewöhnliche Wesen, und ihr Eifer bei der Verteidigung und Erhaltung ihrer Heimat ist beispiellos unter den inelligenten Wesen. Häufig stammen Wasserdruiden zur Hälfte von einer Seenymphe oder einem Meermenschen und zur anderen von einem menschlichen Fischer ab, und ihr Leben in ihrem Wasserreich hat ihnen viele besondere angeborene Fähigkeiten sowohl für Verteidigung als auch Angriff gegeben. So besitzt ein Wasserdruide zum Beispiel eine hohe Resistenz gegen Kälte und verfügt über verschiedene auf Wasser basierende Zauber wie Wasserschild und Lähmendes Sprühen. Zudem besitzen sie besondere Kiemen, die einerseits fremdartig aussehen, ihnen aber auch die Fähigkeit verleihen, unter Wasser zu atmen sowie schädliche Gase auszustoßen, so dass sie vor jeglichen Angriffen durch Gas oder Wolken  völlig geschützt sind.
+@@ -6726,7 +6726,7 @@
+ - kann keine Fernkampfwaffen verwenden
+ - kann keine Rüstung tragen~
+ @21580 = ~Wasserwächter~
+-@21581 = ~rechtfertiger~
++@21581 = ~Rechtfertiger~
+ @215810 = ~Rechtfertiger~
+ @21582 = ~RECHTFERTIGER:
+   Der Rechtfertiger ist der am meisten gefürchtete Druide in den Reichen. Indem er sich dem Schutz der Natur durch bewaffneten Kampf widmet, wird er durch seine gründliche Ausbildung im Führen von Waffen in der Schlacht zu einer gefürcheteten Macht. Während die meisten Druiden den offenen Lampf vermeiden, glaubt der Rechtfertiger, dass letztlich das Gleichgewicht der Natur seinen Einsatz von Gewalt gutheißt. Seine furchterregenden Fähigkeiten im Nahkampf verschaffen ihm einen Bonus auf Geschicklichkeit, aber das harte Leben und die feindliche Umwelt seiner Waldheimat zehren merklich an seiner Stärke und Konstitution. Der Rechtfertiger verlässt sich im Kampf häufig auf seine Fähigkeit der Gestaltwandlung, die vom Bären bis zum Werwolf eine große Anzahl viele Formen umfasst.
+@@ -6741,7 +6741,7 @@
+ - erhält -1 auf maximale Stärke
+ - erhält -2 auf maximale Konstitution
+ - muss ein Halbelf sein~
+-@21583 = ~traumgänger~
++@21583 = ~Traumgänger~
+ @215830 = ~Traumgänger~
+ @21584 = ~TRAUMGÄNGER:
+   Indem er sich die Macht des Lichtes und der Illusion zunutze macht, verknüpft der Traumgänger die Fäden von Phantasie und Realität, und erschafft ein kompliziertes Gewebe aus Phantombildern, wodurch er den Verstand seiner Feinde beherrschen und zerstören kann. Als ein Meister der Illusionsmagie kann der Traumgänger die Macht der Illusion nutzen, um das größere Gleichgewicht zu wahren und seine Feinde zu täuschen und zu verwirren.
+@@ -6757,7 +6757,7 @@
+ NACHTEILE:
+ - verfügt nicht über die Fähigkeit der Gestaltwandlung
+ - erhält -1 auf Stärke~
+-@21585 = ~antipaladin~
++@21585 = ~Antipaladin~
+ @215850 = ~Antipaladin~
+ @21586 = ~ANTIPALADIN:
+   Er ist äußerst egoistisch, vollkommen egozentrisch, und habt keine Achtung vor anderen. Als vollständiges Gegenteil von allem, was an einem Paladin edel ist, ist ein Antipaladin der wahrhaftigsten Diener des Bösen, obwohl ihr Fall in Verderbtheit ihnen viele einzigartige Fähigkeiten verliehen hat. Sie haben verborgene Kräfte, die schmerzliche Krankheiten hervorrufen, verbunden mit einer unheimlichen Fähigkeit, Untote und alle außer den mächtigsten Dämonen zu kontrollieren. Außerdem ist er gegen alle Arten von Flüchen und Krankheiten geschützt und kann viele zerstörerische Priesterzauber gegen seine Feinde wirken.
+@@ -6809,7 +6809,7 @@
+ Mindeststärke: 14
+ Kann verwendet werden von:
+  Antipaladinen~
+-@21603 = ~ritter des geistes~
++@21603 = ~Ritter des Geistes~
+ @216030 = ~Ritter des Geistes~
+ @21604 = ~RITTER DES GEISTES:
+   Dieser Paladin, der wohl einer der meist spezialisierten unter ihnen ist, hat seinen Geist seit seiner Jugend zu solch einer hohen Stufe geschult, dass er in der Lage ist, allen geistigen und psionischen Angriffen die gegen ihn gerichtet sind zu widerstehen. {Psionische oder PSI-Fähigkeiten sind eine breite Kategorie von fantastischen Fähigkeiten, bei denen durch Gedankenübertragung Dinge bewegt werden können oder der Willen anderer kontrolliert werden kann}. Außerdem erlaubt ihm seine Ausbildung, seine unglaublichen geistigen Kräfte dazu zu verwenden, andere zu verletzen. Seine Kräfte würde er natürlich nie gegen seine Verbündeten einsetzen. Der Ritter des Geistes ist oft damit beschäftigt, Lagerstätten der gefürchteten Gedankenschinder auszuräuchern, obwohl seine Widerstandskräfte dafür bekannt sind, verschiedene Zauberwirker zu bekämpfen.
+@@ -6831,7 +6831,7 @@
+ - benötigt Weisheit 15, Stärke und Konstitution 13 und Intelligenz 12
+ - erhält nicht die üblichen Paladinfähigkeiten~
+ @21605 = ~Gedankenschlag~
+-@21606 = ~lord~
++@21606 = ~Lord~
+ @216060 = ~Lord~
+ @21607 = ~LORD:
+   Einer der bekanntesten Paladine unter den älteren Männern in führender Position in Faerûn ist der Lord, ein Paladin, der einen Orden leitet. Lords sind in der Oberschicht vieler Gemeinschaften, besonders in großen menschlichen Ansiedlungen, wegen ihrem Adel und ihrem Charisma hoch angesehen. Die Erfahrung langer Jahre hat ihm Stärke und Charisma sowie eine beachtliche Übung im Umgang mit Zweihändern und der Armbrust gebracht. Sein vergleichsweise hohes Alter und seine Größe verringern allerdings meist seine Beweglichkeit und Fähigkeit in anderen Waffenarten. Dennoch sind Lords äußerst effektive Kämpfer, selbst im Vergleich zu "reinen" Kriegern.
+@@ -6844,7 +6844,7 @@
+ - erhält -2 auf Geschicklichkeit
+ - ist ungeübt im Kampf mit leichten einhändigen Waffen
+ - benötigt Stärke 17~
+-@21608 = ~drachentöter~
++@21608 = ~Drachentöter~
+ @216080 = ~Drachentöter~
+ @21609 = ~DRACHENTÖTER:
+   Der Drachentöter ist ein Paladin, der sein Leben der Verfolgung einer besonderen Beute gewidmet hat: den Drachen. Als solcher hat er seine Fähigkeit gepflegt, vielen der furchterregenden Angriffe eines Drachen zu widerstehen und besitzt eine äußerst starke magische Waffe, die bei Drachen großen Schaden anrichtet. Die Hauptfähigkeiten eines Drachentöters sind seine Immunität gegen Furcht, der Widerstand gegen den Flügelschlag eines Drachen und seine vielgerühmte Fertigkeit, drachentötende Pfeile anzufertigen. Viele der berühmtesten Helden in Faerûns Geschichte waren Drachentöter, und sie haben ihre Spuren in den vielen feuerresistenten und drachentötenden Gegenständen hinterlassen, die über das Land verstreut sind.
+@@ -6887,7 +6887,7 @@
+ 
+ Kann verwendet werden von:
+  Drachentötern~
+-@21615 = ~dämonentöter~
++@21615 = ~Dämonentöter~
+ @216150 = ~Dämonentöter~
+ @21616 = ~DÄMONENTÖTER:
+   Der Dämonentöter ist vielleicht derjenige unter allen Paladinen, der sich am meisten seiner Sache hingibt. Zeit seines Lebens von Schreckgespenst des dämonischen Bösen gehetzt, wird er von unnachgiebigem Hass und Abscheu gegen diese Brut des Bösen getrieben. Gekleidet in einer blendendweiße Tunika, geschmückt mit einem blutroten Kreuz, reist der Dämonentöter die Reiche, und sein Kommen ist wie die Ankunft eines Todesengels. Ein Schwert des heiligen Feuers schwingend, strebt danach, alle Spuren des Bösen im ganzen Land zu beseitigen. Erzogen besonders für den Kampf gegen dämonische Wesen, schlägt er mit Rachsucht und rasende Wut auf die Horden der Hölle vor ihm ein. Sein unerschütterlicher Glaube gewährt ihm Schutz vor Dämonenfurcht. Diese Immunität zusammen mit seiner langen Übung mit allen Waffen macht den Dämonentöter zu einer unaufhaltsamen Macht des Guten und des Lichts. Die Hingabe des Dämonentöter führt jedoch zu wenig Zeit in Gesellschaft, und infolgedessen zieht er sich einen Nachteil zu Charisma zu. Außerdem, aufgrund der zweifelhaften Wirksamkeit von Fernkampfwaffen gegen Geschöpfe der dämonischen Natur, vermeidet der Dämonentöter diese im Kampf.
+@@ -6904,7 +6904,7 @@
+ - darf keine Fertigkeitspunkte auf Fernkampfwaffen aufwenden
+ - erhält -1 auf Charisma
+ - erhält nur +1 auf Rettungswürfe (andere Paladine: +2)~
+-@21617 = ~saurial-paladin~
++@21617 = ~Saurial-Paladin~
+ @216170 = ~Saurial-Paladin~
+ @21618 = ~SAURIAL-PALADIN:
+   Der Saurial Paladin ist der Waffenexperte des heiligen Ordens. Solche Kämpfer stehen oft in vordester Front der heiligen Armee. Er hat sämtliches mentales Training vergessen, da er nur seine Waffen im Kampf verwendet; deswegen kann er weder Hände auflegen noch den Schutz vor Bösem. Als ausgleich hierfür beherrscht der Saurial Paladin den Umgang im zweihändigen Waffenstil wie kein anderer. Er ist stets von rechtschaffender guter Gesinnung und dient dem Orden bis zum Ende.
+@@ -6919,7 +6919,7 @@
+ - kann nicht Hände auflegen
+ - hat keinen Schutz vor Bösem
+ - kann nur einen Fertigkeitspunkt auf Fernkampfwaffen aufwenden~
+-@21619 = ~dunkler ritter~
++@21619 = ~Dunkler Ritter~
+ @216190 = ~Dunkler Ritter~
+ @21620 = ~DUNKLER RITTER:
+   Einem Dunklen Ritter mangelt es an bedeutender Hingabe und Motivation eines normalen  Paladins.  Er muss nicht von guter Gesinnung sein, ist aber nicht notwendigerweise völlig schlecht (eine häufige Mißdeutung, die sich aus dem verliehenem Titel ableitet). Er hat eine Verbindung zur Welt der Priester, so dass er verschiedene niedere Zauber dieser Art sprechen kann. Durch seine Nähe zu Klerikern kann er nur mit stumpfen Waffen im Handgemenge wirkungsvoll kämpfen; er kann auch noch Klingen verwenden, doch durch mangeldes Training kann er dies nur ohne jeglichen Fähigkeiten. Außerdem, weil im die Motivation durch die Güte eines normalen Paladin fehlt, erreicht er keinen Zauber, um sich vor den Kräften des Bösen zu schützen.
+@@ -6934,7 +6934,7 @@
+ - benötigt Stärke 13 und Weisheit 12
+ - hat keinen Schutz vor Bösem~
+ @21621 = ~Ihr und Eure Gruppe haben den Umhang des Mutes erhalten.~
+-@21622 = ~heiler~
++@21622 = ~Heiler~
+ @216220 = ~Heiler~
+ @21623 = ~HEILER:
+   Der Heiler ist ein Kleriker, der sich darauf spezialisiert hat, Leute zu brtreuen und zu heilen. Der Heiler ist eine der beliebtesten Priesterklassen, da er nicht nur immun gegenüber verschiedenen physischen Gebrechen ist - Gift, Krankheit, sogar solche mit magischem Ursprung -, sondern auch über göttlichen Fähigkeiten der Heilung verfügt. Außerdem können Heiler alle gewöhnlichen Priesterzauber anwenden, und die Götter selbst haben ihn mit einer herausragenden Konstitution und Weisheit ausgestattet, was ihnen ermöglicht, im Kampf länger zu bestehen und andere zu heilen. Sie erhalten auch jede Menge Extra-"Bonus"-Priesterzauber. Ein Heiler ist ein wertvolles Mitglied jeder Abenteurergruppe
+@@ -6953,7 +6953,7 @@
+ - maximale Stärke und Geschicklichkeit ist 15
+ - mindestens Weisheit 17 und Konstitution 16
+ - muss ein Gnom, Halbelf, Halbork oder Zwerg sein~
+-@21624 = ~priester der selune~
++@21624 = ~Priester der Selune~
+ @216240 = ~Priester der Selune~
+ @21625 = ~PRIESTER DER SELUNE:
+   Die Priester Unserer Lieben Frau des Silbers (wie Selune auch genannt wird) sind eine starke Macht des Guten in den Vergessenen Reichen. Ihr chaotisches Wesen macht sie jedoch etwas unvorhersehbar und eigensinnig. Die Gunst Selunes verleiht ihrem Kleriker einen gewissen Schutz gegen feindliche Zauber. Das mystische Band zwischen Selune und ihrem Auserwählten erlaubt es dem Kleriker zudem, einen leichten Schein von Mondlicht um sich herum zu erschaffen, der es ihm erlaubt, im Dunkeln zu sehen, als hätte er Infravision wie die nichtmenschlichen Völker Faerûns. Der Glaube des Klerikers an seine Göttin erlaubt es ihm, eine Anzahl einfacher Zauber zu sprechen, deren Auswahl jedoch durch ihre Gesinnung auf mehrheitlich heilende und unterstützende Sprüche beschränkt ist.
+@@ -6979,7 +6979,7 @@
+ @21627 = ~Spiegelbild~
+ @21628 = ~Hast~
+ @21629 = ~Unsichtbarkeit, 3 m Radius~
+-@21630 = ~Stoneskin~
++@21630 = ~Steinhaut~
+ @21631 = ~Mondklinge beschwören~
+ @21632 = ~Ihr habt die Mondklinge heraufbeschwört~
+ @21633 = ~Mondschild~
+@@ -6990,7 +6990,7 @@
+ ETW0 Bonus: 4
+ Besonderheit:
+  +3 Schaden gegen untote Kreaturen~
+-@21636 = ~priester des malar~
++@21636 = ~Priester des Malar~
+ @216360 = ~Priester des Malar~
+ @21637 = ~PRIESTER DES MALAR:
+   Malar, auch bekannt als der Pirscher oder Herr der Tiere, ist ein chaotisch böser Gott, der auf der Ebene Tartarus wohnt, aber oft vom Körper eines seiner Anhänger in einer berserkerhaften Rage Besitz ergreift und über die Materielle Ebene streift. Er ist der Gott der plündernden Tiere, der grausamen Wildnis, der Blutgier und der Jagd. Zusammen mit Umberlee und Auril gehört er zu den Göttern der Wut, die Talos dienen. Durch die zunehmende Stärke des Talos geschwächt, hat er neue Anhänger unter den nichtmenschlichen Völkern gefunden. Sein Symbol ist eine krallenbewehrte Tierklaue.
+@@ -7018,8 +7018,8 @@
+ @21644 = ~Tierklaue~
+ @21645 = ~Blutgier~
+ @21646 = ~Kampfrausch~
+-@21647 = ~priest von auril~
+-@216470 = ~Priest von Auril~
++@21647 = ~Priester von Auril~
++@216470 = ~Priester von Auril~
+ @21648 = ~PRIEST von AURIL:
+   Ein Priester der Auril folgt der Göttin der Kalten Wut. Er ist seiner Göttin fanatisch ergeben, und jede Beleidigung Aurils entfacht den Zorn ihrer Gefolgschaft. Priester der Auril sind normalerweise von neutral böser Gesinnung und erhalten wie andere Kleriker Vorteile von ihrer Göttin. Ein Priester der Auril bekommt verschiedene offensive und defensive Fähigkeiten, die alle auf der Manipulation von Kälte basieren.
+ 
+@@ -7039,7 +7039,7 @@
+ @21649 = ~Herz aus Eis~
+ @21650 = ~Ihre Hände verwandelten sich in einen tödlich kalten Zustand.~
+ @21651 = ~Das Herz des Zieles ist gefroren~
+-@21652 = ~kriegshexer~
++@21652 = ~Kriegshexer~
+ @216520 = ~Kriegshexer~
+ @21653 = ~KRIEGSHEXER:
+   Der Kriegshexer ist ein Priester, der seine spirituellen Fähigkeiten zu bösen und selbstsüchtigen Zwecken gebraucht. Durch Jahre des Studiums und Konzentration hat er viele Nekromantie- und Beschwörungszauber gelernt, um alle zu vernichten, die dumm genug sind, sich ihm in den Weg stellen, sowie sich vor denjenigen zu schützen, die aus seinem Ableben Nutzen ziehen würden.
+@@ -7063,7 +7063,7 @@
+ @21656 = ~Angesteckt bei einer widerlichen Krankheit~
+ @21657 = ~Monster herbeirufen III~
+ @21658 = ~Tanar'ri herbeirufen~
+-@21659 = ~beschützer des glaubens~
++@21659 = ~Beschützer des Glaubens~
+ @216590 = ~Beschützer des Glaubens~
+ @21660 = ~BESCHÜTZER DES GLAUBENS:
+   Ein Beschützer des Glaubens ist ein Kampfpriester, der die Front der Heiligen Garde bildet. Beschützer des Glaubens sind völlig dem Gott gewidmet, wen sie ihre Ergebenheit gelobt haben, und geschworen haben, den Namen ihrer Gottheit um jeden Preis zu verteidigen. Sie haben bedeutend höhere Kampffähigkeiten als normale Kleriker, haben aber geringere Weisheit, da sie den grössten Teil ihrer Zeit der Perfektion ihrer Waffenfertigkeiten widmen. Das hat zur Folge, dass ihre Kampffähigkeiten zwar weitaus höher als die anderer Priester sind, aber ihre Fähigkeiten Zauber zu wirken außerordentlich gelitten haben. Insgesamt jedoch ist ein Kämpfer wie dieser ein Dummkopf für jede Gruppe oder Organisation.
+@@ -7076,8 +7076,8 @@
+ - erhält -5 auf Weisheit
+ - muss von guter Gesinnung sein
+ - muss ein Mensch, ein Elf oder ein Halbelf sein~
+-@21661 = ~drow priester~
+-@216610 = ~Drow Priester~
++@21661 = ~Drow-Priester~
++@216610 = ~Drow-Priester~
+ @21662 = ~DROW PRIESTER:
+   Das Leben aller Drow dreht sich um die Verehrung ihrer furchteinflößenden Spinnengöttin Lloth. Ihrem Kleriker wird daher in allen Städten des Unterreichs mit Furcht und Respekt begegnet. Die kriegerische Natur der Drow zeigt sich in der Fähigkeit des Klerikers, mit Flegel und Morgenstern umzugehen. Trotz seiner kämpferischen Fähigkeiten hat jedoch seine Stärke unter der fehlenden körperlichen Übung gelitten. Stattdessen widmet sich der Priester der Verehrung Lloths und bemüht sich, der Auserwählte der dunklen Göttin zu werden. Wie alle Drow verfügt der Kleriker über eine angeborene Magieresistenz und kann mit der Hilfe Lloths Visionen von Schmerzen über seine Feinde bringen.
+ 
+@@ -7100,7 +7100,7 @@
+ - Da die Drow eine sehr verhasste Rasse sind, sind zudem Angriffe ihrer Feinde jederzeit möglich.
+ - muss von böser Gesinnung sein
+ - muss ein Elf sein~
+-@21663 = ~priester des silvanus~
++@21663 = ~Priester des Silvanus~
+ @216630 = ~Priester des Silvanus~
+ @21664 = ~PRIESTER DES SILVANUS:
+   Silvanus ist der mächtigste Gott der wilden Natur in den Reichen und von gleicher Macht wie Chauntea, die eine mehr geordnete Natur repräsentiert. Die beiden haben ein gutes Verhältnis, wie die meisten der guten und neutralen Naturgottheiten. Mielikki dient ihm, und viele Anhänger eines Gottes verehren die anderen ebenso. Silvanus ist stolz auf seine völlige Neutralität und wohnt auf der Ebene der Übereinstimmenden Gegensätze, der Ebene der Neutralität. Die Natur und ihr perfektes Gleichgewicht ist der Grundsatz des Silvanus, der sowohl Überschwemmungen als auch Dürre, Feuer und Eis, Leben und Tod in der Wildnis bemisst. Priester von Silvanus haben eine besondere Liebe zur Natur, und ihre Kraft beruht in hohem Maße auf ihre Beeinflussung.
+@@ -7124,7 +7124,7 @@
+ @21668 = ~Gute Beeren~
+ @21669 = ~Schutz vor Elektrizität~
+ @21670 = ~Sprühende Dornen~
+-@21671 = ~priester des tybboch~
++@21671 = ~Priester des Tybboch~
+ @216710 = ~Priester des Tybboch~
+ @21672 = ~PRIESTER DES TYBBOCH:
+   Priester von Tybboch sind häufig böswillige und größtenteils wahnsinnige Männer, und ihr Geist ist verdorben durch die Berührung ihres Gottes. Wenn sie sich entscheiden, dem Gott der Krankheiten, Tybboch, zu dienen, sind sie an diese Entscheidung gebunden und können danach nicht mehr die Klasse ändern. Jeder Versuch auszubrechen endet in einem langsamen Tod durch irgendwelche Krankheiten. Ein Priester des Tybboch bevorzugt Orte mit wenigen Bewohnern, besonders Städte und Dörfer, die von einer Krankheit oder Seuche befallen wurden. Er ist der Ansicht, das Werk seines Gottes vollenden zu müssen. Anhänger Tybbochs sind normalerweise männlich, obwohl es auch Ausnahmen gegeben haben soll. Ihre Tempel richten sie in alten Ruinen und Schuppen ein, um möglichst wenig Aufmerksamkeit zu erregen. Wenn sie nicht gerade einem mächtigen Feind gegenüberstehen, ignorieren die Kleriker des Tybboch einander und versuchen häufig, sich gegen einander zu verschwören, um die Gunst ihres Gottes zu erlangen.
+@@ -7143,7 +7143,7 @@
+ - muss von rechtschaffen oder neutral böser Gesinnung sein
+ - muss ein Mensch, Halbork oder Zwerg sein~
+ @21673 = ~Untote beherrschen~
+-@21674 = ~priester des tempus~
++@21674 = ~Priester des Tempus~
+ @216740 = ~Priester des Tempus~
+ @21675 = ~PRIESTER DES TEMPUS:
+   Die Kampfwächter von Tempus sind eine Krieger-Rasse von Priestern, die sich dem intensiven körperlichen und geistigem Training gewidmet haben. Seine Fähigkeit, Zauber zu wirken entspricht der eines normalen Priesters, und eerlangt sogar einige zusätzliche Fähigkeiten. Häufig wird er dabei gesehen, wie er eine heilige Waffe schwingt: einen Flegel, der seine Kraft aus dem Träger bezieht und mit steigender Erfahrung mächtiger wird.
+@@ -7165,7 +7165,7 @@
+ @21677 = ~Klingenfluch~
+ @21678 = ~Heiligen Flegel erschaffen~
+ @21679 = ~Heiliger Flegel~
+-@21680 = ~priester des amaunator~
++@21680 = ~Priester des Amaunator~
+ @216800 = ~Priester des Amaunator~
+ @21681 = ~PRIESTER DES AMAUNATOR:
+   Ein Priester des Amaunator verehrt den großen Sonnengott Amaunator. Sie sind allgemein für Ihr gute Gesinnung und Wesensart bekannt. Einige Menschen haben herausgefunden, dass sie nicht immer so sind, aber diese Fälle sind äußerst selten. Für ihre Verehrung erhalten sie viele Vorteile von ihrem Gott, die meistens auf der Kraft der Sonne selbst basieren. Darunter sind verschiedene offensive und defensive Zauber und sogar die Möglichkeit, die materielle Form Amaunators selbst zu kopieren. Diese Vorteile sind im allgemeinen auch der Grund, weshalb sich einige dafür entscheiden, eine solche Gotheit zu verehren.
+@@ -7187,7 +7187,7 @@
+ @21683 = ~Sonnenzepter~
+ @21684 = ~Entflammen~
+ @21685 = ~Ihr wurdet von Flammen eingehüllt.~
+-@21686 = ~priester der shar~
++@21686 = ~Priester der Shar~
+ @216860 = ~Priester der Shar~
+ @21687 = ~PRIESTER DER SHAR:
+   Shar ist die Göttin der Finsternis, der Nacht, des Verlustes, und der Vergesslichkeit. Sie wohnt in der außerdimensionalen Ebene des Hades. Shar ist eine ungewöhnliche Macht, die mehrere Wesensarten von unterschiedlicher Gesinnung zu haben scheint. Das offensichtlichste Beispiel ist Sharess, die genügend Anhänger um sich sammeln konnte, um sich von Shar zu lösen und ein eigenständiges Wesen zu werden. Eine Erscheinung von Shar, die sich mit Vergesslichkeit befasst, hat eine Gefolgschaft von Priestern, die darauf versessen ist, ihre Neutralität beizubehalten. Shars wichtigste Erscheinung wird andererseits von denjenigen verehrt, die im Dunkeln tätig sind (so wie Diebe), die das Licht hassen (so wie Goblinrassen und ihre Verbündeten) oder die Verbitterung und Verlust erlebt haben. Ihr Symbol ist eine schwarze Scheibe mit purpurnem Rand.
+@@ -7207,7 +7207,7 @@
+ @21688 = ~Rüstung der Dunkelheit~
+ @21689 = ~Wesen der Dunkelheit~
+ @21690 = ~Dunkler Bolzen~
+-@21691 = ~priester des tyr~
++@21691 = ~Priester des Tyr~
+ @216910 = ~Priester des Tyr~
+ @21692 = ~PRIESTER DES TYR:
+   Tyr Grimjaws, Tyr der UnGruppeische, Tyr der Verwundete, der Verstümmelte Gott, Tyr der Blinde - alle diese Namen bezeichnen den Gott der Gerechtigkeit in den Reichen. Tyr erscheint als ein edler Krieger, dem die rechte Hand fehlt, die er bei einem Beweis seiner Standhaftigkeit und Geistesstärke verlor. In letzter Zeit hat man ihn auch blind dargestellt, ein Ergebnis der Zeit der Klagen und der Avatare. Er ist die einzige Höhere Macht von rechtschaffen guter Gesinnung und soll an den unteren Hängen des Berges der Sieben Himmel leben. Tyrs Symbol ist die Waagschale über einem Kriegshammer und zeigt sein Wesen: Gerechtigkeit durch die Stärke, diese Gerechtigkeit durchzusetzen. Der niedere Gott Torm dient Tyr.
+@@ -7224,7 +7224,7 @@
+ - muss ein Gnom oder Halbling sein~
+ @21693 = ~Feuer der Gerechtigkeit~
+ @21694 = ~Segen Tyrs~
+-@21695 = ~priester der mystra~
++@21695 = ~Priester der Mystra~
+ @216950 = ~Priester der Mystra~
+ @21696 = ~PRIESTER DER MYSTRA:
+   Mystra ist die Göttin der Magie und ist somit eine der mächtigsten Gottheiten den Reichen. Sie ist auch bekannt als die Dame der Geheimnisse, ihr wird auch nachgesagt, dass sie den ersten Zauberer in den vergessenen Reiche unterrichtet hat und es den verschiedenen Rassen ermöglichte, Magie zu benutzen.
+@@ -7248,7 +7248,7 @@
+ Rettungswurf: Speziell
+ 
+ Die Eislanze erzeugt einen magischen Speer aus kaltem magischen Eis, die der Zauberer dem ausgewähltem Ziel entgegen wirft. Die Lanze verursacht einen Schaden von 5-30 Trefferpunkten, das Ziel muss einen Rettungswurf gegen Zauber mit -1 bestehen, sonst erstarrt es für 4 Runden.~
+-@21698 = ~beschützer der wildnis~
++@21698 = ~Beschützer der Wildnis~
+ @216980 = ~Beschützer der Wildnis~
+ @21699 = ~BESCHÜTZER DER WILDNIS:
+   Der Beschützer der Wildnis ist ein Waldläufer, der fast sein gesamtes Leben in Waldgebieten verbringt. Dabei hat gelernt, eine enge Bindung mit Tieren einzugehen. Zusätzlich zu der Fähigkeit, Tiere als Verbündete herbeizurufen, kann er mit zunehmender Erfahrung auch dunklere Wesen beschwören. Wegen der vielen Zeit, die er in Waldgebieten verbringt, bereiten schwerere Rüstungenen große Probleme für den Beschützer der Wildnis, und infolgedessen wird er nie etwas Schwereres tragen als ein Beschlagenes Lederwams. Da der Beschützer der Wildnis nicht häufig am Kampf beteiligt ist, verwendet er nur Waffen, die er zum täglichen Überleben im Wald verwendet. Diese einsamen Waldläufer verbringen sehr nicht viel Zeit im Kontakt mit anderen Leuten, und infolge dessen  sie sind nicht dafür bekannt, besonders charismatisch zu sein.
+@@ -7264,7 +7264,7 @@
+ - kann nur Axt, Keule, Speer und Stab als Nahkampfwaffe verwenden
+ - kann nur einen Fertigkeitspunkt auf Nahkampfwaffen aufwenden~
+ @21700 = ~Verbündete herbeirufen~
+-@21701 = ~samurai~
++@21701 = ~Samurai~
+ @217010 = ~Samurai~
+ @21702 = ~SAMURAI:
+   Der ideale Samurai ist ein Krieger von stoischer Ruhe. Er folgt einem ungeschriebenen Ehrenkodex namens Bushido, der Mut, Ehre und persönliche Loyalität noch über das Leben selbst stellt. Ein wahrer Samurai ist ein Meister des Katana und des Wakizashi. Seine Beherrschung dieser Klingen ist beispiellos, und die tödliche Präzision, mit der er sie führt, lässt selbst die entschiedensten Gegner vor Furcht erstarren. Ein samurai trägt auf jeden Fall beide seiner Klingen im Kampf, und das strenge Training und die Meditation, die er benötigt, um diese Fähigkeit zu erwerben, vershaffen ihm eine außergewöhnlich Geschicklichkeit. Seine völlige Konzentration auf Katana und Wakizashi bedeutet auch, dass er keine Fernkampfwaffen benutzen und sich nur auf seine eigenen Waffen speialisieren kann. Jedoch versetzen ihn seine blitzschnellen Reflexe und übermenschliche Beweglichkeit in die Lage, Geschosse abzuwenden.
+@@ -7286,7 +7286,7 @@
+ - benötigt Geschicklicht 17
+ - muss ein Mensch von rechtschaffender Gesinnung sein~
+ @21703 = ~Kuatoray Technik~
+-@21704 = ~schattenelf~
++@21704 = ~Schattenelf~
+ @217040 = ~Schattenelf~
+ @21705 = ~SCHATTENELF:
+   Der Schattenelf ist ein Waldläufer, der einen großen Teil seiner Zeit darauf verwendet hat, zu lernen, Zauber aus geheimnisvollen Wälzern Kenntnisse außerordentlich geschätzt und unter den Dienern des Bösen wegen ihrer Macht und Heimlichkeit außerordentlich gefürchtet. Mit der Fähigkeit, Zauber auswendig zu wirken, beschränkt sich der Schattenelf auf das beschlagene Lederwams, da schwerere Rüstungen seine Zauber behindern würden. Außerdem verwendet der Schattenelf wegen mangelnder Übung keine Fernkampfwaffen, aber er ist dazu fähig, Finsternis und Schatten ausgezeichnet zu nutzen, um sich vor seinen Feinden zu verbergen.
+@@ -7307,9 +7307,9 @@
+ @21706 = ~Feuerball~
+ @21707 = ~Schutz vor Elementen~
+ @21708 = ~Auferstehung~
+-@21709 = ~drow waldläufer~
+-@217090 = ~Drow Waldläufer~
+-@21710 = ~DROW WALDLÄUFER:
++@21709 = ~Drow-Waldläufer~
++@217090 = ~Drow-Waldläufer~
++@21710 = ~DROW-WALDLÄUFER:
+   Die wichtigste Aufgabe eines Drow-Waldläufers ist die Verfolgung und Eliminierung der Feinde der Drow. Alle Drow-Waldläufer sind Experten im Schwertkampf und weitaus erfahrener im Gebrauch dieser Waffe als ihre entfernten Verwandten, die Elfen. Wie alle Drow verfügen sie über eine natürliche Resistenz gegen Magie, die mit steigender Erfahrung zunimmt. Die Waldläufer beherrschen eine Anzahl von Zaubern, um ihre Aufgabe mit größtmöglicher Wirksamkeit ausführen zu können. Diese tödlichen, schattenhaften Jäger schätzen Beweglichkeit und Wendigkeit über alles und verzichten auf den Schutz der schwereren Adamantitpanzer, die auch ihre Bewegungsfreiheit einschränken würde. Als Zeichen der besonderen Gunst der Göttin Lloth gewährt sie ihren tödlichen Jägern die Fähigkeit, ihre Feinde mit unheiligem Feuer zu vertreiben.
+ 
+ VORTEILE:
+@@ -7328,7 +7328,7 @@
+ - Als Drow erhält er einen Abzug von -2 auf ETW0 und Rüstungsklasse im Sonnenlicht.
+ - da die Drow eine sehr verhasste Rasse sind, sind zudem Angriffe ihrer Feinde jederzeit möglich.
+ - muss ein Elf sein~
+-@21711 = ~fährtensucher~
++@21711 = ~Fährtensucher~
+ @217110 = ~Fährtensucher~
+ @21712 = ~FÄHRTENSUCHER:
+   Der Fährtensucher hat Ähnlichkeiten mit dem Pirscher. Er kann sich aufgrund seiner Tarnung gut anschleichen. Im Gegensatz zum Pirscher jedoch jagt er für sich selbst, nicht unter Vertrag. Er hat sich darauf spezialisiert, seine Opfer mit dem geringstmöglichen Kampf zu überwältigen und entwaffnet oder lähmt sie deswegen vor dem Töten. Er ist zudem ein Experte darin, Drogen und andere fremde Substanzen in seinem Körper unschädlich zu machen. Wegen seines Vertrauens auf die Heimlichkeit, und seiner Abneigung gegen den direkten Kampf vermeidet es der Spurenleser, schwere Rüstung zu tragen. Er ist auch in seiner Wahl der Waffen sehr spezifisch, und wird selten Schwerter oder größere Waffen wählen, um damit anzugreifen, wei sie für einen schnellen Tod nicht ideal sind.
+@@ -7352,7 +7352,7 @@
+ @21715 = ~Monster festhalten~
+ @21716 = ~Lähmender Schuss~
+ @21717 = ~Dieser Pfeil ist beste Handwerkskunst und ist mit einer extremen paralysierenden Kraft versehen, die bei Kontakt das Ziel gefrieeren lässt. Dieser Pfeil ist das Aushängeschild der Fährtensucher.~
+-@21718 = ~riesenschnitter~
++@21718 = ~Riesenschnitter~
+ @217180 = ~Riesenschnitter~
+ @21719 = ~RIESENSCHNITTER:
+   Ein Riesenschnitter hat geschworen, Faerûn von seinen Todfeinden, den Riesen, zu befreien. Aufgrund seiner Verschlossenheit ist es schwierig, den Grund für diesen Hass auf die Riesen zu ergründen. Man kann jedoch den Zorn und das Verlangen nach Rache spüren, das diesen grimmigen und unnahbaren Kämpfer umtreibt. Er ist von trostloser und mürrischer Wesensart, doch seine Meisterschaft im Kampf gegen Riesen aller Art wird von niemandem in Faerûn übertroffen. Nach langen Jahren des Kampfes gegen die Riesen hat er einen eigenartigen Stil entwickelt. Da er gelernt hat, dass es sinnlos ist, mit einem Schwert und Schild auf einen Riesen loszugehen, vermeidet er diese Kombination im Kampf. Er hat auch den Wirkungslosigkeit von Fernkampfwaffen im Kampf gelernt und wwird diese selten wählen. Der Riesenschnitter hat sehr geringen Bedarf an Geschwindigkeit oder guten Reflexen, weil die Gegner, mit denen er es zu tun hat, viel langsamer ist als er. Der alles durchdringende Hass auf Riesen und der unbeirrbare Eifer für sein Ziel erlaubt es diesem furchtlosen Kämpfer, einen Zustand berserkerhafter Ekstase zu erreichen, in dem er wahrlich schrecklich anzusehen ist.
+@@ -7367,7 +7367,7 @@
+ - erhält -1 auf Geschicklichkeit, da er die Fähigkeit zu schnellen Reaktionen im Kampf gegen einen langsamen Gegner vernachlässigt hat
+ - hat einen erhöhten Zeitaufwand beim Zaubern, da er für den Nahkampf ausgebildet ist
+ - kann keine schwerere Rüstung als einen Schienenpanzer tragen~
+-@21720 = ~jäger der betrachter~
++@21720 = ~Jäger der Betrachter~
+ @217200 = ~Jäger der Betrachter~
+ @21721 = ~JÄGER DER BETRACHTER:
+   Der Jäger der Betrachter hat seine Zeit dem Lernen gewidmet, wie man tötet und den Wirkungen des Betrachters widersteht. Sein Groll gegen die älteren Kugeln ist nicht klar, aber er hat alle seine physischen Mittel darauf gebündelt, der Wirkung ihrer Betrachterstrahlen zu widerstehen. Er kann die Strahlen absorbieren oder reflektieren, was ihm einen enormen Vorteil im Kampf gegenüber vielen anderen bei Versuch gibt,einer älteren Kugel im Kampf gegenüberzustehen. Jäger der Betrachter werden häufig angestellt, um den Befall von Betrachtern zu beseitigen, und sind gegen die tödlichen Biester erfolgreich, wo viele andere versagt hatten. Jedoch hat die Fähigkeit, den Angriffen von Betrachtern zu widerstehen, auch Ihren Preis. Weil er seinen Kampfstil aufs Äußerste verfeinert haben, um die Bister zu zerstören, kann er keinerlei Fernkampfwaffen verwenden. Er trägt auch keine schweren Arten von Rüstungen, weil er die schnelle Bewegung gegenüber dem Schutz bevorzugt, wenn er mit Betrachtern kämpft. Ein Jäger der Betrachter ist nicht feinfühlig bei den Methoden, die er verwendet, um Betrachter zu bekämpfen, und hat beschränkte Erfahrung in der Anwendung von "Im Schatten verstecken" beim Kampf.
+@@ -7383,7 +7383,7 @@
+ - kann keine schwerere Rüstung als einen Schienenpanzer tragen
+ - Muss ein Mensch oder Halbelf sein~
+ @21722 = ~Abwehr der Älteren~
+-@21723 = ~elfenkrieger des waldes~
++@21723 = ~Elfenkrieger des Waldes~
+ @217230 = ~Elfenkrieger des Waldes~
+ @21724 = ~ELFENKRIEGER DES WALDES:
+   Der Elfenkrieger des Waldes gehört zu einer alten, heiligen Gruppe von Waldläufern, beauftragt, die  Gemeinschaft der Elfen in den Wäldern, in denen sie wohnen, zu verteidigen. Er ist äußerst verschwiegen, und wenig seiner Fähigkeiten ist sogar unter dem eigenen Elfenvolk bekannt. Er besitzt die einmalige und geheime Fähigkeit, magische Totemtiere auf seinen Reisen zu Hilfe zu rufen. Da einige der Vorteile dieser Magie durch das Tragen schwerer Rüstungen eingeschränkt werden, trägt ein Elfenkrieger des Waldes freiwillig maximal eine Beschlagene Lederrüstung. Durch den Verzicht auf Schwerter in seiner Ausbildung kann er auch keine Schwerter außer Katanas effektiv führen.
+@@ -7426,7 +7426,7 @@
+ - kann sich in keiner anderen Fernkampfwaffe außer der Schleuder spezialisieren
+ - muss ein Elf oder Halbelf sein~
+ @21734 = ~Kugeln erzeugen~
+-@21735 = ~ninja~
++@21735 = ~Ninja~
+ @217350 = ~Ninja~
+ @21736 = ~NINJA:
+   Der Ninja ist ein sonderbarer Mischling aus einem Diebes und einem Kämpfers. Viele Wesen leben jedoch nie lange genug,um viel mehr über diese verstohlen Kämpfer erlernen. Der Ninja ist in hohem Grade beweglich und gewinnt einen bedeutenden Vorteil aus seiner Geschicklichkeit sowie seiner Geschwindigkeit. Er ist in hohem Grade darin erfahren, allen Arten Schaden auszuweichen. Des öfteren ist ein Ninja nur ein bißchen angesengt aus einer starken Explosion hinausgegangen, die Geschöpfe mit dem mehrfachen seiner Stärke getötet hätte. Seine Fähigkeit, Schaden auszuweichen, ist eines seiner bestgehüteten Geheimnisse. Außerdem kann sich der Ninja zur Stufe der Großmeisterschaft mit einer Klinge seiner Wahl spezialisieren, obwohl seine bevorzugte Waffe der seltene und tödliche katana ist, der besonders für seine Verwendung als eine Waffe der Heimtücke geschätzt ist; eine Kenntnis, in der der Ninja auch einen bedeutenden Bonus erhält. Am Höhepunkt seiner Erfahrung ist der Ninja jedoch in Stärke und Ausdauer viel schwächer als die meisten Diebe und Kämpfer, weil es seine Spezialität ist, im Schatten zu lauern, und allen, die ihn ärgern, einem stillen Tod zu bescheren. Andere Diebesfähigkeiten, abgesehen von Verrat, leiden infolge von mangelndem Training der "traditionellen" Diebesfähigkeiten in seiner Jugend. Zusätzlich ist die einzige Fernkampfwaffe, die der Ninja verwenden kann, der Wurfpfeil, obwohl er eine Stufe der Beherrschung mit dieser Waffe erreichen kann, die das ausgleicht.
+@@ -7447,7 +7447,7 @@
+ - darf von keiner guten Gesinnung sein
+ - kann keine Fallen stellen~
+ @21737 = ~Schaden ausweichen~
+-@21738 = ~dolchträger~
++@21738 = ~Dolchträger~
+ @217380 = ~Dolchträger~
+ @21739 = ~DOLCHTRÄGER:
+   Der Dolchträger übt sein ganzes Leben lang den Umgang mit Messern, Wurfmessern und anderen kurzen Klingen und kann infolge dessen diese Waffen mit außergewöhnlicher Fertigkeit verwenden. Die für so tödlichen Gebrauch erforderliche Fertigkeit erfordert von dem Dolchträger, ungewöhnlich schnell und geschickt zu sein. Die Genauigkeit seiner Angriffe und der Schaden mit diesen Waffen steigern sich mit der Erfahrung immer weiter. Allerdings hat diese Spezialisierung dazu geführt, dass der Dolchträger den Umgang mit anderen Waffen weitestgehend verlernt hat, besonders bei den unhandlicheren Arten.
+@@ -7463,7 +7463,7 @@
+ - kann nur Fertigkeitspunkte auf Dolche und Kurzschwerter verwenden
+ - kann keine Fallen stellen
+ - muss ein Halbling sein~
+-@21740 = ~heckenschütze~
++@21740 = ~Heckenschütze~
+ @217400 = ~Heckenschütze~
+ @21741 = ~HECKENSCHÜTZE:
+   Der Heckenschütze ist ein Dieb, der eine außergewöhnliche Fertigkeit im Umgang mit dem Bogen erworben hat und tödlich ist, wenn er solch eine Waffe aus der Ferne verwendet, ungesehen von seinen Feinden. Obwohl sein Talent nicht mit dem eines richtigen Bogenschützen konkurrieren kann, verfügt er zusätzlich über seine Diebesfertigkeiten, die ihn zu einem wertvollen Mitgleid jeder Gruppe machen. Durch die langen Trainingsstunden mit Pfeil und Bogen sind die Nahkampffähigkeiten des Heckenschützen vernachlässigt worden. Er kann zwar gut mit dem Dolch umgehen, kann aber keine anderen Nahkampfwaffen verwenden. Auch sein Hinterhältiger Angriff hat gelitten, und er kann nicht soviel Schaden anrichten wie andere Diebe.
+@@ -7478,7 +7478,7 @@
+ - Kann nur mit Dolchen, kurzen Schwertern, Armbrüsten, und Bögen wirksam umgehen
+ - kann keine Fallen stellen
+ - muss Halbling oder Elf sein~
+-@21742 = ~svirfneblin~
++@21742 = ~Svirfneblin~
+ @217420 = ~Svirfneblin~
+ @21743 = ~SVIRFNEBLIN:
+   Diese unterirdischen Gnome leben Seite an Seite mit den als Drow bekannten furchterregenden Dunkelelfen. Generationen der Verfolgung haben die Svirfneblin möglicherweise lebensrettende Trugbild-Kenntnisse gelehrt, die es ihnen erlauben, ihren tödlichen Drow Feinden zu entkommen und sie zu verwirren. Die Svirfneblin beherrschen diese Macht der Illusion in allen Feinheiten und sind in ganz Faerûn als Meister der Täuschung bekannt. Da sie viele Jahrhunderte auf ihre Fähigkeiten in der Jagd angewiesen waren, können sie meisterhaft mit dem Dolch umgehen. Viele ahnungslose Reisende sind schon diesen überraschend bösartigen und gefährlichen Gnomen zum Opfer gefallen. Jedoch ziehen sie sich durch ihre Abneigung gegen die Gesellschaft anderer Rassen ausnahmslos einen Abzug von ihrem Charisma zu, und ihre Diebesfertigkeiten leiden unter der fehlenden Übung.
+@@ -7500,9 +7500,9 @@
+ - erhält -1 auf Charisma und Intelligenz
+ - darf nur 20 Punkte pro Stufenaufstieg auf Diebesfertigkeiten verteilen~
+ @21744 = ~Massenunsichtbarkeit~
+-@21745 = ~drow meuchelmörder~
+-@217450 = ~Drow Meuchelmörder~
+-@21746 = ~DROW MEUCHELMÖRDER:
++@21745 = ~Drow-Meuchelmörder~
++@217450 = ~Drow-Meuchelmörder~
++@21746 = ~DROW-MEUCHELMÖRDER:
+   Gewandtheit, Geschicklichkeit, Anmut. Diese Worte verkörpern das tödliche Wesen eines Drow-Meuchelmörders. Der Meuchelmörder ist wie alle Drow absolut und vollständig unbarmherzig. Seine Geschicklichkeit ist unübertroffen in allen Rassen, und allein die Erwähnung seines Namens pflanzt Furcht in die unerschrockensten Herzen. Was dem Meuchelmördern an reiner Kraft fehlt, ersetzt er durch List und Raffiniertheit. Mit zunehmender Erfahrung kann der Drow-Meuchelmörder giftige Wurfpfeile herstellen, die selbst die stärksten Gegner zu Tode bringen können. Der Meuchelmörder besitzt auch eine gewisse Magieresistenz und ein kleines Arsenal an Zaubersprüchen, was diesen Dunkelelf zu einer lautlosen und furchterregenden Tötungsmaschine macht.
+   Die Abhängigkeit des Drow Meuchelmörders von Geschwindigkeit und Heimlichkeit hat wenig Bedarf an der blosser rohen Kraft oder Widerstandsfähigkeit und als Meuchelmörder sind seine Diebesähigkeiten nicht so entwickelt wie die der üblichen Diebe.
+ 
+@@ -7528,7 +7528,7 @@
+ - muss ein Elf sein~
+ @21747 = ~lähmender Schlag~
+ @21748 = ~Ihr habt den Gegner mit einem Genickschlag betäubt~
+-@21749 = ~einbrecher~
++@21749 = ~Einbrecher~
+ @217490 = ~Einbrecher~
+ @21750 = ~EINBRECHER:
+   Der Einbrecher ist der unbestrittene Meister in Raub und Diebstahl. Er ist ein Experte im Knacken von Schlössern und ist dazu fähig, selbst in schärfstens bewachte Gebäude einzudringen. Da er seine Fähigkeiten von Jugend an auf der Straße geübt hat, ist der Diebstahl zum Lebensinhalt des Einbrechers geworden. Seine Fähigkeit zum Taschendiebstahl ist in ständiger Übung und mit einem entsprechend großen Bonus  ausstattet. Die fähigsten Einbrecher sind geschickt in der Kunst des Straßenraubes und können ihre Opfer berauben, indem sie sie in einen tiefen, dem Koma ähnlichen Schlaf versetzen. Allerdings kann der Einbrecher im Gegensatz zu anderen Dieben keine Fallen stellen. Solch eine Fähigkeit ist bei seiner Art Arbeit überflüssig, und infolgedessen widmet der Einbrecher keine Zeit dem Lernen dieser Fähigkeit.
+@@ -7546,7 +7546,7 @@
+ - kann von keiner rechtschafenen oder guten Gesinnung sein
+ - muss ein Gnom, Halbling oder Halbelf sein~
+ @21751 = ~Tiefschlaf~
+-@21752 = ~ebenenwanderer dieb~
++@21752 = ~Ebenenwanderer Dieb~
+ @217520 = ~Ebenenwanderer Dieb~
+ @21753 = ~EBENENWANDERER DIEB:
+   Der Ebenenwanderer-Dieb verfügt über fremde und furchterregende Fähigkeiten. Er ist mit seiner ganzen Lebensauffassung ein Söldner und schreckt vor nichts zurück, um einen Vertrag zu erfüllen. Ob man ihn angeheuert hat, einen Dämonenlord zu ermorden oder einfach ein uraltes Artefakt zu stehlen, der Ebenenwanderer-Dieb packt alle Aufgaben rücksichtslos und kaltblütig an. Auf höheren Stufen ist der Ebenenwanderer in der Lage, Verbündete von den Ebenen der Luft, des Feuers und des Schattens zu rufen. In Zeiten der Not kann er auch einen Höheren Luftelementar, einen Schattenlord oder sogar einen mächtigen Tanar'ri-Dämon zur Unterstützung beschwören, ihm im Kampf zu helfen. Der Ebenenwanderer benutzt Löcher im Gewebe der Realität, um schnell von einem Ort zum anderen zu reisen.
+@@ -7567,7 +7567,7 @@
+ - kann weder guter noch böser Gesinnung sein
+ - muss ein Mensch, Elf, Halbelf oder Halbling sein~
+ @21754 = ~Rufe Verbündete der Äußeren Ebene~
+-@21755 = ~schurke~
++@21755 = ~Schurke~
+ @217550 = ~Schurke~
+ @21756 = ~SCHURKE
+   Der Kriminelle ist nichts anderes als ein gewaltsamer, unbarmherziger und sadistischer Verbrecher, der die benachteiligten Gebiete von Faerûn bewohnt und wie ein Tier ohne Verstand sein nächstes Opfer erwartet. Er verlässt sich auf brutale Gewalt und rohe Kraft, um seine Opfer besinnugnslos zu prügeln, und steht im völligen Gegensatz zum eleganten Meuchelmörder. Dem Schurke kommt dabei zugute, dass er größer, stärker und zäher ist als ein normaler Dieb. Er kann auch vorzüglich mit Waffen umgehen, besonders mit dem Dolch, da er jahrelang Leuten das Messer in die Eingeweide gestochen hat und so zu einem wahren Meister mir dieser Waffe geworden ist.
+@@ -7584,7 +7584,7 @@
+ - kann nur 15 Fertigkeitspunkte pro Stufenaufstieg auf Diebesfähigkeiten verteilen
+ - kann keine Fallen stellen
+ - kann nur von neutral böser oder chaotisch böser Gesinnung sein~
+-@21757 = ~jäger~
++@21757 = ~Jäger~
+ @217570 = ~Jäger~
+ @21758 = ~JÄGER:
+   Der Jäger ist ein elfischer Dieb, dessen Fähigkeiten in den heimischen Wäldern der Elfen ausgebildet wurden und sich deshalb auch auf Gebiete erstrecken, die dem gewöhnlichen Dieb nicht zugänglich sind. Seine umfangreichen Kenntnisse über Kräuter und natürliche Medizin erlauben es ihm, verschiedene Gifte und Salben zuzubereiten, die seine Gegner außer Gefecht setzen. Während seine Diebesfähigkeiten nicht an die des Einbrechers heranreichen, genügen sie für so gut wie alle Aufgaben, die ihm gestellt werden. Aufgrund seiner elfischen Herkunft kann er sich auf Bögen spezialisieren und damit die Fähigkeiten aller anderen Diebe mit dieser Waffe übertreffen. Die Fallen des Jägers fangen seine Beute in einem festen Netz, eine schreckliche Fähigkeit, durch die schon mancher hochmütige Feind zu Fall gekommen ist. Sein scheues Wesen und seine Tendenz, sich von anderen zurückzuziehen, führen dagegen zu niedrigerem Charisma, und die Betonung, die der Jäger auf Geschicklichkeit und Wendigkeit legt, zehrt an seiner Körperkraft.
+@@ -7601,7 +7601,7 @@
+ - erhält -1 auf Stärke
+ - kann von keiner guten Gesinnung sein
+ - muss ein Elf sein~
+-@21759 = ~alleskönner~
++@21759 = ~Alleskönner~
+ @217590 = ~Alleskönner~
+ @21760 = ~ALLESKÖNNER:
+   Während der Alleskönner so etwas wie ein Hans Dampf in allen Gassen ist, ist er stolz, die Fähigkeiten eines Kämpfers, eines Magiers, eines Schurken und eines Klerikers zu haben, aber er ist in erster Linie ein Dieb. Er hat größere körperliche Vorteile als ein normaler Schurke und ist dazu fähig, bedeutende Kenntnisse in einigen der von Dieben verwendeten Waffen zu gewinnen. Er paast sich äußerst gut an eine neue Gruppe Abenteurer an, da er Vorteile von vielen anderen Klassen zur Verfügung stellt. Es mangelt ihm jedoch wirklich an der Eignung zum Dieb, und seine Fähigkeiten zum Taschendiebstahl sind etwas schlechter als die eines durchschnittlichen Diebs. Wie gesagt, ist der Alleskönner ein Hans Dampf in allen Gassen, aber in nichts ein Meister. 
+@@ -7622,7 +7622,7 @@
+ - kann keine Fallen stellen
+ - kann kein Elf oder Halbling sein~
+ @21761 = ~Wunden verbinden~
+-@217610 = ~händler~
++@217610 = ~Händler~
+ @217611 = ~Händler~
+ @21762 = ~HÄNDLER:
+   Der Händler ist bei weitem kein Kämpfer, sondern eher ein gewiefter Dieb, der seine charismatische Persönlichkeit und die Fähigkeiten der Überredung und Täuschung benutzt, um sich ihr Vertrauen zu erschleichen und die für seinen Lebensstil nötigen Waren zu verschaffen. Als solcher ist der Händler dazu fähig, einen Zustand zu erreichen, in dem er imstande ist, fast jedermann zu überzeugen, fast jedes mögliches Angebot anzunehmen, das ihnen unterbreitet wird. Er hat auch die Fähigkeit, einen speziellen Beutel herzustellen, um seine Waren aufzubewahren; diesem Beutel ist der Begriff des Raumes unbekannt, so dass selbst die größten Dinge darin verborgen werden können. Der Händler ist ein ebenso guter Dieb wie jeder andere, seine körperlichen Fähigkeiten sind jedoch nicht die besten, und er kann keinen hinterhältigen Angriff ausführen.
+@@ -7641,7 +7641,7 @@
+ @21763 = ~Feilschen~
+ @21764 = ~Wahrnehmung~
+ @21765 = ~Beutel des Händlers~
+-@21766 = ~betrüger~
++@21766 = ~Betrüger~
+ @217660 = ~Betrüger~
+ @21767 = ~BETRÜGER:
+   Der Betrüger ist ein Dieb, ist ein Dieb, der nur daran denkt, Geld zu verdienen, und dem jedes Mittel recht ist, um diese Absicht zu erreichen. Häufig spielt er Glücksspiele, und wenn er verliert, wird er zum Taschendieb, um wieder das Defizit wieder auszugleichen; infolge dessen ist der Betrüger häufig einer der meist gehassten Typen von Schurken in jeder Gemeinschaft. Er hat auch Fertigkeiten mit Wurfwaffen, und benutzt diese Fähigkeiten, sich Geld zu verdienen. Er hat auch die Fähigkeit zur schnellen Flucht  und kann sehr schnell laufen, um Konfrontation zu vermeiden. Der Betrüger ist jedoch nicht für das Verstecken bekannt, und bevorzugt eine schnelle Flucht einem verstohlenen Rückzug.

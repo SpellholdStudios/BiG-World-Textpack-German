@@ -1,0 +1,33 @@
+--- TS\bgtnodlg\eDOGHMA.D	Wed Dec 29 16:43:08 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\eDOGHMA.D	Thu May 05 10:46:30 2016
+@@ -2,26 +2,26 @@
+ IF ~Global("RevealUmar","GLOBAL",1)
+ OR(2)
+ PartyHasItem("misc7L")
+-PartyHasItem("miscbsim")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscbsim")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 3
+ IF ~Global("RevealUmar","GLOBAL",1)
+ OR(2)
+ PartyHasItem("misc7L")
+-PartyHasItem("miscbsim")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscbsim")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 7
+   IF ~Global("RevealUmar","GLOBAL",1)
+ OR(2)
+ PartyHasItem("misc7L")
+-PartyHasItem("miscbsim")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscbsim")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END
+ 
+ EXTEND_BOTTOM DOGHMA 9
+   IF ~Global("RevealUmar","GLOBAL",1)
+ OR(2)
+ PartyHasItem("misc7L")
+-PartyHasItem("miscbsim")~ THEN REPLY ~A friend is afflicted by vampirism.  An old book suggested that followers of Oghma might know something about that.~ EXTERN DOGHMA 10
++PartyHasItem("miscbsim")~ THEN REPLY @0 EXTERN DOGHMA 10
+ END

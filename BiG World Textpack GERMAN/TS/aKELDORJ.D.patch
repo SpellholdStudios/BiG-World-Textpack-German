@@ -1,0 +1,11 @@
+--- TS\bgtdlg\aKELDORJ.D	Thu Feb 07 00:19:25 2008
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\aKELDORJ.D	Thu May 05 10:44:12 2016
+@@ -1,7 +1,7 @@
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN TS253
+-  SAY ~Love of God is a higher calling, then an earthly passion, but still there is a measure of truth in your words, Najoki...~
++  SAY @0
+   IF ~!InParty("Aerie")
+ !InParty("Korgan")~ THEN EXTERN ~NAJOKI~ 7
+   IF ~InParty("Aerie")

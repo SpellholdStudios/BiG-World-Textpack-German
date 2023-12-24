@@ -1,0 +1,31 @@
+--- NeJ3\dlg\POGHM10.d	Sat Feb 17 23:52:48 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\POGHM10.d	Wed Apr 10 10:25:03 2019
+@@ -2,24 +2,24 @@
+ 
+ IF ~RandomNum(4,1)
+ ~ THEN BEGIN 0
+-  SAY ~Thought you could learn something of value outside these walls, did you, <CHARNAME>? I knew you'd come scampering back before the snows flew.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,2)
+ ~ THEN BEGIN 1
+-  SAY ~We heard about Gorion... Welcome home, <CHARNAME>, you've spent a long time grieving.~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,3)
+ ~ THEN BEGIN 5
+-  SAY ~Please, do not disturb my contemplative ambling.~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(4,4)
+ ~ THEN BEGIN 6
+-  SAY ~You put your left foot in, you take your left foot out, you put your left foot in and you shake it all about... Oh! I, uh, didn't see you there... The wisdom of Oghma manifests itself in, uh, many ways... I'll be on my way, now.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END

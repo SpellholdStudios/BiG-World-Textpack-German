@@ -1,0 +1,37 @@
+--- NeJ3\dlg\AMNIS.d	Sat Feb 17 23:52:06 2007
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\AMNIS.d	Wed Apr 10 10:24:23 2019
+@@ -1,28 +1,26 @@
+ BEGIN ~AMNIS~
+ 
+ IF ~RandomNum(5,1)~ THEN BEGIN 0
+-  SAY ~Why are you not at the fair, citizen?  'Tis but a moment's walk east of Nashkel.~
+-  IF ~~ THEN JOURNAL ~Nashkel festival.
+-
+-There is a festival east of Nashkel.  Many people are gathering there.~ EXIT
++  SAY @0
++  IF ~~ THEN JOURNAL @1 EXIT
+ END
+ 
+ IF ~RandomNum(5,2)~ THEN BEGIN 1
+-  SAY ~Travel lightly, wanderer.  The woods harbor strange things.~
++  SAY @2
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,3)~ THEN BEGIN 2
+-  SAY ~Move along citizen.~
++  SAY @3
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,4)~ THEN BEGIN 3
+-  SAY ~I'm only a guard, all I know is the rumors flying about town.~
++  SAY @4
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(5,5)~ THEN BEGIN 4
+-  SAY ~I'll box your ears if you step an inch closer!~
++  SAY @5
+   IF ~~ THEN EXIT
+ END

@@ -1,0 +1,99 @@
+--- NeJE\dlg\BOTSMITH.d	Sat Dec 01 22:26:10 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\BOTSMITH.d	Tue Apr 09 19:35:23 2019
+@@ -1,5 +1,5 @@
+ EXTEND_BOTTOM BOTSMITH 2
+-  IF ~~ THEN REPLY ~May I rest here?~ GOTO R1
++  IF ~~ THEN REPLY @0 GOTO R1
+ END
+ 
+ EXTEND_BOTTOM BOTSMITH 4
+@@ -11,7 +11,7 @@
+ APPEND ~BOTSMITH~
+ 
+ IF ~~ THEN BEGIN N1
+-  SAY ~Ooo!  Such a rare and shining sword...~ 
++  SAY @1 
+   IF ~!PartyHasItem("JHOSWD2")
+ !PartyHasItem("SW2H08")~ THEN GOTO N2
+   IF ~PartyHasItem("JHOSWD2")
+@@ -21,12 +21,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN N2
+-  SAY ~Has recipe for polishing your Vorpal even more. I'll give you one sword for two. Needing Restored Blade of Aihonen or Soul Reaver, though, oh yes. No idea where to find one, though.~
++  SAY @2
+   IF ~~ THEN GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN N3
+-  SAY ~Has recipe for polishing your Vorpal even more. Is combined with Restored Blade of Aihonen. That and 50,000 gp and I will do it for you. Want you that?~
++  SAY @3
+   IF ~PartyGoldLT(50000)~ THEN REPLY #66594 /* ~I don't have that much money.~ */ GOTO 10
+   IF ~PartyGoldGT(49999)~ THEN REPLY #66595 /* ~Sure... put them together.~ */ DO ~SetGlobal("ItemMaker","GLOBAL",99)
+ TakePartyGold(50000)
+@@ -39,7 +39,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N4
+-  SAY ~Has recipe for polishing your Vorpal even more. Is combined with Soul Reaver. That and 50,000 gp and I will do it for you. Want you that?~
++  SAY @4
+   IF ~PartyGoldLT(50000)~ THEN REPLY #66594 /* ~I don't have that much money.~ */ GOTO 10
+   IF ~PartyGoldGT(49999)~ THEN REPLY #66595 /* ~Sure... put them together.~ */ DO ~SetGlobal("ItemMaker","GLOBAL",99)
+ TakePartyGold(50000)
+@@ -52,7 +52,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N5
+-  SAY ~Ooo!  A shaddy oriental sword...~ 
++  SAY @5 
+   IF ~!PartyHasItem("WUHALTAI")
+ !PartyHasItem("WUJEN")~ THEN GOTO N6
+   IF ~!PartyHasItem("WUJEN")
+@@ -64,12 +64,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN N6
+-  SAY ~Has recipe for polishing your Nighty Blade even more. I'll give you one katana for three. Needing the Nighty Blade and two best friends of any samurai: Wujen and Wuhaltai. No idea where to find one, though.~
++  SAY @6
+   IF ~~ THEN GOTO N12
+ END
+ 
+ IF ~~ THEN BEGIN N7
+-  SAY ~Has recipe for polishing your Nighty Blade even more. Is combined with two friends: Wujen and Wuhaltai. That and 40,000 gp and I will do it for you. Want you that?~
++  SAY @7
+   IF ~PartyGoldLT(40000)~ THEN REPLY #66594 /* ~I don't have that much money.~ */ GOTO 10
+   IF ~PartyGoldGT(39999)~ THEN REPLY #66595 /* ~Sure... put them together.~ */ DO ~SetGlobal("ItemMaker","GLOBAL",98)
+ TakePartyGold(40000)
+@@ -84,7 +84,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN N8
+-  SAY ~Ooo!  A green plate made from a diggy monster...~ 
++  SAY @8 
+   IF ~!PartyHasItem("BLOOD")
+ !PartyHasItem("PLATBLK")~ THEN GOTO N9
+   IF ~!PartyHasItem("BLOOD")
+@@ -96,12 +96,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN N9
+-  SAY ~Has recipe for making it even better. I'll give you a new plate for three. Needing that green plate of yours, a plate of a demon warrior from the North and a bloody plate. No idea where to find one, though.~
++  SAY @9
+   IF ~~ THEN GOTO N11
+ END
+ 
+ IF ~~ THEN BEGIN N10
+-  SAY ~Has recipe for making your Umber Hulk Plate much better. Is combined with Kresselack‘s Plate Mail and Bathed-In-Blood. That and 30,000 gp and I will do it for you. Want you that?~
++  SAY @10
+   IF ~PartyGoldLT(30000)~ THEN REPLY #66594 /* ~I don't have that much money.~ */ GOTO 10
+   IF ~PartyGoldGT(29999)~ THEN REPLY #66595 /* ~Sure... put them together.~ */ DO ~SetGlobal("ItemMaker","GLOBAL",97)
+ TakePartyGold(30000)
+@@ -233,7 +233,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN R1
+-  SAY ~Sure. Cespenar is at your service while you rest as always.~
++  SAY @11
+   IF ~~ THEN  DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPHealCp")~ EXIT

@@ -1,0 +1,11 @@
+--- NeJ3\baf\EEGRISEL.BAF	Sat Nov 15 23:58:33 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\EEGRISEL.BAF	Wed Apr 10 10:33:45 2019
+@@ -12,7 +12,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Display_String","LOCALS",1)
+-		DisplayStringHead(Myself,~Those one-eyed brutes best stay clear of my tavern.~)
++		DisplayStringHead(Myself,@0)
+ 		Continue()
+ END
+ 

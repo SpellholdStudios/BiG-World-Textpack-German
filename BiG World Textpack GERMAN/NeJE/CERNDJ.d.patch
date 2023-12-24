@@ -1,0 +1,38 @@
+--- NeJE\dlg\CERNDJ.d	Fri Feb 03 01:13:58 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\CERNDJ.d	Tue Apr 09 19:35:36 2019
+@@ -1,7 +1,7 @@
+ APPEND ~CERNDJ~
+ 
+ IF ~~ THEN BEGIN Kr_WarTk
+-  SAY ~With war comes also serious damage to nature. If our aid brings a speedy end to this war then it is our duty to help... balance must be maintained!~
++  SAY @0
+   	IF ~True()~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("KRCut04")~ EXIT
+@@ -16,7 +16,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kr_Curse
+-  SAY ~I believe Keldorn has been struck by Cyric's curse and he will most certainly die if any attempt is made to remove it. Only the gods themselves in their mercy can revoke the curse.~
++  SAY @1
+   	IF ~~ THEN DO ~SetGlobal("VP_Kr_CyricPlot","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -24,13 +24,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN Kelem0
+-  SAY ~Who is here... who is it? Ah, is that you, <CHARNAME>?~
+-	IF ~~ THEN REPLY ~It is I, Cernd. I hope you will forgive me my mistake? You don't believe that I meant to kill you, do you?~ GOTO Kelem1
+-	IF ~~ THEN REPLY ~Ah, druid... your wisdom failed you, it did not show you the way! Now all are dead including my sir Keldorn.~ GOTO Kelem1
++  SAY @2
++	IF ~~ THEN REPLY @3 GOTO Kelem1
++	IF ~~ THEN REPLY @4 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-  SAY ~No, I don't, but from here on you must strive to maintain balance in yourself, <CHARNAME>.~
++  SAY @5
+ 	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0

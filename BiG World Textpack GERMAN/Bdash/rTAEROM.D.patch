@@ -1,0 +1,16 @@
+--- Bdash\BG1\rTAEROM.D	Wed Apr 06 13:15:41 2005
++++ C:\BWP Patchstudio\patched files\Bdash\BG1\rTAEROM.D	Wed May 04 07:21:27 2016
+@@ -1,11 +1,11 @@
+ REPLACE ~TAEROM~
+ 
+ IF ~~ THEN BEGIN 1 // from: 12.0 4.1 2.0 0.1
+-  SAY ~Ahhh, this will make a fine suit of plate for a governor or better.  Nobility like exotic materials, and don't care much about the price.  Probably close to 20,000 gold for a tenday's work when I'm finished.  I may survive this iron shortage after all.~ /* #180 */
++  SAY @0 /* #180 */
+   IF ~~ THEN DO ~TakePartyItemAll("MISC12")
+ GiveGoldForce(500)
+ SetGlobal("MakeArmor","GLOBAL",2)
+-~ JOURNAL ~Today I sold that ankheg shell I found for 500 gold!  It's a fortune!~ /* #5835 */ EXIT
++~ JOURNAL @1 /* #5835 */ EXIT
+ END
+ 
+ END

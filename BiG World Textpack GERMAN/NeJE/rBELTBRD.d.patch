@@ -1,0 +1,11 @@
+--- NeJE\bdash\BGTComp\trans\rBELTBRD.d	Mon Aug 24 01:53:26 2015
++++ C:\BWP Patchstudio\patched files\NeJE\bdash\BGTComp\trans\rBELTBRD.d	Tue Apr 09 19:38:05 2019
+@@ -1,7 +1,7 @@
+ REPLACE ~BELTBRD~
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Good luck, and safe journeys.~
++  SAY @0
+   IF ~~ THEN DO ~TakePartyItemAll("SCRL2J")
+ TakePartyItemAll("SCRL2K")
+ TakePartyItemAll("SCRL2L")

@@ -1,0 +1,390 @@
+--- NeJ\Dfiles\DYXUN.D	Sun Feb 12 23:16:52 2006
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DYXUN.D	Wed Apr 10 10:24:22 2019
+@@ -2,280 +2,256 @@
+ 
+ IF ~True()
+ ~ THEN BEGIN 0
+-  SAY ~So.  It has come to this, has it?  I did not expect a group of natives to interfere with my vendetta.  Why have you come here, killing my minions?~ [YXUN_01]
+-  IF ~~ THEN REPLY ~Minions?  You mean the snake people?~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about her minions.  She told us that they were yuan-ti, and that they would inherit her "kingdom" when she concluded her business and left.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 1
+-  IF ~~ THEN REPLY ~What vendetta do you speak of?~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about the vendetta, but she told us our involvement in the matter was irrelevant.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 2
+-  IF ~~ THEN REPLY ~Do you know of the Heartstone Gem?~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We asked her about the Heartstone Gem.  She told us that she needed it for a war she was waging.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 3
+-  IF ~~ THEN REPLY ~I came here to kill your children because they were swiping people from Kuldahar.~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We told her that we came to Dragon‘s Eye because her servants were abducting people from Kuldahar.  She then said something cryptic about using the villagers in a recipe for an old friend and curdling the milk of her enemy‘s labor.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 5
+-  IF ~~ THEN REPLY ~I came here because I know you‘re the one responsible for everything going on in the pass.  The abductions.  The strange weather.  The undead in the vale.  The avalanche.  You‘re behind it all.~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We confronted her about all of the evil happening in the pass.  She told us that we didn‘t know what we were talking about.  We asked her about the Heartstone Gem, and she told us that we couldn‘t have it.  She needed it for her own goals.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 7
+-  IF ~~ THEN REPLY ~I came here to rip the Heartstone Gem from your cold, dead, hands.~ JOURNAL ~Finding the Heartstone Gem.
+-  
+-We met Yxunomei in the heart of Dragon‘s Eye.  She was surprised that we were there, interfering with her "vendetta".  We had no desire to mince words with her, so we told her we were going to rip the Heartstone Gem from her cold, dead, scaly hands.  She promptly attacked us.~ DO ~EraseJournalEntry(%Search for the Heartstone Gem.
+-
+-We penetrated the inner sanctum of the Temple of the Forgotten God only to find that someone had gotten their before us. The pedestal that, presumably, had once held the artifact was empty. Bodies lay strewn about the chamber, indicating that the acolytes and their verbeeg guardians had put up fight in the defense of the gem. Among the bodies was the corpse of man garbed in the vestments of a priest of Talona. It is difficult to say what part he might have played in the battle or the resulting theft. Perhaps we should return to Arundel and see what sense he can make of all this.%)~ GOTO 8
++  SAY @0 
++  IF ~~ THEN REPLY @1 JOURNAL @2 DO ~EraseJournalEntry(@3)~ GOTO 1
++  IF ~~ THEN REPLY @4 JOURNAL @5 DO ~EraseJournalEntry(@3)~ GOTO 2
++  IF ~~ THEN REPLY @6 JOURNAL @7 DO ~EraseJournalEntry(@3)~ GOTO 3
++  IF ~~ THEN REPLY @8 JOURNAL @9 DO ~EraseJournalEntry(@3)~ GOTO 5
++  IF ~~ THEN REPLY @10 JOURNAL @11 DO ~EraseJournalEntry(@3)~ GOTO 7
++  IF ~~ THEN REPLY @12 JOURNAL @13 DO ~EraseJournalEntry(@3)~ GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~They are not "snake people," you ignorant pig.  They are yuan-ti, faithful servants and worthy heirs to the kingdom I shall leave behind once my business is finished.~ [YXUN_02]
+-  IF ~~ THEN REPLY ~Business?  What business is that?~ GOTO 2
+-  IF ~~ THEN REPLY ~Why are you bothering to build up a kingdom if you're only going to leave it behind?~ GOTO 9
++  SAY @14 
++  IF ~~ THEN REPLY @15 GOTO 2
++  IF ~~ THEN REPLY @16 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~My vendetta is none of your concern.  Your involvement in this matter is irrelevant in the grand scheme of things, a mote of dust floating for a moment in a sea of time.~ [YXUN_03]
+-  IF ~~ THEN REPLY ~But... I can help you.~ GOTO 10
++  SAY @17 
++  IF ~~ THEN REPLY @18 GOTO 10
+   IF ~Race(Player1,ELF)
+-~ THEN REPLY ~You're underestimating my lifespan by a great deal.  My people can live for hundreds of years.~ GOTO 11
+-  IF ~~ THEN REPLY ~You're right, oh mighty one.  But... aren't we all really just motes of dust floating in a sea of time?~ GOTO 13
+-  IF ~~ THEN REPLY ~Why did you steal the Heartstone Gem?~ GOTO 3
++~ THEN REPLY @19 GOTO 11
++  IF ~~ THEN REPLY @20 GOTO 13
++  IF ~~ THEN REPLY @21 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~My interest in the Heartstone Gem is personal.  I have been waging a war for quite some time.  ~ [YXUN_04]
++  SAY @22 
+   IF ~~ THEN GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~This world is simply another battlefield.  The gem is one of several instruments I use to fight my battles.~ [YXUN_05]
+-  IF ~~ THEN REPLY ~So... what is this battle all about, anyway?~ GOTO 15
+-  IF ~~ THEN REPLY ~Is that why you need the Heartstone Gem?~ GOTO 16
+-  IF ~~ THEN REPLY ~Who, or what, are you?~ GOTO 18
++  SAY @23 
++  IF ~~ THEN REPLY @24 GOTO 15
++  IF ~~ THEN REPLY @25 GOTO 16
++  IF ~~ THEN REPLY @26 GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I have no use for your silly notions of nobility.  The beings from Kuldahar were necessary ingredients in my recipe for victory.~ [YXUN_06]
++  SAY @27 
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~I am cooking a special dish for an old friend.  It's served with a saucer called "death," curdling the milk of my enemy's labor.~ [YXUN_07]
+-  IF ~~ THEN REPLY ~Uh... what are you talking about?  You are really strange.~ GOTO 19
+-  IF ~~ THEN REPLY ~Is that why you need the Heartstone Gem?~ GOTO 16
+-  IF ~~ THEN REPLY ~Who is this "old friend?"  It sounds like you have a grudge with him.~ GOTO 2
++  SAY @28 
++  IF ~~ THEN REPLY @29 GOTO 19
++  IF ~~ THEN REPLY @25 GOTO 16
++  IF ~~ THEN REPLY @30 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~You do not know what you are talking about.  Your attempts to comprehend the events unfolding around you are comical at best.~ [YXUN_08]
+-  IF ~~ THEN REPLY ~Whatever.  Just hand over the Heartstone Gem and I'll be on my way.~ GOTO 21
+-  IF ~~ THEN REPLY ~Then why do you need the Heartstone Gem?~ GOTO 3
++  SAY @31 
++  IF ~~ THEN REPLY @32 GOTO 21
++  IF ~~ THEN REPLY @33 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~The natives of this world have such simple motivations.  Very well.  I will indulge you.~ [YXUN_09]
++  SAY @34 
+   IF ~~ THEN DO ~SetGlobal("KULDAHAR_ATTACK","GLOBAL",1)
+ Enemy()
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~Kingdoms need kings.  I have no desire to fill that role here.  My job is simply to seek out my old enemy and sow maleficent seeds in the soil of this dying world.~ [YXUN_10]
+-  IF ~~ THEN REPLY ~"Maleficent seeds?"  What do you mean?~ GOTO 23
+-  IF ~~ THEN REPLY ~Why do you say that our world is dying?~ GOTO 25
+-  IF ~~ THEN REPLY ~Who are you to do these things?~ GOTO 18
+-  IF ~~ THEN REPLY ~Who is your old enemy?~ GOTO 2
++  SAY @35 
++  IF ~~ THEN REPLY @36 GOTO 23
++  IF ~~ THEN REPLY @37 GOTO 25
++  IF ~~ THEN REPLY @38 GOTO 18
++  IF ~~ THEN REPLY @39 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~I do not believe so.  The forces at work here are factories of truth so foreign to your understanding that if you attempted to observe the machine in its entirety, it would burn your fragile mind into vapor.~ [YXUN_11]
+-  IF ~~ THEN REPLY ~Is that your fancy way of saying, "You can't handle the truth?"~ GOTO 27
+-  IF ~~ THEN REPLY ~I don't know about that.  I'm pretty evil.~ GOTO 28
++  SAY @40 
++  IF ~~ THEN REPLY @41 GOTO 27
++  IF ~~ THEN REPLY @42 GOTO 28
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~Oh, my.  Hundreds of years.  You must feel very proud to be able to leap out of the primordial ooze of godly creation, gasp for a moment in the air, and lie on the shore in the belief that you won't die like all the other fish.~ [YXUN_12]
++  SAY @43 
+   IF ~~ THEN GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~All the while, elephants of stone stomp on these celestial shores and *you,* in your blindness, take no note.~ [YXUN_13]
+-  IF ~~ THEN REPLY ~I'll take that to mean that you're more than a few hundred years old.~ GOTO 29
+-  IF ~~ THEN REPLY ~Sure, sure.  So, uh... what about the Heartstone Gem?~ GOTO 16
++  SAY @44 
++  IF ~~ THEN REPLY @45 GOTO 29
++  IF ~~ THEN REPLY @46 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~No.  You are one of many fireflies dancing for a moment in the night, feeling at your brightest that you can illuminate the universe at will.  *I* am a star.  ~ [YXUN_14]
++  SAY @47 
+   IF ~~ THEN GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~I came into existence when your world took form.  I am as persistent as time.  Where I move, infernal tides crush foreign shores and nations of thought are drowned in blood.~ [YXUN_15]
+-  IF ~~ THEN REPLY ~Whoa.~ GOTO 30
+-  IF ~~ THEN REPLY ~My oh my, don't we feel important?~ GOTO 29
+-  IF ~~ THEN REPLY ~Why does someone as powerful as you need the Heartstone Gem?~ GOTO 16
++  SAY @48 
++  IF ~~ THEN REPLY @49 GOTO 30
++  IF ~~ THEN REPLY @50 GOTO 29
++  IF ~~ THEN REPLY @51 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~It is a war of principles.  It is a campaign waged on behalf of fundamental truths, oceans of belief wearing away at basalt pillars of understanding that have held up the simple religions and philosophies of worlds like this for millennia.~ [YXUN_16]
+-  IF ~~ THEN REPLY ~So, you're trying to tell me that all of the things I believe in are going to come tumbling down someday because of this secret war that you're fighting?~ GOTO 31
+-  IF ~~ THEN REPLY ~And the Heartstone Gem, how does it fit into all of this?~ GOTO 16
+-  IF ~~ THEN REPLY ~Of what principles are you speaking?~ GOTO 32
++  SAY @52 
++  IF ~~ THEN REPLY @53 GOTO 31
++  IF ~~ THEN REPLY @54 GOTO 16
++  IF ~~ THEN REPLY @55 GOTO 32
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~The Gem is an item with incredible powers of divination.  Only those with special relationships with the natural or supernatural may use it.~ [YXUN_17]
++  SAY @56 
+   IF ~~ THEN GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~It gives sight beyond sight, even penetrating physical and magical barriers in its revelations.  I am not using it to cover up my affairs.  I am using it for personal reasons.~ [YXUN_18]
+-  IF ~~ THEN REPLY ~Sorry.  We need that gem.  Hand it over.~ GOTO 21
+-  IF ~~ THEN REPLY ~There's a problem.  The gem could help us provide warmth for Kuldahar and prevent the cold from killing everyone in the town.  The people of that town need the gem more than you do.~ GOTO 21
++  SAY @57 
++  IF ~~ THEN REPLY @58 GOTO 21
++  IF ~~ THEN REPLY @59 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~I am Yxunomei.  I am a soldier.~ [YXUN_19]
+-  IF ~~ THEN REPLY ~Okay.  So, why does a soldier need the Heartstone Gem?~ GOTO 16
+-  IF ~~ THEN REPLY ~You certainly don't look like a soldier.~ GOTO 34
+-  IF ~~ THEN REPLY ~Do soldiers typically kill women and children where you are from?~ GOTO 35
++  SAY @60 
++  IF ~~ THEN REPLY @61 GOTO 16
++  IF ~~ THEN REPLY @62 GOTO 34
++  IF ~~ THEN REPLY @63 GOTO 35
+ END
+ 
+ IF ~~ THEN BEGIN 19
+-  SAY ~If I felt I were doing something wrong, I would apologize.  Your mind cannot understand the heart of the matters I speak of.  ~ [YXUN_20]
++  SAY @64 
+   IF ~~ THEN GOTO 20
+ END
+ 
+ IF ~~ THEN BEGIN 20
+-  SAY ~Every once in a while, people in your world gain glimpses into mine.  They hear voices on the wind, carrying songs mumbled by bloody tongues in the sweet language of pain.  You call them madmen.  You should recognize them as prophets.~ [YXUN_21]
+-  IF ~~ THEN REPLY ~Yeah, yeah, yeah.  Madmen.  I got it.  So, do you think my mind would explode if you told me what you're doing with the Heartstone Gem?~ GOTO 16
+-  IF ~~ THEN REPLY ~And what are these prophets hearing that makes them go mad?  It sounds like you're waging some kind of war.~ GOTO 15
++  SAY @65 
++  IF ~~ THEN REPLY @66 GOTO 16
++  IF ~~ THEN REPLY @67 GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~You cannot have it.  It is mine.  When I am finished with it, my faithful servants will have it.~ [YXUN_22]
++  SAY @68 
+   IF ~~ THEN GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 22
+-  SAY ~If they fail in their plans, simply take it from them.  I have little patience when it comes to... incompetence.~ [YXUN_23]
+-  IF ~~ THEN REPLY ~You're really starting to annoy me.  Hand over the gem or there'll be trouble.~ GOTO 38
+-  IF ~~ THEN REPLY ~I like your attitude, but I'm afraid I'm going to have to insist that you give me the gem.~ GOTO 38
+-  IF ~~ THEN REPLY ~Well, okay.  I tried.  Farewell.~ GOTO 39
++  SAY @69 
++  IF ~~ THEN REPLY @70 GOTO 38
++  IF ~~ THEN REPLY @71 GOTO 38
++  IF ~~ THEN REPLY @72 GOTO 39
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~I am a soldier by day, a farmer by night.  The harvest of dead souls provides nutrition for my nation's war.~ [YXUN_24]
++  SAY @73 
+   IF ~~ THEN GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~Long after I am gone, I will cradle black wheat in my homeland, grinding it down in the mill of conquest.~ [YXUN_25]
+-  IF ~~ THEN REPLY ~Whoa.~ GOTO 30
+-  IF ~~ THEN REPLY ~What does this have to do with the Heartstone Gem?~ GOTO 3
++  SAY @74 
++  IF ~~ THEN REPLY @49 GOTO 30
++  IF ~~ THEN REPLY @75 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~I say that your world is dying because it is living.  All things that live must die.  I can see the patterns of life and death in every mouse and rock I come across in this realm.~ [YXUN_26]
++  SAY @76 
+   IF ~~ THEN GOTO 26
+ END
+ 
+ IF ~~ THEN BEGIN 26
+-  SAY ~The lifeblood of your world is being eaten by those who would rather spin energy into entropy than channel it.  It is only a matter of time.~ [YXUN_27]
+-  IF ~~ THEN REPLY ~Great.  I didn't think I'd have to start stockpiling resources this early in life.~ GOTO 41
+-  IF ~~ THEN REPLY ~Sure it is.  Nice try, crazy lady.  Why did you steal the Heartstone Gem?~ GOTO 16
++  SAY @77 
++  IF ~~ THEN REPLY @78 GOTO 41
++  IF ~~ THEN REPLY @79 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 27
+-  SAY ~If I must put it in crude terms, then, yes, you are correct.~ [YXUN_28]
+-  IF ~~ THEN REPLY ~So how does the Heartstone Gem fit into all of this?~ GOTO 3
++  SAY @80 
++  IF ~~ THEN REPLY @81 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 28
+-  SAY ~Your loose grasp on morality is a good example of your total inability to understand the nature of the universe around you.~ [YXUN_29]
+-  IF ~~ THEN REPLY ~Fine.  You think I'm an idiot.  That's great.  Now, about the Heartstone Gem.  How does it fit into all of this?~ GOTO 3
+-  IF ~~ THEN REPLY ~Well, maybe if you didn't explain it like you were reciting bad poetry, I would have an easier time understanding you.~ GOTO 19
++  SAY @82 
++  IF ~~ THEN REPLY @83 GOTO 3
++  IF ~~ THEN REPLY @84 GOTO 19
+ END
+ 
+ IF ~~ THEN BEGIN 29
+-  SAY ~Quite.~ [YXUN_30]
+-  IF ~~ THEN REPLY ~Okay.  So, about the Heartstone Gem...~ GOTO 16
+-  IF ~~ THEN REPLY ~Who, or what, are you?~ GOTO 18
++  SAY @85 
++  IF ~~ THEN REPLY @86 GOTO 16
++  IF ~~ THEN REPLY @26 GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 30
+-  SAY ~Indeed.~ [YXUN_31]
+-  IF ~~ THEN REPLY ~Okay.  So, about the Heartstone Gem...~ GOTO 16
+-  IF ~~ THEN REPLY ~Who, or what, are you?~ GOTO 18
++  SAY @87 
++  IF ~~ THEN REPLY @86 GOTO 16
++  IF ~~ THEN REPLY @26 GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 31
+-  SAY ~Yes.~ [YXUN_32]
+-  IF ~~ THEN REPLY ~One minute you're spouting verse and the next minute you're dead quiet.  Would you mind elaborating on that a bit?~ GOTO 19
+-  IF ~~ THEN REPLY ~Okay.  If you don't want to talk about it, we don't have to.  I wouldn't mind knowing what you're doing with the Heartstone Gem, though.~ GOTO 16
++  SAY @88 
++  IF ~~ THEN REPLY @89 GOTO 19
++  IF ~~ THEN REPLY @90 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 32
+-  SAY ~Freedom and order.  On the surface, one of your kind believes that these two principles can co-exist without conflict.  ~ [YXUN_33]
++  SAY @91 
+   IF ~~ THEN GOTO 33
+ END
+ 
+ IF ~~ THEN BEGIN 33
+-  SAY ~When one scratches the surface, your skin bleeds philosophy.  When one gnaws down to the bone, one finds me.~ [YXUN_34]
+-  IF ~~ THEN REPLY ~Okay.  What does this have to do with the Heartstone Gem?~ GOTO 16
++  SAY @92 
++  IF ~~ THEN REPLY @93 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 34
+-  SAY ~People on this world are hesitant to attack beings in this form.  It causes some sort of emotional pain to do so.  That's why I have chosen it.~ [YXUN_35]
+-  IF ~~ THEN REPLY ~Do soldiers typically kill women and children where you are from?~ GOTO 35
+-  IF ~~ THEN REPLY ~What does this have to do with the Heartstone Gem?~ GOTO 16
++  SAY @94 
++  IF ~~ THEN REPLY @63 GOTO 35
++  IF ~~ THEN REPLY @75 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 35
+-  SAY ~The concepts of male and female, child and adult, are not only absent from my home, but completely irrelevant in warfare.  ~ [YXUN_36]
++  SAY @95 
+   IF ~~ THEN GOTO 36
+ END
+ 
+ IF ~~ THEN BEGIN 36
+-  SAY ~I care not about physical shells.  Souls are the meat of my existence.  They are the light that filters down to my eyes under a sea of entropy.~ [YXUN_37]
+-  IF ~~ THEN REPLY ~Neat.~ GOTO 37
+-  IF ~~ THEN REPLY ~What does this have to do with the Heartstone Gem?~ GOTO 16
++  SAY @96 
++  IF ~~ THEN REPLY @97 GOTO 37
++  IF ~~ THEN REPLY @75 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 37
+-  SAY ~Indeed.~ [YXUN_38]
+-  IF ~~ THEN REPLY ~Okay.  So, about the Heartstone Gem...~ GOTO 16
++  SAY @87 
++  IF ~~ THEN REPLY @86 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 38
+-  SAY ~You have just destroyed a good portion of my army and are now demanding that I hand over more resources to you.  I believe I will be doing the taking now.  Pray that your souls are prepared.~ [YXUN_39]
++  SAY @99 
+   IF ~~ THEN DO ~SetGlobal("KULDAHAR_ATTACK","GLOBAL",1)
+ Enemy()
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 39
+-  SAY ~You are not leaving.  I am going to take some small satisfaction in making you *pay* for your damage to my plans.  ~ [YXUN_40]
++  SAY @100 
+   IF ~~ THEN GOTO 40
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~Pray that your souls are prepared.  If they are not, you will serve my inferiors presently.~ [YXUN_41]
++  SAY @101 
+   IF ~~ THEN DO ~SetGlobal("KULDAHAR_ATTACK","GLOBAL",1)
+ Enemy()
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~I do not believe you need to be worrying about your long-term plans right now.  You have more pressing concerns at this moment.~ [YXUN_42]
+-  IF ~~ THEN REPLY ~Sure... like the Heartstone Gem.  Would you mind telling me what you're doing with it?~ GOTO 16
+-  IF ~~ THEN REPLY ~Who are you to be telling me my business?~ GOTO 18
++  SAY @102 
++  IF ~~ THEN REPLY @103 GOTO 16
++  IF ~~ THEN REPLY @104 GOTO 18
+ END

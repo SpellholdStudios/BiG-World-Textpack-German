@@ -1,0 +1,115 @@
+@0 = ~Bedauerlicherweise seid Ihr ein größerer Dummkopf, als ich dachte, <CHARNAME>. Aber meine Dankbarkeit lebt länger als Eure Toleranz. Lebt wohl!~
+@1 = ~<CHARNAME>! Ich fühlte den plötzlichen Drang, noch einmal mit Euch zu sprechen. Es ist unwahrscheinlich, dass wir uns wieder auf dieser Ebene treffen werden.~
+@2 = ~Vergebt mir, ich wollte Eure außergewöhnliche Tapferkeit nicht geringschätzen, indem ich einem sicheren Tod ausweiche, und wir alle sind Euch und Euren Begleitern für Eure heroischen Taten im Auftrag Suldanesselars zu Dank verpflichtet.~
+@3 = ~Aber Euer Schicksal ist dunkel und gefährlich. Euer göttlicher Vater ist so anders als meiner... Als Ihr heute bereit wart, abzureisen, begriff ich plötzlich: ich würde mir nie verzeihen, wenn ich Euch weggehen ließe, ohne diese letzte Frage zu stellen.~
+@4 = ~Es ist immer ein Vergnügen, Eurer süßen Stimme zuzuhören, Königin Ellesime. Wie kann ich Euch behilflich sein, meine Dame?~
+@5 = ~Wir verbrachten bereits zu viel Zeit damit, die Angelegenheit zu besprechen, Ellesime, und ich war mit Eurer Rolle darin nie glücklich, mit Entschuldigungen oder ohne. Es gibt nichts mehr zu sagen.~
+@6 = ~Ich nehme an, dass es mich nicht verletzen wird, es noch einmal zu hören, "Erhabenheit". (Achselzucken) Was ist es jetzt?~
+@7 = ~Ihr seid ein herzloses Weibsstück, Ellesime, und ich habe nichts mit jemandem wie Euch zu besprechen. Geht und küsst eine Kröte, und vielleicht wird sie sich in einen passenden Gemahl verwandeln, obwohl keine armselige Amphibie solch ein Schicksal verdient.~
+@8 = ~Sicherlich, Ellesime. Es muss etwas von "größter Wichtigkeit" sein, wenn Ihr mich den ganzen Weg von Suldanesselar aus beschattet.~
+@9 = ~Spuckt es aus, und damit sei es erledigt, Ihr kleiner hochnäsiger Umweltschützer. Es juckt mir in den Füßen, von diesem verfluchten Ort wegzukommen. Diese Statuen sehen mehr nach lebenden Toten aus als große Könige der Elfen-Sippe. Kein Wunder, das Irenicus so scharf darauf war, den Ort zu beseitigen!~
+@10 = ~Königin Ellesime, Eure Gastfreundschaft und Eure Geschenke waren Vergeltung genug für Irenicus Verbrechen gegen mich und meine Freunde. Wie kann ich Euch wieder zu Diensten sein?~
+@11 = ~Ihr habt den Elfen meiner Stadt einen großen Dienst  erwiesen, und ich belohnte Euch im Rahmen meiner beschränkten Möglichkeiten, <CHARNAME>. Und doch habt Ihr keinerlei Rücksicht auf unsere Sitten und Traditionen gezeigt.~
+@12 = ~Ich fürchte, wir werden niemals eine Gemeinsamkeit finden. Ich machte einen Fehler, indem ich Euch folgte. Akzeptiert bitte noch einmal meine Entschuldigungen und lebt wohl.~
+@13 = ~Ich muss zugeben, Ihr weckt meine Neugierde, "Schwester". Was veranlasst die stolze Königin der Elfen und Tochter "der Großen Eiche", hinter einer bloßen Ausgeburt des menschlichen Gottes des Mords herzulaufen, wenn sie einfach jemanden hätte schicken können, um <HIMHER> zurückzuholen? Nun, da Ihr so weit gegangen seid, warum macht Ihr nicht den letzten winzigen Schritt und stellt Eure Frage?~
+@14 = ~Ich habe keine Geduld für Eure Mätzchen, Ellesime. Lebt wohl jetzt!~
+@15 = ~Ein sonderbares Treffen.
+
+Ich dachte, dass ich allein im Wald wäre, beobachtet nur von den alten steinernen Götterbildern - den Wächtern von Suldanesselar. Und doch irrte ich mich. Ellesime folgte mir den ganzen Weg von der Stadt aus. Es war ein seltsames Gespräch, zu flüchtig für mich, um irgendeinen Einblick in ihre gegenwärtigen oder vergangenen Gefühle zu gewinnen, aber alleine die Tatsache, dass es stattfand, ist bemerkenswert...~
+@16 = ~Meine Dankbarkeit lebt länger als Eure Toleranz, <CHARNAME>. Und selbst wenn es Euch wirklich beträchtlich an Manieren mangelt, ist Eure einfache Art "bezaubernd".~
+@17 = ~Ich entschuldige mich für meinen Freimut, Erhabenheit. Mein Charakter lässt mich manchmal vorschnell handeln, und Eure rücksichtslose Art, über Irenicus zu urteilen und die ganzen Katastrophe mit dem Verlust meiner Seele zu verursachen, gab mir viele Gründe, zynisch zu sein. Wie war Eure Frage noch einmal?~
+@18 = ~Nennt Ihr mich zufällig dumm? Das einzige, das mich daran hindert, Euch diese Worte mit Eurer widerlichen Spucke schlucken zu lassen, ist der Mangel an Zeit, nicht meine "guten Manieren". Lebt wohl, Ihr boshafte kleine Königin der toten Stadt.~
+@19 = ~Wirklich? Und ich dachte, dass ich mich wie ein völliger Idiot benahm. Wer hätte erwartet, dass Ihr das verlockend finden könntet.~
+@20 = ~Wenn Ihr noch Eure Frage stellen wollt, ist das Eure letzte Chance, Ellesime.~
+@21 = ~Ich wusste, dass Ihr unser wahrer Verwandter seid, <CHARNAME>! Und ich bin froh, dass ich mich nicht in Euch täuschte, obwohl Elhan mich oft ermahnt hat, Euch, mein lieber <PRO_RACE>, nicht zu vertrauen.~ ~Ich wusste, dass Ihr unsere wahrere Verwandte seid, <CHARNAME>! Und ich bin froh, dass ich mich nicht in Euch täuschte, obwohl Elhan mich oft ermahnt hat, Euch, mein lieber <PRO_RACE>, nicht zu vertrauen.~
+@22 = ~Ich wusste, dass Ihr in Eurem Herzen ein wahrer Elfen-Freund seid, <CHARNAME>! Und ich bin froh, dass ich mich nicht in Euch täuschte, obwohl Elhan mich oft ermahnt hat, Euch, mein lieber <PRO_RACE>, nicht zu vertrauen.~ ~Ich wusste, dass Ihr in Eurem Herzen eine wahre Elfen-Freundin seid, <CHARNAME>! Und ich bin froh, dass ich mich nicht in Euch täuschte, obwohl Elhan mich oft ermahnt hat, Euch, mein lieber <PRO_RACE>, nicht zu vertrauen.~
+@23 = ~Aber ich fürchte, dass ich Eure Güte ausnutze. Meine Frage erscheint schließlich nicht so wichtig.~
+@24 = ~Erscheint nicht wichtig? Aber, Ellesime, Ihr seid mir heimlich von den Toren der Stadt aus bis in das Ältere Wäldchen gefolgt. Sicher habt Ihr genug Mut, sie jetzt zu stellen, meine Königin? Ich bin ganz Ohr.~
+@25 = ~Ich sollte meine Nase nicht in Eure Geheimnisse reinstecken, Ellesime. Und doch ist die Wißbegierde der Frau ein erstaunliches Wesen, lustigerweise ähnlich dem einer Katze. Da Ihr unsterblich seid, werdet Ihr eine Ewigkeit haben, um diese verpasste Gelegenheit zu bedauern.~
+@26 = ~Ich nehme an, dass Ihr besser wisst, ob das wichtig ist oder nicht, Eure Erhabenheit. Ich wünsche Euch Erfolg beim Wiederaufbau Eurer schönen Stadt. Auf Wiedersehen und viel Glück.~
+@27 = ~Nein, nein. Es war ein Hirngespinst und ein frivoles Spiel der müßigen Gedanken, <CHARNAME>. Lebt wohl.~
+@28 = ~Lebt wohl.~
+@29 = ~Ein sonderbares Treffen.
+
+Ich dachte, dass ich allein im Wald wäre, beobachtet nur von den alten steinernen Götterbildern - den Wächtern von Suldanesselar. Und doch irrte ich mich. Ellesime folgte mir den ganzen Weg von der Stadt aus. Es war ein seltsames Gespräch, zu flüchtig für mich, um irgendeinen Einblick in ihre gegenwärtigen oder vergangenen Gefühle zu gewinnen, aber alleine die Tatsache, dass es stattfand, ist bemerkenswert...~
+@30 = ~Seltsamerweise macht mir Eure arge Unverschämtheit Mut, <CHARNAME>. Ich muss es einfach wissen. Ihr habt Joneleth... Jon mit Euren eigenen Händen getötet, nicht wahr?~
+@31 = ~Nicht einmal, sondern zweimal, wie ich später erfuhr. Hier im Wald von Suldanesselar hattet Ihr seine sterbliche Hülle besiegt; und dann musstet Ihr wieder mit ihm kämpfen, als Eurer fliehenden Seele in den wahren Abyss folgtet.~
+@32 = ~Ja, ich tötete Euren tückischen Geliebten zweimal, Ellesime. Das ist kaum etwas, das Ihr nicht bereits wusstet. Ich besiegte Irenicus in seinem elenden materiellen Avatar, und später in seiner geistigen Erscheinung. Und ich werde es bei sich bietender Gelegenheit wieder tun!~
+@33 = ~Ja, meine Königin. Das war tatsächlich der Fall. Gibt es irgend etwas anderes, was Ihr wissen möchtet?~
+@34 = ~Genau. Wir haben dies oft zuvor durchgekaut, "Königin Ellesime". Was ist jetzt noch?~
+@35 = ~Wie war es? Ich meine... Ich sah Euren ersten Kampf durch die Krone des Baums des Lebens wüten und zur Verwüstung beitragen, die Joneleth ihm bereits zugefügt hatte.~
+@36 = ~Ihr wisst, in meinem Herzen konnte ich ehrlicherweise nicht über Euren Sieg jubeln, <CHARNAME>, selbst als ich wusste, dass Euer Misserfolg Suldanesselars Untergang bedeutet hätte. Ich war mir meines eigenen Schicksals nicht sicher... aber das ist eine Sache, die ich nicht mit Euch besprechen möchte.~
+@37 = ~Während Eures ganzen Aufenthaltes in der Stadt wagte ich nie, Euch nach diesem letzten Kampf in der Hölle zu fragen, Bhaalkind. Erzählt mir bitte von seinen letzten Momenten. Empfand Jon etwas anderes Euch gegenüber am Rande des Misserfolgs und der ewigen Verdammung?~
+@38 = ~Versuchte er... zu bereuen und um Vergebung zu bitten?~
+@39 = ~Sprechen wir hier von demselben Mann, Ellesime? Ihr solltet ihn inzwischen besser kennen. Bedauern? Es ist Irenicus, über den wir sprechen! Irenicus und sein verdammter Stolz. Würde er jemals den Schwanz einziehen und beim Anblick der Gefahr davonlaufen?~
+@40 = ~Ihr solltet Euren ehemaligen Verehrer besser kennen, Ellesime. Erschien er Euch jemals als ein Typ, der sich vor einer Herausforderung drücken und kurz vor dem Tod und der Verdammung um Milde bitten würde?~
+@41 = ~Ich denke nicht, dass er überhaupt das Verlangen nach Wiedergutmachung verspüren konnte, Ellesime. Jon hatte keine Seele und daher keine Sehnsucht nach Sittlichkeit. Denkt Ihr, dass jemand ohne Vorstellung von Gut und Böse plötzlich Gewissensbisse fühlen würde?~
+@42 = ~Nein, ich nehme an, dass er es nicht würde.~
+@43 = ~Er blieb bis zum Schluss aufsässig, Ellesime. Die letzten Momente seiner verdammten Existenz waren ziemlich grauenhaft. Er versuchte, mich mit all seinen Mitteln zu verletzen, selbst als er zum letzten Mal starb. Seine Diener der Abyss bereiteten mir einen höllischen Kampf. Aber es half ihm am Ende nicht. Ich siegte, wie ich es immer tue.~
+@44 = ~Ich erinnere mich noch an seinen Ausdruck, *nachdem* ich ihn meiner Seele beraubte, und seine dämonischen Günstlinge sich plötzlich gegen ihn richteten... Es war ein schrecklicher Anblick. Als ich ihn ins kochende Lavameer fallen sah, bedauerte ich ihn für einen Bruchteil einer Sekunde fast.~
+@45 = ~Ja, ich habe ihn in die tiefste Grube der Abyss verbannt, wo er für alle Ewigkeit bleiben wird, um für seine Sünden zu zahlen. Eine Schande, wirklich. Er war solch ein ausgezeichnetes Instrument des Terrors und der Vernichtung. Ich wünschte, dass wir eine Art Geschäft abgeschlossen hätten.~
+@46 = ~Ihr habt am Ende triumphiert, <CHARNAME>, und das ist alles, was von Bedeutung ist. Aber ich bin froh, dass ich gefragt habe. Der letzte Funken eines Zweifels, den ich an der Richtigkeit von Jons Strafe hatte, ist weg. Es war meine Entscheidung als Herrscherin dieser Stadt, nicht seiner benachteiligten Geliebten, die Seldarine für seine Trennung vom Elfen-Geist zu ersuchen.~
+@47 = ~Ich bin jetzt überzeugt, so wie ich es damals war, dass ich die richtige Entscheidung getroffen hatte. Ich danke Euch vielmals, mein guter <PRO_RACE>, und wünsche Euch alles Glück auf Euren Reisen.~
+@48 = ~Ein sonderbares Treffen.
+
+Ich dachte, dass ich allein im Wald wäre, beobachtet nur von den alten steinernen Götterbildern - den Wächtern von Suldanesselar. Und doch irrte ich mich. Ellesime folgte mir den ganzen Weg von der Stadt aus, nur mich noch einmal nach ihrem verstorben Geliebten und meinen schlimmsten Feind zu fragen... Irenicus! Ich wünschte, dass ich diesen verfluchten Namen nie gehört hätte, jedoch verfolgt mich dieser Magier sogar nach seinem endgültigen Eintauchen in den Abyss.
+
+Es war ein seltsames Gespräch, zu flüchtig für mich, um irgendeinen Einblick in ihre gegenwärtigen oder vergangenen Gefühle für ihn zu gewinnen, aber alleine die Tatsache, dass es stattfand, ist bemerkenswert...~
+@49 = ~Ihr saht Jon tiefer in den Abgrund fallen, <CHARNAME>? Aber ich dachte, dass er den "wahren Tod" nach dieser letzten Niederlage in der Hölle begrüßen und schließlich Frieden finden würde...~
+@50 = ~Ich werde Euch und Eure Wege nie verstehen, <CHARNAME>. Ihr sprecht so leicht von Eurer Verbündung mit Jon, die Art, wie er am Ende war, und dennoch habt Ihr Suldanesselar in der Zeit seiner Not gerettet. Irenicus war ein leibhaftiges Übel, aber einst, vor sehr langer Zeit, kannte ich ihn als einen anderen Mann. Ihr erwähntet, dass Ihr Jon tiefer in den Abgrund fallen saht?~
+@51 = ~So, er besteht noch auf eine verkehrte Art. Ich hätte es wissen sollen, dass er *so* beharrlich sein würde! Es ist fast nichts mehr von ihm übrig geblieben. Seine Seele hatte sich im Laufe der Jahrhunderte seiner Bestrafung geradezu in Nichts aufgelöst und sein Körper wird jetzt in meinen privaten Gärten begraben.~
+@52 = ~Seine Seele "geradezu aufgelöst"? Ich verstehe Euch nicht, Ellesime.~
+@53 = ~Es ist nahezu unmöglicher, sich so etwas vorzustellen...~
+@54 = ~Aber Ihr seid einer von uns. Ihr solltet im Stande sein, das zu verstehen.~ ~Aber Ihr seid eine von uns. Ihr solltet im Stande sein, das zu verstehen.~
+@55 = ~Und es ist schwer, die Vorstellung einem N'Tel'Quess zu erklären. Aber ich werde es versuchen.~
+@56 = ~Der Elfen Geist ist von Natur aus gemeinschaftlich, <CHARNAME>. Wenn er von ihm getrennt wird, verliert der unglückliche Elf nicht nur seine Unsterblichkeit, sondern auch die Verbindung zum gesammelten Bewusstsein der Leute, seine wahre Seele schrumpft und löst sich im Laufe der Zeit auf und lässt eine leere Hülle seiner selbst zurück, bar aller Gefühle und Empfindungen.~
+@57 = ~Und Ihr brachtet dies über Euren Geliebten im Sinne von "geistiger Hochachtung"?~
+@58 = ~Tatsächlich eine ausgezeichnete Strafe, seines Vergehens und Eurer königlichen Wut würdig.~
+@59 = ~Es schert mich nicht im Geringsten, was Ihr ihm antatet, aber es veranlasste ihn, ersatzweise meine eigene Seele zu stehlen.~
+@60 = ~Ihr versteht nicht, <CHARNAME>, ich hatte nie gewollt, dass dies geschieht! Joneleth sollte seine Lehre in Demut lernen, und als Königin musste ich dieses Opfer um des Friedens und der Stabilität willens bringen. Mein Thron und die Sicherheit von Suldanesselar wurden bedroht.~
+@61 = ~Abgesehen davon war es die einzige Art, wie ich ihn am Leben erhalten konnte. Die Leute... Nachdem Jon beinahe den Baum niederbrannte bei seinem ersten Versuch, ihm seine Mächte zu entziehen - hätten sie ihn in Stücke gerissen, wenn ich nicht diesen Urteilsspruch präsentiert hätte. Sein Gesicht und seine Hände wurden nahezu durch das Feuer zerstört, und doch lebte er... wenn Ihr es Leben nennen könnt.~
+@62 = ~Er sollte zu mir zurückkommen und um Heilung und Vergebung flehen! Ich hätte beides gerne gewährt, wenn er nur gefragt hätte.~
+@63 = ~Ja, ja, was auch immer.~
+@64 = ~War es so wichtig für Euch, dass er darum bitten würde? Vielleicht war es eine Vergeltung für Euren verwundeten Stolz und seinen Verrat?~
+@65 = ~Ihr habt offensichtlich seinen Charakter falsch beurteilt, Ellesime. Ich hätte nicht angenommen, dass ein Mann wie Jon für irgendetwas um Vergebung bitten würde.~
+@66 = ~Wie könnt Ihr so etwas sagen, <CHARNAME>! Ich... Ich liebte ihn, und er hatte seine Gier nach Macht statt der Liebe zu seiner Königin gewählt...~
+@67 = ~Statt seiner Lust nach Euch, wolltet Ihr sagen? Er ist kein Heiliger, Ellesime, aber Eure eigene Position klingt für mich noch schrecklich egoistisch. Ihr hättet ihn völlig töten sollen, anstatt ihn in der ewigen Verdammung verfaulen zu lassen.~
+@68 = ~"Der Spitzel, dessen Niedertracht nur seiner Unverfrorenheit gleich kam", wie der Barde einmal sagte. Ich kann die Wurzeln Eurer Wut verstehen, Ellesime, aber bittet mich nicht, Mitleid zu haben.~
+@69 = ~"Es tut mir Leid, meine Königin" - ist so ein einfacher Satz, aber ich hörte ihn nie aus Jons Mund. Nie! Er zog es vor, diese schreckliche Maske zu tragen, sein durch das Feuer entstelltes und durch sein schnelles Altern schwer gezeichnetes Gesicht dahinter zu verbergen, anstatt um Vergebung zu bitten.~
+@70 = ~Es war aufrichtig niederschmetternd, herauszufinden, dass er mich so sehr hasste. Und doch konnte ich ihn nicht mit der Maske in sein Grab bringen, und so trage ich sie noch bei mir, wohin auch immer ich gehe. <CHARNAME>, es ist *mein* Teil der Strafe.~
+@71 = ~Seine Maske? Kann ich einen Blick darauf werfen? In der Tat eine faszinierende Kuriosität und ein Gegenstand von seltener Macht, einer, den zu besitzen ich sehr wünschen würde.~
+@72 = ~Vielleicht wäre es eine gute Idee, wenn Ihr sie wegwerfen würdet, Ellesime Oder besser - zerstört sie einfach. Es ist nicht die Art sentimentalen Schmucks, den man bei sich behalten mag. Jon ist für Euch verloren, tragt es mit Fassung wie eine Königin, und damit fertig.~
+@73 = ~Ich bin nicht so schrecklich sentimental, Ellesime, ich kann sie Euch abnehmen, wenn Ihr es wünscht.~
+@74 = ~Ich denke, dass ich Eure Gefühle verstehe, Ellesime. Doch wie er selbst sagte, war seine Liebe zu Euch seit so vielen Jahren eine tote Sache... Vielleicht ist es ein guter Zeitpunkt, um ihn gehen zu lassen. Die Maske ist nur ein Symbol Eures und seines Leidens, nichts weiter. Verbrennt sie einfach.~
+@75 = ~Ich bin sprachlos, Ellesime. Ich hätte mir nie vorstellen können, dass eine so tödliche und unvermeidliche Falle aus brennender Leidenschaft und Stolz gebaut werden könnte. Ich wünschte, ich könnte helfen, obwohl ich nicht sehe, wie.~
+@76 = ~Ich danke Euch für Euren Rat, <CHARNAME>, aber sie bedeutet mir viel mehr als ein schmutziges Stück Leder. Sie umschlang sein zerstörtes Gesicht fast ein Jahrhundert lang, während er noch auf Toril wandelte, aber für mich verloren war. Ich wünsche Euch viel Glück auf Euren Reisen, mein guter <PRO_RACE>.~
+@77 = ~Ist das ist alles, woran Ihr denken könnt, <CHARNAME>? Dass sie ein Gegenstand der Macht und eine magische Kuriosität ist?~
+@78 = ~Ja, sie interessiert mich überwiegend als Andenken.~
+@79 = ~Nun, ich nehme an, dass sie tatsächlich ebenso einen sentimentalen Wert hat.~
+@80 = ~Ich versuche nur, ehrlich mit Euch zu sein, Ellesime. Nehmt sie oder lasst es bleiben.~
+@81 = ~Würdet Ihr sie von mir annehmen, <CHARNAME>? Ihr seid vielleicht die einzige Person auf dieser Welt, die das verstehen kann. Und Ihr habt eine Seele mit Jon geteilt, wenn auch nur kurz. Es fühlt sich fast so an, wie sie ihm zurückzugeben.~
+@82 = ~Ich wollte frei von seiner fortwährenden Anwesenheit sein, aber ich werde es nie sein, solange ich dieses Ding mit mir trage. Und ich könnte sie niemals wegwerfen oder verbrennen - sie fühlt sich zu sehr wie sein echtes Gesicht an.~
+@83 = ~Ja, ich werde sie gerne annehmen, Ellesime. Sie wird nur eine weitere der vielen fremdartigen Trophäen sein, die ich in meinem Rucksack trage. Sie würde mich überhaupt nicht belasten.~
+@84 = ~Ich würde sie lieber nicht haben. Es gibt eine Grenze selbst meiner Toleranz. Sie ist einfach zu widerlich.~
+@85 = ~Ich werde sie nehmen, nur um sie bei der ersten Gelegenheit zu verbrennen.~
+@86 = ~Selbstverständlich, wenn Ihr Euch dabei etwas besser fühlt... Aber es ist nicht die Maske, die Euch an ihn bindet, Ellesime, es ist Euer eigenes Herz.~
+@87 = ~Ich werde sie Euch bereitwillig abnehmen. Ich habe eine seltsame Faszination für Dinge wie diese - Ihr solltet alle anderen Artefakte in meiner Sammlung sehen!~
+@88 = ~Mich kümmern Eure Gefühle nicht wirklich, Ellesime. Gebt sie mir einfach und fertig damit.~
+@89 = ~Dann, denke ich, bin ich dazu verdammt, sie in alle Ewigkeit bei mir zu tragen, <CHARNAME>. Sie ist nur dazu geeignet, dass sein Gesicht mir zusieht, wie ich für immer unter den leeren Hüllen all meiner zerschmetterten Träume treibe. Lebt wohl und auf Wiedersehen.~
+@90 = ~Ein sonderbares Treffen.
+
+Ich dachte, dass ich allein im Wald wäre, beobachtet nur von den alten steinernen Götterbildern - den Wächtern von Suldanesselar. Und doch irrte ich mich. Ellesime folgte mir den ganzen Weg von der Stadt aus, nur mich noch einmal nach ihrem verstorben Geliebten und meinen schlimmsten Feind zu fragen... Irenicus! Ich wünschte, dass ich diesen verfluchten Namen nie gehört hätte, jedoch verfolgt mich dieser Magier sogar nach seinem endgültigen Eintauchen in den Abyss.
+
+Es war ein seltsames Gespräch, zu flüchtig für mich, um irgendeinen Einblick in ihre gegenwärtigen oder vergangenen Gefühle für ihn zu gewinnen, aber alleine die Tatsache, dass es stattfand, ist bemerkenswert... Bevor sie ging, bat mich die stolze Königin von Suldanesselar, Irenicus alte Maske anzunehmen, die seinem toten Gesicht abgenommen wurde - als Zeichen der Erinnerung, sagte sie, und auch als einen Weg, sich von den Erinnerungen an ihn und seine Verbrechen zu befreien. Ich lehnte ab, aber jetzt bin ich nicht sicher, ob es eine kluge Entscheidung war.~
+@91 = ~Danke, <CHARNAME>. Ich fühle mich bereits besser. Es tut mir leid, dass ich einen Teil meiner Last auf Eure Schultern bürde, mein lieber <PRO_RACE>.~
+@92 = ~Aber Ihr seid so ein starker Mann, und ich habe das Gefühl, dass Jon gewollt hätte, dass Ihr seine Maske als Andenken hättet, und sei es nur, um an Eure eigene Sterblichkeit zu erinnern. Mögen die Seldarine Euch auf Eurem Weg schützen.~ ~Aber Ihr seid so eine starke Frau, und ich habe das Gefühl, dass Jon gewollt hätte, dass Ihr seine Maske als Andenken hättet, und sei es nur, um an Eure eigene Sterblichkeit zu erinnern. Mögen die Seldarine Euch auf Eurem Weg schützen.~
+@93 = ~Jetzt müsst Ihr schnell handeln. Ruft sofort das Orakel an! Ich habe die seltsame Vorahnung, dass das Ältere Wäldchen nicht mehr sicher ist.~
+@94 = ~Ein sonderbares Treffen.
+
+Ich dachte, dass ich allein im Wald wäre, beobachtet nur von den alten steinernen Götterbildern - den Wächtern von Suldanesselar. Und doch irrte ich mich. Ellesime folgte mir den ganzen Weg von der Stadt aus, nur mich noch einmal nach ihrem verstorben Geliebten und meinen schlimmsten Feind zu fragen... Irenicus! Ich wünschte, dass ich diesen verfluchten Namen nie gehört hätte, jedoch verfolgt mich dieser Magier sogar nach seinem endgültigen Eintauchen in den Abyss.
+
+Es war ein seltsames Gespräch, zu flüchtig für mich, um irgendeinen Einblick in ihre gegenwärtigen oder vergangenen Gefühle für ihn zu gewinnen, aber alleine die Tatsache, dass es stattfand, ist bemerkenswert... Bevor sie ging, bat mich die stolze Königin von Suldanesselar, Irenicus alte Maske anzunehmen, die seinem toten Gesicht abgenommen wurde - als Zeichen der Erinnerung, sagte sie, und auch als einen Weg, sich von den Erinnerungen an ihn und seine Verbrechen zu befreien. Ich nahm sie an, aber jetzt bin ich nicht sicher, ob es eine kluge Entscheidung war. Ich werde sie in meinem Rucksack unter den anderen Kuriositäten behalten. Vielleicht werde ich sie eines Tages ausgraben und herzhaft über alle Schwierigkeiten lachen, die der Mann mir verursachte.
+
+Ich sollte mich beeilen. Bevor sie ging, warnte Ellesime mich vor der Gefahr, die in diesem einst friedlichen Wald lauert. Ich sollte die Orakel ohne Verzögerung anrufen.~
+@191=~Junge Priesterin, Sandrah ist Euer Name, ja, Liebes, ich weiß. Ihr seid eine Heilerin und Ihr werdet tun, was <CHARNAME> nicht tun wird.~
+@192=~Ich fühle mich schon besser. Es tut mir leid, dass ich einen Teil meiner Last auf Eure Schultern gelegt habe, meine Liebe, aber Ihr seid stark und ich habe das Gefühl, dass Jon Euch seine Maske als Andenken gewünscht hätte, und sei es nur, um Euch an Eure eigene Sterblichkeit zu erinnern. Mögen die Seldarine Euch auf Eurem Weg beschützen.~

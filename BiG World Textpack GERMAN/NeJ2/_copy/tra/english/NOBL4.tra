@@ -1,0 +1,10 @@
+@0    = ~Step up to the heat, young one.  You'll NEED a good fire to warm the chill stares of those monks.  Most inhospitable, they are.  Isn't that so, Lovey?~
+@1    = ~It's worth a try my dear, although our clothes may only be the half of it.  They certainly couldn't react any worse than they have.  I thank you for the suggestion <<CHARNAME>> and for putting it tactfully.  Good eve to you.~
+@2    = ~I am quite sure we meant no insult.  'Tis just that we have come a long way to be treated in such an unwelcome manner.  I would think the value of the entrance fee should buy you a touch more than a night at the Inn and a glaring stare as you flip through the odd tome.~
+@3    = ~Indeed, Lovey.  You may have lived here <CHARNAME>, but from your tone I wager you've forgotten much of the tact they should have taught.  Leave us please.~
+@4    = ~I shouldn't answer that, Lovey.  Seems as though this scoundrel might be trying to get a bit too familiar.  Sizing up the potential loot, I should think.  Best that you move along, lest the local constabulary gets involved.~
+@5    = ~A capital idea, Lovey.  Perhaps I should do the same?  Leave the finery under lock and key whilst we brush up on our reading?  I can think of no safer a place than here.  I doubt very much that a scoundrel would pay the book fee into this place to burgle the Inn.  Laughable!~
+@6    = ~Perhaps.  But if they wish no one to enter it is a simple matter of not letting anyone enter at all.  'Twould certainly be a shame if they did, though.  Such a storehouse of knowledge has limited use if no one can use the stored knowledge.  Ah well... 'tis cozy enough here by the fire to wash away any troubles I otherwise have with the place.~
+@7    = ~It is obvious what you need my good friend.  Living in this library fortress must leave you with little in the way of monetary funds.  Here, take this 20 gold; It is but a trifle to me, but I'm sure it'll put you on the right track.~
+@8    = ~I think you should be going before you end up scaring the missus.~
+@9    = ~I'm sorry, but my wife and I would like some time alone; isn't that right lovey?~

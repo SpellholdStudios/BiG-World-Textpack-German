@@ -1,0 +1,20 @@
+--- NeJE\dlg\ARNWAR8.d	Fri Mar 23 20:04:46 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\ARNWAR8.d	Tue Apr 09 19:34:46 2019
+@@ -1,7 +1,7 @@
+ ADD_TRANS_TRIGGER ARNWAR08 2 ~Global("WorkingForBodhi","GLOBAL",1)~ DO 0 1
+ 
+ EXTEND_BOTTOM ARNWAR08 2
+-  IF ~Global("WorkingForBodhi","GLOBAL",0)~ THEN REPLY ~I have no idea, what you're talking about. Explain yourself.~ GOTO kr1
++  IF ~Global("WorkingForBodhi","GLOBAL",0)~ THEN REPLY @0 GOTO kr1
+ END
+ 
+ ADD_TRANS_TRIGGER ARNWAR08 8 ~Global("WorkingForBodhi","GLOBAL",1)~ DO 0
+@@ -13,7 +13,7 @@
+ APPEND ~ARNWAR08~
+ 
+ IF ~~ THEN BEGIN kr1
+-  SAY ~Ah, you are not working for the mistress. Anyway, it matters not. You have no choice but to kill Aran or he will kill you.~
++  SAY @1
+   IF ~~ THEN GOTO 5
+ END
+ END

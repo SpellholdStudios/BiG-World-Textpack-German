@@ -1,0 +1,15 @@
+--- TS\bgtdlg\SOLAUF.D	Wed Dec 29 16:11:45 2004
++++ C:\BWP Patchstudio\patched files\TS\bgtdlg\SOLAUF.D	Thu May 05 10:45:18 2016
+@@ -1,11 +1,6 @@
+ BEGIN ~SOLAUF~
+ 
+ IF ~~ THEN BEGIN 0
+-  SAY ~Bodhi gives power, true power to those who serve her. Your father is doomed. Come with us, Sime. Join us in undeath... And bring the Bhaalchild along. 
+-
+-We will have beds of fleeting odors,
+-Couches deep as memorials,
+-And strange flowers on the stairs
+-To blossom for us under skies more beautiful.~
++  SAY @0
+   IF ~~ THEN EXTERN ~SOLA~ 1
+ END

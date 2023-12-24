@@ -1,0 +1,82 @@
+@0    = ~By every God and his mother...  you’re the last thing I expected to see step around the corner.  Who are you?~
+@1    = ~I am a friend.~
+@2    = ~I might ask you the same thing.~
+@3    = ~Farewell for now.~
+@4    = ~I see you’ve returned.  Why?~
+@5    = ~I would like to ask you some questions.~
+@6    = ~I wanted to ask you some questions again.~
+@7    = ~I spoke with a man named Gareth.  He wove quite a tale about a woman named Vera. Would that be you?~
+@8    = ~When we last spoke you asked me to help the slaves escape.~
+@9    = ~No reason. Farewell for now.~
+@10   = ~Really?  Mind telling me how you got past the salamanders?~
+@11   = ~Their leader thinks that I am a spy sent to check on him.  I did nothing to convince him otherwise.~
+@12   = ~I have slain their leader and most, if not all, of the salamanders as well.~
+@13   = ~They believe me to be working for them.~
+@14   = ~I see...  Well, if I were you, I would continue with that deception.  It could save your life here.~
+@15   = ~Perhaps.  May I ask you some questions?~
+@16   = ~I see...  That is a feat to be proud of.  I salute you.~
+@17   = ~Thank you. May I ask you some questions?~
+@18   = ~I see...  Well, I hope that is just a ruse.  I would hate to think that you actually do serve such creatures.~
+@19   = ~Yes it is. May I ask you some questions?~
+@20   = ~I don’t know...  I would like to trust you, but I’m not sure that I can...~
+@21   = ~You need to place your trust in someone.  Why not try me?~
+@22   = ~Then I will say farewell for now.~
+@23   = ~Very well... Ask what you will.~
+@24   = ~Who are you?~
+@25   = ~What are you doing here?~
+@26   = ~Wyrm’s Tooth.
+
+We found a woman named Vera hiding in the museum. She will not tell us why she is in hiding. She asked us not to mention having found her.~
+@27   = ~Can you tell me anything about this place?~
+@28   = ~I noticed there are dead bodies strewn about.  Can you tell me what happened?~
+@29   = ~We asked Vera why there were dead bodies strewn about the museum. She told us that the salamanders kept slaves and that the slaves had revolted. The bodies were those of slaves that were killed in the revolt.~
+@30   = ~A salamander down the hall says he hears noises from here on occasion. I think he may be hearing you.~
+@31   = ~Wyrm’s Tooth.
+
+We warned Vera that one of the salamanders has heard her moving about. She thanked us for the warning and says she will take precautions to not be heard again.~
+@32   = ~I must be leaving now.  Farewell.~
+@33   = ~My name is Vera Elles.~
+@34   = ~I spoke with a man named Gareth. He wove quite a tale about a woman named Vera. Would that be you?~
+@35   = ~Wyrm’s Tooth.
+
+We found Vera, the slave leader, hiding in the museum.~
+@36   = ~I see.  Let me ask you something else.~
+@37   = ~Yes, I know Gareth.  You say you have spoken with him?  So he and the others escaped?~
+@38   = ~Then you are the leader of the slave revolt? ~
+@39   = ~Yes. They have escaped back to the surface.~
+@40   = ~They are safe for now, but cannot get back to the surface. They have asked for my help.~
+@41   = ~Yes, that’s me.  I had to do something to help those poor people.~
+@42   = ~Then you are the one I seek.  Kerish has sent me to kill you.  Prepare to die!~
+@43   = ~Wyrm’s Tooth.
+
+We found Vera, the slave leader, hiding in the museum. We informed her that the frost salamander leader wanted her dead. She thanked us for the information and said she would take precautions.~
+@44   = ~Wyrm’s Tooth.
+
+Vera, the slave leader, pretty much told us to go help Gareth and the other slaves. She then dismissed us.~
+@45   = ~Wyrm’s Tooth.
+
+We found Vera, the slave leader, hiding in the museum. We informed her that we had been sent by the frost salamander leader to kill her. Naturally, a battle ensued.~
+@46   = ~You should know that the salamanders want you dead, Vera.~
+@47   = ~Hmm.  Well thank you for the warning, I’ll be more careful.  Tell me though. Did the others escape?~
+@48   = ~Then my work here is done.  I can leave this hell in good conscience...  Thank you and farewell.~
+@49   = ~Wait. How do you intend to leave?~
+@50   = ~Farewell, Vera.~
+@51   = ~Wyrm’s Tooth.
+
+We told Vera that the slaves were free and had escaped to the surface. She was relieved to hear the news and has escaped the museum as well. Apparently she would not leave until she knew the others were free.~
+@52   = ~Well...  I’m a thief and a good one.  I can sneak out of here when the time is right...  I just couldn’t do it until I knew those poor people were safe.~
+@53   = ~I see.  Farewell, Vera.~
+@54   = ~Then by all means please help them.  I cannot rest until I know they are safe...  Please go now.~
+@55   = ~Well...  I guess it’s rather obvious that I’m hiding from the salamanders.  I’ll thank you to not mention having seen me.~
+@56   = ~Why?  What did you do?~
+@57   = ~Let me ask you something else.~
+@58   = ~That’s nothing that should concern you and it’s not a matter that I’ll discuss with strangers.  I have nothing more to say on the subject.~
+@59   = ~All I can tell you is what you can see for yourself.  It’s some sort of aquatic museum.  It makes no sense to me...~
+@60   = ~The salamanders keep slaves.  The slaves revolted, and I guess some of them were killed...~
+@61   = ~Were you a part of the revolt, Vera?~
+@62   = ~Yes...  He’s looked around the corner a few times.  I’ve managed to hide from him so far.  I’ll try to be quieter. Thank you for the warning.~
+@63   = ~You must be good at hiding.  Are you a thief?~
+@64   = ~Ask what you like.  I’m not saying anything until I know who you are...~
+@65   = ~Very well, farewell.~
+@66   = ~Yes.  Have you been able to free them?~
+@67   = ~No, not at this time.  Farewell for now.~

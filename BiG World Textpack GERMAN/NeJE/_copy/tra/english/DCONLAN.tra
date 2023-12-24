@@ -1,0 +1,64 @@
+@0    = ~Welcome, stranger. What can I do for you?~
+@1    = ~Greetings. My name is <CHARNAME>. Who might you be?~
+@2    = ~I'm interested in purchasing some weapons. Could you point me in the right direction, sirrah?~
+@3    = ~Nothing. Just passing through.~
+@4    = ~Greetings. My name is <CHARNAME>. You must be Conlan, the local blacksmith.~
+@5    = ~I'm told you're the man to see about purchasing weapons.~
+@6    = ~The name's Conlan. I'm the local smithy of these here parts. If yer needin' a sharp blade or stout mace, I'm the man to see. Best take advantage while I'm still here.~
+@7    = ~'While you're still here?'  Are you going somewhere?~
+@8    = ~Right then... what do you have for sale?~
+@9    = ~Never mind. Farewell.~
+@10   = ~Aye, I suppose so. With all the skullduggery that's been goin' on around here, I imagine I'll not be around much longer.~
+@11   = ~I see. So you're planning on leaving town.~
+@12   = ~You're leaving Kuldahar? That doesn't surprise me... this town IS rather dull. Perhaps I could accompany you?~
+@13   = ~Ha! I wish that were possible. The southern pass has long since been snowed-in by this damnable weather we've been having lately. Now I hear tell that even the northern route to the Ten-Towns has been blocked by an avalanche. Mark my words; none of us will last through this winter. We're all done for.~
+@14   = ~I have no intention of dying here. Why is it that you are so ready to line your own grave?~
+@15   = ~I have no intention of leaving until I am satisfied there is no threat to Kuldahar within these walls.~
+@16   = ~Cheerful thought. May I see what you have for sale?~
+@17   = ~Well, it's been... nice talking to you. Farewell.~
+@18   = ~Humph. Not much for me to live for, really. My Mary passed a few years ago from the fever. And now... now my son's gone missin', snatched out of his bed in the middle of the night -- right out from under my nose!  He was just a boy!~
+@19   = ~I'm sorry, Conlan. Any idea who or what took him?~
+@20   = ~That's unfortunate. Would you mind showing me what weapons you have for sale?~
+@21   = ~Hmm. The little brat probably just ran away. I would've run away too if my father were such a depressing bore.~
+@22   = ~Sure, kick a man when he's down. I hope you feel better now. Now, if you don't mind, I've got work that needs doin'. Go torment someone else.~
+@23   = ~If I knew that, do you think I'd be standin' around here poundin' at metal? He just vanished, I tell you. Gone without a trace. Even ol' Arundel couldn't find a trail, and he's got a nose for such things. I imagine whatever took him will come back for me next. I can't say it'll be unwelcome.~
+@24   = ~Who is this Arundel?~
+@25   = ~Finding Sheemish, Conlan's son.
+
+We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace. Conlan also mentioned something about the town elder, Arundel. Maybe we should pay him a visit.~
+@26   = ~I've spoken with Arundel. He believes the source of the disturbances may lie within the Vale of Shadows.~
+@27   = ~Finding Sheemish, Conlan's son.
+
+We spoke to the Kuldahar blacksmith, Conlan, whose son was abducted in the night without a trace.~
+@28   = ~You have my sympathy, Conlan. Perhaps you can show me what blades you have so I might arm myself against the likes of the rogues that abducted your son.~
+@29   = ~Well... I'd love to talk about your missing son all day, but I came to purchase weapons. What have you got?~
+@30   = ~Interesting. Farewell, Conlan.~
+@31   = ~Arundel is sort of the town elder of Kuldahar. He's the closest thing to a leader we got. Quiet fellow he is... often spends days alone out in the passes, walking among the animals -- he's got a way with beasts, ya know.  I actually saw him talk to an eagle once. He had it perched on his shoulder, and the two of 'em were chattin' back and forth like ol' friends.   ~
+@32   = ~Perhaps I should meet him. Where can I find him?~
+@33   = ~Interesting. Say, would you mind showing me what you have for sale?~
+@34   = ~Great, a suicidal blacksmith and a loony town elder who speaks to birds. This town keeps getting better and better. Goodbye.~
+@35   = ~He has a house at the south end of town by the ancient standing stones. You can't miss it. It's the biggest building in town. I hear it's the oldest, too.~
+@36   = ~Before I go, could I see what you have for sale?~
+@37   = ~My thanks to you, Conlan. Farewell.~
+@38   = ~The Vale of Shadows, eh? That doesn't surprise me. That place reeks of evil. Most folks in town avoid it like the plague. Those that wander off in that direction are never heard from again.~
+@39   = ~Hmm. May I see what you have for sale?~
+@40   = ~Humph!  I wouldn't expect someone like you to understand. You're not from around here, stranger. You have no idea how much we've suffered. I tell you there is an evil loose in these mountains, and none of us are safe. Not even Arundel can protect us anymore.~
+@41   = ~I've spoken with Arundel. He believes the source of the disturbances may lie within the Vale of Shadows.   ~
+@42   = ~Aye, I'm Conlan. If yer needin' a sharp blade or stout mace, I'm the man to see. Best take advantage while I'm still here.~
+@43   = ~Back again, eh? If yer wantin' weapons, I suggest you get 'em while I'm still here.~
+@44   = ~Welcome back. I'm glad to see you're not dead yet. What can I do for you today?~
+@45   = ~I'd like to purchase some weapons.~
+@46   = ~Nothing. Just making sure you were still around. Farewell.~
+@47   = ~You!  Get out of my shop!  I'll not do business with a band of murdering jackals such as yourselves!~
+@48   = ~Wait. I can explain everything.~
+@49   = ~Have it your way. Farewell.~
+@50   = ~I'm not interested in your filthy lies!  Get out now... or, by the Gods, I'll split your skulls and use your stinkin' corpses to fire my forge!~
+@51   = ~You're a dead man, blacksmith.~
+@52   = ~I want to thank you for finding my boy for me. I had almost given up hope. I nearly fell out of my chair when he came bouncing through the door, telling tales of heroes and monsters with nary a scratch on him. He's in the back now resting. Go on in and say hello if you wish.~
+@53   = ~We will. First, we'd like to make a purchase.~
+@54   = ~Finding Sheemish, Conlan's son.
+
+We freed Conlan's son, Sheemish from the depths of Dragon's Eye. We should probably return to Kuldahar to check on him to make sure he got home all right.~
+@55   = ~We'll do that. Farewell.~
+@56   = ~You!  Get out of my shop! I'll not do business with you anymore!~
+@57   = ~My son just vanished, I tell you. Gone without a trace. Even ol' Arundel couldn't find a trail, and he's got a nose for such things. I imagine whatever took him will come back for me next. I can't say it'll be unwelcome.~

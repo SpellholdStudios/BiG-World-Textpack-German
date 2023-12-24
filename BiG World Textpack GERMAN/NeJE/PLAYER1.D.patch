@@ -1,0 +1,599 @@
+--- NeJE\dlg\PLAYER1.D	Sat Dec 08 16:53:43 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\PLAYER1.D	Tue Apr 09 19:37:02 2019
+@@ -115,24 +115,24 @@
+ END
+ 
+ IF ~~ THEN BEGIN TS55yosh
+-	SAY ~Yoshimo... the man whom you helped to rescue his family from a bitter vendetta and to find his true love. Yet he is also a man who was once hired by Irenicus to facilitate your demise.~
+-	IF ~~ THEN REPLY ~Yoshimo... Your life just started anew. If you do not want to face Irenicus again, you do not have to. ~ EXTERN ~YOSHJ~ TS221
+-	IF ~~ THEN REPLY ~Listen, Yoshimo. I trust you and everything, but I need to hear that you are on my side in the upcoming battle.~ EXTERN ~YOSHJ~ TS222
+-	IF ~~ THEN REPLY ~Irenicus is a mighty foe, Yoshimo. I do not know if all of us shall survive this battle. I would understand if you do not want to come with me.~ EXTERN ~YOSHJ~ TS221
++	SAY @0
++	IF ~~ THEN REPLY @1 EXTERN ~YOSHJ~ TS221
++	IF ~~ THEN REPLY @2 EXTERN ~YOSHJ~ TS222
++	IF ~~ THEN REPLY @3 EXTERN ~YOSHJ~ TS221
+ END
+ 
+ IF ~~ THEN BEGIN TS55
+-  SAY ~Kachiko. A warrior from a distant land, she insisted to join you to be close to Yoshimo whom she hated. She stayed with you through thick and thin to be close to Yoshimo she loved...~
+-  IF ~~ THEN REPLY ~Kachiko... You had fought valiantly by my side, but if you wish to go back to your life now, I would understand...~ EXTERN ~KACHIJ~ N37
+-  IF ~~ THEN REPLY ~Irenicus is a terrible creature, Kachiko. Please, let me know that you are prepared to face such a challenge.~ EXTERN ~KACHIJ~ N38
+-  IF ~~ THEN REPLY ~Behind these doors is death... May be it awaits Irenicus, may be it awaits all of us... You have seen death closer than I. Would you go through this door?~ EXTERN ~KACHIJ~ N39
++  SAY @4
++  IF ~~ THEN REPLY @5 EXTERN ~KACHIJ~ N37
++  IF ~~ THEN REPLY @6 EXTERN ~KACHIJ~ N38
++  IF ~~ THEN REPLY @7 EXTERN ~KACHIJ~ N39
+ END
+ 
+ IF ~~ THEN BEGIN TS56
+-  SAY ~Sime is before you, the woman you had not come to know very well, though she was a loyal companion.~
+-  IF ~~ THEN REPLY ~Sime, I know little of you, but Irenicus is no enemy of yours. You do not have to fight my battle...~ EXTERN ~SIMEJ~ TOL21
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. If you wish, you may take your leave now~ EXTERN ~SIMEJ~ TOL22
+-  IF ~~ THEN REPLY ~Sime, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~SIMEJ~ TOL23
++  SAY @8
++  IF ~~ THEN REPLY @9 EXTERN ~SIMEJ~ TOL21
++  IF ~~ THEN REPLY @10 EXTERN ~SIMEJ~ TOL22
++  IF ~~ THEN REPLY @11 EXTERN ~SIMEJ~ TOL23
+ END
+ 
+ //IF ~~ THEN BEGIN TS57
+@@ -141,14 +141,14 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS58
+-  SAY ~There is something else too... He looks at you sometimes... strangely... just like now...~
++  SAY @12
+   IF ~OR(2)
+ Dead("lavok02")
+-Dead("lavok01")~ THEN REPLY ~Valygar... Lavok is dead. You could return to your life now, if you wish. This is my fight.~ EXTERN ~VALYGARJ~ TS127
++Dead("lavok01")~ THEN REPLY @13 EXTERN ~VALYGARJ~ TS127
+   IF ~!Dead("lavok01")
+-!Dead("lavok02")~ THEN REPLY ~Valygar... Lavok is still alive. Your own quest is unfinished, but mine ends here. This is my fight.~ EXTERN ~VALYGARJ~ TS127
+-  IF ~~ THEN REPLY ~Irenicus is a powerful wizard, Valygar. I know how you hate magic users; you do not have to endanger yourself for me.~ EXTERN ~VALYGARJ~ TS127
+-  IF ~~ THEN REPLY ~This is it, Valygar. I need to know that you are ready, that you are willing to commit yourself to the battle ahead.~ EXTERN ~VALYGARJ~ TS127
++!Dead("lavok02")~ THEN REPLY @14 EXTERN ~VALYGARJ~ TS127
++  IF ~~ THEN REPLY @15 EXTERN ~VALYGARJ~ TS127
++  IF ~~ THEN REPLY @16 EXTERN ~VALYGARJ~ TS127
+ END
+ 
+ //IF ~~ THEN BEGIN TS59
+@@ -159,14 +159,14 @@
+ //END
+ 
+ IF ~~ THEN BEGIN TS60
+-  SAY ~Sime... You look at the maiden’s eyes and you see what you have hoped and scared to see: the determination to follow you to the end of the world and beyond it. It is obvious that you might keep Sime out of this battle, if you, say, tied her up and gagged her. Still, you want to give her a chance to reconsider.~
+-  IF ~~ THEN REPLY ~Sime, Irenicus is no enemy of yours. You do not have to fight my battles.~ EXTERN ~SIMEJ~ TOL1
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Sime. The fight is going to be deadly. I am afraid that you might get hurt or die... I would rather... Do you think you might wait here?~ EXTERN ~SIMEJ~ TOL2
+-  IF ~~ THEN REPLY ~Sime, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~SIMEJ~ TOL3
++  SAY @17
++  IF ~~ THEN REPLY @18 EXTERN ~SIMEJ~ TOL1
++  IF ~~ THEN REPLY @19 EXTERN ~SIMEJ~ TOL2
++  IF ~~ THEN REPLY @11 EXTERN ~SIMEJ~ TOL3
+ END
+ 
+ IF ~~ THEN BEGIN KR_TL0
+-	SAY ~Keldorn... (You look into each other's eyes and you have no need for words.)~
++	SAY @20
+ 		IF ~OR(2)
+ Global("VP_KrRomanceActive","GLOBAL",1)
+ Global("VP_KrRomanceActive","GLOBAL",2)~ THEN EXTERN ~KELDORJ~ TL1
+@@ -180,7 +180,7 @@
+ GlobalGT("VP_Who_Is_Hrothgar","GLOBAL",1)
+ Global("TrBack0602","GLOBAL",2)
+ Global("VP_PlayerDialogFix","GLOBAL",0)~ THEN BEGIN NEJ62 // from:
+-  SAY ~So, once again we are destined to take the unknown road. Let us ready ourselves for what lies ahead.~ [mute]
++  SAY @21 
+   IF ~True()~ THEN GOTO NEJ63
+   IF ~InParty("Dar")~ THEN GOTO NEJ64
+ //  IF ~InParty("Accalia")~ THEN EXTERN ~ACCALIJ~ 1
+@@ -192,7 +192,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ63
+-  SAY ~Then let us enter the portal together. It has been a strange road to our freedom, but we are all safe and that is what matters.~
++  SAY @22
+   IF ~!InParty("Sharteel")~ THEN DO ~SetGlobal("VP_NewEnd_Of_Part1","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -201,36 +201,28 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ64
+-  SAY ~What of you Dar? Will you take the portal with us?~
++  SAY @23
+   IF ~~ THEN EXTERN ~DARJ~ 1
+ END
+ 
+ IF WEIGHT #-1 ~Global("VP_SoW_Portal_Talk","GLOBAL",3)~ THEN BEGIN NEJ65
+-  SAY ~Just a nightmare... (*you mutter to yourself*)~ [mute]
++  SAY @24 
+   IF ~~ THEN DO ~SetGlobal("VP_SoW_Portal_Talk","GLOBAL",4)
+ SetGlobal("VP_PlayerDialogFix","GLOBAL",1) 
+-EraseJournalEntry(%Dragon's Eye.
+-
+-We met the "Lizard King" of Dragon's Eye.  He informed us that the upper caves of the volcano belonged to him.  He also indicated that he was brought to the caves by someone named Yxunomei.  Apparently, the lizard men do the bidding of Yxunomei to feed his people.  They abduct the villagers for food and for Yxunomei.%)
+-EraseJournalEntry(%Dragon's Eye.
+-
+-We encountered an undead creation today that was used as the "eyes and mouth" of a necromancer.  It attacked us after it had addressed us.%)
+-EraseJournalEntry(%Dragon's Eye.
+-
+-We ventured down to the fourth level of the Dragon's Eye volcano.  We found a priest of Eldath, the goddess of peace, there.  He told us that he and his students are part of an Eldathyn retreat in Dragon's Eye.  He offered us healing and a place to rest.%)
+-EraseJournalEntry(%Kuldahar Pass.
+-
+-We met a goblin marshal in Kuldahar Pass who was going mad with pain.  He told us that his head hurt, that something was whispering things to him.  He didn't understand what was wrong with him, but he felt some instinctive urge to "answer" the voice in his head.%)~ GOTO NEJ66
++EraseJournalEntry(@25)
++EraseJournalEntry(@26)
++EraseJournalEntry(@27)
++EraseJournalEntry(@28)~ GOTO NEJ66
+ END
+ 
+ IF ~~ THEN BEGIN NEJ66
+-  SAY ~(*But for some reason you still feel a pressing need to see for yourself that the world outside your room hasn’t changed.*)~
++  SAY @29
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #-2 ~Global("VP_Hrothgar_Interjects","GLOBAL",1)
+ ~ THEN BEGIN NEJ67
+-  SAY ~(*You look around and are relieved to see that all of your companions are safe.*)~ [mute]
++  SAY @30 
+   IF ~True()~ THEN GOTO NEJ68
+ 	IF ~InParty("Sharteel")~ THEN EXTERN ~SHARTJ~ comebck1
+   IF ~InParty("Dar")~ THEN EXTERN ~DARJ~ 5
+@@ -242,29 +234,29 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ68
+-  SAY ~Then let us continue, and make our way through this damned place.~
++  SAY @31
+   IF ~~ THEN DO ~SetGlobal("VP_Hrothgar_Interjects","GLOBAL",2)
+ ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ69
+-  SAY ~(*Your eyes fall on Imoen.*) Imoen are you alright? You look distressed.~
++  SAY @32
+   IF ~InParty("Imoen")~ THEN EXTERN ~IMOENJ~ NEJ74
+   IF ~InParty("Imoen2")~ THEN EXTERN ~IMOEN2J~ VP_FIX4
+ END
+ 
+ IF WEIGHT #-3 ~Global("VP_Hrothgar_Tilorn","GLOBAL",1)~ THEN BEGIN NEJ70
+-  SAY ~(*As you start to walk away from the destruction that is in front of you, still reeling from the unexpected loss of Imoen, Hrothgar stops and looks about, a look of anxious bewilderment on his face.*)~ [mute]
++  SAY @33 
+   IF ~~ THEN EXTERN ~HROTHJ~ 22
+ END
+ 
+ IF ~~ THEN BEGIN NEJ71
+-  SAY ~(*You look at Hrothgar with a look of total disbelief on your face that he has no idea of what is to be done now.*)~
++  SAY @34
+   IF ~~ THEN EXTERN ~HROTHJ~ 25
+ END
+ 
+ IF ~~ THEN BEGIN NEJ73
+-  SAY ~Farewell, Dar. It has been a strange road to our freedom, but we are all safe and that is what matters.~
++  SAY @35
+   IF ~!InParty("Sharteel")~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPCutNJ4")~ EXIT
+@@ -272,48 +264,48 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ74
+-  SAY ~(*You look into the face or Tilorn as Hrothgar makes the introduction and a memory stirs in your mind but you are unable to grasp it before it slips away.*)~
+-  IF ~~ THEN REPLY ~So, you are Tilorn, the one whom Arundel spoke of briefly. Hrothgar did not say that you and he were friends, but then he is being annoyingly evasive on many things. I do not believe that we have met so how is it that you know my name? Although, strangely for a second there, I thought that your face was known to me.~ EXTERN ~TILORN~ 3 
+-  IF ~~ THEN REPLY ~Tilorn is it. The same Tilorn that visited Arundel in Kuldahar and now, also a friend of Hrothgar’s. Tell me Tilorn, ’friend of Hrothgar’, how did you come to be in Kuldahar ahead of us and now here before us also? You seem to know my name before Hrothgar made mention of it and yet, I do not know you that I am sure. Although, for a moment your face was familiar to me but now it is gone. Why should that be?~  EXTERN ~TILORN~ 3	
+-  IF ~~ THEN REPLY ~Ah, Tilorn! The mystery visitor to the old druid. Hrothgar omitted to say that you and he were friends, but then Hrothgar has omitted to tell me many things! Are you going to say how it is that you know my name Tilorn? You look somewhat familiar to me but for the moment I cannot place you, but I will, you can be assured of that!~ EXTERN ~TILORN~ 3
+-  IF ~~ THEN REPLY ~So, you are a friend of Hrothgar, Tilorn. Strange that he did not admit to it when first I asked him of you. What reason has he to hide this from me do you think? Even stranger, Tilorn, why do I feel that I should know you?~ EXTERN ~TILORN~ 3
++  SAY @36
++  IF ~~ THEN REPLY @37 EXTERN ~TILORN~ 3 
++  IF ~~ THEN REPLY @38  EXTERN ~TILORN~ 3	
++  IF ~~ THEN REPLY @39 EXTERN ~TILORN~ 3
++  IF ~~ THEN REPLY @40 EXTERN ~TILORN~ 3
+ END
+ 
+ IF ~~ THEN BEGIN NEJ75
+-  SAY ~(*You look at Tilorn and the look he gives you back makes you forget what it was that you were about to say.*)~
++  SAY @41
+   IF ~~ THEN EXTERN ~TILORN~ 7
+ END
+ 
+ IF WEIGHT #-5 ~Global("VP_Touch_Statue","GLOBAL",0)
+ Global("VP_InfoSwitch","GLOBAL",0)
+ Global("VP_InHalruaa","GLOBAL",1)~ THEN BEGIN NEJ76
+-  SAY ~(*The hundreds of chips of translucent green glass which make up this stained-glass window don’t appear to be held together by anything, but rather remain free-floating and mysteriously suspended within the iron frame’s boundaries. The shards ripple and move in slow waves, causing bizarre patterns to fluctuate across the window’s surface as various portions of it refract the galleria’s light in different directions. A small placard beside the window reads ’Arcadian Stained-Glass Window.’*)~ [mute]
++  SAY @42 
+   IF ~~ THEN GOTO NEJ85
+ END
+ 
+ IF ~Global("VP_Touch_Statue","GLOBAL",1)
+ Global("VP_InfoSwitch","GLOBAL",0)~ THEN BEGIN NEJ77
+-  SAY ~(*You reach out to touch the glass shards once again, but succeed only in bruising your knuckles; the glass may as well be sheet-iron.*)~ [mute]
++  SAY @43 
+   IF ~~ THEN DO ~SetGlobal("VP_Touch_Statue","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~Global("VP_Touch_Statue","GLOBAL",2)
+ Global("VP_InfoSwitch","GLOBAL",0)~ THEN BEGIN NEJ78
+-  SAY ~(*You try to touch the glass shards for the third time, and... you smear the foul-smelling ointment in the air. You turn and see behind you there is a strange shimmering around the statue, and you watch as the statue takes an intake of breath and its eyes fill with a blasing, vengeful madness.*)~ [mute]
+-  IF ~~ THEN REPLY ~Greetings...~ GOTO NEJ79
+-  IF ~~ THEN REPLY ~*Cover your ears.*~ GOTO NEJ79
+-  IF ~~ THEN REPLY ~*Run like mad.*~ GOTO NEJ79
++  SAY @44 
++  IF ~~ THEN REPLY @45 GOTO NEJ79
++  IF ~~ THEN REPLY @46 GOTO NEJ79
++  IF ~~ THEN REPLY @47 GOTO NEJ79
+ END
+   
+ IF ~~ THEN BEGIN NEJ79
+-  SAY ~(*Before you can do a thing, a blasing torrent of words flies from the sorcerer’s lips. As he speaks, you feel a agonising sensation, like a sudden wave of raging heat, pour over you and settle into your skin like a blistering wound.*)~
++  SAY @48
+   IF ~~ THEN GOTO NEJ80
+ END
+   
+ IF ~~ THEN BEGIN NEJ80
+-  SAY ~(*Blindness strikes you as your eyes burst, running from their sockets like shattered eggs... you hear someone screaming, and realise it is you...*)~
+-  IF ~~ THEN REPLY ~*Wait for the horror to end.*~ GOTO NEJ81
+-  IF ~~ THEN REPLY ~*Drop to your knees in shock.*~ DO ~SetGlobal("VP_Touch_Statue","GLOBAL",4)
++  SAY @49
++  IF ~~ THEN REPLY @50 GOTO NEJ81
++  IF ~~ THEN REPLY @51 DO ~SetGlobal("VP_Touch_Statue","GLOBAL",4)
+ CloseDoor("STATUE")
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -321,7 +313,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN NEJ81
+-  SAY ~Die horribly, a victim of Gangroighydon’s Awful Curse.~
++  SAY @52
+   IF ~~ THEN DO ~CloseDoor("STATUE")
+ Kill(Player1)
+ Kill(Player2)
+@@ -333,7 +325,7 @@
+ 
+ IF WEIGHT #-6 ~Global("VP_Touch_Statue","GLOBAL",4)
+ Global("VP_InfoSwitch","GLOBAL",0)~ THEN BEGIN NEJ82
+-  SAY ~(*You don’t know how long you have been unconscious, but after you recover from that terrible shock you notice that the ’statue’ is simply gone, presumably having walked off without leaving so much as a note of apology.*)~ [mute]
++  SAY @53 
+   IF ~~ THEN DO ~SetGlobal("VP_Touch_Statue","GLOBAL",5)
+ ~ EXIT
+ END
+@@ -341,42 +333,42 @@
+ IF ~Global("VP_Touch_Statue","GLOBAL",5)
+ Global("VP_InfoSwitch","GLOBAL",0)
+ !Global("VP_InHalruaa","GLOBAL",0)~ THEN BEGIN NEJ83
+-  SAY ~The portal is activated.~ [mute]
+-  IF ~~ THEN REPLY ~*Go through the portal.*~ GOTO NEJ84
+-  IF ~~ THEN REPLY ~*Leave.*~ EXIT
++  SAY @54 
++  IF ~~ THEN REPLY @55 GOTO NEJ84
++  IF ~~ THEN REPLY @56 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ84
+-  SAY ~(*You are violently teleport to somewhere outside this room.*)~
++  SAY @57
+   IF ~~ THEN DO ~ClearAllActions()
+ StartCutSceneMode()
+ StartCutScene("VPCutT02")~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN NEJ85
+-  SAY ~(*You reach out to touch the undulating glass shards, but find you cannot do so... your hand stops just short of the surface of the glass.*)~  
++  SAY @58  
+   IF ~~ THEN DO ~SetGlobal("VP_Touch_Statue","GLOBAL",1)~ EXIT
+ END
+ 
+ IF WEIGHT #-7 ~GlobalLT("VP_Touch_Statue","GLOBAL",4)
+ Global("VP_InfoSwitch","GLOBAL",1)~ THEN BEGIN NEJ86
+-  SAY ~(*The statue looks like it is about to make some angry proclamation. The sculptor has captured the essence of fury magnificently; the chiseled tension lines around the neck and forehead alone must have taken many long months to get correct. Fine cracks run over the entire statue, and there is a plaque attached to its base.*)~ [mute]
++  SAY @59 
+   IF ~~ THEN GOTO NEJ87
+ END  
+ 
+ IF ~~ THEN BEGIN NEJ87
+-  SAY ~(*The plaque reads: ’This statue is believed to be the final fate of the Etherserian sorcerer Gangroighydon. Attacked by a conclave of rival sorcerers at the height of his dream madness, he was imprisoned with a spell that turned his flesh into stone. Gangroighydon is said to have been frozen with a final, awful curse still upon his lips, a curse so terrible that it was *never* meant to be spoken by the lips of a living man.’*)~
++  SAY @60
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #-8 ~GlobalGT("VP_Touch_Statue","GLOBAL",3)
+ Global("VP_InfoSwitch","GLOBAL",1)~ THEN BEGIN NEJ88
+-  SAY ~(*The ’statue’ - in truth the once-petrified sorcerer Gangroighydon - has gone leaving behind only the plaque beneath its pedestal.*)~ [mute]
++  SAY @61 
+   IF ~~ THEN EXIT
+ END
+ 
+ IF WEIGHT #-9 ~Global("VP_Hrothgar_Lavallin","GLOBAL",3)~ THEN BEGIN NEJ89
+-  SAY ~(*A short time elapses and a portal opens behind you. The portal closes. Although you see nothing you sense that someone is moving around in the room as if looking for something. Suddenly an item is taken from one of the shelves and the portal opens again. It remains open briefly and then closes... A few moments later Lavallin returns.*)~ [mute]
++  SAY @62 
+   IF ~~ THEN DO ~SetGlobal("VP_Hrothgar_Lavallin","GLOBAL",4)
+ SetGlobal("VP_Lavallins_Plot","GLOBAL",4)
+ ClearAllActions()
+@@ -386,7 +378,7 @@
+ 
+ 
+ IF WEIGHT #-10 ~Global("VP_Lavallins_Plot","GLOBAL",7)~ THEN BEGIN NEJ90
+-  SAY ~(*The portal opens after a short wait. You immediately go through the portal and find yourself in sewers. You try to catch you breath but... the sewers suddenly disappear and a moment later you find yourself in an underground warren made up of freshly dug tunnels lit by light gems embedded along the walls, and the air is surprisingly fresh.*)~ [mute]
++  SAY @63 
+   IF ~~ THEN DO ~SetGlobal("VP_Lavallins_Plot","GLOBAL",8)~ EXIT
+ END
+ 
+@@ -396,19 +388,19 @@
+ //END
+ 
+ IF WEIGHT #-11 ~Global("VP_Severed_Hand","GLOBAL",1)~ THEN BEGIN NEJ92
+-	SAY ~What the hell is going on here?!~ [mute]
++	SAY @64 
+   IF ~True()~ THEN DO ~SetGlobal("VP_Severed_Hand","GLOBAL",2)~ EXIT
+   IF ~InParty("Hrothgar")~ THEN EXTERN ~HROTHJ~ 194
+   IF ~InParty("Minsc")~ THEN EXTERN ~MINSCJ~ NEJ313
+ END
+ 
+ IF WEIGHT #-12 ~Global("VP_Astrolabe_Talks","GLOBAL",3)~ THEN BEGIN NEJ93
+-  SAY ~(*As Larrel turns away to speak with Geralith, Hrothgar walks over and takes a look at the astrolabe. He stands running his hands over the machine but with his back to the group. When you look towards him, it is as if he feels your eyes turn in his direction and he drops his hands deliberately...*)~ [mute]
++  SAY @65 
+   IF ~~ THEN GOTO NEJ94
+ END
+ 
+ IF ~~ THEN BEGIN NEJ94
+-	SAY ~(*He  continues to peer closer at the machine but without touching it further. Then, amid the chatter of the group he walks back and stands quietly.*)~
++	SAY @66
+   IF ~True()~ THEN DO ~SetGlobal("VP_Astrolabe_Talks","GLOBAL",4)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -422,94 +414,94 @@
+ 
+ //Accalia is not in Party --> VP_Mov01 --> Back to the Future!
+ IF ~~ THEN BEGIN NEJ95
+-	SAY ~(*Once again Hrothgar removes the black box from his pocket and pointing it at the Astrolabe...*)~
++	SAY @67
+ //	IF ~~ THEN REPLY ~Wait, Hrothgar, don’t do this! On the second thought, I’ve decided to go to Dorn’s Deep right now. Larrel, could you take us to Dorn’s Deep?~ EXTERN ~DLARREL~ 53
+-	IF ~~ THEN REPLY ~(*You close your eyes, and ...*)~ DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
++	IF ~~ THEN REPLY @68 DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
+ SetGlobal("TrBack0602","GLOBAL",2)~ EXTERN ~HROTHJ~ 245	
+ END
+ 
+ //Accalia is in Party, and she leaves --> VPCutNJ5
+ IF ~~ THEN BEGIN NEJ96
+-	SAY ~(*Once again Hrothgar removes the black box from his pocket and pointing it at the Astrolabe...*)~
++	SAY @67
+ //	IF ~~ THEN REPLY ~Wait, Hrothgar, don’t do this! On the second thought, I’ve decided to go to Dorn’s Deep right now. Larrel, could you take us to Dorn’s Deep?~ EXTERN ~DLARREL~ 53
+-	IF ~~ THEN REPLY ~(*You close your eyes, and ...*)~ DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
++	IF ~~ THEN REPLY @68 DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
+ SetGlobal("TrBack0602","GLOBAL",2)~ EXTERN ~HROTHJ~ 268	
+ END
+ 
+ //Accalia is in Party, and both she and Dar leaves --> VPCutNJ6
+ IF ~~ THEN BEGIN NEJ98
+-	SAY ~(*Once again Hrothgar removes the black box from his pocket and pointing it at the Astrolabe...*)~
+-	IF ~~ THEN REPLY ~(*You close your eyes, and ...*)~ DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
++	SAY @67
++	IF ~~ THEN REPLY @68 DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
+ SetGlobal("TrBack0602","GLOBAL",2)~ EXTERN ~HROTHJ~ 269	
+ END
+ 
+ //Accalia is not in Party, and Dar leaves --> VPCutNJ7
+ IF ~~ THEN BEGIN NEJ99
+-	SAY ~(*Once again Hrothgar removes the black box from his pocket and pointing it at the Astrolabe...*)~
+-	IF ~~ THEN REPLY ~(*You close your eyes, and ...*)~ DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
++	SAY @67
++	IF ~~ THEN REPLY @68 DO ~SetGlobal("VP_In_IWD_Part1","GLOBAL",0)
+ SetGlobal("TrBack0602","GLOBAL",2)~ EXTERN ~HROTHJ~ 270	
+ END
+ 
+ //States NeJ100-104 are omitted
+ 
+ IF WEIGHT #-16 ~Global("VP_Know_Tilorn","GLOBAL",1)~ THEN BEGIN NEJ105
+-  SAY ~(*You see a man watching you from a distance... Tilorn?*)~ [mute]
++  SAY @69 
+   IF ~~ THEN DO ~SetGlobal("VP_Know_Tilorn","GLOBAL",2)~ EXTERN ~TILORN~ 0
+ END
+ 
+ IF WEIGHT #-17 ~Global("VP_Rt_Mine_Visited","GLOBAL",1)~ THEN BEGIN NEJ106
+-  SAY ~(*As you enter the area you cannot help but notice a noxious taint to the air. You suspect that these vapours are the cause of the pools taint.*)~ [mute]
++  SAY @70 
+   IF ~~ THEN DO ~SetGlobal("VP_Rt_Mine_Visited","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN ToTLF
+-  SAY ~Leina is before you, the bard you had not come to know very well, though she was a loyal companion.~
+-  IF ~~ THEN REPLY ~Leina, I know little of you, but Irenicus is no enemy of yours. You do not have to fight my battle...~ EXTERN ~LEINAJ~ TOL21
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Leina. The fight is going to be deadly. If you wish, you may take your leave now~ EXTERN ~LEINAJ~ TOL22
+-  IF ~~ THEN REPLY ~Leina, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~LEINAJ~ TOL23
++  SAY @71
++  IF ~~ THEN REPLY @72 EXTERN ~LEINAJ~ TOL21
++  IF ~~ THEN REPLY @73 EXTERN ~LEINAJ~ TOL22
++  IF ~~ THEN REPLY @74 EXTERN ~LEINAJ~ TOL23
+ END
+ 
+ IF ~~ THEN BEGIN ToTLM
+-  SAY ~Leina... You look at the maiden’s eyes and you see what you have hoped and scared to see: the determination to follow you to the end of the world and beyond it. It is obvious that you might keep Leina out of this battle, if you, say, tied her up and gagged her. Still, you want to give her a chance to reconsider.~
+-  IF ~~ THEN REPLY ~Leina, Irenicus is no enemy of yours. You do not have to fight my battles.~ EXTERN ~LEINAJ~ TOL1
+-  IF ~~ THEN REPLY ~You know how powerful Irenicus is, Leina. The fight is going to be deadly. I am afraid that you might get hurt or die... I would rather... Do you think you might wait here?~ EXTERN ~LEINAJ~ TOL2
+-  IF ~~ THEN REPLY ~Leina, that’s not the best time to chat, but I need to know that you readily and willingly partaking in the fight with Irenicus.~ EXTERN ~LEINAJ~ TOL3
++  SAY @75
++  IF ~~ THEN REPLY @76 EXTERN ~LEINAJ~ TOL1
++  IF ~~ THEN REPLY @77 EXTERN ~LEINAJ~ TOL2
++  IF ~~ THEN REPLY @74 EXTERN ~LEINAJ~ TOL3
+ END
+ END
+ 
+ APPEND ~KELDORJ~
+ 
+ IF ~~ THEN BEGIN N239
+-	SAY ~Again you sacrificed yourself, this time for the sake of your sister. My friend, I beg you, please rest. Lay down a little even if you don't want to sleep. You appear unsteady on your legs, <CHARNAME>, that mage has exhausted you.~ [theme5]
+-		IF ~~ THEN REPLY ~(With a weak smile) I told you it was but a moments failing, I am fine now, I feel all right. It is not necessary for us to be wasting  anymore time.~ GOTO LT24_st1
+-		IF ~~ THEN REPLY ~All right I'll have a rest but only if you talk with me and not just curt phrases either.~ GOTO LT24_st2
+-		IF ~~ THEN REPLY ~That is nonsense Keldorn! I am full of energy!~ GOTO LT24_st3
++	SAY @78 
++		IF ~~ THEN REPLY @79 GOTO LT24_st1
++		IF ~~ THEN REPLY @80 GOTO LT24_st2
++		IF ~~ THEN REPLY @81 GOTO LT24_st3
+ END
+ 
+ IF ~~ THEN BEGIN slayerba
+-  SAY ~(You come to your senses and discover Keldorn holding you tightly. He has several new wounds, and a terrible suspicion is creeping into your soul.) <CHARNAME>! Torm be praised, you are yourself again!~
+-  IF ~~ THEN REPLY ~Yes. Keldorn! What happened... what was that?~ GOTO slayer2
++  SAY @82
++  IF ~~ THEN REPLY @83 GOTO slayer2
+ END
+ 
+ IF ~~ THEN BEGIN slayer2
+-  SAY ~(Sternly) Slayer... Bhaal's Avatar!~
+-  	IF ~~ THEN REPLY ~Oh... but why? I... I won't endure such an abomination! Save me, save me!~ GOTO slayer3
+-  	IF ~~ THEN REPLY ~(Twitching) What an abomination... and yet what strength, you can't begin to imagine the half of it!~ GOTO slayer3
++  SAY @84
++  	IF ~~ THEN REPLY @85 GOTO slayer3
++  	IF ~~ THEN REPLY @86 GOTO slayer3
+ END
+ 
+ IF ~~ THEN BEGIN slayer3
+-  SAY ~Calm down my dear. Nothing bad has happened.~
+-  	IF ~~ THEN REPLY ~(Pointing at the wound) And what is that then? Did I... do that?~ GOTO slayer4
+-  	IF ~~ THEN REPLY ~You tried to hold me and I wounded you, is that not sot? I must be abhorrent to you.~ GOTO slayer5
++  SAY @87
++  	IF ~~ THEN REPLY @88 GOTO slayer4
++  	IF ~~ THEN REPLY @89 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer4
+-  SAY ~(Reluctantly he answers you) Yes.~
+-  	IF ~~ THEN REPLY ~Yea gods... I must be abhorrent to you.~ GOTO slayer5
++  SAY @90
++  	IF ~~ THEN REPLY @91 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer5
+-  SAY ~(Tenderly) There, there. Stop talking nonsense. Everything will be all right, calm down, my sweet girl, calm down.~
++  SAY @92
+   IF ~True()~ THEN DO ~SetGlobal("VP_Hrothgar_Slayer","GLOBAL",1)~ EXIT
+   IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ 203
+@@ -548,9 +540,9 @@
+ END
+ 
+ IF ~~ THEN BEGIN TL1
+-	SAY ~This is it, my love. Soon it will be over, your suffering will come to an end.~
++	SAY @93
+ =
+-~We will return your soul and you will be happy and at peace my dearest, darling girl. Everything will be all right... we have our whole lives ahead of us.~
++@94
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~InParty("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -591,14 +583,14 @@
+ END
+ 
+ IF ~~ THEN BEGIN TL2
+-	SAY ~This is it, <CHARNAME>. Soon it will be over, your suffering will come to an end. We will return your soul and you will be at peace.~
+-		IF ~~ THEN REPLY ~Keldorn, you don't have to continue... this isn't your fight.~ GOTO TL3
+-		IF ~~ THEN REPLY ~Keldorn, you know what comes. Don't let your vow bind you, there's no need to endanger yourself.~ GOTO TL3
+-  	IF ~~ THEN REPLY ~Are you ready, Keldorn? I need you committed and ready to die, if necessary. This is important.~ GOTO TL3
++	SAY @95
++		IF ~~ THEN REPLY @96 GOTO TL3
++		IF ~~ THEN REPLY @97 GOTO TL3
++  	IF ~~ THEN REPLY @98 GOTO TL3
+ END
+ 
+ IF ~~ THEN BEGIN TL3
+-  SAY ~The path of honor dictates that I see this through to the end, my friend... no matter what.  I would not be able to lift my eyes were I to abandon you while such an evil remains unchecked.  I could serve good no greater than by what I do now.~
++  SAY @99
+   IF ~True()~ THEN EXTERN ~PLAYER1~ 53
+   IF ~InParty("Anomen")
+ Global("AnomenRomanceActive","GLOBAL",2)~ THEN EXTERN ~PLAYER1~ 52
+@@ -929,7 +921,7 @@
+ APPEND ~ANOMENJ~
+ 
+ IF ~~ THEN BEGIN 233A
+-  SAY ~As you wish.~
++  SAY @100
+   IF ~True()~ THEN EXIT
+   IF ~  InParty("Keldorn")
+ !Dead("Keldorn")
+@@ -1578,29 +1570,29 @@
+ APPEND ~VALYGARJ~
+ 
+ IF ~~ THEN BEGIN slayerba
+-  SAY ~(*You come to your senses and discover Valygar holding you tightly. He has several new wounds, and a terrible suspicion is creeping into your soul.*) <CHARNAME>! Gods be praised, you are yourself again!~
+-  IF ~~ THEN REPLY ~Yes. Valygar! What happened... what was that?~ GOTO slayer2
++  SAY @101
++  IF ~~ THEN REPLY @102 GOTO slayer2
+ END
+ 
+ IF ~~ THEN BEGIN slayer2
+-  SAY ~(*Sternly*) Slayer... Bhaal’s Avatar!~
+-  	IF ~~ THEN REPLY ~Oh... but why? I... I won’t endure such an abomination! Save me, save me!~ GOTO slayer3
+-  	IF ~~ THEN REPLY ~(*Twitching*) What an abomination... and yet what strength, you can’t begin to imagine the half of it!~ GOTO slayer3
++  SAY @103
++  	IF ~~ THEN REPLY @104 GOTO slayer3
++  	IF ~~ THEN REPLY @105 GOTO slayer3
+ END
+ 
+ IF ~~ THEN BEGIN slayer3
+-  SAY ~Calm down <CHARNAME>. Nothing bad has happened.~
+-  	IF ~~ THEN REPLY ~(*Pointing at the wound*) And what is that then? Did I... do that?~ GOTO slayer4
+-  	IF ~~ THEN REPLY ~You tried to hold me and I wounded you, is that not sot? I must be abhorrent to you.~ GOTO slayer5
++  SAY @106
++  	IF ~~ THEN REPLY @107 GOTO slayer4
++  	IF ~~ THEN REPLY @89 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer4
+-  SAY ~(*Reluctantly he answers you*) Yes.~
+-  	IF ~~ THEN REPLY ~Yea gods... I must be abhorrent to you.~ GOTO slayer5
++  SAY @108
++  	IF ~~ THEN REPLY @91 GOTO slayer5
+ END
+ 
+ IF ~~ THEN BEGIN slayer5
+-  SAY ~(*Tenderly*) There, there. Stop talking nonsense. Everything will be all right, calm down, my sweet girl, calm down.~
++  SAY @109
+   IF ~True()~ THEN DO ~SetGlobal("VP_Hrothgar_Slayer","GLOBAL",1)~ EXIT
+   IF ~InParty("Minsc")
+ !Dead("Minsc")~ THEN EXTERN ~MINSCJ~ 203
+@@ -2218,9 +2210,7 @@
+ 
+ EXTEND_BOTTOM PLAYER1 25 // Finding Irenicus in Hell
+   IF ~InParty("Kachiko")
+-See("Kachiko")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+-
+-Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~KACHIJ~ N55
++See("Kachiko")~ THEN UNSOLVED_JOURNAL @110 EXTERN ~KACHIJ~ N55
+ //  IF ~InParty("Dynaheir")
+ //See("Dynaheir")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+ //
+@@ -2230,13 +2220,9 @@
+ //
+ //Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~CORANJ~ TS6
+ IF ~InParty("Sime")
+-See("Sime")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+-
+-Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~SIMEJ~ 116
++See("Sime")~ THEN UNSOLVED_JOURNAL @110 EXTERN ~SIMEJ~ 116
+ 	IF ~InParty("Leina")
+-See("Leina")~ THEN UNSOLVED_JOURNAL ~Finding Irenicus in Hell
+-
+-Irenicus’ death did not have the same effect as Bodhi’s did, and my soul has not returned to me.  Perhaps it was because of the power he gathered from the Tree of Life, or because Bodhi was undead. Regardless, Irenicus has fallen, dragging both my soul and myself inexorably behind.  And such was the power that my party members that had fallen or were near death were drawn with us as well!  Together we are in Hell, and I am certain Irenicus is somewhere near.  Somehow, through all this, I feel I must find him and battle him once and for all to get my soul back.~ EXTERN ~LEINAJ~ inhell
++See("Leina")~ THEN UNSOLVED_JOURNAL @110 EXTERN ~LEINAJ~ inhell
+ END
+ 
+ EXTEND_BOTTOM PLAYER1 33 // Tree of Life Talk
+@@ -2300,7 +2286,7 @@
+ IF WEIGHT #-1 ~Global("VP_ResqueLeina","GLOBAL",4)
+ Global("VP_NPC_LeinaRoom","GLOBAL",0)
+ PartyHasItem("GovanLet")~ THEN BEGIN LQT1
+- SAY ~(*After reading the letter, you think it may be worse to speak to the barkeep again. Maybe he can tell you where this Govan Duvaine can be found.*)~
++ SAY @111
+  IF ~True()~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXIT
+  IF ~InParty("Valygar")~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXTERN ~VALYGARJ~ NEJ157
+  IF ~InParty("Minsc")~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXTERN ~MINSCJ~ NEJ259
+@@ -2317,7 +2303,7 @@
+ IF WEIGHT #-2 ~Global("VP_ResqueLeina","GLOBAL",4)
+ Global("VP_NPC_LeinaRoom","GLOBAL",0)
+ !PartyHasItem("GovanLet")~ THEN BEGIN LQT2
+- SAY ~(*You think it would be a good idea to pick up the letter and to speak to the barkeep again. Maybe he can tell you where this Govan Duvaine can be found.*)~
++ SAY @112
+  IF ~True()~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXIT
+  IF ~InParty("Valygar")~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXTERN ~VALYGARJ~ NEJ157
+  IF ~InParty("Minsc")~ THEN DO ~SetGlobal("VP_NPC_LeinaRoom","GLOBAL",1)~ EXTERN ~MINSCJ~ NEJ259

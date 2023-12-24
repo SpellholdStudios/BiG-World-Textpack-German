@@ -1,0 +1,11 @@
+--- TS\baf\Kachix.baf	Thu Dec 30 15:46:15 2004
++++ C:\BWP Patchstudio\patched files\TS\baf\Kachix.baf	Mon Oct 03 15:32:23 2016
+@@ -6,7 +6,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Yoshimo_Dies","GLOBAL",1)
+-		DisplayStringHead(Myself,~Yoshimo! Nooooo!!!~)
++		DisplayStringHead(Myself,@0)
+ 		AttackReevaluate(LastAttackerOf("Yoshimo"),75)
+ END
+ 

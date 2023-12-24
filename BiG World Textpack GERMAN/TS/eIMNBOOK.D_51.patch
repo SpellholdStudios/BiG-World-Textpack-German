@@ -1,0 +1,9 @@
+--- TS\bgtnodlg\eIMNBOOK.D	Sat Jul 29 21:06:48 2006
++++ C:\BWP Patchstudio\patched files\TS\bgtnodlg\eIMNBOOK.D	Thu May 05 10:46:31 2016
+@@ -3,5 +3,5 @@
+ IF ~Global("RevealUmar","GLOBAL",1)
+ OR(2)
+ PartyHasItem("MISC7L")
+-PartyHasItem("MISCBSIM")~ THEN REPLY ~I'm looking for information about a tome that details the curing of Vampirism.~ EXTERN IMNBOOK1 4
++PartyHasItem("MISCBSIM")~ THEN REPLY @0 EXTERN IMNBOOK1 4
+ END

@@ -1,0 +1,12 @@
+--- Setup-Underrep.tp2	Thu Jul 11 09:43:56 2013
++++ C:\BWP Patchstudio\patched files\Setup-Underrep.tp2	Sun Jul 07 00:10:40 2013
+@@ -20,6 +20,9 @@
+          ~italian~
+          ~underrep/italian/underrep.tra~
+ 
++LANGUAGE ~Deutsch~ 
++         ~german~
++         ~underrep/german/setup.tra~
+ 
+ BEGIN @0
+ 

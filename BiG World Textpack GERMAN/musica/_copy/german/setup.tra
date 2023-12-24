@@ -1,0 +1,151 @@
+@0  = ~Die Musik der Reiche~ 
+@1  = ~Amulett~
+@2  = ~Amulett der Intelligenz~ 
+@3  = ~Amulette sind gewöhnlich magische Gegenstände, die gemeinhin an einer Kette um den Hals getragen werden. Die dabei verwendete Kette erhöht jedoch meistens lediglich den ästethischen Wert des Gegenstandes und hat keine Auswirkungen auf seine magischen Kräfte. Es kann nur ein Amulett gleichzeitig um den Hals getragen werden.~
+@4  = ~Amulett der Intelligenz
+
+Die Ursprünge dieses Artefakts liegen im Dunkeln. Es wurde offenbar mit einem Zauber belegt, der die mentalen Kräfte eines Magiers erhöht, sodass dieser sich mehr Zaubersprüche merken kann.
+
+EIGENSCHAFTEN:
+
+Intelligenz: +1
+~ 
+@5  = ~Laute~
+@6  = ~Laute von Mut und Schrecken~
+@7  = ~Die Laute ist ein Saiteninstrument ähnlich einer Gitarre. Sie hat einen kurzen, abgewinkelten Hals und einen tiefen, bauchigen Klangkörper. Sechs Saitenpaare laufen über Oberfläche und Schallloch. Der Spieler schlägt die Saiten mit einem Dorn an.~ 
+@8  = ~Dies ist ein magisches Instrument, das schon durch unzählige Bardenhände ging. Überall in den Reichen erzählte es von großen Schlachten und großen Helden. Die Essenz dieser Lieder hat die Laute durchdrungen und gewährt demjenigen, der sie einzusetzen weiß, den Heldenmut oder den Schrecken der lange vergangenen Helden.
+
+EIGENSCHAFTEN:
+
+Kann 3x täglich 'Furcht bannen' und 'Schrecken' wirken.~
+@9  = ~Horn~ 
+@10 = ~Verbessertes Horn der Stille~
+@11 = ~Das ist ein kleines Horn. Hörner werden normalerweise aus Knochen oder Metall gefertigt und können die verschiedensten Töne erzeugen.~
+@12 = ~Verbessertes Horn der Stille
+
+Wenn man in das seltsame Horn bläst, gibt es keinen Ton von sich. Die meisten Leute nehmen daher an, dass es wertlos ist und werfen es gleich wieder weg. Wenn man jedoch das richtige Befehlswort kennt, kann das Horn alle im Wirkungsbereich, denen ein Rettungswurf gegen Odemwaffen misslingt, mit Stille belegen. Das Horn kann dreimal täglich eingesetzt werden und wird natürlich häufig als Waffe gegen Magier verwendet. Wenn ein Krieger das Horn erfolgreich verwendet, um einen Magier zum Schweigen zu verdammen, hat er natürlich meist leichtes Spiel mit ihm.
+
+Das Horn wurde magisch verstärkt und kann nun häufiger verwendet werden.
+
+EIGENSCHAFTEN:
+
+Stille (5x täglich)
+ Dauer: 1 Minute
+ Rettungswurf: Ja (gg. Odemwaffen)
+ Jedes Wesen im Wirkungsbereich, dem ein Rettungswurf misslingt, wird von Stille betroffen.~ 
+@13 = ~Verbessertes Schmetterhorn~
+@14 = ~Verbessertes Schmetterhorn
+
+Die meisten Belagerungstechniker verbringen Jahre damit, ihre Belagerungsmaschinen zu verbessern. Julius Baggar hingegen kämpfte sich durch zahlreiche magische Werke, um ähnliche Resultate zu erzielen. Er fand uralte Aufzeichnungen darüber, wie man Schallwellen erzeugen, kontrollieren und formen konnte. Das Schmetterhorn stellte seinen ersten und einzigen Versuch dar, das theoretische magische Wissen in Form neuer Technologie umzusetzen. Julius bestand auf einem praktischen Experiment und ließ einen Lehrling in das Horn blasen, während er davor stand. Die Schockwelle aus dem Horn lähmte den armen Julius zuerst und riss ihn dann in Fetzen.
+
+Das Horn wurde magisch verstärkt und richtet nun mehr Schaden an.
+
+EIGENSCHAFTEN:
+
+Schockwelle (1x täglich)
+ Schaden: 2W20
+ Rettungswurf: Speziell (gg. Lähmung)
+ Jedes Wesen im Wirkungsbereich erleidet 2W20 Schadenspunkte und ist für 2 Runden gelähmt. Bei einem erfolgreichen Rettungswurf gegen Lähmung erleidet es nur halben Schaden und wird nicht gelähmt.~ 
+@15 = ~Harfe~
+@16 = ~Leier des Fortschritts~
+@17 = ~Harfen sind Saiteninstrumente, die oft von Barden verwendet werden. Diese kleine Harfe ist für einen reisenden Geschichtenerzähler und Balladenkünstler besonders gut geeignet.~
+@18 = ~Leier des Fortschritts
+
+Die Leier des Fortschritts wurde von einem Barden namens Sedini Paletto erschaffen. Sedini war während schwieriger Zeiten ein Lehrer für junge, aufstrebende Barden. Dieses Instrument, das immer verborgen gehalten wurde, half Sedini gegen diejenigen zu kämpfen, die ihn oder seine Studenten angreifen wollten. Als Sedini alt wurde, gab er sie an seinen besten Studenten, Galwen Alaman, weiter. Galwen lehrte für einige Jahre weiter, bevor er in die Wildnis auszog, um das Leben eines Abenteuers zu führen. Man vermutet, dass er die Leier verlor, als er sie versehentlich in einen Sumpf fallen ließ.
+
+EIGENSCHAFTEN:
+
+Zauber: 
+ +2 (Grad 2)
+ +1 (Grad 3)
+
+Kann nur verwendet werden von:
+- Barden~ 
+@19 = ~Todeshorn~
+@20 = ~Todeshorn
+
+Dieses Horn wurde vom Dunklen Sänger getragen. Es bewahrt die Schrecken, der er auf seinen Reisen durch die Reiche erlebte. Wenn es erklingt, wird ein mächtiger Todeszauber gewirkt.
+
+EIGENSCHAFTEN:
+
+Finger des Todes (1x täglich)
+ Dauer: Sofort
+ Rettungswurf: Ja (gg. Zauber)
+ Bereich: 1 Wesen
+ 
+Kann nur verwendet werden von:
+- Barden~ 
+@21 = ~Verbessertes Todeshorn~ 
+@22 = ~Verbessertes Todeshorn
+
+Dieses Horn wurde vom Dunklen Sänger getragen. Es bewahrt die Schrecken, der er auf seinen Reisen durch die Reiche erlebte. Wenn es erklingt, wird ein mächtiger Todeszauber gewirkt.
+
+Dieses Horn wurde magisch verstärkt und kann nun häufiger benutzt werden.
+
+EIGENSCHAFTEN:
+
+Finger des Todes (1x täglich)
+ Dauer: Sofort
+ Bereich: 1 Wesen
+ Rettungswurf: Ja (gg. Zauber)
+ 
+Kann nur verwendet werden von:
+- Barden~
+@23 = ~Feuertanz~ 
+@24 = ~Feuertanz
+
+Diese Harfe war zur Belustigung eines Fürsten der elementaren Feuerebene gedacht, indem es zu seinem Vergnügen Tänzer aus Flammen beschwor. Das Instrument wurde von einem listigen Magier gestohlen und so verändert, dass die Feuerelementare nun als Leibwächter dienen.
+
+EIGENSCHAFTEN:
+
+Feuerelementar beschwören (1x täglich)
+ Dauer: 1 Phase/Stufe
+ Bereich: Speziell
+ Rettungswurf: Nein
+ 
+Kann nur verwendet werden von:
+- Barden~
+@25 = ~Flöte~
+@26 = ~Die Flöte gehört zu den ältesten Instrumenten überhaupt und wurde zunächst als Kriegsinstrument genutzt. Nach und nach fand es immer weitere Verbreitung und ist nun überall in den Reichen zu finden.~
+@27 = ~Sturmflöte~
+@28 = ~Sturmflöte
+
+Eine Flöte aus dem Wurzelholz der Großen Eiche, die mithilfe einer Eissturmspruchrolle bezaubert wurde und nun mit ihrer Musik einen Sturm heraufbeschwören kann. Dieses Instrument kann nur aus der Hand eines großen Meisterhandwerkers stammen.
+
+EIGENSCHAFTEN:
+
+Eissturm (1x täglich)
+ Dauer: Sofort
+ Bereich: 5 m Radius
+ Rettungswurf: Nein
+
+Kann nur verwendet werden von:
+- Barden~
+@29 = ~Harfe des Glücks~
+@30 = ~Harfe des Glücks
+
+Diese Harfe wurde einst von mythischen Feen und Elfen der Wälder bewacht. Während eines furchtbaren Sturms wurde es von einem bösen Zauberer entwendet, der um die Eigenschaft des Instruments wusste, seinem Träger die Macht des Glücks zu gewähren. Er erhoffte sich mithilfe der Harfe zu Reichtum zu kommen, doch schon bald erfuhr er seine gerechte Strafe durch die Königin der Wälder. Bevor er starb, verbarg er die Harfe an einem sicheren Ort, wo sie bis zum heutigen Tag unentdeckt lag.
+
+EIGENSCHAFTEN:
+
+Glück (3x täglich)
+ Dauer: 3 Runden
+ Bereich: Gruppe
+
+Wird dieser Zauber auf einen Charakter angewendet, erhält er während der nächsten drei Runden auf all seine Würfe einen Bonus von +1. Das betrifft beispielsweise Trefferwürfe, Rettungswürfe, Würfe auf Diebesfähigkeiten und so weiter.
+
+Kann nur verwendet werden von:
+- Barden~
+@31 = ~Bernads Schlachtenhorn~
+@32 = ~Bernads Schlachtenhorn
+
+Bernad war ein äußerst listiger und mächtiger Söldnergeneral. Seiner Ansicht nach sei Angriff stets die beste Verteidigung. Wenn er in dieses Horn stieß, bewirkte er, dass die Männer unter seinem Befehl die Schnelligkeit eines einfachen Mannes weit übertrafen, sodass sie jeden Feind besiegen konnten.
+
+EIGENSCHAFTEN:
+
+Hast (1x täglich)~
+@33 = ~Larin~
+@34 = ~Der Dunkle Sänger~
+@36 = ~Terry~
+@37 = ~Dranor~
+@38 = ~Dranors Drow-Gefolgsmann~

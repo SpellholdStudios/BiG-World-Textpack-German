@@ -1,0 +1,85 @@
+--- NeJ\Dfiles\DGUS.D	Fri Apr 02 03:12:06 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DGUS.D	Wed Apr 10 10:24:03 2019
+@@ -1,54 +1,54 @@
+ BEGIN ~DGUS~ 86348 // non-zero flags may indicate non-pausing dialogue
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0 // from:
+-  SAY ~Welcome, friend.  I am Brother Gus, faithful servant of Ilmater.  Be at peace, for you are in the care of the One Who Endures.~ 
+-  IF ~Global("Know_Ferg", "GLOBAL", 1)~ THEN REPLY ~Has anyone ever told you that you look a lot like Brother Ferg, the priest outside?~  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 5
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings.  I am in need of a healer.  Could you help me?~  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 1
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Greetings.  I am in need of a healer.  I was told to speak with a Sister Calliana.~  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 2
+-  IF ~~ THEN REPLY ~I see.  Farewell.~  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ EXIT
++  SAY @0 
++  IF ~Global("Know_Ferg", "GLOBAL", 1)~ THEN REPLY @1  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 5
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @2  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 1
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @3  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ GOTO 2
++  IF ~~ THEN REPLY @4  DO ~SetGlobal("Know_Gus", "GLOBAL", 1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 7.0 6.0 0.1
+-  SAY ~Ah... blessed are those in need.  You've come to the right place, friend.  Revered Sister Calliana can tend to your wounds and provide what few curatives we have left in our humble temple.  You may find her at prayer upon the altar.~ 
+-  IF ~~ THEN REPLY ~What few curatives you have left?  Don't tell me you're running out?~  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~I see.  Farewell.~  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ EXIT
++  SAY @5 
++  IF ~~ THEN REPLY @6  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @4  DO ~SetGlobal("Know_Calliana", "GLOBAL", 1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 7.1 6.1 0.2
+-  SAY ~Of course.  Revered Sister Calliana is at prayer upon the altar.  She is more than capable of tending to your wounds.  She can also offer you what few curatives we have left in our humble temple.~ 
+-  IF ~~ THEN REPLY ~What few curatives you have left?  Don't tell me you're running out?~  GOTO 3
+-  IF ~~ THEN REPLY ~I see.  Farewell.~  EXIT
++  SAY @7 
++  IF ~~ THEN REPLY @6  GOTO 3
++  IF ~~ THEN REPLY @4  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 2.0 1.0
+-  SAY ~I'm afraid so.  The good people of Kuldahar have suffered greatly of late.  In sharing their burdens, we have nearly exhausted our supply of potions and antidotes.  Though I hear tell that one might find such items elsewhere in town.~ 
+-  IF ~~ THEN REPLY ~Really?  Where?~  GOTO 4
+-  IF ~~ THEN REPLY ~Interesting.  Farewell.~  EXIT
++  SAY @8 
++  IF ~~ THEN REPLY @9  GOTO 4
++  IF ~~ THEN REPLY @10  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.0
+-  SAY ~The Gnome, Oswald Fiddlebender, is known to dabble in alchemy.  He lives in that... contraption on the ridge above this temple.  It is also rumoured that Orrick the mage possesses certain arcane items.  He's a bit of recluse, though.  He lives in a small tower on the far side of town, to the west.~ 
+-  IF ~~ THEN REPLY ~Thank you for the information.  Farewell.~  DO ~SetGlobal("Know_Oswald", "GLOBAL", 1)
++  SAY @11 
++  IF ~~ THEN REPLY @12  DO ~SetGlobal("Know_Oswald", "GLOBAL", 1)
+ SetGlobal("Know_Orrick", "GLOBAL", 1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 0.0
+-  SAY ~Yes, on numerous occasions.  It is not really much of a coincidence... considering that we are twins.~ 
+-  IF ~~ THEN REPLY ~Really?  I just figured all you priests of Ilmater looked alike.~  GOTO 6
+-  IF ~~ THEN REPLY ~Well, that explains it, then.  I was just curious.~  GOTO 6
+-  IF ~~ THEN REPLY ~Interesting.  Farewell.~  EXIT
++  SAY @13 
++  IF ~~ THEN REPLY @14  GOTO 6
++  IF ~~ THEN REPLY @15  GOTO 6
++  IF ~~ THEN REPLY @10  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 5.1 5.0
+-  SAY ~Yes... well, is there some way I may be of assistance to you, friend?~ 
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings.  I am in need of a healer.  Could you help me?~  GOTO 1
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Greetings.  I am in need of a healer.  I was told to speak with a Sister Calliana.~  GOTO 2
+-  IF ~~ THEN REPLY ~I don't think so.  Farewell.~  EXIT
++  SAY @16 
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @2  GOTO 1
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @3  GOTO 2
++  IF ~~ THEN REPLY @17  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 7 // from:
+-  SAY ~You have returned.  How may I help ease your suffering?~ 
+-  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY ~Greetings, Brother Gus.  I am in need of a healer.  Could you help me?~  GOTO 1
+-  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY ~Greetings, Brother Gus.  I am in need of a healer.  Is Sister Calliana about?~  GOTO 2
+-  IF ~~ THEN REPLY ~Nothing today, Gus.  Keep up the good work.  Farewell.~  EXIT
++  SAY @18 
++  IF ~Global("Know_Calliana", "GLOBAL", 0)~ THEN REPLY @19  GOTO 1
++  IF ~Global("Know_Calliana", "GLOBAL", 1)~ THEN REPLY @20  GOTO 2
++  IF ~~ THEN REPLY @21  EXIT
+ END

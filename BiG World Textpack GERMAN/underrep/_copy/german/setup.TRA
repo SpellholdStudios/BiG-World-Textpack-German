@@ -1,0 +1,987 @@
+@0    = ~Underepresented Items from Icewind Dale 2~
+@1    = ~Conlan~
+@2    = ~Conlan's Schmiede~
+@3    = ~Heilige Zweihandaxt der Gerechtigkeit +5~
+@4    = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENTSCHAFTEN:
+
+Schaden:  1W12 +5
+ETW0-Bonus:  5 
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+  Zauber: Ziel wird vom Zauber Blindheit betroffen (bei Rettungswurf gegen Zauber keine Wirkung)
+  Heilig: +2W6 Schaden an bösen Kreaturen
+Gewicht:  20 Pfd.
+Waffenfertigkeit: Axt
+Waffentyp:  Beidhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  bösen Charakteren
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@5    = ~Zweihandaxt des Eises +5~
+@6    = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+ Frostbiss:  +2W6 Kälteschaden und 10% Chance auf +2W10 extra Kältechaden 
+ Resistenz: +50% Kälteresistenz 
+Waffenfertigkeit: Axt
+Waffentyp:  Beidhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druidenen
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@7    = ~Zweihandaxt des Verschwimmens +5~
+@8    = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+  Zauber: Wenn ausgerüstet, steht der Charakter unter dem Effect des Zaubers Verschwimmen (+3 Bonus zur Rüstungsklasse, +1 Bonus zu Rettungswürfen)
+  Gift: verursacht 1 zusätzlichen Schadenspunkt pro Runde for 10 Runden (bei Rettungswurf gegen Tod keine Wirkung)
+Gewicht:  20 Pfd.
+Waffenfertigkeit: Axt
+Waffentyp:  Beidhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@9    = ~Zweihandaxt der Zersetzung +5~
+@10   = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+  Säureexplosion:  +2W6 Säureschaden und 10% Chance auf +2W10 extra Säureschaden
+Gewicht:  20 Pfd.
+Waffenfertigkeit: Axt
+Waffenyp:  Beidhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@11   = ~Massive Zweihandaxt der Flammen +5~
+@12   = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  2W12 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+  Feuerstoß:  +1W6 Feuerschaden und 10% Chance auf +1W10 extra Feuerschaden
+Gewicht:  30 Pfd.
+Waffenfertigkeit: Axt
+Waffentyp:  Beidhändig
+Benötigte Stärke: 18
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@13   = ~Zweihandaxt der Macht +5~
+@14   = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12 + 5
+ETW0 Bonus:  +5
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell: 
+   Attributsbonus: +1 Stärke 
+Gewicht:  20 Pfd.
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@15   = ~Zweihandaxt des Elementarinfernos~
+@16   = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12
+Schadensart:  Hiebwaffe
+Speziell:
+  Feuerstoß: +1W6 Feuerschaden und 10% Chance auf +1W10 extra Feuerschaden
+  Frostbiss: +1W6 Kälteschaden und 10% Chance auf +1W10 extra Kälteschaden
+  Blitzschlag: +1W6 Blitzschaden und 10% Chance auf +1W10 extra Blitzschaden
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht:  20 Pfd.
+Waffenfertigkeit: Axt
+Benötigte Stärke: 18
+Waffentyp:  Beidhändig
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@17   = ~Vampirische Zweihandaxt der Flammen~
+@18   = ~Diese mächtige Waffe besteht aus einem 120 bis 150 Zentimeter langem Schaft mit einer schweren Klinge. Zweihändige Äxte können zweischneidig, mit Klingen auf beiden Seiten des Schaftes, oder aber mit nur einer Klinge bestückt sein. Es ist eine schwer zu führende Waffe, aber ein geübter Krieger vermag damit außergewöhnlich starke Schläge auszuführen. In die riesige Klinge wurden Zwergenrunen graviert, welche die Axt noch gefährlicher machen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W12
+Schadensart:  Hiebwaffe
+Speziell:
+  Feuerstoß:  +2W6 Feuerschaden und 10% Chance auf +1W10 extra Feuerschaden
+  Vampirisch: verursacht zusätzlich +2 Magieschaden und fügt dem Träger +2 vorübergehnde Trefferpunkte hinzu
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht:  20 Pfd.
+Waffenfertigkeit: Axt
+Benötigte Stärke: 18
+Waffentyp:  Beidhändig
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@19   = ~Gesegneter Gürtel~
+@20   = ~Helmpriester aus Berdusk haben diesen Gürtel geweiht und übergaben ihn an den Krieger Thom Wainwight, welcher ihrer Kirche eine Reihe großer Dienste erwiesen hatte, darunmter die Zerstörung des Blicklosen Auges und dem Kult geblendeter Jünger, welcher diesem folgte. Thom trug diesen Gürtel stolz, bevor er in seinen späten Jahren von Zweifeln befallen wurde. Zu seinem unendlichen Bedauern, veräußerte er ihn an einen wohlbekannten Priester des Mask.
+
+EIGENSCHAFTEN:
+
+Wenn ausgerüstet steht der Träger unter den Auswirkungen des Zaubers Segen.
+Gewicht: 2 Pfd.
+Kann nicht verwendet werden von: Magierkillern~
+@21   = ~Elfenkettenhemd der Hand +3~
+@22   = ~Während des Goldenen Zeitalters zwischen den Elfen der Hand der Seldarin und den Zwergen von Dorntief, wurde eine spezielle Version der berühmten Elfenkettenhemden gefertigt, welche zusätzlichen Schutz gegen die rauhen Witterungsbedingungen des Nordens lieferte.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2 
+Speziell:
+  Resistenz: +50% Kälteresistenz
+Gewicht: 15 Pfd.
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Kensai
+  Mönchen
+  Tiermeistern
+  Pirschern~
+@23   = ~Vipernzahn +2~
+@24   = ~Der gewöhnliche Dolch hat eine spitze zweischneidige Klinge, im Gegensatz zum Messer, welches üblicherweise nur auf einer Seite geschärft und ein wenig kürzer ist.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 2
+ETW0 Bonus:  +2 
+Verzauberungsbonus:  +2
+Schadensart:  Stichwaffe
+Speziell:
+  Gift: +2 Schadenspunkte durch Gift pro Sekunde für 6 Sekunden (bei Rettungswurf gegen Tod kein Schaden)
+Gewicht: 1 Pfd.
+Waffentyp:  Einhändig
+Waffenfertigkeit: Dolch
+Benötigte Stärke: 3
+Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+@25   = ~Dolch der Verschlagenheit +3~
+@26   = ~Der gewöhnliche Dolch hat eine spitze zweischneidige Klinge, im Gegensatz zum Messer, welches üblicherweise nur auf einer Seite geschärft und ein wenig kürzer ist. 
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 3
+ETW0 Bonus:  +3 
+Verzauberungsbonus:  +3
+Schadensart:  Stichwaffe
+Speziell:
+  Verschlagenheit: +20% im Schatten verstecken, +20% leise bewegen
+Gewicht: 1 Pfd.
+Waffentyp:  Einhändig
+Waffenfertigkeit: Dolch
+Benötigte Stärke: 3
+Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+@27   = ~Vampirischer Dolch +1~
+@28   = ~Der gewöhnliche Dolch hat eine spitze zweischneidige Klinge, im Gegensatz zum Messer, welches üblicherweise nur auf einer Seite geschärft und ein wenig kürzer ist.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 1
+ETW0 Bonus:  +1 
+Verzauberungsbonus:  +1
+Schadensart:  Stichwaffe
+Speziell:
+  Vampirisch: verursacht +2 Magieschaden und fügt dem Träger +2 temporäre Trefferpunkte hinzu. 
+Gewicht: 1 Pfd.
+Waffentyp:  Einhändig
+Waffenfertigkeit: Dolch
+Benötigte Stärke: 3
+Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+@29   = ~Wiederkehrender Betäubungswurfpfeil +1~
+@30   = ~Der Wurfpfeil ist eine kleine, leicht zu verbergende, Geschosswaffe, welche geworfen wird, anstatt von einem Bogen oder ähnlichem abgefeuert zu werden. Machtvolle Linien wurden sorgfältig in den Schaft dieses Wurfpfeiles geritzt.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4  +1
+ETW0 Bonus:  +1
+Verzauberungsbonus:  +1
+Schadensart:  Geschoss (Stichwaffe)
+Speziell:
+  Betäubung: 25% Chance, dass das Ziel für 3 Sekunden betäubt wird (bei Rettungswurf gegen Lähmung keine Wirkung)
+  Wiederkehr: kehrt in die Hand des Werfers zurück
+Gewicht: 0 Pfd.
+Waffenfertigkeit: Wurfpfeil
+Waffentyp:  Einhändig
+Kann nicht verwendet werden von:
+  Klerikern
+  Kensai
+  Rittern~
+@31   = ~Wiederkehrender Giftwurfpfeil~
+@32   = ~Der Wurfpfeil ist eine kleine, leicht zu verbergende, Geschosswaffe, welche geworfen wird, anstatt von einem Bogen oder ähnlichem abgefeuert zu werden. Machtvolle Linien wurden sorgfältig in den Schaft dieses Wurfpfeiles geritzt.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4
+Schadensart:  Geschoss (Stichwaffe)
+Speziell:
+ Gift: +2 Schadenspunkte durch Gift pro Sekunde für 6 Sekunden (bei Rettungswurf gegen Tod keinen Schaden) 
+ Wiederkehrend: kehrt in die Hand des Werfers zurück
+Gewicht: 0 Pfd.
+Waffenfertigkeit: Wurfpfeil
+Waffentyp:  Einhändig
+Kann nicht verwendet werden von:
+  Klerikern
+  Kensai
+  Rittern~
+@33   = ~Flammende Hellebarde des Verteidigers~
+@34   = ~Wie andere Hellebarden so besteht auch diese aus einer geschwungenen Klinge am Ende einer beinahe 2 Meter langen Stange. Obendrein wurde sie mit einigen Zaubern versehen, wodurch sie sie im Kampf noch effektiver ist. Die scharfe Klinge beispielsweise schneidet durch das Fleisch des Gegners bis auf den Knochen, während das spitze Ende jede Lücke in der feindlichen Rüstung durchdringt.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:
+ Bonus auf Rüstungsklasse: +1 
+  Feuerstoß:  +2W6 Feuerschaden und 10% Chance auf +2W10 extra Feuerschaden
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht: 14 Pfd.
+Waffenfertigkeit: Hellebarde
+Waffentyp:  Beidhändig
+Benötigte Stärke: 13
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@35   = ~Massive Hellebarde des Hasses +4~
+@36   = ~Wie andere Hellebarden so besteht auch diese aus einer geschwungenen Klinge am Ende einer beinahe 2 Meter langen Stange. Obendrein wurde sie mit einigen Zaubern versehen, wodurch sie sie im Kampf noch effektiver ist. Die scharfe Klinge beispielsweise schneidet durch das Fleisch des Gegners bis auf den Knochen, während das spitze Ende jede Lücke in der feindlichen Rüstung durchdringt.
+
+EIGENSCHAFTEN:
+
+Schaden:  2W8 + 4
+ETW0 Bonus:  +4 
+Verzauberungsbonus:  +4
+Schadensart:  Stichwaffe
+Speziell:
+  Böse: +2W6 Schaden an guten Kreaturen
+  Vampirisch: verursacht +2 Magieschaden und fügt dem Träger +2 temporäre Trefferpunkte hinzu.
+Gewicht: 28 Pfd.
+Waffenfertigkeit: Hellebarde
+Waffentyp:  Beidhändig
+Benötigte Stärke: 18
+Kann nicht verwendet werden von:
+  Guten Charakteren
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@37   = ~Hellebarde der Schnelligkeit +5~
+@38   = ~Wie andere Hellebarden so besteht auch diese aus einer geschwungenen Klinge am Ende einer beinahe 2 Meter langen Stange. Obendrein wurde sie mit einigen Zaubern versehen, wodurch sie sie im Kampf noch effektiver ist. Die scharfe Klinge beispielsweise schneidet durch das Fleisch des Gegners bis auf den Knochen, während das spitze Ende jede Lücke in der feindlichen Rüstung durchdringt.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:
+  Schnelligkeit: 1 zusätzlicher Angriff pro Runde
+Gewicht: 14 Pfd.
+Waffenfertigkeit: Hellebarde
+Waffentyp:  Beidhändig
+Benötigte Stärke: 13
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@39   = ~Heilger Hammer der Säureexplosion +5~
+@40   = ~Ein Kriegshammer ist eine vollständig aus Stahl gefertigte Waffe. Der Waffenkopf, welcher mit Leichtigkeit Knochen zermalmen kann, sitzt auf einem etwa 50 Zentimeter langem Schaft. Außerdem wurde er mit einigen Zaubern versehen, um seine Durchschlagskraft weiter zu erhöhen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 +5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Wuchtwaffe
+Speziell:
+  Heilig: +2W6 Schaden an bösen Kreaturen
+  Säureexplosion:  +1W6 Säureschaden und 10% Chance auf +1W10 zusätzlichen Säureschaden
+Gewicht: 7 Pfd.
+Waffenfertigkeit: Kriegshammer
+Waffentyp:  Einhändig
+Benötigte Stärke: 9
+Kann nicht verwendet werden von:
+  Bösen Charakteren
+  Druiden
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@41   = ~Delnars Augenausstecher~
+@42   = ~Delnar war ein furchtsamer Magier und nie ein wirklicher Abenteurer. Den Großteil seines Lebens verbrachte er mit dem Studium, lebte mit seiner Mutter und versuchte die Kunst der Herstellung magischer Artefakte zu erlernen. Sein erster Versuch war die Herstellung eines Wurfpfeiles, welcher einem Magier gute Dienste leisten sollte. Die Waffe würde ihr Ziel mit untrüglicher Sicherheit treffen und jedweden magischen Schutz aufheben, bevor er in die Hand des Werfers zurückkehrt. 
+
+Unglücklicherweise, platzte seine Mutter während der Verzauberung in sein Zimmer und sagte: "Sei, vorsichtig, sonst stichst du dir damit noch das Auge aus." Sehr zu Delnans Missfallen wurden die Worte seiner Mutter Teil der Zauberformel. Der Wurfpfeil wirkte zwar wie beabsichtigt, allerdings geschah es mitunter, dass er seinen Werfer bei der Rückkehr das Augenlicht nahm.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4  +5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Geschoss (Stichwaffe)
+Speziell: 
+  Zauber: 90% Chance bei einem Treffer Magie entfernen auf das Ziel zu wirken 
+  Zauber: 5% Chance Blindheit auf den Werfer zu wirken (bei Rettungswurf gegen Tod keine Wirkung)
+  Wiederkehr: kehrt in die Hand des Werfers zurück
+Gewicht: 1 Pfd.
+Waffenfertigkeit: Wurfpfeil
+Waffentyp:  Einhändig
+Kann nicht verwendet werden von:
+  Klerikern
+  Kensai
+  Rittern~
+@43   = ~Wurfpfeile der Insektenplage~
+@44   = ~Bereits vor vierzig Jahren von der zielstrebigen, talonitischen Totenbeschwörer/Priesterin Presio entwickelt, begannen diese Wurfpfeile sich allerdings erst in den letzten sechs oder sieben bei den Anhängern von Talona wachsender Beliebtheit zu erfreuen. Presio war gut berüchtigt in den nördlichen Gefilden, doch trotzdem blieb ihre Anwesenheit denen, die sie am meisten fürchteten, meist verborgen. Gegen 1280 wurde Presio in eigenartige dämonische Vorgänge in den Bergen des Grates der Welt verwickelt. Nur wenige ihrer Gefährten folgten ihr auf diese Reise. Obwohl sie und ihre Verbündeten im Drachenauge geschlagen wurden, blieben viele ihrer Rezepte und Formeln für Tränke und magische Waffen erhalten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4  +3
+ETW0 Bonus:  +3
+Verzauberungsbonus:  +3
+ Zauber: wirkt Insektenplage auf das Ziel
+Schadensart:  Geschoss (Stichwaffe)
+Gewicht: 0 Pfd.
+Waffenfertigkeit:  Wurfpfeil
+Waffentyp:  Einhändig~
+@45   = ~Heiliger Schweizer Hammer von Luzern~
+@46   = ~Diese eigenartige Stangenwaffe scheint eine Kreuzung aus Hellebarde und Kriegshammer zu sein, versehen mit einem vier-zackigen Hammerkopf und einem langen spitzen Dorn.
+
+Sie ist das Ergebnis eines Patzers, welcher bei einer Auftragsarbeit für Lodur den Tapferen (auch bekannt als Lodur der Tollkühne oder Lodur der Dummkopf), ein mächtiger, wenn auch nicht sehr gewitzter Kleriker. Lodur hatte Gerüchte von einem mächtigen Hammer mit langem Schaft gehört, wahrscheinlich getragen von einem Krieger namens Luzern, oder vielleicht war dies auch der Ort an dem er geschmiedet wurde, welcher etwas (oder vielleicht auch nicht) mit einem Land oder König oder Gott mit Namen Schwizaria oder Schweizerland oder "irgendwas in der Art, ich bin mir fast sicher" zu tun hatte
+
+"Oh," hatte er noch ergänzt, "und möget ihr die Waffe auch segnen ... auf dass sie Untote und derlei gewaltig explodieren lasse und ich sie ihre gerechte Strafe erhalten und so weiter."
+
+Lodurs wildes Verhalten, sein Ruf gewalttätig zu sein und die gebotenen Säcke voller Gold überzeugten den zwergischen Waffenschmied, welcher nur nickte und dem Kleriker versprach die Waffe innerhalb zweier Monate fertig zu stellen. Der Waffenschmied beriet sich mit den Sagenkundigen seines Clans und sie waren sich sicher, dass sie von einer solchen Waffe gehört hatten: ein Händler aus Sigil hatte einen erfahrenen Ebenenreiseinder einmal davon reden hören. Der Schmied kopierte pflichtbewusst die Funktionen und Form der Waffe, und bettete magische Runen in Waffenkopf und Schaft, wie Lodur es verlangt hatte.
+
+Als Lodur der Tapfere in die Zwergenfestung zurückkehrte, um seinen neuen Hammer abzuholen, fand er stattdessen eine dornenbesetzte Stangenwaffe vor, deren Benutzung ihm durch seinen Glauben untersagt war. Er tobte, knirschte mit den Zähnen und sein Fluchen schallte durch die Zwergenhallen bevor er letztlich wutentbrannt verschwand, sowohl die Bezahlung als auch den etwas unpassend benannten "Heiligen Schweizer Hammer von Luzern" zurücklassend.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10 + 3
+ETW0 Bonus:  +3 
+Verzauberungsbonus:  +3
+Schadensart:  Stichwaffe
+Speziell:
+  Zerschlagung: Untote deren Rettungswurf -4 gegen Tod fehlschlägt werden augenblicklich zerstört
+  Zauber: 25% Chance bei einem Treffer Heiliges Zerschmettern auf das Ziel zu wirken.
+Gewicht: 15 Pfd.
+Waffenfertigkeit: Hellebarde
+Waffentyp:  Beidhändig
+Benötigte Stärke: 13
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@47   = ~Blutdieb~
+@48   = ~Der Blutdieb ist ein wahres Kunstwerk. Der Speer besitzt eine 45 Zentimeter lange gezackte Klinge aus Adamantitstahl. Auf jeder Seite der Klinge sind schmale Öffnungen, welche ins Innere des Schaftes führen. Außerdem sind glühende Silberrunen in die Klinge eingelassen. Der Schaft misst 180 Zentimeter und ist innen hohl. Er ist aus Eichenholz gefertigt, welches mit Mithralbändern verstärkt und auf Hochglanz poliert wurde.
+
+Der Blutdieb hat vernichtende Eigenschaften im Kampf: er ist vergiftet und vermag dem Gegner Lebensenergie zu entziehen und diese an seinen Träger zurückzugeben. Außerdem ist er sehr gut ausbalanciert, was die Treffergenauigkeit extrem verbessert.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 + 5
+ETW0 Bonus:  +5
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:  
+  Gift: verursacht +1 Schadenspunkt durch Gift pro Runde für 10 Runden (bei Rettungswurf gegen Tod kein Schaden)
+  Vampirisch: verursacht +2 Magieschaden und fügt dem Träger +2 temporäre Trefferpunkte hinzu.
+Gewicht: 6 Pfd.
+Waffenfertigkeit: Speer 
+Waffentyp:  Beidhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@49   = ~Lloths grausamer Stachel~
+@50   = ~Klingen wie diesen sind häufig Geschenke an besonders fähige Attentäter in Diensten Lloths. Die gesamte Waffe ist tiefschwarz und reflektiert keinerlei Licht; ihr Griff ist mit einem feinen Netzmuster versehen, während die 60 Zentimeter lange Klinge mit Gravuren hunderter kleiner Spinnen geschmückt ist. Die dunkle Magie des Kurzschwertes vermag nicht nur den Träger gegen die Auswirkungen magischer Netze zu schützen, sondern kann den Gegner selbst durch Spinnenfäden festhalten.
+
+Typischerweise verwendet ein Meuchelmörder diese Waffe, um sein Opfer in einem Kokon aus Seide zu fangen, anschließend zurückzutreten und dem Feind mit einem vergifteten Wurfpfeil den Rest zu geben. Solche Waffen haben auch manchen angehenden Attentätern geholfen zu fliehen, wenn es ihnen nicht gelang ihr Opfer aus dem Hinterhalt mit einem einzigen Schlag zu töten.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6 + 3
+ETW0 Bonus: +3 
+Verzauberungsbonus:  +3
+Schadensart:  Stichwaffe
+Speziell:
+  Lloths Segen: wirkt Handlungsfreiheit auf den Träger
+  Lloths Fluch: 33% Chance auf +2 Giftschaden pro Sekunde für 7 Sekunden (kein Rettungswurf)
+  Lloths Fluch: 33% Chance dass das Ziel für 7 Sekunden festgehalten wird (kein Rettungwurf)
+Gewicht: 3 Pfd.
+Waffenfertigkeit: Kurzschwert
+Waffentyp:  Einhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern 
+  Magiern
+  Tiermeistern~
+@51   = ~Betäubender Streitkolben des Eises~
+@52   = ~Der Streitkolben ist eine weiterentwicklung der einfachen Keule, bestehend aus einem hölzernen Schaft mit einem Eisenkopf am Ende. in diesem Falle hat der Waffenkopf, welcher auf einem polierten Eichenschaft befestigt ist, die Form einer Pyramide und scheint in einem blauen inneren Licht zu glühen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8
+Schadensart:  Wuchtwaffe
+Verzauberungsbonus:  +5
+Speziell:
+  Betäuben: Das Ziel wird für 3 Sekunden bewegungsunfähig (bei Rettungswurf gegen Lähmen keine Wirkung)
+  Frostbiss: +1W6 Kälteschaden und 10% Chance auf +1W10 zusätzlichen Kälteschaden
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht: 12 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@53   = ~Streitkolben des Heiligen Zerschmetterns~
+@54   = ~Der Streitkolben ist eine weiterentwicklung der einfachen Keule, bestehend aus einem hölzernen Schaft mit einem Eisenkopf am Ende. in diesem Falle hat der Waffenkopf, welcher auf einem polierten Eichenschaft befestigt ist, die Form einer Pyramide und scheint in einem blauen inneren Licht zu glühen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8
+Schadensart:  Wuchtwaffe
+Verzauberungsbonus:  +5
+Speziell:
+  Zauber: 33% Chance Heiliges Zerschmettern auf das Ziel zu wirken
+  Heilig: +2W6 Schaden an bösen Kreaturen
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht: 12 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  bösen Charakteren
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@55   = ~Flammender Streitkolben der Zerschlagung~
+@56   = ~Der Streitkolben ist eine weiterentwicklung der einfachen Keule, bestehend aus einem hölzernen Schaft mit einem Eisenkopf am Ende. in diesem Falle hat der Waffenkopf, welcher auf einem polierten Eichenschaft befestigt ist, die Form einer Pyramide und scheint in einem blauen inneren Licht zu glühen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8
+Schadensart:  Wuchtwaffe
+Verzauberungsbonus:  +5
+Speziell:
+  Feuerstoß:  +1W6 Feuerschaden und 10% Chance auf +1W10 zusätzlichen Feuerschaden
+  Zerschlagung: Untote deren Rettungswurf -4 gegen Tod fehlschlägt werden augenblicklich zerstört.
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Gewicht: 12 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@57   = ~Speer der Betäubung +2~
+@58   = ~Eine der ersten von Menschen verwendeten Waffen, bis in die frühesten Zeiten zurückgehend, waren Speere zuerst nichts anderes als hölzerne Stangen oder Stäbe, welche an einem Ende zugespitzt waren. Als die Menschen den Umgang mit Metallen meisterten wurden Speerspitzen aus Eisen und Stahl gefertigt. Anschließend experimentierten Waffenschmiede mit verschiedenen Formen von Speerköpfen, was zum entstehen verschiedener Stangenwaffen führte. Dieser Speer unterscheidet sich insofern, dass er durch einige Verzauberungen mit zusätzlichen Eigenschaften ausgestattet ist.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 + 2
+ETW0 Bonus:  +2 
+Verzauberungsbonus:  +2
+Schadensart:  Stichwaffe
+Speziell:
+  Betäuben: Das Ziel wird für 3 Sekunden bewegungsunfähig (bei Rettungswurf gegen Lähmen keine Wirkung)
+Gewicht: 5 Pfd.
+Waffenfertigkeit: Speer 
+Waffentyp:  Beidhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@59   = ~Phantomstab +5~
+@60   = ~Die einfachste und bescheidenste der Stabwaffen, der Kampfstab, ist ein 180 bis 270 Zentimeter langer hölzerner Stab. Die besten ihrer Art sind aus Eiche gefertigt und an beiden Enden mit Metallbeschlägen verstärkt. Dieser Stab wurde durch Verzauberungen zusätzlich verstärkt.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Wuchtwaffe
+Speziell:
+  Phantom: Projeziert ein Ebenbild der Waffe, die es dem Träger erlaubt auch weiter entfernte Gegner zu treffen.
+Gewicht: 4 Pfd.
+Waffenfertigkeit: Kampfstab
+Waffentyp:  Beidhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Mönchen~
+@61   = ~Stab der höheren Magieresistenz +5~
+@62   = ~Die einfachste und bescheidenste der Stabwaffen, der Kampfstab, ist ein 180 bis 270 Zentimeter langer hölzerner Stab. Die besten ihrer Art sind aus Eiche gefertigt und an beiden Enden mit Metallbeschlägen verstärkt. Dieser Stab wurde durch Verzauberungen zusätzlich verstärkt.  
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schaden Waffentyp:  Wuchtwaffe
+Speziell:
+  Resistenz: +15% Magieresistenz
+  Gift: +2 Giftschaden pro Sekunde für 6 Sekunden (bei Rettungswurf gegen Tod keine Wirkung)
+Gewicht: 4 Pfd.
+Waffenfertigkeit: Kampfstab
+Waffentyp:  Beidhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Mönchen~
+@63   = ~Bastardschwert der Pestilenz~
+@64   = ~Auch als Eineinhalbhänder bekannt, hat das Bastardschwert seinen Namen der Tatsache zu verdanken, dass es eine Mischung aus Zweihänder und Langschwert ist. Ein Bastardschwert hat eine zweischneidige Klinge und einen langen Griff, welcher bei bedarf mit beiden Händen gefasst werden kann. Die Gesamtlänge variiert zwischen 120 und 150 Zentimeter.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell:
+  Säureexplosion:  +1W6 Säureschaden und 10% Chance auf +1W10 zusätzlichen Säureschaden
+  Gift: +2 Giftschaden pro Sekunde für 6 Sekunden (bei Rettungswurf gegen Tod keine Wirkung)
+  Betäuben: Das Ziel wird für 3 Sekunden bewegungsunfähig (bei Rettungswurf gegen Lähmen keine Wirkung)
+Gewicht:  9 Pfd.
+Waffentyp:  Einhändig
+Waffenfertigkeit: Bastardschwert
+Benötigte Stärke: 11
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@65   = ~Bastardschwert des Zorns~
+@66   = ~Auch als Eineinhalbhänder bekannt, hat das Bastardschwert seinen Namen der Tatsache zu verdanken, dass es eine Mischung aus Zweihänder und Langschwert ist. Ein Bastardschwert hat eine zweischneidige Klinge und einen langen Griff, welcher bei bedarf mit beiden Händen gefasst werden kann. Die Gesamtlänge variiert zwischen 120 und 150 Zentimeter.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10
+Verzauberungsbonus:  +5
+Schadensart:  Hiebwaffe
+Speziell:
+  Feuerstoß:  +2W6 Feuerschaden und 10% Chance auf +2W10 zusätzlichen Feuerschaden
+  Attributsbonus: +2 Stärke
+  Treffsicherheit: Für die Überwindung von Schadensresistenzen wird diese Waffe behandelt als hätte sie einen Verzauberungsbonus von +5 
+Waffentyp:  Einhändig
+Waffenfertigkeit: Bastardschwert
+Benötigte Stärke: 11
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@67   = ~Zorn des Chaos~
+@68   = ~Diese Waffe ist eine meisterliche Arbeit. Die Klinge glüht in rotgold mit einem silbernen Saum. Der Handschutz besteht aus feinem poliertem Platin und der drahtumwickelte Griff wurde aus Adamantit gefertigt. Sobald es gezogen wird erstrahlt die Klinge in allen Farben des Regenbogens.
+
+Dieses Schwert gilt zugleich als Segen und Fluch für seinen Träger. gegen die Meisten Feinde richtet es verheerenden Schaden an und ermöglicht Schläge äußerster Präzision. Es ist bekannt dafür das Blatt in so mancher Schlacht gewendet zu haben. Das Opfer verliert oftmals die Kontrolle über seine Fähigkeiten und wird in einen Zustand von Verwirrtheit versetzt, sobald es von der Waffe getroffen wird. Die Kräfte des Chaos, welche dem Schwert innewohnen, verhindern ebenfalls, dass der Träger in der Schlacht verwirrt oder beherrscht werden kann.
+
+Die Herkunft dieses Schwertes ist unbekannt. Über die Jahrhunderte hinweg tauchte es immer wieder in den Reichen bei verschiedensten Schlachten auf, nur um anschließend wieder zu verloren zu gehen. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+ETW0 Bonus: +3 
+Verzauberungsbonus:  +3
+Schaden Waffentyp: Hiebwaffe
+Speziell:
+  Chaotisch: +2W6 Schaden
+  Zauber: Träger steht unter der Wirkung des Zaubers Chaotische Befehle. an rechtschaffenen Kreaturen
+    Ziel wird für 3 Runden von Chaos betroffen (bei Rettungswurf -4 gegen Zauber keine Wirkung)
+Gewicht: 8 Pfd.
+Waffentyp:  Einhändig
+Waffenfertigkeit: Bastardschwert
+Benötigte Stärke: 11
+Kann nicht verwendet werden von:
+  Rechtschaffenen Charakteren
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@69   = ~Geladenes Kurzschwert +5~
+@70   = ~Das Kurzschwert ist die urtümliche Form des Schwertes. Mit einfachen Worten kann man ein Kurzschwert beschreiben als Dolch, dessen Klinge zu lang ist, um ihn noch als Dolch zu bezeichnen. Die Bezeichnung Kurzschwert als solche existiert in in der Klassifikation von Schwertern. Trotzdem wird sie verwendet um zweischneidige Klingen von etwa 60 Zentimeter Länge zu beschreiben. Das Ende der Klinge ist für gewöhnlich spitz, so dass sie sich ideal als Stichwaffe eignet.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:
+  Blitzschlag:  +2W6 Blitzchaden und 10% Chance auf +2W10 zusätzlichen Blitzchaden
+  Gift: verursacht +1 Giftschaden pro Runde für 10 Runden (bei Rettungswurf gegen Tod keine Wirkung) 
+Gewicht:  3 Pfd.
+Waffenfertigkeit: Kurzschwert
+Waffentyp:  Einhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern 
+  Magiern
+  Tiermeistern~
+@71   = ~Langsam und Beständig~
+@72   = ~Dieser Hammer mit schwerem Waffenkopf sieht aus als wäre er zur Errichtung der Palisade verwendet worden, ohne dass einer der Arbeiter seine Verzauberung bemerkt hätte. Auch wenn diese Waffe etwas langsamer und schwerer als ein Kriegshammer ist, so verursacht sie dafür deutlich mehr Schaden wenn sie ihr Ziel findet. Ein leichter Schlag mit diesem Hammer hingegen erzeugt einen klaren wohlklingenden Ton. 
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 + 4
+ETW0 Bonus:  +4 
+Verzauberungsbonus:  +4
+Schadensart:  Wuchtwaffe
+Speziell:
+  Attributsbonus: +3 Stärke
+Gewicht: 9 Pfd.
+Waffenfertigkeit: Kriegshammer
+Waffentyp:  Einhändig
+Benötigte Stärke: 9
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@73   = ~Zwölf Schritte~
+@74   = ~Dieser lange Speer ist aus einem langen, starken Eichenschaft gefertigt und sieht aus als wäre er ausgiebig bei der Jagd auf Eisbären verwendet worden. Er trägt diverse Zeichen und Runen, um seine Treffergenauigkeit zu verbessern. In einer Situation auf Leben und Tod kann er auf den Feind zuschnellen und ihn treffen noch bevor dieser die Möglichkeit hat wirklich in den Nahkampf zu gehen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 + 4
+ETW0 Bonus:  +4 
+Verzauberungsbonus:  +4
+Schadensart:  Stichwaffe
+Speziell: 
+  Hat eine Reichweite von 5 anstatt von 2
+  Zauber: Träger kann dreimal täglich Bresche und Resistenz senken wirken
+Gewicht: 7 Pfd.
+Waffenfertigkeit: Speer 
+Waffentyp:  Beidhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@75   = ~Caballus' Flüsternder Stab~
+@76   = ~Dieser Eisenholzstab gehörte einst dem Goblinhexer Caballus und noch immer haftet ihm dessen widerlicher Geruch an. Runenketten winden sich um den Stab wie Schlangen, aber abgesehen von einer Rune für Zielsicherheit und einer welche den Schaden erhöht, scheint es sich um sinnlose Aneinanderreihungen zu handeln. Allerdings ist der für seine Größe Stab außergewöhnlich leicht und gut ausbalanciert. Er kann dadurch mit Leichtigkeit in nur einer Hand gehalten werden.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6 + 4
+ETW0 Bonus:  +3 
+Verzauberungsbonus:  +3
+Schadensart:  Wuchtwaffe
+Speziell:  
+ Fertigkeitsbonus: +15% Leise bewegen
+  Zauber: Das Ziel wird von Stille betroffen (bei Rettungswurf gegen Zauber keine Wirkung)
+  Ladung: der Träger kann einmal täglich Massenunsichtbarkeit wirken
+Gewicht: 3 Pfd.
+Waffenfertigkeit: Kampfstab
+Waffentyp:  Einhändig
+Benötigte Stärke: 5
+Kann nicht verwendet werden von:
+  Mönchen~
+@77   = ~Belibs Ewige Fackel~
+@78   = ~Belib der Wachsame war wohl der der bestausgerüstete Abenteurer den die Reiche je gesehen haben, oder hätten, wenn er denn jemals sein Haus verlassen hätte. Ein Stück seiner erstaunlichen Sammlung magischer Ausrüstung ist seine Ewige Fackel. Eine magische Laterne in der Form einer kunstvollen hölzernen Fackel. Sie brennt mit einer hellen orangefarbenen Flamme, welche niemals erlischt. Weder unter Wasser getaucht, noch unter meterdickem Fels begraben, selbst wenn man damit einem durchnässten Sumpftroll eins überzieht, Belibs Fackel wird weiterleuchten.
+
+Als Belib endlich all seine Artefakte vollendet hatte, stopfte er sie in einen riesigen Sack - dieser war verzaubert, um weit mehr aufzunehmen als Belib hätte normalerweise tragen können - und warf ihn sich über die Schultern, vorbereitet für das Abenteuer seines Lebens. Als Belib über die Türschwelle nach draußen trat stolperte er ... und der kleine Gnom und wurde unter seiner gewaltigen Last zermalmt. Der Sack platzte auf und sein Inhalt breitete sich auf der Straße Tiefwassers, in der Belib lebte, aus und verschand rasch in den Händen und Taschen verschiedener Passanten.
+
+Belibs Leiche wurde letztlich zu einem Tempel gebracht und von einer gutmütigen Priesterin wiedererweckt. Aber zu diesem Zeitpunkt waren auch die letzten von Belibs magischen Gegenständen (und das meiste vom Inventar seines Hauses) lange verschwunden. Dankbar, aber verständlicherweise aufgebracht, fertigte Belib eine Anzahl einzigartiger Gegenstände für die Priesterin, bevor er zu seiner Familie in seine Heimat zurückging und der Oberfläche für immer den Rücken kehrte. 
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6
+Schadensart:  Wuchtwaffe
+Speziell:
+  Feuerstoß:  +2W6 Feuerschaden und 10% Chance auf +1W10 zusätzlichen Feuerschaden
+Gewicht:  5 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@79   = ~Cornuganhautrüstung~
+@80   = ~Diese Rüstung ist geheimnisumwittert. Keiner könnte sagen wie sie entstand oder woher sie kam. Bekannt ist nur dass die Rüstung aus der Haut eines Cornugan geschneidert wurde. Sie ist tiefschwarz und mit sehr festen, stacheligen Schuppen durchsetzt. Außerdem haftet ihr ein ungewöhnlicher, leichter, essigähnlicher Geruch an.
+
+Jene, die diese Rüstung trugen waren mit nichtmagischen Waffen nicht zu verwunden und regenerierten ihre Verletzungen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5 
+Speziell:
+  Regeneration: Träger regeneriert 1 Trefferpunkt alle 10 Runden
+  Immunität: Träger ist gegen normale Waffen immun
+Gewicht: 15 Pfd.
+Benötigte Stärke: 6
+Kann nicht verwendet werden von:
+  Magiern
+  Kensai
+  Mönchen
+  Gestaltwandlern~
+@81   = ~Feind der Tapferkeit~
+@82   = ~Dieser Schreckenshammer ist eine furchteinflößende Waffe, geschmiedet, um den Willen der Feinde ebenso zu brechen wie ihre Rüstungen und Knochen. Er ist uralt, sein ursprünglicher Name längst vergessen, selbst in den unermesslichen Archiven der Grauzwerge nicht mehr zu finden. Bedeckt von Runen schrecklicher Macht, trägt der Hammer eine Inschrift in der Sprache der alten Zwerge, welche heute nur noch von den Duergar verwendet wird: "Es ist nicht der Tod der zu fürchten ist, sondern die Furcht vor dem Tod"
+
+Bei jedem Schlag des Feindes der Tapferkeit besteht die Chance, dass das Ziel von unglaublicher Panik befallen wird und es vor dem Besitzer des flieht.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10 + 3
+ETW0 Bonus:  +3 
+Verzauberungsbonus:  +3
+Schadensart:  Wuchtwaffe
+Speziell:
+  Zauber: Ziel wird für 21 Sekunden von Furcht betroffen (bei Rettungwurf gegen Zauber keine Wirkung)
+Gewicht: 7 Pfd.
+Waffenfertigkeit: Kriegshammer
+Waffentyp:  Einhändig
+Benötigte Stärke: 9
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@83   = ~"Baron" Sulos Haken~
+@84   = ~Keiner weiß um die Ursprünge dieses magischen Dolches, doch Berühmtheit erlangte er in Diensten des berüchtigten Priatenkapitäns "Baron" Sulo von Luskan. Als Sulo und seine Crew die Juwelen der Familie Leberm von einem kleinen Transportschiff vor der Küste von Port Llast stehlen wollten, sahen sie sich einer Gruppe von erfahrenen Abenteurern gegenüber, welche zum Schutz angeheurt worden waren. Besonders einer kämpfte wie der Teufel. Zwei zusammengehörige, fein gearbeitete Duellklingen führend, erledigte er viele von Sulos Mannen. Letztlich dem Piratenkapitän gegenüberstehend, trennte er dessen Hand vom Arm. "Baron" Sulo wäre an diesem gestorben, wäre da nicht ein querschlagendes Speer von einer Balliste des Lebermschiffes gewesen - das Geschoss traf den unglücklichen Schwertkämpfer und beförderte ihn blitzschnell über den Rand von Sulos Schiff. Alles was von ihm blieb, war eine seiner Klingen, welche auf dem Deck lag als wäre ihr Besitzter niemals dortgewesen.
+
+Sulo entschied sich diese Klinge, statt eines gewöhnlichen Hakens, am Stumpf seines linken Handgelenkes anzubringen. Nachdem Sulo neun Jahre später getötet wurde, begrub man die Klinge - nebst einer nicht unerheblichen Anzahl an Edelsteinen und Münzen - mit ihm in einer verborgenen Gruft. Trotz des "geheimen" Verbleibs der Überreste Sulos, wurde der Ort sehr bald geplündert und "Baron" Sulos Haken fand seinen Weg in die Hände anderer.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 1
+ETW0 Malus: -1
+Verzauberungsbonus:  +1
+Schadensart:  Stichwaffe
+Speziell:
+  Rüstungsklassenbonus: +3 
+  Rettungswurfbonus: +1 
+  Resistenz: +15% Magieresistenz
+Gewicht: 1 Pfd.
+Waffenfertigkeit: Dolch
+Benötigte Stärke: 3
+Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+@85   = ~Xvims Zahn der Verzweiflung~
+@86   = ~Aus Dankbarkeit und als Zeichen des Vertrauens gegenüber Saablic Tan, dafür dass er sich der Chimärenlegion anschloss, überreichten Isair und Madae Saablic diesen Dolch.
+
+Aus den edelsten Metallen geschmiedet und mit der dunkelsten Magie versehen, reflektiert Xvims Zahn keinerlei Licht. Die Klinge ist so schwarz, dass man keinerlei Details ausmachen kann. Es ist fast so als würde sie das Licht verschlucken.
+
+Saablic Tan trägt diesen Dolch stets bei sich, nicht nur weil dieser die fürchterliche Macht besitzt seine Gegner in Stein zu verwandeln, oder in ihnen Hoffnungslosigkeit zu verbreiten, sondern vor allem weil er den Träger scheinbar intelligenter macht. Wahrlich eine mächtige Waffe für einen mächtigen Zauberer.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W4 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:  
+  Zauber: 5% Chance Fleisch zu Stein auf das Ziel zu wirken
+    20% Chance Gefühl: Verzweiflung auf das Ziel zu wirken.
+  Attributsbonus: +4 Intelligenz
+Gewicht: 1 Pfd.
+Waffenfertigkeit: Dolch
+Benötigte Stärke: 3
+Kann nicht verwendet werden von:
+  Klerikern
+  Tiermeistern~
+@87   = ~Affenarm der Disziplin~
+@88   = ~Neo-Orog Captain Sprawg ist der aktuelle Lehrer für generelle Kampftechniken für die neuen Rekruten der Chimärenlegion.Als solcher brauchte er ein Mittel, um die Rekruten im Zaum zu halten, welshalb der Affenarm der Disziplin geschaffen wurde.
+
+Er sieht exakt so aus wie der Name vermuten lässt und besteht im wesentlichen aus einem großen, versteinerten, an der Schulter abgetrennten Affenarm. Am Schulterende sieht es aus als wäre ein Griff in den Knochen gerammt worden, welcher dann magisch mit diesem verschmolzen wurde. Am entgegengesetzten Ende ist eine offene Hand, die wie geschaffen scheint, um Schmerzen zu verursachen. Wenn jemand damit geschlagen wird so besteht abgesehen vom zu erwartenden Schaden die Chance, dass das Opfer von Angst und/oder Verwirrung betroffen wird. Sobald diese Symptome nachlassen, ist es unwahrscheinlich, dass der Rekrut zukünftig noch einmal Probleme verursacht.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W6  +3
+ETW0 Bonus:  +3
+Verzauberungsbonus:  +3 
+Schadensart:  Wuchtwaffe
+Speziell:
+  Schnelligkeit: der Träger erhält einen zusätzlichen Angriff pro Runde
+  Zauber: 15% Chance dass das Ziel 35 Sekunden lang in Panik flieht (bei Rettungwurf gegen Zauber keine Wirkung) 
+    5% Chance das Ziel für 63 Sekunden zu verwirren (bei Rettungswurf gegen Zauber keine Wirkung) 
+Gewicht: 3 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Requires: 10 Strength
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@89   = ~Kriegshammer der Grausamkeit~
+@90   = ~Einer der Vorzüge als Hohepriester in den Reihen der Chimärenlegion für Brutai Mar bestand darin, dass er diesen tödlichen Kriegshammer erhielt.
+
+In seinen Schaft ist ein sorgfältig eingeätzes Abbild Iyachtu Xvims zu sehen. Der ausgezeichnet gearbeitete Waffenkopf aus Mithral ist größer als gewöhnlich, wirkt aber keineswegs schwerer. Ähnlich wie andere Waffen, welche mit den unheiligen Verzauberungen Iyachtu Xvims versehen sind, verschluckt auch dieser Hammer jegliches Licht, das auf seine Oberfläche fällt.
+
+Bei den wenigen Gelegenheiten zu denen Brutai Mar diese Waffe gegen seine Feinde benutzte, fühlte er sich stärker. Zusätzlich wurden einige seiner zerschmetternden Schläge von Säureexplosionen begleitet.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8 + 3
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +3
+Schadensart:  Wuchtwaffe
+Speziell:
+  Säureexplosion:  33% Chance auf+2W6 Säureschaden und 10% Chance auf +2W10 extra Säureschaden
+  Attributsbonus: +2 Stärke
+Gewicht: 7 Pfd.
+Waffenfertigkeit: Kriegshammer
+Waffentyp:  Einhändig
+Benötigte Stärke: 9
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern 
+  Dieben
+  Mönchen
+  Tiermeistern~
+@91   = ~Pudus Feuriges Verderben~
+@92   = ~Hauptmann Pudu, Chef der Wache der Chimärenligion ist zweifelsohne ein Meister des Übermaßes. Wie es typisch ist für Halbgoblins, so verspürte auch Pudu den Drang die größtmögliche Waffe zu tragen, die ihm seine Halbblutstatur noch gestattete; die Hellebarde.  
+
+Selbstverständlich gab er sich nicht mit irgendeiner gewöhnlichen Hellebarde zufrieden, sondern gab besonders abscheuliche Waffenverzauberung für die Waffe seiner Wahl in Auftrag. Passend zu seiner Stellung innerhalb der Chimärenlegion, verursachte seine Hellebarde, die er liebevoll Pudus Feuriges Verderben nannte, massiven Feuerschaden bei jenen die unglücklich genug waren der rot glühenden Klinge zu begegnen. Zusätzlich war die Hellebarde dafür bekannt den Gegner kampfunfähig und anfälliger zu machen. Ein Feind der sich nicht wehren kann ist in der Tat Pudus liebste Art von Gegnern - aber sag das bloß nicht in seiner Anwesenheit.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W10 + 5
+ETW0 Bonus:  +5 
+Verzauberungsbonus:  +5
+Schadensart:  Stichwaffe
+Speziell:
+  Betäuben: 25% Chance das Ziel für 3 Sekunden zu lähmen. (bei Rettungswurf gegen Lähmen keine Wirkung) 
+  Feuerstoß:  +2W6 Feuerschaden und 10% Chance auf +2W10 zusätzlichen Feuerschaden
+  Zauber: 5% Chance die Magieresistenz des Gegners für 140 Sekunden um 25% zu senken.
+Gewicht: 14 Pfd.
+Waffenfertigkeit: Hellebarde
+Waffentyp:  Beidhändig
+Benötigte Stärke: 13
+Kann nicht verwendet werden von:
+  Druiden
+  Klerikern
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~
+@93   = ~Goblinfeind +1~
+@94   = ~Der Streitkolben ist eine weiterentwicklung der einfachen Keule, bestehend aus einem hölzernen Schaft mit einem Eisenkopf am Ende. in diesem Falle hat der Waffenkopf, welcher auf einem polierten Eichenschaft befestigt ist, die Form einer Pyramide und scheint in einem blauen inneren Licht zu glühen.
+
+EIGENSCHAFTEN:
+
+Schaden:  1W8  +1
+ETW0 Bonus:  +1 
+Verzauberungsbonus:  +1
+Schadensart:  Wuchtwaffe
+Speziell:
+  Vernichtet Gnolle, Goblins, Hobgoblins und Orks bei Berührung
+Gewicht: 12 Pfd.
+Waffenfertigkeit: Streitkolben
+Waffentyp:  Einhändig
+Benötigte Stärke: 10
+Kann nicht verwendet werden von:
+  Druiden
+  Magiern
+  Dieben
+  Mönchen
+  Tiermeistern~

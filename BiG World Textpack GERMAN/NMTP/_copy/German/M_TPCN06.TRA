@@ -1,0 +1,43 @@
+@2    = ~Jemand will mich umbringen! Hilfe!~ 
+@3    = ~Hallo, ich koche gerade.~
+@4    = ~Nicht...~ 
+@10   = ~Ihr dürft nichts essen!~
+@11   = ~Ich koche mit ganzem Herzen.~ 
+@12   = ~Ah... das schmeckt gut, macht weiter.~
+@100  = ~Training der Lebensfertigkeiten
+
+Ihr trefft im Gasthof Feldpost einen Küchenchef, der Euch die Fertigkeit \[Kochen\] lehren kann.~
+@1000 = ~Was kann ich für Euch tun, <LADYLORD>?~ 
+@1001 = ~Kocht Ihr hier?~
+@1002 = ~Nein, ich bin hier der *Küchenchef*. Wenn Ihr etwas zu essen wollt oder Wein bestellen möchtet, dann wendet Euch bitte an den Wirt oder irgendeinen anderen Koch, ich koche nur gelegentlich für solche Gäste, die bei mir reserviert haben... Oh, entschuldigt, ich verachte Euch nicht, wenn Ihr das meint.~ 
+@1003 = ~Bedeutet das, dass Ihr als *Küchenchef* die meiste Zeit nicht selbst kocht?~
+@1004 = ~Ja, aber das bedeutet nicht, dass ich nichts tue. (Er runzelt die Stirn und sieht sich dann um) Ich bin verantwortlich dafür, einigen neuen Küchenmeistern
+Fertigkeiten beim Kochen zu lehren sowie für die Beschaffung frischer Zutaten.~
+@1005 = ~Könnt Ihr mir die Fertigkeit Kochen beibringen?~ 
+@1006 = ~Kann ich von Euch Zutaten fürs Essen kaufen?~
+@1007 = ~Ich habe ein Rezept, könnt Ihr mir helfen, die entsprechenden Zutaten dazu vorzubereiten?~ 
+@1008 = ~Oh, ich verstehe, dann auf Wiedersehen.~
+@1010 = ~(Leicht überrascht sieht er Euch eine Weile an) Ich dachte, Ihr seid nur Abenteuer mit reiner Muskelkraft, ich kann Euch die Kunst des Kochens beibringen, aber Ihr müsst mir 300 Goldstücke als Belohnung zahlen.~
+@1011 = ~Hier ist das Gold, das Ihr wollt.~
+@1012 = ~Lasst mich darüber nachdenken, auf Wiedersehen.~ 
+@1013 = ~Ihr kocht gerne? Ich dachte, dass Abenteurer nur den Geruch von Gefahr gern mögen.
+Ich kann Euch die Fertigkeiten \[Kochen\] beibringen, wisst Ihr... jedenfalls habe nichts mehr zu tun, möchtet Ihr jetzt mit der Ausbildung beginnen?~
+@1020 = ~(Er nimmt die Münzen) Gut, wollen wir mit der Ausbildung beginnen?~ 
+@1021 = ~Ja.~ 
+@1022 = ~Nein, wenn ich bin bereit bin, werde ich zu Euch kommen.~
+@1030 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Kochen\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~ 
+@1031 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Kochen\] trainieren.~
+@1032 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Kochen\] trainieren.~
+@1033 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Kochen\] trainieren.~
+@1034 = ~Ich will so viel Fertigkeiten \[Kochen\] wie möglich trainieren.~
+@1035 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1040 = ~Hallo, was kann ich für Euch tun?~
+@1041 = ~Hier ist das Gold, das Ihr wollt, ich möchte von Euch die Fertigkeit Kochen erlernen.~
+@1042 = ~Ich werde meine Fertigkeiten Kochen trainieren.~
+@1043 = ~Kann ich von Euch einige Zutaten kaufen?~
+@1044 = ~Ich habe ein Rezept, könnt Ihr mir helfen, die entsprechenden Zutaten zuzubereiten?~
+@1045 = ~Nichts, auf Wiedersehen.~
+@1050 = ~Ihr seid bereits ein ausgezeichneter Koch und ich glaube, ich kann Euch nichts mehr beibringen (seufz). Ich schlage vor, Ihr geht nach Baldurs Tor und seht, ob Ihr dort vielleicht einen besseren Lehrer findet.~ ~Ihr seid bereits eine ausgezeichnete Köchin und ich glaube, ich kann Euch nichts mehr beibringen (seufz). Ich schlage vor, Ihr geht nach Baldurs Tor und seht, ob Ihr dort vielleicht einen besseren Lehrer findet.~
+@1051 = ~Danke, ich verstehe.~
+@1060 = ~Ja, Ihr möchtet etwas kaufen?~
+@1061 = ~Ja, aber ich kann Euch nur helfen, drei Zutaten pro Tag zu kaufen.~

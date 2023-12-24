@@ -1,0 +1,81 @@
+@0  = ~Ich werde es nicht zulassen, dass Ihr diesen Turm entweiht! Bleibt weg! Ich... ich... will nicht gegen Euch kämpfen! Geht einfach!~ 
+@1  = ~Beruhigt Euch. Wir haben nicht vor, diesen Turm zu entweihen. Sagt mir, wer seid Ihr? ~
+@2  = ~Ihr werdet hier nicht mehr herumspuken, Geist! Es ist Zeit, Euch in Euer Reich zurückzusenden!~ 
+@3  = ~Wir werden tun, was Ihr verlangt, und gehen.~
+@4  = ~Mein... mein Name ist Denaini. Ich bin eine Priesterin der Hand. Äh... was einmal die Hand war. Wie Ihr seht, ist nicht mehr viel davon übrig. Und die Überreste sind nur ein schreckliches Zerrbild dessen, was wir einst für heilig hielten.~ 
+@5  = ~Was ist mit der Hand passiert?~
+@6  = ~Seid Ihr eine Priesterin?~
+@7  = ~Ich werde mir selbst ansehen, was noch davon übrig ist. Lebt wohl, Priesterin.~ 
+@8  = ~Die Hand der Seldarin war einst eine stolze Meisterleistung der Ar-Tel'Quessir. Aus der schroffen Kälte schnitzten wir eine wunderschöne Elfenzitadelle, in der wir viele Jahrhunderte zufrieden lebten. In dieser Zeit lagen wir ständig im Krieg mit der dunklen Horde, die dieses Gebiet heimsuchte. Schließlich gelang es der dunklen Horde, uns zu überwältigen, und in einem verzweifelten Versuch zu retten, was zu retten war, sprach Larrel den Mythalzauber aus, der uns alle verflucht hat.~
+@9  = ~Was könnt Ihr mir über Larrel und den Mythalzauber erzählen?~ 
+@10 = ~Erzählt mir von Euch.~
+@11 = ~Ich muss mich auf den Weg machen. Lebt wohl.~
+@12 = ~Larrel war unser Anführer, einer der meistgeachteten Zauberer der Hand. Er war vor hunderten von Jahren verantwortlich für den Aufbau der Hand der Seldarin. Nach ihrer Vollendung lebten die Ar-Tel'Quessir hier ein Leben des Wachstums und des Reichtums. Indem wir die Umgebung in fruchtbares Ackerland verwandelten und magische Gegenstände von außergewöhnlicher Macht herstellten, setzten wir der Lebensart der Elfen ein stolzes Denkmal.~ 
+@13 = ~Was ist dann geschehen?~
+@14 = ~Kurz darauf wurden wir in einen Krieg mit der dunklen Horde verwickelt. Hinterhältige Orks und Goblins, die nur im Sinn hatten, alles zu zerstören, was uns wichtig war! Der Krieg mit ihnen dauerte viele Jahrzehnte. Schließlich gelang es der dunklen Horde, uns langsam zu überwältigen. Verzweifelt sprach Larrel den Mythalzauber aus, in der Hoffnung, uns damit zu retten. Stattdessen stürzte er uns ins Verderben.~ 
+@15 = ~Mythal? Ist das eine Art Zauber?~
+@16 = ~Der Mythal ist ein mächtiger Zauber aus einer alten, fast vergessenen Überlieferung der Elfen. Er erschafft eine lebende Kraft, die die Gegend, auf die er wirkt, umgibt. Er nährt sich von den natürlichen Vorgängen in seiner Umgebung und kann mit Kräften ausgestattet werden, die seine Schutzwirkung verstärken.~
+@17 = ~Und der Mythal sollte die Hand vor der Horde schützen?~
+@18 = ~Ich verstehe. Könnt Ihr mir mehr über die Hand erzählen?~ 
+@19 = ~Ja. Als wir der bitteren Wahrheit ins Gesicht sahen, dass wir verlieren würden, mussten wir Zeit gewinnen, um Verstärkung von unseren Brüdern und Schwestern aus dem Süden zu erhalten. Larrel hat einen verzweifelten Plan geschmiedet, um uns zu retten. Er wollte einen Mythalzauber über die Hand aussprechen, der der dunklen Horde den Zugang unmöglich machen sollte.~
+@20 = ~Was ist dann geschehen?~ 
+@21 = ~Obwohl unsere Schwerter schnell waren und unsere Pfeile sicher ihr Ziel trafen, wurde unsere Verteidigung durchbrochen. Tapfer kämpften wir eine Woche lang, bis unsere letzte Verteidigungslinie zerschlagen war. Als die dunkle Horde begann, unsere Türme zu erklimmen und die letzten der Elfenkrieger niederzustechen, legte sich plötzlich ein Lichtschleier über die Hand. Wir hatten es geschafft, mit unseren Leben Larrel genug Zeit zu verschaffen. Der Mythal war ausgesprochen worden.~ 
+@22 = ~Was ging schief?~
+@23 = ~Zu diesem Zeitpunkt dachten wir, Larrel hätte unsere Rettung bewirkt. Stattdessen hatte er uns alle ins Verderben gestürzt. Irgendetwas mit dem Zauber war fürchterlich schief gegangen: Alles, was in der Umgebung und in der Hand selbst lebte, wurde seiner Lebensessenz beraubt und dadurch fast umgebracht. Unser Volk und unsere Angreifer wurden zu bloßen Schatten und viele verloren den Verstand, als ihnen ihre Lebenskraft auf derart grauenvolle Weise ausgesaugt wurde. Schlimmer noch, die Kräfte des Mythal umfingen auch die Toten und brachten sie als Untote zurück.~ 
+@24 = ~Ihr sagt, dass alle Lebewesen den Verstand verloren, als sie zu Schatten wurden, aber Ihr könnt noch mit mir sprechen. Warum?~
+@25 = ~Die Becken des Elfenschreins wiederherstellen
+
+Im Solonar-Turm der Hand der Seldarin sind wir Denaini begegnet. Sie erzählte uns die traurige Mär vom Fall der Abgetrennten Hand und von Larrels tragischem Versuch, sein Volk durch einen Mythalzauber, eine Form alter Elfenmagie, zu retten.~
+@26 = ~Einige von uns bewahrten ihren Verstand und einen schwachen Widerschein ihres früheren Ichs. Verflucht sind wir, ohnmächtig, irgendetwas zu unternehmen, was unsere Lage ändern oder unseren Brüdern und Schwestern die letzte Ruhe verleihen könnte.~
+@27 = ~Das ist wirklich eine traurige Geschichte, Denaini. Könnt Ihr etwas über Eure Zeit als Priesterin hier erzählen?~
+@28 = ~Ich trauere mit Euch, Denaini. Lebt wohl.~
+@29 = ~Ich war eine der jüngeren Altardienerinnen der Hand. In den Tagen, als die Hand noch in Ruhm erstrahlte, verbrachte ich den Großteil meiner Zeit hier. Wie Ihr seht, war diese Ebene des Solonor-Turms das Heiligtum unserer Götter. Hier haben die Elfen der Hand einen Teil ihrer Zeit mit Gebeten verbracht.~
+@30 = ~Was ist mit den anderen Priestern in diesem Turm?~
+@31 = ~Erzählt mir mehr über dieses Heiligtum der Elfen.~
+@32 = ~Die Becken des Elfenschreins wiederherstellen
+
+Denaini sprach davon, wie wunderschön dieser elfische Schrein in seinen besseren Tagen gewesen sei. Sie sagte, sie könnte die Teiche wieder auffüllen, wenn sie etwas Weihwasser hätte.~
+@33 = ~Wie alle Mitglieder der Hand wurden auch wir durch Larrels Mythalzauber unserer Lebensessenz beraubt und in diesen schmachvollen Zustand versetzt. Die anderen Priester wandeln nun völlig ohne Seele und Bewusstsein durch die oberen Ebenen des Solonor-Turms. Sie sind dazu verflucht, so zu leben, es sei denn... es sei denn, jemand kann ihnen den endgültigen Frieden geben.~
+@34 = ~Ich würde gerne mehr über Larrel und den Mythal erfahren.~
+@35 = ~Ihr wollt, dass ich die Priester töte?~
+@36 = ~Ich habe bereits getan, worum Ihr mich gebeten habt. Die Priester wurden zur letzten Ruhe gebettet.~
+@37 = ~Den Priestern der Abgetrennten Hand die letzte Ruhe geben
+
+Wir haben im Solonar-Turm der Abgetrennten Hand mit Denaini über die anderen Priester gesprochen. Sie erzählte uns von ihrem schrecklichen Dasein und bat uns, ihnen den ewigen Frieden zu geben.~
+@38 = ~Den Priestern der Abgetrennten Hand die letzte Ruhe geben
+
+Wir sind zurück zu Denaini gegangen und haben ihr gesagt, die Priester würden nun alle in Frieden ruhen. Sie war sehr dankbar, dass sie nun ihr Leben nach dem Tod beginnen konnten.~
+@39 = ~Ich bin mir nicht sicher, ob mir die Wendung gefällt, die dieses Gespräch nimmt. Bis später, Denaini.~
+@40 = ~Ihr würdet sie *nicht* umbringen: Sie sind bereits tot! Bitte, ich flehe Euch an. Ich würde es selbst tun, wenn ich es könnte. Aber in diesem entsetzlichen Zustand bin ich außer stande, ihnen Frieden zu bringen. Ich bitte Euch nur, ihnen die ewige Ruhe zu verschaffen. Sie haben es verdient, nachdem sie so lange verflucht waren.~
+@41 = ~Sie müssen ihren Frieden finden. Ich werde tun, was Ihr sagt.~
+@42 = ~Vielleicht könnt Ihr mich mit einer Belohnung überzeugen?~
+@43 = ~Das klingt ziemlich schrecklich. Gebt mir etwas Zeit, um darüber nachzudenken. In der Zwischenzeit könntet Ihr mir noch etwas über die Hand erzählen.~
+@44 = ~Ich brauche etwas Zeit, um mich zu entscheiden. Ich würde noch gerne etwas über Eure Pflichten in der Hand erfahren.~
+@45 = ~Ich werde darüber nachdenken. Lebt wohl, Denaini.~
+@46 = ~Den Priestern der Abgetrennten Hand die letzte Ruhe geben
+
+Wir haben im Solonar-Turm der Abgetrennten Hand mit Denaini über die anderen Priester gesprochen. Sie erzählte uns von ihrem schrecklichen Dasein und bat uns, ihnen den ewigen Frieden zu geben.~
+@47 = ~Danke, dass Ihr Euch meine verzweifelte Bitte angehört habt. Bitte macht es so schnell und schmerzlos wie möglich. Wenn Ihr fertig seid, kommt zu mir zurück..~
+@48 = ~Ich komme wieder, Denaini.~
+@49 = ~Wenn Ihr nur ein paar magische Gegenstände haben wollt, so sollt Ihr sie bekommen. Aber bitte macht ihrem Leiden ein Ende. Kommt danach zurück, und ich werde Euch belohnen.~
+@50 = ~Wir sind im Geschäft. Lebt wohl.~
+@51 = ~In seiner früheren Pracht war dieses Heiligtum ein Denkmal für unsere Elfengötter. Die Statuen und die Zierteiche wurden von unseren begabtesten Kunsthandwerkern und Gärtnern geschaffen. In dem kleinen Garten blühten das ganze Jahr über Blumen. Es gab ein einfaches Ritual, bei dem eine Blume aus dem Garten gepflückt und als Opfergabe für unsere Gebete in einen der Zierteiche gelegt wurde. Wie Ihr seht, sind diese Teiche inzwischen völlig heruntergekommen - man möchte kaum hinsehen. Solange ich kein heiliges Wasser finde, um sie zu reinigen, werden sie auch so bleiben.~
+@52 = ~Ich würde gerne mehr über die Hand erfahren.~
+@53 = ~Könnt ihr mir mehr über Euch und Eure Pflichten erzählen?~
+@54 = ~Ich werde sehen, was ich tun kann, Denaini. Gebt auf Euch Acht.~
+@55 = ~Ihr seid zurückgekommen. Was wollt Ihr?~
+@56 = ~Ich würde Euch gerne etwas über die Abgetrennte Hand fragen.~
+@57 = ~Könnt Ihr mir etwas über Euch und Eure Pflichten erzählen?~
+@58 = ~Ich habe etwas heiliges Wasser gebracht, um die Becken zu reinigen.~
+@59 = ~Die Becken des Elfenschreins wiederherstellen
+
+Im Solonar-Turm der Hand der Seldarin sind wir Denaini begegnet. Sie erzählte uns die traurige Mär vom Fall der Abgetrennten Hand und von Larrels tragischem Versuch, sein Volk durch einen Mythalzauber, eine Form alter Elfenmagie, zu retten.~
+@60 = ~Die Becken des Elfenschreins wiederherstellen
+
+Wir gaben Denaini das Weihwasser, das sie wollte, um die Teiche des Elfenschreins wieder aufzufüllen.~
+@61 = ~Ich habe getan, was Ihr verlangt habt. Die Priester haben ihre Ruhe gefunden.~
+@62 = ~Wollte nur kurz vorbeischauen. Lebt wohl, Denaini.~
+@63 = ~Ihr habt Weihwasser mitgebracht! Damit kann ich die Teiche reinigen und diesem Ort der Schönheit wieder etwas von seinem früheren Glanz verleihen. Ich weiß, es ist nicht viel, aber bitte - nehmt dies zum Dank.~
+@64 = ~Lebt wohl, Denaini.~
+@65 = ~Ich danke Euch. Ihr wisst nicht, wie viel mir dies bedeutet. Die Priester der Hand der Seldarin haben jetzt Frieden gefunden und können ins Leben nach dem Tod eintreten. Möge dies Euch bei Eurer Sache helfen.~
+@66 = ~Mögt Ihr Frieden finden, Denaini. Lebt wohl.~

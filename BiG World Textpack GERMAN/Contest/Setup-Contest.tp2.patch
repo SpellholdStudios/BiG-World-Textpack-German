@@ -1,0 +1,10 @@
+--- Contest\Setup-Contest.tp2	Mon May 29 13:27:20 2006
++++ C:\BWP Patchstudio\patched files\Contest\Setup-Contest.tp2	Fri Mar 11 19:22:57 2011
+@@ -8,6 +8,7 @@
+ BACKUP ~Contest/backup~
+ AUTHOR ~igi~
+ LANGUAGE ~English~ ~English~ ~Contest/Languages/English/setup.tra~
++LANGUAGE ~German~ ~German~ ~Contest/Languages/German/setup.tra~
+ // ----------------------------------------------------------------------------
+ 
+ 

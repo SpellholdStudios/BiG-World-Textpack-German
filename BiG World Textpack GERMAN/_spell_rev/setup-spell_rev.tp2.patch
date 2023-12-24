@@ -1,0 +1,14 @@
+--- spell_rev\setup-spell_rev.tp2	Thu Jul 11 09:43:45 2013
++++ C:\BWP Patchstudio\patched files\spell_rev\setup-spell_rev.tp2	Fri Jul 12 07:28:07 2013
+@@ -33,6 +33,11 @@
+                    ~spell_rev\languages\french\divine.tra~
+                    ~spell_rev\languages\french\setup.tra~
+ 
++LANGUAGE ~German~ ~languages\german~
++                   ~spell_rev\languages\german\arcane.tra~
++                   ~spell_rev\languages\german\divine.tra~
++                   ~spell_rev\languages\german\setup.tra~
++
+ 
+ //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
+ ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\

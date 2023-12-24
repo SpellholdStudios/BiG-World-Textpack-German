@@ -1,0 +1,16 @@
+--- NeJE\dlg\KeldornC.d	Sat Jan 30 23:44:01 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\KeldornC.d	Tue Apr 09 19:36:34 2019
+@@ -1,11 +1,11 @@
+ BEGIN ~KELDORNC~
+ 
+ IF ~~ THEN BEGIN K0
+-	SAY ~(He puts his hand up and strokes your check tenderly.)~
++	SAY @0
+ 		IF ~~ THEN EXTERN ~SLAYERDR~ S1
+ END
+ 
+ IF ~~ THEN BEGIN K1
+-	SAY ~(His lips are touching your face, softly moving across your cheek, you feel his hot breath close to your mouth...)~
++	SAY @1
+ 		IF ~~ THEN EXTERN ~SLAYERDR~ S2
+ END

@@ -1,0 +1,19 @@
+@0  = ~Willkommen in Halruaa. Seid Ihr neue Studenten?~ 
+@1  = ~Ähm... ja.~
+@2  = ~Die Suche nach dem zweiten Schlüssel
+
+Endlich... die Bestätigung dessen, wonach ich suche. Ich habe mit einer Magierin mit dem Namen Zeira gesprochen. Sie hat bestätigt, dass Halruaa tatsächlich vorhat, gegen Ulcaster vorzugehen, um die zunehmende Neigung zum Magiergeneralisten, der die Lehren der Magierspezialisten untergräbt, zu verhindern. Es scheint, dass Magierspezialisten von jenseits der Reiche auf ihrem Weg nach Ulcaster durch Hulruaa durchreisten, um deren Feldzug zu unterstützen. Ich muss die Suche verstärken, denn wenn ich es nicht verhindern kann, dann wird das Schicksal von Ulcaster und seiner Akademie sicher besiegelt sein.~ 
+@3  = ~Ausgezeichnet! Ihr habt eine kluge Entscheidung getroffen, nach Halruaa zu kommen. Der Spezialisierung gehört die Zukunft der Magie. Lasst mich Euch vorstellen, ich bin Zeira, eine Tutorin in der Schule der Abschwörung hier, und Ihr seid?~
+@4  = ~Ich bin <CHARNAME>. Wie denkt Ihr über die Zukunft der Magie, Zeira?~ 
+@5  = ~Hallo, Zeira. Ich bin <CHARNAME>. Ihr sagt, *gehört die Zukunft*. Könnt Ihr erklären, was Ihr mit dieser Behauptung meint? ~
+@6  = ~Gut, Euch zu treffen, Zeira. Ich bin <CHARNAME>. Sagt mir, hat dieses *gehört die Zukunft* irgendetwas mit der Geheimnistuerei zu tun, die Halruaa zur Zeit umgibt?~
+@7  = ~Wir in Halruaa lehren die Magier, sich zu spezialisieren, weil wir glauben, dass auf diese Weise die Macht des Magiers außerordentlich vergrößert wird. Die zusätzliche Zeit, die erforderlich ist, um sich zu spezialisieren, ist gut verbracht, weil es sicher besser ist, in einer Schule Experte zu sein, als in keiner Meister zu sein. Die steigende Tendenz zum Magiergeneralisten droht alles zu untergraben, was wir anstreben, hier zu unterrichten. Wir können nicht erlauben, dass das geschieht.~ 
+@8  = ~Wollt Ihr damit sagen, dass Halruaa vorhat, sich für die Spezialisierung einzusetzen?~
+@9  = ~Ich nehme an, nach dem, was Ihr gesagt habt, dass die Magier von Halruaa planen, den Anstieg der Verallgemeinerung aufzuhalten?~ 
+@10 = ~Sicherlich ist dort Platz für den Spezialistenund den Magiergeneralisten? Es muss mehr als das dahinter stecken.~
+@11 = ~Wenigstens jemand, der bereit ist, ehrlich mit mir zu sprechen. Erzählt mir, Zeira, wer steckt hinter diesem ganzen Plan?~
+@12 = ~Sicherheit ist immer ein notwendiger Teil jedes Feldzuges. Wir in Halruaa wollen unseren jungen Studenten keinen Anlass zur Besorgnis geben, aber wir können nicht gleichzeitig diese steigende Tendenz zum Magiergeneralisten erlauben, die unseren Unterricht zum Spezialisten untergräbet.~ 
+@13 = ~Es steht mir nicht zu, Details über die Angelegenheiten von Halruaa weiterzugeben. Noch sind einige der Entscheidungen, die getroffen wurden, zur weiteren Diskussion gestellt. Ich erzähle Euch das, weil es jetzt keinen Weg zurück gibt.~
+@14 = ~Stimmt Ihr mit dem überein, was die Magier von Halruaa selbst zu tun übernommen haben?~ 
+@15 = ~Was macht Euch so sicher, dass es keinen Weg zurück gibt?~
+@16 = ~Ihr braucht Euch nicht mit zukünftigen Ereignissen zu beschäftigen. Alle Magier von Halruaa stimmen darin überein, was getan werden muss. Sie sind nicht allein, Magierspezialisten aus allen Reichen sind durch Halruaa gekommen und haben sich versammelt, um ihre Unterstützung anzubieten. Ich werde jetzt woanders gebraucht und ich bin sicher, dass Ihr wisst, was zu tun ist.~

@@ -1,0 +1,56 @@
+@0 = ~Ich bin nicht abgeneigt, für eine Weile auf mich selbst angewiesen zu sein, wenn es das ist, was Ihr wollt. Eure Entscheidung.~ [VALY2518]
+@1 = ~Nein, bleibt vorläufig in der Gruppe.~
+@2 = ~Wartet dann einfach hier.~
+@3  = ~Ich schicke Euch in das Einsprengsel zurück... wartet dort.~
+@4 = ~Also gut. Ich hoffe, Euch später zu sehen.~
+@5 = ~Seid... seid Ihr sicher, dass Ihr wollt, dass sich die Wege trennen? Ich würde es hassen, wenn Euch etwas passiert und ich nicht da war.~
+@6 = ~Bleibt dann in der Gruppe, mein Fehler.~
+@7 = ~Wartet hier eine Weile, ich komme wieder.~
+@8 = ~Ich schicke Euch in das Einsprengsel zurück... wartet dort auf mich.~
+@9 = ~Dann sehn wir uns bald wieder. Passt auf Euch auf.~
+@10 = ~Gut, Euch wieder zu sehen. Braucht Ihr mich wieder in der Gruppe?~ [VALY2519]
+@11 = ~Ja, lasst uns gehen.~
+@12 = ~Noch nicht. Wartet hier eine Weile länger.~
+@13 = ~Ich bin erleichtert, zu sehen, dass es Euch immer noch gut geht. Ich hasse es zuzugeben, aber ich mache mir Sorgen um Euch. Wollt Ihr, dass ich mich Euch wieder anschließe?~
+@14 = ~Noch nicht, wartet hier noch eine Weile.~
+@15 = ~Kein Problem. Ich komme zurecht.~
+@16 = ~(*Valygar ergreift Eure zitternde Hand und sieht in Euer blasses, erschüttertes Gesicht.*)
+
+Es tut mir so Leid, dass Ihr dies mit ansehen musstet, <CHARNAME>... Ich konnte nicht mit ihm vernünftig reden, und er machte mich an... Ich fürchtete um Euer Leben und die Sicherheit der Gruppe. <CHARNAME>, könnt Ihr mir jemals verzeihen? Ich werde verstehen, wenn Ihr wollt, dass ich Euch verlasse!~
+@17 = ~ (*Ihr schaut Valygar in die Augen. Ihr seht die Gewissensbisse und den Kummer in ihnen.*) ~
+@18 = ~(*Ihr verstärkt Euren Griff um seine Hand.*)
+
+Es gibt nichts zu vergeben, Valygar. Ich verurteile Euch nicht. Sein letzter Ausbruch erschreckte mich auch. Ich gebe zu, dass seine Zwanghaftkeit eine Gefahr für uns alle hätte werden können. Ich wünsche nur, dass er veranlasst worden sein könnte, den Grund zu sehen, bevor es dazu kam. Ich hatte solche Angst, dass er Euch verletzen würde, ich hätte es nicht ertragen können, Euch zu verlieren, nicht jetzt. Bitte Valygar, bleibt bei mir. Bitte?~ 
+@19 = ~(*Eure Hände schließen sich fest um seine.*)
+
+Ich hatte keine Ahnung, dass er so empfand. Ich schwöre Euch, Valygar, ich gab ihm keine Ermunterung. Ich bemühte mich nur ihn zu beruhigen wegen seiner Fähigkeit, einen gutten Ritter zu machen. Wenn er meine Worte missdeutete, dann bin ich vielleicht schuld. Durch meine Taten verlor ich Euch beinahe, und das erschreckt mich mehr als alles andere. Euer Verlust wäre für mich unerträglich. Bitte Valygar, bleibt bei mir. Bitte?~
+@20 = ~(*Ihr drückt seine Hand.*)
+
+Ich wünsche, Ihr hättet mir diesen Waldläufer überlassen! Ich kann gut auf mich selbst aufpassen, und ich bin sicher, ich hätte mit ihm vernünftig reden können. Wir hätten dieses Durcheinander und dieses blutige Ende vermeiden können. Ein wertvoller Verbündeter ging uns jetzt verloren, aber was geschehen ist, kann nicht rückgängig gemacht werden... Ich bin jedoch erleichtert, dass Ihr es seid, der noch neben mir steht und nicht Anomen. Ich konnte es nicht ertragen, Euch jetzt zu verlieren. Bitte Valygar, bleibt.~ 
+@21 = ~(*Ihr verstärkt Euren Griff um seine Hand.*)
+
+Ihr überrascht mich immer wieder, mein düsterer Waldläufer. Ich begriff nicht, dass Ihr solche Leidenschaft hegt. Es scheint, dass Anomen Euch ebenso unterschätzte und das teuer bezahlt hat. Ich hoffe, dass Ihr etwas von dieser Leidenschaft dafür aufgehoben habt, bis wir schließlich auf unsere echten Feinde treffen. Was geschehen ist, kann nicht rückgängig gemacht werden, er wurde unvernüftwidrig, deshalb mache ich keinen verantwortlich. Kommt Valygar, wir müssen alle weiter machen.~ 
+@22 = ~(*Ihr haltet seine Hand fest, ohne einen weiteren flüchtigen Blick auf Anomens Körper zu werfen.*)
+
+Ich fragte mich, wer von uns schließlich mit seinem ständigen Miauen Schluss machen würde, aber ich nahm nicht an, dass Ihr es seid, mein düsterer Waldläufer! Ich verneige mich vor Euch, Graf Corthala, das Ihr mich von dieser Aufgabe befreit. Ich lade keine Schuld auf Euch, der aufgeblasene Trottel hat sie sich selbst aufgeladen.~
+@23 = ~(*Ihr lasst widerwillig Valygars Hand los.*)
+
+Valygar, schaut auf die Gesichter Eurer Begleiter. Seht in ihren Augen, wie sie jetzt mehr als ein wenig Angst vor Euch haben. Das ist nicht, was ich will, das jetzt passiert, ich muss tun, was für sie das beste ist. Unser †berleben hängt davon ab zu wissen, dass wir uns auf einander in jeder Situation verlassen können. Wir vertrauen einander mit unseren Leben. Wenn es eine andauernde Notwendigkeit ist, darauf achtzugeben, weil ein Wort oder Handlung bald wieder solch eine Reaktion provozieren könnte, stirbt jemand anderer. Ich kann dieses Risiko nicht eingehen. Es tut mir Leid, Valygar, aber für die Sicherheit der Gruppe denke ich, dass es am besten ist, wenn Ihr uns verlasst.~ 
+@24 = ~(*Ihr zieht Eure Hand aus Valygars.*)
+
+Nicht genug damit, dauernd auf unsere Rücken achten zu müssen, sondern jetzt bekämpfen wir uns selbst. Ein Mann ist tot, und ich muss sicher sein, dass das nicht wieder geschieht. Anomen war hitzköpfig, dem stimme ich zu, aber Ihr, Valygar, ich dachte über seine Provokation nach.  Ich kann nicht einen mehr verantwortlich machen als den anderen, aber Anomen hat teuer bezahlt. Ich kann nicht länger mehr vertrauen, dass Ihr in jeder gegebenen Situation Euren Kopf behaltet, deshalb gebe ich zu, dass es für die Sicherheit der Gruppe am besten ist, wenn Ihr uns verlasst..~
+@25 = ~(*Ihr reißt Eure Hand verärgert aus Valygars.*)
+
+Valygar, ich bin kein Ding, um das gekämpft werden kann! Ihr enttäuscht mich, ich dachte wirklich, dass Ihr reif und klug genug seid, um nicht durch die Worte einer unreifen Jugend provoziert zu werden. Es ist nicht von Bedeutung, wer zuerst schlug, Ihr hättet Eure Waffe weglassen können, als Ihr die Oberhand hattet. Wenn man Euch nicht trauen kann, dass Ihr Euren Kopf in jeder gegebenen Situation behaltet, dann fürchte ich, dass ein anderes Leben verloren geht. Ich sehe keine andere Wahl als darauf zu bestehen, dass Ihr uns verlasst!~
+@26 = ~(*Ihr reißt Eure Hand verärgert aus Valygars.*)
+
+Was in den Neun Höllen denkt Ihr, Waldläufer! Wer gab Euch die Erlaubnis, einzutreten und diese Verwirrung zu verursachen? Ich war dazu mehr als fähig, die Situation in den Griff zu bekommen und auf eine viel weniger blutige Weise! Wenn ich wirklich dachte, dass Anomen eine Gefahr geworden war, hätte ich darauf bestanden, dass er uns verlässt. Jetzt, dank Euch, ist ein guter Kleriker tot! Ich denke nicht einmal, dass Wiederbeleben möglich ist, deshalb kann ich nicht ungeschehen machen, was Ihr getan habt. Wenn man Euch nicht trauen kann, dass Ihr Euren Kopf in jeder gegebenen Situation behaltet, dann sind alle unsere Leben gefährdet und ich will diese Gruppe nicht in Gefahr bringen. Es ist am besten, dass Ihr uns jetzt verlasst, Waldläufer!~
+@27 = ~(*Der besorgte Ausdruck auf Valygars Gesicht zeigt Erleichterung.*)
+
+Danke, <CHARNAME>. Ich bedauere aufrichtig, was hier heute vorgekommen ist. Ich werde Euch keinen Anlass geben, dass es Euch Leid tut, dass Ihr Euch dafür entschieden habt, mir eine weitere Chance zu geben, Euch meine Lehenstreue zu beweisen, das kann ich Euch versprechen.
+
+(*Er beteuert nochmals seinen Griff um Eure Hand, als Ihr Euch umdreht und der Gruppe wieder anschließt.*)~
+@28 = ~(*Valygar sieht Euch sorgenvoll an.*)
+Wie Ihr wünscht, <CHARNAME>. Ich will, dass Ihr wisst, dass ich aufrichtig bedauere, was hier heute vorgekommen ist, und dass ich unsere Zeit zusammen oder alles, was ich von Euch gelernt habe, nie vergessen werde. Passt auf Euch auf, <CHARNAME>.
+
+(*Ohne ein weiteres Wort schaut er auf seine leere Hand, dreht sich um und geht langsam weg, ohne sich umzusehen. Ihr wendet Euch der Gruppe zu, und keiner sagt noch ein Wort, als Ihr weitermacht.*)~

@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V12.baf	Tue Dec 02 00:22:10 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V12.baf	Wed Apr 10 10:28:31 2019
+@@ -8,10 +8,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~By Waukeen, it's warm in here!~) // "By Waukeen, it's warm in here!"
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~The lizards ought to get a good meal out of me!~) // "The lizards ought to get a good meal out of me!"
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ END
+ 

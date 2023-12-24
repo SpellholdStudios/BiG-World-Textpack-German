@@ -1,0 +1,160 @@
+--- sword_and_fist\german\setup.tra	Sun Sep 16 12:24:48 2007
++++ C:\BWP Patchstudio\patched files\sword_and_fist\german\setup.tra	Sat Oct 06 14:44:58 2012
+@@ -1,4 +1,3 @@
+-@1     = ~This component is only available for the Windows version of the game.~
+ @100   =~Mönch Remix~
+ @101   =~MÖNCH: Mönche sind Krieger, die versuchen, Perfektion zu erreichen, indem sie ihre Körperbeherrschung und ihre geistigen Fähigkeiten trainieren. Sie sind vielseitige Kämpfer, die vor allem im Kampf ohne Waffen und Rüstungen geschult sind. Dank dieses rigorosen Trainings können sie so hart zuschlagen, als wären sie bewaffnet und schneller, als ein Krieger mit dem Schwert.
+ 
+@@ -23,11 +22,11 @@
+ - Erhält Immmunität gegen Bezauberung in der 20. Stufe.
+ - Erhält Immunität gegen nichtmagische Waffen in der 20. Stufe.
+ 
+-- Kann 'Schlaghagel' nach Belieben einsetzen. Der Mönch erhält für die nächste Runde 1 zusätzlichen Angriff, aber erleidet einen Abzug von -4 auf seine Trefferwürfe. Diese Strafe wird in der 5. Stufe auf -3 reduziert, in der 9. Stufe auf -2 und in der 13. Stufe auf -1.
++- Kann "Schlaghagel" nach Belieben einsetzen. Der Mönch erhält für die nächste Runde 1 zusätzlichen Angriff, aber erleidet einen Abzug von -4 auf seine Trefferwürfe. Diese Strafe wird in der 5. Stufe auf -3 reduziert, in der 9. Stufe auf -2 und in der 13. Stufe auf -1.
+ - Kann pro Stufe einmal täglich einen betäubenden Schlag einsetzen. Für jeden erfolgreichen Angriff, den der Mönch in den nächsten 6 Sekunden ausführt, muß dem Opfer ein Rettungswurf gegen Lähmung gelingen oder es wird gelähmt.
+-- Kann 'Unversehrtheit des Körpers' einmal pro Tag ab der 7. Stufe einsetzen. Der Mönch heilt das zweifache seiner Stufe an seinen eigenen Lebenspunkten.
+-- Kann ab der 15. Stufe einmal täglich 'Vibrierende Handfläche' einsetzen. Trifft der Mönch mit seinem nächsten Nahkampfangriff, muß dem Opfer ein Rettungswurf gegen Todesmagie gelingen oder es stirbt.
+-- Kann ab der 19. Stufe einmal täglich 'Leere des Körpers' einsetzen. Der Mönch wird für eine Runde ätherisch und dadurch unsichtbar und immun gegen jeglichen Schaden. Allerdings kann er selbst auch nicht angreifen.
++- Kann "Unversehrtheit des Körpers" einmal pro Tag ab der 7. Stufe einsetzen. Der Mönch heilt das zweifache seiner Stufe an seinen eigenen Lebenspunkten.
++- Kann ab der 15. Stufe einmal täglich "Vibrierende Handfläche" einsetzen. Trifft der Mönch mit seinem nächsten Nahkampfangriff, muß dem Opfer ein Rettungswurf gegen Todesmagie gelingen oder es stirbt.
++- Kann ab der 19. Stufe einmal täglich "Leere des Körpers" einsetzen. Der Mönch wird für eine Runde ätherisch und dadurch unsichtbar und immun gegen jeglichen Schaden. Allerdings kann er selbst auch nicht angreifen.
+ 
+ - Kann sich im Schatten verstecken und leise bewegen.
+ - Kann Fallen finden.
+@@ -45,7 +44,7 @@
+ @105   =~Leere des Körpers~
+ 
+ @3000 =~Installiere Fluchklinge Kämpfer-Kit~
+-@3001 =~fluchklinge~
++@3001 =~Fluchklinge~
+ @3002 =~Fluchklinge~
+ @3003 =~FLUCHKLINGE: Durch die Verbindung kriegerischer Tapferkeit mit arkaner Macht, stellt die Fluchklinge eine tödliche Herausforderung für Gegner dar, die nicht auf einen solchen Widersacher eingestellt sind. Fluchklingen ziehen auf Abenteuer auf der Suche nach persönlichem Gewinn, ob dieser Gewinn nun Macht, Ruhm, Reichtum oder alles zusammen ist. Das Vorgehen der Fluchklinge ist selbstsüchtig, manchmal auch grausam und selbst die am freundlichsten erscheinende Fluchklinge dient gewöhnlich ihren eigenen Zwecken. Ihre Magie unterstützt sie im Kampf und sie verlassen sich gern darauf, ihre Gegner zu verfluchen.
+ 
+@@ -54,12 +53,12 @@
+ Vorteile:
+ 
+ -  Erhält +1 auf Rettungswürfe gegen Zauber. Erhält noch einmal +1 in Stufe 11.
+--  Kann einmal täglich pro 5 Stufen 'Verhängnis' zaubern.
+--  Kann ab Stufe 4 einmal täglich 'Personen bezaubern' und 'Schlaf' zaubern. Auf Stufe 8 wird ein weiterer Gebrauch erworben.
+--  Kann ab Stufe 7 einmal täglich 'Größeres Unbehagen' zaubern. Weitere Anwendungen werden in Stufe 14 und 20 erworben.
+--  Kann ab Stufe 8 'Unsichbarkeit' und 'Spiegelbild' jeweils einmal täglich zaubern. Ab Stufe 12 gibt es eine weitere Anwendung.
+--  Kann ab der 12. Stufe 'Schutz vor normalen Geschossen' und 'Vampirgriff' einmal täglich einsetzen, einmal mehr ab Stufe 16.
+--  Kann ab Stufe 16 einmal täglich 'Erweiterte Unsichtbarkeit' und 'Andere verwandeln' zaubern. Erhält einen weiteren Gebrauch in der 20. Stufe.
++-  Kann einmal täglich pro 5 Stufen "Verhängnis" zaubern.
++-  Kann ab Stufe 4 einmal täglich "Personen bezaubern" und "Schlaf" zaubern. Auf Stufe 8 wird ein weiterer Gebrauch erworben.
++-  Kann ab Stufe 7 einmal täglich "Größeres Unbehagen" zaubern. Weitere Anwendungen werden in Stufe 14 und 20 erworben.
++-  Kann ab Stufe 8 "Unsichbarkeit" und "Spiegelbild" jeweils einmal täglich zaubern. Ab Stufe 12 gibt es eine weitere Anwendung.
++-  Kann ab der 12. Stufe "Schutz vor normalen Geschossen" und "Vampirgriff" einmal täglich einsetzen, einmal mehr ab Stufe 16.
++-  Kann ab Stufe 16 einmal täglich "Erweiterte Unsichtbarkeit" und "Andere verwandeln" zaubern. Erhält einen weiteren Gebrauch in der 20. Stufe.
+ 
+ Nachteile:
+ 
+@@ -67,7 +66,7 @@
+ -  ETW0 erhöht sich nicht in den Stufen 4, 8, 12, 16 und 20.
+ -  Kann nicht die Klasse wechseln.
+ 
+-A Fluchklingen können die Magiersprüche 'Wort der Macht: Blindheit, Stille und Betäubung' als hochstufige Fähigkeiten mit einem Gebrauch täglich wählen, zusätzlich zu der normalen Auswahl eines Kämpfers. Sie werden in gleicher Weise gesprochen wie ihre anderen Zauber.~
++A Fluchklingen können die Magiersprüche "Wort der Macht: Blindheit, Stille und Betäubung" als hochstufige Fähigkeiten mit einem Gebrauch täglich wählen, zusätzlich zu der normalen Auswahl eines Kämpfers. Sie werden in gleicher Weise gesprochen wie ihre anderen Zauber.~
+ 
+ @3100 =~Installiere Duellant Kämpfer-Kit~
+ @3101 =~duellant~
+@@ -97,7 +96,7 @@
+ 
+ -  Erhält +1 auf ETW0 pro 6 Stufen.
+ -  Erhält ab der 4. Stufe +1 auf Schaden pro 6 Stufen.
+--  Kann ab der 7. Stufe einmal täglich 'Mantel der Furcht' zaubern. Weitere Anwendungen erhält er in den Stufen 14 und 20.
++-  Kann ab der 7. Stufe einmal täglich "Mantel der Furcht" zaubern. Weitere Anwendungen erhält er in den Stufen 14 und 20.
+ 
+ Nachteile:
+ 
+@@ -114,10 +113,10 @@
+ 
+ Vorteile:
+ 
+--  Kann 'Hände auflegen' einmal täglich auf sich selbst anwenden und damit 2 Lebenspunkte pro Stufe heilen.
+--  Kann 'Gutes entdecken' und 'Schutz vor Gutem' jeweils dreimal täglich anwenden.
++-  Kann "Hände auflegen" einmal täglich auf sich selbst anwenden und damit 2 Lebenspunkte pro Stufe heilen.
++-  Kann "Gutes entdecken" und "Schutz vor Gutem" jeweils dreimal täglich anwenden.
+ -  Kann ab Stufe 5 einmal täglich für 6 Stufen seine Waffe mit Gift ummanteln. Angriffe in der nächsten Runde vergiften das Opfer und verursachen 1 Schadenspunkt pro Sekunde für 24 Sekunden (3 Schadenspunkte für die ersten 6 Sekunden).  Ein Rettungswurf gegen Gift verringert den Schaden auf 12 Schadenspunkte insgesamt.
+--  Kann ab Stufe 7 'Tote beleben' einmal täglich zaubern. Erhält weitere Anwendungen in der 14. und 20. Stufe.
++-  Kann ab Stufe 7 "Tote beleben" einmal täglich zaubern. Erhält weitere Anwendungen in der 14. und 20. Stufe.
+ 
+ Nachteile:
+ 
+@@ -125,43 +124,43 @@
+ -  Kann die Klasse nicht wechseln.
+ -  Ein Finsterer Streiter, dessen Ruf 14 übersteigt, oder der aufhört böser Gesinnung zu sein, wird auf ewig von seiner Gottheit verflucht und verliert alle besonderen Fähigkeiten. Er wird danach als gewöhnlicher Kämpfer behandelt, außer, dass er weiterhin in Waffenspezialisierungen eingeschränkt ist.
+ 
+-Die hochstufigen Fähigkeiten des Finsteren Streiters entsprechen denen des normalen Kämpfers, zuzüglich 'Gefallene Deva beschwören'.~
++Die hochstufigen Fähigkeiten des Finsteren Streiters entsprechen denen des normalen Kämpfers, zuzüglich "Gefallene Deva beschwören".~
+ @3304=~Hände auflegen~
+ @3305=~Gutes entdecken~
+ @3306=~Schutz vor Gutem~
+-@3307=~verstoßener finsterer streiter~
++@3307=~verstoßener finsterer Streiter~
+ @3308=~Verstoßener Finsterer Streiter~
+ @3309=~VERSTOßENER FINSTERER STREITER: Als ehemaliger Finsterer Streiter habt Ihr zu viele gute Taten vollbracht und seid von Eurer Gottheit verstoßen worden. Ihr seid Eurer Macht beraubt und müßt überleben, so gut Ihr es vermögt.~
+ 
+-@3400=~Install Duskblade fighter kit (by ronin69hof, ronin60hof@gmail.com~
+-@3401=~duskblade~
+-@3402=~Duskblade~
+-@3403=~DUSKBLADE: The duskblade blurs the line between spellcaster and warrior, marrying the power of magic with hand-to-hand combat prowess.  A student of ancient elven spellcasting techniques, the duskblade combines arcane spellcasting with the combat skills of a fighter.  While the ability to cast arcane spells in armor originated with the elves, over the millennia the secrets of the duskblade have been disseminated to the other races and today members of any race can become a duskblade but Human's, Elves and Half-Elves are the most common.
+-
+-Duskblades are able to use their magic while wearing armor up to and including splint mail, and may be of any non-evil alignment.
+-
+-Advantages:
+-
+--  From level 4, may cast Entropic Shield and Magic Missile once each per day. An extra use is gained at level 8 and 12. Entropic Shield forms a magical residue providing mild protection from all ranged attacks. The shield has a 20% chance of deflecting a missile attack away from the caster. This lasts for 5 rounds per 4 levels of the caster.
+--  From level 7, may cast Melf's Acid Arrow once per day. Extra uses are gained at levels 14 and 20.
+--  From level 8, may cast Remove Magic and Haste once each per day. An extra use is gained at level 12.
+--  From level 12, may cast Greater Malison and Stoneskin once each per day. An extra use is gained at level 16.
+--  From level 16, may cast Breach and Phantom Blade once each per day. An extra use is gained at level 20.
+-
+-Disadvantages:
+-
+--  May only Specialize (2 stars) in weapons.
+--  May not dualclass.
+--  May not use bows or missile weapons
+--  Can only wear armor up to and including splint mail
+-
+-A Duskblade may pick the Wizard spells of Tenser’s Transformation, Mantle or Mordenkainen’s Sword as HLAs, each useable once per day, in addition to the normal choice available to a Fighter. These are cast in the same manner as their other spells.~
+-@3404=~Entropic Shield~
+-@3405=~Entropic Shield (Abjuration)
+-Level: 1
+-Area of effect: Self
+-Duration: 5 rounds/4 levels
+-Casting time: 1
++@3400 = ~Installiert Dämmerklinge Kämpfer-Kit (by ronin69hof, ronin69hof@gmail.com~
++@3401 = ~Dämmerklinge~
++@3402 = ~Dämmerklinge~
++@3403 = ~DÄMMERKLINGE: Die Dämmerklinge verwischt die Grenze zwischen Zauberwirker und Krieger, vereinigt die Macht der Magie mit den Nahkampf-Fähigkeiten. Als Student der alten Technik des Wirkens von Zaubern der Elfen, verbindet die Dämmerklinge das Wirken geheimnisvoller Zauber mit den Kampffähigkeiten eines Kämpfers. Während die Fähigkeit, geheimnisvolle Zauber in Rüstung zu wirken von den Elfen hervorgebracht wurde, wurden über die Jahrtausende die Geheimnisse des Dämmerklinge zu anderen Rassen verbreitet und heute können Mitglieder aller Rassen zur Dämmerklinge werden, aber Menschen, Elfen und Halbelfen sind die geläufigsten.
+ 
+-This spell forms a magical residue providing mild protection from all ranged attacks. The shield has a 20% chance of deflecting a missile attack away from the caster. This lasts for 5 rounds per 4 levels of the caster.~
+-@3406=~You have summoned an Entropic Shield~
++Dämmerklingen sind im Stande, ihre Magie zu verwenden, während sie Rüstung bis hin zur Schienen-Rüstung tragen und können von jeder nicht-schlechten Gesinnung sein.
++
++Vorteile:
++
++- Ab Stufe 4 kann er einmal pro Tag "Entropie-Schild und "Magische Geschosse" wirken. Ein zusätzlicher Einsatz wird bei Stufe 8 und 12 erlangt. Der Entropie-Schild bildet einen magischen Rückstand, der leichten Schutz gegen alle Fernkampf-Angriffen bietet. Der Schild hat eine Chance von 20 %, einen Fernkampf-Angriff vom Wirker abzulenken. Das hält für 5 Runden pro 4 Stufen des Wirkers an.
++- Ab Stufe 7 kann er einmal pro Tag "Melfs Säurepfeil" wirken. Ein zusätzlicher Einsatz wird bei Stufe 14 und 20 erlangt.
++- Ab Stufe 8 kann er einmal pro Tag "Magie Entfernen" und "Hast" wirken. Ein zusätzlicher Einsatz wird bei Stufe 12 erlangt.
++- Ab Stufe 12 kann er einmal pro Tag "Größeren Fluch" und "Steinhaut" wirken. Ein zusätzlicher Einsatz wird bei Stufe 16 erlangt.
++- Ab Stufe 16 kann er einmal pro Tag "Brechen" und "Phantom-Klinge" wirken. Ein zusätzlicher Einsatz wird bei Stufe 20 erlangt.
++
++Nachteile:
++
++- Kann sich nur auf Waffen (2 Sterne) spezialisieren.
++- Kann nicht zweiklassig sein.
++- Kann keine Bögen oder Wurfwaffen verwenden.
++- Kann nur Rüstungen bis hin zu Schienenrüstung tragen.
++
++Eine Dämmerklinge kann zusätzlich zur normalen für einen Kämpfer verfügbaren Auswahl die Zaubersrüche "Tensers Transformation", "Mantels" oder "Mordenkainens Schwert" als hochstufige Fähigkeit annehmen, jede einmal pro Tag verwendbar. Diese werden auf dieselbe Weise wie die anderen Zauber gewirkt. ~
++@3404 = ~Entropie-Schild~
++@3405 = ~Entropie-Schild (Abschwörung)
++Niveau: 1
++Gebiet der Wirkung: Selbst
++Dauer: 5 Niveaus der Runden/4
++Das Gussteil der Zeit: 1
++
++Dieser Zauber bildet einen magischen Rückstand, der leichten Schutz vor allen Fernkampf-Angriffen bietet. Der Schild hat eine Chance von 20 % einen Fernkampfangriff vom Wirker abzulenken. Das hält für 5 Runden pro 4 Stufen des Wirkers an.~
++@3406 = ~Ihr habt einen Entropie-Schild beschworen.~ 

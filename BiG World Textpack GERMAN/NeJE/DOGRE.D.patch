@@ -1,0 +1,364 @@
+--- NeJE\dlg\DOGRE.D	Fri Dec 02 23:32:28 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DOGRE.D	Tue Apr 09 19:35:52 2019
+@@ -2,62 +2,54 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ !Global("Ghereg_Head","GLOBAL",3)~ THEN BEGIN 0 // from:
+-  SAY ~Head hurt!  Why you make Ghereg's head hurt, skinny people?~ 
++  SAY @0 
+   IF ~OR(3)
+ !InParty("Erevain")
+ Dead("Erevain")
+-!InMyArea("Erevain")~ THEN REPLY ~Your head? I'm not doing anything to make your head hurt.~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.~  GOTO 1
++!InMyArea("Erevain")~ THEN REPLY @1  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @2  GOTO 1
+   IF ~OR(3)
+ !InParty("Erevain")
+ Dead("Erevain")
+-!InMyArea("Erevain")~ THEN REPLY ~What's wrong with your head?~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.~  GOTO 2
++!InMyArea("Erevain")~ THEN REPLY @3  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @4  GOTO 2
+   IF ~OR(3)
+ !InParty("Erevain")
+ Dead("Erevain")
+-!InMyArea("Erevain")~ THEN REPLY ~We make your head hurt because you're a big dummy. Ha ha!~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.~  GOTO 3
++!InMyArea("Erevain")~ THEN REPLY @5  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @6  GOTO 3
+   IF ~OR(3)
+ !InParty("Erevain")
+ Dead("Erevain")
+-!InMyArea("Erevain")~ THEN REPLY ~It looks like I've come at a bad time. Farewell.~  UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.~  EXIT
++!InMyArea("Erevain")~ THEN REPLY @7  UNSOLVED_JOURNAL @8  EXIT
+   IF ~InParty("Erevain")
+ !Dead("Erevain")
+ InMyArea("Erevain")~ THEN EXTERN ~EREVAINJ~ 14
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 0.0
+-  SAY ~Why it hurt then? Why? Why?!  Ooooh. Ghereg want to pound head through walls make pain go away.~ 
++  SAY @9 
+   IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~You know, Ghereg, I don't think that's a very good idea.~  GOTO 4
++Dead("Jaheira")~ THEN REPLY @10  GOTO 4
+   IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~What's wrong with your head, Ghereg?~  GOTO 2
++Dead("Jaheira")~ THEN REPLY @11  GOTO 2
+   IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I think that's an excellent idea, Ghereg. Hitting your head against the wall *as hard as you can* will certainly make the pain go away. It's an old Reghedmen barbarian remedy. Try it, you'll see!~  GOTO 3
++Dead("Jaheira")~ THEN REPLY @12  GOTO 3
+   IF ~OR(2)
+ !InParty("Minsc")
+ Dead("Minsc")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Don't be an idiot. You can't make your head feel better by pounding it against a wall.~  GOTO 3
++Dead("Jaheira")~ THEN REPLY @13  GOTO 3
+   IF ~OR(2)
+ Class(Player1,RANGER)
+ Class(Player1,PALADIN)
+@@ -66,41 +58,21 @@
+ Dead("Minsc")
+ OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Ghereg, I suggest you leave this area as soon as possible. If you or your kin attempt to harm any of the residents of this pass, I will have to take action against you.~  GOTO 7
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Dead("Jaheira")~ THEN REPLY @14  GOTO 7
++  IF ~Class(Player1,DRUID)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~ GOTO 5
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16 GOTO 5
+   IF ~!Class(Player1,DRUID)
+-Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~  GOTO 5
+-  IF ~~ THEN REPLY ~Well then... I think I'll just leave you to your malady. Farewell.~  EXIT
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16  GOTO 5
++  IF ~~ THEN REPLY @17  EXIT
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")
+ OR(2)
+@@ -115,47 +87,27 @@
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 1.1 0.1
+-  SAY ~No know. Walk here from my cave. Need to answer call. Now cannot, and the head!  It hurts!  Ghereg want to pound head against wall to make head okay.~ 
+-  IF ~~ THEN REPLY ~You know, Ghereg, I don't think that's a very good idea.~  GOTO 4
+-  IF ~~ THEN REPLY ~I think that's an excellent idea, Ghereg. Hitting your head against the wall *as hard as you can* will certainly make the pain go away. It's an old Reghedmen barbarian remedy. Try it, you'll see!~  GOTO 3
++  SAY @18 
++  IF ~~ THEN REPLY @10  GOTO 4
++  IF ~~ THEN REPLY @12  GOTO 3
+   IF ~OR(2)
+ Class(Player1,RANGER)
+-Class(Player1,PALADIN)~ THEN REPLY ~Ghereg, I suggest you leave this area as soon as possible. If you or your kin attempt to harm any of the residents of this pass, I will have to take action against you.~  GOTO 7
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Class(Player1,PALADIN)~ THEN REPLY @14  GOTO 7
++  IF ~Class(Player1,DRUID)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~ GOTO 5
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16 GOTO 5
+   IF ~!Class(Player1,DRUID)
+-Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~  GOTO 5
+-  IF ~~ THEN REPLY ~You can't pound your head against the wall to make it feel better, you stupid oaf.~  GOTO 3
+-  IF ~~ THEN REPLY ~Hmmm. I think I'll leave you alone now, Ghereg. Farewell.~  EXIT
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16  GOTO 5
++  IF ~~ THEN REPLY @19  GOTO 3
++  IF ~~ THEN REPLY @20  EXIT
+   IF ~InParty("Jaheira")
+ !Dead("Jaheira")
+ OR(2)
+@@ -166,126 +118,76 @@
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 6.2 2.5 2.1 1.3 1.2 0.2
+-  SAY ~Ha ha. No funny. Ghereg head hurt. You insult me. Now Ghereg make your head hurt. *That* funny.~ 
+-  IF ~~ THEN REPLY ~Uh...~  DO ~Enemy()~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.~  EXIT
++  SAY @21 
++  IF ~~ THEN REPLY @22  DO ~Enemy()~ UNSOLVED_JOURNAL @6  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 2.0 1.0
+-  SAY ~Hmm. Maybe you right. No know what to do.~ 
+-  IF ~~ THEN REPLY ~Good luck, Ghereg... I guess.~  EXIT
++  SAY @23 
++  IF ~~ THEN REPLY @24  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 6.1 6.0 2.4 2.3 1.6 1.5
+-  SAY ~That fix head? I give thanks. I go make head better now.~ 
+-  IF ~~ THEN REPLY ~Good luck, Ghereg.~  DO ~AddExperienceParty(5500)
++  SAY @25 
++  IF ~~ THEN REPLY @26  DO ~AddExperienceParty(5500)
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ !Global("Ghereg_Head","GLOBAL",3)~ THEN BEGIN 6 // from:
+-  SAY ~Ow!  You here again? Head still hurt!~ 
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++  SAY @27 
++  IF ~Class(Player1,DRUID)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~ GOTO 5
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16 GOTO 5
+   IF ~!Class(Player1,DRUID)
+-Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~  GOTO 5
+-  IF ~~ THEN REPLY ~Too bad, you whiny baby.~  GOTO 3
+-  IF ~~ THEN REPLY ~Hmmm. I think I'll leave you alone now, Ghereg. Farewell.~  EXIT
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16  GOTO 5
++  IF ~~ THEN REPLY @28  GOTO 3
++  IF ~~ THEN REPLY @20  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 2.2 1.4
+-  SAY ~No can leave!  Head hurt!  Head hurt!~ 
+-  IF ~Class(Player1,RANGER)~ THEN REPLY ~Ghereg, as a ranger, it is my responsibility to protect this pass from those who would harm its residents. I know that you and your kin don't belong here. From the damage you've done to this tower, I can tell you're in a violent state of mind. I'll try to find a way to fix your problem. Until then, stay here and do harm to no one. Farewell.~  EXIT
+-  IF ~Class(Player1,PALADIN)~ THEN REPLY ~It is my duty as a soldier of faith to fight darkness wherever I find it. You are a threat to this valley and its people. Your dark aura reveals your true nature as the summer sun reveals god's world. Farewell, evil-doer.~  DO ~Enemy()~ EXIT
+-  IF ~~ THEN REPLY ~I'll be watching you. Farewell.~  EXIT
++  SAY @29 
++  IF ~Class(Player1,RANGER)~ THEN REPLY @30  EXIT
++  IF ~Class(Player1,PALADIN)~ THEN REPLY @31  DO ~Enemy()~ EXIT
++  IF ~~ THEN REPLY @32  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~Hmm. Maybe you right. No know what to do.~
+-  IF ~~ THEN REPLY ~What's wrong with your head, Ghereg?~  GOTO 2
+-  IF ~~ THEN REPLY ~I think that's an excellent idea, Ghereg. Hitting your head against the wall *as hard as you can* will certainly make the pain go away. It's an old Reghedmen barbarian remedy. Try it, you'll see!~  GOTO 3
+-  IF ~~ THEN REPLY ~Don't be an idiot. You can't make your head feel better by pounding it against a wall.~  GOTO 3
++  SAY @23
++  IF ~~ THEN REPLY @11  GOTO 2
++  IF ~~ THEN REPLY @12  GOTO 3
++  IF ~~ THEN REPLY @13  GOTO 3
+   IF ~OR(2)
+ Class(Player1,RANGER)
+-Class(Player1,PALADIN)~ THEN REPLY ~Ghereg, I suggest you leave this area as soon as possible. If you or your kin attempt to harm any of the residents of this pass, I will have to take action against you.~  GOTO 7
+-  IF ~Class(Player1,DRUID)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Class(Player1,PALADIN)~ THEN REPLY @14  GOTO 7
++  IF ~Class(Player1,DRUID)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~ GOTO 5
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16 GOTO 5
+   IF ~!Class(Player1,DRUID)
+-Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY ~Ghereg, gather the red and purple Frostberries that grow near hot springs. Mash them into a paste and eat them with boiled tundra grasses. That will make your head stop hurting. The remedy actually only works for ogres.~  DO ~AddExperienceParty(3500)
++Global("Ghereg_Head","GLOBAL", 2)~ THEN REPLY @15  DO ~AddExperienceParty(3500)
+ SetGlobal("Ghereg_Head","GLOBAL", 3)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.%)
+-EraseJournalEntry(%Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.%)~ SOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We told Ghereg, the ogre in Kuldahar Pass, a recipe that would make his headache go away. He was very grateful, and promptly left.~  GOTO 5
+-  IF ~~ THEN REPLY ~Well then... I think I'll just leave you to your malady. Farewell.~  EXIT
++EraseJournalEntry(@4)
++EraseJournalEntry(@2)
++EraseJournalEntry(@6)
++EraseJournalEntry(@8)~ SOLVED_JOURNAL @16  GOTO 5
++  IF ~~ THEN REPLY @17  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~What you say elf-twig! You hurt me head?!~ 
+-  IF ~~ THEN REPLY ~Your head? I'm not doing anything to make your head hurt.~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He said he wanted to pound his head against the wall to make the pain go away.~  GOTO 1
+-  IF ~~ THEN REPLY ~What's wrong with your head?~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and his head hurt badly. He told us that he came to Kuldahar Pass from his cave, that he was "called."  He said he wanted to pound his head against the wall to make the pain go away.~  GOTO 2
+-  IF ~~ THEN REPLY ~We make your head hurt because you're a big dummy. Ha ha!~  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We told him that his head hurt because he was a big dummy. He got pretty angry after that.~  GOTO 3
+-  IF ~~ THEN REPLY ~It looks like I've come at a bad time. Farewell.~  UNSOLVED_JOURNAL ~Remedy for Ghereg.
+-
+-We met an ogre in a tower in Kuldahar Pass. His name was Ghereg, and he asked us why his head hurt. We decided to leave him alone.~  EXIT
++  SAY @33 
++  IF ~~ THEN REPLY @1  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @2  GOTO 1
++  IF ~~ THEN REPLY @3  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @4  GOTO 2
++  IF ~~ THEN REPLY @5  DO ~SetGlobal("Ghereg_Head","GLOBAL", 1)~ UNSOLVED_JOURNAL @6  GOTO 3
++  IF ~~ THEN REPLY @7  UNSOLVED_JOURNAL @8  EXIT
+ END  

@@ -1,0 +1,15 @@
+--- NeJ\baf\4001V11.baf	Tue Dec 02 00:22:24 2003
++++ C:\BWP Patchstudio\patched files\NeJ\baf\4001V11.baf	Wed Apr 10 10:28:31 2019
+@@ -8,10 +8,10 @@
+ 	Global("LKingDead","GLOBAL",0)
+ THEN
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~My husband needs me.~) // "My husband needs me."
++		DisplayStringHead(Myself,@0) // @0
+ 		Wait(3)
+ 	RESPONSE #50
+-		DisplayStringHead(Myself,~I still have hope.~) // "I still have hope."
++		DisplayStringHead(Myself,@1) // @1
+ 		Wait(3)
+ END
+ 

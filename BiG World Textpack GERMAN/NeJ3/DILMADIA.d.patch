@@ -1,0 +1,191 @@
+--- NeJ3\dlg\DILMADIA.d	Thu Jan 01 22:57:05 2015
++++ C:\BWP Patchstudio\patched files\NeJ3\dlg\DILMADIA.d	Wed Apr 10 10:24:42 2019
+@@ -1,133 +1,125 @@
+ BEGIN ~DILMADIA~
+ 
+ IF ~True()~ THEN BEGIN 0
+-  SAY ~Who the hell are you?~
+-  IF ~~ THEN REPLY ~I'm <CHARNAME>.  Who the hell are *you?*~
+-JOURNAL ~Lower Dorn's Deep.
+-
+-In the Great Forge, we met an elven warrior maiden named Ilmadia.  She claimed to be in control of the entire Great Forge region of Lower Dorn's Deep.  The small squad of fire giants around her supported the claim.~ GOTO 1
+-  IF ~~ THEN REPLY ~I'm <CHARNAME>.  May I have the honor of your name?~
+-JOURNAL ~Lower Dorn's Deep.
+-
+-In the Great Forge, we met an elven warrior maiden named Ilmadia.  She claimed to be in control of the entire Great Forge region of Lower Dorn's Deep.  The small squad of fire giants around her supported the claim.~ GOTO 2
+-  IF ~~ THEN REPLY ~My name is for my friends.  You're not one of them.~
+-JOURNAL ~Lower Dorn's Deep.
+-
+-In the Great Forge, we met an elven warrior maiden named Ilmadia.  She claimed to be in control of the entire Great Forge region of Lower Dorn's Deep.  The small squad of fire giants around her supported the claim.~ GOTO 1
+-  IF ~~ THEN REPLY ~My name is not important.~
+-JOURNAL ~Lower Dorn's Deep.
+-
+-In the Great Forge, we met an elven warrior maiden named Ilmadia.  She claimed to be in control of the entire Great Forge region of Lower Dorn's Deep.  The small squad of fire giants around her supported the claim.~ GOTO 1
++  SAY @0
++  IF ~~ THEN REPLY @1
++JOURNAL @2 GOTO 1
++  IF ~~ THEN REPLY @3
++JOURNAL @2 GOTO 2
++  IF ~~ THEN REPLY @4
++JOURNAL @2 GOTO 1
++  IF ~~ THEN REPLY @5
++JOURNAL @2 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~I am Maiden Ilmadia.  I've been given control of this region.  That means that when you're in here, you show me respect.  I don't care if you're Marketh's best friend. If you step out of line, I'll have my two heaviest fire giants squash you into red paste.~
+-  IF ~Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY ~Marketh?  I'm not his friend.  I killed him.~ GOTO 3
+-  IF ~~ THEN REPLY ~I apologize.  Marketh is indeed my associate.  He sent me here to see if you were in need of any aid.~ GOTO 4
+-  IF ~~ THEN REPLY ~Those are big words for such a small elf woman.  Why don't you back up your words yourself instead of threatening me with your minions?~ GOTO 5
+-  IF ~~ THEN REPLY ~Your fire giants don't look so tough to me.  I'm pretty sure I could wipe the floor with them.~ GOTO 5
++  SAY @6
++  IF ~Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY @7 GOTO 3
++  IF ~~ THEN REPLY @8 GOTO 4
++  IF ~~ THEN REPLY @9 GOTO 5
++  IF ~~ THEN REPLY @10 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~The *honor* of my name?  Well, since you're so nice... my name is Maiden Ilmadia.  However, *because* you're so nice, you certainly can't belong down here.  Marketh's friends are all uncultured idiots and Malavon simply doesn't have any.~
+-  IF ~Gender(Protagonist,2)~ THEN REPLY ~It's hard being the odd woman out, isn't it?~ GOTO 6
+-  IF ~Gender(Protagonist,1)~ THEN REPLY ~What's a good-looking elf maiden like you doing in a dwarven forge like this?~ GOTO 7
+-  IF ~~ THEN REPLY ~You're right, I'm not supposed to be down here.  I think the real question is what *you're* doing here.~ GOTO 7
++  SAY @11
++  IF ~Gender(Protagonist,2)~ THEN REPLY @12 GOTO 6
++  IF ~Gender(Protagonist,1)~ THEN REPLY @13 GOTO 7
++  IF ~~ THEN REPLY @14 GOTO 7
+   IF ~Global("SPRITE_IS_DEADMalavon","GLOBAL",1)
+-Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY ~Malavon and Marketh are both dead.  I helped usher them out of this world.~ GOTO 3
++Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY @15 GOTO 3
+   IF ~Global("SPRITE_IS_DEADMalavon","GLOBAL",1)
+-!Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY ~Malavon's dead.  I took care of him.~ GOTO 3
++!Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY @16 GOTO 3
+   IF ~!Global("SPRITE_IS_DEADMalavon","GLOBAL",1)
+-Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY ~Marketh's friends aren't going to be too happy when they find out I killed him.~ GOTO 3
++Global("SPRITE_IS_DEADMarketh","GLOBAL",1)~ THEN REPLY @17 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~Impressive.  I guess you're not expecting to make many friends down here if you're going on a killing spree.  What do you want from me?~
+-  IF ~~ THEN REPLY ~I want to know what you're doing down here.~ GOTO 7
+-  IF ~~ THEN REPLY ~I need your badge.~ DO ~Enemy()~ GOTO 15
+-  IF ~~ THEN REPLY ~I want you dead.~ DO ~Enemy()~ GOTO 16
++  SAY @18
++  IF ~~ THEN REPLY @19 GOTO 7
++  IF ~~ THEN REPLY @20 DO ~Enemy()~ GOTO 15
++  IF ~~ THEN REPLY @21 DO ~Enemy()~ GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Well, if you're so eager to do work for me, why don't you go kill all of the salamanders and elementals in the forge?~
+-  IF ~~ THEN REPLY ~I thought the salamanders were your allies.~ GOTO 17
+-  IF ~~ THEN REPLY ~Why don't I kill you instead?~ DO ~Enemy()~ GOTO 16
++  SAY @22
++  IF ~~ THEN REPLY @23 GOTO 17
++  IF ~~ THEN REPLY @24 DO ~Enemy()~ GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Don't be an idiot.  Quit trying to find trouble or you'll get more than you bargained for.~
+-  IF ~~ THEN REPLY ~Fair enough.  Let's get down to business, then.  What are you doing down here?~ GOTO 7
+-  IF ~~ THEN REPLY ~I don't find trouble.  I *make* trouble.  Today, I've decided to make trouble with you.  What are you going to do about it, little miss?~ DO ~Enemy()~ GOTO 18
++  SAY @25
++  IF ~~ THEN REPLY @26 GOTO 7
++  IF ~~ THEN REPLY @27 DO ~Enemy()~ GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You know it.  We are a painfully small minority down here.~
+-  IF ~~ THEN REPLY ~What are you doing down here?~ GOTO 7
+-  IF ~~ THEN REPLY ~I need your badge.~ DO ~Enemy()~ GOTO 15
+-  IF ~~ THEN REPLY ~I want you dead.~ DO ~Enemy()~ GOTO 16
++  SAY @28
++  IF ~~ THEN REPLY @29 GOTO 7
++  IF ~~ THEN REPLY @20 DO ~Enemy()~ GOTO 15
++  IF ~~ THEN REPLY @21 DO ~Enemy()~ GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 7
+-  SAY ~Not that it's any of your business, but I suppose you're better company than the giants... My superior has requested that we dismantle the Great Forge.  We are using the metal to construct a longboat of immense proportions.~
++  SAY @30
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~When the ship is finished, the giants will row it down the great lava rapids just beyond that rock.  From there, they will pick up speed and ram into the cavern wall roughly a quarter of a league away.  When the wall breaks, the lava will pour into the large, low cavern beyond.~
++  SAY @31
+   IF ~~ THEN GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~In that cavern lies the dark elf city of Rilauven.  Drow always flaunt their resistance to magic.  Well, we'll see just how resistant they are to lava and giant, two hundred pound broad swords.  Poquelin wants to make sure our rear guard isn't crushed by those black-skinned schemers.~
++  SAY @32
+   IF ~~ THEN GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~Besides that, my job is pretty straightforward.  In our spare time, Malavon and I are attempting to use Saablic Tan's Red Wizard formula to create black unicorns.  Once I locate the herd that occasionally mills around the Severed Hand, it should be simple enough to lure a few my way with my virginity and the help of a necklace that masks my "true nature."~
++  SAY @33
+   IF ~~ THEN GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~It just goes to show that Poquelin was right.  There's nothing that can't be corrupted in some way.  "Hail Ilmater!" and all that.  Ha!~
+-  IF ~~ THEN REPLY ~My, oh my.  You are one... black... hearted... bitch.~ DO ~Enemy()~ GOTO 12
+-  IF ~Race(Protagonist,Elf)~ THEN REPLY ~You're a traitor to Tel'Quessir, Ilmadia.  How could you stray so far from the moral foundation of our people?~ DO ~Enemy()~ GOTO 12
+-  IF ~Race(Protagonist,Dwarf)~ THEN REPLY ~I always thought you pointy-eared folk were a bit weak in the head.  Now I have my proof.~ DO ~Enemy()~ GOTO 12
+-  IF ~~ THEN REPLY ~Excellent!  You have a fine operation going here.  Poquelin must be very pleased.~ GOTO 13
+-  IF ~~ THEN REPLY ~Ha, ha!  Yeah, "Hail Ilmater!"   That's a good one.  Oh!  I think it's time for you to hand over your badge now.~ DO ~Enemy()~ GOTO 15
++  SAY @34
++  IF ~~ THEN REPLY @35 DO ~Enemy()~ GOTO 12
++  IF ~Race(Protagonist,Elf)~ THEN REPLY @36 DO ~Enemy()~ GOTO 12
++  IF ~Race(Protagonist,Dwarf)~ THEN REPLY @37 DO ~Enemy()~ GOTO 12
++  IF ~~ THEN REPLY @38 GOTO 13
++  IF ~~ THEN REPLY @39 DO ~Enemy()~ GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~Oh, shut up.  What I am supposed to do, listen to our elders and watch as the greatest race on Toril drifts into the western sea?  To the Abyss with the Retreat, the houses, and the Seldarine, for all I care.  And, since you appear to not approve of my life and how I live it, to the Abyss with *you.*~
++  SAY @40
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~He's relatively pleased, yes.  Progress was slow when King Thargren was in charge.  After a pack of water elementals and salamanders killed him, Poquelin put me in charge of the fire giant clan.  I've provided the tactical knowledge the fire giants lack.~
++  SAY @41
+   IF ~~ THEN GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~The salamanders are a crafty bunch, though.  They recognize that without my leadership, they could probably rally the elementals against the fire giants.  They try to sneak over here to kill me, using houses for cover.  That's why I ordered the fire giants to crush them.  We had to put metal plates in the ground to prevent the earth elementals from killing me when I slept.~
+-  IF ~~ THEN REPLY ~I thought the salamanders were your allies.  Don't they drive the slaves in the mines and Durdel Anatha?~ GOTO 17
++  SAY @42
++  IF ~~ THEN REPLY @43 GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~Sorry, friend.  I can't give it to you.  My work here is too important to give up.  Now that I've refused, I'm going to assume that your intent is to take it by force.  Please forgive me if I don't wait for you to make the first move.~
++  SAY @44
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~Well, I'm sorry, but I don't think I'm going to let that happen.  You seem like trouble to me.~
++  SAY @45
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~*Some* of the salamanders are our allies.  Shikata isn't powerful enough to bully them all into obedience, so a faction of salamanders broke off.  They realized that the dismantling of the forge would cause the portals to the Elemental Plane of Fire to be destroyed.  If that occurred, the salamanders would have to compete for heat.~
+-  IF ~~ THEN REPLY ~Interesting.  I'm going to go now, Ilmadia.  Farewell.~ DO ~Enemy()~ GOTO 16
+-  IF ~~ THEN REPLY ~Thanks for the information, but now it's time for you to meet your ancestors in Arvandor.~ DO ~Enemy()~ GOTO 16
++  SAY @46
++  IF ~~ THEN REPLY @47 DO ~Enemy()~ GOTO 16
++  IF ~~ THEN REPLY @48 DO ~Enemy()~ GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~I'm going to kick your teeth in and twist your head off, you small-brained nobody.  We'll see who's in trouble then.~
++  SAY @49
+   IF ~~ THEN EXIT
+ END

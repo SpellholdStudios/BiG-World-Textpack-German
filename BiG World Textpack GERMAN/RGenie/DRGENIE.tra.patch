@@ -1,0 +1,20 @@
+--- RGenie\german\DRGENIE.tra	Wed Oct 11 14:27:46 2006
++++ C:\BWP Patchstudio\patched files\RGenie\german\DRGENIE.tra	Sun Nov 16 03:19:30 2008
+@@ -1,13 +1,13 @@
+-@0    = ~Wie mein Meister befiehlt. Wollt Ihr, dass ich ein Portal zum Abenteurermarkt öffne?~
++@0    = ~Wie mein Meister befiehlt. Wollt Ihr, dass ich ein Portal zum Abenteurers Allerlei öffne?~
+ @1    = ~Ja.~
+ @2    = ~Nein.~
+ @3    = ~Wie wäre es mit einem Portal zu einem anderen Laden?~
+-@4    = ~Wollt Ihr zum Abenteurermarkt reisen oder lediglich durch das Portal mit meinem Meister handeln?~
+-@5    = ~Ich will zum Abenteurermarkt reisen.~
++@4    = ~Wollt Ihr zum Abenteurers Allerlei reisen oder lediglich durch das Portal mit meinem Meister handeln?~
++@5    = ~Ich will zum Abenteurers Allerlei reisen.~
+ @6    = ~Ich will durch das Portal handeln.~
+ @7    = ~Hmm... eine Möglichkeit, die Kunden meines Meisters zu seiner Konkurrenz zu schicken? Ja, das wird ihn lehren, einen Flaschengeist dazu zu zwingen, solch niedere Aufgaben zu erledigen! Wohin wollt Ihr denn?~
+ @8    = ~Könnt Ihr ein Portal zu einem Händler im Handelstreff öffnen?~
+-@9    = ~Könnt Ihr ein Portal zum Barkeeper in der Kupferkrone öffnen?~
++@9    = ~Könnt Ihr ein Portal zum Wirt in der Kupferkrone öffnen?~
+ @10   = ~Wollt Ihr durch das Portal handeln oder wollt Ihr dadurch reisen?~
+ @11   = ~Ich will reisen.~
+ @12   = ~Ich will handeln.~

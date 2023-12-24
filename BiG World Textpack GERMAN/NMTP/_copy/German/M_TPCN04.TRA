@@ -1,0 +1,39 @@
+@1    = ~Nein, ich will nicht reisen.~ 
+@2    = ~Dies ist eine dumme Handlung.~
+@3    = ~Seid vorsichtig.~ 
+@4    = ~Schließlich... das Ende?~
+@10   = ~\[Sinneswandel\] (Ihr scheint seine nächsten Worte und Taten vorauszusehen.)~ 
+@11   = ~(Ein Gedanke durchzuckt Euch.)~
+@100  = ~Training der Lebensfertigkeiten
+
+Im Hotel Lied des Geistes findet Ihr den berühmten Darsteller, Herrn Valthonis.~
+@1000 = ~Entschuldigt bitte, stört mich nicht, ich möchte ein wenig Ruhe haben.
+(Er lehnt sich nachdenklich an die Wand, Eurer Ankunft scheint ihn nicht zu kümmern, die hübsche anmutige Gestalt offenbart seine Blutsverwandtschaft mit den Elfen, offensichtlich ist er ein Halbblut.)~ 
+@1001 = ~Ihr seid Herr Valthonis?~
+@1002 = ~Hallo, Herr Valthonis, ich denke, dass wir uns schon mal begegnet sind.
+In der Tat, wir kommen zu Euch, um die Fertigkeiten Schauspielkunst zu erlernen, könnt Ihr sie mir beibringen?~ 
+@1003 = ~Enschuldigt, aber Ihr scheint ein wenig bekümmert zu sein. Stimmt etwas nicht, und hat es damit zu tun, wovon das Lied handelt?~
+@1009 = ~In Ordnung, auf Wiedersehen.~
+@1010 = ~Ja, das bin ich. Aber wenn Ihr mich einladen möchtet, etwas aufzuführen, dann fürchte ich, dass ich Euch enttäuschen muss. Ich bin der Aufführungen müde, jetzt will ich nur noch Ruhe haben, *allein sein*.~ 
+@1011 = ~Entschuldigt, Euch zu stören, auf Wiedersehen.~
+@1013 = ~Schauspielkunst erlernen? Oh... Einige von Euch scheinen sehr talentiert zu sein.
+Jedenfalls habe ich nicht die Absicht, noch etwas aufzuführen, ich werde Euch einfach alles, was ich weiß, beibringen. Wollt Ihr jetzt mit der Ausbildung beginnen?~ 
+@1014 = ~Oh, Ihr mögt das Lied? Nun... dieses Lied ist wirklich schön, aber für mich hat es eine besondere Bedeutung. Ich glaube, Ihr habt bemerkt, dass ich ein Halbelf bin, mein Vater war ein Mensch, aber in meiner Kindheit habe ich zusammen mit meiner Mutter gelebt.~
+@1015 = ~Bis eines Tages die Menschen in einen Konflikt mit den Stammesmitgliedern meiner Heimat gerieten, der Krieg kostete nicht nur meiner Mutter das Leben, sondern auch die meisten meines Stammes wurden getötet, aber ich überlebte. Ironischerweise ist der Grund, warum ich überlebte, dass die menschlichen Angreifer auf der Seite meines Vaters standen! Nein, er ist nicht mehr mein Vater. Ich verließ ihn und versuchte, meinen verlorenen Stamm zu finden, ich nenne mich Valthonis, was im elbischen Sinne Exil bedeutet.~
+@1016 = ~Ich reise auf dem Kontinent Faerûn herum, habe aber nicht die Überlebenden meiner Heimat gefunden. Ich denke, dass sie mich absichtlich meiden...
+Das einzigartige Lied erinnert mich an die guten alten Zeiten meiner Kindheit, es ist für mich ein seltener Trost.~
+@1017 = ~Oh... Danke fürs Zuhören, entschuldigt, ich rede so viel und wir haben keine Beziehung, vielleicht weil Ihr etwas besonderes seid.
+Bei der Gelegenheit, Ihr kommt anscheinend wegen etwas anderem zu mir?~ 
+@1018 = ~Ja, in der Tat, wir kommen zu Euch, um die Fertigkeiten der Schauspielkunst zu erlernen! Könnt Ihr uns unterrichten?~
+@1020 = ~Lasst mich nachdenken... ach, na ja, im Gegenzug dafür, dass Ihr meinem Geplapper zugehört habt, kann ich Euch alles lehren, was ich gelernt habe. Wollt Ihr jetzt mit der Ausbildung beginnen?~ 
+@1021 = ~Ja.~ 
+@1022 = ~Nein, wenn ich bereit bin, werde ich zu Euch kommen.~
+@1030 = ~Um wie viele Fertigkeitspunkte wollt Ihr Eure Lebensfertigkeiten \[Schauspielkunst\] trainieren? Beachtet, dass die Stufe Eurer Lebensfertigkeiten nicht höher sein kann als die Stufe Eurer Klasse.~ 
+@1031 = ~Ich will meine Lebensfertigkeiten um 1 Fertigkeitspunkt \[Schauspielkunst\] trainieren.~
+@1032 = ~Ich will meine Lebensfertigkeiten um 2 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~
+@1033 = ~Ich will meine Lebensfertigkeiten um 3 Fertigkeitspunkte \[Schauspielkunst\] trainieren.~
+@1034 = ~Ich will so viel Fertigkeiten \[Schauspielkunst\] wie möglich trainieren.~
+@1035 = ~Ich möchte meine Lebensfertigkeiten jetzt nicht trainieren, wenn ich bereit bin, komme ich zu Euch.~
+@1040 = ~Wir kennen uns schon, was kann ich für Euch tun?~
+@1041 = ~Ich möchte meine \[Schauspielkunst\] trainieren.~
+@1042 = ~Nichts, nur "Hallo" sagen, auf Wiedersehen.~

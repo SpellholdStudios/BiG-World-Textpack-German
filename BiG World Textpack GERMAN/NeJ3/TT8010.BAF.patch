@@ -1,0 +1,11 @@
+--- NeJ3\baf\TT8010.BAF	Sat Dec 27 03:47:44 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\TT8010.BAF	Wed Apr 10 10:34:06 2019
+@@ -25,7 +25,7 @@
+ 	RESPONSE #100
+ 		SetGlobal("MALAVON_BADGE","GLOBAL",1)
+ 		AddexperienceParty(85200)
+-		DisplayStringHead(Player1,~You have retrieved Malavon's Badge.~)
++		DisplayStringHead(Player1,@0)
+ 		Continue()
+ END
+ 

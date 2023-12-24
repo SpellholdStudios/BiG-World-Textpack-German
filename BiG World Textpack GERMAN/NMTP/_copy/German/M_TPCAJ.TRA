@@ -1,0 +1,196 @@
+@0      = ~Seltsam, wohin sind sie alle verschwunden?~
+@1      = ~Was macht Ihr? Ich warne Euch, versucht nicht, diesen fairen Prozess zu verunglimpfen! Ich werde Euch im Auge behalten...~
+@2      = ~Was macht Ihr? Wache, schnell, ergreift sie!~ 
+@3      = ~(Der Richter verlor auf einmal die Fassung, er ist sich in diesem Fall nicht schlüssig.)~
+@4      = ~<CHARNAME> ist ein guter Freund von mir...
+(Einiges gedämpftes Gemurmel)~ ~<CHARNAME> ist eine gute Freundin von mir...
+(Einiges gedämpftes Gemurmel)~ 
+@10     = ~Ruhe! Nicht so laut.~
+@20     = ~Es tut mir Leid, egal wie freundlich die Einladung sein mag, aber ich habe meine eigene Arbeit zu erledigen, ich kann Euch nicht bei Abenteuern begleiten.~
+@21     = ~Es tut mir Leid, Ihr wollt mich bestechen, ich werde Euer Geschenk nicht annehmen.~ 
+@30     = ~Vielen Dank, dass Ihr Kommandant Brages Angelegenheiten erledigt habt...~
+@31     = ~Für Euer schmutziges Geld wurde Kommandant Brage getötet!~ 
+@65     = ~(Ermittlung der Fertigkeiten...)~
+@66     = ~(Ermittlung der Fertigkeiten beendet)~
+@100    = ~Gericht von Amn
+
+Ihr wurdet von jemandem beim Stehlen beobachtet, der die Wachen von Amn rief.
+Ihr habt eine gemäßigtere Vorgehensweise gewählt, um diese Probleme zu lösen: die Festnahme zu akzeptieren und auf eine Anklage vor Gericht zu warten.~ 
+@200    = ~Gericht von Amn
+
+Ihr habt erfolgreich einen Prozeß gewonnen, aber diese Sache hat auf Euren Ruf einen gewissen Einfluss.
+Ihr seid jetzt frei.~
+@201    = ~Gericht von Amn
+
+Der Richter hat den vorgelegten Beweisen geglaubt und den ursprünglichen Zeugen festgenommen, der Euch des Diebstahls bezichtigte. Nun seid Ihr frei, und damit hat sich Euer Ruf verbessert.~
+@202    = ~Gericht von Amn
+
+Der Richter hatte den Dokumenten geglaubt, die Ihr vorgelegt hat, und ließ Euch sofort frei.
+Ihr seid jetzt frei.~
+@203    = ~Gericht von Amn
+
+Als Folge eines "Unfalls" verlor der Zeuge auf einmal die Beweise und ist nicht in der Lage, Euch zu beschuldigen, daher erklärt Euch der Richter für unschuldig.
+Ihr seid jetzt frei.~
+@204    = ~Gericht von Amn
+
+Als Folge eines "Unfalls" verlor der Zeuge plötzlich seine Beweise, der Richter kann Euch nicht verurteilen, sondern erklärt Euch für unschuldig.
+Ihr seid jetzt frei.~
+@205    = ~Gericht von Amn
+
+Ihr seid freigesprochen, und der Richter lässt einen Zeugen gegen Euch festnehmen.
+Die Leute haben Euch in ihr Gefängnis gesperrt und beschuldigt, aber Ihr seid gesund und munter, die Dinge sind wirklich unberechenbar...~ 
+@206    = ~Gericht von Amn
+
+Ihr seid freigesprochen und die Zeugen gegen Euch wurden auf Entschädigung für den Verlust Eures guten Rufes angeklagt.
+Ihr seid jetzt frei.~
+@207    = ~Gericht von Amn
+
+Ihr wurdet freigesprochen und wolltet im Gegenzug sofort die Person, die Euch bezichtigte, wegen Verleumdung verklagen, seid aber gescheitert.
+Aber zumindest habt Ihr jetzt die Freiheit erlangt.~ 
+@210    = ~Gericht von Amn
+
+Der Richter verurteilt Euch zu einer dreittägigen Haftstrafe, Ihr könnt wählen, auf Kaution freigelassen zu werden oder dort für einige Zeit zu bleiben.~ 
+@211    = ~Gericht von Amn
+
+Der Richter verurteilt Euch zu einer zehntägigen Haftstrafe, Ihr könnt wählen, auf Kaution freigelassen zu werden oder dort für einige Zeit zu bleiben.~
+@212    = ~Gericht von Amn
+
+Der Richter verurteilt Euch zu einer dreißigtägigen Haftstrafe, Ihr könnt wählen, auf Kaution freigelassen zu werden oder dort für einige Zeit zu bleiben.~ 
+@213    = ~Gericht von Amn
+
+Der Richter verlor plötzlich seine Fassung, die Klage führte zu nichts...~
+@220    = ~Gericht von Amn
+
+Wegen Euch endete diese Gerichtsverhandlung schließlich in Gewalt...~
+@221    = ~Gericht von Amn
+
+Der Richter hat den vorgelegten Beweisen geglaubt und den ursprünglichen Zeugen festgenommen, der Euch des Diebstahls beschuldigte, und gibt Euch einen seltsamen Ring als Entschädigung.
+Nun seid Ihr frei, und damit hat sich Euer Ruf verbessert.~
+@222    = ~Gericht von Amn
+
+Ihr wurdet freigesprochen und die Zeugen gegen Euch wurden auf Entschädigung für den Verlust Eures guten Rufes verklagt, und deshalb erhaltet Ihr einen hübschen Geldbeutel.
+Ihr seid jetzt frei.~
+@223    = ~Gericht von Amn
+
+Ihr wurdet freigesprochen, als Ergebnis der richterlichen Schlichtung verzeiht Ihr auch die "falsche Anschuldigung" des Zeugen, als Entschädigung schenkt Euch der Richter einen ungewöhnlichen Ring.
+Ihr seid jetzt frei.~
+@230    = ~Gericht von Amn
+
+Ihr wählt die Flucht, die Euch einen Moment in Freiheit erlaubt, und habt Euch damit einen schlechten Ruf eingebracht.
+Ihr müsst den nächsten Schwierigkeiten entgegensehen...~
+@231    = ~Gericht von Amn
+
+Ihr macht Radau und verlasst dann das Gericht, was Euch einen Moment in Freiheit erlaubt, und habt Euch damit einen schlechten Ruf eingebracht.
+Ihr müsst den nächsten großen Schwierigkeiten entgegensehen...~
+@1000   = ~Freunde, ich hätte nie gedacht, dass wir uns auf diese Weise treffen werden.~
+@1001   = ~Aber jeder weiß, dass Ihr ein Held seid, Eure Heldentaten verbreiteten sich im ganzen Land, gleichzeitig... seid Ihr mein Freund, ich habe keinen Zweifel an Eurem moralischen Charakter.~ ~Aber jeder weiß, dass Ihr eine Heldin seid, Eure Heldentaten verbreiteten sich im ganzen Land, gleichzeitig... seid Ihr meine Freundin, ich habe keinen Zweifel an Eurem moralischen Charakter.~
+@1002   = ~Da man Euch jedoch des Diebstahls bezichtigt, werde ich als örtliche Strafverfolgungsbehörde von Amn Euch alle unvoreingenommen behandeln, also lasst uns die Beweise sehen und hören, was Ihr zu sagen habt...~
+@1010   = ~<CHARNAME>, wie konntet Ihr nur? Die Götter müssen verrückt sein.~
+@1011   = ~Aber jeder weiß, dass Ihr ein Held seid, Eure Heldentaten verbreiteten sich im ganzen Land. Obwohl ich nicht viel von Euch weiß, glaube ich nicht, dass Ihr das tun würdet.~ ~Aber jeder weiß, dass Ihr eine Heldin seid, Eure Heldentaten verbreiteten sich im ganzen Land. Obwohl ich nicht viel von Euch weiß, glaube ich nicht, dass Ihr das tun würdet.~
+@1012   = ~Da man Euch jedoch des Diebstahls bezichtigt, werde ich als örtliche Strafverfolgungsbehörde von Amn Euch alle unvoreingenommen behandeln, also lasst uns die Beweise sehen und hören, was Ihr zu sagen habt...~
+@1020   = ~<CHARNAME>, habt Ihr Kerle endlich den scheinheiligen Verfolger entlarvt?~
+@1021   = ~Obwohl Ihr bekannte Helden seid, hatte ich keinen guten Eindruck von Euch, aber ich dachte nicht, dass Ihr solch hinterhältige schmutzige Dinge tun würdet.~
+@1022   = ~Obwohl Ihr so verachtet seid, werde ich als örtliche Strafverfolgungsbehörde von Amn Euch alle unvoreingenommen behandeln, also lasst uns die Beweise sehen und hören, was Ihr zu sagen habt...~
+@1030   = ~Freunde, wie geht es Euch?~
+@1031   = ~Nachdem ich Euch kenne, kann ich nicht glauben, dass Ihr tatsächlich angeklagt werdet.~
+@1032   = ~Als örtliche Strafverfolgungsbehörde von Amn werde ich Euch alle jedoch unvoreingenommen behandeln, lasst uns die Beweise sehen und hören, was Ihr zu sagen habt...~
+@1040   = ~<CHARNAME>, Ihr wurdet des Diebstahls bezichtigt.~
+@1041   = ~Als örtliche Strafverfolgungsbehörde von Amn habe ich das Recht, zu entscheiden, ob ich ein Verfahren eröffne, ich werde Euch alle jedoch unvoreingenommen behandeln.~
+@1042   = ~Nun zunächst einmal, lasst uns hören, was die Leute gegen Euch auszusagen haben...~
+@1050   = ~<CHARNAME>, Ihr wurdet des Diebstahls bezichtigt.~
+@1051   = ~Obwohl ich sicher bin, dass Ihr tatsächlich diese schmutzige Sache begangen habt, werde ich als örtliche Strafverfolgungsbehörde von Amn Euch unvoreingenommen behandeln.~
+@1052   = ~Nun zunächst einmal, lasst uns hören, was die Leute gegen Euch auszusagen haben...~
+@1060   = ~Seid Ihr das? Mein Freund.~ ~Seid Ihr das? Meine Freundin.~
+@1061   = ~Egal, wie andere über Euch urteilen, ich habe Euch immer geglaubt, ich hoffe, Ihr enttäuscht mich nicht...~
+@1062   = ~Jedenfalls werde ich als örtliche Strafverfolgungsbehörde von Amn Euch alle  wie immer unvoreingenommen behandeln, also lasst uns die Zeugenaussagen hören.~
+@1070   = ~<CHARNAME>, Was habt Ihr getan?~
+@1071   = ~Euer Ruf ist schlecht, aber als örtliche Strafverfolgungsbehörde von Amn werde ich Euch unvoreingenommen behandeln.~
+@1072   = ~Lasst uns hören, was die Leute gegen Euch auszusagen haben...~
+@1080   = ~<CHARNAME>, Ich frage mich immer, warum man Euch nicht eingesperrt hat.~
+@1081   = ~Ihr seid ein schlechter Kerl, ich möchte Euch wirklich gleich einsperren, aber als örtliche Strafverfolgungsbehörde von Amn werde ich Euch alle bei dem Verfahren unvoreingenommen behandeln.~
+@1082   = ~Lasst uns hören, was die Leute gegen Euch auszusagen haben.~
+@1100   = ~Mein verehrter Freund, Held von Nashkel, was habt Ihr zu sagen?~ ~Meine verehrte Freundin, Heldin von Nashkel, was habt Ihr zu sagen?~
+@1101   = ~\[Täuschung\] - Ich bin hierher gekommen, weil ich an die Gerechtigkeit des Gesetzes von Amn glaube, aus Respekt für das System hier, um diesen absurden Vorwurf zu hören. Ich verstehe, dass für einen Abenteurer Ruhm ein zweischneidiges Schwert ist, es lässt die Leute denken, dass es mich nicht kümmert, etwas Geld rauszuschmeißen, um einige Probleme zu lösen - vielleicht ist es viel einfacher, ich kann unumwunden Dutzende Stimmen kaufen so wie ein Haus. Aber ich werde das nicht tun, weil Gerechtigkeit und Ehre viel wichtiger sind als kleine Mühen. Oh, lasst mich dann die Beschuldigungen der Leute hören, die sagen, dass ich gestohlen hätte...~
+@1102   = ~\[Verhandlung\] - Lediglich mit solch einem Beweis wollt Ihr uns des Diebstahls überführen? Ich dachte, die Gesetze von Amn sind um einiges strenger.~
+@1103   = ~\[Fälschung\] - (Ihr überreicht einen zuvor gut vorbereiteten gefälschten Brief.) Dies ist ein Brief, den ich fand, der Inhalt des Briefes zeigt mich als Eigentümer des Zimmers, das heißt, die sogenannten Zeugen, die hier stehen, sind Spione der Zentarim. In der Tat wurde ich von jemandem gebeten, die Angelegenheit heimlich zu untersuchen. Leichtsinnigerweise aber werden von den Zentarim falsche Anschuldigungen erhoben, das ist glasklar...~ ~\[Fälschung\] - (Ihr überreicht einen zuvor gut vorbereiteten gefälschten Brief.) Dies ist ein Brief, den ich fand, der Inhalt des Briefes zeigt mich als Eigentümerin des Zimmers, das heißt, die sogenannten Zeugen, die hier stehen, sind Spione der Zentarim. In der Tat wurde ich von jemandem gebeten, die Angelegenheit heimlich zu untersuchen. Leichtsinnigerweise aber werden von den Zentarim falsche Anschuldigungen erhoben, das ist glasklar...~
+@1104   = ~\[Drohung\] - Habt Ihr einem Drachen den Kopf abgeschlagen? Kennt Ihr den Gestank, wenn Betrachterstrahlen Euch treffen? Wie viele Dämonen habt Ihr getötet? Wie viele Vampire habt Ihr in ewigen Schlaf geschickt? Habt Ihr jemals Eure Hände mit dem Blut von Hunderten von Orks besudelt, den Körper eines Feuergiganten gesehen und dann eine ganze Truppe von Dunkelelfen-Zauberern in den Tod geschickt? Ha, Diebstahl? Macht Euch nicht lächerlich!~
+@1105   = ~\[Kenntnis\] - (Ihr findet einige Lücken im Gesetz von Amn und nehmt sie als Argument zu Eurer eigenen Verteidigung.)~
+@1106   = ~\[Täuschung\] - Wollt Ihr deren falsche Anschuldigung gegen uns vorbringen? Wir sind Abenteurer, die einer Armee von Ogern Widerstand leisteten, Ork-Truppen beseitigten, Drachen und Betrachter töteten... Was tut Diebstahl in einem Privathaus zur Sache? Selbst ein Idiot würde nicht glauben...~
+@1107   = ~\[Verhandlung\] - Wir haben nicht gestohlen, wir sind Abenteurer, ich bin sicher, dass Ihr den Unterschied zwischen Abenteurern und Dieben kennt.~
+@1108   = ~\[Fälschung\] - (Ihr überreicht ein zuvor gut vorbereitetes gefälschtes Dokument, dem zufolge die Gruppe im Auftrag des Rats der Sechs eine geheime Mission ausführt, die vorübergehend von den Beschränkungen des Gesetzes von Amn befreit ist.)~
+@1109   = ~\[Drohung\] - Vielleicht sollte ich alle Menschen hier töten, damit Ihr schnell ernüchtert seid und dieses Theater beendet? Werft einen Blick auf uns, sehen wir aus wie Einbrecher? Warum sollte ich nicht alles dort dem Erdboden gleichgemachen?~
+@1110   = ~\[Kenntnis\] - Ihr weist auf einige Schlupflöcher in den gesetzlichen Bestimmungen hin.~
+@1111   = ~\[Täuschung\] - Das ist lächerlich, wieso sollten wir stehlen? Bei unserer finanziellen Stärke hätten wir keine Probleme, das ganze Haus zu kaufen.~
+@1112   = ~\[Verhandlung\] - Wir glauben an die Gerechtigkeit und Barmherzigkeit des Gesetzes.~
+@1113   = ~\[Fälschung\] - (Ihr überreicht eine Falschaussage.) Dies kann beweisen, dass ich nicht am Tatort war.~
+@1114   = ~\[Drohung\] - Dies ist eine falsche Anschuldigung! Das ist ein offensichtlicher Mißbauch des Gesetzes! Vielleicht sollte ich Euch ein Beispiel geben, damit Ihr wisst, was Bestrafung bedeutet. (Ihr werft einen schnellen Blick auf Zeugen und Richter.)~
+@1115   = ~\[Kenntnis\] - (Ihr zeigt dem Richter, dass Ihr mit dem Gesetz von Amn vertraut seid.)~
+@1200   = ~Held von Nashkel, was habt Ihr zu sagen?~ ~Heldin von Nashkel, was habt Ihr zu sagen?~
+@1300   = ~<CHARNAME>, angesichts Eures Rufes ich bin neugierig, was Ihr zu sagen habt.~
+@1400   = ~Mein Freund, was sagt Ihr?~ ~Meine Freundin, was sagt Ihr?~
+@1500   = ~<CHARNAME>, was sagt Ihr? Ihr könnt Euch verteidigen.~
+@1600   = ~<CHARNAME>, habt Ihr nichts zu deuteln?~
+@1700   = ~Freunde, egal, wie andere Euch sehen, ich werde Euch immer gerecht beurteilen, habt Ihr etwas zu sagen?~
+@1800   = ~<CHARNAME>, wenn Ihr Einspruch einlegen wollt, solltet Ihr bald sprechen! Versucht nicht, Euch herauszureden, das Gesetz von Amn ist unparteiisch.~
+@1900   = ~Ihr seid ein Schurke! Was habt Ihr zu sagen?~ ~Ihr seid eine Schurkin! Was habt Ihr zu sagen?~
+@2000   = ~\[Erfolg\] Was Ihr sagtet, erscheint vernünftig, (denkt einen Moment nach), ich werde es ernsthaft in Erwägung ziehen.~
+@2020   = ~\[Scheitern\] Versucht nicht, mich zu täuschen, ich bin kein Idiot.~
+@2100   = ~\[Erfolg\] Ihr habt Recht, ich werde das prüfen.~
+@2120   = ~\[Scheitern\] Ich stimme nicht mit Eurer Ansicht überein.~
+@2200   = ~\[Erfolg\] Das ist wirklich unglaublich... aber es scheint wahr zu sein, Wachen, nehmt den Zeugen fest!~
+@2220   = ~\[Scheitern\] Macht Ihr Witze? Glaubt Ihr, Ihr könntet dieses ehrwürdige Gericht so einfach verschaukeln? Ihr lügt und verliert die Gelegenheit zu weiteren Einsprüchen, und jetzt werde ich unmittelbar Euer Urteil verkündigen!~
+@2230   = ~\[Erfolg\] (Einige sehen Euch verwirrt an und nicken dann leicht mit dem Kopf.)~
+@2250   = ~\[Scheitern\] (Er zerknüllt das Papier zu einer Kugel) Lächerlich... Wollt Ihr tatsächlich behaupten, dass Ihr ein geheimes Mitglied des Rats der Sechs seid? Ihr lügt und verliert die Gelegenheit zu weiteren Einsprüchen, und jetzt werde ich unmittelbar Euer Urteil verkündigen!~
+@2260   = ~\[Erfolg\] Dies scheint eine gewisse Echtheit zu haben. (Nach dem Lesen der überreichten Zeuenaussagen) Ich werde es ernsthaft in Erwägung ziehen.~
+@2280   = ~\[Scheitern\] Es ist bedauerlicherweise eine schlecht gemachte Fälschung, ansonsten hätte ich das geglaubt. <CHARNAME>, Bitte versucht nicht, das ehrwürdige Gericht zu entweihen!~
+@2300   = ~\[Erfolg\] Ihr ... Was möchtet Ihr? Oh... oh, ich weiß, die Anschuldigung ist lächerlich, aber Ihr könnt sicher sein, dass ich unvoreingenommen handeln werde.~
+@2320   = ~\[Scheitern\] Glaubt nicht, dass Ihr mir drohen könnt, egal, welch große Taten Ihr vollbracht habt, aber vor dem Gesetz von Amn sind alle gleich!~
+@2330   = ~\[Erfolg\] Bitte beruhigt Euch... Ich kenne einige dieser Vorwürfe... etwas absurd, aber glaubt einfach, dass die Gerechtigkeit der Gesetze von Amn Euch eine zufriedenstellende Antwort geben wird.~
+@2350   = ~\[Scheitern\] Warum wollt Ihr uns bedrohen? Uns alle töten? Wisst Ihr, was Ihr sagt?! Zügelt Euer Temperament, oder Ihr werdet die Folgen tragen.~
+@2360   = ~\[Erfolg\] Seid still... Ich glaube, dass die Gerechtigkeit der Gesetze von Amn Euch eine zufriedenstellende Antwort geben wird.~
+@2380   = ~\[Scheitern\] Drohung nützt nichts, Ihr solltet besser ehrlich sein.~
+@2400   = ~Das ist... (Er ist etwas nervös, anscheinend ist er noch nie zuvor in solch eine Situation geraten)~
+@2410   = ~Oh, Ihr habt Recht... das ist meine Schuld, tut mir Leid. (Verstohlen wischt er sich den Schweiß von der Stirn)~
+@2420   = ~Ihr scheint die Gesetze von Amn gut zu kennen? (Blinzelt mit einem Lächeln)~
+@100000 = ~Bitte gebt mir etwas Zeit, ich muss darüber nachdenken.~
+@100100 = ~Ich habe den Zeugen, der mich des Diebstahls beschuldigt, etwas zu fragen.~
+@100110 = ~Ich habe nichts zu sagen, ich warte nur auf Eure Entscheidung.~
+@100120 = ~(Er denkt einen Moment nach, dann nickt er mit dem Kopf.) Seid ruhig, ich werde das Urteil verkünden.~
+@100200 = ~Wegen zu starken Zweifeln in diesem Fall und aus Mangel an Beweisen erkläre ich jetzt den Angeklagten für unschuldig.~ ~Wegen zu starken Zweifeln in diesem Fall und aus Mangel an Beweisen erkläre ich jetzt die Angeklagte für unschuldig.~
+@100201 = ~\[Verhandlung\] - Vielen Dank, Richter, für das gerechte Urteil, aber ich will mehr. Ich will, dass der Zeuge angeklagt wird, der bewußt meinen Ruf verleumdet und befleckt hat und versuchte zu erpressen, in der Hoffnung, dass er seine gerechte Strafe erhält.~
+@100202 = ~Vielen Dank, Richter, für das gerechte Urteil, ich habe nicht an dieser Ansicht gezweifelt.~
+@100203 = ~Dies ist keine Entscheidung, die ich will! Deshalb musste ich selbst versuchen...~
+@100204 = ~\[Verhandlung\] - Vielen Dank, Richter, für das gerechte Urteil, aber der Zeuge hat bewusst meinen Ruf verleumdet und befleckt, ich hoffe, er hat eine Entschädigung für mich.~
+@100205 = ~\[Erfolg\] Der Zeuge hat Euch tatsächlich falsch beschuldigt... Nun, ich werde ihn festnehmen.~
+@100206 = ~\[Erfolg\] Nun, ich verkünde, dass der Zeuge als Strafe wegen vorsätzlicher Erpressung <CHARNAME> mit 100 Goldmünzen entschädigt.~
+@100207 = ~\[Scheitern\] Ich halte das für kein vernünftiges Ansinnen, habt Ihr sonst noch etwas zu sagen?~
+@100208 = ~\[Erfolg\] Ich verkünde, dass der Zeuge als Strafe wegen vorsätzlicher Erpressung <CHARNAME> mit 100 Goldmünzen entschädigt.
+(Nach einer Weile) Da der Zeuge nicht genug Geld hat, nehmt jetzt diesen Gegenstand als Entschädigung.~
+@100209 = ~\[Erfolg\] Aber weil es erst sein erstes Vergehen war, hoffe ich, dass Ihr ihm verzeihen könnt... Bitte, nehmt diesen Ring, den der "Phantomdieb" bei der Verfolgung fallen gelassen hat. Er ist für uns nicht von großem Nutzen, allerdings kann er Euch bei Eurer Reise hilfreich sein.~
+@100210 = ~Gemäß der vorliegenden Beweise ist der Angeklagte schuldig. Weil das Vergehen des Angeklagten geringfügig ist, wird er für 3 Tage ins Gefängnis gesperrt. Der Angeklagte kann sich auch dafür entscheiden, 100 Goldmünzen zu bezahlen, um der Haftstrafe zu entgehen.~ ~Gemäß der vorliegenden Beweise ist die Angeklagte schuldig. Weil das Vergehen der Angeklagten geringfügig ist, wird sie für 3 Tage ins Gefängnis gesperrt. Die Angeklagte kann sich auch dafür entscheiden, 100 Goldmünzen zu bezahlen, um der Haftstrafe zu entgehen.~
+@100211 = ~Ich bin bereit, 100 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~
+@100212 = ~Ich bin bereit, die Entscheidung zu akzeptieren.~
+@100213 = ~Ungerechtes Gericht! Ich werde mich nie auf diese Weise bestrafen lassen...~
+@100220 = ~Gemäß der vorliegenden Beweise ist der Angeklagte schuldig. Mit sofortiger Wirkung wird er für 10 Tage ins Gefängnis gesperrt. Der Angeklagte kann sich auch dafür entscheiden, 1000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~ ~Gemäß der vorliegenden Beweise ist die Angeklagte schuldig. Mit sofortiger Wirkung wird sie für 10 Tage ins Gefängnis gesperrt. Die Angeklagte kann sich auch dafür entscheiden, 1000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~
+@100221 = ~Ich bin bereit, 1000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~
+@100222 = ~Ich bin bereit, die Entscheidung zu akzeptieren.~
+@100223 = ~Denkt gar nicht daran, mich einzusperren, da Ihr jetzt sterben müsst!~
+@100230 = ~Gemäß der vorliegenden Beweise ist der Angeklagte schuldig. Mit sofortiger Wirkung wird er für 30 Tage ins Gefängnis gesperrt. Der Angeklagte kann sich auch dafür entscheiden, 10000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~ ~Gemäß der vorliegenden Beweise ist die Angeklagte schuldig. Mit sofortiger Wirkung wird sie für 30 Tage ins Gefängnis gesperrt. Die Angeklagte kann sich auch dafür entscheiden, 10000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~
+@100231 = ~Ich bin bereit, 10000 Goldmünzen bezahlen, um der Haftstrafe zu entgehen.~
+@100232 = ~Ich bin bereit, die Entscheidung zu akzeptieren.~
+@100233 = ~Denkt an das, was Ihr gerade gesagt habt, denn das sind Eure letzten Worte.~
+@100299 = ~Unser Held, vielen Dank für Euren Beitrag für Amn. Ich will Euch nicht an Eurer wichtigen Arbeit hindern. Ihr könnt sofort gehen, und bitte, nehmt diesen Ring, den der "Phantomdieb" bei der Verfolgung fallen gelassen hat. Er ist für uns nicht von großem Nutzen, allerdings kann er Euch bei Eurer Reise hilfreich sein.~ ~Unsere Heldin, vielen Dank für Euren Beitrag für Amn. Ich will Euch nicht an Eurer wichtigen Arbeit hindern. Ihr könnt sofort gehen, und bitte, nehmt diesen Ring, den der "Phantomdieb" bei der Verfolgung fallen gelassen hat. Er ist für uns nicht von großem Nutzen, allerdings kann er Euch bei Eurer Reise hilfreich sein.~
+@100300 = ~Unser Held, vielen Dank für Euren Beitrag für Amn. Ich will Euch nicht an Eurer wichtigen Arbeit hindern. Ihr könnt sofort gehen. Wenn es etwas gibt, dann werde ich Euch informieren.~ ~Unsere Heldin, vielen Dank für Euren Beitrag für Amn. Ich will Euch nicht an Eurer wichtigen Arbeit hindern. Ihr könnt sofort gehen. Wenn es etwas gibt, dann werde ich Euch informieren.~
+@100301 = ~Aus... Mangel an Beweisen erkläre ich jetzt auf der Grundlage der strengen Gesetze von Amn diese Person für freigesprochen und das Urteil wird sofort vollzogen.~
+@100302 = ~Vielen Dank, Richter, für das gerechte Urteil und Eure Großzügigkeit, ich habe nicht an dieser Ansicht gezweifelt.~
+@100303 = ~Für mich ist dies bei weitem nicht ausreichend... auf zum fröhlichen Massaker.~
+@100400 = ~Dies ist der sogenannte Zeuge? Findet das nächste Mal eine vernünftigere Person! Aus Mangel an Beweisen erkläre ich jetzt den Angeklagten für unschuldig.~ ~Dies ist der sogenannte Zeuge? Findet das nächste Mal eine vernünftigere Person! Aus Mangel an Beweisen erkläre ich jetzt die Angeklagte für unschuldig.~
+@100401 = ~(Zeigt auf den Zeugen) Führt diesen Verrückten ab, es ist wirklich lächerlich, sollte ich deswegen hierher kommen?~
+@100402 = ~Warum ist der Zeuge so regungslos? Ruhe! Aus Mangel an Beweisen erkläre ich jetzt den Angeklagten für unschuldig.~ ~Warum ist der Zeuge so regungslos? Ruhe! Aus Mangel an Beweisen erkläre ich jetzt die Angeklagte für unschuldig.~
+@100403 = ~Ha, wollt Ihr sagen, dass dieser Stumme die Wachen gerufen hat und sagte, dass etwas gestohlen wurde? Ich würde gerne wissen, wer mir diesen Streich spielt.~
+@100404 = ~Schüttelt diesen Zeugen schnell wach, der es wagte, in dieser Zeit zu schlafen! Aus Mangel an Beweisen erkläre ich den Angeklagten jetzt für unschuldig.~ ~Schüttelt diesen Zeugen schnell wach, der es wagte, in dieser Zeit zu schlafen! Aus Mangel an Beweisen erkläre ich die Angeklagte jetzt für unschuldig.~
+@100405 = ~(Zeigt auf den verwirrten Zeugen) Ist er blind? Ich glaube nicht, was er sagt, es scheint, dass er sehr gut hört, aber kann er auch das Aussehen unterscheiden?~
+@100406 = ~Wer glaubt, was dieser Idiot behauptet? Es scheint, einige von Euch und seinesgleichen! Ich erkläre den Angeklagten jetzt für unschuldig.~
+@100407 = ~Da der Zeuge die Vorwürfe gegen den Angeklagten fallen lässt, erkläre ich den Angeklagten jetzt für unschuldig.~ ~Da der Zeuge die Vorwürfe gegen die Angeklagte fallen lässt, erkläre ich die Angeklagte jetzt für unschuldig.~
+@100408 = ~Da der Zeuge die Vorwürfe gegen den Angeklagten soeben aufgibt, erkläre ich den Angeklagten jetzt für unschuldig.~ ~Da der Zeuge die Vorwürfe gegen die Angeklagte soeben aufgibt, erkläre ich die Angeklagten jetzt für unschuldig.~
+@100500 = ~Da es dem Zeugen an ernsthaften Beweisen mangelt, erkläre ich den Angeklagten jetzt für unschuldig.~ ~Da es dem Zeugen an ernsthaften Beweisen mangelt, erkläre ich die Angeklagte jetzt für unschuldig.~

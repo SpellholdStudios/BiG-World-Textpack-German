@@ -1,0 +1,171 @@
+@0   = ~So Pung, lasst mich sehen w... Was zum Teufel machen diese Leute hier, Pung!?~ 
+@1   = ~Seid still, Pung!~
+@2   = ~(*Wendet sich Euch zu*)... Ich kann nur annehmen, dass Ihr den Weg hierher fandet, indem Ihr Pung gefolgt seid. Ich bin Bartlemy. Habt jetzt die Liebenswürdigkeit und gebt mir Euren Namen und erklärt, was Ihr hier tut?~ 
+@3   = ~Ich bin <CHARNAME>, und ja, ich folgte Pung nach einer seiner Diebestouren in Lavallins Zimmer.~
+@4   = ~Mein Name ist <CHARNAME>, und ich wurde von Lavallin gebeten, herauszufinden, wer ihn bestahl.~ 
+@5   = ~Ich bin <CHARNAME>. Nahmt Ihr ernstlich an, Ihr könntet Lavallin weiterhin auf unbestimmte Zeit bestehlen?~
+@6   = ~Mein Name, nicht, dass es Euch irgendetwas anginge, ist <CHARNAME>, und ja, ich folgte Eurem Goblin. Ich war dabei, sicherzustellen, dass er nie mehr irgendetwas stehlen würde, als Ihr erschient. Soll ich fortsetzen?~
+@7   = ~Lasst uns hier gleich etwas klarstellen! Meine Absicht war nicht, zu stehlen. Obwohl ich sehe, dass Pung mehrere Gegenstände erlangt hat, die nicht mir gehören. Er kann anscheinend nicht länger als ein paar Minuten das Bild eines Gegenstandes, von dem ich will, dass er ihn holt, in seinem Kopf behalten, und bringt zurück, von dem er hofft, dass es richtig ist.~ 
+@8   = ~Meine Schuld, nehme ich an, ich hätte ein Wesen mit ein bisschen mehr Intelligenz wählen sollen. Abgesehen davon gehört der fragliche Gegenstand richtigerweise mir. Ich ließ ihn zufällig in dem Zimmer zurück, das Lavallin jetzt nutzt, Ihr seht also, dass kein Diebstahl beabsichtigt ist.~
+@9   = ~Ihr habt die äußeren Zeichen eines Magiers, warum geht Ihr nicht in die Akademie und bittet darum, dass sie ihn Euch zurückgegeben werden?~ 
+@10  = ~Wenn das wirklich Eurer ist, warum der Vorwand bei dem Versuch, ihn zurückzuerlangen?~
+@11  = ~(*Spottet*) Wie oft ich das gehört habe. Ihr würdet nicht hier unten herumschleichen, wenn Ihr einen rechtmäßigen Anspruch auf diesen Gegenstand hättet.~
+@12  = ~Ich versichere Euch, dass der Gegenstand mir gehört! Es gab einen unglücklichen Unfall vor einigen Jahren, und ich wurde verantwortlich gemacht. Die Magier von Halruaa verbannten mich aus der Akademie und haben Runen auf meine Person abgestimmt. Wenn ich das Akademie-Gelände betreten würde, würde es bestimmt den Tod für mich bedeuten. Diese Tunnel sind insoweit alles, was ich zu betreten wage. Deshalb die Verwendung des Portals und Pung.~ 
+@13  = ~(*Schaut Euch nachdenklich an*)... Hmm. Vielleicht wäret Ihr daran interessiert, ihn für mich wiederzubekommen?~
+@14  = ~Lavallin erwähnte einen Unfall, wollte aber nicht mehr sagen. Was ist geschehen?~ 
+@15  = ~Lavallin sagte, dass fünf Studenten von diesem Unfall betroffen waren. Haben sie nicht denselben Anspruch auf diesen Gegenstand wie Ihr, was immer es ist?~
+@16  = ~Ich interessiere mich mehr dafür, was Ihr tatet, um den Schaden zu verursachen, den Lavallin erwähnte.~
+@17  = ~Vielleicht, erzählt mir mehr von diesem Unfall.~
+@18  = ~Dieser Unfall war nicht meine Schuld. Ich war zufälligerweise der einzige im Zimmer nach dem Ereignis. Wir experimentierten mit Forschungsarbeiten, die wir getan hatten, und die Dinge liefen schief. Ich wurde schlimm verletzt, und meine Freunde starben. Ich war nicht im Stande, mein Eigentum wiederzubekommen. Das ist es, nun, werdet Ihr mir helfen?~ 
+@19  = ~Was hindert mich daran, Lavallins Eigentum zu nehmen und ihn sich mit Euch befassen zu lassen?~
+@20  = ~Lavallin sagte mir, dass ich behalten kann, was immer Pung genommen hat. Was könnt Ihr mir anbieten, wenn ich das für Euch tue?~ 
+@21  = ~Ich bin nicht sicher, dass ich Euch glaube, Magier. Sagt mir, warum ich Euch nicht einfach töten und das nehmen sollte, weswegen ich kam?~ 
+@22  = ~Ich bin sicher, dass Ihr bemerkt habt, dass die einzige Art, hier wegzukommen, das Portal ist. Ich habe meine eigene Methode, hier wegzukommen. Ihr könnt mich und Pung töten, was Euch den Portalstein geben wird, aber das Portal öffnet sich nicht, wenn ich tot bin, eine Vorsichtsmaßnahme, die ich unternahm für den Fall, dass jemand meinen Aufenthalt entdecken sollte.~
+@23  = ~Ich sah Eure Vorgehensweise beim Eintritt, Bartlemy. Wie kam es, dass Ihr von diesem Ort wisst?~ 
+@24  = ~Euer Eintritt entging nicht meiner Beachtung. Woher wusstet Ihr, dass Ihr nicht in massiven Felsen teleportiert werden würdet, als Ihr es das erste mal versucht habt?~
+@25  = ~Was ist das für ein Ort, Bartlemy? Er scheint keinem nützlichen Zweck zu dienen?~
+@26  = ~Dieser Ort? Er war ein Teil des ursprünglichen Abwasserkanalssystems aus Halruaa, brach vor vielen Jahren völlig zusammen. Es dauerte eine Weile, bis ich eine Lücke fand, die groß genug für mich war, um hineinzukommen, und in einer sicheren Entfernung von den Grenzen von Halruaa war.~
+@27  = ~Dann war alles, was nötig war, einige erderschütternde Zauber, wortwörtlich Erderschütterung! Der Rest des Tunnelbaues wurde durch Erdkolosse erledigt, es ist erstaunlich, wo die sich durchgraben können!~
+@28  = ~Als ich mich zurechtfand, versiegelte ich den Eingang hinter mir, ich kann kommen und gehen, wie es mir gefällt. Es dauerte nicht lange, um das Portal für Pung aufzustellen. Ihr seht also, mein Freund, es gibt wirklich keinen anderen Ausgang für Euch!~ ~Als ich mich zurechtfand, versiegelte ich den Eingang hinter mir, ich kann kommen und gehen, wie es mir gefällt. Es dauerte nicht lange, um das Portal für Pung aufzustellen. Ihr seht also, meine Freundin, es gibt wirklich keinen anderen Ausgang für Euch!~
+@29  = ~Dann habe ich keine Wahl. Wisset, das ich es nicht gut aufnehme, dazu gezwungen zu werden! Erzählt mir, was es ist, wonach ich suche?~
+@30  = ~Ihr lasst mir kaum eine Wahl, dieses mal! Wonach suche ich, Magier!?~
+@31  = ~Ich werde das Risiko eingehen, dass Ihr lügt, Magier. Auf die eine oder andere Weise werde ich Pungs Vorrat nehmen.~
+@32  = ~Narr!! Ihr denkt, dass ich lüge? Wenn Ihr es vorzieht, hier unten zu verfaulen? Dann soll es so sein!~
+@33  = ~Ein Ring der Macht
+  
+Bartlemy erzählte mir von dem Unfall, der sich ereignete, als er und vier seiner Freunde mit Forschungsarbeiten experimentierten. Es scheint, dass er als einziger die Explosion überlebte und von der Akademie verbannt wurde. Das Gelände von Halruaa zu betreten würde den sofortigen Tod für ihn bedeuten, folglich der Gebrauch des Goblins und des Portals, um seinen Gegenstand wiederzubekommen. Er bat mich, ihm bei seiner Suche zu helfen als Gegenleistung für den Weg fort von diesem Ort... in Anbetracht dessen, dass er rein und raus teleportieren kann, ist das Portal mein einziger Fluchtweg. Er versicherte mir, dass sein Tod sofort den Ausgang für immer siegeln würde. Ich werde mich nicht zwingen lassen, nach der Pfeife eines anderen zu tanzen! Ich bat ihn, mir zu übergeben, was der Goblin für ihn gestohlen hatte sowie den Schlüssel zum Portal... er lachte dann und griff an, zusammen mit seinem Goblin-Freund.~
+@34  = ~Ich bin so froh, dass Ihr vernünftig werdet, <CHARNAME>. Der Gegenstand, den Ihr finden müsst, ist ein Ring. Ein seltenes Artefakt, bekannt als "Ring der Macht". Nur wenige wissen, dass er existiert.~
+@35  = ~Die vier Elementaristen, die das Original schmiedeten, sind lange tot und nahmen ihre Geheimnisse mit sich ins Grab, aber meine Begleiter und ich forschten unermüdlich und deckten jene Geheimnisse auf. Ein erstaunliches Stück Arbeit und eine sehr starke Waffe. Wenn Ihr sie für mich wiederbekommen habt, werde ich mit Euch teilen, was ich über seine Konstruktion weiß.~
+@36  = ~Was soll mich davon abhalten, diesem Ort zu entkommen und den Ring für mich selbst zu behalten?~
+@37  = ~Nun, da ich weiß, wonach ich suche, warum sollte ich zurückkehren, wenn ich ihn habe?~
+@38  = ~Weil der Ring unvollständig ist, mein Freund, er ist ziemlich nutzlos, solange mir nicht erlaubt wird, meine Arbeit daran zu beenden. Glaubt mir, Ihr werdet keinen anderen Magier finden, der bereit ist, ihn zu berühren.~ ~Weil der Ring unvollständig ist, meine Freundin, er ist ziemlich nutzlos, solange mir nicht erlaubt wird, meine Arbeit daran zu beenden. Glaubt mir, Ihr werdet keinen anderen Magier finden, der bereit ist, ihn zu berühren.~
+@39  = ~Pung, den Schlüsselstein bitte.~
+@40  = ~Nein, ich werde das hübsche Ding auch nehmen, Pung, und ja, ich werde Euch bald nach Hause senden.~
+@41  = ~Hier ist der Stein. Das Portal wird sich an derselben Stelle öffnen, an der Ihr hereinkamt. Findet jetzt meinen Ring für mich.~
+@42  = ~Ein Ring der Macht
+  
+Bartlemy erzählte mir von dem Unfall, der sich ereignete, als er und vier seiner Freunde mit Forschungsarbeiten experimentierten. Es scheint, dass er als einziger die Explosion überlebte und von der Akademie verbannt wurde. Das Gelände von Halruaa zu betreten würde den sofortigen Tod für ihn bedeuten, folglich der Gebrauch des Goblins und des Portals, um seinen Gegenstand wiederzubekommen. Er bat mich, ihm bei seiner Suche zu helfen als Gegenleistung für den Weg fort von diesem Ort... in Anbetracht dessen, dass er rein und raus teleportieren kann, ist das Portal mein einziger Fluchtweg. Er versicherte mir, dass sein Tod sofort den Ausgang für immer siegeln würde. Nachdem ich zugestimmt habe, dem Magier zu helfen... wie ich es sehe, hat er mir sehr wenig Möglichkeit gelassen, wenn ich von diesem Ort wegkommen will... er erzählte mir ein wenig mehr von dem Gegenstand, den ich suchen sollte, ein seltenes und sehr starkes elementares Artefakt, bekannte als ein Ring der Macht. Wenn ich es schaffe, ihn zu finden, teilt er mit mir die Geheimnisse seiner Konstruktion... Ich bin nicht so sicher, ob es eine gute Idee ist, nach seinem letzten Versuch zu urteilen.~
+@43  = ~Nun <CHARNAME>... habt Ihr meinen Ring gefunden?~
+@44  = ~(*Schiebt ihm die Notiz zu*) Ich fand keinen Ring. Nur diese Notiz. Hier lest sie.~
+@45  = ~(*Schiebt ihm die Notiz zu*) Hier, ich fand nur diese Notiz. Sie erwähnt Euch namentlich, wer ist Delrysia?~
+@46  = ~(*Schiebt ihm die Notiz zu*) Nein, es sieht so aus, als ob jemand namens Delrysia uns zuvor kam. Sie hinterließ Euch diese Notiz hier, was will sie?~
+@47  = ~(*Schiebt ihm die Notiz zu*) Erklärt dies, Magier.~
+@48  = ~Ich fand keinen Ring.~
+@49  = ~Ich suche noch danach.~
+@50  = ~Tut mir Leid, Bartlemy, ich durchsuchte Lavallins Zimmer, aber ich fand keinen Ring.~
+@51  = ~Ich stellte Lavallins Zimmer auf den Kopf. Angenommen, dass dieser Ihr Ring dort war, jetzt ist er sicher nicht dort.~
+@52  = ~Nein, ich habe ihn nicht. Wenn Ihr ihn tatsächlich dort verloren habt, dann ist uns offensichtlich jemand anderer zuvorkommen... Lavallin selbst vielleicht?~
+@53  = ~Nein, tut mir Leid... kein Ring, aber ich sprach noch einmal mit Lavallin, und er erzählte mir von Delrysia, und wie sie nach dem Unfall verschwand. Vielleicht nahm sie ihn mit sich.~
+@54  = ~Ich stellte Lavallins Zimmer auf den Kopf. Angenommen, dass Euer Ring dort war, jetzt ist er sicher nicht dort. Lavallin sagte, dass ein anderer Eurer Freunde, Delrysia, den Unfall ebenso überlebte. Was noch habt Ihr mir nicht erzählt?~
+@55  = ~Nein, ich habe ihn nicht. Wenn Ihr ihn tatsächlich dort verloren habt, dann ist uns offensichtlich jemand anderer zuvorkommen... äh... Delrysia vielleicht?~
+@56  = ~Verflucht! Verdammtes Weib! Ich hätte mir eigentlich denken können, dass sie irgendwo im Schatten herumschleichen würde. Meiner Vermutung nach sind die Abwasserkanäle jetzt der einzige geeignete Ort für sie!~
+@57  = ~Es scheint, dass ich nur die halbe Geschichte hier kenne. Ich denke, es ist Zeit, die ganze zu hören?~
+@58  = ~Warum sollte diese Delrysia, wie Ihr sagt, in den Abwasserkanälen herumschleichen?~
+@59  = ~Woher weiß diese Delrysia von Eurem Ring?~
+@60  = ~Wie kommt diese Frau zu "Eurem" Ring, Magier? Ihr werdet mir alles von ihr und allem anderen erzählen, das Ihr ausgelassen habt, oder... muss ich weitermachen?~
+@61  = ~Oh, ich werde Euch von Delrysia erzählen! Sie war es, die den Unfall verursachte! Sie war es, die darauf bestand, dass wir den Ring noch stärker machen könnten, indem wir den untoten Bestandteil beim Schmieden hinzufügten, und wegen ihr starben an diesem Tag drei von uns. Ich hatte keine Ahnung, wohin sie eilte, als sie mich zurückließ, um die Schuld auf mich zu nehmen.~
+@62  = ~(*Die folgenden zwei Worte ausspuckend*)... *Nekromatisches Weibsstück*... Sie wird von mir nichts weiter als den Tod bekommen! Ich bin bereit, einige meiner eigenen magischen Gegenständen als Zugabe zu geben, wenn Ihr mich ein für allemal von dieser Frau befreit.~
+@63  = ~Ihr werdet einige Eingänge zu den Abwasserkanälen irgendwo auf dem Akademiegelände finden, und ich vermute, auch in der Akademie selbst, das würde erklären, wie sie so schnell verschwand.~
+@64  = ~Ich wede sofort gehen und diese Delrysia darauf ansprechen.~
+@65  = ~Ich beginne, die Existenz solch eines Artefakts zu bezweifeln. Vielleicht war Eure Absicht von Anfang an, dass ich diese Delrysia für Euch finde und töte. Ich werde mich an Mord nicht beteiligen, Bartlemy! Ich werde nehmen, weshalb ich kam und verschwinden.~
+@66  = ~Das wird langweilig. Ich ziehe es vor, die Dinge zu nehmen, die Pung stahl, und mich meinen eigenen Angelegenheiten zuwenden.~
+@67  = ~Nicht mehr, Bartlemy! Gebt mir nur, weswegen ich kam!~
+@68  = ~Ich werde mich nicht daran beteiligen! Ich werde nehmen, weswegen ich kam und verschwinden.~
+@69  = ~Ihr werdet nichts von hier nehmen, bis Ihr unser Abkommen vollendet habt, <CHARNAME>. Vergesst nicht, dass, wenn Ihr irgendetwas mit Gewalt versucht, die auf meinen Tod hinausläuft, Euer Weg dauerhaft verschlossen ist!~
+@70  = ~Ich werde das für Euch erledigen, Bartlemy, aber seid gewarnt, wenn ich zurückkehre, stellt sicher, mit dem Rücken zu dieser Wand dort zu stehen!~
+@71  = ~Ich werde das machen, aber nicht mehr, Bartlemly! Wenn ich zurückkehre, wird es das Ende unserer Abmachung sein.~
+@72  = ~Ich habe Eure Drohungen satt, Magier. Ich kehre zu Lavallin zurück, er kann sich mit Euch befassen! Händigt einfach aus, weswegen ich kam!~
+@73  = ~Ich glaube, dass Ihr dieses Mal meinen Ring habt, <CHARNAME>?~
+@74  = ~Nein. Ich habe mit Delrysia gesprochen, und sie erzählt eine andere Geschichte über Euch. Sie schreibt Euch die Schuld zu.~
+@75  = ~Nein. Delrysia weigert sich, den Ring zu übergeben, solange Ihr sie nicht von ihrem untoten Zustand befreit, für den sie Euch verantwortlich macht.~
+@76  = ~Nein, ich bin hier auf der Suche nach der Wahrheit! Nicht, dass ich erwarte, sie von Euch zu hören, aber solange ich nicht einige Antworten bekomme, werdet Ihr beide für meine Zeit bezahlen, die ich vergeude!~
+@77  = ~Endlich, <CHARNAME>. Ich begann zu denken, dass Ihr unser kleinen Handel abgesagt habt. Ich glaube, dass Ihr meinen Ring bei Euch habt?~
+@78  = ~Nein, Nekromant, habe ich nicht. Ihr überließt Delrysia ihrer untoten Existenz, jetzt plane ich, Euch tot zurückzulassen!~
+@79  = ~Nein, mehr Nekromant, Delrysia ist tot, und sie hatte den Ring nicht. Deshalb habe ich vor, meine Belohnung aus Eurem Versteck zu holen!~
+@80  = ~Delrysia hatte Euren Ring nicht! Ihr habt meine Zeit vergeudet. Meine Geduld ist zu Ende und ebenso mein Motiv!~
+@81  = ~(*Lacht*)... Wie wollt Ihr nach Hause kommen, <CHARNAME>? Tötet mich, und Ihr bleibt für immer hier. Seid dankbar, dass ich Euch erlaube, den Schlüsselstein zu behalten, so dass Ihr weg könnt. Es wäre klug, das zu tun, bevor ich meine Meinung ändere.~
+@82  = ~Ich werde das Risiko eingehen, dass das eine weitere Eurer Lügen ist!~
+@83  = ~Ich denke nicht, Nekromant. Selbst wenn es wahr ist, was Ihr sagt, wird es mir eine Freude sein, Euch zu entsenden, um Euren Gott vor mir zu treffen!~
+@84  = ~Ich fürchte den Tod nicht, und Ihr, Nekromat?~
+@85  = ~Ich bat Euch, sie zu töten, nicht mit ihr zu sprechen! Sprecht Ihr gewöhnlich mit Wesen wie diesem, bevor Ihr sie tötet?~
+@86  = ~Also, Ihr habt gelogen. Ihr wusstet, was mit ihr geschah! Wie viel mehr von dem, was Ihr mir erzählt habt, sind Lügen? Notfalls werde ich die Wahrheit von Euch erzwingen, Magier!~
+@87  = ~Ich in nicht sicher, dass ich einem von Euch vertraue, aber es scheint, dass Ihr von Delrysia wusstet und bereit wart, sie ihrem Schicksal zu überlassen, aber als Ihr entdecktet, dass sie Euren Ring hatte, dachtet Ihr, mich zu benutzen, um sie für Euch zu töten. Ich werde mich von jemandem wie Euch nicht aunutzen lassen!~
+@88  = ~Ihr Teufel! Ihr seid schändlich! Ihr wusstet die ganze Zeit über Delrysia Bescheid und tatet nichts. Ich dachte, dass Ihr sie einmal als Eure Freundin bezeichnet habt.~
+@89  = ~(*Lacht*)... Ja, ich wusste von Delrysia. Ich sah sie weghasten, bevor ich das Bewusstsein verlor, und ich habe die Mittel, sie zu befreien. Ich dachte, mit ihr zu verhandeln, um mir zu helfen, den Ring zu vollenden. Ich hatte eine Ahnung, dass sie nach dem Unfall in der Nähe der Akademie bleiben würde, wissend, dass ich deshalb zurückkehren würde.~
+@90  = ~Als Ihr mir die Notiz brachtet, erriet ich, wo sie sein musste. Wie ich sagte, war es der einzige Ort, der für ihren gegenwärtigen Zustand geeignet war. Es schien so viel einfacher, Euch zu benutzen, um sie für mich zu töten.~
+@91  = ~Es gibt keinen Beweis, welcher Bestandteil den Unfall verursachte, mein Beitrag hätte den Ring stärker gemacht, als die ursprünglichen Ringe jemals waren, und jetzt habe ich vor, zu vollenden, was wir fünf angefangen haben.~
+@92  = ~Jedoch will Delrysia verhandeln! Ich werde Euch den Trank geben, aber nur, wenn Ihr mir Euer Wort gebt, dass Ihr ihr den Trank geben werdet, nachdem sie bereit ist, mir zu helfen, den Ring wiederherzustellen, und nicht vorher.~
+@93  = ~Die einzige andere Möglichkeit, den Trank zu bekommen, den Delrysia braucht, ist mich töten, und ich denke nicht, dass Ihr zu dem Risiko bereit seid, dass ich bezüglich des Portals lüge. Also, tut, wie Euch gesagt wurde, <CHARNAME>, und holt... meinen... Ring zurück!~
+@94  = ~Ich möchte lieber das Risiko eingehen, dass Ihr lügt, als noch weiter mit Euch zu verhandeln, Bartlemy! Gebt mir den Trank, oder ich beende es hier!~
+@95  = ~Da irrt Ihr Euch, Magier. Ich werde diesen Trank für Delrysia bekommen, dann endet meine Beziehung mit Euch!~
+@96  = ~Ich werde mich nicht durch jemanden wie Euch beauftragen lassen, Bartlemy! Genießt den nächsten Atemzug, den Ihr nehmt, denn es wird Euer letzter sein!~
+@97  = ~Ich werde Euer Versteck haben, bevor dieser Handel erledigt ist, Nekromant. Ich werde Euren Trank Delrysia bringen, aber mein Preis dafür ist gerade gestiegen. Ich werde Euch wiedersehen, wenn ich zurückkehre.~
+@98  = ~Ich mache das und Delrysia ist frei. Ich bin mit Euch beiden fertig... aber nicht, bevor Ihr mir erzählt, wie ich einen davon für mich selbst konstruieren kann.~
+@99  = ~Ich mache das und wegen den Schwierigkeiten, die sowohl Ihr als auch diese elende Delrysia mir bereitet habt, habe ich mich dafür entschieden, ihn zu behalten. Dachtet Ihr ernstlich, dass Ihr mich an unser Abkommen binden könntet? Ihr habt keine Ahnung, wen Ihr vor Euch habt, Nekromant!~
+@100 = ~Es ist vorbei, Bartlemy, ich schlage vor, dass Ihr das Eigentum von Lavallin übergebt und hier wegkommt, solange Ihr noch könnt.~
+@101 = ~He... nicht so schnell, mein junger Freund. Lasst mich meinen Ring zuerst sehen, und dann werde ich Euch die Belohnung geben die Ihr erwartet.~ ~He... nicht so schnell, meine junge Freundin. Lasst mich meinen Ring zuerst sehen, und dann werde ich Euch die Belohnung geben die Ihr erwartet.~
+@102 = ~Für was für einen Idioten haltet Ihr mich, Nekromant? Gebt mir, was Ihr verspracht, oder ich nehme den Ring mit mir hier heraus.~
+@103 = ~Ich denke, dass ich im Vorteil bin. Ihr gebt mir entweder, was Ihr verspracht oder ich nehme den Ring und Euer Leben als Bezahlung für meine Schwierigkeiten.~
+@104 = ~Hier... Ich denke, dass Ihr feststellen werdet, dass das Euer Ring ist.~
+@105 = ~Was auch immer, <CHARNAME>... stellt nur sicher, dass Ihr das nächste Mal, wenn wir uns treffen, meinen Ring habt.~
+@106 = ~Ein Ring der Macht
+  
+Die Suche nach dem "Ring der Macht" offenbarte noch einen anderen Interessenten an diesem verfluchten Ring... eine Delrysia. Verdammt seien diese Magier... wie kommt es, dass ich immer in den belanglosen Zank von anderen verwickelt werde! Ich werde die Wahrheit aus dem Magier herausholen... auf die eine oder andere Art! Bartlemy beharrte darauf, dass es die Forderung dieser Delrysia war, dem Ring eine nekromantische Komponente hinzuzufügen, der die Explosion verursachte, und dass sie sich jetzt in den Abwasserkanälen verbirgt... *dem einzigen für sie jetzt geeigneten Ort* waren seine Worte. Jetzt frage ich mich, was er dadmit meinte? Der Magier hat mir jetzt einen weiteren Anreiz geboten, um in die Abwasserkanäle hineinzugehen, Delrysia gegenüberzutreten und sie zu zwingen, seinen Ring zurückzugeben.~
+@107 = ~Ein Ring der Macht
+  
+Die Suche nach dem "Ring der Macht" offenbarte noch einen anderen Interessenten an diesem verfluchten Ring... eine Delrysia. Verdammt seien diese Magier... wie kommt es, dass ich immer in den belanglosen Zank von anderen verwickelt werde! Ich werde die Wahrheit aus dem Magier herausholen... auf die eine oder andere Art! Bartlemy beharrte darauf, dass es die Forderung dieser Delrysia war, dem Ring eine nekromantische Komponente hinzuzufügen, der die Explosion verursachte, und dass sie sich jetzt in den Abwasserkanälen verbirgt... *dem einzigen für sie jetzt geeigneten Ort* waren seine Worte. Jetzt frage ich mich, was er damit meinte? Der Magier hat mir jetzt einen weiteren Anreiz geboten, um in die Abwasserkanäle hineinzugehen, Delrysia gegenüberzutreten und sie zu zwingen, seinen Ring zurückzugeben. Ist irgendetwas wahr an den Worten dieses Magiers, fragte ich mich selbst? Oder wurde ich wieder einmal als Schachfigur in den Machtkämpfen von anderen benutzt? Was auch immer die Wahrheit ist, ich entschied mich dafür, keinen weiteren Anteil an dieser Suche zu haben, und als er gebeten wurde, alles zurückzugeben, was sein Goblin gestohlen hatte, lachte Bartlemy bloß und griff mich zusammen mit seinem Goblin-Freund an.~
+@108 = ~Warum vergeudet Ihr meine Zeit? Tut bitte, was Euch gesagt wird, <CHARNAME>, und bringt... meinen... Ring zurück!~
+@109 = ~Ein Ring der Macht
+  
+Ich habe das Problem mit Lavallins Dieb gelöst, und dabei habe ich ein teilweise gefertigtes und potenziell starkes Artefakt entdeckt, bekannt als Ring der Macht. Leider liegt der einzige Anhaltspunkt, den ich habe, wie man den Ring wiederherstellt, in den Notizen, die ich vom Körper von einem der Magier nahm, der maßgeblich bei der Konstruktion war... einem Nekromant mit dem Namen Bartlemy. Ich kann nur die Symbole der vier Elemente in seinen Schriften und dem Namen Lhillias ausmachen. Vielleicht sollte ich sie aufspüren und sehen, was sie von Bartlemy und seinem Ring weiß. Lavallin war in seiner Dankbarkeit äußerst großzügig und wenn ich den Ring der Macht wiederherstellen kann, wird es tatsächlich eine gewinnbringende Suche gewesen sein.~
+@110 = ~Was! Er muss dort sein ... hört auf, meine Zeit zu verschwenden... geht und schaut nochmal! Richtig dieses Mal und kehrt nicht ohne meinen Ring zurück!~
+@111 = ~Er ist nicht dort. Ich habe bereits gesagt, dass ich das Zimmer auf den Kopf gestellt und nach dem verdammten Ding gesucht habe! Vielleicht hat ihn Lavallin selbst gefunden.~
+@112 = ~Ich versichere Euch, dass meine Suche gründlich war... er ist nicht dort. Vielleicht hat Lavallin ihn gefunden, da es jetzt sein Zimmer ist.~
+@113 = ~Ich mache mich nochmal auf die Suche, und wenn er dann nicht auftaucht, ist unser Geschäft hinfällig, Zauberer.~
+@114 = ~Ich sagt Euch bereits... er ist nicht dort! Macht Euch selbst auf die Suche, wenn Ihr mir nicht glaubt, ich habe genug meiner Zeit vergeudet. Gebt mir nur Lavallins Eigentum und ich werde von hier verschwinden.~
+@115 = ~Dann schlage ich vor, macht Euch auf den Weg zurück zu ihm und tut, was nötig ist, um ihn davon zu erleichtern! Jetzt geht fort... ich will Euer Gesicht nicht wieder sehen, solange Ihr mir meinen Ring nicht bringt!~
+@116 = ~Dann schlage ich vor, dass Ihr schnell dabei seid. Ich habe nicht unendlich viel Geduld! Jetzt geht fort... ich will Euer Gesicht nicht wieder sehen, solange Ihr mir meinen Ring nicht bringt!~
+@117 = ~(*Lacht*) Denkt Ihr, dass ich vorhabe, unserem Geschäft untreu zu werden und hier herauaus spaziere? Oh nein, mein Freund, auf keinen Fall werde ich Euch die Gelegenheit geben, zu den Zauberern nach oben zu laufen und ihnen von meinen Verbleib zu erzählen!~ ~(*Lacht*) Denkt Ihr, dass ich vorhabe, unserem Geschäft untreu zu werden und hier herauaus spaziere? Oh nein meine Freundin, auf keinen Fall werde ich Euch die Gelegenheit geben, zu den Zauberern nach oben zu laufen und ihnen von meinen Verbleib zu erzählen!~
+@118 = ~Ihr müsst mich töten, bevor ich Euch erlaube, irgendetwas von hier wegzunehmen... äh... aber wenn Ihr mich tötet, dann ist Euer Schicksal ebenso besiegelt, oder hattet Ihr das vergessen, <CHARNAME>?~
+@119 = ~Ich werde das Risiko eingehen, dass Ihr lügt! Ich habe den Portalstein, die Wahl liegt bei Euch. Ihr könnt Pungs Vorräte übergeben und Euer Leben behalten, oder bei dem Versuch sterben, mich abzuhalten, sie zu nehmen. Wie soll es sein, Zauberer?~
+@120 = ~Verdammt sollt Ihr sein, Bartlemy... Ich mache mich nochmal auf die Suche, und wenn er dann nicht auftaucht, ist unser Geschäft hinfällig, Zauberer!~
+@121 = ~Delrysia... es kam mir nie in den Sinn, dass sie es riskieren würde, ihr Gesicht wieder in der Akademie zu zeigen! Wer sonst hätte... warum das hinterhältige Luder... Ich wette, dass sie zurück schlich und ihn sich unter den Nagel riß, als ich gesund wurde!~
+@122 = ~Nun, es wird Ihr Leid tun, dass sie von mir stahl, und Ihr, <CHARNAME>, wenn Ihr an diesem Portalstein festhaltet und hier lebendig herauskommen wollt, werdet Ihr derjenige sein, der dafür sorgt, dass es Ihr Leid tut.~
+@123 = ~Nun wartet eine Minute, ich habe noch nicht zugestimmt.~
+@124 = ~Zuerst will ich mehr über Delrysia wissen und dann werde ich entscheiden, was ich mit ihr mache... nicht Ihr!~
+@125 = ~Wartet eine verfluchte Minute... es scheint mir, dass Delrysia ebensoviel Anspruch auf diesen Ring hat wie Ihr.~
+@126 = ~Nicht mehr, Bartlemy! Gebt mir nur, weswegen ich kam!~
+@127 = ~Delrysia... Ihr wollt etwas über Delrysia wissen? Oh, ich werde Euch von Delrysia erzählen! Sie war es, die den Unfall verursachte! Sie war es, die darauf bestand, dass wir den Ring noch stärker machen könnten, indem wir den untoten Bestandteil beim Schmieden hinzufügten, und wegen ihr starben an diesem Tag drei von uns. Ich hatte keine Ahnung, wohin sie eilte, als sie mich zurückließ, um die Schuld auf mich zu nehmen.~
+@128 = ~Ich hätte mir eigentlich denken können, dass sie irgendwo im Schatten herumschleichen würde. Meiner Vermutung nach sind die Abwasserkanäle jetzt der einzige geeignete Ort für sie!~
+@129 = ~Holt meinen Ring von diesem Wesen und dann sollt Ihr Eure Belohnung bekommen... geht jetzt!~
+@130 = ~(*Lacht*) Ihr habt die Frechheit, mir zu drohen, Magierlein, und wie wollt Ihr nach Hause kommen? Tötet mich, und Ihr bleibt für immer hier. Gebt mir meinen Ring und seid dankbar, dass ich Euch erlaube, den Schlüsselstein zu behalten, so dass Ihr weg könnt. Es  wäre klug, das zu tun, bevor ich meine Meinung ändere.~
+@131 = ~Oh ja... schließlich wird mein Lebenswerk vollendet. Bald werden sich alle hier in Halruaa vor meinem Genie verneigen müssen, wenn erzählt wird, wie der große Bartlemy erreicht hat, was keinem anderen seit Jahrhunderten gelang... die Erschaffung eines großen Rings der Macht.~
+@132 = ~Halruaa würde als die Akademie bejubelt werden, wo wahres Genie zu finden ist. Statt dessen werden jene aufgeblasenen Magier oben zur Lachnummer, wenn herauskommt, wie sie einen wirklich großen Magier verbannten. Ich danke Euch für Eure Hilfe, <CHARNAME>, ich hätte es ohne Euch nicht tun können.~
+@133 = ~Lavallins Dieb
+  
+Ich stimmte zu, einem Magier namens Lavallin zu helfen, sein Problem mit verschwindenden Gegenständen zu lösen. Also, nachdem er einen Zauber wirkte, um den Raum leer scheinen zu lassen und mich zu warnte, nichts zu berühren, ging er weg, um sich um eine dringendere Angelegenheit zu kümmern, wie er sagte. Ich kann mir nicht helfen, ich frage mich, ob diese Sache irgendetwas mit meiner Suche hier zu tun hat.~
+@134 = ~Lavallins Dieb
+  
+Ich lehnte ab, einem Magier namens Lavallin bei seiner Suche nach seinem unbedeutenden Dieb zu helfen. Ich habe wirklich nicht die Zeit, mich ablenken zu lassen... je schneller ich die Information finden kann, wegen der ich hierher kam, umso schneller kann ich das notwendige tun und zu meiner Suche nach Imoen und Irenicus zurückkehren.~
+@135 = ~Lavallins Dieb
+  
+Ich musste nicht lange warten, um herauszufinden, wie Lavallins Dieb in sein Zimmer gelangte... ein Portal öffnete sich und ich hörte jemanden im Zimmer herumsuchen, aber er musste durch einen Unsichtbarkeitszauber umhüllt sein, weil ich niemanden sehen konnte. Nachdem ich Lavallin erzählte, was ich entdeckt hatte, erklärte er sich bereit, dass sich meine Mühe lohnen würde, wenn ich meine Suche fortsetzen sollte. Ich habe zugestimmt, meine Untersuchung für Lavallin fortzusetzen und muss warten, dass sich das Portal wieder öffnet.~
+@136 = ~Ein Ring der Macht
+  
+Ich war nicht darauf vorbereitet, was ich antreffen sollte, als ich schließlich auf Delrysia stieß, weil sie jetzt ein elendes untotes Wesen war, nicht mehr als Mensch erkennbar. Für alles machte sie Bartlemys nekromantischen Bestandteil verantwortlich. Sie war bereit, den Ring der Macht umzutauschen, wenn Bartlemy sie aus ihrem untoten Zustand befreien würde. Einer der beiden log, das war klar, aber ich wurde lange genug an der Nase herumgeführt. Ich entschied mich dazu, meine Verstrickung mit ihnen ein für allemal zu beenden und mit meinen eigenen Sorgen klarzukommen.~
+@137 = ~Ein Ring der Macht
+  
+Ich war nicht darauf vorbereitet, was ich antreffen sollte, als ich schließlich auf Delrysia stieß, weil sie jetzt ein elendes untotes Wesen war, nicht mehr als Mensch erkennbar. Für alles machte sie Bartlemys nekromantischen Bestandteil verantwortlich. Sie war bereit, den Ring der Macht umzutauschen, wenn Bartlemy sie aus ihrem untoten Zustand befreien würde. Ich gab Delrysia Bartlemys Trank in der Hoffnung, dass er sie wiederherstellen würde. Es war eine große Erleichterung, zu sehen, dass es funktionierte, ich hatte gefürchtet, dass der Nekromant einen Trank zusammengebraut haben könnte, um sie zu verletzen statt sie zu heilen. Dafür hat sie mir etwas gegeben, was nur Bartlemys Ring der Macht sein kann und eine Warnung, dass nur ein Elementaristmagier damit betraut werden sollte, zu versuchen, das zu beenden, was sie begonnen hatten.~
+@138 = ~Ein Ring der Macht
+  
+Ich war nicht darauf vorbereitet, was ich antreffen sollte, als ich schließlich auf Delrysia stieß, weil sie jetzt ein elendes untotes Wesen war, nicht mehr als Mensch erkennbar. Für alles machte sie Bartlemys nekromantischen Bestandteil verantwortlich. Sie war bereit, den Ring der Macht umzutauschen, wenn Bartlemy sie aus ihrem untoten Zustand befreien würde.~
+@139 = ~Ein Ring der Macht
+  
+Ich gab Delrysia Bartlemys Trank in der Hoffnung, dass er sie wiederherstellen würde. Es war eine große Erleichterung, zu sehen, dass es funktionierte, ich hatte gefürchtet, dass der Nekromant einen Trank zusammengebraut haben könnte, um sie zu verletzen statt sie zu heilen. Dafür hat sie mir etwas gegeben, was nur Bartlemys Ring der Macht sein kann und eine Warnung, dass nur ein Elementaristmagier damit betraut werden sollte, zu versuchen, das zu beenden, was sie begonnen hatten.~
+@140 = ~Ein Ring der Macht
+  
+Die Durchsuchung von Lavallins Zimmer offenbarte noch einen anderen Interessenten an diesem verfluchten Ring... eine Delrysia. Verdammt seien diese Magier... wie kommt es, dass ich immer in den belanglosen Zank von anderen verwickelt werde! Ich werde die Wahrheit aus dem Magier herausholen... auf die eine oder andere Art! Bartlemy beharrte darauf, dass es die Forderung dieser Delrysia war, dem Ring eine nekromantische Komponente hinzuzufügen, der die Explosion verursachte, und dass sie sich jetzt in den Abwasserkanälen verbirgt... *dem einzigen für sie jetzt geeigneten Ort* waren seine Worte. Jetzt frage ich mich, was er damit meinte? Der Magier hat mir jetzt einen weiteren Anreiz geboten, um in die Abwasserkanäle hineinzugehen, Delrysia gegenüberzutreten und sie zu zwingen, seinen Ring zurückzugeben. Ist irgendetwas wahr an den Worten dieses Magiers, fragte ich mich selbst? Oder wurde ich wieder einmal als Schachfigur in den Machtkämpfen von anderen benutzt? Was auch immer die Wahrheit ist, ich entschied mich dafür, keinen weiteren Anteil an dieser Suche zu haben, und als er gebeten wurde, alles zurückzugeben, was sein Goblin gestohlen hatte, lachte Bartlemy bloß und griff mich zusammen mit seinem Goblin-Freund an.~
+@141 = ~Ein Ring der Macht
+  
+Die Durchsuchung von Lavallins Zimmer offenbarte noch einen anderen Interessenten an diesem "Ring der Macht"... eine Delrysia. Verdammt seien diese Magier... wie kommt es, dass ich immer in den belanglosen Zank von anderen verwickelt werde! Ich werde die Wahrheit aus dem Magier herausholen... auf die eine oder andere Art! Bartlemy beharrte darauf, dass es die Forderung dieser Delrysia war, dem Ring eine nekromantische Komponente hinzuzufügen, der die Explosion verursachte, und dass sie sich jetzt in den Abwasserkanälen verbirgt... *dem einzigen für sie jetzt geeigneten Ort* waren seine Worte. Jetzt frage ich mich, was er dadmit meinte? Der Magier hat mir jetzt einen weiteren Anreiz geboten, um in die Abwasserkanäle hineinzugehen, Delrysia gegenüberzutreten und sie zu zwingen, seinen Ring zurückzugeben.~
+

@@ -1,0 +1,22 @@
+--- BGTComp\READ3.D	Sat Sep 09 19:03:22 2006
++++ C:\BWP Patchstudio\patched files\BGTComp\READ3.D	Wed Apr 10 10:23:49 2019
+@@ -1,16 +1,16 @@
+ BEGIN ~READ3~
+ 
+ IF ~RandomNum(3,1)~ THEN BEGIN 0
+-  SAY ~Hmmmm.....Oh sorry, didn't mean to ignore you like that, I'm just rather busy right now.~
++  SAY @0
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,2)~ THEN BEGIN 1
+-  SAY ~Can't talk right now, I'm studying the martial strategy of Rigaerd II.  You know his son, Azoun, borrowed a great deal of his father's strategies.  ~
++  SAY @1
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,3)~ THEN BEGIN 2
+-  SAY ~I'm just a humble reader, there is little that I can tell you about the world outside of Candlekeep.~
++  SAY @2
+   IF ~~ THEN EXIT
+ END

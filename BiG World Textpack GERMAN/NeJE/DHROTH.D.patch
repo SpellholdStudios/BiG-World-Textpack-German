@@ -1,0 +1,719 @@
+--- NeJE\dlg\DHROTH.D	Fri Jul 02 07:41:18 2021
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\DHROTH.D	Mon Nov 22 11:09:48 2021
+@@ -7,230 +7,222 @@
+ Global("Know_Hrothgar","GLOBAL",1)
+ Global("Join_Posse","GLOBAL",0)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 0 // from:
+-  SAY ~What's this?  New face in town, eh?  Well met, stranger. The name is Hrothgar, originally of Hillsfar, but now, after years of traveling up, down, and under Faerun, I am content to call this town my home.  Who might you be?~ [HROT_01] 
+-  IF ~~ THEN REPLY ~Greetings, Hrothgar. My name is <CHARNAME>. Nice to meet you.~ GOTO 1
+-  IF ~~ THEN REPLY ~Who I am is none of your concern.~ GOTO 22
++  SAY @0 
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO 22
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from: 0.0
+-  SAY ~Well then, welcome to Easthaven. Whatever your business in these parts might be, I would offer you this small piece of advice: while you're in my town, you'd do well to be on your best behavior.  ~ [HROT_02] 
++  SAY @3 
+   IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 22.0 1.0
+-  SAY ~These folk are under my protection, and anyone who would seek to do harm to them in any way shall answer to me.~ [HROT_03] 
++  SAY @4 
+   IF ~~ THEN GOTO 23
+ END
+ 
+ IF WEIGHT #0 ~Global("Know_Hrothgar","GLOBAL",2)
+ GlobalLT("Join_Posse","GLOBAL",2)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 3 // from:
+-  SAY ~Well met, friend.  And welcome to my home.  Make yourselves comfortable, but try not to break anything.  Many of these curiosities that you see lying about have... sentimental value.~ [HROT_04] 
+-  IF ~~ THEN REPLY ~Where did you get all this stuff?~  GOTO 4
+-  IF ~~ THEN REPLY ~Sentimental value?  You don't strike me as the sentimental type.~  GOTO 4
+-  IF ~~ THEN REPLY ~You have quite a collection here.~  GOTO 4
++  SAY @5 
++  IF ~~ THEN REPLY @6  GOTO 4
++  IF ~~ THEN REPLY @7  GOTO 4
++  IF ~~ THEN REPLY @8  GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.2 3.1 3.0
+-  SAY ~Ah, they're all remembrances of my adventuring days, little trinkets and the like that I picked up here and there.  More keepsakes than valuables really, leftovers from my days of fortune and glory.  ~ [HROT_05] 
+-  IF ~~ THEN REPLY ~Adventuring days?  So you are retired then?~  GOTO 5
+-  IF ~~ THEN REPLY ~Fortune and glory, eh?  Looks to me like you've had more than your share of glory, if not fortune.~  GOTO 7
+-  IF ~~ THEN REPLY ~Impressive.  I sincerely hope I have as much luck in my quest for fortune and glory.~  GOTO 9
++  SAY @9 
++  IF ~~ THEN REPLY @10  GOTO 5
++  IF ~~ THEN REPLY @11  GOTO 7
++  IF ~~ THEN REPLY @12  GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 4.0
+-  SAY ~Semi-retired, actually.  This region is still untamed and fraught with many dangers.  I've had plenty of opportunities in the last few years to take up my sword and shield and do battle with those who threaten the safety of Easthaven and its neighbors.  ~ [HROT_06] 
++  SAY @13 
+   IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 5.0
+-  SAY ~In fact, I'm planning such an expedition right now.  That is what I wanted to speak to you about.~ [HROT_07] 
+-  IF ~~ THEN REPLY ~What sort of expedition?~  GOTO 10
+-  IF ~~ THEN REPLY ~An expedition to where?~  GOTO 10
++  SAY @14 
++  IF ~~ THEN REPLY @15  GOTO 10
++  IF ~~ THEN REPLY @16  GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 4.1
+-  SAY ~Oh, I've seen my share of fortune as well, rest assured.  I've beheld more treasure than most kings, I'd wager.  ~ [HROT_08] 
++  SAY @17 
+   IF ~~ THEN GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 7.0
+-  SAY ~But it wasn't for coins that I fought and bled all those years.  It was for something grander, more powerful than mere riches.  Adventuring is something that is in your blood, not in your purse.~ [HROT_09] 
+-  IF ~~ THEN REPLY ~Well said.  I too heed a similar call to adventure.~  GOTO 9
+-  IF ~~ THEN REPLY ~You're daft, I say.  Why risk your neck when there is no coin to be made?~  GOTO 9
+-  IF ~~ THEN REPLY ~Hmm... interesting.  I'm not sure I agree with you, though.~  GOTO 9
++  SAY @18 
++  IF ~~ THEN REPLY @19  GOTO 9
++  IF ~~ THEN REPLY @20  GOTO 9
++  IF ~~ THEN REPLY @21  GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.2 8.1 8.0 4.2
+-  SAY ~Indeed?  Well then, this might interest you.  I'm putting together an expedition of sorts, one which would surely provide opportunities for both fortune *and* glory.  This is the business I wished to speak to you about.~ [HROT_10] 
+-  IF ~~ THEN REPLY ~Really?  Tell me more about this expedition.~  GOTO 10
+-  IF ~~ THEN REPLY ~Sorry, not interested.  Farewell.~  GOTO 14
++  SAY @22 
++  IF ~~ THEN REPLY @23  GOTO 10
++  IF ~~ THEN REPLY @24  GOTO 14
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 14.1 14.0 9.0 6.1 6.0
+-  SAY ~We've received word from Kuldahar, our neighbors to the south, that evil forces are stirring nearby in the Spine of the World Mountains.  ~ [HROT_11] 
++  SAY @25 
+   IF ~~ THEN GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 10.0
+-  SAY ~I am organizing and leading a party from Easthaven south to Kuldahar Valley to investigate.  You look to be capable enough, perhaps you would like to join us.  What say you?~ [HROT_12] 
+-  IF ~~ THEN REPLY ~What sort of "evil forces" are we talking about?~  GOTO 12
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Sounds exciting.  Count us in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Sounds exciting.  Count me in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~If there's treasure to be had, we're in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~If there's treasure to be had, I'm in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~~ THEN REPLY ~Sounds too dangerous.  Maybe next time.  Farewell.~  GOTO 15
++  SAY @26 
++  IF ~~ THEN REPLY @27  GOTO 12
++  IF ~NumInPartyGT(1)~ THEN REPLY @28  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyLT(2)~ THEN REPLY @29  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyGT(1)~ THEN REPLY @30  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyLT(2)~ THEN REPLY @31  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~~ THEN REPLY @32  GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from: 11.0
+-  SAY ~Don't really know.  The messenger wasn't too specific.  I suppose if you want more details you could ask old Everard over at the temple, but time's a-wasting.  ~ [HROT_13] 
++  SAY @33 
+   IF ~~ THEN GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13 // from: 12.0
+-  SAY ~We need to get this expedition moving before the snows seal off the pass to Kuldahar.  So what's it going to be?  Are you in or out?~ [HROT_14] 
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Sounds exciting.  Count us in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Sounds exciting.  Count me in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~If there's treasure to be had, we're in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~If there's treasure to be had, I'm in.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~~ THEN REPLY ~Sounds too dangerous.  Maybe next time.  Farewell.~  GOTO 15
++  SAY @34 
++  IF ~NumInPartyGT(1)~ THEN REPLY @28  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyLT(2)~ THEN REPLY @29  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyGT(1)~ THEN REPLY @30  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyLT(2)~ THEN REPLY @31  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~~ THEN REPLY @32  GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 14 // from: 9.1
+-  SAY ~Hold a moment - just, just hear me out.  I've already managed to rally together a few swords for this expedition, but I fear our numbers may not be great enough for the task at hand.  I figure that you might tip the balance in our favor.~ [HROT_15] 
+-  IF ~~ THEN REPLY ~What kind of expedition is this to be?~  GOTO 10
+-  IF ~~ THEN REPLY ~Where exactly is this expedition headed?~  GOTO 10
+-  IF ~~ THEN REPLY ~Sorry, still not interested.  Farewell~  GOTO 15
++  SAY @35 
++  IF ~~ THEN REPLY @36  GOTO 10
++  IF ~~ THEN REPLY @37  GOTO 10
++  IF ~~ THEN REPLY @38  GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 15 // from: 14.2 13.4 11.5
+-  SAY ~Well, as you wish.  Can't say I'm not disappointed, though.  I took you for the adventuring type.  Oh well, I suppose you'll make great fishermen, seeing as how that's the only *safe* occupation around these parts.~ [HROT_16] 
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Alright, alright.  I'll join your expedition.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Alright, alright.  We'll join your expedition.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
+-  IF ~~ THEN REPLY ~Then fishing it is.  Farewell.~  DO ~SetGlobal("Join_Posse", "GLOBAL", 2)~ EXIT
++  SAY @39 
++  IF ~NumInPartyLT(2)~ THEN REPLY @40  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~NumInPartyGT(1)~ THEN REPLY @41  DO ~SetGlobal("Join_Posse", "GLOBAL", 3)~ GOTO 16
++  IF ~~ THEN REPLY @42  DO ~SetGlobal("Join_Posse", "GLOBAL", 2)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16 // from: 18.1 18.0 15.1 15.0 13.3 13.2 13.1 13.0 11.4 11.3 11.2 11.1
+-  SAY ~Excellent!  Glad to have you onboard.  I plan to assemble the rest of the expedition and set out for Kuldahar within a few days.  ~ [HROT_17] 
++  SAY @43 
+   IF ~~ THEN GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 17 // from: 16.0
+-  SAY ~With storms brewing in the mountains, I'd rather we depart sooner, but there are matters that require my attention here about town. ~ [HROT_18] 
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~What sort of matters?  Perhaps I could help?~  GOTO 28
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~What sort of matters?  Perhaps we could help?~  GOTO 28
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Very well.  I shall return in a few days.~  GOTO 28
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Very well.  We shall return in a few days.~  GOTO 28
++  SAY @44 
++  IF ~NumInPartyLT(2)~ THEN REPLY @45  GOTO 28
++  IF ~NumInPartyGT(1)~ THEN REPLY @46  GOTO 28
++  IF ~NumInPartyLT(2)~ THEN REPLY @47  GOTO 28
++  IF ~NumInPartyGT(1)~ THEN REPLY @48  GOTO 28
+ END
+ 
+ IF WEIGHT #1 ~Global("Join_Posse", "GLOBAL", 2) 
+ Global("Know_Hrothgar","GLOBAL",3)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 18 // from:
+-  SAY ~Back again I see.  Have you reconsidered my offer to join the expedition?~ [HROT_19] 
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Alright, alright.  I'll join your expedition.~  GOTO 16
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Alright, alright.  We'll join your expedition.~  GOTO 16
+-  IF ~~ THEN REPLY ~No, just stopping by to say hello.  Farewell.~  EXIT
++  SAY @49 
++  IF ~NumInPartyLT(2)~ THEN REPLY @40  GOTO 16
++  IF ~NumInPartyGT(1)~ THEN REPLY @41  GOTO 16
++  IF ~~ THEN REPLY @50  EXIT
+ END
+ 
+ IF WEIGHT #2 ~Global("Join_Posse","GLOBAL",3)
+ Global("Supply_Quest","GLOBAL",1)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 19 // from:
+-  SAY ~Ho there, friend.  Everything is nearly in order.  We shall be departing for Kuldahar soon.  I suggest you get that supply list over to Pomab before he starts whining.  Testy little fellow, that one.~ [HROT_20] 
+-  IF ~~ THEN REPLY ~I will.  Farewell.~  EXIT
++  SAY @51 
++  IF ~~ THEN REPLY @52  EXIT
+ END
+ 
+ IF WEIGHT #3 ~Global("Join_Posse","GLOBAL",3)
+ Global("Supply_Quest","GLOBAL",2)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 20 // from:
+-  SAY ~There you are!  All is set.  The others are assembling as we speak.  Are you ready to leave as well?~ [HROT_21] 
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Yes, we are ready.  Let us be off.~ GOTO 41
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Yes, I am ready.  Let us be off.~ GOTO 41
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~No, we still have some preparations to make.  We'll be back shortly.~ GOTO 21
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~No, I still have some preparations to make.  I'll be back shortly.~ GOTO 21
++  SAY @53 
++  IF ~NumInPartyGT(1)~ THEN REPLY @54 GOTO 41
++  IF ~NumInPartyLT(2)~ THEN REPLY @55 GOTO 41
++  IF ~NumInPartyGT(1)~ THEN REPLY @56 GOTO 21
++  IF ~NumInPartyLT(2)~ THEN REPLY @57 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 21 // from: 39.0 20.3 20.2
+-  SAY ~Make haste!  I spotted heavy clouds hanging over the mountains this morning.  I suspect snow will fall in the passes earlier than normal this season.~ [HROT_22] 
+-  IF ~~ THEN REPLY ~Farewell, then.~  EXIT
++  SAY @58 
++  IF ~~ THEN REPLY @59  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 22 // from: 0.1
+-  SAY ~A spirited one, eh?  I like that.  Well, whatever your business in these parts might be, I would offer you this small piece of advice: while you're in my town, you'd do well to be on your best behavior.  ~ [HROT_23] 
++  SAY @60 
+   IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 23 // from: 2.0
+-  SAY ~That said, I'll let you get back to your cups. I'm sure you've had a long journey, and you'll find there's no better way to shake off the cold of the road than by downing a few mugs of Grisella's best.  ~ [HROT_24] 
++  SAY @61 
+   IF ~~ THEN GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 24 // from: 23.0
+-  SAY ~And if you're in need of lodging, I would recommend talking to Quimby over at the Snowdrift Inn, over on the east side of town.  ~ [HROT_25] 
++  SAY @62 
+   IF ~~ THEN GOTO 25
+ END
+ 
+ IF ~~ THEN BEGIN 25 // from: 24.0
+-  SAY ~Equipment and supplies can be purchased next door at Pomab's Emporium. Pomab's prices are a bit high - even for a Calimshite, but you'd be better off well-equipped and short of coin than the other way around. Ill-prepared travelers don't last long in these parts.~ [HROT_26] 
++  SAY @63 
+   IF ~~ THEN GOTO 26
+ END
+ 
+ IF ~~ THEN BEGIN 26 // from: 25.0
+-  SAY ~Once you've had a chance to rest up and get your bearings, come by and see me at my house. It's just a couple doors west of here. There's some business I would discuss with you. Farewell.~ [HROT_27] 
+-  IF ~~ THEN REPLY ~Farewell.~ DO ~SetGlobal("Know_Hrothgar","GLOBAL",2)
++  SAY @64 
++  IF ~~ THEN REPLY @65 DO ~SetGlobal("Know_Hrothgar","GLOBAL",2)
+ SetGlobal("VP_Jaheira_In_IWD","GLOBAL",1)
+ SetGlobal("VP_Imoen_In_IWD","GLOBAL",1)
+-EscapeAreaMove("TT1004",777,300,14)~ JOURNAL ~Never Ending Journey: Spine Of The World.
+-
+-Somehow we were teleported from the strange dungeon to the snowy, lakefront community known as Easthaven. Weary and half-frozen from the road, we hastily made our way into the local tavern to find a hot meal and some friendly conversation. Scarcely had we seated ourselves at a table by the hearth when we were approached by a burly warrior who called himself Hrothgar. He seemed friendly enough, but something in his eyes warned us that he wasn't one to cross. He politely asked us to come see him at his home, a couple doors west of the tavern, to discuss business of some sort.~ EXIT
++EscapeAreaMove("TT1004",777,300,14)~ JOURNAL @66 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 27 // from:
+-  SAY ~Please.  Stay here and relax a while.  I wish I could join you, but there are things that require my attention presently.  Come by my house later and we shall talk.  Farewell.~ [HROT_28] 
+-  IF ~~ THEN REPLY ~Farewell.~  DO ~EscapeArea()~ EXIT
++  SAY @67 
++  IF ~~ THEN REPLY @65  DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 28 // from: 17.3 17.2 17.1 17.0
+-  SAY ~Actually, now that I think about it, maybe you *can* help.  Pomab, the local shopkeeper, has recently expressed concern over the rapidly thinning stock of his store.  ~ [HROT_29] 
++  SAY @68 
+   IF ~~ THEN GOTO 29
+ END
+ 
+ IF ~~ THEN BEGIN 29 // from: 28.0
+-  SAY ~He's been complaining that the regular caravan from Caer-Dinival is long overdue, and that if they don't arrive soon, he's sure to be out of business.  ~ [HROT_30] 
++  SAY @69 
+   IF ~~ THEN GOTO 30
+ END
+ 
+ IF ~~ THEN BEGIN 30 // from: 29.0
+-  SAY ~Now normally, I take Pomab's whining with a grain of salt, but with heavy snows on the way, it would be best to make sure that caravan makes it through.~ [HROT_31] 
+-  IF ~~ THEN REPLY ~So what is it you want me to do?~  GOTO 31
++  SAY @70 
++  IF ~~ THEN REPLY @71  GOTO 31
+ END
+ 
+ IF ~~ THEN BEGIN 31 // from: 30.0
+-  SAY ~I want you to find that caravan.  Leave town by way of the south bridge and scout the hills west of Lac Dinneshere - between Easthaven and Caer-Dinival.  Caravans always stick close to the shoreline this time of year.  ~ [HROT_32] 
++  SAY @72 
+   IF ~~ THEN GOTO 32
+ END
+ 
+ IF ~~ THEN BEGIN 32 // from: 31.0
+-  SAY ~Once you find it, see the caravan safely to Easthaven.  In the meantime, I'll assemble the rest of the expedition and make the final plans for our journey.  ~ [HROT_33] 
++  SAY @73 
+   IF ~~ THEN GOTO 33
+ END
+ 
+ IF ~~ THEN BEGIN 33 // from: 32.0
+-  SAY ~Return here as quickly as you can, we must make for Kuldahar Pass while the weather is favorable.  Good luck.  Safe journey.~ [HROT_34] 
+-  IF ~Global("Caravan_Quest","GLOBAL",0)~ THEN REPLY ~Farewell.~ DO ~SetGlobal("Caravan_Quest","GLOBAL",1)
+-SetGlobal("Know_Hrothgar","GLOBAL",3)~ UNSOLVED_JOURNAL ~Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  The caravan was carrying valuable supplies intended for Easthaven.  Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere.  We are to return to Easthaven and to Hrothgar either with the caravan, or with news of its mysterious fate.~ EXIT
+-  IF ~Global("Caravan_Quest","GLOBAL",2)~ THEN REPLY ~I already came across this caravan just outside of town.  It looked as if it had been attacked some time ago.  There were no survivors and no sign of the supplies.~ DO ~SetGlobal("Know_Hrothgar","GLOBAL",3)~ SOLVED_JOURNAL ~Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  We told him that we had already come across the ambushed caravan just outside of town.  The loss of the caravan and its vital supply cargo seemed to worry him, but he was grateful nonetheless.~ GOTO 34
+-  IF ~Global("Caravan_Quest","GLOBAL",3)~ THEN REPLY ~I already came across this caravan just outside of town.  It looked as if it had been attacked some time ago by orcs.  I tracked the orcs to a nearby cave and paid them back for their butchery.  The caravan's supplies are safe within the cave.~ DO ~SetGlobal("Know_Hrothgar","GLOBAL",3)~ SOLVED_JOURNAL ~Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  We told him that we had already come across the ambushed caravan and had tracked the marauding orc raiders back to their lair.  The stout warrior seemed somewhat worried about the orc attack, but was relieved to know that the supplies were still recoverable.~ GOTO 35
++  SAY @74 
++  IF ~Global("Caravan_Quest","GLOBAL",0)~ THEN REPLY @65 DO ~SetGlobal("Caravan_Quest","GLOBAL",1)
++SetGlobal("Know_Hrothgar","GLOBAL",3)~ UNSOLVED_JOURNAL @75 EXIT
++  IF ~Global("Caravan_Quest","GLOBAL",2)~ THEN REPLY @76 DO ~SetGlobal("Know_Hrothgar","GLOBAL",3)~ SOLVED_JOURNAL @77 GOTO 34
++  IF ~Global("Caravan_Quest","GLOBAL",3)~ THEN REPLY @78 DO ~SetGlobal("Know_Hrothgar","GLOBAL",3)~ SOLVED_JOURNAL @79 GOTO 35
+ END
+ 
+ IF ~~ THEN BEGIN 34 // from: 39.1 33.1
+-  SAY ~This is grave news indeed.  My only hope is that the town has enough supplies to last us through the winter.  In any case, at least we now know for certain what happened to the caravan.  Now I can concentrate getting everything in order for our expedition to Kuldahar.~ [HROT_35] 
+-  IF ~~ THEN REPLY ~Great.  When do we leave?~ DO ~AddXPObject(Player1,500)
++  SAY @80 
++  IF ~~ THEN REPLY @81 DO ~AddXPObject(Player1,500)
+ AddXPObject(Player2,500)
+ AddXPObject(Player3,500)
+ AddXPObject(Player4,500)
+@@ -240,13 +232,13 @@
+ END
+ 
+ IF ~~ THEN BEGIN 35 // from: 39.2 33.2
+-  SAY ~Hmm... strange.  It is not usual for orcs to be so brazen as to attack caravans so close to town.  I wonder if it is the anticipation of the coming winter that is driving their actions, or if it is something more. ~ [HROT_36] 
++  SAY @82 
+   IF ~~ THEN GOTO 36
+ END
+ 
+ IF ~~ THEN BEGIN 36 // from: 35.0
+-  SAY ~In any case, at least we can still retrieve the supplies, thanks to you.  You've proven yourself to be quite capable... I'm glad you've decided to come along with us to Kuldahar. ~ [HROT_37] 
+-  IF ~~ THEN REPLY ~Thank you.  When do we leave?~ DO ~AddXPObject(Player1,2500)
++  SAY @83 
++  IF ~~ THEN REPLY @84 DO ~AddXPObject(Player1,2500)
+ AddXPObject(Player2,2500)
+ AddXPObject(Player3,2500)
+ AddXPObject(Player4,2500)
+@@ -256,12 +248,12 @@
+ END
+ 
+ IF ~~ THEN BEGIN 37 // from: 36.0 34.0
+-  SAY ~We still have preparations to make before we can depart for Kuldahar.  Take this list of supplies to Pomab's Emporium across town.  ~ [HROT_38] 
++  SAY @85 
+   IF ~~ THEN GOTO 38
+ END
+ 
+ IF ~~ THEN BEGIN 38 // from: 37.0
+-  SAY ~While you're there you might outfit yourselves with whatever gear you think you may need.  Return here when you are packed and ready to go.~ [HROT_39] 
++  SAY @86 
+   IF ~~ THEN GOTO 45
+ END
+ 
+@@ -270,38 +262,26 @@
+ GlobalLT("Caravan_Quest","GLOBAL",4)
+ GlobalGT("Caravan_Quest","GLOBAL",0)
+ Global("VP_Hrothgar_Waits","GLOBAL",0)~ THEN BEGIN 39 // from:
+-  SAY ~Ah, good... you've returned.  What news of the caravan from Caer-Dinival?~ [HROT_40] 
+-  IF ~Global("Caravan_Quest", "GLOBAL", 1)~ THEN REPLY ~No news, I'm afraid.  I haven't gone looking for it yet.~  GOTO 21
+-  IF ~Global("Caravan_Quest", "GLOBAL", 2)~ THEN REPLY ~I came across the caravan just outside of town.  It looked as if it had been attacked some time ago.  There were no survivors and no sign of the supplies.~ SOLVED_JOURNAL ~Finding a missing caravan.
+-
+-We found the ambushed caravan bound from Caer-Dinival to Easthaven and returned to Hrothgar to tell him the grave news.  The loss of the caravan and its vital supply cargo seemed to worry him, but he was grateful nonetheless.~ DO ~EraseJournalEntry(%Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  The caravan was carrying valuable supplies intended for Easthaven.  Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere.  We are to return to Easthaven and to Hrothgar either with the caravan, or with news of its mysterious fate.%)~  GOTO 34
+-  IF ~Global("Caravan_Quest", "GLOBAL", 3)~ THEN REPLY ~I came across the caravan just outside of town.  It looked as if it had been attacked some time ago by orcs.  I tracked the orcs to a nearby cave and paid them back for their butchery.  The caravan's supplies are safe within the cave.~  SOLVED_JOURNAL ~Finding a missing caravan.
+-
+-We found the ambushed caravan bound from Caer-Dinival to Easthaven.  We returned to Hrothgar to tell him of our discovery and of how we tracked the marauding orc raiders back to their lair.  The stout warrior seemed somewhat worried about the orc attack, but was relieved to know that the supplies were still recoverable.~ DO ~EraseJournalEntry(%Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  The caravan was carrying valuable supplies intended for Easthaven.  Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere.  We are to return to Easthaven and to Hrothgar either with the caravan, or with news of its mysterious fate.%)~  GOTO 35
++  SAY @87 
++  IF ~Global("Caravan_Quest", "GLOBAL", 1)~ THEN REPLY @88  GOTO 21
++  IF ~Global("Caravan_Quest", "GLOBAL", 2)~ THEN REPLY @89 SOLVED_JOURNAL @90 DO ~EraseJournalEntry(@75)~  GOTO 34
++  IF ~Global("Caravan_Quest", "GLOBAL", 3)~ THEN REPLY @91  SOLVED_JOURNAL @92 DO ~EraseJournalEntry(@75)~  GOTO 35
+ END
+ 
+ IF ~~ THEN BEGIN 40
+-  SAY ~I think you have already spoken with my folks. If you don't, then I highly recommend you to do this before we continue our conversation.~ [HROT_41]
++  SAY @93
+   IF ~~ THEN DO ~SetGlobal("Join_Posse","GLOBAL",2)
+ SetGlobal("Know_Hrothgar","GLOBAL",3)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 41
+-  SAY ~Would you like me to join your party or shall we go separately?~ [HROT_42]
+-  IF ~~ THEN REPLY ~Hrothgar, you are always welcome among us.~ DO ~EraseJournalEntry(%Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  The caravan was carrying valuable supplies intended for Easthaven.  Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere.  We are to return to Easthaven and to Hrothgar either with the caravan, or with news of its mysterious fate.%)~ GOTO 42
+-  IF ~~ THEN REPLY ~I have no room for you right now. Sorry.~ DO ~EraseJournalEntry(%Finding a missing caravan.
+-
+-Hrothgar asked us to find a missing caravan out of Caer-Dinival.  The caravan was carrying valuable supplies intended for Easthaven.  Hrothgar suggested we take the south bridge out of town and search for the caravan in the hills along the shores of Lac Dinneshere.  We are to return to Easthaven and to Hrothgar either with the caravan, or with news of its mysterious fate.%)~ GOTO 43
++  SAY @94
++  IF ~~ THEN REPLY @95 DO ~EraseJournalEntry(@75)~ GOTO 42
++  IF ~~ THEN REPLY @96 DO ~EraseJournalEntry(@75)~ GOTO 43
+ END
+ 
+ IF ~~ THEN BEGIN 42
+-  SAY ~Thank you, my friend.~ [HROT_43]
++  SAY @97
+   IF ~~ THEN GOTO 46
+ END
+ 
+@@ -311,122 +291,114 @@
+ //END
+ 
+ IF ~~ THEN BEGIN 43
+-  SAY ~Please remember that this is my expedition, and you cannot leave the town without me. When you change your mind, please come back, and I'll gladly join your group.~
++  SAY @98
+   IF ~~ THEN DO ~SetGlobal("VP_Hrothgar_Waits","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~OR(2)
+ Global("MURDER_ALARM","GLOBAL",1)
+ Global("MyAreaUnderAttack","GLOBAL",1)~ THEN BEGIN 44
+-  SAY ~I told you these folks are under my protection, and anyone who would seek to do harm to them in any way shall answer to me.~ [HROT_45]
++  SAY @99
+   IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 45
+-  SAY ~And please talk to Accalia. She is an initiate at the temple of Tempus. I have recently spoken with her. She is willing to join our expedition.~ [HROT_46]
+-  IF ~~ THEN REPLY ~Very well. I shall return shortly.~ DO ~SetGlobal("Supply_Quest","GLOBAL",1)
++  SAY @100
++  IF ~~ THEN REPLY @101 DO ~SetGlobal("Supply_Quest","GLOBAL",1)
+ GiveItemCreate("List",Player1,1,0,0)
+ SetGlobal("Join_Accalia","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 46
+-  SAY ~But before we continue I would like to ask you a question <CHARNAME>, Pomab came to me with a story of how you entered his store by way of the stairs from his living quarters.~
++  SAY @102
+   IF ~~ THEN GOTO 47
+ END
+ 
+ IF ~~ THEN BEGIN 47
+-  SAY ~He was most alarmed and thought I should know seeing as how I had asked you to join this expedition of mine. He swears you did not walk past him in his shop.~
++  SAY @103
+   IF ~~ THEN GOTO 48
+ END
+ 
+ IF ~~ THEN BEGIN 48
+-  SAY ~Because I needed volunteers and you seemed keen to help, I never thought to question your arrival in Easthaven. However...~
++  SAY @104
+   IF ~~ THEN GOTO 49
+ END  
+   
+ IF ~~ THEN BEGIN 49
+-  SAY ~...and please do not take this as a sign that I do not trust you, but visitors are indeed rare this time of year, so I would appreciate you telling me just how you came to be in my town?~
+-  IF ~~ THEN REPLY ~Our arrival here did startle him somewhat, surprised me too. I am not even sure I understand how we came to be here Hrothgar.~ GOTO 50
+-  IF ~~ THEN REPLY ~We meant Pomab no harm, nor was it our intention to steal from him. Our arrival here was not planned, at least not by me, I can assure you.~ GOTO 50
+-  IF ~~ THEN REPLY ~I doubt you would believe me if I told you Hrothgar.~ GOTO 51
+-  IF ~~ THEN REPLY ~What does it matter how we got here? You should be grateful that we arrived in time to help you out.~ GOTO 68
++  SAY @105
++  IF ~~ THEN REPLY @106 GOTO 50
++  IF ~~ THEN REPLY @107 GOTO 50
++  IF ~~ THEN REPLY @108 GOTO 51
++  IF ~~ THEN REPLY @109 GOTO 68
+ END
+ 
+ IF ~~ THEN BEGIN 50
+-  SAY ~Now, I wonder what you meant by that answer? Care to explain it to me <CHARNAME>?~
+-  IF ~~ THEN REPLY ~I am not sure you would be able to make sense of things if I did explain further. Frankly, I find it quite incredible myself.~ GOTO 51
+-  IF ~~ THEN REPLY ~What would you make of my words if I told you we arrived in Easthaven by way of the room over Pomab's shop?~ GOTO 51
+-  IF ~~ THEN REPLY ~The truth is a lot stranger than you may comprehend Hrothgar.~ GOTO 51
++  SAY @110
++  IF ~~ THEN REPLY @111 GOTO 51
++  IF ~~ THEN REPLY @112 GOTO 51
++  IF ~~ THEN REPLY @113 GOTO 51
+ END
+ 
+ IF ~~ THEN BEGIN 51
+-  SAY ~I have seen many strange and wondrous things on my travels <CHARNAME>, I have learnt not to dismiss a tale because it sounds impossible. There is much in the world that *is*, but we have no idea why or how it can be, it just... well, *is*.~
+-  IF ~~ THEN REPLY ~The *how* we arrived is simple enough, we travelled through a portal, but as for the *why* we are here, I have no idea.~ GOTO 52
+-  IF ~~ THEN REPLY ~We quite simply stepped through a portal and stepped out again above Pomab's store.~ GOTO 52
+-  IF ~~ THEN REPLY ~What do you know of portals Hrothgar? Portals that carry a person from one place to another, regardless of distance?~ GOTO 52
++  SAY @114
++  IF ~~ THEN REPLY @115 GOTO 52
++  IF ~~ THEN REPLY @116 GOTO 52
++  IF ~~ THEN REPLY @117 GOTO 52
+ END
+ 
+ IF ~~ THEN BEGIN 52
+-  SAY ~I have heard of such portals, often used by beings from other planes to access the various plane. There is also the gating that wizards use when they bring forth demons, though, not quite the same it is still a portal of sorts. Might I know from where this portal brought you?~
+-  IF ~~ THEN REPLY ~Where is not as important as when we entered the portal, the year was 1369. You Hrothgar are known to me but only in legend, a hero of The Realms, if legend is to be believed.~ GOTO 53
+-  IF ~~ THEN REPLY ~Where was this portal you ask? Its origin was in some insane mage's dungeon far into the future. Tell me Hrothgar, do you know of portals that can do that?~ GOTO 54
+-  IF ~~ THEN REPLY ~I did not say that was how we came to be here, I merely asked what you knew of portals.~ GOTO 66
++  SAY @118
++  IF ~~ THEN REPLY @119 GOTO 53
++  IF ~~ THEN REPLY @120 GOTO 54
++  IF ~~ THEN REPLY @121 GOTO 66
+ END
+ 
+ IF ~~ THEN BEGIN 53
+-  SAY ~(*Laughs loudly*)... Legend you say, well it is nice to know one is remembered after their passing. 1369 you say then yo... no, I must not ask and you must not tell me, there is more at stake than knowing one's future. Fate must be allowed to play her hand, but tell me instead of the creation of such artifacts as this portal?~ 
+-  IF ~~ THEN REPLY ~I have just said that we come from a time many years into the future and yet you hardly bat an eyelid! Hardly the reaction I would have expected.~ GOTO 55
+-  IF ~~ THEN REPLY ~What, no surprise, no sign of disbelief in your face?~ GOTO 55
+-  IF ~~ THEN REPLY ~You show little surprise at my words. I find that strange, maybe I should worry that you already know how we come to be here and why?~ GOTO 56
++  SAY @122 
++  IF ~~ THEN REPLY @123 GOTO 55
++  IF ~~ THEN REPLY @124 GOTO 55
++  IF ~~ THEN REPLY @125 GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 54
+-  SAY ~The future... no, I must quell my temptation to ask and you must not tell me, there is more at stake than knowing one's future fate must be allowed to play her hand, but tell me instead of this portal, was it the creation of this mage that you spoke of?~
+-  IF ~~ THEN REPLY ~I have just said that we come from a time many years into the future and yet you hardly bat an eyelid! Hardly the reaction I would have expected.~ GOTO 55
+-  IF ~~ THEN REPLY ~What, no surprise, no sign of disbelief in your face?~ GOTO 55
+-  IF ~~ THEN REPLY ~You show little surprise at my words. I find that strange, maybe I should worry that you already know how we come to be here and why?~ GOTO 56
++  SAY @126
++  IF ~~ THEN REPLY @123 GOTO 55
++  IF ~~ THEN REPLY @124 GOTO 55
++  IF ~~ THEN REPLY @125 GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 55
+-  SAY ~I am mildly surprised, but if you are indeed from the future, how could I know what progress has been made. It could be that travel through time via portals is common place in your time <CHARNAME>. I can only wonder at the genius it takes to create such artifacts.~
+-  IF ~~ THEN REPLY ~Irenicus's mind was not so much genius as insane! You see Hrothgar, we were fleeing the torture and imprisonment of this wizard when we happened upon his portal.~ GOTO 57
+-  IF ~~ THEN REPLY ~It is said genius verges on insanity. If Irenicus was a genius, he was also insane! How many genius's do you know kidnap and torture for their own pleasure?~ GOTO 57 
+-  IF ~~ THEN REPLY ~Whether Irenicus is a genius is debatable, is he insane... probably. It was in his infernal dungeon that we found the portal, and thinking it was a way out we stepped through it and into your time.~ GOTO 62
++  SAY @127
++  IF ~~ THEN REPLY @128 GOTO 57
++  IF ~~ THEN REPLY @129 GOTO 57 
++  IF ~~ THEN REPLY @130 GOTO 62
+ END
+ 
+ IF ~~ THEN BEGIN 56
+-  SAY ~You have no need to fear me <CHARNAME>, I have no more understanding than you as to why you are here. My surprise is overshadowed by my awe that marvels such as this portal you speak of will come into being in the future. I can only wonder at the genius it takes to create such artifacts.~
+-  IF ~~ THEN REPLY ~Irenicus's mind was not so much genius as insane! You see Hrothgar, we were fleeing the torture and imprisonment of this wizard when we happened upon his portal.~ GOTO 57
+-  IF ~~ THEN REPLY ~It is said genius verges on insanity. If Irenicus was a genius, he was also insane! How many genius's do you know kidnap and torture for their own pleasure?~ GOTO 57 
+-  IF ~~ THEN REPLY ~Whether Irenicus's is a genius is debatable, is he insane... probably. It was in his infernal dungeon that we found the portal, and thinking it was a way out we stepped through it and into your time.~ GOTO 62
++  SAY @131
++  IF ~~ THEN REPLY @128 GOTO 57
++  IF ~~ THEN REPLY @129 GOTO 57 
++  IF ~~ THEN REPLY @132 GOTO 62
+ END
+ 
+ IF ~~ THEN BEGIN 57
+-  SAY ~I do not understand? You say this Irenicus held you captive, that he tortured and abused you, but what reason could he have to treat you so barbarically <CHARNAME>?~
+-  IF ~~ THEN REPLY ~That is something I intend to ask him when I catch up with him, and not too politely either!~ GOTO 58
+-  IF ~~ THEN REPLY ~Maybe he is just a sadistic bastard that gets off on kidnapping and torturing!~ GOTO 58
+-  IF ~~ THEN REPLY ~Given my parentage Hrothgar, I am used to things happening to me for no other reason than that, but as to why he abused Imoen also, I have no idea.~ GOTO 64
++  SAY @133
++  IF ~~ THEN REPLY @134 GOTO 58
++  IF ~~ THEN REPLY @135 GOTO 58
++  IF ~~ THEN REPLY @136 GOTO 64
+ END 
+ 
+ IF ~~ THEN BEGIN 58
+-  SAY ~If that is so, then you were lucky to find the portal and make good your escape before this Irenicus discovered you gone. What I cannot understand is why the portal led you to Easthaven and why this particular time?~
++  SAY @137
+   IF ~InParty("Jaheira")
+-!Dead("Khalid")~ THEN REPLY ~Lucky yes, but unfortunately not all of us made it out, Jaheira's husband Khalid is still somewhere in that infernal place. I have to hope that there is some way of finding our back to him.~ JOURNAL ~Never Ending Journey: Spine Of The World.
+-
+-So it was that the patchwork militia set off from Easthaven, bound for the troubled village of Kuldahar with the party of strangers in tow. On they traveled, across the windswept tundra of the Dale, through the foothills of the Spine of the World, and upwards on the steep and treacherous trails of the Kuldahar Pass. Eager to seek out the evil that threatened the Pass, they did not expect it to find them first.  High upon the cliffs of the Pass, a band of frost giants had prepared an ambush. Hurling boulders and dislodging massive outcroppings of rock and snow, the giants sparked an avalanche that thundered down the mountainside and crashed down upon the heads of the unsuspecting expedition. Those fortunate enough to survive the avalanche pulled themselves free of the mountain of snow and bodies that now barred the way back to Easthaven. Battered and disheartened by the loss of their comrades, the survivors had little choice but to continue on to Kuldahar... alone.~ GOTO 59
+-  IF ~~ THEN REPLY ~Fortunate for Irenicus, yes, because his sending us here puts him well out of my reach and beyond any retribution I would visit back on him!~ JOURNAL ~Never Ending Journey: Spine Of The World.
+-
+-So it was that the patchwork militia set off from Easthaven, bound for the troubled village of Kuldahar with the party of strangers in tow. On they traveled, across the windswept tundra of the Dale, through the foothills of the Spine of the World, and upwards on the steep and treacherous trails of the Kuldahar Pass. Eager to seek out the evil that threatened the Pass, they did not expect it to find them first.  High upon the cliffs of the Pass, a band of frost giants had prepared an ambush. Hurling boulders and dislodging massive outcroppings of rock and snow, the giants sparked an avalanche that thundered down the mountainside and crashed down upon the heads of the unsuspecting expedition. Those fortunate enough to survive the avalanche pulled themselves free of the mountain of snow and bodies that now barred the way back to Easthaven. Battered and disheartened by the loss of their comrades, the survivors had little choice but to continue on to Kuldahar... alone.~ GOTO 60
+-  IF ~~ THEN REPLY ~A mystery to me also, and one I may never know the answer to because the portal closed immediately after our arrival.~ JOURNAL ~Never Ending Journey: Spine Of The World.
+-
+-So it was that the patchwork militia set off from Easthaven, bound for the troubled village of Kuldahar with the party of strangers in tow. On they traveled, across the windswept tundra of the Dale, through the foothills of the Spine of the World, and upwards on the steep and treacherous trails of the Kuldahar Pass. Eager to seek out the evil that threatened the Pass, they did not expect it to find them first.  High upon the cliffs of the Pass, a band of frost giants had prepared an ambush. Hurling boulders and dislodging massive outcroppings of rock and snow, the giants sparked an avalanche that thundered down the mountainside and crashed down upon the heads of the unsuspecting expedition. Those fortunate enough to survive the avalanche pulled themselves free of the mountain of snow and bodies that now barred the way back to Easthaven. Battered and disheartened by the loss of their comrades, the survivors had little choice but to continue on to Kuldahar... alone.~ GOTO 61
+-  IF ~~ THEN REPLY ~Whatever the reason, I am just glad to be free and alive, whatever the year may be.~ JOURNAL ~Never Ending Journey: Spine Of The World.
+-
+-So it was that the patchwork militia set off from Easthaven, bound for the troubled village of Kuldahar with the party of strangers in tow. On they traveled, across the windswept tundra of the Dale, through the foothills of the Spine of the World, and upwards on the steep and treacherous trails of the Kuldahar Pass. Eager to seek out the evil that threatened the Pass, they did not expect it to find them first.  High upon the cliffs of the Pass, a band of frost giants had prepared an ambush. Hurling boulders and dislodging massive outcroppings of rock and snow, the giants sparked an avalanche that thundered down the mountainside and crashed down upon the heads of the unsuspecting expedition. Those fortunate enough to survive the avalanche pulled themselves free of the mountain of snow and bodies that now barred the way back to Easthaven. Battered and disheartened by the loss of their comrades, the survivors had little choice but to continue on to Kuldahar... alone.~ GOTO 61
++!Dead("Khalid")~ THEN REPLY @138 JOURNAL @139 GOTO 59
++  IF ~~ THEN REPLY @140 JOURNAL @139 GOTO 60
++  IF ~~ THEN REPLY @141 JOURNAL @139 GOTO 61
++  IF ~~ THEN REPLY @142 JOURNAL @139 GOTO 61
+ END
+ 
+ IF ~~ THEN BEGIN 59
+-  SAY ~I shudder when I imagine what you have suffered <CHARNAME>, at what you have all suffered and I feel sorrow for what Jaheira is still suffering. I will pray that it is the will of the gods that a way back will be found for you all and soon she will once again be united with her Khalid. For now, we will concentrate on the task ahead and speak no more of that place.~
++  SAY @143
+   IF ~~ THEN DO ~SetGlobal("StartIWD","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -434,7 +406,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 60
+-  SAY ~I can only imagine what you suffered at the hands of this Irenicus <CHARNAME> and I well understand you feel the need for revenge, but retribution is best left to the gods. Irenicus will be judged, as we all must be, be content that your ordeal is over and enjoy your freedom once more. Come, we will concentrate on the task ahead and speak no more of Irenicus today.~
++  SAY @144
+   IF ~~ THEN DO ~SetGlobal("StartIWD","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -442,7 +414,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 61
+-  SAY ~I shudder when I imagine what you have suffered <CHARNAME>, at what you have all suffered, but let us give thanks to the gods that your ordeal is over and that they grant you a lighter road to walk. Come let us concentrate on the task ahead and speak now more of that place.~
++  SAY @145
+   IF ~~ THEN DO ~SetGlobal("StartIWD","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -450,27 +422,27 @@
+ END
+ 
+ IF ~~ THEN BEGIN 62
+-  SAY ~Ah! So you happened upon this portal whilst exploring a wizard's dungeon, brings back memories of my own adventuring and dungeon delving days.~
+-  IF ~~ THEN REPLY ~Not so much adventuring, more like escaping.~ GOTO 63
+-  IF ~~ THEN REPLY ~I would not call being caged and tortured adventuring.~ GOTO 57
++  SAY @146
++  IF ~~ THEN REPLY @147 GOTO 63
++  IF ~~ THEN REPLY @148 GOTO 57
+ END
+ 
+ IF ~~ THEN BEGIN 63
+-  SAY ~Escaping? You mean this wizard was holding you captive in this place? For what possible reason would he do such a thing <CHARNAME>?~
+-  IF ~~ THEN REPLY ~That is something I intend to ask him when I catch up with him, and not too politely either!~ GOTO 58
+-  IF ~~ THEN REPLY ~Maybe he is just a sadistic bastard that gets off on kidnapping and torturing!~ GOTO 58
+-  IF ~~ THEN REPLY ~Given my parentage Hrothgar, I am used to things happening to me for no other reason than that, but as to why he abused Imoen also, I have no idea.~ GOTO 64
++  SAY @149
++  IF ~~ THEN REPLY @134 GOTO 58
++  IF ~~ THEN REPLY @135 GOTO 58
++  IF ~~ THEN REPLY @136 GOTO 64
+ END 
+ 
+ IF ~~ THEN BEGIN 64
+-  SAY ~Your parentage? Why should your parentage give rise to this wizard singling you out and abusing you so despicably <CHARNAME>?~
+-  IF ~~ THEN REPLY ~A slip of the tongue Hrothgar, nothing more. Some things are better left unsaid.~ GOTO 65 
+-  IF ~~ THEN REPLY ~Another time Hrothgar, this is not the place for such a discussion.~ GOTO 65
+-  IF ~~ THEN REPLY ~That Hrothgar, is something I do not wish to talk about. Not to you, not to anyone.~ GOTO 65
++  SAY @150
++  IF ~~ THEN REPLY @151 GOTO 65 
++  IF ~~ THEN REPLY @152 GOTO 65
++  IF ~~ THEN REPLY @153 GOTO 65
+ END
+  
+ IF ~~ THEN BEGIN 65
+-  SAY ~If that is your wish, then I shall respect it, however, if at any time you are ready to confide in me and tell me your story, then I will be willing to listen.~
++  SAY @154
+   IF ~~ THEN DO ~SetGlobal("StartIWD","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -478,51 +450,51 @@
+ END
+ 
+ IF ~~ THEN BEGIN 66
+-  SAY ~You arrive in Pomab's shop mysteriously and you ask what I know of portals. Am I wrong to assume that it was one of these portals that brought you here? If I am wrong then I apologise for making such an assumption, but if I am not, please, tell me more.~
+-  IF ~~ THEN REPLY ~You assume correctly, however there is more. This portal also transported us back through time.~ GOTO 67
+-  IF ~~ THEN REPLY ~Very astute of you Hrothgar, but tell me do you know of portals that can take a person back through time as this one appears to have has done?~ GOTO 67
+-  IF ~~ THEN REPLY ~An assumption is it Hrothgar? What assumption should I be making seeing as this portal exited in the past and in your town?~ GOTO 56
++  SAY @155
++  IF ~~ THEN REPLY @156 GOTO 67
++  IF ~~ THEN REPLY @157 GOTO 67
++  IF ~~ THEN REPLY @158 GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 67
+-  SAY ~The future... eh... <CHARNAME>, there is much you can tell me... but no... I must not ask and you must not tell me, there is more at stake than knowing one's future. Tell me instead of the creation of such portals?~
+-  IF ~~ THEN REPLY ~I have just said that we come from a time many years into the future and yet you hardly bat an eyelid! Hardly the reaction I would have expected.~ GOTO 55
+-  IF ~~ THEN REPLY ~What, no surprise, no sign of disbelief in your face?~ GOTO 55
+-  IF ~~ THEN REPLY ~You show little surprise at my words. I find that strange, maybe I should worry that you already know how we come to be here and why?~ GOTO 56
++  SAY @159
++  IF ~~ THEN REPLY @123 GOTO 55
++  IF ~~ THEN REPLY @124 GOTO 55
++  IF ~~ THEN REPLY @125 GOTO 56
+ END
+ 
+ IF ~~ THEN BEGIN 68
+-  SAY ~And your help is much appreciated <CHARNAME>, but your sudden appearance in Pomab's store was bound to give rise to questions.~
++  SAY @160
+   IF ~~ THEN GOTO 69
+ END 
+ 
+ IF ~~ THEN BEGIN 69
+-  SAY ~Now, if you prefer not to answer them that is your prerogative and I will not press you, but do not expect me to view you without a little suspicion.~
++  SAY @161
+   IF ~~ THEN GOTO 70
+ END
+ 
+ IF ~~ THEN BEGIN 70
+-  SAY ~I will warn you though, if you do anything to put this mission in jeopardy, you will answer to me. Understood?~
+-  IF ~InParty("Jaheira")~ THEN REPLY ~Until I know how I come to be in your time I would  prefer to keep my own counsel for a while longer. It is enough for you to know that I have enemies at my heels, Jaheira's husband is lost and friends have died for no reason other than it was their choice to follow me.~ GOTO 71
+-  IF ~~ THEN REPLY ~I know of you Hrothgar of Easthaven, but only what lore in my time says, so until I know the truth of what is told, I will answer none of your questions.~ GOTO 71
+-  IF ~~ THEN REPLY ~View me however you like Hrothgar, it is of little consequence to me. I seek your company only until I find a way back to my own time.~ GOTO 71
+-  IF ~~ THEN REPLY ~I have agreed to help you Hrothgar, but that does not give you the right to pry into my business. Cease your questions or I shall withdraw my aid and continue my search for a way back to my own time.~ GOTO 71
++  SAY @162
++  IF ~InParty("Jaheira")~ THEN REPLY @163 GOTO 71
++  IF ~~ THEN REPLY @164 GOTO 71
++  IF ~~ THEN REPLY @165 GOTO 71
++  IF ~~ THEN REPLY @166 GOTO 71
+ END
+ 
+ IF ~~ THEN BEGIN 71
+-  SAY ~Time? You speak as though you are not of this time. Who are you and what manner of trickery has brought you here? Is all that is happening around us of your doing? Come, I demand some answers now!~
+-  IF ~~ THEN REPLY ~Demand all you want, but you will learn no more than what I choose to tell you. I am from some future time yes, but do not look to me for anymore answers than that.~ GOTO 72
+-  IF ~~ THEN REPLY ~I am from some future time, but I have nothing to do with the problems of this time. Now save your breath for I will answer no more of your questions.~ GOTO 72
+-  IF ~~ THEN REPLY ~I am from a future time, and I arrived in time to offer you assistance. Now, unless you want me to withdraw my help, you will cease your questions now!~ GOTO 72
++  SAY @167
++  IF ~~ THEN REPLY @168 GOTO 72
++  IF ~~ THEN REPLY @169 GOTO 72
++  IF ~~ THEN REPLY @170 GOTO 72
+ END
+ 
+ IF ~~ THEN BEGIN 72
+-  SAY ~I still have many questions <CHARNAME>, not so much of the future for it is not good to know what is yet to happen, but questions concerning your arrival...~
++  SAY @171
+   IF ~~ THEN GOTO 73
+ END  
+ 
+ IF ~~ THEN BEGIN 73
+-  SAY ~I have yet to be convinced that it is no more than coincidence that you arrive in such troubled times. However... my questions will wait until you are in a more congenial mood, until then you will do well to heed my warning.~
++  SAY @172
+   IF ~~ THEN DO ~SetGlobal("StartIWD","GLOBAL",2)
+ ClearAllActions()
+ StartCutSceneMode()
+@@ -532,8 +504,8 @@
+ IF WEIGHT #-1 ~Global("Join_Posse", "GLOBAL", 3) 
+ Global("Supply_Quest","GLOBAL",2)
+ Global("VP_Hrothgar_Waits","GLOBAL",1)~ THEN BEGIN 74 // from:
+-  SAY ~Back again I see.  Have you reconsidered my offer to join the expedition?~ [HROT_19] 
+-  IF ~NumInPartyLT(2)~ THEN REPLY ~Alright, alright.  I'll join your expedition.~  GOTO 41
+-  IF ~NumInPartyGT(1)~ THEN REPLY ~Alright, alright.  We'll join your expedition.~  GOTO 41
+-  IF ~~ THEN REPLY ~No, just stopping by to say hello.  Farewell.~  EXIT
++  SAY @49 
++  IF ~NumInPartyLT(2)~ THEN REPLY @40  GOTO 41
++  IF ~NumInPartyGT(1)~ THEN REPLY @41  GOTO 41
++  IF ~~ THEN REPLY @50  EXIT
+ END	

@@ -1,0 +1,281 @@
+--- NeJ\Dfiles\DORRICK.D	Fri Sep 24 18:38:10 2004
++++ C:\BWP Patchstudio\patched files\NeJ\Dfiles\DORRICK.D	Wed Apr 10 10:24:14 2019
+@@ -2,188 +2,172 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ !Dead("Kuweenog")~ THEN BEGIN 0 // from:
+-  SAY ~Well now, what have we here?  It's been a long time since I have had guests.  Welcome.  My name is Orrick.  What brings you to my humble home?~ 
+-  IF ~~ THEN REPLY ~I would like to ask you some questions about disturbances in the pass.~  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~I am interested in purchasing some spells.~  GOTO 14
+-  IF ~~ THEN REPLY ~Nothing in particular.  I am new in town and just thought I'd have a look around.~  GOTO 17
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~I found this book in a ruined elven tower not far from here.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @0 
++  IF ~~ THEN REPLY @1  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @2  GOTO 14
++  IF ~~ THEN REPLY @3  GOTO 17
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @4  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+ END
+ 
+ IF ~NumTimesTalkedTo(0)
+ Dead("Kuweenog")~ THEN BEGIN 1 // from:
+-  SAY ~Well now, what have we here?  It's been a long time since I have had guests.  Welcome.  My name is Orrick.  Judging by the commotion in the next room, I figure you already met my servant, Weenog.~ 
+-  IF ~~ THEN REPLY ~You keep poor company, Orrick.  Your "servant" was a filthy goblin and had to be put down.~  GOTO 2
+-  IF ~~ THEN REPLY ~Uh... I hate to break this to you, but you're going to have to find a new servant.  We sort of had to kill Weenog.~  GOTO 2
++  SAY @6 
++  IF ~~ THEN REPLY @7  GOTO 2
++  IF ~~ THEN REPLY @8  GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from: 1.1 1.0
+-  SAY ~A pity.  Weenog might have been an odd choice for a manservant, but he was beginning to show promise.  Perhaps in the future, I should choose a less fearsome breed.  Oh well, what's done is done.  Now, what brings you to my humble home?~ 
+-  IF ~~ THEN REPLY ~I would like to ask you some questions about disturbances in the pass.~  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~I am interested in purchasing some spells.~  GOTO 14
+-  IF ~~ THEN REPLY ~Nothing in particular.  I am new in town and just thought I'd have a look around.~  GOTO 17
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~I found this book in a ruined elven tower not far from here.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @9 
++  IF ~~ THEN REPLY @1  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @2  GOTO 14
++  IF ~~ THEN REPLY @3  GOTO 17
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @4  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from: 19.0 18.0 17.0 2.0 0.0
+-  SAY ~Ah yes, the disturbances.  I'm afraid I can't be of much help to you there.  I rarely leave this tower for any reason, you see.  My studies prevent me from taking an active interest in the affairs of the people of Kuldahar.  Their problems are no concern of mine.~ 
+-  IF ~Global("Know_Balance", "GLOBAL", 1)~ THEN REPLY ~What about the balance?  Surely you must see that what happens to the people of Kuldahar will affect you as well.~  GOTO 4
+-  IF ~~ THEN REPLY ~But... you live in Kuldahar.  How can you not care what happens to the town and its people?~  GOTO 5
+-  IF ~~ THEN REPLY ~I see.  You don't give a damn about anyone but yourself.  You'd rather sit locked up in this tower with your nose buried in these dusty old books.~  GOTO 6
+-  IF ~~ THEN REPLY ~I understand you're busy, but could you at least offer some assistance in the way of spells or scrolls.  I'd be willing to pay, of course.~  GOTO 14
+-  IF ~~ THEN REPLY ~Very well.  Then I shall disturb you no further.  Farewell.~  EXIT
++  SAY @10 
++  IF ~Global("Know_Balance", "GLOBAL", 1)~ THEN REPLY @11  GOTO 4
++  IF ~~ THEN REPLY @12  GOTO 5
++  IF ~~ THEN REPLY @13  GOTO 6
++  IF ~~ THEN REPLY @14  GOTO 14
++  IF ~~ THEN REPLY @15  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from: 3.0
+-  SAY ~I see you've been talking to that old codger, Arundel.  The fool.  I care not for his precious balance or for seeking out his mysterious evil.  All that matters to me is my work.~ 
+-  IF ~~ THEN REPLY ~What is so important about your work?~  GOTO 7
+-  IF ~~ THEN REPLY ~I understand you're busy, but could you at least offer some assistance in the way of spells or scrolls.  I'd be willing to pay, of course.~  GOTO 14
+-  IF ~~ THEN REPLY ~Very well.  Then I shall disturb you no further.  Farewell.~  EXIT
++  SAY @16 
++  IF ~~ THEN REPLY @17  GOTO 7
++  IF ~~ THEN REPLY @14  GOTO 14
++  IF ~~ THEN REPLY @15  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 3.1
+-  SAY ~I've had many homes.  Kuldahar is not the first and certainly won't be the last.  It is unfortunate that these simple folk have been made to suffer so, but I have no desire to get involved.  All that matters to me is my work.~ 
+-  IF ~~ THEN REPLY ~What is so important about your work?~  GOTO 7
+-  IF ~~ THEN REPLY ~I understand you're busy, but could you at least offer some assistance in the way of spells or scrolls.  I'd be willing to pay, of course.~  GOTO 14
+-  IF ~~ THEN REPLY ~Very well.  Then I shall disturb you no further.  Farewell.~  EXIT
++  SAY @18 
++  IF ~~ THEN REPLY @17  GOTO 7
++  IF ~~ THEN REPLY @14  GOTO 14
++  IF ~~ THEN REPLY @15  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from: 3.2
+-  SAY ~Precisely.  I have spent years collecting these "dusty old books."  They are my life's work.  Contained within their passages are the clues that may one day unlock the mysteries of an ancient and nearly forgotten arcane lore.~ 
+-  IF ~~ THEN REPLY ~What sort of arcane lore?~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
+-  IF ~~ THEN REPLY ~Speaking of arcane lore... I'm looking to purchase some spells.  ~  GOTO 14
+-  IF ~~ THEN REPLY ~Whatever.  I think I'll be on my way now.  Farewell.~  EXIT
++  SAY @19 
++  IF ~~ THEN REPLY @20  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
++  IF ~~ THEN REPLY @21  GOTO 14
++  IF ~~ THEN REPLY @22  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from: 5.0 4.0
+-  SAY ~Everything!  Knowledge is the one *true* source of power in this universe... everything else is fleeting.  I have spent years collecting these tomes and scrolls you see before you.  They are my life's work.  Contained within their passages are the clues that may one day unlock the mysteries of an ancient and nearly forgotten arcane lore.~ 
+-  IF ~~ THEN REPLY ~What sort of arcane lore?~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
+-  IF ~~ THEN REPLY ~Speaking of arcane lore... I'm looking to purchase some spells.  ~  GOTO 14
+-  IF ~~ THEN REPLY ~Whatever.  I think I'll be on my way now.  Farewell.~  EXIT
++  SAY @23 
++  IF ~~ THEN REPLY @20  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
++  IF ~~ THEN REPLY @21  GOTO 14
++  IF ~~ THEN REPLY @22  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from: 19.5 19.1 18.5 18.1 7.0 6.0
+-  SAY ~My studies revolve around the arcane lore that deals specifically with the creation of mythals.  A mythal is a powerful elven enchantment that is essentially a weave of protective magic that can be cast over a vast area.  I've discovered numerous historical accounts of elven mages laying such mythals over an entire city.~ 
+-  IF ~~ THEN REPLY ~Interesting.  Tell me more.~  GOTO 9
+-  IF ~~ THEN REPLY ~Fascinating.  Well, I'd best be off.  Farewell.~  EXIT
++  SAY @24 
++  IF ~~ THEN REPLY @25  GOTO 9
++  IF ~~ THEN REPLY @26  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from: 8.0
+-  SAY ~The details of the accounts are vague at best.  The mages of the old elven kingdoms vanished long ago... retreating to the safety and isolation of the isle of Evermeet.  It seems that all their written knowledge of mythal enchantment has vanished with them.  For over a decade, I have traveled the realms, searching for remnants of this forgotten lore.  That is what brought me to Kuldahar.~ 
+-  IF ~~ THEN REPLY ~You think the answers you seek are here in Kuldahar?~  GOTO 10
+-  IF ~~ THEN REPLY ~Fascinating.  Well, I'd best be off.  Farewell.~  EXIT
++  SAY @27 
++  IF ~~ THEN REPLY @28  GOTO 10
++  IF ~~ THEN REPLY @26  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from: 9.0
+-  SAY ~Not exactly.  While exploring the fabled ruins of Myth Drannor, I came across an old, tattered manuscript buried amid the rubble of an abandoned library.  The manuscript made several references to an elven outpost located somewhere within the Spine of the World Mountains.  Naturally, I came here to find the settlement.  Thus far, I've been unable to locate it.~ 
+-  IF ~Global("TT5000_Visited", "GLOBAL", 0)~ THEN REPLY ~Well, If I come across any elven ruins... I'll be sure to let you know.~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 2)~ UNSOLVED_JOURNAL ~Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.~  GOTO 16
+-  IF ~Global("TT5000_Visited", "GLOBAL", 1)~ THEN REPLY ~I believe I've been to the elven outpost you're looking for.  It is a ruined tower that lies deep in the mountains south of Kuldahar.~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
+-  IF ~~ THEN REPLY ~Fascinating.  Well, I'd best be off.  Farewell.~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 2)~ UNSOLVED_JOURNAL ~Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.~  EXIT
++  SAY @29 
++  IF ~Global("TT5000_Visited", "GLOBAL", 0)~ THEN REPLY @30  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 2)~ UNSOLVED_JOURNAL @5  GOTO 16
++  IF ~Global("TT5000_Visited", "GLOBAL", 1)~ THEN REPLY @31  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
++  IF ~~ THEN REPLY @26  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 2)~ UNSOLVED_JOURNAL @5  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from: 19.3 18.3 10.1
+-  SAY ~What?  You've been to the Hand of Seldarine?  Then the legends *are* true!  Tell me, how did it look?~ 
+-  IF ~~ THEN REPLY ~It looked as though it had seen better days.~  GOTO 12
+-  IF ~Global("DarkestHourRead","GLOBAL",1)~ THEN REPLY ~Not bad, considering that it was destroyed hundreds of years ago by a cataclysmic spell that wiped out its inhabitants and cursed them all into an eternal existence of unlife.~  GOTO 12
++  SAY @32 
++  IF ~~ THEN REPLY @33  GOTO 12
++  IF ~Global("DarkestHourRead","GLOBAL",1)~ THEN REPLY @34  GOTO 12
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from: 11.1 11.0
+-  SAY ~Interesting.  Did you come across any arcane material regarding elven mythals?~ 
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~Actually, yes.  I found this book within the ruins of the tower.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @35 
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @36  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+-  IF ~~ THEN REPLY ~No, I didn't find any such material.~  GOTO 15
++  IF ~~ THEN REPLY @37  GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 13 // from: 19.2 18.2 15.0 12.0 2.3 0.3
+-  SAY ~Useful indeed!  This book is precisely what I've been searching for all these years.  You have done me a great service and should be rewarded.  Take this artifact as a token of my gratitude.~ 
+-  IF ~~ THEN REPLY ~Thank you.  Before I go, I would like to purchase some spells.~  DO ~GiveItemCreate("Cloakmi", Player1,0,0,0)~ GOTO 14
+-  IF ~~ THEN REPLY ~Thank you.  I must take my leave now.  Farewell.~  DO ~GiveItemCreate("Cloakmi", Player1,0,0,0)~ EXIT
++  SAY @38 
++  IF ~~ THEN REPLY @39  DO ~GiveItemCreate("Cloakmi", Player1,0,0,0)~ GOTO 14
++  IF ~~ THEN REPLY @40  DO ~GiveItemCreate("Cloakmi", Player1,0,0,0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14 // from: 19.4 18.4 17.1 16.0 15.1 13.0 7.1 6.1 5.1 4.1 3.3 2.1 0.1
+-  SAY ~I see.  Well, you've come to the right place.  I can certainly provide you with a number of useful spells for your spellbook.  Of course, I am only willing to offer you certain spells.  I fear much of the knowledge I possess is beyond your comprehension.  Perhaps, in the future you may be worthy of such advanced knowledge.~ 
+-  IF ~~ THEN REPLY ~Very well.  What do you have to offer me at the moment?~  DO ~StartStore("KUORC1", Player1)~ EXIT
+-  IF ~~ THEN REPLY ~Never mind.  Farewell.~  EXIT
++  SAY @41 
++  IF ~~ THEN REPLY @42  DO ~StartStore("KUORC1", Player1)~ EXIT
++  IF ~~ THEN REPLY @43  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15 // from: 12.1
+-  SAY ~Hmm.  No matter... at least you have located the ruins for me.  I'm sure the answers I seek are merely lying about some hidden chamber in the tower, waiting to be discovered.  If you return to the ruins and happen upon any such materials, please deliver them to me here.  I am willing to pay a handsome reward for such a service.~ 
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~Reward?  On second thought... I did find this book within the ruins of the tower.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @44 
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @45  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+-  IF ~~ THEN REPLY ~I'll remember that.  Before I go, I would like to purchase some spells.~  GOTO 14
+-  IF ~~ THEN REPLY ~I'll remember that.  Farewell.~  EXIT
++  IF ~~ THEN REPLY @46  GOTO 14
++  IF ~~ THEN REPLY @47  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 16 // from: 10.0
+-  SAY ~I appreciate your interest.  If, by some miracle, you find this lost elven outpost and happen upon any materials regarding mythals, please deliver them to me here.  I am willing to pay a handsome reward for such a service.~ 
+-  IF ~~ THEN REPLY ~I'll remember that.  Before I go, I would like to purchase some spells.~  GOTO 14
+-  IF ~~ THEN REPLY ~I'll remember that.  Farewell.~  EXIT
++  SAY @48 
++  IF ~~ THEN REPLY @46  GOTO 14
++  IF ~~ THEN REPLY @47  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17 // from: 2.2 0.2
+-  SAY ~Well, as you can see, my private study here isn't much of an attraction.  But, I'm sure there are plenty of other interesting sites to see in Kuldahar.  You'd best hurry along if you wish to see them all.~ 
+-  IF ~~ THEN REPLY ~Before I go... I would like to ask you some questions about disturbances in the pass.~  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
+-  IF ~~ THEN REPLY ~Before I go... I am interested in purchasing some spells.~  GOTO 14
+-  IF ~~ THEN REPLY ~Very well.  Then I shall disturb you no further.  Farewell.~  EXIT
++  SAY @49 
++  IF ~~ THEN REPLY @50  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
++  IF ~~ THEN REPLY @51  GOTO 14
++  IF ~~ THEN REPLY @15  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kuldahar_Murder", "GLOBAL", 0)~ THEN BEGIN 18 // from:
+-  SAY ~Ah, the would-be saviors of Kuldahar have returned.  I'm pleased to see you haven't gotten yourselves killed yet.  What can I do for you today?~ 
+-  IF ~Global("Orrick_Help", "GLOBAL", 0)~ THEN REPLY ~I would like to ask you some questions about disturbances in the pass.~  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
+-  IF ~Global("Orrick_Quest", "GLOBAL", 0)~ THEN REPLY ~Nice study you have here.  Mind if I ask what it is you are studying?~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~I found this book in a ruined elven tower not far from here.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @52 
++  IF ~Global("Orrick_Help", "GLOBAL", 0)~ THEN REPLY @1  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
++  IF ~Global("Orrick_Quest", "GLOBAL", 0)~ THEN REPLY @53  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @4  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+   IF ~Global("Orrick_Quest", "GLOBAL",2)
+ Global("TT5000_Visited", "GLOBAL",1)
+-!PartyHasItem("bookmyt")~ THEN REPLY ~I believe I've been to the elven outpost you're looking for.  It is a ruined tower that lies deep in the mountains south of Kuldahar.~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
+-  IF ~~ THEN REPLY ~I am interested in purchasing some spells.~  GOTO 14
++!PartyHasItem("bookmyt")~ THEN REPLY @31  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
++  IF ~~ THEN REPLY @2  GOTO 14
+   IF ~GlobalGT("Orrick_Quest", "GLOBAL", 0)
+-GlobalLT("Orrick_Quest", "GLOBAL", 3)~ THEN REPLY ~Tell me again... what is it you are studying?~  GOTO 8
+-  IF ~~ THEN REPLY ~Never mind.  Farewell.~  EXIT
++GlobalLT("Orrick_Quest", "GLOBAL", 3)~ THEN REPLY @54  GOTO 8
++  IF ~~ THEN REPLY @43  EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ Global("Kuldahar_Murder", "GLOBAL", 1)~ THEN BEGIN 19 // from:
+-  SAY ~Welcome back.  I've been hearing some nasty rumors that you might have been involved in some, shall we say, *questionable* activities here in town.  Something about murder, was it?  Don't worry... I'm not about to turn you in or any such nonsense.  After all, your business is no concern of mine.  So, what can I do for you today?~ 
+-  IF ~Global("Orrick_Help", "GLOBAL", 0)~ THEN REPLY ~I would like to ask you some questions about disturbances in the pass.~  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
+-  IF ~Global("Orrick_Quest", "GLOBAL", 0)~ THEN REPLY ~Nice study you have here.  Mind if I ask what it is you are studying?~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
+-  IF ~PartyHasItem("bookmyt")~ THEN REPLY ~I found this book in a ruined elven tower not far from here.  Perhaps you might find it useful.~  DO ~TakePartyItem("bookmyt")
++  SAY @55 
++  IF ~Global("Orrick_Help", "GLOBAL", 0)~ THEN REPLY @1  DO ~SetGlobal("Orrick_Help", "GLOBAL", 1)~ GOTO 3
++  IF ~Global("Orrick_Quest", "GLOBAL", 0)~ THEN REPLY @53  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 1)~ GOTO 8
++  IF ~PartyHasItem("bookmyt")~ THEN REPLY @4  DO ~TakePartyItem("bookmyt")
+ SetGlobal("Orrick_Quest", "GLOBAL", 4)
+-EraseJournalEntry(%Helping Orrick to retrieve a *mythal*.
+-
+-Orrick, the mage in Kuldahar, mentioned that he was searching for the ruins of a lost elven outpost rumoured to be located somewhere in the mountains near Kuldahar Pass.  He seemed particularly interested in obtaining any knowledge that pertains to an ancient elven enchantment called a mythal.%)
++EraseJournalEntry(@5)
+ AddExperienceParty(6250)~ GOTO 13
+   IF ~Global("Orrick_Quest", "GLOBAL", 2)
+ Global("TT5000_Visited", "GLOBAL", 1)
+-!PartyHasItem("bookmyt")~ THEN REPLY ~I believe I've been to the elven outpost you're looking for.  It is a ruined tower that lies deep in the mountains south of Kuldahar.~  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
+-  IF ~~ THEN REPLY ~I am interested in purchasing some spells.~  GOTO 14
++!PartyHasItem("bookmyt")~ THEN REPLY @31  DO ~SetGlobal("Orrick_Quest", "GLOBAL", 3)~ GOTO 11
++  IF ~~ THEN REPLY @2  GOTO 14
+   IF ~GlobalGT("Orrick_Quest", "GLOBAL", 0)
+-GlobalLT("Orrick_Quest", "GLOBAL", 3)~ THEN REPLY ~Tell me again... what is it you are studying?~  GOTO 8
+-  IF ~~ THEN REPLY ~Never mind.  Farewell.~  EXIT
++GlobalLT("Orrick_Quest", "GLOBAL", 3)~ THEN REPLY @54  GOTO 8
++  IF ~~ THEN REPLY @43  EXIT
+ END

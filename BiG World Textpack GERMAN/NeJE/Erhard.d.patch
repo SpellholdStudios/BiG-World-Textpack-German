@@ -1,0 +1,354 @@
+--- NeJE\dlg\Erhard.d	Sat Apr 09 02:49:09 2016
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Erhard.d	Tue Apr 09 19:35:57 2019
+@@ -1,133 +1,133 @@
+ BEGIN ~ERHARD~
+ 
+ IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~Well met friends, I am Great Druid Erhard and I welcome you to this grove.~
++  SAY @0
+ =
+-~It has been a while since visitors have taken the time to walk and enjoy the bounties that nature has to offer in this wood.~
++@1
+ =
+-~Though nature is not at her best this day, she still has plenty to offer to those who come here with their eyes open.~ 
++@2 
+ 		IF ~InParty("Jaheira")
+ !Dead("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ DG2
+ 		IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~Well met Erhard. I am <CHARNAME> and I came here to speak with the druids of this grove, I did not expect to meet with one of the Great Druids. What calls you here Erhard?~ GOTO 17
++Dead("Jaheira")~ THEN REPLY @3 GOTO 17
+ 		IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I am <CHARNAME> and well met to you Erhard. I know very little of the ways of the wilds, but even I can see all is not well in this wood. Tell me, what ails this place Erhard?~ GOTO 17
++Dead("Jaheira")~ THEN REPLY @4 GOTO 17
+ 		IF ~OR(2)
+ !InParty("Jaheira")
+-Dead("Jaheira")~ THEN REPLY ~I am <CHARNAME>. I am here to find an item that I believe is in the keeping of the druids of this grove, if you can call this sickly place a grove. For a Great Druid, I must say you have let this place go a bit Erhard.~ GOTO 17
++Dead("Jaheira")~ THEN REPLY @5 GOTO 17
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~I am here at the request of the Grand Druid. When word reached him that this grove was not being replenished nor was she re-seeding new growth, he sent me to investigate the matter.~ 
++  SAY @6 
+ =
+-~You see for yourself how the young saplings bend as if withe weight of age, and what life does spring forth from the mother’s womb is no longer green and lush.~
++@7
+ =
+-~The Grand Druid bids me to find and re-balance that which has gone askew here.~
++@8
+ 		IF ~~ THEN EXTERN ~JAHEIRAJ~ DG3
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~That maybe true if this wood was of an age for the earth to become barren, but this is a young wood and it should still have many of these cycles to follow before that occurs <CHARNAME>.~
++  SAY @9
+ =
+-~No, something is causing the death and preventing the re-birth of that which dies. Soon the beauty here will be no more, look about, enjoy it whilst you still can, see the beauty of what I struggle to save here.~
+-  IF ~~ THEN REPLY ~As much as I would like to spend time walking in the sanctuary of this grove Erhard, I am here only to find an item that I am told is in the keeping of the druids here.~ GOTO 5 
+-  IF ~~ THEN REPLY ~I have no time for walks in the woods Erhard, I am here for an item that I know to be in the keeping of the druids here.~ GOTO 6
+-  IF ~~ THEN REPLY ~Then what can we do to aid you Erhard? Once we have retrieved that which we came for, perhaps together we will be able to save the grove.~ GOTO 7
++@10
++  IF ~~ THEN REPLY @11 GOTO 5 
++  IF ~~ THEN REPLY @12 GOTO 6
++  IF ~~ THEN REPLY @13 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~Although this wood has been here for centuries, it is still a young wood compared to some of the great forests in our keeping. It should not be dying in the manner that it is <CHARNAME>.~
++  SAY @14
+ =
+-~It is the Grand Druids theory that some evil has befallen the very earth herself here. Soon the beauty here will be no more, look about, enjoy it whilst you still can, see the beauty of what I struggle to save here.~
+-  IF ~~ THEN REPLY ~As much as I would like to spend time walking in the sanctuary of this grove Erhard, I am here only to find an item that I am told is in the keeping of the druids here.~ GOTO 5 
+-  IF ~~ THEN REPLY ~I have no time for walks in the woods Erhard, I am here for an item that I know to be in the keeping of the druids here.~ GOTO 6
+-  IF ~~ THEN REPLY ~Then what can we do to aid you Erhard? Once we have retrieved that which we came for, perhaps together we will be able to save the grove.~ GOTO 7
++@15
++  IF ~~ THEN REPLY @11 GOTO 5 
++  IF ~~ THEN REPLY @12 GOTO 6
++  IF ~~ THEN REPLY @13 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~Then take the time to do both <CHARNAME>. Tell me what it is you seek and if it is here you can rest awhile, enjoy the tranquillity of the grove and take it with you are refreshed and return to your road.~
+-  IF ~~ THEN REPLY ~I look for a book, or at least part of one. The one that has asked me to find it calls it the wisdom. He believes it to have been torn into three parts and given unto the keeping of druids.~ GOTO 8
+-  IF ~~ THEN REPLY ~I am looking for part of a book. If you have such an item then I will take it and be gone. You can then get back to doing your re-balancing thing.~ GOTO 8
++  SAY @16
++  IF ~~ THEN REPLY @17 GOTO 8
++  IF ~~ THEN REPLY @18 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-  SAY ~You may not have the time for the wildness of nature <CHARNAME>, but it is to nature that you owe your existence.~
++  SAY @19
+ =
+-~All creatures are sustained by the fruits of her labours, both flora and fauna depend on her nurturing. That is why it saddens us to see her labouring in vain to give new life to this grove.~
++@20
+ =
+-~I see in your eyes how little you comprehend what I say, or maybe its indifference that I see there. Perhaps you should just tell me what it is you seek and then you can be on your way.~
+-  IF ~~ THEN REPLY ~I look for a book, or at least part of one. The one that has asked me to find it calls it the wisdom. He believes it to have been torn into three parts and given unto the keeping of druids.~ GOTO 8
+-  IF ~~ THEN REPLY ~I am looking for part of a book. If you have such an item then I will take it and be gone. You can then get back to doing your re-balancing thing.~ GOTO 8
++@21
++  IF ~~ THEN REPLY @17 GOTO 8
++  IF ~~ THEN REPLY @18 GOTO 8
+ END
+ 				
+ IF ~~ THEN BEGIN 7
+-  SAY ~Your aid will be most welcome <CHARNAME>, but first, tell me what it is you seek from us?~
+-  IF ~~ THEN REPLY ~I look for a book, or at least part of one. The one that has asked me to find it calls it the wisdom. He believes it to have been torn into three parts and given unto the keeping of druids.~ GOTO 8
+-  IF ~~ THEN REPLY ~I am looking for part of a book. If you have such an item then I will take it and be gone. You can then get back to doing your re-balancing thing.~ GOTO 8
++  SAY @22
++  IF ~~ THEN REPLY @17 GOTO 8
++  IF ~~ THEN REPLY @18 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 8
+-  SAY ~I know of the book you speak. I have never turned its pages so I do not know what is written within, only that it was considered to be heretical to the druid belief.~
++  SAY @23
+ =
+-~The book itself was too powerful to destroy so it was split into three parts and each part was originally given into the keeping of three of the most powerful druids of the time.~
++@24
+ =
+-~By rendering the book thus, its power was greatly reduced. Since the rendering the three parts have changed hands many times, but all this happened many, many cycles past.~
++@25
+ =
+-~Why do you have need of this book now?~
+-  IF ~~ THEN REPLY ~I am not interested in the books history, only whether it is here or not.~ GOTO 9
+-  IF ~~ THEN REPLY ~Druids may consider it heretical, but in the hands of some people I know, its writings have begun to unite and teach some of the more savage races how to live at peace and in harmony with all.~ GOTO 10
+-  IF ~~ THEN REPLY ~The druids considered it heretical, so they tore the book in three! By what right did those druids set themselves up to decree that because a book does not conform to their beliefs it must be destroyed?~ GOTO 11
++@26
++  IF ~~ THEN REPLY @27 GOTO 9
++  IF ~~ THEN REPLY @28 GOTO 10
++  IF ~~ THEN REPLY @29 GOTO 11
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-  SAY ~I will answer that if you tell me why you have need of this book after all this time?~
+-  IF ~~ THEN REPLY ~Druids may consider it heretical, but in the hands of some people I know, its writings  have begun to unite and teach some of the more savage races how to live at peace and in harmony with all.~ GOTO 10
+-  IF ~~ THEN REPLY ~Because my friend Dar here thinks that it will aid more of his race to rid themselves of their savagery and teach them to co-exist peacefully alongside the more civilised races.~ GOTO 10
++  SAY @30
++  IF ~~ THEN REPLY @31 GOTO 10
++  IF ~~ THEN REPLY @32 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 10
+-  SAY ~When the book was split, no druid dared to question the will of the Great Druids, none but they knew of its writings.~
++  SAY @33
+ =
+-~It has never crossed our minds since to make the book whole again, we could see no useful purpose in doing this, but if what you say is true then maybe it is time to consider it.~
++@34
+ =
+-~I have one piece and I may know the whereabouts of another. I will gladly give it to you, but only in exchange for your aid.~
++@35
+ =
+-~I am desperate <CHARNAME>, I cannot heal this grove alone. Will you aid me in this?~
+-  IF ~~ THEN REPLY ~I have no interest in your grove Erhard. I only came for the book, so if you will hand it over to me, I will be on my way.~ GOTO 12
+-  IF ~~ THEN REPLY ~If it means saving this beautiful grove, of course I will help you. Tell me what you have discovered so far?~ GOTO 15
+-  IF ~~ THEN REPLY ~Seems like a fair trade. Have you any idea of what is going on here?~ GOTO 15
++@36
++  IF ~~ THEN REPLY @37 GOTO 12
++  IF ~~ THEN REPLY @38 GOTO 15
++  IF ~~ THEN REPLY @39 GOTO 15
+ END
+ 
+ IF ~~ THEN BEGIN 11
+-  SAY ~As I said, all this took place many, many cycles past and we have tempered our ways somewhat since then.~
++  SAY @40
+ =
+-~Until now, no one has given this book a second thought. Tell me, what possible use could you have for it now?~
+-  IF ~~ THEN REPLY ~Druids may consider it heretical, but in the hands of some people I know, its writings  have begun to unite and teach some of the more savage races how to live at peace and in harmony with all.~ GOTO 10
+-  IF ~~ THEN REPLY ~Because my friend Dar here thinks that it will aid more of his race to rid themselves of their savagery and teach them to co-exist peacefully alongside the more civilised races.~ GOTO 10
++@41
++  IF ~~ THEN REPLY @31 GOTO 10
++  IF ~~ THEN REPLY @32 GOTO 10
+ END
+ 
+ IF ~~ THEN BEGIN 12
+-  SAY ~I would like to help these people <CHARNAME>, but the welfare of this grove is my primary concern.~
++  SAY @42
+ =
+-~I fear that soon it will be too late, the damage will be so great that balance will never be restored, and the great mother will not be able to heal the sickness here.~
++@43
+ =
+-~Your aid for the book, this is not negotiable.~
+-  IF ~~ THEN REPLY ~I wish you no harm Erhard, but understand this, time is short for me. I will have the book!~ GOTO 13
+-  IF ~~ THEN REPLY ~I can kill you as you stand Erhard and take the book! Why not just give the damn thing to me and save yourself a lot of pain?~ GOTO 13
++@44
++  IF ~~ THEN REPLY @45 GOTO 13
++  IF ~~ THEN REPLY @46 GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 13
+-  SAY ~I am not in the least bit intimidated by you. All here will side with me should you use force, and even if you do manage to wrest the book from me, you would not know where to begin your search for the other parts.~
+-  IF ~~ THEN REPLY ~Bardo was convinced one part was in Candlekeep but he did not find it in the library. From what you said became of the three parts after the rendering, I think that narrows my search quite a bit. Would you not agree Erhard?~ GOTO 14
+-  IF ~~ THEN REPLY ~I have a fair idea where to start looking Erhard. Think of your precious grove, if you die what hope does it have of recovering? Give me the book, you know it makes sense.~ GOTO 14
+-  IF ~~ THEN REPLY ~I have no real wish to fight you Erhard. Come, tell me what it is you know of this grove’s problem?~ GOTO 15
+-  IF ~~ THEN REPLY ~Bah, I have no time for these games. I have no need for this book myself so I will not waste anymore of my time looking. Your grove is doomed Erhard but I wish you luck in your endeavour to save it.~ GOTO 13a
++  SAY @47
++  IF ~~ THEN REPLY @48 GOTO 14
++  IF ~~ THEN REPLY @49 GOTO 14
++  IF ~~ THEN REPLY @50 GOTO 15
++  IF ~~ THEN REPLY @51 GOTO 13a
+ END
+ 
+ IF ~~ THEN BEGIN 13a
+-  SAY ~As you wish, <CHARNAME>.~
++  SAY @52
+   		IF ~InParty("Dar")
+ !Dead("Dar")~ THEN EXTERN ~DARJ~ quest31
+ 		IF ~OR(2)
+@@ -137,110 +137,110 @@
+ END
+ 
+ IF ~~ THEN BEGIN 14
+-  SAY ~Do not threaten me <CHARNAME>! I will not despoil this grove further by spilling blood on her soil, but I will defend myself should you attempt to raise arms against me.~
++  SAY @53
+ =
+-~Now, begone and do not disturb the peace here further.~ 
++@54 
+ 		IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 15
+-  SAY ~It please me greatly to hear you say you will help, maybe this wood can yet be saved. From what I have seen, I believe the wood is being poisoned.~
++  SAY @55
+ =
+-~Whether by some freak accident or intentionally, I have no idea, but the water in the one, small pond in the grove is definitely tainted.~
++@56
+ =
+-~Myself, I cannot see how this has come about other than it is deliberate. For the sake of what life remains, it is imperative that this is sorted quickly.~
+-  IF ~~ THEN REPLY ~Poison a wood? What can possibly be gained by such an act?~ GOTO 16
+-  IF ~~ THEN REPLY ~An act of vengeance do you think Erhard? Is it possible the druids here have upset someone, somewhere?~ GOTO 16
++@57
++  IF ~~ THEN REPLY @58 GOTO 16
++  IF ~~ THEN REPLY @59 GOTO 16
+ END
+ 
+ IF ~~ THEN BEGIN 16
+-  SAY ~That is what I want you to find out. I have spoken with the members of this grove and not one can think of any bad blood that exists between them and anyone at all.~
++  SAY @60
+ =
+-~One of them, a young acolyte by the name of Athia, did say she heard what she thought to be animals around the pond three or four nights past.~
++@61
+ =
+-~I thought this strange because the pond was tainted then and the animals would have sensed the water was bad, they would not have gathered anywhere near it.~
++@62
+ =
+-~I took a look around myself in daylight and found small footprints all over the area, but it was difficult to distinguish whether they were made by men or beasts as a light rain had fallen and muddied the area up a bit.~
++@63
+ =
+-~If you want to speak with her yourself, she is here assisting Master Verthan. Please <CHARNAME>, stop this blight, help the mother and you shall have that which you seek.~
++@64
+ 		IF ~~ THEN DO ~SetGlobal("VP_Dar_Quest","GLOBAL",10)~ EXIT //Talked to Erhard and accepted the quest
+ END
+ 
+ IF ~~ THEN BEGIN 17
+-  SAY ~I am here at the request of the Grand Druid. When word reached him that this grove was not being replenished nor was she re-seeding new growth, he sent me to investigate the matter.~ 
++  SAY @6 
+ =
+-~You see for yourself how the young saplings bend as if withe weight of age, and what life does spring forth from the mother’s womb is no longer green and lush.~
++@7
+ =
+-~The Grand Druid bids me to find and re-balance that which has gone askew here.~
+-  IF ~~ THEN REPLY ~I have often heard druids speak of the cycles of life Erhard, could it not simply be that the time of this grove has come to an end?~ GOTO 3
+-  IF ~~ THEN REPLY ~Tell me Erhard, what reason would the Grand Druid have to think that something unnatural is occurring here? Is it not a fact that all things live and all things die?~ GOTO 4 
+-  IF ~~ THEN REPLY ~I know nothing of re-balancing and care less for the wilds Erhard. I am here seeking an item that I believe to be in the keeping of the druids of this grove.~ GOTO 6
++@8
++  IF ~~ THEN REPLY @65 GOTO 3
++  IF ~~ THEN REPLY @66 GOTO 4 
++  IF ~~ THEN REPLY @67 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 18
+-  SAY ~Well met Jaheira. I've heard about you. And of course, well met, <CHARNAME>. Your deeds are well known to all of us.~
+-  IF ~~ THEN REPLY ~Well met Erhard. I know very little of the ways of nature, but I have often heard druids speak of the cycles of life, could it not simply be that the time of this grove has come to an end?~ GOTO 3
+-  IF ~~ THEN REPLY ~Well met Erhard. I too could not fail to see that all was not well with this grove. Tell me, what reason would the Grand Druid have to think that something unnatural is occurring here? Is it not the way that all things live and all things die?~ GOTO 4
+-  IF ~~ THEN REPLY ~I know nothing of re-balancing and care less for the wilds Erhard. I am here seeking an item that I believe to be in the keeping of the druids of this grove.~ GOTO 6
++  SAY @68
++  IF ~~ THEN REPLY @69 GOTO 3
++  IF ~~ THEN REPLY @70 GOTO 4
++  IF ~~ THEN REPLY @67 GOTO 6
+ END
+ 
+ IF ~Global("VP_Dar_Quest","GLOBAL",10)
+ Global("VP_Rt_Mine_Visited","GLOBAL",0)~ THEN BEGIN 19
+-  SAY ~Hello friend.~
++  SAY @71
+   IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("VP_Rt_Mine_Visited","GLOBAL",2)~ THEN BEGIN 20
+-  SAY ~You return <CHARNAME>. have you discovered why the grove is failing? I fear time is rapidly running away from us.~
+-  IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",1)~ THEN REPLY ~I did Erhard. I discovered an abandoned mine under the grove, the entrance of which is close to the pond. In the lower levels of this mine I came across a mage and a group of Svifneblin she had enslaved. They were digging, but for what I did not discover. It is my belief that the renewed digging had released pockets of poisonous vapours seeping into the underground feeds of the pond, poisoning the earth on its way to the pond itself. Unfortunately, I was forced to kill her when she refused to stop, but the Svifneblin are now free and on their way back to their village. I only hope I have done enough.~ GOTO 22
++  SAY @72
++  IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",1)~ THEN REPLY @73 GOTO 22
+   IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",0)
+-Global("VP_Dar_Quest","GLOBAL",11)~ THEN REPLY ~I did Erhard. I discovered an abandoned mine under the grove, the entrance of which is close to the pond. In the lower levels of this mine I came across a mage and a group of Svifneblin she had enslaved. They were digging, but for what I did not discover. It is my belief that the renewed digging had released pockets of poisonous vapours seeping into the underground feeds of the pond, poisoning the earth on its way to the pond itself.~ GOTO 22
++Global("VP_Dar_Quest","GLOBAL",11)~ THEN REPLY @74 GOTO 22
+   IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",0)
+-Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY ~No I did not, I grow tired of the search. I have returned to demand that you give me the book so’s I can be gone from here.~ GOTO 25
++Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY @75 GOTO 25
+   IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",0)
+-Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY ~I did not, but I have discovered an entrance to an old mine close by the pool. I suggest that you continue your search there and hand the book over to me as payment for the time I have wasted!~ GOTO 25
++Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY @76 GOTO 25
+   IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",0)
+-Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY ~No, I am here to tell you that I no longer intend to search for this book, nor shall I help you further. Farewell Erhard.~ GOTO 21
++Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY @77 GOTO 21
+   IF ~Global("SPRITE_IS_DEADIlriana","GLOBAL",0)
+-Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY ~No, I am here to tell you that I no longer intend to search for this book. My brief look around did uncover an entrance to an old mine close by the pool. I suggest that you continue your search there. Farewell Erhard.~ GOTO 21
++Global("VP_Dar_Quest","GLOBAL",10)~ THEN REPLY @78 GOTO 21
+ END
+ 
+ IF ~~ THEN BEGIN 21
+-  SAY ~Farewell <CHARNAME>.~
++  SAY @79
+   IF ~~ THEN EXTERN ~DARJ~ quest31
+ END
+   
+ IF ~~ THEN BEGIN 22
+-  SAY ~Thank you <CHARNAME>. Given time I am sure this grove will recover. As per our bargain, here is the piece that you seek.~ 
++  SAY @80 
+ =
+-~The whereabouts of the second may well be Candlekeep. I know that it was taken by one of the druids whose grove was entrusted with its safe keeping, but I do not know the druid’s name.~
++@81
+ =
+-~He also believed he would find another part in the library of Candlekeep, so he left his grove in search of it. I have no idea whether he actually reached Candlekeep.~
+-  IF ~~ THEN REPLY ~And what of the third part, do you know who that was entrusted to Erhard?~ GOTO 23
+-  IF ~~ THEN REPLY ~Well, at least it gives me a place to begin my search, thank you for that Erhard. Now what of the third part, do you know which grove it was given to?~ GOTO 23
+-  IF ~~ THEN REPLY ~Not easy to lose oneself in Candlekeep, unless of course you are a small child trying to hide from a foster father. If he is there, I should find him quick enough. What of the third part?~ GOTO 23
++@82
++  IF ~~ THEN REPLY @83 GOTO 23
++  IF ~~ THEN REPLY @84 GOTO 23
++  IF ~~ THEN REPLY @85 GOTO 23
+ END
+ 
+ IF ~~ THEN BEGIN 23
+-  SAY ~Only what I have heard through lore <CHARNAME>. It is said that one piece was given unto the keeping of one not of the druid belief, when its original keeper was returned to the balance.~
++  SAY @86
+ =
+-~It states that this Great Druid did not trust the members of his grove to abide by the rendering so it went unto a place where it would do least harm. Or so it is said.~
+-  IF ~~ THEN REPLY ~Sometimes there is a lot of truth in legend and lore as my friend Hrothgar here is testament to. If there is no more to be learnt here, I shall bid you farewell Erhard.~ GOTO 24
+-  IF ~~ THEN REPLY ~Thank you Erhard, I bid you farewell and hope that nature can return to her labours and that this grove flourishes again soon. Farewell my friend.~ GOTO 24
+-  IF ~~ THEN REPLY ~Your grove is saved  Erhard and I have what I came for. A satisfactory outcome all round. I should be on my way, farewell Erhard.~ GOTO 24
++@87
++  IF ~~ THEN REPLY @88 GOTO 24
++  IF ~~ THEN REPLY @89 GOTO 24
++  IF ~~ THEN REPLY @90 GOTO 24
+ END
+ 
+ IF ~~ THEN BEGIN 24
+-  SAY ~Good luck in your search <CHARNAME> and please be sure to use the great book wisely when you find it. Farewell my friend.~
++  SAY @91
+   IF ~~ THEN DO ~SetGlobal("VP_Dar_Quest","GLOBAL",12)
+ GiveItem("DrBook1",Player1)
+ EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 25
+-  SAY ~Do not threaten me <CHARNAME>! I will not despoil this grove further by spilling blood on her soil, but I will defend myself should you attempt to use force against me.~
++  SAY @92
+ =
+-~Now, begone and do not disturb the peace here further.~
++@54
+   IF ~~ THEN DO ~SetGlobal("VP_Dar_Quest","GLOBAL",90)
+ EscapeArea()~ EXIT
+ END

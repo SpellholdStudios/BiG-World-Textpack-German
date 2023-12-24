@@ -1,0 +1,9 @@
+--- bp-bgt_worldmap\language\german\revised\dsotsc_new_map_mods_trans.tra	Mon Dec 29 14:13:29 2014
++++ C:\BWP Patchstudio\patched files\bp-bgt_worldmap\language\german\revised\dsotsc_new_map_mods_trans.tra	Wed Nov 09 09:45:44 2016
+@@ -2,5 +2,5 @@
+ 
+ @DS_782001 = "Scharfzahnwald"
+ @DS_782002 = "Wald###der###Vergessenen Seelen"
+-@DS_782003 = "Burg###von###Daerthmac"
++@DS_782003 = "Burg###Daerthmac"
+ @DS_782004  = "Östlicher###Scharfzahnwald"

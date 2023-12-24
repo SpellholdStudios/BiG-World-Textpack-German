@@ -1,0 +1,581 @@
+@0   = ~Govan, verschwindet hier! Ihr seid nicht willkommen! Das ist das Anwesen meines Vaters und Ihr habt hier nichts zu suchen.~ [leina_11] 
+@1   = ~Ich gab Euch meine Antwort auf Euren lächerlichen Vorschlag, mein Vater kennt meine Gefühle Euch gegenüber und so endet die Sache! Was immer Ihr für einen Handel mit ihm hattet, es ist aus.~ [leina_12]
+@2   = ~Tot? Mein Vater ist tot!~ [leina_13] 
+@3   = ~Es tut mir Leid, Leina. Euer Vater hätte mir nicht erzählt, wo er Euch hingebracht hatte. Es gab keine andere Möglichkeit, Eure Befreiung zu sichern.~
+@4   = ~Hört nicht auf ihn, Leina, wenn ich Euren Vater nicht getötet hätte, wäret Ihr für immer hier geblieben. Verhungern und Verdursten sind keine angenehme Art zu sterben.~ 
+@5   = ~Er war verwirrt, Leina, er hatte irgendwie im Kopf, dass ich hier wäre, um Euch zu töten. Er wollte nicht hören und wurde gegen uns gewalttätig. Duvaine war nicht dort, er weiß nichts von dem Kampf.~
+@6   = ~Duvaine belügt Euch, Leina. Versteht das, Euer Vater war nicht der Mann, den Ihr kanntet. Ich musste ihn töten, ja, aber Ihr seid von ihm befreit. Ein Vater, der Gewalt anwendet, um seinem Kind seinen Willen aufzudrücken, ist ein Tyrann, Leina, kein Vater.~
+@7   = ~Er ist tot, Leina, das war leider der Preis für Eure Freiheit, aber ich tötete ihn nicht. Duvaine lügt, Ihr wisst selbst, dass er kein Mann ist, dem man trauen kann.~ 
+@8   = ~Er ist tot, Leina, das war leider der Preis für Eure Freiheit, aber ich tötete ihn nicht. Wem würdet Ihr glauben, mir oder diesem Mann hier?~
+@9   = ~Niemals! Niemals werde ich den Namen Duvaine noch den Namen irgendeines anderen Mannes jemals wieder annehmen!~ 
+@10  = ~Es scheint, dass ich wieder in Eurer Schuld stehe, <CHARNAME>. Noch einmal danke ich Euch dafür, mich zu retten.~
+@11  = ~Ich hoffe, dass das nicht zur Gewohnheit wird, Euch retten zu müssen, Leina. Wenn es sich erweist, dass dies der Fall ist, dann kann unsere Bekanntschaft kurz sein.~
+@12  = ~Ihr braucht Euch nicht bei mir zu bedanken, Leina. Duvaine war ein unehrenhafter Schuft. Wir sollten diesen Ort verlassen, bevor seine Familie entdeckt, dass er vermisst wird. Wenn das Glück auf unserer Seite ist, kann das eine Weile dauern.~ 
+@13  = ~Ihr solltet zur Taverne eilen, Leina, bevor seine Familie davon hört. Samuel wird sich um Euch kümmern, da bin ich sicher.~
+@14  = ~Es wäre eine gute Idee, wenn Ihr zur Taverne zurückkehren würdet, Leina, und vergesst nicht, was ich darüber sagte, dem Wirt zu erzählen, dass ich hinter Euch bin und mein mein Geld suche.~ 
+@15  = ~Ich habe keine Familienbande mehr in Athkatla oder sonstwo, was das betrifft, so werden meine Reisen mit Euch nicht durch meine Schuld gestört, <CHARNAME>.~
+@16  = ~Ich bin begierig, von hier weg zu kommen, aber nicht, bevor ich Samuel wissen lasse, dass ich in Sicherheit bin. Lasst uns zusammen auf den Weg zur Taverne machen.~
+@17  = ~Govan war vielleicht unehrenhaft, <CHARNAME>, aber ich wollte nicht, dass er tot ist. Er war jung und hätte noch etwas Gutes aus seinem Leben machen können.~
+@18  = ~Niemand weiß, was das Schicksal für uns hinter der Ecke zu lernen oder zu erfahren bereit hält. Es gab vielleicht solch eine Ecke, an der Govan hätte umzukehren können, aber jetzt es ist zu spät.~ 
+@19  = ~Lasst uns diesen Ort verlassen, aber wenn es Euch nichts ausmacht, möchte ich Samuel mitteilen, dass es mir gut geht, bevor wir abreisen. Lasst uns zusammen auf den Weg zur Taverne machen.~
+@20  = ~Ich will Euch nicht weiter aufhalten, <CHARNAME>. Wenn ich in die Taverne zurückkehre, werde ich sicherlich Samuel erzählen, bei wem er sich für meine Rettung bedanken muss. Er wird Euer Gold für Euch bereit haben. Auf Wiedersehen, <CHARNAME>.~ 
+@21  = ~(*Als die Gruppe das Labyrinth verlässt, wird Leinas Blick sofort von dem Körper angegezogen, der auf dem Boden vor ihnen liegt. Sie schreit auf und läuft los, um sich neben die blutende Gestalt zu knien, die sie sofort als ihren einst geliebten Vater erkennt... und nimmt seine leblose Hand in ihre eigene...*)
+  
+Va... (*schluchzend*)... Va... Vater, ich... ich vermisse sie auch, weißt Du. Als ich ging, dachte ich, dass ich gefunden hatte, was Du und Mutter aneinander hattet.~ 
+@22  = ~Ich dachte wirklich, dass ich einen Mann gefunden hätte, der mich verehrte, so sehr, wie Du sie verehrtest. Wie konnte ich so blind sein, so... so dumm.~
+@23  = ~Hätte ich Dir nur etwas von diesem Schmerz ersparen können, wenn nur mein dummer Stolz mich hätte nachhause kommen lassen. Wenn nur...~ 
+@24  = ~Leina, wir müssen hier schnell wegkommen, die Zeit ist nicht auf unserer Seite.~
+@25  = ~Leina, reißt Euch zusammen! Das ist nicht die Zeit für wenns. Das ist ein fruchtloser Weg, um anzufangen, zu Boden zu gehen.~
+@26  = ~Leina, unsere Angelegenheiten hier sind erledigt, jetzt kriegt Euch in den Griff und bewegt Euch!~
+@27  = ~Schaut, es tut mir Leid, Leina, glaubt mir, ich tat alles, was ich konnte, um mit ihm vernünftig zu reden. Am Ende war er es oder ich.~
+@28  = ~Ich brauchte nur einen Moment, <CHARNAME>. Ich mache Euch jedenfalls nicht dafür verantwortlich.~
+@29  = ~Der Tod meiner Mutter veränderte ihn, er konnte das Leben nicht ohne sie bestehen, und ich denke, dass er sich bemühte, mich hier zu behalten, um ihren Platz einzunehmen, aber ich hoffe, dass er jetzt etwas Frieden gefunden hat.~
+@30  = ~Ich habe keine Ahnung, wie Ihr mich fandet, aber ich werde immer dankbar sein, dass Ihr es tatet. Kommt, <CHARNAME>, lasst uns von hier fortgehen!~
+@31  = ~Ich bin sicher, Samuel, und es liegt alles an <CHARNAME> hier. Mein... mein Vater bemühte sich, mich mit Duvaine zu verheiraten, um mich in Athkatla zu behalten.~
+@32  = ~Er war ein veränderter Mann, Samuel, der Tod meiner Mutter traf ihn schwer, und ich denke, dass er mich als seine letzte Verbindung zu ihr sah.~
+@33  = ~Ich kann nicht hier bleiben, Samuel, es gibt zu viele Erinnerungen, zu viel Schmerz, zu viel Schwermut... warum verfolgt es mich so hartnäckig!~
+@34  = ~<CHARNAME> ist bereit, mich mitzunehmen, wenn <PRO_HESHE> abreist. Das ist also der Abschied, Samuel, Euer Andenken wird immer einen Platz in meinem Herzen haben, ich werde Euch nie vergessen.~
+@35  = ~Danke für alles, Samuel. Es ist gut zu wissen, dass ich eine Heimat hier habe, wenn ich jemals das Verlangen spüre. Auf Wiedersehen, mein Freund.~
+@36  = ~Einen Moment, Herzog, Euer Sohn entführte mich und hielt mich gefangenen mit der Absicht, eine Ehe zwischen sich selbst und mir zu erzwingen.~
+@37  = ~Sein Tod war ein unglücklicher Unfall, er weigerte sich, Vernunft anzunehmen und griff an, als <CHARNAME> hier meine Rettung versuchte.~
+@38  = ~Ihr... Ihr habt meinen Vater ermordet, <CHARNAME>? Ihr wart auf dem Anwesen im Auftrag von... diesem Wesen! Was seid Ihr?~
+@39  = ~Ja, Leina, ich ging in Bodhis Auftrag, aber ich hoffte ebenso auf Nachrichten über Euren Verbleib. Euer Vater dachte, dass ich wegen Euch gekommen wäre und griff mich an, es kam nicht zur Vernunft, glaubt mir, ich hätte ihn verschont.~
+@40  = ~Ich ging dorthin und hatte nur vor, ihn zu erschrecken, aber er hörte mir nicht zu, Ihr saht die Art Mann, zu der er geworden war, Leina.~
+@41  = ~Es war bedauerlich. Ich hatte keinen Streit mit Eurem Vater, aber sein Tod war mein einziges Mittel, meine eigene Absicht und Eure Freiheit zu erreichen.~
+@42  = ~Ihr habt Eure Freiheit, Leina. Wenn Euer Vater noch leben würde, wäret Ihr wahrscheinlich inzwischen mit Duvaine verheiratet. Ist es das, was Ihr gewollt hättet?~
+@43  = ~Aber Ihr habt ihn ermordet und ließt mich glauben, dass das für meine Rettung notwendig wäre. Was sonst war eine Lüge, <CHARNAME>? War er wirklich verwirrt und griff Euch an, oder gabt Ihr ihm nur nicht die Gelegenheit, zu sprechen?~
+@44  = ~Kommt schon, Leina! Der Mann entführte Euch, er wollte Euch in eine Ehe mit einem Mann zwingen, den Ihr verabscheutet. Hört sich das nach den Taten desselben Mannes an, der Euch liebte und aufzog?~
+@45  = ~Wenn er irgendeinen Gedanken an Euer Glück hatte, Leina, hätte er getan, was er tat? Würde der Vater, den Ihr kanntet und liebtet Euch das antun, seiner eigenen Tochter, wenn er recht bei Sinnen gewesen wäre, hätte er das getan?~
+@46  = ~Ihr sagtet selbst, er war seit dem Tod Eurer Mutter ein veränderter Mann. Sagt mir, Leina, hätte er sich so miserabel Euch gegenüber benommen, wenn sie am Leben gewesen wäre? Ich denke nicht, sein Kummer hatte ihn zu dem verdreht, was er geworden war.~
+@47  = ~Seid dankbar, Leina. Euer Vater war zum verbitterten und verdrehten Mann geworden, der sich egoistisch darum bemühte, dass seine Tochter den Platz seiner Frau einnahm.~
+@48  = ~Ich weiß, was Ihr sagt, ist wahr, <CHARNAME>, aber das ist keine Entschuldigung dafür, was Ihr tatet. Ihr habt getötet, um zu bekommen, was Ihr wolltet, das ist tausendmal schlechter als das, was Duvaine tat.~
+@49  = ~Mein einziger Trost ist, dass er jetzt frei von seinem Kummer und seiner Qual ist, ich hätte nicht gemocht, dass er sein Leben mit so viel Kummer fortsetzte.~
+@50  = ~Was ich nicht verzeihen kann, ist die Tatsache, dass er starb, um dieses Wesen zu beruhigen, dem Ihr dient, noch werde ich es vergessen!~
+@51  = ~Es ist im Augenblick zu schmerzhaft für mich, dem ins Auge zu sehen, <CHARNAME>, ich möchte jetzt nicht noch weiter mit Euch sprechen.~
+@52  = ~Ihr wart auf dem Anwesen im Auftrag von... diesem Wesen! Was seid Ihr?~
+@53  = ~Ja, ich ging in Bodhis Auftrag, aber ich hoffte ebenso auf Nachrichten über Euren Verbleib. Kommt schon, Leina! Euer Vater entführte Euch, er wollte Euch in eine Ehe mit einem Mann zwingen, den Ihr verabscheutet. Hört sich das nach den Taten desselben Mannes an, der Euch liebte und aufzog?~
+@54  = ~Ihr habt Eure Freiheit, Leina. Wenn Euer Vater noch leben würde, wäret Ihr wahrscheinlich inzwischen mit Duvaine verheiratet. Ist es das, was Ihr gewollt hättet?~
+@55  = ~Seid dankbar, Leina. Euer Vater war zum verbitterten und verdrehten Mann geworden, der sich egoistisch darum bemühte, dass seine Tochter den Platz seiner Frau einnahm. Wenn er irgendeinen Gedanken an Euer Glück gehabt hätte, Leina, hätte er getan, was er tat? Würde der Vater, den Ihr kanntet und liebtet Euch das antun, seiner eigenen Tochter, wenn er recht bei Sinnen gewesen wäre, hätte er das getan?~
+@56  = ~Ich weiß, was Ihr sagt, ist wahr, <CHARNAME>, aber das ist keine Entschuldigung für Euch. Ihr wart bereit, meinen Vater zu ermorden, um zu bekommen, was Ihr wolltet, das ist tausendmal schlechter als das, was Duvaine tat.~
+@57  = ~Mein einziger Trost ist, dass mein Vater am Leben ist, aber was ich nicht verzeihen kann, ist die Tatsache, dass Ihr handeltet, um dieses Wesen zu beruhigen, dem Ihr dient, noch werde ich es vergessen!~
+@58  = ~Ulcaster ist nichts weiter als eine Ruine, <CHARNAME>, und so weit weg. Sicher ist sie oft geplündert worden? Es kann vielleicht nichts mehr zu finden geben.~
+@59  = ~Ich staune darüber, neben Hrothgar von Osthafen zu gehen, und jetzt habe ich die Chance, in der Vergangenheit zu gehen! Das ist alles wie in einem Traum.~
+@60  = ~Ja... Ihr braucht mich für etwas?~
+@61  = ~(*Ihr verlangsamt absichtlich Eure Schritte, um neben Leina herzulaufen.*)~
+@62  = ~(*Ihr beginnt, vor Euch hinzusummen, als Ihr Eure Position verändert, so dass Ihr schließlich hinter Leina geht.*)~
+@63  = ~(*Ihr lasst ein Lächeln in Leinas Richtung aufblitzen und schaut dann schnell weg.*)~
+@64  = ~(*Ihr lasst ein Lächeln in Leinas Richtung aufblitzen und erlaubt Eurem Auge, ein wenig länger über der Schönheit ihrer exotischen Züge verweilen.*)~
+@65  = ~(*Ihr pfeift anerkennend in Leinas Richtung.*)~
+@66  = ~Hey Leina, schaut her... (*Ihr zieht ein komisches Gesicht, als sie sich umdreht.*)~
+@67  = ~(*Ihr winkt Leina zu.*)~
+@68  = ~Äh... nichts Leina, wir sollten weitergehen.~
+@69  = ~(*Sie beschleunigt ihre Schritte.*) Fangt mich, wenn Ihr könnt. (*Dann geht sie lachend schnell von Euch weg.*)~
+@70  = ~(*Sie schaut Euch mit einem verwirrten Blick in ihren Augen an*)... Also, das Tempo, das Ihr habt, ist sogar für Euch zu schnell, um es beizubehalten, <CHARNAME>.~
+@71  = ~(*Sie schaut Euch wissbegierig an, sagt aber nichts... noch verändert sie ihren Schritt, was Euch erlaubt, dass Ihr weiterhin schweigend neben ihr geht.*)~
+@72  = ~(*Sie wendet sich Euch zu und legt lachend ihre Hände an ihre Ohren.*) Bitte <CHARNAME>... das "pflegte" eine meiner Lieblingsmelodien zu sein!~
+@73  = ~(*Sie wendet sich Euch lächelnd zu*) Nehmt meinen Rat, <CHARNAME>, bringt niemals einem Mädchen ein Ständchen, wenn Ihr ihr Herz gewinnen möchtet.~
+@74  = ~Ist das eine neue Kampfmelodie, die ich höre? Solch ein Geräusch wird sicherlich den tapfersten unserer Feinde Angst im Herzen einflößen... vorausgesetzt, dass es sie nicht gleich betäubt.~
+@75  = ~(*Sie lächelt, sagt aber nichts.*)~
+@76  = ~Wendet Euch nicht so schnell ab, <CHARNAME>, ein freundliches Lächeln ist immer willkommen.~
+@77  = ~(*Sie kichert in sich hinein*) Das ist jetzt als Wunder zu betrachten, dass Gottes Erbe Angst hat, einer einfachen Bardin in die Augen zu sehen.~
+@78  = ~(*Sie macht eine schnelle Drehung*) Gefällt Euch, was Ihr seht <CHARNAME>? (*Dann setzt sie lachend fort, was sie gerade tat.*)~
+@79  = ~(*Ihr Augen treffen Eure und halten Eurem Blick stand*) Ich finde Euer Lächeln angenehm genug, <CHARNAME>, aber bitte, ich würde es schätzen, wenn Ihr nicht ganz so sehr starren würdet.~
+@80  = ~(*Sie lächelt und blinzelt Euch zu*) Nettes Lächeln, <CHARNAME>, aber lehrte Euch niemand, dass es grob ist, zu starren!~
+@81  = ~(*Ein Ausdruck von Geringschätzung durchzuckt ihr Gesicht*)... Männer!~
+@82  = ~(*Zu Eurer Überraschung pfeift Leina in Eure Richtung zurück und mit einem Kopfschütteln wendet sie sich ab und kichert in sich hinein.*)~
+@83  = ~(*Sie lacht, als sie zu Euch einen Knicks macht*) Die Dame nimmt das als ein Kompliment und sagt danke, werter Herr.~
+@84  = ~(*Leina streckt als Erwiderung ihre Zunge in Eure Richrung heraus und rümpft ihre Nase.*)~
+@85  = ~Ihr wisst, dass, wenn sich der Wind ändert, Euer Gesicht so bleiben wird!~
+@86  = ~(*Sie schaut Euch an und versucht, ein Lächeln zu unterdrücken*)... Ihr solltet ernsthaft daran denken, bald einen Heiler aufzusuchen... das sieht nach einem schlimmen Leiden aus, das Ihr dort habt, <CHARNAME>.~
+@87  = ~(*Zu Eurer Überraschung grinst Leina breit und pustet Euch einen Kuss zu*).~
+@88  = ~(*Leina schaut schnell hinter sich, bevor sie sich umdreht und Euch zurück winkt.*)~
+@89  = ~(*Sie schaut Euch mit einem verzweifelten Blick im Gesicht an, aber sie kann nicht das Zwinkern in ihren schönen mandelförmigen Augen verbergen, als sie zurück winkt.*) Ihr verlasst uns so bald, <CHARNAME>? Ich werde Euch vermissen.~
+@90  = ~(*Leise zu sich selbst*) Nichts ärgert mich mehr als ein Mann, der nicht seine Meinung sagt!~
+@91  = ~Mir war nicht bewusst, dass ich angehalten habe.~
+@92  = ~(*Schmunzelnd*) Wie kurios... CHARNAME> scheint der schüchterne, zurückhaltende Typ zu sein.~
+@93  = ~Denkt, bevor Sie irgendwelche überstürzten Entscheidungen trefft, <CHARNAME>, denn die Magier hier nehmen es nicht freundlich auf, wenn einer ihrer Körper verloren geht.~
+@94  = ~Aber denkt nur, Melora, das wäre sehr kritisch gegenüber unseren Leitern, und möchtet Ihr wirklich an der Seite so vieler Magier begraben werden?~
+@95  = ~Dann sind wir uns für Meloras Seelenfrieden einig. Wir sollten heute nicht die Akademie über den Köpfen anderer zu Fall bringen.~
+@96  = ~Ich habe niemals zuvor ähnliches gesehen, <CHARNAME>, nicht einmal in unserer gegenwärtigen Zeit. Ich frage mich, wie solche Technologie sich so weit zurück in der Vergangenheit anfinden kann?~
+@97  = ~Es stellt sich alles als so furchtbar falsch heraus, Samuel... Govan... er ist tot! Er bemühte sich, mich zu benutzen, um sein eigenes Glück zu vergrößern... aber ich wünschte nie, dass er tot ist, Samuel!~
+@98  = ~Ihr müsst mir glauben... wenn ich gewusst hätte, dass meine Rückkehr nach Athkatla so viel Kummer bereiten würde, wäre ich nie zurückgekommen.~
+@99  = ~Ihr seid ein guter Mann, Samuel, und wir sind uns einig, dass ich mit dieser Gruppe reisen werde. Ich bedauere nur, dass ich diesen Schlamassel über Eure Türschwelle gebracht habe.~
+@100 = ~(*Sie küsst den Halbling-Mann zärtlich*)... Dann ist das der Abschied, Samuel, danke für alles, was Ihr getan habt, es ist gut zu wissen, dass ich eine Heimat hier habe, wenn ich jemals das Verlangen spüre... Euer Andenken wird immer einen Platz in meinem Herzen haben, ich werde Euch nie vergessen. Auf Wiedersehen, mein Freund.~
+@101 = ~(*Sie sieht sich im Zimmer um und seufzt*)... Dieser bescheidene Gasthof hat mir mehr Annehmlichkeit und Wärme gewährt als jeder Ort, den ich Heimat genannt habe... Ich werde nicht lange fernbleiben.~
+@102 = ~(*Sie umarmt Samuel liebevoll*)... Ich bin immer für Euch da, mein lieber Freund... es ist gut, Euer lächelndes Gesicht wieder zu sehen, Samuel.~
+@103 = ~(*Sie lacht leise*) Nein, Ihr braucht Euch nicht um mich Sorgen zu machen, Samuel, ich kann Euch versichern, dass es mir gut geht. Tatsächlich hätte ich mir keine bessere Gesellschaft wünschen können als diese Gruppe. Wenn es nicht wahr wäre, dann hätte ich die Wahl, sie zu verlassen.~
+@104 = ~Als ob ich nicht kommen und dem Mann Hallo sagen würde, der auf mich aufgepasst und sich um mich gesorgt hat, als ob er mein Vater wäre. Da wir von Vätern sprechen, Habt Ihr meinen Vater gesehen, Samuel... geht es... ihm gut?~
+@105 = ~(*Sie seufzt*) Eure Worte beunruhigen mich, mein Freund. Er war offensichtlich ein gebrochener Mann, als wir zuletzt sprachen, er schien um mein Leben zu fürchten, hatte Angst, dass ich nicht sicher wäre, wenn er nicht auf mich aufpassen könnte.~
+@106 = ~Ich weiß, dass er die Leute meiner Mutter verantwortlich für ihren Tod machte, und irgendwie dachte er mit seinem verwirrten Verstand, dass ich ebenso in Gefahr wäre... Ich fürchte mich vor dem, was er in seiner gegenwärtigen Gemütsverfassung tun könnte.~
+@107 = ~Als ob ich nicht kommen und dem Mann Hallo sagen würde, der auf mich aufgepasst und sich um mich gesorgt hat, als ob er mein Vater wäre.~
+@108 = ~Um ehrlich zu sein Samuel... Ihr wurdet mir mehr zu einem Vater als mein eigener seit meiner Rückkehr nach Athkatla. Sogar nach all dem, das er tat, als er versuchte, eine Ehe mit Duvaine zu erzwingen, finde ich es doch sehr schmerzlich, hier zun sein und zu wissen, dass er mir nicht mehr über den Weg läuft.~
+@109 = ~(*Sie wird blass und dann wird ihr Gesicht rot vor Wut*)... Bjorn hier... und mit der Frechheit, mich als seine Frau zu bezeichnen! Ich hörte an dem Tag auf, die Frau dieses Bastards zu sein, als er mich sitzen ließ...~
+@110 = ~Ich denke, dass sich jemand die Zeit nehemn sollte, um ihm das zu erzählen! Sagte er, was er mit mir zu tun zu haben glaubte, Samuel?~
+@111 = ~Es ist in Ordnung, <CHARNAME>. Ich habe viele lange schlaflose Nächte damit verbracht, die Sterne zu zählen und darüber nachzudenken, was ich tun würde, wenn sich unsere Wege jemals wieder kreuzen würden, und jetzt glaube ich, dass ich bereit bin, ihm zu begegnen.~
+@112 = ~Ich werde ihn sehen, und wenn es nur ist, um das Stück zurückzunehmen, dass er noch von mir behält... das ist die einzige Art, wie ich jemals von ihm frei sein werde.~
+@113 = ~Dann werden wir ihm zusammen gegenübertreten... teilt ihm mit, dass Ihr Freunde habt, die einander nicht im Stich lassen, wenn es ernst wird.~
+@114 = ~Ihr werdet ihm nicht allein gegenübertreten, Leina. Als wertvoller Verbündeter und Teil dieser Gruppe könnt Ihr die volle Unterstützung von uns allen beanspruchen.~
+@115 = ~Ich beharre darauf, mit Euch zu kommen, Leina, es gibt einigen Klartext, den ich selbst Eurem irregeleiteten Mann zu sagen habe. Zusammen werden wir diesen Bjorn genau zeigen, was er weggeworfen und wegen seines eigenen selbstsüchtigen Egos verloren hat.~
+@116 = ~Dann solltet Ihr Euch am besten ein bisschen beeilen und hoffen, dass wir noch hier sind, wenn Ihr fertig seid.~
+@117 = ~Ich begrüße Eure Unterstützung, aber zuerst muss ich herausfinden, ob Samuel weiß, wo ich Bjorn finden könnte.~
+@118 = ~(*Wendet sich Samuel zu*) Sagt mir, Samuel, sagte Bjorn, wo er sich aufhalten würde, solange er in der Stadt war?~
+@119 = ~Das bin ich, aber wenn tatsächlich schwere Zeiten für ihn angebrochen sind und er die Gunst der reichen Damen verloren hat, dann bezweifle ich, dass ich ihn das letzte mal gesehen habe. Wenn er entschlossen ist, mich einzuholen, dann bin ich sicher, dass sich unsere Wege früher oder später wieder kreuzen werden.~
+@120 = ~Jedenfalls, mein Freund, so gerne ich länger verweile möchte, vielleicht um eine Melodie für Eure guten Kunden zu spielen... einige erkenne ich aus meinen glücklichen Tagen, die ich hier verbrachte... <CHARNAME> hat viel zu tun und Verpflichtungen nachzukommen, deshalb muss ich Euch Lebewohl sagen, Samuel, und dass es wirklich gut war, Euch wieder zu sehen.~
+@121 = ~(*Sie umarmt Samuel*), passt auf Euch auf.~
+@122 = ~Wenn Samuel mir erzählen kann, wo Bjorn sich aufhält, versichere ich Euch, dass Ihr nicht durch meine Langsamkeit behindert werdet.~
+@123 = ~Ihr habt Recht, <CHARNAME>. Ich habe genug Sterne gezählt und wurde wegen diesem Mann genug um den Schlaf gebracht. Es ist Zeit, ihm gegenüberzutreten und das Stück zurückzunehmen, dass er noch von mir behält... das ist die einzige Art, wie ich jemals frei von ihm sein werde.~
+@124 = ~Ihr braucht Euch nicht zu sorgen, <CHARNAME>, meine Angelegenheit mit Bjorn wird nur einen Moment dauern. Ich brauche nur die Zeit, die es dauert, um das Stück zurückzunehmen, dass er noch von mir behält und dann werde ich für immer von ihm frei sein.~
+@125 = ~(*seufzend*)... Ah... Athkatla... Ich nahm nicht an, <CHARNAME>, so bald an meinen Geburtsort zurückzukehren.~
+@126 = ~Ich weiß, dass Ihr Eure eigenen Gründe habt, hier zu sein, und die Götter wissen, dass ich hier nicht länger aufgehalten werden mag, als notwendig ist, aber wäre es zu viel verlangt, ein wenig von unserer Zeit zu erübrigen, sodass ich Samuel besuchen kann... sehen, wie es ihm geht?~
+@127 = ~Natürlich können wir das, Leina, ich weiß, wie gern Ihr den alten Wirt habt. Kommt, wir werden uns jetzt auf den Weg zu den Fünf Krügen machen und den Besuch zusammen vornehmen.~
+@128 = ~Lasst uns zuerst den Zweck unserer Reise erledigen, und dann werden wir uns zusammen auf den Weg zum Gasthof machen.~
+@129 = ~Ich weiß, wie gern Ihr den alten Wirt habt, aber wir haben uns um dringendere Angelegenheiten zu kümmern. Wenn wir noch Zeit haben, nachdem wir damit fertig sind, denke ich über einen Besuch im Gasthof nach.~
+@130 = ~Ich bedauere, aber wir haben keine Zeit, um alte Freunde zu besuchen, Leina... vielleicht können wir bei unserem nächsten Besuch mehr Zeit erübrigen.~
+@131 = ~Wir sind hier nicht bei einem geselligen Besuch. Leina, wir haben viel zu tun, und das schließt nicht das Vergeuden von Zeit durch müßiges Geplauder mit Wirten ein!~
+@132 = ~(*Ihre Augen leuchten auf*) Danke, <CHARNAME>. Lasst uns zum Brücken-Bezirk eilen, ich bin begierig, meinem alten Freund hallo zu sagen... Ich hoffe, dass er wärend meiner Abwesenheit *seine Leina* nicht vergessen hat.~
+@133 = ~Ihr habt Recht, wir sollten uns natürlich zuerst um unsere Angelegenheiten kümmern und den Zweck unserer Rückkehr erledigen. Wenn wir fertig sind, dann werden wir Samuel besuchen... erst die Arbeit und dann das Vergnügen, wie immer, <CHARNAME>.~
+@134 = ~(*Ihre Augen funkeln vor Enttäuschung*)... Ich stimme nicht überein, man sollte immer Zeit für einen Freund aufbringen! Ich schulde Samuel viel und ich spreche nicht nur von seiner Ausdauer bei seiner Suche nach mir, als es meinem armen Vater in den Kopf kam, mich mit Duvaine zu verheiraten... er gab er mir ein Dach, als es kein anderer tat.~
+@135 = ~Ich habe nicht vor, ihn durch einen anderen von meiner Rückkehr hören zu lassen und ihn zu verletzten, indem ich ihn annehmen lasse, dass ich nicht die Zeit oder die Höflichkeit aufbringen könnte, ihn zu besuchen.~
+@136 = ~Wenn Ihr hier fertig seid, wisst Ihr, wo Ihr mich finden könnt, das heißt, wenn es Euer Wunsch ist, dass wir unsere Reise zusammen fortsetzen. Lebt wohl für jetzt.~
+@137 = ~Wir sind bereits einen Tag lang in der Stadt, und ich bin sicher, dass die Kunde meiner Rückkehr Samuel erreicht hat. Ich muss ihn besuchen, damit er nicht denkt, dass ich keine Zeit für ihn erübrigen kann nach all dem, das er für mich getan hat...~
+@138 = ~Ich will ihn nicht verletzen oder ihn denken lassen, dass ich undankbar bin. Ich breche zu den Fünf Krügen auf, um meinen alten Freund zu sehen, werdet Ihr mich begleiten, <CHARNAME>?~
+@139 = ~Es tut mir Leid, Leina, mir geht im Moment so viel im Kopf herum... Ich vergaß völlig Eure Bitte, Samuel zu sehen. Kommt, wir werden sofort zum Gasthof aufbrechen.~
+@140 = ~Wenn ich es mir leisten könnte, dass wir einer weniger sind, würde ich sagen, besucht Euren Wirt, aber da Ihr gebraucht werdet, begleite ich Euch dieses eine mal... aber nur, um sicherzustellen, dass Ihr Euer Wiedersehen kurz haltet!~
+@141 = ~Es ist noch so viel zu tun, ich kann die Zeit nicht erübrigen, aber wir werden, da bin ich sicher, bald zurückkehren. Ihr könnt Euren Freund dann besuchen.~
+@142 = ~Ich entschuldige mich, Leina. Ich vergaß Eure Bitte nicht absichtlich, aber ich muss noch so viel tun. Bitte, Ihr müsst Euren Freund besuchen, ich weiß, wo Ihr zu finden seid, wenn ich Euch brauchen sollte. Lebt wohl für jetzt!~
+@143 = ~Ich habe weder Lust noch Zeit, um Euren Wirt zu besuchen. Geht, wenn Ihr wollt, aber geht allein, erwartet nur nicht, dass ich bald wegen Euch komme. Auf Wiedersehen, Leina.~
+@144 = ~Ich bedauere, Euch so zu verlassen, <CHARNAME>, aber ich werde nicht zulassen, einen so lieben Freund durch eine unbesonnene Handlung von mir oder irgendjemand anderem auf siese Weise zu verletzen.~
+@145 = ~Ich wünsche Euch alles Gute, und bitte, wenn Ihr mich zu einem zukünftigen Zeitpunkt braucht, sucht mich im Gasthof... aber erst muss ich einen alten Freund besuchen. Lebt wohl und viel Glück.~
+@146 = ~Es tut mir Leid, <CHARNAME>, Ihr versteht offensichtlich nicht den Schmerz, den meine Abwesenheit Samuel bereitet, und ich werde nicht zulassen, einen so lieben Freund durch eine unbesonnene Handlung von mir oder irgendjemand anderem auf diese Weise zu verletzen.~
+@147 = ~Vorerst muss ich Euch Lebewohl sagen, aber wisset, dass ich Euch Glück bei Euren Bemühungen wünsche. Wenn Ihr es nochmals überlegt und finden solltet, dass Ihr meine Hilfe braucht, dann wisst Ihr, wo ich zu finden bin.~
+@148 = ~Ihr verlasst die Stadt ebenso schnell, wie Ihr sie betratet, <CHARNAME>, und das ohne einen Gedanken an meinen Wunsch, Samuel vor unserer Abreise zu sehen! Ich bin enttäuscht, dass Ihr so wenig Rücksicht auf die Wünsche Eurer Begleiter zeigt... ein paar Minuten war alles, um das ich bat... war das zu viel?~
+@149 = ~Ich bedauere, aber ich muss umkehren, ich will nicht, dass Samuel von meiner Rückkehr erfährt und denkt, dass ich nicht die Liebenswürdigkeit erübrigen konnte, ihm einen Besuch abzustatten... Ich will ihn nicht verletzen oder ihn denken lassen, dass ich undankbar wäre. Werdet Ihr mich begleiten, oder muss ich allein reisen?~
+@150 = ~B... Bjorn?~
+@151 = ~(*Weicht einen Schritt zurück*)... Was willst Du, Bjorn, und bitte, Du hast keinen Grund, etwas näher zu kommen... Ich kann Dich genauso gut von dort hören, wo Du stehst.~
+@152 = ~Ich sagte... *von dort, wo Du stehst* und daher weißt Du, wo ich stehe... Ich bin nicht Deine Leina, noch betrachte ich mich länger als Deine Frau!~
+@153 = ~Braucht Ihr hier Hilfe, Leina?~
+@154 = ~Leina?~
+@155 = ~Ihr hörtet die Dame!~
+@156 = ~Der irregeleitete Ehemann... Ich fragte mich, wann Ihr auftauchen würdet. Gebt mir einen guten Grund, warum ich Euch für das Elend, das Ihr Leina brachtet, nicht durchbohren sollte?~
+@157 = ~Der irregeleitete Ehemann... ich hoffe, dass das nicht zu einer Haushaltshilfe ausartet... Leina?~
+@158 = ~Es ist in Ordnung, <CHARNAME>, Bjorn ist einer jener Geister, die man irgendwann einmal beerdigen muss. Das wird nicht lange dauern.~
+@159 = ~Erledigt es dann schnell... wir haben genug Verzögerungen für einen Tag.~
+@160 = ~Wenn Ihr sicher seid, aber wir bleiben hier... nur für den Fall.~
+@161 = ~Sagt nur ein Wort, Leina, und wir werden diesen Schürzenjäger für Euch erledigen.~
+@162 = ~Keine Haushaltshilfe, <CHARNAME>. Eine Haushaltshilfe besagt, dass es irgendeine Art Beziehung gibt, Bjorn und ich haben keine Beziehung mehr... keiner *Art*.~
+@163 = ~(*Sie lächelt spöttisch*)... Wenn Bjorn tatsächlich so viel Zeit verbracht hat, mich zu suchen, ist das mindeste, das ich tun kann, ein wenig Zeit aufzubringen und die Geschichte zu hören, die er sorgfältig zusammengereimt hat.~
+@164 = ~Pah! Du liefst weg, weil Du das Ende Deines bequemen Lebens sahst, als meine Mitgift verbraucht war... es hatte nichts mit Schande zu tun, mehr mit Deinem Verlangen, jemand anderen zu finden, der das leichte Leben unterstützte, das Du gewöhnt warst.~
+@165 = ~Du liebtest mich nie, Bjorn, es war weder das Leuchten der Begierde noch der Liebe zu mir, das ich in Deinen Augen sah, wenn Du mich aussahst... es war nichts außer dem Abglanz der Liebe eines Mannes für das Leben, das Gold ihm bieten würde.~
+@166 = ~Ach Mann! Ja, ich habe für mich selbst einen Platz geschaffen, und ja es ist wahrscheinlich dank Dir... aber nicht auf die Art, wie Du mich glauben lassen würdest!~
+@167 = ~Ich verbrachte manch einen düsteren Tag, und nicht zu erwähnen die dunkle Nacht tief in dem Loch der Verzweiflung, als Du mich verließt... eine notwendige Handlung von Dir, damit ich *zu mir selbst finde*, wie Du sagtest!~
+@168 = ~Ich war allein in meinem Elend bis ich eines morgens den Anblick der Sonne sah, wie sie sich über diesem dunklen Platz erhob, den ich mir selbst geschaffen hatte...~
+@169 = ~Ich nahm das wenige, das Du von meinem Herzen übrig ließt, kroch mein Weg in die Wärme zurück und fing an, meinen Weg in der Welt auf die einzige Weise zu machen, die ich kannte, durch die Heiterkeit der Musik und des Liedes.~
+@170 = ~Es war dann, als ich wusste, dass solange Musik mein Herz erfüllte, es darin keinen Platz für die Berührung eines Mannes geben würde... noch wird es jemals wieder den Schmerz ertragen, der häufig diese Berührung begleitet.~
+@171 = ~Steh auf, Bjorn... Du siehst lächerlich aus, wenn Du da unten im Schlamm kriechst! (*Sie lächelt eine Sekunde lang, eine flüchtige Geste der Belustigung*)... Ich bin sicher, dass die Dame, die diese feinen seidenen Hosen für Dich kaufte, nicht damit zufrieden sein wird, zu sehen, wie grob Du ihre Geschenke behandelst...~
+@172 = ~(*Ihr Gesicht wird wieder trotzig*)... bitte, geh einfach weg, was immer ich für Dich fühlte, starb an diesem dunklen Ort, an dem Du mich zurückließt!~
+@173 = ~Mein Herz... was weißt Du von meinem Herzen? Du, der es so grausam aus meiner Brust rissest und es mit Euch nahmt, zusammen mit meinen Träumen, meinen Hoffnungen!~
+@174 = ~Das kleine Stück, dass Du mir zurückließt, hat nicht länger Platz für Dich. Es weiß, dass die Heiterkeit, die es jetzt füllt, es nie in der Art verletzen wird, wie Du es tatest. Geh einfach weg und lass mich in Ruhe! (*Sie wendet sich ab*)...~
+@175 = ~Ihr solltet zweimal nachdenken, bevor Ihr irgendwelche hastigen Bewegungen macht...~
+@176 = ~Das ist genau das, was Ihr tun werdet! Ihr habt die Dame gehört... geht zu dem beliebigem Felsen zurück, unter dem Ihr hervorgekrochen seid und lasst die Dame in Ruhe!~
+@177 = ~Ich traf Euresgleichen zuvor, Barde... Euer hübsches Gesicht und nette Worte ziehen bei mir nicht. Deshalb schlage ich vor, dass Ihr Eure wortgewandte Zunge weit weg von meinen Augen nehmt, bevor ich sie von diesem hübschen Gesicht trenne, das Ihr so hoch schätzt.~
+@178 = ~Ich denke, dass die Dame ihre Wünsche ziemlich deutlich machte... haut jetzt ab, Drecksack, oder, wie die Dame sagt, Ihr werdet sehen, wie persönlich ich Drohungen gegenüber einem Mitglied meiner Gruppe nehme!~
+@179 = ~Ihr habt Nerven, Barde, hier schließlich aufzutauchen, nach allem, was Ihr Leina antatet. Sie weiß, was Ihr jetzt sind, also schlage ich vor, dass Ihr weggeht, solange Ihr noch Stolz über habt.~
+@180 = ~Normalerweise würde ich mich nicht zwischen Mann und Frau einmischen, aber da Leina Euch nicht mehr als Eure Frau betrachtet, habe ich keine Bedenken, in ihrem Interesse einzuschreiten, also respektiert freundlicherweise die Wünsche der Dame und... haut ab!~
+@181 = ~Als Mitglied meiner Gruppe, Leina, habt Ihr meine Unterstützung... dieses Mal, aber ich schwöre, das ist das letzte Mal, dass ich mich Eurer Streitigkeiten annehme, irgendwelche weiteren Unterbrechungen und Ihr seid auf Euch selbst gestellt. Wollt Ihr jetzt, dass ich Euch ein für allemal von diesem Ungeziefer befreie?~
+@182 = ~(*Sie seufzt*)... Das ist schließlich das Ende... Bjorn Trotz zu bieten hat die Tür zu diesem Teil meines Lebens für immer geschlossen, und sein Geist ist nicht mehr beteilligt, noch irgendein Teil von mir. Ich fühle mich seit langer Zeit zum ersten Mal vollkommen und es fühlt sich gut an... das Leben ist gut.~
+@183 = ~Kommt, <CHARNAME>, ich bin begierig, Eure fesselnde Suche fortzusetzen. (*Sie schaut Euch an, und als Ihr in ihre Augen blickt, fragt Ihr Euch... kann dieses neue Licht, das Ihr jetzt in ihnen seht... Hoffnung sein?*)~
+@184 = ~(*Lächelnd*) So, Ihr wisst über Magier Bescheid, <CHARNAME>. Ihr könnt ewig gehen und keinen sehen, dann kommen sechs auf einmal.~
+@185 = ~Ihr platzt manchmal mit den sonderbarsten Dingen heraus, Leina.~
+@186 = ~Wenn das wahr ist, dann kann ich mich glücklich zählen, dass dieses Mal nur der eine mitgekommen ist.~
+@187 = ~Dann lasst uns auf die anderen fünf vorbereitet sein, die jeden Moment auftauchen.~
+@188 = ~Wovon redet Ihr? Ich habe in meinem ganzen Leben nie etwas so dummes gehört.~
+@189 = ~(*Lacht*) Ich bin ein Brunnen des Wissens, <CHARNAME>, bleibt bei mir, und Ihr werdet weit kommen.~
+@190 = ~Sogar einer ist einer zu viel in unserer gegenwärtigen misslichen Lage, <CHARNAME>.~
+@191 = ~(*Lacht*) In der Tat eine kluge Vorsichtsmaßnahme, <CHARNAME>.~
+@192 = ~(*Lacht leise*) Dann gibt es noch viel für Euch zu hören und zu lernen, <CHARNAME>.~
+@193 = ~Ich wusste genau, dass das zurückkommen und uns verfolgen würde, <CHARNAME>.~
+@194 = ~Ich kann nicht umhin, die Schatten zu bemerken, die jedes Mal Eure Augen verschleiern, wenn Ihr Euren Anhänger berührt, Leina. Sind es Gedanken an Euren Vater, die solche Schwermut in Eure schönen Augen bringen?~
+@195 = ~Ihr seht müde aus, Leina... vielleicht versteht Ihr jetzt ein wenig, warum ich versuchte, Euch vor der Bitterkeit eines Lebens auf der Straße zu warnen.~
+@196 = ~Leina, wie würdet Ihr Euch fühlen, wenn wir gezwungen wären, wieder ein wenig Zeit in Athkatla zu verbringen? Ich weiß, dass Ihr schlechte Erinnerungen an diesen Ort habt und wir sollten eilig abreisen, aber ich finde, dass wir den Rest der Stadt noch nicht gesehen haben.~
+@197 = ~Leina, würdet Ihr mir bitte die Ehre erweisen, mit einem Märchen die Zeit zu vertreiben, solange es ruhig ist?~
+@198 = ~Sagt mir, Leina, beeinflusst das Wissen, wer mein Vater ist, Eure Gefühle zu mir?~
+@199 = ~Ihr seht schöner aus als je zuvor, Leina. Es ist Euer Haar... tragt Ihr es anders?~
+@200 = ~(*Sie schenkt Euch ein schwaches Lächeln*) Ihr habt Recht, <CHARNAME>, ich habe mich mit den Ereignissen abgefunden, die zu seinem Tod führten. Ich muss jetzt glauben, dass er im Tod den Frieden fand, der ihm im Leben verwehrt blieb.~
+@201 = ~Es ist gut, dass Ihr seine Vergangenheit akzeptiert habt, Leina, aber was ist mit den Schatten, die ich kurz über Euer Gesicht huschen sehe?~
+@202 = ~Es ist ein tapferer Mann, der die Hand des Todes herausfordert, Leina. Wenn Euer Vater tatsächlich unzufrieden mit seinem Leben war, dann hoffte er vielleicht, indem er mich herausforderte, dass ich das Instrument sein würde, das der Hand des Todes einen Stups geben würde.~
+@203 = ~Wir denken immer, dass wir einen Morgen haben werden, aber wir denken nie, dass vielleicht welche in unserer Nähe sind, die keinen haben. Meine Schatten sind mehr das Bedauern, als selbstverständlich anzusehen, dass es immer einen Morgen geben wird und die vergangenen Tage nicht voll auszunutzen.~
+@204 = ~Egal, was wir in unseren vergangenen Tagen taten oder nicht taten, sie sind für immer als gestrig verloren und kein noch so großer Wunsch oder Bedauern wird sie uns als heutig oder morgig zurückgeben. Es gibt keine zweiten Chancen im Leben, Leina.~
+@205 = ~Leider entdecken wir alle das, was wahr ist, zu spät. Wir können uns nicht die Welt ohne unsere Geliebten vorstellen, deshalb  schieben wir diese Gedanken beiseite, bis jemand, der uns lieb war, verloren ist und dann beginnt die Reue.~
+@206 = ~(*Sie berührt wieder sanft ihren Anhänger*) Wenn wir nur sicher sein könnten, dass der Tod nicht so endgültig ist, <CHARNAME>. Es wäre viel leichter zu akzeptieren, wenn man weiß, dass diejenigen, die wir verloren haben, nicht für immer von uns genommen wurden, sondern bloß darauf warten, dass wir sie finden, um uns ihnen auf unserem Weg wieder anzuschließen.~
+@207 = ~Dennoch nehme ich an, dass der Tod ein Mysterium ist, um dessen Antwort zu suchen wir geboren sind und dazu bestimmt sind, sie erst dann zu lernen, wenn die Götter entscheiden, dass es Zeit dafür ist. (*Sie seufzt und wendet sich ab*.)~
+@208 = ~Ihr saht nur den gebrochenen Mann, zu dem mein Vater geworden ist, <CHARNAME>, nicht den starken Mann, der er einmal war... ein Mann, der seine Familie innig liebte und sich jedem widersetzt hätte, der versuchen sollte, diejenigen zu verletzen, die er liebte.~
+@209 = ~Sich selbst das Leben zu nehmen, würde allem widersprechen, woran er glaubte, also ja... ich kann mir vorstellet, dass er in seinem Kummer Euch als einen Weg sah, seinen Schmerz zu beenden und auf dem er mit meiner Mutter wieder vereinigt sein könnte.~
+@210 = ~Manchmal ist die einzige Art, sich mit den Ereignissen zu einigen, bei denen wir keine Möglichkeit haben, die Wahrheit zu entdecken, zu versachlichen, was wir bis zu dem Ereignis wissen und dann daraus unsere Schlüsse zu ziehen.~
+@211 = ~Wenn es eine Möglichkeit gäbe, wie ich etwas von Eurem Kummer nehmen könnte, dann würde ich selbst den Himmel bewegen, um das zu tun, Leina, aber ich bin nicht gut mit Worten... noch ich kenne irgendjemanden, der helfen wird.~
+@212 = ~Ich fühle Traurigkeit für meinen Vater, ja, aber nicht für den Mann Vulova. Er wurde zu einem Mann, der sich von seinem Kummer überwältigen ließ bis zu dem Punkt, an dem er nicht mehr der Mann war, den ich kannte und Vater nannte. Statt dessen gilt mein Kummer meiner Mutter und der Zeit, die uns verwehrt wurde.~
+@213 = ~Wenn es Schatten des Kummers sind, die ich über Euer Gesicht huschen sehe, Leina, dann wünsche ich, dass ich die Mittel hätte, Euch etwas Trost zu spenden... aber wie es immer mit Kummer ist, ist Trost nicht leicht zu finden noch ist es leicht, ihn zu spenden.~
+@214 = ~Ich bin nicht gut mit Worten, Leina, aber ich würde selbst den Himmel mit Freuden bewegen, wenn ich denken würde, dass solch eine Tat Euch etwas Trost spenden würde.~
+@215 = ~Es ist nicht so sehr die Härte der Straße, <CHARNAME>.... (*dann, Euch anlächelnd*)... obwohl sie die Füßen eines Mädchens lange Zeit müde sein lässt, aber die ständige Wachsamkeit, die im Falle eines Hinterhalts erforderlich ist, nun, die finde ich sehr zermürbend.~
+@216 = ~War Euer Leben immer so unsicher?~
+@217 = ~Ich fürchte, ja, Leina. Wie oft habe ich, wenn ich gezwungen war, nachts zu reisen, gewünscht, dass ich die Augen und Ohren einer Eule hätte.~
+@218 = ~Nicht immer, aber seit dem Verlassen von Kerzenburg habe ich große Schwierigkeiten, Zeit zu finden, zu entspannen und die Welt zu genießen. Wohin auch immer ich gehe, gibt es immer jemanden, der ein Stück dieser Nachkommenschaft eines Gottes will.~
+@219 = ~War es... in der Tat, falls es sich jemals für beliebig lange Zeit ändern sollte, dann würde ich ernstlich anfangen zu denken, dass ich vielleicht tot bin und nicht mehr von Interesse für diese Welt und ihre Leute wäre.~
+@220 = ~(*Sie lacht und für einen Moment ist die Erschöpfung von ihrem Gesicht verschwunden*)... Wenn wir uns die Eigenschaften der Vögel wünschen würden, <CHARNAME>, dann würde ich vorschlagen, dass wir uns ihre Flügel wünschen, um uns von einem Hinterhalt wegzutragen... und von der harten Straße, die den Füßen so viel wunde Stellen zufügt!~
+@221 = ~(*Sie schaut Euch an und lächelt, aber ihr Gesicht nimmt etwas Schwermut an*)... Dann, <CHARNAME>, wenn Eure Suche beendet ist und Ihr Eure Imoen gefunden habt, werden Eure Reisen Euch vielleicht in einen Winkel dieser Welt führen, der nicht von Bhaals Vermächtnis gehört hat, und dort werdet Ihr den Frieden finden, der Euch so lange verwehrt blieb.~
+@222 = ~(*Sie schaut Euch an und lächelt, als sie spricht*)... Ihr, <CHARNAME>... niemals! Lange nach Eurem Ableben wird sich die Welt an das Kind von Bhaal erinnern, das einmal das Land von Faerûn bereiste und Chaos bei denjenigen auslöste, die es verärgerten und andere begeistern, die das Glück hatten, es gekannt zu haben.~
+@223 = ~Nein, <CHARNAME>... Barden werden nie zulassen, dass die Welt aus den Augen verliert, wer Ihr wart, nicht einmal im Tod.~
+@224 = ~Es ist wahr, ich kann nicht anders als mich ein wenig besorgt zu fühlen bei dem Gedanken, meine alte Heimat wieder zu sehen, und die Erinnerungen, die es aufrühren wird, aber ich habe auch einige liebevolle Erinnerungen an Athkatla. Mein Leben in den Fünf Krügen zum Beispiel und die Güte, die mir durch Samuel zuteil wurde.~
+@225 = ~Ich würde ihn liebend gerne wieder sehen, es war schließlich seine Sorge um mein Wohlergehen, die Euch zu meiner Rettung führte, <CHARNAME>... Ich schulde ihm meine Freiheit ebensosehr wie Euch.~
+@226 = ~Ich will Euch keinen unnötigen Ärger bereiten, und ich würde es hassen, einen so vertrauenswürdigen Begleiter zu verlieren, aber wenn die Zeit wirklich kommt und Ihr Euch nicht bereit fühlt, der Stadt oder Euren Erinnerungen gegenüberzustehen, dann verstehe ich, wenn Ihr Euch dafür entscheidet, nicht mit der Gruppe weiterzureisen.~
+@227 = ~Dann hoffe ich, dass Eure guten Erinnerungen keinen Freiraum für die schlechten lassen, denn wenn unsere Rückkehr nach Athkatla bedeutet, dass Ihr nicht länger mit mir reisen könnt, dann wisset, dass ich Euch außerordentlich vermissen werde, Leina. Euer Charme, Euer Witz und natürlich Eure Musik hat die Stimmung der Gruppe bei vielen Gelegenheiten gehoben.~
+@228 = ~Ich sind sicher, dass Samuel erfreut wäre, seine Leina wieder zu sehen und zu wissen, dass sie glücklich ist. Ich bin ebenso sicher, dass, wenn ich die Fünf Krüge besuchen sollte und seine Leina nicht bei mir wäre, ich weder ein Willkommen noch eine Bedienung von ihm erhalten würde, bis ich mit ihr im Schlepp zurückkäme!~
+@229 = ~Ich danke Euch für Eure freundlichen Worte, <CHARNAME>, aber ich habe keine Eile, Eure Gesellschaft zu verlassen, also lasst uns warten und sehen, was geschieht und lasst die Gedanken und Entscheidungen von morgen bleiben, bis jener Morgen kommt.~
+@230 = ~(*Sie wirft ihren Kopf zurück und lacht laut*)... Ich kann mir gut Samuel vorstellen, der genau das tut, <CHARNAME>, aber nur wenn Ihr ihn nicht überzeugen konntet, dass ich am Leben bin und es mir gut geht... dass Ihr mich nicht zurückgelassen habt, um in einem Bordell oder schlimmere szu verkommen.~
+@231 = ~Scherz beiseite, er ist ein guter Mann und passte auf mich auf, als ich niemanden hatte. Ich werde Athkatla wieder besuchen, wenn auch aus keinem anderen Grund als meinen lieben Freund Samuel zu sehen.~
+@232 = ~Lasst mich in Ruhe, <CHARNAME>, ich bin heute nicht in Stimmung für Geschichten. (*Sie eilt von Euch weg*).~
+@233 = ~Ich bin nicht in Stimmung für lange Geschichten, <CHARNAME>, aber vielleicht werden einige Verse die Zeit vertreiben, die Ihr so sehnsüchtig verbringen wollt. Was möchtet Ihr hören?~
+@234 = ~Ein oder zwei Verse der Hoffnung.~
+@235 = ~Ein oder zwei Verse von jemandem, der in Verzweiflung lebt.~
+@236 = ~Eine kurze Ode, geschrieben von einem Mann zum Lob der Frau, die er liebt.~
+@237 = ~Den Schmerz, der Kummer und Sorgen begleitet.~
+@238 = ~Dann soll es hoffentlich so sein, <CHARNAME>...~
+@239 = ~"Morgendämmerung
+und es fühlt sich so an, also ob die Sonne untergeht.
+Es gibt Hoffnung voraus, reichliche Hoffnung,
+aber kann ich sie erreichen... ist sie dort für mich 
+oder ist sie dort für jemand anderen? 
+Ich gehe darauf zu, aber dort ist nichts
+ich strecke meine Hände aus; immer noch nichts.
+Mein Herz blutet und mein Verstand fragt sich, warum
+alles, was ich liebe, vergegangen ist,
+irgendwo hingegangen ist, 
+irgendwo außerhalb meiner Reichweite 
+Dann...
+Ich blicke in meine Seele
+und ich höre eine Stimme, es ist solch eine sanfte Stimme,
+die Stimme der Liebe und der Fürsorge.
+Es ist die Stimme, die ich als Kind hörte;
+jedes Mal wurde ich verletzt,
+jedes Mal waren meine Gefühle wie offene Wunden,
+diese Stimme würde kommen, um mich zu trösten,
+diese Hände würden kommen, um mich festzuhalten.
+Ich konnte das Herz so liebevoll schlagen fühlen
+als diese Hände mich festhielten. 
+Doch auch wenn jene Hände nicht mehr hier sind,
+auch wenn diese Hände mich nicht mehr umschlingen,
+weiß ich, dass die Liebe noch hier ist,
+dass das Herz noch für mich schlägt,
+dass die Wärme und die Fürsorge mich noch umhüllen,
+mich trösten,
+mich umsorgen,
+und die Festung sind, die mich immer schützen wird."~
+@240 = ~Es ist eine Freude, Euch zuzuhören, Leina, ob Ihr ein Lied singt oder Verse rezitiert. Wir haben noch einen ruhigen Moment, ich würde gerne einen anderen hören... bitte.~
+@241 = ~Danke, Leina. Hatte ich Recht, anzunehmen, dass das eine Eurer Kompositionen ist... spiegeln diese Worte Leinas Gefühle wider?~
+@242 = ~So typisch für eine von Leinas Kompositionen, ein Märchen, das mit einem blutendem und einsamem Herzen beginnt. Dennoch nehme ich an, dass es ein Maß an Hoffnung am Ende gab. Wenn die anderen genauso melancholisch sind, dann habe ich genug für heute gehört, danke Leina.~
+@243 = ~Es tut mir Leid, <CHARNAME>, aber ich sagte, dass einige Verse alles sind, zu dem ich heute bereit bin. Ich verspreche, dass Ihr die anderen ein anderes Mal hören werdet.~
+@244 = ~Es ist wahr, dass ich Trost in den Worten gefunden habe, weil ich die Gefühle kenne, von denen sie sprechen, aber es sind nicht meine Schriften. Ein Barde aus dem Norden namens Agusti erzählte sie mir einmal, als ich am Tiefpunkt war und alle Hoffnung aus meinem Leben fast verschwunden war.~
+@245 = ~Er war sehr talentiert und ich lernte sehr viel von ihm, als wir zusammen reisten, bis er den Ruf der Heimat wieder spürte... wie lange das alles jetzt zurückzuliegen scheint.~
+@246 = ~(*Sie seufzt*) Aah... genug der Oden und dem Schwelgen in Erinnerungen für heute, die anderen werden auf eine andere Gelegenheit warten.~
+@247 = ~Das war keine Komposition von mir, sondern eine, die mir von einem anderen sehr talentierten Barden erzählt wurde.~
+@248 = ~Trotzdem nehme ich es als Kompliment, dass Ihr meine Arbeit mit demjenigen vergleicht, den ich in sehr wertschätze... nun genug, Ihr hattet Eure paar Verse, aber ich kann mir nicht helfen, ich finde, dass die Worte an Euch verschwendet sind.~
+@249 = ~Wenn Ihr mehr hören wollt, fragt mich in ein oder zwei Tagen wieder.~
+@250 = ~Dann lauscht und lernt von einer Einsamkeit, von der ich bete, dass Ihr sie nie fühlen werdet...~
+@251 = ~"In der Düsterkeit der Verzweiflung
+saß ich und starrte zu den Sternen.
+Unbegrenzte Möglichkeiten,
+aber alle waren zu weit entfernt;
+zu weit außerhalb meiner Reichweite, und deshalb konnte ich nur
+dasitzen und von Euch träumen. 
+
+In der Mitte der Nacht
+konnte ich nirgendwo hingehen,
+und tief in meinen Adern
+hörte mein Blut auf, zu fließen,
+weil ich verloren und einsam war
+ohne ein führendes Licht,
+während alles, was ich wollte,
+Euch lieb und fest zu halten war. 
+
+Vom Grund meines Herzens
+kam ein schmerzhafter Schrei,
+als ich die Leere hinaus schrie,
+während ich mich fragte,
+warum ich leide,
+warum ich diesen ganzen Schmerz fühle,
+warum meine Tränen tropfen,
+sie tropfen wie Regen."~
+@252 = ~Für einen Moment verloren Eure Augen etwas von ihrem Funkeln, und ich fühlte eine Schwermut, dass solche Worte so einen dunklen Schatten über so viel Schönheit werfen sollten, aber kommt, Ihr habt die Finsternis hinter Euch gelassen, also vielleicht ein Reim über die Liebe, um die Laune zu erhellen?~
+@253 = ~Leina, verzeiht mir bitte. Ich hätte nicht gefragt, wenn ich gewusst hätte, dass es eine Ode über Eure eigenen Gefühle der Trostlosigkeit sein sollte. Es tut mir Leid.~
+@254 = ~Nun, ich bat darum, nicht wahr? Allein schon der Titel hätte mir sagen sollen, dass ich Leina hören sollte, wie sie sich in Selbstmitleid wälzt... zumindestens diente es als eine Gedächtnishilfe dafür, warum ich selten um ein Lied bitte.~
+@255 = ~Ja, die Finsternis und Düsterkeit liegen hinter mir, aber immer noch gibt es den schwachen Schatten einer Erinnerung, wenn ich um ein bestimmtes Märchen oder ein bestimmtes Lied gebeten werde.~
+@256 = ~Ich fürchte, dass die Ode an die Lieben warten muss, die Darbietungen dieses Barden sind für heute beendet... fragt mich morgen wieder.~
+@257 = ~Ihr habt nichts zu bedauern, <CHARNAME>. Ich werde um Märchen über Schmerz und Kummer ebenso häufig gebeten, wie ich gebeten werde, von Liebe und Freude zu erzählen... es ist das Los eines Barden, von jedem Gefühl zu erzählen, das geeignet ist, das Herz zu berühren. Was für eine Bardin wäre ich, wenn ich ein Märchen nur deshab vermeide, weil es mich selbst berührt hat?~
+@258 = ~Also bitte, es ist nicht nötig, sich zu entschuldigen.~
+@259 = ~Ja, es gab eine Zeit, in der ich mich selbst bedauerte, eine Zeit, als ich in die allertiefste Verzweiflung sank, aber ich habe mich selbst wieder hochgezogen und jetzt, wenn ich von der Düsterkeit der Verzweiflung erzähle, gibt es diejenigen, die Trost in dem Wissen finden, dass auch ich dort gewesen bin.~
+@260 = ~Nun, wenn Ihr mich entschuldigen würdet, ich werde nicht mehr Atem an jemanden verschwenden, der meine Zeit vergeudet.~
+@261 = ~Eine gute Wahl und eine, die ich wertschätze, denn es war einer der wenigen Verse, die ich jemals meinen Vater meiner Mutter vortragen hörte...~
+@262 = ~"Von all den schönen Dingen gibt es keines wie Dich.
+Von all den liebevollen Dingen ist keines so wahr.
+Von all den Dingen, die ich bewundere, bist Du das, was ich am meisten schätze.
+Von all den Dingen, die ich schützen sollte, werde ich für Dich auf dem Posten stehen.
+
+Von all den Gefühlen im Leben ist meine Liebe zu Dir am stärksten.
+Von all den Gefühlen im Leben wird meine Zuneigung am längsten halten.
+Von all den Gefühlen im Leben ist der Gedanke an Euch der liebste.
+Von all den Gefühlen im Leben bleibt mein Herz Euch am nächsten."~
+@263 = ~Das war schön, Leina. Er muss sie sehr geliebt haben, um angeregt zu werden, so schön zu schreiben, und niemand anderes als seine eigene Tochter hätte seine Worte leidenschaftlicher sprechen können. Danke, dass ihr sie mit mir teilt.~
+@264 = ~Ihr sprecht mit so viel Leidenschaft, wenn Ihr von der Liebe erzählt, die andere umschlingt, wie kommt es dann, dass ein Herz, das in der einen Minute warm und leidenschaftlich ist, im nächsten Moment die Liebe zurückweist und so kalt und gefühllos wird?~
+@265 = ~Sehr schöne Worte, es ist eine Schande, dass Ihr nicht den Stil Eures Vaters geerbt habt. Eure Lieder würden mit mehr Begeisterung aufgenommen werden, wenn sie nicht so... nun... schwermütig wären.~
+@266 = ~Ich glaube nicht, dass dies seine Worte waren, <CHARNAME>. Ich habe ihn nie schreiben sehen und diese Ode fand ich, als ich Gefangene in dem Haus war, das ich einmal Heimat nannte.~
+@267 = ~Es wurde auf ein zerknittertes Stück Pergament geschrieben und hinten in eine Schublade seines Schreibtischs gestopft. Ich denke nicht, dass er seit dem Tod meiner Mutter darauf geschaut hat.~
+@268 = ~Einer Sache bin ich mir sicher... es war nicht seine Hand, die die Kopie schrieb, die ich fand, aber es wird immer seine Stimme sein, an die ich mich erinnere, wann immer ich es lese. (*Sie wendet sich ab, aber nicht, bevor Ihr einen Blick der Schwermut einen Augenblick lang über ihre Augen huschen seht.*)~
+@269 = ~Ich habe meine Gefühle verständlich gemacht, wenn ich mich des öfteren verliebte. Ich ersehne sie nicht, noch vergeude ich meine Zeit damit, wie eine leichtfertige Frau danach zu schmachten.~
+@270 = ~Was mein kaltes und gefühlloses Herz betrifft... weil es so viel Leidenschaft für Musik in mir gibt, weiß ich, dass mein Herz nicht so kalt sein kann, wie Ihr sonst sagt, sonst könnte diese Leidenschaft nicht überleben... Leidenschaft ist Wärme und braucht Wärme, um sie zu ernähren, sie zu bewahren. Nein, mein Herz ist nicht ohne Gefühl, <CHARNAME>.~
+@271 = ~Meine Lieder sind bei den Zuschauern gut angekommen, wo auch immer ich dank Euch, <CHARNAME>, gespielt habe! Ich habe kein Verlangen, *Stil* zu erben, wie Ihr es nennt, ich habe meinen Weg auf eigene Faust gemacht, und ich bin stolz darauf, zu sagen, mit meinem Individualismus.~
+@272 = ~Ich werde jedes Lied singen, das von mir verlangt wird, und es ist Beweis genug, dass meine Musik gefragt ist, da das meiste, das zu singen ich gebeten werde, meine eigenen Kompositionen sind.~
+@273 = ~Eure Meinung über mich oder meine Musik kümmert mich wenig. (*Sie dreht sich um und schreitet davon.*)~
+@274 = ~Sie ist ein persönlicher Ausdruck, geschrieben von jemandem, der weiß, wie es sich anfühlt, unerträglichen Schmerz zu haben, und wenn Kummer ins Leben kommt...~
+@275 = ~"Der Schmerz, der qualvolle Schmerz,
+der zerschmettert mein Herz;
+hört, wie es zerrissen wird;
+und meine Tränen tropfen wie starker Regen. 
+
+Der Kummer reißt meine Seele entzwei
+und ich blute so sehr 
+und es gibt niemanden, der meine Schreie der Verzweiflung,
+meine schmerzhaften Rufe beachtet. 
+
+Und daher wünsche ich jetzt, dass ich tot und kalt wäre
+allein in meinem Grab und vergessen,
+wie mein Leben, so soll mein Leichnam verrotten,
+und nie die Last haben, alt zu werden."~
+@276 = ~(*Ihr nehmt ihre Hand*) Ich kann mir nicht die Art Schmerz vorstellen, der solche grauenhaften Worte auslösen würde. Sagt mir bitte, dass diese nicht aus Eurem Herzen kamen, Leina... Ich könnte es nicht ertragen, daran zu denken, dass Ihr so sehr verletzt seid und den Tod als Eure einzige Befreiung seht.~
+@277 = ~Ich kann den Kummer in fast jedem Wort spüren... solche Empfindung, solch rohes Gefühl. Schmerz ist so unterschiedlich und doch genauso schrecklich wie der Schmerz, den ich durch Irenicus' Hand ertrug... ein Schmerz, den ich nie vergessen werden kann.~
+@278 = ~Noch eine weiteres von Euch, Leina? Es hat den Klang der verlassenen Frau, das der Welt zuruft "Blickt auf mein armes zerrissenes Herz... seht an, wie verletzt ich bin, ist das Leben nicht eine eine knifflige Angelegenheit?"~
+@279 = ~(*Sie lächelt Euch zu*), Nein, das sind weder meine Worte, noch habe ich den Schmerz gefühlt, von dem mein Freund hier gesprochen hat. Sogar durch mein eigenes Elend und meine Verzweiflung erreichte ich nie den Punkt, an dem ich den Tod als ein Mittel der Befreiung suchte und glücklicherweise tat er es auch nicht.~
+@280 = ~Denn wenn er es getan hätte, hätte die Welt viele schöne Verse verloren, die nicht geschrieben worden wären und ich hätte keinen Freund gefunden, als ich ihn am meisten brauchte.~
+@281 = ~Mein Freund auch nicht. Er erzählte mir nie die Geschichte hinter den Worten, noch fragte ich danach, und der Blick, den wir austauschten, als er mit mir sprach, reichte, um zu wissen, dass er es mir nicht erzählen würde, wenn ich es tun würde. Ich glaube, dass es einige Dinge gibt, die zu persönlich sind, um sie jemals zu teilen, aber ich bin dankbar für die vielen Lieder, die er mit mir teilte, einige, die ich mit Euch teilen werde, aber nicht heute.~
+@282 = ~(*Wütend*) Nein, <CHARNAME>, das war nicht über mich, sondern einen anderen, dessen Seele unbekannten Schmerz und Kummer ertragen hatte.~
+@283 = ~Ich fühle mich bevorzugt, einen Mann gekannt zu haben, der sich nicht schämte, der Welt zu sagen, dass Männer auf die gleiche Weise Schmerzen empfinden und bluten wie Frauen.~
+@284 = ~Ja, ich sagte *Mann* und weder ich noch sonst jemand, der ihm zuhörte, hielt ihn  weniger für einen Mann wegen seiner Offenheit im Ausdruck seiner Gefühle.~
+@285 = ~(*Sie lacht, als sie antwortet*) Ich kann micht nicht erinnern, dass ich mich jemals durch den Umstand der Zeugung eines Mannes beeinflussen lassen habe, was ich für den Mann fühle oder nicht fühle, <CHARNAME>.~
+@286 = ~Danke für das Kompliment, <CHARNAME>, aber ich habe mein Haar nicht verändert. Es muss die Freude sein, dass ich mich in solcher feiner Gesellschaft befinde.~
+@287 = ~Danke für das Kompliment, aber mein Haar ist so, wie es immer ist, <CHARNAME>. Euer Bestreben, Euch auf den Weg zu machen, um aufzusteigen, lässt wenig Zeit für ein Mädchen, sich ihr Haar zu bürsten... ganz zu schweigen davon, sich umzufrisieren.~
+@288 = ~(*Sie lacht*) Nun, das ist das erste Mal.... die meisten Männer brauchen eine Weile, um zu bemerken, wenn ein Mädchen ihr Haar verändert, aber Ihr, <CHARNAME>, bemerkt eine Änderung des Äusseren eines Mädchens und das erste, wonach Ihr fragt, ist ihr Haar.~
+@289 = ~Ich bin sicher, dass Melora Euch nicht in ihren Hohn einschloß, Minsk. Einem hübschen Gesicht würde es nicht leicht fallen, die Meinung unseres tapferen Waldläufers zu beeinflussen, sobald er sich festgelegt hat und ein hübsches Gesicht, das ein schlechtes Herz verbirgt, könnte auch niemals seinen scharfen Verstand zum Narren halten.~
+@290 = ~Oh... bringt Euren Kopf zum Kochen, Shar-Teel, und wenn Ihr schon dabei seid, verbrennt Eure scharfe Zunge ebenso!!~
+@291 = ~Minsk hat jeder Frau in dieser Gruppe immer nur die höchste Aufmerksamkeit und Rücksicht gezeigt... Euch selbst eingeschlossen. Deshalb verdient er so eine verletzende Schmährede von Euch nicht... obwohl ich für meinen Teil ihn nicht tadeln würde, wenn seine Rücksicht auf Euch sich plötzlich ändern sollte... (*Sie wendet sich verärgert ab*)~
+@292 = ~(*Leise zu sich selbst, mit vor Ehrfurcht weit geöffneten Augen*) Es ist wahr, alles, was sie mir sagte, ist wahr... er, er ist großartig und so... so hochmütig!~
+@293 = ~(*Während sie langsam auf Firkraag zugeht, nimmt ihr Blick aufmerksam die Merkmale des Gesichtes des Drachen auf. Gebannt streckt sie sehr langsam ihre Hand aus, sie berührt leicht sein Gesicht*)... Seht, wie... wie ruhmvoll er... sogar im Tod... aussieht...~
+@294 = ~Leina... was ist los?~
+@295 = ~Weniger einschüchternd vielleicht, aber ich sehe nichts Ruhmvolles im Tod eines jeden Wesens.~
+@296 = ~Ruhmvoller als Ihr... schaut Euch selbst an, Mädchen, Eure Hände sind mit seinem Blut bedeckt!~
+@297 = ~Ihr Götter, Mädchen, das ist nur ein weiterer Rumpf... geht weg und lasst ihn liegen, um zu verfaulen!~
+@298 = ~(*Sie schüttelt ihren Kopf, wie um ihre Gedanken zu ordnen*) Oh, ich erinnerte mich nur an Dinge, die ich gehört habe... über Drachen... und da ich so nahe bin, möchte ich diesen anschauen. Ist er nicht großartig!?~
+@299 = ~Sieht für mich aus wie eine übergroße Eidechse.~
+@300 = ~Das einzige, was ich sehe, ist der Schatz, auf dem er saß und das Gold, das seine schuppige Haut einbringen wird.~
+@301 = ~Gehört? Ah... Ich nehme an, dass Ihr das Mysterium und die Romanze meint, die Ihr Barden von den Biestern und den Helden erzählt, die danach streben, sie zu töten.~
+@302 = ~(*Seufzend*) Ich sollte wirklich nicht über Eure Worte überrascht sein. So viel ist an Euch verloren, <CHARNAME>... (*Sie schaut auf ihre mit Blut beschmierten Hände und wendet sich traurig ab*)... so viel!~
+@303 = ~Nein, etwas mehr. Ich habe gehört, dass dieses großartige Wesen... einige nennen es Drache, andere nennen es Lindwurm... eine Zusammensetzung von Eigenschaften ist, nicht anders als die sich ändernden Jahreszeiten. Daher seine Fähigkeit, zu überleben und sich an das wechselnde Klima unserer Welt anzupassen. Und ist damit eine der ältesten uns bekannten Kreaturen... vielleicht viel älter, als jede Rasse, die uns bis jetzt begegnet ist.~
+@304 = ~Was für ein Quatsch... ein Drache ist ein Drache. Das heißt, es ist ein sehr großes scheußliches Wesen, das nur mit seiner Selbstgefälligkeit beschäftigt ist und sonst nichts!~
+@305 = ~Wechselnde Jahreszeiten, ein stinkender widerlicher Drache ist alles, was ich sehe! Als nächstes werdet Ihr sagen, dass Ihr das Ding begraben und Gebete darüber sprechen wollt!~
+@306 = ~Das klingt so, als ob jemand Euch den Kopf mit romantischen Quatsch gefüllt hat, Leina. Kommt, schaut hinter die Romanze, ist es nicht ein Ding aus Fleisch und Blut, das Ihr seht?~
+@307 = ~Wie wechselnde Jahreszeiten, sagt Ihr. Dies hier sieht für mich nicht anders aus als Fleisch und Blut, nicht anders als jedes andere Wesen.~
+@308 = ~(*Ihren Kopf verärgert schüttelnd*) Es gibt keinen Grund zu Sarkasmus... aber wie könnte ich etwas anders von Euch erwarten! So viel ist an Euch verloren, <CHARNAME>... (*Sie schaut auf ihre mit Blut beschmierten Hände und wendet sich traurig ab*)~
+@309 = ~(*Während sie weiterhin auf das gefallene Wesen starrt, spricht sie weiter... Ihr fragt Euch, ob sie Euch überhaupt gehört hat* )... Er ist zunächst wie eine Schlange, die sich häutet... vielleicht der Ursprung des Namens Wurm.~
+@310 = ~Dann sind dort seine Flügel, die, wie die Flügel eines Vogels, seinen Geist beflügeln, wenn er hoch aufsteigt. Er hat die Mähne eines Pferdes und die Flossen eines Fisches... Es wird sogar gesagt, dass diejenigen, die Bärte haben, ein Zeichen von Verstand zeigen und das Gehörn die Embleme des Königtums und Wiederbeginns sind.~
+@311 = ~Ich habe genug von diesem Gesabber! Schaut, es ist nur ein Drache und ein toter obendrein, also lasst uns den Schatz schnappen und aus dem stinkenden Horst verschwinden, bevor wir in dem Gestank ersticken!~
+@312 = ~Das ist alles sehr interessant, aber wisst Ihr nicht etwas, das es leichter macht, den nächsten, dem wir begegnen, zu töten... Ihr wisst schon, eine schwache Stelle oder so etwas?~
+@313 = ~Fische, Pferde, Vögel... Leina, wovon plappert Ihr?~
+@314 = ~Das ist sehr aufschlussreich... was habt Ihr noch gehört?~
+@315 = ~(*Ihren Kopf verärgert schüttelnd*) Ist dass alles, was Ihr wissen wollt... wie man ihn tötet? Es gibt so viel mehr über diese großartigen Wesen als das, was Ihr sehen könnt... Ihr habt keine Ahnung!~
+@316 = ~Nein, ich weiß nichts darüber, wie man sie leichter tötet... was ich wirklich weiß, ist, wie man sie leichter versteht, und wenn ich Euch das vielleicht begreiflich machen könnte, dann würdet Ihr vielleicht sehen, warum ich das Ableben von diesem betrauere, auch wenn er einer der schlimmsten von seiner Art war... aber ich sehe, dass dies nicht das ist, was Ihr hören wollt.~
+@317 = ~Sie verstehen... seid Ihr eine Art Drachen-Fanatiker?~
+@318 = ~Sie verstehen... warum zu den neun Höllen sollte ich sie verstehen wollen?~
+@319 = ~Sagt mir, Leina... was fasziniert Euch an Drachen, und wie kommt es, dass Ihr so viel über sie wisst?~
+@320 = ~(*Seufzend... sie schaut auf ihre mit Blut beschmierten Hände*)... Ich dachte nur... Ganz gleich, es ist nicht wichtig. Ihr würdet es nie verstehen, wie könntet Ihr es, wenn Ihr das nicht wisst? Vielleicht werdet Ihr es eines Tages... aber nicht heute.~
+@321 = ~Kommt, lasst uns in die Welt der Lebenden zurückkehren und die Toten ihrem Schlaf überlassen... (*Sie wirft noch einmal einen flüchtigen Blick auf den blutigen Körper des Drachen und wendet sich dann traurig ab.*)~
+@322 = ~Ich plappere nicht. Ich versuche, Euch zu erzählen, was ich weiß, was mir über Drachen erzählt worden ist. Wenn Ihr den Mund halten und zuhören würdet, was ich zu sagen habe, dann werdet Ihr vielleicht diese Wesen ein wenig besser verstehen. Vielleicht sogar verstehen, warum ich das Ableben von diesem betrauere, auch wenn er einer der schlimmsten seiner Art war.~
+@323 = ~Ein weiterer interessanter Gesichtspunkt über diese besondere geflügelte Echse ist, dass sie von einigen als Symbol der Einheit der vier Elemente betrachtet wird. Sie atmet Feuer, kann in die tiefsten Tiefen der Meere hinabtauchen, zu den höchsten Höhen der Luft aufsteigen, und sie bewacht die Schätze der Erde.~
+@324 = ~Jeder der Drachen-Sippe ist durch andere solcher Merkmale gekennzeichnet, sie sind zahlreich, aber leider wurde mir nicht die Gelegenheit gewährt, mehr zu lernen... das Schicksal nahm meinen Lehrer... (*Ihre Augen verschleiern sich eine Sekunde lang und sie schaut weg*)~
+@325 = ~(*Ihr streckt Eure Hand nach ihrem Gesicht aus, berührt es leicht und dreht es sanft, so dass sie Euch ins Gesicht sieht... und schaut Ihr in die Augen, als Ihr sprecht*) Es tut mir Leid, Leina, das Letzte, was ich wollte, ist alte Wunden aufzureißen. Hier, nehmt meine Hand, wir werden diesen Ort verlassen und nicht mehr von Drachen sprechen.~
+@326 = ~Es tut mir Leid, Leina, ich wollte nicht neugierig sein.~
+@327 = ~Ihr standet diesem Lehrer nah... Es tut mir Leid, ich wollte nicht alte Wunden aufreißen, verzeiht mir.~
+@328 = ~Eure Lehrer starben also, bevor sie Euch den Kopf mit mehr Quatsch füllen konnten. Scheint, dass das Schicksal Euch einen Gefallen tat.~
+@329 = ~(*Sie hält Eure Augen mit ihrem Blick fest, so intensiv und so traurig, dass eine Sekunde lang alles, was Ihr tun wollt, ist, sie in die Arme zu nehmen, mit ihr zu verschmelzen, alle ihre früheren Schmerzen zu finden und sie für immer von ihr zu nehmen... statt dessen, ohne Euch ihrer mit Blut verschmierten Hand bewusst zu werden, lasst Ihr sie Eure Hand nehmen und sie an ihre Lippen pressen*)~
+@330 = ~Es... es ist nichts, <CHARNAME>... Ihr würdet es nie verstehen, wie könntet Ihr, wenn Ihr das nicht wisst? Vielleicht werdet Ihr es eines Tages... aber nicht heute. Kommt, lasst uns in die Welt der Lebenden zurückkehren und die Toten ihrem Schlaf überlassen.~
+@331 = ~(*Noch immer Eure Hand haltend, wirft sie noch einmal einen flüchtigen Blicke auf den blutigen Körper des Drachen und wendet sich dann traurig ab.*)~
+@332 = ~(*Sie wirbelt herum, ihre Wangen erröteten und ihre Augen sind nicht mehr von Schwermut bewölkt... stattdessen blitzen sie vor Wut*) Ihr... wer seid Ihr, um darüber zu urteilen, was wahr ist und was Quatsch ist? Ich hatte nicht nur Glück gehabt, eine erfahrene Lehrerin gehabt zu haben, sondern eine, die Wahrheit dessen kennt, wovon sie spricht, aber ich habe auch bei ihr gestanden und kann die Wahrheit über einige der Dinge bestätigen, die ich kenne. Obwohl ich zu der Zeit jung war, um die Bedeutung dessen, was ich sah, völlig zu verstehen.~
+@333 = ~Es war dumm von mir, das zu denken... Egal, was ich dachte, es ist nicht wichtig. Offensichtlich würdet Ihr es nie verstehen, wie könntet Ihr, wenn Ihr das nicht wisst? Vielleicht werdet Ihr es eines Tages... aber nicht heute... (*Sie wirft noch einmal einen flüchtigen Blick auf den blutigen Körper des Drachen und wendet sich dann traurig ab.*)~
+@334 = ~(*Ihre Augen nehmen einen kühlen Ausdruck an*) Mein Interesse an Drachen begann früh. Ich wurde von jemandem unterrichtet, der seine Kenntnisse über diese Wesen aus erster Hand hatte, aber zu meinem Leidwesen wurde mir nicht die Gelegenheit gewährt, mehr zu erfahren... das Schicksal holte meinen Lehrer... (*Ihre Augen verdunkeln sich eine Sekunde lang und sie schaut weg*)~
+@335 = ~Er weiß, warum wir... Ich sehe es in seinen Augen. Bitte <CHARNAME>, ich glaube nicht, dass er an irgendwelchen Erklärungen interessiert ist.~
+@336 = ~(*Liebevoll lächelnd*) Ah, die berüchtigte Imoen... endlich treffen wir uns.~
+@337 = ~Ich habe viel von <CHARNAME> über die liebenswerte Schurkin Imoen gehört, aber dann wusste natürlich keiner von Euch, dass Ihr Geschwister wart.~
+@338 = ~Nein ich... verdammt, das habe ich überhaupt nicht gemeint, Imoen. Ich meinte nur, dass liebenswerte Schurkin vielleicht kein Begriff ist, den man benutzen würde, um seine Schwester zu beschreiben.~
+@339 = ~Ich weiß nicht... oh je, das läuft gar nicht so, wie es sollte. Imoen, ich wollte nur sagen, dass ich viel über <CHARNAME>s mutige Freundin erfahren habe.~
+@340 = ~Ich habe den größten Respekt vor Euch, für das, was ihr beide in Euren kurzen Leben durchkämpft habt, was ihr sogar jetzt noch durchkämpft.~
+@341 = ~(*Leise lachend*) Ich heische nicht nach Sympathie, Imoen.~
+@342 = ~So wie Ihr nie mehr das gleiche Mädchen sein werdet, das Irenicus Verlies vor so langer Zeit verlassen hat, so haben meine Erfahrungen mich zu dem Mädchen gemacht, das ich heute bin, und so seltsam es klingen mag, bin ich dankbar dafür.~
+@343 = ~(*Sie lächelt über die romantische Interpretation des jungen Mädchens von ihrem Leben*) Gewiss, Imoen, ich nahm einmal einen Mann, nannte ihn Ehemann, liebte ihn, verehrte ihn... nur um mein Herz gebrochen zu bekommen, meine Träume im Gegenzug zerschmettert.~
+@344 = ~Als mein Herz schließlich wieder ganz wurde, versprach ich, dass ich es niemals zulassen würde, dass es wieder solche Schmerzen erleidet. Ich schwor einen Eid, niemals zu lieben oder der Liebe eines Mannes zu erlauben, es jemals wieder zu berühren.~
+@345 = ~(*Sie schaut Imoen an und lächelt*) Bitte Imoen, kein trauriges Gesicht für mich. Liebe interessiert mich wirklich nicht mehr, ich habe alles, was ich brauche, in meiner Musik. Freut Euch für mich.~
+@346 = ~Ihr von allen Menschen kennt den Schmerz, einen Teil von Euch weggerissen zu bekommen. Möchtet Ihr die gleichen Schmerzen riskieren, wenn Ihr endlich wieder ganz hergestellt seid?~
+@347 = ~Wenn ich niemals wieder einen Mann in mein Herz lasse, dann weiß ich auch, dass niemals wieder Schmerz und Betrug eintreten werden.~
+@348 = ~Ihr seid noch jung und doch habt Ihr Liebe in all ihrer schrecklichen Realität erlebt. Der Tumult, die Hitze der Leidenschaft und der Schmerz des Betruges, wenn diese Flammen erlöschen.~
+@349 = ~Kein Zweifel, wenn ich nur Eure romantischen Erwartungen und nicht die Schmerzen der Realität hätte, dann wäre ich eine andere Person, als ich es heute bin.~
+@350 = ~So wie es ist, hat die Kraft und Weisheit, die ich durch meinen Kampf gewonnen habe, mir dazu verholfen, einzusehen, dass dieses Ding, das Liebe genannt wird, die wir alle suchen, nicht für uns alle bestimmt ist.~
+@351 = ~Ich schwor der Liebe ab, um mein Herz zu schützen, und in Wahrheit bin ich nie glücklicher gewesen.~
+@352 = ~Ihr sucht nach Liebe, wenn es das ist, wovon Ihr träumt, Imoen, aber tut dies mit offenen Augen und denkt daran, dass niemand so blind ist wie die von der Liebe geblendeten.~
+@353 = ~Ich glaube, die am besten geeignete Redensart, um sie hier zu verwenden, wäre etwas über Hochmut, der vor dem Fall kommt. Würdet Ihr nicht zustimmen, Taffic?~
+@354 = ~(*Ihr taucht hinter Leina auf und blast Ihr sanft in den Nacken.*)~
+@355 = ~Ein Goldstück für Eure Gedanken, Leina? Ihr habt mich einige Zeit lang sehr intensiv angestarrt.~
+@356 = ~(*Eine Flasche Wein hochhaltend*) Leina, möchtet Ihr mir helfen, diese Flasche zu entleeren, wenn auch aus keinem anderen Grund, als in meinem Rucksack Platz zu schaffen?~
+@357 = ~Ich dachte laut, Leina. Euer Mann war ein Narr, den Wert des Juwels, das er in seiner Hand hielt, nicht zu erkennen.~
+@358 = ~(*Ihr bemerkt einen versonnenen Blick in Leinas Augen, als Ihr in Ihre Richtung schaut. Euren Rucksack durchstöbernd findet Ihr einen Korken und werft ihn spielerisch auf sie.*) Hey Leina, wacht auf, es ist keine Zeit für Tagträume.~
+@359 = ~(*Ihr nehmt ihre rechte Hand und Euch vorbeugend streift Ihr sanft Ihre Rückseite mit den Lippen.*)~
+@360 = ~Eine Frage an Euch, Leina. Was ist der Unterschied zwischen Liebe und Bogenschießen?~
+@361 = ~(*Sie zittert leicht*) Mmm... könnte sich, frage ich mich, ein Sturm aus so kleinen Brise zusammenbrauen?.~
+@362 = ~(*Sie hört plötzlich auf und verursacht, dass ihr beide als verwickelter Haufen auf den Boden fallt.*) Einen Moment lang befürchtete ich, dass es der heiße Atem eines Drachen wäre, den ich in meinem Rücken spürte.~
+@363 = ~(*Dann sich aufsetzend und ihre Arme und Beine von Euch lösend, lacht sie und streckt ihre Hand nach Euch aus*) Kommt, <CHARNAME>, helft mir, bevor der Rest der Gruppe uns zufällig in dieser misslichen Lage findet.~
+@364 = ~Wenn wir uns gegenseitig im Nacken sitzen, dann braucht sich diese Gruppe keine Sorgen darum zu machen, ob sie versammelt ist oder nicht, um weiterzugehen.~
+@365 = ~Die Gedanken einer Person sind ihre eigenen und privaten, <CHARNAME>. Wenn ich sie Euch verkaufen sollte, dann wären sie nicht mehr meine und auch nicht privat.~
+@366 = ~War ich das? Es tut mir Leid, <CHARNAME>, ich wollte Euch nicht in Verlegenheit bringen. (*Sie schaut weg*)~
+@367 = ~(*Eine Röte kommt auf ihre Wangen*) Es tut mir Leid, <CHARNAME>, es war nicht meine Absicht, unhöflich zu sein. Was meine Gedanken angeht, so muss ich sie selbst weiter abwägen, bevor ich bereit bin, sie zu teilen.~
+@368 = ~Ich bin immer bereit, einen guten Jahrgang mit ins Bett zu nehmen, <CHARNAME>, außerdem ist es traurig, einen Mann zu sehen, der allein trinkt. Kommt, wir werden gegenseitig auf die Gesundheit des anderen anstoßen.~
+@369 = ~(*Ihr nehmt selbst einen Schluck, wischt dann das Flaschenende ab und gebt sie an sie weiter*) Es tut mir Leid, dass ich keine Gläser habe, mein Trinkspruch geht dann an Leina, der schönsten Halbelfin, die über die Lande von Faerûn wandelt bis zu dem Tag, an dem ich eine so bezaubernde Gefangene befreit habe.~
+@370 = ~(*Ihr nehmt selbst einen Schluck, wischt dann das Flaschenende ab und gebt sie an sie weiter*) Mein Trinkspruch geht an Leina, unserem ganz eigenen Sonnenschein, sogar an unseren regnerischsten Tagen.~
+@371 = ~(*Ihr nehmt selbst einen Schluck, wischt dann das Flaschenende ab und gebt sie an sie weiter*) An Leina, dafür... dafür... dafür, Leina zu sein.~
+@372 = ~(*Ihr nehmt selbst einen Schluck, wischt dann das Flaschenende ab und gebt sie an sie weiter*) Nun sagt schon, bezaubernde Bardin, wie lange muss ein Jahrgang warten, um von solch süßen Lippen verköstigt und ins Bett gebracht zu werden?~
+@373 = ~(*Sie nimmt einen Schluck und reicht Euch die Flasche zurück*) Und diese Halbelfin wird dem kühnen und gutaussehenden Helden zutrinken, der so tapfer die Gefangenen befreite.~
+@374 = ~(*Ihr schaut die Flasche an und schüttelt sie*) Verdammte Winzer, lassen einen den gleichen Preis bezahlen, während sie die Flaschen heutzutage kleiner machen.~
+@375 = ~(*Ihr schaut die Flasche an und schüttelt sie*) Seltsam, ich hätte schwören können, dass jeder nur einen Schluck aus dieser Flasche genommen habt.~
+@376 = ~(Sie nimmt einen Schluck und reicht Euch die Flasche zurück*) So ein galanter Trinkspruch, mein guter Herr. Mein eigener geht... an <CHARNAME>, ein Mann, der von den Göttern berührt wurde, dessen Füße aber fest in der Welt der Sterblichen stehen.~
+@377 = ~(*Einen Schluck nehmend und lachend reicht sie die Flasche an Euch zurück*) Solange es nicht erlaubt ist, zu lange zu reifen, behält er einen guten Körper und frischen Geruch... Ich würde sagen... solange es dauert, <CHARNAME>.~
+@378 = ~(*Ihr schaut sie verlegen an und schüttelt dann die Flasche*) Ihr könnt einem Mann nicht vorwerfen, es zu versuchen. Seltsam, ich hätte schwören können, dass jeder nur einen Schluck aus dieser Flasche genommen habt.~
+@379 = ~(*Ihr seht sie an und seufzt, bevor Ihr Eure Aufmerksamkeit wieder der Flasche zuwendet*) Ah, wie oft habe ich diese oder ähnliche Worte als Antwort auf meine Fragen gehört. Mmm, ich hätte schwören können, dass jeder nur einen Schluck aus dieser Flasche genommen habt.~
+@380 = ~(*Sie berührt Eure Hand sanft und lacht leise*) Ich werde Euch etwas sagen, <CHARNAME>, ich werde die nächste Flasche kaufen und ich verspreche, nicht die Hälfte zu trinken, bevor ich meine Freunde bitte, sich mir mit einem Trinkspruch anzuschließen.~
+@381 = ~Für ihn war ein Juwel eine Sache, die gehandelt, nicht geschätzt und sicher bewahrt werden sollte. (*Sie wendet sich schnell ab*)~
+@382 = ~(*Sie errötet leicht, als sie ihre Haare aus ihrem Gesicht schiebt*) Vielen Dank, <CHARNAME>, Ihr scheint immer zu wissen, wann die Moral eines Mädchens einen Auftrieb braucht.~
+@383 = ~Wenn ich mit einem Juwel verglichen werden soll, dann solltet Ihr wissen, dass dieses Juwel nicht an Gold gekettet sein will, noch will es angebunden sein, um irgendeinenen Teil der Anatomie eines Mannes zu schmücken.~
+@384 = ~Was... (*Zu spät. Zu Eurem Schrecken stolpert das verdutzte Mädchen, als sie zu Euch aufblickt, und Ihr stürmt los, um sie zu fangen, und als sie in Eure Arme fällt, seid Ihr plötzlich durch ihre Nähe und dem Duft ihrer Haare in Eurer Nase verblüfft.~
+@385 = ~(*Plötzlich werdet Ihr Euch Eures eigenen Körpers bewusst, seiner Gefühle und Reaktionen, als Ihr sie an Euch haltet... In Euer verwirrtes Gesicht schauend, lacht sie*) Danke, <CHARNAME>, Ihr könnt mich jetzt loslassen.~
+@386 = ~(*Sie fällt fast zu Boden, als Ihr sie plötzlich loslasst*) Natürlich, seid Ihr in Ordnung?~
+@387 = ~(*Ihr haltet sie ein paar Sekunden länger und lasst sie dann los*) Entschuldigt, Leina, ich wollte Euch nicht erschrecken. Seid Ihr in Ordnung?~
+@388 = ~(*Ihr haltet sie weiterhin, widerwillig, den Moment vorübergehen zu lassen*) Kommt, setzt Euch für ein oder zwei Minuten, wir müssen sicherstellen, dass Ihr in Ordnung seid.~
+@389 = ~(*Ihr zieht sie ein wenig näher an Euch ran*) Mmm, wenn ich gewusst hätte, wie gut sich das anfühlen würde, hätte ich früher etwas nach Euch geworfen.~
+@390 = ~(*Sie lacht, als sie ihr Gleichgewicht wiedererlangt*) He, immer mit der Ruhe, ich werde nicht die Hand meines Retters beißen. Und ja, mir geht es gut, danke, <CHARNAME>. Ich hätte hinschauen sollen, wohin ich gehe und nicht träumen.~
+@391 = ~(*Sie spürt Euer Unbehagen, macht aber keinen Versuch, sich wegzubewegen. Statt dessen bewegt sich ein wenig näher zu Euch*) Ja, mir geht es gut, danke <CHARNAME>. Ich hätte hinschauen sollen, wohin ich gehe und nicht träumen.~
+@392 = ~(*Im Bewusstsein der Wirkung, die sie auf Euch hat, kuschelt sie sich näher und nimmt Eure Hand, während sie Euch erlaubt, sie sanft hinzusetzen*) Vielen Dank, <CHARNAME>. Mir geht es gut, ein wenig erschüttert, aber nichts, um das Ihr Euch Sorgen zu machen braucht. Nochmals vielen Dank.~
+@393 = ~(*Sie schaut zu Euch auf und bricht in Gelächter aus*) Nicht die originellste Art, ein Mädchen in Eure Arme fallen zu lassen, <CHARNAME>. (*Sie bleibt für einen Moment in Eurer Umarmung, aber dann macht sie sich frei und springt weg.~
+@394 = ~(*Sie betrachtet Euch mit einem verwirrten Blick in ihren schönen Augen*) Ihr überrascht mich, <CHARNMAME>. Sagt mir, was hat meine Hand getan, um solche Ehre und Aufmerksamkeit zu verdienen?~
+@395 = ~Kein anderer Grund als der, dass sie einfach nur da war, verloren aussah und offensichtlich ein wenig Aufmerksamkeit brauchte.~
+@396 = ~Ich wollte nicht so dreist erscheinen, Leina. Ich entschuldige mich, wenn meine Handlung Euch beleidigt hat.~
+@397 = ~Ich wollte nicht so dreist erscheinen und dachte, an einem Kuss irgendwo anders hin als auf die Hand der Dame könnte die Dame Anstoß nehmen.~
+@398 = ~(*Sie hält die linke Hand zu Euch hoch*) Dann, guter Herr, beleidigt bitte nicht die andere, indem ihr nicht die gleiche Aufmerksamkeit zuteil wird.~
+@399 = ~(*Sie sieht Euch ein wenig verwirrt an*) Nun, warum habe ich das Gefühl, dass ich es bereuen werde, das zu beantworten... Ich habe keine Ahnung, <CHARNAME>.~
+@400 = ~(*Grinsend*) In diesem Fall, wollt Ihr mitkommen und mich beobachten, wie ich einen Pfeil abschieße?~
+@401 = ~(*Mit den Augen rollend*) Ich bin direkt in einen hineingelaufen, nicht wahr?~
+@402 = ~Ich dachte, Leina, wenn wir in unsere eigene Zeit zurückkehren, werdet Ihr in der Lage sein, die Geschichte von Halruaa aus erster Hand zu erzählen, im Gegensatz zu vielen Barden-Geschichten von heute.~
+@403 = ~(*Ihr lasst Eure Augen Auge genüsslich über Leina schweifen*) Das Gewand eines Zauberers ist sehr kleidsam an Euch, Leina, es ist fast ein Verbrechen, so viel Schönheit wieder unter einer Rüstung zu verbergen.~
+@404 = ~(*Ihr flüstert Leina leise zu*) Behaltet ein Auge auf Dar, Leina. Wenn er noch einmal auf seinem Gewand steht, so schwöre ich, dass er flach auf sein Gesicht fallen wird.~
+@405 = ~(*Ihr flüstert Leina leise zu*) Behaltet ein Auge auf Hrothgar, Leina. Wenn er noch einmal auf seinem Gewand steht, so schwöre ich, dass er flach auf sein Gesicht fallen wird.~
+@406 = ~Findet Ihr es nicht ein wenig erschreckend, dass wir hier unter all diesen Magiern sind in dem Wissen um die furchtbare Macht, die jederzeit gegen uns gewendet werden könnte?.~
+@407 = ~Das muss nicht unbedingt daraus folgen, weil ich die Wahrheit kenne, dass andere daran glauben, <CHARNAME>. Diese Geschichte mag ein wenig zu fantastisch sein, um für wahr gehalten zu werden, egal, wie sie erzählt wird.~
+@408 = ~Ah... aber meine liebe Leina, ein Blick auf Euer Gesicht, und keiner würde erwarten, dass etwas anderes als die Wahrheit über die Lippen einer so hübschen Frau kommt.~
+@409 = ~Sicher, ob eine Geschichte von einem Publikum geglaubt wird oder nicht, hängt von den Fähigkeiten des Barden ab.~
+@410 = ~Barden sind dafür berüchtigt, mehr als ein wenig Übertreibung hinzuzufügen, ein Hauch von Romantik für ihre Geschichten, was es oft schwierig macht, zu wissen, welche Teile Wahrheit und welche Phantasie sind. Sicherlich braucht diese Geschichte keine Übertreibungen, und das macht sie für das Publikum glaubwürdig.~
+@411 = ~(*Ihr bemerkt die Farbe in ihren Wangen aufsteigend, als sie leise lacht*) Aber oft sind es die schönen Menschen, die finden, dass Betrug aus diesem Grund leichter fällt.~
+@412 = ~Singen die Barden von dem hässlichen Mann, der das schöne Mädchen täuscht? Nein, es ist immer der schöne Junge, der das Herz des Mädchens bricht.~
+@413 = ~So wie es immer die schöne Jungfrau ist, die ihre Flüche benutzt, um den ahnungslosen Mann zu fesseln. Wer wird denn jeder ihrer Launen hinterherjagen für ein Versprechen, dass sie nie zu halten beabsichtigt. Ich denke, dass es die kluge Frau ist, die den einfachen Ehemann wählt.~
+@414 = ~Und ist es auch der weise Mann, der die einfache Braut wählt?~
+@415 = ~Und was ist mit Leina, wird sie nicht die Gesellschaft eines gut aussehenden Gesichts zulassen oder wird sie nur dem Wort eines einfachen Mannes vertrauen?~
+@416 = ~Und was ist mit Leinas schönen Gesicht... sollte ich dem Mädchen nicht vertrauen wegen dem, was die Natur ihr so großzügig geschenkt hat?~
+@417 = ~Eine schöne Frau kann so wankelmütig sein wie ein gut aussehendender Mann, <CHARNAME>, also wenn sich vielleicht ein Mann mit dem Wissen begnügen will, dass die Schönheit seiner Frau nicht die Leidenschaft eines anderen entzündet, dann wäre er klug, eine unscheinbare Braut zu wählen.~
+@418 = ~Ob er mit seiner Wahl zufrieden wäre, nun, das ist eine andere Sache.~
+@419 = ~Hofft <CHARNAME> auf ein Kompliment in meiner Antwort, frage ich?~
+@420 = ~Ich genieße Eure Begleitung, wie Ihr gut wisst, also überlasse ich es Euch, wie Ihr Euch selbst empfindet, wie Ihr Eure eigene Frage beantwortet, ob Leina nur die Gesellschaft des einfachen Mannes sucht. (*Sie lächelt geheimnisvoll, als sie sich abwendet*).~
+@421 = ~Vielleicht ist es nicht so sehr, ob <CHARNAME> Leinas Gesicht vertrauen sollte, sondern ob Leina <CHARNAME>s schlagfertiger Zunge vertrauen sollte? (*Sie dreht sich um, um wegzugehen, aber dann hält sie an, dreht sich um, wirft Euch ein Lächeln zu und wendet sich wieder ab*).~
+@422 = ~Der Barde kann die Geschichte erzählen, aber diejenigen, die zuhören, sind nicht ohne ihre eigene Phantasie.~
+@423 = ~Während sie glauben wollen, dass ein Mann einen Drachen mit seinen bloßen Händen bekämpfte und tötete, weil sie wissen, dass sowohl Drachen und Helden existieren, aber sich zu gegebener Zeit ihnen entgegenzustellen... das ist die Welt der Schriftsteller und Träumer.~
+@424 = ~Ah, aber wir wissen, dass es nicht nur durch jemandes Vorstellungskraft möglich ist. Wir sind nach Halruaa gereist, bis zu einem gewissen Punkt in der Vergangenheit, wir haben Hrothgar von Osthafen, eine Legende aus der Vergangenheit, die in die Zukunft gekommen ist und uns führt... Sollen wir glauben, dass wir die einzigen Menschen sind, die so eine Erfahrung haben?~
+@425 = ~Die Leute akzeptieren, dass Zauberer Zauber benutzen, um sich zu teleportieren, und es gibt sogar Zaubersprüche, die sie verwenden, um die Zeit zu stoppen. Wenn Menschen diese Kräfte manipulieren können, warum sollte es so schwer sein, an Reisen durch die Zeit zu glauben?~
+@426 = ~Nun, ich nehme an, Ihr könntet immer Hrothgar mit Euch herumschleppen. Ich kann mir keinen besseren Beweis vorstellen als in der Gesellschaft eines so angesehenen Namens aus der Vergangenheit zu sein. Könnt Ihr es?~
+@427 = ~(*Ihre Stirn leicht gerunzelt*) Ich weiß es nicht. Es ist wahr, es gibt viele phantasievolle Geschichten, die von dem Helden erzählen, der in die Vergangenheit zurückkehrt, um seiner Freundin einen Schmerz zu ersparen, den die Zukunft ihr bringt, oder sogar in dem Versuch, das Leben eines geliebten Menschen zu retten.~
+@428 = ~Nach dem, was ich jetzt weiß, muss ich mich fragen, ob vielleicht hinter den Übertreibungen schließlich eine versteckte Wahrheit ist. Diese Tage haben mir viel zu denken gegeben, und ich glaube nicht, dass ich so viele Geschichten sehen werde, die so phantasievoll waren wie die, die ich einst erlebte.~
+@429 = ~Die Menschen neigen dazu, nur das zu glauben, was sie selbst erlebt haben oder von einem vertrauenswürdigen Gelehrten oder Elternteil gelehrt wurden.~
+@430 = ~Magie ist um uns herum, <CHARNAME>, wir akzeptieren ihre Macht, weil wir sehen, wie Magier ihre Zauber wirken.~
+@431 = ~Sogar diejenigen, die die Magie nicht verstehen, werden das akzeptieren, was sie sehen, aber sehen sie Magier durch die Zeit hin und her flitzen, um ihre Reise zu beweisen?~
+@432 = ~Nein, und bis sie es tun, werden sie es nie als etwas anderes als  phantasievolle Launen der Geschichtenerzähler akzeptieren.~
+@433 = ~(*Sie wirft den Kopf zurück und lacht*) Was für eine wundersame Idee, <CHARNAME>! Ich würde nichts mehr lieben, als dass Hrothgar mit mir reist.~
+@434 = ~Seine Erzählungen über die Vergangenheit und seine Tage voller Abenteuer sind genau das, was Barden gerne besingen, aber leider hat der Mann sein eigenes Tagesprogramm und ich glaube nicht, dass mit einem Barden durch das Land zu reisen, um seine Geschichten zu erzählen, auf diesem Tagesprogramm steht.~
+@435 = ~Weder jetzt, noch irgendwann sonst in der Zukunft.~
+@436 = ~Zeitreisen selbst sind Fantasie für die Menschen von heute, <CHARNAME>, und allein aus diesem Grund halten es die Menschen für eine Übertreibung an sich, nichts weiter als die romantischen Ideen des Unmöglichen eines Barden.~
+@437 = ~Das soll nicht heißen, dass ich es nicht erzählen will, ich erwarte einfach nicht, dass es für etwas anderes gehalten wird als für eine Geschichte, die erzählt wird, um sein Publikum zu bannen.~
+@438 = ~Wenn es nicht nicht meine Rüstung gäbe, <CHARNAME>, bezweifle ich, dass ich am Leben wäre, um mich in irgendeiner Art Gewand zu kleiden. Ich werde sie nicht gegen eine Zaubererrobe eintauschen, egal was Ihr sagt, wie gut sie mir steht.~
+@439 = ~Ah, aber welche wird von <CHARNAME> bevorzugt, dass er im Stande ist, sein Auge auf die lebende, eine Rüstung tragende Leina zu werfen, oder die gut aussehende, aber tote Leina in einem Zaubergewand? Ich weiß, was ich bevorzuge. (*Leise lachend dreht sie sich um.*)~
+@440 = ~Bitte, in Hinsicht auf mein "Gewand" würde ich es zu schätzen wissen, wenn Ihr Eure Augen und Gedanken für Euch behaltet, <CHARNAME>. (*Sie wendet sich schnell von Eurem Blick ab.*)~
+@441 = ~(*Versuchend, ein Lachen zu ersticken*) <CHARNAME>, seid nicht so unfreundlich. Ihr könnt sehen, dass er es nicht gewohnt ist, dass seine Beine so beschränkt sind, so wie er versucht, auszuschreiten.~
+@442 = ~(*Versuchend, ein Lachen zu ersticken) Ich hatte es bemerkt und dachte, ihm anzubieten, den Saum ein wenig für ihn zu kürzen, aber der Gedanke, noch mehr von seinen Beinen zu sehen, während er sich abmüht, mit etwas Anstand mit der Robe zu gehen, ließ mich wieder nachdenken.~
+@443 = ~(*Sie schlägt Euch sanft auf den Arm*) Schh, er wird Euch hören, <CHARNAME>. Wir wollen nicht, daß er sich verlegener fühlt, als er schon ist.~
+@444 = ~Vielleicht werde ich neben ihm gehen und bereit sein, ihn aufzufangen, wenn er strauchelt. Immerhin wird es nicht gut aussehen, wenn er auf dem Boden ausgebreitet ist und ein paar von Halruaas Magiern uns zufällig finden. Lustig vielleicht, aber nicht gut.~
+@445 = ~Ich habe nicht viel darüber nachgedacht. Ich bin aus Neugierde zu sehr damit beschäftigt, wie es geschah, dass wir hierher kamen, um wirklich über die Tatsache nachzudenken, wo wir sind.~
+@446 = ~Wir haben nicht den Hauch einer Chance, hier lebendig herauszukommen, wenn wir entdeckt werden, nicht wahr, <CHARNAME>?~
+@447 = ~Nein, haben wir nicht, und ich sehe das erst jetzt, wo wir hier sind.~
+@448 = ~Nein, und ich kann nicht umhin zu denken, dass ich zu voreilig war, als ich Tilorn zugestimmt hatte, uns hierher zu schicken. Ich habe Euch alle in unnötige Gefahr gebracht.~
+@449 = ~Nein, haben wir nicht und ich hatte kein Recht, Euch zu bitten. Jeder von Euch riskiert sein Leben... Es tut mir leid, Leina.~
+@450 = ~Verdammt sei Tilorn und seine verrückten Ideen, und Hrothgar, dass er auf ihn hört! Wenn Euch etwas passiert, Leina, schwöre ich, sie werden mir beide antworten!~
+@451 = ~Ist das nicht immer der Weg im Leben, <CHARNAME>? Wenn wir das Ergebnis jeder Bewegung kennen, bevor wir sie gemacht haben, wäre unser Leben nicht so reich und viele Geheimnisse des Lebens wären noch Geheimnisse, wegen unserer Angst, eine Gelegenheit zu nutzen.~
+@452 = ~Wir sind jetzt hier und wer weiß, wir können noch etwas Gutes tun, und wenn ich mir selbst sage, wir geben alle verdammt gute Magier ab, dann lasst uns alle Gedanken an Entdeckung aus unseren Gedanken löschen und weiter machen mit dem, weswegen wir hierher kamen.~
+@453 = ~(*Sie nimmt Eure Hand und drückt sie liebevoll*) Schaut, <CHARNAME>, wir alle sind in der Lage, selbst zu entscheiden, was wir tun.~
+@454 = ~Ich kann nicht für den Rest der Gruppe sprechen, aber ich glaube, dass sich sowohl Hrothgar als auch Tilorn echt Sorgen um etwas machen, so sehr, dass sie bereit sind, die Vergangenheit zu verändern, um es zu richten.~
+@455 = ~Sie kannten die Risiken und ich glaube nicht, dass sie die Entscheidung, uns hier zu schicken, ohne große Gedanken getroffen haben, zumindest auf Tilorns Seite. Hrothgar hatte sehr wenig Zeit zum Nachdenken, aber er zeigte kein Zögern, als Tilorn fragte.~
+@456 = ~Bitte, ich bin hier, weil ich es will und ebenso die anderen. Ich erinnere mich nicht daran, dass irgendjemand dazu überredet wurde. Also lasst uns einfach tun, was wir tun müssen, und vertrauen wir auf Tilorn, uns nach Hause zu bringen, wenn es vollbracht ist.~
+@457 = ~(*Sie nimmt Eure Hand und drückt sie liebevoll*) Ich danke Euch für Eure Sorgen, <CHARNAME>, aber bitte, ich bin hier, weil ich mich dazu entschied.~
+@458 = ~Nicht nur, weil ich die Sorgen in Hrothgars und Tilorns Gesicht sehen konnte, als sie von der Notwendigkeit der Veränderung der Vergangenheit sprachen, um die Zukunft zu ändern, sondern weil ich wirklich glaube, dass ich Euch helfen kann.~
+@459 = ~Und wenn ich dabei sterben sollte, müsst Ihr Euch bitte daran erinnern, dass ich wegen Euch hierher kam. Weder Hrothgar noch Tilorn beeinflußten meine Entscheidung, so dass ihnen keine Schuld zu Last gelegt werden sollte.~
+@460 = ~Nun, lasst uns nicht mehr vom sterben reden. Je schneller wir tun, weswegen wir hier sind, desto geringer ist die Möglichkeit, dass irgendjemand stirbt.~
+@461 = ~Bleibt weg von <PRO_HIMHER>, Vampir! Ihr und Euer mörderischer Bastard eines Bruders hatten zu viele Leben genommen, wie es aussieht. Ich erlaube Euch nicht, <CHARNAME> zu verletzen...~
+@462 = ~Was ist los, <CHARNAME>? Ihr habt im Schlaf geschrien... Euer Gesicht... was ist los? (*Sie versucht, Euch zu wecken*) Kommt, wacht auf... es ist nur ein weiterer böser Traum.~
+@463 = ~Ich... dies ist kein Traum, Leina. Bitte, verschwindet von mir, denn ich fürchte, ich habe im Augenblick keine Kontrolle darüber.~
+@464 = ~Leina... nein... gute Götter, nein! Geht, mein liebes Mädchen... Ich bitte Euch, geht weg von mir! Etwas rührt sich und ich kann es nicht aufhalten.~
+@465 = ~(*Sie schreit*) Was in den neun... neiiin!~
+@466 = ~(*Ihr Gesicht aschgrau und von Entsetzen gepackt*) Wa... was war das für ein Biest? Sein Dunstkreis... er war schwarz, düster und so verzerrt! Ich habe niemals so viel Hass von einem lebendigen Wesen gespürt, wie es aus diesem... diesem Ding kam.~
+@467 = ~Gott sei Dank seid Ihr nicht verletzt, mein süßes Mädchen. Ich konnte Euch sehen, Euch alle sehen und ich wollte töten um des tötens willen, der Drang war zu mächtig für mich, um ihn zu kontrollieren... was bedeutet das, zu was bin ich geworden?~
+@468 = ~Ich... was ist passiert, habe ich jemanden verletzt? Gute Götter, Leina, was bedeutet das, zu welchem Ding bin ich geworden?~
+@469 = ~Die Macht... Leina, es war fantastisch, ich habe noch nie zuvor so viel Energie, so viel Macht erlebt! Ich muß lernen, sie zu kontrollieren, denn wenn ich nur die Hälfte der Macht hätte, die diese Kreatur besaß, dann würde es niemand wagen, mir zu widersprechen... niemals.~
+@470 = ~(*Sie nimmt Eure Hand und greift sie fest*) Was auch immer es war, es wart nicht Ihr. Ich habe erfahren, was in Eurem Herzen ist, und jetzt habe ich selbst das Schreckliche gesehen, das Ihr so lange bekämpft habt.~
+@471 = ~Bitte, gebt nicht den Kampf auf, mit oder ohne Eure Seele seid Ihr stark genug, um zu bleiben, wer Ihr seid. Gemeinsam werden wir diesen Alptraum beenden und ihr wieder ganz werden. Ich verspreche es.~
+@472 = ~(*Von Euch wegtretend*) Ich dachte, ich kenne Euch, wie konnte ich wieder so falsch liegen? Wenn das die Art von Macht ist, die Ihr begehrt, dann möchte ich kein Teil von Euch sein, <CHARNAME>!~
+@473 = ~Ich werde Euch helfen, Eure Aufgabe zu verstehen, so viel schulde ich Euch für meine Freiheit, aber wenn ich fühle, dass Ihr eine Gefahr für diese oder andere unschuldige Menschen seid, dann werde ich Euch selbst ohne einen Moment zu zögern niederstrecken. (*Sie geht zügig weg*).~
+@474 = ~Ich sagte oft zu mir selbst, wenn es rauh wurde - es könnte schlimmer sein, es könnten die neun Höllen sein... Aber jetzt fürchte ich, wir sind in den neun Höllen.~
+@475 = ~Irenicus hatte mutwillig den Baum des Lebens beschädigt. So wurde er ein Feind von jedem mit Elfenblut in den Adern. Ich werde ihn mit Euch bekämpfen.~
+@476 = ~Gebt mir einen guten Grund, warum ich vor einem Kampf mit einem bösen Zauberer, der die ganze Welt in seinem Wahnsinn gefährdet, weglaufen soll? Ihr schweigt? Gut. Ich bin bereit zu kämpfen.~
+@477 = ~Ihr habt Recht, wir haben keine Zeit zum Plaudern. Gebt mir einfach ein Signal zum Angriff.~
+@478 = ~Irenicus hatte mutwillig den Baum des Lebens beschädigt. So wurde er ein Feind von jedem mit Elfenblut in den Adern. Irenicus hatte einen Mann verletzt und gequält, den ich liebe. Wie viele Gründe soll ich Euch geben? Ich bin bereit zu kämpfen, <CHARNAME>, und diese Schlacht ist meine, sowie auch Eure.~
+@479 = ~Nein. Lasst uns keine Worte verschwenden. Ich bin bereit zu kämpfen, <CHARNAME>, und diese Schlacht ist meine, sowie auch Eure.~
+@480 = ~Ich nehme gern und bereitwillig teil. Ihr habt Recht, wir haben keine Zeit zum Plaudern. Gebt mir einfach ein Signal zum Angriff.~
+@481 = ~Das ist es dann? Ich kann nicht glauben, dass ich einen Sterblichen erlebe, der zum Gott wird.~
+@482 = ~Ich halte Euch nicht, <CHARNAME>. Ich liebe Euch, aber Euer Schicksal... Es ist jenseits aller Worte, die mir zur Verfügung stehen. Ihr wart für Größe bestimmt, Ihr wurdet in sie hineingeboren. Was ist der Wunsch einer Frau, Euch jede Nacht in der Nähe zu haben, im Vergleich dazu?~
+@483 = ~Ich muss mich jetzt ganz besonders fühlen, das Bett mit dem Fürsten des Mordes zu teilen. Oh, Neun Höllen! Was geschehen ist, ist geschehen.~ ~Ich muss mich jetzt ganz besonders fühlen, das Bett mit der Fürstin des Mordes zu teilen. Oh, Neun Höllne! Was geschehen ist, ist geschehen.~
+@484 = ~Was? Ihr wollt sterblich bleiben? <CHARNAME>, <CHARNAME>, ich weiß nicht, ich habe Lust, Euch für die ultimative Dummheit zu beschimpfen, doch mein Herz singt. Und ich glaube, ich weine. Ich muss dumm aussehen.~
+@485 = ~Ihr habt noch nie schöner ausgesehen, Leina. Ich liebe Euch, ich werde Euch nicht verlassen. Nicht für eine Krone, nicht für eine Gottheit, nicht einmal für eine andere Frau.~
+@486 = ~Nun, als erstes wollte ich so etwas sagen wie: "Es ist nicht, dass wir getrennt werden, meine geliebte Leina, es ist nur, dass wir nicht zusammen sein werden." Aber dann dachte ich, dass es kitschig ist. Weil ich nicht "Oh, Neun Höllen!" gedacht habe. Es sind nicht gerade die Worte, die Ihr von einer Person erwarten würdet, die zur Gottheit aufsteigt, und ich konnte nicht mit irgendetwas anderem kommen, ich entschied mich zu bleiben und... Oh, Neun Höllen! Ich liebe Euch, und das ist alles, was zählt.~
+@487 = ~Ihr dachtet, ich würde unsere Liebe gegen dieses schreckliche Stück gebrauchter Möbel eintauschen? Nie im Leben!~
+@488 = ~Leina, wenn ich einen Springbrunnen wollte, würde ich ernsthaft Euch für die Arbeit erwägen. Wischt Eure Tränen weg und lasst uns frohlocken!~
+@489 = ~Vergleicht Euch mit mir, Ihr seht einen Gipfel der Intelligenz, Leina. Ich bin kein Gott, nicht einmal ein Halbgott. Ich bin ein Mann und ich bin verliebt. Das ist alles, was ich weiß.~
+@490 = ~Ihr werdet aufsteigen, nicht wahr? Ihr habt Euch als eine Person der Güte und Weisheit bewiesen. Solch eine Person kann erfolgreich sein, den dunklen Bereich des Herrn des Mordes zu ändern.~
+@491 = ~Ich weiß, dass Ihr Macht und Blut eines Gottes habt, aber der Bereich des Herrn des Mordes ist dunkel. Ich hoffe, Ihr werdet ihn nicht noch dunkler machen.~
+@492 = ~Einen Moment lang war ich besorgt, dass ich Euch verlieren würde. Aber dann blieben Eure Augen an mir hängen. Die Art, wie Ihr mich ansaht, ließ tausend Schmetterlinge in meinem Herzen gebären. Ich liebe Euch, <CHARNAME>.~
+@493 = ~"Oh, Neun Höllen" genügt. Ich war dumm, Euch so oft um nette Worte zu bitten. Ich will keine mehr, ich will Eure Liebe, und ich will Euren Kuss.~
+@494 = ~Ich... Ich wollte mich immer in jemanden verlieben, der den Thron von Bhaal "ein Stück gebrauchter Möbel" nennen würde. Jetzt ist dieser Traum wahr geworden.~
+@495 = ~Ich versuche es, <CHARNAME>, aber die dummen Tränen wollen nicht aufhören. Aber ich freue mich, und ich weine vor Glück. Ich liebe Euch so!~
+@496 = ~Und alles, was ich weiß, ist, dass ich Euch liebe. Lasst sie uns verdummen, es ist mir egal.~
+@497 = ~Ihr... Ihr habt meinen Vater ermordet, <CHARNAME>? Warum? Was seid Ihr?~
+@498 = ~Ja, Leina, ich habe das Anwesen betreten, aber ich hoffte auf Neuigkeiten über Euren Aufenthaltsort. Euer Vater dachte, ich wäre wegen Euch gekommen und hatte mich angegriffen, es gab keinen Grund für ihn, glaubt mir, ich hätte ihn verschont.~
+@499 = ~Ich war dorthin gegangen, nur um nach Euch zu suchen, aber er wollte nicht auf mich hören, Ihr habt die Art von Mann gesehen, die er geworden war, Leina.~
+@500 = ~Es ist bedauerlich. Ich hatte keinen Streit mit Eurem Vater, aber sein Tod war mein einziges Mittel für Eure Freiheit.~
+@501 = ~Was ich nicht verzeihen kann ist die Tatsache, dass er durch Eure Hand gestorben ist, und ich werde es auch nicht vergessen!~
+@502 = ~Ich brauche nur einen Moment, <CHARNAME>... Der Tod meiner Mutter veränderte ihn, er konnte das Leben nicht ohne sie bestehen, und ich denke, dass er sich bemühte, mich hier zu behalten, um ihren Platz einzunehmen, aber ich hoffe, dass er jetzt etwas Frieden gefunden hat. Kommt, <CHARNAME>, lasst uns von hier aus beginnen.~
+@503 = ~(*Als die Gruppe Vulovas Anwesen verlässt, wird Leinas Blick sofort auf den Körper gelenkt, der vor ihnen auf dem Boden liegt. Sie schreit und läuft, um sich neben ihn zu knien, was sie sofort als die blutige Gestalt erkennt, die einst ihr geliebter Vater war... und nimmt seine leblose Hand in ihre... *)
+  
+Va... (*schluchzt*)... Va ... Vater, ich... ich vermisse sie auch, weißt du? Als ich ging, dachte ich, ich hätte das gefunden, was du und Mutter hatten.~

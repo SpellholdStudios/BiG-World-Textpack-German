@@ -1,0 +1,35 @@
+@0    = ~Hey look were you are going! This road would be more than big enough for the both of us if you were not taking up so much of it for yourself!~
+@1    = ~Steady there little one, you almost ran me down! Oh! I see that it is a Hafling that tries to run me down.~
+@2    = ~Watch your step little one! Well, well, what do we have here? A Hafling lass no less.~
+@3    = ~Not so fast little one, you very nearly had us both in the mud!~
+@4    = ~(*breathlessly*) Ran you down? You should be the one looking where you are going! You almost trod on me! Not so much of the "little one" if you would be so kind.~
+@5    = ~I was looking where I was going, you are the one whose head was almost twisted back to front on her neck.~
+@6    = ~A little less attitude here "little one". You ran headlong into me!~
+@7    = ~I was looking where I was going. You were the one so intense on your flight that your eyes were elsewhere.~
+@8    = ~That may well be the case, but if you had your head on the right way you would have seen me and stepped aside.~
+@9    = ~Okay. Maybe neither of us was looking where we were going. I apologise if I offended you by the term "little one". I did not recognise you as a Hafling at first. Are you going to tell me why you were running? Looked to me as if you had a demon from the Nine Hells on your tail.~
+@10   = ~Me, step aside for you? Now that is funny! You were the one with the back to front head. What are you so het up over anyway? Got a demon on your tail?~
+@11   = ~Worse. A bounty hunter, this place seems to be teeming with them, but I seem to have escaped his notice for now.~
+@12   = ~(*grin*) Oh yes indeed, far worse than any demon.~
+@13   = ~Interesting, a bounty hunter, eh. Tell me, what is the price for so small a head?~
+@14   = ~A bounty hunter you say. A formidable foe indeed! Perhaps I should be running with you and not into you.~
+@15   = ~Do not mock me! It is not your head that they are after and I really would like to keep mine for a bit longer.~
+@16   = ~Sorry litt... oops, slip of the tongue. By what name should I call you? I am <CHARNAME>.~
+@17   = ~I am sorry. I had not meant to mock you. I am <CHARNAME>, please tell me what is your name?~
+@18   = ~Do not be so tetchy, I am not about to hand you in. Yet! Who are you to attract the attention of bounty hunters? I am known as <CHARNAME>, if you are interested.~
+@19   = ~I am Melora. Tell me, <CHARNAME>, are you intending to leave this place anytime soon?~
+@20   = ~I would ask that you allow me join you for a short way, I think I need to be away from here for a while.~
+@21   = ~I am not without my uses though. I am adept with many weapons or I can fade into the shadows if stealth is what you need.~
+@22   = ~I also have the means to get you into places otherwise barred to you and I can even replenish your purse should you find it depleted. All done very discretely of course.~
+@23   = ~I am not planning on leaving this exact moment, Melora, but if you are not in too much of a hurry join with me now. I can assure you that I have no plans to cross paths with bounty hunters or demons any time soon.~
+@24   = ~Meeting Melora.
+
+As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... Still, if I am to find Imoen and Irenicus I am going to need all the allies I can find. This halfling seems spirited enough and if she knows the area then all the better... I hope I don't live to regret this but I have taken her into the group.~
+@25   = ~I am in fact about to take my leave of this place, Melora, and your skills are most welcome. Come, I can assure you that you will be safe from both demons and bounty hunters.~
+@26   = ~Sounds to me like you are more trouble than you are worth. I do not need to be continually looking over my shoulder for bounty hunters. Best you be on your way if you value that head of yours so much!~
+@27   = ~Meeting Melora.
+
+As I was walking away from all this confusion a halfling lass almost knocked me clean off my feet... accusing me of taking up the all the road when in fact, it was she who was too busy looking behind to see who was in front. Although I admit my mind was in turmoil trying to figure out why Irenicus insisted on those mages taking Imoen when he so clearly addressed me as *god child*, that I wasn't fully aware of where my feet were taking me. Turns out her name is Melora and she is trying to escape the city before some bounty hunter on her tail collects the prize on her head. In exchange for the safe company of my group she has offered her skills as a swashbuckler to aid us... a rogue by any other name, but then, so is Imoen... I have enough to contend with at the moment without the added worry of having to look over my shoulder for bounty hunters so I let her go on her way. If I change my mind she says for me to look for her in the shadows... here's me thinking that she was in a hurry to leave?~
+@28   = ~I am sorry, Melora, I have no need of your skills at present but I may pass this way again and have need of you then. I will look for you then. Goodbye and may good fortune follow you, Melora.~
+@29   = ~Then, <CHARNAME>, my skills are at your disposal. Providing you do not abuse them I will aid you in any way that I can.~
+@30   = ~I will be here or there, <CHARNAME>, if you find yourself ever in need of my skills. Look for me in the shadows. Goodbye and may only good fortune follow you always too, <CHARNAME>.~

@@ -1,0 +1,83 @@
+--- NeJ3\baf\EEPOMABF.baf	Sun Dec 28 20:43:08 2014
++++ C:\BWP Patchstudio\patched files\NeJ3\baf\EEPOMABF.baf	Wed Apr 10 10:33:46 2019
+@@ -36,7 +36,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~I am over here.~)
++		DisplayStringHead(Myself,@0)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_DISINTEGRATE)
+ 		Continue()
+ END
+@@ -69,7 +69,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~Only one of us is real... but which one?~)
++		DisplayStringHead(Myself,@1)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAZE)
+ 		Continue()
+ END
+@@ -102,7 +102,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~No, not him.  I am the real Pomab.~)
++		DisplayStringHead(Myself,@2)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_ENERGY_DRAIN)
+ 		Continue()
+ END
+@@ -135,7 +135,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~I am over here.~)
++		DisplayStringHead(Myself,@0)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_SUNSCORCH)
+ 		Continue()
+ END
+@@ -168,7 +168,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~You cannot win.  I am invincible!~)
++		DisplayStringHead(Myself,@3)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_SHATTER_BONES)
+ 		Continue()
+ END
+@@ -201,7 +201,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~The power of Cryshal-Tirith is magnificent, is it not?~)
++		DisplayStringHead(Myself,@4)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_EYE_BITE)
+ 		Continue()
+ END
+@@ -234,7 +234,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~My sentries shall cut you down.~)
++		DisplayStringHead(Myself,@5)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_IMPRISONMENT)
+ 		Continue()
+ END
+@@ -267,7 +267,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~Ha ha ha!  Admit it... you are beaten.~)
++		DisplayStringHead(Myself,@6)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_POWER_WORD_KILL)
+ 		Continue()
+ END
+@@ -300,7 +300,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_Jump","LOCALS",0)
+-		DisplayStringHead(Myself,~What is the matter?  Your eyes playing tricks on you?~)
++		DisplayStringHead(Myself,@7)
+ 		ForceSpell(NearestEnemyOf(Myself),WIZARD_FLESH_TO_STONE)
+ 		Continue()
+ END

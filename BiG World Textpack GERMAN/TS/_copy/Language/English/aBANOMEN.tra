@@ -1,0 +1,68 @@
+@0    = ~Ahem, Yoshimo, I had... accidentally... noticed that you are writing something. Well, poetry. So you have poetry in Kara-Tur?~
+@1    = ~That’s a good start... was it what you were writing for the past fortnight?  Keep up good work, Yoshimo and you might actually finish it.~
+@2    = ~Oh, you are working for dwarven market? New style? Short poetry for short people?~
+@3    = ~Kachiko, the poetry is a dove which whispers tender desires to the Lady of the heart... Not a childish line and a half... If I may offer you a real madrigal:
+ 
+She walks in beauty, like the night 
+Of cloudless climes and starry skies;
+And all that’s best of dark and bright
+Meet in her aspect and her eyes:
+Thus mellow’d to that tender light
+Which heaven to gaudy day denies...
+~
+@4    = ~The judge is not objective! My star, come, tell what you think?~
+@5    = ~What, the poem you wrote about Kachiko? Well, I’d say I agree with her, it’s not the greatest...~
+@6    = ~All that nights I spend writing it for you... all wasted...~
+@7    = ~On the second thought, may we call it a tie, Kachiko?~
+@8    = ~A tie? A TIE?~
+@9    = ~Valygar, if she needed anybody’s help she’d ask for it.~
+@10   = ~Verily, Valygar, I know little of love beside what the tales say. I would speak to an older comrade in the Order, but I thought you might be willing to listen. Besides, the girl I like, well, she is very special... It’s <CHARNAME> and with her heritage, I am not sure the Order would look benevolently on our relationship...~
+@11   = ~See my problem? Of all fair ladies I love the one who would never be accepted by the Order as my bride...~
+@12   = ~Why are you so upset Valygar? I merely...~
+@13   = ~Have you never met a nice girl?~
+@14   = ~I think I am luckier than you then. <CHARNAME> is a woman of rare virtue...~
+@15   = ~You should try. She went mad, dragging us all over the place instead of saving the elven city. Many lives were forsaken to save yours. Verily, a worthy exchange! It would seem that you have some special value in the eyes of <CHARNAME>.~
+@16   = ~Is that true <CHARNAME>? Would you do it, say, for me?~
+@17   = ~Yes I would. Now cool down, you are acting irrationally.~
+@18   = ~I am not going to answer that. Think what you will, Anomen, I just do not care.~
+@19   = ~No. I would have left you to rot in the crypt. ~
+@20   = ~I... I was... I am sorry my Lady.~
+@21   = ~You should apologize to Valygar, not to me...~
+@22   = ~Apology accepted. Now, let’s all calm down and do our job.~
+@23   = ~Oh, that? Well, Valygar, I must say I had been ill-tempered and said what I should have not...~
+@24   = ~Oh, I see... Well, then I’ll relieve you from the necessity of being in my company. Fare thee well.~
+@25   = ~Somehow I do not think so. She cares not if I would turn into a stone or a turnip... or a vampire.~
+@26   = ~Indeed, it would serve me well. Looks like <CHARNAME> is into the strong and silent type.~
+@27   = ~I have a strange suspicion, ranger. I think you are trying to...~
+@28   = ~You know what!~
+@29   = ~Laughing! Sure, you can laugh! It’s my heart that is bleeding!~
+@30   = ~I want NOTHING from you!~
+@31   = ~I am not through with you yet! You cannot just walk away!~
+@32   = ~I have seen you together... Do not try to deny it! You hold her hand! You who have told me endlessly how uninterested you are in ladies! I was so blind. I let you to steal <CHARNAME> from me...~
+@33   = ~Spend time indeed... Travel to Zakhara - that’s going to give you two a lot of time to kill.~
+@34   = ~I should have done that long ago, instead of trusting her, instead of trusting you. It is my own fault that the one I love and you, whom I called my friend, have broken my life. I was too carefree. Now they all look at me with pity and say nice words. But my heart is the vulture’s food. Nothing hurts more than treachery.~
+@35   = ~How dare you!~
+@36   = ~Oh, now it’s my own fault, is not it?~
+@37   = ~I see... May be she would have more to say?~
+@38   = ~Are you threatening me?~
+@39   = ~I care not what you told me. My conversation with her is a private one.~
+@40   = ~Jealous? Of course you are jealous! She loves me, not you!~
+@41   = ~What! I love her more than my own life, and I will hurt her? You are going queer, ranger! I just need to talk to her. <CHARNAME>, I beg you to tell me what is going on... Do you like Valygar better than I?~
+@42   = ~That’s enough. Valygar, you have some sort of idea-fix that everyone tries to hurt me and you are the one to save me. Let me remind you, that I am quite capable of taking care of myself. Besides I do not desire to be protected from the love of my life, Anomen... (*give Anomen a sweet smile*)~
+@43   = ~I think I know the way to solve this conflict: I care for neither of you. But I consider both of you my friends. So do make up and let’s forget about this silly conversation.~
+@44   = ~Ahem... Anomen. I do not know how you came up with the notion that I like you... I am sorry if I have given you a false hope. I prefer you not to intervene into my relationship with Valygar. ~
+@45   = ~(*grin... and stay silent waiting for the next scene*)~
+@46   = ~(*cry helplessly*) Fools, I... I love both of you. Please, do not make me choose...~
+@47   = ~I cannot believe my own ears!~
+@48   = ~I do not want to hear another word! I have to be alone now.~
+@49   = ~Let me go talk to her! Or I swear I will kill you!~
+@50   = ~How dare you are...~
+@51   = ~Nay my Lady, not in the least.~
+@52   = ~You should my Lady, you should.~
+@53   = ~It is most hurtful to hear such harsh words from a noble born Lady.~
+@54   = ~But surely, your Lady mother was of a high station...~
+@55   = ~Mayhaps you are a Princess of some enchanted place and you know not of it, my Lady?~
+@56   = ~My Lady, you are an observant friend. I am worried of my feeling about our company.~
+@57   = ~Quite the opposite, my dear Sime, quite the opposite...~
+@58   = ~Our group is lacking discipline and the purpose. Yet I like it. What would the Prelate of the Order say if he would learn that I am not insistent enough on proper procedures? When are we to undertake the heroic deeds fit for a paladin of the Order?~
+@59   = ~Aye, you speak truthfully, my Lady. And that was "the pool of right"... I suppose I strike evil in the name of the Order and I am pleased with it. Menial tasks or no, we do good things. But the lack of discipline and insubordination does not sit well with me!~

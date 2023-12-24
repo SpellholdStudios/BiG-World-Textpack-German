@@ -1,0 +1,107 @@
+--- NeJE\dlg\Vrielle.d	Mon Jan 19 15:56:40 2015
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\Vrielle.d	Tue Apr 09 19:37:47 2019
+@@ -1,70 +1,70 @@
+ BEGIN ~VRIELLE~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+- SAY ~Then it is decided, Brial will be the one t... hold, we have visitors.~
++ SAY @0
+  IF ~~ THEN EXTERN ~SEBAST~ 0
+ END
+ 	
+ IF ~~ THEN BEGIN 1
+- SAY ~I’ll handle this Brial... (*She turns to you, looking you up and down as she speaks...*) This is most disturbing... these sewers have been blocked to keep students such as yourself from wandering into areas that could be detrimental to their health. So kindly tell me how it is you found your way here?~ 
+- IF ~~ THEN REPLY ~Thank Brial for that... her directions were very precise. Not so secret a meeting now is it?~ GOTO 2
+- IF ~~ THEN REPLY ~Brial shouldn’t have been so careless as to leave notes lying around if she expects to keep secret meetings secret.~ GOTO 2
+- IF ~~ THEN REPLY ~We are here because we know of your little plot Vrielle.~ GOTO 8
+- IF ~~ THEN REPLY ~Caught you with your breeches down... or should that be with your robes up did we Vrielle?~ GOTO 8
++ SAY @1 
++ IF ~~ THEN REPLY @2 GOTO 2
++ IF ~~ THEN REPLY @3 GOTO 2
++ IF ~~ THEN REPLY @4 GOTO 8
++ IF ~~ THEN REPLY @5 GOTO 8
+ END
+ 
+ IF ~~ THEN BEGIN 2
+- SAY ~This is no secret meeting, there is no need for such at Halruaa. Everything we are doing will secure the future of the academy and the advancement of magic. What we don’t want to do is to disrupt your, or the other students’ studies, or cause unnecessary upset by discussing our machinations openly in front of you.~
++ SAY @6
+  IF ~~ THEN GOTO 3
+ END
+  
+ IF ~~ THEN BEGIN 3
+- SAY ~Now that you know there is no need to worry about secret meetings and plots against Halruaa you can return to your studies.~
+- IF ~~ THEN REPLY ~I don’t give a damn for the future of Halruaa, Vrielle, so it should be you and your little group of conspirators that are worried, not me!~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~You have no need to worry about disrupting my studies mage, instead you should worry for your own life now that I have uncovered your little plot.~ GOTO 8
+- IF ~~ THEN REPLY ~Well, now that I am here, how about letting me in on a few things. Starting with what is this leveller I see mentioned in your letter?~ GOTO 6
+- IF ~~ THEN REPLY ~I am not interested in what is good for Halruaa, I am here to strike a blow for Ulcaster!~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I am guessing that the good of the academy spells disaster for Ulcaster?~ GOTO 4
++ SAY @7
++ IF ~~ THEN REPLY @8 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @9 GOTO 8
++ IF ~~ THEN REPLY @10 GOTO 6
++ IF ~~ THEN REPLY @11 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @12 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+- SAY ~You know much of what is afoot in the academy. Still, as a student your only concern is your studies. Do as I say and return to them now, leave Ulcaster to us.~
++ SAY @13
+  IF ~~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5
+- SAY ~Soon it will be nothing more than a heap of rubble and its mages dust. The die is cast, the future of Halruaa has been set. Even the great Ulcaster himself can not stop what has begun.~ 
+- IF ~~ THEN REPLY ~I am not interested in the future of Halruaa, I am here to strike a blow for Ulcaster!~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I can’t do that Vrielle, not while you stand as a threat to Ulcaster.~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I don’t give a damn for the future of Halruaa Vrielle, and I will not be leaving until I know more about this Leveller that you have hidden away?~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~Well, now that I am here, how about letting me in on a few things. Starting with what is this leveller I see mentioned in your letter?~ GOTO 6
+- IF ~~ THEN REPLY ~My apologies for mistaking you for spies, but when I read about this leveller device I thought you were out to use it against Halruaa. I’ll do as you say and return to my studies right now.~ EXIT
++ SAY @14 
++ IF ~~ THEN REPLY @15 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @16 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @17 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @10 GOTO 6
++ IF ~~ THEN REPLY @18 EXIT
+ END 
+ 
+ IF ~~ THEN BEGIN 6
+- SAY ~The leveller is not a thing to worry your head over. Its enough for you to know that it will secure the future for Halruaa and as such the future for you and the other students.~
++ SAY @19
+  IF ~~ THEN GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 7
+- SAY ~Now, if you want to be a part of Halruaa’s future do as I say and return to your studies. Insubordination among students is not tolerated and the penalties can be severe enough to prevent a student from graduating. You take care of your studies and we will take care of your future.~ 
+- IF ~~ THEN REPLY ~I don’t give a damn for the future of Halruaa, Vrielle. If you’ll not tell me what the leveller is, then I am going to have to find out for myself, after I have taken care of you and your little group.~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I am not interested in the future of  Halruaa, I am here to strike a blow for Ulcaster!~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~Yours is one group that won’t be fighting for the honour or the future of Halruaa, Vrielle.~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I don’t intend to be here long enough to graduate Vrielle, only long enough to thwart whatever it is Halruaa and its mages have planned.~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~Sorry, no can do. I have no idea what this *leveller* is but if it does what its name suggests it does, I wouldn’t be doing Ulcaster any favours by leaving it here now would I.~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~I am sorry for this intrusion and for mistaking you for spies. I’ll do as you say and return to my studies right now.~ EXIT
++ SAY @20 
++ IF ~~ THEN REPLY @21 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @22 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @23 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @24 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @25 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @26 EXIT
+ END 
+ 
+ IF ~~ THEN BEGIN 8
+- SAY ~(*Laughs*) You think we are spies? On the contrary, we are here to plan for the future of Halruaa and all who come here to learn.~
++ SAY @27
+  IF ~~ THEN GOTO 9
+ END 
+   
+ IF ~~ THEN BEGIN 9
+- SAY ~Let me assure you that all those here are loyal to the academy, so you can return to your studies and stop worrying. Halruaa has not been infiltrated by spies. I don’t know... you students of today... what are you reading?~
+- IF ~~ THEN REPLY ~You are so wrong Vrielle, Halruaa has been infiltrated, only not by you...~ EXTERN ~SEBAST~ 1
+- IF ~~ THEN REPLY ~Some very interesting stuff actually Vrielle. All about plots against the academy of Ulcaster and a secret artifact called the *leveller*... only the page that tells where the artifact is hidden is missing. I am so hoping you can fill me in on that part.~ GOTO 6
+- IF ~~ THEN REPLY ~Letters and stuff about a leveller Vrielle, sounds intriguing and I would like to know more.~ GOTO 6 
+- IF ~~ THEN REPLY ~My apologies for mistaking you for spies, but when I read about this leveller device I thought you were out to use it against Halruaa. Tell me more, like, what is its purpose Vrielle?~ GOTO 6
++ SAY @28
++ IF ~~ THEN REPLY @29 EXTERN ~SEBAST~ 1
++ IF ~~ THEN REPLY @30 GOTO 6
++ IF ~~ THEN REPLY @31 GOTO 6 
++ IF ~~ THEN REPLY @32 GOTO 6
+ END

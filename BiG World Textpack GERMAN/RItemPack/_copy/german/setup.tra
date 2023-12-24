@@ -1,0 +1,140 @@
+@0    = ~Verbesserter Gürtel der Stärke~
+@1    = ~Der Verbesserte Gürtel der Stärke ist schon auf diesem System installiert.~
+@2    = ~Gürtel~
+@3    = ~Gürtel der Stärke~
+@4    = ~Gürtel sind allgemein Gurten ähnlich. Im Gegensatz zu Gürteln werden Gurte nicht dazu verwendet, Unterhosen und Latzhosen hochzuhalten, sondern um Beutel, Scheiden und ähnliches zu befestigen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht:  2~
+@5    = ~Dieser großartige Gürtel steigert die Ausdauer des Trägers. König Violos verwendete ihn, als er eine Expedition gegen Sumpftrolle führte. Er war vergangenen Winter schwer krank geworden und so war er nicht mehr der gesunde Mann von einst. Der Gürtel gab seinem Leben zusätzliche Jahre und inspirierte seine Männer, ihr Vertrauen in ihren König noch einmal zu erneuern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht:  2
+Setzt die Ausdauer permanent auf 18~
+@6    = ~Patricks Kettenhemd~
+@7    = ~Patricks Kettenhemd ist schon auf diesem System installiert.~
+@8    = ~Kettenhemd~
+@9    = ~Patricks Kettenhemd~
+@10   = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Diese besondere Rüstung scheint mit magischer Hilfe gemacht worden zu sein.~
+@11   = ~Diese Rüstung gehörte einmal einem Typen namens Patrick. Er starb. Ihr seid jetzt der Eigentümer.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht:  15
+Spezial: Ändert die Ausrichtung zu chaotisch gut, Setzt Magieresistenz auf 35%, Immun gegen +2 und geringere Waffen
+
+Kann nicht verwendet werden von:
+ Zauberern
+ Dieben
+ Druiden~
+@12   = ~Schwächerer Spiegelumhang~
+@13   = ~Der schwächere Spiegelumhang ist schon auf diesem System installiert.~
+@14   = ~Mantel~
+@15   = ~Umhang des Mogelns~
+@16   = ~Dies ist ein Mantel, den eine Person tragen kann. Dieser scheint magisch zu sein.~
+@17   = ~Das ist richtig. Die Götter entdeckten, dass die Leute im wirklichem Leben irgendwie mogeln, so dass sie beschlossen, dieser Sache ein Ende machen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht:  1
+Rüstungsklasse +1
+Magieresistenz +25~
+@18   = ~Ersetzt Crom Faeyr~
+@19   = ~Dieser Bestandteil ist derzeit installiert.~
+@20   = ~Kampfhammer~
+@21   = ~Hammer der Hilfe +4~
+@22   = ~Ein Kriegshammer ist genau das. Ein Hammer, der benutzt wird, um jemanden zu schlagen.~
+@23   = ~Da das sowieso niemand jemals lesen wird, sollte ich diese Stelle vielleicht dazu verwenden, um über Zeitreisen zu reden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht:  14
+Dies ist ein Hammer +4. Verwendet ihn weise!
+Bei Treffer wird mit 5% Wahrscheinlichkeit eine Kreatur beschworen.
+
+Kann nicht verwendet werden von:
+ Zauberern
+ Druiden
+ Dieben~
+@24   = ~Reparierte Drachenschuppenrüstung~
+@25   = ~Dieser Bestandteil ist schon installiert.~
+@26   = ~Rote Drachenrüstung~
+@27   = ~Rote Drachenschuppen~
+@28   = ~Diese Rüstung wurde aus den Schuppen eines roten Drachen geschmiedet.~
+@29   = ~Diese Rüstung wurde aus den Schuppen eines roten Drachen geschmiedet. Da Drachen dazu tendieren, sehr fürsorglich zu anderen ihrer Art zu sein, vermutet Ihr, dass sie Euch nach dieser Tat nicht sonderlich mögen werden. Auch, da die meisten Schmiede nicht am Handel von Drachenschuppen beteiligt sein wollen, ist diese Rüstung sehr selten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Gewicht:  30
+Spezial: Feuerresistenz +50%
+
+Kann nicht verwendet werden von:
+Zauberern
+ Druiden
+ Dieben~
+@30   = ~Blaue  Drachenrüstung~
+@31   = ~Dieser Gegenstand ist eine Rüstung, gefertigt aus den Schuppen eines blauen Drachen.~
+@32   = ~Dieser Gegenstand wurde aus Drachenschuppen gefertigt. Habt Spass damit!
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Gewicht:  30
+Spezial: Elektrizitätsresistenz +50%
+Mindeststärke: 15
+
+Kann nicht verwendet werden von:
+ Barden
+ Zauberern
+ Dieben
+ Druiden~
+@33   = ~Ring der Macht~
+@34   = ~<No Text>~
+@35   = ~Dieser Ring heilt seinen Benutzer und macht es schwerer, ihn im Kampf zu treffen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Regeneration: 1 Trefferpunkt pro Runde
+Geschicklichkeit: auf 21 gesetzt~
+@36   = ~Verbesserter Anomens Ring~
+@37   = ~Anomen's Ring~
+@38   = ~Dieser Ring wurde Euch von Eurer Liebe, Anomen, als Symbol seiner unvergänglichen Hingabe an Euch gegeben. Es strahlt die Wärme seiner Liebe stetig aus.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Charisma Bonus:  +5
+Immunität gegen Kälte~
+@39   = ~Schwächere Göttliche Rage~
+@40   = ~Katana~
+@41   = ~Ziggis Katana~
+@42   = ~Oh, super, ein normales Katana. Was für ein Witz!~
+@43   = ~Ja, dies gehörte einmal dem Comic-Helden Ziggy. Nein, eigentlich ist es nur ein Beispiel dafür, wie schwer es ist, ein lohnendes Katana herzustellen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1d10+3
+THAC0: +4
+Gewicht:  11
+Permanent Handlungsfreiheit auf Träger
+bei Treffer: 2% Chance, Monster festzuhalten
+
+Kann nicht verwendet werden von:
+ Zauberern
+ Priestern
+ Druiden~
+@44   = ~BG1 Ring der Zauberei~
+@45   = ~Ring~
+@46   = ~Ring der Zauberei~
+@47   = ~Ring der Zauberei: "Unendliches Gedächtnis" 
+Vor langer Zeit erzählte man sich von einem großen Magier aus Amn, er hätte sich über die von Mystra gesetzten Grenzen der Künste der Magie hinweggesetzt. Legenden besagen, dass dieser Magier Zauber aussprechen konnte, ohne dabei durch sein Gedächtnis eingeschränkt zu werden. Schließlich fand man heraus, dass seine Kräfte von den Zauberringen herrührten, die er selbst für sich hergestellt hatte. Sein angebliches "unendliches Gedächtnis" war ein Schwindel, aber die Ringe gehören immer noch zu den gefragtesten Gegenständen in den Reichen.
+
+SPEZIFISCHE EIGENSCHAFTEN::
+
+Zaubersprüche: verdoppelt die Anzahl der Zauber der 1. Stufe, die sich ein Magier einprägen kann. 
+
+Kann nur verwendet werden von:
+Zauberern (auch mehrklassig und mit Klassenkombination)~

@@ -1,0 +1,11 @@
+--- NeJ\baf\TRBACK1.baf	Mon Jan 02 23:47:11 2017
++++ C:\BWP Patchstudio\patched files\NeJ\baf\TRBACK1.baf	Wed Apr 10 10:29:56 2019
+@@ -12,7 +12,7 @@
+ 	!Global("TrBack0602","GLOBAL",1)
+ THEN
+ 	RESPONSE #100
+-		ActionOverride(Player1,DisplayStringHead(Myself,~The portal is locked. You should find an appropriate key to unlock it.~)) // The portal is locked. You should find an appropriate key to unlock it.
++		ActionOverride(Player1,DisplayStringHead(Myself,@0)) // The portal is locked. You should find an appropriate key to unlock it.
+ 		SetGlobal("TrBack1_Dialog","GLOBAL",1)
+ END
+ 

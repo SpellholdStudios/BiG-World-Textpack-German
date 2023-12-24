@@ -1,0 +1,41 @@
+--- NeJE\dlg\ALOME.D	Sun Aug 20 01:32:19 2017
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\ALOME.D	Tue Apr 09 19:34:44 2019
+@@ -2,32 +2,32 @@
+ 
+ IF ~NumberOfTimesTalkedTo(0)
+ See("Yoshimo")~ THEN BEGIN 0
+-  SAY ~Yoshimo, Yoshimo!~
++  SAY @0
+   IF ~~ THEN EXTERN ~YOSHJ~ TS184
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~No... Do you?~
++  SAY @1
+   IF ~~ THEN EXTERN ~YOSHJ~ TS185
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~They all went to play hide and seek in the caves. They did not take you too? They always say I am too small, but you look big enough. Why won't they let you play?~
++  SAY @2
+   IF ~~ THEN EXTERN ~YOSHJ~ TS186
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~I do not know where the caves are... But my mummy she'd know. She sent me to go ask you to come see her if you want to save Kachiko from bad fate. Who is Kachiko?~
++  SAY @3
+   IF ~~ THEN EXTERN ~YOSHJ~ TS187
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~If she is nice, how can bad fate get her? Mummy says that bad fate grabs only bad people.~
++  SAY @4
+   IF ~~ THEN EXTERN ~YOSHJ~ TS188
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~I guess, no. Mummy asked me to give you this rope, and said that you must be very quiet....~
++  SAY @5
+   IF ~~ THEN DO ~GiveItemCreate("Pitrope",Player1,0,0,0)
+ EscapeArea()~ EXIT
+ END

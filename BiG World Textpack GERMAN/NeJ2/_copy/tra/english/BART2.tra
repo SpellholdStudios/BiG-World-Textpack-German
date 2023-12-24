@@ -1,0 +1,15 @@
+@0    = ~Business is on the wane today, what with the fair just north of town.  So, would you like a drink?~
+@1    = ~Yes.~
+@2    = ~Nashkel festival.
+
+There is a festival east of Nashkel.  Many people are gathering there.~
+@3    = ~No.~
+@4    = ~If the mine production slows anymore we'll all be in the poorhouse.  So, would you like a drink?~
+@5    = ~The iron shortage.
+
+The iron shortage and sabotage is affecting all levels of commerce.  Prices are higher, availability is lower.  People are tense.~
+@6    = ~Beware the woods to the west friend, for I hear tell of ogres and madmen.  So, would you like a drink?~
+@7    = ~Oddities west of Nashkel.
+
+The bartender spoke of Ogres and madmen to the west of Nashkel.~
+@8    = ~Volo's blasted review cut my business in half!  I'll take him for a chat out back when next I see him!  So, would you like a drink?~

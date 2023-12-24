@@ -1,0 +1,101 @@
+@0  = ~Endlich... Der mächtige Abenteurer steht vor mir. Welchem Umstand verdanke ich diese Ehre?~ [KRES_01] ~Endlich... Die mächtige Abenteurerin steht vor mir. Welchem Umstand verdanke ich diese Ehre?~ 
+@1  = ~Ihr habt mich also erwartet?~
+@2  = ~Ich möchte wissen, wer Ihr seid, Geist.~ 
+@3  = ~Ich suche das Böse, das Kuldahar quält.~
+@4  = ~Ich habe keine Zeit für solches Geplänkel, lebt wohl.~ 
+@5  = ~Einmal mehr beehrt Ihr mich mit Eurer Anwesenheit. Warum?~ [KRES_02]
+@6  = ~Ich habe Eure Schritte beobachtet, seit Ihr zum ersten Mal mein Reich betreten habt. Es war nur eine Frage der Zeit, bis Ihr hierher kommen würdet. Also sagt mir, warum seid Ihr gekommen? ~ [KRES_03]
+@7  = ~Zu Lebzeiten war ich Kresselack, der Schwarze Wolf. Im Tod bin ich nichts, ein bloßer Schatten, dazu verdammt, durch diese Hallen zu geistern.~ [KRES_04] 
+@8  = ~Warum seid Ihr verdammt?~
+@9  = ~Ich muss mich jetzt verabschieden. Lebt wohl.~ 
+@10 = ~Ja, warum... Das ist eine lange Geschichte. Wollt Ihr sie hören?~ [KRES_05]
+@11 = ~Ja, ich höre Euch zu.~
+@12 = ~Nein, ich glaube nicht. Lebt wohl.~ 
+@13 = ~Als junger Mann war ich Eroberer. Ich plünderte das Land und unterwarf alle, die sich mir entgegenstellten. Ich errichtete ein Königreich auf den Leichen meiner Feinde, und ich schwelgte im Ruhm des Krieges. ~ [KRES_06]
+@14 = ~Mit der Zeit wurde mein Schwert jedoch schwer, meine Zielsicherheit ließ nach, und ich erkannte, dass ich alt wurde. Zum ersten Mal im Leben lernte ich die Angst kennen... ~ [KRES_07] 
+@15 = ~Mir wurde klar, dass mich der Tod eines Tages holen würde, also kehrte ich in meine Heimat zurück. Monatelang grübelte ich, welchen Weg ich in meinen verbleibenden Jahren einschlagen sollte. ~ [KRES_08]
+@16 = ~Ich dachte an mein Königreich und alles, für dessen Erschaffung ich gekämpft hatte, aber es bedeutete mir nichts. Ein Königreich hat ein Leben lang Bestand, aber der Tod dauert eine Ewigkeit. ~ [KRES_09]
+@17 = ~Ich beschloss, alles, was ich im Leben erreicht hatte, für einen Platz im Leben nach dem Tod aufzugeben... ~ [KRES_10]
+@18 = ~Was habt Ihr getan?~ 
+@19 = ~Ich ließ in aller Heimlichkeit diese Gruft errichten, und verschwendete dafür den Reichtum meines Königreichs. Als sie fertig gestellt war, kam ich mit meinen treuesten Gefolgsleuten hierher, um das Werk zu begutachten. ~ [KRES_11]
+@20 = ~Als ich sah, dass alles in Ordnung war, erschlug ich die Arbeiter und begrub sie draußen im Tal. Dann opferte ich meine treuen Gefolgsleute, damit sie die Wächter dieser Gruft wurden. ~ [KRES_12] 
+@21 = ~Schließlich opferte ich mich selbst meinem Gott, in der Hoffnung, im Land der Toten an seiner Seite zu stehen. Ich ahnte nicht, dass mich meine Taten stattdessen auf ewig an diese Hallen fesseln würden... ~ [KRES_13] 
+@22 = ~Ein gerechter Lohn für solche Verfehlungen, Geist.~
+@23 = ~Ich suche das Böse, das Kuldahar quält. Könntet Ihr es sein?~ 
+@24 = ~Ich... weiß nicht...  Ich hatte Jahrhunderte Zeit, über mein Leben und meine Taten nachzudenken. Ich sehe die Weisheit in Euren Worten...  Vielleicht wurde für Gerechtigkeit gesorgt. ~ [KRES_14]
+@25 = ~Wenn Ihr Böses sucht, habt Ihr es gefunden. Ich stehe vor Euch. Doch bin ich nicht der, der Kuldahar heimsucht. Jenes Böse müsst Ihr anderswo suchen. ~ [KRES_15]
+@26 = ~Nachdem ich von Euren vergangenen Taten gehört habe, warum sollte ich glauben, dass Ihr unschuldig seid?~
+@27 = ~Warum sollte ich glauben, dass Ihr unschuldig seid, Geist?~
+@28 = ~Es ist mir völlig gleichgültig, ob Ihr mir glaubt, Abenteurer. Ich bin seit Jahrhunderten tot und auf ewig an diese Hallen gefesselt. ~ [KRES_16] ~Es ist mir völlig gleichgültig, ob Ihr mir glaubt, Abenteurerin. Ich bin seit Jahrhunderten tot und auf ewig an diese Hallen gefesselt. ~
+@29 = ~Die Lebenden und ihre Versammlungsorte sind mir noch gleichgültiger. Wenn Euer Kuldahar vom Bösen heimgesucht wird, ist es nicht meine Schuld. Sucht Euren Bösewicht anderswo! ~ [KRES_17]
+@30 = ~Wenn nicht Ihr, wer ist dann verantwortlich?~
+@31 = ~Ja, wer...  Ich kann Eure Frage beantworten, aber erst verlange ich einen Gefallen. Erfüllt eine Aufgabe für mich, dann werde ich Euch antworten. ~ [KRES_18]
+@32 = ~Welche Aufgabe, Geist?~
+@33 = ~Auril, die Eisgöttin, wird von Einigen hier im kalten Norden verehrt. Auril befiehlt ihren Anhängern, alle Feuerstellen zu löschen, die Häuser dem kalten Wind zu öffnen und der Wärme jeglichen Platz zu verweigern, an dem sie sich sammeln könnte. ~ [KRES_19]
+@34 = ~Wie Ihr seht, wäre meine Gruft einem Anhänger Aurils ein Graus. ~ [KRES_20]
+@35 = ~Ich stimme Euch zu. Sprecht weiter.~
+@36 = ~Tal der Schatten
+
+Wir haben mit Kresselacks Geist gesprochen. Er behauptete nicht hinter dem Bösen zu stecken, das Kuldahar heimsucht... aber er gab an zu wissen, wer dafür verantwortlich ist. Im Gegenzug für eine Antwort bat er uns um einen Gefallen: die Priesterin Aurils zu erschlagen, die kürzlich versuchte in seine Gruft einzudringen, um die innere Wärme zu vernichten. Nur wenn sie tot ist, würde er uns die Antwort geben nach der wir suchen.~
+@37 = ~Eine Priesterin Aurils stand auf der Schwelle meiner Gruft und schaute herein. Vor kurzem hat sie versucht, hineinzukommen, aber meine Wächter haben das verhindert.~ [KRES_21]
+@38 = ~Jetzt, wo Ihr meine Wächter erschlagen habt, gibt es nichts mehr, was sie davon abhalten könnte, zurückzukehren und den Willen Aurils zu vollbringen.~ [KRES_22]
+@39 = ~Ich möchte die Ewigkeit nicht in einer kalten, lichtlosen Hölle verbringen. Findet diese Aurilitin und erschlagt sie. Erst dann werde ich Euch antworten.~ [KRES_23]
+@40 = ~Ich bin kein Mörder, Geist.~ ~Ich bin keine Mörderin, Geist.~
+@41 = ~Ich werde es mir überlegen, Geist. Lebt wohl.~
+@42 = ~Also gut. Ich werde diese Priesterin finden und erledigen.~
+@43 = ~Hört zu, Abenteurer. Euer teures Kuldahar ist Auril genauso ein Graus wie diese Gruft. Denkt an den großen Baum, den Kreis der Wärme und die Gesetze Aurils.~ [KRES_24] ~Hört zu, Abenteurerin. Euer teures Kuldahar ist Auril genauso ein Graus wie diese Gruft. Denkt an den großen Baum, den Kreis der Wärme und die Gesetze Aurils.~
+@44 = ~Wie wird es Kuldahar unter Aurils kaltem Blick ergehen? Findet diese Aurilitin und erschlagt sie. Erst dann werden wir beide sicher sein, und erst dann werde ich Euch antworten!~ [KRES_25]
+@45 = ~Wie ich schon sagte, ich bin kein Mörder. Lebt wohl.~ ~Wie ich schon sagte, ich bin keine Mörderin. Lebt wohl.~
+@46 = ~Ausgezeichnet. Beeilt Euch, denn auch jetzt spüre ich ihre Anwesenheit im Tal. Kommt zurück, wenn Ihr mit ihr fertig seid. Bis dahin habe ich nichts mehr zu sagen...~ [KRES_26]
+@47 = ~Lebt wohl, Geist.~
+@48 = ~Tal der Schatten
+
+Der Geist Kresselacks hat uns gebeten, eine aurilitische Priesterin zu töten, von der er glaubt, dass sie sein Grab zerstören will. Wir haben uns bereit erklärt, uns um diese Priesterin zu kümmern, werden sie aber nicht unbedingt gleich töten. Kresselack spürt ihre Anwesenheit im Tal der Schatten. Wir sollten unsere Suche dort beginnen.~
+@49 = ~Ihr seid zurückgekommen. Habt Ihr vielleicht Eure Weigerung, die Auriliten-Priesterin zu erledigen, überdacht?~ [KRES_27]
+@50 = ~Nein, habe ich nicht. Ich bin kein Mörder.~ ~Nein, habe ich nicht. Ich bin keine Mörderin.~
+@51 = ~Habt Ihr es Euch anders überlegt? Werdet Ihr mir sagen, wer hinter dem Bösen steht, das Kuldahar quält?~
+@52 = ~Ihr seid zurückgekehrt. Habt Ihr Euch überlegt, ob Ihr die Auriliten-Priesterin erledigen wollt?~ [KRES_28]
+@53 = ~Ich denke immer noch darüber nach. Lebt wohl.~
+@54 = ~Ihr seid zurückgekehrt. Habt Ihr die Aufgabe erfüllt, die ich Euch aufgetragen habe?~ [KRES_29]
+@55 = ~Ja, die Priesterin ist tot.~
+@56 = ~Tal der Schatten
+
+Wir haben endlich mit Arundel gesprochen, dem Erzdruiden von Kuldahar. Der alte Mann hat uns erklärt, warum er Hilfe aus Osthafen angefordert hatte: In den nahen Bergen scheinen böse Wesen ihr Unheil zu treiben. Arundel glaubt, dass diese Wesen auch für das Wetter am Pass und den Wärmering verantwortlich sind, der sich um Kuldahars Große Eiche gelegt habe und sie langsam schrumpfen lasse. Er glaubt, dass das Böse auch hinter den zahlreichen Monstern stecken würde, die gesichtet wurden, und hinter den mysteriösen Entführungen aus der Stadt. Wir haben uns bereit erklärt, ein unweit gelegenes Tal zu inspizieren, um dem Bösen auf den Grund zu gehen. Dort kursieren nämlich Gerüchte über Untote, die irgendwelche alten Gruften in diesem "Tal der Schatten" unsicher machten. Wir sollen in das Tal reisen und herausfinden, ob es einen Zusammenhang zwischen den Untoten und den Ereignissen in Kuldahar gibt. Dann sollen wir zu Arundel zurückkehren und ihm berichten, was wir herausgefunden haben.~
+@57 = ~Tal der Schatten
+
+Wir haben endlich mit diesem exzentrischen Baumliebhaber gesprochen, der sich selbst als Erzdruide von Kuldahar bezeichnet. Der alte Druide hat uns erklärt, weshalb er Hilfe aus Osthafen angefordert hat. In den nahen Bergen scheinen böse Wesen ihr Unheil zu treiben. Arundel glaubt, dass sie auch für das Wetter am Pass und den Wärmering verantwortlich sind, der sich um Kuldahars Große Eiche gelegt hat und sie langsam schrumpfen lasse. Er glaubt, dass das Böse auch hinter den zahlreichen Monstern, die gesichtet wurden, und den mysteriösen Entführungen aus der Stadt steckt. Wir haben uns bereit erklärt, ein unweit gelegenes Tal zu inspizieren, um dieser Angelegenheit auf den Grund zu gehen. Dort kursieren nämlich Gerüchte über Untote, die irgendwelche alten Gruften in diesem "Tal der Schatten" unsicher machen. Wir sollen in das Tal reisen und herausfinden, ob es einen Zusammenhang zwischen den Untoten und den Ereignissen in Kuldahar gibt. Dann sollen wir zu Arundel zurückkehren und ihm alles berichten, was wir herausgefunden haben.~
+@58 = ~Tal der Schatten
+
+Wir haben die Priesterin Aurils gefunden, von der Kresselack gesprochen hatte, eine Frau namens Lysan. Sobald sie sich zu erkennen gegeben hatte, griffen wir sie an.~
+@59 = ~Tal der Schatten
+
+Wir haben die Priesterin Aurils gefunden, von der Kresselack gesprochen hatte, eine Frau namens Lysan. Sie war nicht besonders erfreut über den Besuch und griff uns an.~
+@60 = ~Tal der Schatten
+
+Wir trafen die Priesterin der Auril und erkannten sie als Bardame aus Kuldahar. Sobald sie sich zu erkennen gegeben hatte, griffen wir sie an.~
+@61 = ~Tal der Schatten
+
+Wir haben Lysan, die aurilitische Priesterin, getötet und sind zu Kresselack zurückgekehrt. Leider konnte der uns nur die Auskunft geben, dass weder er noch jemand anderes im Tal der Schatten etwas für das Böse konnte, das Kuldahar heimgesucht hat. Es sieht nun so aus, als müssten wir zurück zu Arundel, um ihm dies zu berichten. Vielleicht hat er ja eine Ahnung, was wir als Nächstes tun könnten.~
+@62 = ~Nein, ich muss sie noch finden.~
+@63 = ~Ja... Ich spüre ihre Anwesenheit nicht mehr. Gut gemacht, ich danke Euch. Als Lohn dürft Ihr nehmen, was immer Ihr in meinem Sarkophag findet. ~ [KRES_30]
+@64 = ~Ihr habt gesagt, Ihr würdet mir sagen, wer für das Böse verantwortlich ist, das Kuldahar quält.~
+@65 = ~Ja... das habe ich... Die Wahrheit ist, dass ich nicht weiß, wer verantwortlich ist. Ich kann Euch nur versichern, dass weder ich es bin noch sonst jemand in diesem Tal. Wäre es anders, würde ich es spüren... ~ [KRES_31]
+@66 = ~Das ist nicht die mir versprochene Antwort, Geist.~
+@67 = ~Dann macht Euch an Eure Aufgabe! Ich habe Euch nichts zu sagen, bis Ihr sie erfüllt habt! Gehabt Euch wohl...~ [KRES_32]
+@68 = ~Lebt wohl.~
+@69 = ~Ihr habt mir einen großen Dienst erwiesen, indem Ihr die Gefahr der Auriliten-Priesterin beseitigt habt. Dafür bin ich Euch dankbar... ~ [KRES_33]
+@70 = ~Ich möchte Euch jedoch bitten, mich jetzt ruhen zu lassen. Es gibt nichts mehr, was einer von uns für den anderen tun könnte. Lebt wohl. ~ [KRES_34]
+@71 = ~Ich... Hmm. Interessant. Es scheint, dass Ihr Lysan bereits erschlagen habt. Ich spüre ihren Tod von Eurer Hand. Als Lohn dürft Ihr nehmen, was immer Ihr in meinem Sarkophag findet.~ [KRES_35]
+@72 = ~Dann werdet Ihr meine Frage beantworten, Geist?~
+@73 = ~Tal der Schatten
+
+Wir haben mit Kresselacks Geist gesprochen: Er behauptete, er sei nicht an der Misere in Kuldahar schuld, wisse aber, wer es sei... Da wir die Auril-Priesterin, deren Tod er wünschte, bereits beseitigt hatten, war er bereit, uns alles zu sagen, was er wusste. Doch leider wusste Kresselack nur, dass weder er noch jemand anderes im Tal der Schatten etwas für das Unheil konnte, das Kuldahar heimgesucht hat. Es sieht ganz so aus, als müssten wir zurück zu Arundel, um ihm dies mitzuteilen. Vielleicht hat er ja eine Ahnung, was wir als Nächstes tun sollten.~
+@74 = ~Warum war diese... Lysan wichtig für Euch?~
+@75 = ~Nun gut... Die Wahrheit ist, dass ich nicht weiß, wer verantwortlich ist. Ich kann Euch nur versichern, dass weder ich es bin, noch sonst jemand in diesem Tal. Wäre es anders, würde ich es spüren...~ [KRES_36]
+@76 = ~Ich stimme Euch zu. Und?~
+@77 = ~Lysan war eine Priesterin Aurils. Mehrmals stand sie auf der Schwelle meiner Gruft und schaute hinein. ~ [KRES_39]
+@78 = ~Ich bin sicher, dass sie einen Weg suchte, hier einzudringen und den Willen Aurils auszuführen. Jetzt, wo sie weg ist, brauche ich mich nicht mehr zu sorgen. ~ [KRES_40]
+@79 = ~Versprochen? Ich habe Euch kein Versprechen gegeben, Abenteurer. Was Eure Antwort betrifft... Zu wissen, wo Euer Feind *nicht* ist, ist genauso wichtig, wie zu wissen, wo er *ist*. Denkt darüber nach. ~ [KRES_41] ~Versprochen? Ich habe Euch kein Versprechen gegeben, Abenteurerin. Was Eure Antwort betrifft... Zu wissen, wo Euer Feind *nicht* ist, ist genauso wichtig, wie zu wissen, wo er *ist*. Denkt darüber nach. ~
+@80 = ~Also gut Geist. Lebt wohl.~
+@81 = ~Nein. Ich werde erst antworten, wenn Ihr mit der Gefahr der Priesterin Aurils fertig geworden seid. Werdet Ihr mir helfen? ~ [KRES_42]
+@82 = ~Mich kümmern die Drohungen von jemandem mit dem Verstand eines Kindes nicht.~

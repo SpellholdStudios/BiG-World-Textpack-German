@@ -1,0 +1,11 @@
+--- NeJE\TS\baf\SealPass.baf	Thu Dec 30 16:53:34 2004
++++ C:\BWP Patchstudio\patched files\NeJE\TS\baf\SealPass.baf	Tue Apr 09 19:40:12 2019
+@@ -4,7 +4,7 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("SealPass_Inform","GLOBAL",1)
+-		DisplayStringHead([PC],~These stairs have collapsed. You will have to find another route.~)
++		DisplayStringHead([PC],@0)
+ END
+ 
+ 

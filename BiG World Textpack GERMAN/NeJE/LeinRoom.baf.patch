@@ -1,0 +1,9 @@
+--- NeJE\Leina\baf\LeinRoom.baf	Sat Jun 06 23:33:29 2015
++++ C:\BWP Patchstudio\patched files\NeJE\Leina\baf\LeinRoom.baf	Tue Apr 09 19:40:48 2019
+@@ -4,5 +4,5 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("VP_ResqueLeina","GLOBAL",3)
+-		ActionOverride(Player1,DisplayStringHead(Myself,~It looks as if a struggle has taken place here. Someone was dragged out of the room. There are a few footprints on the carpet, and some items are tossed carelessly into corners.~))
++		ActionOverride(Player1,DisplayStringHead(Myself,@0))
+ END

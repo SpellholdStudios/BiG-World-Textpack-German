@@ -1,0 +1,17 @@
+--- tb#tweaks\german\setup.TRA	Tue Jan 03 01:19:01 2012
++++ C:\BWP Patchstudio\patched files\tb#tweaks\german\setup.TRA	Tue Aug 28 22:51:45 2012
+@@ -50,10 +50,11 @@
+ @19000 = ~Statistiken beim Stufenaufstieg erhöhen~
+ @19001 = ~%_kit% hat eine Nicht-Null-Modifizierer für %Stat%. Dies ist (noch) nicht zulässig. Berichtet davon, und ich werde es erlauben.~
+ @19002 = ~%_kit% hat eine Nicht-Null-Modifizierer für %Stat%. Dies ist nicht zulässig und kann leider nicht zugelassen werden.~
+-@19003 = ~Niemand kann sich über das Maximum der Rasse hinaus verbessern.~
+-@19004 = ~Nur die Hauptfigur kann sich über das Maximum der Rasse hinaus verbessern.~
+-@19005 = ~Jeder kann sich über das Maximum der Rasse hinaus verbessern.~
++@19003 = ~5 Punkte für ein vollständiges BGT Spiel. Niemand kann sich über das Maximum der Rasse hinaus verbessern.~
++@19004 = ~5 Punkte für ein vollständiges BGT Spiel. Nur die Hauptfigur kann sich über das Maximum der Rasse hinaus verbessern.~
++@19005 = ~5 Punkte für ein vollständiges BGT Spiel. Jeder kann sich über das Maximum der Rasse hinaus verbessern; nicht rückwirkend.~
+ @19006 = ~Ein Punkt alle 4 Level und ein Punkt pro Kapitel; alle können sich über ihr Rassen-Maximum steigern (vorgeschlagen von @vgur)~
++@19007 = ~5 Punkte für ein vollständiges BGT Spiel. Jeder kann sich über das Maximum der Rasse hinaus verbessern (Quester).~
+ @20000 = ~Gewöhnliche Zweiklassenzugehörigkeit~
+ @20001 = ~Verworfen - funktioniert noch nicht~
+ @21000 = ~Gruppenmitglieder können auch Gesichtsstiche ausführen!~

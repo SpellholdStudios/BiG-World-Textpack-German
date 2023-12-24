@@ -1,0 +1,13 @@
+--- npckit\npckit.tp2	Sun Oct 26 17:24:30 2014
++++ C:\BWP Patchstudio\patched files\npckit\npckit.tp2	Sat Nov 01 18:38:16 2014
+@@ -56,6 +56,10 @@
+          ~russian~
+          ~NPCKit/translations/english/setup.tra~
+          ~NPCKit/translations/russian/setup.tra~
++LANGUAGE ~German (by Lumorus)~
++         ~german~
++         ~NPCKit/translations/english/setup.tra~
++         ~NPCKit/translations/german/setup.tra~
+          
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+ /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

@@ -1,0 +1,16 @@
+--- Setup-Turambar_fixes_tweaks.TP2	Thu Feb 27 09:40:14 2014
++++ C:\BWP Patchstudio\patched files\Setup-Turambar_fixes_tweaks.TP2	Sat Mar 15 14:37:20 2014
+@@ -32,6 +32,13 @@
+          ~Turambar_fixes_tweaks/Russian/game-strings.tra~
+          ~Turambar_fixes_tweaks/Russian/setup-%WEIDU_OS%.tra~
+ 
++LANGUAGE 
++         ~German~
++         ~German~
++         ~Turambar_fixes_tweaks/TobEx_redist/TobEx.tra~
++         ~Turambar_fixes_tweaks/German/game-strings.tra~
++         ~Turambar_fixes_tweaks/German/setup.tra~
++
+          
+ /*------------CONTENT--------------*/
+ 

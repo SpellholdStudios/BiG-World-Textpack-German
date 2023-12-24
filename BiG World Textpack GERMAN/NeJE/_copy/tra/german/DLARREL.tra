@@ -1,0 +1,209 @@
+@0   = ~... befreit... mein... Volk...
+...Astrolabium... wirbelt... dreht sich...~ [LARR_01] 
+@1   = ~Endlich finden wir Euch! Wir brauchen Eure Hilfe, um das Herzsteinjuwel zu verwenden.~
+@2   = ~Leichnam! Wir schicken Euch zu Eurer letzten Ruhestätte!~ 
+@3   = ~Ah, in Ordnung... Ist gut, Larrel.~
+@4   = ~Nicht ganz die Antwort, die ich hören wollte. Wir kommen wieder.~ 
+@5   = ~... befreit... mein... Volk...
+...Astrolabium... wirbelt... dreht sich...~ [LARR_02]
+@6   = ~Wir werden Euer Gefasel nicht länger anhören! Macht Euch bereit für den Abgrund!~
+@7   = ~Ich sehe, wir müssen später wiederkommen. Lebt wohl.~ 
+@8   = ~Ahhhh...  Seid gegrüßt, Abenteurer... Entschuldigt, ich muss mich erst sammeln. Wer seid Ihr, und was ist eben passiert?~ [LARR_10] ~Ahhhh...  Seid gegrüßt, Abenteurerin... Entschuldigt, ich muss mich erst sammeln. Wer seid Ihr, und was ist eben passiert?~
+@9   = ~Wir sind Abenteurer, die zur Abgetrennten Hand gekommen sind wegen Eures Wissens und Eurer Macht. Dabei haben wir von dem Fluch erfahren, der über Euch lastet und dass Ihr vor Jahrhunderten verrückt wurdet. Wir haben Euch etwas von Eurem früheren Selbst wiedergegeben und bitten Euch um Hilfe.~ 
+@10  = ~Um unsere Reisen fortzusetzen, kamen wir zur Abgetrennten Hand, wo wir herausfanden, dass wir zum Weiterkommen Euch teilweise in Euren früheren Zustand zurückversetzen mussten. Jetzt bitten wir Euch, uns als Gegenleistung zu sagen, was wir vom Herzsteinjuwel wissen wollen.~
+@11  = ~Das ist die einzige Antwort, die Ihr braucht: Wir haben Euch wieder hergestellt, und wir haben auch die Macht, Euch zu zerstören. Wir brauchen Euch, um die Kraft des Herzsteinjuwels freizusetzen. Diese armselige Ausrede für die Bruchbude, die Ihr durch Eure eigene Überheblichkeit verflucht habt, ist uns gleichgültig.~
+@12  = ~In der Tat, edle Abenteurer. Viel Mut und Kraft werden nötig gewesen sein, so weit zu kommen wie Ihr, und erst recht, meinen Gedanken wieder etwas Gleichgewicht zu verleihen. Ich stehe ewig in Eurer Schuld. Aber sicher seid Ihr nicht aus einer Laune heraus zur Hand der Seldarin gekommen? Sagt mir, was Ihr sucht.~ [LARR_12] 
+@13  = ~Ich suche Wissen, das nur durch das Herzsteinjuwel erlangt werden kann.~
+@14  = ~Ich will mehr darüber erfahren, was hier in der Hand geschehen ist.~ 
+@15  = ~Hmm. Gleich auf den Punkt, wie ich sehe. Nun gut. Zumindest sprecht Ihr ehrlich. Eure Taten werden vergolten. Was wünscht Ihr?~ [LARR_13]
+@16  = ~Wir möchten die Erkenntniskraft des Herzsteinjuwels einsetzen.~
+@17  = ~Sagt mir zuerst, was mit Euch und der Hand geschehen ist.~
+@18  = ~Ich habe mich getäuscht, als ich dachte, Ihr Abenteurer wäret wegen etwas anderem gekommen als persönliche Bereicherung. Diesen Fehler werde ich nicht noch einmal machen. Sagt mir, was Ihr wollt, aber fasst Euch kurz. Meine Geduld mit Orkmist kennt Grenzen.~ [LARR_14] 
+@19  = ~Tja, jeder irrt sich mal. Ihr werdet uns die Macht geben, die wir vom Herzsteinjuwel brauchen.~
+@20  = ~Ihr werdet uns berichten, wie es zur Zerstörung der Hand kam.~ 
+@21  = ~Ihr irrt Euch. Orkmist wäre gnädiger als wir. Seid bereit, noch einmal zu sterben, Larrel.~ 
+@22  = ~Nun gut. Der Legende nach stammt das Herzsteinjuwel aus einer längst vergessenen Zeit. Seine bekanntesten Besitzer waren die Druiden von Kuldahar, bevor einer aus ihrem Kreis das Juwel stahl. Man dachte, es sei für immer verloren, bis jetzt...~ [LARR_15]
+@23  = ~Das Herzsteinjuwel birgt mächtige Ortungs- und Ausspähungskräfte, die die Belange aller Bewohner der Reiche aufdecken können. Es gibt nur wenige im Land, die wissen, wie man seine Kräfte freisetzt. Ich bin einer von ihnen.~ [LARR_16] 
+@24  = ~Also, was wollt Ihr durch das Herzsteinjuwel erfahren?~ [LARR_17]
+@25  = ~Wir wollen erfahren, was die Quelle des Bösen ist, das den Norden quält.~
+@26  = ~Das Böse hat sein hässliches Haupt erhoben. Wir suchen seine Quelle, damit wir es zerstören können!~
+@27  = ~Wir wurden beauftragt, einige Probleme zu untersuchen, die den Norden plagen.~
+@28  = ~Dann sollt Ihr bekommen, was Ihr sucht. Gebt mir das Herzsteinjuwel.~ [LARR_18]
+@29  = ~Hier, nehmt.~
+@30  = ~Drachenauge
+
+Es hat sich herausgestellt, dass Albion, der nette alte Priester Eldaths, in Wirklichkeit der Spion eines Schlangengottes ist. Als ich mich nach ein paar Dingen erkundigen wollte, die ich im Heiligtum gesehen hatte, fuhr er aus der Haut. Er schrie und sagte etwas von Sseth und seiner Prinzessin Yxunomei. Dann griff er mich an.~
+@31  = ~Drachenauge
+
+Wir haben uns in die vierte Ebene des Vulkans von Drachenauge hinab gewagt. Dort haben wir einen Priester Eldaths, der Göttin des Friedens, getroffen. Er sagte uns, dass er und seine Schüler zu einem Eldathyner-Kloster in Drachenauge gehören. Er bot uns Heilung und einen Platz zum Ausruhen an.~
+@32  = ~Drachenauge
+
+Wir haben Egenia, eine Priesterin Ilmaters, vor einer Gruppe talonitischer Priester und Trolle gerettet. Sie war nach Drachenauge gekommen, um das Leid der verschleppten Dorfbewohner zu teilen. Sie sagte, dass sie in Drachenauge bleiben würde, um uns zu helfen, bis wir die Quelle des Bösen vernichtet haben.~
+@33  = ~Ilmater-Geistlicher in Kuldahar
+
+Wir haben mit Schwester Calliana gesprochen, der neuen Oberpriesterin des Ilmater-Tempels in Kuldahar. Sie hatte die Funktion der Oberpriesterin übernommen, nachdem Mutter Egenia vor ein paar Wochen verschwunden war. Calliana erzählte außerdem, ein anderer Ilmater-Geistlicher, ein Mann namens Bruder Poquelin sei kürzlich aus dem entfernten Cormyr nach Kuldahar gekommen und wollte im Kloster des Weinenden Flieders in Bryn Shander um Hilfe ansuchen. Calliana fürchtet, er könnte ebenfalls verschleppt worden sein.~
+@34  = ~Unendliche Reise: Stachel Der Welt
+
+Irgendwie wurden wir aus dem absonderlichen Kerker in die verschneite, als Osthafen bekannte Gemeinde am Seeufer teleportiert. Müde von der Straße und halb erfroren machten wir uns eilig auf den Weg in die örtliche Taverne, um eine heiße Mahlzeit und ein freundliches Gespräch zu finden. Kaum hatten wir uns an einen Tisch bei dem Herd gesetzt, als sich uns ein stämmiger Krieger näherte, der sich als Hrothgar vorstellte. Er wirkte ziemlich freundlich, aber sein Blick verriet uns, dass mit ihm nicht gut Kirschen essen ist. Er hat uns freundlich in sein Zuhause eingeladen, das sich westlich von der Taverne befindet, um irgendetwas mit uns zu besprechen.~
+@35  = ~Unendliche Reise: Stachel Der Welt
+
+Und so kam es, dass diese zusammengewürfelte Söldnerschar, begleitet von einer Gruppe von Fremden, Osthafen verließ, um dem Dorf Kuldahar zu Hilfe zu eilen. Weiter zogen sie, über die windige Tundra des Tals, über die Bergausläufer des Grats der Welt und hinauf zu den steilen und gefährlichen Pfaden des Kuldahar-Passes. Begierig, das Böse, das den Pass bedrohte, ausfindig zu machen, hatten sie nicht damit gerechnet, dass es sie zuerst finden würde. Oberhalb des Passes lauerte in den Felsen eine Horde von Frostriesen in einem Hinterhalt. Mit riesigen Fels- und Schneebrocken gelang es den Riesen, eine Schneelawine zu entfesseln, die die Bergwand herunterdonnerte und auf die ahnungslose Expedition einstürzte. Diejenigen, die das Glück hatten, die Lawine zu überleben, versuchten, sich aus dem Berg aus Schnee und Leichen zu befreien, der jetzt den Rückweg nach Osthafen versperrten. Zerschunden und entmutigt durch den Verlust ihrer Kameraden hatten sie keine andere Wahl, als allein die Reise nach Kuldahar fortzusetzen.~
+@36  = ~Suche nach dem Herzsteinjuwel
+
+Wir sind in das innerste Heiligtum des Tempels des vergessenen Gottes vorgedrungen, nur um festzustellen, dass uns jemand zuvor gekommen war. Der Sockel, auf dem das Artefakt vermutlich gestanden hatte, war leer. In der ganzen Kammer lagen Leichen, was vermuten lässt, dass die Altardiener und ihre Verbeeg-Wächter das Juwel mit aller Macht verteidigt haben. Unter den Leichen war auch die eines jungen Mannes, der in das Gewand eines Priesters von Talona gehüllt war. Es ist schwer zu sagen, welche Rolle er in dem Kampf und dem darauf folgenden Diebstahl spielte. Vielleicht sollten wir zu Arundel zurückkehren und sehen, ob er das alles versteht.~
+@37  = ~Die Suche nach dem Herzsteinjuwel
+
+Wir kehrten nach Kuldahar zurück - und was mussten wir vorfinden? Einen Mann, der vorgab, Arundel zu sein. Der Gestaltenwandler, wer auch immer er sein mochte, dankte uns dafür, dass wir Yxunomei beseitigt und ihm die "uneingeschränkte Herrschaft" über Kuldahar und Osthafen ermöglicht hatten. Er verschwand, bevor wir mehr erfahren konnten. Ich fürchte, dass mit Arundels Ermordung den Menschen von Kuldahar und Osthafen düstere Zeiten bevorstehen.~
+@38  = ~Die Abgetrennte Hand
+
+Wir haben Arundel in einem Raum im oberen Stockwerk seines Hauses entdeckt, niedergestreckt von einem Mann, der Arundels eigenes Gesicht trug und dessen Hände wie Blut waren. Arundel hatte kaum noch die Kraft, uns zu sagen, dass wir die alte Elfenfestung der Abgetrennten Hand suchen sollten und dass sich in der Festung ein Elfenmagier namens Larrel aufhalte, die letzte Person, die das Juwel benutzen kann, um die Quelle des Bösen zu finden, das Kuldahar heimsucht. Arundel sagte uns, die Natur würde uns zur Abgetrennten Hand leiten.~
+@39  = ~Abgetrennte Hand
+
+Wir trafen das, was vom Klingensänger Lethias überblieb. Er erzählte uns von dem großen Opfer, das er bei der Zerstörung des Sehanine-Turms erbracht hatte.~
+@40  = ~Abgetrennte Hand
+
+Lethias erwähnte, Larrel und seine Zauberer hätten sich in den letzten Tagen der Abgetrennten Hand oben im Labelas Turm eingeschlossen.~
+@41  = ~Abgetrennte Hand
+
+Custhantos hat eine interessante Bemerkung über eine Elfenkriegerin gemacht, die kürzlich bei ihm gewesen sei. Sie hätte ein Buch mit Skizzen magischer Artefakte und eines über Einhörner mitgenommen.~
+@42  = ~Gegen Kaylessas Soldaten kämpfen
+
+Wir sind zurück zu Kaylessa gegangen und haben ihr gesagt, wir hätten all ihre Soldaten ordnungsgemäß zur letzten Ruhe gebettet.~
+@43  = ~Den Priestern der Abgetrennten Hand die letzte Ruhe geben
+
+Wir sind zurück zu Denaini gegangen und haben ihr gesagt, die Priester würden nun alle in Frieden ruhen. Sie war sehr dankbar, dass sie nun ihr Leben nach dem Tod beginnen konnten.~
+@44  = ~Die Becken des Elfenschreins wiederherstellen
+
+Wir gaben Denaini das Weihwasser, das sie wollte, um die Teiche des Elfenschreins wieder aufzufüllen.~
+@45  = ~Eine Flasche Wein für den Alten Jed
+
+Wir haben dem Alten Jed, einem der Fischer von Osthafen, eine Flasche Wein gebracht.~
+@46  = ~Klinge von of Aihonen
+
+Wir haben Jhonen gesagt, weshalb er seine Alpträume hat, und wir haben ihm die Klinge seines Vorfahrens überreicht, die Elisia ihm geben wollte. Er war verblüfft über das Geschenk, und bedauerte zutiefst, dass Elisia selbst nicht zu ihm zurückkehren würde. Diese Traurigkeit ist typisch für Menschen aus zwei Welten.~
+@47  = ~Klinge von Aihonen
+
+Wir sind zu Elisia zurückgekehrt und haben ihr gesagt, dass wir Jhonen die Klinge gebracht haben. Sie war sehr froh darüber und belohnte uns für unsere Mühe.~
+@48  = ~Eigentumsanspruch auf den "Zum Abendschatten"
+
+Wir haben Aldwin Eidans Siegelring gezeigt, den wir oben gefunden hatten. Er gestand dann auch, dass er das Papier, in dem ihm der Gasthof "Zum Abendschatten" übertragen wurde, gefälscht hatte... Mit etwas Druck brachten wir ihn schließlich dazu, sein Verbrechen den Dorfältesten Kuldahars zu gestehen und sich der Strafe zu beugen, die sie ihm auferlegen würden.~
+@49  = ~Damiens Fisch
+
+Wir konnten Damien helfen und haben ihm einige Fische gegeben, die er seinem Vater bringen soll, damit er nicht in Schwierigkeiten kommt.~
+@50  = ~Suche nach der verschollenen Karawane.
+
+Wir haben Gaspar, dem Fischhändler, von der verschollenen Karawane erzählt und ihm den Vertrag von Ilmus Gallaway gezeigt, den wir in den Orkhöhlen gefunden haben. Als er erfuhr, dass die Karawane verschollen ist, machte sich Gaspar daran, einen neuen Vertrag auszuhandeln und dafür zu sorgen, dass eine neue Karawane mit Vorräten nach Osthafen kommt. Er dankte uns für unsere Bemühungen und bezahlte uns mit einer kleine Summe in Gold.~
+@51  = ~Suche nach der verschollenen Karawane
+
+Wir haben die Karawane gefunden, die auf dem Weg von Caer-Dinival nach Osthafen überfallen worden war. Als wir zu Hrothgar zurückkehrten, um ihm zu berichten, was wir entdeckt hatten und wie es uns gelungen war, den Schlupfwinkel der Ork-Räuber ausfindig zu machen, schien der kräftige Krieger leicht besorgt über den Angriff der Orks, war aber froh zu wissen, dass die Vorräte noch gerettet werden konnten.~
+@52  = ~Suche nach Sheemish, Conlans Sohn
+
+Wir haben Conlans Sohn Sheemish aus den Tiefen von Drachenauge befreit und sind zu ihm zurückgegangen, um zu sehen, ob er gut nach Hause gekommen ist. Er gab uns den Schlüssel einer Truhe in Conlans Haus, in der irgendein verzauberter Hammer ist.~
+@53  = ~Suche nach dem Herzsteinjuwel
+ 
+Wir trafen Yxunomei im Herzen von Drachenauge. Sie war überrascht, dass wir dort waren und bei ihrer "Fehde" dazwischenfunkten. Wir erkundigten uns nach ihrer Fehde, doch sie meinte, unsere Beteiligung sei völlig irrelevant.~
+@54  = ~Vertreibung des Wolfs aus Apsels Werkstatt.
+
+Wir haben es geschafft, den Wolf aus Apsels Werkstatt zu vertreiben. Die Bestie muss eingebrochen sein, um sich die Fischgräten zu schnappen, die der alte Mann dort gelagert hatte. Apsel war furchtbar erleichtert und schenkte uns zur Belohnung etwas Gold und einen Fischbeindolch.~
+@55  = ~Mireks Familienerbstück
+
+Wir haben es geschafft, Mirek aus Kuldahar sein Familienerbstück wiederzubringen.~
+@56  = ~Heilmittel für Ghereg
+
+Wir haben Ghereg, dem Oger am Kuldaharpass, ein Rezept gegen seine Kopfschmerzen gegeben. Er hat sich sehr darüber gefreut und sich gleich von dannen gemacht.~
+@57  = ~Die Becken des Elfenschreins wiederherstellen
+
+Im Solonar-Turm der Hand der Seldarin sind wir Denaini begegnet. Sie erzählte uns die traurige Mär vom Fall der Abgetrennten Hand und von Larrels tragischem Versuch, sein Volk durch einen Mythalzauber, eine Form alter Elfenmagie, zu retten.~
+@58  = ~Herzsteinjuwel
+
+Wir haben Larrel das Herzsteinjuwel gegeben, und er hat seine Kraft eingesetzt, um den Aufenthaltsort des Bösen zu entdecken, das Kuldahar heimsucht. Nach dem, was das Herzsteinjuwel erkennen konnte, liegt die Bedrohung irgendwo in der Zwergenfestung Dorntief.~
+@59  = ~Ihr wollt wissen, was in der Hand der Seldarin geschehen ist? Nun gut. Eine lange Geschichte. Soll ich mit der Zeit des Wohlstands, dem Verrat oder unserer dunkelsten Stunde beginnen? ~ [LARR_19]
+@60  = ~Ich möchte von der Zeit der Blüte hören.~
+@61  = ~Ich möchte vom Verrat hören.~
+@62  = ~Ich möchte von Eurer dunkelsten Stunde hören.~
+@63  = ~Wenn das Astrolabium wieder hergestellt ist, warum seid Ihr noch da?~
+@64  = ~Ich muss jetzt gehen. Wir sprechen später weiter.~
+@65  = ~Angesichts der größeren Bedrohung durch die Ork- und Goblinhorden des Nordens hatten wir Elfen uns mit den Zwergen verbündet. Ein Akt der Verzweiflung, aber entweder das oder den dunklen Horden zum Opfer fallen. ~ [LARR_20]
+@66  = ~Sprecht weiter...~
+@67  = ~Ich möchte von den anderen Dingen hören, die geschehen sind.~
+@68  = ~Verzeiht mir, Larrel. Ich muss gehen. Vielleicht komme ich wieder.~
+@69  = ~Da beide Völker durch diese Zusammenarbeit zu Wohlstand kamen, vertieften wir unser Bündnis durch die Schaffung mächtiger Artefakte und Waffen. Durch feine Zwergen-Handwerkskunst vereint mit alter Elfenmagie entstanden Objekte großer Macht und unübertroffener Schönheit.~ [LARR_21]
+@70  = ~Durch den gegenseitigen Beistand unserer Völker und das gemeinsame Nutzen der magischen Früchte unserer Arbeit ließen sich die Horden leicht in Schach halten. Unsere Zusammenarbeit dauerte an, und wir lebten lange Jahrzehnte in Harmonie und Wohlstand... bis zu dem Verrat.~ [LARR_22]
+@71  = ~Erzählt uns von dem Verrat.~
+@72  = ~Ihr müsst Geduld haben, denn dieses ist ein bitteres Kapitel für mich. Es kam zu einer heftigen Debatte mit unseren Zwergenverbündeten über die magischen Objekte, die aus unserer Zusammenarbeit entstanden waren.~ [LARR_23]
+@73  = ~Offenbar ließ sich die Gier, die allen Zwergen eigen ist, nicht bezwingen. Sie wollten anfangen, unsere magischen Objekte an die anderen Siedlungen im Norden zu verkaufen.~ [LARR_24]
+@74  = ~Absurd, habe ich ihnen gesagt! Anderen Zugang zu diesen Gegenständen verschaffen, nur um des Profits willen? Ich war entsetzt, aber nicht überrascht. Zwerge können ihr selbstsüchtiges Wesen nicht lange verdrängen. ~ [LARR_25]
+@75  = ~Mein Volk und ich blieben hart. Die Menschen sollten keinen Zugang zu magischen Objekten haben. Nach monatelangen Diskussionen gaben die Zwerge endlich nach, und wir hielten die Sache für erledigt.~ [LARR_26]
+@76  = ~Dann jedoch kam der Tag, der das Schicksal beider Völker besiegelte. Unsere Truppen stießen auf eine Gruppe, die wir für eine typische Ork- oder Goblinhorde hielten. Aber was ein einfacher Kampf hätte sein sollen, stellte sich als hart erkämpfter Sieg heraus - denn sie benutzten Artefakte und Waffen, die vom Bündnis geschaffen worden waren.~ [LARR_27]
+@77  = ~Wütend befragten wir die Zwerge dazu! Kein Elf würde jemals unsere größten Schätze dem verhassten Feind geben! Die Zwerge leugneten natürlich unsere Anschuldigungen. Im Gedanken an unser jahrzehntelanges Bündnis vertrauten wir ihnen weiter und versuchten, eine Lösung zu finden.~ [LARR_28]
+@78  = ~Es war dumm von uns zu glauben, wir könnten mit diesen Steinfressern zusammenleben. Jede Diskussion führte zu einem offenen Streit und zu weiteren Anschuldigungen. Dachten die Zwerge wirklich, wir wären einfältig genug zu glauben, diese Objekte seien den Horden einfach zugeflogen?~ [LARR_30]
+@79  = ~Wie zu erwarten war, brach ein offener Konflikt aus. Jahrzehnte der Freundschaft und des Wohlstands endeten an jenem Tag. Das Bündnis war nicht mehr. An jenem Tag standen die Elfen von der Hand der Seldarin allein gegen die Zwerge und die Goblinoidenhorden.~ [LARR_32]
+@80  = ~Vor Jahrhunderten führte die Hand der Seldarin Krieg gegen die finsteren Horden, die im Norden eindrangen. Dieser Krieg dauerte Jahrzehnte an, und am Ende sah es so aus, als ob wir verlieren würden.~ [LARR_33]
+@81  = ~Das Kriegsglück wendete sich gegen uns. Unsere Truppen wurden nach jedem Konflikt weniger und weniger. Wir wurden von den übrigen Seldarin südlich von uns isoliert. Ohne die Unterstützung unserer Brüder und Schwestern, und den Untergang vor Augen, verzweifelte ich.~ [LARR_34]
+@82  = ~Ich erdachte einen Plan, mit dem ich mein Volk schützen und Zeit gewinnen wollte. In der alten Elfenmagie ist die Rede von einem in alter Zeit benutzten Zauber namens "Mythal". Dieser Mythal verleiht dem Land eine lebendige und schützende Kraft, die alles Elfische verkörpert.~ [LARR_35]
+@83  = ~Dieser lebendigen Kraft können auch schützende Fähigkeiten verliehen werden, Kräfte, die die finsteren Horden von der Hand der Seldarin und ihrer Umgebung fern gehalten hätten. Damit hätten wir Zeit gewinnen und auf Verstärkung von unseren Brüdern und Schwestern im Süden hoffen können.~ [LARR_36]
+@84  = ~Manche sagen, es sei vermessen gewesen, zu glauben, wir hätten einen solchen Zauber wirken können. Andere reden von Blasphemie. Ich stehe zu meiner Entscheidung. Ich tat, was ich tun musste, um mein Volk zu retten. Wir begannen also mit den Vorbereitungen für einen Mythal.~ [LARR_37]
+@85  = ~In den darauf folgenden Wochen konzentrierten wir all unsere übrig gebliebenen Kräfte in der Hand. Meine Zauberer und ich schlossen uns in diesem Turm ein und begannen mit dem mühsamen Prozess, einen Mythal auszulegen.~ [LARR_38]
+@86  = ~Die Orks und Goblins spürten natürlich unseren geschwächten Zustand und holten zum tödlichen Schlag aus. Die größte Truppe, die wir je gesehen hatten, belagerte die Hand, und der Mythal war bei weitem noch nicht fertig. Wir wussten, dass es unser letztes Gefecht war, und mein Volk wusste, dass es Zeit gewinnen musste.~ [LARR_39]
+@87  = ~Eine Woche lang hielten wir die Horde zurück. Im eigenen Haus verschanzt kämpfte mein Volk, und die Horde bezahlte teuer für jeden Raum in der Hand, den sie einnahm. Jeden gefallenen Elf bezahlte die Horde zehnfach. Trotz all der Opfer meines Volkes wurde die letzte Verteidigungslinie nach einer Woche durchbrochen.~ [LARR_40]
+@88  = ~Als die Horde die Türme zu ersteigen begann und die letzten Verteidiger fielen, erkannte ich, dass mein Volk sich nicht umsonst geopfert hatte. Wir beendeten die letzten Beschwörungen für den Mythal. Der Zauber wurde gewirkt, und ein Schleier aus Energie und reinem Licht legte sich um die Hand.~ [LARR_41]
+@89  = ~Als ich zusah, wie das, was ich für unsere Rettung hielt, in jede Ritze der Hand eindrang, war ich entsetzt. Irgendetwas war furchtbar schief gegangen! Die Kraft, die dem Land Leben bringen sollte, begann es zu verzerren und zu zerstören. Sie beraubte alles und jeden in der Hand seiner Seele.~ [LARR_42]
+@90  = ~Ich sah, wie allem, was in der Hand der Seldarin lebte, das Leben bis zur Schwelle des Todes ausgesaugt und der Verstand geraubt wurde. Die Gefallenen jedoch erstanden als grausige Untote wieder auf.~ [LARR_43]
+@91  = ~Plötzlich bemerkte ich, dass ich nicht der Einzige war, der die unaufhaltsame Zerstörung der Hand und all ihrer Bewohner beobachtete. Vor mir stand Labelas Enoreth, der Elfengott der Langlebigkeit und der Zeit.~ [LARR_44]
+@92  = ~Er war zornig auf mich. Zornig, weil er ansehen musste, wie die älteste aller Elfenmagien leichtfertig und stümperhaft eingesetzt worden war. Zornig, weil er ansehen musste, wie das Leben und das Land seines Volkes unnatürlich verzerrt wurde. Zornig, weil mein Stolz und meine Überheblichkeit zum Zusammenbruch des Bündnisses zwischen Elfen und Zwergen geführt hatten.~ [LARR_45]
+@93  = ~Die Abgetrennte Hand
+
+Larrel erzählte uns die traurige Geschichte von ihrer dunkelsten Stunde. Er beschrieb den aussichtslosen Konflikt mit der dunklen Horde, den verzweifelten Plan, den Mythal anzuwenden, die schrecklichen Folgen des fehlgeschlagenen Zauberversuchs, Labelas Zorn und die Strafe, die ihm auferlegt wurde.~
+@94  = ~Ich wurde in einen Baelnorn verwandelt und dazu verdammt, so lange die Überreste der Hand der Seldarin und ihres Volkes zu bewachen, bis das Astrolabium wieder hergestellt sein würde. Doch dazu musste mein Volk seinen letzten Frieden finden.~ [LARR_46]
+@95  = ~Ihr seid zurückgekommen...~ [LARR_47]
+@96  = ~Larrel, wir haben dieses Tagebuch Eurer Tochter gefunden.~
+@97  = ~Larrel, könntet Ihr uns nach Kuldahar bringen?~
+@98  = ~Larrel, ich habe einige Fragen über das Astrolabium und die Forschung, die Ihr durchgeführt habt, bevor die Hand fiel.~
+@99  = ~Und wir werden wieder zurückkommen. Lebt wohl.~
+@100 = ~Die Frage ist einfach, aber ich habe keine Antwort darauf. Vielleicht gibt es hier andere Elfen, die meine Hilfe brauchen, um nach Arvandor zurückzukehren. Vielleicht gibt es noch etwas, das ich vollbringen muss, um meine Strafe zu erfüllen.~ [LARR_48]
+@101 = ~Ich hoffe, Ihr findet Frieden, Larrel. Lebt wohl.~
+@102 = ~Meine geliebte Tochter... Ich sehe, ihr habt die Hand gründlich durchsucht. Die letzten Einträge beschreiben ihren Entschluss, einen Weg zu finden, das Bündnis mit diesen verfluchten Zwergen wieder zu beleben. Ich habe sie nie wieder gesehen... ~ [LARR_49]
+@103 = ~Ihr habt sie nie wieder gesehen? Was ist aus ihr geworden?~
+@104 = ~Ich bedaure Euren Verlust, Larrel. Ich werde Euch in Ruhe lassen.~
+@105 = ~IHR SCHWACHKÖPFE! Könnt ihr es nicht selbst erkennen? Diese Zwerge haben die schlimmste Grausamkeit begangen, weil sie wussten, wie sie mich damit treffen würden! Sie haben meine Tochter umgebracht! Das werde ich ihnen NIEMALS verzeihen. Trotz der Strafe, die ich für meine Überheblichkeit und meinen Stolz erlitten habe, Labelas soll verflucht sein, wenn er glaubt, dass ich ihnen ihre Tat vergebe! Ich würde in dieser verfluchten Form bleiben und Arvandor nie wieder sehen, wenn ich dafür die Zwerge ihr Verbrechen büßen lassen könnte. LASST MICH JETZT ALLEIN. ICH WILL NICHT MEHR DARÜBER REDEN! ~ [LARR_50]
+@106 = ~Wieder einmal beschämen mich die Fehler, die ich zu Lebzeiten gemacht habe. Ich bin ein Narr. Die Zwerge haben meine Tochter nicht umgebracht. Bis zum Ende hat sie Seite an Seite mit den Zwergen gekämpft, wie ich es in einer längst vergessenen Zeit getan habe. Evayne starb als eine der größten Heldinnen der Hand. Nochmals habt ihr meinen ewigen Dank. Wenn Ihr mich entschuldigen wollt, ich habe über vieles nachzudenken. ~ [LARR_51]
+@107 = ~Selbstverständlich. Lebt wohl, Larrel.~
+@108 = ~Es ist gut, Euch wieder zu sehen.~ [LARR_52]
+@109 = ~Wie geht es mit dem Nachdenken?~
+@110 = ~Uns geht es ebenso, Larrel. Lebt wohl.~
+@111 = ~Zum ersten Mal in vielen hundert Jahren erinnere ich mich daran, wie es ist, Frieden zu finden. Ich danke Euch dafür. Ich werde hier in der Hand bleiben und dafür sorgen, dass alle Elfen, die noch hier sind, es ins Leben nach dem Tode schaffen. Dann wird Labelas mir vielleicht den Weg nach Arvandor öffnen.~ [LARR_53]
+@112 = ~Freut mich zu hören. Larrel, könnt Ihr uns nach Dorntief bringen?~
+@113 = ~Schön, dass es Euch gut geht. Wir sind auf dem Weg zurück nach Kuldahar und könnten Eure Hilfe für die Reise gebrauchen.~
+@114 = ~Lebt wohl, Larrel.~
+@115 = ~Auch wenn Labelas' Fluch mir mein Augenlicht genommen hat, würde ich dieses Loch immer noch erkennen. Was ihr gesehen habt, ist Dorntief, die Höhle der Verräter. Dort haben diese elenden Zwerge sich ihr Zuhause gegraben.~ [LARR_54]
+@116 = ~Seid gewarnt, wenn Euch Eure Reise dorthin bringt. Falls dort noch Zwerge zurückgeblieben sind, erwartet keine Schonung und seid auf alles gefasst. Glaubt keine ihrer Lügen, denn alle führen zu Verrat.~ [LARR_55]
+@117 = ~Noch etwas anderes, bevor wir gehen. Wir haben dieses Tagebuch gefunden, das Eurer Tochter gehört hat.~
+@118 = ~Larrel, bringt uns nach Dorntief.~
+@119 = ~Es tut mir leid, Abenteurer, aber meine Macht ist derzeit stark eingeschränkt. Wenn Ihr nach Dorntief reisen wollt, müsst Ihr selbst Euren Weg finden oder zu einem späteren Zeitpunkt zurückkehren, wenn ich vollständig wiederhergestellt bin.~ ~Es tut mir leid, Abenteurerin, aber meine Macht ist derzeit stark eingeschränkt. Wenn Ihr nach Dorntief reisen wollt, müsst Ihr selbst Euren Weg finden oder zu einem späteren Zeitpunkt zurückkehren, wenn ich vollständig wiederhergestellt bin.~
+@120 = ~Eigentlich müssen wir unsere Vorräte erst aufstocken, bevor wir unsere Reise fortsetzen können. Könntet Ihr uns stattdessen nach Kuldahar bringen?~
+@121 = ~ Larrel, dann habe ich ein paar Fragen zum Astrolabium und zu den Forschuchungen, die Ihr durchgeführt habt, bevor die Hand fiel.~
+@122 = ~Nicht jetzt. Ich habe hier noch etwas zu erledigen. Lebt wohl.~
+@123 = ~Meine Forschung... es war nicht allein meine, weil mehrere von uns mit den Studien der Himmel und seiner Sterne beschäftigt waren. Was ist es, was Ihr wissen wollt?~
+@124 = ~Hat Eure Forschung die Möglichkeit entdeckt, durch die Zeit zu reisen, Larrel... sagen wir, in die Zukunft?~
+@125 = ~Denkt Ihr, dass es möglich ist, dass das Astrolabium verwendet werden kann, um in eine andere Zeit zu reisen, Larrel?~
+@126 = ~Das kann ich, wenn das Euer Wunsch ist, Abenteurer und... ist es auch Euer Wunsch, dass Ihr jetzt reist?~ ~Das kann ich, wenn das Euer Wunsch ist, Abenteurerin und... ist es auch Euer Wunsch, dass Ihr jetzt reist?~
+@127 = ~Was für eine wunderbare Vorstellung, Abenteurer! Natürlich habe ich keine Ahung! Sprecht mit Geralith, er war es, der es baute und er ist derjenige, der es wissen müsste.~ ~Was für eine wunderbare Vorstellung, Abenteurerin! Natürlich habe ich keine Ahung! Sprecht mit Geralith, er war es, der es baute und er ist derjenige, der es wissen müsste.~
+@128 = ~Ich habe mit Geralith gesprochen und er sagte, dass ich mit Euch sprechen sollte.~
+@129 = ~Geralith sagte mir, dass er es baute, um Euch bei Eurer Forschung zu helfen, aber er hat keine Ahnung, ob es zu irgendetwas mehr fähig ist.~
+@130 = ~Lassst mich mit Geralith beraten, wir werden unsere Köpfe zusammenstecken und sehen, was wir uns einfallen lassen können, aber sagt mir erst, warum sollte ich solch eine Maschine machen wollen? Weder die Vergangenheit noch die Zukunft sind für mich noch von Interesse.~
+@131 = ~So fantastische es sich für Euch anhören mag, aber ich wurde in diese Zeit transportiert, als ich durch ein Portal ging, das sich 100 Jahre von jetzt an in der Zukunft befindet, und jetzt suche ich nach einer Möglichkeit, zurückzukehren.~
+@132 = ~Ich bin nicht aus dieser Zeit, wo ich herkomme, ist nicht wichtig, aber ich glaube, dass Euer Astrolabium ein Instrument sein könnte, um in meine Zeit zurückzugelangen.~
+@133 = ~Ich habe geholfen, Ordnung in dieses Chaos zu bringen, das in Eurem verlassenen Turm herrschte und jetzt bitte ich darum, dass Ihr mir helft, mich in meine eigene Zeit zurückzubringen, 100 Jahre in der Zukunft.~
+@134 = ~Faszinierend... faszinierend, muss ich sagen! Es gab eine Zeit, zu der ich von Eurer Geschichte gefesselt gewesen wäre, aber wie ich gesagt habe, mache ich mir keine Gedanken mehr darüber, was vergangen ist oder was noch kommen soll. Ich spreche mit Geralith und werde sehen, was getan werden muss, wenn wir Euch nach Hause brinken sollen.~
+@135 = ~Abenteurer... Ich habe Neuigkeiten. Als ich zuerst mit Geralith über alles sprach, was ich mithilfe des Astrolabiums gelernt hatte, war er sicher, dass es nicht umgebaut und für Euren Zweck verwendet werden könnte, aber er sagte, dass er noch einmal die Mechanismen der Maschine untersuchen würde. Er war dann sehr aufgeregt und...~ ~Abenteurerin... Ich habe Neuigkeiten. Als ich zuerst mit Geralith über alles sprach, was ich mithilfe des Astrolabiums gelernt hatte, war er sicher, dass es nicht umgebaut und für Euren Zweck verwendet werden könnte, aber er sagte, dass er noch einmal die Mechanismen der Maschine untersuchen würde. Er war dann sehr aufgeregt und...~ [mute]
+@136 = ~Suche nach dem Herzsteinjuwel
+
+Wir haben uns bereit erklärt, ein verschwundenes druidisches Artefakt, das Herzsteinjuwel, zu suchen. Offenbar hatte es ein Druide selbst vor Jahren aus Kuldahar entwendet. Arundel glaubt, es könnte sich in einem Tempel in einer Schlucht im Osten von Kuldahar befinden. Wir sollten uns zu diesem Tempel aufmachen und herausfinden, ob das Herzsteinjuwel tatsächlich dort aufbewahrt wird. Falls ja, sollten wir es Arundel bringen, damit er dessen Kräfte nutzen kann, um der Quelle des Bösen auf die Spur zu kommen, das so viel Unheil über den Pass bringt.~
+@137 = ~Suche nach dem Herzsteinjuwel
+
+Unsere Suche nach dem Herzsteinjuwel dauert an. Arundel ist es gelungen, aufgrund der Anhaltspunkte, die wir im Tempel gesammelt haben, den möglichen Aufbewahrungsort des Juwels herauszufinden. Wir sollen uns nun zu den als Drachenauge bekannten vulkanischen Höhlen aufmachen und die Identität der mysteriösen Diebe ermitteln, die den Tempel geplündert und das Juwel gestohlen hatten. Wenn wir Glück haben, befindet sich das Artefakt noch in ihrem Besitz.~
+@138 = ~Tal der Schatten
+
+Wir haben Lysan, die aurilitische Priesterin, getötet und sind zu Kresselack zurückgekehrt. Leider konnte der uns nur die Auskunft geben, dass weder er noch jemand anderes im Tal der Schatten etwas für das Böse konnte, das Kuldahar heimgesucht hat. Es sieht nun so aus, als müssten wir zurück zu Arundel, um ihm dies zu berichten. Vielleicht hat er ja eine Ahnung, was wir als Nächstes tun könnten.~
+@139 = ~Wie Ihr wünscht, Abenteurer...~ ~Wie Ihr wünscht, Abenteurerin...~
+@140 = ~Wenn ihr beschließt, Euch in diesen zwergischen Überrest des Bösen zu wagen, werde ich seinen Ort auf eurer Karte einzeichnen. Ich könnte euch auch hinführen, wenn ihr dies wünscht.~ [LARR_56]

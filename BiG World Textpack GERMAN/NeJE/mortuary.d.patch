@@ -1,0 +1,203 @@
+--- NeJE\dlg\mortuary.d	Fri Oct 05 14:12:18 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\mortuary.d	Tue Apr 09 19:36:54 2019
+@@ -7,17 +7,17 @@
+ APPEND ~MELORAJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~So we are... I tried to escape from the bounty hunters, but instead turned out to be dead!~
+-  	IF ~~ THEN REPLY ~Melora, you shouldn't blame yourself. This is my fault... I lost my mind. I am really sorry, we must leave this place as soon as possible.~ GOTO Kelem1
++	SAY @0
++  	IF ~~ THEN REPLY @1 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~Just curious how often it happens to you to lose your mind.~
+-  	IF ~~ THEN REPLY ~Do not worry, I hope this won't happen again. Let's go!~ GOTO Kelem2
++	SAY @2
++  	IF ~~ THEN REPLY @3 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~Of course. There is nothing to do here.~
++	SAY @4
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -46,17 +46,17 @@
+ APPEND ~LEINAJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~I ... I do not understand. Where I am? What is this horrible place?~
+-  	IF ~~ THEN REPLY ~This... This is the place where you should not be. Let's leave it.~ GOTO Kelem1
++	SAY @5
++  	IF ~~ THEN REPLY @6 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~But how did we get here?~
+-  	IF ~~ THEN REPLY ~You're dead and I'm not. But I'm taking you out of here, let's go.~ GOTO Kelem2
++	SAY @7
++  	IF ~~ THEN REPLY @8 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~Dead? It explains everything. I'll think about it later. Now let's go.~
++	SAY @9
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -84,27 +84,27 @@
+ APPEND ~SHARTJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~What the hell... Damn it, <CHARNAME>, where we are?~
+-  	IF ~~ THEN REPLY ~You won't believe... I killed you.~ GOTO Kelem1
++	SAY @10
++  	IF ~~ THEN REPLY @11 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~What?! What are you talking about? How did you kill me? How could you do that?~
+-  	IF ~~ THEN REPLY ~You remember who my father is, Shar-Teel? His spirit consumed me, and I... I slayed you.~ GOTO Kelem2
++	SAY @12
++  	IF ~~ THEN REPLY @13 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~But how did that happen?~
+-  	IF ~~ THEN REPLY ~Ring of Cyric. I put it on... I thought I could save Keldorn.~ GOTO Kelem3
++	SAY @14
++  	IF ~~ THEN REPLY @15 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-	SAY ~Stupid girl! Oh, gods! How can you waste such a divine gift!~
+-  	IF ~~ THEN REPLY ~Come on! We are allowed to leave, let's go.~ GOTO Kelem4
++	SAY @16
++  	IF ~~ THEN REPLY @17 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem4
+-	SAY ~Yes? This is good news indeed. Just no foolish things anymore!~
++	SAY @18
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -131,27 +131,27 @@
+ APPEND ~TAFFICJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~What? What's that? My dream has come true? I'm great and invincible?~
+-  	IF ~~ THEN REPLY ~You could say that.~ GOTO Kelem1
++	SAY @19
++  	IF ~~ THEN REPLY @20 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~Who is that? Is that you? How did you do that?~
+-  	IF ~~ THEN REPLY ~Very simple. I killed you. You are now the immortal spirit.~ GOTO Kelem2
++	SAY @21
++  	IF ~~ THEN REPLY @22 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~No, no, we did not agree on such terms! I'm still a gnome!~
+-  	IF ~~ THEN REPLY ~Taffic, you wanted to change, didn't you? You have changed. What's wrong with you now?~ GOTO Kelem3
++	SAY @23
++  	IF ~~ THEN REPLY @24 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-	SAY ~That I am dead!~
+-  	IF ~~ THEN REPLY ~Believe me, this is not the worst thing that could happen to you. But enough with this chatter, we should get out of here.~ GOTO Kelem4
++	SAY @25
++  	IF ~~ THEN REPLY @26 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem4
+-	SAY ~And you will help me to fulfill my dream? Let's go, and remember, you owe me!~
++	SAY @27
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -177,27 +177,27 @@
+ APPEND ~DARJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~So, my life is over. Do I regret? Hardly. I can no longer wear the word of Ilmater and that makes me sad. Only that.~
+-  	IF ~~ THEN REPLY ~Oh, I'm sorry, my friend, I didn't think I'd kill you too.~ GOTO Kelem1
++	SAY @28
++  	IF ~~ THEN REPLY @29 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~<CHARNAME>? What has happend to you? How can Dar the Halforc help you?~
+-  	IF ~~ THEN REPLY ~Help me? Can you forgive my stupidity and come back with me?~ GOTO Kelem2
++	SAY @30
++  	IF ~~ THEN REPLY @31 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~What did you do, my friend?~
+-  	IF ~~ THEN REPLY ~Dar, I did not listen to Keldorn and put the Ring of Cyric!~ GOTO Kelem3
++	SAY @32
++  	IF ~~ THEN REPLY @33 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-	SAY ~<CHARNAME>! How could you... You should not do that!~
+-  	IF ~~ THEN REPLY ~I know, Dar... already know. Let's go, please.~ GOTO Kelem4
++	SAY @34
++  	IF ~~ THEN REPLY @35 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem4
+-	SAY ~Of course, <CHARNAME>. You do not need to ask me twice. I am going with you.~
++	SAY @36
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0
+@@ -222,32 +222,32 @@
+ APPEND ~HROTHJ~
+ 
+ IF ~~ THEN BEGIN Kelem0
+-	SAY ~Great. I fear such an outcome nobody in the Brotherhood could foresee.~
+-  	IF ~~ THEN REPLY ~Hrothgar, Hrothgar, I...~ GOTO Kelem1
++	SAY @37
++  	IF ~~ THEN REPLY @38 GOTO Kelem1
+ END
+ 
+ IF ~~ THEN BEGIN Kelem1
+-	SAY ~I should have been more cautious asking for your help. But I did not know you are the child of Bhaal.~
+-  	IF ~~ THEN REPLY ~This is the only thing that you regret you did?~ GOTO Kelem2
++	SAY @39
++  	IF ~~ THEN REPLY @40 GOTO Kelem2
+ END
+ 
+ IF ~~ THEN BEGIN Kelem2
+-	SAY ~I was not planning to die like that.~
+-  	IF ~~ THEN REPLY ~Like that? Do you mean from my hand? It was not me, it was Bhaal in me!~ GOTO Kelem3
++	SAY @41
++  	IF ~~ THEN REPLY @42 GOTO Kelem3
+ END
+ 
+ IF ~~ THEN BEGIN Kelem3
+-	SAY ~It's all the ring? Right?~
+-  	IF ~~ THEN REPLY ~Yes.~ GOTO Kelem4
++	SAY @43
++  	IF ~~ THEN REPLY @44 GOTO Kelem4
+ END
+ 
+ IF ~~ THEN BEGIN Kelem4
+-	SAY ~Being your friend is very dangerous. But being your lover... I am happy that I have passed this cup.~
+-  	IF ~~ THEN REPLY ~Are you kidding? That's good, and it's time to come back. I'm glad you're not mad at me.~ GOTO Kelem5
++	SAY @45
++  	IF ~~ THEN REPLY @46 GOTO Kelem5
+ END	
+ 	
+ IF ~~ THEN BEGIN Kelem5
+-	SAY ~I am ready to go.~	
++	SAY @47	
+   	IF ~True()~ THEN EXTERN ~KELEMVOR~ 4A
+   	IF ~InParty("Edwin")~ THEN EXTERN ~EDWINJ~ Kelem0
+   	IF ~InParty("Kachiko")~ THEN EXTERN ~KACHIJ~ Kelem0

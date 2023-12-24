@@ -1,0 +1,11 @@
+--- NeJE\dlg\AerieFix.d	Tue Oct 16 16:43:35 2018
++++ C:\BWP Patchstudio\patched files\NeJE\dlg\AerieFix.d	Tue Apr 09 19:34:42 2019
+@@ -35,7 +35,7 @@
+ APPEND ~AERIE~
+ 
+ IF ~~ THEN BEGIN N5 // from: 3.1
+-  SAY ~I cannot wait here. This place is illusion. But I'll find my way out.~
++  SAY @0
+   IF ~~ THEN GOTO 5
+ END
+ END

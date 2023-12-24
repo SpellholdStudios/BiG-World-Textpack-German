@@ -1,0 +1,659 @@
+--- ub\tra\german\ubsetup.tra	Tue Nov 12 17:21:02 2013
++++ C:\BWP Patchstudio\patched files\ub\tra\german\ubsetup.tra	Sat Jan 09 06:32:13 2016
+@@ -1,47 +1,50 @@
+-@0    = ~Boo's Entführung von Cliffette~
+-@1    = ~Billy~ 
+-@2    = ~Delag~ 
+-@3    = ~Eforf~ 
+-@4    = ~Sten~ 
+-@5    = ~Vivick~ 
+-@6    = ~Smethy~ 
+-@7    = ~Eleanya~ 
+-@8    = ~Verhüllter Magier~ 
+-@9    = ~De'Lyl-Wache~ 
+-@10   = ~Kleiner Boo~ 
+-@11   = ~Kleinen Boo herbeirufen~ 
+-@12   = ~ ~ 
+-@13   = ~"Boo"~ 
+-@14   = ~Die ist ein kuscheliger kleiner Hamster. Während Minsk glaubt, dass dies der Miniaturriesenweltraumhamster Boo ist, wisst Ihr, dass es nur ein Boo-Ersatz ist, von Euch auf teuflische Weise in Minsks Tasche geschmuggelt.~ 
+-@15   = ~Boo's Reste.~ 
+-@16   = ~Es gibt hier nichts von Interesse. Ihr findet nur die Reste von Boo's letztem Mahl.~ 
+-@17   = ~Boo~ 
+-@18   = ~Boo ist ein kuscheliger kleiner Hamster.  Während Minsk glaubt, dass Boo ein Miniaturriesenweltraumhamster ist, seid Ihr Euch ziemlich sicher, dass das winzige Nagetier nur ein normaler Hamster ist. 
+-
+-Eine Nebenwirkung der kürzlichen Entführung Boos ist es, dass er jetzt auf magische Weise wasserresistent bis zu 50 Fuß ist.~ 
+-@19   = ~Habt Ihr Euren Tierbegleiter verloren, oder seid Ihr Eures Vertrauten einfach nur überdrüssig?  Kommt zu "Smethy's Hochwertige Haustiere"!  (Werbeanzeige autorisiert durch Aljaf den Wahnsinnig Originellen.)~ 
++@0    = ~Die Entführung von Boo von Cliffette~
++@1    = ~Billy~
++@2    = ~Delag~
++@3    = ~Eforf~
++@4    = ~Sten~
++@5    = ~Vivick~
++@6    = ~Smethy~
++@7    = ~Eleanya~
++@8    = ~Verhüllter Magier~
++@9    = ~De'Lyl-Wache~
++@10   = ~Kleiner Boo~
++@11   = ~Kleinen Boo herbeirufen~
++@12   = ~ ~
++@13   = ~"Boo"~
++@14   = ~Die ist ein kuscheliger kleiner Hamster. Während Minsk glaubt, dass dies der Miniaturriesenweltraumhamster Boo ist, wisst Ihr, dass es nur ein Boo-Ersatz ist, von Euch auf teuflische Weise in Minsks Tasche geschmuggelt.~
++@15   = ~Boos Reste.~
++@16   = ~Es gibt hier nichts von Interesse. Ihr findet nur die Reste von Boos letztem Mahl.~
++@17   = ~Boo~
++@18   = ~Boo ist ein kuscheliger kleiner Hamster. Während Minsk glaubt, dass Boo ein Miniaturriesenweltraumhamster ist, seid Ihr Euch ziemlich sicher, dass das winzige Nagetier nur ein normaler Hamster ist.
++Eine Nebenwirkung der kürzlichen Entführung von Boo ist, dass er jetzt auf magische Weise wasserresistent bis zu 50 Fuß ist.~ 
++@19   = ~Habt Ihr Euren Tierbegleiter verloren oder seid Ihr Eures Vertrauten einfach nur überdrüssig? Kommt zu "Smethys Hochwertige Haustiere"! (Werbeanzeige autorisiert durch Aljaf den Wahnsinnig Originellen.)~
+ @20   = ~Die Suna Seni/Valygar-Beziehung~ 
+ @21   = ~Suna Seni~ 
+ @22   = ~Maharadscha~ 
+ @23   = ~Arbanes Schwert +3~ 
+ @24   = ~Arbanes Schwert der Geschicklichkeit 
+-Dies ist nur eines von zahlreichen Schwertern, die den Namen des Magiers tragen, der als erster herausfand, wie man eine Klinge auf diese Art und Weise verzaubern kann. Diese Waffe hier wurde lange Zeit vom Gesetzlosen Garno geführt und bereitete dem Leben von zahlreichen Klerikern ein Ende. Garno wurde zum Gesetzlosen und Götterhasser, als seine Familie von Klerikern Loviatars auf dem Scheiterhaufen verbrannt wurde. Er verbrachte den Rest seines Lebens damit, sich zu rächen. Trotz seines großen Hasses gegen jeden, der ein Anhänger der Götter war, wird spekuliert, dass ihm diese Waffe durch die Taten eines Gottes des Chaos zufiel. Diesem Gott gefiel offenbar die Zerstörung und das Chaos, das der junge Mann anrichtete 
++Dies ist nur eines von zahlreichen Schwertern, die den Namen des Magiers tragen, der als erster herausfand, wie man eine Klinge auf diese Art und Weise verzaubern kann. Diese Waffe hier wurde lange Zeit vom Gesetzlosen Garno geführt und bereitete dem Leben von zahlreichen Klerikern ein Ende. Garno wurde zum Gesetzlosen und Götterhasser, als seine Familie von Klerikern Loviatars auf dem Scheiterhaufen verbrannt wurde. Er verbrachte den Rest seines Lebens damit, sich zu rächen. Trotz seines großen Hasses gegen jeden, der ein Anhänger der Götter war, wird spekuliert, dass ihm diese Waffe durch die Taten eines Gottes des Chaos zufiel. Diesem Gott gefiel offenbar die Zerstörung und das Chaos, das der junge Mann anrichtete.
++
++EIGENSCHAFTEN: 
+ 
+-SPEZIFISCHE EIGENSCHAFTEN: 
++Hast (1x täglich, Dauer: 12 Sekunden)
+ 
+-Besondere Fähigkeiten: Der Träger ist gegen "Personen festhalten" immun und kann man einmal täglich Hast einsetzen (12 Sekunden lang). 
+-ETW0: -3 
+-Schaden: 1W6+3  
+-Gewicht: 2 
+-Initiativfaktor: 1 
+-Waffenfertigkeit: Kurzschwert 
+-Waffentyp: Einhändig 
++Der Träger ist immun gegen den Zauber Personen festhalten. 
++
++Schaden: 1W6 +3 (Klinge)
++ETW0-Bonus: -3
++Gewicht: 2
++Initiativefaktor: 1
+ Mindeststärke: 5
++Fertigkeit: Kurzschwert
++Typ: 1-händig 
++
+ Kann nicht verwendet werden von: 
+-Druiden
+-Klerikern
+-Magiern
+-Tiermeistern~ 
++- Druiden
++- Klerikern
++- Magiern
++- Tiermeistern~ 
+ @25   = ~"Katz und Maus" (Bodhi jagt euch durch die Zauberfeste) von Ghreyfain~ 
+ @26   = ~Gorje Dunkelhügel und die erweiterte Illithium-Quest~ 
+ @27   = ~Die Pai'Na/Spinnenfluch-Quest~ 
+@@ -49,44 +52,49 @@
+ @29   = ~Wiederherstellung: Zufallsbegegnungen~
+ @30   = ~Wiederherstellung: Gegenstände~
+ @31   = ~Wolfpelztasche~
+-@32   = ~Die raue Tasche wurde aus dem Fell eines großen Wolfes geschaffen. In ihr könnt ihr einige Sachen verstauen, die ihr auf euren Reisen gefunden habt. 
++@32   = ~Die raue Tasche wurde aus dem Fell eines großen Wolfes gefertigt. In ihr könnt ihr einige Sachen verstauen, die ihr auf euren Reisen gefunden habt.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN: 
++EIGENSCHAFTEN: 
+ 
+-Kapazität: 10 Gegenstände 
+-Gewicht: 5~ 
+-@33   = ~Krummsäbel +1, Shazzellim
+-Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbarem Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten, und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit Wortloses Zaubern. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
++Kapazität: 10 Gegenstände
++Gewicht: 5~
++@33   = ~Krummsäbel Shazzellim
++Dieser Krummsäbel ist von recht schlechter Qualität, aber hinter seinem unscheinbarem Äußeren verbirgt sich eine große, böse Macht. Shazzellim wurde nur zu dem Zweck gefertigt, Harfner zu töten und ist für diese Aufgabe bestens geeignet. Wird ein Barde von dieser Klinge getroffen, muss er einen Rettungswurf gegen Zauber bestehen oder sterben. Der Krummsäbel wurde von den Roten Magiern von Tay angefertigt und verfügt außerdem über die Fähigkeit Wortloses Zaubern. Deswegen wird er oft an Kriegermagier in den Diensten der Roten Magier vergeben. Es erübrigt sich fast zu sagen, dass man sich als Träger dieser Waffe bei den Harfnern nicht gerade beliebt macht.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Der Träger ist Immun gegen Verstummung.
++Wird ein Barde getroffen, wird dieser sofort getötet (RW -4 gg. Zauber)
+ 
+-Besondere Fähigkeiten: er Träger verfügt über die Fähigkeit "Wortloses Zaubern". Wird ein Barde mit dem Krummsäbel getroffen, muss er einen Rettungswurf -4 gegen Zauber bestehen oder sterben.
+-ETW0: -1
+-Schaden: 1W8+1 (Klingenwaffe)
++Schaden: 1W8 +1 (Klinge)
++ETW0-Bonus: -1
+ Gewicht: 3
+ Initiativefaktor: 4
+-Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+-Waffentyp: Einhändig
++Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+-Klerikern
+-Magiern
+-Dieben
+-Tiermeistern
+-Gut gesinnten Charakteren~
++- Charakteren guter Gesinnung
++- Klerikern
++- Magiern
++- Dieben
++- Tiermeistern~
+ 
+-@34   = ~Wenn dieser Stab benutzt wird, werden Gegner von starken Fäden festgehalten, die wie Spinnfäden, aber viel stärker und länger sind.  Wesen, die in ihnen gefangen sind oder sie einfach nur berührt haben, bleiben an den klebrigen Fäden hängen.  Jeder im Gebiet, in dem der Zauber ausgesprochen wurde, muss einen Rettungswurf -5 gegen Zauber bestehen. Wenn der Wurf erfolgreich war, ist das Wesen frei und kann das Gebiet verlassen. Wenn er versagt, ist das Wesen in den Spinnfäden gefangen und kann sich nicht bewegen. 
++@34   = ~Wenn dieser Stab benutzt wird, werden Gegner von starken Fäden festgehalten, die wie Spinnfäden, aber viel stärker und länger sind. Wesen, die in ihnen gefangen sind oder sie einfach nur berührt haben, bleiben an den klebrigen Fäden hängen. Jeder im Gebiet, in dem der Zauber ausgesprochen wurde, muss einen Rettungswurf -5 gegen Zauber bestehen. Wenn der Wurf erfolgreich war, ist das Wesen frei und kann das Gebiet verlassen. Wenn er versagt, ist das Wesen in den Spinnfäden gefangen und kann sich nicht bewegen. 
+ In jeder Runde, in der das Wesen in den Spinnfäden gefangen ist, muss es einen Rettungswurf bestehen, oder es kann sich weiterhin nicht bewegen.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Ziel wird fest gehalten
+ 
+-Effekt:  Hält das Ziel fest, bis ein Rettungswurf -5 gegen Zauber gelungen ist. 
+ Reichweite:  60 Fuß
+ Gebiet des Effektes: Besonders
+-Rettungswurf: Besonders
+-Dauer:  1 Runde 
+-Benutzbar von: 
+-Zauberer
+-Barde~
++Rettungswurf: -5 gg. Zauber
++Dauer: 1 Runde
++
++Kann nur verwendet werden von: 
++- Magier
++- Barde~
+  
+ @35   = ~Verschiedene Änderungen~
+ @36   = ~Malaaq~
+@@ -142,13 +150,13 @@
+ 
+ Es ist unklar, ob es diese wundervolle Statuette dem Benutzer erlaubt, den Geist eines legendären Kriegers zu lenken, oder ob sie nur den instinktiven, urtümlichen Zorn in des Besitzers eigener Seele entfesselt.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Verwandelt den Benutzer (1x täglich, Dauer: 4 Runden)
+ 
+-Kann einmal am Tag verwendet werden
+-Dauer: 4 Runden
+-Setzt die Rüstungsklasse auf -5
+-Wirkt Hast auf den Benutzer
++Wirkt Hast auf den Benutzer und setzt seine RK auf -5.
+ Der Benutzer hat zwei Angriffe pro Runde mit einem Kurzschwert +4, als ob er 2 Punkte in der Waffenfertigkeit Kurzschwert hätte.
++
+ Kann nicht verwendet werden von:
+ Kämpfern~
+ @75   = ~Feindbann +5
+@@ -161,21 +169,26 @@
+ 
+ Die Legende besagt, daß Feindbanns beachtliche Kräfte noch einmal gesteigert werden, wenn das Schwert mit der verzauberten Scheide des ursprünglichen Eigentümers Fflar vereinigt wird.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++RW-Bonus: -1
++Bei Treffer wird Larlochs Geringerer Lebenskraftentzug auf das Ziel gewirkt.
+ 
+-Besondere Fähigkeiten: Der Träger erhält +1 auf alle Rettungswürfe. Bei jedem Treffer wird Larlochs Geringerer Lebenskraftentzug auf das Ziel gewirkt (kein Rettungswurf).
+-ETW0: -5
+-Schaden: 2W4+5 (Klingenwaffe), +6 gegen Untote, Gestaltwandler und Externare (Dämonen, Planetare usw.)
++Schaden:
++ 2W4 +5 (Klinge)
++ 2W4 +6 (gg. Untote, Gestaltwandler und Externare)
++ETW0-Bonus: -5
+ Gewicht: 5
+ Initiativefaktor: 3
+-Waffenfertigkeit: Bastardschwert
+-Waffentyp: Einhändig
+ Mindeststärke: 11
++Fertigkeit: Bastardschwert
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+-Dieben
+-Druiden
+-Klerikern
+-Magiern~
++- Dieben
++- Druiden
++- Klerikern
++- Magiern~
+ @76   = ~Ixils Dorn +6
+ 
+ Kurz nachdem die Zeit der Sorgen begonnen hatte, wurden die räuberischen Nomadenstämme der Wüste von Calimshan von einem Anführer vereint, einem graumsamen und brutalen Riesen von Mann, dem Kriegsherrn Ixil Xaxsha.
+@@ -189,22 +202,24 @@
+ 
+ Tatsächlich wurde der Körper Ixils nie gefunden. Ixils Dorn, sein gefürchteter Speer und Zeichen seiner Macht, wurde dagegen geborgen. Beim Versuch, dieses unheilige Artefakt zu zerstören, wurde es in mehrere Teile zerschlagen und über die Südlande verteilt.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Auf dem Träger liegt Handlungsfreiheit.
++Bei Treffer wird das Ziel, wenn ihm ein Rettungswurf misslingt, fest gehalten und erleidet für zusätzlich 1W6 +5 SP pro Runde  (Dauer: 3 Runden)
+ 
+-Besondere Fähigkeiten: Auf dem Träger der Waffe wirkt permanent Handlungsfreiheit.
+-Fähigkeiten im Kampf: Bei jedem Treffer muss dem Gegner ein Rettungswurf gelingen. Scheitert er, wird er drei Runden an der Stelle festgenagelt und erleidet in jeder Runde zusätzliche 1W6+5 Schadenspunkte.
+-ETW0: -6
+-Schaden: 1W6+6 (Stichwaffe)
++Schaden: 1W6 +6 (Stich)
++ETW0-Bonus: -6
+ Gewicht: 5
+ Initiativefaktor: 2
+-Waffenfertigkeit: Speer
+-Waffentyp: Beidhändig
+ Mindeststärke: 5
++Fertigkeit: Speer
++Typ: 2-händig
++
+ Kann nicht verwendet werden von:
+-Dieben
+-Klerikern
+-Magiern~
+-@77   = ~Keule der Detonation +5
++- Dieben
++- Klerikern
++- Magiern~
++@77   = ~Keule der Detonation
+ 
+ Eine Amnische Sage erzählt von Nysrogh, einem mächtigen Bewohner der unteren Ebenen, der von einer sorglosen Zauberin namens Unileth auf Amn losgelassen wurde.
+ 
+@@ -216,21 +231,25 @@
+ 
+ Die primitive Holzkeule brennt immer noch mit dem wütenden Feuer des Dämonen, der durch die mächtigen Verzauberungen der Waffe auf ewig in ihr gefangen ist. Manchmal kann sich der Zorn des Dämons in Form einer feurigen Entladung manifestieren.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++30% Chance für zusätzlich 15 SP (Feuer)
++5% Chance bei Treffer einen Feuerball hervorzurufen
+ 
+-Besondere Fähigkeiten: 30% aller Treffer verursachen zusätzlich 15 SP durch Feuer. Bei 5% aller Treffer wird ein Feuerball ausgelöst.
+-ETW0: -5
+-Schaden: 1W6+5 (Wuchtwaffe), +5 SP durch Feuer
++Schaden: 1W6 +5 (Wucht)
++Schadensbonus: +5 (Feuer)
++ETW0-Bonus: -5
+ Gewicht: 3
+ Initiativefaktor: 4
+-Waffenfertigkeit: Keule
+-Waffentyp: Einhändig
+ Mindeststärke: 5
++Fertigkeit: Keule
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+-Magiern~
++- Magiern~
+ @78   = ~Immervoller Köcher
+ 
+-Eine oft erzählte, aber nie überprüfte Legende berichtet, dass der Köcher einst als Geschenk an Herzog Orin Turgbor gegeben wurde. Orin kümmerte sich wenig um Politik und die alltäglichen Pflichten seines Lehens und verschwand oft wochenlang in die dichten Wälder, die den größten Teil seines Landes ausmachten, und führte dort das Leben eines einsamen Jägers.
++Eine oft erzählte, aber nie bestätigte Legende berichtet, dass der Köcher einst als Geschenk an Herzog Orin Turgbor gegeben wurde. Orin kümmerte sich wenig um Politik und die alltäglichen Pflichten seines Lehens und verschwand oft wochenlang in die dichten Wälder, die den größten Teil seines Landes ausmachten, und führte dort das Leben eines einsamen Jägers.
+ 
+ Aber so sehr er es auch versuchte, Orin lernte nie die Kunst der Herstellung von Pfeilen, und er war gezwungen, zu seinem Schloß zurückzukehren, wenn ihm die Pfeile ausgingen. Und jedes Mal wurde er bei seiner Rückkehr von diversen Adligen und Kaufleuten und ihren kleinlichen Problemchen überschwemmt, die seine Aufmerksamkeit einforderten.
+ 
+@@ -238,10 +257,10 @@
+ 
+ Der Händler entpuppte sich bald als ein grausamer und unerträglicher Tyrann, und innerhalb eines Monats hatten Orins Untertanen ihren neuen Herrscher abgesetzt, holten Orin aus seinem geliebten Wald zurück und schlossen ihn in seiner eigenen Burg ein - und zwangen ihn, wieder ihr Herrscher zu sein. Um sicherzustellen, dass er nie wieder in die Wälder entkommen konnte, wurde der kostbare Köcher gut verborgen, und seine Erwähnung mit dem Tode bestraft.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
+ 
+ Der Köcher enthät eine unbegrenzte Anzahl von Pfeilen +1.~
+-@79   = ~Sturmstern +5
++@79   = ~Sturmstern
+ 
+ Die uralte Machart dieser Waffe haben Gelehrte mit Nesseril selbst in Verbindung gebracht. Normalerweise findet man Streitkolben mit Platten aus Elektrum, wie es Sturmstern einer ist, im Norden; was diese besonders mächtige Waffe aber angeht, so hört man hier und da Gerüchte, sie sei in den südlichen Regionen der Reiche verloren gegangen.
+ 
+@@ -249,21 +268,25 @@
+ 
+ Trotz seiner beachtlichen Größe ist Sturmstern überraschend leicht und lässt sich besonders gut im Kampf führen. Eindrucksvolle, wenn auch harmlose Lichtbögen blitzen auf, wenn man ihn führt - ein sichtbares Zeugnis der mächtigen elektrischen Verzauberungen, die in den Kopf der Waffe eingeflossen sind.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
+ 
+-Besondere Fähigkeiten: Träger erhält +20% auf Elektrizitätsresistenz. Bei 5% aller Treffer wird Kugelblitz auf das Opfer gewirkt.
+-ETW0: -5
+-Schaden: 1W6+6 (Wuchtwaffe), +1W6 SP durch Elektrizität
++Elektrizitätsresistenz: +20%
++5% Chance bei Treffer Kugelblitz auf das Ziel zu wirken
++
++Schaden: 1W6 +6 (Wucht)
++Schadensbonus: 1W6 (Elektrizität)
++ETW0-Bonus: -5
+ Gewicht: 4
+ Initiativefaktor: 2
+-Waffenfertigkeit: Streitkolben
+-Waffentyp: Einhändig
+ Mindeststärke: 10
++Fertigkeit: Streitkolben
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+-Dieben
+-Druiden
+-Magiern~
+-@80   = ~Schwarzstahlschild +4
++- Dieben
++- Druiden
++- Magiern~
++@80   = ~Schwarzstahlschild
+ 
+ Die Zwerge des Clans von Clangeddin waren für ihre Arbeiten mit Schwarzstahl bekannt, einem Material, dass es nirgends gab außer in ihrer Heimat, den Wandernden Bergen. In ihrem Streben, immer mehr davon zu finden, gruben sie immer tiefer in die Haut der Erde hinein.
+ 
+@@ -275,18 +298,20 @@
+ 
+ Nach dem Tod ihres Anführers und dem Verschwinden ihres Helden Glimred wussten die Zwerge, dass es nur noch eine Frage der Zeit war, bis ihr Clan von ihren Feinden aus dem Unterreich überrannt würde. Bevor der Clan sich über das Angesichts Faerûns vertreute, verkaufte er diesen Schild an den höchsten Bieter, doch wer ihn von den Zwergenschmiedern erwarb, gaben diese nie preis.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Feuer-, Kälte-, Säure- und Giftresistenz: +10%
+ 
+-Besondere Fähigkeiten: Der Träger erhält +10% Feuer-, Kälte-, Säure- und Giftresistenz.
+ RK-Bonus: -5
+ Gewicht: 8
+ Mindeststärke: 15
++
+ Kann nicht verwendet werden von:
+-Barden
+-Dieben
+-Druiden
+-Magiern~
+-@81   = ~Kit: Rechtfertiger~
++- Barden
++- Dieben
++- Druiden
++- Magiern~
++@81   = ~Klasse: Rechtfertiger~
+ @82   = ~Rechtfertiger~
+ @83   = ~Rechtfertiger~
+ @84  = ~RECHTFERTIGER: Es gibt Abenteuer, die so fordernd, und Gegner, die so gefährlich sind, daß jemand gebraucht wird, dessen Kampfkünste die eines normalen Waldläufers bei weitem übertreffen. Ein solcher Mensch ist der Rechtfertiger. Durch die meisterliche Beherrschung militärischer Taktik und der Kampfkünste sowie aufgrund seiner stählernen Nerven kann er sich zur obersten Elite der Krieger zählen.
+@@ -297,16 +322,16 @@
+ 
+ Vorteile:
+ -  +10% auf die Fähigkeit Schleichen
+--  +1 auf Initiative und ETW0 alle 10 Stufen
++-  -1 auf Initiative und ETW0 alle 10 Stufen
+ 
+ Nachteile:
+ -  Der Rechtfertiger kann keine Tiere bezaubern.
+--  Die Zauberfertigkeiten sind beschränkt auf:
+ -  Kann keine Klassenkombination eingehen.
++-  Die Zauberfertigkeiten sind beschränkt auf:
+ Leichte Wunden heilen und Rüstung des Glaubens je einmal pro Tag ab Stufe 8
+ Glück und Furcht bannen je einmal pro Tag ab Stufe 10
+ Heilige Macht entlehnen einmal pro Tag ab Stufe 12~
+-@85   = ~Kit: Wilder~
++@85   = ~Klasse: Wilder~
+ @86   = ~Blutrausch~
+ @87   = ~Ruf des Wilden~
+ @88   = ~Wildhund~
+@@ -326,7 +351,7 @@
+ -  Kann einmal täglich den Ruf des Wilden einsetzen. Dies beschwört einen Tiergefährten, der für 3 Runden + 1 Runde pro Stufe für den Anwender kämpft. Auf höheren Stufen werden mächtigere Gefährten beschworen.
+ 
+ Nachteile:
+--  Ist nach dem Abklingen eines Blutrauschs erschöpft. In diesem Zustand bekommt er einen Malus von -2 auf Trefferwürfe, Schaden und Rüstungsklasse.
++-  Ist nach dem Abklingen eines Blutrauschs erschöpft. In diesem Zustand bekommt er einen Malus von 2 auf Trefferwürfe, Schaden und Rüstungsklasse.
+ -  Kann in den Waffenkategorien Bastardschwert, Langschwert, Kurzschwert, Zweihänder, Katana, Krummsäbel, Hellebarde, Flegel und Armbrust nur einen Fertigkeitspunkt vergeben.
+ -  Darf keine Rüstungen oder Großschilde tragen.
+ -  Sein maximaler Charisma-Wert ist 2 Punkte niedriger als der eines normalen Angehörigen seiner Rasse.~
+@@ -339,9 +364,10 @@
+ 
+ Phenuel und ihre Stiefel wurden eines Abends in Nashkell getrennt, als sie sich schon zur Nachtruhe zurückgezogen hatte. Einigen Kunden gelang es, sie ausfindig zu machen, und sie mußte nur mit dem Nachtgewand bekleidet durchs Fenster fliehen. Wenig überraschend, wagte sie es nicht, zurückzukommen und die Stiefel zu holen, und man hat sie seither noch nicht wieder gesehen. Dasselbe galt für die Stiefel - bis jetzt...
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
+ 
+-Der Träger kann die Macht der Stiefel aktivieren, wann er will. Sie verleihen 20 Sekunden lang einen Bonus von +6 auf alle Rettungswürfe und verbessern die Rüstungsklasse um 8. Der Träger kann während dieser Zeit jedoch nicht angreifen, keine Zauber wirken, keine Diebesfähigkeiten einsetzen und sich nicht im Schatten verstecken.
++Wirkung: RW-Bonus: -6, RK-Bonus: -8, Dauer: 20 Sekunden (Beliebig oft aktivierbar)
++Der Benutzer kann während der Wirkung nicht angreifen, keine Zauber wirken, keine Diebesfähigkeiten einsetzen und sich nicht im Schatten verstecken.
+ 
+ Gewicht: 3~
+ 
+@@ -350,81 +376,110 @@
+ 
+ Selbst ein mächtiges, heiliges Relikt wie Carsomyr ist durch das heilige Auge Tyrs noch zusätzlich verstärkt worden.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
+ 
+-Besondere Fähigkeiten: Der Träger erhält 50% Magieresistenz und kann dreimal täglich Magie bannen wirken.
+-Eigenschaften im Kampf: Wenn das Schwert einen Gegner trifft wirkt es Magie bannen.
+-ETW0: -6
+-Schaden: 1W10+6 (Klingenwaffe), +6 gegen chaotisch böse Gegner 
++Magie bannen (3x täglich)
++Magierresistenz: +50%
++Wirkt bei Treffer auf das Ziel Magie bannen
++
++Schaden: 1W10 +6 (Klinge)
++Schadensbonus: +6 gg. chaotisch böse Wesen
++ETW0-Bonus: -6
+ Gewicht: 6
+ Initiativefaktor: 4
+-Waffenfertigkeit: Zweihänder
+-Waffentyp: Beidhändig
+ Mindeststärke: 14
+- Kann nur von Paladinen verwendet werden.~
++Fertigkeit: Zweihänder
++Typ: 2-händig
++
++Kann nur verwendet werden von:
++- Paladinen~
+ 
+ @100  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+ 
+ Jetzt, wo der Flegel der Zeitalter mit allen fünf Waffenköpfen versehen ist, ist das Potenzial dieser von den Rakshasa erschaffenen Waffe vollständig ausgeschöpft.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
+ 
+-Besondere Fähigkeiten: Der Träger erhält 5% Magieresistenz. Außerdem wirkt auf den Träger Handlungsfreiheit. 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+-ETW0: -5
+-Schaden: 1W6+6 (Wuchtwaffe), +2 SP durch Säure, +2 SP durch Kälte, +2 SP durch Feuer, +2 SP durch Gift, +2 SP durch Elektrizität
++Auf dem Träger liegt Handlungsfreiheit.
++Magierresistenz: +5%
++Es besteht eine Chance von 33% das Ziel zu verlangsamen.
++
++Schaden: 1W6 +6 (Wucht)
++Schadensbonus:
++ +2 (Säure)
++ +2 (Kälte)
++ +2 (Feuer)
++ +2 (Gift)
++ +2 (Elektrizität)
++ETW0-Bonus: -5
+ Gewicht: 8
+ Initiativefaktor: 2
+-Waffenfertigkeit: Flegel/Morgenstern
+-Waffentyp: Einhändig
+ Mindeststärke: 13
++Fertigkeit: Flegel/Morgenstern
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen
+- Tiermeistern~
++- Dieben
++- Druiden
++- Magiern
++- Mönchen
++- Tiermeistern~
+ 
+ @101  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+ 
+ Dieser Flegel verfügt über vier Waffenköpfe und verursacht Feuer-, Kälte, Säure- und Giftschaden. Wenn man den fünften Waffenkopf für den Flegel der Zeitalter finden könnte, würde diese beeindruckende Waffe noch mächtiger.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Es besteht eine Chance von 33% das Ziel zu verlangsamen.
+ 
+-Besondere Fähigkeiten: 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+-ETW0: -4
+-Schaden: 1W6+5 (Wuchtwaffe), +1 SP durch Feuer, +1 SP durch Kälte, +1 SP durch Säure, +1 SP durch Gift
++Schaden: 1W6 +5 (Wucht)
++Schadensbonus:
++ +1 (Säure)
++ +1 (Kälte)
++ +1 (Feuer)
++ +1 (Gift)
++ETW0-Bonus: -4
+ Gewicht: 9
+ Initiativefaktor: 3
+-Waffenfertigkeit: Flegel/Morgenstern
+-Waffentyp: Einhändig
+ Mindeststärke: 13
++Fertigkeit: Flegel/Morgenstern
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen
+- Tiermeistern~
++- Dieben
++- Druiden
++- Magiern
++- Mönchen
++- Tiermeistern~
+ 
+ @102  = ~Dieser Flegel hat sich lange Zeit im Besitz von Fürst de'Arnise befunden. Er stellt ein Relikt aus seinen Tagen als junger Abenteurer dar. Der Flegel wurde zerlegt, und die einzelnen Teilen waren an verschiedenen Orten aufbewahrt. Er wurde nur in äußersten Notfällen zusammengesetzt und verwendet. Fürst de'Arnise war über die mächtige Magie besorgt, die diese Waffe ausstrahlt, wenn sie vollständig ist. Seine Sorge war in keiner Weise unberechtigt. Der Flegel hat sozusagen eine Spur der Zerstörung durch die Geschichte gezogen, seit jenen Tagen, in denen er hergestellt wurde. Der Flegel wurde von den kriegerischen Rakshasa hergestellt. Das ist eine Rasse mächtiger und rachsüchtiger Geister, die normalerweise auf anderen Ebenen haust und die Materielle Ebene heimsucht, um Menschen zu jagen und sie zu verschlingen. Dieser Flegel wurde so geschaffen, dass er an die verschiedensten Kampfsituation angepasst werden kann. Während einer besonders wilden Jagd verloren die Rakshasa den Flegel, konnten ihn aber, dank der mächtigen Aura, von der er umgeben ist, wieder aufspüren. Sie stellten fest, dass er inzwischen im Besitz eines mächtigen menschlichen Kriegers war. Die Rakshasa eroberten den Flegel in einem titanischen Kampf zurück. Das brachte die Rakshasa auf eine Idee. Seit jenen Tagen haben sie den Flegel schon oft 'verloren' und dann wieder beschafft. Es ist nämlich so, dass mächtige Gegenstände dazu neigen, in die Hände von mächtigen Wesen zu geraten. Wenn man diese dann stellt, kann man mit den ruhmreichsten aller Schlachten rechnen.
+ 
+ Dieser Flegel verfügt über vier Waffenköpfe und verursacht Feuer-, Kälte, Säure- und Elektrizitätsschaden. Wenn man den fünften Waffenkopf für den Flegel der Zeitalter finden könnte, würde diese beeindruckende Waffe noch mächtiger.
+ 
+-SPEZIFISCHE EIGENSCHAFTEN:
++EIGENSCHAFTEN:
++
++Es besteht eine Chance von 33% das Ziel zu verlangsamen.
+ 
+-Besondere Fähigkeiten: 33% aller Treffer verlangsamen das Ziel (kein Rettungswurf).
+-ETW0: -4
+-Schaden: 1W6+5 (Wuchtwaffe), +1 SP durch Feuer, +1 SP durch Kälte, +1 SP durch Säure, +1 SP durch Elektrizität
++Schaden: 1W6 +5 (Wucht)
++Schadensbonus:
++ +1 (Säure)
++ +1 (Kälte)
++ +1 (Feuer)
++ +1 (Elektrizität)
++ETW0-Bonus: -4
+ Gewicht: 9
+ Initiativefaktor: 3
+-Waffenfertigkeit: Flegel/Morgenstern
+-Waffentyp: Einhändig
+ Mindeststärke: 13
++Fertigkeit: Flegel/Morgenstern
++Typ: 1-händig
++
+ Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen
+- Tiermeistern~
++- Dieben
++- Druiden
++- Magiern
++- Mönchen
++- Tiermeistern~
+ 
+ //Sarevok stuff
+ 
+@@ -438,11 +493,11 @@
+ 
+ Ging einige alte Briefe durch - sind es drei Jahre her, seit ich Tamoko sah? Das kann nicht wahr sein.
+ 
+-'Die Sanfte' setzte bei Flut Segel. Die Nichte des Kapitäns ist von einem ungewöhnlich starkem Interesse für importierte Waren besessen. Ich nehme an, dass es eine vergebene Hoffnung ist, dass sie keinen Magen für die See hat, so dass ich sie nicht in meiner Kajüte behalten muss, um sie zu meiden. Der zweite Maat scheint ein Falschspieler zu sein.
++'Die Sanfte' setzte bei Flut Segel. Die Nichte des Kapitäns ist von Importwaren vollkommen besessen. Ich schätze, dass es vergebliche Hoffnung ist, daß sie bald Seekrank wird, damit ich nicht in meiner Kajüte bleiben muss, um sie zu meiden. Der zweite Maat scheint ein Falschspieler zu sein.
+ 
+ 13 Eleint, 1358
+ 
+-Athkatla ist so angenehm geldgierig wie immer, aber einige gewissenhafte neutrale Schleicher gehen außerhalb meines Gasthofs auf Streife und werfen mir jedes mal, wenn ich vorbeikomme, schmutzige Blicke entgegen. Die Innung der Diebe findet offensichtlich, dass ich ihre Gastfreundschaft wieder überbeansprucht habe. Vielleicht sollte ich mich zur Abwechselung darauf konzentrieren, Tamoko zu finden.
++Athkatla ist so wunderbar habsüchtig wie immer, aber einige gewissenhafte, neutrale Schleicher gehen außerhalb meines Gasthofs auf Streife und werfen mir jedes mal, wenn ich vorbeikomme, stechende Blicke zu. Die Innung der Diebe findet offensichtlich, dass ich ihre Gastfreundschaft erneut überbeansprucht habe. Vielleicht sollte ich mich zur Abwechselung darauf konzentrieren, Tamoko zu finden.
+ 
+ 18 Eleint, 1358
+ 
+@@ -839,52 +894,51 @@
+ 
+ EIGENSCHAFTEN:
+ 
+-ETW0 :-1
+-Schaden: 1W8 -1
+-Schadensart: durchbohren
++Schaden: 1W8 -1 (Stich)
++ETW0-Malus: +1
+ Gewicht: 3
+-Geschwindigkeitsfaktor: 2
+-Fertigkeit: Scimitar/Wakizashi/Ninja-To
++Initiativefaktor: 2
++Mindeststärke: 5
++Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+ Typ: 1-händig
+-MIndeststärke: 5
+ 
+ Kann nicht verwendet werden von:
+-  Druiden
+-  Klerikern
+-  Magiern
+-  Tiermeistern~
++- Druiden
++- Klerikern
++- Magiern
++- Tiermeistern~
+ 
+ @1298 = ~In den Jahren im Anschluss an sein Wiederaufleben durch <CHARNAME> ließ sich Sarevok nie an irgendeinem Ort lange nieder. In Berdusk hat er eine Armee einfallender Orks besiegt, wie man sagt, und solch schreckliche Macht und Wut gezeigt, dass verängstigte Ortsansässige nicht sicher waren, vor wem sie sich mehr fürchten sollten. In Westtor kam er als Eroberer an, brutal seinen Willen geltend machend, nur um Monate später auf mysteriöse Weise zu verschwinden. Er handelte wie ein Mann, der sich selbst nicht kannte, und alle Geschichten stimmten darin überein, dass Sarevok eine gequälte Seele war, die zwischen Leben und Tod schwankte und niemals eines von beiden erreichte. Schließlich verschwand er, sagte, er müsse die Abyss selbst angreifen, oder sogar sich selbst das Leben nehmen. In Wahrheit reiste er nach Kara-Tur, um seine wahre Liebe, die Kriegerin Tamoko, an dem Ort zu begraben, den sie einmal gewählt hatte. Er kehrte nie zurück, obwohl die Geschichten fortdauern.~
+ @1300 = ~Kommt, Gläubige! Empfangt meine schaurige Umarmung. Umarmt den Tod...~
+ // alternative: @1300 = ~Kommt, Gläubige. Fühlt meine eisige Umarmung. Umarmt den Tod...~
+-@1301  = ~The Murder of Acton Balthis.
++@1301  = ~Der Mörder von Acton Balthis.
+ 
+-Haer'Dalis has just been charged with murder of Lord Acton Balthis, a prominent member of Amn's society. We need to free him before he is executed. Talking to the Chief Inspector Brega would be a good first step.~
+-@1302  = ~The Murder of Acton Balthis.
++Haer'Dalis wurde des Mordes an Lord Acton Balthis bezichtigt, einem prominenten Mietglied der Gesellschaft von Amn. Wir müssen ihn befreien bevor er exekutiert wird. Es wäre ein erster guter Schritte mit Kommissar Brega zu sprechen.~
++@1302  = ~Der Mörder von Acton Balthis.
+ 
+-We visted Haer'Dalis in prison. He advised us to visit Lord Balthis' mansion in the Bridge District and talk to Chief Inspector Brega. In the meantime, the guards are preparing for the execution. We only have three days to prove Haer'Dalis not guilty.~
+-@1303  = ~The Murder of Acton Balthis.
++Wir haben Haer'Dalis im Gefängnis besucht. Er riet uns das Anwesen von Lord Balthis im Brückenbezirk zu inspizieren und mit Komissar Brega zu sprechen. Währenddessen bereiten die Wachen die Exekution vor. Wir haben nur drei Tage um Haer'Dalis Unschuld zu beweisen.~
++@1303  = ~Der Mörder von Acton Balthis.
+ 
+-Pip, a manservant in Lord Balthis' mansion, told us that Haer'Dalis was very interested in the bust of Sune from the mansion. An art collector from the Promenade, Quataris, may know more about this.~
+-@1304  = ~The Murder of Acton Balthis.
++Pip, ein Diener im Anwesen von Lord Balthis, teilte uns mit, daß Haer'Dalis sehr interessiert an der Büste von Sune im Anwesen war. Ein Kunstsammler von der Promenade, Quataris, könnte mehr darüber wissen.~
++@1304  = ~Der Mörder von Acton Balthis.
+ 
+-Chief Inspector Brega told us that Haer'Dalis was suspected in theft, as well. The bust of Sune was missing from Lord Balthis' mansion in the Bridge District. A local art collector from the Promenade, Quataris, may know more. Haer'Dalis will be executed in three days if we do not hurry!~
+-@1305  = ~The Murder of Acton Balthis.
++Kommissar Brega teilte uns mit, daß Haer'Dalis auch des Diebstahls verdächtigt wird. Die Büste von Sune aus dem Anwesen von Lord Balthis im Brückenbezirk wird vermisst. Ein hiesiger Kunstsammler von der Promenade, Quataris, könnte mehr darüber wissen. Haer'Dalis wird in drei Tagen hingerichtet, wenn wir uns nicht beeilen!~
++@1305  = ~Der Mörder von Acton Balthis.
+ 
+-Quataris confessed that he hired a thief to steal the bust of Sune from the mansion. Chief Inspector Brega will need his written confession.~
+-@1306 = ~The Murder of Acton Balthis.
++Quataris gestand, daß er einen Dieb angeheuert hat, um die Büste von Sune aus dem Anwesen stehlen zu lassen. Kommissar Brega braucht sein schriftliches Geständnis.~
++@1306 = ~Der Mörder von Acton Balthis.
+ 
+-I killed Quataris and found a bust of Sune on his corpse. Chief Inspector Brega needs to see this.~
+-@1307 = ~The Murder of Acton Balthis.
++Ich habe Quataris getötet und eine Büste von Sune bei seiner Leiche gefunden. Kommissar Brega muss sie zu sehen bekommen.~
++@1307 = ~Der Mörder von Acton Balthis.
+ 
+-Chief Inspector Brega signed a writ of innocence for Haer'Dalis. Now I can take him from the prison.~
+-@1308 = ~The Murder of Acton Balthis.
++Kommissar Brega gab mir ein Schreiben mit dem Freispruch für Haer'Dalis. Jetzt kann ich ihn aus dem Gefängnis holen.~
++@1308 = ~Der Mörder von Acton Balthis.
+ 
+-Haer'Dalis offered me an idea: to catch the real murderer by luring him to Lord Balthis' estate again. If rumors started by Haer'Dalis have reached his ears already, the thief should be there. Chief Inspector Brega will reward us well afterwards.~
+-@1309 = ~The Murder of Acton Balthis.
++Haer'Dalis hat mir einen Vorschlag unterbreitet: Den wahren Mörder fassen, indem wir ihn erneut zum Anwesen von Lord Balthis locken. Wenn die Gerüchte von Haer'Dalis ihn erreichen, wird der Dieb dort auftauchen. Kommissar Brega hat eine Belohnung ausgesetzt.~
++@1309 = ~Der Mörder von Acton Balthis.
+ 
+-We delivered the news of the real murderer's demise to Chief Inspector Brega, who was very pleased.~
+-@1310 = ~The Murder of Acton Balthis.
++Wir überbrachten Kommissar Brega die Nachricht vom Ableben des wahren Mörders. Er war sehr erfreut.~
++@1310 = ~Der Mörder von Acton Balthis.
+ 
+-Haer'Dalis has been executed.~
+-@1311 = ~This component is not available for BG2EE.~
+\ No newline at end of file
++Haer'Dalis wurde hingerichtet.~
++@1311 = ~Diese Komponente ist fuer BG2EE nicht verfuegbar.~
+\ No newline at end of file

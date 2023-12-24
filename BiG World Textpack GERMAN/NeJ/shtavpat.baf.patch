@@ -1,0 +1,91 @@
+--- NeJ\baf\shtavpat.baf	Fri Aug 20 16:55:08 2004
++++ C:\BWP Patchstudio\patched files\NeJ\baf\shtavpat.baf	Wed Apr 10 10:29:50 2019
+@@ -19,67 +19,67 @@
+ 	ActionListEmpty()
+ THEN
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Another round!"~)
++		DisplayStringHead(Myself,@0)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Some tough times ahead."~)
++		DisplayStringHead(Myself,@1)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Been training hard?"~)
++		DisplayStringHead(Myself,@2)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I can't.  I'm going to the shrine soon."~)
++		DisplayStringHead(Myself,@3)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I need to pick something up at Lehland's."~)
++		DisplayStringHead(Myself,@4)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I was out too late last night."~)
++		DisplayStringHead(Myself,@5)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"The defenses need to be prepared soon."~)
++		DisplayStringHead(Myself,@6)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"The last battle did not go well."~)
++		DisplayStringHead(Myself,@7)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"So I said to her..."~)
++		DisplayStringHead(Myself,@8)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"The dwarves still deny their betrayal."~)
++		DisplayStringHead(Myself,@9)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"So that's what happened."~)
++		DisplayStringHead(Myself,@10)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I have to go soon."~)
++		DisplayStringHead(Myself,@11)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"It's looking grim."~)
++		DisplayStringHead(Myself,@12)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Do you think Larrel's plan will work?"~)
++		DisplayStringHead(Myself,@13)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I haven't seen Evayne in some time."~)
++		DisplayStringHead(Myself,@14)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"The last of our supplies are secure."~)
++		DisplayStringHead(Myself,@15)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"The Hand must not fall."~)
++		DisplayStringHead(Myself,@16)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"I told him..."~)
++		DisplayStringHead(Myself,@17)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"That's funny."~)
++		DisplayStringHead(Myself,@18)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"This isn't good."~)
++		DisplayStringHead(Myself,@19)
+ 		Wait(3)
+ 	RESPONSE #75
+-		DisplayStringHead(Myself,~"Can I get another elven wine?"~)
++		DisplayStringHead(Myself,@20)
+ 		Wait(3)
+ 	RESPONSE #550
+ 		Wait(3)
